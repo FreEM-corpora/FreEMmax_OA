@@ -1,0 +1,439 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://gams.uni-graz.at/mws/schema/mws.xsd">
+  <teiHeader type="mws">
+    <fileDesc>
+      <titleStmt>
+        <title>I. Bagatelle</title>
+        <author>Justus Van Effen</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Moralische Wochenschriften</edition>
+        <respStmt>
+          <name>Michaela Fischer</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name> Klara Gruber</name>
+          <resp>Editor</resp>
+        </respStmt>
+        <respStmt>
+          <name> Katharina Jechsmayr<hi rend="smallcaps"></hi>
+          </name>
+          <resp>Editor</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Institut für Romanistik, Universität Graz</publisher>
+        <date when="2015-10-13">13.10.2015</date>
+        <idno type="PID">o:mws.3716</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Justus Van Effen: La Bagatelle ou Discours ironiques, ou l’on prête des
+                    Sophismes ingénieux au Vice &amp; à l’Extravagance, pour en faire mieux sentir
+                    le ridicule. Amsterdam: Herman Uytwerf 1742, 1-7, </bibl>
+        <bibl type="Einzelausgabe" xml:id="Ba">
+          <title level="j">La
+                        Bagatelle</title>
+          <biblScope type="vol">1</biblScope>
+          <biblScope type="issue">002</biblScope>
+          <date>1742</date>
+          <placeName key="#GID.1">Frankreich</placeName>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <ab type="interpGrp">
+            <interpGrp type="Narrative_Darstellungsebenen">
+              <interp xml:id="E1">Ebene 1</interp>
+              <interp xml:id="E2">Ebene 2</interp>
+              <interp xml:id="E3">Ebene 3</interp>
+              <interp xml:id="E4">Ebene 4</interp>
+              <interp xml:id="E5">Ebene 5</interp>
+              <interp xml:id="E6">Ebene 6</interp>
+            </interpGrp>
+            <interpGrp type="Narrative_Darstellungsformen">
+              <interp xml:id="AE">Allgemeine Erzählung</interp>
+              <interp xml:id="SP">Selbstportrait</interp>
+              <interp xml:id="FP">Fremdportrait</interp>
+              <interp xml:id="D">Dialog</interp>
+              <interp xml:id="AL">Allegorisches Erzählen</interp>
+              <interp xml:id="TR">Traumerzählung</interp>
+              <interp xml:id="F">Fabelerzählung</interp>
+              <interp xml:id="S">Satirisches Erzählen</interp>
+              <interp xml:id="EX">Exemplarisches Erzählen</interp>
+              <interp xml:id="UT">Utopische Erzählung</interp>
+              <interp xml:id="MT">Metatextualität</interp>
+              <interp xml:id="ZM">Zitat/Motto</interp>
+              <interp xml:id="LB">Leserbrief</interp>
+            </interpGrp>
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <name type="place">Graz, Austria</name>
+      </creation>
+      <langUsage>
+        <language ident="fr">French</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://gams.uni-graz.at/mws">
+          <term>
+            <term xml:lang="de">Menschenbild</term>
+            <term xml:lang="it">Immagine
+                            dell&apos;Umanità</term>
+            <term xml:lang="en">Idea of Man</term>
+            <term xml:lang="es">Imagen de los Hombres</term>
+            <term xml:lang="fr">Image de
+                            l’humanité</term>
+          </term>
+          <term>
+            <term xml:lang="de">Autopoetische Reflexion</term>
+            <term xml:lang="it">Riflessione Autopoetica</term>
+            <term xml:lang="en">Autopoetical
+                            Reflection</term>
+            <term xml:lang="es">Reflexión Autopoética</term>
+            <term xml:lang="fr">Réflexion autopoétique</term>
+          </term>         
+ <term>
+            <term xml:lang="de">Moral</term>
+            <term xml:lang="it">Morale</term>
+            <term xml:lang="en">Morale</term>
+            <term xml:lang="es">Moral</term>
+            <term xml:lang="fr">Morale</term>
+          </term>
+        </keywords>
+      </textClass>
+      <textClass>
+        <keywords scheme="cirilo:normalizedPlaceNames">
+          <list>
+            <item>
+              <placeName xml:id="GID.1">
+                <name ref="http://geonames.org/3017382" type="fcode:PCLI">France</name>
+                <location>
+                  <geo>2.0,46.0</geo>
+                </location>
+              </placeName>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text ana="layout">
+        <body xml:space="preserve">
+                    <p rend="EU"><milestone unit="E1" xml:id="FR.1"></milestone></p>
+                    <div1>
+                        <head>I<hi rend="smallcaps">. </hi>Bagatelle.</head>
+                        <p rend="date"><hi rend="italic">Du Jeudi 5. Mai 1718.</hi></p>
+                        <p rend="BA"><hi rend="smallcaps"><milestone unit="E2" xml:id="FR.2"></milestone>
+                                Messieurs</hi>
+                            <hi rend="italic">mes futurs Lecteurs,</hi></p>
+                        <p>Depuis trois ou quatre ans, le Public a perdu un certain Amusement assez
+                            drolle, qu’on lui procuroit toutes les semaines à de certains jours
+                            réglés, <name corresp="#" key="Le Misantrope" type="work" xml:id="WT.1">Le Misantrope</name> a commencé le branle, <name corresp="#" key="le Censeur" type="work" xml:id="WT.2">le Censeur</name> a suivi ;
+                            &amp; à la sin nous avons eu <name corresp="#" key="l’Inquisiteur" type="work" xml:id="WT.3">l’Inquisiteur</name>, Piéce dont, malgré son
+                            rare mérite, on oublierait bientôt le nom, si je n’avois soin d’en
+                            conserver ici la mémoire.</p>
+                        <p>Le prémier ne fut pas goûté d’abord ; on ne voulut pas le trouver bon,
+                            parce qu’on étoit sur sûr qu’il ne se soutiendroit pas ; &amp; il ne se
+                            mit en vogue, que parce qu’il fut approuvé par trois ou quatre
+                            Beaux-Esprits, qui <pb n="2"></pb> étoient peut-être gagnés par l’Auteur
+                            pour faire valoir l’Ouvrage.</p>
+                        <p>Voilà le goût du Public bridé. Mille Grimauds, qui n’y entendoient non
+                            plus qu’à l’<name corresp="#" key="Koran" type="work" xml:id="WT.4">Alcoran</name>, disoient avec un clin d’œuil mistérieux, &amp; avec
+                            une moue gravement impertinente, que cela étoit bien bon. Mais voilà
+                            toute la récompense que l’Auteur &amp; le Libraire ont eu de leurs
+                            peines ; peu de gens l’achetoient, parce qu’ils bâilloient en le
+                            trouvant beau. Faut-il s’en étonner ? Après quelques Piéces badines qui
+                            avoient mis les gens en goût, on voyoit paroître trois ou quatre
+                            Dissertations, où l’on raisonnoit conséquemment, &amp; où l’on prouvoit
+                            en forme aux Lecteurs qu’ils étoient des Sots. Voilà un beau compliment
+                            en vérité, &amp; qui vaut bien la peine qu’on en paye la façon ?</p>
+                        <p><persName corresp="#" key="Le Misantrope" subtype="F" xml:id="PN.1">Mr.
+                                le Misantrope</persName> croyoit qu’il pouvoit impunément se donner
+                            les airs des Comédiens &amp; des Auteurs Comiques, qui vivent du revenu
+                            de leurs Satires, &amp; qui turlupinent le Parterre à quinze sols par
+                            tête. Quelles Satires encore que celles de ce Gazetier des Mœurs,
+                            retenues, modérées, sages, assez générales, peu susceptibles
+                            d’applications, quelques traits par-ci par-là tracés d’après nature,
+                            mais confondus dans des circonstances qui dépaysoient un Lecteur, &amp;
+                            qui 1’éloignoient du fait. On voyoit ce pauvre homme ne faire pas un
+                            pas, sans avoir tâté auparavant si le terrein étoit ferme. Sa plume
+                            étoit une plume timorée ; il se faisoit des objections, des réponses ;
+                            raisonnoit sur la nature de la Satire &amp; sur les limites ; en <pb n="3"></pb> un mot, il étoit assez ridicule pour vouloir allier la
+                            Satire avec la Probité, qui ne se connoissent pas seulement de
+                            réputation.</p>
+                        <p>Voulez-vous divertir les Hommes aux dépens de leur Prochain ? de la
+                            vigueur, morbleu ! point de fade ménagement : mordez, déchirez, emportez
+                            la piéce : taisez-vous, ou faites les choses comme il faut. Cela sent le
+                            bâton, il est vrai ; mais cela ouvre les bourses, &amp; voilà ce qu’il
+                            nous faut à nous autres Beaux-Esprits. Cependant le <persName corresp="#" key="Misantrope" subtype="F" xml:id="PN.2">Misantrope</persName> négligea toujours un principe si essentiel,
+                            &amp; voyant que son Ouvrage ne lui donnoit qu’un peu de réputation, il
+                            jetta sa plume de dépit, &amp; prit congé du Public de la maniére du
+                            monde la plus brutale.</p>
+                        <p>Entr’autres impertinences ou l’on voit éclater sa mauvaise humeur contre
+                            le Public, il promet de nous donner un Ouvage &lt;sic&gt; intitulé <name corresp="#" key="La Bagatelle" type="work" xml:id="WT.5">La
+                                Bagatelle</name>. Il ne l’a jamais fait, &amp; l’on voit bien par-là
+                            qu’il veut seulement nous reprocher notre mauvais goût, qui au fond ne
+                            consiste que dans un juste mépris de la Raison &amp; du Sérieux.</p>
+                        <p>Ce Titre est pourtant meilleur qu’il ne pense, &amp; mille fois meilleur
+                            que celui qu’il avoit choisi pour ses Fragmens de Morale. Celui-là est
+                            si borné, qu’il y a mille choses dans son Ouvrage qui n’y répondent pas,
+                            &amp; qui ne valent rien, quand elles seroient excellentes ; puisqu’il
+                            est certain, selon une des prémiéres Régles de l’Eloquence, <hi rend="italic">qu’une Pensée pour être bonne doit être dans son
+                                lieu</hi>. N’ayez pas peur que je tombe dans le même inconvénient.
+                            Rien de plus étendu que <pb n="4"></pb>
+                            <name corresp="#" key="La Bagatelle" type="work" xml:id="WT.6">la
+                                Bagatelle</name>, c’est la matiére subtile de la Morale ; elle entre
+                            par-tout, elle anime tout ; &amp; je défie le plus habile homme du
+                            monde, de me nommer un seul sujet, une seule matiére sur laquelle <name corresp="#" key="La Bagatelle" type="work" xml:id="WT.7">la
+                                Bagatelle</name> ne répande pas ses bénignes influencés.</p>
+                        <p>J’ose me flatter que ce petit Ecrit en aura sa bonne part, &amp; que la
+                            divine <name corresp="#" key="La Bagatelle" type="work" xml:id="WT.8">Bagatelle</name> y sera traitée d’un stile conforme au mérite du
+                            sujet. Point de raisonnement suivi, point de profondeur dans les
+                            recherches, point d’opinions particuliéres, point d’arrangement dans les
+                            matiéres, point d’exactitude scrupuleuse dans l’expression ; de l’esprit
+                            partout, &amp; de la légéreté dans le stile, voilà mon affaire &amp;
+                            celle du Public. Ne seroit-ce pas à moi une vanité insupportable, de
+                            vouloir encore instruire les hommes ? ne savent-ils pas tout ce qu’il
+                            faut savoir, ou du moins tout ce dont ils se soucient d’être
+                            instruits ?</p>
+                        <p>Dans le Siécle éclairé où nous sommes, il ne s’agit pas de faire le
+                            Docteur, il s’agit d’amuser. Le monde même, comme dit fort joliment le
+                            Pére <persName corresp="#" key="Cerceau, Jean Antoine du" subtype="H" xml:id="PN.3">du Cerceau</persName>, <hi rend="italic">le monde ne
+                                nous plaît, que parce qu’il nous amuse</hi>. Ma petite Feuille
+                            volante peut-elle suivre un meilleur modéle ?</p>
+                        <p>J’y réussirai â coup sûr. Cet esprit que je vous ai promis si
+                            libéralement, sans pourtant choquer ma modestie, ne sera pas de cet
+                            esprit qui tire sa source de la Nature &amp; de la Raison, de cet esprit
+                            qui dit quelque chose, &amp; qui le dit dans les termes les plus
+                            convenables. Point du tout ; ce sera de cet esprit qui n’est pas fort
+                            rare, &amp; dont mille person-<pb n="5"></pb>nes ont une forte doze. Il ne
+                            consistera <hi rend="italic">qu’en petites cabrioles de l’imagination
+                                sur la superficie des Matiéres</hi> ; dans des phrases bisarres par
+                            le choix des mots &amp; par leur arrangement ; &amp; dans l’affectation
+                            de certains termes <hi rend="italic">François</hi>, mais peu usités,
+                            &amp; qui, quoiqu’ils ne disent rien, paroissent pourtant si propres
+                            &amp; si bien appliqués, qu’on les croiroit faits pour exprimer, d’une
+                            maniére concise &amp; forte, la pénsée d’un Auteur : tel est le terme de
+                            délicat, un <hi rend="italic">choix délicat</hi>, une <hi rend="italic">harmonie délicate</hi>, un <hi rend="italic">ménagement
+                                délicat</hi>. Il n’y a rien au monde qui sente plus l’esprit que ces
+                            sortes d’expressions, &amp; qui contribue plus à dire des riens d’une
+                            maniére très significative.</p>
+                        <p>L’épithéte de <hi rend="italic">délicieux</hi> est encore d’une grande
+                            force, quand on s’en sert judicieusement, pour exciter des idées vagues
+                            dans l’esprit ; on entend mille choses là-dessous. Je le prouverai, si
+                            l’on veut, par une autorité très respectable ; c’est <persName corresp="#" key="La Rochefoucauld, François de" subtype="H" xml:id="PN.4">Mr. de la Rochefoucault</persName>. <hi rend="italic">Il
+                                y a de bons mariages</hi>, dit-il, <hi rend="italic">mais il n’y en
+                                a point de délicieux</hi>. Un Lecteur qui a le goût du Siécle, &amp;
+                            le tour d’esprit qui est à la mode, voit en lisant cette Maxime, les
+                            idées du mariage, du bonheur &amp; du plaisir, arrangées dans une
+                            simétrie brillante, &amp; relevées d’un petit air de paradoxe &amp; de
+                            contradiction ; il trouve cela tout-à fait joli, &amp; il le relit
+                            quatre ou cinq fois, pour le retenir &amp; le débiter dans l’occasion.
+                            Mais où en seroit-il, si avant que de trouver cette Maxime belle, il
+                            s’étoit demandé ce qu’elle veut dire ; s’il avoit tâché de bien examiner
+                            la nature du bonheur &amp; du plaisir en fait de <pb n="6"></pb> mariage,
+                            &amp; si après avoir bien débrouillé ces idées, il s’étoit efforcé à
+                            comprendre la différence précise entre un Mariage <hi rend="italic">heureux</hi> &amp; un Mariage <hi rend="italic">délicieux</hi>. Où
+                            en seroit-il encore une fois ? Il se seroit donné beaucoup de peine pour
+                            se priver du plaisir d’admirer une belle Pensée exprimée avec
+                            délicatesse, &amp; propre à le faire briller dans les compagnies. Ne
+                            voilà-t-il pas un Lecteur bien payé de son travail ? Je dirai ici en
+                            passant, ce que j’entens par <hi rend="italic">délicatesse</hi> dans les
+                            pensées, &amp; ce que tous les gens de bon goût doivent entendre
+                            par-là.</p>
+                        <p><hi rend="italic"><milestone unit="ZM" xml:id="FR.3"></milestone> La Délicatesse est
+                                une légére nuance de Galimatias, répandue habilement sur une Pensée
+                                claire d’elle-même, &amp; que tout le monde entendroit d’abord sans
+                                cet effort d’une imagination heureuse. <milestone rend="closer" unit="ZM"></milestone></hi></p>
+                        <p>Le propre de la <hi rend="italic">Délicatesse</hi>, comme chacun fait,
+                            c’est de faire penser. Mais comment fait-elle penser ? je m’en vai vous
+                            le dire. Dès-qu’on lit ou qu’on entend, dire quelque chose de <hi rend="italic">délicat</hi>, on croit l’entendre à peu près ; on y
+                            rêve un peu, la matiére s’embrouille ; on fait un plus grand effort
+                            d’attention, elle s’obscurcit davantage ; &amp; de degré d’attention ;
+                            en degré, on parvient à n’y entendre rien du tout, ou bien à y trouver
+                            quatre ou cinq sens différens, qu’on peut tirer des expressions avec la
+                            même probabilité. Je sai bien que des Beaux-Esprits qui ont réfléchi sur
+                            la maniére de penser, donnent une autre idée de la <hi rend="italic">Délicatesse</hi>. Ils prétendent que ce n’est qu’une agréable
+                            obscurité, un tour d’énigme qu’on ménage à une pensée qui vaut la peine
+                                <pb n="7"></pb> qu’on y rêve un peu ; mais que cet énigme ne doit pas
+                            être trop difficile à deviner, &amp; que le mot en doit être unique.</p>
+                        <p>Croyez-moi, ces Messieurs-là se moquent de vous : donnez-vous la peine
+                            d’examiner les pensées <hi rend="italic">délicates</hi> qu’ils alléguent
+                            la plupart pour exemples, &amp; vous verrez qu’elles sont bien moins
+                            conformes à leur définition qu’à la mienne. Je trouverai bien ici
+                            l’occasion de faire voir que la <hi rend="italic">Délicatesse</hi>,
+                            telle que je l’ai dépeinte, fait un effet merveilleux dans un Sermon,
+                            &amp; que c’est en cela que consiste le stile fin de la Chaire.
+                                <milestone rend="closer" unit="E2"></milestone>
+                            <milestone rend="closer" unit="E1"></milestone></p>
+                        <p></p>
+                    </div1>
+                </body>
+      </text>
+      <text ana="framings">
+        <body xml:space="preserve">
+                    <div>
+                        <ab>
+                            <seg synch="#FR.1" type="E1">
+                                <seg type="U1">I. Bagatelle.</seg> Du Jeudi 5. Mai 1718. <seg synch="#FR.2" type="E2"> Messieurs mes futurs Lecteurs, Depuis
+                                    trois ou quatre ans, le Public a perdu un certain Amusement
+                                    assez drolle, qu’on lui procuroit toutes les semaines à de
+                                    certains jours réglés, Le Misantrope a commencé le branle, le
+                                    Censeur a suivi ; &amp; à la sin nous avons eu l’Inquisiteur,
+                                    Piéce dont, malgré son rare mérite, on oublierait bientôt le
+                                    nom, si je n’avois soin d’en conserver ici la mémoire. Le
+                                    prémier ne fut pas goûté d’abord ; on ne voulut pas le trouver
+                                    bon, parce qu’on étoit sur sûr qu’il ne se soutiendroit pas ;
+                                    &amp; il ne se mit en vogue, que parce qu’il fut approuvé par
+                                    trois ou quatre Beaux-Esprits, qui <pb n="2"></pb>étoient peut-être
+                                    gagnés par l’Auteur pour faire valoir l’Ouvrage. Voilà le goût
+                                    du Public bridé. Mille Grimauds, qui n’y entendoient non plus
+                                    qu’à l’Alcoran, disoient avec un clin d’œuil mistérieux, &amp;
+                                    avec une moue gravement impertinente, que cela étoit bien bon.
+                                    Mais voilà toute la récompense que l’Auteur &amp; le Libraire
+                                    ont eu de leurs peines ; peu de gens l’achetoient, parce qu’ils
+                                    bâilloient en le trouvant beau. Faut-il s’en étonner ? Après
+                                    quelques Piéces badines qui avoient mis les gens en goût, on
+                                    voyoit paroître trois ou quatre Dissertations, où l’on
+                                    raisonnoit conséquemment, &amp; où l’on prouvoit en forme aux
+                                    Lecteurs qu’ils étoient des Sots. Voilà un beau compliment en
+                                    vérité, &amp; qui vaut bien la peine qu’on en paye la façon ?
+                                    Mr. le Misantrope croyoit qu’il pouvoit impunément se donner les
+                                    airs des Comédiens &amp; des Auteurs Comiques, qui vivent du
+                                    revenu de leurs Satires, &amp; qui turlupinent le Parterre à
+                                    quinze sols par tête. Quelles Satires encore que celles de ce
+                                    Gazetier des Mœurs, retenues, modérées, sages, assez générales,
+                                    peu susceptibles d’applications, quelques traits par-ci par-là
+                                    tracés d’après nature, mais confondus dans des circonstances qui
+                                    dépaysoient un Lecteur, &amp; qui 1’éloignoient du fait. On
+                                    voyoit ce pauvre homme ne faire pas un pas, sans avoir tâté
+                                    auparavant si le terrein étoit ferme. Sa plume étoit une plume
+                                    timorée ; il se faisoit des objections, des réponses ;
+                                    raisonnoit sur la nature de la Satire &amp; sur les limites ; en
+                                        <pb n="3"></pb>un mot, il étoit assez ridicule pour vouloir
+                                    allier la Satire avec la Probité, qui ne se connoissent pas
+                                    seulement de réputation. Voulez-vous divertir les Hommes aux
+                                    dépens de leur Prochain ? de la vigueur, morbleu ! point de fade
+                                    ménagement : mordez, déchirez, emportez la piéce : taisez-vous,
+                                    ou faites les choses comme il faut. Cela sent le bâton, il est
+                                    vrai ; mais cela ouvre les bourses, &amp; voilà ce qu’il nous
+                                    faut à nous autres Beaux-Esprits. Cependant le Misantrope
+                                    négligea toujours un principe si essentiel, &amp; voyant que son
+                                    Ouvrage ne lui donnoit qu’un peu de réputation, il jetta sa
+                                    plume de dépit, &amp; prit congé du Public de la maniére du
+                                    monde la plus brutale. Entr’autres impertinences ou l’on voit
+                                    éclater sa mauvaise humeur contre le Public, il promet de nous
+                                    donner un Ouvage &lt;sic&gt; intitulé La Bagatelle. Il ne l’a
+                                    jamais fait, &amp; l’on voit bien par-là qu’il veut seulement
+                                    nous reprocher notre mauvais goût, qui au fond ne consiste que
+                                    dans un juste mépris de la Raison &amp; du Sérieux. Ce Titre est
+                                    pourtant meilleur qu’il ne pense, &amp; mille fois meilleur que
+                                    celui qu’il avoit choisi pour ses Fragmens de Morale. Celui-là
+                                    est si borné, qu’il y a mille choses dans son Ouvrage qui n’y
+                                    répondent pas, &amp; qui ne valent rien, quand elles seroient
+                                    excellentes ; puisqu’il est certain, selon une des prémiéres
+                                    Régles de l’Eloquence, qu’une Pensée pour être bonne doit être
+                                    dans son lieu. N’ayez pas peur que je tombe dans le même
+                                    inconvénient. Rien de plus étendu que <pb n="4"></pb>la Bagatelle,
+                                    c’est la matiére subtile de la Morale ; elle entre par-tout,
+                                    elle anime tout ; &amp; je défie le plus habile homme du monde,
+                                    de me nommer un seul sujet, une seule matiére sur laquelle la
+                                    Bagatelle ne répande pas ses bénignes influencés. J’ose me
+                                    flatter que ce petit Ecrit en aura sa bonne part, &amp; que la
+                                    divine Bagatelle y sera traitée d’un stile conforme au mérite du
+                                    sujet. Point de raisonnement suivi, point de profondeur dans les
+                                    recherches, point d’opinions particuliéres, point d’arrangement
+                                    dans les matiéres, point d’exactitude scrupuleuse dans
+                                    l’expression ; de l’esprit partout, &amp; de la légéreté dans le
+                                    stile, voilà mon affaire &amp; celle du Public. Ne seroit-ce pas
+                                    à moi une vanité insupportable, de vouloir encore instruire les
+                                    hommes ? ne savent-ils pas tout ce qu’il faut savoir, ou du
+                                    moins tout ce dont ils se soucient d’être instruits ? Dans le
+                                    Siécle éclairé où nous sommes, il ne s’agit pas de faire le
+                                    Docteur, il s’agit d’amuser. Le monde même, comme dit fort
+                                    joliment le Pére du Cerceau, le monde ne nous plaît, que parce
+                                    qu’il nous amuse. Ma petite Feuille volante peut-elle suivre un
+                                    meilleur modéle ? J’y réussirai â coup sûr. Cet esprit que je
+                                    vous ai promis si libéralement, sans pourtant choquer ma
+                                    modestie, ne sera pas de cet esprit qui tire sa source de la
+                                    Nature &amp; de la Raison, de cet esprit qui dit quelque chose,
+                                    &amp; qui le dit dans les termes les plus convenables. Point du
+                                    tout ; ce sera de cet esprit qui n’est pas fort rare, &amp; dont
+                                    mille person-<pb n="5"></pb>nes ont une forte doze. Il ne consistera
+                                    qu’en petites cabrioles de l’imagination sur la superficie des
+                                    Matiéres ; dans des phrases bisarres par le choix des mots &amp;
+                                    par leur arrangement ; &amp; dans l’affectation de certains
+                                    termes François, mais peu usités, &amp; qui, quoiqu’ils ne
+                                    disent rien, paroissent pourtant si propres &amp; si bien
+                                    appliqués, qu’on les croiroit faits pour exprimer, d’une maniére
+                                    concise &amp; forte, la pénsée d’un Auteur : tel est le terme de
+                                    délicat, un choix délicat, une harmonie délicate, un ménagement
+                                    délicat. Il n’y a rien au monde qui sente plus l’esprit que ces
+                                    sortes d’expressions, &amp; qui contribue plus à dire des riens
+                                    d’une maniére très significative. L’épithéte de délicieux est
+                                    encore d’une grande force, quand on s’en sert judicieusement,
+                                    pour exciter des idées vagues dans l’esprit ; on entend mille
+                                    choses là-dessous. Je le prouverai, si l’on veut, par une
+                                    autorité très respectable ; c’est Mr. de la Rochefoucault. Il y
+                                    a de bons mariages, dit-il, mais il n’y en a point de délicieux.
+                                    Un Lecteur qui a le goût du Siécle, &amp; le tour d’esprit qui
+                                    est à la mode, voit en lisant cette Maxime, les idées du
+                                    mariage, du bonheur &amp; du plaisir, arrangées dans une
+                                    simétrie brillante, &amp; relevées d’un petit air de paradoxe
+                                    &amp; de contradiction ; il trouve cela tout-à fait joli, &amp;
+                                    il le relit quatre ou cinq fois, pour le retenir &amp; le
+                                    débiter dans l’occasion. Mais où en seroit-il, si avant que de
+                                    trouver cette Maxime belle, il s’étoit demandé ce qu’elle veut
+                                    dire ; s’il avoit tâché de bien examiner la nature du bonheur
+                                    &amp; du plaisir en fait de <pb n="6"></pb>mariage, &amp; si après
+                                    avoir bien débrouillé ces idées, il s’étoit efforcé à comprendre
+                                    la différence précise entre un Mariage heureux &amp; un Mariage
+                                    délicieux. Où en seroit-il encore une fois ? Il se seroit donné
+                                    beaucoup de peine pour se priver du plaisir d’admirer une belle
+                                    Pensée exprimée avec délicatesse, &amp; propre à le faire
+                                    briller dans les compagnies. Ne voilà-t-il pas un Lecteur bien
+                                    payé de son travail ? Je dirai ici en passant, ce que j’entens              
+                      par délicatesse dans les pensées, &amp; ce que tous les gens de
+                                    bon goût doivent entendre par-là. <seg synch="#FR.3" type="ZM">
+                                        La Délicatesse est une légére nuance de Galimatias, répandue
+                                        habilement sur une Pensée claire d’elle-même, &amp; que tout
+                                        le monde entendroit d’abord sans cet effort d’une
+                                        imagination heureuse. </seg> Le propre de la Délicatesse,
+                                    comme chacun fait, c’est de faire penser. Mais comment fait-elle
+                                    penser ? je m’en vai vous le dire. Dès-qu’on lit ou qu’on
+                                    entend, dire quelque chose de délicat, on croit l’entendre à peu
+                                    près ; on y rêve un peu, la matiére s’embrouille ; on fait un
+                                    plus grand effort d’attention, elle s’obscurcit davantage ;
+                                    &amp; de degré d’attention ; en degré, on parvient à n’y
+                                    entendre rien du tout, ou bien à y trouver quatre ou cinq sens
+                                    différens, qu’on peut tirer des expressions avec la même
+                                    probabilité. Je sai bien que des Beaux-Esprits qui ont réfléchi
+                                    sur la maniére de penser, donnent une autre idée de la
+                                    Délicatesse. Ils prétendent que ce n’est qu’une agréable
+                                    obscurité, un tour d’énigme qu’on ménage à une pensée qui vaut
+                                    la peine <pb n="7"></pb>qu’on y rêve un peu ; mais que cet énigme ne
+                                    doit pas être trop difficile à deviner, &amp; que le mot en doit
+                                    être unique. Croyez-moi, ces Messieurs-là se moquent de vous :
+                                    donnez-vous la peine d’examiner les pensées délicates qu’ils
+                                    alléguent la plupart pour exemples, &amp; vous verrez qu’elles
+                                    sont bien moins conformes à leur définition qu’à la mienne. Je
+                                    trouverai bien ici l’occasion de faire voir que la Délicatesse,
+                                    telle que je l’ai dépeinte, fait un effet merveilleux dans un
+                                    Sermon, &amp; que c’est en cela que consiste le stile fin de la
+                                    Chaire. </seg>
+                            </seg>
+                        </ab>
+                    </div>
+                </body>
+      </text>
+    </group>
+  </text>
+</TEI>

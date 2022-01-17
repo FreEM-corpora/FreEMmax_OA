@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1688-01">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mercure galant, janvier 1688 [tome 1].</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL/IReMuS</edition>
+        <respStmt>
+          <name>Nathalie Berton-Blivet</name>
+          <resp>Responsable éditorial</resp>
+        </respStmt>
+        <respStmt>
+          <name>Anne Piéjus</name>
+          <resp>Responsable éditorial</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+        <respStmt>
+          <name>Vincent Jolivet</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1688-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Mercure galant</title>, <date>janvier 1688</date> [tome 1].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1688-01"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Mercure galant</hi>, janvier 1688 [tome 1].</head>
+        <div type="article" xml:id="MG-1688-01_000" resp="wordpro">
+          <head>Avis</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. I-IV</bibl>
+          <label>AVIS</label>
+          <p><hi rend="i">Quelques prieres qu’on ait faites jusqu’à present de bien écrire les noms de Famille employez dans les Memoires qu’on envoye pour le Mercure, on ne laisse pas d’y manquer toûjours. Cela est cause qu’il y a de temps en temps quelques-uns de ces Memoires dont on ne se peut servir. On reïtere la mesme priere de bien écrire ces noms, en sorte qu’on ne s’y puisse tromper. On ne prend aucun argent pour les Memoires, &amp; l’on employera tous les bons Ouvrages à leur tour, pourveu qu’ils ne desobligent personne, &amp; qu’il n’y ait rien de licentieux. On prie seulement ceux qui les envoyent &amp; sur tout ceux qui n’écrivent que pour faire employer leurs noms dans l’article des Enigmes, d’affranchir leurs Lettres de port, s’ils veulent qu’on fasse ce qu’ils demandent. C’est fort peu de chose pour chaque particulier, &amp; le tout ensemble est beaucoup pour un Libraire.</hi></p>
+          <p><hi rend="i">Le sieur Guerout qui debite presentement le Mercure, a rétably les choses de maniere qu’il est toûjours imprimé au commencement de chaque mois. Il avertit qu’à l’égard des Envois qui se font à la Campagne, il fera partir les paquets de ceux qui le chargeront de les envoyer avant que l’on commence à vendre icy le Mercure. Comme ces paquets seront plusieurs jours en chemin, Paris ne laissera pas d’avoir le Mercure long-temps avant qu’il soit arrivé dans les Villes éloignées, mais aussi les Villes ne le recevront pas si tard qu’elles faisoient auparavant. Ceux qui se le font envoyer par leurs Amis sans en charger ledit Guerout, s’exposent à le recevoir toûjours fort tard par deux raisons. La premiere, parce que ces Amis n’ont pas soin de le venir prendre si-tost qu’il est imprimé, outre qu’il le sera toûjours quelques jours avant qu’on en fasse le debit ; &amp; l’autre, que ne l’envoyant qu’aprés qu’ils l’ont leu, eux &amp; quelques autres à qui ils le prestent, ils rejettent la faute du retardement sur le Libraire, en disant que la vente n’en a commencé que fort avant dans le mois. On évitera ce retardement par la voye dudit sieur Guerot, puis qu’il se charge de faire les paquets luy-mesme, &amp; de les faire porter à la poste ou aux Messagers sans nul interest, tant pour les Particuliers que pour les Libraires de Province, qui luy auront donné leur adresse. Il fera la mesme chose generalement de tous les Livres nouveaux qu’on luy demandera, soit qu’il les debite, ou qu’ils appartiennent à d’autres Libraires, sans en prendre pour cela davantage que le prix fixé par les Libraires qui les vendront. Quand il se rencontrera qu’on demandera ces Livres à la fin du mois, il les joindra au Mercure, afin de n’en faire qu’un mesme paquet. Tout cela sera executé avec une exactitude dont on aura tout lieu d’estre content.</hi></p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_007" resp="wordpro">
+          <head>[Prélude]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 7-10</bibl>
+          <p>Si les Sujets d’un Prince qui fait les delices de son Peuple, &amp; l’admiration de toute la Terre, doivent chercher à l’envy à mettre sa gloire dans son plus beau jour, &amp; principalement lors qu’il a porté celle de l’Estat jusques au plus haut degré d’élevation où elle puisse monter, quelle joye ne dois-je pas ressentir d’avoir parlé des grandes &amp; incomparables actions de l’auguste Souverain qui nous gouverne, au commencement de prés de deux cens de mes Lettres, qui ont passé jusqu’au fond des Indes, &amp; qui y sont en quelque consideration, parce qu’elles y apprennent les merveilles d’un Prince, que quelques Monarques Indiens commencent déja à imiter. On voit dans la Relation du Voyage de Siam, écrite par M<hi rend="sup">r</hi> l’Abbé de Choisy, qu’ayant demandé des Livres à <hi rend="i">Batavia</hi>, on luy offrit d’abord le Mercure, comme le plus curieux qu’on eust en ce pays là. Il y avoit long-temps que les Missionnaires établis dans ce Royaume l’y faisoient venir. Ils en traduisoient en Siamois, tous les endroits qui parloient de ce que Sa Majesté fait de grand, &amp; de ses Conquestes, pour les faire lire au Roy de Siam. Je n’avance rien que je n’aye par écrit. Jugez par là, Madame, combien vous devez estre contente de m’avoir engagé depuis tant d’années à vous écrire tous les mois ce qui se passe de plus curieux dans le monde, puis que vous avez contribué en quelque façon à faire publier la gloire du Roy.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_024" resp="wordpro">
+          <head>Alla Maesta Chrisianissima di Ludovico XIV. Il Grande, invittissimo Rè delle Francie. Sonetto</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 24-27</bibl>
+          <p>Ce ne sont pas seulement les François qui ont des sentimens si zelez pour sa grandeur, les Etrangers les partagent avec nous, &amp; vous l’allez voir dans ce Sonnet Italien du Pere Emanuël à Martina, Capucin du Royaume de Naples. Il vit la Statuë du Roy en passant par la Place des Victoires, &amp; cela luy donna lieu de faire les Vers que je vous envoye. Vous aurez le soin de les expliquer à vos Amies.</p>
+          <quote>
+            <label>ALLA MAESTA<lb/>CHRISTIANISSIMA<lb/>DI LUDOVICO XIV.<lb/>Il Grande, invittissimo<lb/>Rè delle Francie.<lb/><hi rend="i">SONETTO.</hi></label>
+            <lg>
+              <l rend="i">Muse del Ciel, da cui Sourant ardori,</l>
+              <l rend="i">Prendono il moto, e l’Armonie le sfere,</l>
+              <l rend="i">Volate : e per ornar le Reggie vere,</l>
+              <l rend="i">Da Permessi immortal cogliere i Fiori.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i">Là Regna il gran Luigi, i cui splendori</l>
+              <l rend="i">Danno à Barbara luna ombre piû nr</l>
+              <l rend="i">Ond’è raggion, che dall’ empire e schiere</l>
+              <l rend="i">Habbia serto di sielle, e non d’Allori.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i">Quinci de gl’ Avi onde rinova il zelo</l>
+              <l rend="i">Hà d’Armi illustri sue il sen fecondo</l>
+              <l rend="i">Accio l’Arabo adusto empia di zelo.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i">E se resse Fanciul de Scettri i Pondo</l>
+              <l rend="i">Aggiunga Mondi à questo Mondo il Cielo</l>
+              <l rend="i">Ch’è picciol Campo al gran Luigi un Mondo.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-01_038" resp="mercure">
+          <head>[Feste de Sainte Cecile celebrée pour la premiere fois à Versailles par les Musiciens du Roy]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 38-40</bibl>
+          <p>Comme tout ce qui regarde la pieté en est bien receu, &amp; qu'on n'en sçauroit donner de marques qui ne plaisent à ce Prince, les Musiciens de Sa Majesté, qui n'avoient jamais solemnisé la Feste de Sainte Cecile, ont commencé cette année à la celebrer. La solemnité s'est faite dans l'Eglise Paroissiale de Versailles. Elle estoit magnifiquement parée, &amp; toute brillante de lumieres. Tout ce qu'on y chanta depuis les premieres jusques aux secondes Vespres, estoit de la composition de M<hi rend="sup">r</hi> de la Lande, l'un des quatre Maistres de Musique de la Chapelle du Roy, &amp; receut de grands applaudissemens. M<hi rend="sup">r</hi> l'Abbé de Maurpas y fit le Panegyrique de Sainte Cecile avec beaucoup de succés, &amp; tous ceux qui l'entendirent, rendirent justice à son éloquence. Le Roy ayant sceu la resolution que M<hi rend="sup">r</hi> de la Lande, &amp; la pluspart des Musiciens de sa Chapelle, avoient prise de celebrer cette Feste, ordonna qu'aucun d'entre eux ne manquast de s'y trouver. Cette Ceremonie se doit faire tous les ans à pareil jour.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_040" resp="wordpro">
+          <head>[Prix proposez par Mrs de l’Academie d’Angers]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 40-47</bibl>
+          <p>Les actions du Roy sont si éclatantes, si glorieuses, si utiles à ses Peuples, &amp; font tant de bruit dans toute la terre, que nous voyons aujourd’huy ce que nous n’avons point d’exemple qui soit arrivé sous aucun regne. On a fondé des Panegyriques de cet auguste Monarque qui se doivent faire tous les ans dans de nombreuses Assemblées. Ceux qui ne se sont jamais mêlez d’écrire, deviennent Orateurs, ou Poëtes, pour avoir la satisfaction de parler de ses grandes actions ; elles inspirent de l’esprit, &amp; font faire des Ouvrages qui sont au dessus de l’âge de ceux qui les composent ; les Dames mesme s’en mêlent, &amp; la beauté de la matiere fait qu’elles y réussissent. Tous les sujets des prix d’Eloquence &amp; de Poësie, proposez par les Academies, sont tirez des actions de ce Prince ; l’Academie Françoise n’en propose point d’autres depuis plusieurs années ; &amp; l’Academie d’Angers qui a toûjours fait la mesme chose depuis son établissement, vient encore d’en proposer deux. Le premier est pour celuy qui aura le mieux réussi dans la composition d’un Discours dont le sujet sera, <hi rend="i">Les sages Ordonnances du Roy pour la reformation de la Justice, &amp; l’établissement des Leçons publiques du Droit François dans les Universitez du Royaume.</hi></p>
+          <p>Le sujet du second Prix qui est pour la Poësie Françoise, est sur <hi rend="i">les sentimens de respect &amp; d’admiration dont les Peuples les plus éloignez ont donné des témoignages au Roy par de celebres Ambassades.</hi></p>
+          <p>Ces deux Prix sont deux Médailles d’or qui seront données par M<hi rend="sup">r</hi> de Bechameil, Marquis de Nointel, Maistre des Requestes, Intendant de la Generalité de Tours, &amp; l’un des trente Academiciens de l’Academie d’Angers, nommez par le Roy. Ils seront distribuez dans l’Academie le 14. de May prochain, jour où ce Prince a commencé à regner. Le Discours ne sera au plus que de demy-heure de lecture. Les Vers n’excederont point le nombre de cent. Les Autheurs en choisiront la mesure, &amp; le Discours &amp; les Vers finiront par une priere pour Sa Majesté. Ils observeront de ne pas mettre leur nom à leurs Pieces ; mais seulement une Sentence, avec un Paraphe ou quelque autre marque, qui servira à distinguer le Discours, &amp; les Vers qui auront remporté le Prix. Toutes sortes de personnes seront receuës à y pretendre, à la reserve des trente Academiciens qui jugeront des Ouvrages. Il faut qu’ils soient mis dans le dernier jour de Mars entre les mains de M<hi rend="sup">r</hi> Gourreau, ancien Conseiller au Presidial d’Angers, &amp; premier Secretaire de l’Academie, demeurant à Angers. Il en donnera son reçû à ceux qui voudront l’avoir, &amp; le mois de Mars finy, toutes les Pieces qu’on luy pourra presenter seront rejettées. On ne sçauroit trop loüer le choix que tant d’Illustres Academiciens ont fait des matieres proposées pour les prix, &amp; l’on peut dire que tant qu’ils les puiseront dans les actions du Roy, ils en auront toûjours d’éclatantes. Ce qu’il a fait pour la Religion en fournira eternellement, puisque nous voyons tous les jours les nouveaux Convertis s’affermir dans la vraye croyance, &amp; que la pluspart de ceux mesmes qui avoient quitté la France pour reprendre leurs erreurs, ouvrant enfin les yeux à la verité, se trouvent forcez par elle à se convertir tout de nouveau. Je vous ay déja parlé plusieurs fois de ces sortes de Conversions que l’on ne peut soupçonner d’avoir esté faites avec contrainte, &amp; vous en trouverez encore un grand exemple dans la Lettre que vous allez lire.</p>
+        </div>
+      <div type="article" xml:id="MG-1688-01_080" resp="angele">
+        <head>Air nouveau</head>
+        <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 80-81.</bibl>
+        <p>Les paroles &amp; le chant de l'Air nouveau que vous trouverez icy, sont de M<hi rend="sup">r</hi> de Guillegault, Ordinaire de la Musique du Roy.</p>
+        <quote>
+          <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Petits Oyseaux qui chantez vos plaisirs</hi>, doit regarder la page 81.</note>
+            <lg><l rend="i">Petits Oyseaux, qui chantez vos plaisirs,</l>
+              <l rend="i">L'Amour qui comble vos desirs</l>
+              <l rend="i">Eloigne de vos cœur le trouble &amp; la souffrance.</l>
+              <l rend="i">Vous suivez une douce loy ;</l>
+              <l rend="i">Mais si vous ressentiez les douleurs de l'absence,</l>
+              <l rend="i">Peut-estre seriez-vous aussi tristes que moy.</l>
+              <l rend="i"></l></lg>
+          </quote>
+        <ref target="images/1688-01_081.JPG">
+          <figure>
+            <graphic url="images/1688-01_081.JPG"/>
+          </figure>
+        </ref>
+      </div>
+        <div type="article" xml:id="MG-1688-01_081" resp="wordpro">
+          <head>Stances</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 81-86</bibl>
+          <p>Vous avez veu dans ma Lettre de Novembre la réponse qu’avoit faite une Demoiselle à une personne qui luy conseilloit d’aimer. Voicy une replique à cette réponse. Elle est galamment tournée, &amp; je suis persuadé que vous la lirez avec plaisir.</p>
+         
+          <quote>
+            <label>STANCES.</label>
+            <lg>
+              <l rend="i">Pour juger sainement des plaisirs de l’Amour</l>
+              <l rend="i"> Il faut estre sous son empire,</l>
+              <l rend="i">Auprés de ce grand Dieu c’est mal faire sa Cour</l>
+              <l rend="i"> De n’en parler que par oüy dire.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i">Rendez-vous, belle Iris, répondez à sa voix,</l>
+              <l rend="i"> Et cessez de craindre ses peines ;</l>
+              <l rend="i">On ne voit que plaisirs, que transports sous ses loix,</l>
+              <l rend="i"> Si-tost qu’il n’est plus d’inhumaines.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Le choix d’un genereux, &amp; fidelle Vainqueur</l>
+              <l rend="i"> Vous paroist une grande affaire ;</l>
+              <l rend="i">Laissez en liberté soûpirer vostre cœur,</l>
+              <l rend="i"> Ce choix chez luy n’est pas à faire.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Vous voudriez en vain nous le dissimuler,</l>
+              <l rend="i"> Non, ce cœur n’est point inflexible ;</l>
+              <l rend="i">Des dangers de l’Amour il sçait trop bien parler</l>
+              <l rend="i"> Pour n’avoir pas esté sensible.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Laissez-là, croyez-moy, ces injustes soupçons</l>
+              <l rend="i"> Dont vous pretendez vous défendre ;</l>
+              <l rend="i">Si nous pechons, ce n’est qu’en suivant les leçons</l>
+              <l rend="i"> Que chez-vous nous allons apprendre.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Sans vous toûjours soûmis nous aurions en tout temps</l>
+              <l rend="i"> Vanté nos premiers esclavages,</l>
+              <l rend="i">Et l’on n’eust en amour jamais veu d’Inconstants,</l>
+              <l rend="i"> S’il n’eust point esté de volages.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Si malgré tous ses soins, un cœur tendre, amoureux,</l>
+              <l rend="i"> Ne peut fléchir une Cruelle,</l>
+              <l rend="i">Doit-il, quand il connoist qu’on se rit de ses feux,</l>
+              <l rend="i"> Brûler d’une flâme eternelle ?</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i">Souvent une Beauté, pour un nouveau venu,</l>
+              <l rend="i"> Méprisera tous ses services.</l>
+              <l rend="i">Faudra-t-il que toûjours pour elle prevenu,</l>
+              <l rend="i">  Il adore ses injustices ?</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Il soûpire, il languit, il se sent déchirer</l>
+              <l rend="i"> Au temps mesme qu’il faut qu’il change.</l>
+              <l rend="i">Malgré tout son dépit il voudroit demeurer,</l>
+              <l rend="i"> Mais son honneur veut qu’il se vange.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Recherchez les débris de quelque engagement.</l>
+              <l rend="i"> Voyez une flâme en foiblesse,</l>
+              <l rend="i">La faute n’est jamais du costé de l’Amant,</l>
+              <l rend="i"> Mais du costé de la Maistresse.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Avec vostre Vainqueur mettez-vous-bien d’accord,</l>
+              <l rend="i"> Ostez-luy tout lieu de se plaindre ;</l>
+              <l rend="i">Constante, sans soupçons, aimez jusqu’à la mort,</l>
+              <l rend="i"> Vous n’aurez jamais rien à craindre.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Si pendant tout le cours de cette passion.</l>
+              <l rend="i"> Vous avez pour luy mesme zele,</l>
+              <l rend="i">Je réponds corps pour corps, &amp; seray caution</l>
+              <l rend="i"> Qu’il vous sera toûjours fidelle.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Aimez donc, belle Iris, aimez à vostre tour,</l>
+              <l rend="i"> Ne cherchez plus aucune excuse,</l>
+              <l rend="i">En croyant se sauver des pieges de l’Amour</l>
+              <l rend="i"> Souvent la plus fine s’abuse.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-01_099" resp="wordpro">
+          <head>[Lettre en Vers à un Amy irresolu s’il se mariroit]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 99-106</bibl>
+          <p>Les Vers suivans sont de M<hi rend="sup">r</hi> l’Abbé de Roquetaillade. C’est un jeune Gentilhomme des meilleures Maisons de Languedoc. Il écrit à un de ses Amis sur son irresolution à se marier, &amp; sur les ruptures eternelles des mariages qu’on luy propose.</p>
+          <quote>
+            <label>A MONSIEUR…</label>
+            <lg>
+              <l rend="i">Quoy, c’est donc vainement que tout le monde en peine</l>
+              <l rend="i">Te cherche une Moitié, Baron, qui te revienne ?</l>
+              <l rend="i">Par d’injustes dégousts tu fais toûjours si bien</l>
+              <l rend="i">Qu’enfin tous ces grands soins n’aboutissent à rien.</l>
+              <l rend="i">Je voy que tu voudrois une épouse parfaite ;</l>
+              <l rend="i">Pour rendre là-dessus ton ame satisfaite</l>
+              <l rend="i">Attens donc que le Ciel ait tout exprés tiré</l>
+              <l rend="i">D’une coste nouvelle une Femme à ton gré.</l>
+              <l rend="i"> Mais, cher Baron, veux tu que je t’ouvre mon ame ;</l>
+              <l rend="i">Ta raison est blessée en matiere de Femme ;</l>
+              <l rend="i">Tout t’arreste, &amp; remply d’une vaine vapeur,</l>
+              <l rend="i">Quand il s’agit d’Hymen, les ombres te font peur ?</l>
+              <l rend="i">Les Femmes sont, croy moy, des Animaux traitables.</l>
+              <l rend="i">Pourquoy te les peins-tu sous des traits formidables ?</l>
+              <l rend="i">Il ne faut pourtant pas aller sans examen</l>
+              <l rend="i">En jeune homme étourdy contracter un Hymen ;</l>
+              <l rend="i">Mais lors que l’on a pris tous les soins necessaires,</l>
+              <l rend="i">Il ne faut pas aussi se former des chimeres,</l>
+              <l rend="i">Et par des visions des troubles ennuyeux</l>
+              <l rend="i">D’un agreable Hymen faire un monstre odieux.</l>
+              <l rend="i">Tant de précautions d’un homme un peu trop sage</l>
+              <l rend="i">Presagent rarement un heureux mariage ;</l>
+              <l rend="i">Quand un Hymen au Ciel par le destin est fait</l>
+              <l rend="i">L’on s’y sent entraisner par un instinct secret,</l>
+              <l rend="i">Et loin que de ces nœuds nostre cœur s’épouvante,</l>
+              <l rend="i">Il a peine au contraire à retenir sa pente ;</l>
+              <l rend="i">Pour se bien marier, le party le meilleur</l>
+              <l rend="i">C’est d’oublier le reste, &amp; de suivre son cœur.</l>
+              <l rend="i">Regle-toy là-dessus, prens, sans tarder, la femme,</l>
+              <l rend="i">Qu’à toy-mesme en secret te demande ton ame ;</l>
+              <l rend="i">Et sans de mille soins t’aller entretenir</l>
+              <l rend="i">Sur les biens &amp; les maux qui t’en peuvent venir,</l>
+              <l rend="i">Songe que pour aller où le Ciel nous appelle,</l>
+              <l rend="i">Baron, nos vœux secrets sont un guide fidelle.</l>
+              <l rend="i"> Mais encore une fois ne te figure point</l>
+              <l rend="i">De trouver une Femme accomplie en tout point.</l>
+              <l rend="i">Ce n’est qu’aux seuls Romans qu’on voit des Heroïnes,</l>
+              <l rend="i">Point de Déesse ailleurs, ny de Femmes divines,</l>
+              <l rend="i">Point de ces noms pompeux qu’on fait sonner si haut,</l>
+              <l rend="i">A Toulouse, à Paris, chacune à son défaut.</l>
+              <l rend="i">L’une prodigue tout en sa magnificence,</l>
+              <l rend="i">L’autre ne peut souffrir la plus juste dépense,</l>
+              <l rend="i">L’une avide de bien nuit &amp; jour est debout ;</l>
+              <l rend="i">L’autre en sa douce humeur laisse dissiper tout ;</l>
+              <l rend="i">L’une voulant passer pour fort spirituelle</l>
+              <l rend="i">Ne vous parle jamais que cercle &amp; que ruelle ;</l>
+              <l rend="i">L’autre, sotte, &amp; n’osant paroistre, ny parler,</l>
+              <l rend="i">Mene une vie obscure, &amp; ne sçait que filer.</l>
+              <l rend="i">Mais crois-tu qu’un Mary là-dessus s’embarrasse ?</l>
+              <l rend="i">Il fait tout doucement tout ce qu’il faut qu’il fasse ;</l>
+              <l rend="i">Et sans craindre autrement sa Femme, ou la prier,</l>
+              <l rend="i">Quand elle crie, il sort &amp; la laisse crier,</l>
+              <l rend="i">Et loin d’estre chagrin va dans les compagnies</l>
+              <l rend="i">Rire avec ses Amis de toutes ses manies.</l>
+              <l rend="i"> Mais je te prêche en vain, &amp; ma Muse est à bout,</l>
+              <l rend="i">Et cependant ton cœur à rien ne se resout.</l>
+              <l rend="i">Ah je vois ! j’omettois le point qui te fait peine,</l>
+              <l rend="i">Tu prévois pour ton front quelque disgrace humaine,</l>
+              <l rend="i">Et sensible aux affronts, tu crains d’estre surpris</l>
+              <l rend="i">Dans les pieges tendus à toute heure aux Maris ;</l>
+              <l rend="i">Une Femme toûjours, diras-tu, n’est pas sage.</l>
+              <l rend="i">O la belle raison pour fuir le mariage !</l>
+              <l rend="i"> Que maudit soit celuy dont l’esprit tenebreux</l>
+              <l rend="i">Osa pour nos pechez semer ce songe creux,</l>
+              <l rend="i">Et tournant à son gré l’Homme visionnaire</l>
+              <l rend="i">Luy fit un mal réel d’un mal imaginaire !</l>
+              <l rend="i">Jadis, quand les humains n’estoient pas si méchants,</l>
+              <l rend="i">On n’avoit d’autre loy que ses secrets penchants,</l>
+              <l rend="i">On n’obligeoit jamais personne à se contraindre,</l>
+              <l rend="i">Chacun se marioit à son gré sans rien craindre ;</l>
+              <l rend="i">Mais en ce temps maudit, de paniques terreurs</l>
+              <l rend="i">Mettent à tout moment à la gesne les cœurs.</l>
+              <l rend="i">Délivres-en le tien ; ne faisant rien de lâche,</l>
+              <l rend="i">Des sottises d’autruy tu n’auras nulle tache.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-01_107" resp="mercure">
+          <head>[Description exacte du Couronnement de l'Archiduc Joseph, aujourd'huy Roy de Hongrie]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 107-110, 118-121, 125-126</bibl>
+          <p/>
+          <p>Je vous ay promis une Description fort exacte de tout ce qui s'est passé au Couronnement de l'Archiduc Joseph, aujourd'huy Roy de Hongrie. Je vous tiens parole, &amp; vous en envoye une plus ample &amp; plus remplie de particularitez, qu'aucune de celles que vous pouvez avoir veuës. Je pourrois vous dire tout ce qui a précedé le Couronnement de ce jeune Roy, &amp; vous parler des demandes qui ont esté faites par les Etats de Hongrie ; mais comme ce détail m'engageroit à vous dire trop de choses, &amp; que d'ailleurs je sçay qu'on travaillle à un sixiéme volume de l'Histoire de Hongrie, je laisse à cette Histoire à vous en entretenir. Le jour de la Ceremonie du Couronnement ayant esté arresté, &amp; l'Empereur &amp; l'Imperatrice s'estant rendus à Presbourg, où elle devoit se faire, leurs Majestez Imperiales entendirent la Messe le 9. du mois passé, dans la Chapelle du Chasteau, &amp; entrerent sur les dix heures dans un magnifique Carosse, attelé de huit chevaux, pour aller à l'Eglise Cathedrale de S. Martin. Les Seigneurs Hongrois &amp; Allemands, tous fort richement vestus, &amp; montrant de tres-superbes chevaux, se trouverent à la Place du Palais ; &amp; commencerent la marche. L'Archiduc Joseph estoit aussi dans un Carosse des plus magnifiques, attelé de même de huit chevaux, &amp; precedoit leurs Majestez Imperiales, qui estoient environnées de la Garde des Archers du Corps. Elles arriverent en cet ordre à la porte de l'Eglise, au bruit des trompettes, des tambours &amp; des timbales, &amp; aux acclamations de tout le Peuple. [Suit une description de l'église, puis du cortège de la cour impériale.]</p>
+          <p/>
+          <p>Si-tost que ce jeune Prince se fut placé sur le Trône, l'Archevesque de Strigonie, Primat du Royaume, commença la Messe, &amp; lors qu'on fut à l'Epistre, le Palatin, &amp; le Maréchal de Hongrie, firent une profonde reverence devant le Trône de leurs Majestez Imperiales, &amp; devant celuy de l'Archiduc, au pied duquel ils l'allerent recevoir pour le conduire à l'Autel. Il y fit un Acte de Profession de Foy, aprés quoy l'Archevesque le benit, &amp; le sacra, par des onctions qu'il luy fit à la main, au bras, &amp; ensuite sur l'épaule. Les onctions estant achevées, le Palatin qui tenoit la Couronne entre ses mains, se tourna du costé des Seigneurs Hongrois &amp; du Peuple, &amp; la leur montra, en criant trois fois à haute voix en Langue Hongroise, <hi rend="i">Voulez-vous que l'on couronne le Prince Joseph, Archiduc d'Autriche, &amp; le reconnoissez-vous pour Roy de Hongrie ?</hi> Ils répondirent trois fois unanimement, &amp; avec de grandes marques de joye, <hi rend="i">Qu'il soit couronné</hi>. Alors l'Archevesque de Strigonie luy mit le Manteau Royal de S. Estienne sur les épaules. Le Maréchal du Royaume luy donna l'Epée, &amp; aprés qu'on luy eut mis le Sceptre à la main, le Palatin donna la Couronne à l'Archevesque, qui la mit sur la teste du jeune Prince. Incontinent tous les Assistans le proclamerent Roy de Hongrie avec un applaudissement general, au bruit des trompettes &amp; des timbales, qui fut suivy d'une décharge de tout le Canon de la Ville &amp; du Chasteau. Lors qu'il se fut remis dans son Trône ayant tous les ornemens Royaux, on chanta solemnellement le <hi rend="i">Te Deum</hi> en action de graces à Dieu de ce que la Hongrie alloit recevoir les loix d'un si digne Prince. [...]</p>
+          <p/>
+          <p>Aprés que le <hi rend="i">Te Deum</hi> eut esté chanté, l'Archevesque continua la Messe, &amp; lors que l'on fut à l'Evangile, l'Empereur se leva, tenant le Sceptre de la main droite, &amp; le Globe de la gauche, &amp; il demeura ainsi debout jusques à la fin de l'Evangile. Le nouveau Roy communia lors que l'Archevesque Celebrant eut communié. Quoy que ce Prelat soit âgé de quatre-vingt-six ans, sa joye fut si grande d'avoir pû servir à la ceremonie du Couronnement du nouveau Roy, que la Messe estant finie, il voulut marquer ses sentimens par un Discours Latin qu'il luy fit, avec des expressions tres-tendres &amp; des souhaits pleins d'un zele paternel pour la felicité de son Regne. Il finit par le Cantique de S. Simeon, en disant, <hi rend="i">Nunc dimittis servum tuum Domine</hi>, ce qui arracha des larmes de tous ceux qui l'entendirent. [...]</p>
+        </div>
+        
+        <div type="article" xml:id="MG-1688-01_140" resp="wordpro">
+          <head>[Histoire]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 140-166</bibl>
+          <p>Vous vous souvenez, Madame, de cette maxime d’un des plus beaux Opera de M<hi rend="sup">r</hi> Quinaut,</p>
+          <quote>
+            <lg>
+              <l rend="i">Un tendre engagement va plus loin qu’on ne pense.</l>
+            </lg>
+          </quote>
+          <p>Elle ne s’est jamais trouvée si veritable que dans l’avanture dont je vais vous faire part.</p>
+          <p>Un Cavalier d’une Province des plus éloignées, estant à Paris pour quelque affaire, fut mené chez une Dame, dont le merite &amp; les belles qualitez auroient suffi à luy attirer une grosse Cour, quand elle n’auroit point eu une fille toute aimable, &amp; par son esprit &amp; par l’agrément de sa personne. Aussi cette Dame avoit elle quantité d’amis. On s’empressoit à la voir, &amp; on trouvoit ordinairement tant d’honnestes gens chez elle, qu’il eust esté difficile de s’ennuyer en si bonne Compagnie. Le Cavalier y fut des plus assidus. Les soins qu’il rendoit en firent examiner le motif, &amp; on s’apperceut bien-tost dans ses manieres qu’il estoit touché de la beauté de la Fille. Il cherchoit toûjours à l’entretenir, &amp; quand quelqu’un l’empeschoit de prendre place auprés d’elle, son inquiétude &amp; ses regards sembloient luy parler de sa passion. La Mere la vit naistre avec plaisir, &amp; la Belle contribua par sa complaisance &amp; par mille honnestetez à l’engagement qu’on luy voyoit prendre. Il estoit d’une Maison fort considerable, &amp; son Pere, homme aussi avare qu’il en fust jamais, luy devoit laisser une succession assez grande pour le mettre un jour en estat de faire une tres-belle figure. On avoit pris soin de s’en informer, &amp; la connoissance qu’on en avoit euë, le faisoit traiter avec l’agrément qu’il trouvoit dans ses visites. Enfin aprés que les assurances du plus fort amour reïterées de jour en jour à la Belle, n’eurent plus laissé douter qu’il ne fust entierement affermy dans les tendres sentimens qu’il faisoit paroistre, la Mere le pria de s’expliquer sur le motif de ses soins. Il luy dit d’abord que sa maison estant ouverte à tous les honnestes gens, il avoit cru que le respect qu’il avoit pour elle, &amp; la profession particuliere qu’il faisoit de l’honorer, pouvoient meriter qu’on le souffrist, &amp; que si elle vouloit examiner sa conduite, il se flatoit qu’elle n’y trouveroit rien qui luy pust donner sujet de se plaindre. Elle repliqua qu’elle l’estimoit infiniment, &amp; qu’elle voyoit en luy tout ce qu’elle pouvoit souhaiter dans un parfaitement honneste homme, mais que la plûpart de ceux qui venoient chez elle estant gens sans consequence, puis qu’ils n’y venoient que pour le jeu, où pour le plaisir de la conversation, chacun avoit remarqué qu’il s’attachoit uniquement à sa fille, &amp; que cet attachement pouvant luy estre préjudiciable, il falloit pour l’interest de sa gloire, ou qu’il cessast de la voir, ou qu’il declarast ses prétentions. L’alternative luy estoit fâcheuse &amp; ne se sentant pas en estat de prendre le premier party, il fut contraint de donner une réponse précise. Il avoüa que les charmes de la Belle avoient fait sur luy une telle impression, qu’il la regardoit comme la seule personne qui estoit capable de le rendre heureux, &amp; que ne pouvant avoir pour elle que des pensées legitimes, il l’auroit déja demandée en mariage, si la dureté de son Pere, inflexible pour le bien, ne l’avoit pas forcé de se taire. Il ajoûta que l’on avoit fait pour luy plusieurs propositions fort avantageuses qui n’avoient pû réüssir, faute des avances qu’il luy avoit toûjours refusees, &amp; que mesme la dépense qu’il faisoit venoit du secours d’une personne, qui l’aimant assez pour le vouloir faire son heritier, luy donnoit dequoy pouvoir paroistre selon sa naissance ; que cependant il employeroit de nouveau tout ce qu’il avoit d’Amis pour obtenir qu’on luy donnast quelque Terre, afin qu’il pust faire voir combien ses intentions étoient sinceres, &amp; qu’il prioit qu’on voulust bien luy donner un peu de temps pour venir à bout de cette entreprise. La maniere dont il parla estoit si ouverte &amp; si engageante, que la Mere se contenta de prendre parole qu’il n’auroit jamais d’autre Femme que sa Fille. S’il aimoit beaucoup, il luy estoit aisé de connoistre qu’il n’estoit pas moins aimé, &amp; il commença à s’estimer d’autant plus heureux que toute sorte d’assiduité luy devint permise. Six mois se passerent, &amp; les choses demeurant toûjours au même estat, la Mere qui trouvoit dans ce party de grands avantages pour sa Fille, craignit que le Cavalier n’agist pas de bonne foy, &amp; pour se tirer d’inquietude, elle voulut l’obliger à faire une mariage secret. Il avoit trente ans, &amp; c’estoit un âge qui le mettoit en pouvoir de disposer de luy-mesme. Il s’en défendit sur la bizarre humeur de son Pere, qui découvrant qu’il se seroit marié à une Fille qui n’auroit pas tous les avantages qu’il pouvoit pretendre, estoit capable de donner son bien à une Sœur qu’il avoit, &amp; de le desheriter. Il accompagna cette espece de refus de mille raisons qui la satisfirent. Elle ne put pourtant s’empescher de dire qu’il falloit qu’il ne fust pas si amoureux qu’il le paroissoit, puis qu’il refusoit ce que d’autres auroient recherché avec de grandes instances. Cet obstacle qui chagrinoit fort la Mere &amp; la Fille, fut levé un mois aprés. Le Pere du Cavalier fut emporté d’une fiévre, &amp; la nouvelle qu’on receut de cette mort, causa des effets bien differens. La Belle qui ne l’avoit jamais veu, en eut une joye secrete que sa modestie luy fit cacher, &amp; le Cavalier en parut si abatu qu’on ne pouvoit assez admirer qu’il regretast tant un Pere qui luy avoit marqué si peu de tendresse. Dans les premiers jours on l’abandonna à sa douleur, mais comme il avoit de grandes raisons pour se consoler, on fut fort surpris de le voir toûjours resveur &amp; mélancolique. Il en rejetta la cause sur des embarras d’affaires ausquels il estoit mal propre, &amp; sur la necessité où il se voyoit d’aller en Province y donner ses soins. On luy dit qu’il luy pouvoit estre aisé d’adoucir ces embarras en faisant le voyage avec la personne qu’il aimoit, &amp; qu’on le croyoit trop honneste-homme pour vouloir partir sans avoir tenu parole sur le mariage dont il ne s’étoit défendu que par la crainte d’irriter son Pere. Il répondit que ce mariage estoit la chose du monde qu’il souhaitoit le plus ardemment, mais que pour en mieux goûter toute la douceur, il vouloit avoir l’esprit entierement libre, &amp; qu’il faloit pour cela, qu’il eust finy toutes ses affaires, à quoy il donneroit ordre avec tout le soin &amp; toute la promptitude possible. Cette réponse surprit ; mais on s’étonna beaucoup davantage, quand luy ayant demandé qu’il signast au moins un Contract, il s’offença de cette demande comme d’une injure qu’on luy faisoit, en le soupçonnant d’estre capable de manquer à sa promesse. La Belle qui laissoit toûjours parler sa Mere, ne put luy cacher sur ce refus, qu’elle voyoit bien qu’il se repentoit de l’engament qu’il avoit pris, puis qu’il montroit tant de repugnance pour toutes les choses qui pouvoient le rendre seur. Il se jetta à ses pieds, luy fit mille nouvelles protestations de l’aimer éternellement plus que luy-mesme, &amp; on ne sçavoit comment accorder un si violent amour ; avec le chagrin qu’il faisoit paroistre. Il estoit pourtant toûjours resolu de partir sans rien conclurre ; &amp; la Mere continuant à luy faire de fâcheux reproches, il luy dit enfin qu’il estoit juste d’arrester ses défiances ; ce qu’il fit le lendemain, en luy apportant dix mille écus, qu’il déclara donner à sa Fille, s’il avoit la lâcheté de violer les sermens qu’il luy avoit faits. Ce dépost rassura l’esprit de la Mere, mais il ne satisfit point l’amour de la Fille, qui vit partir son Amant avec une douleur incroyable. Il luy promit de luy écrire souvent &amp; il le fit avec une exactitude merveilleuse. Toutes ses Lettres avoient un air de tendresse qui sembloit répondre de la sincerité de son cœur, mais il ne revenoit point ; &amp; aprés six mois d’absence, la Mere ayant rencontré quelqu’un de ce Pays-là, voulut sçavoir quels procés l’y arrestoient si long-temps. On luy répondit qu’il n’y avoit aucune apparence qu’il en eust ; que son Pere estoit mort sans nulles dettes, &amp; que jamais homme n’avoit laissé ses affaires en si bon estat. Grandes plaintes de la Belle à son Amant. Il répondoit que des discussions d’interests à faire dans une Famille estoient souvent plus embarassantes que de vrais procés que l’on vuidoit en Justice, &amp; qu’il ne perdroit pas un moment pour venir faire connoistre qu’il n’y avoit que luy seul qui sceust bien aimer. Un an se passa de cette sorte ; &amp; dans ce temps-là, une Dame de cette mesme Province, qui n’avoit pû réussir à se faire aimer du Cavalier, voulut voir la Belle qui l’avoit charmé. Elle fit quelque liaison avec la Mere, &amp; l’occasion s’étant offerte de parler de luy, elle dit malicieusement, mais sans montrer d’affectation, qu’il estoit fort assidu à faire sa cour à une Comtesse fort riche, &amp; que dans le temps qu’elle estoit partie, le bruit s’estoit répandu que le mariage alloit se faire. Jugez combien ce discours fit souffrir la Belle. Elle écrivit aussi-tost au Cavalier avec un emportement inconcevable. Elle le traita de scelerat &amp; de traistre, &amp; luy donna tous les noms dont sa prétenduë infidelité le rendoit digne. Il tarda peu à faire réponse. Il luy manda qu’il falloit laisser parler les ridicules qui se plaisoient à faire des contes ; que les affaires qui l’inquietoient depuis plus d’un an, estoient sur le point d’estre terminées, &amp; qu’il viendroit au plûtost luy faire l’histoire de la Comtesse, dont assurément elle riroit. Cette Lettre n’éclaircissoit rien, &amp; pour surcroist d’infortune, la Belle tomba dans de nouveaux embarras. Un homme de cinquante ans, qui avoit beaucoup de bien, s’avisa de la demander en mariage, &amp; comme l’impatience est toûjours fort grande dans un vieillard amoureux, il offrit tous les avantages qu’on souhaiteroit, pourveu que l’on fist l’affaire en fort peu de jours, La Mere donna sa parole sans en consulter sa Fille, &amp; ce fut ensuite une persecution extraordinaire. Elle voulut luy persuader que tous les retardemens du Cavalier faisant assez voir qu’il ne songeoit point à revenir, il ne falloit pas laisser échaper une occasion si favorable ; en tout cas, dit elle, on luy rendra ses dix mille écus. La Belle accablée au dernier point, écrivit sur l’heure à son Amant &amp; luy fit sçavoir ce qui se passoit. Il la conjura par sa réponse de la maniere la plus tendre &amp; la plus touchante, de ne pas l’abandonner, l’assurant qu’il y alloit de sa vie, &amp; qu’il seroit auprés d’elle dans fort peu de temps. Ce fut assez pour luy faire avoir de la fermeté. Tout estoit en mouvement, selon l’interest particulier que chacun avoit. Le nouvel Amant pressoit la Mere ; la Mere grondoit sa Fille, &amp; la Fille enduroit tout sans se laisser ébranler. Enfin le Cavalier arriva, &amp; fut receu d’abord un peu froidement. Il estoit en deüil, &amp; ce deüil qui paroissoit tout nouveau, ayant obligé la Mere &amp; la Fille à demander quelle mort estoit encore arrivée dans sa Famille, il répondit en riant, que quelque envie qu’il eust toujours euë de revenir promptement, il n’avoit pu se tirer d’affaire que par l’habit qu’elles luy voyoient. Il leur fallut éclaircir l’Enigme, &amp; l’éclaircissement fut, que son Pere ne luy ayant jamais voulu faire aucune avance, chose tres-fâcheuse aux jeunes gens qui aiment toujours à dépenser, il y avoit six ans qu’une Comtesse, qui en avoit alors tout au moins soixante &amp; quinze, l’avoit trouvé à son gré, &amp; moyennant un mariage secret luy avoit offert cent mille francs en argent comptant, avec plusieurs autres avantages ; que dans le chagrin de se voir sans bien, il s’estoit resolu à se charger de la Dame pour avoir l’argent, &amp; que l’ayant épousée sans que personne l’eust sceu, il n’avoit plus esté en pouvoir de satisfaire son cœur sur les propositions qu’on luy avoit faites ; que ce premier mariage avoit causé les refus qui l’avoient fait soupçonner de manquer d’amour, &amp; que la mort de son Pere, arrivée beaucoup plutost qu’on ne l’avoit creu, l’avoit d’autant plus embarassé, que n’ayant plus de prétexte honneste pour se dispenser de tenir parole, il avoit craint qu’on n’eust rompu avec luy, si l’on eust apris l’état où estoient les choses ; qu’il avoit feint des affaires pour aller attendre quelle fin auroit la langueur de la Comtesse, que le nombre des années retenoit au lit depuis quelque temps, &amp; qu’enfin elle estoit morte aprés avoir declaré son mariage ; qu’il en avoit encore eu plus de deux cens mille francs tant en meubles qu’en argent, &amp; qu’il venoit les offrir avec tout le reste de son bien à la charmante personne qui pouvoit seule faire bon-heur. Le recit de l’avanture dévelopa le mistere qu’on n’avoit sceu penetrer. On n’eût pas besoin de beaucoup de tems pour voir quel party l’on devoit prendre. Le vieil Amant fut remercié, &amp; le Cavalier, plus amoureux que jamais, épousa la Belle avec des transports de joye qu’on ne sçauroit exprimer.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_167" resp="wordpro">
+          <head>L’Hyver. Idille de Madame des Houlieres, à Mr Lucas</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 167-172</bibl>
+          <p>Quand tout ce qui part de l’Illustre Madame des Houlieres ne seroit pas d’une beauté achevée, la saison où nous sommes m’obligeroit à vous envoyer le nouvel Idille de sa façon que vous allez lire. Ainsi vous aurez tous ses ouvrages, répandus separément dans mes Lettres selon les temps qu’elle en a bien voulu donner des copies. Ce dernier est adressé à M. Lucas. C’est un homme d’esprit &amp; de merite, fort connu &amp; estimé des gens de Lettres, &amp; qui a esté plusieurs années Lieutenant general de l’Admirauté de Normandie.</p>
+          <quote>
+            <label>L’HYVER.<lb/>Idille de Madame des Houlieres, à M<hi rend="sup">r</hi> Lucas.</label>
+            <lg>
+              <l rend="i">L’Hyver suivy des vents, des frimats, des orages,</l>
+              <l rend="i">De ces aimables lieux trouble l’heureuse paix ;</l>
+              <l rend="i">Il a déja ravy par de cruels outrages</l>
+              <l rend="i"> Ce que la Terre avoit d’attraits.</l>
+              <l rend="i"> Quelles douloureuses images</l>
+              <l rend="i">Le desordre qu’il fait imprime dans l’esprit !</l>
+              <l rend="i">Helas ! ces Prez sans fleurs, ces Arbres sans feüillages,</l>
+              <l rend="i"> Ces Ruisseaux glacez, tout nous dit</l>
+              <l rend="i">Le temps fera chez vous de semblables ravages.</l>
+              <l rend="i"> Comme la terre nous gardons</l>
+              <l rend="i"> Jusques au milieu de l’Automne</l>
+              <l rend="i">Quelques-uns des appas que le Printemps nous donne,</l>
+              <l rend="i"> L’Hyver vient-il, nous les perdons.</l>
+              <l rend="i">Pouvoir, Thrésors, Grandeurs, n’en exemptent personne ;</l>
+              <l rend="i">On se déguise en vain ces tristes veritez ;</l>
+              <l rend="i"> Les terreurs, les infirmitez,</l>
+              <l rend="i">De la froide vieillesse ordinaires compagnes,</l>
+              <l rend="i">Font sur nous ce que font les Autans irritez,</l>
+              <l rend="i"> Et la neige sur les Campagnes.</l>
+              <l rend="i"> Encor si comme les Hyvers</l>
+              <l rend="i">Dépoüillent les Forests de leurs feüillages verds,</l>
+              <l rend="i">L’âge nous dépoüilloit des passions cruelles,</l>
+              <l rend="i">Plus fortes à dompter que ne le sont les flots,</l>
+              <l rend="i"> Nous gousterions un doux repos</l>
+              <l rend="i"> Qu’on ne peut trouver avec elles.</l>
+              <l rend="i">Mais nous avons beau voir détruire par le temps</l>
+              <l rend="i">La plus forte santé, les plus vifs agrémens ;</l>
+              <l rend="i">Nous conservons toûjours nos premieres foiblesses.</l>
+              <l rend="i">L’Ambitieux courbé sous le fardeau des ans,</l>
+              <l rend="i">De la fortune encore écoute les promesses ;</l>
+              <l rend="i">L’Avare en expirant regrette moins le jour</l>
+              <l rend="i"> Que ses inutiles richesses,</l>
+              <l rend="i">Et qui jeune a donné tout son temps à l’amour,</l>
+              <l rend="i">Un pied dans le Tombeau, veut encor des Maistresses.</l>
+              <l rend="i">Il reste dans l’esprit un goust pour les plaisirs,</l>
+              <l rend="i">Presqu’aussi dangereux que leur plus doux usage.</l>
+              <l rend="i"> Pour estre heureux, pour estre sage</l>
+              <l rend="i">Il faut sçavoir donner un frein à ses desirs.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Mieux qu’un autre, sage Timandre,</l>
+              <l rend="i">De cet illustre effort vous connoissez le prix,</l>
+              <l rend="i">Vous, en qui la naure a joint une ame tendre</l>
+              <l rend="i"> Avec un des plus beaux Esprits ;</l>
+              <l rend="i">Vous qui dans la saison des graces &amp; des ris,</l>
+              <l rend="i">Loin d’éviter l’Amour, faisiez gloire d’en prendre,</l>
+              <l rend="i"> Et qui par effort de raison</l>
+              <l rend="i">Fuyez de ses plaisirs la folle inquietude,</l>
+              <l rend="i"> Avant que l’arriere-Saison</l>
+              <l rend="i">Vous ait fait ressentir tout ce qu’elle a de rude.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-01_197" resp="mercure">
+          <head>[Etablissement de trois Paroisses à Strasbourg, avec les Ceremonies de l'ouverture de celle de S. Estienne, &amp; le Discours qui a esté prononcé en cette occasion]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 197-202, 215-216</bibl>
+          <p/>
+          <p>Le Roy qui veille sans cesse au bien de ses Peuples, voulant contribuer tout ensemble à la pieté des Catholiques, &amp; à la Conversion des Lutheriens de Strasbourg, vient d'y établir trois Paroisses. La premiere est sous l'Invocation de Saint Estienne, &amp; il l'a donnée aux Chanoines Reguliers de Saint Augustin, de la Congregation de Saint Antoine, lesquels seuls de tous les Religieux Sa Majesté a remis en possession de leur Eglise &amp; de leur Maison, lors qu'Elle entra dans cette Ville pour y recevoir les soûmissions des Habitans. La seconde a esté donnée aux Chanoines Reguliers de Saint Augustin, de la Congregation de Nostre Sauveur, dite de Matincourt, &amp; l'ouverture s'en devoit faire vers le milieu de ce mois. On travaille à mettre la troisiéme en estat, &amp; elle doit estre sous le titre de S. Marc. La Ceremonie de l'ouverture de la Paroisse de S. Estienne se fit le Dimanche 21. du mois passé. Le jour precedent on avoit beny deux Cloches, l'une sous le nom de Saint Loüis, l'autre sous le nom de Saint Estienne, &amp; toutes deux données par Sa Majesté, ainsi que le font connoistre leurs Inscriptions. On avoit aussi reconcilé l'Eglise, dont les Ornemens, de mesme que les réparations publient l'application singuliere du Roy pour le Culte du vray Dieu. Le lendemain on exposa le Saint Sacrement, &amp; la Messe Paroissiale fut celebrée après Tierce sur les neuf heures &amp; demie, par M l'Abbé de Cartigny, Grand Vicaire, &amp; Official du Diocese de Strasbourg, assisté de Diacre, Sousdiacre, &amp; Maistre des Ceremonies, avec quatre Seminaristes. Il y eut au Chœur, outre ceux de la Maison, &amp; quelques autres du Voisinage, trois Religieux d'augmentation pour lesquels Sa Majesté donne trois cens écus de Pension &amp; l'excellente Musique de la Cathedrale s'y fit entendre. M. de Chamilly, Gouverneur de la Ville, s'y trouva accompagné de plusieurs Officiers. Entre les Communians qui furent en fort grand nombre, Madame de Chamilly, Gouvernante, &amp; M<hi rend="sup">r</hi> Obrecht, Préteur Royal de Strasbourg, &amp; Chef de la Paroisse, se distinguerent par leur pieté. Aprés la grand'Messe, l'on commença un Sermon François sur le sujet de la Ceremonie. [...]</p>
+          <p/>
+          <p>L'apresdînée, lors que l'on eut chanté Vespres, le Pere Antoine Gritz, Chanoine Regulier de S. Augustin de la Congregation S. Antoine, précha en Allemand avec succés devant un tres-nombreux Auditoire. Il loüa d'une maniere delicate &amp; fervente les prodiges de la pieté &amp; de la magnificence du Roy envers l'Eglise. M<hi rend="sup">r</hi> &amp; Madame de Chamilly, M. le Préteur Royal, &amp; la plûpart des personnes considerables qui avoient entendu le premier Sermon, se trouverent encore à celuy-ci, &amp; la mesme Musique chanta dans le temps de la benediction qui fut donnée par Mr l'Abbé de Cartigny. On chanta aussi le <hi rend="i">Domine salvum fac Regem</hi>, ainsi qu'on avoit fait à la fin de la Messe Paroissiale, &amp; qu'on fera à toutes les autres, les jours de Dimanche &amp; Festes. Le public témoigna beaucoup de joye de l'erection que Sa Majesté a faite de cette Paroisse, &amp; il y a lieu d'esperer qu'elle ne contribuëra pas peu à la conversion de plusieurs Lutheriens.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_217" resp="wordpro">
+          <head>[Mariage de Mr le Marquis du Chatelet, &amp; de Mademoiselle de Bellefond]*</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 217-218</bibl>
+          <p>M<hi rend="sup">r</hi> le Marquis du Chatelet a épousé ces jours passez Mademoiselle de Bellefond. Ce Marquis est Chef du nom de l’illustre Maison des Maréchaux hereditaires de Lorraine, &amp; Chevaliers de l’ancienne Chevalerie de ce Duché. La Maison du Chatelet est issuë de celle de Lorraine, &amp; elle a pretendu estre de la branche des Aisnez. Il y a eu autrefois contestation là-dessus, &amp; le Roy de France, au lieu des trois Alerions d’argent dont la bande de gueules est chargée aux Armes de Lorraine, luy donna trois Fleurs de Lys d’argent, que ceux de cette Maison ont conservées depuis ce temps-là. Mademoiselle de Bellefond est Fille de M<hi rend="sup">r</hi> le Maréchal de Bellefond, premier Ecuyer de Madame la Dauphine. Je ne vous dis rien de ses Belles qualitez. Vous trouverez son portrait en Vers dans les Madrigaux de la Relation que j’ay faite du dernier Carrousel.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_230" resp="mercure">
+          <head>[Tout ce qui s'est passé à la reduction d'Agria]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 230-233, 239-240</bibl>
+          <p/>
+          <p>Voilà, Madame, ce que l'Histoire nous apprend des deux Sieges de cette Place. On avoit resolu il y a environ trois ans, de s'en rendre maistre en la tenant seulement bloquée. Quoy que le projet de prendre ainsi des Places ne soit pas nouveau, les succés de ces sortes d'entreprises ne laissent pas d'estre rarement heureux, puisque de cent à peine en voit-on réussir une. Il estoit non seulement besoin pour venir à bout de celle-cy, qu'on gagnast une Bataille ; mais il falloit encore que cette Bataille entraînast la perte de plusieurs Villes, &amp; que cette perte fut cause d'une desolation generale dans l'Empire Turc. Tout cela est heureusement arrivé, &amp; Agria s'est rendu, trois mois après que toutes les Troupes Othomanes étant devenuës rebelles à leur Souverain, ont abandonné les pays qu'elles devoient défendre, pour l'aller déposseder. Il y avoit prés de sept mois que la Place manquoit de pain, &amp; qu'il n'y en avoit pas mesme pour le Gouverneur. Il est pourtant à présumer qu'il en auroit pu conserver pour sa personne, mais comme rien n'excite tant à soufrir l'indigence que l'exemple d'un Chef, qui endure luy-mesme ce qu'elle peut avoir de plus rude, il y a de l'apparence que le Commandant de cette Place qui a paru brave &amp; intelligent, a esté assez politique pour vouloir souffrir avec ceux qui luy aidoient à la defendre, afin de les empescher de montrer plus d'impatience de se rendre qu'il n'en témoignoit. Pendant que cette grande disette a duré, il est entré dans la Ville en plusieurs occasions quelques sacs de bled que des païsans sujets de l'Empereur, attirez par le grand gain, ne laissoient pas d'y porter, malgré les perils [...].</p>
+          <p/>
+          <p>Il est difficile d'exprimer la disette qui avoit esté dans la place. On asseure que les trois derniers jours avant la capitulation, il n'y avoit plus de vivres, pas mesme pour le Gouverneur. Voicy de quelle maniere on dit que les Turcs en sont sortis. Le bagage estoit à la teste de tout. La femme du Gouverneur paroissoit ensuite, les Janissaires venoient aprés sans Tambour, &amp; avec leurs Enseignes pliées. Hussein Bacha Commandant de la Place, les suivoit avec trois chevaux. On battoit devant luy une petite quaisse ou tambour, les Spahis fermoient la marche des Troupes qui estoit environ de sept cens hommes ; [...].</p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_323" resp="wordpro">
+          <head>[Explications des énigmes précédentes]*</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 323</bibl>
+          <p>Deux Animaux, l’<hi rend="i">Asne</hi> &amp; <hi rend="i">le Lapin</hi>, estoient les vrais mots des deux dernieres Enigmes.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_329" resp="wordpro">
+          <head>Enigme</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 329-331</bibl>
+          <p>La premiere des deux nouvelles Enigmes que je vous envoye, est de M<hi rend="sup">r</hi> Rault de Roüen : on ne m’a point dit le nom de celuy qui a fait l’autre.</p>
+          <quote>
+            <label>ENIGME.</label>
+            <lg>
+              <l rend="i">Je suis masle aujourd’huy, quoy qu’autrefois femelle,</l>
+              <l rend="i"> J’avois le grand art de charmer,</l>
+              <l rend="i"> Et des Dieux je me fis aimer,</l>
+              <l rend="i"> Pour estre jeune, aimable &amp; belle.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i">Mais je couste aujourd’huy du sang,</l>
+              <l rend="i">Et les Heros du premier rang,</l>
+              <l rend="i">Mettent en moy toute leur gloire ;</l>
+              <l rend="i">Il n’est pas jusqu’aux grands esprits,</l>
+              <l rend="i">Qui de m’avoir estant épris,</l>
+              <l rend="i">Se font entr’eux une Victoire.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i">On me tiendroit bien malheureux,</l>
+              <l rend="i"> Si je perdois mes beaux cheveux,</l>
+              <l rend="i">Comme mes Commpagnons le font en leur Campagne ;</l>
+              <l rend="i"> Quoy que le Ciel soit en couroux</l>
+              <l rend="i"> Par un destin qui m’accompagne,</l>
+              <l rend="i">Ma teste est en tout temps à l’abry de ses coups.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-01_331" resp="wordpro">
+          <head>Autre Enigme</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 331-333</bibl>
+          <quote>
+            <label>AUTRE ENIGME.</label>
+            <lg>
+              <l rend="i"> Je suis une Fille sans Pere ;</l>
+              <l rend="i">Nous naissons plusieurs Sœurs d’une égale couleur,</l>
+              <l rend="i"> Mais de differente grosseur,</l>
+              <l rend="i">Et nous ne ressemblons jamais à nostre Mere.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Sans douleur elle nous fait naistre,</l>
+              <l rend="i">Quoy que souvent tres-jeune elle ait le flanc ouvert ;</l>
+              <l rend="i"> Et quand long-temps l’air par elle est souffert,</l>
+              <l rend="i">Dures, vieilles déja nous nous faisons paroistre.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Quand on me prend dans mon jeune âge,</l>
+              <l rend="i">Je me couvre le front toûjours d’un vert bandeau ;</l>
+              <l rend="i"> Et quand j’approche du tombeau,</l>
+              <l rend="i">Ma teste tout à nud m’est un triste presage.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Quelquefois je suis fort cachée</l>
+              <l rend="i">Dans une prison blanche où l’on ne peut me voir,</l>
+              <l rend="i"> Car il y fait pour moy si noir,</l>
+              <l rend="i">Qu’on me trouve avec peine aprés m’avoir cherchée.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Quand j’y suis il n’est plus de portes ;</l>
+              <l rend="i">Il faut mettre en morceaux mon étroite prison,</l>
+              <l rend="i">Cherches-en Lecteur, la raison,</l>
+              <l rend="i">Un employ distingué t’attend si tu m’emportes.</l>
+            </lg>
+          </quote>
+        </div>
+      <div type="article" xml:id="MG-1688-01_333" resp="camille">
+        <head>Air nouveau</head>
+        <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 333-334.</bibl>
+        <p>Voicy un second Air nouveau ; il est comme tous les autres que je vous envoye, d’un tres-habile Musicien.</p>
+        <quote>
+          <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Profitons du temps</hi>, doit regarder la page 333.</note>
+          <lg>
+            <l rend="i"> Profitons du temps</l>
+            <l rend="i">  Quand il est commode,</l>
+            <l rend="i">Unissons nos Amours, Iris, vivons contens,</l>
+            <l rend="i"> Ces longs soupirs ne sont plus à la mode,</l>
+            <l rend="i">On badine en Hyver, Iris, comme au Printemps.</l>
+            <l rend="i"> Profitons du temps</l>
+            <l rend="i">  Quand il est commode,</l>
+            <l rend="i">Unissons nos desirs, Iris, vivons contens,</l>
+          </lg>
+        </quote>
+        <ref target="images/1688-01_333.JPG">
+          <figure>
+            <graphic url="images/1688-01_333.JPG"/>
+          </figure>
+        </ref>        
+      </div>
+        <div type="article" xml:id="MG-1688-01_334" resp="mercure">
+          <head>[Mariage de Mr le Marquis de Florensac avec Mademoiselle de Senecterre]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 334-336</bibl>
+          <p>M. le Comte de Florensac, l'un des jeunes Seigneurs que le Roy entretient auprés de Monseigneur le Dauphin, épousa le 20 de ce mois Mademoiselle de Senecterre, Fille de Madame la Marquise de Senecterre, dont la vertu &amp; le merite vous sont si connus. La maniere obligeante, &amp; les termes dans lesquels le Roy a donné son approbation à ce mariage, en le loüant, aussi bien que ceux qui pouvoient l'avoir imaginé, ne me laissent presque rien à vous en dire. M. le Marquis de Florensac est Frere de M. le Duc d'Usez. Il a marqué sa valeur en plusieurs rencontres, &amp; a passé par tous les degrez de la guerre, aux Gardes, Garde du Corps, Mousquetaire, Cornete des Mousquetaires pendant que M. le Comte de Marsan en estoit Enseigne, aprés quoy il a eu un Regiment de Cavalerie. Jamais personne n'eut un caractere plus modeste &amp; plus honneste ; aussi s'est-il attiré une estime générale. On ne sçauroit exprimer avec combien de grandeur d'ame &amp; de noblesse dans le procedé, M. le Duc &amp; Madame la Duchesse d'Usez ont agy en ce [sic] rencontre. Ils ont voulu faire la nopce dans l'Hostel de Montausier, &amp; l'on eust dit qu'ils marioient un de leurs Enfans. Vous jugez bien que M. le Duc de Montausier y tenoit aussi lieu d'un veritable pere. Chacun connoist les manieres de cette Maison, qu'on auroit peine à trouver ailleurs. Il y eut illumination, simphonie &amp; Bal. [...]</p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_336" resp="wordpro">
+          <head>Pour Mademoiselle de Senecterre</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 336-338</bibl>
+          <p>Mademoiselle de Senecterre est petite-Niepce de feu M. le Maréchal de la Ferté : &amp; Madame sa mere est de l’ancienne &amp; illustre Maison de Longueval en Picardie. Je ne vous diray rien du merite de cette nouvelle Mariée. Je vous envoye seulement les Vers que j’ay faits pour elle dans ma Relation du dernier Carrousel, dont elle estoit.</p>
+          <quote>
+            <label>POUR MADEMOISELLE<lb/>de Senecterre.</label>
+            <lg>
+              <l rend="i">De la Jeunesse, une illustre naissance,</l>
+              <l rend="i">  De l’égalité dans l’humeur,</l>
+              <l rend="i">  De la beauté, de la douceur,</l>
+              <l rend="i"> Des cheveux blonds en abondance,</l>
+              <l rend="i"> Bon air en tout, bien à cheval,</l>
+              <l rend="i">Cela fait un merite, à peu d’autres égal,</l>
+              <l rend="i"> Et c’est la Peinture fidele</l>
+              <l rend="i"> De ce qui se rencontre en elle.</l>
+              <l rend="i">Les plus vives couleurs dont la nature peint</l>
+              <l rend="i"> Dans nos Jardins, les fleurs les plus brillantes,</l>
+              <l rend="i"> Paroissent bien moins éclatantes,</l>
+              <l rend="i"> Que celles qu’on voit sar son teint.</l>
+              <l rend="i"> Son esprit est doux, agréable,</l>
+              <l rend="i"> Elle en fait tout, ce qu’elle veut.</l>
+              <l rend="i">D’un charme si puissant se defende qui peut,</l>
+              <l rend="i"> Fort est celuy qui s’en trouve capable.</l>
+              <l rend="i"> Que de conquestes ! quel fracas,</l>
+              <l rend="i"> S’il arrivoit qu’elle cherchast à plaire !</l>
+              <l rend="i"> Mais elle marche sur les pas,</l>
+              <l rend="i"> D’une sage &amp; prudente Mere,</l>
+              <l rend="i">Dont la vertu reglant tout ce qu’elle doit faire,</l>
+              <l rend="i">  Ne souffre pas.</l>
+              <l rend="i"> Qu’elle sorte d’un caractere,</l>
+              <l rend="i">Où la gloire luy fait rencontrer tant d’appas,</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-01_339" resp="wordpro">
+          <head>[Poësies Pastorales de M. de Fontenelle]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 339-340</bibl>
+          <p>Je vous envoye les <hi rend="i">Poësies Pastorales</hi> de M<hi rend="sup">r</hi> de Fontenelle, que le sieur Guerout debite, c’est à dire, trois Ouvrages en un seul, puis que ces Poësies où les Connoisseurs trouvent toutes les beautez que demande la simplicité de la Bergerie, sont accompagnées d’un Traité, aussi agreable que curieux, sur la Nature de l’Eglogue. L’Auteur, y a joint son sentiment sur l’injustice que font aux Modernes ces zelez Adorateurs de l’Antiquité, qui ont pour les Grecs &amp; les Latins une veneration si respectueuse, qu’ils les admirent jusqu’en leurs defauts : &amp; je croy, Madame, que vous luy sçaurez quelque gré d’avoir fait voir que non seulement nous pouvons égaler les Anciens, mais mesme qu’il ne nous est pas defendu de nous flater que nous pouvons aller au delà de ce qu’ils ont fait de plus merveilleux.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_341" resp="mercure">
+          <head>[Regulus, Tragédie]</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], p. 341-342</bibl>
+          <p/>
+          <p>On represente depuis un mois avec beaucoup de succés une Tragedie intitulée <hi rend="i">Regulus</hi>. Les plus grands hommes avoient tasté ce sujet, &amp; quoy que l'action de ce Romain, qui retourna à Cartage, asseuré de la mort qui luy estoit preparée, leur eust paru fort touchante, ils avoient trouvé des obstacles qui leur sembloient invincibles à la réduire au Theatre. M. Pradon a eu moins de scrupules, ou peut-estre plus de lumieres, &amp; pour faire mieux briller une si belle action, il a presté à l'Histoire des choses qu'elle ne luy fournissoit pas, &amp; il l'a mesme changée dans les circonstances de l'action principale. Ce que fit Regulus est si éclatant &amp; part d'une si grande ame, qu'on ne peut l'entendre sans l'admirer. Vous pouvez juger par là qu'il doit y avoir de grandes beautez dans cette piece.</p>
+          <p>L'Autheur du <hi rend="i">Chevalier à la Mode</hi> en prepare une Comique en cinq Actes pour la fin du Carnaval. Si elle reussit autant que cette agreable Comedie, les representations n'en finiront de six mois, puis que celles du Chevalier à la mode continuent encore. Cette Piece n'a pas esté moins heureuse sur le papier, &amp; il semble que l'impression y fasse connoistre tous les jours des beautez nouvelles, tant on a d'empressement à la rechercher. Voilà l'avantage qui se trouve à écrire purement, &amp; à dire les choses d'une maniere naturelle, sans grossir les Scenes par ce qui sort du sujet.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-01_353_" resp="mercure" copyOf="JLB_MG-1688-01_000">
+          <head>Catalogue des livres nouveaux</head>
+          <bibl><title>Mercure galant</title>, janvier 1688 [tome 1], n.p.</bibl>
+          <quote>
+            <label>CATALOGUE DES LIVRES<lb/><hi rend="i">nouveaux qui se débitent chez le Sieur Guerout, Court-neuve du Palais.</hi></label>
+            <lg>
+          <l>Le Chevalier à la Mode, Comedie. 1. l. 10. s.</l>
+          <l>La Désolation des Joüeuses, Comedie. 15. s.</l>
+          <l>[...]</l>
+          <l>Divers Ouvrages en Musique de M. de Bacilly.</l>
+            </lg>
+          </quote>
+        </div>
+      </body>
+  </text>
+</TEI>

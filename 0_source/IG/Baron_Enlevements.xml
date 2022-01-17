@@ -1,0 +1,2215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Les Enlèvements</title>
+            <title type="subtitle">Édition électronique</title>
+            <author>Michel Boiron, dit Baron</author>
+            <principal>Dr. Ioana Galleron</principal>
+            <respStmt>
+               <resp>Mis au format numérique par</resp>
+               <name>Ioana Galleron</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LICoRN</publisher>
+            <pubPlace>Lorient</pubPlace>
+            <address>
+               <addrLine>http://www.licorn-research.fr</addrLine>
+            </address>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed
+                  under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0
+                  International </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Michel Baron</author>
+                  <title>LE THEATRE <lb/>DE <lb/>M<abbr rend="superscription">r</abbr> BARON,<lb/>
+                     <hi rend="smallcaps">augmenté de deux Pièces</hi><lb/>qui n'avaient point
+                     encore été im-<lb/>primées, et de diverses Poésies du <lb/>même Auteur.</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Aux dépens des associés.</publisher>
+                     <date when="1768">1759</date>
+                     <note>Tome premier.</note>
+                     <note>Avec Approbation et Privilège du Roi.</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>L'orthographe d'origine a été respectée, ainsi que l'usage des majuscules.
+                  Cependant, certains caractères ont été tacitement remplacés, comme l'esperluette,
+                  ainsi que les s longs. De même, les coupures de ligne de l'édition suivie pour
+                  l'établissement du texte n'ont pas été respectées, ni indiquées. On a dissimilé
+                  certains mots que le typographe avait soudés, comme "mondieu". L'objectif de cette
+                  édition est avant tout de produire une copie du texte original, enrichie avec des
+                  balises pour permettant des analyses littéraires. Il ne s'agit donc pas de donner
+                  à lire le meilleur texte possible, mais le texte de ce témoin particulier, qui par
+                  ailleurs servira comme support pour des manipulations futures. </p>
+            </correction>
+         </editorialDecl>
+         <fsdDecl>
+            <fsDecl type="character_specification">
+               <fDecl name="temper">
+                  <vRange>
+                     <string/>
+                  </vRange>
+               </fDecl>
+               <fDecl name="social_position">
+                  <vRange>
+                     <string/>
+                  </vRange>
+               </fDecl>
+               <fDecl name="dress_aspect">
+                  <vRange>
+                     <string/>
+                  </vRange>
+               </fDecl>
+               <fDecl name="age">
+                  <vRange>
+                     <vAlt>
+                        <symbol value="young" xml:id="AGY"/>
+                        <symbol value="old" xml:id="AGO"/>
+                        <symbol value="child" xml:id="AGC"/>
+                        <symbol value="adult" xml:id="AGA"/>
+                        <symbol value="unknown" xml:id="AGU"/>
+                     </vAlt>
+                  </vRange>
+               </fDecl>
+               <fDecl name="sex">
+                  <vRange>
+                     <vAlt>
+                        <symbol value="male" xml:id="SM"/>
+                        <symbol value="female" xml:id="SF"/>
+                        <symbol value="undetermined" xml:id="SU"/>
+                     </vAlt>
+                  </vRange>
+               </fDecl>
+               <fDecl name="nationality">
+                  <vRange>
+                     <string/>
+                  </vRange>
+               </fDecl>
+               <fDecl name="ontological_category">
+                  <vRange>
+                     <vAlt>
+                        <symbol value="human" xml:id="OCH"/>
+                        <symbol value="non-human" xml:id="OCNH"/>
+                        <symbol value="semi-human" xml:id="OCSH"/>
+                     </vAlt>
+                  </vRange>
+               </fDecl>
+               <fDecl name="family_position">
+                  <vRange>
+                     <vColl>
+                        <symbol value="father" xml:id="FPF"/>
+                        <symbol value="son" xml:id="FPSON"/>
+                        <symbol value="daughter" xml:id="FPD"/>
+                        <symbol value="mother" xml:id="FPM"/>
+                        <symbol value="uncle" xml:id="FPU"/>
+                        <symbol value="aunt" xml:id="FPA"/>
+                        <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                        <symbol value="sister" xml:id="FPSIS"/>
+                        <symbol value="brother" xml:id="FPB"/>
+                        <symbol value="cousin" xml:id="FPC"/>
+                        <symbol value="step-mother" xml:id="FPSM"/>
+                        <symbol value="step-father" xml:id="FPSF"/>
+                        <symbol value="step-daughter" xml:id="FPSD"/>
+                        <symbol value="step-son" xml:id="FPSS"/>
+                        <symbol value="guardian" xml:id="FPG"/>
+                        <symbol value="ward" xml:id="FPWA"/>
+                        <symbol value="husband" xml:id="FPH"/>
+                        <symbol value="wife" xml:id="FPWIF"/>
+                        <symbol value="widow" xml:id="FPWID"/>
+                        <symbol value="widower" xml:id="FPWIDR"/>
+                     </vColl>
+                  </vRange>
+               </fDecl>
+               <fDecl name="actantial_role">
+                  <vRange>
+                     <vColl>
+                        <symbol value="lover" xml:id="ARL"/>
+                        <symbol value="subject" xml:id="ARS"/>
+                        <symbol value="opponent" xml:id="AROP"/>
+                        <symbol value="adjuvant" xml:id="ARAD"/>
+                        <symbol value="authority" xml:id="ARAUT"/>
+                        <symbol value="trouble_maker" xml:id="ARTM"/>
+                        <symbol value="episodic" xml:id="AREP"/>
+                     </vColl>
+                  </vRange>
+               </fDecl>
+               <fDecl name="occupation">
+                  <vRange>
+                     <string/>
+                  </vRange>
+               </fDecl>
+               <fDecl name="collective_character">
+                  <vRange>
+                     <binary value="true" xml:id="COLL"/>
+                  </vRange>
+               </fDecl>
+            </fsDecl>
+         </fsdDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation><date when="1685-07-06">6 juillet 1685</date><rs type="city">Paris,
+            France.</rs></creation>
+         <textClass>
+            <keywords>
+               <term>Théâtre</term>
+               <term>Comédie</term>
+               <term>Prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <titlePart type="main">LES ENLEVEMENS,</titlePart>
+            <titlePart type="desc" rend="italics">COMEDIE.</titlePart>
+         </titlePage>
+         <castList>
+            <head rend="italics">ACTEURS.</head>
+            <castItem><role>M. de la DAVOISIERE<pc>.</pc></role></castItem>
+            <castItem><role>M. de la SOZIERE<pc>.</pc></role></castItem>
+            <castItem><role>LE COMTE<pc>,</pc></role>
+               <roleDesc>Fils de M. de la Davoisiere.</roleDesc></castItem>
+            <castItem><role>LE CHEVALIER<pc>,</pc></role>
+               <roleDesc>Fils de M. de la Davoisiere.</roleDesc></castItem>
+            <castItem><role>LEONOR<pc>,</pc></role>
+               <roleDesc>Fille de M. de la Soziere.</roleDesc></castItem>
+            <castItem><role>M. GUILLAUME<pc>,</pc></role>
+               <roleDesc>Fermier de M. de la Davoisiere.</roleDesc></castItem>
+            <castItem><role>BABET<pc>,</pc></role>
+               <roleDesc>Fille de M. Guillaume.</roleDesc></castItem>
+            <castItem><role>PELLERIN<pc>,</pc></role>
+               <roleDesc>vieux Domestique de M. de la Davosiere.</roleDesc></castItem>
+            <castItem><role>VINCENT<pc>,</pc></role>
+               <roleDesc>Païsan.</roleDesc></castItem>
+            <castItem><role>PIERROT<pc>,</pc></role>
+               <roleDesc>Païsan.</roleDesc></castItem>
+         </castList>
+         <set rend="italics">
+            <p>La Scene est dans la Place du Château de la Davoisiere.</p>
+         </set>
+      </front>
+      <body>
+         <div type="scene" n="1" xml:id="I">
+            <head>SCENE I.</head>
+            <stage>M. DE LA DAVOISIERE, PELLERIN, M. GUILLAUME.</stage>
+            <sp who="Guillaume" xml:id="I_1">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Je vous avoue, Monsieur, que l'année n'a pas été mauvaise, et que j’ai gagné
+                  quelque chose avec vous. Hé ! que seroit-ce enfin s'il falloit toujours
+                  perdre?</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_2">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Allons, allons Monsieur Guillaume, parlons de bonne foi: Vous n'avez jamais rien
+                  perdu avec moi, et je n'en suis pas fâché, je vous jure. Je ne vous dis pas cela
+                  même, <pb n="122"/> pour vous obliger à l'avenir à tenir mes terres à un plus haut
+                  prix.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="I_3">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Un autre peut-être vous en donneroit davantage, et ne vous payeroit pas si
+                  bien.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_4">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>C'est ce que je considere. On n'a point besoin de caution avec vous, et l'on peut
+                  dire ici que le Fermier est plus riche que le Maître. Votre fille Babet, si vous
+                  continuez, sera un des plus gros partis de la Province.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="I_5">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Hé! de grace, Monsieur, épargnez-moi.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_6">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Je ne raille point.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="I_7">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Hé! Monsieur, je ne suis pas si riche qu'on s'imagine ; et quand je le serois, qui
+                  jetteroit les yeux sur une pauvre petite Païsanne?</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_8">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Écoutez: Autrefois on y auroit pu faire quelque scrupule, oui ; et j’ai vu de mon
+                  temps, que c’étoit un grand crime que de se mésallier: mais à présent, tout cela
+                  est bien changé.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="I_9">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Oh bien, Monsieur, pour moi, s'il m'est permis de raisonner là-dessus, je crois,
+                  si c'étoit autrefois un crime à un homme de condition d'épouser une paysanne
+                  riche, que c’étoit une grande sottise au Païsan de donner sa fille à un
+                  Gentilhomme ; et je ne me souviens pas <pb n="123"/> bien d'où j’ai retenu que
+                  l'on ne vit heureux qu'avec ses égaux.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_10">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p> Adieu Monsieur Guillaume, ayez toujours bien soin de mes affaires. Pellerin, je
+                  vais dîner chez Monsieur de la Marcilliere, j'y pourrais bien souper peut-être.
+                  Avez-vous fait seller le Superbe?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="I_11">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oui Monsieur, mais j’ai bien peur qu'on ne soit contraint de lui changer ce nom
+                  dans peu. La pauvre bête commence à se sentir de la vieillesse; et ses
+                  génuflexions continuelles vous feront avouer, peut-être à vos dépens, que l'Humble
+                  ou le Civil seroient des noms qui lui conviendraient mieux.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_12">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Je ne m'en suis pas encore aperçu.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="I_13">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Tant mieux pour vous.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_14">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Monsieur Guillaume, faites dresser toutes vos quittances, je les signerai à mon
+                  retour.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="I_15">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Oui Monsieur.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_16">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Pellerin, vous direz à ma femme où je suis allé.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="I_17">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oui Monsieur.</p>
+            </sp>
+            <pb n="124"/>
+            <sp who="Davoisiere" xml:id="I_18">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Monsieur Guillaume, envoyez Babet au Château pour la divertir. Une pauvre malade
+                  est ravie d'avoir quelqu'un pour s'amuser.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="I_19">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Je n'y manquerai pas.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_20">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Pellerin, la Fille de Monsieur de la Soziere, ma bru prétendue, doit venir voir ma
+                  femme: dites bien à mon fils le Comte, qu'il ne sorte pas aujourd'hui, afin qu'il
+                  se trouve pour la recevoir.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="I_21">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>C'est assez.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_22">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Monsieur Guillaume... J'avois encore quelque chose à vous dire.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="I_23">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Que vous plaît-il?</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_24">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Je m'en souviendrai. Pellerin ?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="I_25">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Monsieur?</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_26">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p> Prenez garde que mon fils le Chevalier ne fasse de sottise.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="I_27">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>J'y aurai l'œil.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I_28">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Ah! Je m'en ressouviens, Monsieur Guillaume; n'oubliez pas, un des jours de
+                     cette<pb n="125"/> semaine, de passer au Moulin rouge et d'observer ce qu'il y
+                  a à faire.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="I_29">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p> J'irai, Monsieur.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="I30">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Attendez. Est-ce tout? Oui. Adieu.</p>
+            </sp>
+         </div>
+         <div type="scene" n="2" xml:id="II">
+            <head>SCENE II.</head>
+            <stage>PELLERIN, M. GUILLAUME.</stage>
+            <sp who="Pellerin" xml:id="II_1">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Monsieur Guillaume voudra-t-il bien permettre que Pellerin le félicité des
+                  grandes alliances où sa bonne fortune pourra le faire entrer? Notre Maître a bien
+                  raison, votre fille Babet ne va pas être mal courue de tous nos houbereaux. </p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_2">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Mon pauvre Pellerin, tu me prends pour un grand sot, si tu me crois entêté de ces
+                  chimères.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_3">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oh! Monsieur, je vous prends pour ce que vous êtes; c'est-à-dire, pour un homme
+                  merveilleusement entendu dans toutes les affaires.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_4">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>J'en donnerais là de belles marques, ma foi.</p>
+            </sp>
+            <pb n="126"/>
+            <sp who="Pellerin" xml:id="II_5">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ecoutez, après quelques réflexions...</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_6">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>J'irais me rendre esclave?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_7">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je ne désapprouve pas tout à fait...</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_8">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>D'autres jouiroient des fruits de mes travaux?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_9">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Franchement, il n'est pas mal aisé de voir...</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_10">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Les enfants de ma fille seraient plus grands Seigneurs que moi? </p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_11">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Il y a bien des choses à dire là-dessus.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_12">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Je les appellerois Messieurs?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_13">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Il est vrai...</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_14">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Il faudroit me tenir à l'écart quand il y auroit compagnie?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_15">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Il est certain...</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_16">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Je n'oserois pas dire le moindre mot pour rire?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_17">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je vois.</p>
+            </sp>
+            <pb n="127"/>
+            <sp who="Guillaume" xml:id="II_18">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Pas la moindre petite familiarité?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_19">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je n'ai garde...</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_20">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Je ne boirois pas avec mon gendre?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_21">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Quelle apparence...</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_22">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Pas la moindre partie de boule?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_23">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Vraiment... </p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_24">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p> Aux Dames?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_25">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Mais...</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_26">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Au Piquet?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_27">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Si...</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_28">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>La promenade?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_29">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Quoi?</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_30">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p> Non, Monsieur Pellerin, voyez-vous, cela est inutile, et je n'en ferai jamais
+                  qu'à ma tête.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_31">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Hé! Qui diantre vous dit le contraire?</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_32">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p> Vous, qui depuis une heure ne faites que me contester.</p>
+            </sp>
+            <pb n="128"/>
+            <sp who="Pellerin" xml:id="II_33">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Il y a une heure que je vous dis que vous avez raison.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_34">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>J’ai lu quelque part une belle sentence, lorsque... Ah! Elle est tout à fait
+                  belle.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_35">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oh! Je le crois.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_36">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Oh! Belle tout à fait.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_37">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Dites-la donc.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_38">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>La voilà: quiconque entre dans la maison d'un grand, serf il devient; c'est
+                     <name>Plutarque</name> qui dit cette belle chose.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_39">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Et ce Plutarque-là n'a pas tort.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_40">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Il y a environ vingt ans qu'un des amis d'un grand Seigneur que je servois ne
+                  voulut point aller jusqu'au Château de mon Maître, où ils devaient passer ensemble
+                  quelques jours, parce qu'en passant par Angers, ils trouvèrent malheureusement
+                  dans un cabaret un Plutarque ouvert; et l'ami de mon Maître, qui n'étoit pas si
+                  grand Seigneur que lui, jetant les yeux par hasard sur cette sentence, ne voulut
+                  jamais poursuivre le voyage, quoi qu'il ne fut qu'à quatre petites lieues de sa
+                  maison.</p>
+            </sp>
+            <pb n="129"/>
+            <sp who="Pellerin" xml:id="II_41">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Cet ami-là étoit un homme de bon sens; et franchement, Monsieur, je sens bien
+                  mieux que vous, qu'à quelque sauce qu'on mette la servitude, elle est toujours
+                  affreuse, et qu'enfin les gens de bon esprit, ne doivent servir que pour ne plus
+                  servir.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_42">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>C'est ainsi que j’ai fait; et j'espère avant qu'il soit peu, ne me mêler que de
+                  mes affaires, et devenir absolument mon maître.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_43">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>C'est prudemment avisé; et si j'étais de vous, je prendrois pour mon gendre
+                  quelqu'un qui me pût servir, moi, sur mes vieux jours.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_44">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>C'est bien là mon dessein.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_45">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Qui eut pour moi de la complaisance.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_46">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>C'est comme je l'entends.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_47">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Des égards, et des soumissions même.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_48">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Assurément.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_49">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Qui m'aimât.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_50">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Oui.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_51">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Qui me fît le parrain de son premier enfant.</p>
+            </sp>
+            <pb n="130"/>
+            <sp who="Guillaume" xml:id="II_52">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Je le prétends bien ainsi.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_53">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Vous voyez que je sais ce qu'il vous faut.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_54">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Cela est vrai.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_55">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Un homme enfin, qui tînt toute sa fortune de moi.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_56">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Hem?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_57">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Quoi?</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_58">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Que dis-tu?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_59">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je dis que vous ne prendrez pas garde au bien.</p>
+            </sp>
+
+            <sp who="Guillaume" xml:id="II_60">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Oh! pardonnez-moi, pardonnez-moi.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_61">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je n'en ai pourtant guéres.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_62">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p> Aussi n'est-ce pas toi que je regarde pour mon gendre.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="II_63">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>J’ai pourtant, au bien près, toutes les qualités...</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_64">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Cela ne suffit pas.</p>
+            </sp>
+            <pb n="131"/>
+            <sp who="Pellerin" xml:id="II_65">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Hé! Pourquoi?</p>
+            </sp>
+            <sp who="Guillaume" xml:id="II_66">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Hé! Je ne sais. Adieu, Pellerin.</p>
+            </sp>
+         </div>
+         <div type="scene" n="3" xml:id="III">
+            <head>SCENE III.</head>
+            <sp who="Pellerin" xml:id="III-1">
+               <speaker>PELLERIN<pc>,</pc></speaker>
+               <stage rend="italics" type="location">seul.</stage>
+               <p>Voilà donc toutes mes mesures rompues, et la charmante Babet sera pour un autre
+                  que moi. J'enrage. N'importe, pourvu que ce ne soit point Pierrot ou Vincent qui
+                  l'épouse, je suis à demi consolé. Les Rivaux connus et de notre compétence à peu
+                  prés sont, ce me semble, plus chagrinants que les autres. Oh parbleu! je ferai si
+                  bien en sorte, que du moins je n'aurai pas honte de la céder à celui qui l'aura.
+                  On ne peut juger encore de quel côté ses inclinations penchent, et la pauvre
+                  petite ne sait pas encore qu'elle a un cœur, ou du moins elle ignore à quel usage
+                  on doit le mettre. Cette pauvre enfant, qu'elle est jolie! Mais si je l'enlevois?
+                  Justement. Mais ce vieillard est obstiné comme un diable, et j'aurois peur qu'il
+                  ne me fit enlever à mon tour pour me faire élever un peu plus haut qu'il ne
+                  faudroit. Il faut que je sois diablement amoureux! car il me passe par la tête des
+                  entreprises bien dangereuses.</p>
+            </sp>
+         </div>
+         <pb n="132"/>
+         <div type="scene" n="4" xml:id="IV">
+            <head>SCENE IV</head>
+            <stage>PELLERIN, LE COMTE<pc>.</pc></stage>
+            <sp who="Comte" xml:id="IV_1">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Pellerin, Pellerin?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IV_2">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Monsieur.</p>
+            </sp>
+            <sp who="Comte" xml:id="IV_3">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Vas-t-en vîte dans la Cour du Château.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IV_4">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Qu'y ferai-je?</p>
+            </sp>
+            <sp who="Comte" xml:id="IV_5">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Vas vîte; où vas-tu?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IV_6">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je cours où vous me dites.</p>
+            </sp>
+            <sp who="Comte" xml:id="IV_7">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Apprends donc auparavant ce que je veux de toi.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IV_8">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je croyois qu'il ne falloit que courir.</p>
+            </sp>
+            <sp who="Comte" xml:id="IV_9">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Tu trouveras Leonor qui va descendre de carrosse, conduis-la dans la chambre de ma
+                  mère, et dis, surtout, que je suis allé à la chasse; car je ne la veux point
+                  voir.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IV_10">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Hé! pourquoi, s'il vous plaît, tout prêt à l'épouser...</p>
+            </sp>
+            <pb n="133"/>
+            <sp who="Comte" xml:id="IV_11">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p> Ne perds point de temps, fais ce que je te dis, et viens me retrouver, je
+                  t'apprendrai bien d'autres choses.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IV_12">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je reviens tout-à-l'heure.</p>
+            </sp>
+         </div>
+         <div type="scene" n="5" xml:id="V">
+            <head> SCENE V</head>
+            <sp who="Comte" xml:id="V_1">
+               <speaker>LE COMTE<pc>,</pc></speaker>
+               <stage>seul</stage>
+               <p>Ah! qu'il s'en faut que je ne sois près d'épouser Leonor, comme mon Pere se
+                  l'imagine; mes vœux, ma tendresse, mes soins m'entraînent bien ailleurs. Je ne
+                  veux point me faire un malheur eternel, je ne l'aime plus, ou plutôt je ne l'ai
+                  jamais aimée, puisque je n'ai jamais senti ce que je sens aujourd'hui. Que de
+                  mouvements que j'avois ignorés! Que d'inquiétudes! Que d'alarmes! Que de soupirs!
+                  Non, Leonor, je ne vous ai jamais aimée. </p>
+            </sp>
+         </div>
+         <pb n="134"/>
+         <div type="scene" n="6" xml:id="VI">
+            <head>SCENE VI.</head>
+            <stage>PELLERIN, LE COMTE.</stage>
+            <sp who="Pellerin" xml:id="VI_1">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Monsieur, je me suis acquitté de la commission que vous m'avez donnée. Si vous
+                  aviez vu, Monsieur, quelle tristesse répandue sur le visage de Madame Leonor! Si
+                  vous aviez été témoin de ses soupirs, lorsque je lui ai dit...</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_2">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Tais-toi, je ne veux pas t'entendre davantage; ce que tu me dirois me donneroit de
+                  la peine, et ne me feroit point changer la résolution que j’ai prise.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_3">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Quelle résolution, je vous prie?</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_4">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p> Je ne veux plus l'épouser, et je suis amoureux ailleurs.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_5">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Et de qui, de par tous les Diables?</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_6">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p> De Babet.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_7">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>De Babet!</p>
+            </sp>
+            <pb n="135"/>
+            <sp who="Comte" xml:id="VI_8">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p> D'elle-même.</p>
+            </sp>
+
+            <sp who="Pellerin" xml:id="VI_9">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Il ne me falloit plus que cela.</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_10">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Mon cher Pellerin, que faut-il que je fasse? Car enfin je l'adore.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_11">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ma foi, Monsieur, je ne vois rien ici que de très fort embarrassant.</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_12">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Mon cher enfant, je n'ai recours qu'à toi.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_13">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Mais auparavant que de m'en mêler, il seroit bon, ce me semble, de savoir ce que
+                  vous voulez faire de Babet; car enfin je ne veux rien faire ici qui blesse ma
+                  conscience.</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_14">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Ce que j'en veux faire, Pellerin? L'aimer, la servir, l'adorer, la respecter comme
+                  tout ce que j'aurai de plus cher au monde. </p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_15">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Voilà les plus beaux mots du monde; mais, si je ne me trompe, je ne vous ai point
+                  entendu proférer les essentiels.</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_16">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Hé, que veux-tu donc que je te dise?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_17">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Hé, devinez.</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_18">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Ne me fais point languir, que faut-il faire davantage?</p>
+            </sp>
+            <pb n="136"/>
+            <sp who="Pellerin" xml:id="VI_19">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ce qu'il faut faire?</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_20">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p> Oui.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_21">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>L'épouser.</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_22">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p> C'est comme je l'entends.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_23">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Oh! en ce cas ne vous mettez pas en peine, vous n'avez qu'à me laisser faire...
+                  Oui... Non... Il ne le fera jamais... Il n'y consentira point, vous dis-je, il ne
+                  voudra point se faire un ennemi de Monsieur de la Soziere... De l'autre côté vous
+                  ne courez aucun risque, cela est certain. Etes-vous fort amoureux?</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_24">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p> On ne peut l'être autant que je le suis.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_25">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Il faut enlever Babet, c'est le plus court. Je vous conseille comme pour moi.</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_26">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>C'est déjà à quoi j'avois songé.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_27">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Vous voyez que les beaux esprits se rencontrent. Oh, ça donc, puisque vous êtes
+                  si bien résolu à la chose, vous n'avez qu'à vous trouver sur les six heures et
+                  demie. La peste, non, il fait encor jour; sur les sept heures, cela ne sera pas
+                  mal; vous n'avez, dis-je, qu'à <pb n="137"/>vous trouver vers ce grand noyer que
+                  vous voyez d'ici dans cette Isle à l'heure que je vous marque; je trouverai
+                  quelque moyen pour la faire roder par là, ou bien en me promenant avec elle, je
+                  l'y conduirai moi-même. Cachez-vous bien derrière la haie, et votre cheval aussi;
+                  lorsque vous la tiendrez, vous en ordonnerez ensuite tout comme il vous
+                  plaira.</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_28">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Je puis me reposer sur toi?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_29">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Cela vaut fait.</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_30">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Tu t'en ressouviendras?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VI_31">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Hé! Oui, vous dis-je, allez-vous-en. Je vois votre petit frère le Chevalier qui
+                  vient ici; il se douteroit peut-être tantôt que ce seroit moi qui vous auroit
+                  donné ces beaux conseils-là; mais Dieu m'en garde, je ne suis pas capable de
+                  cela.</p>
+            </sp>
+            <sp who="Comte" xml:id="VI_32">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Adieu donc.</p>
+            </sp>
+         </div>
+         <pb n="138"/>
+         <div type="scene" n="7" xml:id="VII">
+            <head>SCENE VII;</head>
+            <stage> PELLERIN, LE CHEVALIER.</stage>
+            <sp who="Pellerin" xml:id="VII_1">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Par ma foi, le pauvre Monsieur Guillaume, aussi bien que moi, comptoit tantôt sans
+                  son hôte: il ne vouloit point de Gentilhomme, il en aura un; je souhaitois
+                  d'épouser sa fille, j'en suis bien éloigné, je ne saurais faire un pas qui ne
+                  recule mes affaires.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_2">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Où est-elle? hé mon Dieu! ne la rencontrerai-je point?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_3">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Qui?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_4">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Ce que je cherche.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_5">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Que cherchez-vous?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_6">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Je cherche.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_7">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je cherche, je cherche. Il y a deux ou trois ans que vous auriez cherché le fouet;
+                  mais à présent, que vous commencez à être grand, que vous avez la clef de vos
+                  chausses, vous <pb n="139"/> vous moquez de tout? que n'allez-vous étudier vos
+                  fortifications? que n'achevez-vous ce plan qui court depuis si longtemps sur une
+                  table? que ne lisez-vous quelque histoire? Au moins, Monsieur le Chevalier, vous
+                  savez que c'est votre Pere qui m'autorise à vous parler comme je fais. A quoi vous
+                  amusez-vous? il ne grondera pas mal tantôt, lorsqu'il ne verra rien de fait.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_8">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Mon pauvre Pellerin, je me jette à tes genoux.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_9">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Allez, levez-vous, je ne lui dirai rien de toutes vos fredaines.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_10">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Ce n'est pas là ce qui cause mon désespoir.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_11">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Vous voulez peut-être aller voir quelqu'un de vos camarades? Allez, allez, je ne
+                  le dirai pas.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_12">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p> Mon pauvre Pellerin, ce n'est pas cela.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_13">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Avez-vous besoin de quelque argent? Je n'en ai guéres; mais enfin...</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_14">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p> Tu n'entres point dans le fonds de mon cœur.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_15">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Ouais? Avez-vous reçu quelque déplaisir?</p>
+            </sp>
+            <pb n="140"/>
+            <sp who="Chevalier" xml:id="VII_16">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Je suis au désespoir.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_17">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Madame votre mère vous a-t-elle querellé?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_18">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Tu ne dis rien de tout ce qui cause ma douleur.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_19">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oh! dites-le donc vous-même, car par ma foi je suis à bout.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_20">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p> Ah Pellerin!</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_21">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Qu'y a-t-il?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_22">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Je vois...</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_23">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Hé bien?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_24">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Je vois...</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VII_25">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Que voyez-vous?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VII_26">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Je vois, te dis-je...</p>
+            </sp>
+         </div>
+         <pb n="141"/>
+         <div type="scene" n="8" xml:id="VIII">
+            <head>SCENE VIII.</head>
+            <stage> PELLERIN, LE CHEVALIER, BABET.</stage>
+            <sp who="Pellerin" xml:id="VIII_1">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ah par ma foi, je vois, je vois: je vois que je ne vois que trop aussi.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_2">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p> Mon pauvre Pellerin, ne m'abandonne pas.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VIII_3">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Qu'est-ce donc à dire?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_4">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Babet... Pellerin, encore une fois... Babet.</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_5">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p> Monsieur.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_6">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Ne vous en allez pas, Pellerin.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VIII_7">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Hé bien, Pellerin, Pellerin, qu'est-ce?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_8">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Je suis perdu.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VIII_9">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ces pauvres enfants, ils ne savent comment s'y prendre, par ma foi, ils me font
+                  pitié tous deux, voyons un peu la fin de tout ceci.</p>
+            </sp>
+            <pb n="142"/>
+            <sp who="Babet" xml:id="VIII_10">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Que me voulez-vous donc, Monsieur le Chevalier?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_11">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Je voudrois bien que vous demeurassiez un peu là.</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_12">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Je ne saurois; je vais trouver Madame pour la divertir un peu.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_13">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p> Demeurez ici un moment, je vous prie.</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_14">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Monsieur le Chevalier, ne m'approchez pas.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_15">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Laissez-moi vous parler.</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_16">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>J'appellerai mon Pere. Mon Pere!</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_17">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Hé bien, non, je ne vous approcherai pas; mais laissez-moi vous voir.</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_18">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Dépêchez-vous donc.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_19">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Hélas! Babet; que vous me haïssez?</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_20">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Moi! Point, je ne vous hais pas.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_21">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Laissez-moi baiser votre main.</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_22">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Mon Pere!</p>
+            </sp>
+            <pb n="143"/>
+            <sp who="Chevalier" xml:id="VIII_23">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Hé bien! non, non, non. Babet, voulez-vous que je vous donne des confitures?</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_24">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p> Non.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_25">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>J’ai là des petits abricots verts; en voulez-vous?</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_26">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Non.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_27">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Voulez-vous une orange?</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_28">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Non.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_29">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Que voulez-vous donc que je vous donne?</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_30">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Rien.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_31">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Babet, le brocard de votre corps n'est pas joli, et j’ai de quoi, si vous le
+                  voulez, vous en faire un bien plus beau.</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_32">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Mon Pere ne veut pas que je prenne rien.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_33">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Il ne saura pas qu'il vient de moi. Babet, je vous le ferai donner par ma Mere. Le
+                  voulez-vous? hem? Dites.</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_34">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Oui.</p>
+            </sp>
+            <pb n="144"/>
+            <sp who="Chevalier" xml:id="VIII_35">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>M'aimerez-vous après cela, Babet?</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_36">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Oui.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_37">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>De tout votre cœur?</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_38">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Oui.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_39">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Viendrez-vous vous promener dans l'Isle avec moi?</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_40">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Non.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_41">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Ah! Babet, vous voulez me désespérer?</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_42">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p> Non.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_43">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Je vous assure pourtant que si vous ne souffrez que je baise votre main, je vais
+                  mourir.</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_44">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Non.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_45">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Enfin Babet, vous ne voulez donc pas que je la baise?</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_46">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Je ne veux pas que vous mouriez.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_47">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Ah ma chère Babet!</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_48">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Je n'ai jamais voulu la laisser baiser à Mon- <pb n="145"/>sieur le Comte, et si,
+                  il m'en disoit autant que vous.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VIII_49">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Courage, cela ne va pas mal, vous n'avez qu'à continuer. Peste, mon petit
+                  Monsieur, que vous avez l'air tendre!</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_50">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Quel temps prends-tu?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VIII_51">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je suis en droit de vous reprendre; votre Pere (vous le savez) m'a donné ce soin;
+                  et ce ne sont pas les exemples que ce Philosophe, qui vous a enseigné, et moi,
+                  nous vous avons donnés. Et vous, la gentille Mignonne qui donnez ainsi votre main
+                  à baiser, qui vous a montré à le faire?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_52">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Oh! Je te prie, querelle-moi tant que tu voudras; mais que ta colère la
+                  respecte.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="VIII_53">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je veux lui parler, moi. Toutes ces intrigues-là...</p>
+            </sp>
+            <sp who="Chevalier" xml:id="VIII_54">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Je ne le souffrirai point, te dis-je, et malgré les ordres de mon Pere, je t'en
+                  ferai repentir, si tu lui dis un seul mot.</p>
+            </sp>
+            <sp who="Babet" xml:id="VIII_55">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p>Monsieur, Monsieur? Pellerin, ne vous fâchez pas; je vais trouver Madame.</p>
+            </sp>
+         </div>
+         <pb n="146"/>
+         <div type="scene" n="9" xml:id="IX">
+            <head>SCENE IX.</head>
+            <stage>LE CHEVALIER, PELLERIN.</stage>
+            <sp who="Chevalier" xml:id="IX_1">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p> Tu triomphes enfin, la voilà partie, mais tu n'avances rien, je veux bien t'en
+                  informer; et malgré tes soins, ta vigilance et les menaces de mon Pere, je
+                  l'aimerai, je la servirai, je l'adorerai le reste de ma vie.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IX_2">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Comment donc? qu'est-ce à dire ceci? Est-ce là de la façon dont on doit
+                  parler?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="IX_3">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Hé bien, j’ai tort, je le confesse, je change de discours; et je te prie, au nom
+                  de ce qui te peut toucher davantage, premierement, de ne point parler de ceci à
+                  mon Pere; et je te conjure, toi qui as pris tant de peine pour moi dans ma
+                  jeunesse, de ne perdre pas en un moment tout le fruit de tes soins, et de me
+                  servir dans mon amour.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IX_4">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Il me fait entrer dans ses douleurs; Hé bien, qui l'auroit jamais cru de ce petit
+                  traître-là? Il n'y a pas deux ans que je lui donnois le fouet. Quels discours!
+                  quels transports! je suis tout <pb n="147"/> stupéfait; et je sens qu'il me
+                  débauche aussi.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="IX_5">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p> Tiens, vois-tu, si tu ne me sers, mon pauvre Pellerin, je me tuerai.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IX_6">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je n'y puis plus tenir, il m'arrache des larmes.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="IX_7">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Si tu as dans ton cœur quelque amitié pour moi...</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IX_8">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Levez-vous.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="IX_9">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Seras-tu sensible à mes soupirs?</p>
+            </sp>
+
+            <sp who="Pellerin" xml:id="IX_10">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oui.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="IX_11">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>J'obtiendrai de toi le secours que j'implore?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IX_12">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oui.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="IX_13">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Enfin, tu feras en sorte que je serai heureux?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IX_14">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oui, levez-vous, vous dis-je.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="IX_15">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Oh, mon cher Pellerin, que je te serai obligé!</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IX_16">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Tenez, quand il seroit sorti de moi, je ne <pb n="148"/>sentirais pas plus de
+                  tendresse. Je l'ai porté si longtemps dans mes bras.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="IX_17">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Souviens-toi bien, au moins, de ce que tu me promets.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IX_18">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Oui, je m'en souviendrai. Mais il n'y a point de temps à perdre: votre Frere est
+                  amoureux de Babet aussi bien que vous; j’ai promis de le servir; comment faire? il
+                  faut le prévenir. J'entrevois quelqu'un... A sept heures au moins... Vous la
+                  mènerez...</p>
+            </sp>
+            <sp who="Chevalier" xml:id="IX_19">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p> Ne viendras-tu pas avec moi?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="IX_20">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Non, je resterai ici pour raccommoder toutes les affaires. Allez, vous dis-je,
+                  retirez-vous: je ne me trompois point, et c'est justement l'épouse prétendue de
+                  Monsieur le Comte.</p>
+            </sp>
+         </div>
+         <div type="scene" n="10" xml:id="X">
+            <head>SCENE X.</head>
+            <stage>PELLERIN, LÉONOR, LE CHEVALIER.</stage>
+            <sp who="Leonor" xml:id="X_1">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Monsieur le Chevalier, n'avez-vous point vu Monsieur le Comte?</p>
+            </sp>
+            <pb n="149"/>
+            <sp who="Chevalier" xml:id="X_2">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p> Madame, il me semble que je l'ai vu tout-à-l'heure qui se promenoit vers le
+                  bois.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="X_3">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Vous vous estes trompé, car il est party ce matin pour aller à la chasse.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="X_4">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Je ne me trompe point, c’étoit lui-même.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="X_5">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Il m'avoit pourtant dit qu'il iroit à la chasse.</p>
+            </sp>
+            <sp who="Leonor" xml:id="X_6">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Il t'avoit dit de dire, qu'il y étoit allé.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="X_7">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Il faut que ce soit quelque chose comme cela.</p>
+            </sp>
+            <sp who="Leonor" xml:id="X_8">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p> Oh! assurément. Pellerin, écoute. Monsieur le Chevalier, vous voulez bien que je
+                  lui dise un mot?</p>
+            </sp>
+            <sp who="Chevalier" xml:id="X_9">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Volontiers, Madame, je me retire. Pellerin, au moins je ferai tout ce que tu m'as
+                  dit.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="X_10">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je le veux bien, faites, j'aurai soin du reste.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="X_11">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Madame, je vous donne le bon jour.</p>
+            </sp>
+         </div>
+         <pb n="150"/>
+         <div type="scene" n="11" xml:id="XI">
+            <head>SCENE XI.</head>
+            <stage>PELLERIN, LÉONOR.</stage>
+            <sp who="Leonor" xml:id="XI_1">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Je vais vous rejoindre bientôt. Oh ça, Pellerin, il faut ici de la bonne foi, mon
+                  enfant. Je vois ici bien des choses que tu n'ignores pas, et c'est peut-être toi
+                  qui mène l'intrigue, j’ai lieu de le croire, du moins par le mystère que tu viens
+                  toi-même de me faire. Le Comte, disois-tu, étoit allé à la chasse; et je l'ai vu
+                  qui se promenoit de la fenêtre où j'étois: voici déjà un mensonge. Une personne
+                  qui se défie n'est pas longtemps sans découvrir les choses qu'elle veut
+                  savoir.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XI_2">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je me donne au diable, Madame, si je comprends rien à tout ce que vous dites. </p>
+            </sp>
+            <sp who="Leonor" xml:id="XI_3">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p> Voici qui me fera mieux entendre, tiens...</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XI_4">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Effectivement, cela ouvre merveilleusement l'esprit.</p>
+            </sp>
+            <sp who="Leonor" xml:id="XI_5">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Veux-tu me servir?</p>
+            </sp>
+            <pb n="151"/>
+            <sp who="Pellerin" xml:id="XI_6">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> De tout mon cœur.</p>
+            </sp>
+            <sp who="Leonor" xml:id="XI_7">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p> Mais sincèrement?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XI_8">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Vous n'avez qu'à parler: Etes-vous amoureuse de Babet?</p>
+            </sp>
+            <sp who="Leonor" xml:id="XI_9">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Il n'est point ici question de Babet.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XI_10">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>C'est que Babet est la maladie de ce Païs-ci.</p>
+            </sp>
+            <sp who="Leonor" xml:id="XI_11">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>C'est-à-dire que le Comte en est amoureux?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XI_12">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Vous l'avez dit.</p>
+            </sp>
+            <sp who="Leonor" xml:id="XI_13">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Tu vois bien que je n'ai pas été longtemps sans m'apercevoir de son changement; tu
+                  connais, aussi bien que moi, que ma gloire est trop intéressée dans tout ceci,
+                  pour souffrir qu'une affaire qui traîne depuis si longtemps se rompe sans la
+                  moindre cause apparente. Quand je n'aurais pour le Comte que de l'indifférence, et
+                  même du mépris, car il ne mérite pas que j'aye d'autres sentiments pour lui; quand
+                  j'aurais, dis-je, de la haine, j'aurais les mêmes empressements que je te marque;
+                  et l'éclat que notre mariage a fait dans toute la province, ne me permet plus de
+                  prendre un autre parti désormais.</p>
+            </sp>
+            <pb n="152"/>
+            <sp who="Pellerin" xml:id="XI_14">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>C'est-à-dire que vous voulez l'épouser, à quelque prix que ce soit?</p>
+            </sp>
+            <sp who="Leonor" xml:id="XI_15">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Ou me jeter dans un Couvent, le reste de ma vie.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XI_16">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oh! Par ma foi, gardez-vous-en bien, ce seroit dommage.</p>
+            </sp>
+            <sp who="Leonor" xml:id="XI_17">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Imagine donc ce que nous pouvons faire, avant que ce refroidissement, où le Comte
+                  est pour moi, s'augmente.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XI_18">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Et si je faisois en sorte que votre mariage fut conclu dès ce soir, que me
+                  donneriez-vous?</p>
+            </sp>
+            <sp who="Leonor" xml:id="XI_19">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Je te donnerois plus que tu n'oses espérer.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XI_20">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ecoutez, il faut sans perdre temps que vous... Hé, que diantre, il est impossible
+                  d'être seul un moment. Madame avec votre permission. Pierrot, demeure ici, je vais
+                  te rejoindre; <stage rend="italics" type="delivery">(à part)</stage> et je
+                  t'enseignerai comment il faut faire pour avoir une centaine de coups de bâton.
+                  Tenez, vous voyez bien ce Païsan-là, c'est un des rivaux de Monsieur le Comte.</p>
+            </sp>
+            <sp who="Leonor" xml:id="XI_21">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Juste Dieu!</p>
+            </sp>
+            <pb n="153"/>
+            <sp who="Pellerin" xml:id="XI_22">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Retirons-nous un peu à l'écart, de crainte que ce maraut-là ne nous entende.</p>
+            </sp>
+         </div>
+         <div type="scene" n="12" xml:id="XII">
+            <head>SCENE XII.</head>
+            <stage>PELLERIN, PIERROT.</stage>
+            <sp who="Pierrot" xml:id="XII_1">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Parguié, nous verrons ce qu'aura fait Monsieur Pellerin; il m'avoit promis qu'il
+                  diroit à Babet que je l'aime bien, nous verrons c'en que son éloquence aura
+                  produit. J'aurais possible bien mieux fait de lui parler moi-même: on fait
+                  toujours bien de n'employer personne que soi dans ses affaires, et je crains bien
+                  de m'avoir confié au renard; mais tout coup vaille, il n'y a rien de perdu; ce que
+                  je n'avons pas fait, je le ferons.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_2">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Au moins ne manquez pas de faire avertir votre Pere. Hé bien, qu'est-ce Pierrot?
+                  que me donneras-tu pour une si bonne nouvelle?</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_3">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Palsanguié! Il faut que tu me disais c'en que c'est premier.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_4">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Non, je veux savoir auparavant ce que tu me donneras.</p>
+            </sp>
+            <pb n="154"/>
+            <sp who="Pierrot" xml:id="XII_5">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p> Oh! jarniguenne, ne fais point comme cela le bouffon; dis-le-moi vîte.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_6">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Prie m'en donc bien fort.</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_7">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Oh, parguié voire, je ne saurois tant faire de cérimonie, dis-le si tu veux.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_8">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Tu ne le sauras donc point.</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_9">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Morguié, je ne saurois tant faire de façons; et je m'en vais, sans tant de
+                  préambule, la demander à son Pere.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_10">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Tu gâteras tout.</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_11">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>N'importe, je saurai à quoi m'en tenir.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_12">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Viens, viens, Pierrot, j’ai pitié de toi.</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_13">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Oh bien, dis donc de prime abord ce que tu as à me dire.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_14">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Tu allois mettre les affaires dans un état à ne pouvoir plus se raccommoder; j’ai
+                  sondé le Pere de Babet sur ton chapitre, il m'a d'abord fait voir beaucoup de
+                  difficultés; mais enfin j’ai si bien fait, que je l'ai fait parler; et après
+                  plusieurs épithètes de franc butor, de grand cheval, de gros païsan, et quelques
+                  autres <pb n="155"/> encor dont je veux bien faire grâce à ta modestie, il m'a
+                  déclaré tout net qu'il étrangleroit plutôt sa fille que de te la donner.</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_15">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Est-ce donc là cette belle nouvelle que tu avois à me donner? palsanguenne, qu'il
+                  s'aille promener: on fait toujours bien de l'honneur aux gens de rechercher leurs
+                  filles, s'il est si riche, qu'il dîne deux fois! Vienne qui plante, sont des
+                  choux; si je n'ons celle-là, j'en aurons une autre. Adieu Pellerin, jusqu'au
+                  revoir, je ne serons pas toujours si malheureux; palsanguenne je m'en gausse.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_16">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oh! Oh! Pierrot, tu es bien prompt: tu t'en vas?</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_17">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Oui, parguié.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_18">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Tu ne veux donc point savoir le reste?</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_19">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Et quelque n'y a encor?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_20">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Tu n'es pas si malheureux que tu crois?</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_21">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Hé comment?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_22">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je t'ai gardé le meilleur pour la bonne bouche.</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_23">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Dis donc vite.</p>
+            </sp>
+            <pb n="156"/>
+            <sp who="Pellerin" xml:id="XII_24">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Babet, malgré la résolution de son père, n'en veut point avoir d'autre que
+                  toi.</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_25">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Tout de bon?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_26">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Cela est si vrai, qu'à sept heures, si tu te veux trouver sous le gros orme
+                  là-bas, Babet s'y trouvera, pour te déclarer ses sentiments.</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_27">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p> Oui parguienne, je m'y trouverai.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_28">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Mais, écoute un peu, qu'elle ne te voie pas habillé comme te voila?</p>
+            </sp>
+
+            <sp who="Pierrot" xml:id="XII_29">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Je mettrai mon habit des Dimanches.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_30">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ce n'est pas là ce qu'elle souhaite. Quoiqu'il fasse nuit à sept heures, il
+                  n'importe, elle appréhende d'être surprise avec toi; elle veut que tu te déguises
+                  en fille; du moins par ce moyen, si quelqu'un survenoit, on ne la soupçonnera pas
+                  de se trouver avec un homme.</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_31">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Parguié, elle n'a pas tort; je m'en vais un peu songer à tout ça.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XII_32">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>A sept heures au moins?</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XII_33">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Allez, allez, ne vous boutez en peine de rien.</p>
+            </sp>
+         </div>
+         <pb n="157"/>
+         <div type="scene" n="13" xml:id="XIII">
+            <head>SCENE XIII.</head>
+            <sp who="Pellerin" xml:id="XIII_1">
+               <speaker>PELLERIN<pc>,</pc></speaker>
+               <stage type="location" rend="italics">seul.</stage>
+               <p>Parbleu, je vais faire aujourd'hui le bonheur ou le malheur de bien des gens; mais
+                  il me reste encor un de mes rivaux à punir, il faut qu'il se sente un peu de tout
+                  ceci. Où le trouverai-je à présent? il me cherche, je gage. Oh! parbleu, Monsieur
+                  Vincent, il ne vous servira de rien d'être le neveu de notre Curé; vous apprendrez
+                  ce que c'est que d'oser s'attaquer à moi. Je pense que je ferai mieux de l'aller
+                  trouver moi-même. Mais le voici tout à propos. </p>
+            </sp>
+         </div>
+         <div type="scene" n="14" xml:id="XIV">
+            <head> SCENE XIV.</head>
+            <stage>PELLERIN, VINCENT.</stage>
+            <sp who="Pellerin" xml:id="XIV_1">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Oh çà! Vincent, mon ami, il est près de sept heures, dépêchez-vous, il est
+                  presque nuit, trouvez-vous sous cet orme, Babet y sera tout incontinent.</p>
+            </sp>
+            <pb n="158"/>
+            <sp who="Vincent" xml:id="XIV_2">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p> Ah! Monsieur Pellerin, que je vous ai d'obligation!</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XIV_3">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Allez, vous dis-je, ne perdez point de temps, elle veut vous parler, elle vous en
+                  apprendra plus que je ne puis vous en dire.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XIV_4">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>Pal sanguenne, Monsieur Pellerin, si je l'épouse; allez, nous ne boirons pas mal
+                  ensemble.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XIV_5">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Allez, allez, alors comme alors.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XIV_6">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>Je n'ai donc qu'à m'y rendre tout maintenant?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XIV_7">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Attendez qu'il fasse un peu plus nuit.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XIV_8">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p> J'aurai donc bien le tems d'aller raccommoder un banc dans le jardin de mon
+                  oncle?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XIV_9">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oui, oui, allez: j'irai cependant avertir Babet.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XIV_10">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>Adieu Monsieur Pellerin.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XIV_11">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Adieu Vincent.</p>
+            </sp>
+         </div>
+         <pb n="159"/>
+         <div type="scene" n="15" xml:id="XV">
+            <head>SCENE XV.</head>
+            <stage>PELLERIN, MONSIEUR GUILLAUME.</stage>
+            <sp who="Pellerin" xml:id="XV_1">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Voila, Dieu merci, les affaires dans le meilleur état du monde; et je vois, je
+                  pense, Monsieur Guillaume à sa porte, je n'aurai pas la peine de l'aller chercher.
+                  Holà, Monsieur Guillaume, un mot de grâce. Il faut l'écarter de chez lui, pour
+                  donner le temps au Chevalier de résoudre Babet à venir avec... </p>
+            </sp>
+            <sp who="Guillaume" xml:id="XV_2">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p> Que voulez-vous?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_3">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Vous parler un moment.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XV_4">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Hé bien, je vous écoute.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_5">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ecartons-nous un peu de chez vous, et pour cause.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XV_6">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p> Et la raison?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_7">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Lorsqu'on est si prés de chez soi, les affaires domestiques nous occupent; on
+                  n'est jamais à ce que l'on nous dit, tout nous distrait. Si une <pb n="160"/>femme
+                  querelle, on veut entendre ce qu'elle dit; si quelqu'un entre ou sort, on veut
+                  savoir qui c'est; si une fille crie, on en cherche la cause; le cri d'un chien
+                  même donne de l'inquiétude, et comme ce que j’ai à vous dire demande une
+                  application toute entiere, je serai bien aise que rien ne nous détourne. Nous
+                  voici à peu près maintenant dans une distance raisonnable. </p>
+            </sp>
+            <sp who="Guillaume" xml:id="XV_8">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Voici une montagne qui va enfanter une souris.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_9">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je ne fais et ne dis jamais rien sans raison.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XV_10">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Voyons donc.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_11">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Je commence. Malgré la manière désobligeante dont vous avez reçu mes propositions
+                  pour votre fille Babet, je ne laisse pas d'avoir toujours pour tout ce qui vous
+                  regarde une dévotion sans pareille. </p>
+            </sp>
+            <sp who="Guillaume" xml:id="XV_12">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p> Où diantre nous mènera ceci?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_13">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Et sur certaines petites galanteries entre Vincent et Babet, dont je me suis
+                  aperçu depuis quelques jours, j’ai voulu approfondir la chose, et j’ai tant fait
+                  que j’ai découvert entr’eux un rendez-vous aujourd'hui à sept heures. </p>
+            </sp>
+            <pb n="161"/>
+            <sp who="Guillaume" xml:id="XV_14">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Un rendez-vous aujourd'hui, à sept heures?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_15">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Oui, Monsieur; mais je crois qu'il n'y a point de crime.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XV_16">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Comment donc, il n'y a point de crime?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_17">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Non, Monsieur, elle ne se trouvera peut-être là que pour la conversation.</p>
+            </sp>
+
+            <sp who="Guillaume" xml:id="XV_18">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>La conversation de Vincent? Allons, allons vîte, ne perdons point de temps:
+                  dis-moi au plutôt l'endroit: un bâton, un bâton: parle, enseigne-moi le lieu.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_19">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Monsieur, je ne vous le dirai pas, que premierement vous ne m'ayez promis de ne
+                  vous servir de ce bâton que pour Vincent.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XV_20">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Oui, oui, je te promets tout ce que tu voudras.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_21">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Pour votre Fille, quelques petits soufflets ne lui siéront point mal.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XV_22">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Laisse-moi faire, où faut-il que j'aille?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XV_23">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Sous le gros orme qui est là-bas, je ne saurais vous le montrer à l'heure qu'il
+                  est, la nuit <pb n="162"/>est trop obscure; mais ils doivent passer par ici, nous
+                  les entendrons venir. Ecoutez, j'entends quelqu'un, demeurez: Est-ce toi, Vincent?
+               </p>
+            </sp>
+         </div>
+         <div type="scene" n="16" xml:id="XVI">
+            <head>SCENE XVI.</head>
+            <stage> PELLERIN, MONSIEUR GUILLAUME, VINCENT.</stage>
+            <sp who="Vincent" xml:id="XVI_1">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>Oui.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XVI_2">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Marche, il est temps. <stage type="exit" rend="italics">Vincent sort.</stage>
+                  C'est Vincent: tout cela, comme vous voyez, est dans l'ordre, le galant se trouve
+                  le premier au rendez-vous. </p>
+            </sp>
+            <sp who="Guillaume" xml:id="XVI_3">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Mais ma Fille ne vient point?</p>
+            </sp>
+         </div>
+         <div type="scene" n="17" xml:id="XVII">
+            <head>SCENE XVII.</head>
+            <stage>M. GUILLAUME, PELLERIN, PIERROT</stage>
+            <stage rend="italics" type="modifier">déguisé en fille.</stage>
+            <sp who="Pellerin" xml:id="XVII_1">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>J'entends quelqu'un, c'est elle sans doute. Oui, allez, suivez-la: ne faites point
+                  de <pb n="163"/>bruit, sur la pointe des pieds, marchez doucement, frappez bien
+                  fort, et ne manquez pas de faire passer la chasse par ici.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XVII_2">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Je le ferai.</p>
+            </sp>
+         </div>
+         <div type="scene" n="18" xml:id="XVIII">
+            <head> SCENE XVIII</head>
+            <sp who="Pellerin" xml:id="XVIII_1">
+               <speaker>PELLERIN<pc>,</pc></speaker>
+               <stage type="location" rend="italics">seul.</stage>
+               <p>Allons, apprêtons-nous, et qu'ils ne passent point par ici sans s'en apercevoir.
+                  Bon pied, bon œil; ah, parbleu! Je les vais étriller en gens de bonne maison. Je
+                  crois déjà que la tragédie commence, j'entends crier, j'entends courir. </p>
+            </sp>
+         </div>
+         <div type="scene" n="19" xml:id="XIX">
+            <head>SCENE XIX.</head>
+            <stage>PELLERIN, VINCENT.</stage>
+            <sp who="Vincent" xml:id="XIX_1">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p> Ah, ah, ah!</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XIX_2">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ah! c'est ici mon tour.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XIX_3">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>Au meurtre, on m'assomme.</p>
+            </sp>
+            <pb n="164"/>
+            <sp who="Pellerin" xml:id="XIX_4">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ce maraud, comme diable il crie?</p>
+            </sp>
+            <sp who="Vincent" xml:id="XIX_5">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>Ah! j’ai les bras cassés.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XIX_6">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Le voici.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XIX_7">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>Ah, ah, ah! que de frappeurs, je suis mort.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XIX_8">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Ah! J'enrage de n'avoir pas mieux vu à ce que je faisais, il n'en auroit pas été
+                  quitte à si bon marché.</p>
+            </sp>
+         </div>
+         <div type="scene" n="20" xml:id="XX">
+            <head>SCENE XX.</head>
+            <stage>PELLERIN, M. GUILLAUME, PIERROT,</stage>
+            <stage rend="italics" type="modifier">déguisé en fille.</stage>
+            <sp who="Guillaume" xml:id="XX_1">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Ah, ah petite vilaine! vous donnez donc des rendez-vous?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XX_2">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p> Voici Monsieur Guillaume qui revient.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XX_3">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Ah! je vous apprendrai...</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XX_4">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Mon Pere, je vous demande pardon?</p>
+            </sp>
+            <pb n="165"/>
+            <sp who="Guillaume" xml:id="XX_5">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Ah, ah, coquine.</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XX_6">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Mon Pere, ah, ah, ah!</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XX_7">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p> Ah! que vois-je? voici une pièce de Pellerin: mais il me le payera, sur ma
+                  parole.</p>
+            </sp>
+         </div>
+         <div type="scene" n="21" xml:id="XXI">
+            <head>SCENE XXI.</head>
+            <stage> PIERROT, VINCENT, PELLERIN.</stage>
+            <sp who="Vincent" xml:id="XXI_1">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p> Jarniguenne, que j’ai manqué là une belle occasion! morgue si je pouvois
+                  retrouver Babet!</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XXI_2">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>J'entends Vincent, divertissons-nous.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XXI_3">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>Qui est là?</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XXI_4">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Ami.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XXI_5">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>N'est-ce pas là ma chère Babet?</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XXI_6">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Oui, Vincent.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XXI_7">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>Oh! jarniguenne, vous viendrez avec moi?</p>
+            </sp>
+            <pb n="166"/>
+            <sp who="Pierrot" xml:id="XXI_8">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Je n'oserois.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XXI_9">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p>Oh! Ventriguenne, vous viendrez?</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XXI_10">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Ah, ah, ah!</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XXI_11">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Par ma foi, cela est tout-à-fait drôle, je ne sais ce que le Chevalier aura fait,
+                  mais je lui ai donné du temps suffisamment.</p>
+            </sp>
+         </div>
+         <div type="scene" n="22" xml:id="XXII">
+            <head>SCENE XXII.</head>
+            <stage>M. DE LA DAVOISIERE,M. DE LA SOZIERE, PELLERIN.</stage>
+            <sp who="Davoisiere" xml:id="XXII_1">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Pellerin, qu'est-ce donc que tout ceci?</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XXII_2">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Quoi?</p>
+            </sp>
+            <sp who="Soziere" xml:id="XXII_3">
+               <speaker>M. DE LA SOZIERE<pc>.</pc></speaker>
+               <p> Il ne falloit point que votre Fils le Comte enlevât ma Fille, puisque je la lui
+                  voulois bien donner.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="XXII_4">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p> Je n'y comprends rien.</p>
+            </sp>
+         </div>
+         <pb n="167"/>
+         <div type="scene" n="23" xml:id="XXIII">
+            <head>SCENE XXIII.</head>
+            <stage>M. DE LA DAVOISIERE, M. DE LA SOZIERE,M. GUILLAUME, PELLERIN.</stage>
+            <sp who="Guillaume" xml:id="XXIII_1">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Ah, ah, ah! je suis perdu, malheureux pere que je suis; que deviendrai-je?</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="XXIII_2">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Qu'y a-t-il?</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XXIII_3">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Ah! Monsieur, ma Fille est enlevée.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="XXIII_4">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Votre Fille est enlevée?</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XXIII_5">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Oui, Monsieur, et c'est votre Fils le Chevalier qui l'a enlevée.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="XXIII_6">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Mon fils le Chevalier!</p>
+            </sp>
+         </div>
+         <pb n="168"/>
+         <div type="scene" n="24" xml:id="XXIV">
+            <head>SCENE XXIV.</head>
+            <stage>M. DE LA DAVOISIERE, M. DE LA SOZIERE, PELLERIN, M. GUILLAUME, VINCENT,
+               PIERROT.</stage>
+            <sp who="Pierrot" xml:id="XXIV_1">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Au secours, au secours.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="XXIV_2">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Qu'est-ce encor?</p>
+            </sp>
+            <sp who="Pierrot" xml:id="XXIV_3">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>C'est Vincent qui me veut enlever.</p>
+            </sp>
+            <sp who="Soziere" xml:id="XXIV_4">
+               <speaker>M. DE LA SOZIERE<pc>.</pc></speaker>
+               <p> Mais! que vois-je? ma Fille vêtue en paysanne?</p>
+            </sp>
+         </div>
+         <pb n="169"/>
+         <div type="scene" n="25" xml:id="XXV">
+            <head>SCENE XXV.</head>
+            <stage>MONSIEUR DE LA DAVOISIERE, MONSIEUR DE LA SOZIERE, PELLERIN, MONSIEUR GUILLAUME,
+               VINCENT, PIERROT, LE COMTE, LEONOR.</stage>
+            <sp who="Leonor" xml:id="XXV_1">
+               <speaker>LEONOR<pc>.</pc></speaker>
+               <p>Oui, mon Pere, c'est moi; et si je ne m'étais servie de cette adresse, je perdois
+                  le Comte pour jamais.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="XXV_2">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Comment donc, Monsieur le Comte?</p>
+            </sp>
+            <sp who="Comte" xml:id="XXV_3">
+               <speaker>LE COMTE<pc>.</pc></speaker>
+               <p>Mon Pere, je vous avoue que je m'étois laissé surprendre aux charmes de Babet; je
+                  devois l'enlever. Pellerin la devoit conduire dans l'endroit où je l'attendois, et
+                  je ne sais comment cela s'est fait, j’ai enlevé Leonor à sa place. </p>
+            </sp>
+            <sp who="Guillaume" xml:id="XXV_4">
+               <speaker>M. GUILLAUME<pc>,</pc></speaker>
+               <stage type="delivery" rend="italics">à Pellerin.</stage>
+               <p>Ah traître! c'est toi qui as mené toute cette intrigue, mais je te ferai pendre si
+                  tu ne me dis où est ma Fille.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="XXV_5">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Monsieur Guillaume, ne vous emportez <pb n="170"/>point, je ne vois rien
+                  d'effroyable à tout cela; le Chevalier a enlevé votre Fille, il faut qu'il
+                  l'épouse. Vous avez du bien, faites un effort, et que toutes les choses se passent
+                  dans la douceur.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XXV_6">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p> Il faut bien y consentir malgré moi.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XXV_7">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Messieurs, puisque vous estes tous d'accord, remerciez-moi, je suis celui qui ai
+                  conduit toute cette affaire; je vais faire venir le Chevalier et Babet. </p>
+            </sp>
+            <sp who="Soziere" xml:id="XXV_8">
+               <speaker>M. DE LA SOZIERE<pc>.</pc></speaker>
+               <p>Je suis ravi que tout ceci se termine de la sorte.</p>
+            </sp>
+            <sp who="Vincent" xml:id="XXV_9">
+               <speaker>VINCENT<pc>.</pc></speaker>
+               <p> Je ne vois que Pierrot et moi qui devons nous plaindre.</p>
+            </sp>
+         </div>
+         <pb/>
+         <div type="scene" n="26" xml:id="XXVI">
+            <head>SCENE XXVI.</head>
+            <stage>M. DE LA DAVOISIERE, M. DE LA SOZIERE, PELLERIN, M. GUILLAUME, LE COMTE, LEONOR,
+               VINCENT, PIERROT, LE CHEVALIER, BABET.</stage>
+            <sp who="Pellerin" xml:id="XXVI_1">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Allons, entrez: tout est d'accord.</p>
+            </sp>
+            <sp who="Babet" xml:id="XXVI_2">
+               <speaker>BABET<pc>.</pc></speaker>
+               <p> Mon Pere, je vous demande pardon.</p>
+            </sp>
+            <sp who="Guillaume" xml:id="XXVI_3">
+               <speaker>M. GUILLAUME<pc>.</pc></speaker>
+               <p>Il faut bien que je te pardonne.</p>
+            </sp>
+            <sp who="Chevalier" xml:id="XXVI_4">
+               <speaker>LE CHEVALIER<pc>.</pc></speaker>
+               <p>Mon Pere.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="XXVI_5">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Allez, allez, je suis content.</p>
+            </sp>
+            <sp who="Pellerin" xml:id="XXVI_6">
+               <speaker>PELLERIN<pc>.</pc></speaker>
+               <p>Vous faites bien, car j’ai peur que le mariage ne soit bien avancé; voilà par mon
+                  adresse bien des unions en un jour; Monsieur <pb n="172"/>le Comte et Madame
+                  Leonor, Monsieur le Chevalier et Madame Babet. Vincent n'a qu'à épouser Pierrot,
+                  j'épouserai Monsieur Guillaume. </p>
+            </sp>
+            <sp who="Pierrot" xml:id="XXVI_7">
+               <speaker>PIERROT<pc>.</pc></speaker>
+               <p>Vas, vas, laisse faire, tu me la paieras.</p>
+            </sp>
+            <sp who="Davoisiere" xml:id="XXVI_8">
+               <speaker>M. DE LA DAVOSIERE<pc>.</pc></speaker>
+               <p>Allons tous dans le Château, nous remettre un peu de ces alarmes.</p>
+            </sp>
+         </div>
+         <trailer rend="italics">FIN.</trailer>
+      </body>
+      <back>
+         <span from="#I_9">réminiscence de Molière, Le Bourgeois gentilhomme, III, 12, réplique 20
+               <ptr
+               target="http://theatre-classique.fr/pages/programmes/edition.php?t=../documents/MOLIERE_BOURGEOISGENTILHOMME.xml#A3.S312"
+            /></span>
+         <span from="#II_2" to="#II_55">réminiscence de Molière, Le Bourgeois gentilhomme, III, 12,
+            réplique 20 <ptr
+               target="http://theatre-classique.fr/pages/programmes/edition.php?t=../documents/MOLIERE_BOURGEOISGENTILHOMME.xml#A3.S312"
+            /></span>
+      </back>
+   </text>
+</TEI>

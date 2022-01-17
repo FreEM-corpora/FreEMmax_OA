@@ -1,0 +1,1855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La Folie du jour</title>
+                <title type="subtitle">Édition électronique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Pr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Loterie, Joséphine</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Première édition, <date>2017</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            <date>2017</date></publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT<lb/>Son Théâtre François &amp; Italien<pc>.</pc></hi> <lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                        <imprint>
+                            <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                            <publisher>JEAN NEAULME</publisher>
+                            <date when="1758">M.DCC.LVIII</date>
+                            <note>Tome huitième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                    <citedRange>Tome huitième, p. 55-90</citedRange>
+                </biblStruct>
+                </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+                <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+                <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques, ainsi que les vers. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+                <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+                <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+                <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+                <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+                <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+                <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+                <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <punctuation>
+                    <p>La ponctuation n'est pas systématiquement encodée. Elle a été distinguée à l'intérieur des balises 'titre', afin de ne pas créer de faux doublons lors de l'extraction de ceux-ci (ex. 'Admète et Alceste,' considéré comme un titre distinct de 'Admète et Alceste.').</p> <p>Dans tous les cas, la punctuation d'origine a été respectée, y compris quand elle paraissait fautive. Dans ce cas, elle est signalée avec 'sic' et 'corr'. Toutefois, les particularités d'espacement de la ponctuation n'ont pas été reproduites à l'identique. Un système uniforme a été adopté: les ponctuations simples (point, virgule), sont placées immédiatement après le mot, les ponctuations doubles (point virgule, deux points, signes d'interrogation et d'exclamation) sont placées après une espace.</p>
+                </punctuation>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+                <interpretation>
+                    <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+                </interpretation>
+            </editorialDecl>
+            <fsdDecl>
+                <fsDecl type="character_specification">
+                    <fDecl name="temper">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="age">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="young" xml:id="AGY"/>
+                                <symbol value="old" xml:id="AGO"/>
+                                <symbol value="child" xml:id="AGC"/>
+                                <symbol value="adult" xml:id="AGA"/>
+                                <symbol value="unknown" xml:id="AGU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="sex">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="male" xml:id="SM"/>
+                                <symbol value="female" xml:id="SF"/>
+                                <symbol value="undetermined" xml:id="SU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="nationality">
+                        <vRange><string></string>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="ontological_category">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="human" xml:id="OCH"/>
+                                <symbol value="non-human" xml:id="OCNH"/>
+                                <symbol value="semi-human" xml:id="OCSH"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="family_position">
+                        <vRange>
+                            <vColl>
+                                <symbol value="father" xml:id="FPF"/>
+                                <symbol value="son" xml:id="FPSON"/>
+                                <symbol value="daughter" xml:id="FPD"/>
+                                <symbol value="mother" xml:id="FPM"/>
+                                <symbol value="uncle" xml:id="FPU"/>
+                                <symbol value="aunt" xml:id="FPA"/>
+                                <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                                <symbol value="sister" xml:id="FPSIS"/>
+                                <symbol value="brother" xml:id="FPB"/>
+                                <symbol value="cousin" xml:id="FPC"/>
+                                <symbol value="step-mother" xml:id="FPSM"/>
+                                <symbol value="step-father" xml:id="FPSF"/>
+                                <symbol value="step-daughter" xml:id="FPSD"/>
+                                <symbol value="step-son" xml:id="FPSS"/>
+                                <symbol value="guardian" xml:id="FPG"/>
+                                <symbol value="ward" xml:id="FPWA"/>
+                                <symbol value="husband" xml:id="FPH"/>
+                                <symbol value="wife" xml:id="FPWIF"/>
+                                <symbol value="widow" xml:id="FPWID"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="actantial_role">
+                        <vRange>
+                            <vColl>
+                                <symbol value="lover" xml:id="ARL"/>
+                                <symbol value="subject" xml:id="ARS"/>
+                                <symbol value="opponent" xml:id="AROP"/>
+                                <symbol value="adjuvant" xml:id="ARAD"/>
+                                <symbol value="authority" xml:id="ARAUT"/>
+                                <symbol value="trouble_maker" xml:id="ARTM"/>
+                                <symbol value="episodic" xml:id="AREP"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="occupation">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="collective_character">
+                        <vRange>
+                            <binary value="true" xml:id="COLL"/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>  
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1745-07-05">5 juillet 1745</date>
+                <rs type="city">Paris, France.</rs>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>théâtre</term>
+                    <term>comédie</term>
+                    <term>comédie en vers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when='2017-10-09' who="IG">
+                Confrontation avec le témoin (Néaulme 1758), et correction des erreurs de saisie. Remplacement des balises 'name' par des balises 'persName' et 'placeName'. Ajout de la 'feature structure' et balisage de la liste des personnages. Ajout de 'xml:id'.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <titlePage type="half-title">
+                <pb n="55"/>
+                <docTitle>
+                    <titlePart type="main">LA FOLIE <lb/>DU <lb/>JOUR <pc>,</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="56"/>
+            <castList>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
+                <castItem xml:id="Marquis" ana="#OCH #SM #AGU #FPF #ARAUT"><role>LE MARQUIS DE VAGNOLE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem xml:id="Baron" ana="#OCH #SM #AGU #FPSON #FPB #AROP #ARAD"><role>LE BARON DE VAGNOLE</role><pc>,</pc><roleDesc> fils aîné du <lb/>Marquis</roleDesc><pc type="affirmative">.</pc><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem xml:id="Leandre" ana="#OCH #SM #AGY #FPSON #FPB #ARL #ARS"><role>LEANDRE</role><pc>,</pc><roleDesc> fils Cadet du Marquis</roleDesc><pc type="affirmative">.</pc><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem xml:id="Papillon" ana="#OCH #SM #AGU #AREP"><role>LE CHEVALIER PAPILLON</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem xml:id="Marquise" ana="#OCH #SF #AGO #AREP"><role>LA MARQUISE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem xml:id="Heloyse" ana="#OCH #SF #AGY #ARL"><role>HELOYSE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem xml:id="Mlle_Du_Mesnil" ana="#OCH #SF #AGU #AREP"><role>MADEMOISELLE DU MESNIL</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem xml:id="La_France" ana="#OCH #SM #AGU #AREP"><role>LA FRANCE</role><pc type="affirmative">.</pc></castItem><lb/>
+            </castList>
+            <set>
+                <lb/><lb/><lb/><lb/><lb/><p rend="italics">La Scène eſt à la Campagne<pc type="affirmative">.</pc></p>
+            </set>
+            <pb n="57"/>
+        </front>
+        <body>
+            <div type="title">
+                <head>LA FOLIE <lb/>DU <lb/>JOUR<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
+            </div>
+            <div type="scene" n="1" xml:id="S1">
+                    <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE MARQUIS<pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Marquis" xml:id="S1_1">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c type="lettrine">A</c>H! Ah! c'eſt vous, mon Fils ? Dites-moi, <lb/>je vous prie,</l>
+                        <l>Qui vous conduit dans ce ſéjour ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_2">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Puiſqu'il faut l'avouer, mon Pere, une folie.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_3">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Et quelle ? Il en eſt tant ?</l>
+                    </sp>
+                    <pb n="58"/>
+                    <sp who="#Leandre" xml:id="S1_4">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Mais c'eſt celle du Jour;</l>
+                        <l>J'y viens jouer la Comédie.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_5">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Perſonne n'eſt plus à l'abri</l>
+                        <l>De cette fiévre qui ſe gagne ;</l>
+                        <l>Car je dois l'y jouer auſſi.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_6">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><rs ref="#Marquis">Mon Pere</rs>, j'en ſuis très ravi,</l>
+                        <l>Je ne puis m'égarer, quand je vous accompagne.</l>
+                        <l>Par <title>le Comte d'Eſſex</title>, nous débutons ici :</l>
+                        <l>Je dois y faire <persName type='character' n="Salisbury">Salisburi</persName>.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_7">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Moi, <persName type="character" n="Cecil">Cecile</persName>. A cette Campagne</l>
+                        <l>Un ſoin plus ſérieux m'a pourtant amené :</l>
+                        <l>J'y viens pour marier <persName ref="#Baron">le Baron</persName> votre aîné.</l>
+                        <l>Comme je ſuis ami de <persName n="Cidalise">Cidaliſe</persName>,</l>
+                        <l>La Maîtreſſe de ce Château,</l>
+                        <l>Sa bonté m'a chargé d'un emploi ſi nouveau,</l>
+                        <l>Qui me remplit moi-même de ſurpriſe.</l>
+                        <l>Mais vous, <persName ref="#Leandre">Léandre</persName>, depuis quand</l>
+                        <l part="I">La connoiſſez-vous donc ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_8">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">C'eſt d'hier ſeulement.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_9">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Qui vous a preſenté ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_10">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Mon Pere, <persName ref="#Marquise">la Marquiſe</persName></l>
+                        <l>Qui m'a trouvé quelque talent.</l>
+                        <l>De notre Troupe, elle eſt la Directrice :</l>
+                        <l>Elle en eſt auſſi l'ornement.</l>
+                        <l>Sur-tout dans le Comique elle a le jeu brillant :</l>
+                        <l>Et je ne doute pas que l'on ne l'aplaudiſſe.</l>
+                        <l>Pour moi, d'un débutant je ſens toute l'ardeur.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_11">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je crois que vous ſongez à plaire au Spectateur,</l>
+                        <l>Beaucoup moins qu'à toucher l'Actrice.</l>
+                        <pb n="59"/>
+                        <l>Ce trouble avec cette rougeur</l>
+                        <l part="I">Me confirme...</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_12">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="M">Mon Pere...</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_13">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Eh ! point de crainte fade ;</l>
+                        <l>Nous ſommes tous les deux du même corps ici.</l>
+                        <l>Parlez donc hardiment, parlez, mon camarade :</l>
+                        <l>Vous ne pouvez choiſir un plus diſcret ami.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_14">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>A ne vous cacher rien, ce titre m'autoriſe.</l>
+                        <l>L'attachement que j'ai pour la Marquiſe</l>
+                        <l>Eſt moins de goût que de raiſon.</l>
+                        <l>C'eſt une Veuve du bon ton :</l>
+                        <l part="I">Et ſes conſeils...</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_15">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Que votre ame y réponde,</l>
+                        <l>Vous deviendrez bien-tôt un Cavalier charmant,</l>
+                        <l>Et vive une femme du grand monde</l>
+                        <l>Pour bien inſtruire un jeune homme igno-<lb/>rant !</l>
+                        <l>Dites-moi ſi pour vous cette Dame eſt ſenſible.</l>
+                        <l part="I">Et ſi l'amour?...</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_16">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Non ; ſon cœur n'en eſt pas ſuſceptible.</l>
+                        <l part="I">Le plaiſir ſeul...</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_17">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Tant mieux. J'en ſuis charmé pour vous.</l>
+                        <l>Un commerce galant eſt le meilleur de tous.</l>
+                        <l>C'eſt un lien tiſſu d'une legére ſoye,</l>
+                        <l>Qui, ſans vous attacher, vous ſerre doucement.</l>
+                        <l>Il tient toujours votre eſprit dans la joye,</l>
+                        <l>Et n'empêche jamais votre établiſſement ;</l>
+                        <l>Bien plus, il contribue à votre avancement.</l>
+                        <l>L'amitié du beau ſexe en eſt la bonne voye.</l>
+                        <l>Qui le ſçait amuſer, eſt ſûr de l'obtenir.</l>
+                        <l>On peut aller à tout, dès qu'on l'a pour ſon guide;</l>
+                        <pb n="59"/>
+                        <l>Et la fortune eſt douce autant qu'elle eſt rapide ;</l>
+                        <l>Quand on la rient de la main du plaiſir.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_18">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ce diſcours eſt très-véritable :</l>
+                        <l>Mais le parfait &amp; ſincére lien</l>
+                        <l>D'un amour mutuel, me paroît préférable,</l>
+                        <l>Lui ſeul peut rendre heureux un cœur comme le mien.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_19">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Où trouver un objet digne d'un nœud ſi tendre ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_20">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>J'avois eu ce bonheur, puiſqu'il faut vous l'aprendre.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_21">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Dans quel endroit l'avez-vous rencontré.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_22">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>J'ai vû cette Belle accomplie</l>
+                        <l>Dans un Couvent voiſin de notre Académie,</l>
+                        <l>Et par un coup ineſpéré.</l>
+                        <l part="I">Comme un ſeul mur...</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_23">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="M">Eh bien ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_24">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Je manque d'aſſurance.</l>
+                        <l>Mon Pere, vous allez me traiter d'étourdi !</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_25">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Non; comme confident je ſerai plus poli :</l>
+                        <l>Parlez, je vous promets une entiére indulgence.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_26">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Comme un ſeul mur nous ſéparoit.</l>
+                        <l>Qu'on pouvoit y monter par la cour du manége,</l>
+                        <l>Entraîné par un autre, un jour... Vous l'avoûrai-je?</l>
+                        <l>Je me guindai ſur le ſommet.</l>
+                        <l>Dans le Jardin, que ce mur dominoit,</l>
+                        <l>Trente jeunes Beautés faiſoient leur promenade.</l>
+                        <l>Je contemplois avec mon camarade</l>
+                        <l>Ce bel Eſſein qui folâtroit ;</l>
+                        <l>Quand tout-à-coup mon œil qui s'égaroit</l>
+                        <pb n="61"/>
+                        <l>En remarqua parmi cette Troupe choiſie,</l>
+                        <l>Une... C'étoit un Aſtre, elle me regarda.</l>
+                        <l>Dans le moment un trait de ſympathie</l>
+                        <l>Partit comme l'éclair, &amp; tous deux nous frapa.</l>
+                        <l>Tout le reſte du jour l'image m'en reſta.</l>
+                        <l>Dans l'eſpoir de revoir l'objet qui me poſſéde,</l>
+                        <l>Sur l'aîle de l'amour qui m'inſpire &amp; qui m'aide,</l>
+                        <l>Le lendemain au ſoir je regagne le mur.</l>
+                        <l>Qu'il m'avoit bien conduit ! Que ſon inſtinct eſt ſûr !</l>
+                        <l>Juſtement elle étoit aſſiſe</l>
+                        <l>Près de ce mur heureux » Ah dit-elle, ſurpriſe ;</l>
+                        <l>» C'eſt vous, Monſieur? Sa bouche proféra.</l>
+                        <l>Ces mots d'un ton ſi doux qu'elle me pénétra.</l>
+                        <l>Je ſaiſis cet inſtant pour déclarer ma flâme ;</l>
+                        <l>Je portai l'embarras dans le fond de ſon ame.</l>
+                        <l>Son trouble &amp; mes ſoupirs liérent l'entretien,</l>
+                        <l>Et je vis que ſon cœur étoit fait pour le mien.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_27">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Votre témérité s'en tint-là ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_28">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Non, mon Pere.</l>
+                        <l>De nous écrire, alors nous convimmes tous deux</l>
+                        <l>A l'aide d'un cordon, qui ſervoit d'émiſſaire,</l>
+                        <l>Nous nous faiſions tenir nos billets amoureux.</l>
+                        <l>Pour me donner les ſiens, que j'aime encore a lire,</l>
+                        <l>Au bout de ce lien elle les attachoit.</l>
+                        <l>D'une répidité que je ne puis décrire,</l>
+                        <l>Ma main les enlevant, vîte, s'en ſaiſiſſoit,</l>
+                        <l>Et mille fois ma bouche les baiſoit ;</l>
+                        <l>Mais ce bonheur fut de courte durée.</l>
+                        <l>On nous ſurprit la troiſième ſoirée,</l>
+                        <l>Comme j'allois prendre au filet</l>
+                        <l>Un poulet qui venoit d'éclore.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_29">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Le tour eſt noir!</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_30">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Il eſt deſeſpérant.</l>
+                        <pb n="62"/>
+                        <l>Je n'ai vû que trois fois la beauté que j'adore.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_31">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Après ce fatal incident,</l>
+                        <l part="I">Que devient-elle ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_32">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Je l'ignore,</l>
+                        <l>On la fit changer de Couvent,</l>
+                        <l>Sans lui donner le tems de m'en inſtruire.</l>
+                        <l><persName ref="#Heloyse">Héloïſe</persName> eſt ſon nom. Je ne ſçais que cela.</l>
+                        <l part="I">L'hiſtoire...</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_33">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="M">Après ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_34">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">L'hiſtoire finit-là.</l>
+                        <l>J'ai perdu ce tréſor. Je n'ai plus rien à dire.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_35">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Quoi ! votre amour s'eſt contenté d'écrire ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_36">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Hélas ! malgré moi.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_37">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Je reſpire.</l>
+                        <l>Et quand je vous ai vû ſur le mur du Jardin,</l>
+                        <l>J'ai friſſonné, je vous l'avoue.</l>
+                        <l>Le pas étoit gliſſant ; &amp; je vous loue</l>
+                        <l>D'être reſté, mon Fils, à moitié du chemin.</l>
+                        <l part="I">Oubliez-la :</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_38">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Dans ce deſſein</l>
+                        <l>J'ai fait à la Marquiſe une cour aſſidue ;</l>
+                        <l>Mais ce premier objet reſte victorieux.</l>
+                        <l>Son image toujours eſt preſente à ma vûe ;</l>
+                        <l>Et la comparaiſon l'y peint encore mieux.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_39">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Tâchez donc de ſçavoir ce qu'elle eſt devenue :</l>
+                        <l>Si le parti convient, je pourrai l'aprouver.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_40">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mon Pere, il conviendra, ſi je puis la trouver.</l>
+                    </sp>
+                    <pb n="63"/>
+                    <sp who="#Marquis" xml:id="S1_41">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>J'entens venir quelqu'un qui chante.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_42">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt <persName ref='#Papillon'>Papillon</persName>, notre beau Chevalier.</l>
+                        <l>Sa voix eſt legére &amp; brillante ;</l>
+                        <l>Mais il en eſt convaincu le premier.</l>
+                        <l>Il danſe, il fait des Vers, il ſçait tout allier,</l>
+                        <l>Compoſe en même-tems un Balet, une Piéce.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_43">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Le voilà qui s'aproche ; avec lui je vous laiſſe.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S1_44">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Il ne faut pas vous écarter,</l>
+                        <l>Mon Pere, &amp; voilà l'heure où l'on va répéter.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1_45">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Pour preſſer le Contrat que je veux que l'on dreſſe,</l>
+                        <l>Je vais vîte donner mes ſoins ;</l>
+                        <l>Et ſur le champ je vous rejoins.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="2" xml:id="S2">
+                    <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE CHEVALIER<pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Papillon" xml:id="S2_1">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="entrance" rend="italics">entre en danſant &amp; en <lb/>chantant.</stage><lb/>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S2_2">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c type="lettrine">V</c>Ous chantez avec goût; vous danſez avec grace.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S2_3">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt un nouveau Balet qu'à part moi je repaſſe.</l>
+                        <l>Je le donne ce ſoir; il ſera fort joli.</l>
+                        <l>Nos Dames ne ſont pas ici?</l>
+                        <l>Elles ſont toujours pareſſeuſes.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S2_4">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Et nos Hommes le ſont auſſi.</l>
+                    </sp>
+                    <pb n="64"/>
+                    <sp who="#Papillon" xml:id="S2_5">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais la choſe eſt des plus affreuſes !</l>
+                        <l>On devoit s'aſſembler à l'heure de midi.</l>
+                        <l part="I">Il en eſt trois.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="3" xml:id="S3">
+                    <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE CHEVALIER<pc>,</pc> LEANDRE<pc>,</pc> <lb/>LA FRANCE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Papillon" xml:id="S3_1">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F"><persName ref="#La_France"><c type="lettrine">L</c>A France</persName> ? Avez-vous averti</l>
+                        <l part="I">Les Acteurs principaux ?</l>
+                    </sp>
+                    <sp who="#La_France" xml:id="S3_2">
+                        <speaker>LA FRANCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Non, Monſieur.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S3_3">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Courez-y.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="4" xml:id="S4">
+                    <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE CHEVALIER<pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Papillon" xml:id="S4_1">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F"><c type="lettrine">T</c>Oute la Troupe eſt à l'amende.</l>
+                        <l>Par la petite Piéce, il faudra commencer</l>
+                        <l>On n'auroit pas le tems de répéter la grande.</l>
+                        <l><persName ref="#Marquise">La Marquiſe</persName> un peu plus auroit dû ſe preſſer.</l>
+                        <l>Elle que l'on entend inceſſamment ſe plaindre,</l>
+                        <l>Qu'on ſuit mal les ſtatuts qu'elle vient de dreſſer</l>
+                        <l>Eſt la premiére à les enfreindre.</l>
+                    </sp>
+                </div>
+                <pb n="65"/>
+                <div type="scene" n="5" xml:id="S5">
+                    <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LA MARQUISE<pc>,</pc> LE CHEVALIER<pc>,</pc> <lb/>LEANDRE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Marquise" xml:id="S5_1">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c type="lettrine">D</c>E grace, ne me grondez pas.</l>
+                        <l>On doit de l'indulgence aux femmes.</l>
+                        <l>Une horrible migraine a retardé mes pas.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_2">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Eh ! voilà ce que c'eſt, Meſdames,</l>
+                        <l>Que d'être d'un ſi grand ſouper?</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_3">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais on ſuit le courant ; il faut ſe diſſiper.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_4">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Le vin d'<placeName n='Aï'>Aï</placeName> vous rend malades ;</l>
+                        <l>Et la nuit dérange le jour.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_5">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Moi, je bois de l'eau.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_6">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Des Barbades.</l>
+                        <l>Pour <persName ref="#Leandre">Léandre</persName>, il ne prend que du Parfait-Amour.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_7">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt la liqueur que je préfére.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_8">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Le nom ſuffit pour la lui rendre chére.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_9">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je ne me défends pas, je ſens que ſuis fait,</l>
+                        <l>Pour aimer d'un amour parfait.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_10">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Quelle folie ! Ah! c'eſt un ridicule</l>
+                        <l>Dont il ſe défera bien-tôt auprès de nous.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_11">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je riſque bien plûtôt de le prendre avec vous.</l>
+                    </sp>
+                    <pb n="66"/>
+                    <sp who="#Marquise" xml:id="S5_12">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Non : de vous le donner, je me fais un ſcrupule.</l>
+                        <l>Je vous veux par pitié, détromper là-deſſus.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_13">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais comme moi, chacun eſt idolâtre</l>
+                        <l part="I">Du ſentiment.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_14">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Sur le Théâtre.</l>
+                        <l>Mais il eſt dans le monde au rang des vieux abus.</l>
+                        <l>L'Amour n'eſt plus un Dieu qu'on fête.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_15">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Non : ſes Autels ſont abattus.</l>
+                        <l>C'eſt le plaiſir qui nous arrête:</l>
+                        <l>Et pour trancher les diſcours ſuperflus,</l>
+                        <l>On s'arrange aujourd'hui, mais on ne s'aime plus.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_16">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">On s'arrange !</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_17">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="M">Oui, c'eſt le mot.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_18">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Quel langage !</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_19">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous le comprendrez mieux, quand vous ſçaurez <lb/>l'uſage.</l>
+                        <l>Mais attendez, voici qui va vous mettre au fait.</l>
+                        <l>C'eſt un Livre inſtructif pour les gens de votre âge.</l>
+                        <l>De mes momens perdus, Monſieur, il eſt l'ouvrage ;</l>
+                        <l>Mais il n'en eſt pas moins parfait.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_20">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ces momens ſont chez vous un tems conſidérable.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_21">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Liſez ; ſans flaterie, il doit être eſtimé,</l>
+                        <l>Et le <choice><sic>dépit</sic><corr>débit</corr></choice> en eſt indubitable ;</l>
+                        <l>Car, vrai, d'honneur, tout ce qu'un homme <lb/>aimable</l>
+                        <l>Peut ſçavoir en un jour s'y trouve renfermé.</l>
+                        <l>LE Titre ſeul eſt remarquable.</l>
+                    </sp>
+                    <pb n="67"/>
+                    <sp who="#Leandre" xml:id="S5_22">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><title rend="italics">Le Dictionnaire du Jour , où l'on trouve tous les 
+                            <lb/>mots, toutes les Anecdotes, &amp; tous les uſages du jour 
+                            <lb/>expliqués les uns par les autres ; dédié à la bonne Com-
+                            <lb/>pagnie, &amp; fait pour inſtruire ſinguliérement tous les 
+                            <lb/>jeunes Marquis qui n'ont pas encore le bon ton.</title>
+                        </p>
+                        <lb/>
+                        <stage rend="italics">Après avoir lû.</stage><lb/>
+                        <l>Le Dictionnaire du jour !</l>
+                        <l>On met par-tout ce mot du jour qui me chagrine.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_23">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais c'eſt le mot en régne à la Ville, à la Cour.</l>
+                        <l>Quelque part qu'on le place, ha ! ſa force eſt divine.</l>
+                        <l>L'eſprit du jour eſt l'eſprit dominant ;</l>
+                        <l>Et la Piéce du jour eſt la Piéce ſuivie.</l>
+                        <l>L'homme du jour eſt le plus amuſant ;</l>
+                        <l>Et l'Actrice du jour eſt la plus aplaudie.</l>
+                        <l>Le ton du jour eſt que l'on prend;</l>
+                        <l>Le fruit du jour eſt le ſeul que l'on goûte,</l>
+                        <l>Et l'exemple du jour eſt le plus ſéduiſant.</l>
+                        <l>La nouvelle du jour eſt celle qu'on écoute ;</l>
+                        <l>Et l'air du jour eſt celui qu'on aprend.</l>
+                        <l><persName ref='#Papillon'>Papillon</persName>, attendant que tout le monde arrive,</l>
+                        <l part="I">Chantez-nous l'air du jour.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_24">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Le voici tout notté.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_25">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">J'ai fait ce choix pour vous.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_26">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">J'en ſuis au plus flaté.</l>
+                        <l>Prêtez-moi l'un &amp; l'autre une oreille attentive.</l>
+                        <lb/><stage type="delivery" rend="italics">Il chante.</stage><lb/>
+                        <l>Volez, régnez, volez, beau Papillon du jour....</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_27">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Beau Papillon du jour, vous vous rendez juſtice.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_28">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ce n'eſt pas moi. Souffrez que je finiſſe.</l>
+                        <pb n="68"/>
+                        <lb/><stage rend="italics">Il chante.</stage><lb/>
+                        <l>Volez, régnez, volez beau Papillon du jour ;</l>
+                        <l>Votre durée eſt immortelle.</l>
+                        <l>Si vous mourez l'hyver, quand la Roſe eſt nouvelle,</l>
+                        <l>Vous renaiſſez à votre tour.</l>
+                        <l>Volez, régnez, volez beau Papillon du jour,</l>
+                        <l>Votre durée eſt immortelle.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_29">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Hem, ce beau Papillon du tems,</l>
+                        <l>Eſt-ce le Papillon de robe,</l>
+                        <l>Lui, qui renaît dans le Printems,</l>
+                        <l>Lorſqu'à nos yeux le Guerrier ſe dérobe ?</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_30">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Oui.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_31">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Voyons <placeName  n='Fontenoy'>Fontenoi</placeName>, Monſieur, preſentement ;</l>
+                        <l>C'eſt l'Article du jour le plus intéreſſant.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_32">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I"><placeName n='Fontenoy'>Fontenoi</placeName> n'eſt pas-là.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_33">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Tant pis. Cela m'étonne.</l>
+                        <l>C'eſt peu de <placeName n='Fontenoy'>Fontenoi</placeName> ; mais <persName n='Antoine'><choice><sic>Antoin</sic><corr>Antoine</corr></choice></persName>, mais <persName n='Calonne'>Calonne</persName>,</l>
+                        <l>Comme les mots du jour y doivent tous entrer ;</l>
+                        <l>Et perſonne ne peut, ne doit les ignorer.</l>
+                        <l>Il faut que l'on en parle, ou qu'on en déraiſonne.</l>
+                        <l>La priſe de <placeName n="Tournay">Tournay</placeName> doit s'y trouver auſſi,</l>
+                        <l>Tous nos Héros du jour qui viennent de combattre,</l>
+                        <l>Et leur portrait en raccourci.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_34">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt un ſoin que je laiſſe <rs type="author" n="Voltaire">au Chantre d'Henri Quatre</rs> .</l>
+                        <l>Il me ſiéroit très-mal d'en parler après lui.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_35">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Le Chevalier a raiſon en ceci.</l>
+                        <l>Nous ne devons jamais dans tous nos badinages</l>
+                        <l>Mêler les Exploits de <persName n="Louis_XV">Louis</persName> ;</l>
+                        <l>Ni la valeur précoce de ſon Fils ;</l>
+                        <l>Et l'on ſçait, ſans que nous Ouvrages</l>
+                        <pb n="69"/>
+                        <l>En inſtruiſent <placeName n="Paris">Paris</placeName>, en informent la Cour,</l>
+                        <l>On ſçait que les Bourbons ſont les Héros du jour,</l>
+                        <l>Et les Héros de tous les âges.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_36">
+                        <speaker>LA MARQUISE </speaker>
+                        <stage type="delivery" rend="italics">au Chevalier.</stage><lb/>
+                        <l>Quels ſont donc les Héros de ce Livre amuſant ?</l>
+                    </sp>
+                    <sp who="Le Chavalier" xml:id="S5_37">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Les Héros de la bagatelle ;</l>
+                        <l>La Coquette du jour, ou plûtôt de l'inſtant ;</l>
+                        <l>Le petit-Maître du moment.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_38">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Plus ſuperficiel, &amp; plus frivole qu'elle,</l>
+                        <l>Son mérite leger eſt compoſé de vent.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_39">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Liſés-en le portrait, c'eſt-là votre modèle.</l>
+                        <l>Il vous corrigera du goût d'être fidèle.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_40">
+                        <speaker>LEANDRE </speaker>
+                        <stage type="business" rend="italics">lit.</stage><lb/>
+                        <l>L'Aimable de l'inſtant paroît pour s'envoler ;</l>
+                        <l>C'eſt un éclair qui ſuit, une eau qui s'évapore,</l>
+                        <l>Il eſt uniquement la beauté qu'il adore.</l>
+                        <l>L'air ſeul qui le dérange a droit de le troubler ;</l>
+                        <l>Rien ne l'attache, &amp; c'eſt un vrai Phoſphore.</l>
+                        <l>Qui s'allume d'un rien, &amp; ſans jamais brûler.</l>
+                        <lb/><stage type="mixed" rend="italics">Après avoir lû.</stage><lb/>
+                        <l>D'accord, il brille à froid comme la Lune ;</l>
+                        <l>Son ton ſuffit pour me geler.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_41">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Et la femme du jour ?</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_42">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">La touche eſt peu commune.</l>
+                        <l>Examinés ſes traits, ils reſſemblent aſſez</l>
+                        <l>A certains que vous connoiſſez.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_43">
+                        <speaker>LA MARQUISE </speaker>
+                        <stage type="business" rend="italics">lit.</stage><lb/>
+                        <l><persName n='Arténice'>Arténice</persName> qui prône, &amp; par tout eſt prônée,</l>
+                        <l>A les dons contraſtés qui donnent cette année</l>
+                        <l>De la conſidération.</l>
+                        <l>Elle eſt coquette avec décence ;</l>
+                        <l>Médiſante, mais du bon ton ;</l>
+                        <pb n="70"/>
+                        <l>Et précieuſe avec aiſance ;</l>
+                        <l>Toujours fauſſe avec la nuance</l>
+                        <l>Que demande l'occaſion ;</l>
+                        <l>Et quelquefois perfide avec précaution.</l>
+                        <l>Elle a l'avantage commode</l>
+                        <l>De plaire ſans attachement,</l>
+                        <l>De s'attendrir ſans ſentiment :</l>
+                        <l>C'eſt la femme du jour, c'eſt la femme à la mode.</l>
+                        <lb/><stage rend="italics">Après avoir lû.</stage><lb/>
+                        <l>La voilà. Je la reconnois ;</l>
+                        <l>Et le portrait eſt des plus vrais.</l>
+                        <l>Votre Ouvrage prendra, c'eſt moi qui vous l'aſſure ;</l>
+                        <l>De tous les Gens de goût, il mérite l'amour.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_44">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Et la critique du <title>Mercure</title>.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_45">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je me tiendrai, d'honneur, flaté de ſa cenſure ;</l>
+                        <l>Car le livre du mois, n'eſt pas celui du jour.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_46">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Le vôtre eſt un preſent dont je vous remercie :</l>
+                        <l>Il ſervira beaucoup à mon inſtruction.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_47">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">J'ai donné le pareil...</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_48">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">A qui donc, <persName ref='#Papillon'>Papillon</persName> ?</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_49">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>A <rs ref="#Heloyse">la Niéce de notre Amie</rs>,</l>
+                        <l>Tous les dons lui ſont <choice><sic>acoordez</sic><corr>accordez</corr></choice>.</l>
+                        <l>Qu'elle jouera bien la Ducheſſe,</l>
+                        <l>Ce Rôle que vous lui cédez !</l>
+                        <l>Elle l'a répété tout-à-l'heure en Maîtreſſe.</l>
+                        <l>Ses yeux, comme ſa voix, expriment la tendreſſe,</l>
+                        <l>Quoiqu'elle ſorte à peine du Couvent,</l>
+                        <l>Elle penſe, Marquiſe, &amp; ſent plus vivement.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_50">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je brûle de la voir, je brûle de l'entendre,</l>
+                        <l>Sur ce portrait avantageux.</l>
+                    </sp>
+                    <pb n="71"/>
+                    <sp who="#Papillon" xml:id="S5_51">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Il faut les mettre aux pr<supplied>i</supplied>ſes tous les deux.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_52">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>La pauvre enfant ! Elle eſt dans l'erreur de <persName ref="#Leandre">Léandre</persName>.</l>
+                        <l>Elle croit que l'on doit aimer pour être heureux ;</l>
+                        <l>Et le ſort d'<persName ref="#Heloyse">Héloïſe</persName> eſt d'avoir le cœur tendre.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_53">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Qu'entends-je ? O Ciel ! Quel nom flâteur ?</l>
+                        <l part="I"><persName ref="#Heloyse">Héloïſe</persName> !</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_54">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Oui. D'où naît cette ſurpriſe ?</l>
+                        <l><persName ref="#Heloyse">Héloïſe</persName> eſt le nom, Monſieur,</l>
+                        <l>De la Niéce de <persName n="Cidalise">Cidaliſe</persName>.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_55">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Si c'étoit elle par bonheur?...</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_56">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je ne ſçai ; je crains &amp; j'eſpére.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_57">
+                        <speaker>LA MARQUISE </speaker>
+                        <stage type="business" rend="italics">riant.</stage><lb/>
+                        <l>Ah, j'eſpére, je crains ! le contraſte eſt plaiſant.</l>
+                        <l>Eſt-ce la Belle du Couvent</l>
+                        <l>Dont vous m'avez conté l'hiſtoire ſinguliére ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_58">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je le voudrois, mon bonheur ſeroit grand.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S5_59">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>D'une reconnoiſſance, oh ! Ceci nous menace,</l>
+                        <l>Et je la voix venir déja.</l>
+                        <l>Ces vieux coups de Théâtre ont ſi mauvaiſe grace !</l>
+                        <l part="I">On les amene à force.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_60">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Ah, que dites-vous-là ?</l>
+                        <l>Une reconnoiſſance eſt toujours à ſa place.</l>
+                        <l>Peut-on réuſſir ſans cela ?</l>
+                        <l><placeName n="Paris">Paris</placeName> jamais ne s'en raſſaſiera.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_61">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Si par l'effet de ma bonne fortune</l>
+                        <l>C'étoit mon <persName ref="#Heloyse">Héloïſe</persName>, ah ! J'en jouerois bien<sic></sic><corr> </corr>une !</l>
+                        <l>Dans cet eſpoir flâteur j'en veux être éclairci.</l>
+                    </sp>
+                    <pb n="72"/>
+                    <sp who="#Papillon" xml:id="S5_62">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Arrêtés. Quel eſt ce délire ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_63">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Laiſſez-moi, je ne puis aſſez-tôt m'en inſtruire.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_64">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je ne permettrai pas que vous ſortiez ainſi.</l>
+                        <l>C'eſt ici le lieu de la Scène.</l>
+                        <l>Il faut que vous reſtiez, &amp; qu'<persName ref="#Heloyse">Héloïſe</persName> vienne,</l>
+                        <l>Afin que Monſieur juge, &amp; que je voye auſſi</l>
+                        <l>Quel effet produiront votre aproche &amp; la ſienne.</l>
+                        <l>Laiſſez-vous du moins le plaiſir,</l>
+                        <l>En décidant par cette ébauche,</l>
+                        <l>De rire à vos dépens, ſi vous paroiſſez gache,</l>
+                        <l>Ou celui de vous aplaudir,</l>
+                        <l>Quoi qu'avec un peu moins de zèle,</l>
+                        <l>Si vous venez à réuſſir.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_65">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous m'encouragez fort ; mais je ne vois pas celle...</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S5_66">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Elle ne peut tarder à venir.</l>
+                        <l>La voilà. Regardés ſi c'eſt-là votre Belle.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S5_67">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt elle-même. Ah Ciel. Mon cœur vole vers elle.</l>
+                        <l>Mais je n'ai pas la force d'aprocher ;</l>
+                        <l>Mes pieds tremblans refuſent de marcher.</l>
+                    </sp>
+                </div>
+                <pb n="73"/>
+                <div type="scene" n="6" xml:id="S6">
+                    <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
+                    <stage>HELOYSE <pc>,</pc> LA MARQUISE <pc>,</pc> <lb/>LEANDRE<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Heloyse" xml:id="S6_1">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I"><stage type="delivery" rend="italics">A <persName ref="#Marquise">la Marquiſe</persName>.</stage><c type="lettrine">M</c>Adame....... <stage rend="italics">Apercevant <persName ref="#Leandre">Léandre</persName>.</stage> Ah !</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_2">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Sa ſurpriſe eſt aſſez naturelle.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S6_3">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I"><persName ref="#Heloyse">Heloïſe</persName> !</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S6_4">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Qu'entens-je? Et qu'eſt-ce que je vois,</l>
+                        <l part="I">La parole me manque.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S6_5">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Et j'ai perdu la voix.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S6_6">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ne me trompai-je pas ? Etes-vous ce <persName ref="#Leandre">Léandre</persName></l>
+                        <l>Qui m'écrivoit ſi tendrement</l>
+                        <l part="I">Par le moyen....</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S6_7">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="M">D'un cordon.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S6_8">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Juſtement.</l>
+                        <l part="I">Et qui venoit....</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S6_9">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Sur le mur d'un Couvent.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S6_10">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mon amour pour le coup ne ſçauroit s'y méprendre.</l>
+                        <l>C'eſt <persName ref='#Leandre'>Léandre</persName>, c'eſt lui, c'eſt mon fidèle Amant.</l>
+                        <pb n="74"/>
+                        <l>L'étonnement, la joye &amp; le ſaiſiſſement...</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S6_11">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Le trouble &amp; le plaiſir...</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S6_12">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Mes yeux, mon cœur, mon ame...</l>
+                        <l>Je ne ſçai plus ce que je dis.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S6_13">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mon feu, ma tendreſſe, ma flâme....</l>
+                        <l>Le même égarement régne dans mes eſprits.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_14">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Mes yeux mon cœur, mon feu, ma flâme !....</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S6_15">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Ah ! Madame,</l>
+                        <l>Ce déſordre vaut mieux que des diſcours ſuivis.</l>
+                        <l part="I">Ils ſont vraiment touchés.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_16">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Juſqu'à l'extravagance.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S6_17">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Nos meilleurs Acteurs de <placeName n="Paris">Paris</placeName></l>
+                        <l>Ne frapoient pas mieux <term type="dramatic">une reconnoiſſance</term>.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_18">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ils l'<term type="dramatic">outrent</term> tous les deux, faute d'expérience.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S6_19">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais dites-moi, dans les lieux où je ſuis,</l>
+                        <l>Dites-moi quel bonheur, &amp; quelle circonſtance....</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_20">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><persName ref="#Heloyse">Héloïſe</persName>, tâchés de revenir à vous.</l>
+                        <l>Vous devez en notre preſence</l>
+                        <l>Vous livrer un peu moins à des tranſports ſi doux.</l>
+                        <l>C'eſt oublier la bienſéance.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S6_21">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Pardonnés à mon trouble ; il eſt plus fort que moi.</l>
+                        <l>Il vous a révélé le ſecret d'<persName ref="#Heloyse">Héloyſe</persName> :</l>
+                        <l>Mais dans ces momens de ſurpriſe</l>
+                        <l>On n'eſt pas maîtreſſe de ſoi.</l>
+                        <l>Le ſentiment nous tiranniſe,</l>
+                        <l>Et quand un bonheur imprévû</l>
+                        <pb n="75"/>
+                        <l>Etonne tout-d'un-coup, &amp; permet qu'on revoye</l>
+                        <l>Un Amant cher, Madame, &amp; qu'on croyoit perdu,</l>
+                        <l>Ah ! peut-on s'empêcher d'avoir le cœur émû.</l>
+                        <l>Et de faire éclater ſa joye ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S6_22">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Non, charmante <persName ref="#Heloyse">Héloyſe</persName>, à ce juſte tranſport,</l>
+                        <l>Livrons-nous tous les deux ſans crainte &amp; ſans re-<lb/>mord.</l>
+                        <l>Un amour mutuel, &amp; fondé ſur l'eſtime,</l>
+                        <l>Vient de le faire naître, il eſt trop légitime ;</l>
+                        <l>Et loin qu'à votre gloire il puiſſe faire tort,</l>
+                        <l>Il éclate à votre avantage :</l>
+                        <l>La plus ſenſible eſt toujours la plus ſage.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_23">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <stage type="delivery" rend="italics">au <rs ref="#Papillon">Chevalier</rs>.</stage><lb/>
+                        <l part="I">Mais ils ont du talent.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S6_24">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Ils pourront parvenir.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S6_25">
+                        <speaker>HELOYSE </speaker>
+                        <stage>à <persName ref='#Leandre'>Léandre</persName>.</stage><lb/>
+                        <l>Oüi, votre ardeur m'éclaire &amp; m'encourage ;</l>
+                        <l>D'un penchant vertueux je ne dois point rougir.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_26">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous le devez, puiſqu'il choque l'uſage,</l>
+                        <l>Et qu'en oſant le découvrir</l>
+                        <l>Vous allez contre la décence.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S6_27">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>A ſon voile impoſteur on ne doit recourir</l>
+                        <l>Que pour cacher des feux qui bleſſent l'innocence,</l>
+                        <l>Et qui n'oſent <choice><sic>paloître</sic><corr>paroître</corr></choice> au jour.</l>
+                        <l>Mais un fidèle &amp; véritable amour</l>
+                        <l>N'a pas beſoin de ſa vaine aſſiſtance :</l>
+                        <l>Comme il eſt né ſans honte ; il paroît ſans détour.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S6_28">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>On ne peut mieux répondre, &amp; ce diſcours m'enchante.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_29">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Pour quelqu'un qui ſort du Couvent,</l>
+                        <l>Vous me paroiſſez bien ſavante !</l>
+                    </sp>
+                    <pb n="76"/>
+                    <sp who="#Heloyse" xml:id="S6_30">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je ne ſçai pas ſi je la ſuis.</l>
+                        <l>Cet amour qui m'inſpire une flâme ſincére,</l>
+                        <l>Eſt le ſeul maître que je ſuis.</l>
+                        <l>Marquiſe, ſon feu qui m'éclaire,</l>
+                        <l>D'un jeune homme conſtant, me fait voir tout le prix.</l>
+                        <l>C'eſt un tréſor ſi rare, &amp; quand je le retrouve,</l>
+                        <l>Je ne veux pas le perdre, ſi je puis.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_31">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Voilà ce que je déſaprouve.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S6_32">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Et voilà ce que j'aplaudis.</l>
+                        <l>Ma belle, ma tendre <persName ref="#Heloyse">Héloïſe</persName>,</l>
+                        <l>Pour me perdre jamais, je vous ſuis trop acquis.</l>
+                        <l>Devant <rs ref="#Papillon">le Chevalier</rs> &amp; devant <persName ref="#Marquise">la Marquiſe</persName></l>
+                        <l>Jurons-nous de porter juſqu'au tombeau tous <lb/>deux....</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_33">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">N'achevés pas ce ſerment ſcandaleux.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S6_34">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="M">Scandaleux, Madame.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S6_35">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Oüi, ſans doute.</l>
+                        <l>Jurer d'être conſtant ! mais rien n'eſt plus affreux.</l>
+                        <l>N'attendés pas qu'on vous écoute.</l>
+                        <l>Des exemples du jour, c'eſt le plus dangereux.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S6_36">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><persName ref="#Heloyse">Héloïſe</persName>, votre conſtance</l>
+                        <l>Eſt aujourd'hui d'autant moins de ſaiſon</l>
+                        <l part="I">Qu'on vous deſtine un autre Epoux.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S6_37">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Non, non.</l>
+                        <l><persName ref="#Baron">Mon Pere</persName> eſt dans ma confidence ;</l>
+                        <l>Il eſt ami de la Maiſon.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S6_38">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Laiſſons-là ce couple fidèle,</l>
+                        <l>Et répétons ſans différer.</l>
+                        <pb n="77"/>
+                        <l><persName ref="#La_France">La France</persName> que je vois entrer</l>
+                        <l>Nous aporte quelque nouvelle.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="7" xml:id="S7">
+                    <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LA FRANCE<pc>,</pc> LA MARQUISE<pc>,</pc> <lb/>HELOYSE <pc>,</pc> LEANDRE<pc>,</pc> <lb/>LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Marquise" xml:id="S7_1">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c type="lettrine">E</c>H bien , <persName n="Cidalise">Cidaliſe</persName> vient-elle ?</l>
+                    </sp>
+                    <sp who="#La_France" xml:id="S7_2">
+                        <speaker>LA FRANCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Madame, avec bien du regret</l>
+                        <l>Elle m'a chargé de vous dire</l>
+                        <l>Qu'elle ne pourra pas joüer <persName type="character" n="Elisabeth">Elizabeth</persName>;</l>
+                        <l>Et ſon rhume eſt ſi fort qu'à peine elle reſpire,</l>
+                        <l>Et qu'elle eſt hors d'état de ſortir aujourd'hui.</l>
+                        <l>Mais une Actrice très-connuë</l>
+                        <l>Pour jouer à ſa place, eſt tout exprès venuë.</l>
+                        <l>Vous l'allez voir paroître ; La voici.</l>
+                    </sp>
+                </div>
+                <pb n="78"/>
+                <div type="scene" n="8" xml:id="S8">
+                    <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
+                    <stage>Mlle. DU MESNI <pc>,</pc>LA MARQUISE<pc>,</pc> <lb/>HELOYSE<pc>,</pc> LEANDRE<pc>,</pc> <lb/>LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Marquise" xml:id="S8_1">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c type="lettrine">A</c>H ! c'eſt.... quelle joie imprévûe !</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S8_2">
+                        <speaker>Mlle. DU MESNI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Je ſuis charmée.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S8_3">
+                        <speaker><pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Et moi, je ſuis ravi.</l>
+                    </sp>
+                    <sp who="La Chevalier" xml:id="S8_4">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je ſuis extaſié juſques au fond de l'ame.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S8_5">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>On dit que vous venez pour jouer avec nous ?</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S8_6">
+                        <speaker>Mlle. DU MENI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je compte avoir cet honneur-là, Madame.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S8_7">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt pour nous-même un bonheur des plus <lb/>doux.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S8_8">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Quoi ! ce raport eſt donc bien véritable !</l>
+                        <l>Mais rien n'eſt plus charmant ! vous êtes adorable.</l>
+                        <l>Vous nous allez donner le ton à tous.</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S8_9">
+                        <speaker>Mlle. DU MENI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je le prendrai plutôt de vous ;</l>
+                        <l>Et vous êtes notre modèle,</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S8_10">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Oh ! pour le coup, Mademoiſelle,</l>
+                        <l>Vous prétendez nous plaiſanter.</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S8_11">
+                        <speaker><pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Non ; le ton du grand monde eſt le ſeul bon à ſuivre.</l>
+                        <pb n="79"/>
+                        <l>Vous voir, eſt un bonheur dont on doit profiter.</l>
+                        <l>On n'aprend à jouer, qu'en aprenant à vivre,</l>
+                        <l>Madame ; &amp; pour vous plaire, il faut vous imiter.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S8_12">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <stage type="delivery" rend="italics">(à part.)</stage><lb/>
+                        <l>Il en eſt quelque choſe. <stage type="delivery" rend="italics">(Haut.)</stage><persName ref="#La_France">La France</persName> ?</l>
+                        <l>Eclairés le Théâtre, il eſt tems qu'on commence.</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S8_13">
+                        <speaker>Mlle. DU MENI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Un obſtacle s'opoſe à votre impatience.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S8_14">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Seroit-il ſurvenu quelqu'autre incident ?</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S8_15">
+                        <speaker>Mlle. DU MENI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Votre <persName type="character" n="Essex">Comte d'Eſſex</persName> a manqué de parole.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S8_16">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Palſambleu, nous jouons d'un malheur ſingulier.</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S8_17">
+                        <speaker>Mlle. DU MENI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Une affaire l'arrête.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S8_18">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Ah, prétexte frivole !</l>
+                        <l>Un homme quitte tout pour jouer un grand Rôle.</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S8_19">
+                        <speaker>Mlle. DU MESNI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><persName n="Cidalise">Cidaliſe</persName> a déja fait partir un Courier</l>
+                        <l>Pour prier de ſa part le <persName ref="#Baron">Baron de Vagnole</persName></l>
+                        <l>De venir en poſte à l'inſtant</l>
+                        <l>Pour réparer cet accident.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S8_20">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>S'il arrivoit, nous gagnerions au change.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S8_21">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Quel eſt donc ce <rs ref="#Baron">Baron</rs> ?</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S8_22">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Un homme ſurprenant,</l>
+                        <l>Au-deſſus de toute louange.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S8_23">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous faites, <rs ref="#Baron">de mon frere</rs>, un éloge trop grand.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S8_24">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Il eſt peint dans le vrai.</l>
+                    </sp>
+                    <pb n="80"/>
+                    <sp who="#Papillon" xml:id="S8_25">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Mais le voici lui-même,</l>
+                        <l>Il paroît dans l'éclat de ſa grandeur ſuprême.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="9" xml:id="S9">
+                    <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE BARON <stage type="entrance" rend="italics">en habit de Théâtre</stage><pc>,</pc> LA MARQUISE<pc>,</pc> HELOYSE<pc>,</pc> <lb/>LEANDRE<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Leandre" xml:id="S9_1">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c type="lettrine">V</c>Ous arrivez, mon frere, en habit de combat ?</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_2">
+                        <speaker>LA BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Sçais-je ce que je fais dans mon cruel état ?</l>
+                        <l part="I">Je ſuis... je ſuis outré.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S9_3">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">C'eſt du plus grand tragique.</l>
+                        <l part="I">Que t'eſt-il arrivé ?</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_4">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Ce qu'on ne vit jamais.</l>
+                        <l>Miſérable!... je viens... l'avanture eſt unique.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S9_5">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Mais tu viens de <placeName n="Paris">Paris</placeName>?</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_6">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Non : je viens du <placeName n="Marais">Marais</placeName> :</l>
+                        <l>Ou plutôt, Chevalier j'arrive de <rs type='place'>Province</rs></l>
+                        <l>Que je ſois décolé, ſi j'y fais plus le Prince !</l>
+                        <l>Fatal <persName type='character' n="Essex">Comte d'Eſſex</persName>, qui flâtoit mon orgueil,</l>
+                        <l>De ma gloire aujourd'hui, tu deviens donc l'écueil ?</l>
+                        <l>O jour ! ô jour affreux ! ô double cataſtrophe !</l>
+                    </sp>
+                    <sp who="Le Marquise" xml:id="S9_7">
+                        <speaker>LE MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Vous m'effrayez, Baron.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S9_8">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Et vous m'épouvantez.</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S9_9">
+                        <speaker>Mlle. DU MESNI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><persName type="character" n="Elisabeth">Elizabeth</persName> pour vous tremble à cette apoſtrophe.</l>
+                        <pb n="81"/>
+                        <l part="I">De grace, inſtruiſez-vous...</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_10">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Tous les cinq, écoutez,</l>
+                        <l>Et vous allez pâlir à ce recit funeſte.</l>
+                        <l>J'arrive à <placeName n='Arsenal'>l'Arcenal</placeName> pour abreger le reſte...</l>
+                        <l>On ſonne ; je m'habille ; au foyer je deſcens ;</l>
+                        <l>Et le premier objet qui vient fraper mes ſens,</l>
+                        <l>Eſt.. j'en friſſonne encore, <persName n="Baron_Paume">le Baron de la Paume</persName>,</l>
+                        <l>Habillé comme moi, qui fait mon ſecond tome.</l>
+                        <l>» Quel Rôle jouez-vous, lui dis-je fiérement?</l>
+                        <l>» C'eſt le <persName type='character' n="Essex">Comte d'Eſſex</persName> ! répond-il froidement,</l>
+                        <l>» Vous, le <persName type='character' n="Essex">Comte d'Eſſex</persName> ! où je ſuis, temeraire,</l>
+                        <l>Repliquai-je auſſitôt, tout bouillant de colére !</l>
+                        <l>» De quel front, de quel droit, m'oſez-vous con-<lb/>teſter ?</l>
+                        <l>» Je fais plus, reprend-il, je prétens l'emporter.</l>
+                        <l>Je veux lui repartir : mais à peine il achéve</l>
+                        <l>Qu'on vient nous avertir que la toile ſe léve,</l>
+                        <l>Vers la Couliſſe, alors on nous voit tous les deux.</l>
+                        <l>Marcher d'un pas égal , &amp; d'un front orgueilleux.</l>
+                        <l>Là, nous nous diſputons dans cet étroit paſſage,</l>
+                        <l>Des vains honneurs du pas le frivole avantage.</l>
+                        <l>Tout-à-coup il l'emporte ; &amp; j'ai beau lui crier,</l>
+                        <l>Arrêtes, traître, arrêtes ; il entre le premier.</l>
+                        <l>Je marche ſur ſes pas dans l'ardeur qui m'entraîne</l>
+                        <l>Et deux <rs type='character' n="Essex">Comtes d'Eſſex</rs> paroiſſent ſur la ſcène.</l>
+                        <l>Chacun, pour triompher, redouble ſon effort.</l>
+                        <l>C'eſt à qui de nous deux mugira le plus fort.</l>
+                        <l>Dans un pareil combat la poitrine décide.</l>
+                        <l>Cet avantage rend mon Rival intrépide.</l>
+                        <l>Je veux employer l'art ; mais.... ô ſoins ſuperflus !</l>
+                        <l>Que me ſert ſon ſecours quand on ne m'entend plus ?</l>
+                        <l>Un Acteur n'eſt plus rien, quand il perd la parole.</l>
+                        <l>On aplaudit <persName n="Baron_Paume">la Paume</persName>, &amp; l'on ſiffle <persName ref="#Baron">Vagnole</persName>.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S9_11">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Quelle injuſtice! O Ciel!</l>
+                    </sp>
+                    <pb n="82"/>
+                    <sp who="#Baron" xml:id="S9_12">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Je ſors deſeſpéré,</l>
+                        <l>Je traverſe <placeName n='Paris'>Paris</placeName> à pied, tout égaré.</l>
+                        <l>A me percer par-tout le ſifflet continue.</l>
+                        <l>Il m'attaque au théatre, il me ſuit dans la rue ;</l>
+                        <l>Et pour comble d'horreur, en rentrant au Logis,</l>
+                        <l>Je reçois de <rs ref="#Marquis">mon Pere</rs> un Billet, j'en frémis.</l>
+                        <lb/><stage type="delivery" rend="italics">A <persName ref="#Marquise">la Marquiſe</persName>.</stage><lb/>
+                        <l>Vous ſçavez pour l'hymen ma terreur &amp; ma haine ;</l>
+                        <l>Il m'écrit de partir pour former cette chaîne.</l>
+                        <l>Encore ſi j'avois pû retarder mon Arrêt !</l>
+                        <l>Mais ſon ordre me preſſe, un caroſſe eſt tout prêt ;</l>
+                        <l>Et ſans changer d'habit, équipé de la ſorte,</l>
+                        <l>J'y monte dans mon trouble, où plutôt on m'y porte.</l>
+                        <l>Madame, cette nuit je ſerai marié.</l>
+                        <l>Jugez ſi mon deſtin eſt digne de pitié.</l>
+                        <l>Aujourd'hui des ſifflets ; &amp; demain... ſort funeſte !</l>
+                        <l>Fait comme je le ſuis , vous devinez le reſte.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S9_13">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Quel talent ſingulier ! Quel Acteur ! Quel récit !</l>
+                        <l>A-t'il juſtifié tout ce que j'en ai dit ?</l>
+                        <lb/><stage type="delivery" rend="italics">A <persName ref="#Mlle_Du_Mesnil">Mlle du Meſni</persName>.</stage><lb/>
+                        <l>Je m'en reporte à vous, Mademoiſelle,</l>
+                        <l part="I">Comment le trouvez-vous?</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S9_14">
+                        <speaker>Mlle. DU MESNI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Admirable, un modelle.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S9_15"> 
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <lb/><stage type="delivery" rend="italics">Au <rs ref="#Baron">Baron</rs>.</stage>
+                        <l>Des affronts du <placeName n="Marais">Marais</placeName>, notre aplaudiſſement</l>
+                        <l>Venge ici votre gloire, &amp; bien parfaitement.</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_16">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Oui : mais pour mon malheur aucun ne m'y diſpute</l>
+                        <l>Le rôle du Mari, qu'il faut que j'exécute,</l>
+                        <l>Et pour lequel au fond j'ai le moins de talent.</l>
+                        <l><persName ref='#Leandre'>Léandre</persName> mon cadet eſt fait pour le bien rendre.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S9_17">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Un ſi grand Rôle étonne un Débutant.</l>
+                    </sp>
+                    <pb n="83"/>
+                    <sp who="#Marquise" xml:id="S9_18">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Celle qu'on vous deſtine, eſt ſi belle peut-être</l>
+                        <l>Que vous l'adorerez, en voyant ſes apas</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_19">
+                        <speaker>LA BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Quel que aimable qu'elle puiſſe être,</l>
+                        <l>Elle ſera ma femme ; il ſuffit de ce nom</l>
+                        <l>Pour m'inſpirer d'avance un fond d'averſion.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S9_20">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>En vérité, Monſieur, voilà pour elle</l>
+                        <l>Une heureuſe diſpoſition !</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_21">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je n'en ſuis pas le maître, elle m'eſt naturelle.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S9_22">
+                        <speaker><pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Aprenez-nous du moins comment elle s'apelle.</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_23">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ce nom fatal m'eſt échapé déja</l>
+                        <l>Mais liſez, ce Billet pour moi vous le dira.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S9_24">
+                        <speaker>LA MARQUISE </speaker>
+                        <stage type="business" rend="italics">lit.</stage><lb/>
+                        <p rend="italics">Partez ſur le champ, <rs ref="#Baron">mon Fils</rs>, votre preſence eſt 
+                            <lb/>ici doublement néceſſaire. Je vous marie cette nuit ; &amp; 
+                            <lb/>l'on vous y attend cette après-midi pour y faire le Comte 
+                            <lb/>d'<persName type='character' n="Essex">Eſſex</persName>. Vous aurez le plaiſir de jouer en famille ; car 
+                            <lb/>j'y repreſente <persName type="character" n="Cecil">Cecile</persName> ; <rs ref="#Leandre">votre Frere</rs> fait <persName type="character" n="Salisbury">Salisburi</persName> ; &amp; votre 
+                            <lb/>Prétendue joue <persName type='character' n='Duchesse'>la Ducheſſe</persName>. Par-là, vous vous trouve-
+                            <lb/>rez, en arrivant, à portée de faire éclater votre amour 
+                            <lb/>pour elle. Elle le mérite par ſa beauté comm<sic>m</sic><corr></corr>e par ſa 
+                            <lb/>naiſſance. C'eſt <persName ref="#Heloyse">Héloïſe</persName>,la Niéce de <persName n="Cidalise">Cidaliſe</persName>.
+                        </p>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S9_25">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Qu'entens-je ? Juſte Ciel ! Je me meurs.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S9_26">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Et j'expire.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S9_27">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Fort bien ; voilà qui fait <term type="dramatic">tableau</term>.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S9_28">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Je ris de l'incident.</l>
+                    </sp>
+                    <pb n="84"/>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S9_29">
+                        <speaker>Mlle. DU MESNI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Il me paroît nouveau.</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_30">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Qu'eſt-ce donc que ceci veut dire?</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S9_31">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Leur trouble vous l'explique; il dit que <persName type="character" n="Salisbury" ref="#Leandre">Salisburi</persName></l>
+                        <l>Brûle pour <rs ref="#Heloyse">la Ducheſſe</rs>, &amp; qu'elle l'aime auſſi.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S9_32">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Oui, mon Frere, ce nœud qui feroit votre peine</l>
+                        <l>Peut ſeul aſſurer mon bonheur ;</l>
+                        <l>Et ſans lui ma mort eſt certaine.</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_33">
+                        <speaker>LE BARON </speaker>
+                        <stage type="delivery" rend="italics">à <persName n='Heloise'>Héloïſe</persName>.</stage><lb/>
+                        <l>Je ſuis confus, Madame, en ce moment.</l>
+                        <l>Excuſez ſi j'ai fait paroître</l>
+                        <l>Mes ſentimens ici ſans nul ménagement :</l>
+                        <l>Je n'avois pas l'honneur de vous connoître.</l>
+                        <l>Vous en êtes vengée autant qu'on le peut être.</l>
+                        <l>Belle <persName ref="#Heloyse">Héloyſe</persName>, en vous voyant,</l>
+                        <l>J'en change véritablement;</l>
+                        <l>Et l'eſtime ſuccéde à mon antipathie.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S9_34">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je frémis de ce changement.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S9_35">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Et moi, j'en ai l'ame ravie ;</l>
+                        <l>Car il ſuſpend <term type="dramatic">le dénouement</term>.</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S9_36">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <lb/><stage type="delivery" rend="italics">A <persName ref="#Heloyse">Héloïſe</persName>.</stage>
+                        <l>Je rends graces aux miens de vous avoir choiſie.</l>
+                        <l>Je vous adore, ou peu s'en faut.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S9_37">
+                        <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ah ! Ne m'adorez pas. Haïſſez moi plutôt ;</l>
+                        <l>Haïſſez-moi, Monſieur, je vous en prie.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S9_38">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">La priére eſt touchante !</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S9_40">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Oui, j'en ſuis attendri<unclear>e</unclear>.</l>
+                    </sp>
+                    <pb n="85"/>
+                    <sp who="#Leandre" xml:id="S9_41">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je vais dans cette extrêmité</l>
+                        <l>Me jetter aux pieds de <rs ref="#Marquis">mon Pere</rs> ;</l>
+                        <l>Et j'attends tout de ſa bonté.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S9_42">
+                        <speaker>HELOYSE </speaker>
+                        <stage type="delivery" rend="italics">au Baron.</stage><lb/>
+                        <l>Moi je verrai <rs n='Cidalise'>ma Tante</rs> ; elle m'aime ; &amp; j'eſpére</l>
+                        <l>Qu'en lui peignant, Monſieur, votre effroi généreux,</l>
+                        <l>Elle diſpenſera votre cœur de ces nœuds.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S9_43">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je compte le fléchir en dépit de <rs ref="#Baron">mon Frere</rs>.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="10" xml:id="S10">
+                    <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE MARQUIS<pc>,</pc> LE BARON<pc>,</pc> LEANDRE<pc>,</pc><lb/>LA MARQUISE<pc>,</pc> HELOYSE<pc>,</pc><lb/>LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Leandre" xml:id="S10_1">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <stage type="delivery" rend="italics">Au <rs ref="#Marquis">Marquis</rs>.</stage><lb/>
+                        <l><c type="lettrine">A</c>H! Mon Pere, depuis que je ne vous ai vû,</l>
+                        <l>J'ai retrouvé l'objet que je croyois perdu.</l>
+                        <l>Ne nous ſéparez pas. Il y va de ma vie.</l>
+                        <l part="I">Vous me l'avez promis.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S10_2">
+                        <speaker>LA MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Cette Beauté chérie,</l>
+                        <l part="I">Mon Fils, où donc eſt-elle ?</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S10_3">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Elle eſt devant vos yeux.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S10_4">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt <rs ref="#Heloyse">la Niéce de <persName n="Cidalise">Cidaliſe</persName></rs> !</l>
+                        <l>A <rs ref="#Baron">votre Frere</rs> elle eſt promiſe</l>
+                        <l part="I">Je n'en ſuis plus le maître.</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S10_5">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Uniſſez-les tous deux,</l>
+                        <l>Mon Pere, &amp; d'un ſeul coup vous ferez trois heureux.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S10_6">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Votre refus, Baron, excite ma ſurpriſe.</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S10_7">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Monſieur, pour le titre d'époux</l>
+                        <l>Rien ne peut ſurmonter ma haine opiniâtre.</l>
+                        <lb/><stage type="business" rend="italics">Se tournant vers <persName ref='#Leandre'>Léandre</persName>.</stage><lb/>
+                        <l>Mon cher Frere, raſſurez-vous,</l>
+                        <l>Tout ce que j'en ai fait, n'eſt qu'un jeu de Théatre,</l>
+                        <l>Pour vous rendre à tous deux votre bonheur plus doux.</l>
+                        <lb/><stage type="business" rend="italics">Au Marquis.</stage><lb/>
+                        <l>Je lui céde mon droit d'aîneſſe ;</l>
+                        <l>Je préfére ma liberté.</l>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S10_8">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je vais donc ſur le champ couronner leur tendreſſe :</l>
+                        <l>Rien ne s'opoſe plus à leur félicité.</l>
+                        <l><persName n="Cidalise">Cidaliſe</persName>, en ſecret, panche de ce côté.</l>
+                        <l>Elle a raiſon ; leur âge eſt plus ſortable.</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S10_9">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mon Pere, je benis cet Arrêt favorable.</l>
+                        <l>Une ſeconde fois je vous dois la clarté.</l>
+                        <lb/><lb/><stage type="delivery" rend="italics">Au <rs ref="#Baron">Baron</rs>.</stage><lb/><lb/>
+                        <l>Mon Frere, à vos refus je ſuis trop redevable.</l>
+                    </sp>
+                    <sp who="#Heloyse" xml:id="S10_10">
+                        <speaker>HELOYSE </speaker>
+                        <stage type="delivery" rend="italics">au Baron.</stage><lb/>
+                        <l>Je ne dois pas, Monſieur, moins à vos bonté.</l>
+                        <l>J'étois au deſeſpoir de vous paroître aimable.</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S10_11">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ah ! Vous êtes trop bon de tant faire pour eux.</l>
+                    </sp>
+                    <sp who="#Baron" xml:id="S10_12">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Un Héros tel que moi ſans peine eſt généreux,</l>
+                        <pb n="87"/>
+                        <l>Et préfére l'honneur, plus ſage au fond peut-être,</l>
+                        <l>De faire des époux, à la gloire de l'être.</l>
+                        <l>Mais pour rendre ce jour encore plus brillant,</l>
+                        <l>Pour combler mes bienfaits, ſignalons mon talent.</l>
+                        <l part="I"><term type="dramatic">Jouons</term>...</l>
+                    </sp>
+                    <sp who="#Leandre" xml:id="S10_13">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Non ; remettons la Piéce.</l>
+                        <l>Votre Frere, ce ſoir, trop plein de ſa tendreſſe,</l>
+                        <l>Court hâter le moment du nœud qui l'intéreſſe ;</l>
+                        <l>Et demain, il répétera,</l>
+                        <l>Joûra tout ce que l'on voudra.</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S10_14">
+                        <speaker>Mlle. DU MESNI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Votre <term type="dramatic">petite Comédie</term>,</l>
+                        <l>Là, qui du jour eſt la folie...</l>
+                    </sp>
+                    <sp who="#Marquise" xml:id="S10_15">
+                        <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Elle eſt finie, &amp; la voilà.</l>
+                        <l>Elle eſt toujours le fruit de notre après-dînée.</l>
+                        <l>Si-tôt qu'elle eſt conçûe, elle eſt faite ſoudain ;</l>
+                        <l>Elle eſt apriſe auſſi-tôt qu'elle eſt née.</l>
+                        <l>Les incidens de la journée</l>
+                        <l>Font <term type="dramatic">la Piéce</term> du lendemain.</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S10_16">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <stage type="delivery" rend="italics">A Mlle. du Meſni.</stage><lb/><lb/>
+                        <l>Joignons-y mon <term type="dramatic">Balet</term>. Allons, ſoyez des nôtres.</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S10_17">
+                        <speaker>Mlle. DU MESNI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Monſieur, je fais toujours ce que veulent les autres.</l>
+                        <l part="I">Mais vos Danſeurs ſont-ils bons ?</l>
+                    </sp>
+                    <sp who="#Papillon" xml:id="S10_18">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">A peu près</l>
+                        <l part="I">Comme ceux...</l>
+                    </sp>
+                    <sp who="#Mlle_Du_Mesnil" xml:id="S10_19">
+                        <speaker>Mlle. DU MESNI<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Oui, j'entens, du <rs type="institution" n="Comedie-Francaise">Théatre François.</rs></l>
+                        <l>Tant mieux, j'aurai plus d'aſſurance</l>
+                        <l>D'être en Pays, Monſieur, de connoiſſance.</l>
+                    </sp>
+                    <pb n="88"/>
+                    <sp who="#Papillon" xml:id="S10_20">
+                        <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Que notre <term type="dramatic">Orquestre</term> ici redouble ſon effort.</l>
+                        <l>Par <term type="dramatic">un Quatuor</term> je commence.</l>
+                        <l>Non ; <term type="dramatic">un Duo</term> ſuffit, s'il n'eſt encore trop fort...</l>
+                    </sp>
+                    <lb/><lb/><lb/><p rend="center">FIN.</p>
+                </div>
+            <pb n="89"/>
+            <div type="divertissement" xml:id="D">
+                <head>DIVERTISSEMENT<pc type="affirmative">.</pc></head>
+                <div xml:id="D1">
+                    <head rend="italics">Marche<pc type="affirmative">.</pc></head>
+                    <lg>
+                        <head>AIR<pc type="affirmative">.</pc></head>
+                        <l><c type="lettrine">C</c>Hantons, célébrons la gloire</l>
+                        <l>De la Divinite du jour.</l>
+                        <l>Le plaiſir ſur l'amour</l>
+                        <l>Remporte la victoire.</l>
+                        <l>On le fête à la Ville, on l'adore à la Cour.</l>
+                        <l>Chantons, &amp;c.</l>
+                    </lg>
+                </div>
+                <div xml:id="D2">
+                    <head rend="italics">Menuet<pc type="affirmative">.</pc></head>
+                   <lg>
+                        <head>DUO<pc type="affirmative">.</pc></head>
+                        <l><c type="lettrine">P</c>Laiſir, enchaîne nos ames</l>
+                        <l>De tes aimables nœuds ;</l>
+                        <l>N'allume en nous des flâmes</l>
+                        <l>Que pour nous rendre heureux.</l>
+                    </lg>
+                </div>
+                <div xml:id="D3">
+                    <lg>
+                        <head>AIR<pc type="affirmative">.</pc></head>
+                        <l><c type="lettrine">R</c>Races du jour, jeux nouveaux,</l>
+                        <l>Régnez dans nos badinages.</l>
+                        <l>Prenez l'eſſor des Oiſeaux,</l>
+                        <l>Imitez leurs doux ramages.</l>
+                    </lg>
+                </div>
+            </div>
+            <pb n="90"/>
+            <div type="vaudeville" xml:id="V">
+                <head rend="italics">Entrée<pc type="affirmative">.</pc>
+                <lb/>VAUDEVILLE<pc type="affirmative">.</pc></head>
+                <lg xml:id="V1">
+                    <l><c type="lettrine">P</c>Arler vers, parler toilette,</l>
+                    <l>Parler guerre tour-à-tour ;</l>
+                    <l>Etre Acteur, être Poëte ;</l>
+                    <l>C'eſt l'eſprit du jour.</l>
+                </lg>
+                <lb/>
+                <lg xml:id="V2">
+                    <l>*<note resp="author" rend="italics" place="bottom">* Les Dames ſe montrent tard à la promenade du <placeName>Pa-
+                        <lb/>lais Royal</placeName>, ce qui fait murmurer les hommes qui les at-
+                        <lb/>tendent.</note> 
+                        Le grand jour eſt ridicule.</l>
+                    <l>Le beau ſexe notre amour ;</l>
+                    <l>Se promene au crépuſcule ;</l>
+                    <l>C'eſt le ton du jour.</l>
+                </lg>
+                <lb/>
+                <lg xml:id="V3">
+                    <l>En public être décente,</l>
+                    <l>En ſecret bruſquer l'Amour.</l>
+                    <l>S'aplaudir d'être inconſtante,</l>
+                    <l>C'eſt le ton du jour.</l>
+                </lg>
+                <lb/>
+                <lg xml:id="V4">
+                    <l>Abuſer l'Amant qu'on aime ,</l>
+                    <l>L'Epoux qu'on hait tour-à-tour,</l>
+                    <l>Pour en tromper un troiſième ;</l>
+                    <l>C'eſt l'eſprit du jour.</l>
+                </lg>
+                <lb/>
+                <lb/><stage type="delivery" rend="italics">Au Parterre<pc type="affirmative">.</pc></stage>
+                <lg xml:id="V5">
+                    <l>Meſſieurs, <persName ref="#Papillon">Papillon</persName> vous prie,</l>
+                    <l>Ou par grace, ou par amour,</l>
+                    <l>De faire votre folie</l>
+                    <l>De celle du jour.</l>
+                </lg>
+                <p rend="italics">Contre danſe.</p>
+                <lb/><trailer rend="italics">Fin du divertiſſement.</trailer>
+            </div>
+        </body>
+    </text>
+</TEI>

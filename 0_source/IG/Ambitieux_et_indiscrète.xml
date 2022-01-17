@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Destouches-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title>L'Ambitieux et l'indiscrète: édition numérique </title>
+                <author>,Philippe Néricault Destouches, 1680-1754</author>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Galleron, Ioana</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Oeuvres dramatiques de NERICAULT DESTOUCHES, De l'Académie Françoise. NOUVELLE ÉDITION, Revue, corrigée, augmentée de quatre Pièces, &amp; toute semblable à l'Édition de l'Imprimerie Royale, in-4°. 4 vol. TOME SIXIEME.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note><p>Version de démonstration pour la conférence ISECS, <placeName>Rotterdam</placeName> <date>2015.07.27</date></p></note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Philippe Néricault Destouches</author>
+                        <title>Oeuvres dramatiques de NERICAULT DESTOUCHES, De l'Académie Françoise. NOUVELLE ÉDITION, Revue, corrigée, augmentée de quatre Pièces, &amp; toute semblable à l'Édition de l'Imprimerie Royale, in-4°. 4 vol. TOME SIXIEME.</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Prault Père</publisher>
+                            <date when="1768">17658</date>
+                            <note>Tome sixième</note>
+                            <note>Édition en 6 volumes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction><p>aucune</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée. Une orthographe moderne a été fournie, utilisant les éléments choice, orig et reg.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+                <punctuation marks="all"></punctuation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1737">1737</date><rs type="city">Paris, France.</rs></creation>
+            <textClass><keywords><term>Théâtre</term><term>Tragi-Comédie</term></keywords></textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change></change> 
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">L'AMBITIEUX,<lb/>ET<lb/>L'INDISCRETTE,<lb/></titlePart>
+                    <titlePart type="desc" rend="italics">TRAGI-COMÉDIE</titlePart>
+                </docTitle>
+            </titlePage>
+            <div type="préface">
+                <pb n="np" ed="Prault58"/><head>PRÉFACE<w type="pon">.</w></head>
+                <p><w type="pronom">Je</w> <choice><orig>n'aurois</orig><reg>n'aurais</reg></choice> point fait de Préface à cet<lb/>
+                ouvrage, si je <choice><orig>n'avois</orig><reg>n'avais</reg></choice> <choice><orig>crû</orig><reg>cru</reg></choice>devoir ache-<lb/>
+                ver de détruire les bruits injurieux qu'on <lb/>
+                a fait courir avant sa représentation, <choice><orig>&amp;</orig><reg>et</reg></choice> si<lb/>
+                je ne <choice><orig>croyois</orig><reg>croyais</reg></choice>nécessaire d'opposer quel-<lb/>
+                ques raisons à la prévention avec laquelle<lb/>
+                on <choice><orig>pourroit</orig><reg>pourrait</reg></choice>encore le lire. Je dirai donc<lb/>
+                pour me justifier de ces bruits si contraire-<lb/>
+                res à la pureté de mes intentions, que j'ai<lb/>
+                toujours regardé comme indigne de la <lb/>
+                probité, le trop facile <choice><orig>&amp;</orig><reg>et</reg></choice>le punissable ta-<lb/>
+                lent de la <term>satire</term>, genre d'écrire par le-<lb/>
+                quel, souvent aux dépens de la vérité,<lb/>
+                on se prépare des succès fondés sur la ma-<lb/>
+                lignité du coeur humain. Mes ouvrages<lb/>
+                font foi de ce que j'avance. J'ai toujours<lb/>
+                moins pensé, en écrivant, à m'acquérir<lb/>
+                la réputation d'homme de<sic>lettre</sic>qu'à<lb/>
+                m'assurer celle d'<term>honnête homme</term> <choice><orig>&amp;</orig><reg>et</reg></choice> de<lb/>
+                bon citoyen.</p>
+                <p>Si ces ouvrages ne peuvent me placer<lb/>
+                <pb n="np"/>
+                au rang des auteurs illustres, ils me dis-<lb/>
+                tingueront du moins de ceux qui ont sa-<lb/>
+                crifié leur honneur au <choice><orig>desir</orig><reg>désir</reg></choice>de plaire, de<lb/>
+                ces auteurs forcés à se cacher à mesure<lb/>
+                que leurs productions éclatent<note n="1" type="lexicale" resp="Ioana Galleron">"ECLATER, signifie aussi,
+                Faire du bruit et de l'éclat, se découvrir, se faire connoître au public." (Furetière, 1701)</note>,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> à qui<lb/>
+                le public fait payer les <choice><orig>applaudissemens</orig><reg>applaudissements</reg></choice><lb/>
+                passagers qu'il leur donne, par toute la <lb/>
+                haine <choice><orig>&amp;</orig><reg>et</reg></choice> le mépris dont il les accable.</p>
+                <p>Cette réflexion <choice><orig>suffiroit</orig><reg>suffirait</reg></choice> aux personnes<lb/>
+                qui me <choice><orig>connoissoient</orig><reg>connaissaient</reg></choice>; mais je dois ajouter<lb/>
+                qu'il y a près de six ans que cette comé-<lb/>
+                die est faite, <choice><orig>&amp;</orig><reg>et</reg></choice> dès lors la plus grande<lb/>
+                partie de mes amis, parmi lesquels il en<lb/>
+                est de respectables par le rang et par la<lb/>
+                naissance, l'ont entendu lire.</p>
+                <p>Je <choice><orig>répete</orig><reg>répète</reg></choice> que je ne combats ici que le<lb/>
+                préjugé de mes lecteurs, puisque je suis<lb/>
+                persuadé que la lecture de la <choice><orig>piéce</orig><reg>pièce</reg></choice> pro-<lb/>
+                duira à cet égard le même effet que la re-<lb/>
+                présentation; elle confondit l'espoir de<lb/>
+                ceux qui n'y <choice><orig>trouverent</orig><reg>trouvèrent</reg></choice> pas l'attrait qu'ils<lb/>
+                y <choice><orig>cherchoient</orig><reg>cherchaient</reg></choice>. Ils <choice><orig>m'accusoient</orig><reg>m'accusaient</reg></choice>avant<lb/>
+                de m'avoir entendu, d'avoir abusé de la liberté d'écrire; mais après la représentation, aussi condamnables dans leur ju-<pb n="np"/>
+                gement qu'ils <choice><orig>l'avoient</orig><reg>l'avaient</reg></choice>été dans leur pré-<lb/>
+                vention, ils me firent un crime d'avoir frustré leur attente.</p>
+                <p>Je n'en dirai pas davantage sur cet ar-<lb/>
+                    ticle; <choice><orig>&amp;</orig><reg>et</reg></choice>, puisque l'occasion s'en présen-<lb/>
+                te, je rendrai compte en peu de mots des<lb/>
+                <choice><orig>caractéres</orig><reg>caractères</reg></choice> principaux que j'ai introduits<lb/>
+                    dans ma <choice><orig>piéce</orig><reg>pièce</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> de la <choice><orig>maniere</orig><reg>manière</reg></choice> dont j'ai<lb/>
+                <choice><orig>crû</orig><reg>cru</reg></choice> devoir les mettre en oeuvre. Ce dé-<lb/>
+                tail pourra servir de réponse à quelques<lb/>
+                critiques qu'on a faites de mon ou-<lb/>
+                vrage.</p>
+                <p>L'étude de la nature, objet de l'at-<lb/>
+                tention principale d'un auteur dramati-<lb/>
+                que, lui fait <choice><orig>connoître</orig><reg>connaître</reg></choice>qu'un ridicule ou<lb/>
+                qu'un vice, quoique toujours le même,<lb/>
+                prend une forme particulière dans les dif-<lb/>
+                férents personnes, selon les rangs qu'el-<lb/>
+                les occupent dans la société; c'est une<lb/>
+                couleur qui se trouve plus ou moins bril-<lb/>
+                lante, selon l'étoffe qui en est teinte.</p>
+                <p>D'un autre côté, l'art nous enseigne<lb/>
+                que lorsqu'on met un caractère au <choice><orig>thea-</orig><reg>théâ-</reg></choice><lb/>
+                tre, on doit le peindre dans la plus grande<lb/>
+                    étendue qu'il est possible, <choice><orig>&amp;</orig><reg>et</reg></choice></p>
+            </div>
+            <castList>
+                <head rend="italics">ACTEURS.</head>
+                <castItem><role xml:id="Roi" ana="#Roi">LE ROI DE CASTILLE</role>. </castItem>
+                <castItem><role>DOM PHILIPPE</role>, <roleDesc> premier ministre.</roleDesc></castItem>
+                <castItem><role>DOM FERNAND</role>, <roleDesc> pere de Dom Philippe et de Dom Fernand.</roleDesc></castItem>
+                <castItem><role>DOM LOUIS</role>, <roleDesc>ambassadeur d'Arragon.</roleDesc></castItem>
+                <castItem><role>L'INFANTE D'ARRAGON</role>, <roleDesc> crûe fille de Dom Louis.</roleDesc></castItem>
+                <castItem><role>DONA BÉATRIX</role>, <roleDesc> femme de Dom Philippe.</roleDesc></castItem>
+                <castItem><role>DONA CLARICE</role>, <roleDesc> niéce de Dona Béatrix.</roleDesc></castItem>
+                <castItem><role>JACINTE</role>, <roleDesc>femme de chambre de Dona Béatrix.</roleDesc></castItem>
+                <castItem><role>UN PAGE</role>.</castItem>
+                <castItem><role>GARDES</role>.</castItem>
+            </castList>
+            <set>
+                <p>La scène est dansle palais du roi de Castille.</p>
+            </set>
+        </front>
+        <body>
+            <div type="title">
+                <head>LE <lb/>BABILLARD, <lb/>COMÉDIE.</head>
+            </div>
+            <div type="play">
+                <div type="scene" n="1">
+                    <head>SCENE PREMIERE.</head> <lb/>
+                    <stage>CLARICE, NERINE.</stage>
+                    <sp who="Clarice">
+                        <speaker>CLARICE.</speaker>
+                        <l><c rend="lettrine">J</c>e sors d'avec <name>Léandre</name> : ah ! quel homme<lb/> ennuyeux !</l>
+                        <l>Je n'en puis plus, je sens un mal de tête <lb/>affreux :</l>
+                        <l> Il n'a pas déparlé pendant une heure entière :</l>
+                        <l>Par bonheur, à la fin je viens de m'en défaire</l>
+                        <l>Sous le prétexte heureux d'une commission</l>
+                        <l part="I">Dont j'ai su le charger.</l>
+                    </sp>
+                 </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

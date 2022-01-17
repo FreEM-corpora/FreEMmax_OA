@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+       <fileDesc>
+           <titleStmt>
+               <title type="main">Le Retour de la paix</title>
+               <title type="subtitle">Édition électronique</title>
+               <author>Louis de Boissy, 1694-1758</author>
+               <principal><name>Prof. Ioana Galleron</name></principal>
+               <editor><name>Prof. Geoffrey Williams</name></editor>
+               <respStmt>
+                   <resp>Mis au format numérique par</resp>
+                   <name>Salaün, Marianne</name>
+                   <name>Padey, Cyrielle</name>
+               </respStmt>
+           </titleStmt>
+           <editionStmt>
+               <edition>Première édition, <date>2017</date>.
+               </edition>
+           </editionStmt>
+           <publicationStmt>
+               <publisher>LiCoRN</publisher>
+               <pubPlace>Lorient</pubPlace>
+               <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+               <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+           <date>2017</date></publicationStmt>
+           <notesStmt>
+               <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+               <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+           </notesStmt>
+           <sourceDesc>
+               <biblStruct xml:lang="fr">
+                   <monogr>
+                       <author>Louis de Boissy</author>
+                       <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT<lb/>Son Théâtre François &amp; Italien<pc>.</pc></hi> <lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                       <imprint>
+                           <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                           <publisher>JEAN NEAULME</publisher>
+                           <date when="1758">M.DCC.LVIII</date>
+                           <note>Tome septième.</note>
+                           <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                       </imprint>
+                   </monogr>
+                   <citedRange>Tome huitième, p. 145-166.</citedRange>
+               </biblStruct>
+           </sourceDesc>
+       </fileDesc>
+       <encodingDesc>
+           <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+               <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+               <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+               <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+               <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+               <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+               <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+               <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+               <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+               <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+           </projectDesc>
+           <editorialDecl>
+               <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+               <normalization>
+                   <p>L'orthographe d'origine a été respectée. Les signes de ponctuation ont été normalisés: les points de suspension ont été ramenés à trois (au lieu de quatre), les signes doubles (point virgule, deux points, point d'exclamation, signe d'interrogation) ont été espacés du mot qu'ils suivent, tandis que les signes simples (virgule, point) ont été accolés au mot qu'ils
+                       suivent.</p>
+               </normalization>
+               <punctuation>
+                   <p>La ponctuation d'origine a été respectée, elle est parfois signalée par l'élément pc.</p>
+               </punctuation>
+               <hyphenation eol="all">
+                   <p>Les coupures de lignes sont notées avec l'élémént lb.</p>
+               </hyphenation>
+               <interpretation>
+                   <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+                   <p>Cette pièce pose un problème particulier en ce qui concerne le codage des éléments faisant référence à la construction du personnage. Le Marquis y apparaît déguisé en femme, et le caractère de cette dernière donne lieu à des commentaires de la part de personnages comme Paméla, qui ne sait pas qu'elle parle de son ancien maître lorsqu'elle fait le portrait de sa maîtresse à l'intention de ses parents, ou de la part du Chevalier, qui évoque véritablement la Comtesse. A qui les caractérisants font-ils, finalement, référence? Il a été décidé de considérer qu'ils concernent la Comtesse, quand le personnage pense y faire référence de bonne foi, et le Marquis seulement lorsqu'il est évoqué en tant que tel.</p>
+               </interpretation>
+           </editorialDecl>
+           <fsdDecl>
+               <fsDecl type="character_specification" xml:id="TEMP">
+                   <fDecl name="temper">
+                       <vRange>
+                           <string/>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="social_position" xml:id="SS">
+                       <vRange>
+                           <string/>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="physical_aspect" xml:id="PHYS">
+                       <vRange>
+                           <string/>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="cultural_specification" xml:id="CULT">
+                       <vRange>
+                           <string/>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="age">
+                       <vRange>
+                           <vAlt>
+                               <symbol value="young" xml:id="AGY"/>
+                               <symbol value="old" xml:id="AGO"/>
+                               <symbol value="child" xml:id="AGC"/>
+                               <symbol value="adult" xml:id="AGA"/>
+                               <symbol value="unknown" xml:id="AGU"/>
+                           </vAlt>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="sex">
+                       <vRange>
+                           <vAlt>
+                               <symbol value="male" xml:id="SM"/>
+                               <symbol value="female" xml:id="SF"/>
+                               <symbol value="undetermined" xml:id="SU"/>
+                           </vAlt>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="nationality" xml:id="NAT">
+                       <vRange>
+                           <string/>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="ontological_category">
+                       <vRange>
+                           <vAlt>
+                               <symbol value="human" xml:id="OCH"/>
+                               <symbol value="non-human" xml:id="OCNH"/>
+                               <symbol value="semi-human" xml:id="OCSH"/>
+                           </vAlt>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="family_position">
+                       <vRange>
+                           <vColl>
+                               <symbol value="father" xml:id="FPF"/>
+                               <symbol value="son" xml:id="FPSON"/>
+                               <symbol value="daughter" xml:id="FPD"/>
+                               <symbol value="mother" xml:id="FPM"/>
+                               <symbol value="uncle" xml:id="FPU"/>
+                               <symbol value="aunt" xml:id="FPA"/>
+                               <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                               <symbol value="sister" xml:id="FPSIS"/>
+                               <symbol value="brother" xml:id="FPB"/>
+                               <symbol value="cousin" xml:id="FPC"/>
+                               <symbol value="step-mother" xml:id="FPSM"/>
+                               <symbol value="step-father" xml:id="FPSF"/>
+                               <symbol value="step-daughter" xml:id="FPSD"/>
+                               <symbol value="step-son" xml:id="FPSS"/>
+                               <symbol value="guardian" xml:id="FPG"/>
+                               <symbol value="ward" xml:id="FPWA"/>
+                               <symbol value="husband" xml:id="FPH"/>
+                               <symbol value="wife" xml:id="FPWIF"/>
+                               <symbol value="engaged_to_be_married" xml:id="FPE"/>
+                               <symbol value="widow" xml:id="FPWID"/>
+                               <symbol value="widower" xml:id="FPWIDR"/>
+                               <symbol value="friend" xml:id="FPFRI"/>
+                               <symbol value="neighbour" xml:id="FPNEIG"/>
+                               <symbol value="grand-mother" xml:id="FPGM"/>
+                               <symbol value="grand-father" xml:id="FPGF"/>
+                               <symbol value="grand-child" xml:id="FPGGC"/>
+                           </vColl>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="actantial_role">
+                       <vRange>
+                           <vColl>
+                               <symbol value="lover" xml:id="ARL"/>
+                               <symbol value="subject" xml:id="ARS"/>
+                               <symbol value="opponent" xml:id="AROP"/>
+                               <symbol value="adjuvant" xml:id="ARAD"/>
+                               <symbol value="authority" xml:id="ARAUT"/>
+                               <symbol value="trouble_maker" xml:id="ARTM"/>
+                               <symbol value="episodic" xml:id="AREP"/>
+                           </vColl>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="occupation" xml:id="OCC">
+                       <vRange>
+                           <string/>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="collective_character">
+                       <vRange>
+                           <binary value="true" xml:id="COLL"/>
+                       </vRange>
+                   </fDecl>
+               </fsDecl>
+           </fsdDecl>
+       </encodingDesc>
+       <profileDesc>
+           <creation>
+               <date when="1749-02-22">22 février 1749</date>
+               <rs type="city">Paris, France.</rs>
+           </creation>
+           <textClass>
+               <keywords>
+                   <term>théâtre</term>
+                   <term>comédie</term>
+                   <term>comédie en vers</term>
+               </keywords>
+           </textClass>
+           <particDesc>
+               <p>
+                   <list>
+               <head>Liste des personnes et personnages actifs ou mentionnés dans la pièce.</head>
+               <item xml:id="Joie" ana="#OCNH">
+                   <rs>La Joie</rs>
+               </item>
+               <item xml:id="Actrice" ana="#OCH #SF #OCC">
+                   <rs>Une Actrice.</rs>
+               </item>
+               <item xml:id="Decence" ana="#OCNH">
+              <rs>La Décence.</rs>
+               </item>
+               <item xml:id="Bruyant" ana="#OCH #SM #OCC">
+                   <name>M. Bruyant</name>, avocat.
+               </item>
+               <item xml:id="Prudent" ana="#OCH #SM #OCC">
+                   <name>M. Prudent</name>, officier.
+               </item>
+               <item xml:id="Arlequin" ana="#OCH #SS #CULT">
+                   <rs>Arlequin</rs>
+               </item>
+               <item xml:id="Troupe" ana="#COLL #OCH #OCC">
+                   <rs>Troupe de Danseurs et de Danseuses.</rs>`
+               `</item>
+                       <item xml:id="Mars" ana="#OCNH">
+                           <name>Mars.</name>
+                       </item>
+                       <item xml:id="Moliere">
+                           <name>Molière</name>, l'auteur comique.
+                       </item>
+                       <item xml:id="Crebillon_pere">
+                           <name>Prosper Jolyot de Crébillon</name>, dit Crébillon père.
+                       </item>
+                       <item xml:id="Paix" ana="#OCNH">
+                           <rs>Allégorie de la Paix.</rs>
+                       </item>
+                       <item xml:id="CI" ana="#OCH #COLL #NAT #CULT">
+                           <rs>Les comédiens de la Comédie-Italienne.</rs>
+                       </item>
+                       <item xml:id="CF" ana="#OCH #COLL #NAT #CULT">
+                           <rs>Les comédiens de la Comédie-Française.</rs>
+                       </item>
+                       <item xml:id="Pantalon" ana="#OCH #SM #AGO">
+                           <name>Pantalon</name>, acteur et personnage de la comédie italienne.
+                       </item>
+                       <item xml:id="Docteur" ana="#OCH #SM #AGO #OCC">
+                           <rs>Le Docteur, acteur et personnage de la comédie italienne.</rs>
+                       </item>
+                       <item xml:id="Pierrot" ana="#OCH #SM #AGU #SS">
+                           <name>Pierrot</name>, acteur et personnage de la comédie italienne.
+                       </item>
+                       <item xml:id="Scaramouche" ana="#OCH #SM #AGU #SS">
+                           <name>Scaramouche</name>, acteur et personnage de la comédie italienne.
+                       </item>
+                       <item xml:id="Scapin" ana="#OCH #SM #AGU">
+                           <name>Scapin</name>, acteur et personnage de la comédie italienne.
+                       </item>
+                       <item xml:id="Caroline" ana="#OCH #SF #AGU">
+                           <name>Caroline</name>, actrice et personnage de la comédie italienne.
+                       </item>
+                       <item xml:id="Public" ana="#OCNH #COLL">
+                           <rs>Le public du théâtre.</rs>
+                       </item>
+                       <item xml:id="PM" ana="#SM #OCH #COLL">
+                           <rs>Jeunes gens à la mode, dissipés, petits-maîtres.</rs>
+                       </item>
+                      <item xml:id="Fanchon" ana="#OCH #SF #OCC #SS">
+                          <name>Fanchon</name>, personnage incarné par Arlequin en déguisement.
+                      </item>
+                       <item xml:id="Louis" ana="#OCH #SM #SS">
+                           <rs>Louis XV, roi de France.</rs>
+                       </item>
+                       <item xml:id="Rameau" ana="#OCH #SM #OCC">
+                           <name>Rameau</name> le compositeur.
+                       </item>
+                   </list>
+               </p>
+           </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-11-11" resp="IG">
+                Correction du texte par confrontation optique avec l'original. Ajout d'xml pour les actes, les scènes et les répliques. Vérification de l'usage des <gi>name</gi>.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <titlePage type="half-title">
+                <pb n="145"/>
+                <docTitle>
+                    <titlePart type="main">LE RETOUR <lb/>DE <lb/>LA PAIX<pc>,</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="146"/>
+            <castList>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
+                <castItem><role>LA JOYE</role><pc type="affirmative">.</pc></castItem>
+                <castItem><role>UNE ACTRICE</role><pc type="affirmative">.</pc></castItem>
+                <castItem><role>LA DECENCE</role><pc type="affirmative">.</pc></castItem>
+                <castItem><role>M. BRUYANT</role><pc>,</pc><roleDesc> Avocat</roleDesc><pc type="affirmative">.</pc></castItem>
+                <castItem><role>M. PRUDENT</role><pc>,</pc><roleDesc> Officier</roleDesc><pc type="affirmative">.</pc></castItem>
+                <castItem><role>ARLEQUIN</role><pc>,</pc><roleDesc> déguiſé en Bouquetiére</roleDesc><pc type="affirmative">.</pc></castItem>
+                <castItem><role>TROUPE</role><pc>,</pc><roleDesc> de Danſeurs &amp; de Danſeuſes</roleDesc><pc type="affirmative">.</pc></castItem>
+                </castList>
+            <lb/><lb/><lb/><p>La Scène est à <name type="place">Paris</name> ſur le <name type="institution">Théâtre Italien</name>.</p>
+        </front>
+        <body>
+            <div type="title">
+                <head>LE RETOUR <lb/>DE <lb/>LA PAIX<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc> <lb/>EN UN ACTE EN VERS<pc type="affirmative">.</pc></head><lb/>
+            </div>
+            <div type="scene" n="1" xml:id="S1">
+                    <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LA JOYE<pc>,</pc> UNE ACTRICE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Actrice" xml:id="S1_1">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c rend="lettrine">E</c>H bon jour, mon <rs ref="#Joie" ana="#TEMP">aimable Joye</rs> !</l>
+                        <l>Quel plaiſir de vous voir ! quel bonheur <lb/>vous envoye ?</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_2">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt la Fête du jour, le retour de <rs ref="#Paix">la Paix</rs>.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_3">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Déja votre préſence eſt un de ſes bienfaits.</l>                                </sp>
+                    <pb n="148"/>
+                    <sp who="#Joie" xml:id="S1_4">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Comme il fait mon triomphe , &amp; qu'ici c'eſt mon centre</l>
+                        <l>Je viens en faire les honneurs.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_5">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Viendra-t-elle aujourd'hui ?</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_6">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Non, on l'arrête ailleurs.</l>
+                        <l>Mais, <rs ref="#Actrice">ma chére</rs>, <choice><orig>par-tout</orig><reg>partout</reg></choice> où j'entre</l>
+                        <l>On eſt ſûr de la voir régner.</l>
+                        <l>La guerre trop <choice><orig>long-tems</orig><reg>longtemps</reg></choice> avoit <choice><orig>ſçu</orig><reg>su</reg></choice> l'éloigner.</l>
+                        <l>Dans ce beau jour qui la rapelle,</l>
+                        <l>Je ne <choice><orig>ſçaurois</orig><reg>saurais</reg></choice> trop éclater.</l>
+                        <l><rs ref="#Joie" ana="#FPD">Je ſuis <rs ref="#Paix">ſa</rs> fille</rs>, &amp; comme telle,</l>
+                        <l>Pour elle je dois écouter</l>
+                        <l>Tous les Mortels qui vont ſe preſenter.</l>
+                        <l>Je viens leur inſpirer ſon eſprit qui m'anime ;</l>
+                        <l>De tous ſes zèlés Partiſans</l>
+                        <l>Recevoir l'encens légitime</l>
+                        <l>Accorder tous les <choice><orig>différens</orig><reg>différends</reg></choice> ,</l>
+                        <l>Marier tous les Arts, unir tous les <choice><orig>Talens</orig><reg>talents</reg></choice>.</l>
+                        <l>Je veux par ce moyen dompter les plus rebelles,</l>
+                        <l>Et faire voir à tout <name type="place">Paris</name></l>
+                        <l>Un ſpectacle nouveau, dont il ſera ſurpris.</l>
+                        <l>Plus de Procès, plus de querelles.</l>
+                        <l>Tous les Auteurs ſeront liés,</l>
+                        <l>Ce nouvel an, des noeuds les plus <choice><orig>fidelles</orig><reg>fidèles</reg></choice>.</l>
+                        <l>Tous les Comédiens vrais dans leurs amitiés</l>
+                        <l>Vivront ſans nuls débats comme des Tourterelles.</l>
+                        <l>La cordialité va régner chez les Belles,</l>
+                        <l>Et la fidélité chez les gens mariés,</l>
+                        <l>La bonne-foi chez les Notaires,</l>
+                        <l>Le ſcrupule chez les Banquiers,</l>
+                        <l>La probité chez tous les gens d'Affaires,</l>
+                        <l>Et <choice><orig>ſur-tout</orig><reg>surtout</reg></choice> parmi les Greffiers.</l> 
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_7">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous aurez une peine extrême</l>
+                        <l>A pacifier les eſprits ;</l>
+                        <pb n="149"/>
+                        <l>Car la guerre a briſé le joug des plus ſoumis.</l>
+                        <l>Et la révolte a paſſé même</l>
+                        <l><choice><orig>Juſques</orig><reg>Jusque</reg></choice> dans le corps des Maris.</l> 
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_8">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vos <rs ana="#COLL" ref="#CI">camarades</rs> ſont unis ?</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_9">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Pour me deſeſpérer &amp; pour me contredire !</l>
+                        <l>Quelque bon que ſoit mon avis,</l>
+                        <l>Ils me font tous l'honneur de n'y jamais ſouſcrire.</l>
+                        <l><rs ref="#CI">Nos Sénateurs</rs> tiennent conſeil</l>
+                        <l>Pour vous donner ſans doute un cadeau ſans pareil,</l>
+                        <l>Vous allez être parfumée</l>
+                        <l>De leur encens joliment &amp; dans peu.</l> 
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_10">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>J'entends, leurs ſoins me préparent un feu.</l>  
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_11">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Qui ne ſera pas ſans fumée ;</l>
+                        <l>Mais avant l'illumination,</l>
+                        <l>Vous aurez ici <name type="character" ref="#Pantalon">Pantalon</name>,</l>
+                        <l><name type="character" ref="#Docteur">Le Docteur</name>, <name type="character" ref="#Pierrot">Pierrot</name>, <name type="character" ref="#Scaramouche">Scaramouche</name>,</l>
+                        <l>Qui vous divertiront ; &amp; pour la bonne bouche,</l>
+                        <l>Leurs amoureux viendront en langage Romain,</l>
+                        <l>S'entretenir long-tems du beau feu qui les touche.</l> 
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_12">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ils m'attendriroient trop : il suffit d'<name type="character" ref="#Arlequin">Arlequin</name>,</l>
+                        <l>De <name type="character" ref="#Caroline">Caroline</name> &amp; de <name type="character" ref="#Scapin">Scapin</name>.</l>
+                        <l>Mais dites-moi, <rs ref="#Actrice">ma chére</rs>, aurai-je de la danſe ?</l>
+                        <l><rs ref="#Paix" ana="#TEMP">J'aime à ſauter. C'eſt-là ma paſſion</rs>.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_13">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous en aurez en abondance,</l>
+                        <l>Sans qu'elle tienne à l'action ;</l>
+                        <l>Et d'une décoration,</l>
+                        <l>Pour comble de magnificence,</l>
+                        <l>Je crois que <rs ref="#CI">nos Meſſieurs</rs> auront fait la dépenſe.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_14">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Tant mieux : <rs ref="#Joie" ana="#TEMP">j'aime l'éclat</rs>.</l>
+                    </sp>
+                    <pb n="150"/>
+                    <sp who="#Actrice" xml:id="S1_15">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Un ſpectacle <choice><orig>François</orig><reg>français</reg></choice></l>
+                        <l>Eut été plus décent, plus digne de <rs ref="#Paix">la Paix</rs>,</l>
+                        <l>Mais <rs ref="#CI" ana="#CULT">le bon goût chez nous a deſerté la Scène</rs>.</l>
+                        <l>Depuis qu'ils ont réglé notre Gouvernement,</l>
+                        <l>La ſeule <term>farce Italienne</term></l>
+                        <l>Triomphe &amp; règne impunément.</l>
+                        <l>Cinq ou ſix vieux <term>lazzis</term> qu'on ne fait que rebattre</l>
+                        <l>En forment tout le <term>nœud</term>, comme le <term>ſel piquant</term>,</l>
+                        <l>Les <term>machines</term> en font les <term>grands coups de Théâtre</term>,</l>
+                        <l>Et les <term>Balets</term>, le <choice><orig>dénoûment</orig><reg>dénouement</reg></choice>.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_16">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Tout eſt juſtifié par votre réuſſite. </l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_17">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Pour moi, j'en rougis en ſecret, </l>
+                        <l>Et le Peintre, ou plutôt le Maître de Balet</l>
+                        <l>En a le principal mérite,</l>
+                        <l>Le reſte de la gloire eſt pour les Ouvriers,</l>
+                        <l>Et nos premiers acteurs ſont de bons Charpentiers.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_18">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Qu'importe ſi par eux vous êtes enrichie !</l>
+                        <l>Vive l'Italien, vive la Féerie !</l>
+                        <l>Un Ouvrage à conſtruire, un Palais à bâtir,</l>
+                        <l>Ne coûte qu'un moment, de même à démolir.</l>
+                        <l>Heureux Théâtre, où l'on peut, ſans écrire,</l>
+                        <l>Mettre au jour une Piéce, &amp; ne ſçavoir pas lire.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_19">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ce bonheur eſt honteux, &amp; n'eſt que paſſager.</l>
+                        <l>Notre ſort ſera des plus triſtes,</l>
+                        <l>Quand <rs ref="#Public">le Public</rs> prompt à changer,</l>
+                        <l>Se laſſera de voir en nous des Machiniſtes :</l>
+                        <l>Et le peu de <choice><orig>François</orig><reg>français</reg></choice>, hélas ! que nous ſçavions</l>
+                        <l>Depuis cette métamorphoſe,</l>
+                        <l><rs ref="#CI">Miſérables</rs> ! nous l'oublions.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_20">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ah ! vous n'oubliez pas grand choſe,</l>
+                        <l>Et vous avez d'ailleurs l'art de vous retourner,</l>
+                        <pb n="151"/>
+                        <l>Et d'aplanir tous les obſtacles.</l>
+                        <l><unclear>Par des enfans d'abord vous ſçûtes étonner,</unclear></l>
+                        <l>Enſuite par des feux, on vous a vu régner.</l>
+                        <l>Et vos Jeux maintenant brillent par des Spectacles :</l>
+                        <l>Il eſt d'autre moyens qu'on peut imaginer,</l>
+                        <l part="I">Aprenés le Chinois.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_21">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Ah! c'eſt trop badiner.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_22">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais je remplis mon perſonnage,</l>
+                        <l>Le vôtre eſt de changer d'état &amp; de langage :</l>
+                        <l>Soyez tantôt <choice><orig>François</orig><reg>Français</reg></choice>, tantôt Italiens,</l>
+                        <l><choice><orig>Paroiſſés</orig><reg>Paraissez</reg></choice> à la fois, montrez-vous tout enſemble,</l>
+                        <l>Peintres, Artificiers, Danſeurs, Muſiciens,</l>
+                        <l>Parodiés chaque art, ſans qu'aucun vous reſſemble.</l>
+                        <l part="I">Et ſoyés tout...</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_23">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Pour n'être rien.</l>
+                        <l>Ce conſeil n'eſt pas pour notre gloire.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_24">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Il eſt du moins pour votre bien.</l>
+                        <l><rs ref="#Joie" ana="#FPFRI">Je vous parle en amie</rs>, &amp; vous devez m'en croire.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S1_25">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Rétabliſſés plutôt le <choice><orig>François</orig><reg>français</reg></choice> parmi nous.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S1_26">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Il vous faut des ſujets ; où les trouveriés-vous ?</l>
+                        <l>Quand même vous feriez cette heureuſe rencontre,</l>
+                        <l><rs ref="#Decence" ana="#SF">Une Dame</rs> <choice><orig>paroît</orig><reg>paraît</reg></choice>, qui <choice><orig>proteſteroit</orig><reg>protesterait</reg></choice> contre.</l>
+                    </sp>
+                </div>
+                <pb n="152"/>
+                <div type="scene" n="2" xml:id="S2">
+                    <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LA JOYE<pc>,</pc> L'ACTRICE<pc>,</pc> LA DECENCE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Decence" xml:id="S2_1">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c rend="lettrine">N</c>On, <rs ref="#Joie" ana="#FPD">fille aimable de la Paix</rs>,</l>
+                        <l>Je l'invite plutôt à donner du <choice><orig>François</orig><reg>français</reg></choice>.</l>
+                        <l>Le Spectacle que je protége,</l>
+                        <l>Quoiqu'il ait ſeul ce Privilége,</l>
+                        <l>Bien loin de l'empêcher, le trouvera très-bon.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S2_2">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Il y peut perdre.</l>
+                    </sp>
+                    <sp who="#Decence" xml:id="S2_3">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Y gagner au contraire.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S2_4">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Aparemment par la comparaiſon.</l>
+                    </sp>
+                    <sp who="#Decence" xml:id="S2_5">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt un aveu que je n'<choice><orig>oſois</orig><reg>osais</reg></choice> vous faire.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S2_6">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Quel excès de ménagement !</l>
+                        <l>A vous remercier, pardon ſi je balance,</l>
+                        <l>Vous êtes de ma <choice><orig>connoiſſance</orig><reg>connaissance</reg></choice>,</l>
+                        <l>Mais votre nom m'échape en ce moment.</l>
+                    </sp>
+                    <sp who="#Decence" xml:id="S2_7">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><rs ref="#Actrice">Madame</rs>, je ſuis <rs ref="#Decence">la Décence</rs>,</l>
+                        <l>J'excuſe cet oubli qui n'eſt pas ſurprenant.</l>
+                        <l>Au <name type="institution">Théâtre François</name>, je fais ma réſidence,</l>
+                        <l>Et l'on me voit ici très-rarement.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S2_8">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je n'obſerve pas moins vos <choice><orig>loix</orig><reg>lois</reg></choice> exactement.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S2_9">
+                        <speaker>LA JOYE </speaker>
+                        <stage type="delivery" rend="italics">à <rs ref="#Decence">la Décence</rs><pc type="affirmative">.</pc></stage><lb/>
+                        <l>Peut-on ſçavoir quel objet vous attire ?</l>
+                    </sp>
+                    <pb n="153"/>
+                    <sp who="#Decence" xml:id="S2_10">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><rs ref="#Paix">L'héroïne du jour</rs>, vous-même, &amp; de ce pas</l>
+                        <l>Dans mon char qui m'attend là-bas,</l>
+                        <l>Au <name type="place">Fauxbourg S. Germain</name> je compte vous conduire.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S2_11">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><rs ref="#Joie">Madame</rs>, ne nous quittez pas.</l>
+                    </sp>
+                    <sp who="#Decence" xml:id="S2_12">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>On brûle de nous voir marcher d'intelligence,</l>
+                        <l>Nous gagnerons à cet accord charmant.</l>
+                        <l>A mon art, pour briller, il faut de l'<choice><orig>enjoûment</orig><reg>enjouement</reg></choice>.</l>
+                        <l>Et pour plaire, <rs ref="#Joie">la Joye</rs> a beſoin de <rs ref="#Decence">Décence</rs>.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S2_13">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Sans le ſecours de ma préſence,</l>
+                        <l><rs ref="#Decence">Madame</rs>, <rs ref="#CF">vos héros</rs> triomphent maintenant.</l>
+                        <l>Déſormais leur puiſſance eſt trop bien établie.</l>
+                        <l>Ils ne doivent plus craindre rien,</l>
+                        <l>Depuis qu'ils ont pour leur ſoutien</l>
+                        <l>L'<name type="author" ref="#Crebillon_pere">Hercule de la Tragédie</name>  *<note resp="author" place="bottom">* <name type="author" ref="#Crebillon_pere">M. de Crébillon, Pere</name>.</note>.</l>
+                    </sp> 
+                    <sp who="#Actrice" xml:id="S2_14">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>On eſt ſûr de tout vaincre avec cet apui-là,</l>
+                        <l>Et juſqu'au plus haut point leur grandeur eſt portée,</l>
+                        <l>Par celle de <title n="Catilina">Catilina</title>.</l>
+                        <l>Nulle Piéce jamais ne ſe vit écoutée</l>
+                        <l>Avec tant de reſpect, &amp; ne le mérita.</l>
+                        <l>Par ſa réuſſite brillante,</l>
+                        <l>Et par l'impreſſion d'eſtime qu'elle a fait,</l>
+                        <l>Les Acteurs enrichis, le Public ſatisfait,</l>
+                        <l>Sont bien payez de leur attente,</l>
+                        <l>Et <rs ref="#Crebillon_pere">l'Auteur</rs>, à ſa gloire, a mis le dernier trait.</l>
+                    </sp> 
+                    <sp who="#Decence" xml:id="S2_15">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Il eſt flateur pour <rs ref="#Crebillon_pere" ana="#SS">ce grand homme</rs>,</l>
+                        <l>De vous contraindre à l'admirer,</l>
+                        <l>Vous, qu'on redoute &amp; qu'on renomme,</l>
+                        <l>Par <rs ref="#CI" ana="#CULT">le talent de cenſurer</rs>.</l>
+                    </sp>
+                    <pb n="154"/>
+                    <sp who="#Actrice" xml:id="S2_16">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt un tribut forcé, mais légitime,</l>
+                        <l>Qu'à la critique même, arrache le ſublime.</l>
+                        <l>Il coûte à l'amour-propre, on ne peut le nier,</l>
+                        <l>Par bonheur on n'a pas ſouvent à le payer.</l>
+                        <l>Cette flamme du Ciel, ce <term>vrai ſublime</term> eſt rare.</l>
+                        <l>Il faut <choice><orig>long-tems</orig><reg>longtemps</reg></choice> pour le ſaiſir,</l>
+                        <l>Et la nature encore en eſt ſi fort avare,</l>
+                        <l>Qu'un ou deux dans un ſiécle ont droit d'y parvenir.</l>
+                    </sp>
+                    <sp who="#Decence" xml:id="S2_17">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais pluſieurs par <term>le tendre</term>, ont l'art de réuſſir,</l>
+                        <l part="I">Leur ouvrage eſt goûté.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S2_18">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Même avant que d'éclore :</l>
+                        <l>Grae à l'Acteur qui l'embellit ,</l>
+                        <l>Il eſt brillant dans ſon aurore ;</l>
+                        <l><rs ref="#PM">Le Petit-Maître</rs> qui l'adore,</l>
+                        <l>Par ſon fracas en augmente le bruit ,</l>
+                        <l>Et de beaux yeux en pleurs l'accréditent encore ;</l>
+                        <l>Par bonheur pour le goût qui ſouvent en gémit,</l>
+                        <l>On imprime la Piéce, &amp; le charme eſt détruit.</l>
+                        <l>Au Théâtre ébloui d'un grand jour qui l'éclaire,</l>
+                        <l><rs ref="#Public" ana="#TEMP #CULT">Le Spectateur voit mal, l'illuſion le ſuit</rs>.</l>
+                        <l>Dans ſa chambre, à l'abri d'une pompe étrangére,</l>
+                        <l><term>Le connoiſſeur</term> voit mieux, &amp; le fantôme fuit.</l>
+                    </sp>
+                    <sp who="#Decence" xml:id="S2_19">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Vous triomphez alors.</l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S2_20">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Il eſt vrai, je ſuis franche, </l>
+                        <l>C'eſt avec volupté que je <choice><orig>prens</orig><reg>prends</reg></choice> ma revanche.</l>
+                        <l><rs ref="#Decence" ana="#TEMP #CULT">J'aime à rire du larmoyant</rs></l>
+                        <l part="I">Qu'on fait entrer <choice><orig>par-tout</orig><reg>partout</reg></choice>.</l>
+                    </sp>
+                    <sp who="#Decence" xml:id="S2_21">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">En le parodiant.</l>
+                        <l part="I">Mauvais genre !</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S2_22">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Pour lui je ne <choice><orig>prens</orig><reg>prends</reg></choice> point les armes ;</l>
+                        <pb n="155"/>
+                        <l>Mais <term>un genre</term> à mon gré beaucoup plus révoltant,</l>
+                        <l>Eſt celui qui, d'un autre, oſe emprunter les charmes,</l>
+                        <l>Et mariant les ris, ſans ceſſe avec les larmes,</l>
+                        <l>Par ce bizarre aſſortiment,</l>
+                        <l>Fait un monſtre des deux, en les dénaturant.</l>
+                        <l>Sans altérer le repos de la terre,</l>
+                        <l>On peut ſur lui lancer des traits.</l>
+                        <l>C'eſt un combat, c'eſt une guerre</l>
+                        <l>Qu'on doit permettre dans la paix.</l>
+                    </sp>
+                    <sp who="#Decence" xml:id="S2_23">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>D'une façon plus noble, il faut donc le combattre,</l>
+                        <l>Il faut que renaiſſant ſur le même Théâtre,</l>
+                        <l>La bonne Comédie étouffe les ſanglots :</l>
+                        <l>C'eſt aux rayons du vrai que s'éclipſe le faux.</l>
+                        <l>Un Ouvrage aplaudi, * <note resp="author" place="bottom">* <title rend="italics">Le Méchant</title>.</note> que vous devez connoître,</l>
+                        <l>Où vous brillez vous-même a commencé déja,</l>
+                        <l>Un ſecond triomphant peut-être achévera.</l>
+                        <l>Venez chez <rs ref="#CF">les <choice><orig>François</orig><reg>Français</reg></choice></rs>, hâtez-vous de paroître,</l>
+                        <l>Un ſeul de vos regards pourra le faire renaître.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S2_24">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je ne puis pour ce ſoir ſeconder vos ardeurs ;</l>
+                        <l>Mais demain donnez du <name type="author" ref="#Moliere">Moliére</name>,</l>
+                        <l>Qu'il ſoit joué par tous les bons Acteurs,</l>
+                        <l>Vous m'y verrez arriver la premiére,</l>
+                        <l>Et briller dans les yeux de <rs ref="#Public">tous les Spectateurs</rs> ;</l>
+                        <l>Voilà le digne &amp; grand modèle,</l>
+                        <l>Qu'on y doit propoſer à vos jeunes Auteurs,</l>
+                        <l>Et contre l'attaque mortelle</l>
+                        <l>Du froid poiſon des ſoupirs &amp; des pleurs,</l>
+                        <l>Cet antidote eſt des meilleurs.</l>
+                    </sp>
+                    <sp who="#Decence" xml:id="S2_25">
+                        <speaker>LA DECENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Pour vous avoir, il n'eſt rien qu'on ne faſſe,</l>
+                        <l>Et je vais de ce pas diſpoſer <rs ref="#CF">nos Meſſieurs</rs></l>
+                        <l>A vous ſervir de bonne grace :</l>
+                        <pb n="156"/>
+                        <l>Nous vous annoncerons avec un Compliment</l>
+                        <l>Pour attirer une foule plus grande.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S2_26">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>N'en faites rien, <rs ref="#Decence">Madame</rs>, j'apréhende</l>
+                        <l>Les viſites du jour de l'an<choice><sic>,</sic><corr>.</corr></choice></l>
+                    </sp>
+                    <sp who="#Actrice" xml:id="S2_27">
+                        <speaker>L'ACTRICE </speaker>
+                        <stage type="business" rend="italics">lui faiſant la révérence.</stage><lb/>
+                        <l><rs ref="#Decence">Madame</rs>, &amp; moi pareillement.</l>
+                    </sp>
+                    <stage type="exit" rend="italics">(<rs ref="#Decence">La Décence</rs> ſort.)</stage>
+                </div>
+                <div type="scene" n="3" xml:id="S3">
+                    <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LA JOYE<pc>,</pc> L'ACTRICE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Actrice" xml:id="S3_1">
+                        <speaker>L'ACTRICE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><rs ref="#Decence" ana="#TEMP #CULT"><c rend="lettrine">S</c>A politeſſe</rs> eſt des plus fades.</l>
+                        <l>Je cours vous annoncer à <rs ref="#CI">tous nos camarades</rs>,</l>
+                        <l>Et j'adopte dans ces <choice><orig>inſtans</orig><reg>instants</reg></choice></l>
+                        <l>L'eſprit de notre corps qui vous caractériſe,</l>
+                        <l>Je me livre aux lazzis toute entiére, &amp; je <choice><orig>prens</orig><reg>prends</reg></choice></l>
+                        <l>La variété pour deviſe,</l>
+                        <l>La Marotte pour arme, &amp; <name type="god" n="Momus">Momus</name> pour amant,</l>
+                        <l>La Danſe pour apui, le Chant pour ſuplément,</l>
+                        <l>Pour aide, tout l'éclat que l'Optique déploye,</l>
+                        <l>Pour régle le Plaiſir, pour Loi l'amuſement,</l>
+                        <l>Pour guide la Folie, &amp; pour ame <rs ref="#Joie">la Joye</rs>.</l>  
+                    </sp>
+                    <stage type="exit" rend="italics">Elle ſort.</stage>
+                </div>
+                <pb n="157"/>
+                <div type="scene" n="4" xml:id="S4">
+                    <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LA JOYE<pc>,</pc> ARLEQUIN <hi rend="italics">en Bouquetiére</hi><pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Arlequin" xml:id="S4_1">
+                        <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c rend="lettrine">J</c>E viens, <rs ref="#Joie">Madame</rs>, avec beaucoup de modeſtie</l>
+                        <l>Vous marquer mon reſpect &amp; mon attachement.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S4_2">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Qui donc êtes vous, je vous prie ?</l>
+                    </sp> 
+                    <sp who="#Arlequin" xml:id="S4_3">
+                        <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>J'ai l'honneur d'être <rs ref="#Fanchon" ana="#TEMP">une fille à talent</rs>.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S4_4">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais, quel talent encore ? Parlez il en eſt tant.</l>
+                        <l>Tenez-vous à la Comédie?</l>
+                    </sp> 
+                    <sp who="#Arlequin" xml:id="S4_5">
+                        <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Oui, <rs ref="#Joie">Madame</rs>, j'y tiens particuliérement,</l>
+                        <l>Et je m'y <choice><orig>rens</orig><reg>rends</reg></choice> à pied tous les jours de ma vie,</l>
+                        <l>A quatre heures du ſoir très-réguliérement.</l>
+                        <l>Qu'il pleuve, ou qu'il vente, il n'importe.</l>
+                        <l><rs ref="#Public">Nos Dames, nos Meſſieurs</rs> repreſentent dedans,</l>
+                        <l>Et moi je figure à la Porte.</l>
+                        <l>J'engage l'entretien avec tous les <choice><orig>paſſans</orig><reg>passants</reg></choice>.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S4_6">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Votre rôle eſt des plus <choice><orig>brillans</orig><reg>brillants</reg></choice>.</l>
+                    </sp> 
+                    <sp who="#Arlequin" xml:id="S4_7">
+                        <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je mets ma gloire à le bien faire.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S4_8">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Votre nom ?</l>
+                    </sp> 
+                    <sp who="#Arlequin" xml:id="S4_9">
+                        <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt <name type="character" ref="#Fanchon">Fanchon</name>, &amp; <rs ref="#Fanchon" ana="#OCC">je ſuis Bouquetiére</rs>.</l>
+                        <l>J'ai le cœur tout gonflé d'une douleur amére ;</l>
+                        <l>Et j'implore votre ſecours.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S4_10">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Dites, qu'avez-vous donc pour gémir de la ſorte?</l>
+                    </sp>
+                    <pb n="158"/>
+                    <sp who="#Arlequin" xml:id="S4_11">
+                        <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>On veut me débuſquer &amp; la brigue eſt tres-forte ;</l>
+                        <l>Car le mérite eſt envié toujours.</l>
+                        <l>On a beau me noircir par de malins diſcours ;</l>
+                        <l><rs ref="#Fanchon" ana="#TEMP">Je ſuis fille d'honneur</rs>, ou le diable m'emporte.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S4_12">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Votre maintien l'annonce autant que vos propos.</l>
+                    </sp>
+                    <sp who="#Arlequin" xml:id="S4_13">
+                        <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><rs ref="#Fanchon" ana="#TEMP">Mes <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> ſont encore plus beaux</rs> ;</l>
+                        <l>On peut m'en croire &amp; <rs ref="#Fanchon" ana="#TEMP">je ſuis franche</rs>.</l>
+                        <l><rs ref="#Joie">Ma Reine</rs>, en ce moment, prenez de <rs ref="#Fanchon" ana="#PHYS">ma main blanche</rs></l>
+                        <l>Le plus joli bouquet qui ſoit dans mon panier.</l>
+                        <l>Ce n'eſt pas tout, puiſqu'il faut vous l'aprendre ;</l>
+                        <l>Je n'ai pas ſeulement <rs ref="#Fanchon" ana="#TEMP">l'habileté de vendre</rs></l>
+                        <l>La grenade &amp; l'œillet que je ſçai marier,</l>
+                        <l>J'ai celle de gliſſer encore un billet tendre.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S4_14">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Fort bien, <rs ref="#Fanchon" ana="#TEMP">vous poſſédez plus d'un talent flateur</rs>.</l>
+                    </sp> 
+                    <sp who="#Arlequin" xml:id="S4_15">
+                        <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je dois à ce propos ſecrétement vous rendre</l>
+                        <l>Un poulet de la part d'<rs ref="#Arlequin" ana="#SS">un zèlé ſerviteur</rs>,</l>
+                        <l>Qui vous parle pour moi, liſez ſans plus attendre.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S4_16">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>De votre audace, ici, je <choice><orig>dévrois</orig><reg>devrais</reg></choice> vous punir ;</l>
+                        <l>Mais <rs ref="#Joie" ana="#TEMP">mon caractére eſt d'en rire</rs>,</l>
+                        <l>Et je vais, pour m'en divertir,</l>
+                        <l>Lire ce billet doux que l'on vient de m'écrire.</l>
+                        <l>Comme le jour permet de tout riſquer</l>
+                        <l>Il donne auſſi le droit de s'en moquer.</l>
+                        <lb/><stage rend="italics" type="delivery">(Elle lit)</stage><lb/>
+                        <l>Je vous recommande, <rs ref="#Joie">Madame</rs>,</l>
+                        <l>Celle qui, de ma part, vous rendra ce billet.</l>
+                        <l>C'eſt <rs ref="#Fanchon" ana="#FPC #NAT"><rs ref="#Arlequin">ma</rs> couſine de <name type="place">Bergame</name></rs>.</l>
+                        <l><rs ref="#Fanchon" ana="#TEMP #CULT">Elle eſt, pour ce Théâtre, un excellent Sujet</rs>.</l>
+                        <l><rs ref="#Fanchon" ana="#CULT #TEMP">Elle eſt folle, elle chante, elle danſe au parfait</rs>.</l>
+                        <l>Eſſayez ſes <choice><orig>talens</orig><reg>talents</reg></choice> ; on ſera content d'elle,</l>
+                        <pb n="159"/>
+                        <l>Et vous obligerez, <rs ref="#Joie">ma Reine</rs>, tout-à-fait</l>
+                        <l><name type="person" ref="#Arlequin">Arlequin</name> <rs ref="#Arlequin" ana="#FPFRI"><rs ref="#Joie">votre</rs> ami fidèle</rs>.</l>
+                        <lb/><stage rend="italics" type="delivery">( Après avoir lû. )</stage><lb/>
+                        <l>Ce nom peut tout ſur moi, chantez <rs ref="#Joie">Mademoiſelle</rs>.</l>
+                    </sp> 
+                    <sp who="#Arlequin" xml:id="S4_17">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage rend="italics" type="delivery">chante<pc type="affirmative">.</pc></stage><lb/>
+                        <l>Accompagnez ma voix, Tambours, Fifres, Baſſons.</l>
+                        <l>Je ſuis pour les grands airs, &amp; pour les hautes danſes.</l>
+                        <l>Admirez tous, les éclats de mes ſons,</l>
+                        <l>Et le brillant de mes cadences.</l>
+                        <lb/><stage type="business" rend="italics">(Il danſe enſuite un tambourin, &amp; à force de tourner <lb/> il fait la culbute.)</stage><lb/>
+                    </sp> 
+                    <sp who="#Joie" xml:id="S4_18">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt <name type="person" ref="#Arlequin">Arlequin</name>, c'eſt vous. Pour payer ce lazzi,</l>
+                        <l>Je vous éléve cette année</l> 
+                        <l>Au rang de <rs ref="#Arlequin" ana="#SS">premier favori</rs>.</l>
+                    </sp> 
+                    <sp who="#Arlequin" xml:id="S4_19">
+                        <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je préfére ce titre à celui de mari,</l>
+                        <l>Et je veux célébrer cette heureuſe journée</l>
+                        <l>Par un Balet bien aſſorti.</l>
+                        <l>Pour qu'il faſſe du bruit, je cours à tire d'aîles ;</l>        
+                        <l>Raſſembler toutes les Vielles,</l>
+                        <l>Tous les Tambours, les Fifres de <name type="place">Paris</name>,</l>
+                        <l>Et je vous les améne avec <rs ref="#CI" ana="#FPFRI">tous nos amis</rs>,</l>
+                        <l>Avec <rs ref="#CI" ana="#COLL">toutes nos Demoiſelles</rs>.</l>
+                    </sp> 
+                    <sp who="#Joie" xml:id="S4_20">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Miſéricorde, j'en frémis !</l>
+                    </sp> 
+                    <sp who="#Arlequin" xml:id="S4_21">
+                        <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>La fête ſera des plus belles,</l>
+                        <l>Nous n'aurons pas perdu nos frais ;</l>
+                        <l>Nous allons tous crier, vive <rs ref="#Joie">la Joye</rs>,</l>
+                        <l>Vive l'Amour, vive la Paix ;</l>
+                        <l>Vive le Roi qui nous l'<choice><orig>envoye</orig><reg>envoie</reg></choice>.</l>
+                    </sp>
+                </div>
+                <pb n="160"/>
+                <div type="scene" n="5" xml:id="S5">
+                    <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LA JOYE<pc>,</pc> M. BRUYANT <pc>,</pc> M. PRUDENT <lb/><hi rend="italics">Officier, un bras en écharpe<pc type="affirmative">.</pc><pc type="affirmative">.</pc></hi></stage><lb/>
+                    <sp who="#Prudent" xml:id="S5_1">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><rs ref="#Joie" ana="#PHYS"><c rend="lettrine">C</c>Harmante Joye</rs>, au plûtôt jugez-nous.</l>
+                        <l>Notre Cauſe devient importante pour vous ;</l>
+                        <l>Puiſqu'elle touche <rs ref="#Paix" ana="#FPM"><rs ref="#Joie">votre</rs> Mere</rs>.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_2">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Oui, quoique vous ſoyez, <rs ref="#Joie">Madame</rs>, en même-tems</l>
+                        <l>Juge &amp; Partie en cette affaire,</l> 
+                        <l>Prononcez ſur nos <choice><orig>différens</orig><reg>différends</reg></choice>.</l>
+                        <l>Mes raiſons &amp; ſur-tout mes poumons triomphans,</l>
+                        <l>Me promettent d'avance une victoire entiére.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S5_3">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vos qualités. Du fait, vous m'inſtruirez après.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_4">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je m'apelle <name ref="#Bruyant" type="character">Bruyant</name>, <rs ref="#Bruyant" ana="#PHYS">ma voix eſt un tonnerre</rs>.</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_5">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je me nomme <name ref="#Prudent" type="character">Prudent</name>, <rs ref="#Prudent" ana="#TEMP">je parle par des faits</rs>.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_6">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><rs ref="#Bruyant" ana="#OCC">Je ſuis un Avocat</rs>, qui plaide pour la Guerre.</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_7">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><rs ref="#Prudent" ana="#OCC #SS">Je suis un Officier</rs> qui combat pour <rs ref="#Paix">la Paix</rs>.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S5_8">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><rs ref="#Prudent" ana="#OCC #CULT">Un Soldat Philoſophe</rs> ! <rs ref="#Prudent" ana="#TEMP">Un <name type="person">Céſar</name> pacifique</rs> !</l>
+                        <l>En même-tems <rs ref="#Bruyant" ana="#CULT">un <name type="author">Cicéron</name> guerrier</rs> !</l>
+                        <l>Parlez, <rs ref="#Bruyant #Prudent">Meſſieurs</rs>, ce contraſte me pique ;</l>
+                        <l>Et je le trouve ſingulier.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_9">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>La Guerre ſur la Paix, mérite l'avantage,</l>
+                        <l>Pour le prouver en quatre mots,</l>
+                        <pb n="161"/>
+                        <l><rs ref="#Bruyant" ana="#OCC #CULT">Je ſuis, quoiqu'Avocat, précis en mon langage</rs>.</l>
+                        <l>C'eſt elle qui fait les Héros,</l>
+                        <l>Sous qui tout plie, à qui tout rend hommage :</l>
+                        <l>Mais à la préférer, la raiſon qui m'engage,</l>
+                        <l>Elle fait le ſoutien, la grandeur des Etats.</l>
+                        <l>D'un tas de Vagabonds, elle purge la Ville,</l>
+                        <l>Des plus mauvais Sujets, fait d'excellens Soldats.</l>
+                        <l>À tout le monde, elle eſt utile.</l>
+                        <l>Le Financier y gagne comme nous.</l>
+                        <l>Le beau Sexe, l'été, nous voit d'un œil plus doux.</l>
+                        <l>Les Abbés mêmes en ſont plus agréables,</l>
+                        <l>Les femmes ſont ſix mois, ſans revoir leurs époux,</l>
+                        <l>Et trouvent au retour leurs amans plus aimables.</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_10">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Oui, quand nous revenons eſtropiés, meurtris,</l>
+                        <l>Nous ſommes à leurs yeux des objets fort jolis.</l>
+                        <l>Les éloges que vous en faites,</l>
+                        <l>À la Guerre, <rs ref="#Bruyant">Monſieur</rs>, ont beau donner le prix,</l>
+                        <l>Elle ne plaît qu'à des femmes coquettes,</l>
+                        <l>Qu'importune l'aſpect de leurs triſtes maris.</l>
+                        <l>Mais elle eſt le fléau, mais elle eſt l'épouvante</l>
+                        <l>D'une épouſe <choice><orig>fidelle</orig><reg>fidèle</reg></choice>, ou d'une tendre amante,</l>
+                        <l>Elle eſt la terreur des amis,</l>
+                        <l>Elle eſt l'effroi d'une mere tremblante.</l>
+                        <l>Chacun craint pour les jours d'un objet qu'il chérit.</l>
+                        <l>Un coup fatal ſouvent le lui ravit.</l>
+                        <l>Le bon mari, l'amant conſtant, le fils unique</l>
+                        <l>Eſt par malheur le premier emporté ;</l>
+                        <l>Et <rs ref="#PM" ana="#TEMP">l'ingrat petit-maître</rs>, ou l'époux tyrannique</l>
+                        <l>Revient toujours en parfaite ſanté.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S5_11">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Oui, le malheur s'attacha à la fidélité.</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_12">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>La Guerre brille en vain, trop d'horreur l'accompagne ;</l>
+                        <l>Chaque état, à tout prendre, y  perd plus qu'il n'y ga-<lb/>gne ;</l>
+                        <l>Si <name type="god" ref="#Mars">Mars</name>, de Libertins, délivre la Cité,</l>
+                        <pb n="162"/>
+                        <l>D'utiles Laboureurs, il prive la campagne.</l>
+                        <l>Le Commerce languit, &amp; les Arts ſont aux fers, </l>
+                        <l>Tous les Spectacles ſont déſerts.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_13">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Avec plus de ſplendeur, l'hyver, ils refleuriſſent.</l>
+                        <l>Pour l'Eſprit &amp; les Arts, bien loin qu'ils dépériſſent,</l>
+                        <l>Mille Eſſeins tous nouveaux de Poëtes ſont nés.</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_14">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt encore, <rs ref="#Bruyant">Monſieur</rs>, un fléau de la Guerre.</l>
+                        <l>Tous les honnêtes-gens en ſont aſſaſſinés.</l>                                            
+                    </sp>
+                    <sp who="#Joie" xml:id="S5_15">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Leurs Ecrits, cette année, affligent moins la terre.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_16">
+                        <speaker>M. BRUYANT </speaker>
+                        <stage rend="italics" type="delivery">avec enthouſiaſme.</stage><lb/>
+                        <l>Rien, quoique vous diſiez, n'égale les combats,</l>
+                        <l><rs ref="#Bruyant" ana="#CULT">J'aime à les lire dans l'Hiſtoire</rs>.</l>
+                        <l>Là, de <name type="person">Céſar</name>, j'accompagne les pas,</l>
+                        <l>Je me transforme en lui, je jouis de ſa gloire,</l>
+                        <l>Tout céde à l'effort de mon bras.</l>
+                        <l>A ma voix, la victoire vole,</l>
+                        <l>Et je ſuis triomphant, quand je parle aux Soldats.</l>
+                    </sp>
+                    <sp who="#Joie" ana="S5_17">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ah ! nous ſommes perdus ; coupez-lui la parole.</l>
+                        <l>S'il harangue l'Armée, il ne finira pas.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_18">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Compagnons ! ſuivez-moi, marchons contre <name type="person">Pompée</name>,</l>
+                        <l part="I">Ce fer que j'ai tiré va lui....</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_19">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Dans le fourreau,</l>
+                        <l><rs ref="#Bruyant">Monſieur</rs>, remettez votre épée.</l>
+                        <l><rs ref="#Bruyant" ana="#CULT">Vous êtes un <name type="person">Céſar</name> nouveau</rs></l>
+                        <l>Dans votre cabinet, &amp; loin de la mêlée,</l>
+                        <l>Vous y voyez de loin toujours la Guerre en beau.</l>
+                        <l>Si comme moi de près, vous l'aviez contemplée,</l>
+                        <l>Dégoutante de ſang, horrible, échevelée ;</l>
+                        <l>Votre ame s'en <choice><orig>feroit</orig><reg>ferait</reg></choice> tout un autre tableau.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S5_20">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Oh ! d'une horrible peur elle <choice><orig>ſeroit</orig><reg>serait</reg></choice> troublée.</l>
+                    </sp>
+                    <pb n="163"/>
+                    <sp who="#Bruyant" xml:id="S5_21">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Non, vrai, d'honneur ; <rs ref="#Bruyant" ana="#TEMP">je ſuis intrépide</rs>.</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_22">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Au Barreau.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S5_23">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ce n'eſt pas ſon champ de bataille ;</l>
+                        <l>C'eſt au <name type="place">Palais Royal</name> que ſa valeur travaille,</l>
+                        <l>C'eſt-là qu'il prend des murs, qu'il livre des aſſauts,</l>
+                        <l>Et qu'il y fait monter notre Cavalerie.</l>
+                        <l>L'autre jour, il faut que j'en rie,</l>
+                        <l><rs ref="#Bruyant">Monſieur</rs>, d'un bras vainqueur, y <choice><orig>plantoit</orig><reg>plantait</reg></choice> nos dra-<lb/>peaux,</l>
+                        <l>Quand un coup de canon parti de <name type="place">la Baſtille</name>,</l>
+                        <l>Déconcerte le ſiége, où ſon courage brille,</l>
+                        <l>Et fait pâlir <rs ref="#Bruyant">notre Héros</rs>.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_24">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Jugez notre Procès pour trancher tout propos.</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S5_25">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Il l'eſt déjà, <rs ref="#Bruyant">Monſieur</rs>.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_26">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Comment donc je vous prie ?</l>
+                    </sp>
+                    <sp who="#Joie" xml:id="S5_27">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais aujourd'hui qu'on le publie,</l>
+                        <l>La Paix a gain de cauſe, &amp; la Guerre a perdu,</l>
+                        <l>Mon Arrêt eſt celui que <name rend="small_cap" type="person">LOUIS</name> a rendu,</l>
+                        <l>Et qui prouve pour nous ſa tendreſſe infinie.</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_28">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ce jour eſt le plus beau, le plus doux de ma vie :</l>
+                        <l>C'eſt pour <rs ref="#Paix">la Paix</rs> que j'ai tant combattu.</l>
+                        <l>Je n'ai plus de regret à ce bras qu'il m'en coûte,</l>
+                        <l>Il eſt trop bien payé, puiſqu'elle en eſt le prix ;</l>
+                        <l>Et pour la rendre à mon Pays,</l>
+                        <l>Je <choice><orig>verſerois</orig><reg>verserais</reg></choice> mon ſang, juſqu'à la moindre goute.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_29">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Par cet Arrêt je me vois confondu,</l>
+                        <l>Mais je ne me tiens pas encore pour battu.</l>
+                        <l>Je ſens dans ce moment ma fureur qui redouble.</l>
+                        <pb n="164"/>
+                        <l>J'irai ſouffler demain la diſcorde au Palais,</l>
+                        <l>Et pour mieux me venger de vous &amp; de <rs ref="#Paix">la Paix</rs>,</l>
+                        <l>Aux Spectacles ce ſoir, je cours porter le trouble.</l>
+                        <l>Malheur aux Piéces qu'on jouera.</l>
+                        <l>Pour commencer , d'abord je vais à l'Opéra,</l>
+                        <l>Voir la belle <title>Platée</title> , &amp; ſon peuple aquatique.</l>
+                        <l>On entendra, <rs ref="#Joie">Madame</rs>, une belle muſique.</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_30">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Tout beau, <rs ref="#Prudent" ana="#CULT">je ſuis ſon zèlé ſerviteur</rs>,</l>
+                        <l>Et qui plus eſt, <rs ref="#Prudent" ana="#SS">le défenſeur</rs></l>
+                        <l>De la tranquillité publique.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_31">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je puis pour mon argent exercer ma critique.</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_32">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Pour elle encore un coup montrez-vous circonſpect,</l>
+                        <l>À <rs ref="#Rameau">ſon pere</rs>, ſur-tout portez plus de reſpect.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_33">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Mon eſprit en cela....</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_34">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Se brouille.</l>
+                        <l><rs ref="#Rameau" ana="#SS #OCC">Ce fameux maître en gé-ré ſol</rs>,</l>
+                        <l>Fait mieux croaſſer la grenouille,</l>
+                        <l>Que les autres ne font chanter le roſſignol.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_35">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je cours donc aux <rs ref="#CF">François</rs>, leur * <note resp="author" place="bottom">* <title rend="italics">L'Ecole de la Jeuneſſe</title>.</note> école eſt publique.</l>
+                        <l>J'y vais moraliſer un peu</l>
+                        <l>Et ſaluer <name type="character">Madame Enrique</name>.</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_36">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Non, arrêtez, <rs ref="#Prudent" ana="#CULT">je ſuis partiſan de leur jeu</rs>.</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_37">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Votre amitié défend tout le monde, morbleu,</l>
+                        <l>Et de tous les côtés me ferme paſſage,</l>
+                        <l>Mais il faut ſur quelqu'un que j'exerce ma rage,</l>
+                        <l>Rien ne me retient plus, &amp; puiſqu'il eſt ainſi,</l>
+                        <l>La foudre va tomber sur <rs ref="#CI">ce théâtre</rs> ici.</l>
+                        <pb n="165"/>
+                        <l>Il mérite la préférence,</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S5_38">
+                        <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Prenez garde, <rs ref="#Prudent" ana="#FPFRI">je ſuis leur ami familier</rs>,</l>
+                        <l>Et qui les outrage, m'offense,</l>
+                    </sp>
+                    <sp who="#Bruyant" xml:id="S5_39">
+                        <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vingt eſcadrons ne ſçauroient m'effrayer.</l>
+                        <l>Et de ce même pas, je <choice><orig>deſcens</orig><reg>descends</reg></choice> au parterre,</l>
+                        <lb/><stage type="delivery" rend="italics">(D'un ton tragique.)</stage><lb/>
+                        <l>Si de flame &amp; de cris, <name type="place">Paris</name> eſt affamé,</l>
+                        <l>Jamais de tant de feux, cet hôtel n'a fumé.</l>
+                        <l>A mon aveugle ardeur tout ſera légitime,</l>
+                        <l>Juſques à mes voiſins, tout ſera ma victime,</l>
+                        <l>L'artificier tremblant aura beau ſe cacher,</l>
+                        <l>L'ouvrage de ſes mains deviendra ſon bucher.</l>
+                        <l>Je ne reſpecterai dans ce déſordre extrême,</l>
+                        <l>Ni le décorateur, ni l'orqueſtre lui-même.</l>
+                        <l>La Piéce, les Acteurs, je vais tout foudroyer:</l>
+                        <l>Mes cris immoleront <name type="character" ref="#Scapin">Scapin</name> tout le premier.</l>
+                        <l>Je ferai de leur ſale une ſeconde <name type="place" n="Troie">Troye</name> ,</l>
+                        <l>Et d'un coup de ſiflet, je percerai la joye.</l>
+                        <lb/><stage type="delivery" rend="italics">à <rs ref="#Joie">la Joye</rs><pc type="affirmative">.</pc></stage><lb/>
+                        <l>De votre arrêt, alors voyant les triſtes fruits,</l>
+                        <l>Reconnoiſſez les coups que vous aurez conduits.</l>
+                        <stage type="exit" rend="italics">(Il ſort.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="6" xml:id="S6">
+                    <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LA JOYE<pc>,</pc> M. PRUDENT<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Joie" xml:id="S6_1">
+                        <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c rend="lettrine">A</c>H ! ſi vous n'arrêtez la rage qui l'inſpire,</l>
+                        <l>La guerre va renaître au lieu mème où je ſuis :</l>
+                    </sp>
+                    <sp who="#Prudent" xml:id="S6_2">
+                        <speaker>M<pc type="affirmative">.</pc> PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Non, la paix régnera, j'oſe vous le prédire.</l>
+                        <l>Croyez du moins, croyez que tant que je reſpire</l>
+                        <l><rs ref="#Bruyant">Bruyant</rs> &amp; ſes pareils auront beau cabaler,</l>
+                        <pb n="166"/>
+                        <l>Il ſuffit de ce bras pour les faire trembler.</l>
+                        <l>Dans ce moment raſſurez donc votre ame.</l>
+                        <l>Au parterre à mon tour, je cours me tranſporter ;</l>
+                        <l>Pour vous, pour <rs ref="#CI" ana="#FPFRI">nos amis</rs>, j'y parlerai, <rs ref="#Joie">Madame</rs>,</l>
+                        <l>Et comptez qu'en tout tems, pour s'y faire écouter,</l>
+                        <l>Un <rs ref="#Prudent" ana="#PHYS">Officier manchot</rs>, ſans aucune hyperbole,</l>
+                        <l>Vaut cinquante Avocats des plus forts en parole.</l>
+                    </sp>
+                    <stage type="exit" rend="italics">Il ſort.</stage>
+                </div>
+                <div type="scene" n="7" xml:id="S7">
+                    <sp who="#Joie" xml:id="S7_1">
+                        <speaker>LA JOYE </speaker>
+                        <stage type="delivery" rend="italics">au Parterre<pc type="affirmative">.</pc></stage><lb/>
+                        <l><c rend="lettrine">M</c>Algré l'apui dont il l'oſe flater</l>
+                        <l><rs ref="#Joie">La joye</rs> eſt incertaine, elle attend ſa ſentence,</l>
+                        <l>Mais <rs ref="#Paix">la paix</rs> doit vous la dicter.</l>
+                        <l>Le jour qu'on la publie, eſt un jour d'indulgence :</l>
+                        <l>Au Parterre, <rs ref="#Public">Meſſieurs</rs>, elle doit habiter :</l>
+                        <l>Que la Critique s'en éloigne.</l>
+                        <l>A l'accord général, daignez donc vous prêter,</l>
+                        <l>Que votre main me le témoigne,</l>
+                        <l>Et mes tranſports vont éclater.</l>
+                    </sp>
+                    <trailer rend="italics">La Pièce finit par le Divertiſſement Pantomime des <lb/> Enfans.</trailer><lb/>
+                </div>
+        </body>
+    </text>
+</TEI>

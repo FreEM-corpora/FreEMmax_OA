@@ -1,0 +1,2276 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Le François à Londres</title>
+                <title type="subtitle">Édition électronique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Dr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par </resp>
+                    <name>Simerey, Ludivine</name>
+                    <name>Chassot, Pierre</name>
+                    <name>Flottes, Mélody</name>
+                    <name>Dialundama, Christine</name>
+                    <name>Brossard, Jean-Baptiste</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Première édition, <date>2017</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-research.fr</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            <date>2017</date></publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT<lb/>Son Théâtre François &amp; Italien<pc>.</pc></hi> <lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                        <imprint>
+                            <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                            <publisher>JEAN NEAULME</publisher>
+                            <date when="1758">M.DCC.LVIII</date>
+                            <note>Tome second.</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                    <citedRange>Tome second, p. 1-40.</citedRange>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+                <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+                <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques, ainsi que les vers. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+                <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+                <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+                <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+                <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+                <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+                <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+                <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <punctuation>
+                    <p>La ponctuation n'est pas systématiquement encodée. Elle a été distinguée à l'intérieur des balises 'titre', afin de ne pas créer de faux doublons lors de l'extraction de ceux-ci (ex. 'Admète et Alceste,' considéré comme un titre distinct de 'Admète et Alceste.').</p> <p>Dans tous les cas, la punctuation d'origine a été respectée, y compris quand elle paraissait fautive. Dans ce cas, elle est signalée avec 'sic' et 'corr'. Toutefois, les particularités d'espacement de la ponctuation n'ont pas été reproduites à l'identique. Un système uniforme a été adopté: les ponctuations simples (point, virgule), sont placées immédiatement après le mot, les ponctuations doubles (point virgule, deux points, signes d'interrogation et d'exclamation) sont placées après une espace.</p>
+                </punctuation>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+                <interpretation>
+                    <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+                </interpretation>
+            </editorialDecl>
+            <fsdDecl>
+                <fsDecl type="character_specification">
+                    <fDecl name="temper">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="age">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="young" xml:id="AGY"/>
+                                <symbol value="old" xml:id="AGO"/>
+                                <symbol value="child" xml:id="AGC"/>
+                                <symbol value="adult" xml:id="AGA"/>
+                                <symbol value="unknown" xml:id="AGU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="sex">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="male" xml:id="SM"/>
+                                <symbol value="female" xml:id="SF"/>
+                                <symbol value="undetermined" xml:id="SU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="nationality">
+                        <vRange><string></string>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="ontological_category">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="human" xml:id="OCH"/>
+                                <symbol value="non-human" xml:id="OCNH"/>
+                                <symbol value="semi-human" xml:id="OCSH"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="family_position">
+                        <vRange>
+                            <vColl>
+                                <symbol value="father" xml:id="FPF"/>
+                                <symbol value="son" xml:id="FPSON"/>
+                                <symbol value="daughter" xml:id="FPD"/>
+                                <symbol value="mother" xml:id="FPM"/>
+                                <symbol value="uncle" xml:id="FPU"/>
+                                <symbol value="aunt" xml:id="FPA"/>
+                                <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                                <symbol value="sister" xml:id="FPSIS"/>
+                                <symbol value="brother" xml:id="FPB"/>
+                                <symbol value="cousin" xml:id="FPC"/>
+                                <symbol value="step-mother" xml:id="FPSM"/>
+                                <symbol value="step-father" xml:id="FPSF"/>
+                                <symbol value="step-daughter" xml:id="FPSD"/>
+                                <symbol value="step-son" xml:id="FPSS"/>
+                                <symbol value="guardian" xml:id="FPG"/>
+                                <symbol value="ward" xml:id="FPWA"/>
+                                <symbol value="husband" xml:id="FPH"/>
+                                <symbol value="wife" xml:id="FPWIF"/>
+                                <symbol value="widow" xml:id="FPWID"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="actantial_role">
+                        <vRange>
+                            <vColl>
+                                <symbol value="lover" xml:id="ARL"/>
+                                <symbol value="subject" xml:id="ARS"/>
+                                <symbol value="opponent" xml:id="AROP"/>
+                                <symbol value="adjuvant" xml:id="ARAD"/>
+                                <symbol value="authority" xml:id="ARAUT"/>
+                                <symbol value="trouble_maker" xml:id="ARTM"/>
+                                <symbol value="episodic" xml:id="AREP"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="occupation">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="collective_character">
+                        <vRange>
+                            <binary value="true" xml:id="COLL"/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1727-07-03">3 juillet 1727</date><rs type="city">Paris, France.</rs></creation>
+            <textClass>
+                <keywords>
+                    <term>théâtre</term>
+                    <term>comédie</term>
+                    <term>comédie en prose</term>
+                    <term>comédie d'intrigue</term>
+                    <term>stéréotypes nationaux</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date when="2015-10-09">09 octobre 2015</date>Révisions faites par Josephine LOTERIE en vue de l'harmonisation du corpus Boissy.</change>
+            <change><date when="2016-02-20">20 février 2016</date>Révision du texte par Ioana GALLERON. Correction par confrontation optique avec l'édition de base.
+                Ajout de balises xml:id pour les scènes et les répliques. Changement des balises <gi>name</gi> en <gi>persName</gi> et <gi>placeName</gi>.</change>
+         </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="1"/>
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">LE <lb/>FRANÇOIS <lb/> A LONDRES<pc>,</pc></titlePart><lb/><lb/>
+                    <titlePart type="desc">COMÉDIE<pc type="affirmative">.</pc></titlePart>
+                </docTitle>
+            </titlePage>
+            <pb n="2"/>
+            <castList>
+                <head rend="center">ACTEURS<pc type="affirmative">.</pc></head><lb/>
+                <castGroup>
+                    <head rend="braced"><fs><f name="nationality">François</f></fs></head>
+                    <castItem xml:id="Marquis" ana="#OCH #SM #AGY #ARL #FPC"><role>LE MARQUIS DE POLINVILLE</role><pc type="affirmative">.</pc></castItem>
+                    <castItem xml:id="Baron" ana="#OCH #SM #AGA #ARL #FPC"><role>LE BARON DE POLINVILLE</role><pc type="affirmative">.</pc></castItem>
+                </castGroup>
+                <castItem xml:id="Eliante" ana="#OCH #SF #AGY #ARL #FPWID"><role>ELIANTE</role><pc>,</pc> <roleDesc>Veuve <fs><f name="nationality">Angloiſe</f></fs><pc type="affirmative">.</pc></roleDesc></castItem><lb/>
+                <castItem xml:id="Craff" ana="#OCH #SM #AGU #ARAUT #FPSF"><role>MILORD CRAFF</role><pc>,</pc> <roleDesc>pere d'<persName ref="#Eliante">Eliante</persName><pc type="affirmative">.</pc></roleDesc></castItem><lb/>
+                <castItem xml:id="Houzey" ana="#OCH #SM #AGY #FPB #FPSON"><role>MILORD HOUZEY</role><pc>,</pc> <roleDesc>Fils de Milord <persName ref='#Craff'>Craff</persName><pc type="affirmative">.</pc></roleDesc></castItem><lb/>
+                <castItem xml:id="Rosbif" ana="#OCH #SM #AGU #ARL #AROP"><role>JACQUES ROSBIF</role><pc>,</pc> <roleDesc><fs><f name="occupation">Négociant</f></fs> <fs><f name="nationality">Anglois</f></fs><pc type="affirmative">.</pc></roleDesc></castItem><lb/>
+                <castItem xml:id="Finette" ana="#OCH #SF #AGU #ARAD"><role>FINETTE </role><pc>,</pc> <roleDesc><fs><f name="occupation">Servante</f><f name="nationality">Françoiſe</f></fs> <pc type="affirmative">.</pc></roleDesc></castItem><lb/>
+            </castList>
+            <lb/><lb/><lb/><lb/>
+            <set>
+                <p rend="italics">La scène eſt à <placeName n="Londres">Londres</placeName>, dans un Hôtel garni.</p>
+            </set>
+        </front>
+        <body>
+            <pb n="3"/>
+            <div type="title">
+                <head>LE FRANÇOIS <lb/> A LONDRES<pc>,</pc> COMÉDIE<pc type="affirmative">.</pc><lb/></head>
+            </div>
+            <div type="scene" n="1" xml:id="S1">
+                    <head>SCENE PREMIERE.</head><lb/>
+                    <stage>LE BARON DE POLINVILLE<pc>,</pc> <lb/> LE MARQUIS DE POLINVILLE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp xml:id="S1-1" who="#Marquis">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/><lb/>
+                        <p><c rend="lettrine">C</c>e <choice><orig>n'étoit</orig><reg>n'était</reg></choice> pas la peine de me faire quitter 
+                            <lb/><placeName n='Paris'>Paris</placeName>, le centre du beau monde &amp; de la 
+                            <lb/>politeſſe; &amp; je me <choice><orig>ſerois</orig><reg>serais</reg></choice> bien paſſé de 
+                            <lb/>voir une ville auſſi triſte &amp; auſſi mal éle-
+                            <lb/>vée que <placeName n="Londres">Londres</placeName>.
+                        </p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-2">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je t'excuſe Marquis, tu en <choice><orig>parlerois</orig><reg>parlerais</reg></choice> autrement ſi 
+                            <lb/>tu <choice><orig>avois</orig><reg>avais</reg></choice> eu le <choice><orig>tems</orig><reg>temps</reg></choice> de la mieux <choice><orig>connoître</orig><reg>connaître</reg></choice>.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-3">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Non, Baron, je <choice><orig>connois</orig><reg>connais</reg></choice> aſſez mon <placeName n="Londres">Londres</placeName>, quoi-
+                            <lb/>que je n'y ſois que depuis trois ſemaines. Tiens, ce 
+                            <lb/>que les <choice><orig>Anglois</orig><reg>anglais</reg></choice> ont de mieux, c'eſt qu'ils parlent 
+                            <lb/><choice><orig>François</orig><reg>français</reg></choice>, encore ils l'eſtropient.
+                        </p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-4">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Et nous l'eſtropions nous mêmes pour la plûpart,
+                            <pb n="4"/><choice><orig>&amp;</orig><reg>et</reg></choice> ſi nous ne parlons que notre langue, leur converſa-
+                            <lb/>tion eſt pleine de bon ſens.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-5">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Leur converſation ! Ils n'en ont point du tout.
+                            <lb/>Ils ſont une heure sans parler, &amp; n'ont autre choſe à vous 
+                            <lb/>dire que <foreign rend="italics">Hovvd'eyd'o</foreign>, comment vous portez-vous? 
+                            <lb/>Cela fait un entretien bien amuſant.
+                        </p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-6">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Les <choice><orig>Anglois</orig><reg>Anglais</reg></choice> ne ſont pas brillans, mais ils ſont pro-
+                            <lb/>fonds.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-7">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Veux-tu que je te diſe? Au lieu de paſſer les trois 
+                            <lb/>quarts de leur vie dans un <choice><orig>Caffé</orig><reg>café</reg></choice> à politiquer, &amp; à lire 
+                            <lb/>des chiffons de Gazettes, ils <choice><orig>feroient</orig><reg>feraient</reg></choice> mieux de voir 
+                            <lb/>bonne compagnie chez eux, <choice><orig>d'aprendre</orig><reg>d'apprendre</reg></choice> à mieux re-
+                            <lb/>cevoir les honnêtes gens qui leur rendent viſite, &amp; à 
+                            <lb/>ſentir un peu mieux ce que vaut un joli homme.
+                        </p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-8">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><choice><orig>Sçais-tu</orig><reg>Sais-tu</reg></choice> bien, Marquis, puiſque tu m'obliges à te 
+                            <lb/>parler ſérieuſement, qu'il ne faut que trois ou quatre 
+                            <lb/><fs><f name="temper">têtes folles</f></fs> comme la tienne, pour achever de nous 
+                            <lb/>décrier dans un pays où notre réputation de ſageſſe
+                            <lb/>n'eſt pas trop bien établie, &amp; que tu as déjà donné 
+                            <lb/>deux ou trois ſcènes qui t'ont fait <choice><orig>connoître</orig><reg>connaître</reg></choice> de toute 
+                            <lb/>la Ville.
+                        </p> 
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-9">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Tant mieux, les gens de mérite ne perdent rien à 
+                            <lb/> être connus.</p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-10">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oui, mais le malheur eſt que tu n'es pas ici connu 
+                            <lb/>en beau, on t'y tourne par tout en ridicule ; on dit 
+                            <lb/>que tu es un Gentilhomme François ſi zèlé pour la po-
+                            <lb/>liteſſe de ton pays, que tu es venu exprès à <placeName n="Londres">Londres</placeName> 
+                            <lb/>pour l'y enſeigner publiquement, &amp; pour apprendre à 
+                            <lb/>vivre à toute l'<placeName n="Angleterre">Angleterre</placeName>.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-11">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Elle en auroit grand beſoin, &amp; j'en ſerois très-
+                            <lb/>capable.
+                        </p> 
+                    </sp>
+                    <pb n="5"/>
+                    <sp who="#Baron" xml:id="S1-12">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais <choice><orig>ſçais-tu</orig><reg>sais-tu</reg></choice> mon petit parent que l'amour aveu-
+                            <lb/>gle que tu as pour les manières Françoises, te fait ex-
+                            <lb/>travaguer ? Qu'au lieu de  vouloir aſſujettir à ta façon 
+                            <lb/>de vivre une Nation chez qui tu es, c'eſt à toi à te con-
+                            <lb/>former à la ſienne, &amp; que ſans la ſage police qui 
+                            <lb/>régne dans <placeName n="Londres">Londres</placeName>, tu te <choice><orig>ſerois</orig><reg>serais</reg></choice> déja fait vingt affai-
+                            <lb/>res pour une ?
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-13">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais <choice><orig>ſçais-tu</orig><corr>sais-tu</corr></choice> mon grand couſin, que trois ans de 
+                            <lb/>ſéjour que tu as fait à <placeName n="Londres">Londres</placeName>, t'ont furieuſement gâ-
+                            <lb/>té le goût, &amp; que tu y as même pris un peu de cet air 
+                            <lb/>étranger qu'ont tous les Habitans de cette Ville ?
+                        </p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-14">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Les Habitans de cette Ville ont l'air étranger ? Que 
+                            <lb/>diable veux-tu dire par-là?
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-15">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je veux dire qu'ils n'ont pas l'air qu'il faut avoir , cet 
+                            <lb/>air libre, ouvert, empreſſé, prévenant, gracieux, 
+                            <lb/>l'air par excellence ; en un mot, l'air que nous avons, 
+                            <lb/>nous autres François. 
+                        </p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-16">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Il eſt vrai, Meſſieurs les Anglois ont tort d'avoir 
+                            <lb/>l'air Anglois chez eux, ils <choice><orig>devroient</orig><reg>devraient</reg></choice> avoir à <placeName n='Londres'>Londres</placeName>
+                            <lb/>l'air que nous avons à <placeName n='Paris'>Paris</placeName>.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-17">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Ne crois pas rire, comme il n'y a qu'un bon goût, 
+                            <lb/>il n'y a auſſi qu'un bon air , &amp; c'eſt ſans contredit 
+                            <lb/>le nôtre.
+                        </p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-18">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>C'eſt ce qu'ils te diſputeront.</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-19">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Et moi je leur ſoutiens qu'un homme qui n'a pas
+                            <lb/>l'air que nous avons en <placeName n="France">France</placeName>, eſt un homme qui fait 
+                            <lb/>tout de mauvaiſe grâce, qui ne <choice><orig>ſçait</orig><reg>sait</reg></choice> ni marcher, ni 
+                            <lb/>s'aſſeoir, ni ſe lever, ni touſſer, ni cracher, ni éter-
+                            <lb/>nuer, ni ſe moucher ; qu'il eſt par conſéquent un hom-
+                            <lb/>me ſans maniéres : qu'un homme sans manières n'eſt 
+                            <pb n="6"/>préſentable nulle part, &amp; que c'eſt un homme à jet-
+                            <lb/>ter par les fenêtres qu'un homme sans manières.
+                        </p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-20">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oh, Monſieur le Marquis des manières, ſi vous 
+                            <lb/>trouviés à les troquer contre un peu de bon ſens, je 
+                            <lb/>vous <choice><orig>conſeillerois</orig><reg>conseillerais</reg></choice> de vous défaire d'une partie de ces 
+                            <lb/>maniéres.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-21">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>C'eſt pourtant à ces maniéres dont tu me fais tant 
+                            <lb/>la guerre, que j'ai l'obligation d'une conquête, mais 
+                            <lb/>d'une conquête brillante.
+                        </p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-22">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Voilà encore la maladie de nos François qui voya-
+                            <lb/>gent. Ils ſont ſi prévenus de leur prétendu mérite au-
+                            <lb/>près des femmes, qu'ils croyent que rien ne réſiſte au 
+                            <lb/>brillant de leurs airs, aux charmes de leur perſonne, 
+                            <lb/>&amp; qu'ils n'ont qu'à ſe montrer pour charmer toutes les
+                            <lb/>belles d'une Contrée. Un regard jetté par hazard ſur 
+                            <lb/>eux, une politeſſe faite sans deſſein, leur eſt un ſur 
+                            <lb/>garant d'une victoire parfaite. Ils s'érigent en petits 
+                            <lb/>conquérans des cœurs, &amp; de l'air dont ils quittent la 
+                            <lb/><placeName n="France">France</placeName>, ils ſemblent moins partir pour un voyage ,
+                            <lb/>qu'aller en bonne fortune. Mais, Marquis...
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-23">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais, Baron éternel, ce n'eſt pas sur un regard équi-
+                            <lb/>voque, sur une ſimple civilité que je ſuis aſſuré qu'on 
+                            <lb/>m'aime. C'eſt parce que l'on me l'a dit à moi-même, 
+                            <lb/>parlant à ma perſonne.
+                        </p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-24">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Eh ! Peut-on ſçavoir quel eſt ce rare objet?</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-25">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>C'eſt une jeune veuve de <placeName n="Canterbury">Cantorbéry</placeName>, fille d'un Mi-
+                            <lb/>lord, belle , riche, qui eſt à <placeName n='Londres'>Londres</placeName> pour affaires. Le
+                            <lb/><choice><orig>hazard</orig><reg>hasard</reg></choice> m'a procuré ſa <choice><orig>connoiſſance</orig><reg>connaissance</reg></choice>, &amp; je ſuis venu 
+                            <lb/>exprès loger dans cet Hôtel garni, où elle demeure 
+                            <lb/>depuis huit jours qu'elle a changé de quartier.
+                        </p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-26">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>On la nomme ?</p>
+                    </sp>
+                    <pb n="7"/>
+                    <sp who="#Marquis" xml:id="S1-27">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><persName ref="#Eliante">Eliante</persName>.</p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-28">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><persName ref="#Eliante">Eliante</persName> ! Je la <choice><orig>connois</orig><reg>connais</reg></choice>, je l'ai vue pluſieurs fois 
+                            <lb/>chez <persName n="Clorinde">Clorinde</persName>, une de ſes amies; c'eſt une Dame du 
+                            <lb/>premier mérite.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-29">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais tu m'en parles d'un ton à me faire croire 
+                            <lb/>qu'elle ne t'eſt pas indifférente.
+                        </p> 
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-30">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Il eſt vrai , je ne le cache point, c'eſt de toutes les 
+                            <lb/>femmes que j'ai vûes , celle dont je <choice><orig>rechercherois</orig><reg>rechercherais</reg></choice> la 
+                            <lb/>poſſeſſion avec le plus d'ardeur ; &amp; je t'avouerai franche-
+                            <lb/>ment, que s'il <choice><orig>dépendoit</orig><reg>dépendait</reg></choice> de moi, il n'eſt rien que je 
+                            <lb/>ne fiſſe pour te ſuplanter.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-31">
+                        <speaker>LE MARQUIS </speaker>
+                        <stage rend="italics">éclatant de rire.</stage><lb/>
+                        <p>Toi, me suplanter ? Moi ?</p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-32">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oui , toi-même ; <choice><orig>j'aurois</orig><reg>j'aurais</reg></choice> cette audace.</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-33">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je <choice><orig>voudrois</orig><reg>voudrais</reg></choice> voir cela, mais dis-moi, mon très-cher 
+                            <lb/>couſin, <choice><orig>ſçait</orig><reg>sait</reg></choice>-elle les ſentimens que tu as pour elle ?
+                        </p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-34">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je crois qu'elle les ignore.</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-35">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Tu me fais pitié, mon pauvre garçon ; &amp; ſi tu veux
+                            <lb/>je me charge de les lui apprendre pour toi.
+                        </p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S1-36">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Tu es trop obligeant je prendrai bien cette peine-là 
+                            <lb/>moi-même, &amp; je n'attends que l'occaſion....
+                        </p> 
+                    </sp>
+                    <sp who="#Marquis" xml:id="S1-37">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oh ! Parbleu, je veux te la procurer ; &amp;, ſans aller 
+                            <lb/>plus loin, voici <persName ref="#Eliante">Eliante</persName> elle-même qui vient fort à 
+                            <lb/>propos pour cela.
+                        </p>
+                    </sp>
+                </div>
+                <pb n="8"/>
+                <div type="scene" n="2" xml:id="S2">
+                    <head>SCENE II.</head><lb/>
+                    <stage>LE BARON<pc>,</pc> LE MARQUIS<pc>,</pc> ELIANTE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Marquis" xml:id="S2-1">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><c rend="lettrine">M</c>adame, vous voulez bien que je vous preſente 
+                            <lb/>ce Gentilhomme François ; il eſt mon parent 
+                            <lb/>&amp; mon rival tout enſemble ; il vous a vû chez <persName n="Clorinde">Clo-
+                            <lb/>rinde</persName> ; vous avez fait ſa conquête ſans le ſçavoir, il 
+                            <lb/>cherche l'occaſion de vous le déclarer, elle s'offre, je 
+                            <lb/>la lui procure.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S2-2">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>En vérité, Marquis...</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S2-3">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Sous un air timide &amp; diſcret, c'eſt un garçon dan-
+                            <lb/>gereux, je vous en avertis. Il veut me ſuplanter, 
+                            <lb/>Madame, il veut me ſuplanter.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S2-4">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>                   
+                        <p>Briſons-là, c'eſt pouſſer trop loin la plaiſanterie.</p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S2-5">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Madame, la plaiſanterie ne tombe que ſur moi, je 
+                            <lb/>la mérite ; le Marquis en badinant n'a dit que la vé-
+                            <lb/>rité. Pardonnez un tranſport dont je n'ai pas été le 
+                            <lb/>maître ; je n'ai pû m'empêcher de lui avouer que je 
+                            <lb/>n'<choice><orig>avois</orig><reg>avais</reg></choice> jamais rien vû de ſi adorable que vous, &amp; 
+                            <lb/>de lui témoigner une ſurpriſe mêlée de dépit ſur ce
+                            <lb/>qu'il vient de me dire, qu'il <choice><orig>avoit</orig><reg>avait</reg></choice> le bonheur d'être 
+                            <lb/>aimé de vous.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S2-6">
+                        <speaker>ELIANTE</speaker> <stage type="delivery" rend="italics">au Marquis.</stage>
+                        <p>Quoi, Monſieur, vous êtes capable...</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S2-7">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Eh, Madame, quel mal y a-til à cela ? Vous êtes 
+                            <lb/>femme de condition, je suis homme de qualité ; vous
+                            <lb/>êtes riche, j'ai du bien ; vous êtes veuve, je ſuis gar-
+                            <pb n="9"/>çon ; <fs><f name="age" ana="#AGY">vous avez dix-neuf ans</f></fs>, <fs><f name="age" ana="#AGY">j'en ai vingt-quatre</f></fs> ; 
+                            <lb/>vous êtes belle, je ſuis aimable : nous ſommes faits 
+                            <lb/>l'un pour l'autre ; nous nous aimons tous deux, à quoi 
+                            <lb/>bon le cacher ?
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S2-8">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais je ne vous aime pas, Monſieur ; &amp; quand 
+                            <lb/>cela <choice><orig>ſeroit</orig><reg>serait</reg></choice>, je veux qu'on ait de la diſcrétion ; j'aime 
+                            <lb/>le myſtére.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S2-9">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Le myſtére ! Madame. Ah ! fi le mauvais ragoût.</p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S2-10">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oui, en <placeName n="France">France</placeName>, où l'on n'aime que par air, où l'on 
+                            <lb/>n'aſpire à être aimé que pour avoir la vanité de le di-
+                            <lb/>re, où l'amour n'eſt qu'un ſimple badinage, qu'une 
+                            <lb/>tromperie continuelle, &amp; où celui qui trompe le mieux 
+                            <lb/>paſſe toujours pour le plus habile. Mais ce n'eſt pas 
+                            <lb/>ici de même, nous ſommes de meilleure foi, nous 
+                            <lb/>n'aimons uniquement que pour avoir le plaiſir d'aimer, 
+                            <lb/>nous nous en faiſons une affaire ſérieuſe, &amp; la ten-
+                            <lb/>dreſſe parmi nous, eſt un commerce de ſentimens, &amp; 
+                            <lb/>non pas un trafic de paroles.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S2-11">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais il faut toujours avoir quelqu'un à qui l'on 
+                            <lb/>puiſſe conter ſes amours ; &amp; dans le Roman le plus 
+                            <lb/>exact, il n'y a point de héros qui n'ait ſon confident. 
+                            <lb/>J'ai pris le Baron pour le mien , il eſt garçon diſcret, 
+                            <lb/>&amp; je ſuis dans la régle.
+                        </p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S2-12">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>J'aurai de la diſcrétion par rapport à Madame ; car 
+                            <lb/>pour toi, rien ne m'oblige à garder le ſecret. C'eſt un 
+                            <lb/>aveu que tu m'as fait par vanité, &amp; non pas une con-
+                            <lb/>fidence.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S2-13">
+                        <speaker>ELIANTE</speaker> <stage type="delivery" rend="italics">au Marquis.</stage><lb/>
+                        <p>Je vous trouve admirable....</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S2-14">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Baron, <choice><orig>prens</orig><reg>prends</reg></choice> congé de Madame, tu n'as pas l'eſprit 
+                            <lb/>de t'apercevoir que tu l'ennuies : tu lui dis des cho-
+                            <lb/>ſes déſagréables ; tu la gênes, tu es ici de trop.
+                        </p>
+                    </sp>
+                    <pb n="10"/>
+                    <sp who="#Eliante" xml:id="S2-15">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Si quelqu'un eſt ici de trop, ce n'eſt pas Monſieur.</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S2-16">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Ah ! Je vois pour le coup que vous êtes piquée. 
+                            <lb/>Pour vous punir, je vous laiſſe avec lui ; qu'il vous 
+                            <lb/>entretienne, Madame, qu'il vous entretienne, je 
+                            <lb/>n'y perdrai rien, vous m'en goûterez mieux tantôt. 
+                            <lb/>
+                        </p>
+                        <stage type="exit" rend="italics">(Il ſort.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="3" xml:id="S3">
+                    <head>SCENE III.</head><lb/>
+                    <stage>LE BARON<pc>,</pc> ELIANTE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Eliante" xml:id="S3-1">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><c rend="lettrine">V</c>Oilà ce qu'on appelle <fs><f name="nationality">un François</f></fs> ?</p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S3-2">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Daignez, Madame, ne pas les confondre tous avec 
+                            <lb/>lui, &amp; ſoyez perſuadée qu'il en eſt....
+    					</p>
+                    </sp>   
+                    <sp who="#Eliante" xml:id="S3-3">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je le ſçais, Monſieur, je ne ſuis pas aſſez injuſte ni 
+                            <lb/>aſſez déraiſonnable, pour ne pas sentir la différence 
+                            <lb/>qu'il y a entre vous &amp; lui, &amp; pour ne pas vous ac-
+                            <lb/>corder toute l'eſtime que vous méritez.
+    					</p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S3-4">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oui, vous m'eſtimez, Madame, &amp; vous aimez le 
+                            <lb/>Marquis.
+    					</p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S3-5">
+                        <speaker>ELIANTE</speaker> <stage rend="italics">agitée.</stage><lb/>
+                        <p>Moi j'aime le Marquis ! Qui vous l'a dit, Monſieur ?</p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S3-6">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Votre émotion, l'air même dont vous vous en dé-
+                            <lb/>fendez.
+    					</p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S3-7">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Non, je le mépriſe trop pour l'aimer.</p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S3-8">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je m'y <choice><orig>connois</orig><reg>connais</reg></choice>, Madame, un pareil mépris <unclear>n'eſt</unclear> 
+                            <lb/>qu'un amour déguiſé. Vous l'aimez d'autant plus <unclear>que</unclear> 
+                            <lb/>vous êtes fâchée de l'aimer.
+    					</p>
+                    </sp>
+                    <pb n="11"/>
+                    <sp who="#Eliante" xml:id="S3-9">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Eh ! que diriez-vous ſi j'en <choice><orig>épouſois</orig><reg>épousais</reg></choice> un autre ?</p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S3-10">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Un autre ! Que je <choice><orig>ſerois</orig><reg>serais</reg></choice> heureux, ſi ce choix pou-
+                            <lb/>vait me regarder ! Vous ne <choice><orig>ſçauriez</orig><reg>sauriez</reg></choice> vous venger plus
+                            <lb/>noblement du Marquis , ni faire en même-tems le 
+                            <lb/>bonheur d'un homme dont vous ſoyez plus tendre-
+                            <lb/>ment aimée.
+    					</p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S3-11">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Monſieur le Baron....</p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S3-12">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Sans me faire valoir, je poſſéde un bien aſſez con-
+                            <lb/>ſidérable, je ſors d'une maiſon aſſez illuſtre, &amp; j'ai 
+                            <lb/>pour vous des sentimens <choice><sic>dinſtingués</sic><corr>diſtingués</corr></choice>....
+    					</p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S3-13">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Monſieur, la choſe eſt aſſez ſérieuſe pour mériter 
+                            <lb/>une mûre réfléxion ; je vous demande du tems pour y 
+                            <pb/>penſer.
+    					</p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S3-14">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Adieu, Madame, je vous laiſſe ; l'amour vous parle 
+                            <lb/>pour le Marquis. Vous l'aimez toujours, c'eſt le ſeul 
+                            <lb/>défaut que je vous connoiſſe, &amp; je crains bien que 
+                            <lb/>vous ne vous en corrigiez pas ſi-tôt.
+                            <lb/>
+                        </p><stage type="exit" rend="italics">(Il s'en va.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="4" xml:id="S4">
+                    <head>SCENE IV.</head>
+                    <sp who="#Eliante" xml:id="S4-1">
+                        <speaker>ELIANTE</speaker> <stage rend="italics">ſeule.</stage><lb/>
+                        <p><c rend="lettrine">O</c>H ! Je m'en corrigerai , je m'en corrigerai. Je 
+                            <lb/>ſuis femme, &amp; j'ai pû me laiſſer éblouir par les 
+                            <lb/>graces &amp; par le faux brillant d'un mérite ſuperficiel ; 
+                            <lb/>mais <fs><f name="occupation">je ſuis Angloiſe</f></fs> en même-tems, par conſéquent 
+                            <lb/>capable de me ſervir de toute ma raiſon. Si le Mar-
+                            <lb/>quis continue...
+                        </p>
+                    </sp>
+                </div>
+                <pb n="12"/>
+                <div type="scene" n="5" xml:id="S5">
+                    <head>SCENE V.</head><lb/>
+                    <stage>ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Finette" xml:id="S5-1">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><c rend="lettrine">M</c>adame, voilà une lettre qu'on a oublié de vous 
+                            <lb/>remettre hier au ſoir.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S5-2">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Voyons. C'eſt mon père qui m'écrit, je reconnois  <lb/>l'écriture.</p>
+                        <lb/><stage type="business" rend="italics">(Elle lit.)</stage><lb/>
+                        <p rend="italics">Je pars en <choice><orig>même-tems</orig><reg>même temps</reg></choice> que ma lettre , &amp; je ſerai de-
+                            <lb/>main à <placeName n='Londres'>Londres</placeName> ſans faute. On m'a écrit que votre frere 
+                            <lb/><choice><orig>hantoit</orig><reg>hantait</reg></choice> mauvaiſe compagnie, &amp; qu'il venoit de faire tout 
+                            <lb/>nouvellement <choice><orig>connoiſſance</orig><reg>connaissance</reg></choice> avec un certain Marquis Fran-
+                            <lb/>çois qui acheve de le gâter. Comme je ne puis être à <persName n="Londres">Lon-
+                            <lb/>dres</persName> que trois jours, &amp; que je dois de-là partir pour la 
+                            <lb/><placeName n="Jamaïque">Jamaïque</placeName>, j'ai résolu de l'emmener &amp; de vous marier
+                            <lb/>avant mon départ avec <persName ref="#Rosbif">Jacques Rosbif</persName>, c'eſt un riche <fs><f name="occupation">Né- 
+                            gociant</f></fs>, <fs><f name="temper">fort honnête homme, &amp; qui n'eſt pas moins rai-
+                            ſonnable pour être un peu ſingulier</f></fs>. Votre extrême jeu-
+                            <lb/>neſſe ne vous permet pas de reſter veuve ; &amp; je compte que 
+                            <lb/>vous n'aurez pas de peine à vous conformer aux volontés
+                            <lb/>d'un pere qui ne cherche que votre avantage, &amp; qui vous 
+                            <lb/>aime tendrement. <hi rend="smallcap">Milord <persName ref='#Craff'>Craff</persName></hi>.
+                        </p>
+                    </sp>
+                    <sp who="#Finette" xml:id="S5-3">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Monſieur votre pere arrive aujourd'hui pour vous 
+                            <lb/>marier avec <persName n="Jacques_Rosbif">Jacques Rosbif</persName>. Miſéricorde ! C'eſt bien 
+                            <lb/>l'<choice><orig>Anglois</orig><reg>anglais</reg></choice> <fs><f name="temper">le plus diſgracieux, le plus taciturne, le plus 
+                            bizarre, le plus impoli</f></fs> que je <choice><orig>connoiſſe</orig><reg>connaisse</reg></choice>.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S5-4">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Ah ! <persName n="Finette">Finette</persName>, quelle nouvelle! Mon cœur eſt agité 
+                            <lb/>de divers <choice><orig>mouvemens</orig><reg>mouvements</reg></choice> que je ne puis accorder. J'aime 
+                            <lb/>le Marquis, &amp; je dois peu l'eſtimer. J'eſtime le Ba-
+                            <pb n="13"/>ron , &amp; je <choice><orig>voudrois</orig><reg>voudrais</reg></choice> l'aimer. Je hais <persName ref="#Rosbif">Rosbif</persName>, &amp; il 
+                            <lb/>faut que je l'épouſe, puiſque mon pere le veut.
+                        </p>
+                    </sp>
+                    <sp who="#Finette" xml:id="S5-5">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais, Madame, n'êtes-vous pas veuve, &amp; par 
+                            <lb/>conſéquent maîtreſſe de vous-même ?
+                        </p>
+                    </sp>
+                    <pb n="17"/>
+                    <sp who="#Eliante" xml:id="S5-6">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><fs><f name="age" ana="#AGY">Ma grande jeuneſſe</f></fs>, la tendreſſe que mon pere m'a 
+                            <lb/>toujours témoignée,le bien même que je dois en atten-
+                            <lb/>dre, ne me permettent pas de me ſouſtraire à ſon 
+                            <lb/>obéiſſance.
+                        </p>
+                    </sp>
+                    <sp who="#Finette" xml:id="S5-7">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Quoi ! Vous pourrez, Madame, vous réſoudre à 
+                            <lb/>épouſer encore un homme de votre nation , après ce 
+                            <lb/>que vous avez ſouffert avec votre premier mari ? 
+                            <lb/>Avez-vous ſi-tôt oublié la triſte vie que vous avez
+                            <lb/>menée pendant deux ans que vous avez vécu enſem-
+                            <lb/>ble ? Toujours ſombre, toujours bruſque, il ne vous a 
+                            <lb/>jamais dit une douceur ; ſe levant le matin de mauvaiſe 
+                            <lb/>humeur pour rentrer le ſoir yvre, vous laiſſant ſeule 
+                            <lb/>toute la journée, ou <choice><sic>réduire</sic><corr>réduite</corr></choice> à la paſſer triſtement
+                            <lb/>avec d'autres femmes auſſi malheureuſes que vous, à
+                            <lb/>faire des nœuds, à tourner votre rouet pour tout amu-
+                            <lb/>ſement, &amp; à jouer de l'éventail pour toute conversa-
+                            <lb/>tion. Mort de ma vie ! <span type="topos">je ne permettrai pas</span> que vous 
+                            <lb/>faſſiez un pareil mariage, ou vous me donnerez mon 
+                            <lb/>congé tout-à-l'heure.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S5-8">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Que veux-tu que je faſſe ?</p>
+                    </sp>
+                    <pb n="18"/>
+                    <sp who="#Finette" xml:id="S5-9">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Que vous ayez le courage de vous rendre heureuſe, 
+                            <lb/>que vous épouſiez un homme de mon pays, un Fran-
+                            <lb/>çois. Conſidérez, Madame, que c'eſt la meilleure pâ-
+                            <lb/>te de maris qu'il y ait au monde ; qu'ils doivent ſer-
+                            <lb/>vir de modèle aux autres Nations ; &amp; qu'un François 
+                            <lb/>a cent fois plus de politeſſe &amp; de complaiſance pour 
+                            <lb/>ſa femme, qu'un Anglois n'en a pour ſa maîtreſſe. 
+                            <lb/>Une belle Dame, comme vous, ſeroit adorée de ſon 
+                            <lb/>mari en <placeName n="France">France</placeName> ; il ne <choice><orig>croiroit</orig><reg>croirait</reg></choice> pas pouvoir faire un 
+                            <pb n="14"/>meilleur uſage de ſon bien, que de l'employer à ſe 
+                            <lb/>ruiner pour vous ; il n'<choice><orig>auroit</orig><reg>aurait</reg></choice> pas de plus grand plaiſir 
+                            <lb/>que de vous voir brillante &amp; parée, attirer tous les re-
+                            <lb/>gards, aſſujettir tous les cœurs ; le premier apartement, 
+                            <lb/>le meilleur caroſſe &amp; les plus beaux laquais <choice><orig>ſeroient</orig><reg>seraient</reg></choice>
+                            <lb/>pour Madame. Vous verriez ſans ceſſe une foule d'a-
+                            <lb/>dorateurs empreſſés à vous plaire, ingénieux à vous 
+                            <lb/>amuſer, étudier vos goûts, prévenir vos deſirs, s'é-
+                            <lb/>puiſer en fêtes galantes, vous promener de plaiſirs 
+                            <lb/>en plaiſirs, ſans que votre époux oſât y trouver à 
+                            <lb/>redire, de peur d'être ſifflé de tous les honnêtes gens.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S5-10">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais, <persName ref='#Finette'>Finette</persName>, comment faut-il m'y prendre pour 
+                            <lb/>déterminer mon pere ?
+    					</p>
+                    </sp>
+                    <sp who="#Finette" xml:id="S5-11">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Il faut lui parler avec la noble fermeté qui con-
+                            <lb/>vient à une veuve, ſans ſortir du reſpect que doit 
+                            <lb/>une fille à son pere ; il faut lui repréſenter que les 
+                            <lb/>maris de ce pays-ci ne ſont pas faits pour rendre 
+                            <lb/>une femme heureuse, que vous en avez déjà fait la 
+                            <lb/>expérience, &amp; qu'il s'offre un parti plus avan-
+                            <lb/>tageux  &amp; plus conforme à votre inclination : un Mar-
+                            <lb/>quis François, jeune, riche, bien fait.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S5-12">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mon père n'y conſentira jamais ; il eſt déja préve-
+                            <lb/>nu contre lui , comme tu l'as vû par ſa lettre ; car 
+                            <lb/>c'eſt aſſurément de lui dont on lui aura parlé.
+                        </p>
+                    </sp>
+                    <sp who="#Finette" xml:id="S5-13">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Milord <persName ref='#Craff'>Craff</persName>, votre pere, eſt un homme ſenſé , il 
+                            <lb/>ne ſera pas difficile de lui faire entendre raiſon.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S5-14">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Moi-même j'ai lieu de n'être pas contente du Mar-
+                            <lb/>quis, <fs><f name="temper">ſon indiſcrétion &amp; son étourderie</f></fs>....
+                        </p>
+                    </sp>
+                    <sp who="#Finette" xml:id="S5-15">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Bon ! Bon ! Il faut lui paſſer quelque choſe en fa-
+                            <lb/>veur de la jeuneſſe &amp; des graces. Mais voici Milord 
+                            <lb/><persName ref='#Houzey'>Houzey</persName> votre frere, c'eſt du fruit nouveau.
+                        </p>
+                    </sp>
+                </div>
+                <pb n="15"/>
+                <div type="scene" n="6" xml:id="S6">
+    				<head>SCENE VI.</head><lb/>
+    				<stage>MILORD HOUZEY<pc>,</pc> ELIANTE<pc>,</pc> <lb/>FINETTE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Houzey" xml:id="S6-1">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+    					<p><c rend="lettrine">E</c>H ! Bon jour, ma petite sœur.</p>
+    				</sp>
+                    <sp who="#Eliante" xml:id="S6-2">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Bon jour, mon frere ; tu te rends bien rare depuis 
+    					    <lb/>quelque tems.
+    					</p>
+    				</sp>
+    				<sp who="#Houzey" xml:id="S6-3">
+    				    <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Que veux-tu ? Tu as changé de quartier , &amp; je ne 
+    					    <lb/>ſçais que d'aujourd'hui ta  nouvelle demeure ; d'ail-
+    						<lb/>leurs, depuis que je ne t'ai vûe , j'ai été entraîné par 
+    					    <lb/>une chaîne de plaiſirs, &amp; j'ai fait <choice><orig>connoiſſance</orig><reg>connaissance</reg></choice> avec un 
+    					    <lb/>jeune Seigneur François, qu'on apelle <persName ref="#Marquis">le Marquis de
+    					    <lb/>Polinville</persName>. C'eſt bien le garçon le plus aimable, le  
+    					    <lb/>plus graçieux ! ... Tiens, moi qui brille, ſans vanité,
+    						<lb/>parmi tout ce qu'il y a de Beaux à <placeName n='Londres'>Londres</placeName>, je ne
+    					    <lb/>ſuis qu'un mauſſade auprés de lui, &amp; je ne compte 
+    					    <lb/><choice><orig>ſçavoir</orig><reg>savoir</reg></choice> vivre, que du jour que je le <choice><orig>connois</orig><reg>connais</reg></choice>. Ah ! 
+    					    <lb/>qu'il m'a apris de choſes en cinq ou ſix converſa-
+    					    <lb/>tions, &amp; que je me suis façonné avec lui en quatre 
+    					    <lb/>jours de tems! Cela n'eſt pas concevable, &amp; tu dois 
+    						<lb/>me trouver bien changé !
+    					</p>
+    				</sp>
+    				<sp who="#Eliante" xml:id="S6-4">
+    				    <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Cela eſt vrai, je te trouve <fs><f name="temper">beaucoup plus ridicule</f></fs> 
+    						<lb/>qu'à l'ordinaire.
+    					</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S6-5">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Allez, ne la croyez pas ; je ne vous ai jamais vû 
+    					    <lb/>ſi gentil.
+    					</p>
+    				</sp>
+    				<sp who="#Houzey" xml:id="S6-6">
+    				    <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>J'<choice><orig>étois</orig><reg>étais</reg></choice> ſot , timide , embarraſſé, quand je me 
+    				        <lb/><choice><orig>trouvois</orig><reg>trouvais</reg></choice> avec des Dames , je ne <choice><orig>ſçavois</orig><reg>savais</reg></choice> que leur 
+    				        <lb/>dire ; mais à preſent ce n'eſt plus cela. Si tu me 
+    				        <pb n="16"/><choice><orig>voyois</orig><reg>voyais</reg></choice> dans un cercle de femmes, tu <choice><orig>ſerois</orig><reg>serais</reg></choice> étonnée, 
+    				        <lb/>ma petite ſœur. Je ſuis <choice><sic>ſémilllant</sic><corr>sémillant</corr></choice> <sic>,</sic> Je badine, je folâ-
+    				        <lb/>tre, je papillonne, je voltige de l'une à l'autre, je les
+    				        <lb/>amuſe toutes. Je <choice><orig>parois</orig><reg>parais</reg></choice> poli, reſpectueux en public ;
+    				        <lb/>mais je ſuis hardi, entreprenant tête à tête. Rien ne 
+    				        <lb/>plaît plus au beau ſexe qu'une noble aſſûrance.
+    					</p>
+    				</sp>
+    				<sp who="#Eliante" xml:id="S6-7">
+    				    <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Tu te gâtes, mon frere, &amp; tu deviens <fs><f name="temper">libertin</f></fs>.</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S6-8">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Une petite pointe de libertinage ne méſied pas à  
+    						<lb/>un jeune homme , &amp; rien ne le polit plus que le 
+    				        <lb/>commerce des femmes.
+    					</p>
+    				</sp>
+    				<sp who="#Houzey" xml:id="S6-9">
+    				    <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p><persName ref='#Finette'>Finette</persName> a raiſon, c'eſt elle qui m'a donné la pre-
+    				        <lb/>miére leçon de politeſſe : je ne l'oublierai pas. Elle eſt 
+    				        <lb/>modeſte, mes louanges la font rougir. Ma foi, vive 
+    				        <lb/>les femmes ! Elles ſont l'âme de tous les plaiſirs. Par 
+    				        <lb/>exemple, à table rien n'eſt plus plus charmant qu'une 
+    				        <lb/>jolie femme en pointe de vin, qui chante un air à 
+    				        <lb/>boire, ou qui s'attendrit le verre à la main. Nous 
+    						<lb/>autres Anglois, nous n'entendons pas nos intérêts 
+    				        <lb/>quand nous vous banniſſons de nos parties. Nous ne 
+    				        <lb/>bûvons que pour boire, &amp; nous portons la tristeſſe 
+    				        <lb/>juſqu'au ſein de la joye. Il n'eſt que les François 
+    						<lb/>pour faire agréablement la débauche. J'ai fait avant-
+    				        <lb/>hier , avec le Marquis , le plus délicieux ſouper au 
+    				        <lb/><rs type="institution" n="Lion Rouge">Lion Rouge</rs>, le tout accommodé par un Cuiſinier 
+    				        <lb/>François, &amp; ſervi à petits plats, mais délicats ; nous
+    				        <lb/>étions en femmes. Tiens, ma petite ſœur , je n'ai 
+    				        <lb/>jamais eu tant de plaiſir en ma vie. Que d'eſprit ! 
+    				        <lb/>Que d'enjouement ! Que de volupté ! Que nous fî-
+    				        <lb/>mes..... Que nous dîmes de jolies choſes ! Je t'y 
+    				        <lb/>ſouhaitai plus d'une fois, tant je ſuis bon frere.
+    					</p>
+    				</sp>
+    				<sp who="#Eliante" xml:id="S6-10">
+    				    <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Le Marquis François eſt un fort bon maître. Il 
+    					    <lb/>vous inſtruit bien, à ce que je vois.
+    					</p>
+    				</sp>
+    				<sp who="#Houzey" xml:id="S6-11">
+    				    <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Je veux te le faire <choice><orig>connoître</orig><reg>connaître</reg></choice>. Il ne ſera pas mal ai-
+    				        <pb n="17"/>ſé, car je viens d'aprendre qu'il loge dans ce même 
+    				        <lb/>Hôtel. Je lui ai déjà parlé de toi, ſans te nommer pour-
+    				        <lb/>tant. Il me vient une idée. Je lui dois donner à ſouper 
+    				        <lb/>ce soir au <rs type="institution" n="Lion Rouge">Lion rouge</rs>. Tout  eſt déja commandé pour 
+    				        <lb/>cela. Il faut que tu ſois des nôtres, &amp; <persName ref='#Finette'>Finette</persName> auſſi.
+    					</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S6-12">
+    				    <speaker>FINETTE </speaker><stage type="business" rend="italics">faiſant la révérence.</stage>
+    				  <p>Vous me faites trop d'honneur, Monſieur.</p>
+    				</sp>
+    				<sp who="#Eliante" xml:id="S6-13">
+    				    <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Je le veux bien, mais à condition que mon pere, 
+    					    <lb/>qui arrive aujourd'hui, ſera auſſi de la partie.
+    					</p>
+    				</sp>
+    				<sp who="#Houzey" xml:id="S6-14">
+    				    <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Mon pere arrive aujourd'hui ?</p>
+    				</sp>
+                    <sp who="#Eliante" xml:id="S6-15">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oui, aujourd'hui même ; &amp; vos fredaines, dont il 
+                            <lb/>eſt informé, ſont en partie cauſe de ſon voyage.
+    					</p>
+    				</sp>
+    				<pb n="24"/>
+    				<sp who="#Houzey" xml:id="S6-16">
+    				    <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Il vient bien mal-à-propos. Que ces peres ſont in-
+    					    <lb/>commodes ! Voilà notre partie dérangée. Adieu, ma 
+    					    <lb/>ſœur, je vais contremander le ſouper, &amp; déprier nos 
+    					    <lb/>gens.
+    					</p>
+    				</sp>
+    			</div>
+                <div type="scene" n="7" xml:id="S7">
+    				<head>SCÈNE VII.</head><lb/>
+    				<stage>ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
+    				<sp who="#Finette" xml:id="S7-1">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p><c rend="lettrine">V</c>otre frere ſe forme, Madame.</p>
+    				</sp>
+    				<sp who="#Eliante" xml:id="S7-2">
+    				    <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Il ſe gâte plutôt, &amp; le voilà enrôlé dans la cot-
+    						<lb/>terie de nos Beaux d'<placeName n="Angleterrre">Angleterre</placeName> ; engeance ici d'au-
+    				        <lb/>tant plus inſupportable, qu'elle a tous les vices de 
+    				        <lb/>vos petits maîtres de <placeName n="France">France</placeName>, ſans en avoir les 
+    				        <lb/>graces. Mais quelqu'un vient. Ah ! C'eſt le vilain <persName ref="#Rosbif">Roſ-
+    				        <lb/>bif</persName>. Depuis qu'on en veut faire mon mari, je le trouve
+    				        <lb/>encore plus déſagréable.
+    					</p>
+    				</sp>
+                    <pb n="18"/>
+    				<sp who="#Finette" xml:id="S7-3">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Cela eſt naturel. Allez rentrez, Madame. Laiſſez-
+    					    <lb/>moi le ſoin de recevoir ſa viſite pour vous. Je vais le 
+    					    <lb/>congédier à la Françoiſe.
+    				      </p>
+    				    <stage type="exit" rend="italics">(<persName ref="#Eliante">Eliante</persName> rentre.)</stage>
+    					</sp>
+    			</div>
+                <div type="scene" n="8" xml:id="S8">
+    				<head>SCENE VIII.</head><lb/>
+    				<stage>JACQUES<sic><pc>,</pc></sic><corr></corr> ROSBIF<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
+    				<sp who="#Rosbif" xml:id="S8-1">
+    				    <speaker>ROSBIF </speaker>
+    				    <stage type="mixed" rend="italics">à <persName ref='#Finette'>Finette</persName>, qui lui fait pluſieurs révérences.</stage><lb/>
+    				    <p><c rend="lettrine">F</c>Iniſſez avec toutes vos réverences qui ne menent 
+    				        <lb/>à rien.
+    					</p> 
+    				</sp>
+    				<sp who="#Finette" xml:id="S8-2">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Vous êtes naturellement civil &amp; ſi honnête à l'égard 
+    				        <lb/>des autres, qu'on ne ſe laſſe pas de l'être envers vous.
+    					</p>
+                    </sp>
+    				<sp who="#Rosbif" xml:id="S8-3">
+    				    <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Verbiage encore inutile. Venons au fait. Où eſt 
+    						<lb/><persName ref="#Eliante">Eliante</persName> ?
+    					</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S8-4">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Elle n'eſt pas viſible.</p>
+    				</sp>
+    				<sp who="#Rosbif" xml:id="S8-5">
+    				    <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Elle doit l'être pour ſon prétendu.</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S8-6">
+    				    <speaker>FINETTE </speaker>
+    				    <stage type="business" rend="italics">éclatant de rire.</stage>
+    				    <p>Vous, ſon prétendu ? Ah ! ah ! ah ! </p>
+    				</sp>
+    				<sp who="#Rosbif" xml:id="S8-7">
+    				    <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Oui, moi-même ; qu'eſt-ce qu'il y a là de ſi plaiſant ?</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S8-8">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Je vous demande pardon, Monſieur, mais votre fi-
+    				        <lb/>gure eſt ſi extraordinaire, que je ne puis m'empêcher 
+    					    <lb/>d'en rire.
+    					</p>
+    				</sp>
+    				<sp who="#Rosbif" xml:id="S8-9">
+    				    <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Vous êtes <fs><f name="temper">une imprudente</f></fs> avec toute votre politeſſe.</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S8-10">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Mais, Monſieur.</p>
+    				</sp>
+    				<sp who="#Rosbif" xml:id="S8-11">
+    				    <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Je m'apelle <persName ref="#Rosbif">Jacques Rosbif</persName>, &amp; non pas Monſieur. 
+    				        <pb n="19"/>Je vous ai dit cent fois, ma mie, que ce nom-là 
+    				        <lb/>m'<choice><orig>affligeoit</orig><reg>affligeait</reg></choice> les oreilles. Il y a tant de faquins qui le 
+    				        <lb/>portent....
+    					</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S8-12">
+    				    <speaker> FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Eh bien, <persName ref="#Rosbif">Jacques Rosbif</persName>, puiſque <persName ref="#Rosbif">Jacques Rosbif</persName> y 
+    				        <lb/>a, regardez-vous dans votre miroir, &amp; rendez-vous juſ-
+    				        <lb/>tice. Il vous dira que <span type="didascalie_interne">vous n'êtes ni aſſez bien mis</span> 
+    				        <lb/>pour être préſenté à la fille d'un Milord, ni aſſez ai-
+    				        <lb/>mable pour être ſon mari. Je veux vous faire voir un 
+    						<lb/>jeune Marquis de chez moi, qui loge dans cet Hôtel. 
+    				        <lb/>C'eſt là ce qui s'appelle un joli homme ! Et ſi ce n'eſt 
+    				        <lb/>encore rien en comparaiſon de nos jeunes Seigneurs 
+    				        <lb/>de la Cour.
+    					</p>
+    				</sp>
+    				<sp who="#Rosbif" xml:id="S8-13">
+    				    <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Je gage que c'eſt cet original de <persName ref="#Marquis">Marquis de Polin-
+    				        <lb/>ville</persName>. Je ne ſerai pas fâché de le voir. On m'en a fait 
+    				        <lb/>un portrait si ridicule....
+    					</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S8-14">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Parlez avec plus de reſpect d'un François &amp; ſur-tout  
+    					    <lb/>d'un François homme de qualité.
+    					</p>
+    				</sp>
+    				<sp who="#Rosbif" xml:id="S8-15">
+    				    <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Qu'eſt-ce qu'elle vient me chanter avec ſon hom-
+    				        <lb/>me de qualité ? Je me moque, moi, d'une nobleſ-
+    				        <lb/>ſe imaginaire, les vrais Gentilshommes ce ſont les 
+    						<lb/>honnêtes gens, il n'y a que le vice de roturier.
+    					</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S8-16">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>C'eſt là le diſcours d'un Marchand qui voudroit
+    				        <lb/><fs><f name="temper">trancher du Philoſophe</f></fs> <sic>;</sic> Mais je vois entrer Monſieur 
+    						<lb/>le Marquis lui-même. Vous allez trouver à qui 
+    						<lb/>parler.
+    					</p>
+    				</sp>
+                </div>
+                <pb n="20"/>
+                <div type="scene" n="9" xml:id="S9">
+                    <head>SCENE IX.</head><lb/>
+                    <stage>LE MARQUIS<pc>,</pc> ROSBIF<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Finette" xml:id="S9-1">
+    					<speaker>FINETTE </speaker>
+                        <stage type="delivery" rend="italics">au Marquis.</stage><lb/>
+                        <p><c rend="lettrine">M</c>Onſieur le Marquis, voilà un homme que je 
+                            <lb/>vous donne à décraſſer. Il en a grand beſoin, 
+                            <lb/>je vous le recommande : ſon nom eſt <persName ref="#Rosbif">Jacques Rosbif</persName>, 
+                            <lb/>ne l'oubliez pas. 
+                        </p><stage type="exit" rend="italics">(Elle ſort.)</stage>
+                    </sp>
+                </div> 
+                <div type="scene" n="10" xml:id="S10">
+                    <head>SCENE X.</head><lb/>
+                    <stage>LE MARQUIS<pc>,</pc> ROSBIF<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Marquis" xml:id="S10-1">
+    					<speaker>LE MARQUIS</speaker> <stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <p><c rend="lettrine">E</c>lle a raiſon, <fs><f name="temper">cet homme n'a pas l'air avantageux</f></fs>. 
+                            <lb/>N'importe ; faiſons-lui politeſſe, ne nous démen-
+                            <lb/>tons point. <stage type="delivery" rend="italics">(À <persName ref='#Rosbif'>Rosbif</persName>.)</stage> Monſieur , peut-on vous 
+                            <lb/>demander qui eſt-ce qui me procure de votre part 
+                            <lb/>l'honneur d'une attention ſi particuliére.
+                        </p>
+                    </sp>
+                    <sp who="#Rosbif" xml:id="S10-2">
+                        <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>La curioſité.</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S10-3">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais encore, ne puis-je <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> à quoi je vous ſuis 
+                            <lb/>bon ?
+                        </p>
+                    </sp>
+                    <sp who="#Rosbif" xml:id="S10-4">
+                        <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>À me dire au vrai, ſi vous êtes <persName ref="#Marquis">le Marquis de Po-
+                            <lb/>linville</persName><sic>,</sic>
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S10-5">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oui, c'eſt moi-même.</p>
+                    </sp>
+                    <sp who="#Rosbif" xml:id="S10-6">
+                        <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Cela étant je m'en vais m'aſſeoir pour vous voir plus 
+                            <lb/>à mon aiſe. 
+                        </p><stage type="business" rend="italics">[Il ſe met dans un fauteuil.]</stage>
+                    </sp>
+                    <pb n="21"/>
+                    <sp who="#Marquis" xml:id="S10-7">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Vous êtes ſans façon, Monſieur, à ce qu'il me <choice><orig>paroît</orig><reg>paraît</reg></choice>.</p>
+                    </sp>
+                    <sp who="#Rosbif" xml:id="S10-8">
+                        <speaker>ROSBIF</speaker> <stage type="delivery" rend="italics">d'un ton phlegmatique.</stage>
+                        <p>Allons, courage, donnez-vous des airs, ayez des 
+                            <lb/>façons, dites-nous de jolies choſes. Je vous regarde, 
+                            <lb/>je vous écoute.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S10-9">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Comment, <persName ref="#Rosbif">Jacques Rosbif</persName>, mon ami, vous rail-
+                            <lb/>lez, je penſe ; vous tirez ſur moi. Tant mieux, mor-
+                            <lb/>bleu, tant mieux. J'aime les gens qui montrent de 
+                            <lb/>l'eſprit, &amp; même à mes dépens. Je vois que vous 
+                            <lb/>êtes venu ici pour faire aſſaut d'eſprit avec moi. Tou-
+                            <lb/>chez-là, c'eſt me prier d'une partie de plaiſir. Mais 
+                            <lb/>prenez garde à vous, je ſuis un rude joueur, je vous 
+                            <lb/>en avertis ; j'en ai déſarçonné de plus ferme que vous.
+                            <lb/>Quand ma cervelle eſt une fois échauffée, vous diriez 
+                            <lb/>d'un feu d'artifice. Ce ne ſont que fuſées, ce ne ſont 
+                            <lb/>que pétards, bz, pif, paf, pauf, un coup n'attend 
+                            <lb/>pas l'autre. Eh quoi ! vous avez déja peur : vous avez
+                            <lb/>perdu la parole. Allons, du cœur, défendez-vous, 
+                            <lb/><choice><sic>riſpoſtez-moi</sic><corr>ripoſtez-moi</corr></choice> donc ? Je n'aime pas la gloire aiſée, 
+                            <lb/>vous débutez par un coup de feu, &amp; vous en demeu-
+                            <lb/>rez là. Vous ne répondez rien. Là, avouez du moins 
+                            <lb/>votre défaite. Hem, plaît-il ? J'enrage, pas le mot ;
+                            <lb/>hola, hey, <persName ref="#Rosbif">Jacques Rosbif</persName>, vous dormez, réveil-
+                            <lb/>lez-vous ; oh, parbleu, voilà un animal bien ta-
+                            <lb/>citurne, je crois qu'il le fait exprès pour m'impa-
+                            <lb/>tienter, mais je n'en ſerai pas la dupe. Je vais ſui-
+                            <lb/>vre ſon exemple, &amp; faire une converſation à l'An-
+                            <lb/>gloiſe.
+                        </p>
+                        <lb/><stage type="novelistic" rend="italics">Il va s'aſſeoir vis-à-vis <persName ref='#Rosbif'>Rosbif</persName>, le regarde long-
+                            <lb/>temps ſans rien dire ; enſuite il interrompt ſon ſilence de trois ou quatre 
+                            <lb/><foreign rend="romans">houd'yed'o</foreign> qu'il lui adreſſe en le ſa-
+                            <lb/>luant.
+                        </stage><lb/>
+                        <p>Si quelqu'un s'<choice><orig>aviſoit</orig><reg>avisait</reg></choice> d'écouter aux portes, il <choice><orig>ſeroit</orig><reg>serait</reg></choice> 
+                            <lb/>bien attrapé. C'eſt donc-là, Monſieur, tout ce que vous avez à me dire ? En vérité, il faut avouer que votre 
+                            <lb/>converſation eſt bien agréable, &amp; qu'il y a beaucoup 
+                            <pb n="22"/>à profiter avec vous. Où prenez-vous toutes les belles
+                            <lb/>choſes que vous dites ? Il vous échape des traits, 
+                            <lb/>mais des traits dignes d'être imprimés. A votre place, 
+                            <lb/>j'<choice><orig>aurois</orig><reg>aurais</reg></choice> toujours à mes côtés un homme qui <choice><orig>écriroit</orig><reg>écrirait</reg></choice>
+                            <lb/>toutes mes réparties. Cela <choice><orig>feroit</orig><reg>ferait</reg></choice> un beau livre au 
+                            <lb/>moins.
+                        </p>
+                    </sp>
+                    <sp who="#Rosbif" xml:id="S10-10">
+                        <speaker>ROSBIF </speaker><stage type="business" rend="italics">ſe levant bruſquement.</stage>
+                        <p>Il n'<choice><orig>ennuyeroit</orig><reg>ennuierait</reg></choice> pas le public. Il vaut mieux ſe taire 
+                            <lb/>que de dire des fadaiſes &amp; ſe retirer que d'en écouter. 
+                            <lb/>Adieu, je vous ai donné le temps de déployer toute 
+                            <lb/>votre impertinence, &amp; j'ai voulu voir ſi vous étiez 
+                            <lb/>auſſi ridicule qu'on me l'<choice><orig>avoit</orig><reg>avait</reg></choice> dit. Il faut vous rendre 
+                            <lb/>juſtice, vous paſſez votre renommée. Vous avez tort 
+                            <lb/><span type="syllepse_dramatique">de vous laiſſer voir pour rien. Vous êtes un fort joli 
+                            <lb/>bouffon, &amp; vous valez bien trois ſchelins.</span> 
+                        </p><stage type="exit" rend="italics">(Il ſort.)</stage>
+                    </sp>
+                </div> 
+                <div type="scene" n="11" xml:id="S11">
+                    <head>SCENE XI.</head><lb/>
+                    <sp who="#Marquis" xml:id="S11-1">
+                        <speaker>LE MARQUIS </speaker><stage rend="italics">ſeul.</stage><lb/>
+                        <p><c rend='lettrine'>J</c>'<choice><orig>Aprendrois</orig><reg>apprendrais</reg></choice> à parler à ce brutal-là, s'il portoit une 
+                            <lb/>épée.
+                        </p>
+                    </sp>
+                </div> 
+                <div type="scene" n="12" xml:id="S12">
+                    <head>SCENE XII.</head><lb/>
+                    <stage>LE MARQUIS<pc>,</pc> ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Finette" xml:id="S12-1">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><c rend='lettrine'>E</c>H bien, Monſieur, avez-vous dégourdi notre 
+                            <lb/>homme ?
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S12-2">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Va te promener, tu viens de me mettre aux priſes 
+                            <lb/>avec le plus grand cheval de caroſſe, l'animal le plus 
+                            <lb/>ſot....
+                        </p>
+                    </sp>
+                    <pb n="23"/>
+                    <sp who="#Eliante" xml:id="S12-3">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Donnez, s'il vous plaît, d'autres épithétes à un 
+                            <lb/>homme qui doit être mon époux.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S12-4">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Lui, votre époux, Madame ? Ah ! ſi je l'<choice><orig>avois</orig><reg>avais</reg></choice> ſçû, 
+                            <lb/>il <choice><orig>ſeroit</orig><reg>serait</reg></choice> ſorti avec deux oreilles de moins. Mais vous 
+                            <lb/>voulez badiner, &amp; ce perſonnage-là....
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S12-5">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je ne badine point du tout. Mon pere vient exprès 
+                            <lb/>pour ce mariage.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S12-6">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Et vous y conſentirez ?</p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S12-7">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je n'y <choice><orig>aurois</orig><reg>aurais</reg></choice> peut-être pas conſenti, ſi vous aviez 
+                            <lb/>été plus raiſonnable ; mais votre indiſcrétion, &amp; vos 
+                            <lb/>airs éventés....
+                        </p>
+                    </sp>
+                    <sp who="#Finette" xml:id="S12-8">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oh ! Ne querellons point, nous n'en avons pas le 
+                            <lb/><choice><orig>tems</orig><reg>temps</reg></choice>. Ne ſongeons qu'à nous bien entendre tous trois 
+                            <lb/>pour donner l'excluſion à <persName ref="#Rosbif">Jacques Rosbif</persName>. Commen-
+                            <lb/>cez, Madame, par tout oublier.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S12-9">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Soit. Je ſuis bonne, je veux bien lui pardonner en-
+                            <lb/>core cette fois-ci. Mais ce ſera la derniére, &amp; à con-
+                            <lb/>dition qu'il ſera plus diſcret &amp; plus retenu à l'avenir. 
+                            <lb/>Mon pere arrive inceſſamment, ainſi, Monſieur, mo-
+                            <lb/>dérez cette vivacité Françoiſe quand vous le verrez.
+                            <lb/>Sur-tout point d'airs &amp; fort peu de manieres.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S12-10">
+                        <speaker>LE MARQUIS </speaker>
+                        <stage type="delivery" rend="italics">avec affectation.</stage><lb/>
+                        <p>Je vous proteſte, je vous jure, Madame, que 
+                            <lb/>je ſerai déſormais le plus ſimple, le plus uni de tous 
+                            <lb/>les hommes.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S12-11">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Fort bien. En me diſant que vous ſerez le plus ſim-
+                            <lb/>ple, le plus uni de tous les hommes, vous êtes tout 
+                            <lb/>le contraire. Vous donnez des coups de tête, vous geſ-
+                            <lb/>ticulez, vous parlez d'un ton &amp; d'un air....
+                        </p>
+                    </sp>
+                    <pb n="24"/>
+                    <sp who="#Finette" xml:id="S12-12">
+                        <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Eh ! Madame, voulez-vous que Monſieur la Mar-
+                            <lb/>quis ait l'air d'un <persName type="author" n="Caton">Caton</persName> à ſon âge ?
+                        </p>
+                    </sp>
+                    <sp who="le Marquis" xml:id="S12-13">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Non, elle veut que j'<choice><orig>aye</orig><reg>aie</reg></choice> l'air de Monſieur <persName ref="#Rosbif">Jacques 
+                            <lb/>Rosbif</persName> ſon prétendu.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S12-14">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Monſieur, je veux que vous ayez l'air raiſonna-
+                            <lb/>ble, &amp; que vous preniez Monſieur le Baron pour mo-
+                            <lb/>dèle.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S12-15">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Moi, je ne copie perſonne, Madame, je me pi-
+                            <lb/>que d'être original.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S12-16">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>On le voit bien. Mais ſouvenez-vous toujours que 
+                            <lb/>je ne vous pardonne qu'à condition que vous change-
+                            <lb/>rez d'air &amp; de conduite, &amp; ſur-tout que vous ne ferez 
+                            <lb/>plus de souper au <rs type="institution" n="Lion Rouge">Lion rouge</rs>. Adieu, je vous laiſſe. 
+                            <lb/><persName ref='#Finette'>Finette</persName> &amp; moi, nous allons au-devant de mon pere.
+                        </p>
+                        <stage type="exit" rend="italics">(Elle ſort avec <persName ref='#Finette'>Finette</persName>.</stage>
+                    </sp>
+                </div> 
+                <div type="scene" n="13" xml:id="S13">
+                    <head>SCENE XIII.</head><lb/>
+                    <sp who="#Marquis" xml:id="S13-1">
+                        <speaker>LE MARQUIS </speaker>
+                        <stage rend="italics">ſeul.</stage><lb/>
+                        <p><c rend="lettrine">E</c>Lle me parle du <rs type="institution" n="Lion Rouge">Lion rouge</rs> ! Qui diantre a pû 
+                            <lb/>l'informer du ſouper que j'y ai fait ? Je ſuis encore 
+                            <lb/>prié pour ce ſoir. Mais voici le petit Milord <persName ref='#Houzey'>Houzey</persName> ; 
+                            <lb/>c'eſt juſtement notre <rs type="character" n="Amphytrion">Amphytrion</rs>, je vais me déga-
+                            <lb/>ger.
+                        </p>
+                    </sp>
+                </div> 
+                <pb n="25"/>
+                <div type="scene" n="14" xml:id="S14">
+                    <head>SCENE XIV.</head><lb/>
+                    <stage>LE MARQUIS<pc>,</pc> MILORD HOUZEY<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Houzey" xml:id="S14-1">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><c rend="lettrine">M</c>Onſieur le Marquis, j'ai un vrai chagrin de ne 
+                            <lb/>pouvoir pas vous donner à ſouper ce ſoir ; mon 
+                            <lb/>pere arrive aujourd'hui , &amp; je viens vous prier 
+                            <lb/>de remettre la partie à une autrefois.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S14-2">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je ſuis charmé du <choice><orig>contre-tems</orig><reg>contretemps</reg></choice>, mon cher Milord, 
+                            <lb/>car auſſi-bien je n'<choice><orig>aurois</orig><reg>aurais</reg></choice> pas pû être des vôtres.
+                        </p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S14-3">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Moi, j'en ſuis au deſeſpoir. Je compte pour perdus 
+                            <lb/>tous les <choice><orig>momens</orig><reg>moments</reg></choice> que je n'ai pas le bonheur d'être 
+                            <lb/>avec vous. Vos converſations ſont autant de leçons 
+                            <lb/>pour moi ; plus je vous vois, &amp; plus je ſens la ſupé-
+                            <lb/>riorité que vous avez ſur nous.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S14-4">
+                        <speaker>LE MARQUIS </speaker><stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <p>Ce jeune homme eſt aſſez poli pour un Anglois.</p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S14-5">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Enſeignez-moi de grace comment vous faites pour 
+                            <lb/>être ſi aimable. C'eſt un je ne ſçai quoi qui nous 
+                            <lb/>manque, que je ne puis exprimer.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S14-6">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Et qu'il ne vous ſera pas difficile d'attraper. Vos 
+                            <lb/>diſcours, vos façons <supplied>vous</supplied> diſtinguent déja de vos com-
+                            <lb/>patriotes. Vous <choice><orig>ſçavez</orig><reg>savez</reg></choice> vivre, vous ſentez votre bien, 
+                            <lb/>&amp; vous avez l'air François.
+                        </p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S14-7">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>J'ai l'air François ! Ah ! Monſieur, vous ne pouvez 
+                            <lb/>me dire rien dont je ſois plus flatté. C'eſt de tous les 
+                            <lb/>airs celui que j'ambitionne le plus.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S14-8">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Vous avez du goût, Milord, vous irez loin. Vous 
+                            <pb n="26"/>avez de la figure, vous avez des graces. Ce <choice><orig>ſeroit</orig><reg>serait</reg></choice> un 
+                            <lb/>meurtre de les enfouir, il faut les déveloper, Mon-
+                            <lb/>ſieur, il faut les déveloper. La nature commmence un 
+                            <lb/>joli homme, mais c'eſt l'art qui l'acheve.
+                        </p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S14-9">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Et en quoi conſiſte préciſément cet art.</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S14-10">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>En des riens qui échappent, &amp; qu'il faut ſaiſir ; en 
+                            <lb/>des bagatelles qui font les <choice><orig>agrémens</orig><reg>agréments</reg></choice>. Un coup de tê-
+                            <lb/>te, un air d'épaule, un geſte, un ſoûris, un regard, 
+                            <lb/>une expreſſion, une inflexion de voix, la façon de 
+                            <lb/>s'aſſeoir, de ſe lever, de tenir ſon chapeau, de pren-
+                            <lb/>dre du tabac, de ſe moucher, de cracher. Par exem-
+                            <lb/>ple, permettez-moi de vous dire que vous mettez vo-
+                            <lb/>tre chapeau en garçon Marchand.Regardez-moi.C'eſt 
+                            <lb/>ainſi qu'on le porte à la Cour de <placeName n="France">France</placeName>. Oui, com-
+                            <lb/>me cela. 
+                        </p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S14-11">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je ne l'oublierai pas ; j'ai les airs, les maniéres, les 
+                            <lb/>façons.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S14-12">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Doucement, Monſieur, allons bride en main. Ne
+                            <lb/>confondons point, s'il vous plait, les uns avec les au-
+                            <lb/>tres. Les airs <choice><sic>ſons</sic><corr>ſont</corr></choice> diſtingués des maniéres, &amp; les ma-
+                            <lb/>niéres des façons. On a des maniéres, on fait des 
+                            <lb/>façons, on ſe donne des airs. Un homme du monde, 
+                            <lb/>par exemple, a des maniéres (écoutés ceci, c'eſt la 
+                            <lb/>quinteſſence du <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> vivre) un homme du monde a
+                            <lb/>des maniéres par égard , par attention pour les au-
+                            <lb/>tres, pour leur marquer la conſidération qu'il a pour 
+                            <lb/>eux, l'envie qu'il a de leur plaire &amp; de s'attirer leur 
+                            <lb/>bienveillance. Eſt-il dans un cercle ? Il eſt toujours 
+                            <lb/>attentif à ne rien faire , à ne rien dire que d'obligeant :
+                            <lb/>il prête poliment l'oreille à l'un, répond gracieuſe-
+                            <lb/>ment à l'autre , aplaudit celui-ci d'un <choice><orig>ſoûris</orig><reg>sourire</reg></choice>, fait 
+                            <lb/>agréablement la guerre à celui-là ; dit une douceur à 
+                            <lb/>la mere, &amp; regarde tendrement la fille. Nous fait-il 
+                            <lb/>un plaiſir ? La façon dont il le fait , eſt cent fois au
+                            <pb n="27"/>deſſus du plaiſir même. Par exemple , s'il <choice><orig>ſçait</orig><reg>sait</reg></choice> que 
+                            <lb/>vous avez beſoin d'une ſomme d'argent, il vous la 
+                            <lb/>gliſſe doucement dans la poche, ſans que vous y pre-
+                            <lb/>niés garde. De toutes les maniéres, cette derniére eſt 
+                            <lb/>la plus belle, mais par malheur, c'eſt la moins uſitée. 
+                            <lb/>Vous refuſe-t'il quelque choſe ? Ce qui eſt plus or-
+                            <lb/>dinaire, il aſſaiſonne ce refus de paroles si douces, 
+                            <lb/>&amp; de tant de politeſſe, que vous croyez lui avoir en-
+                            <lb/>core obligation. Allez-vous voir ſa femme ? Il s'é-
+                            <lb/>chape adroitement, il vous laiſſe le champ libre ; &amp; 
+                            <lb/>voilà ce qu'on apelle un homme qui <choice><orig>ſçait</orig><reg>sait</reg></choice> vivre, un 
+                            <lb/>homme qui a des maniéres !
+                        </p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S14-13">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Et un homme bon à <choice><orig>connoître</orig><reg>connaître</reg></choice>. Monſieur le Mar-
+                            <lb/>quis, &amp; les façons ?
+    					</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S14-14">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Un provincial fait des façons par une politeſſe 
+                            <lb/>mal entendue, par une ignorance des uſages, &amp; faute 
+                            <lb/>de <choice><orig>connoître</orig><reg>connaître</reg></choice> la Cour &amp; la Ville. Complimenteu<unclear>r</unclear> 
+                            <lb/>éternel, il vous aſſommera de ſa civilité mauſſade. 
+                            <lb/>Il vous eſtropiera, pour vous témoigner combien i<unclear>l</unclear> 
+                            <lb/>vous eſtime, &amp; ſera aux coups de poing avec vous, 
+                            <lb/>pour vous obliger à prendre le haut du pavé, ou 
+                            <lb/>vous jettera tout au travers d'une porte, pour vous 
+                            <lb/>faire paſſer le premier. On nomme cela être poli-
+                            <lb/>ment brutal, ou brutalement poli. Ainſi ſouvenez-vous 
+                            <lb/>des façons pour n'en jamais faire.
+    					</p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S14-15">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je n'y manquerai pas.</p>
+                    </sp>
+                </div> 
+            <milestone unit="unnumbered" type="ornement"/>
+                <pb n="28"/>
+                <div type="scene" n="15" xml:id="S15"> 
+    				<head>SCENE XV.</head><lb/>
+    				<stage>MILORD CRAFF<pc>,</pc> LE MARQUIS<pc>,</pc> MILORD HOUZEY<pc type="affirmative">.</pc></stage><lb/>   
+                    <sp who="#Craff" xml:id="S15-1">
+                        <speaker>MILORD CRAFF </speaker>
+                        <stage type="location" rend="italics">dans le fond du Théâtre.</stage><lb/>
+                        <p><c rend="lettrine">J</c>E cherche partout mon fils, mais le voilà apparem-
+                           <lb/>ment avec ce marquis François : aſſeyons-nous un
+                            <lb/>peu pour écouter leur converſation.
+                         </p>     
+                    </sp>
+                    <sp who="#Houzey" xml:id="S15-2">
+                        <speaker> MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Et les airs ?</p>
+                    </sp>
+                    <sp who="Marquis" xml:id="S15-3">
+                        <speaker> LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Un joli homme se donne des airs [redoublés d'at-
+                           <lb/>tention, je vous prie, car ceci eſt profond], un joli
+                            <lb/>homme se donne des airs par complaisance pour lui-
+                            <lb/>même, pour apprendre aux autres le cas qu'il fait
+                            <lb/>de sa personne, pour les avertir qu'il a du mérite,
+                            <lb/>qu'il en eſt tout pénétré, qu'on y fasse attention. Est-il
+                            <lb/>à la promenade? Il marche fièrement la tête haute,
+                            <lb/>les deux mains dans la ceinture, comme pour dire à
+                            <lb/>ceux qui ſont autour de lui, rangez-vous, Messieurs,
+                            <lb/>regardez-moi passer : n'ai-je pas bon air? Ne ſuis-je pas
+                            <lb/>fait au tour? Et vous, Mesdames les friponnes, qui
+                            <lb/>me parcourés des yeux en soûriant, vous voudriez me
+                            <lb/>poſſéder, vous voudriez me poſſéder. Voit-il paſſer
+                            <lb/>quelqu'un de sa connoiſſance ? Il affecte une poli-
+                            <lb/>teſſe de Seigneur, il lui fait une inclination de tête,
+                            <lb/>comme s'il lui diſoit : Allés, bon jour, Monsieur,
+                            <lb/>je me souviens de vous, je vous protège. Entre-t-il
+                            <lb/>quelque part ? Il ſe précipite dans un fauteuil, une
+                            <lb/>jambe ſur l'autre, tape du pied, marmote un petit
+                            <lb/>air, jouë d'une main avec son jabot, &amp; ſe careſſe le
+                            <lb/>menton de l'autre ; il s'en conte à lui-même, &amp; ſem-
+                            <lb/>ble ſe parler ainsi : En vérité je ſuis un fripon bien
+                            <lb/>aimable, &amp; voilà un visage qui donne sûrement de
+                            <pb n="29"/>
+                            <lb/>la tablature à la Dame du logis. Va-t-il voir une Bour-
+                            <lb/>geoise ? Eh ! Bon jour ma petite Fanchonette ; com-
+                            <lb/>ment te portes tu ? Te voilà jolie comme un <sic>petite</sic> 
+                            <lb/>Ange. Ça, vite, qu'on vienne s'aſſeoir près de moi ;
+                            <lb/>qu'on me baiſe, qu'on me careſſe, qu'on ôte ce
+                            <lb/>gant, que je <choice><orig>voye</orig><reg>voie</reg></choice> ce bras, que je le mange, que je
+                            <lb/>le croque ; tu détournes la tête, tu recules, tu rou-
+                            <lb/>gis. Eh ! Fi donc, ma pauvre enfant, tu ne ſçais pas
+                            <lb/>vivre. Eſt-ce qu'on refuse à un homme comme moi ?
+                            <lb/>Eſt-ce qu'on se fait prier ?  Eſt-ce qu'on a de la pu-
+                            <lb/>deur dans le monde.
+                        </p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S15-4">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Voilà une inſtruction dont je ferai mon profit.</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S15-5">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Tout ce que je vous dis là, <choice><orig>paroît</orig><reg>paraît</reg></choice> fat à bien des
+                            <lb/>gens : mais cela eſt néceſſaire: il faut s'afficher ſoi-
+                            <lb/>même, il faut ſe donner pour ce qu'on vaut: il faut
+                            <lb/> avoir le courage de dire tout haut qu'on a de l'eſprit,
+                            <lb/>du cœur, de la naiſſance, de la figure. Le monde ne 
+                            <lb/>vous eſtime qu'autant que vous vous prisez vous-même ;
+                            <lb/>&amp; de toutes les mauvaiſes qualités qu'un homme peut 
+                            <lb/>avoir, je n'en connois pas de pire que la modeſtie :
+                            <lb/>elle étouffe le vrai mérite, elle l'enterre tout vivant.
+                            <lb/>C'eſt l'effronterie, morbleu, c'eſt l'effronterie qui
+                            <lb/>le met au jour, qui le fait briller !
+                        </p>
+                    </sp> 
+                    <sp who="#Houzey" xml:id="S15-6">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>À présent que je ſçais ce que c'est que les airs, ah !
+                            <lb/>que je vais m'en donner, que je vais m'en donner !
+                        </p> 
+                    </sp> 
+                    <sp who="#Craff" xml:id="S15-7">
+                        <speaker>MILORD CRAFF</speaker> <stage type="location" rend="italics">dans le fond du Théâtre.</stage><lb/>
+                        <p>Mon fils eſt dans de très belles diſpoſitions, &amp; voilà un fort bel entretien.</p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S15-8">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Puiſque nous ſommes sur ce chapitre, je <choice><orig>voudrois</orig><reg>voudrais</reg></choice>
+                            <lb/>vous prier de m'apprendre quelles ſont les qualités qui
+                            <lb/>entrent nécéſſairement dans la compoſition d'un joli
+                            <lb/>homme ?
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S15-9">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Il faut être né d'abord avec un grand fond de con-
+                            <pb n="30"/>fiance &amp; de bonne opinion de ſoi-même ; un heureux 
+                            <lb/>panchant à la raillerie &amp; à la médiſance, avec un 
+                            <lb/>goût dominant pour le plaiſir, &amp; même pour le li-
+                            <lb/>bertinage ; un amour extrême pour le changement &amp; 
+                            <lb/>pour la coquéterie.
+                        </p>
+                    </sp>  
+                    <sp who="#Houzey" xml:id="S15-10">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oh ! grace au Ciel, je ſuis fourni de tout cela.</p>
+                    </sp>                  
+                    <sp who="#Marquis" xml:id="S15-11">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais par-deſſus tout cela il faut avoir reçu de la 
+                            <lb/>nature les graces en partage, ſans quoi les autres qua-
+                            <lb/>lités deviennent inutiles ; de la liberté, du goût, de 
+                            <lb/>l'enjouement, du badinage, de la legéreté dans tout 
+                            <lb/>ce que vous faites ; choqués plutôt les bienſéances que 
+                            <lb/>de manquer d'agrément. L'agrément eſt avant tout, il 
+                            <lb/>fait tout paſſer ; &amp;, s'il <choice><orig>falloit</orig><reg>fallait</reg></choice> opter, j'<choice><orig>aimerois</orig><reg>aimerais</reg></choice> cent 
+                            <lb/>fois mieux faire une impertinence avec grace, qu'une 
+                            <lb/>politeſſe avec platitude ; des traits, de la vivacité, 
+                            <lb/>du joli, du brillant dans ce que vous dites. Ne vous 
+                            <lb/>embarraſſez pas du bon ſens, pourvû que vous faſ-
+                            <lb/>ſiez voir de l'eſprit ; on ne fait briller l'un qu'aux dé-
+                            <lb/>pens de l'autre.   
+                        </p>
+                    </sp>                
+                    <sp who="#Craff" xml:id="S15-12">
+                        <speaker>MILORD CRAFF</speaker> <stage type="location" rend="italics">dans le fond du Théâtre.</stage>
+                        <p>Quelle impertinence !</p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S15-13">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Il me <choice><orig>paroît</orig><reg>paraît</reg></choice>, Monſieur le Marquis, que vous 
+                            <lb/>oubliez deux qualités importantes.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S15-14">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Leſquelles ?</p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S15-15">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Le don de mentir aiſément, &amp; le talent de jurer 
+                            <lb/>avec énergie.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S15-16">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Vous avez raiſon, rien n'orne mieux un diſcours 
+                            <lb/>qu'un menſonge dit à propos , ou qu'un ſerment fait 
+                            <lb/>en <choice><orig>tems</orig><reg>temps</reg></choice> &amp; lieu.    
+                        </p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S15-17">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>C'eſt encore ce que je poſſede aſſez bien, ſur-tout 
+                            <lb/>je jure fort joliment, &amp; perſonne ne prononce 
+                            <pb n="31"/>mieux que moi un ventrebleu, un le diable m'em-
+                            <lb/>porte, un la peſte m'étouffe.
+                        </p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S15-18">
+                        <speaker>MILORD CRAFF</speaker> <stage type="location" rend="italics">dans le fond du Théâtre.</stage>
+                        <p>Ah ! Le petit fripon !</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S15-19">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Eh, fy donc , Monſieur, ce ſont des sermens uſés , 
+                            <lb/>qui traînent par-tout ; il faut des ſermens plus 
+                            <lb/>diſtingués , des ſermens tout neufs. Je vous ferai pre-
+                            <lb/>ſent la premiere fois d'un recueil d'imprécations &amp; 
+                            <lb/>de sermens nouvellement inventés par un Capitaine 
+                            <lb/>de Dragons, revûs par un Officier de Marine, &amp; 
+                            <lb/>augmentés par un Abbé Gaſcon qui <choice><orig>avoit</orig><reg>avait</reg></choice> perdu ſon 
+                            <lb/>argent au Trictrac. C'eſt un fort bon Livre, &amp;  qui 
+                            <lb/>vous inſtruira.
+                        </p>
+                    </sp>                                    
+    				<sp who="#Craff" xml:id="S15-20">
+    				    <speaker>MILORD CRAFF</speaker> <stage type="business" rend="italics">ſe levant bruſquement.</stage>
+    				   <p>C'est trop de patience, je n'y puis plus tenir.</p>
+    				</sp>
+                    <sp who="#Houzey" xml:id="S15-21">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Ah ! j'aperçois mon pere. Je ne le <choice><orig>croyois</orig><reg>croyais</reg></choice> pas ſi 
+                            <lb/>près.
+                        </p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S15-22">
+                        <speaker>MILORD CRAFF</speaker> <stage rend="italics">d'un air ironique.</stage>
+                        <p>Vous voulez bien, Monſieur le Marquis , que je
+                            <lb/>vous remercie des bonnes &amp; ſolides inſtructions que 
+                            <lb/>vous donnez à mon fils.
+                        </p>
+                        <lb/><stage type="delivery" rend="italics">[à <persName ref='#Houzey'>Milord Houzey</persName> , d'un ton ſec.]</stage><lb/>
+                        <p>Pour vous, Monſieur, je ſuis bien aiſe de voir 
+                            <lb/>comme vous employez votre <choice><orig>tems</orig><reg>temps</reg></choice>.
+                        </p>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S15-23">
+                        <speaker>MILORD HOUZEY</speaker> <stage rend="italics">d'un air embaraſſé.</stage>
+                        <p>Monſieur le Marquis... a la bonté.... de me for-
+                            <lb/>mer le goût.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S15-24">
+                        <speaker>LE MARQUIS</speaker> <stage type="business" rend="italics">regardant Milord <persName ref='#Craff'>Craff</persName>.</stage><lb/>
+                        <p>Oui, oui, Monſieur , je lui aprends des choſes,
+                            <lb/>dont vous ne feriez pas mal de profiter vous-meme.
+                        </p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S15-25">
+                        <speaker>MILORD CRAFF</speaker> <stage type="delivery" rend="italics">à Milord <persName ref='#Houzey'>Houzey</persName>.</stage>
+                        <p>Allez, retirez-vous. Je vous donnerai tantôt d'au-
+                            <lb/>tres leçons.
+                        </p>
+                       <stage type="exit" rend="italics">[Milord <persName ref='#Houzey'>Houzey</persName> <choice><sic>s'eu</sic><corr>s'en</corr></choice> va.]</stage>
+                    </sp>
+                </div> 
+                <pb n="32"/>
+                <div type="scene" n="16" xml:id="S16">
+                    <head>SCENE XVI.</head><lb/>
+                    <stage>LE MARQUIS<pc>,</pc> MILORD CRAFF<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Marquis" xml:id="S16-1">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><c rend="lettrine">O</c>H ! Parbleu, je vous défie de lui donner dans 
+                            <lb/>toute votre vie, autant d'eſprit que je viens de 
+                            <lb/>lui en donner en un quart d'heure de <choice><orig>tems</orig><reg>temps</reg></choice>.
+                        </p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S16-2">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Avant que de vous répondre, je vous prie de me 
+                            <lb/>dire ce que c'eſt que l'eſprit , &amp; en quoi vous le fai-
+                            <lb/>tes conſiſter ?
+    					</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S16-3">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>L'eſprit eſt à l'égard de l'ame ce que les maniéres 
+                            <lb/>ſont à l'égard du corps. Il en fait la gentilleſſe &amp; l'a-
+                            <lb/>grément, &amp; je le fais conſiſter à dire de jolies cho-
+                            <lb/>ſes sur des riens, à donner un tour brillant à la moin-
+                            <lb/>dre bagatelle, un air de nouveauté aux choſes les plus 
+                            <lb/>communes.
+                        </p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S16-4">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Si c'eſt là avoir de l'eſprit, nous n'en avons pas ici, 
+                            <lb/>nous nous piquons même de n'en pas avoir ; mais ſi 
+                            <lb/>vous entendez par l'eſprit le bon ſens....
+                        </p>               
+                    </sp>
+                    <sp who="#Marquis" xml:id="S16-5">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Non, Monſieur, je ne ſuis pas ſi ſot de confondre 
+                            <lb/>l'eſprit avec le bon ſens. Le bon ſens n'eſt autre 
+                            <lb/>choſe que ce ſens commun qui court les rues, &amp; 
+                            <lb/>qui eſt de tous les Pays. Mais l'eſprit ne vient qu'en 
+                            <lb/><placeName n="France">France</placeName>. C'eſt, pour ainſi dire, ſon terroir, &amp; nous 
+                            <lb/>en fourniſſons tous les autres peuples de l'<placeName n="Europe">Europe</placeName>. 
+                            <lb/>L'eſprit ne fait que voltiger ſur les matiéres, il n'en 
+                            <lb/>prend que la fleur. C'eſt lui qui fait un homme aima-
+                            <lb/>ble, vif, leger, enjoué, amuſant, les délices des ſocié-
+                            <lb/>tés, un beau parleur, un railleur agréable, &amp; pour tout 
+                            <lb/>dire, un François. Le bon ſens au contraire s'apeſantit 
+                            <pb n="33"/>ſur les matières en croyant les aprofondir, il traite 
+                            <lb/>tout méthodiquement, ennuyeuſement. C'eſt lui qui 
+                            <lb/>fait un homme lourd, pedant, mélancolique, tacitur-
+                            <lb/>ne, ennuyeux, le fléau des compagnies, un morali-
+                            <lb/>ſeur, un rêve-creux, en un mot un.... 
+    					</p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S16-6">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Un Anglois, n'eſt-ce pas ?</p>
+                    </sp>     
+                    <sp who="#Marquis" xml:id="S16-7">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Par politeſſe, je ne <choice><orig>voulois</orig><reg>voulais</reg></choice> pas trancher le mot :
+                            <lb/>mais vous avez mis le doigt deſſus.
+    					</p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S16-8">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>C'est-à-dire ſelon votre langage, qu'un Anglois 
+                            <lb/>eſt un homme de bon ſens qui n'a pas d'eſprit ?
+    					</p>                
+                    </sp>
+                    <sp who="#Marquis" xml:id="S16-9">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Fort bien.</p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S16-10">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Et qu'un François eſt un homme d'eſprit qui n'a pas 
+                            <lb/>le ſens commun ?
+    					</p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S16-11">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>A merveille.</p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S16-12">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Toute la Nation Françoiſe vous doit un remerci-
+                            <lb/>ment pour une ſi belle définition. Mais puiſque vous 
+                            <lb/>renoncez au bon ſens, ſçavez-vous bien, Monſieur, 
+                            <lb/>que je ſuis en droit de vous refuſer l'eſprit ?
+    					</p>  
+                    </sp>
+                    <sp who="#Marquis" xml:id="S16-13">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Allez, Monſieur, vous vous moquez des gens. 
+                            <lb/>Pouvez-vous me refuſer ce que je poſſéde, &amp; que 
+    					    <lb/>vous n'avez pas ?
+    					</p>
+                    </sp> 
+                    <sp who="#Craff" xml:id="S16-14">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je prétends vous prouvez que l'eſprit ne peut exiſ-
+                            <lb/>ter ſans le bon ſens.
+    					</p>
+    				</sp>
+    				<sp who="#Marquis" xml:id="S16-15">
+    				    <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Exiſter, exiſter ! Voilà un mot qui ſent furieuſe-
+    				        <lb/>ment l'Ecole.
+                        </p>
+                    </sp>                
+    				<sp who="#Craff" xml:id="S16-16">
+    				    <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Quoique je ſois homme de condition, je n'ai pas 
+    				        <lb/>honte de parler comme un ſçavant ; &amp; je vous ſou-
+    				        <pb n="34"/>tiens que l'eſprit n'eſt autre choſe que le bon ſens orné ;
+    				        <lb/>qu'ainſi....
+    					</p>
+    				</sp>                
+    				<sp who="#Marquis" xml:id="S16-17">
+    				    <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Ah ! vous m'allez pouſſer un argument.</p>
+    				</sp>
+                    <sp who="#Craff" xml:id="S16-18">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je ferai plus, je vous démontrerai....</p>
+    				</sp>                
+                    <sp who="#Marquis" xml:id="S16-19">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Non, Monſieur, on ne me démontre rien ; on ne 
+                            me perſuade pas même.
+    					</p>
+    				</sp>
+                    <sp who="#Craff" xml:id="S16-20">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Quelque opiniâtre que vous ſoyez , je vous con-
+                            <lb/>vaincrai par la force de mon raiſonnement....
+                        </p>
+    				</sp>
+                    <sp who="#Marquis" xml:id="S16-21">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Vous avez-là un diamant qui me <choice><orig>paroît</orig><reg>paraît</reg></choice> beau &amp; 
+                            <lb/>merveilleuſement bien monté.
+    					</p>
+    				</sp>
+                    <sp who="#Craff" xml:id="S16-22">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Ne voilà-t'il pas mon homme d'esprit, qu'un rien 
+    					    <lb/>diſtrait, qu'une niaiſerie occupe, tandis qu'on agite 
+    					    <lb/>une queſtion ſérieuſe.
+    					</p>
+    				</sp>      
+                    <sp who="#Marquis" xml:id="S16-23">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Eh ! Monſieur, ne voyez-vous pas que c'eſt une 
+                            <lb/>maniére adroite dont je me ſers pour vous avertir po-
+                            <lb/>liment de finir une diſſertation qui ma fatigue ?
+    					</p>
+    				</sp>
+                    <sp who="#Craff" xml:id="S16-24">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>C'eſt une choſe étonnante que le bon ſens vous ſoit 
+    					    <lb/>à charge, &amp; qu'il n'y ait que la bagatelle....
+    					</p>
+    				</sp>
+                    <sp who="#Marquis" xml:id="S16-25">
+                        <speaker>LE MARQUIS</speaker> <stage type="delivery" rend="italics">chante.</stage>
+                        <l rend="italics">Sans l'amour &amp; ſans ſes charmes,</l>
+                        <l rend="italics">Tout languit dans l'Univers.</l>
+    				</sp>
+    				<sp who="#Craff" xml:id="S16-26">
+    				    <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Pour un garçon qui fait métier de politeſſe, c'eſt 
+    				        <lb/>bien en manquer ; &amp; je ſuis bien bon de vouloir faire 
+    				        <lb/>entendre raiſon à un Calotin !
+    					</p>
+    				</sp>
+                    <sp who="#Marquis" xml:id="S16-27">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Alte-là, Monſieur. Quand on nous attaque par un 
+                            <lb/>trait , par un bon mot, nous tâchons d'y répondre par 
+                            <lb/>un autre ; mais quand on va juſqu'à l'inſulte, qu'on 
+                            <lb/>nous dit groſſiérement des injures, voici notre repli-
+                            <lb/>que. 
+    					</p><stage type="business" rend="italics">(Il tire l'épée.)</stage>
+    				</sp>              
+    			</div> 
+    			<pb n="35"/>
+                <div type="scene" n="17" xml:id="S17">
+    				<head>SCENE XVII.</head><lb/>
+                    <stage>LE MARQUIS<pc>,</pc> MILORD CRAFF<pc>,</pc> LE BARON<pc type="affirmative">.</pc></stage><lb/>
+    				<sp who="#Baron" xml:id="S17-1">
+    				    <speaker>LE BARON</speaker> <stage type="business" rend="italics">ſaiſiſſant l'épée du Marquis.</stage>
+    				    <p><c rend="lettrine">A</c>Rrête, Marquis ; aprens qu'à <placeName n='Londres'>Londres</placeName> il eſt dé-
+    						<lb/>fendu de tirer l'épée.
+    					</p>
+    				</sp> 
+    				<sp who="#Marquis" xml:id="S17-2">
+    				    <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Comment ! Morbleu, on m'ennuyera, &amp; je ne 
+    				        <lb/>pourrai pas le témoigner ? Enſuite on m'outragera, 
+    				        <lb/>&amp; il ne me ſera pas permis d'en tirer vengeance ?
+    				        <lb/>Ah ! j'en aurai raiſon, fût-ce de toute la Ville.
+    					</p>
+    				</sp>
+    				<sp who="#Craff" xml:id="S17-3">
+    				    <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>J'ai beſoin de tout mon flegme pour contenir ma 
+    				        <lb/>juſte colére.
+    					</p>
+    				</sp>
+    				<sp who="#Baron" xml:id="S17-4">
+    				    <speaker>LE BARON</speaker> <stage type="delivery" rend="italics">au Marquis.</stage>
+    				  <p>Modére ce tranſport ; tu n'es pas ici en <placeName n="France">France</placeName>.</p>
+    				</sp>
+    				<sp who="#Marquis" xml:id="S17-5">
+    				    <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Je ſors ; car ſi je <choice><orig>demeurois</orig><reg>demeurais</reg></choice> plus long-tems, je ne
+    					    <lb/>ſerois pas mon maître. Adieu, Monſieur de l'<placeName n="Angleterre">Angle-
+    					    <lb/>terre</placeName>, ſi vous avez du cœur, nous nous verrons hors 
+    					    <lb/>la Ville. 
+    					</p><stage type="exit" rend="italics">[Il ſort.]</stage>
+    				</sp>     
+                </div>          
+                <div type="scene" n="18" xml:id="S18">
+                    <head>SCENE XVIII.</head><lb/>
+                    <stage>LE BARON<pc>,</pc> MILORD CRAFF<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="#Baron" xml:id="S18-1">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p><c rend="lettrine">J</c>E vous fais réparation pour lui, Monſieur. Je vous 
+                            <lb/>prie d'excuſer l'étourderie d'un jeune homme qui 
+                            <lb/>ſort de ſon païs pour la premiére fois, &amp; qui croit que 
+                            <lb/>toutes les mœurs doivent être françoiſes.
+    					</p>
+                    </sp>
+    				<sp who="#Craff" xml:id="S18-2">
+    				    <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>En vérité, Monſieur, vous m'étonnez.</p>
+    				</sp>
+                    <pb n="36"/>
+                    <sp who="#Baron" xml:id="S18-3">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>D'où vient ?</p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S18-4">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Vous êtes François, &amp; vous êtes raiſonnable ?</p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S18-5">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Eh ! Monſieur, pouvez-vous donner dans un pré-
+                            <lb/>jugé ſi peu digne d'un galant homme, tel que vous 
+                            <lb/>me <choice><orig>paroiſſez</orig><reg>paraissez</reg></choice> être, &amp; décider de toute une Nation ſur 
+    						<lb/>un étourdi comme celui que vous venez de voir ? 
+                            <lb/>Croyez-moi, Monſieur, il eſt en <placeName n="France">France</placeName> des gens 
+                            <lb/>raiſonnables autant qu'ailleurs : &amp; s'il ſe trouve parmi  
+    					    <lb/>nous des<choice><orig>impertinens</orig><reg>impertinents</reg></choice> , nous les regardons du même 
+                            <lb/>œil que vous, &amp; nous ſommes les premiers à <choice><orig>connoî-
+                            <lb/>tre</orig><reg>connaître</reg></choice> &amp; à jouer leur ridicule. D'ailleurs , c'eſt un mal-
+    						<lb/>heur que nous partageons avec les autres peuples.
+                            <lb/>Chaque Nation a ſes travers, chaque Païs a ſes ori-
+                            <lb/>ginaux. Sortez donc, Monſieur, d'une erreur qui 
+                            <lb/>vous fait tort à vous-même, &amp; rendez-vous à la 
+                            <lb/>raiſon dont vous faites tant de cas.
+    					</p>
+                    </sp>               
+                    <sp who="#Craff" xml:id="S18-6">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Oui, Monſieur, je m'y <choice><orig>rens</orig><reg>rends</reg></choice>. Je ſens combien cet-
+                            <lb/>te raiſon eſt puiſſante ſur les eſprits, quand elle eſt 
+                            <lb/>accompagnée de politeſſe &amp; d'agrément. Je vous de-
+                            <lb/>mande votre amitié avec votre eſtime ; vous venez 
+                            <lb/>d'emporter toute la mienne.
+    					</p>
+                    </sp>             
+                    <sp who="#Baron" xml:id="S18-7">
+                        <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Ah ! Monſieur, mon amitié vous eſt toute acquiſe. 
+                            <lb/>Souffrez que je vous embraſſe &amp; que je vous témoigne 
+                            <lb/>la joïe que je reſſens d'avoir conquis le cœur d'un An-
+    						<lb/>glois, &amp; d'un Anglois de votre mérite. La victoire eſt 
+                            <lb/>trop flateuſe pour ne pas en faire gloire.
+    					</p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S18-8">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Adieu, Monſieur, je ſors tout pénétré de ce que 
+    						<lb/>vous m'avez dit.
+                            <lb/>
+    					</p><stage type="exit" rend="italics">(Il ſort.)</stage>
+                    </sp>
+                </div>
+                <pb n="37"/>
+                <div type="scene" n="19" xml:id="S19">
+    				<head>SCENE XIX.</head><lb/>
+                    <sp who="#Baron" xml:id="S19-1">
+                        <speaker>LE BARON </speaker>
+                        <stage rend="italics">ſeul.</stage><lb/>
+                        <p><c rend="lettrine">C</c>'Eſt ainſi que les hommes ſe préviennent les uns 
+                            <lb/>contre les autres ſans ſe <choice><orig>connoître</orig><reg>connaître</reg></choice>; quelques rai-
+                            <lb/>ſonnables qu'ils ſoient , ils ne ſont pas à l'abri des 
+                            <lb/>préjugés de l'éducation.
+    					</p>
+    				</sp>
+    			</div>          
+    			<div type="scene" n="20" xml:id="S20">
+    				<head>SCENE XX.</head><lb/>
+    				<stage>LE BARON<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
+    				<sp who="#Finette" xml:id="S20-1">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p><c rend="lettrine">A</c>H ! Monſieur, ſçavez-vous à qui vous venez 
+    						<lb/>de parler-là ?
+    					</p>
+    				</sp>
+    				<sp who="#Baron" xml:id="S20-2">
+    				    <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>A un très-galant homme, c'eſt tout ce que j'en ſçai.</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S20-3">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>C'eſt au pere de ma maîtreſſe.</p>
+    				</sp>
+    				<sp who="#Baron" xml:id="S20-4">
+    				    <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Au père d'<persName ref="#Eliante">Eliante</persName> ? L'aventure eſt heureuse pour 
+    						<lb/>moi.
+    					</p>
+    				</sp>
+    				<sp who="#Finette" xml:id="S20-5">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Elle ne l'eſt guéres pour Monſieur le Marquis. Il 
+    				        <lb/>vient, ſans le <choice><orig>connoître</orig><reg>connaître</reg></choice>, d'avoir du bruit avec lui ;
+    				        <lb/>il m'a dit la choſe tout en colére, enſuite il eſt ſor-
+    				        <lb/>ti ſans vouloir m'écouter. Il faut juſtement que cela 
+    				        <lb/>lui arrive dans le <choice><orig>tems</orig><reg>temps</reg></choice> que ma maîtreſſe &amp; moi nous 
+    				        <lb/>avions fait revenir Milord <persName ref='#Craff'>Craff</persName> de la mauvaiſe idée 
+    				        <lb/>qu'on lui <choice><orig>avoit</orig><reg>avait</reg></choice> donnée de lui, &amp; qu'il <choice><orig>étoit</orig><reg>était</reg></choice> prêt de 
+    						<lb/>l'accepter pour gendre.
+    					</p>
+    				</sp>
+    			</div>  
+    			<pb n="38"/>
+                <div type="scene" n="21" xml:id="S21">
+    				<head>SCENE XXI.</head><lb/>
+    				<stage>LE BARON<pc>,</pc> ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
+    				<sp who="#Baron" xml:id="S21-1">
+    				    <speaker>LE BARON</speaker> <stage type="delivery" rend="italics">à <persName ref="#Eliante">Eliante</persName>.</stage>
+    				    <p><c rend="lettrine">E</c>H bien! Madame êtes-vous determinée ?</p>
+    				</sp>
+    				<sp who="#Eliante" xml:id="S21-2">
+    				    <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+    				    <p>Oui, à ſuivre en tout les volontés de mon pere. 
+    				        <lb/>Ainſi, Monſieur, ſi vous voulez m'obtenir c'eſt à 
+    				        <lb/>lui qu'il faut s'adreſſer.
+    					</p>
+    				</sp>
+    				<sp who="#Baron" xml:id="S21-3">
+    				    <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Madame, j'y vole.</p>
+    				</sp> 
+    			</div>         
+    			<div type="scene" n="22" xml:id="S22">
+    				<head>SCENE XXII.</head><lb/>
+    				<stage>ELIANTE<pc>,</pc> FINETTE.</stage><lb/>
+    				<sp who="#Finette" xml:id="S22-1">
+    				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
+    					<p><c rend="lettrine">Q</c>ue faites-vous, Madame ?</p>
+    				</sp>
+    				<sp who="#Eliante" xml:id="S22-2">
+    				    <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+    					<p>Ce que je dois faire, après ce que je viens d'appren-
+    					    <lb/>dre du Marquis : ſi je lui <choice><orig>pardonnois</orig><reg>pardonnais</reg></choice>, je <choice><orig>ſerois</orig><reg>serais</reg></choice> indigne 
+    					    <lb/>de l'amitié de mon pere. Ce dernier trait vient de 
+    						<lb/>m'ouvrir les yeux, &amp; me donne pour le Marquis tout 
+    						<lb/>le mépris qu'il mérite.
+    					</p>
+    				</sp>
+    			</div> 
+    			<div type="scene" n="23" xml:id="S23">
+    				<head>SCENE XXIII.</head><lb/>
+    				<stage>MILORD CRAFF<pc>,</pc> LE BARON<pc>,</pc><lb/>ROSBIF<pc>,</pc> ELIANTE <pc>,</pc> FINETTE<pc>.</pc></stage><lb/>
+    			    <sp who="#Craff" xml:id="S23-1">
+    			        <speaker>MILORD CRAFF</speaker> <stage type="delivery" rend="italics">au Baron &amp; à <persName ref='#Rosbif'>Rosbif</persName>.</stage>
+    			       <p><c rend="lettrine">M</c>eſſieurs, je ne puis vous répondre qu'en pre-
+    			            <lb/>ſence de ma fille. Mais la voici.
+    					</p>
+    				</sp>
+    			</div> 
+                <pb n="39"/>
+                <div type="scene" n="24" xml:id="S24">
+                    <head>SCENE DERNIERE.</head><lb/>
+                    <stage>MILORD CRAFF<pc>,</pc> LE BARON<pc>,</pc> LE MAR-<lb/>QUIS <pc>,</pc> MILORD HOUZEY<pc>,</pc> ROSBIF <pc>,</pc><lb/>ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage>
+                    <sp who="#Houzey" xml:id="S24-1">
+    				    <speaker>MILORD HOUZEY </speaker><stage type="business" rend="italics">tenant le Marquis<lb/> par la main.</stage>
+    				      <stage type="delivery" rend="italics">(A Milord <persName ref='#Craff'>Craff</persName>.)</stage>
+    				    <p><c rend="lettrine">M</c>On pere, voilà Monsieur le Marquis qui eſt 
+                            <lb/>au déſeſpoir de ce qui s'eſt paſſé. Il eſt natu-
+                            <lb/>rellement ſi poli...
+                        </p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S24-2">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Taiſez-vous petit coquin ; vous avez vous-même 
+                            <lb/>beſoin de quelqu'un qui me parle pour vous.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S24-3">
+                        <speaker>LE MARQUIS </speaker>
+                        <p>Monſieur, je n'<choice><orig>avois</orig><reg>avais</reg></choice> pas l'honneur de vous con-
+                            <lb/>noître.
+                        </p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S24-4">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Il ſuffit, Monſieur, j'excuſe votre jeuneſſe. Je ne 
+                            <lb/>veux pas même gêner ma fille. Je me contenterai de 
+                            <lb/>lui repréſenter....
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S24-5">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Non, mon pere, décidez vous-même. L'époux que 
+                            <lb/>vous me donnerez ſera toujours ſûr de me plaire.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S24-6">
+                        <speaker>LE MARQUIS</speaker> <stage type="delivery" rend="italics">parle bas à <persName ref="#Eliante">Eliante</persName>.</stage>
+                        <p>Vous riſquez de me perdre ; vous vous en repenti-
+                            <lb/>rez, Madame.
+                        </p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S24-7">
+                        <speaker>MILORD CRAFF</speaker> <stage type="delivery" rend="italics">à <persName ref="#Eliante">Eliante</persName>.</stage>
+                        <p>Comme je n'ai que trois jours à demeurer ici , &amp; 
+                            <lb/>qu'il faut abſolument vous marier avant mon départ, je 
+                            <lb/>vais tâcher de faire un choix digne de vous &amp; de moi,
+                            <lb/>Monſieur le Marquis, vous êtes un fort joli Cavalier.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S24-8">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Je le ſçai bien, Monſieur.</p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S24-9">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Mais vous faites trop peu de cas de la raiſon, &amp; 
+                            <pb n="40"/>c'eſt la choſe dont on a plus de beſoin dans un état 
+                            <lb/>auſſi ſérieux que celui du mariage.
+                        </p>
+                        <stage type="delivery" rend="italics">(à <persName ref='#Rosbif'>Milord Rosbif</persName>.)</stage>
+                        <p>
+                            <lb/>Pour vous, Monſieur, vous avez un fond de raiſon 
+                            <lb/>admirable, mais vous négligez trop la politeſſe , &amp; 
+                            <lb/>elle eſt néceſſaire pour rendre un mariage heureux, 
+                            <lb/>puiſqu'elle conſiſte en ces égards mutuels qui contri-
+                            <lb/>buent le plus au contentement de deux Epoux. Vous 
+                            <lb/>ne trouverez donc pas mauvais, Meſſieurs, que je 
+                            <lb/>vous préfére Monſieur le Baron, qui réunit l'un &amp; 
+                            <lb/>l'autre. Il a tout ce qu'il faut pour faire le bonheur 
+                            <lb/>de ma fille.
+                        </p>
+                    </sp>
+                    <sp who="#Baron" xml:id="S24-10">
+                        <speaker>LE BARON</speaker> <stage type="delivery" rend="italics">à Milord <persName ref='#Craff'>Craff</persName>.</stage>
+                       <p>C'eſt vous, Monſieur, qui faites le mien ; mais 
+                            <lb/>il ne peut être parfait, ſi le cœur de Madame n'eſt 
+                            <lb/>d'accord avec vos bontés.
+                        </p>
+                    </sp>
+                    <sp who="#Eliante" xml:id="S24-11">
+                        <speaker>ELIANTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>N'en doutez point, Monſieur, puiſque mon pere 
+                            <lb/>me donne pour époux l'homme du monde que j'eſti-
+                            <lb/>me le plus.
+                        </p>
+                    </sp>
+                    <sp who="#Marquis" xml:id="S24-12">
+                        <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Adieu, Madame, vous êtes plus punie que moi. 
+                            <lb/>Vous m'aimez, &amp; je pars. 
+                        </p><stage type="exit" rend="italics">(Il s'en va.)</stage>
+                    </sp>
+                    <sp who="#Houzey" xml:id="S24-13">
+                        <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Nous partons. Je vais faire mon cours de politeſſe 
+                            <lb/>en <placeName n="France">France</placeName>. 
+                        </p><stage type="exit" rend="italics">[Il ſort.]</stage>
+                    </sp>
+                    <sp who="#Rosbif" xml:id="S24-14">
+                        <speaker>ROSBIF</speaker> <stage type="delivery" rend="italics">à <persName ref='#Craff'>Milord Craff</persName>.</stage>
+                        <lb/>
+                        <p>Adieu, je vous pardonne de m'avoir refuſé. Ce 
+                            <lb/>François-là mérite d'être Anglois, vous ne pouviez 
+                            <lb/>pas mieux choisir. 
+                        </p><stage type="exit" rend="italics">(Il ſe retire.)</stage>
+                    </sp>
+                    <sp who="#Baron" xml:id="S24-15">
+                        <speaker>LE BARON </speaker> <stage type="delivery" rend="italics">à <persName ref='#Craff'>Milord Craff</persName>.</stage>
+                        <p>Vous venez, Monſieur, de me convaincre que 
+                            <lb/>rien n'eſt au-deſſus d'un Anglois poli.
+                        </p>
+                    </sp>
+                    <sp who="#Craff" xml:id="S24-16">
+                        <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
+                        <p>Et vous m'avez fait <choice><orig>connoître</orig><reg>connaître</reg></choice>, Monſieur, que 
+                            <lb/>rien n'aproche d'un François raiſonnable.
+                        </p>
+                    </sp>
+                    <lb/><lb/><lb/><trailer rend="center">FIN.</trailer>
+                </div>
+        </body>
+    </text>
+</TEI>

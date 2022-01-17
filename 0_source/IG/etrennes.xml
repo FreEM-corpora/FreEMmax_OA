@@ -1,0 +1,2113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main"> Les Étrennes</title>
+                <title type="alternative">ou la Bagatelle</title>
+                <title type="subtitle">Édition électronique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Pr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par </resp>
+                    <name>Loterie, Joséphine</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Première édition, <date>2017</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            <date>2017</date></publicationStmt>
+            <notesStmt>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT<lb/>Son Théâtre François &amp; Italien<pc>.</pc></hi> <lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                        <imprint>
+                            <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                            <publisher>JEAN NEAULME</publisher>
+                            <date when="1758">M.DCC.LVIII</date>
+                            <note>Tome cinquième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                    <citedRange>p. 3-42</citedRange>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+                <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+                    <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+                    <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques, ainsi que les vers. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+                    <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+                    <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+                    <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+                    <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+                    <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+                    <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+                    <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+                </projectDesc>
+            <editorialDecl>
+                <correction><p>Les erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+                <punctuation>
+                    <p>La ponctuation n'est pas systématiquement encodée. Elle a été distinguée à l'intérieur des balises 'titre', afin de ne pas créer de faux doublons lors de l'extraction de ceux-ci (ex. 'Admète et Alceste,' considéré comme un titre distinct de 'Admète et Alceste.').</p> <p>Dans tous les cas, la punctuation d'origine a été respectée, y compris quand elle paraissait fautive. Dans ce cas, elle est signalée avec 'sic' et 'corr'. Toutefois, les particularités d'espacement de la ponctuation n'ont pas été reproduites à l'identique. Un système uniforme a été adopté: les ponctuations simples (point, virgule), sont placées immédiatement après le mot, les ponctuations doubles (point virgule, deux points, signes d'interrogation et d'exclamation) sont placées après une espace.</p>
+                </punctuation>
+                <interpretation>
+                    <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+                </interpretation>
+            </editorialDecl>
+            <fsdDecl>
+                <fsDecl type="character_specification">
+                    <fDecl name="temper">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="age">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="young" xml:id="AGY"/>
+                                <symbol value="old" xml:id="AGO"/>
+                                <symbol value="child" xml:id="AGC"/>
+                                <symbol value="adult" xml:id="AGA"/>
+                                <symbol value="unknown" xml:id="AGU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="sex">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="male" xml:id="SM"/>
+                                <symbol value="female" xml:id="SF"/>
+                                <symbol value="undetermined" xml:id="SU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="nationality">
+                        <vRange><string></string>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="ontological_category">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="human" xml:id="OCH"/>
+                                <symbol value="non-human" xml:id="OCNH"/>
+                                <symbol value="semi-human" xml:id="OCSH"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="family_position">
+                        <vRange>
+                            <vColl>
+                                <symbol value="father" xml:id="FPF"/>
+                                <symbol value="son" xml:id="FPSON"/>
+                                <symbol value="daughter" xml:id="FPD"/>
+                                <symbol value="mother" xml:id="FPM"/>
+                                <symbol value="uncle" xml:id="FPU"/>
+                                <symbol value="aunt" xml:id="FPA"/>
+                                <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                                <symbol value="sister" xml:id="FPSIS"/>
+                                <symbol value="brother" xml:id="FPB"/>
+                                <symbol value="cousin" xml:id="FPC"/>
+                                <symbol value="step-mother" xml:id="FPSM"/>
+                                <symbol value="step-father" xml:id="FPSF"/>
+                                <symbol value="step-daughter" xml:id="FPSD"/>
+                                <symbol value="step-son" xml:id="FPSS"/>
+                                <symbol value="guardian" xml:id="FPG"/>
+                                <symbol value="ward" xml:id="FPWA"/>
+                                <symbol value="husband" xml:id="FPH"/>
+                                <symbol value="wife" xml:id="FPWIF"/>
+                                <symbol value="widow" xml:id="FPWID"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="actantial_role">
+                        <vRange>
+                            <vColl>
+                                <symbol value="lover" xml:id="ARL"/>
+                                <symbol value="subject" xml:id="ARS"/>
+                                <symbol value="opponent" xml:id="AROP"/>
+                                <symbol value="adjuvant" xml:id="ARAD"/>
+                                <symbol value="authority" xml:id="ARAUT"/>
+                                <symbol value="trouble_maker" xml:id="ARTM"/>
+                                <symbol value="episodic" xml:id="AREP"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="occupation">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="collective_character">
+                        <vRange>
+                            <binary value="true" xml:id="COLL"/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1733-01-19">19 janvier 1733</date><rs type="city">Paris, France.</rs></creation>
+            <textClass>
+                <keywords>
+                    <term>théâtre</term>
+                    <term>comédie</term>
+                    <term>comédie allégorique</term>
+                    <term></term>
+                    <term>comédie en vers</term>
+                    <term>comédie métathéâtrale</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+        <change when='2017-08-09' who="IG">
+            Confrontation avec le témoin (Néaulme 1758), et correction des erreurs de saisie. Remplacement des balises 'name' par des balises 'persName' et 'placeName'. Ajout de la 'feature structure' et balisage de la liste des personnages. Ajout de 'xml:id'.
+        </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <titlePage type="half-title">
+                <pb n="3"/>
+                <docTitle>
+                    <titlePart type="main">LES ETRENNES , <lb/>OU <lb/> LA BAGATELLE , </titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE.</titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="4"/>
+            <castList>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
+                <castItem ana="#OCNH #SM #AREP"><role>JANUS</role>, <roleDesc>Dieu des Etrennes</roleDesc>.</castItem>
+                <castItem ana="#OCNH #SF #AREP"><role>LA BAGATELLE</role>.</castItem>
+                <castItem ana="#OCH #SM #AGY #ARS"><role>LE CHEVALIER COLIFICHET</role>.</castItem>
+                <castItem ana="#OCH #SM #AGO #AREP"><role>DAMON</role>.</castItem>
+                <castItem ana="#OCH #SM #AGU #AREP"><role>LE MARQUIS</role>.</castItem>
+                <castItem ana="#OCH #SM #AGU #AREP"><role>LE COMTE</role>.</castItem>
+                <castItem ana="#OCH #SM #AGU #AREP"><role>LE BARON</role>.</castItem>
+                <castItem ana="#OCH #SF #AGY #AREP"><role>ANGELIQUE</role>.</castItem>
+                <castItem ana="#OCH #SF #AGY #AREP"><role>FANCHON</role>.</castItem>
+                <castItem ana="#OCH #COLL"><roleDesc>TROUPE de Danſeurs &amp; de Danſeuſes.</roleDesc>.</castItem>
+            </castList>
+            <set>
+                <p rend="center" rendition="italics">La Scène eſt dans la Gallerie du Palais.</p>
+            </set>
+            <lb/>
+            <lb/>
+        </front>
+        <body>
+            <pb n="5"/>
+            <div type="title">
+                <head>LES ETRENNES , <lb/>OU <lb/> LA BAGATELLE , <lb/> COMEDIE.</head>
+            </div>
+            <div type="scene" n="1" xml:id="S1">
+                    <head>SCENE PREMIERE.</head><lb/>
+                    <stage>LA BAGATELLE, JANUS.</stage><lb/>
+                    <sp who="Janus" xml:id="S1_1">
+                        <speaker>JANUS.</speaker><lb/>
+                        <l><c type="lettrine">V</c>OICI le nouvel an, brillante Bagatelle ;</l>
+                        <l>Dans ce Palais je viens vous inſtaller :</l>
+                        <l>Qu'aujourd'hui notre Fête ici ſe renou-<lb/>velle.</l>
+                        <l>Aux regards curieux hâtez-vous d'étaler</l>
+                        <l>Les chefs d'œuvre nouveaux qu'a produit l'induſtrie,</l>
+                        <l>Dans ces lieux où vos mains vous dreſſent tant d'Autels,</l>
+                        <l>Recevés les tributs qu'impoſent aux Mortels</l>
+                        <l>Le caprice, lorgueil, la mode &amp; la folie.</l>
+                        <l>Vendés cher vos faveurs dans ces jours ſolemnels,</l>
+                        <l>Ils vous ſont conſacrés par le Dieu des Etrennes ;</l>
+                        <l>Profités, avec moi, des ſotiſes humaines.</l>
+                        <pb n="6"/>
+                        <l>La raiſon crie en vain contre de tels abus ;</l>
+                        <l>Elle ne peut abolir ces tributs,</l>
+                        <l>Ni des Humains ſéduits nous enlever l'hommage,</l>
+                        <l>Quand nous avons pour nous leurs Maîtres abſolus;</l>
+                        <l>La vanité, l'amour, l'intérêt &amp; l'uſage.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S1_2">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l><name type="god" n="Janus">Janus</name>, avec justice on nous voit triomphans ;</l>
+                        <l>Et l'on célébre , tous les ans ,</l>
+                        <l>Avec éclat, ma puiſſance infinie.</l>
+                        <l>J'amuſe l'Univers , &amp; la raiſon l'ennuye.</l>
+                        <l>Les Hommes ſont toujours enfans ;</l>
+                        <l>Je ne puis trop taxer leur <rs n='Calotte'>troupe Calotine</rs> ;</l>
+                        <l>A lui faire payer mes bijoux chérement,</l>
+                        <l>Tout, en ce jour, me détermine :</l>
+                        <l>Je ſens que l'air de la Salle voiſine,</l>
+                        <l>Où la chicane aboye inceſſamment,</l>
+                        <l>Devient contagieux &amp; porte à la rapine.</l>
+                    </sp>
+                    <sp who="Janus" xml:id="S1_3">
+                        <speaker>JANUS.</speaker><lb/>
+                        <l>Adieu ; ſur vous, <rs n="Bagatelle">Déeſſe fine</rs>,</l>
+                        <l>Je me repoſe entiérement</l>
+                        <l>Du ſoin de tromper poliment, </l>
+                        <l>Et de vous enrichir d'une façon badine.</l>
+                        <l>Tandis que vous prendrez les paſſans dans vos lacs,</l>
+                        <l>Dans tout <placeName n="Paris">Paris</placeName> je cours faire ma ronde,</l>
+                        <l>Pour goûter, à long traits, la douceur ſans ſeconde,</l>
+                        <l>De rendre fous tous les Etats,</l>
+                        <l>Et de rire des embarras</l>
+                        <l>Et des convulſions où je jette le monde.</l>
+                        <l>C'eſt peu qu'un tel délire ait pour nous des apas ;</l>
+                        <l>Je me propoſe encore un plaiſir plus ſenſible,</l>
+                        <l>C'eſt d'aller à la Cour, Théâtre du fracas,</l>
+                        <l>Pour y jouir du Spectacle riſible, </l>
+                        <l>De voir des concurrens précipiter leur pas,</l>
+                        <l>Pour s'embraſſer tout haut, &amp; s'étouffer tout bas.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S1_4">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>Partés, <name type="god" n="Janus">Seigneur Janus</name>, ſans tarder davantage ;</l>
+                        <l>Un tel ſéjour, pour vous, eſt fait exprès :</l>
+                        <pb n="7"/>
+                        <l>Vous verrez là grands nombres de Sujets,</l>
+                        <l>Qui, comme vous, portent double viſage.</l>
+                        <l part="I">Juſqu'au revoir.</l>
+                    </sp>
+                    <stage type="exit" rend="italics">(<name type="god" n="Janus">Janus</name> ſort.)</stage>
+                </div>
+                <div type="scene" n="2" xml:id="S2">
+                    <head>SCENE II.</head><lb/>
+                    <stage>LA BAGATELLE , LE CHEVALIER <lb/> COLIFICHET.</stage><lb/>
+                    <sp who="Colifichet" xml:id="S2_1">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="business" rend="italics">courant embraſſer <lb/> la <name n="Bagatelle" type="allegory">Bagatelle</name>.</stage><lb/>
+                        <l part="F"><c type="lettrine">B</c>On jour ! Bon an !</l>
+                        <l>Embraſſez-moi, mon aimable Déeſſe !</l>
+                        <l>Vous n'avez point de plus grand Partiſan</l>
+                        <l>Ni d'ami qui, pour vous, ait autant de tendreſſe.</l>
+                        <l>Vous balancez dans ce moment ?</l>    
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_2">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>Plus je regarde , &amp; plus mon eſprit le rapelle ...</l>
+                        <l>Je ne me trompe pas, c'eſt <persName n="Colifichet">l'Abbé Bagatelle</persName> ; </l>
+                        <l>C'eſt lui que j'aime tendrement ,</l>
+                        <l>Lui, mon adorateur fidèle :</l>
+                        <l>Mon cœur le reconnoît malgré ſon changement.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_3">
+                        <speaker>LE CHEVALIER.</speaker>
+                        <l>Ma ſouveraine, il eſt vrai, c'eſt moi-même.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_4">
+                        <speaker>LA BAGATELLE </speaker>
+                        <stage type="business" rend="italics">l'embraſſant.</stage><lb/>
+                        <l>Ah ! Quel raviſſement extrême !</l>
+                        <l>Mais pourquoi, je vous prie, un tel ajuſtement ?</l>
+                        <l>A quel propos changer de perſonnage ?</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_5">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>J'ai mes raiſons. D'Abbé l'habit coquet</l>
+                        <l>A ſon mérite &amp; ſon attrait ;</l>
+                        <l>Mais il expoſe au badinage</l>
+                        <l>Qu'on exerce toujours ſur un petit colet,</l>
+                        <l>Pour agir librement, ſans redouter le trait :</l>
+                        <pb n="8"/>
+                        <l>Et pour ſuivre l'eſſort de mon humeur volage,</l>
+                        <l>J'ai, cette année, arboré le plumet ;</l>
+                        <l>Et pris le nom &amp; l'Equipage</l>
+                        <l>Du <persName n="Colifichet">Chevalier Colifichet</persName>.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_6">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>Sous quelque nom que je vous voye,</l>
+                        <l>Et de quelque façon que vous paroiſſiez mis,</l>
+                        <l>Toujours votre preſence excitera ma joye,</l>
+                        <l>Et vous ſerez la fleur de mes amis.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_7">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Pour mériter ce titre, &amp; pour me rendre digne</l>
+                        <l>D'avoir le premier rang entre vos favoris,</l>
+                        <l>Je me ſuis ſignalé par un Ouvrage inſigne : </l>
+                        <l>Je viens pour vous l'offrir . . <stage type="business" rend="italics">(Il foüille dans ſes poches.)</stage> Non ... Ce n'eſt pas cela. </l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_8">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>Qu'eſt-ce donc que vous tenez-là ?</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_9">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="business" rend="italics">tirant un patron <lb/> de garniture.</stage><lb/>
+                        <l>C'eſt un patron de garniture ,</l>
+                        <l>Et d'engageantes à l'alure,</l>
+                        <l>Dont l'air invite à les bien chiffonner,</l>
+                        <l>Et que, pour un tendron, je viens de deſſiner.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_10">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>Le joli deſſein de coëffure !</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_11">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>J'en ſuis moi-même l'Inventeur.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_12">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>Je vous félicite ; il doit vous faire honneur.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_13">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="I">Je vous en fais preſent.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_14">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l part="F"> La réuſſite eſt ſûre.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_15">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>On croit que ce n'eſt rien : il m'a beaucoup coûté ;</l>
+                        <l>Et j'ai mis mon eſprit huit jours à la torture,</l>
+                        <l>Pour donner à l'Ouvrage une heureuſe tournure,</l>
+                        <l>Et certain air de nouveauté.</l>
+                        <pb n="9"/>
+                        <l>Mais voici mon chef-d'œuvre ; il eſt en cinq Volume<add>s</add> :</l>
+                        <l>Je l'ai tiré d'après nous goûts &amp; nos Coûtumes :</l>
+                        <l>Le beau ſexe paroît enclin à l'eſtimer ;</l>
+                        <l>Et, par égard pour lui, je l'ai fait imprimer :</l>
+                        <l>Vous en êtes l'objet , je vous en fais l'arbitre :</l>
+                        <l>Il unit l'agrément à la ſolidité ;</l>
+                        <l>Et pour vous prouver ſa beauté,</l>
+                        <l>Je prétends ſeulement vous lire chaque titre.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_16">
+                        <speaker>LA BAGATELLLE.</speaker><lb/>
+                        <l>J'écoute avec avidité.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_17">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="business" rend="italics">lit.</stage><lb/>
+                        <p><title>TRAITÉ DES RIENS , <hi rend="italics">avec une diſſertation ſur les <lb/> Babioles, dédié aux Dames,</hi></title> <hi>par <persName n='Colifichet' type="author">Monſieur l'Abbé Ba-<lb/>gatelle</persName>. Premier Volume.</hi></p>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_18">
+                        <speaker>LA BAGATELLLE.</speaker><lb/>
+                        <l>Ce titre-là promet, la matiére eſt profonde.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_19">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>De tout ce qui ſe fait, c'eſt la ſource féconde :</l>
+                        <l>Tout conſiſte en des riens ; heureux qui les ſaiſit !</l>
+                        <l>Ils décident de tout, ils ſont l'ame du monde.</l>
+                        <l>C'eſt un rien qui nous place, un rien qui nous détruit</l>
+                        <l>Un Amant, par un rien, révolte une Maîtreſſe,</l>
+                        <l>Et par un rien, un autre la ſéduit.</l>
+                        <l>Un rien fait tomber une Piéce ,</l>
+                        <l>Un rien fait qu'elle réuſſit.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_20">
+                        <speaker>LA BAGATELLLE.</speaker><lb/>
+                        <l>Les riens ſont mes enfans, &amp; des enfans que j'aime :</l>
+                        <l>Exalter leur pouvoir, c'eſt me louer moi-même.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_21">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="business" rend="italics">continuë de lire.</stage><lb/>
+                        <p rend="italics"><title rend="italics">L'A, B, C du grand monde, ou l'art de ſoutenir <lb/> la converſation à peu de frais.</title> <hi rend="italics">Second Volume.</hi></p>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_22">
+                        <speaker>LA BAGATELLLE.</speaker><lb/>
+                        <l>Pour former la Jeuneſſe, ah ! c'eſt un livre d'or :</l>
+                        <l>L'idée ſeule eſt un tréſor.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_23">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Il en eſt un pour le Libraire,</l>
+                        <l>Et doit avoir un grand débit,</l>
+                        <l>Puiſqu'il enſeigne au plus ſot l'art de plaire,</l>
+                        <pb n="10"/>
+                        <l>Et qu'il lui donne de l'eſprit.</l>
+                        <l>Un bon-jour dit de bonne grace,</l>
+                        <l>Deux ou trois complimens polis</l>
+                        <l>Qu'on ſe renvoye &amp; qu'on ſe reſſaſſe</l>
+                        <l>Avec un air de tête &amp; des geſtes choiſis ;</l>
+                        <l>Un jargon décoré de phraſes joliettes,</l>
+                        <l>Et de vingt termes favoris</l>
+                        <l>Qu'on accompagne d'un ſouris :</l>
+                        <l>Sçavoir, les intrigues ſecrettes,</l>
+                        <l>Et de la Ville, &amp; de la Cour ;</l>
+                        <l>Poſſéder l'hiſtoire du jour ;</l>
+                        <l>En poche avoir toujours Brevets &amp; Chanſonnettes,</l>
+                        <l>Et répéter aux Dames, tour-à-tour,</l>
+                        <l>Mille tendre ſornettes,</l>
+                        <l>Que l'on a ſoin d'orner de mots à double ſens ;</l>
+                        <l>Parler éloquemment cornettes,</l>
+                        <l>Et prononcer ſur des rubans ;</l>
+                        <l>De tout ce qui paroît, juger ſans connoiſſance ;</l>
+                        <l>Hors de propos prodiguer ſon encens,</l>
+                        <l>Et placer bien ſa médiſance :</l>
+                        <l>Voilà des aimables du tems,</l>
+                        <l>Ce qui fait le mérite &amp; toute la ſcience.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_24">
+                        <speaker>LA BAGATELLLE.</speaker><lb/>
+                        <l>Et ſouvent l'entretien des plus honnêtes gens.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_25">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="business" rend="italics">lit.</stage><lb/>
+                        <p><title><hi rend="small-caps">La nouvelle Toilette des Dames</hi>, <hi rend="italics">avec <lb/> une liſte détaillée de tout ce qui la compoſe ; Ouvrage <lb/> immenſe, &amp; digne de la curioſité publique.</hi></title> Troiſiéme <lb/> Volume.</p>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_26">
+                        <speaker>LA BAGATELLLE.</speaker><lb/>
+                        <l>Je connois qu'en effet cet Ouvrage eſt immenſe.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_27">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Il l'eſt cent fois plus qu'on ne penſe.</l>
+                        <l>Pour ſçavoir tous les noms des bijoux précieux</l>
+                        <l>Dont les Toillettes ſont fournies,</l>
+                        <l>J'ai fait des pas prodigieux,</l>
+                        <l>Et des recherches infinies :</l>
+                        <l>Pour porter ce Volume au point où je l'ai mis,</l>
+                        <pb n="11"/>
+                        <l>J'ai paſſé trois jours &amp; trois nuits</l>
+                        <l>Avec quinze de mes amis,</l>
+                        <l>Qui m'ont obligeamment aidé de leurs avis.</l>
+                        <lb/><stage type="business" rend="italics">(Il continue à lire.)</stage><lb/>
+                        <p><title><hi rend="small-caps">La  Toilette des Hommes</hi>, <hi rend="italics">revûe , corrigée &amp; <lb/> augmentée des trois quarts ...</hi></title></p>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_28">
+                        <speaker>LA BAGATELLLE.</speaker><lb/>
+                        <l>Des hommes, il eſt vrai, je dois être contente :</l>
+                        <l>Avec tout le beau ſexe, ils diſputent d'atours ;</l>
+                        <l>Et je m'aperçois tous les jours, </l>
+                        <l>Que pour moi leur amour augmente :</l>
+                        <l>Ils mettent tous l'enchére à mes Colifichets, </l>
+                        <l>Et diſputent le rang de mes premiers ſujets.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_29">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Peut-on vous trop aimer, divinité charmante !</l>
+                        <lb/><stage type="business" rend="italics">(Il reprend.)</stage><lb/>
+                        <p><title><hi rend="small-caps">La  Toilette des Hommes</hi>, <hi rend="italics">revûe , corrigée &amp; 
+                            <lb/> augmentée des trois quarts , &amp; qui n'eſt pas moins cu-
+                            <lb/>rieuſe que celle des femmes.</hi></title> Quatrième Volume. 
+                            <lb/> <title><hi rend="small-caps">La science de coeffer les uns et les autres</hi>, 
+                            <lb/> <hi rend="italics">livre très utile pour mes jeunes confréres qui entrent 
+                            <lb/> dans le monde.</hi></title> <hi>Dernier Volume.</hi>
+                        </p>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_30">
+                        <speaker>LA BAGATELLLE.</speaker><lb/>
+                        <l>Ah ! Vous ne pouviez pas mieux couronner l'ouvrage ;</l>
+                        <l>Et je lui donne mon ſuffrage.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_31">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Ce n'eſt pas tout ; je veux vous parler franchement : </l>
+                        <l>Ces œuvres-là que vous trouvez gentilles,</l>
+                        <l>Ne ſont rien à côté d'un Volume charmant</l>
+                        <l>Que j'acheve actuellement.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S2_32">
+                        <speaker>LA BAGATELLLE.</speaker><lb/>
+                        <l part="I">Et vous l'intitulez ?</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_33">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="F"><title>L'Éloquence des Filles</title></l>
+                        <l>Ou l'art de rire finement,</l>
+                        <l>Et de converſer par des mines ;</l>
+                        <l>Le tout orné d'eſtampes fines.</l>
+                    </sp>
+                    <pb n="12"/>
+                    <sp who="Bagatelle" xml:id="S2_34">
+                        <speaker>LA BAGATELLLE.</speaker><lb/>
+                        <l>C'eſt un livre dont je répons.</l>
+                        <l>Pour ſept ou huit éditions,</l>
+                        <l>Mon cher, tout au moins, je parie.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S2_35">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Oh ! C'eſt peu de la théorie ;</l>
+                        <l>Moi-même de cet art je donne les leçons : </l>
+                        <l>J'aprends à minauder de plus de vingt maniéres,</l>
+                        <l>Et j'ai déjà grand nombre d'écoliéres ;</l>
+                        <l>Je les inſtruits avec ſuccès.</l>
+                        <l>Que dans la bagatelle &amp; les riens agréables,</l>
+                        <l>Les filles font de rapides progrès !</l>
+                        <l>Ces friponnes aimables,</l>
+                        <l>En un matin, vont plus loin mille fois,</l>
+                        <l>Que ne feroit un homme dans un mois.</l>
+                        <l>A ce propos, une jeune orpheline</l>
+                        <l>Depuis ſix jours eſt tombée en mes mains ;</l>
+                        <l>Ce ſont bien les yeux les plus fins !</l>
+                        <l>Elle eſt faite pour vous, &amp; je vous la deſtine.</l>
+                        <l>Son eſprit un peu neuf n'oſe prendre l'eſſor ;</l>
+                        <l>De la Province il ſe reſſent encor :</l>
+                        <l>Mais, à travers ſa pudeur enfantine,</l>
+                        <l>On voit percer ſon naturel coquet ;</l>
+                        <l>Et ce ſera, je gage, un excellent ſujet :</l>
+                        <l>Par la fortune elle m'eſt adreſſée ;</l>
+                        <l>Je ſens, à l'avancer, ma gloire intéreſſée :</l>
+                        <l>La pauvre enfant n'a d'autre apui que moi ;</l>
+                        <l>Et doit bientôt ici ſe rendre... Je la voi.</l>
+                    </sp>
+                </div>
+            <pb n="13"/>
+                <div type="scene" n="3" xml:id="S3">
+                    <head>SCENE III.</head><lb/>
+                    <stage>LE CHEVALIER, LA BAGATELLE, <lb/> ANGELIQUE.</stage><lb/>
+                    <sp who="Colifichet" xml:id="S3_1">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l><c type="lettrine">V</c>Enez, ma Pupille charmante,</l>
+                        <l>Qu'à Madame je vous préſente.</l>
+                        <lb/><stage type="delivery" rend="italics">(à la Bagatelle.)</stage><lb/>
+                        <l>Et bien, vous avois-je menti ?</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S3_2">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>Non, ſon premier abord m'enchante :</l>
+                        <l>Vous ne pouviez me faire un preſent plus <sic>genti</sic>.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S3_3">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Hem ! Ce ſont-là des Etrennes mignonnes !</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S3_4">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>Elle prévient d'abord par ſa beauté.</l>
+                    </sp>
+                    <sp who="Angelique" xml:id="S3_5">
+                        <speaker>ANGELIQUE.</speaker><lb/>
+                        <l>Vous avez bien de la bonté,</l>
+                        <l part="I">Madame.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S3_6">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="F">Regardez ces œillades friponnes :</l>
+                        <l part="I">Qu'en dites-vous ?</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S3_7">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l part="F">Je dis que ſes regards ſont vifs</l>
+                        <l>Et qu'elle a les yeux expreſſifs.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S3_8">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Examinez-moi ce corſage :</l>
+                        <l>Voilà pour attirer bien des chalans chez vous,</l>
+                        <l>Et faire rehauſſer le prix de vos bijoux.</l>
+                        <lb/><stage type="delivery" rend="italics">(à <persName n="Angélique">Angélique</persName>.)</stage>
+                        <l>Mais, la Belle, vers moi tournez votre viſage ;</l>
+                        <l>Vous n'êtes pas coëffée à l'avantage.</l>
+                        <l>Ce pli qui fait tout-à-fait mal,</l>
+                        <pb n="14"/>
+                        <l>Vous donne un air provincial,</l>
+                        <l>Et vous rend la mine ſauvage ;</l>
+                        <l>Il faut que j'y mette la main.</l>
+                    </sp>
+                    <sp who="Angelique" xml:id="S3_9">
+                        <speaker>ANGELIQUE </speaker>
+                        <stage type="delivery" rend="italics">bas au Chevalier.</stage><lb/>
+                        <l>Vous n'êtes pas venu m'arranger ce matin.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S3_10">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Attendez donc que je dégage</l>
+                        <l>Ce front, pour le rendre ſerein :</l>
+                        <l>A preſent, laiſſez moi, d'une legére mouche,</l>
+                        <l>Relever, avec art, ce petit nez mutin :</l>
+                        <l>Que je place cette autre au coinde votre bouche,</l>
+                        <l>Pour rendre ſon ſouris plus malin.</l>
+                        <l>Ce n'eſt qu'un rien, mais ce rien, pour la grace,</l>
+                        <l>Par une habile main veut ſe voir employé :</l>
+                        <l>Il ne doit point paroître étudié ;</l>
+                        <l>Et le grand art conſiſte à bien choiſir ſa place.</l>
+                        <l>Que vois-je ? Otez-moi ce mouchoir ;</l>
+                        <l>Je vous ai déja dit qu'il n'en faut point avoir :</l>
+                        <l>Qui vous l'a donc fait mettre, je vous prie?</l>
+                    </sp>
+                    <sp who="Angelique" xml:id="S3_11">
+                        <speaker>ANGELIQUE.</speaker><lb/>
+                        <l>Le froid avec la modeſtie.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S3_12">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Au lieu de ce mouchoir, mettez moi dans ce jour</l>
+                        <l>Une palatine galante,</l>
+                        <l>Qui garantiſſe &amp; pare tour-à-tour.</l>
+                        <l>Pour vos Etrennes, bel Amour,</l>
+                        <l>Je veux vous en donner une qui ſoit charmante,</l>
+                        <l>Vous la mettre moi-même, &amp; l'ajuſter ſi bien,</l>
+                        <l>Que, mettant en rempart à la ſaiſon cruelle,</l>
+                        <l>Et contenant votre pudeur rebelle,</l>
+                        <l>Je ménage des jours où l'œil ne perde rien.</l>
+                    </sp>
+                    <sp who="Angelique" xml:id="S3_13">
+                        <speaker>ANGELIQUE.</speaker><lb/>
+                        <l part="I">En vérité, Monſieur...</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S3_14">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l part="F">Allez, laiſſez-le faire.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S3_15">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="business" rend="italics">lui arrangeant ſa palatine.</stage><lb/>
+                        <l>Elle ſera fort bien de la maniére.</l>
+                        <pb n="15"/>
+                        <l>Ces tréſor ſont trop beaux pour devoir les cacher ;</l>
+                        <l>Ils ſont faits pour charmer la vûe :</l>
+                        <l>On doit voir leur beauté, du moins à demi nue.</l>
+                    </sp>
+                    <sp who="Angelique" xml:id="S3_16">
+                        <speaker>ANGELIQUE.</speaker><lb/>
+                        <l>Oui ; mais il eſt, Monſieur, défendu d'y toucher ;</l>
+                        <l>Et vos mains ſont un peu trop vives.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S3_17">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Un maître a des prérogatives :</l>
+                        <l>Vous voilà maintenant plus belle de moitié.</l>
+                        <l>De tous mes ſoins je dois être payé.</l>
+                        <lb/><stage type="business" rend="italics">(Il baiſe <persName n="Angélique">Angélique</persName>.)</stage>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S3_18">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>L'excellent Précepteur pour de jeunes Pupilles !</l>
+                    </sp>
+                    <sp who="Angelique" xml:id="S3_19">
+                        <speaker>ANGELIQUE.</speaker><lb/>
+                        <l>Je ne ſçaurois m'empêcher de rougir.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S3_20">
+                        <speaker>LA BAGATELLE </speaker>
+                        <stage type="delivery" rend="italics">à <persName n="Angélique">Angélique</persName>.</stage><lb/>
+                        <l>Vous profitez fort bien de ſes leçons utiles ; </l>
+                        <l>La derniére ſur-tout, vient de vous embellir.</l>
+                    </sp>
+                    <sp who="Angelique" xml:id="S3_21">
+                        <speaker>ANGELIQUE.</speaker><lb/>
+                        <l>Madame, eſt-il bien vrai ? Me trouvez-vous jolie</l>
+                        <l>Et, de vous plaire, aurois-je le bonheur ?</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S3_22">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>Oui ; vous avez trouvé le chemin de mon cœur.</l>
+                        <l>Je veux faire de vous mon éleve chérie.</l>
+                    </sp>
+                    <sp who="Angelique" xml:id="S3_23">
+                        <speaker>ANGELIQUE.</speaker><lb/>
+                        <l>Me voir auprès de vous, fait toute mon envie ;</l>
+                        <l>Et je ne puis retenir mon tranſport :</l>
+                        <l>Pour vous, dès la plus tendre enfance,</l>
+                        <l>J'ai toujours eu le penchant le plus fort.</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S3_24">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l>Il eſt juſte en ce jour que je la récompenſe</l>
+                        <l>D'une ſi belle paſſion.</l>
+                        <lb/><stage type="delivery" rend="italics">(au Chevalier.)</stage><lb/>
+                        <l>Adieu. Pour mon triomphe un Balet ſe prépare ;</l>
+                        <l>Je veux qu'il ſerve auſſi pour ſa réception :</l>
+                        <l>Je cours preſſer l'inſtant de l'éxécution.</l>
+                        <l>Pour y danſer, venez que je vous pare,</l>
+                        <l>Nouvel objet de mon affection.</l>
+                    </sp>
+                    <pb n="16"/>
+                    <sp who="Angelique" xml:id="S3_25">
+                        <speaker>ANGELIQUE.</speaker><lb/>
+                        <l>Déeſſe de mon ame, ah ! que je ſuis ravie !</l>
+                        <l>J'aime la danſe à la folie.</l>
+                        <lb/><stage type="business" rend="italics">(revenant ſur ſes pas.)</stage><lb/>
+                        <l part="I">Monſieur ne nous ſuit pas ?</l>
+                    </sp>
+                    <sp who="Bagatelle" xml:id="S3_26">
+                        <speaker>LA BAGATELLE.</speaker><lb/>
+                        <l part="F">Non ; il demeure ici ;</l>
+                        <l>Et je le prie avec inſtance,</l>
+                        <l>De me doubler en mon abſence.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S3_27">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="I">Très-volontiers.</l>
+                    </sp>
+                    <sp who="Angelique" xml:id="S3_28">
+                        <speaker>ANGELIQUE </speaker>
+                        <stage type="delivery" rend="italics">au Chevalier.</stage><lb/>
+                        <l part="F">A vous quitter ainſi,</l>
+                        <l>Mon cœur a vraiment de la peine ;</l>
+                        <l>Mais je reviens bientôt ici ;</l>
+                        <l>Et, l'un des jours de la ſemaine,</l>
+                        <l>J'irai vous voir, mon bon ami.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S3_29">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Je le veux de toute mon ame.</l>
+                        <l>Quelque matin que vous veniez chez nous,</l>
+                        <l>Comptez qu'il ſera jour pour vous ;</l>
+                        <l>Vous n'aurez qu'à ſuivre Madame.</l>
+                    </sp>
+                    <stage type="exit" rend="italics">(<persName n="Angélique">Angélique</persName> ſort avec <name type='allegory' n='Bagatelle'></name>la Bagatelle.)</stage>
+                </div>
+                <div type="scene" n="4" xml:id="S4">
+                    <head>SCENE IV.</head><lb/>
+                    <stage>LE CHEVALIER, DAMON.</stage>
+                    <sp who="Colifichet" xml:id="S4_1">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <l><c type="lettrine">U</c>N homme vient ; je le connois ;</l>
+                        <l>C'eſt un vieux libertin. <stage type="delivery" rend="italics">(haut.)</stage> Eh! C'eſt vous que je vois !</l>
+                        <l>Je vous embraſſe , &amp; de toute mon ame,</l>
+                        <l>Cher Papa dont les traits paroiſſent rajeunis,</l>
+                        <l>Vous qui tenez la vielleſſe enchaînée.</l>
+                        <pb n="17"/>
+                        <l>Au char des plaiſirs &amp; des ris ;</l>
+                        <l>Vous l'homme le plus jeune avec des cheveux gris.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_2">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Moi, je vous félicite , &amp; ſuis des plus ravis...</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_3">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="I">De quoi ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_4">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="F">De voir que dans cette journée,</l>
+                        <l>Vous ſoyez, mon très-cher, plus fou que l'autre année.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_5">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Je reconnois votre joyeuſe humeur,</l>
+                        <l>A ce trait de plaiſanterie,</l>
+                        <l>Comme vous êtes verd, vous venez, je parie,</l>
+                        <l>Acheter-là... Vous m'entendez, Monſieur ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_6">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Il eſt vrai que je viens acheter des Etrennes.</l>
+                        <l>Comme vous êtes connoiſſeur,</l>
+                        <l>Et que j'ai là-deſſus des clartés peu certaines,</l>
+                        <l part="I">Je veux vous conſulter.</l>
+                    </sp>                    
+                    <sp who="Colifichet" xml:id="S4_7">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="F">Vous me faites honneur.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_8">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Non ; je vous rend juſtice. En fait de ces matiéres,</l>
+                        <l>Mon cher <persName n='Colificher'>Monſieur Colifichet</persName>,</l>
+                        <l>Tout le monde connoît vos ſublimes lumiéres :</l>
+                        <l>Daignez donc m'écouter, je vais vous mettre au fait</l>
+                        <l>Des Etrennes que je ſouhaite,</l>
+                        <l>Et dont plus d'un motif veut que je faſſe emplette :</l>
+                        <l>J'en dois faire preſent, au ſortir de ce lieu,</l>
+                        <l>A des perſonnes différentes.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_9">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>En voulez-vous d'abord de bien galantes ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_10">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Non ; j'en veux prendre, en premier lieu</l>
+                        <l>Qui ſoient peu de conſéquence :</l>
+                        <l>Comme des Almanachs, des Etuits, des Ecrans,</l>
+                        <l>Ou, pour éviter la dépenſe, </l>
+                        <l>Quelques paquets de curedents.</l>
+                    </sp>
+                    <pb n="18"/>
+                    <sp who="Colifichet" xml:id="S4_11">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Si vous faites toujours des préſens de la ſorte,</l>
+                        <l>Vous ſerez riche fort long-tems.</l>
+                        <l part="I">Un homme comme vous peut-il ? ...</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_12">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="F">Bon! Bon ! Qu'importe ?</l>
+                        <l>C'eſt pour un ami familier ;</l>
+                        <l>Dès le Collège, il étoit mon intime.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_13">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Vous le traitez encore en écolier ;</l>
+                        <l>Et c'eſt, de lui, faire fort peu d'eſtime.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_14">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Nous avons fait toujours profeſſion</l>
+                        <l>D'agir enſemble ſans façon :</l>
+                        <l>Et, puiſqu'il faut que je le diſe,</l>
+                        <l>C'eſt à regret que je ſuis aujourd'hui</l>
+                        <l>Un ſot abus que l'uſage autoriſe.</l>
+                        <l>Si mon ami s'en formaliſe,</l>
+                        <l>S'il s'en fâche, tant pis pour lui :</l>
+                        <l>C'eſt un fort honnête homme, il eſt vrai, je le priſe ;</l>
+                        <l>Mais, après tout, à l'examiner bien,</l>
+                        <l>Il eſt fort gueux, &amp; ne m'eſt bon à rien.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_15">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Monſieur, je n'ai plus rien à dire.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_16">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>En ſecond lieu, pour homme, je deſire</l>
+                        <l>Des Etrennes du dernier goût,</l>
+                        <l>Et qui ſoient peu communes, ſur-tout.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_17">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Je ſçais un cabaret... c'eſt le plus bel ouvrage !</l>
+                        <l>Cher, à la vérité, mais neuf, bien entendu.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_18">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Oh ! Le prix n'y fait rien. C'eſt pour un perſonnage,</l>
+                        <l>Par ſon mérite &amp; ſa vertu,</l>
+                        <l>A dire vrai, peu respectable ;</l>
+                        <l>Mais, par le rang dont il eſt revêtu,</l>
+                        <l>Infiniement conſidérable.</l>
+                        <l>Mon intérêt m'engage à gagner ſa faveur :</l>
+                        <pb n="19"/>
+                        <l>Dans deux importantes affaires,</l>
+                        <l>Sa protection m'eſt des plus néceſſaires ;</l>
+                        <l>Sans compter qu'un tel don prôné par ce Seigneur,</l>
+                        <l>Dans <placeName n="Paris">Paris</placeName> peut me faire honneur,</l>
+                        <l>Et, devenant la nouvelle publique,</l>
+                        <l>M'attirer le titre flatteur</l>
+                        <l>D'homme galant &amp; magnifique.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_19">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Vous serez donc ſervi ſelon votre déſir.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_20">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Troiſiémement, il me faudra choiſir</l>
+                        <l>Des Etrennes pour femme.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_21">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Oh ! Puiſque c'eſt pour une Dame,</l>
+                        <l part="I">Vous voulez du brillant ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_22">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="F">Vous vous êtes mépris ;</l>
+                        <l>Je ne veux rien que d'ordinaire,</l>
+                        <l>De ſimple, de modeſte, &amp; qui ne coûte guére ;</l>
+                        <l>Comme éventails communs, rubans unis.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_23">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Mais, quelle eſt donc l'honnête Demoiſelle</l>
+                        <l>A qui vous deſtinez ce préſent de haut prix ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_24">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>C'eſt ma femme, Monſieur ; il eſt trop bon pour elle.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_25">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Vous la traitez ainſi que vos amis,</l>
+                        <l part="I">Elle n'a rien à dire.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_26">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="F">A préſent je demande</l>
+                        <l>Tout ce que ce Palais peut offrir de plus beau,</l>
+                        <l>De plus cher &amp; de plus nouveau ;</l>
+                        <l>M'en coûtât-il la ſomme la plus grande,</l>
+                        <l>Je ne ſçaurois mieux l'employer.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_27">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Qui peut être l'objet d'une telle largeſſe ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_28">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Une Actrice qui fait les rôles de Princeſſe,</l>
+                        <pb n="20"/>
+                        <l>Et dont un ſeul regard ne peut trop ſe payer.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_29">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Du monde perverti, tel eſt le caractére :</l>
+                        <l>L'intérêt &amp; l'orgueil produiſent les écus :</l>
+                        <l>Les plaiſirs effrenés répandent encore plus ;</l>
+                        <l>Mais l'amitié ne donne guére ;</l>
+                        <l>Elle reſſemble à l'amour conjugal :</l>
+                        <l>Le devoir eſt meſquin, la vertu ménagére,</l>
+                        <l>Le vice ſeul eſt libéral.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_30">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Comment ! Vous faites le moral,</l>
+                        <l>Mon cher docteur en bagatelle ?</l>
+                        <l>Pour mettre fin à ce ton magiſtral,</l>
+                        <l>Voilà ma bourſe. Ailleurs une affaire m'appelle.</l>
+                        <l>Faite pour moi cette emplette nouvelle ;</l>
+                        <l>Je me raporte à vous, &amp; du choix, &amp; du prix :</l>
+                        <l>Vous enverrez le tout à mon logis.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_31">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>En l'adreſſant à votre épouſe.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S4_32">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Morbleu ! N'en faites rien ; elle eſt d'humeur jalouſe.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S4_33">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Je raille. Allez , repoſez-vous ſur nous ;</l>
+                        <l>Dans une heure, au plûtard, vous aurez tout chez <lb/> vous.</l>
+                    </sp>
+                    <lb/><stage type="exit" rend="italics">(<persName n="Damon">Damon</persName> s'en va.)</stage>
+                </div>
+                <pb n="21"/>
+                <div type="scene" n="5" xml:id="S5">
+                    <head>SCENE V.</head><lb/>
+                    <stage>LE CHEVALIER, LE MARQUIS, <lb/> LE COMTE, LE BARON</stage><lb/>
+                    <sp who="Le Marquis, le Comte, le Baron" xml:id="S5_1">
+                        <speaker>LE MAQUIS, LE COMTE, LE BARON,</speaker><lb/>
+                        <stage type="business" rend="italics">embraſſant tous trois, en même-tems, le Chevalier.</stage><lb/>
+                        <l part="I"><c type="lettrine">E</c>H ! Bon jour, Chevalier.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_2">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="F">Meſſieurs, qui vous améne ?</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_3">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Nous venons rendre hommage à notre Souveraine ; </l>
+                        <l>Nous ſommes, comme toi, ſes zélés ſerviteurs.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_4">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>En ce cas, devant moi proſternez-vous, Meſſieurs ;</l>
+                        <l>Je repreſente notre Reine.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_5">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>De ce Palais tu fais donc les honneurs ?</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_6">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Oui, oui ; je diſtribue aujourd'hui ſes faveurs :</l>
+                        <l>Vous n'aurez pas perdu vos peines.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_7">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>J'entens. Tu vas nous donner nos Etrennes.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_8">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Tu l'as dit. Du nouveau vous êtes amateurs ;</l>
+                        <l>Des ſpectacles, ſur-tout, vos cœurs ſont idolâtres ;</l>
+                        <l>Et je vous fais préſent du livre que voici ;</l>
+                        <l part="I">Il vous divertira.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_9">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="F">Voyons un peu ceci.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_10">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <stage type="business" rend="italics">(Il lit.)</stage><lb/>
+                        <l>Liſons d'abord le titre : <title rend="small-caps">Almanach des Theatres</title>.</l>
+                    </sp>
+                    <pb n="22"/>
+                    <sp who="Baron" xml:id="S5_11">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>Ce titre rit à mes eſprits folâtres.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_12">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>L'ouvrage est excellent, &amp; l'auteur eſt <hi rend="small-caps">Parfait</hi>.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_13">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>J'aurois voulu, pour le rendre complet,</l>
+                        <l>Qu'on eût joint les amours ſecrettes &amp; badines</l>
+                        <l>De leurs célébres héroïnes.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_14">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Marquis, à quoi ſonges-tu là ?</l>
+                        <l>Il auroit fallu pour cela</l>
+                        <l part="I">Dis gros tomes, au moins.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_15">
+                        <speaker>LE BARON </speaker>
+                        <stage type="business" rend="italics">rit en liſant.</stage><lb/>
+                        <l part="M">Ah! Ah!</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_16">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="F">Qui te fait rire ?</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_17">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>Un endroit que je viens de lire :</l>
+                        <l>Mais tu n'en riras pas, toi, comme j'en ai ri.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_18">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="I">D'où vient ?</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_19">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l part="F">Il tombe à plomb, puiſqu'il faut te le dire.</l>
+                        <l>Sur <name type="institution" n="Opera"></name>l'Opéra, ton ſpectacle chéri.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_20">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Ah ! Lis tout haut, Baron, je t'en conjure, <sic>li</sic>.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_21">
+                        <speaker>LE BARON </speaker>
+                        <stage type="delivery">au Marquis.</stage><lb/>
+                        <l>Oh ! Pour toi, j'en ſuis ſûr, tu vas être bien aiſe</l>
+                        <l>Ami comme tu l'es, de <rs n="Comedie-Française">la troupe françoiſe</rs>.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_22">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Mais voyons donc cet endroit ſi plaiſant.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_23">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="delivery" rend="italics">au <persName n='Baron'>Baron</persName></stage><lb/>
+                        <l>Lis ſans tant de cérémonie.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_24">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>Je ne ſçaurois pour le préſent ;</l>
+                        <l>Lis pour moi, <rs n="Colifichet">Chevalier</rs>, je t'en prie.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_25">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="I">Silence.</l>
+                    </sp>
+                    <pb n="23"/>
+                    <sp who="Colifichet" xml:id="S5_26">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="business" rend="italics">lit.</stage><lb/>
+                        <l rend="italics">L'an qu'<title>Iſis</title> au jour reparoîtra,</l>
+                        <l rend="italics">Trembles, frémis, malheureux <name type='institution' n='Opera'>Opéra</name>,</l>
+                        <l rend="italics">Elle ſera pour toi la fatale cométe</l>
+                        <l rend="italics">Qui t'annoncera ta défaite :</l>
+                        <l rend="italics">De ſes climats glacés tout ſe reſſentira :</l>
+                        <l rend="italics">Dans le rôle d'<name type="character" n="Io">Io</name> (a) 
+                            <note place="bottom">(a) <persName type='actor' n="Le_Maure">Mademoiſelle le Maure</persName>, qui venoit de jouer  
+                            <lb/> de <rs type='role'>le rôle l'Amour</rs> dans <title>le balet des Sens</title>.</note> 
+                            l'<name type='character' n='Amour'>Amour</name> s'enrhumera.</l>
+                        <l rend="italics">Pour rendre ta perte complette,</l>
+                        <l rend="italics">Un beau mardi (b) 
+                            <note place="bottom">(b) <name type='actor' n='Mlle_Petitpas'>Mademoiſelle Petitpas</name>, qui avoit joué <rs type="role" n="Zéphire">celui de Zéphire</rs> dans 
+                            <lb/> le même balet, &amp; qui partit un beau matin pour <placeName type="place" n="Angleterre">l'Angleterre</placeName>.</note> 
+                            <name type="character" n="Zéphire">Zéphire</name> s'envolera,</l>
+                        <l rend="italics">Et (c) <note place="bottom">(c) <persName type='actor' n='Mlle_Pelissier'>Mademoiſelle Peliſſier</persName>.</note> la <name type='character' n='Sirenne'>Sirenne</name> ſe taira ;</l>
+                        <l rend="italics"><name type='allegory' n='Danse'>La Danſe</name> n'aura plus ſa meilleure ſujette.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_27">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="I">Mais elle l'a.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_28">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="business" rend="italics">continue.</stage><lb/>
+                        <l part="F" rend="italics">Pour lors tu te verras ſi bas,</l>
+                        <l rend="italics">Et d'Acteurs dont tu manqueras :</l>
+                        <l rend="italics">Telle, enfin, ſera ta diſette,</l>
+                        <l rend="italics">Que le maître des Cieux, tant qu'on proméne <name n="Io" type="character">Io</name></l>
+                        <l rend="italics">De ſon rang dépouillant les marques,</l>
+                        <l rend="italics">Sera contraint de faire une des <name type='god' n='Parques'>Parques</name>,</l>
+                        <l rend="italics">Et de filer pour chanter leur trio.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_29">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Je ſuis charmé qu'on daube ainſi l'<hi rend="italics">incognito</hi>.</l>
+                        <l>Du <name type="god" n="Jupiter">Seigneur Jupiter</name> qui trahiſſant ſa flamme,</l>
+                        <l>Livre ſi ſottement ſa maîtreſſe à ſa femme.</l>
+                        <lb/><stage type="delivery" rend="italics">(à part.)</stage><lb/>
+                        <l><persName n='Comte'>Le Comte</persName> enrage ; il met ma joie au dernier point.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_30">
+                        <speaker>LE BARON </speaker>
+                        <stage type="delivery" rend="italics">au <persName n='Comte'>Le Comte</persName>.</stage><lb/>
+                        <l>Je te l'avois bien dit, que tu ne rirois point.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_31">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Je ne ris point, <persName n='Baron'>Baron</persName>, ſur pareille matiére.</l>
+                        <l>Je n'aime pas qu'on fronde un Opéra divin,</l>
+                        <l>Ni que, pour ſe donner carriére,</l>
+                        <pb n="24"/>
+                        <l>On perde le reſpect qu'on doit au magaſin : </l>
+                        <l>Mais <title>Omphale</title> d'<title>Iſis</title> répare le deſtin,</l>
+                        <l>Tout le monde lui rend une juſtice entiére.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_32">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>C'eſt, ſans le mériter, qu'<title>Omphale</title> a réuſſi :</l>
+                        <l>D'une prédiction elle vaut bien la peine.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_33">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Prêtez l'oreille, la voici.</l>
+                        <lb/><stage type="business" rend="italics">(Il lit.)</stage><lb/>
+                        <l rend="italics">L'an que tu remettras <title>Omphale</title> ſur la ſcène,</l>
+                        <l rend="italics">(a) <note place="bottom">(a) <persName type='actor' n='Chassé'>Le ſieur Chaſſé</persName>.</note> 
+                            D'<name type="character" n="Alcide">Alcide</name>, en vain, la voix avec le port,</l>
+                        <l rend="italics">Ramenera chez toi l'affluence d'abord.</l>
+                        <l rend="italics">Comme un ſigne éclatant de ta chûte prochaine,</l>
+                        <l rend="italics">On verra ſur ſon ſein, briller, le premier jour,</l>
+                        <l rend="italics">Durant le cours d'un acte, un nouveau phénoméne,</l>
+                        <l rend="italics">Qui, ſurprenant les yeux des Dames d'alentour,</l>
+                        <l rend="italics">Les fera rire &amp; rougir tour-à-tour.</l>
+                        <l rend="italics">Pour mieux préſager ta ruine,</l>
+                        <l rend="italics">Un démon ſavoyard conjuré par <name type="character" n="Argine">Argine</name>,</l>
+                        <l rend="italics">Précipitant ſon vol qui manquera,</l>
+                        <l rend="italics">Tombera ſur ſon dos, &amp; la renverſera.</l>
+                        <l rend="italics"><name type="character" n="Hercule">Hercule</name>, en ce déſordre extrême,</l>
+                        <l rend="italics"><name type="character" n="Hercule">Hercule</name>, de frayeur, reculera lui-même,</l>
+                        <l rend="italics">Pour laſſer le public qui ſe rebutera,</l>
+                        <l rend="italics">Tout le fretin du ſombre empire</l>
+                        <l rend="italics">S'exercera long-tems à batre l'entrechat ;</l>
+                        <l rend="italics">(b) <note place="bottom">(b) <persName n="Dupré" type="actor">Le ſieur Dupré</persName>.</note> Et le grand diable qu'on admire.</l>
+                        <l rend="italics">Ne pourra plus ſauter, fatigué du ſabat.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_34">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>On peut dire qu'<title>Omphale</title> eſt l'Opéra des diables ;</l>
+                        <l>Il en pleut à chaque moment.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_35">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Je n'en ſçaurois ſouffrir les longueurs effroyables.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_36">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Pour moi, j'en trouve tout charmant,</l>
+                        <pb n="25"/>
+                        <l>Hors la fin qui m'ennuye, &amp; le commencement.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_37">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Un Opéra peu fait pour la conduite exacte,</l>
+                        <l>A permiſſion d'ennuyer</l>
+                        <l>Pendant tout le Prologue &amp; tout le premier Acte.</l>
+                        <l>Ce qui le plus me choque, &amp; m'oblige à crier,</l>
+                        <l>C'eſt qu'<name type="character" n="Alcide">Alcide</name> qui veut immoler au dernier</l>
+                        <l><name type="character" n="Omphale">Omphale</name> avec <name type="character" n="Iphis">Iphis</name> à ſon tranſport funeſte</l>
+                        <l>Ne faſſe tant de bruit que pour les marier,</l>
+                        <l>Et, cédant ſes amours ſans ſe faire prier,</l>
+                        <l>Vienne nous reſſervir le dénouement d'<title>Alceſte</title>.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_38">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>D'un Opéra ſi beau, que tu blâmes en vain,</l>
+                        <l>La muſique eſt charmante, &amp; le ſuccès certain.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_39">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>De ce Théâtre qu'on balotte,</l>
+                        <l><persName n='Comte'>Comte</persName>, ſçais-tu bien qu'à la fin</l>
+                        <l>Tu deviendras le <name type="character" n="Dom_Quichotte">Dom Quichotte</name>?</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_40">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Je deviendrai celui du bon goût en ce cas.</l>
+                        <l>Meſſieurs, ne vous y trompez pas ;</l>
+                        <l>Entre tous les talens, la muſique &amp; la danſe...</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_41">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>La muſique et la danſe !... Arrêtons ſon caqu<supplied>et</supplied></l>
+                        <l>Car, s'il entame une fois ce ſujet,</l>
+                        <l part="I">Il ne finira pas.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_42">
+                        <speaker>LE BARON </speaker>
+                        <stage type="business" rend="italics">fermant la bouche au <persName n='Comte'>Comte</persName>.</stage><lb/>
+                        <l part="F">Je t'impoſe le ſilence.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_43">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Souffrez, du moins, que je vous diſe un mot</l>
+                        <l part="I">Sur la muſique.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_44">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="M">A d'autres.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_45">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l part="F">Quelque ſot.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_46">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Oh ! Parbleu, là-deſſus ſi je ne puis rien dire,</l>
+                        <l>Il me ſera, du moins, permis de lire.</l>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="Colifichet" xml:id="S5_47">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="delivery" rend="italics">au <persName n='Comte'>Comte</persName>.</stage><lb/>
+                        <l>C'eſt le meilleur parti. Ce livre peut, contre eux,</l>
+                        <l>Te fournir plus d'un trait heureux.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_48">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Bon ! Je tiens ce que je deſire.</l>
+                        <lb/><stage type="delivery" rend="italics">(au <persName n='Baron'>Baron</persName>.)</stage><lb/>
+                        <l>Voici de quoi t'aprendre à te moquer de moi.</l>
+                        <l>Baron, ce coup qui ſeconde ma haine,</l>
+                        <l>Foudroye entiérement la troupe Italienne :</l>
+                        <l>Tu l'aimes ; je ne puis me venger mieux de toi.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_49">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>J'en rirai le premier, ſi le trait vaut la peine.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_50">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="I">Voyons.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_51">
+                        <speaker>LE COMTE </speaker>
+                        <stage type="business" rend="italics">lit.</stage><lb/>
+                        <l part="F" rend="italics">L'an que chez toi (a)<note place="bottom">(a) <title>La vie eſt un ſonge</title>.</note> <name type="character" n="Sigismond">Sigiſmond</name> paroîtra,</l>
+                        <l rend="italics">Que je te plains, ô <name type='institution' n='Comedie -Italienne'>troupe d'Italie</name> !</l>
+                        <l rend="italics">Juſqu'en ſes fondemens ton hôtel gêlera,</l>
+                        <l rend="italics">Et dans ſes doigts <name type="character" n="Arlequin">Arlequin</name> ſoufflera.</l>
+                        <l rend="italics">Pour réchaufer ta Comédie (b)<note place="bottom"><title>Les Enfans trouvés</title>, Parodie de <title>Zaïre</title></note>,</l>
+                        <l rend="italics">En vain <title>Zaïre</title> t'offrira</l>
+                        <l rend="italics">Un ſujet abondant de critique jolie :</l>
+                        <l rend="italics">Un Dieu puiſſant pour elle combattra,</l>
+                        <l rend="italics">Et le Public s'éclipſera,</l>
+                        <l rend="italics">Après avoir ſifflé ta parodie.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_52">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Baron, tes bon amis ſont tapés, pour le coup.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_53">
+                        <speaker>LE COMTE </speaker>
+                        <stage type="delivery" rend="italics">au <name type='person' n='Baron'>Baron</name>.</stage><lb/>
+                        <l part="I">Tu ne ris pas .</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_54">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l part="F">Mais, beaucoup.</l>
+                        <l>Ce pauvre <name type="character" n="Sigismond">Sigiſmond</name> ! J'en ai l'ame attendrie. </l>
+                        <lb/><stage type="delivery" rend="italics">(d'un ton tragique.)</stage><lb/>
+                        <l>Qu'a-t-il donc fait aux dieux, pour être abandonné !</l>
+                    </sp>
+                    <pb n="27"/>
+                    <sp who="Marquis" xml:id="S5_55">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Ils lui font expier le crime d'être né.</l><note>Allusion à l'emprisonnement du prince Sigismond dans La Vie est un songe, suite à une prédiction à sa naissance, qui le déclare ennemi potentiel de son père.</note>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_56">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>L'état de ce Théâtre eſt des plus déplorables :</l>
+                        <l>J'en aime les Acteurs, leur ſort me fait pitié.</l>
+                        <l>Même avec <name type="actor" n="Arlequin">Arlequin</name> je ſuis ſi fort lié,</l>
+                        <l>Que nous ſommes inſéparables ;</l>
+                        <l>Je ſuis toujours chez lui, ſans en être prié :</l>
+                        <l>J'ai beaucoup de pouvoir ſur l'eſprit de ſa fille,</l>
+                        <l>J'ai même quelque part à toute la famille.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_57">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>D'avoir pris ma revanche, ah, que je ſuis ravi !</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_58">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>La choſe, à dire vrai, me fait plaiſir auſſi.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_59">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="delivery" rend="italics">au <name type='person' n='Baron'>Baron</name>.</stage><lb/>
+                        <l>Conſoles-toi, leurs maux ne ſont pas incurables.</l>
+                        <l>Cet Almanach avantageux</l>
+                        <l>Contien non-ſeulement des faits très-véritables,</l>
+                        <l>Mais il renferme encore des conſeils profitables,</l>
+                        <l>Pour rendre l'avenir heureux.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_60">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Leur mal eſt bien preſſant, &amp; je craint fort pour eux.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_61">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>En voici le reméde, &amp; prompt, &amp; ſpécifique.</l>
+                        <lb/><stage type="business" rend="italics">(Il lit.)</stage><lb/>
+                        <l><hi rend="small-caps">Avis tres-salutaire à la Troupe italique</hi>.</l>
+                        <l rend="italics">Si tu veux rapeller chez toi les ſpectateurs,</l>
+                        <l rend="italics">Donnes, ce ſont deux bagatelles,</l>
+                        <l rend="italics">D'excellentes Piéces nouvelles ;</l>
+                        <l rend="italics">Et, pour les bien jouer, reçois de bons Acteurs.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_62">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>De bons Acteurs ! De bonnes Piéces ?</l>
+                        <l>Va, <rs n='Colifichet'>Chevalier</rs> tu te moques de nous ;</l>
+                        <l>On trouve bien ainſi, ma foi, de tels bijoux !</l>
+                        <l>Si mes amis pouvoient poſſéder ces richeſſes,</l>
+                        <l>Leur Théâtre, morbleu, ſeroit un vrai <placeName n="Pérou">Pérou</placeName>.</l>
+                        <l>Va, <rs n='Colfichet'>Chevalier</rs>, ton Almanach eſt fou.</l>
+                    </sp>
+                    <pb n="28"/>
+                    <sp who="Colifichet" xml:id="S5_63">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Il done encore un avis plus facile</l>
+                        <l>A <name type='institution' n='Opera'>l'Opéra</name> qu'il conſole très-bien.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_64">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Voyons ; je fais mon intérêt du ſien.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_65">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>S'il le ſuivoit, il lui ſeroit utile.</l>
+                        <lb/><stage type="business" rend="italics">(Il lit.)</stage><lb/>
+                        <l rend="italics">Au Théâtre chantant</l>
+                        <l rend="italics"><hi rend="small-caps">Avis</hi> très-important.</l>
+                        <l rend="italics">Veux-tu fixer la fortune qui flotte.</l>
+                        <l rend="italics">Et te voir de nouveau couru ?</l>
+                        <l rend="italics">Fais, au plûtôt, redanſer la vertu (a) <note place="bottom">(a) <persName type='actor' n='Mlle_Salé'>Mademoiſelle Salé</persName>.</note></l>
+                        <l rend="italics">Et remets <name type='character' n='Amour'>l'Amour</name> (b) <note place="bottom"><persName type='actor' n='Le_Maure'>Mademoiſelle le Maure</persName>.</note> en culotte.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_66">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Mais l'Auteur de ce Livre a le cerveau bleſſé,</l>
+                        <l>Vouloir à <name type='institution' n='Opera'>l'Opéra</name> que la vertu redanſe.</l>
+                        <l>Propoſa-t-on jamais pareille extravagance ?</l>
+                        <l>Il faudroit qu'en ces lieux elle eût déja danſé.</l>
+                        <l>C'eſt ſupoſer le faux, choquer la vraiſemblance.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_67">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>De ce Théâtre-là, Partiſan entêté,</l>
+                        <l>C'eſt donc ainſi que tu prends ſa défenſe ?</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_68">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Je ſuis ſon Chevalier, &amp; même avec outrance ;</l>
+                        <l>Mais ce n'eſt pas par ce côté.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_69">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Mais c'eſt un fait par toit ſeul conteſté.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_70">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="I">Dis : qui l'a vû ?</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_71">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="F">Toute la <placeName n="France">France</placeName>.</l>
+                        <l>Un ſujet né pour être reſpecté,</l>
+                        <l>A déja fait voir ce miracle :</l>
+                        <l>Il a ſçu trouver l'art de vaincre chaque obſtacle,</l>
+                        <pb n="29"/>
+                        <l>Et d'allier, aux yeux du Public enchanté,</l>
+                        <l>La modeſtie à l'air de volupté,</l>
+                        <l>Au badinage la nobleſſe,</l>
+                        <l>La conduite au talent, les mœurs à la jeuneſſe,</l>
+                        <l>Et la ſageſſe à la beauté.</l>
+                        <l>Ton <name n='Opera' type="institution">Opéra</name> n'a rien de mieux à faire,</l>
+                        <l>Que de le rapeller dans cette extrêmité.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_72">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Non, non, il auroit tort d'agir pour cette afaire ;</l>
+                        <l>Quand tu dirois même la vérité.</l>
+                        <l>Je ſoutiens qu'il s'y doit opoſer au contraire ;</l>
+                        <l>Car, enfin, Meſſieurs, tout compté,</l>
+                        <l>L'amour &amp; ſes tendres foibleſſes</l>
+                        <l>Sont le premier devoir de toutes nos Princeſſes ;</l>
+                        <l>Et leur corps, à ce Dieu, doit tout l'éclat qu'il a.</l>
+                        <l>Un tendron chaſte, aprenés bien cela,</l>
+                        <l>Eſt un mauvais exemple à craindre pour les nôtres ;</l>
+                        <l>C'eſt un vrai monſtre à <name type='institution' n='Opera'>l'Opéra</name> :</l>
+                        <l>On ne doit pas le ſouffrir-là,</l>
+                        <l>De peur qu'il ne gâte les autres.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_73">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Toujours, par du biſarre, il ſe diſtinguera.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_74">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Ils me donnent la Comédie.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_75">
+                        <speaker>LE MARQUIS </speaker>
+                        <stage type="delivery">au <persName n='Comte'>Comte</persName>.</stage><lb/>
+                        <l>Je ris pourtant de ta ſaillie.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_76">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Pour te mieux divertir, tu vas avoir ton tour.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_77">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>Cela ſe doit par un juſte retour.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_78">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Cherchons un peu la Prophétie</l>
+                        <l>Qui touche le Spectacle, objet de son amour.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_79">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Epargnez-vous ce ſoin ; je vais la lire moi-même.</l>
+                        <l part="I">La voici.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_80">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Quel orgueil ! Il nous brave en ce jour.</l>
+                    </sp>                    
+                    <pb n="30"/>
+                    <sp who="Colifichet" xml:id="S5_81">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="I">Il en ſera puni.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_82">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="F">Le Théâtre que j'aime,</l>
+                        <l>Vous le ſçavez, Meſſieurs, fleurit ſeul aujourd'hui.</l>
+                        <l>C'eſt le louer, que de parler de lui ;</l>
+                        <l>Ainſi prêtez l'oreille à ſon panégyrique.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_83">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Pour être heureux &amp; floriſſant,</l>
+                        <l>On n'eſt pas moins ſujet à la critique.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_84">
+                        <speaker>LE COMTE </speaker>
+                        <stage type="delivery" rend="italics">au <persName n='Marquis'>Marquis</persName>.</stage><lb/>
+                        <l>Fais ta lecture ; allons, je técoute à preſent.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_85">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l part="I">Paix-là.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_86">
+                        <speaker>LE MARQUIS </speaker>
+                        <stage type="business" rend="italics">lit.</stage><lb/>
+                        <l part="F" rend="italics">L'an que <name type="character" n='Zaire'>Zaïre</name> enchantera la Terre.</l>
+                        <l rend="italics">O ! <name type='institution' n='Comedie-Francaise'>Théâtre François</name>, quel ſera ton bonheur !</l>
+                        <l rend="italics">De ſa voix (a)<note place="bottom">(a) <persName type='actor' n='Mlle_Gaussin'>Mademoiſelle Gauffin</persName>.</note> le ſon ſéducteur,</l>
+                        <l rend="italics">Aidé du rare don de plaire,</l>
+                        <l rend="italics">Attendrira <placeName n="Paris">Paris</placeName> en ta faveur,</l>
+                        <l rend="italics">Et fera paſſer ſa douceur</l>
+                        <l rend="italics">Juſqu'au fond de l'ame ſévére</l>
+                        <l rend="italics">Du plus inflexible Cenſeur...</l>
+                        <lb/><stage type="business" rend="italics">(Il s'interrompt avec tranſport.)</stage><lb/>
+                        <l>Ah ! Je ſuis tranſporté ! Je ne ſçaurois le taire.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_87">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="I">Il en tient pour <name type='character' n='Zaire'>Zaïre</name>.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_88">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="F">Ai-je tort, en honneur ?</l>
+                        <l part="I">Elle a de ſi beau yeux !</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_89">
+                        <speaker>LE COMTE </speaker>
+                        <stage type="delivery" rend="italics">bruſquement.</stage><lb/>
+                        <l part="F">Recommencés, Monſieur.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_90">
+                        <speaker>LE MARQUIS </speaker>
+                        <stage type="business" rend="italics">recommence.</stage><lb/>
+                        <l rend="italics">L'an que <name n='Zaire' type="character">Zaïre</name> enchantera la Terre.</l>
+                        <l rend="italics">O ! <name type='institution' n='Comedie-Francaise'>Théâtre François</name>, quel ſera ton bonheur !</l>
+                        <l rend="italics">De ſa voix le ſon ſéducteur,</l>
+                        <pb n="31"/>
+                        <l rend="italics">Aidé du rare don de plaire,</l>
+                        <l rend="italics">Attendrira <placeName type="place" n="Paris">Paris</placeName> en ta faveur,</l>
+                        <l rend="italics">Et fera paſſer ſa douceur</l>
+                        <l rend="italics">Juſqu'au fond de l'ame ſévére</l>
+                        <l rend="italics">Du plus inflexible Cenſeur ;</l>
+                        <l rend="italics">Tu n'auras plus à craindre le Tonnerre,</l>
+                        <l rend="italics">Ni les éclats du Public en fureur ;</l>
+                        <l rend="italics">Et tes jours couleront dans le calme proſpére,</l>
+                        <l rend="italics">Qui ne ſera troublé que par le bruit flatteur</l>
+                        <l rend="italics">Qu'excitera chez toi plus d'un Aprobateur.</l>
+                        <lb/><stage type="business" rend="italics">(Il s'interrompt de nouveau.)</stage><lb/>
+                        <l part="I">Que vous avois-je dit ?</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_91">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="F">Pourſuis, maudit Lecteur !</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_92">
+                        <speaker>LE MARQUIS </speaker>
+                        <stage type="business" rend="italics">continuë.</stage><lb/>
+                        <l rend="italics">Le Spectateur, pour toi, ſera ſi débonnaire,</l>
+                        <l rend="italics">Que du froid <title>Complaiſant</title> a)<note place="bottom">(a) Comédie.</note> <hi rend="italics">reſpectant la fadeur...</hi></l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_93">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Ahi ! Ahi ! Vous molliſſez, Seigneur !</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_94">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="I">Lis ferme, ou bien...</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_95">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="F">C'eſt ce que je vais faire.</l>
+                        <lb/><stage type="business" rend="italics">(Il reprend.)</stage><lb/>
+                        <l rend="italics">Le Spectateur, pour toi, ſera ſi débonnaire,</l>
+                        <l rend="italics">Que du froid <title>Complaiſant</title> reſpectant la fadeur</l>
+                        <l rend="italics">Il entendra la Piéce entiére,</l>
+                        <l rend="italics">Sans exciter nulle rumeur,</l>
+                        <l rend="italics">Et qu'il prendra ſon caractére.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_96">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="I">Fort bien !</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_97">
+                        <speaker>LE MARQUIS </speaker>
+                        <stage type="business" rend="italics">lit toujours.</stage><lb/>
+                        <l part="F" rend="italics">Le jeu brillant de chaque Acteur,</l>
+                        <l rend="italics">A l'abri de quelque lueur</l>
+                        <l rend="italics">Fera claquer ſa morale ordinaire,</l>
+                        <l rend="italics">Etonnera le connoiſſeur,</l>
+                        <pb n="32"/>
+                        <l rend="italics">Et le forcera de ſe taire,</l>
+                        <l rend="italics">Et d'admirer... en depit de ſon cœur,</l>
+                        <l rend="italics">La complaiſance... du Parterre.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_98">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>Je triomphe ! A ſon tour, le Marquis eſt penaut ;</l>
+                        <l>Il n'a rien perdu pour attendre.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_99">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Voilà ton <title>Complaiſant</title> ajuſté comme il faut.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_100">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Il eſt aiſé de le défendre.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_101">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Sans intrigue, ſans intérêt,</l>
+                        <l>Et ſans conduite, comme il eſt,</l>
+                        <l>Auras-tu bien le front de l'entreprendre ?</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_102">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>N'en déplaiſe à ton goût, je ſoutiens, qu'à tout pren-<lb/>dre,</l>
+                        <l part="I"><title>Le Complaiſant</title>...</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_103">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="F">Eſt d'un ennui parfait.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_104">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Et du <title>flatteur</title> un fort mauvais extrait.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_105">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Il fait pleurer, Monſieur, il fait rire Madame.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_106">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Et me fait bâiller, moi, juſques au fond de l'ame.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_107">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Pour moi, j'adore chaque mot.</l>
+                        <l part="I">Il parle avec eſprit...</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_108">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="F">Et ſe comporte en ſot.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_109">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="I">Toute la Piéce...</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_110">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="F">N'eſt pas neuve ;</l>
+                        <l>Un aſſommant procès en eſt le fondement :</l>
+                        <l>Du <title>Curieux impertinent</title>,</l>
+                        <l>Elle a, pour nœud, la ridicule épreuve ;</l>
+                        <pb n="33"/>
+                        <l>Et je laiſſe à l'Auteur l'honneur du dénoûment.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_111">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Tu lui fait un fort beau preſent !</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_112">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="I"><name type="character" n="Orgon">Madame Orgon</name>...</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_113">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="F">Pour elle, elle eſt ma bonne amie ;</l>
+                        <l>J'idolâtre ſon enjoûment.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_114">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Elle chérit la danſe, &amp; c'eſt par ſympathie.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_115">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Je goûte des plaiſirs parfaits,</l>
+                        <l>Quand elle danſe &amp; qu'elle entonne.</l>
+                        <l>D'une façon toute bouffonne,</l>
+                        <lb/><stage type="business" rend="italics">(Il chante.)</stage><lb/>
+                        <l rend="italics">Que tous les Procès</l>
+                        <l rend="italics">Durent à jamais.</l>
+                        <l rend="italics">Qu'on les barbouille,</l>
+                        <l rend="italics">Qu'on les barbouille</l>
+                        <l rend="italics">A jamais.</l>
+                        <lb/><stage type="business" rend="italics">(Il récite.)</stage><lb/>
+                        <l>Oh ! Ce <hi rend="italics">barbouille</hi>-là, dans ſa bouche charmante,</l>
+                        <l>Produit un effet qui m'enchante.</l>
+                        <lb/><stage type="business" rend="italics">(Il répéte en chantant.)</stage><lb/>
+                        <l rend="italics">Qu'on les barbouille, bouille, bouille.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_116">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l><rs n='Comedie-Francaise'>Les François</rs> ont volé ce trait à mes amis.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_117">
+                        <speaker>LE MARQUIS </speaker>
+                        <stage type="delivery" rend="italics">au <persName n='Comte'>Comte</persName>.</stage><lb/>
+                        <l>Ce Chœur vaut bien celui de vos Trembleurs d'<title>Iſis</title>.</l>
+                        <lb/><stage type="business" rend="italics">(Il chante en ſe moquant.)</stage><lb/>
+                        <l rend="italics">L'hyver qui nous tourmente,</l>
+                        <l rend="italics">Et qui s'obſtine à nous geler.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_118">
+                        <speaker>LE COMTE </speaker>
+                        <stage type="business" rend="italics">reprend en même-tems.</stage>
+                        <l rend="italics">Que tous les Procès</l>
+                        <l rend="italics">Durent à jamais.</l>
+                        <l rend="italics">Qu'on les barbouille, &amp;c.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_119">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="delivery" rend="italics">au <persName n='Baron'>Baron</persName>.</stage><lb/>
+                        <l>De la partie il nous faut mettre auſſi.</l>
+                        <pb n="34"/>
+                        <stage type="business" rend="italics">(<rs n='Colifichet'>Le Chevalier</rs> &amp; <persName n='Baron'>le baron</persName> mêlent leurs voix 
+                            <lb/>à celles du <persName n='Marquis'>Marquis</persName> &amp; du <persName n='Comte'>Comte</persName>, &amp; 
+                            <lb/>chantent en même-tems.)</stage><lb/>
+                        <l rend="italics">Maudit celui qui n'en boira,</l>
+                        <l rend="italics">Et qui ne s'en barbouille ;</l>
+                        <l rend="italics">Maudit celui qui n'en boira,</l>
+                        <l rend="italics">Et qui ne s'en barbouillera.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_120">
+                        <speaker>LE BARON </speaker>
+                        <stage type="delivery" rend="italics">après avoir chanté.</stage><lb/>
+                        <l>Voilà ce qu'on apelle un beau charivari !</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_121">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Ah ! Por nous mieux venger du Marquis qui nous <lb/> brave,</l>
+                        <l>Je voudrois bien quon parlât de <title>Guſtave</title> (a) <note place="bottom">(a) Tragédie.</note></l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_122">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="I">Sa Prophétie eſt faite.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_123">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="F">Ecoutons-la.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_124">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="business" rend="italics">lit.</stage><lb/>
+                        <l rend="italics">L'an que du fond du Nord un Héros ſortira ,</l>
+                        <l rend="italics">Il effacera tout par ſa clarté ſuprême :</l>
+                        <l rend="italics">Le grand <name type="character" n="Gustave">Guſtave</name> étonnera</l>
+                        <l rend="italics">Par ſes beautés &amp; par ſes défauts même ;</l>
+                        <l rend="italics">Juſques à ſon habit, tout en lui charmera.</l>
+                        <l rend="italics">Grands Dieux ! Quelle riche abondance</l>
+                        <l rend="italics">De ſituations contre la vraiſemblance !</l>
+                        <l rend="italics">Et que de lieux communs heureuſement couſus</l>
+                        <l rend="italics">A des événemens qu'on n'aura jamais vûs</l>
+                        <l rend="italics">Un ſonge, une reconnoiſſance,</l>
+                        <l rend="italics">Des Monologues tant &amp; plus.</l>
+                        <l rend="italics">Une longue Oraiſon Funèbre</l>
+                        <l rend="italics">D'un Prince vivant qu'on célébre ;</l>
+                        <l rend="italics">Des traveſtiſſemens, des conſpirations,</l>
+                        <l rend="italics">Des empriſonnemens &amp; des proſcriptions ;</l>
+                        <l rend="italics">Une ſédition ſubite</l>
+                        <l rend="italics">Qui change tout-à-coup les décorations :</l>
+                        <l rend="italics">Un enlévement, une fuite,</l>
+                        <pb n="35"/>
+                        <l rend="italics">Un combat ſur la glace, où, faiſant le plongeon,</l>
+                        <l rend="italics">Par un prodige heureux, la fille de <name type='character' n="Sténon">Sténon</name></l>
+                        <l rend="italics">Diſparoîtra ſous l'eau toute habillée,</l>
+                        <l rend="italics">Puis reviendra ſur l'horiſon,</l>
+                        <l rend="italics">Pour nous en informer, ſans paroître mouillée ;</l>
+                        <l rend="italics">Et par un dernier trait digne d'être vanté,</l>
+                        <l rend="italics">Après tant de périls, de fracas, de furie,</l>
+                        <l rend="italics">Qui tiendront en ſuſpens le Public agité,</l>
+                        <l rend="italics">La Piéce finira dans la tranquilité ;</l>
+                        <l rend="italics">Et, hors un Confident qui ſeul perdra la vie,</l>
+                        <l rend="italics">Les Acteurs de la Tragédie</l>
+                        <l rend="italics">Se retireront tous en fort bonne ſanté.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S5_125">
+                        <speaker>LE BARON </speaker>
+                        <stage type="delivery" rend="italics">au <persName n='Marquis'>Marquis</persName>.</stage><lb/>
+                        <l part="I">Que répons-tu ?</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S5_126">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="F">Je dis que la Piéce eſt ſi belle,</l>
+                        <l>Qu'en paroiſſant, elle a fait revenir</l>
+                        <l>Tout <placeName n="Paris">Paris</placeName> de la <title n="Bagatelle" rend="small-caps">Bagatelle</title>.</l>
+                        <l>Contre tant de beautés, le moyen de tenir ?</l>
+                        <l>L'heureux amant d'<name type="character" n="Adélaïde">Adelaïde</name></l>
+                        <l>A, par un ſurprenant bonheur,</l>
+                        <l>Le Public pour Rival &amp; pour Admirateur.</l>
+                        <l>La raillerie eſt inſipide.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_127">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Jamais Princeſſe n'eut plus d'Amans à la fois :</l>
+                        <l>En même-tems elle ſe voit preſſée</l>
+                        <l>Par <name type="character" n="Frédéric">Frédéric</name>, <name type="character" n="Gustave">Guſtave</name>, &amp; <rs>le Tyran Danois</rs> ;</l>
+                        <l>Ils veulent l'enlever tous trois.</l>
+                        <l>Elle reſſemble à la Fiancée</l>
+                        <l>Du <rs>Roi de Garbe</rs> , trait pour trait.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_128">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Oui, tu dis vrai, c'eſt ſon Portrait.</l>
+                        <l>De la foi qu'elle donne, elle n'eſt point l'eſclave.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S5_129">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Elle le prouve hautement,</l>
+                        <l>Quand elle veut, par accommodement,</l>
+                        <l>Epouſer <name type="character" n="Frédéric">Frédéric</name>, quoiqu'elle aime <name type="character" n="Gustave">Guſtave</name>.</l>
+                        <l>Tout mis dnas la balance, il n'eſt pas ſurprenant</l>
+                        <pb n="36"/>
+                        <l>Que ce dernier ſe voye oublié par la Belle,</l>
+                        <l>Quand de ſes yeux il eſt abſent,</l>
+                        <l>En étant reconnu difficilement,</l>
+                        <l>Lorſqu'il lui parle &amp; qu'il eſt devant elle.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S5_130">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Un endroit favori qui me plaît tout-à-fait,</l>
+                        <l>C'eſt quand ſa bouche dit au <rs>Tyran qu'elle hait</rs>,</l>
+                        <l>A propos du <rs>Héros qu'elle aime</rs> :</l>
+                        <l rend="italics">Qu'il vive, qu'il triomphe, &amp; je meurs ſans regret.</l>
+                        <l>Cela ſe chante de ſoi-même,</l>
+                        <l><persName n='Marquis'>Marquis</persName>; de ces paroles-là,</l>
+                        <l>Sçai-tu bien qu'on feroit un beau Chœur d'Opéra ?</l>
+                    </sp>    
+                </div>
+                <div type="scene" n="6" xml:id="S6">
+                    <head>SCENE VI.</head><lb/>
+                    <stage>LES ACTEURS PRECEDENS, <lb/> ANGELIQUE, FANCHON.</stage><lb/>
+                    <sp who="Angelique" xml:id="S6_1">
+                        <speaker>ANGELIQUE </speaker>
+                        <stage type="delivery" rend="italics">au Chevalier.</stage><lb/>
+                        <l><c type="lettrine">T</c>Out eſt prêt, <rs n="Colifichet">mon cher Maître</rs> ;</l>
+                        <l>Mais, avant que d'ouvrir le Balet deſiré,</l>
+                        <l>A vos yeux j'ai voulu paroître,</l>
+                        <l>Pour ſçavoir ſi je ſuis parée à votre gré.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S6_2">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Vous êtes miſe, on ne ſçauroit mieux l'être.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S6_3">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Quel eſt donc cet objet charmant ?</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S6_4">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>C'eſt une de mes écoliéres,</l>
+                        <l>A qui, depuis huit jours, je donne des maniéres.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S6_5">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>Tu choiſis bien, je t'en fais compliment.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S6_6">
+                        <speaker>LE COMTE </speaker>
+                        <stage type="business" rend="italics">regardant <persName n="Fanchon">Fanchon</persName>.</stage><lb/>
+                        <l>Cette autre-ci n'a pas la mine moins friponne.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S6_7">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Mais je ne connois point cette jeune perſonne ;</l>
+                        <pb n="37"/>
+                        <l>Belle <persName n="Angélique">Angélique</persName>, aprenez-moi ſon nom.</l>
+                    </sp>
+                    <sp who="Fanchon" xml:id="S6_8">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Monſieur, je m'appelle <persName n="Fanchon">Fanchon</persName>.</l>
+                    </sp>
+                    <sp who="Angelique" xml:id="S6_9">
+                        <speaker>ANGELIQUE.</speaker><lb/>
+                        <l>En qualité d'amie elle vient à la fête</l>
+                        <l>Que pour me recevoir, la <name type="allegory" n='Bagatelle' rend="italics">Bagatelle</name> aprête :</l>
+                        <l>Je me crois obligée de vous la preſenter.</l>
+                    </sp>
+                    <sp who="Fanchon" xml:id="S6_10">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Si vous vouliez m'inſtruire avec Mademoiſelle,</l>
+                        <l>Je tâcherois, Monſieur, de profiter</l>
+                        <l>De vos leçons, comme elle.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S6_11">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Quoique fort occupé, très-volontiers, ma Belle.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S6_12">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l>A ſon défaut, nous nous offrons ;</l>
+                        <l>Nous ſommes, comme lui, Docteurs en Bagatelle.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S6_13">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Si vous voulez prendre de mes leçons,</l>
+                        <l>A vous donner tous mes ſoins je m'engage :</l>
+                        <l part="I">Mais, quel âge avez-vous ?</l>
+                    </sp>
+                    <sp who="Fanchon" xml:id="S6_14">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l part="F">J'ai ſeize ans environ.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S6_15">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Seize ans ! Ma Reine, voilà l'âge</l>
+                        <l>Propre à l'inſtruction.</l>
+                        <l>A preſent, dites-moi votre inclination.</l>
+                        <l part="I">A quoi vous porte, enfin, votre goût ?</l>
+                    </sp>
+                    <sp who="Fanchon" xml:id="S6_16">
+                        <speaker>FANCHON </speaker>
+                        <stage type="business" rend="italics">faiſant un entrechat.</stage><lb/>
+                        <l part="F">A la danſe.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S6_17">
+                        <speaker>LE MARQUIS.</speaker><lb/>
+                        <l part="I">Tudieu ! Qu'elle eſt ingambe !</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S6_18">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="F">Elle bat l'entrechat !</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S6_19">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>C'eſt débuter avec éclat.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S6_20">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Et s'éleve<supplied>r</supplied> plus haut que danſeuſe de <placeName n="France">France</placeName>.</l>
+                        <pb n="38"/>
+                        <l>Mon cœur, je vous adore, &amp; je veux, avec vous</l>
+                        <l part="I">Faire des entrechats.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S6_21">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l part="F">Et moi, des caprioles.</l>
+                    </sp>
+                    <sp who="Fanchon" xml:id="S6_22">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Meſſieurs, avec plaiſir. J'aime les danſes folles.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S6_23">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Et je mets, à ſauter, mon plaiſir le plus doux.</l>
+                    </sp>
+                    <sp who="Baron" xml:id="S6_24">
+                        <speaker>LE BARON.</speaker><lb/>
+                        <l>J'ai, pour la capriole, une fureur ſi grande,</l>
+                        <l>Que je la fais à chaque inſtant :</l>
+                        <l>Et, quand je l'oublie en sortant,</l>
+                        <l>Tout le monde me la demande.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S6_25">
+                        <speaker>LE CHEVALIER </speaker>
+                        <stage type="delivery" rend="italics">à <persName n="Angélique">Angélique</persName>.</stage><lb/>
+                        <l>Pour nous, nous ouvrirons la fête tous les deux.</l>
+                    </sp>
+                    <sp who="Marquis" xml:id="S6_26">
+                        <speaker>LE MARQUIS </speaker>
+                        <stage type="delivery" rend="italics">à <persName n="Angélique">Angélique</persName>.</stage><lb/>
+                        <l>Puiſque <name type="allegory" n="Bagatelle" rend="italics">la Bagatelle</name> en ce lieu nous raſſemble,</l>
+                        <l>Je veux auſſi, brune aux yeux amoureux,</l>
+                        <l>Que nous danſions un menuet enſemble.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S6_27">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l>Ainſi nous ſerons tous de ce Balet joyeux.</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S6_28">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l>Dans ce beau jour, il faut que je ſignale</l>
+                        <l>Tous les talens que j'ai reçûs des Cieux.</l>
+                        <l>Je prétens, tour-à-tour, &amp; d'une ardeur égale,</l>
+                        <l>Jouer un air de Flûte, avec un de Timbale :</l>
+                        <l>Je veux mettre l'Orchestre en train,</l>
+                        <l>Danſer une Muſette, enſuite un Tambourin ;</l>
+                        <l>Et, pour me rendre plus utile,</l>
+                        <l>Chanter une Cantate, &amp; puis un Vaudeville.</l>
+                    </sp>
+                    <sp who="Colifichet" xml:id="S6_29">
+                        <speaker>LE CHEVALIER.</speaker><lb/>
+                        <l part="I">C'eſt tout un <term>Opéra</term> que le Comte...</l>
+                    </sp>
+                    <sp who="Comte" xml:id="S6_30">
+                        <speaker>LE COMTE.</speaker><lb/>
+                        <l part="F">J'entens</l>
+                        <l>Le ſon bruyant des Inſtrumens.</l>
+                        <l>Je cours pour être plus agile ;</l>
+                        <l>Je cours vîte changer d'habits,</l>
+                        <l>Et reviens pour tenir tout ce que j'ai promis.</l>
+                    </sp>
+                </div>
+                <pb n="39"/>
+                <div type="scene" n="7" xml:id="S7">
+                    <head>SCENE DERNIERE.</head><lb/>
+                    <stage>LES ACTEURS PRECEDENS , <lb/> LA BAGATELLE, <hi rend="italics">Troupe de Danſeurs.</hi></stage><lb/>
+                    <sp who="Chanteur" xml:id="S7_1">
+                        <speaker>UN CHANTEUR.</speaker><lb/>
+                        <lg>
+                            <l rend="italics"><c type="lettrine">B</c>Rillez, <name type="allegory" n='Bagatelle' rend="small-caps">Bagatelle</name> charmante,</l>
+                            <l rend="italics">Embelliſſez votre ſéjour ;</l>
+                            <l rend="italics">Etalez, dans ce grand jour,</l>
+                            <l rend="italics">Votre parure triomphante.</l>
+                            <l rend="italics">Des Belles vous êtes l'amour.</l>
+                            <l rend="italics">Vous amuſez le fou, le ſage, tour-à-tour.</l>
+                            <l rend="italics">Vous recevez de tous une offrande conſtante,</l>
+                            <l rend="italics">Et chaque état s'empreſſe à vous faire ſa cour.</l>
+                            <l rend="italics">Brillez, <name type="allegory" n='Bagatelle' rend="small-caps">Bagatelle</name> charmante,</l>
+                            <l rend="italics">Embelliſſez votre ſéjour ;</l>
+                            <l rend="italics">Etalez, dans ce grand jour,</l>
+                            <l rend="italics">Votre parure triomphante.</l>
+                        </lg>
+                    </sp>
+                    <lb/><lb/><trailer rend="center" rendition="italics">FIN.</trailer>
+            </div>
+            <pb n="40"/>
+        </body>
+        <back>
+            <note resp="Joséphine Loterie">Quatre prédictions sur des pièces de théâtre, ajoutées, le <date when="1734-02-27">27 février 1734</date> à la scène de l'Almanach des Théâtres (scène V) en raison de son succès.</note>
+                    <head type="main">PREDICTIONS. <lb/> NOUVELLES </head><lb/>
+                    <head type="desc" rend="italics">AJOUTÉES A LA BAGATELLE , <lb/> dans la Scène de l'Almanach des Théatres.
+                        <lb/><lb/> <date when="1734-02-27" rend="italics">Le vingt-ſept Février 1734.</date></head><lb/>
+               <div xml:id="A1">
+                    <lg xml:id="A1_1">
+                    <head>PREDICTION SUR <title>ISSÉ</title>.</head><lb/>
+                        <l><c type="lettrine">L</c>'An qu'<title>Iſſé</title> charmera la <placeName n="France">France</placeName>,</l>
+                        <l>Réjouis-toi, danſe, heureux <name type='institution' n="Opera">Opéra</name> ;</l>
+                        <l>Ton Théâtre refleurira ;</l>
+                        <l>Elle unira chez toi la gloire &amp; l'abondance :</l>
+                        <l>Le Poëme intéreſſera,</l>
+                        <l>Et la Muſique enchantera :</l>
+                        <l>On aplaudira tout, juſques à la prudence</l>
+                        <l>Du galant <name type="god" n="Apollon">Apollon</name> qui fait dormir <name type="character" n="Issé">Iſſé</name>,</l>
+                        <l>Pour l'expoſer ſeulette en un bois, ſans défenſe,</l>
+                        <l>A la diſcrétion d'un rival offenſé ;</l>
+                        <l>Et l'on admirera juſqu'à la modeſtie</l>
+                        <l>De ce même rival qu'on a droit de railler</l>
+                        <l>De ſurprendre, à lécart, ſa Maîtreſſe endormie,</l>
+                        <l>Sans oſer l'aprocher, de peur de l'éveiller.</l>
+                    </lg>
+                    <lg xml:id="A1_2">
+                        <head>SUR <title>LA SURPRISE DE LA HAINE</title>.</head><lb/>
+                        <l>L'an que <name type="institution" n="Comedie-Italienne">les Acteurs d'Italie</name></l>
+                        <l>Mettront la <name type="allegory">Haine</name> en Comédie,</l>
+                        <pb n="41"/>
+                        <l>Quel heureux ſort va les accompagner !</l>
+                        <l>Je vois courir chez eux <placeName n="Paris">Paris</placeName> pour un ouvrage</l>
+                        <l>Dont le ſeul titre auroit dû l'éloigner ;</l>
+                        <l>Fait malgré le bon ſens, conduit contre l'uſage ;</l>
+                        <l>Qui dénué d'intrigue, ofe renverſer tout ;</l>
+                        <l>Qui de l'amour détruit le tendre hommage ;</l>
+                        <l>Où l'on aprend à ſe haïr par goût,</l>
+                        <l>Et qui finit ſans mariage :</l>
+                        <l>Modèle dangereux, &amp; qu'on doit châtier</l>
+                        <l>Comme infracteur de la régle ordinaire.</l>
+                        <l>Il faut qu'un dénoûment, pour être régulier,</l>
+                        <l>Se faſſe par devant Notaire.</l>
+                    </lg>
+                <lg xml:id="A1_3">
+                        <head>SUR <title>LE BADINAGE</title>.</head><lb/>
+                        <l>L'an que <title>le Badinage</title> au grand jour paroîtra</l>
+                        <l>Sa critique ſera ſi dure,</l>
+                        <l>Que chacun le méconnoîtra,</l>
+                        <l>Malgré la charmante figure</l>
+                        <l>De l'actrice qui jouera :</l>
+                        <l><name type='allegory' n='Bagatelle'>La Bagatelle</name>, pour ſon frere,</l>
+                        <l>Hautement le déſavoura :</l>
+                        <l>Il ſera maudit de ſon pere,</l>
+                        <l>Pour les chagrins qu'il lui procurera :</l>
+                        <l>Avec ſageſſe &amp; bienſéance,</l>
+                        <l>D'abord il ſe définira,</l>
+                        <l>Pour ſe conduire avec licence</l>
+                        <l>Tant que la Piéce durera :</l>
+                        <l>L'auteur ſentant le beſoin qu'il en a,</l>
+                        <l>Perſonifiera l'indulgence,</l>
+                        <l>Et tout <placeName n="Paris">Paris</placeName> la lui refuſera.</l>
+                    </lg>
+                <lg xml:id="A1_4">
+                        <head>SUR <title>ADELAIDE</title>.</head><lb/>
+                        <l>L'an que de <name type="character" n="Du_Guesclin">du Gueſclain</name> la fille brillera,</l>
+                        <l>Pour l'admirer, toute la <placeName n="France">France</placeName>,</l>
+                        <pb n="42"/>
+                        <l>Chez la <name type='institution' n='Comedie-Francaise'>troupe Romaine</name>, en foule ſe rendra,</l>
+                        <l>Et le canon célébrera</l>
+                        <l>Le premier jour de ſa naiſſance ;</l>
+                        <l>Du parterre, avec véhémence,</l>
+                        <l>En même-tems la bombe partira,</l>
+                        <l>Huit jours, par modeſtie, elle diſparoîtra,</l>
+                        <l>Pour ſe montrer plus belle au bout de cette abſence ;</l>
+                        <l>D'une voix unanime, &amp; par reconnoiſſance,</l>
+                        <l>Tout le Public alors l'aplaudira.</l>
+                        <l>Quand le monde s'éclaircira,</l>
+                        <l><name type="character" n="Adélaïde">Adelaïde</name> ſoutiendra</l>
+                        <l>Ce revers d'une ame conſtante ;</l>
+                        <l>Prête à finir ſa courſe chancelante,</l>
+                        <l>Plus d'un ami zèlé la redemandera ;</l>
+                        <l>Dans ſes prétentions noblement obſtinée,</l>
+                        <l>Toujours au même prix elle ſe donnera ;</l>
+                        <l>Par bonne opinion, dans le double, elle eſt née ;</l><note resp="IG">Pièce jouée donc "au double".</note>
+                        <l>Par fierté, dans le double ; elle s'éclipſera</l>
+                    </lg>
+                   <lb/><lb/><trailer rend="center">FIN.</trailer>
+               </div> 
+            </back>
+        
+    </text>
+</TEI>

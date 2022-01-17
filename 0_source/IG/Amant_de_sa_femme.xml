@@ -1,0 +1,1992 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">L'Amant de sa femme ou la rivale d'elle-même.</title>
+                <title type="subtitle">Édition électronique.</title>
+                <author>Louis de Boissy (1694-1758)</author>
+                <principal><name>Pr. Ioana Galleron</name></principal>
+                <editor><name>Pr. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Loterie, Joséphine</name>
+                </respStmt>
+                </titleStmt>
+            <editionStmt>
+                <edition>Première édition, <date>2017</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-research.fr</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            <date>2017</date></publicationStmt>
+            <notesStmt>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT</hi><lb/>Son Théâtre François &amp; Italien<pc>.</pc><lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                        <imprint>
+                            <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                            <publisher>JEAN NEAULME</publisher>
+                            <date when="1758">1758</date>
+                            <note>Tome premier</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+                <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+                <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques, ainsi que les vers. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+                <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+                <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+                <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+                <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+                <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+                <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+                <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction><p>Les erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+                <punctuation>
+                    <p>La ponctuation n'est pas systématiquement encodée. Elle a été distinguée à l'intérieur des balises 'titre', afin de ne pas créer de faux doublons lors de l'extraction de ceux-ci (ex. 'Admète et Alceste,' considéré comme un titre distinct de 'Admète et Alceste.').</p> <p>Dans tous les cas, la punctuation d'origine a été respectée, y compris quand elle paraissait fautive. Dans ce cas, elle est signalée avec 'sic' et 'corr'. Toutefois, les particularités d'espacement de la ponctuation n'ont pas été reproduites à l'identique. Un système uniforme a été adopté: les ponctuations simples (point, virgule), sont placées immédiatement après le mot, les ponctuations doubles (point virgule, deux points, signes d'interrogation et d'exclamation) sont placées après une espace.</p>
+                </punctuation>
+                <interpretation>
+                    <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+                </interpretation>
+            </editorialDecl>
+            <fsdDecl>
+                <fsDecl type="character_specification">
+                    <fDecl name="temper">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="age">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="young" xml:id="AGY"/>
+                                <symbol value="old" xml:id="AGO"/>
+                                <symbol value="child" xml:id="AGC"/>
+                                <symbol value="adult" xml:id="AGA"/>
+                                <symbol value="unknown" xml:id="AGU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="sex">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="male" xml:id="SM"/>
+                                <symbol value="female" xml:id="SF"/>
+                                <symbol value="undetermined" xml:id="SU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="nationality">
+                        <vRange><string></string>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="ontological_category">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="human" xml:id="OCH"/>
+                                <symbol value="non-human" xml:id="OCNH"/>
+                                <symbol value="semi-human" xml:id="OCSH"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="family_position">
+                        <vRange>
+                            <vColl>
+                                <symbol value="father" xml:id="FPF"/>
+                                <symbol value="son" xml:id="FPSON"/>
+                                <symbol value="daughter" xml:id="FPD"/>
+                                <symbol value="mother" xml:id="FPM"/>
+                                <symbol value="uncle" xml:id="FPU"/>
+                                <symbol value="aunt" xml:id="FPA"/>
+                                <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                                <symbol value="sister" xml:id="FPSIS"/>
+                                <symbol value="brother" xml:id="FPB"/>
+                                <symbol value="cousin" xml:id="FPC"/>
+                                <symbol value="step-mother" xml:id="FPSM"/>
+                                <symbol value="step-father" xml:id="FPSF"/>
+                                <symbol value="step-daughter" xml:id="FPSD"/>
+                                <symbol value="step-son" xml:id="FPSS"/>
+                                <symbol value="guardian" xml:id="FPG"/>
+                                <symbol value="ward" xml:id="FPWA"/>
+                                <symbol value="husband" xml:id="FPH"/>
+                                <symbol value="wife" xml:id="FPWIF"/>
+                                <symbol value="widow" xml:id="FPWID"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="actantial_role">
+                        <vRange>
+                            <vColl>
+                                <symbol value="lover" xml:id="ARL"/>
+                                <symbol value="subject" xml:id="ARS"/>
+                                <symbol value="object" xml:id="ARO"/>
+                                <symbol value="opponent" xml:id="AROP"/>
+                                <symbol value="adjuvant" xml:id="ARAD"/>
+                                <symbol value="authority" xml:id="ARAUT"/>
+                                <symbol value="trouble_maker" xml:id="ARTM"/>
+                                <symbol value="episodic" xml:id="AREP"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="occupation">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="collective_character">
+                        <vRange>
+                            <binary value="true" xml:id="COLL"/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1721-09-19">19 septembre 1721</date>
+                <rs type="city">Paris, France.</rs>
+            </creation>
+            <textClass>
+                <keywords>
+                    <term>théâtre</term>
+                    <term>comédie</term>
+                    <term>comédie d'intrigue</term>
+                    <term>comédie à déguisements</term>
+                    <term>prose</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-07-23" who="IG">Confrontation avec le témoin (Néaulme 1758), et correction des erreurs de saisie. Remplacement des balises 'name' par des balises 'persName' et 'placeName'. Ajout de la 'feature structure' et balisage de la liste des personnages.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="1"/>
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">L'AMANT <lb/>DE SA FEMME <lb/><hi rend="italics" rendition="smallCaps">ou la</hi><lb/>RIVALE D'ELLE-MESME<pc>,</pc></titlePart>
+                    <titlePart type="desc" rend="italics">COMÉDIE<pc type="affirmative">.</pc></titlePart>
+                </docTitle>
+            </titlePage>
+            <pb n="2"/>
+            <castList>
+                <head rend="italics">ACTEURS<pc>.</pc></head>
+                <castItem ana="#AGA #FPH #OCH #SM #ARL #ARS #ARO #FPB #ARAUT"><role>PHILINTE</role>.</castItem>
+                <castItem ana="#AGA #ARL #OCH #SM #ARL #ARS #ARAD"><role>DORANTE</role>.</castItem>
+                <castItem ana="#OCH #SM #ARL #AGY #ARS #ARO"><role>LEANDRE</role>,<roleDesc> Amant d'<persName>Angélique</persName>.</roleDesc></castItem>
+                <castItem ana="#OCH #SM #AGO #ARL #ARS #ARO"><role>ALIDOR</role>,<roleDesc> vieux <fs><f name="occupation">Financier</f></fs>.</roleDesc></castItem>
+                <castItem ana="#OCH #SF #ARL #FPWIF #AGA #ARO #ARS"><role>DORIMENE</role>,<roleDesc> femme de <persName>Philinte</persName>.</roleDesc></castItem>
+                <castItem ana="#ARL #SF #OCH #AGC #ARO #FPSIS"><role>ANGELIQUE</role>,<roleDesc> ſœur de <persName>Philinte</persName>.</roleDesc></castItem>
+                <castItem ana="#OCH #SF #AGU #ARAD"><role>LISETTE</role>,<roleDesc> <fs><f name="occupation">ſuivante</f></fs>.</roleDesc></castItem>
+                <castItem ana="#OCH #SM #AGU #AROP #ARAD"><role>LA FLEUR</role>,<roleDesc> <fs><f name="occupation">Valet</f></fs> de <persName>Philinte</persName>.</roleDesc></castItem>
+                <castItem ana="#OCH #SM #AGU #AREP"><role><fs><f name="occupation">UN MAISTRE DE MUSIQUE</f></fs></role>.</castItem>
+                <castItem ana="#OCH #SM #AGU #AREP"><role><fs><f name="occupation">UN NOTAIRE</f></fs></role>.</castItem>
+            </castList>
+            <set>
+                <p rend="center"><hi rend="italics">La scène est à <placeName>Paris</placeName>, chez <persName>Philinte</persName>.</hi></p>
+            </set>
+        </front>
+        <pb n="3"/>
+        <body>
+            <div type="title">
+                <head>L'AMANT <lb/>DE SA FEMME <lb/><hi rendition="italics" rend="smallCaps">ou la</hi><lb/>RIVALE D'ELLE-MESME<pc>,</pc><lb/> COMÉDIE<pc type="affirmative">.</pc></head>
+            </div>
+           <div type="scene" n="1" xml:id="S01">
+                    <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                    <stage>PHILINTE<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage>
+                    <sp who="Philinte" xml:id="S01-1">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p><persName>LA Fleur</persName> !</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-2">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Monſieur.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S021-3">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Voià qui eſt fait. Je ſuis revenu de la bagatelle, &amp; je ſuis las de mener une vie coquette &amp; libertine. Je prétens me ranger.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-4">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Qui vous inſpire un ſi bon deſſein !</p>
+                    </sp>
+                    <pb n="4"/>
+                    <sp who="Philinte" xml:id="S01-5">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>L'Amour.</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-6">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Voilà un amour bien ſage.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S01-7">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Oui, l'amour me rend raiſonnable ; &amp; un ſeul objet me fixe pour toujours.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-8">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Je vous entens, Monſieur ; votre cœur ſe réchauffe pour Madame votre épouſe.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S01-9">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Le ſot! J'eſtime ma femme comme je le dois ; mais je garde mon amour pour une autre.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-10">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Je vous demande pardon ; j'avois oublié qu'un homme de qualité ne doit pas aimer ſa femme.
+                            <stage type="delivery" rend="italics">(bas.)</stage>
+                            Le voilà furieuſement revenu de la bagatelle.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S01-11">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ne ſuis pluc occupé que de la charmante Vénitienne que je vis hier au bal : tout le reſte m'eſt indifférent. Avoue qu'elle en faiſoit le plus grand ornement, &amp; qu'elle effaçoit toutes les autres.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-12">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Il eſt vrai, Monſieur. Mais que dites-vous de la Chauve-ſouris qui la ſuivoit ?
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S01-13">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>A quel propos ta Chauve-ſouris ; Serois-tu auſſi devenu amoureux ?
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-14">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Puiſqu'il faut vous en faire l'aveu, je vous dirai, 
+                            Monſieur, que je n'ai pas moins de goût pour la ſuivante, que vous en avez pour la maîtreſſe.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S01-15">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Ce maraud affecte toujours d'être mon ſinge. Que 
+                            dis-je? Il enchérit. Si je bois, il s'enyvre ; ſi je coquette, il devient le papillon du quartier ; &amp; ſi j'aime, il ſoupire plus haut que moi.
+                        </p>
+                    </sp>
+                    <pb n="5"/>
+                    <sp who="La Fleur" xml:id="S01-16">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Les grands hommes ſe rencontrent.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S01-17">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Qu'elle étoit belle dans ſon déguiſement !</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-18">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Qu'elle étoit apétiſſante ſous le maſque !</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S01-19">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Quand je me retrace ſon aimable idée, je me ſens pénétrer d'une douce langueur, ou tranſporter d'une tendre joye. 
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-20">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Quand je ſonge que me Chauve-ſouris me faiſoit les doux yeux, je ſens en moi-même je ne ſçai quoi dont je ſuis tout ragaillardi.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S01-21">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Mais lorſque je fais réflexion que je n'ai pû la connoître , &amp; que je ne ſçai plus où la retrouver, la triſteſſe s'empare de mon ame, je ſuis au deſeſpoir. 
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-22">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Mais lorsqu'il me revient dans l'eſprit qu'elle n'a jamais voulu me dire ſon nom, ni me montrer ſon minois fripon, &amp; que je ne puis ſçavoir ce qu'elle eſt devenue, je tombe dans l'abattement, toute ma joye s'évanouit.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S01-23">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je dois, ce ſoir, courir le bal pour elle ; peut-être que l'amour ſenſible à ma peine, y conduira ſes pas, &amp; l'obligera à ſe découvrir.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-24">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Que fait-il ſi je n'aurai pas le même bonheur ?</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S01-25">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Va voir ſi mon habit de bal ſera fait pour ce ſoir, &amp; reviens me le dire au plûtôt.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S01-26">
+                        <speaker>LA FLEUR <pc>,</pc></speaker>
+                        <stage type="exit" rend="italics">en s'en allant.</stage>
+                        <p>Je m'en donne auſſi un des plus galans ; &amp; je prétens me mettre en <persName type="god">Cupidon</persName>.
+                        </p>
+                    </sp>
+                </div>
+                <pb n="6"/>
+                <div type="scene" n="2" xml:id="S02">
+                    <head>SCENE II<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE <pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage>
+                    <sp who="Dorante" xml:id="S02-1">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>BOn jour , mon cher. Qu'avez-vous ? Vous me paroiſſez rêveur. Etiez-vous hier au bal ?
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-2">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Oui, j'y étois.</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-3">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Comment avez-vous trouvé la Vénitienne qui danſoit avec tant de grace ?
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-4">
+                        <speaker>PHILINTE </speaker>
+                        <stage type="delivery" rend="italics">en ſoupirant.</stage>
+                        <p>Adorable.</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-5">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous ſoupirez, &amp; vous rougiſſez. L'aimeriez-vous?</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-6">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Il eſt inutile de feindre; vous êtes connoiſſeur ; je l'adore : &amp;, ce qu'il y a d'affligeant pour moi j'ignore qui elle eſt, &amp; je n'eſpére plus de la revoir.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-7">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je vous ſurprendrois bien agréablement, ſi je vous diſois qu'elle eſt de ma connoiſſance.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-8">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>De votre connoiſſance.</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-9">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Oui de ma connoiſſance.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-10">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Ma joie &amp; ma ſurpriſe ſont ſi <choice><sic>grande</sic><corr>grandes</corr></choice> que je ne ſçaurois parler.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-11">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je connois même les ſentimens où elle eſt pour vous; &amp; je puis vous aſſurer que vous n'êtes point haï.
+                        </p>
+                    </sp>
+                    <pb n="7"/>
+                    <sp who="Philinte" xml:id="S02-12">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Ah! mon cher <persName>Dorante</persName>, aprenez-moi au plûtôt ſon nom &amp; ſa demeure, je vous devrai la vie.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-13">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ne ſçaurois, elle m'a défendu de parler.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-14">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Et pourquoi me dire que vous la connoiſſez, &amp; m'aſſurer que je n'en ſuis point haï ? Etes-vous de concert avec la cruelle, pour me deſeſpérer ?
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-15">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Il eſt inutile de s'emporter. Tout ce que je puis faire pour le preſent, c'eſt de m'engager à rendre à la perſonne même une lettre de votre part, ſi vous voulez lui écrire, &amp; à vous en aporter une réponſe dont vous ſerez content.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-16">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Que je vous embraſſe, mon cher ami. A la pareille.</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-17">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Mais ſi votre femme vous ſoupçonnoit, &amp; qu'elle allât vous ſurprendre ? Prenés-y garde.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-18">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ne crains rien de ce côté-là ; il y a plus d'un mois que je la trompe, ſans qu'elle s'en aperçoive.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-19">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Croyés-moi , les femmes ſont diſſimulées, &amp; cachent ſouvent leur défiance ſous un air d'ingénuité.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-20">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Ma foi, mon cher, voulez-vous que je vous parle franchement, elle en croira tout ce qui lui plaira ; ſix mois de mariage ont épuiſé tout le goût que j'avois pour elle. Je me ſuis contraint juſqu'ici, &amp; j'ai vécu plûtôt en amant qu'en mari ; mais je ne ſçaurois finir l'année : auſſi-bien ce n'eſt plus la mode d'aimer ſa femme ; &amp; je ſerois berné des honnêtes gens, s'ils ſçavoient la maniére bourgeoiſe dont je vis avec la mienne.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-21">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>On voit bien que vous fréquentez le Chevalier &amp; qu'il vous inſpire les ſentimens du beau monde.
+                        </p>
+                    </sp>
+                    <pb n="8"/>
+                    <sp who="Philinte" xml:id="S02-22">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Il eſt vrai que je lui ai cette obligation, &amp; qu'il m'a fait rougir de l'attachement gaulois que j'avois pour <persName>Doriméne</persName>.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-23">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous prenez le bon parti ; on doit être eſclave de la mode, quelque déraiſonnable qu'elle ſoit. Aimer ſa femme, quoique belle, c'eſt du dernier bourgeois. Mais ne craignez-vous pas de pouſſer à bout ſa vertu ? Elle pourroit bien vous imiter par vengeance.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-24">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je tiens encore cette maxime du Chevalier, que l'homme du monde, comme le ſage, ſe met au-deſſus des accidens qui ne dépendent pas de lui.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-25">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Fort bien ; cependant je ne vous conſeille pas de vous dire ſon ami, ſi vous voulez l'être de la Dame en queſtion. Comme il fait profeſſion de médire du beau ſexe, ce ſeroit lui faire mal votre cour : &amp; le plus ſûr moyen de vous mettre bien avec elle, c'eſt de vous brouiller avec lui.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S02-26">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous faites bien de m'avertir ; nous avions fait la partie de courir cette nuit le bal enſemble. Je vais écrire à cette aimable inconnue, puis j'irai dégager la parole que j'ai donnée au Chevalier. Venés prendre ma lettre.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S02-27">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je vous ſuis. J'aperçois <persName>Liſette</persName> ; diſons-lui un mot en paſſant.
+                        </p>
+                    </sp>
+                </div>
+                <pb n="9"/>
+                <div type="scene" n="3" xml:id="S03">
+                    <head>SCENE III<pc type="affirmative">.</pc></head>
+                    <stage>DORANTE<pc>,</pc> LISETTE <pc type="affirmative">.</pc></stage>
+                    <sp who="Dorante" xml:id="S03-1">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p><persName>LIſette</persName>, notre affaire va le mieux du monde ; <persName>Philinte</persName> a donné dans le panneau, &amp;, ſans le ſçavoir, il eſt plus épris de ſa femme, qu'il ne l'a jamais été. A l'heure même où je te parle, il lui écrit une lettre que je me ſuis chargé de lui rendre. Je n'ai pas le tems de t'en dire davantage. Adieu. Je te recommande toujours mes intérêts auprès de <persName>Doriméne</persName>. 
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S03-2">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Comptés ſur moi. J'y ferai mon poſſible.
+                            <stage type="delivery" rend="italics">(ſeule.)</stage>
+                            A preſent, je voudrois ſçavoir de <persName>la Fleur</persName> s'il eſt dans l'erreur comme ſon maître, &amp; s'il m'a reconnue ſous l'habit de Chauve-ſouris. Le voici ; il s'entretient tout ſeul. Ecoutons un peu les ſottiſes qu'il ſe dit à lui-même.
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene" n="4" xml:id="S04">
+                    <head>SCENE IV<pc type="affirmative">.</pc></head>
+                    <stage>LISETTE<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage>
+                    <sp who="La Fleur" xml:id="S04-1">
+                        <speaker>LA FLEUR </speaker>
+                        <stage type="mixed" rend="italics">ſans apercevoir <persName>Liſette</persName>.</stage>
+                        <p>MOnſieur <persName>Philinte</persName> &amp; moi, nous allons avoir nos habits de bal dans une heure au plûtard ; ils feront du bruit l'un &amp; l'autre. Ah ! Chauve-ſouris de mon ame, ſi je puis vous racrocher aujourd'hui, vous ne réſiſterez point aux charmes de mon habillement. Par modeſtie, je ne dis rien de ceux de ma perſonne.
+                        </p>
+                    </sp>
+                    <pb n="10"/>
+                    <sp who="Lisette" xml:id="S04-2">
+                        <speaker>LISETTE </speaker>
+                        <stage rend="italics">ſans ſe montrer.</stage>
+                        <p>Il en tient ; je n'en puis plus douter.</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-3">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Autrefois <persName>Liſette</persName> m'étoit chére, mais ce n'eſt rien auprès de ce que je ſens pour ma Chauve-ſouris. Le feu , l'ardeur, la flamme qui me brûle..... tout cela fait que j'extravague, &amp; que je ne ſçai ce que je dis.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-4">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Le voilà qui jouë d'après ſon maître, &amp; qui perd la tramontane. Comme il a bonne opinion de lui, feignons d'être ſenſible à l'infidélité qu'il croit me faire, pour me donner la comédie entiére.
+                            <stage type="delivery" rend="italics">(à <persName>la Fleur</persName>.)</stage>
+                            Tu en aimes donc une autre, perfide que tu es ? Tu ne ſçaurois le nier; j'ai tout entendu, &amp; je ſçai la trahiſon que tu m'as faite au bal. Autrefois <persName>Liſette</persName> t'étoit chére, mais ce n'eſt rien auprès de ce que tu ſens pour ta Chauve-ſouris. Répons, traître, répons.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-5">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Que diable veux-tu que je te réponde? Je ne te croyois pas ſi près ; mais il me paroît que tu t'aviſes un peu tard d'être jalouſe. Il y a long-tems que tu me vois coquetter d'un œil aſſez indifférent.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-6">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Tandis qu'il n'y a eu que de la galanterie dans ton procédé, je me ſuis tuë, perſuadée que j'avois ſeule ton cœur ; mais à preſent que tu en aimes ſérieuſement une autre, &amp; je l'aprens de toi-même, la rage &amp; la douleur m'emportent, je ne ſuis plus la maîtreſſe de mes ſentimens.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-7">
+                        <speaker>LA FLEUR </speaker>
+                        <stage type="delivery" rend="italics">à part.</stage>
+                        <p>La pauvre fille eſt ſi paſſionnée pour moi, que j'en ai pitié : tâchons de la conſoler par quelque mot de douceur. <stage type="delivery" rend="italics">(haut.)</stage> Ne t'afflige point, ma chére <persName>Liſette</persName>, j'ai encore, par-ci par-là, des idées de tendreſſe pour toi ; &amp; je voudrois, de tout mon cœur, t'aimer autant que tu le mérites.
+                        </p>
+                    </sp>
+                    <pb n="11"/>
+                    <sp who="Lisette" xml:id="S04-8">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Ah ! C'eſt trop me contraindre ; il eſt tems que j'éclate.... oui, que j'éclate de rire. Ah! ah! ah!
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-9">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Je crois que tu te moques de moi.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-10">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Tu n'en dois pas douter. Ah ! ah ! Le grand ſot de me croire amoureuſe d'une figure comme la ſienne.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-11">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Qui ne s'y ſeroit trompé comme moi ? Ah ! Que vous jouez bien, Meſdames les friponnes ; &amp; que nous ſommes de mauvais Comédiens auprès de vous !
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-12">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Pour te prouver que je ne ſuis plus ta maîtreſſe, je veux bien être ta confidente, &amp; te ſervir dans tes nouvelles amours. Crois-moi, ne refuſe pas l'offre que je te fais, je le puis mieux que tout autre.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-13">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Fort bien. Continue ton badinage.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-14">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Non, je ne badine plus. Si tu ſouhaites, je préviendrai la Chauve-ſouris en ta faveur.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-15">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>La connois-tu ?</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-16">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>C'eſt la meilleure de mes amies, &amp; je puis compter ſur elle comme ſur moi-même.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-17">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>S'il étoit vrai, je te prierois, ma chére <persName>Liſette</persName>, de me dire ſon nom, ou de me procurer le plaiſir de l'entretenir un moment ce ſoir.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-18">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je t'accorde ce dernier point ; &amp; je te promets qu'avant que le jour finiſſe , tu la reverras. Peut-être ſe découvrira-telle , pourvû que tu me faſſes un aveu ſincére de ce que je veux ſçavoir de toi.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-19">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Parle, &amp; ſois ſûre de ma ſincérité.</p>
+                    </sp>
+                    <pb n="12"/>
+                    <sp who="Lisette" xml:id="S04-20">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Crois-tu que Monſieur <persName>Philinte</persName> aime toujours ſa femme ?
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-21">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Puiſque tu m'as prié d'être ſincére, je t'avouerai ingénuement que Monſieur <persName>Philinte</persName> aime ſa femme d'un amour ſi pur &amp; ſi reſpectueux, qu'il eſt réſolu de faire lit à part au premier jour.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-22">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Et la raiſon ?</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-23">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>La raiſon , qu'on lui a repreſenté qu'il ne convenoit pas à un homme comme lui de vivre de la ſorte, &amp; qu'il ſeroit deshonoré à la Cour, ſi l'on aprenoit qu'il couche toutes les nuits avec ſa femme.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-24">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>A la vérité, cela eſt ſcandaleux. Mais quel eſt l'honnête homme qui le conſeille ſi bien ?
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-25">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Ne vois-tu pas ici tous les jours un certain Chevalier qui ne ſalue perſonne, qui bruſque dédaigneuſement tout le monde, &amp; qui ne dit jamais du bien que de lui-même ?
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-26">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Qui ? Ce petit-maître outré, qui fait vanité d'étaler des ſentimens libertins &amp; des opinions dangereuſes, qui paſſe pour le fléau de notre ſexe, qui décrie ſurtout l'amitié conjugale, &amp; qui tourne en ridicule les maris qui ſont attachés à leur femmes, &amp; les femmes qui ſont fidèles à leurs maris ?
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-27">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>C'eſt lui-même.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-28">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je lui prépare une piéce digne de <persName>Liſette</persName>, il ne s'en rira point. Mais revenons à ton maître ; ſon cœur eſt-il vacant, ou n'eſt-il indifféremment occupé que du premier objet qu'il rencontre ?
+                        </p>
+                    </sp>
+                    <pb n="13"/>
+                    <sp who="La Fleur" xml:id="S04-29">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Je te dirai à l'oreille, qu'il a perdu, comme moi ſa liberté au bal , &amp; qu'il eſt éperdument amoureux de la Maîtreſſe de ma Chauve-ſouris ; il brûle auſſi pour elle ſans la connoître, &amp; ne l'a jamais vûe qu'en habit de Vénitienne.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-30">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Cela ſuffit, je ſuis content de toi ; tu m'as tenu ta parole, &amp; je te tiendrai la mienne. A ce ſoir.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S04-31">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Dois-je bien me fier à toi ? Tu as je ne ſçai quel charme qui ſéduit les gens à qui tu parles, on n'y peut réſiſter : tu auras beau me tromper encore une fois, je ſerai pris une troiſiéme. Je vois venir Madame <persName>Dorimene</persName>. Adieu. Il eſt tems que j'aille rendre réponſe à mon Maître.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S04-32">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Il eſt dans mes filets.</p>
+                    </sp>
+                </div>
+                <div type="scene" n="5" xml:id="S05">
+                    <head>SCENE V<pc type="affirmative">.</pc></head>
+                    <stage>DORIMENE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage>
+                    <sp who="Lisette" xml:id="S05-1">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>JE vous l'avois bien dit, Madame, que votre mari vous trompoit ; mais il s'eſt pris lui-même : &amp; notre partie de bal a eu tout le ſuccès que nous en pouvions attendre. Il ſoupire pour ſa femme, lorſqu'il croit ſoupirer pour une autre : &amp;, ce qu'il y a de plus réjouiſſant, j'ai fait la conquête de <persName>la Fleur</persName>, ſous l'habit de Chauve-ſouris, dans le tems que vous avez fait celle de Monſieur <persName>Philinte</persName>, ſous l'habit de Vénitienne.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S05-2">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Peut-être qu'il ma reconnue, &amp; que l'amour qu'il a fait paroître n'étoit qu'une feinte. <persName>Dorante</persName> que nous avons mis de la partie, doit m'en éclaircir au plûtôt ; je l'attens.
+                        </p>
+                    </sp>
+                    <pb n="14"/>
+                    <sp who="Lisette" xml:id="S05-3">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je viens de lui parler ; il m'a dit que votre époux avoit mordu à l'hameçon, &amp; qu'il brûloit du deſir d'aprendre qui vous êtes ; juſques-là même, que vous en devez recevoir une tendre déclaration par écrit. <name type="person" n="La Fleur">La Fleur</name>, à qui j'ai tiré les vers du nez, m'a aſſuré à peu près la même choſe.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S05-4">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Après tout, <persName>Liſette</persName>, c'eſt moi qu'il aime.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S05-5">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Mais, vertu de ma vie, s'il vous aime, c'eſt parce qu'il ne vous connoît pas ; &amp;, vous aimer ainſi, n'eſt-ce pas vous être infidèle ?
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S05-6">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Il eſt vrai, je voudrois le haïr, mais je ne puis.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S05-7">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous ne ſçauriez haïr votre mari ? Vous vous moquez ; il n'y a rien de ſi naturel à une femme.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S05-8">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Oui, à une femme du bel air, à une coquette de profeſſion, qui penſe qu'il eſt aujourd'hui auſſi honteux de dire qu'on aime ſon mari, qu'il l'étoit autrefois d'avouer qu'on avoit un galant : mais il n'en eſt pas ainſi d'une femme raiſonnable, que le devoir régle, &amp; que l'honneur conduit.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S05-9">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Quelque vertu que vous ayez, êtes-vous obligée d'aimer ſi ſcrupuleuſement un mari qui mépriſe vos charmes au bout de ſix mois, &amp; qui, loin de tenir le ſerment que vous aviez fait l'un &amp; l'autre de vivre comme deux tourterelles, eſt dans le deſſein d'avoir au plutôt un apartement ſéparé du vôtre, &amp; de ne vous voir que le plus rarement qu'il pourra ?</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S05-10">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Ah! Ce n'eſt point lui qui a formé ce deſſein ; je le connois, il a le cœur trop bien fait : c'eſt ce fripon de Chevalier qui l'empoiſonne des ſes conſeils, &amp; qui, malheureuſement, eſt autoriſé par l'uſage du monde <pb n="15"/>cet uſage dangereux qui ſéduit les plus honnêtes gens.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S05-11">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Mais, Madame, cet uſage eſt fait auſſi pour vous.</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S05-12">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Tout mon reſſentiment ſe tourne contre le Chevalier.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S05-13">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Conſolez-vous, vous allez être vengée ; j'ai tout diſpoſé pour cela.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S05-14">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Et quelle eſt cette vengeance ? </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S05-15">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>J'ai ſoulevé ſecrettement toutes les femmes du quartier contre lui ; je leur ai fait entendre qu'il étoit notre ennemi déclaré, qu'il nous déchiroit continuellement par des médiſances outrées, &amp; qu'il témoignoit publiquement le mépris qu'il avoit pour nous. En un mot, je l'ai peint à leurs yeux avec des couleurs ſi noires, &amp; elles ſont toutes ſi irritées, qu'il verra beau jeu la premiére fois qu'il viendra ici. Mais que veut <persName>Angélique</persName> les larmes aux yeux ?
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene" n="6" xml:id="S06">
+                    <head>SCENE VI<pc type="affirmative">.</pc></head>
+                    <stage>DORIMENE<pc>,</pc> ANGELIQUE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage>
+                    <sp who="Angélique" xml:id="S06-1">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>AH ! ma bonne ſœur, j'ai recours à vous.</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S06-2">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Qu'eſt-ce, qu'avez-vous, <persName>Angélique</persName> ?</p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-3">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>On vient de me dire que mon petit frere vouloit me donner à ce vieux financier qui vint hier ici. J'ai bien de l'averſion pour le Couvent, mais je l'aimerois encore mieux que ce barbon-là. Je mourrois s'il m'épouſoit.
+                        </p>
+                    </sp>
+                    <pb n="16"/>
+                    <sp who="Dorimene" xml:id="S06-4">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Remettez-vous, belle <persName>Angélique</persName>; je ſçai le moyen de l'empêcher.
+                        </p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-5">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Ah ! Vous me rendez contente. Je vous dirois bien autre choſe, auſſi-bien cela me péſe ſur le cœur, mais <persName>Liſette</persName> l'iroit redire.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S06-6">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Ne craignez rien, je ſuis diſcrette.</p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-7">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Jurez-moi que vous n'en parlerez pas.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S06-8">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Foi d'honnête fille, je vous le promets.</p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-9">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ne me fie pas trop à tous ces ſermens-là ; mais je meurs d'envie de parler, je ne puis plus garder le ſecret.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S06-10">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Et quel eſt ce grand ſecret ?</p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-11">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>J'ai fait une conquête.</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S06-12">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Déja?</p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-13">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Oui.</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S06-14">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Et de qui ?</p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-15">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>De <persName>Léandre</persName>.</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S06-16">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Et comment le ſçavez-vous ?</p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-17">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Il me l'a dit lui-même , &amp; il m'a juré qu'il m'aimoit de tout ſon cœur, &amp; qu'il ſeroit charmé d'être mon mari.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S06-18">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Et vous lui avez répondu ?</p>
+                    </sp>
+                    <pb n="17"/>
+                    <sp who="Angélique" xml:id="S06-19">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Je lui ai répondu que je l'aimois bien auſſi , &amp; que je ne ſerois pas fâchée d'être ſa femme.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S06-20">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Cela n'eſt pas bien ; une jeune fille doit cacher de pareils ſentimens.
+                        </p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-21">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Voyez-vous, ma petite ſœur ? Cela échape malgré qu'on en ait.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S06-22">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Mademoiſelle <persName>Angélique</persName>, vous êtes bien avancée pour votre âge, &amp; je crois que votre poupée n'eſt pas ce qui vous occupe le plus.
+                        </p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-23">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Parler de poupée à une grande fille comme moi, qui aura bien-tôt treize ans, cela eſt impertinent. Me croyez-vous une <persName type='lit_character'>Agnés</persName> ?
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S06-24">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Allez, <persName>Liſette</persName> eſt une folle qui veut rire. Puiſque <persName>Léandre</persName> vous plaît, &amp; qu'il vous aime, je porterai votre frere à faire ce mariage.
+                        </p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S06-25">
+                        <speaker>ANGELIQUE </speaker>
+                        <stage type="exit" rend="italics">en s'en allant.</stage>
+                        <p>Que j'aurai d'obligation à ma bonne ſœur !</p>
+                    </sp>
+                </div>
+                <div type="scene" n="7" xml:id="S07">
+                    <head>SCENE VII<pc type="affirmative">.</pc></head>
+                    <stage>DORIMENE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage>
+                    <sp who="Lisette" xml:id="S07-1">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>VOilà une petite fille qui promet beaucoup.</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S07-2">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Il ne tiendra pas à moi qu'elle ne ſoit mariée au plutôt.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S07-3">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ne m'y connois pas, ou, dans quelques années <pb n="18"/>d'ici, elle ne ſera pas d'humeur à ſouffrir que ſon mari la trompe impunément.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S07-4">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p><choice><sic>Tantpis</sic><corr>Tant pis</corr></choice>, <persName>Liſette</persName>, <choice><sic>tantpis</sic><corr>tant pis</corr></choice>. De mon côté, je formerai ſa jeuneſſe au bien, autant qu'il me ſera poſſible, &amp; je ſçaurai la détourner du mauvais air du monde.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S07-5">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Quand vous dévriez vous fâcher, je ne puis m'empêcher de vous dire, qu'avec les ſentimens que vous avez, vous méritiez d'épouſer un provincial. Telle que vous me voyez, j'ai là-deſſus le cœur noble &amp; bien placé; &amp;, ſi Monſieur <persName>Philinte</persName> avoit affaire à moi, ce ſeroit en ſuivant ſon exemple que j'en aurois raiſon, &amp; j'aurois un amant.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S07-6">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Ce n'eſt point à une femme comme moi qu'il faut tenir de pareils diſcours ; &amp; tant de liberté commence à me déplaire. 
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S07-7">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Il n'y a que votre ſeul intérêt, Madame, qui m'oblige à parler ainſi : &amp;, quand j'ai dit que j'aurois un amant, j'entens par-là un ami de préférence, à qui je donnerois ſimplement quelques marques d'eſtime, pour jetter une pointe de jalouſie dans le cœur de mon mari. Ce ſeroit-là, peut-être, le plus ſûr moyen de réveiller ſa tendreſſe endormie par la confiance où le met le trop d'amour que vous avez pour lui.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S07-8">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Il n'eſt rien que je ne fiſſe pour rendre <persName>Philinte</persName> à mon ardeur ; mais ce moyen eſt trop dangereux. Où trouver un homme aſſez diſcret pour ne point abuſer de cette préférence, &amp; pour ne point ſe donner un air d'amant favoriſé ?
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S07-9">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Entre tous les honnêtes gens que votre mérite attire ici tous les jours malgré vous , &amp; dont vous êtes obligée d'entendre les déclarations amoureuſes, en dé<pb n="19"/>pit de votre vertu, il peut s'en trouver quelqu'un qui ait la diſcrétion que vous ſouhaitez. Feriez-vous choix de <persName>Clitandre</persName> ?
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S07-10">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Non, je ne m'y expoſerai jamais.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S07-11">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p><persName>Valére</persName> vous conviendroit-il ?</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S07-12">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Non, te dis-je, je ne ſçaurois m'y réſoudre.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S07-13">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p><persName>Damon</persName>?</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S07-14">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Tes efforts ſont inutiles.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S07-15">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p><persName>Acaſte</persName> ?</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S07-16">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Je te l'ai dit, je crains trop les ſuites, &amp; mon devoir m'eſt trop cher.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S07-17">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Et <persName>Dorante</persName> qui a l'air ſi ſage ? Là, le cœur ne vous dit-il rien pour lui ?
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S07-18">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Oh ! Pour cela non. Mais le voici.</p>
+                    </sp>
+                </div>
+                <div type="scene" n="8" xml:id="S08">
+                    <head>SCENE VIII<pc type="affirmative">.</pc></head>
+                    <stage>DORANTE<pc>,</pc> DORIMENE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage>
+                    <sp who="Dorimene" xml:id="S08-1">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>EH bien, <persName>Dorante</persName>, que vous a dit mon mari? Je ſuis impatiente d'aprendre s'il m'a reconnue au bal, dans quels ſentimens il eſt pour ſa femme, &amp; ce qu'il penſe de la Vénitienne.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S08-2">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p><persName>Philinte</persName> ne vous a point reconnue, Madame ; il n'eut jamais pour vous des ſentimens plus tendres ni plus indifférens en même-tems : il eſt auſſi enchanté des  char-<pb n="20"/>mes de la belle Vénitienne , qu'il eſt peu touché du mérite de ſa femme ; &amp; vous n'eûtes jamais de plus cruelle rivale que vous-même.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S08-3">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Comment avez-vous pû ſi bien découvrir ce qu'il avoit dans l'ame.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S08-4">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>J'ai mis d'abord la converſation ſur le bal, &amp; je lui ai demandé s'il y avoit vû la belle Vénitienne qui avoit ſi bien danſé. Alors il m'a avoué que ſon cœur étoit pris pour elle, &amp; qu'il mouroit d'envie de ſçavoir qui elle étoit ; je lui ai répondu qu'elle étoit de ma connoiſſance, mais que j'avois promis le ſecret, &amp; que tout ce que je pouvois faire, étoit de m'engager à lui  donner une lettre à elle-même de ſa part, &amp; à lui en aporter une réponſe favorable. A ces mots, il a été ſi tranſporté, qu'il m'a embraſſé de joie, &amp; qu'il a écrit cette lettre qu'il m'a donnée, en me conjurant de hâter la réponſe dont je l'avois flatté.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S08-5">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Une lettre de mon mari ?</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S08-6">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Oui, de lui-même. Quel emploi pour un homme qui vous aime tendrement, mais qui craint de vous le dire ! Encore, ſi vous deviez m'en tenir quelque compte, je m'en conſolerois.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S08-7">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ſuis très-ſenſible à votre maniére obligeante ; mais, pour répondre à votre amour, je ne le dois ni ne le puis; c'eſt même trop que de l'écouter ſans colére. De quoi rit cette folle.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S08-8">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ris de ce qui ſe paſſe entre vous; &amp; je ne penſe pas qu'avant Monſieur, on ſe ſoit aviſé de ménager une intrigue galante entre le mari &amp; la femme dont on eſt amoureux, &amp; d'être le porteur des billets doux que l'un écrit à l'autre. Cela eſt nouveau, &amp; tout-à-fait réjouiſſant ; je ne ſçaurois y ſonger ſans rire.
+                        </p>
+                    </sp>
+                    <pb n="21"/>
+                    <sp who="Dorimene" xml:id="S08-9">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Voyons la lettre.</p>
+                        <stage type="business" rend="italics">(Elle lit.)</stage>
+                        <p rend="italics"><persName>Dorante</persName> ne me trompe-t-il pas, belle inconnue que j'adore ? Puis-je me flatter que vous recevrez ma lettre, que vous la lirez , &amp; que vous daignerez y répondre ? Je ne ſçaurois plus vivre ſans vous connoître. Montrez-vous avec tous vous apas, je vous en conjure.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S08-10">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Avois-je menti, Madame ?</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S08-11">
+                        <speaker>DORIMENE </speaker>
+                        <stage type="business" rend="italics">continue.</stage>
+                        <p rend="italics">Vous ne ſçauriez me donner de bonnes raiſons qui vous obligent a vous cacher ainſi. On m'a dit que ma femme vous faiſoit peur, &amp; que vous apréhendiez qu'elle ne fût plus belle que vous. En vérité , eſt-il queſtion de rivalité entre vous deux; &amp; me croyez-vous ſot juſqu'au point d'aimer ma propre femme ? Depuis que je vous ai vûe au bal, je ne ſçaurois la regarder, je la trouve inſuportable ; ſi vous ſouhaitez, je la verrai ſi rarement, &amp; de façon que vous n'en ſerez point jalouſe. Mais, afin de vous donner une marque plus éclatante de ma paſſion,je quitte mon humeur coquette pour m'attacher à vous, &amp; je vous ſacrifie une demie-douzaine de maîtreſſes que j'avois faites pour remplir le vuide du tems.
+                            <name rend="smallCaps">Philinte.</name>
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S08-12">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker> <note resp="Loterie, Joséphine">Le texte indique que c'est Dorimene qui prononce cette réplique, mais on se demande alors pourquoi elle n'a pas été mise à la suite de la lecture de la lettre.</note>
+                        <p>Une demie-douzaine de maîtreſſes ! Le perfide !</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S08-13">
+                        <speaker>LISETTE </speaker>
+                        <stage type="delivery" rend="italics">bas.</stage>
+                        <p>Et vous n'oſeriez pas avoir un galant.</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S08-14">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous voyez, Madame, que je ſuis ſincére ; il vous en écrit plus lui-même, que je ne vous en ai dit. Vous connoiſſez l'écriture.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S08-15">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Hélas ! Je ne la connois que trop.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S08-16">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Le crime eſt avéré, vous tenez ſa condamnation écrite &amp; ſignée de ſa main. Vous voyez dans ſa per-<pb n="22"/>ſonne un petit-maître qui penſe qu'il eſt du bel air de mépriſer ſa femme, &amp; qui ſe tiendroit dégradé, ſi l'on croyoit qu'il eût de l'amour pour elle ; qui fait gloire de ſon vice, &amp; qui rit de votre vertu.
+                            <stage type="delivery" rend="italics">(bas.)</stage>
+                            Il eſt tems, Madame, de faire choix d'un ami ; vous n'avez plus de reſſource.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S08-17">
+                        <speaker>DORIMENE </speaker>
+                        <stage type="delivery" rend="italics">d'un air ſévére.</stage>
+                        <p>Taiſez-vous, <persName>Liſette</persName>.</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S08-18">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Que <persName>Philinte</persName> eſt heureux, Madame ! Quoi qu'il faſſe, il ne ſçauroit vous déplaire, &amp; vous n'oſez vous venger.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S08-19">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Quoique je ſois femme, je ne ſuis point vindicative. Quand je me découvrirrai, peut-être qu'il rougira de ſa conduite, qu'il reviendra vers moi, &amp; qu'un juſte repentir rapellera ſa tendreſſe.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S08-20">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Il vous adore à preſent ſous l'idée d'une autre ; mais, la reconnoiſſance faite, il vous voudra du mal du piége que vous lui avez tendu ; &amp;, honteux d'y avoir donné, il vous haïra comme la peſte.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S08-21">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Quoi qu'il en ſoit, j'en veux voir la fin ; ainſi n'en parlons plus.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S08-22">
+                        <speaker>LISETTE </speaker>
+                        <stage type="delivery" rend="italics">à part.</stage>
+                        <p>Quelle femme ! Dans tout <placeName>Paris</placeName> on ne trouveroit pas ſa pareille.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S08-23">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Cela étant, Madame, je me charge du dénouëment ; vous n'avez qu'à faire ſemblant d'aller ſouper chez la Comteſſe votre amie, j'aurai ſoin du reſte. Je ſuis fâché d'enlever cet honneur à <persName>Liſette</persName>, mais l'intérêt de <persName>Léandre</persName> m'y oblige : comme il aime la jeune <persName>Angélique</persName>, &amp; qu'elle dépend de ſon frere, je ſuis bien aiſe de conduire l'intrigue à ſon avantage, &amp; de mettre <persName>Philinte</persName> dans la néceſſité de donner ſa ſœur à mon ami <pb n="23"/>préférablement à je ne ſçai quelle homme d'affaire qui la lui a demandée.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S08-24">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>J'imagine un moyen qui l'obligera à quitter priſe. Vous connoiſſez le maître de muſique d'<persName>Angélique</persName>, c'eſt une nouvelle eſpéce de fou qu'a produit l'opéra. Il croit être dans le monde, tout ce qu'il vient de jouer ſur le théâtre; il ne parle jamais que <persName type="lit_character" >Roland</persName> &amp; qu'<persName type="lit-character">Amadis</persName> : enfin, il eſt ſi fort accoutumé à ne rien dire qu'en chantant, qu'il ne ſçauroit donner le bon jour autrement. Tel que je viens de le dépeindre, je vais le mettre aux priſes avec notre vieux financier. Dieu ſçait ſi ce dernier ſera chanſonné ! Il faudra qu'il deſerte la maiſon, ou il aura la tête bonne.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S08-25">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p><persName>Dorante</persName>, je vous laiſſe, &amp; je vais me diſpoſer à ſortir ; vous me trouverez chez la Comteſſe.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S08-26">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ne manquerai pas de m'y rendre.</p>
+                    </sp>
+                </div>
+                <div type="scene" n="9" xml:id="S09">
+                    <head>SCENE IX<pc type="affirmative">.</pc></head>
+                    <stage>DORANTE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage>
+                    <sp who="Dorante" xml:id="S09-1">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>MA foi, <persName>Liſette</persName>, je quitte la partie. Je vois que la vertu de ta maîtreſſe eſt à l'épreuve de tous les mépris de ſon mari, &amp; que ſon cœur eſt monté à l'aimer toute ſa vie. Il n'y a plus que l'intérêt de mon ami, qui me faſſe agir.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S09-2">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Il n'a pas dépendu de moi que vous n'ayez eu un plus heureux ſuccès, j'y ai employé toute mon adreſſe.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S09-3">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Adieu, ma charmante <persName>Liſette</persName>. Voici <persName>Philinte</persName> qui vient, laiſſes-nous.
+                        </p>
+                    </sp>
+                    <pb n="24"/>
+                    <sp who="Lisette" xml:id="S09-4">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Monſieur, je ſuis votre ſervante.</p>
+                    </sp>
+                </div>
+                <div type="scene" n="10" xml:id="S10">
+                    <head>SCENE X<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE<pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage>
+                    <sp who="Philinte" xml:id="S10-1">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>QUelles nouvelles, mon cher ? Avez-vous rendu ma lettre ? L'a-t-on lue ? M'aportez-vous une réponſe ?
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S10-2">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Raſſurez-vous. J'ai de bonnes nouvelles à vous aprendre : votre lettre, a été fidèlement rendue, elle a été lue ; &amp;, ſi l'on n'y a pas répondu...
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-3">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>On n'y a pas répondu? Ah! <persName>Dorante</persName>, vous m'abuſez. Vous ne connoiſſez point la beauté qui me charme, vous ne lui avez point parlé. Je ſuis le plus malheureux des hommes ! Je ne dois plus eſpérer de la revoir, encore moins d'en être aimé.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S10-4">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ne vous abuſe point. Je la connois, je lui ai parlé ; vous la reverrez, &amp; vous en ſerez aimé plus que vous ne croyez, &amp;, peut-être, plus que vous ne voudrez.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-5">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Cele ne ſe peut pas. Vous vous trompez, vous dis-je. Je ſuis au deſeſpoir. Ah! Quel tourment d'adorer ce qu'on ne connoît point, &amp; qu'on ne ſçauroit plus retrouver.
+                        </p>
+                    </sp> 
+                    <sp who="Dorante" xml:id="S10-6">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je vous trompe ſi peu, que je vous la nommerois, ſans de bonnes raiſons qui m'en empêchent, &amp; que vous en demeuriez ſurpris vous-même.
+                        </p>
+                      </sp>
+                    <sp who="Philinte" xml:id="S10-7">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Encore une fois, vous me jouez.</p>
+                    </sp>
+                    <pb n="25"/>
+                    <sp who="Dorante" xml:id="S10-8">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Soit. Mais qu'aurez-vous à me répondre, ſi je vous donne ma parole d'honneur qu'elle viendra ce ſoir ſouper chez vous, &amp; qu'elle ſe fera connoître ?
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-9">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Ah ! Ce bonheur paſſe mon attente.</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S10-10">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>A une condition toutefois.... Je ne ſçai ſi vous voudrez y ſouſcrire.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-11">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Parlés, il n'eſt rien que je ne faſſe.</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S10-12">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>La perſonne que vous aimez, entre, comme moi, dans les intérêts de <persName>Léandre</persName> ; ainſi elle ne veut ſe découvrir à vous, qu'à condition que vous donnerez à notre ami la jeune <persName>Angélique</persName> dont il eſt amoureux.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-13">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Ah! Je donnerois ma femme, s'il le falloit.</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S10-14">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Oubliez-vous que vous avez la plus belle femme de <placeName>Paris</placeName> ?
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-15">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Eſt-elle comparable à mon inconnue ?</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S10-16">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Elle a beaucoup de ſon air &amp; de ſa taille.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-17">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous vous moquez ; c'eſt une naine en comparaiſon. Quand je me repreſente ma Vénitienne, que je me rapelle ſa grace à danſer, ſes yeux qui brilloient au travers du maſque, &amp; ſes belles mains que j'ai eu le bonheur de baiſer, je ſuis hors de moi-même, j'extravague de plaiſir. Que ſera-ce, bon Dieu ! quand je verrai tous ſes apas à découvert, &amp; que le maſque ne me cachera plus ſon viſage, qui eſt, ſans doute, le plus beau du monde ? Allez, mon cher ; hâtez-vous de me faire voir tant de charmes.
+                        </p>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="Dorante" xml:id="S10-18">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Si vous l'alliez trouver moins belle ?</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-19">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Cela eſt impoſſible. Allez, vous dis-je.</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S10-20">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Sur-tout, que le Chevalier ne ſe trouve pas ici.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-21">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Ne craignés rien ; j'ai laiſſé un billet chez lui, il n'aura garde de venir. Mais partés, je vous en conjure.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S10-22">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je vais la trouver de ce pas, &amp; la conduire ici dès qu'il ſera nuit. Mais ſouvenez-vous de la condition.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-23">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Allez. Dites-lui qu'elle peut faire dreſſer le Contrat comme elle jugera à propos : elle eſt maîtreſſe abſolue de mes volontés ; &amp; je donnerai les mains à tout ce qu'elle aura fait.
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S10-24">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous ne riſqués rien ; elle ménagera vos intérêts comme les ſiens propres. Adieu. Je pars.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S10-25">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Songeons maintenant à nous débarraſſer de ma femme. Mais la voici. Qu'elle me paroît enlaidie !
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene" n="11" xml:id="S11">
+                    <head>SCENE XI<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE <pc>,</pc> DORIMENE <pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage>
+                    <sp who="Philinte" xml:id="S11-1">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>AH ! Ah ! Madame, vous voilà diſpoſée à ſortir ! Cela me fait plaiſir.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S11-2">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Oui, Monſieur ; je vais ſouper chez la Comteſſe.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S11-3">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous m'avez prévenu, &amp; je voulois vous le dire. <pb n="27"/>Vous êtes trop ſédentaire ; il faut vous mettre à la mode, &amp; ne plus vivre ſi bourgeoiſement.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S11-4">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>C'eſt ce que je lui repreſente à tout moment. Il ne convient pas à une femme de ſa qualité, de ſe lever le jour &amp; de ſe coucher la nuit, comme une ſimple Marchande de  <placeName>la rue ſaint Denis</placeName>.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S11-5">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Allez, Madame ; je vous ordonne de vous bien réjouir.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S11-6">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Voilà ce qui s'apelle un bon mari, &amp; vous devez le croire, Madame.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S11-7">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Adieu, Monſieur ; vous méritez d'être obéi.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S11-8">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Heureuſement la voilà partie. Mais j'aperçois <persName>la Fleur</persName> tout eſſouflé.
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene" n="12" xml:id="S12">
+                    <head>SCENE XII<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE <pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage>
+                    <sp who="La Fleur" xml:id="S12-1">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>AH ! Monſieur , je viens d'être témoin d'un ſpectacle tragicomique. Les femmes du quartier ont voulu aſſaſſiner Monſieur le Chevalier à votre porte.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S12-2">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Voilà une terrible avanture !</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S12-3">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Comme il alloit entrer chez vous, il s'eſt vû tout-à-coup inveſti d'une troupe de femmes qui ont crié haro ſur lui. On le ſaiſit, on le déſarme ; déja plus d'une quenouille tirée avoit meurtri ſa tête , &amp; déja plus d'une main furieuſe <choice><sic>montroient</sic><corr>montrait</corr></choice> les dépouilles ſanglantes de ſes cheveux arrachés....
+                        </p>
+                    </sp>
+                    <pb n="28"/>
+                    <sp who="Philinte" xml:id="S12-4">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Alte-là. Point de deſcription, je te prie.</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S12-5">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>C'eſt pourtant-là mon fort, Monſieur, &amp; j'ai l'imagination fleurie : mais, puiſque vous le voulez, je baiſſe d'un ton, &amp; je vous dirai ſans figure, que Monſieur le Chevalier eût été mis en pièces, ſi le caroſſe d'un de ſes amis, qui eſt arrivé là fort à propos, &amp; qui a écarté la foule, ne l'eût tiré d'embarras.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S12-6">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Rien n'eſt plus à craindre qu'une populace irritée.</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S12-7">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Et ſur-tout, une populace de femmes. Je vais être à l'avenir diablement circonſpect ſur leur compte. Quand j'aurai du mal à dire de ces friponnes-là, je le dirai ſi bas qu'on ne m'entendra pas. Mais, Monſieur, parlons d'autre choſe : votre habit eſt tout prêt, <choice><sic>&amp;c...</sic><corr>et...</corr></choice>
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S12-8">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je n'en ai plus que faire ; ma charmante inconnue doit ſe rendre ici ce ſoir.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S12-9">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Et la Chauve-ſouris, Monſieur ?</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S12-10">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Fais venir <persName>Angélique</persName>.</p>
+                    </sp>
+                </div>
+                <div type="scene" n="13" xml:id="S13">
+                    <head>SCENE XIII<pc type="affirmative">.</pc></head>
+                    <sp who="Philinte" xml:id="S13-1">
+                        <speaker>PHILINTE </speaker>
+                        <stage rend="italics">ſeul.</stage>
+                        <p><persName>ALidor</persName>, ce vieux Financier, me la demande : on dit qu'il a de gros biens, mais mon amour veut que je l'accorde à <persName>Léandre</persName>. En lui donnant ma ſœur, je vais revoir &amp; connoître ma Maîtreſſe. Dois-je balancer un inſtant ? J'aperçois <persName>Angélique</persName> ; propoſons-lui la choſe : toute jeune qu'elle eſt, elle n'aura garde de reculer. Ses yeux diſent aſſez qu'elle n'eſt point <pb n="29"/>apellée au Couvent ; d'ailleurs, elle eſt dans un âge où l'on ne déguiſe rien.
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene" n="14" xml:id="S14">
+                    <head>SCENE XIV<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE<pc>,</pc> ANGELIQUE<pc type="affirmative">.</pc></stage>
+                    <sp who="Philinte" xml:id="S14-1">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Prochez-vous, <persName>Angélique</persName>.</p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S14-2">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Que vous plaît-il, mon frere ?</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S14-3">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous m'avez l'air de vous ennuyer hors du Couvent.</p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S14-4">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Pardonnez moi, mon petit frere, je ne ſçaurois mieux être qu'auprès de vous.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S14-5">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Mais ne quitteriez-vous pas ce petit frere, pour avoir un mari ? Vous riez. Qu'eſt-ce que cela ſignifie ? Auriez-vous déja du goût pour le mariage ?
+                        </p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S14-6">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Ma couſine <persName>Henriette</persName> s'eſt bien-mariée, j'ai pourtant trois mois plus qu'elle.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S14-7">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je croyois qu'un homme vous faiſoit peur.</p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S14-8">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Oh ! Je ne crains que les eſprits.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S14-9">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>La friponne ! Cela étant, je veux vous donner à Monſieur <persName>Alidor</persName>.
+                        </p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S14-10">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Non, non, celui-là me fait peur. Que ne me parlez-vous de <persName>Léandre</persName> ?
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S14-11">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous l'aimez donc ?</p>
+                    </sp>
+                    <pb n="30"/>
+                    <sp who="Angelique" xml:id="S14-12">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Eh!....</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S14-13">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Que veut dire ce eh ?</p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S14-14">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Mon Dieu ! Ne l'entendez-vous pas ? Ce eh, veut dire oui.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S14-15">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Comment, Mademoiſelle, vous aimez un homme à votre âge, &amp; vous oſez le dire ?
+                        </p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S14-16">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Eſt-ce qu'il y a du mal à aimer ce qui paroît aimable ?
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S14-17">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Sans doute ; &amp; cela eſt défendu aux jeunes filles comme vous.
+                        </p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S14-18">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ne l'aurois jamais crû ; cela eſt ſi doux, &amp; l'on a tant de plaiſir. Ah! Voici <persName>Léandre</persName>. Quand vous dévriez me gronder, je ne puis m'empêcher d'être bien aiſe.
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene" n="15" xml:id="S15">
+                    <head>SCENE XV<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE <pc>,</pc> LEANDRE <pc>,</pc> ANGELIQUE<pc type="affirmative">.</pc></stage>
+                    <sp who="Léandre" xml:id="S15-1">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker>
+                        <p>JE viens ſçavoir, Monſieur, s'il eſt vrai que vous conſentiez à mon bonheur, &amp; que vous accordiez <persName>Angélique</persName> à mon amour ?
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S15-2">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Oui, Monſieur ; je ferai honneur à ma parole : pourvû que votre ami tienne la ſienne, vous pouvez compter là-deſſus.
+                        </p>
+                    </sp>
+                    <sp who="Léandre" xml:id="S15-3">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker>
+                        <p>S'il ne tient qu'à cela, je ſuis ſûr d'être heureux. <pb n="31"/>Et vous, belle <persName>Angélique</persName> y donnez-vous les mains?
+                        </p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S15-4">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>J'aime tant mon cher frere, que je ſuis prête à faireſa volonté.
+                        </p>
+                    </sp>
+                    <sp who="Léandre" xml:id="S15-5">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker>
+                        <p>Après un tel aveu, je vais tout diſpoſer pour un nœud ſi charmant.
+                        </p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S15-6">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Ah! Mon petit frere, que je vous baiſe.</p>
+                    </sp>
+                </div>
+                <div type="scene" n="16" xml:id="S16">
+                    <head>SCENE XVI<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE <pc>,</pc> ALIDOR <pc>,</pc> ANGELIQUE <pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage>
+                    <sp who="La Fleur" xml:id="S16-1">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>VOilà Monſieur <persName>Alidor</persName> que je vous preſente.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S16-2">
+                        <speaker>PHILINTE</speaker> <stage type="delivery" rend="italics">à part.</stage>
+                        <stage type="delivery" rend="italics">à part.</stage>
+                        <p>Peſte ſoit de l'importun !</p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S16-3">
+                        <speaker>ANGELIQUE</speaker> <stage rend="italics" type="delivery">bas.</stage>
+                        <p>Qu'il eſt vilain !</p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S16-4">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Dépêchez-vous, Monſieur, de me donner cette belle enfant, car la brigue eſt forte : c'eſt à qui m'épouſera.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S16-5">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Le beau brun ! pour être couru des femmes.</p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S16-6">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p><persName>Angélique</persName> a eu le bonheur de me plaire, &amp; je lui jette le mouchoir.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S16-7">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>La faveur eſt grande ; mais je crains qu'elle n'ait de la répugnance à ſe marier.
+                        </p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S16-8">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Je n'en crois rien. N'eſt-il pas vrai, mon cœur, que <pb n="32"/>vous ſeriez charmée d'être la femme d'un homme riche comme moi ?
+                        </p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S16-9">
+                        <speaker>ANGELIQUE </speaker> <stage type="business" rend="italics">lui fait la révérence.</stage>
+                        <p>Je ſuis votre ſervante, Monſieur : je ne ſuis pas intéreſſée.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S16-10">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Voulez-vous que je vous parle franchement ? Mademoiſelle <persName>Angélique</persName> eſt trop jeune pour vous ; tout le monde riroit d'un mariage ſi mal aſſorti. Un garçon ſexagénaire n'eſt pas le fait d'une fille de douze ans.
+                        </p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S16-11">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Oh ! J'en ai bien treize, s'il vous plaît.</p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S16-12">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Moi, garçon ſexagénaire ! Tu as menti; c'eſt tout ſi j'ai cinquante-huit ans.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S16-13">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Ce n'étoit pas la peine de me donner un démenti.</p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S16-14">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Aprens, mon ami, qu'on ne compte point les années à qui eſt en état de compter des millions.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S16-15">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Il eſt vrai qu'il n'y a point de barbon que la fortune  n'ait la vertu de rajeunir, de magot qu'elle n'embelliſſe, ni de vilain qu'elle ne puiſſe annoblir.
+                        </p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S16-16">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Voilà un valet des plus impertinens ; vous dévriez, Monſieur, l'obliger à ſe taire.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S16-17">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Tais-toi, <persName>la Fleur</persName>.</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S16-18">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Pardon, Monſieur ; mais je ne puis m'empêcher de dire la vérité.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S16-19">
+                        <speaker>PHILINTE </speaker> <stage type="delivery" rend="italics">à part.</stage>
+                        <p>Que le jour eſt long, &amp; que ce audit homme me fatigue !  Quelqu'un ne pourra-t-il m'en défaire ? <stage type="delivery" rend="italics">(haut.)</stage> N'entens-je pas chanter ?
+                        </p>
+                    </sp>
+                    <sp who="Angelique" xml:id="S16-20">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>C'eſt, ſans doute, mon Maître de Muſique.</p>
+                    </sp>
+                    <pb n="33"/>
+                    <sp who="La Fleur" xml:id="S16-21">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>C'eſt lui-même. Il eſt dans l'entouſiaſme ; écoutons, il va nous réjouir.
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene" n="17" xml:id="S17">
+                    <head>SCENE XVII<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE <pc>,</pc> ALIDOR <pc>,</pc> ANGELIQUE <pc>,</pc> LE MAISTRE DE MUSIQUE<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage>
+                    <sp who="Le maître de Musique" xml:id="S17-1">
+                        <speaker>LE MAISTRE de Muſique<pc type="affirmative">.</pc></speaker>
+                        <l>DÉpit mortel, tranſport jaloux,</l>
+                        <l>Je m'abandonne à vous.</l>
+                        <l>Seuls confidens de mes peines ſecrettes...</l>
+                        <l>Vous raſſemblez en vous, belle Déeſſe,</l>
+                        <l>Tout ce qui fait briller les autres Dieux.</l>
+                        <l>Ah ! J'attendrai long-tems, la nuit eſt loin encore.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="S17-2">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Cela n'eſt que trop vrai, &amp; je ſuis dans le cas.</p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-3">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Quels diables de pots-pourris ! Il eſt fou.</p>
+                    </sp>
+                    <sp who="Le maître de Musique" xml:id="S17-4">
+                        <speaker>LE MAISTRE de Muſique<pc type="affirmative">.</pc></speaker>
+                        <l>Que de feux ! Que d'éclairs ! Quels éclats de tonnerre !</l>
+                        <l>Sous mes pas chancelans je ſens trembler la terre ;</l>
+                        <l>Ses goufres sont ouverts.</l>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-5">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Il faudroit le lier ; ſa folie dégénere en rage.</p>
+                    </sp>
+                    <sp who="Le maître de Musique" xml:id="S17-6">
+                        <speaker>LE MAISTRE de Muſique<pc type="affirmative">.</pc></speaker>
+                        <l>C'eſt <persName type="lit_character">Clitemneſtre</persName>. Fuis dans la nuit éternelle,</l>
+                        <l>Spectre horrible, ombre criminelle,</l>
+                        <l>Crains encore ma juſte fureur.</l>
+                        <stage type="business" rend="italics">(Il prend <persName>Alidor</persName> au collet.)</stage>
+                    </sp>
+                    <sp who="Angélique" xml:id="S17-7">
+                        <speaker>ANGELIQUE </speaker> <stage type='delivery' rend="italics">en riant.</stage>
+                        <p>Serrez fort.</p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-8">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Je ne ſuis point <persName type="lit_character">Clitemneſtre</persName>, de par tous les diables &amp; vous m'étouffez.
+                        </p>
+                    </sp>
+                    <pb n="34"/>
+                    <sp who="Philinte" xml:id="S17-9">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Ne craignés rien. Ne voyez-vous pas qu'il joue ?</p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-10">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Quel diantre de jeu d'étrangler les gens !</p>
+                    </sp>
+                    <sp who="Le maître de Musique" xml:id="S17-11">
+                        <speaker>LE MAISTRE de Muſique<pc type="affirmative">.</pc></speaker>
+                        <l>Où ſuis-je ? Pardonnez à l'erreur qui m'enchante ;</l>
+                        <l>Ma muſique, Meſſieurs, eſt bien votre ſervante.</l>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-12">
+                        <speaker>ALIDOR </speaker> <stage type="delivery" rend="italics">au maître de Muſique.</stage>
+                        <p>Et je ſuis à preſent votre valet <stage type="delivery" rend="italics">(à <persName>Philinte</persName>.)</stage> Quelle manie de parler toujours en chantant ?
+                        </p>
+                    </sp>
+                    <sp who="Le maître de Musique" xml:id="S17-13">
+                        <speaker>LE MAISTRE de Muſique<pc type="affirmative">.</pc></speaker>
+                        <l>S'exprimer en chantant n'eſt pas une manie ;</l>
+                        <l>C'eſt ainſi que chez nous parlent tous les héros,</l>
+                        <l>Les <persName type="lit_character">Cadmus</persName>, les <persName type="lit_character">Atys</persName>, les <persName type="lit_character">Rolands</persName>, les <persName type="lit_character">Renauds</persName>,</l>
+                        <l>Dont j'ai ſouvent l'honneur de me voir la copie.</l>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-14">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Il continue à extravaguer.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S17-15">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>C'eſt un privilége de la Muſique. Dès qu'on chante, on peut tout dire impunément ; l'air fait toujours paſſer les paroles.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S17-16">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Sur ce pied-là, il y a bien des gens qui ne dévroient jamais parler autrement.
+                        </p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-17">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Me conſeillez-vous d'aprendre la Muſique ?</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S17-18">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Oh ! Oui, je vous le conſeille très-fort; &amp; vous ne pourriez mieux vous adreſſer qu'à Monſieur.
+                        </p>
+                    </sp>
+                    <sp who="Le maître de Musique" xml:id="S17-19">
+                        <speaker>LE MAISTRE de Muſique<pc type="affirmative">.</pc></speaker>
+                        <l>Gardez-vous de me croire un vil Muſicien,</l>
+                        <l>Petit chantre ordinaire ;</l>
+                        <l>De l'Opéra je ſuis penſionnaire,</l>
+                        <l>Et me dis, à bon droit, Académicien.</l>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-20">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>La choſe étant ainſi, touchés-là ; vous aurez l'honneur de m'avoir pour écolier.
+                        </p>
+                    </sp>
+                    <pb n="35"/>
+                    <sp who="La Fleur" xml:id="S17-21">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Il eſt bien-tôt d'âge à l'être.</p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-22">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Dès demain nous commencerons. Dites-nous maintenant quelque choſe, là... qui ſoit drôle &amp; qui ſoit nouveau.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S17-23">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Sur-tout, quelque choſe qui ſoit court.</p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S17-24">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Mon cher maître , je vous recommande les vieux amoureux.
+                        </p>
+                    </sp>
+                    <sp who="Le maître de Musique" xml:id="S17-25">
+                        <speaker>LE MAISTRE de Muſique<pc type="affirmative">.</pc></speaker>
+                        <lg>
+                            <l>Qu'un barbon excite à rire</l>
+                            <l>Dans ſon amoureux délire,</l>
+                            <l>Qu'il eſt ſot, &amp; qu'il eſt laid,</l>
+                            <l>Quand il s'attendrit &amp; ſoupire</l>
+                            <l>Près d'un jeune &amp; charmant objet ?</l>
+                            <l>Les graces lui font la moue,</l>
+                            <l>Les ris badins ſur ſa joue,</l>
+                            <l>Apliquent plus d'un ſouflet ;</l>
+                            <l>Et l'amour qui de lui ſe joue,</l>
+                            <l>Le régale d'un camouflet.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S17-26">
+                        <speaker>LA FLEUR </speaker>
+                        <stage type="delivery" rend="italics">à <persName>Alidor</persName>.</stage>
+                        <p>Que dites-vous de ce couplet? <stage type="delivery" rend="italics">(en chantant.)</stage> Qu'un barbon...
+                        </p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-27">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>Je dis que tu es un ſot, &amp; le couplet auſſi.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S17-28">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous demandiés de la nouveauté, vous devez être ſatisfait.
+                        </p>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-29">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>L'air &amp; les paroles, tout eſt impertinent ; &amp; je me range du côté des anciens : on ne fait plus rien qui vaille.
+                        </p>
+                    </sp>
+                    <sp who="Le maître de Musique" xml:id="S17-30">
+                        <speaker>LE MAISTRE de Muſique<pc type="affirmative">.</pc></speaker>
+                        <l>Quoique d'âge aſſez mûr, vous parlez en jeune hom-<lb/>me ;</l>
+                        <l>Mais nous vous formerons, ou le diable m'aſſomme.</l>
+                    </sp>
+                    <pb n="36"/>
+                    <sp who="La Fleur" xml:id="S17-31">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Il court riſque de mourir ſous le bâton.</p>
+                    </sp>
+                    <sp who="Le maître de Musique" xml:id="S17-32">
+                        <speaker>LE MAISTRE de Muſique<pc type="affirmative">.</pc></speaker>
+                        <p>Peut-être ce couplet vous plaira beaucoup mieux.</p>
+                        <lg>
+                            <l>Qu'un homme de Finance </l>
+                            <l>Déplaît à tous les yeux, </l>
+                            <l>Lorſque ſon injuſte opulence </l>
+                            <l>Lui fait oublier ſes ayeux.</l>
+                        </lg>
+                    </sp>
+                    <sp who="Alidor" xml:id="S17-33">
+                        <speaker>ALIDOR<pc type="affirmative">.</pc></speaker>
+                        <p>C'en eſt trop ; ne ſouffrons pas qu'on nous joue plus long-tems. Sortons.
+                        </p>
+                    </sp>
+                    <sp who="Le maître de Musique" xml:id="S17-34">
+                        <speaker>LE MAISTRE de Muſique </speaker> <stage type="exit" rend="italics">en s'en allant.</stage>
+                        <lg>
+                            <l><persName>Doris</persName> étoit ma derniére amourette,</l>
+                            <l>Vous êtes mon premier amour ;</l>
+                            <l>Que tout ſe reſſente</l>
+                            <l>De la fureur que je ſens.</l>
+                        </lg>
+                    </sp>
+                    <sp who="Philinte" xml:id="S17-35">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Grace au Ciel, je ſuis débaraſſé de l'un &amp; l'autre. A la fin le Muſicien m'étoit à charge autant que le Financier. <persName>Dorante</persName> ne vient pas ; je brûle d'impatience.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S17-36">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Monſieur, le voici.</p>
+                    </sp>
+                </div>
+                <pb n="37"/>
+                <div type="scene" n="18" xml:id="S18">
+                    <head>SCENE XVIII<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE<pc>,</pc> DORANTE<pc>,</pc> LEANDRE<pc>,</pc> ANGELIQUE<pc>,</pc> LA FLEUR<pc>,</pc> UN NOTAIRE<pc type="affirmative">.</pc></stage>
+                    <sp who="Philinte" xml:id="S18-1">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>HÉ bien , <persName>Dorante</persName>, me tenez-vous parole ?</p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S18-2">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Oui ; vous allez être content. J'ai amené le Notaire, &amp; le Contrat eſt tout dreſſé.
+                        </p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S18-3">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker>
+                        <p>Le Contrat eſt dreſſé ! Que je ſuis aiſe ! Je ſerai mariée ?
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S18-4">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p><persName>Angélique</persName>, conduiſez le Notaire dans l'autre apartement.
+                        </p>
+                    </sp>
+                    <sp who="Angélique" xml:id="S18-5">
+                        <speaker>ANGELIQUE</speaker> <stage type="delivery" rend="italics">à <persName>Léandre</persName>.</stage>
+                        <p>Vous ne me ſuivez pas ?</p>
+                    </sp>
+                    <sp who="Léandre" xml:id="S18-6">
+                        <speaker>LEANDRE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ne vous quitte pas, ma belle <persName>Angélique</persName>.</p>
+                    </sp>
+                </div>
+                <pb n="38"/>
+                <div type="scene" n="19" xml:id="S19">
+                    <head>SCENE XIX<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE<pc>,</pc> DORANTE<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage>
+                    <sp who="Philinte" xml:id="S19-1">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p><c type="lettrine">P</c>Arlez, nous voilà libres. M'amenez-vous la beauté que j'aime ?
+                        </p>
+                    </sp>
+                    <sp who="Dorante" xml:id="S19-2">
+                        <speaker>DORANTE<pc type="affirmative">.</pc></speaker>
+                        <p>Elle vous attend dans ſon caroſſe ; allez lui donner la main.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S19-3">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>J'y cours.</p>
+                    </sp>
+                    <sp who="La Fleur">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Allons voir ſi ma Chauve-ſouris n'eſt point avec elle.
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene" n="20" xml:id="S20">
+                    <head>SCENE XX<pc type="affirmative">.</pc></head>
+                    <sp who="Dorante" xml:id="S20-1">
+                        <speaker>DORANTE </speaker>
+                        <stage rend="italics">ſeul.</stage>
+                        <p><c type="lettrine">J</c>'Ai fait tout ce que je devois faire pour mon ami, &amp; j'ai conduit la choſe au point qu'il ſouhaitoit. Retirons-nous maintenant, je ſuis ici de trop. De quelque façon que la <term type="dramatic">piéce</term> ſe <term type="dramatic">dénoue</term>, n'en ſoyons point le <term type="dramatic">ſpectateur</term>, &amp; ne riſquons point d'y <term type="dramatic">jouer</term> un fort ſot <term type="dramatic">perſonnage</term>. Voici <persName>Philinte</persName> &amp; <name type="person" n="Dorimene">Dorimene</name> ; ſortons.
+                        </p>
+                        <stage type="exit" rend="italics">(Il s'en va.)</stage>
+                    </sp>
+                </div>
+                <pb n="39"/>
+                <div type="scene" n="21" xml:id="S21">
+                    <head>SCENE XXI<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE <pc>,</pc> DORIMENE <hi rend="italics">déguiſée en  Vénitienne</hi><pc>,</pc>
+                        LA FLEUR<pc>,</pc>LISETTE<pc type="affirmative">.</pc> <hi rend="italics">déguiſée en Chauve-ſouris<pc type="affirmative">.</pc></hi></stage>
+                    <sp who="Philinte" xml:id="S21-1">
+                        <speaker>PHILINTE </speaker>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Dorimene">Dorimene</name>.</stage>
+                        <p>MAdame, puiſque nous ſommes ſeuls, ſouffrez que je me livre à toute la vivacité de mes tranſports. Mon bonheur eſt ſi grand, que j'ai de la peine à la croire. Eſt-il bien vrai, ma charmante inconnue, que je vous revois, que vous avez pitié de mes maux, &amp; que vous êtes venue ici dans le deſſein de vous faire connoître ?
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S21-2">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Vous n'en devez pas douter.</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S21-3">
+                        <speaker>LA FLEUR </speaker>
+                        <stage type="delivery" rend="italics">à <persName>Liſette</persName>.</stage>
+                        <p>Mon adorable Chauve-ſouris, puis-je me flatter que vous ayez ſuivi dans ce lieu votre maîtreſſe, avec la même bonne volonté pour votre eſclave <persName>la Fleur</persName> ?
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S21-4">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Il n'y a rien de plus ſûr.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S21-5">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Otez donc ce maſque jaloux, qui cache à mes yeux plus de moitié de vos charmes.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S21-6">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Que ſçavez-vous s'il ne cache point de vrais défauts ?Mes traits pourront bien vous déplaire.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S21-7">
+                        <speaker>LA FLEUR </speaker>
+                        <stage type="delivery" rend="italics">à <persName>Liſette</persName>.</stage>
+                        <p>Vous voulez bien que je vous faſſe la même priére ? Ne vous laiſſerez-vous point attendrir par ce regard languiſſant ? Ce ſoupir enflammé ne vous touchera-t'il pas ?
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S21-8">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>J'attens que ma maîtreſſe ſe découvre la premiére ; il ne ſeroit pas honnête de la prévenir.
+                        </p>
+                    </sp>
+                    <pb n="40"/>
+                    <sp who="Philinte" xml:id="S21-9">
+                        <speaker>PHILINTE </speaker>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Dorimene">Dorimene</name>.</stage>
+                        <p>Vous apréhendez de me déplaire ! Quelle injuſte idée !
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S21-10">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Croyez-moi, je ſuis du nombre de celles à qui le maſque eſt favorable : en ôtant le mien, je perdrai toute ma beauté , &amp; vous allez me haïr.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S21-11">
+                        <speaker>LA FLEUR </speaker>
+                        <stage type="delivery" rend="italics">à <persName>Liſette</persName>.</stage>
+                        <p>Montrez-moi votre friand minois, que mes yeux ſe raſſaſient du plaiſir de le voir.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S21-12">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je vous avouërai franchement que je ſuis effroyable.</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S21-13">
+                        <speaker>PHILINTE </speaker><stage type="delivery" rend="italics">à <name type="person" n="Dorimene">Dorimene</name>.</stage>
+                        <p>Ah ! Vous ne pouvez être que charmante; vos yeux m'en ſont de bons garans. Découvrez-vous au plûtôt. Faut-il vous en prier à genoux ? <note resp="IG">Didascalie interne, comme montré aussi par la réplique suivante de La Fleur.</note>
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S21-14">
+                        <speaker>LA FLEUR </speaker><stage type="mixed" rend="italics">à <persName>Liſette</persName>, en lui prenant le bras.</stage>
+                        <p>Vous ne le diriez pas, mon cœur, s'il étoit vrai; &amp; voilà un échantillon qui fait juger trop favorablement de toute la piéce. Laiſſez-moi voir ſeulement le bout de votre joli petit nez, par ces tendres genoux que je tiens embraſſés.
+                        </p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S21-15">
+                        <speaker>DORIMENE </speaker>
+                        <stage type="delivery" rend="italics">à <persName>Philinte</persName>.</stage>
+                        <p>Puiſque vous le voulez, je vais vous ſatiſfaire ; mais auparavant, il faut vous acquitter de ce que vous avez promis à <persName>Léandre</persName>, &amp; ſigner le Contrat que vous aporte le Notaire.<note resp="IG">Autre didascalie interne: entrée du notaire. Pas de changement de scène.</note>
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S21-16">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Je ſigne tout aveuglément.</p>
+                    </sp>
+                    <sp who="Le Notaire" xml:id="S21-17">
+                        <speaker>LE NOTAIRE<pc type="affirmative">.</pc></speaker>
+                        <note resp="Loterie, Joséphine">Ce personnage n'est pas noté comme présent dans cette scène.</note>
+                        <p>Le Contrat eſt en bonne forme, &amp; voilà qui eſt fait.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S21-18">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Donnez, donnez, Monſieur. </p>
+                    </sp>
+                 <stage type="exit" rend="italics">(Le Notaire ſort.)</stage>   
+                </div>
+                <pb n="41"/>
+                <div type="scene" n="22" xml:id="S22">
+                    <head>SCENE DERNIERE<pc type="affirmative">.</pc></head>
+                    <stage>PHILINTE<pc>,</pc> DORIMENE<pc>,</pc> LA FLEUR<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage>
+                    <sp who="Philinte" xml:id="S22-1">
+                        <speaker> <pc type="affirmative">.</pc></speaker>
+                        <p>QUe tardez-vous, Madame, à me rendre le plus heureux des hommes.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S22-2">
+                        <speaker>LA FLEUR </speaker><stage type="delivery" rend="italics">à <persName>Liſette</persName>.</stage>
+                        <p>Allons, ma reine.</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S22-3">
+                        <speaker>DORIMENE </speaker><stage type="business" rend="italics">en ſe découvrant.</stage>
+                        <p>Je le vois bien, je ne puis plus m'en défendre ; il faut me découvrir malgré que j'en aye. Me reconnoiſſez-vous ?
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S22-4">
+                        <speaker>LISETTE </speaker><stage type="business" rend="italics">ôtant auſſi ſon maſque.</stage>
+                        <p>Que dis-tu de ce viſage ?</p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S22-5">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>Que vois-je ? C'eſt ma femme !</p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S22-6">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Ah ! C'eſt <persName>Liſette</persName>! Je ſuis pris pour dupe.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S22-7">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Tu vois que je ſuis fille de parole.</p>
+                    </sp>
+                    <sp who="Dorimene" xml:id="S22-8">
+                        <speaker>DORIMENE<pc type="affirmative">.</pc></speaker>
+                        <p>Je vous l'avois bien dit que le maſque m'étoit avantageux, &amp; que je n'avois qu'à l'ôter pour me faire haïr.
+                        </p>
+                    </sp>
+                    <sp who="Philinte" xml:id="S22-9">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker>
+                        <p>J'avoue que jamais étonnement ne fut égal au mien ; mais mon trouble ſe diſſipe, je ſors d'erreur, &amp; votre vertu triomphe. Oui, Madame, je vous pardonne le piége où j'ai donné, puiſque c'eſt l'amour qui l'a tendu; &amp;, quoique vous ſoyiez ma femme, vous n'êtes pas moins digne de toute ma tendreſſe. Je reviens du préjugé où j'étois; j'abhorre tous les mauvais conſeils dont on m'avoit empoiſonné; je vais enfin réparer une infidélité de deux mois, par un redoublement d'amour <pb n="42"/>qui ne finira qu'avec ma vie : &amp;, pour vous prouver  que mon retour eſt ſincére, je confirme ce que je viens de ſigner, &amp; donne mon conſentement au mariage de <persName>Léandre</persName> &amp; d'<persName>Angélique</persName>, puiſque vous l'aprouvez.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S22-10">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Voilà qui eſt édifiant pour le tems où nous ſommes.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S22-11">
+                        <speaker>LISETTE </speaker>
+                        <stage type="delivery" rend="italics">à part.</stage>
+                        <p>Il n'y a que ſix mois qu'ils ſont mariés, je les attens au bout de l'année.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S22-12">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>L'exemple eſt contagieux, &amp; me donne preſque envie de t'épouſer.
+                        </p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S22-13">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Si tu me preſſois bien fort, je pourrois bien en faire la folie.
+                        </p>
+                    </sp>
+                    <sp who="La Fleur" xml:id="S22-14">
+                        <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker>
+                        <p>Peut-être ferions-nous mieux de garder le célibat.</p>
+                    </sp>
+                    <sp who="Lisette" xml:id="S22-15">
+                        <speaker>LISETTE<pc type="affirmative">.</pc></speaker>
+                        <p>Tu as raiſon ; prenons quelques jours pour y ſonger , c'eſt le parti le plus ſage.
+                        </p>
+                    </sp>
+                </div>
+        </body>
+    </text>
+</TEI>

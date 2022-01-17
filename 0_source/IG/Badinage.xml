@@ -1,0 +1,2001 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Le Badinage</title>
+                <title type="subtitle">Édition électronique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>pr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par </resp>
+                    <name>Loterie, Josephine</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Première édition, <date>2017</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-research.fr</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            <date>2017</date></publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT</hi><lb/>Son Théâtre François &amp; Italien<pc>.</pc><lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                        <imprint>
+                            <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                            <publisher>JEAN NEAULME</publisher>
+                            <date when="1758">M.DCC.LVIII</date>
+                            <note>Tome second</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                    <citedRange>Pages 111-150.</citedRange>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+                <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+                <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques, ainsi que les vers. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+                <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+                <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+                <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+                <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+                <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+                <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+                <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction><p>Les erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+                <punctuation>
+                    <p>La ponctuation n'est pas systématiquement encodée. Elle a été distinguée à l'intérieur des balises 'titre', afin de ne pas créer de faux doublons lors de l'extraction de ceux-ci (ex. 'Admète et Alceste,' considéré comme un titre distinct de 'Admète et Alceste.').</p> <p>Dans tous les cas, la punctuation d'origine a été respectée, y compris quand elle paraissait fautive. Dans ce cas, elle est signalée avec 'sic' et 'corr'. Toutefois, les particularités d'espacement de la ponctuation n'ont pas été reproduites à l'identique. Un système uniforme a été adopté: les ponctuations simples (point, virgule), sont placées immédiatement après le mot, les ponctuations doubles (point virgule, deux points, signes d'interrogation et d'exclamation) sont placées après une espace.</p>
+                </punctuation>
+                <interpretation>
+                    <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+                </interpretation>
+            </editorialDecl>
+            <fsdDecl>
+                <fsDecl type="character_specification">
+                    <fDecl name="temper">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="age">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="young" xml:id="AGY"/>
+                                <symbol value="old" xml:id="AGO"/>
+                                <symbol value="child" xml:id="AGC"/>
+                                <symbol value="adult" xml:id="AGA"/>
+                                <symbol value="unknown" xml:id="AGU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="sex">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="male" xml:id="SM"/>
+                                <symbol value="female" xml:id="SF"/>
+                                <symbol value="undetermined" xml:id="SU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="nationality">
+                        <vRange><string></string>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="ontological_category">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="human" xml:id="OCH"/>
+                                <symbol value="non-human" xml:id="OCNH"/>
+                                <symbol value="semi-human" xml:id="OCSH"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="family_position">
+                        <vRange>
+                            <vColl>
+                                <symbol value="father" xml:id="FPF"/>
+                                <symbol value="son" xml:id="FPSON"/>
+                                <symbol value="daughter" xml:id="FPD"/>
+                                <symbol value="mother" xml:id="FPM"/>
+                                <symbol value="uncle" xml:id="FPU"/>
+                                <symbol value="aunt" xml:id="FPA"/>
+                                <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                                <symbol value="sister" xml:id="FPSIS"/>
+                                <symbol value="brother" xml:id="FPB"/>
+                                <symbol value="cousin" xml:id="FPC"/>
+                                <symbol value="step-mother" xml:id="FPSM"/>
+                                <symbol value="step-father" xml:id="FPSF"/>
+                                <symbol value="step-daughter" xml:id="FPSD"/>
+                                <symbol value="step-son" xml:id="FPSS"/>
+                                <symbol value="guardian" xml:id="FPG"/>
+                                <symbol value="ward" xml:id="FPWA"/>
+                                <symbol value="husband" xml:id="FPH"/>
+                                <symbol value="wife" xml:id="FPWIF"/>
+                                <symbol value="widow" xml:id="FPWID"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="actantial_role">
+                        <vRange>
+                            <vColl>
+                                <symbol value="lover" xml:id="ARL"/>
+                                <symbol value="subject" xml:id="ARS"/>
+                                <symbol value="opponent" xml:id="AROP"/>
+                                <symbol value="adjuvant" xml:id="ARAD"/>
+                                <symbol value="authority" xml:id="ARAUT"/>
+                                <symbol value="trouble_maker" xml:id="ARTM"/>
+                                <symbol value="episodic" xml:id="AREP"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="occupation">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="collective_character">
+                        <vRange>
+                            <binary value="true" xml:id="COLL"/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1733-11-23">23 novembre 1733</date>
+                <rs type="city">Paris, France.</rs></creation>
+            <textClass>
+                <keywords>
+                    <term>théâtre</term>
+                    <term>comédie</term>
+                    <term>comédie en vers</term>
+                    <term>comédie allégorique</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-08-02" who='IG'>
+               Confrontation avec le témoin (Néaulme 1758), et correction des erreurs de saisie. Remplacement des balises 'name' par des balises 'persName' et 'placeName'. Ajout de la 'feature structure' et balisage de la liste des personnages. Ajout de 'xml:id'.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="111"/>
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">LE BADINAGE<pc>,</pc></titlePart><lb/><lb/>
+                    <titlePart type="desc">COMEDIE<pc type="affirmative">.</pc></titlePart>
+                </docTitle>
+            </titlePage>
+            <pb n="112"/>
+            <castList>
+                <head rend="center">ACTEURS<pc type="affirmative">.</pc></head><lb/>
+                <castItem ana="#OCNH #SM #AGU"><role>LE BADINAGE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem ana="#OCNH #SM #AGU"><role>L'AUTOMNE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem ana="#OCNH #SF #AGU"><role>L'INDULGENCE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem ana="#OCH #SF #AGY"><role>ANGELIQUE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem ana="#OCH #SM #AGU"><role>UN <fs><f name="occupation">ACTEUR COMIQUE</f></fs></role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem ana="#OCH #SM #AGU"><role>UN <fs><f name="occupation">OFFICIER</f></fs></role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem ana="#OCH #SM #AGU"><role>UN <fs><f name="occupation">AUTEUR</f></fs></role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem ana="#COLL"><role>LE PARTERRE</role><pc type="affirmative">.</pc></castItem><lb/>
+            </castList>
+            <lb/><lb/><lb/><lb/>
+            <set>
+                <p rend="italics">La Scène eſt ſur le Théâtre de la Comédie<lb/> Françoiſe.</p>
+            </set>
+        </front>
+        <body>
+            <pb n="113"/>
+            <div type="title">
+                <head>LE BADINAGE<pc>,</pc> COMEDIE<pc type="affirmative">.</pc><lb/></head>
+            </div>
+            <div type="scene" n="1" xml:id="S1">
+                    <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                    <stage>L'AUTOMNE <pc>,</pc> UN ACTEUR COMIQUE <pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="L'Automne" xml:id="S1-1">
+                        <speaker>L'AUTOMNE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='1' xml:id='l1'>MOnſieur l'Acteur de Comédie.</l>
+                        <l n='2' xml:id='l2'>Que votre mine eſt rembrunie !</l>
+                        <l n='3' xml:id='l3'>On lit ſur votre front la triſteſſe<lb/> l'ennui ;</l>
+                        <l n='4' xml:id='l4'>Et l'on vous prendroit, aujourd'hui,</l>
+                        <l n='5' xml:id='l5'>Pour un Héros de Tragédie.</l>
+                        <l n="6" xml:id="l6_1" part="I">Vous me boudez, je croi ?</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S1-2">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l6_2" part="F">Ce n'eſt pas ſans raiſon.</l>
+                        <l n='7' xml:id='l7'>Maudite ſoit votre ſaiſon,</l>
+                        <l n='8' xml:id='l8'>Qui cauſe mon chagrin, cruel Dieu de l'Automne !</l>
+                        <l n='9' xml:id='l9'>Elle nous a plus nui que les grandes chaleurs ;</l>
+                        <l n='10' xml:id='l10'>C'eſt peu de nous avoir privé de nos Acteurs,</l>
+                        <pb n="114"/>
+                        <l n='11' xml:id='l11'>Vous nous avez encore, <persName type="god">Bellone</persName> &amp; vous,</l>
+                        <l n='12' xml:id='l12'>Enlevé tous nos ſpectateurs.</l>
+                    </sp>
+                    <sp who="L'Automne" xml:id="S1-3">
+                        <speaker>L'AUTOMNE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='' xml:id='l13'>Voilà le tems qui les rapelle :</l>
+                        <l n='' xml:id='l14'>Après cette éclipse, Meſſieurs,</l>
+                        <l n='' xml:id='l15'>La ſplendeur de vos jeux n'en ſera que plus belle.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S1-4">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='16' xml:id='l16'>Il faudra plus d'un jour pour nous bien rétablir</l>
+                        <l n='17' xml:id='l17'>Du tort que nous a fait cette abſence mortelle,</l>
+                        <l n='18' xml:id='l18'>Où nous n'avons fait que languir.</l>
+                        <l n='19' xml:id='l19'>Heureux ! ſi nous pouvions aujourd'hui la finir</l>
+                        <l n='20' xml:id='l20'>Par une nouveauté, qui, marquant notre zèle,</l>
+                        <l n='21' xml:id='l21'>Pût inviter le monde à revenir,</l>
+                        <l n='22' xml:id='l22'>Et qui donnât le tems à <persName type="god">Melpomène</persName></l>
+                        <l n='23' xml:id='l23'>De reparoître ſur la Scène</l>
+                        <l n='24' xml:id='l24'>Pour y faire parler ſes pompeuſes douleurs.</l>
+                        <l n='25' xml:id='l25'>Heureux ! qu'on ſe prêtât à nos efforts ſans peine,</l>
+                        <l n='26' xml:id='l26'>Et qu'on voulût bien rire, en attendant les pleurs.</l>
+                    </sp>
+                    <sp who="L'Automne" xml:id="S1-5">
+                        <speaker>L'AUTOMNE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='27' xml:id='l27'>Comment ! Ce dernier jour d'abſence,</l>
+                        <l n='28' xml:id='l28'>Vous comptez donner du nouveau ?</l>
+                        <l n='29' xml:id='l29'>Quelle favorable puiſſance</l>
+                        <l n='30' xml:id='l30'>A fait ſi promptement les frais d'un tel cadeau ?</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S1-6">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='31' xml:id='l31'>Un Génie à la mode, &amp; qui préſide en <placeName>France</placeName> ,</l>
+                        <l n='32' xml:id='l32'>Nous a promis ſon aſſiſtance ;</l>
+                        <l n='33' xml:id='l33'>Pour commencer, dans ce moment,</l>
+                        <l n='34' xml:id='l34'>Nous n'attendons que ſa preſence.</l>
+                        <l n='35' xml:id='l35'>Lui-même de la Piéce eſt le Héros charmant,</l>
+                        <l n='36' xml:id='l36'>Le plaiſir vole ſur ſes traces,</l>
+                        <l n='37' xml:id='l37'>Il eſt précédé par les jeux ;</l>
+                        <l n='38' xml:id='l38'>C'eſt un enfant des ris adopté par les graces,</l>
+                        <l n='39' xml:id='l39'>Et l'amour en a fait ſon compagnon joyeux.</l>
+                        <l n='40' xml:id='l40'>A <term type='poetics'>l'enjoûment</term> ce Dieu joint <term type="poetics">la fineſſe</term> :</l>
+                        <l n='41' xml:id='l41'>Il raille ſans aigreur, plaiſante ſans baſſeſſe ;</l>
+                        <l n='42' xml:id='l42'>Le <term type="poetics">goût</term> guide ſes pas juſques dans ſes écarts.</l>
+                        <l n='43' xml:id='l43'>S'il franchit quelquefois l'exacte <term type="poetics">bienſéance</term>,</l>
+                        <l n='44' xml:id='l44'><term type="poetics">L'agrément</term> qui le ſuit l'excuſe à nos regards.</l>
+                        <pb n="115"/>
+                        <l n='45' xml:id='l45'>Mais ce qui nous le fait aimer par préférence,</l>
+                        <l n='46' xml:id='l46'>Il poſſéde, Seigneur, la plus rare ſcience,</l>
+                        <l n='47' xml:id='l47'>C'eſt de <term type="poetics">plaire</term> aux honnêtes-gens,</l>
+                        <l n='48' xml:id='l48'>Et de les faire rire à leur propre dépens.</l>
+                        <l n='49' xml:id='l49'>On le cherche en tous lieux, on le goûte à tout âge</l>
+                        <l n='50' xml:id='l50'>Et ſon nom ſeul a le pouvoir charmant</l>
+                        <l n='51' xml:id='l51'>De dérider le front le plus ſauvage.</l>
+                        <l n='52' xml:id='l52'>A des traits ſi marqués vous devez, ſur le champ,</l>
+                        <l n='53' xml:id='l53'>Reconnoître le <persName type='allegory'>Badinage</persName>.</l>
+                    </sp>
+                    <sp who="L'Automne" xml:id="S1-7">
+                        <speaker>L'AUTOMNE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='54' xml:id='l54'>Oui. Je le reconnois vraiment.</l>
+                        <l n='55' xml:id='l55'>Je l'ai vû folatrer aux Vendanges nouvelles ;</l>
+                        <l n='56' xml:id='l56'>Il en faiſoit tout l'agrément.</l>
+                        <l n='57' xml:id='l57'>Comme <persName type="god" n="Zéphyr">Zéphir</persName> il a des aîles.</l>
+                        <l n='58' xml:id='l58'>Pour ce Dieu même à toute heure on le prend.</l>
+                        <l n='59' xml:id='l59'>Comme lui, le follet voltige à tout moment.</l>
+                        <l n='60' xml:id='l60'>Noble dans ſa gayté, brillant dans ſa folie,</l>
+                        <l n='61' xml:id='l61'>Il ſemble fait pour votre Comédie.</l>
+                        <l n='62' xml:id='l62'>Je vous en fais mon compliment.</l>
+                        <l n='63' xml:id='l63'>S'il vient ici, vous aurez compagnie</l>
+                        <l n='64' xml:id='l64'>Mais puiſqu'il faut parler avec ſincérité,</l>
+                        <l n='65' xml:id='l65'>Je crains que le petit volage</l>
+                        <l n='66' xml:id='l66'>Ne vous faſſe infidélité.</l>
+                        <l n='67' xml:id='l67'>On ſçait qu'il eſt plus amuſant que ſage.</l>
+                        <l n='68' xml:id='l68'>Près du <placeName>Palais Royal</placeName> je l'ai tantôt quitté.</l>
+                        <l n="69" xml:id="l69_1" part="I">C'eſt un Quartier ſuſpect.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S1-8">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l69_2" part="F">Eh, Quoi? Toujours le drôle</l>
+                        <l n='70' xml:id='l70'>Vers ce Quartier maudit ſera-t-il attiré ?</l>
+                        <l n='71' xml:id='l71'>Ah ! Dans cet <name type="institution">Opéra</name> ſans ceſſe il eſt fourré !</l>
+                        <l n='72' xml:id='l72'>Daignez donc le ſommer, Seigneur, de notre part,</l>
+                        <l n='73' xml:id='l73'>De venir au plûtôt acquiter ſa parole.</l>
+                    </sp>
+                    <sp who="L'Automne" xml:id="S1-9">
+                        <speaker>L'AUTOMNE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='74' xml:id='l74'>J'y vais employer tout mon art, </l>
+                        <l n='75' xml:id='l75'>Et réparer par-là le tort qu'ont pû vous faire</l>
+                        <l n='76' xml:id='l76'>Tous les malheurs de ma Saiſon contraire.</l>
+                        </sp>
+                <stage type="exit" rend="italics">(Il ſort.)</stage>
+                </div>
+                <pb n="116"/>
+                <div type="scene" n="2" xml:id="S2">
+                    <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                    <stage>L'INDULGENCE <pc>,</pc> L'ACTEUR<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="L'Indulgence" xml:id="S2-1">
+                        <speaker>L'INDULGENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='77' xml:id='l77'>DE votre Comédie, &amp; de vous, en ce jour,</l>
+                        <l n='78' xml:id='l78'>Je ſuis, Monſieur, la très-humble ſervante,</l>
+                        <l n='79' xml:id='l79'>Et je viens pour vos Jeux, vous prouver mon amour.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S2-2">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='80' xml:id='l80'>Pour reconnoître ici cette marque obligeante,</l>
+                        <l n='81' xml:id='l81'>Madame, je voudrois aprendre votre nom.</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S2-3">
+                        <speaker>L'INDULGENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='82' xml:id='l82'>Je ſuis une Déeſſe affable &amp; bienfaiſante,</l>
+                        <l n='83' xml:id='l83'>Qui, pour vous, du public, brigue l'affection.</l>
+                        <l n='84' xml:id='l84'>Aſſidument je fais ma reſidence</l>
+                        <l n='85' xml:id='l85'>Chez <name type="institution">les Italiens</name> qui m'implorent toujours.</l>
+                        <l n='86' xml:id='l86'>Connoiſſant vos beſoins pour couronner l'abſence,</l>
+                        <l n='87' xml:id='l87'>Je viens offrir mon ſecours,</l>
+                        <l n='88' xml:id='l88'>Et je m'apelle ><persName type="allegory">l'Indulgence</persName>.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S2-4">
+                        <speaker>L'ACT<sic>A</sic><corr>E</corr>UR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='89' xml:id='l89'>Ah! Quel eſt mon raviſſement !</l>
+                        <l n='90' xml:id='l90'>Madame, dans ces lieux ſoyez la bien venuë ;</l>
+                        <l n='91' xml:id='l91'>Nous avons de votre aide un beſoin très-preſſant.</l>
+                        <l n='92' xml:id='l92'>Pardonnez, ſi d'abord je vous ai méconnuë :</l>
+                        <l n='93' xml:id='l93'>Nous vous voyons ſi rarement.</l>
+                        <l n='94' xml:id='l94'>Pour toute notre Comédie</l>
+                        <l n='95' xml:id='l95'>Recevez mon remerciement.</l>
+                        <l n='96' xml:id='l96'>Puiſſiez-vous avec nous être toujours unie,</l>
+                        <l n='97' xml:id='l97'>Et ne nous quitter de la vie.</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S2-5">
+                        <speaker>L'INDULGENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='98' xml:id='l98'>Ah ! Comme la néceſſité</l>
+                        <l n='99' xml:id='l99'>Rend tendre dans l'adverſité !</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S2-6">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='100' xml:id='l100'>Non. Ce n'eſt pas ma diſgrace preſente,</l>
+                        <l n='101' xml:id='l101'>C'eſt le penchant que j'ai pour vous,</l>
+                        <pb n="117"/>
+                        <l n='102' xml:id='l102'>Et votre perſonne charmante.</l>
+                        <l n='103' xml:id='l103'>Qui font naître en mon cœur des ſentiments ſi doux.</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S2-7">
+                        <speaker>L'INDULGENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='104' xml:id='l104'>Ce n'eſt qu'un compliment, il ne vous coûte guére.</l>
+                        <l n='105' xml:id='l105'>Soit par coûtume, ou par <choice><sic>précautiou</sic><corr>précaution</corr></choice>,</l>
+                        <l n='106' xml:id='l106'><span type="syllepse_dramatique">Vous en avez de prêts ſelon l'occaſion</span>,</l>
+                        <l n='107' xml:id='l107'>Et votre métier eſt d'en faire.</l>
+                        <l n='108' xml:id='l108'>Quant à moi, connoiſſez quel eſt mon caractére.</l>
+                        <l n='109' xml:id='l109'>Par le ſeul plaiſir d'obliger,</l>
+                        <l n='110' xml:id='l110'>Je prête mon ſecours, quand il eſt néceſſaire,</l>
+                        <l n='111' xml:id='l111'>Sans en attendre de ſalaire,</l>
+                        <l n='112' xml:id='l112'>Et ſans jamais en exiger.</l>
+                        <l n='113' xml:id='l113'>Pour ſignaler d'abord auprès de vous mon zèle,</l>
+                        <l n='114' xml:id='l114'>Je dois vous dire une bonne nouvelle ;</l>
+                        <l n='115' xml:id='l115'>Le <persName type='allegory'>Badinage</persName> ici va ſe rendre à l'inſtant.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S2-8">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='116' xml:id='l116'>Vous ranimez notre eſpérance !</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S2-9">
+                        <speaker>L'INDULGENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='117' xml:id='l117'>Je viens de lui parler dans le même moment,</l>
+                        <l n='118' xml:id='l118'>Et par bonté je le devance ;</l>
+                        <l n='119' xml:id='l119'>Car pour être aprouvé de tous,</l>
+                        <l n='120' xml:id='l120'>Le <persName type='allegory'>Badinage</persName> a beſoin d'indulgence .</l>
+                        <l n='121' xml:id='l121'>Je ne pouvois venir plus à propos chez vous.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S2-10">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='122' xml:id='l122'>Ah ! Quel bonheur pour notre Comédie,</l>
+                        <l n='123' xml:id='l123'>Si nous pouvions ce ſoir vous réünir tous deux ?</l>
+                        <l n='124' xml:id='l124'>Mais ce bonheur n'eſt plus douteux.</l>
+                        <l n='125' xml:id='l125'>Un bruit leger dont mon ame eſt ravie,</l>
+                        <l n='126' xml:id='l126'>Vient m'annoncer cet aimable Génie.</l>
+                        <l n='127' xml:id='l127'>Je le vois ; c'eſt lui-même, &amp; mes vœux ſont remplis !</l>
+                    </sp>
+                </div>
+                <pb n="118"/>
+                <div type="scene" n="3" xml:id="S3">
+                    <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE BADINAGE<pc>,</pc> L'INDULGENCE<pc>,</pc> <lb/>L'ACTEUR<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="Badinage" xml:id="S3-1">
+                        <speaker>LE BADINAGE </speaker><stage type="delivery" rend="italics">à l'Acteur.</stage>
+                        <l n='128' xml:id='l128'>EH ! bonſoir, mon très-cher ; point de mélanco-<lb/>lie.</l>
+                        <l n='129' xml:id='l129'>Je viens tenir tout ce que j'ai promis.</l>
+                        <lb/><stage type="delivery" rend="italics">(à l'Indulgence.)</stage><lb/>
+                        <l n='130' xml:id='l130'>Vous, touchez-là, ma bonne amie.</l>
+                        <l n='131' xml:id='l131'>A mon aſpect je prétens que tout rie.</l>
+                        <l n='132' xml:id='l132'>Je veux d'abord, par un baiſer ,</l>
+                        <l n='133' xml:id='l133'>Vous égayer la phyſionomie.</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S3-2">
+                        <speaker>L'INDULGENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='134' xml:id='l134'>Arrêtez-vous, c'eſt trop oſer.</l>
+                        <l n='135' xml:id='l135'>A ce Théâtre il faut plus de décence.</l>
+                    </sp>
+                    <sp who="Badinage" xml:id="S3-3">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='136' xml:id='l136'>Vous moquez-vous ? votre preſence</l>
+                        <l n='137' xml:id='l137'>A ces petits écarts ſemble m'autoriſer.</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S3-4">
+                        <speaker>L'INDULGENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='138' xml:id='l138'>Songez qu'il eſt un terme à notre complaiſance,</l>
+                        <l n='139' xml:id='l139'>Il ne faut pas en abuſer.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-5">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='140' xml:id='l140'>Franchir un peu la borne eſt ma grande ſcience.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S3-6">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='141' xml:id='l141'>Le <persName type='allegory'>Badinage</persName> ici doit être retenu,</l>
+                        <l n='142' xml:id='l142'>Il n'y peut être bien reçu,</l>
+                        <l n='143' xml:id='l143'>S'il n'obſerve toujours l'exacte bienſéance.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-7">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='144' xml:id='l144'>Mais vous n'y ſongez pas vraiment.</l>
+                        <l n='145' xml:id='l145'>Vous voulez donc me mettre en eſclavage ?</l>
+                        <l n='146' xml:id='l146'>M'anéantir par conſéquent ;</l>
+                        <l n='147' xml:id='l147'>Car ſans la liberté qui fait mon apanage,</l>
+                        <l n='148' xml:id='l148'>Serviteur à mon enjoument ,</l>
+                        <l n='149' xml:id='l149'>Et ſans la joye, adieu le <persName type='allegory'>Badinage</persName>.</l>
+                    </sp>
+                    <pb n="119"/>
+                    <sp who="L'Acteur" xml:id="S3-8">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='150' xml:id='l150'>Oui, mais ſi l'on ne met un frein</l>
+                        <l n='151' xml:id='l151'>A votre humeur trop libertine,</l>
+                        <l n='152' xml:id='l152'>Crac, vous prenez l'eſſor ſoudain.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-9">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='153' xml:id='l153'>Mais le moyen que je badine,</l>
+                        <l n='154' xml:id='l154'>Si l'on me charge auſſi d'un joug trop aſſommant ?</l>
+                        <l n='155' xml:id='l155'>Tout l'art conſiſte ſeulement</l>
+                        <l n='156' xml:id='l156'>A me <term type="poetics">voiler</term> legérement.</l>
+                        <l n='157' xml:id='l157'>Car enfin plus la <term type="poetics">gaze</term> eſt fine,</l>
+                        <l n='158' xml:id='l158'>Plus ma beauté paroît, &amp; plus j'ai d'agrément.</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S3-10">
+                        <speaker>L'INDULGENCE</speaker> <stage type="delivery" rend="italics">à l'Acteur.</stage><lb/>
+                        <l n='159' xml:id='l159'>Entre nous ce diſcours eſt aſſez véritable.</l>
+                        <l n='160' xml:id='l160'>Sur la Scène il ſuffit que l'élégance aimable</l>
+                        <l n='161' xml:id='l161'>Prête ſon voile à ſes expreſſions,</l>
+                        <l n='162' xml:id='l162'>Et que je donne un vernis favorable</l>
+                        <l n='163' xml:id='l163'>A ſes plus folles actions.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S3-11">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='164' xml:id='l164'>Vous le gâtez par trop de complaiſance.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-12">
+                        <speaker>LE BADINAGE</speaker> <stage type="delivery" rend="italics">à l'Indulgence<pc type="affirmative">.</pc></stage>
+                        <l n='165' xml:id='l165'>Vous faites bien de prendre ma défenſe.</l>
+                        <l n='166' xml:id='l166'>Quand il arriveroit qu'aujourd'hui dans ce lieu</l>
+                        <l n='167' xml:id='l167'>Nous échaperions un peu,</l>
+                        <l n='168' xml:id='l168'>On doit nous le paſſer. Un dernier jour d'abſence,</l>
+                        <l n='169' xml:id='l169'>Il eſt permis de s'égaïer.</l>
+                        <l n='170' xml:id='l170'>Et cela ne doit pas tirer à conſéquence.</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S3-13">
+                        <speaker>L'INDULGENCE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='171' xml:id='l171'>N'importe, ayez le geſte un peu moins familier.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-14">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="172" xml:id="l172_1" part="I">C'eſt <span type="syllepse_dramatique">un jeu de théâtre</span>.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S3-15">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l172_2" part="F">Ou plutôt de <term type="poetics">foyer</term>.</l>
+                        <l n='173' xml:id='l173'>Suivez votre génie, &amp; badinez ſans ceſſe,</l>
+                        <l n='174' xml:id='l174'>Mais badinez avec ſageſſe,</l>
+                        <l n='175' xml:id='l175'>Le <term type="poetics">Public</term> en tout tems veut être reſpecté,</l>
+                        <l n='176' xml:id='l176'>Et l'air du Magazin, Seigneur, vous a gâté.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-16">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='177' xml:id='l177'>Sur le théâtre où brillent les Actrices</l>
+                        <pb n="120"/>
+                        <l n='178' xml:id='l178'>Eh bien, ſoit, je me contraindrai ;</l>
+                        <l n='179' xml:id='l179'>Mais à condition, qu'en ſortant, je prendrai</l>
+                        <l n='180' xml:id='l180'>Ma revanche dans les couliſſes.</l>
+                        <l n='181' xml:id='l181'>Paſſez-moi cet article, ou je m'envolerai.</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S3-17">
+                        <speaker>L'INDULGENCE</speaker> <stage type="delivery" rend="italics">à l'Acteur.</stage>
+                        <l n="182" xml:id="l182_1" part="I">Que riſquez-vous ?</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S3-18">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l182_2" part="F">Jamais je n'y conſentirai</l>
+                        <l n='183' xml:id='l183'>Et la bienſéance eſt contraire....</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-19">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='184' xml:id='l184'>Avec ſa bienſéance il me met en colére.</l>
+                        <l n='185' xml:id='l185'>Je <choice><sic>parts</sic><corr>pars</corr></choice>. Il fera beau lorſque je reviendrai.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S3-20">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='186' xml:id='l186'>Mais quoi ? vos intérêts ſont fondés ſur les nôtres.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-21">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='187' xml:id='l187'>Voilà pourquoi je prends de vous congé ;</l>
+                        <l n='188' xml:id='l188'>Car ſi je renonçois au plus beau droit que j'ai,</l>
+                        <l n='189' xml:id='l189'>Je m'ennuïrois chez vous, &amp; j'ennuïrois les autres.</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S3-22">
+                        <speaker>L'INDULGENCE</speaker> <stage>au <persName type='allegory'>Badinage</persName><pc type="affirmative">.</pc></stage>
+                        <l n='190' xml:id='l190'>Seigneur arrêtez un moment.</l>
+                        <lb/><stage type="delivery" rend="italics">(à l'Acteur.)</stage><lb/>
+                        <l n='191' xml:id='l191'>Il eſt ſi joli , ſi charmant !</l>
+                        <l n='192' xml:id='l192'>Paſſez-lui quelque choſe en faveur de ſa grace.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S3-23">
+                        <speaker>L'ACTEUR</speaker> <stage type="delivery" rend="italics">au <persName type='allegory'>Badinage</persName>.</stage><lb/>
+                        <l n='193' xml:id='l193'>Vous le voulez abſolument ?</l>
+                        <l n='194' xml:id='l194'>Eh bien, pour vous avoir, il n'eſt rien qu'on ne faſſe.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-24">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='195' xml:id='l195'>Oh ! de me contenir c'eſt le plus ſûr moyen,</l>
+                        <l n='196' xml:id='l196'>Le naturel du <persName type='allegory'>Badinage</persName></l>
+                        <l n='197' xml:id='l197'>Eſt d'être retenu quand on n'exige rien,</l>
+                        <l n='198' xml:id='l198'>Et de s'émanciper, dès qu'on veut qu'il ſoit ſage.</l>
+                        <l n='199' xml:id='l199'>La défenſe de ſoi porte au libertinage.</l>
+                        <l n='200' xml:id='l200'>Mais c'eſt trop rire à vos dépens.</l>
+                        <l n='201' xml:id='l201'>Sortez d'erreur tous deux, il en eſt tems.</l>
+                        <l n='202' xml:id='l202'>Tel que vous me voyez paroître.</l>
+                        <l n='203' xml:id='l203'>Je ſçais autant que vous reſpecter les égards,</l>
+                        <l n='204' xml:id='l204'>Et c'eſt pour badiner que j'ai feint ces écarts.</l>
+                        <l n='205' xml:id='l205'>Pour me faire d'abord connoître,</l>
+                        <pb n="121"/>
+                        <l n='206' xml:id='l206'>Aprenés que nous ſommes deux.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S3-25">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="207" xml:id="l207_1" part="I">Quoi ! Vous avez un frere ?</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-26">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l207_2" part="F">Oui, qui n'en vaut pas mieux</l>
+                        <l n='208' xml:id='l208'>Pour être mon aîné. Le vice eſt ſon mérite.</l>
+                        <l n='209' xml:id='l209'>C'eſt un mauvais ſujet, ſans mœurs &amp; ſans conduite,</l>
+                        <l n='210' xml:id='l210'>A l'intérêt il ſe livre toujours.</l>
+                        <l n='211' xml:id='l211'>Les plaiſirs effrenés marchent tous à ſa ſuite.</l>
+                        <l n='212' xml:id='l212'>L'équivoque le guide, &amp; dictant ſes diſcours,</l>
+                        <l n='213' xml:id='l213'>Fait rougir la pudeur &amp; met le goût en fuite.</l>
+                        <l n='214' xml:id='l214'>Tout vicieux qu'il eſt, il a pourtant du cours.</l>
+                        <l n='215' xml:id='l215'>Le plus grand nombre eſt ſon partage.</l>
+                        <l n='216' xml:id='l216'>Je n'en ſuis pas ſurpris, puiſqu'il fut de tout tems,</l>
+                        <l n='217' xml:id='l217'>Le Dieu des libertins &amp; des mauvais plaiſans.</l>
+                        <l n='218' xml:id='l218'>Moi, je poſſéde moins avec plus d'avantage ;</l>
+                        <l n='219' xml:id='l219'>La bonne compagnie eſt mon ſeul apanage,</l>
+                        <l n='220' xml:id='l220'>Et je n'accorde mes preſens</l>
+                        <l n='221' xml:id='l221'>Qu'aux femmes du grand monde, &amp; qu'aux honnêtes <lb/> gens.</l>
+                        <l n='222' xml:id='l222'>Ainſi ne craignés plus qu'en ce lieu je m'échape.</l>
+                    </sp>
+                    <sp who="L'Indulgence" xml:id="S3-27">
+                        <speaker>L'INDULGENCE</speaker> <stage type="delivery" rend="italics">à l'Acteur.</stage><lb/>
+                        <l n='223' xml:id='l223'>Quand on le voit de près la différence frape,</l>
+                        <l n='224' xml:id='l224'>Et mon erreur m'étonne fort.</l>
+                    </sp>
+                    <sp who="L'Acteur" xml:id="S3-28">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='225' xml:id='l226'>Certain air de famille en lui trompe d'abord.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-29">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='227' xml:id='l227'>Il eſt vrai qu'abuſé par cette reſſemblance,</l>
+                        <l n='228' xml:id='l228'>Le commun des mortels eſt ici bas d'accord,</l>
+                        <l n='229' xml:id='l229'>Pour ne mettre entre nous aucune différence.</l>
+                        <l n='230' xml:id='l230'>Mais d'être détrompé comme il mérite peu,</l>
+                        <l n='231' xml:id='l231'>Je le laiſſe dans l'ignorance,</l>
+                        <l n='232' xml:id='l232'>Et je m'en fais ſouvent un jeu.</l>
+                        <lb/><stage type="delivery" rend="italics">(à l'Acteur.)</stage><lb/>
+                        <l n='233' xml:id='l233'>Monſieur, pour vous, mon ame eſt très-ſurpriſe</l>
+                        <l n='234' xml:id='l234'>Que vous ayiez donné dans la même mépriſe,</l>
+                        <l n='235' xml:id='l235'>Et je croyois que Meſſieurs les Acteurs</l>
+                        <l n='236' xml:id='l236'>En <persName type='allegory'>Badinage</persName> étoient plus connoiſſeurs.</l>
+                    </sp>
+                    <pb n="122"/>
+                    <sp who="L'Acteur" xml:id="S3-30">
+                        <speaker>L'ACTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='237' xml:id='l237'>A tort ces choſes vous ſurprennent,</l>
+                        <l n='238' xml:id='l238'>Quand nous voyons que Meſſieurs les Auteurs</l>
+                        <l n='239' xml:id='l239'>Eux-mêmes, comme nous, tous les jours s'y mé-<lb/>prennent.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S3-31">
+                        <speaker>LA BADINAGE </speaker>
+                        <stage type="delivery" rend="italics">à l'Acteur.</stage><lb/>
+                        <l n='240' xml:id='l240'>Allez, laiſſez-moi ſeul recevoir mes amis.</l>
+                        <l n='241' xml:id='l241'>Et vous, Déeſſe ſecourable,</l>
+                        <l n='242' xml:id='l242'>Tandis qu'au Théâtre où je ſuis,</l>
+                        <l n='243' xml:id='l243'>Je vais tâcher de me rendre agréable :</l>
+                        <l n='244' xml:id='l244'>Allés dans le <term type="poetics">Parterre</term> adoucir les eſprits,</l>
+                        <l n='245' xml:id='l245'>Et rendés par vos ſoins mon juge favorable.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="4" xml:id="S4">
+                    <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE BADINAGE<pc>,</pc> UN OFFICIER<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="L'Officier" xml:id="S4-1">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='246' xml:id='l246'>AH! vous voilà, mon joli <persName type='allegory'>Badinage</persName> !</l>
+                        <l n='247' xml:id='l247'>Je vous cherche par tout avec empreſſe-<lb/>ment.</l>
+                        <l n='248' xml:id='l248'>Comme je vais joindre mon Régiment,</l>
+                        <l n='249' xml:id='l249'>Je compte qu'avec moi vous ferez le voyage.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S4-2">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='250' xml:id='l250'>Mon aimable Officier, vous êtes engageant :</l>
+                        <l n='251' xml:id='l251'>Mais quand vous le ſeriez mille fois davantage,</l>
+                        <l n='252' xml:id='l252'>Je ne ſçaurois ſortir d'un lieu que je chéris.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S4-3">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='253' xml:id='l253'>Quoi ! Vous abandonnez vos plus chers Favoris ?</l>
+                        <l n='254' xml:id='l254'>Songez-vous qu'aujourd'hui je quitte la Patrie ?</l>
+                        <l n='255' xml:id='l255'>Que vous verrez ce ſoir tous les plaiſirs partis ?</l>
+                        <l n='256' xml:id='l256'>Que j'emmene avec moi la bonne compagnie ;</l>
+                        <l n='257' xml:id='l257'>Que <placeName>Paris</placeName> n'eſt plus dans <placeName>Paris</placeName> ?</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S4-4">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="258" xml:id="l258_1" part="I">Où donc eſt-il ?</l>
+                    </sp>
+                    <pb n="123"/>
+                    <sp who="L'Officier" xml:id="S4-5">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l258_2" part="F">Il eſt.... il eſt tout où je ſuis.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S4-6">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='259' xml:id='l259'><term type='poetics'>L'hiperbole</term> eſt un peu hardie ;</l>
+                        <l n='260' xml:id='l260'>On vous prendroit à ce jargon,</l>
+                        <l n='261' xml:id='l261'>Pour un <fs><f name="temper">Capitaine Gaſcon</f></fs>.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S4-7">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='262' xml:id='l262'>Je parle pour tous mes confreres.</l>
+                        <l n='263' xml:id='l263'>Je crois pouvoir avancer ſans fadeur,</l>
+                        <l n='264' xml:id='l264'>Que pour l'agrément des maniéres,</l>
+                        <l n='265' xml:id='l265'>Tout autre corps nous eſt inférieur.</l>
+                        <l n='266' xml:id='l266'>Qui peut vous tenir en balance ?</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S4-8">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='267' xml:id='l267'>Les trois quarts de l'Etat. Eh ! durant mon abſence,</l>
+                        <l n='268' xml:id='l268'>Que feroient les Abbés, la Robe, la Finance ?</l>
+                        <l n='269' xml:id='l269'>Que <choice><sic>feroit</sic><corr>feraient</corr></choice> pendant ce tems-là</l>
+                        <l n='270' xml:id='l270'>La <name type="institution">Comédie</name> &amp; <name type="institution">l'Opéra</name> ?</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S4-9">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='271' xml:id='l271'>Le plaiſant ſoin qui vous travaille !</l>
+                        <l n='272' xml:id='l272'>D'abord ce dernier nous ſuivra.</l>
+                        <l n='273' xml:id='l273'>Quand au reſte, ici l'on laiſſera,</l>
+                        <l n='274' xml:id='l274'>Toute la pédantaille,</l>
+                        <l n='275' xml:id='l275'>Et vous gagnerez à cela.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S4-10">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='276' xml:id='l276'>Non. J'y perdrois. Sans riſque à leurs dépens je <lb/> raille.</l>
+                        <l n='277' xml:id='l277'>Il n'en eſt pas, Monſieur, de même des combats.</l>
+                        <l n='278' xml:id='l278'>La guerre eſt ſérieuſe ; on ne badine pas</l>
+                        <l n='279' xml:id='l279'>Avec le canon &amp; la bombe ;</l>
+                        <l n='280' xml:id='l280'>Sous leurs coups le plus fort ſuccombe.</l>
+                        <l n='281' xml:id='l281'>Un éclat vous emporte ou la tête ou le bras.</l>
+                        <l n='282' xml:id='l282'>Cela n'eſt pas plaiſant. Je ne ſuis point vos pas.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S4-11">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='283' xml:id='l283'>Mais vous garderez le bagage.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S4-12">
+                        <speaker>LA BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='284' xml:id='l284'>C'eſt trop d'honneur. Le Dieu du <persName type='allegory'>Badinage</persName></l>
+                        <l n='285' xml:id='l285'>N'eſt pas fait pour groſſir le nombre des Goujats.</l>
+                    </sp>
+                    <pb n="124"/>
+                    <sp who="L'Officier" xml:id="S4-13">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='286' xml:id='l286'>D'un tel refus vous me cachez la cauſe.</l>
+                        <l n='287' xml:id='l287'>De grace à ce départ dites-moi qui s'opoſe ?</l>
+                    </sp>
+                </div>
+                <div type="scene" n="5" xml:id="S5">
+                    <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE BADINAGE <pc>,</pc> L'OFFICIER<pc>,</pc> <lb/>UN AUTEUR<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="L'Auteur" xml:id="S5-1">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='288' xml:id='l288'>MOi, Monſieur, moi, qui viens pour <lb/>l'arrêter</l>
+                        <l n='289' xml:id='l289'>Quand je reſte à <name type="place" n="Paris">Paris</name>, il ne peut le quitter.</l>
+                        <l n='290' xml:id='l290'>Je mérite moi ſeul de fixer ſon génie.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-2">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='291' xml:id='l291'>Qui donc êtes-vous, je vous prie ?</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-3">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='292' xml:id='l292'>Un nouveau Phénomene, un prodige du tems,</l>
+                        <l n='293' xml:id='l293'>Dont l'art raſſemble, &amp; dont l'eſprit allie</l>
+                        <l n='294' xml:id='l294'>Tous les contraſtes différens ;</l>
+                        <l n='295' xml:id='l295'>Qui joint le badinage à la philoſophie,</l>
+                        <l n='296' xml:id='l296'>L'enjoüement aux leçons, les grace au bon ſens,</l>
+                        <l n='297' xml:id='l297'>Le jugement à la ſaillie ;</l>
+                        <l n='298' xml:id='l298'>Un <fs><f name="temper">Auteur du bel air</f></fs>, un <fs><f name="temper">Poëte bien mis</f></fs>,</l>
+                        <l n='299' xml:id='l299'>Qui repreſente en beau le corps des beaux eſprits ;</l>
+                        <l n='300' xml:id='l300'>Un <fs><f name="temper">Gaſcon à ſon aiſe</f></fs>, en dépit de l'envie,</l>
+                        <l n='301' xml:id='l301'>Qui s'eſt défait de l'accent du pays,</l>
+                        <l n='302' xml:id='l302'>Et n'en a conſervé rien que la modeſtie.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-4">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='303' xml:id='l303'>Il y paroît fort au <term type="poetics">portrait</term></l>
+                        <l n='304' xml:id='l304'>Que Monſieur nous fait de lui-même,</l>
+                        <l n='305' xml:id='l305'>J'aurois tort de douter, après un pareil trait,</l>
+                        <l n='306' xml:id='l306'>De cette modeſtie extrême.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-5">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='307' xml:id='l307'>Elle égale pour vous mon inclination,</l>
+                        <l n='308' xml:id='l308'>Et je viens vous offrir ma maiſon &amp; ma table.</l>
+                    </sp>
+                    <pb n="125"/>
+                    <sp who="L'Officier" xml:id="S5-6">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='309' xml:id='l309'>La table d'un Auteur, &amp; d'un Auteur Gaſcon !</l>
+                        <l n='310' xml:id='l310'>Seigneur, je crains pour vous une indigeſtion.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-7">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='311' xml:id='l311'>Plaiſanterie uſée, &amp; fort peu raiſonnable.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-8">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='312' xml:id='l312'>On ne vous fera pas un reproche ſemblable,</l>
+                        <l n="313" xml:id="l313_1" part="I">Votre offre eſt toute neuve.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-9">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l313_2" part="F">Elle eſt fort de ſaiſon.</l>
+                        <l n='314' xml:id='l314'>Quand je joüis d'un bien conſidérable,</l>
+                        <l n='315' xml:id='l315'>Qui m'eſt venu d'une ſucceſſion.</l>
+                        <l n='316' xml:id='l316'>Vous en riés tous deux, mais je me donne au dia-<lb/>ble ,</l>
+                        <l n='317' xml:id='l317'>Le fait eſt vrai, s'il n'eſt pas vraiſemblable,</l>
+                        <l n='318' xml:id='l318'>Et je viens d'hériter de deux cens mille francs.</l>
+                        <l n='319' xml:id='l319'>Quoiqu'il en ſoit, j'en fais un uſage agréable.</l>
+                        <l n='320' xml:id='l320'>Un de mes plaiſirs les plus grands,</l>
+                        <l n='321' xml:id='l321'>Eſt de les dépenſer en des ſoupers galants.</l>
+                        <l n='322' xml:id='l322'>Préciſément ce ſoir j'en donne un très-aimable.</l>
+                        <l n='323' xml:id='l323'>D'autant plus qu'il ſera ſecret, &amp; ſans façon.</l>
+                        <l n='324' xml:id='l324'>Que la troupe choiſie en eſt des moins nombreu-<lb/>ſes ,</l>
+                        <l n='325' xml:id='l325'>Nous ne ſommes que ſix, trois Auteurs de re-<lb/>nom,</l>
+                        <l n='326' xml:id='l326'>Et ſans quelques Dames joyeuſes,</l>
+                        <l n='327' xml:id='l327'>Comme il n'eſt point de repas qui ſoit bon,</l>
+                        <l n='328' xml:id='l328'>Entre-nous j'ai prié de ce repas mignon...</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-10">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="329" xml:id="l329_1" part="I">Qui donc, Monſieur ?</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-11">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l329_2" part="F">Trois Actrices brillantes.</l>
+                        <l n='330' xml:id='l330'>D'introducteur faiſant la fonction,</l>
+                        <l n='331' xml:id='l331'>Vous conduirez chez moi leurs perſonnes charman-<lb/>tes,</l>
+                        <l n="332" xml:id="l332_1" part="I">A petit bruit.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-12">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l332_2" part="F">Noble commiſſion !</l>
+                    </sp>
+                    <pb n="126"/>
+                    <sp who="L'Auteur" xml:id="S5-13">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='333' xml:id='l333'>Mais vous marchez toujours de compagnie.</l>
+                        <l n='334' xml:id='l334'>Vous ne pouvez , <persName type='allegory'>Badinage</persName> fripon ,</l>
+                        <l n='335' xml:id='l335'>Vous diſpenſer d'être de la partie.</l>
+                        <l n='336' xml:id='l336'>Après ces Reines-là, l'on attend votre nom.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-14">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="337" xml:id="l337_1" part="I">Vous vous méprenez.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-15">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l337_2" part="M">Quoi ! vous n'êtes pas... là...</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-16">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l337_3" part="F">Non.</l>
+                        <l n='338' xml:id='l338'>Je ne ſuis pas ce <persName type='allegory'>Badinage</persName>, enfant de la licence.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S5-17">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='339' xml:id='l339'>Je l'avoürai, trompé par l'aparence,</l>
+                        <l n='340' xml:id='l340'>J'étois comme lui dans l'erreur.</l>
+                        <l n='341' xml:id='l341'>Je vous croyois fils unique, Seigneur.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-18">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='342' xml:id='l342'>Je pardonne à votre ignorance,</l>
+                        <l n='343' xml:id='l343'>Et le cas n'eſt pas ſurprenant.</l>
+                        <l n='344' xml:id='l344'>Tous vos pareils ont en partage</l>
+                        <l n='345' xml:id='l345'>Le véritable <persName type='allegory'>Badinage</persName></l>
+                        <l n='346' xml:id='l346'>Sans le connoître ſouvent.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S5-19">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='347' xml:id='l347'>Nous en plaiſons plus ſûrement.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-20">
+                        <speaker>L'AUTEUR</speaker> <stage type="delivery" rend="italics">à l'Officier<pc type="affirmative">.</pc></stage>
+                        <l n='348' xml:id='l348'>Moi, j'ai ſur vous cet avantage,</l>
+                        <l n='349' xml:id='l349'>Que je connois ce Dieu charmant,</l>
+                        <l n='350' xml:id='l350'>Et le poſſéde également.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-21">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='351' xml:id='l351'>Votre mépriſe qui m'offenſe</l>
+                        <l n='352' xml:id='l352'>Ne prouve pas, dans ce moment,</l>
+                        <l n='353' xml:id='l353'>Que je ſois fort votre connoiſſance.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-22">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='354' xml:id='l354'>C'étoit pour m'égayer, tout ce que j'en ai dit.</l>
+                        <l n='355' xml:id='l355'>Qui mieux que moi peut ſçavoir qui vous <lb/> êtes ?</l>
+                        <l n='356' xml:id='l356'>Le <persName type='allegory'>Badinage</persName> de l'eſprit</l>
+                        <l n='357' xml:id='l357'>Eſt le Dieu des Gaſcons &amp; celui des Poëtes.</l>
+                        <pb n="127"/>
+                        <l n='358' xml:id='l358'>Pour vous forcer d'en convenir,</l>
+                        <l n='359' xml:id='l359'>Seigneur, je vais vous définir.</l>
+                        <l n='369' xml:id='l360'>Vous êtes en vers, comme en proſe,</l>
+                        <l n='361' xml:id='l361'>A ſaiſir votre goût, &amp; l'analiſer bien,</l>
+                        <l n='362' xml:id='l362'>Vous êtes l'art d'amuſer ſur un rien,</l>
+                        <l n='363' xml:id='l363'>Et de prendre en paſſant la fleur de chaque choſe.</l>
+                        <l n='364' xml:id='l364'>C'eſt juſtement ce qui compoſe</l>
+                        <l n='365' xml:id='l365'>L'eſſence du rimeur, &amp; l'eſprit du Gaſcon.</l>
+                        <l n='366' xml:id='l366'>L'un voltige en Abeille, &amp; l'autre en Papillon.</l>
+                        <l n='367' xml:id='l367'>Votre eſpéce &amp; la leur ſont de même nature.</l>
+                        <l n='368' xml:id='l368'>Cet avantage m'eſt commun,</l>
+                        <l n='369' xml:id='l369'>Et de là j'ai lieu de conclure,</l>
+                        <l n='370' xml:id='l370'>Que vous &amp; moi ne faiſons qu'un.</l>
+                        <l n="371" xml:id="l371_1" part="I">Monſieur doit vous céder.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S5-23">
+                        <speaker>L'OFFICIER</speaker> <stage type="delivery" rend="italics">au <persName type='allegory'>Badinage</persName><pc type="affirmative">.</pc></stage><lb/>
+                        <l xml:id="l371_2" part="F">Qui ? moi, que je vous céde ?</l>
+                        <l n='372' xml:id='l372'>Je crois ſur vous avoir trop de crédit ;</l>
+                        <l n="373" xml:id="l373_1" part="I">Mon droit...</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-24">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l373_2" part="F">Eſt bon, ſans contredit.</l>
+                        <l n='374' xml:id='l374'>Il n'a pas beſoin que l'on plaide.</l>
+                        <l n='375' xml:id='l375'>L'Auteur me définit, l'Officier me poſſéde,</l>
+                        <l n='376' xml:id='l376'>Et l'agrément chez moi l'emporte ſur l'eſprit.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-25">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='377' xml:id='l377'>Morbleu, vous vous moquez. N'ai-je pas l'un &amp; <lb/> l'autre</l>
+                        <l n='378' xml:id='l378'>Moi, de qui le génie eſt ſi conforme au vôtre ?</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-26">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='379' xml:id='l379'>Nous ſommes très-diſtincts, quoique Monſieur ait <lb/> dit.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-27">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='380' xml:id='l380'>Mais les graces , le goût &amp; la délicateſſe,</l>
+                        <l n='381' xml:id='l381'>La légéreté, la fineſſe,</l>
+                        <l n='382' xml:id='l382'>L'ironie agréable, &amp; les traits délicats,</l>
+                        <l n='383' xml:id='l383'>Les tours heureux, la fine raillerie<sic>.</sic></l>
+                        <l n='384' xml:id='l384'>Et la bonne plaiſanterie</l>
+                        <l n='385' xml:id='l385'>Qui ſont votre cortége, accompagnent mes pas.</l>
+                    </sp>
+                    <pb n="128"/>
+                    <sp who='Badinage' xml:id="S5-28">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='386' xml:id='l386'>Oui, quand vous écrivez, cette troupe choiſie,</l>
+                        <l n='387' xml:id='l387'>Dans votre cabinet guide votre génie,</l>
+                        <l n='388' xml:id='l388'>Et le remplit de ſa vivacité ;</l>
+                        <l n='389' xml:id='l389'>Mais dans le monde elle vous quitte ;</l>
+                        <l n='390' xml:id='l390'>Vous y parioiſſez tranſplanté.</l>
+                        <l n='391' xml:id='l391'>Alors juſqu'à l'eſprit tout prend chez vous la fuite.</l>
+                        <l n='392' xml:id='l392'>L'amour propre, Monſieur, avec l'entêtement,</l>
+                        <l n='393' xml:id='l393'>Eſt le ſeul qui vous ſuit partout fidèlement.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S5-29">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='394' xml:id='l394'>A dire vrai, ce qui m'étonne,</l>
+                        <l n='395' xml:id='l395'>De ces Auteurs fameux qu'admire tout <placeName >Paris</placeName>,</l>
+                        <l n='396' xml:id='l396'>Je n'aperçois dans leur perſonne</l>
+                        <l n='397' xml:id='l397'>Nuls de ces agrémens qui parent leurs écrits,</l>
+                        <l n='398' xml:id='l398'><span type="topos">Brillans dans un ouvrage, &amp; ſots en compagnie,</span></l>
+                        <l n='399' xml:id='l399'>Leur lecture ravit, &amp; leur préſence ennuye,</l>
+                        <l n='400' xml:id='l400'>Ils ont l'ame occupée, &amp; l'air tout deſœuvré.</l>
+                        <l n='401' xml:id='l401'>L'expreſſion ornée, &amp; l'habit déchiré.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-30">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='402' xml:id='l402'>Des beaux eſprits du tems, parlés mieux, je vous <lb/>prie.</l>
+                        <l n='403' xml:id='l403'>Vous êtes tous encore dans le vieux préjugé ;</l>
+                        <l n='404' xml:id='l404'>Vous nous croyés pédans, mal-propres, ſans manié-<lb/>res,</l>
+                        <l n='405' xml:id='l405'>Et pêtris d'une pâte à nous particuliére.</l>
+                        <l n='406' xml:id='l406'>Tels que ſur le Théâtre en un <term>tableau chargé</term>,</l>
+                        <l n='407' xml:id='l407'>Nous a peint tant de fois plus d'un malin confrére.</l>
+                        <l n='408' xml:id='l408'>Je prétends diſſiper une erreur ſi groſſiére,</l>
+                        <l n='409' xml:id='l409'>Et je viens en ces lieux dire au public, tout haut,</l>
+                        <l n='410' xml:id='l410'>Que la malpropreté n'eſt plus notre défaut,</l>
+                        <l n='411' xml:id='l411'>Et qu'on nous voit par-tout paroître avec dé-<lb/>cence.</l>
+                        <l n='412' xml:id='l412'>Oui, Meſſieurs, aujourd'hui l'on nous fait une of-<lb/>fenſe ;</l>
+                        <l n='413' xml:id='l413'>Vous êtes vous-même abuſés</l>
+                        <l n='414' xml:id='l414'>Par des Auteurs jaloux &amp; ſubalternes,</l>
+                        <l n='415' xml:id='l415'>Dont la main infidelle &amp; les <term>crayons</term> uſés</l>
+                        <l n='416' xml:id='l416'>Défigurent le corps des Poëtes modernes</l>
+                        <pb n="129"/>
+                        <l n='417' xml:id='l417'>Sous les ridicules couleurs</l>
+                        <l n='418' xml:id='l418'>Et les biſarres traits de leurs prédéceſſeurs.</l>
+                        <l n='419' xml:id='l419'>Si par haſard trois dans la multitude,</l>
+                        <l n='420' xml:id='l420'>Ont d'être en linge ſale encore l'habitude,</l>
+                        <l n='421' xml:id='l421'>C'eſt <fs><f name="temper">un trio d'Auteurs du tems paſſé</f></fs>.</l>
+                        <l n='422' xml:id='l422'>Il ne fait point exemple &amp; doit être caſſé.</l>
+                        <l n='423' xml:id='l423'>Preſentement pour les faire connoître,</l>
+                        <l n='424' xml:id='l424'>Si ſur la ſcène on met des <fs><f name="temper">beaux eſprits</f></fs>,</l>
+                        <l n='425' xml:id='l425'>Qu'on les y mette donc tels qu'on les voit paroître,</l>
+                        <l n='426' xml:id='l426'>Polis dans leurs façons, galanTs dans leurs habits,</l>
+                        <l n='427' xml:id='l427'>Rompus dans le grand monde autant qu'on puiſſe l'ê-<lb/>tre ,</l>
+                        <l n='428' xml:id='l428'>Copiant le Seigneur, faiſant <fs><f name="temper">le petit maître</f></fs>.</l>
+                        <l n='429' xml:id='l429'>Le <placeName type="mythological">Parnaſſe</placeName> leur offre aſſez d'originaux.</l>
+                        <l n='430' xml:id='l430'>De tels <term>portraits</term> ſeront d'autant plus beaux</l>
+                        <l n='431' xml:id='l431'>S'il ſont touchés par une main de maître,</l>
+                        <l n='432' xml:id='l432'>Qu'ils paroîtront reſſemblans &amp; nouveaux.</l>
+                        <l n='433' xml:id='l433'>Je ſerois ſi charmé d'en voir un bien fidèle,</l>
+                        <l n='434' xml:id='l434'>Que ſans aller plus loin je m'offre pour modèle.</l>
+                        <l n='435' xml:id='l435'>Je me livre en ſpectacle avec tous mes défauts,</l>
+                        <l n='436' xml:id='l436'>Qu'on ne me <term>tire</term> point <term>à faux</term>,</l>
+                        <l n='437' xml:id='l437'>Et je jure d'honneur, en pleine Comédie,</l>
+                        <l n='438' xml:id='l438'>Moi-même de venir aplaudir ma copie.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-31">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='439' xml:id='l439'>Vous n'aplaudiriez pas le portrait, à coup ſûr,</l>
+                        <l n='440' xml:id='l440'>S'il étoit fait d'après nature ;</l>
+                        <l n='441' xml:id='l441'>Le <term>coloris</term> vous en paroîtroit dur.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S5-32">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='442' xml:id='l442'>Oui, Monſieur, c'eſt en vain qu'ornant votre figure,</l>
+                        <l n='443' xml:id='l443'>Vous affectez, ſous un dehors trompeur,</l>
+                        <l n='444' xml:id='l444'>La politeſſe de Seigneur.</l>
+                        <l n='445' xml:id='l445'>Vous portez certain air qui trahit l'impoſture ;</l>
+                        <l n='446' xml:id='l446'>Et malgré tout l'eſpoir qui flâte votre erreur,</l>
+                        <l n='447' xml:id='l447'>On voit toujours percer à travers la parure,</l>
+                        <l n='448' xml:id='l448'>La mine du Poete, &amp; le coin de l'Auteur.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-33">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='449' xml:id='l449'>Nous avons les bon airs, en dépit de Monſieur.</l>
+                        <l n='450' xml:id='l450'>La politeſſe en moi paroît ſi naturelle,</l>
+                        <pb n="130"/>
+                        <l n='451' xml:id='l451'>Que l'on m'a pris tantôt à mes façons,</l>
+                        <l n='452' xml:id='l452'>Pour un <fs><f name="temper">Colonel de Dragons</f></fs>.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S5-34">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='453' xml:id='l453'>Qui vous a fait, Monſieur, cette injure mortelle ?</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-35">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="454" xml:id="l454_1" part="I">Quelqu'un qui s'y connoît</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-36">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l454_2" part="F">C'eſt, ſans être indiſcret ?</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-37">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='455' xml:id='l454'>Un illuſtre du tems, <fs><f name="temper">un Poëte femelle</f></fs>.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S5-38">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='456' xml:id='l456'>A cette autorité je me rends tout-à-fait.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-39">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='457' xml:id='l457'>Ne croyez pas railler. Notre figure eſt telle,</l>
+                        <l n='458' xml:id='l458'>Qu'une femme de Cour s'y tromperoit comme elle.</l>
+                        <l n='459' xml:id='l459'>Oui, Monſieur l'Officier, qui vous moquez de nous,</l>
+                        <l n='460' xml:id='l460'>Nous vous le diſputons en fait de politeſſe ;</l>
+                        <l n='461' xml:id='l461'>Nous en avons, morbleu, d'une plus fine eſpéce,</l>
+                        <l n='462' xml:id='l462'>Et je dois remporter la victoire ſur vous.</l>
+                        <l n='463' xml:id='l463'>La vôtre eſt mécanique, &amp; n'eſt qu'une attitude</l>
+                        <l n='464' xml:id='l464'>Où votre corps s'eſt façonné.</l>
+                        <l n='465' xml:id='l465'>La nôtre, raiſonnée, eſt un fruit de l'étude,</l>
+                        <l n='466' xml:id='l466'>Et fille de l'eſprit orné.</l>
+                        <l n='467' xml:id='l467'>Si vous êtes polis c'eſt par ſimple habitude,</l>
+                        <l n='468' xml:id='l468'>Sans nul principe, &amp; comme par haſard ;</l>
+                        <l n='469' xml:id='l469'>Mais nous le ſommes, nous, par raiſon &amp; par art.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-40">
+                        <speaker>LE BADINAGE</speaker> <stage type="delivery" rend="italics">bas à l'Officier<pc type="affirmative">.</pc></stage>
+                        <l n='472' xml:id='l470'>Leur politeſſe méthodique</l>
+                        <l n='472' xml:id='l471'>Eſt dans la théorie, &amp; non dans la pratique.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S5-41">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='473' xml:id='l473'>Sur notre démêlé preſent</l>
+                        <l n='474' xml:id='l474'>Que le <persName type='allegory'>Badinage</persName> décide,</l>
+                        <l n='475' xml:id='l475'>Il eſt fait pour juger d'un pareil différend.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S5-42">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="476" xml:id="l476_1" part="I">Volontiers.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S5-43">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id='l476_2' part="F">Je vais donc... Mais <choice><sic>qu'elle</sic><corr>quelle</corr></choice> aimable enfant</l>
+                        <l n='477' xml:id='l477'>Porte vers nous ſa démarche timide ?</l>
+                    </sp>
+                </div>
+                <pb n="131"/>
+                <div type="scene" n="6" xml:id="S6">
+                    <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE BADINAGE <pc>,</pc> L'OFFICIER <pc>,</pc> <lb/>L'AUTEUR <pc>,</pc> ANGELIQUE<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who='Badinage' xml:id="S6-1">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='478' xml:id='l478'><c type="lettrine">A</c>Pprochez-vous, objet charmant.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-2">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='479' xml:id='l479'>Ah ! Vous êtes en compagnie.</l>
+                        <l n="480" xml:id="l480_1" part="I">Je n'oſe...</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-3">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l480_2" part="F">Venés, &amp; n'apréhendés rien.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S6-4">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='481' xml:id='l481'>Craint-on de ſe montrer quand on eſt ſi jolie ?</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S6-5">
+                        <speaker>L'Auteur<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='482' xml:id='l482'>Accordés-nous, mignonne, un moment d'entre-<lb/>tien.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-6">
+                        <speaker>ANGELIQUE</speaker> <stage type="delivery" rend="italics">d'un air froid.</stage><lb/>
+                        <l n="483" xml:id="l483_1" part="I">Je ne puis.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S6-7">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l483_2" part="F">Inſtamment c'eſt moi qui vous en prie.</l>
+                        <l n="484" xml:id="l484_1" part="I">Demeurez.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-8">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l484_2" part="F">Je le voudrois bien.</l>
+                        <l n="485" xml:id="l485_1" part="I">Mais...</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-9">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l485_2" part="F">Mais expliquez-vous ; courage.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-10">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='486' xml:id='l486'>Mais je crains les cauſeurs.</l>
+                        <l n='487' xml:id='l487'>Que diroient ces eſprits railleurs</l>
+                        <l n='488' xml:id='l488'>D'une <fs><f name="age" ana="#AGY">perſonne de mon âge</f></fs>,</l>
+                        <l n='489' xml:id='l489'>S'ils me voyoient ſeule avec deux Meſſieurs ;</l>
+                        <l n='490' xml:id='l490'>Ayant encore pour tiers le <persName type='allegory'>Badinage</persName> ?</l>
+                    </sp>
+                    <pb n="132"/>
+                    <sp who='Badinage' xml:id="S6-11">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='491' xml:id='l491'>Diſſipés ces vaines frayeurs.</l>
+                        <l n='492' xml:id='l492'>Le décorum ici préſide,</l>
+                        <l n='493' xml:id='l493'>Et l'on y craint plus qu'ailleurs</l>
+                        <l n='494' xml:id='l494'>D'y choquer les regards du cenſeur trop rigide.</l>
+                        <l n='495' xml:id='l495'>Aprenés qu'il n'eſt point d'endroit,</l>
+                        <l n='496' xml:id='l496'>Tout révéré, tout auguſte qu'il ſoit, </l>
+                        <l n='497' xml:id='l497'>Où l'on ſe tienne avec plus de ſageſſe,</l>
+                        <l n='498' xml:id='l498'>Qu'en ce lieu redoutable, où le moindre rien bleſſe.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-12">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="499" xml:id="l499_1" part="I">Je reſte donc.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-13">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l499_2" part="F">Vers moi quel ſujet vous conduit ?</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-14">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='500' xml:id='l500'>C'eſt la vivacité qui fait mon caractére ;</l>
+                        <l n='501' xml:id='l501'>J'aime à briller, &amp; j'aime à plaire.</l>
+                        <l n='502' xml:id='l502'>J'entre dans la ſaiſon, car <fs><f name="age" ana="#AGY">j'ai douze ans paſſés</f></fs> <choice><sic>?</sic><corr>.</corr></choice></l>
+                        <l n='503' xml:id='l503'>Je ris de rien, je ſuis follette ;</l>
+                        <l n='504' xml:id='l504'>J'ai toujours eu du goût pour vous dès la bavette,</l>
+                        <l n="505" xml:id="l505_1" part="I">Aimable <persName type='allegory'>Badinage</persName>.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S6-15">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l505_2" part="F">Hem ! C'eſt en dire aſſez.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-16">
+                        <speaker>ANGELIQUE </speaker><stage type="delivery" rend="italics">d'un air piqué.</stage><lb/>
+                        <l n='506' xml:id='l506'>Monſieur, j'entends ce badinage</l>
+                        <l n='507' xml:id='l507'>Qui n'eſt que du reſſort purement de l'eſprit.</l>
+                        <l n='508' xml:id='l508'>Dont peut parler la fille la plus ſage,</l>
+                        <l n='509' xml:id='l509'>Et dont jamais la pudeur ne rougit.</l>
+                        <l n='510' xml:id='l510'>Ainſi point d'équivoque, elle me fait outrage.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-17">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='511' xml:id='l511'>A l'extrême jeuneſſe elle joint <fs><f name="temper">la raiſon</f></fs>.</l>
+                        <l n='512' xml:id='l512'>C'eſt un exemple à ſuivre.</l>
+                        <lb/><stage type="delivery" rend="italics">(à l'Auteur.)</stage><lb/>
+                        <l n='513' xml:id='l513'>Voilà pour vous une leçon,</l>
+                        <l n='514' xml:id='l514'>Et vous voyez l'effet de l'éducation.</l>
+                        <l n='515' xml:id='l515'>Un enfant <fs><f name="age" ana="#AGY">de quinze ans</f></fs>, Monſieur, vous montre à <lb/>vivre.</l>
+                        <l n='516' xml:id='l516'>A mieux interpréter un mot dit en paſſant,</l>
+                        <l n='517' xml:id='l517'>Que ce petit trait vous inſtruiſe.</l>
+                        <pb n="133"/>
+                        <l n='518' xml:id='l518'>Rire d'une équivoque eſt d'un mauvais plaiſant.</l>
+                        <l n='519' xml:id='l519'>Ce qui le plus excite ma ſurpriſe,</l>
+                        <l n='520' xml:id='l520'>C'eſt qu'un Auteur moderne, &amp; qui fait le galant,</l>
+                        <l n='521' xml:id='l521'>Commette une telle ſottiſe.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S6-18">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='522' xml:id='l522'>Le <persName type='allegory'>Badinage</persName> moraliſe !</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-19">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='523' xml:id='l523'>Vos pareils ſemblent m'y forcer,</l>
+                        <l n='524' xml:id='l524'>Sans compter que chez moi la morale eſt de miſe,</l>
+                        <l n='525' xml:id='l525'>Et que j'ai le ſecret de la faire paſſer.</l>
+                        <lb/><stage type="delivery" rend="italics">(à <persName>Angélique</persName>.)</stage><lb/>
+                        <l n='526' xml:id='l526'>Pour vous, mon doux objet, reprenez la parole.</l>
+                        <l n='527' xml:id='l527'>S'il eſt vrai que pour moi vous ayez quelque amour,</l>
+                        <l n='528' xml:id='l528'>Vous êtes bien payée aujourd'hui de retour.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-20">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='529' xml:id='l529'>Pour le mieux mériter, je viens à votre école.</l>
+                        <l n='530' xml:id='l530'>Que j'aprenne de vous, Seigneur, dans ce moment,</l>
+                        <l n='531' xml:id='l531'>L'art de badiner joliment,</l>
+                        <l n='532' xml:id='l532'>D'employer finement cette aimable ironie,</l>
+                        <l n='533' xml:id='l533'>Dont <fs><f name="temper">le fat</f></fs> ſeul doit redouter les traits ,</l>
+                        <l n='534' xml:id='l534'>Et d'exercer dans une compagnie</l>
+                        <l n='535' xml:id='l535'>Cette innoncente raillerie</l>
+                        <l n='536' xml:id='l536'>Qui réjouit ſans offenſer jamais,</l>
+                        <l n='537' xml:id='l537'>Et qui ſe voit hautement aplaudie,</l>
+                        <l n='538' xml:id='l538'>Même de ceux qu'elle prend pour objets.</l>
+                        <l n='539' xml:id='l539'>Puiſque vous en êtes le maître,</l>
+                        <l n='540' xml:id='l540'>Faites enfin, par votre apui, </l>
+                        <l n='541' xml:id='l541'>Qu'en quelque lieu où je puiſſe être,</l>
+                        <l n='542' xml:id='l542'>Je ſois ſûre de plaire, &amp; de chaſſer l'ennui.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S6-21">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='543' xml:id='l543'>Eh ! Pour y réuſſir vous n'avez qu'à paroître.</l>
+                        <l n='544' xml:id='l544'>Votre eſprit, vos graces, vos attraits,</l>
+                        <l n='545' xml:id='l545'>Tout vous eſt garant du ſuccès.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-22">
+                        <speaker>ANGELIQUE</speaker> <stage type="delivery" rend="italics">à part.</stage>
+                        <l n="546" xml:id="l546_1" part="I">Qu'il eſt galant !</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S6-23">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l546_2" part="F">Oui, oui, ſans flatterie.</l>
+                        <l n='547' xml:id='l547'>Vous avez de l'eſprit, &amp; vous êtes jolie.</l>
+                    </sp>
+                    <pb n="134"/>
+                    <sp who="Angélique" xml:id="S6-24">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='548' xml:id='l548'><stage type="delivery" rend="italics">(à part.)</stage> Ah ! Qu'il eſt <fs><f name="temper">fat</f></fs> ! <stage>(au <persName type='allegory'>Badinage</persName><pc type="affirmative">.</pc>)</stage> Sans de plus longs délais,</l>
+                        <l n='549' xml:id='l549'>Découvrez-moi tous vos ſecrets.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-25">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='550' xml:id='l550'>A vos deſirs il faut ſe rendre.</l>
+                        <l n='551' xml:id='l551'>Puiſque vous le voulez, je vais ſans plus attendre,</l>
+                        <l n='552' xml:id='l552'>Vous dévoiler ici ce que vous demandez,</l>
+                        <l n='553' xml:id='l553'>Et que, ſans le ſçavoir, vous-même poſſédez.</l>
+                        <l n='554' xml:id='l554'>Trois choſes font que je plais &amp; je brille.</l>
+                        <l n='555' xml:id='l555'>Le ton qu'on prend, le tems que l'on choiſit,</l>
+                        <l n='556' xml:id='l556'>Et la façon dont on m'habille.</l>
+                        <l n='557' xml:id='l557'>Voilà tout l'art qui me met en crédit.</l>
+                        <l n='558' xml:id='l558'>Par exemple à la <name type="institution">Comédie</name>,</l>
+                        <l n='559' xml:id='l559'>Le trait le plus brillant, ſi l'Acteur ne l'apuïe,</l>
+                        <l n='560' xml:id='l560'>Et ſi par le ton juſte il n'en rend la beauté,</l>
+                        <l n='561' xml:id='l561'>Tombe en naiſſant, &amp; n'eſt point écouté.</l>
+                        <l n='562' xml:id='l562'>C'eſt le débit ſur-tout qui me donne la vie ;</l>
+                        <l n='563' xml:id='l563'>S'il prend encore ſon tems mal-à-propos,</l>
+                        <l n='564' xml:id='l564'>Quand <term>le ſpectacle</term> eſt agité de flots,</l>
+                        <l n='565' xml:id='l565'>Et qu'on ſe mouche en chœur, que l'on crache, qu'on <lb/> crie,</l>
+                        <l n='566' xml:id='l566'>Il s'époumone en vain, il n'eſt point de ſaillie,</l>
+                        <l n='567' xml:id='l567'>Il n'eſt point alors de bons mots,</l>
+                        <l n='568' xml:id='l568'>Dont le <term>Théâtre</term>, ou le <term>Parterre</term> rie.</l>
+                        <l n='569' xml:id='l569'>Du moment bien ſaiſi je dépens en partie.</l>
+                        <l n='570' xml:id='l570'>Mais ce n'eſt point aſſez. C'eſt en vain par l'Acteur,</l>
+                        <l n='571' xml:id='l571'>Que le ton eſt bien pris, &amp; l'heure bien choiſie,</l>
+                        <l n='572' xml:id='l572'>S'il n'eſt ſecondé par l'Auteur,</l>
+                        <l n='573' xml:id='l573'>Et ſi l'expreſſion élégante &amp; polie,</l>
+                        <l n='574' xml:id='l574'>Ne couvre heureuſement chaque plaiſanterie.</l>
+                        <l n='575' xml:id='l575'>On aime à deviner dans <span type="topos">ce ſiécle d'eſprit</span>.</l>
+                        <l n='576' xml:id='l576'>Que je paroiſſe à nud, le Public ſe récrie ;</l>
+                        <l n='577' xml:id='l577'>Qu'on me voile avec art, alors il aplaudit,</l>
+                        <l n='578' xml:id='l578'>Et me fait grace en faveur de l'habit.</l>
+                        <l n='579' xml:id='l579'>J'ai le même ſort dans le monde :</l>
+                        <l n='580' xml:id='l580'>Le choix du tems, des mots, la grace du débit</l>
+                        <l n='581' xml:id='l581'>M'y font goûter, ſans quoi chacun m'y fronde.</l>
+                    </sp>
+                    <pb n="135"/>
+                    <sp who="Angélique" xml:id="S6-26">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='582' xml:id='l582'>Ah ! Si j'avois ces talens à la fois,</l>
+                        <l n="583" xml:id="l583_1" part="I">Je ſerois trop....</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S6-27">
+                        <speaker>L'AUTEUR</speaker> <stage rend="italics">l'interrompant.</stage><lb/>
+                        <l xml:id="l583_2" part="F">Moi, je les ai tous trois</l>
+                        <l n='584' xml:id='l584'>Je parle bien, à propos, avec grace.</l>
+                        <lb/><stage type="delivery" rend="italics">(au <persName type='allegory'>Badinage</persName>.)</stage><lb/>
+                        <l n='585' xml:id='l585'>Anſi, ſans vanité, je crois,</l>
+                        <l n='586' xml:id='l586'>Entre vos favoris mériter une place.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S6-28">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='587' xml:id='l587'>Par ce même diſcours vous en êtes exclu.</l>
+                        <l n='588' xml:id='l588'>Il péche par l'habit ; chaque terme trop nu</l>
+                        <l n='589' xml:id='l589'>Fait voir à découvert l'orgueil qui vous talonne.</l>
+                        <l n='590' xml:id='l590'>Il vient mal-à-propos car ſans aucun égard,</l>
+                        <l n='591' xml:id='l591'>Il interrompt cette aimable perſonne ;</l>
+                        <l n='592' xml:id='l592'>Le dépit n'en vaut rien, puiſqu'à parler ſans fard,</l>
+                        <l n='593' xml:id='l593'>Vous avez pris un ton de confiance ;</l>
+                        <l n='594' xml:id='l594'>Qui ſéduit l'Auditeur bien moins qu'il ne l'offenſe.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-29">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='595' xml:id='l595'>Hem ! Qu'avez-vous à répondre à cela,</l>
+                        <l n='596' xml:id='l596'>Monſieur <fs><f name="temper">le bel eſprit</f></fs>, pour vous ſi plein d'eſtime ?</l>
+                        <l n='597' xml:id='l597'>Ces Meſſieurs les Officiers-là</l>
+                        <l n='598' xml:id='l598'>Tirent à bout portant, ſans reſpect pour la rime.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S6-30">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='599' xml:id='l599'>A ce tendron rempli d'apas,</l>
+                        <l n='600' xml:id='l600'>Je paſſerois encore cette ſaillie.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-31">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='601' xml:id='l601'>Moi, je ne me la paſſerois pas,</l>
+                        <l n='602' xml:id='l602'>Elle ſeroit mal établie.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-32">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='603' xml:id='l603'>C'eſt l'ordinaire de la vie,</l>
+                        <l n='604' xml:id='l604'>L'objet que j'ai comblé de mes faveurs,</l>
+                        <l n='605' xml:id='l605'>D'en douter a la modeſtie,</l>
+                        <l n='606' xml:id='l606'>Celui pour qui je n'ai que des rigueurs <choice><sic>;</sic><corr>.</corr></choice></l>
+                        <l n='607' xml:id='l607'>Croit <supplied>que</supplied> ſeul peut poſſéder mon génie.</l>
+                        <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Angélique">Angélique</name>.)</stage><lb/>
+                        <l n='608' xml:id='l608'>Je veux faire briller les talens ſéducteurs</l>
+                        <l n='609' xml:id='l609'>Dont en naiſſant mes mains vous ont ornée</l>
+                        <pb n="136"/>
+                        <l n='610' xml:id='l610'>Voici l'occaſion. Une diſpute eſt née.</l>
+                        <l n='611' xml:id='l611'>Entre ces deux Meſſieurs ſur l'air de leur état,</l>
+                        <l n='612' xml:id='l612'>Chacun d'eux veut avoir la fine politeſſe,</l>
+                        <l n='613' xml:id='l613'>Ils m'ont pris pour vuider un point ſi délicat,</l>
+                        <l n='614' xml:id='l614'>Soyez pour moi<choice><sic>.</sic><corr></corr></choice> Juge de leur débat.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-33">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='615' xml:id='l615'>Moi? J'ai trop peu de goût &amp; de fineſſe,</l>
+                        <l n="616" xml:id="l616_1" part="I">Et mon âge...</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-34">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l616_2" part="F">L'eſprit ſuplée à la jeuneſſe,</l>
+                        <l xml:id="l617_1" part="I">Tous deux aplaudiront.</l>
+                    </sp>
+                    <sp who="L'Officier_et_L'Auteur" xml:id="S6-35">
+                        <speaker>L'OFFICIER &amp; L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l617_2" part="F">Inconteſtablement.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-36">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='618' xml:id='l618'>Ce choix doit faire honneur à mon diſcernement.</l>
+                        <l n='619' xml:id='l619'>Et ſur un fait de cette eſpéce,</l>
+                        <l n='620' xml:id='l620'>On ſçait que le beau ſexe eſt Juge compétent.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-37">
+                        <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='621' xml:id='l621'>Puiſqu'il faut là-deſſus dire ce que je penſe,</l>
+                        <l n='622' xml:id='l622'>Voici quel eſt mon ſentiment.</l>
+                        <l n="623" xml:id="l623_1" part="I">L'Officier...</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S6-38">
+                        <speaker>L'AUTEUR</speaker> <stage type="delivery" rend="italics">l'interrompant.</stage>
+                        <l xml:id="l623_2" part="F">Ecoutons. Paix-là, Monſieur, ſilence.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-39">
+                        <speaker>ANGELIQUE </speaker><stage type='delivery' rend="italics">reprend.</stage><lb/>
+                        <l n='624' xml:id='l624'>L'Officier naturellement,</l>
+                        <l n='625' xml:id='l625'>Eſt galant &amp; poli, ſans vouloir le paroître.</l>
+                        <l n='626' xml:id='l626'>L'Auteur qui s'étudie à l'être,</l>
+                        <l n='627' xml:id='l627'>Y réuſſit plus difficilement ;</l>
+                        <l n='628' xml:id='l628'>L'un embellit <fs><f name="temper">le petit Maître</f></fs>,</l>
+                        <l n='629' xml:id='l629'>Et l'autre gâte <fs><f name="temper">l'Important</f></fs>.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-40">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='630' xml:id='l630'>Fort bien. Je n'aurois pû décider autrement.</l>
+                    </sp>
+                    <sp who="L'Officier" xml:id="S6-41">
+                        <speaker>L'OFFICIER<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='631' xml:id='l631'>Il gâte l'Important ! J'ai pourtant gain de cauſe.</l>
+                        <l n='632' xml:id='l632'>Une bouche charmante a décidé de la choſe ;</l>
+                        <l n='633' xml:id='l633'>Quel comble de plaiſir ! C'eſt gagner doublement.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S6-42">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='634' xml:id='l634'>Déciſion de jeune fille,</l>
+                        <pb n="137"/>
+                        <l n='635' xml:id='l635'>Qui ſe laiſſe ébloüir par l'oripeau qui brille,</l>
+                        <l n='636' xml:id='l636'>Et j'apelle au <persName type="allegory">Bon goût</persName> d'un pareil jugement.</l>
+                    </sp>
+                    <sp who="Angélique" xml:id="S6-43">
+                        <speaker>ANGELIQUE</speaker> <stage type="delivery" rend="italics">avec vivacité.</stage><lb/>
+                        <l n='637' xml:id='l637'>Je n'ai porté qu'en badinant,</l>
+                        <l n='638' xml:id='l638'>L'Arrêt qui vous met en colére,</l>
+                        <l n='639' xml:id='l639'>Et je n'écoute qu'en riant,</l>
+                        <l n='640' xml:id='l640'>La réponſe, Monſieur, que vous venez de faire.</l>
+                        <l n='641' xml:id='l641'>Peſter contre ſon Juge eſt un ſoulagement,</l>
+                        <l n='642' xml:id='l642'>Qu'on permet au Plaideur quand il perd ſon affaire ;</l>
+                        <l n='643' xml:id='l643'>Et quoique vous diſiez, tout m'eſt indifférent,</l>
+                        <l n='644' xml:id='l644'>Vous n'aurez jamais le talent,</l>
+                        <l n='645' xml:id='l645'>De m'offenſer ni de me plaire.</l>
+                        <lb/><stage type="delivery" rend="italics">(au <persName type='allegory'>Badinage</persName> gracieuſement.)</stage><lb/>
+                        <l n='646' xml:id='l646'>Adieu, Seigneur, je cours dans ces inſtans</l>
+                        <l n='647' xml:id='l647'>Mettre à profit tous vos préſens,</l>
+                        <l n='648' xml:id='l648'>Et pratiquer la ſcience légere</l>
+                        <l n='649' xml:id='l649'>D'épuiſer les riens amuſans. <stage type="delivery" rend="italics">(en tirade.)</stage><lb/></l>
+                        <l n='650' xml:id='l650'>Je vais éfleurer tout dans les cercles brillans,</l>
+                        <l n='651' xml:id='l651'>Traiter la Paix, faire la Guerre,</l>
+                        <l n='652' xml:id='l652'>Attaquer l'ennemi, le prendre priſonnier,</l>
+                        <l n='653' xml:id='l653'>Faire éclater tout haut ma douleur peu commune,</l>
+                        <l n='654' xml:id='l654'>Pour le départ de l'Officier ;</l>
+                        <l n='655' xml:id='l655'>Et maudire tout bas <span type="topos">la préſence importune</span>,</l>
+                        <l n='656' xml:id='l656'>Du jeune Robin familier,</l>
+                        <lb/><stage type="business" rend="italics">(en regardant l'Auteur.)</stage><lb/>
+                        <l n='657' xml:id='l657'>Qui diſpute à Monſieur, l'art de nous ennuyer :</l>
+                        <l n='658' xml:id='l658'>Et pour me diſſiper dans cette conjoncture,</l>
+                        <l n='659' xml:id='l659'>Railler Monſieur l'Abbé, badiner ſa figure,</l>
+                        <l n='660' xml:id='l660'><span type="topos">Le conſulter ſur des ponpons</span> ;</l>
+                        <l n='661' xml:id='l661'>Et l'ayant établi juge de ma coëffure ;</l>
+                        <l n='662' xml:id='l662'>Faire imprimer dans le Mercure,</l>
+                        <l n='663' xml:id='l663'>Ses Arrêts de toilette, &amp; ſes doutes profonds.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S6-44">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='664' xml:id='l664'>Adieu, ma belle enfant, votre eſprit fait paroître</l>
+                        <l n='665' xml:id='l665'>Trop de talent pour ne pas l'employer,</l>
+                        <l n='666' xml:id='l666'>Continuez, &amp; votre maître</l>
+                        <l n='667' xml:id='l667'>Sera bien-tôt votre Ecolier.</l>
+                    </sp>
+                    <lb/><stage>(<persName>Angélique</persName> ſort.)</stage><lb/>
+                </div>
+                <pb n="138"/>
+                <div type="scene" n="7" xml:id="S7">
+                    <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE BADINAGE <pc>,</pc> L'OFFICIER <pc>,</pc> <lb/> L'AUTEUR<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="L'Officier" xml:id="S7-1">
+                        <speaker>L'OFFICIER</speaker> <stage type="delivery" rend="italics">au <persName type='allegory'>Badinage</persName><pc type="affirmative">.</pc></stage>
+                        <l n='668' xml:id='l668'>MOi, je parts, &amp; je vais prendre congé des Dames</l>
+                        <l n='669' xml:id='l669'>Elles ſont à plaindre en ce jour,</l>
+                        <l n='670' xml:id='l670'>Je vous les recommande. Attendant mon retour,</l>
+                        <l n='671' xml:id='l671'>Pour amuſer ces pauvres femmes,</l>
+                        <l n='672' xml:id='l672'>Par votre art, s'il ſe peut, rendez l'Abbé moins ſot,</l>
+                        <l n='673' xml:id='l673'>Façonnez tous les gens de Palais &amp; d'affaire,</l>
+                        <l n='674' xml:id='l674'>Ne perdez pas de tems, il vous eſt néceſſaire ;</l>
+                        <l n='675' xml:id='l675'>Il vous faudra donner bien des coups de rabot.</l>
+                        <l n='676' xml:id='l676'>Je ſerai revenu, je gage,</l>
+                        <l n='677' xml:id='l677'>Que vous n'aurez pas fait un quart de votre ouvrage.</l>
+                        <l n='678' xml:id='l678'>Adieu, j'entens déja les inſtrumens Guerriers,</l>
+                        <l n='679' xml:id='l679'>Animer du François la valeur naturelle,</l>
+                        <l n='680' xml:id='l680'>Je cours où la gloire m'apelle,</l>
+                        <l n='681' xml:id='l681'>Et je vais ſur ſes pas me couvrir de lauriers.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S7-2">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='682' xml:id='l682'>Partez, vaillant Guerrier, ſuivez un ſi beau zèle ;</l>
+                        <l n='683' xml:id='l683'>Hâtez votre départ pour hâter le retour :</l>
+                        <l n='684' xml:id='l684'>Revenez plus brillant embellir notre cour ;</l>
+                        <l n='685' xml:id='l685'>Revenez pour nous rendre une gayeté nouvelle,</l>
+                        <l n='686' xml:id='l686'>Et pour vous délaſſer en cet heureux ſéjour,</l>
+                        <l n='687' xml:id='l687'>Des fatigues de <persName type="god">Mars</persName> dans les bras de l'amour :</l>
+                        <l n='688' xml:id='l688'>Après la peine, après le péril redoutable ,</l>
+                        <l n='689' xml:id='l689'>Vous trouverez auprès de nous,</l>
+                        <l n='690' xml:id='l690'>Le <persName type='allegory'>Badinage</persName> plus aimable,</l>
+                        <l n='691' xml:id='l691'>Le plaiſir plus piquant &amp; le repos plus doux.</l>
+                    </sp>
+                </div>
+                <pb n="139"/>
+                <div type="scene" n="8" xml:id="S8">
+                    <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE BADINAGE <pc>,</pc> L'AUTEUR<pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="L'Auteur" xml:id="S8-1">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='692' xml:id='l692'>POur moi la Paix eſt mon partage ;</l>
+                        <l n='693' xml:id='l693'>Et quoique je demeure en ce lieu fortuné,</l>
+                        <l n='694' xml:id='l694'>Ne comptez plus ſur notre hommage,</l>
+                        <l n='695' xml:id='l695'>Je le deſtine à votre frere aîné ;</l>
+                        <l n='696' xml:id='l696'>Et je cours de ce pas, mon petit <persName type='allegory'>Badinage</persName>,</l>
+                        <l n='697' xml:id='l697'>Lui donner ſur vous l'avantage,</l>
+                        <l n='698' xml:id='l698'>Il aura ſeul tout mon encens.</l>
+                        <l n='699' xml:id='l699'>Je vais dans tout <placeName>Paris</placeName> par un ſanglant ouvrage,</l>
+                        <l n='700' xml:id='l700'>Vous décrier en même tems,</l>
+                        <l n='701' xml:id='l701'>Je veux que dans trois jours il ſoit ſeul à la mode.</l>
+                        <l n='702' xml:id='l702'>Je le peindrai ſous des traits ſéduiſans,</l>
+                        <l n='703' xml:id='l703'>Comme un Dieu ſans façon, agréable, commode,</l>
+                        <l n='704' xml:id='l704'>Pere du bien facile &amp; du plaiſir réel,</l>
+                        <l n='705' xml:id='l705'>Digne que l'Univers encenſe ſon autel ;</l>
+                        <l n='706' xml:id='l706'>Et rendant vous défauts inſignes,</l>
+                        <l n='707' xml:id='l707'>Je vous offrirai, vous, ſous des couleurs malignes,</l>
+                        <l n='708' xml:id='l708'>Comme un Dieu mince &amp; freluquet <choice><sic>?</sic><corr>,</corr></choice></l>
+                        <l n='709' xml:id='l709'>Un petit précieux que le caprice guide,</l>
+                        <l n='710' xml:id='l710'>Qui veut faire l'habile, &amp; n'a que du caquet :</l>
+                        <l n='711' xml:id='l711'>Tout parle contre vous, &amp; pour lui tout décide ;</l>
+                        <l n='712' xml:id='l712'>Vous viſez au frivole, il va droit au ſolide,</l>
+                        <l n='713' xml:id='l713'>Vous êtes l'ombre, il eſt le corps,</l>
+                        <l n='714' xml:id='l714'>Le bonheur qu'il procure eſt un bonheur palpable,</l>
+                        <l n='715' xml:id='l715'>Vos faveurs ſont du vent, &amp; n'ont qu'un vain de-<lb/>hors,</l>
+                        <l n='716' xml:id='l716'>Il eſt la vérité, vous n'êtes que <term>la Fable</term>.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S8-2">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='717' xml:id='l717'>Signalez vos talens par des projets ſi beaux,</l>
+                        <l n='718' xml:id='l718'>Vous ne pouviez choiſir un plus digne héros.</l>
+                        <pb n="140"/>
+                        <l n='719' xml:id='l719'>Partez, allez chanter le vice,</l>
+                        <l n='720' xml:id='l720'>La honte &amp; le remord en ſeront le ſeul prix.</l>
+                        <l n='721' xml:id='l721'>Ils puniront votre injuſtice,</l>
+                        <l n='722' xml:id='l722'>Et ſçauront me venger d'une indigne mépris.</l>
+                    </sp>
+                    <sp who="L'Auteur" xml:id="S8-3">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='723' xml:id='l723'>D'un <span type="syllepse-dramatique">chimérique Dieu</span> menace imaginaire !</l>
+                        <l n='724' xml:id='l724'>Adieu. Tu vas ſentir les traits de ma colére,</l>
+                        <l n='725' xml:id='l725'>C'eſt peu d'aller de maiſon en maiſon,</l>
+                        <l n='726' xml:id='l726'>Verſer ſur toi mon dangereux poiſon,</l>
+                        <l n='727' xml:id='l727'>Je vais dans les Caffés, je vais contre ta cauſe,</l>
+                        <l n='728' xml:id='l728'>Armer tous les partis divers,</l>
+                        <l n='729' xml:id='l729'>Et je cours, ſans faire de pauſe,</l>
+                        <l n='730' xml:id='l730'>Au <placeName>Fauxbourg Saint Germain</placeName> te dénigrer en proſe</l>
+                        <l n='731' xml:id='l731'>Au-delà du <placeName>Pont-Neuf</placeName> te déchirer en vers,</l>
+                        <l n='732' xml:id='l732'>Auprès des <placeName>Quinze-Vingts</placeName> te fronder en muſique ,</l>
+                        <l n='733' xml:id='l733'>Et chanter contre toi plus d'un couplet cauſtique,</l>
+                        <l n='734' xml:id='l734'>Attaquer ta puiſſance, &amp; combattre ton goût</l>
+                        <l n='735' xml:id='l735'>Sur la <name type="institution">Scène Françoiſe</name>, au <name type="institution">Théâtre lyrique</name> ;</l>
+                        <l n='736' xml:id='l736'>Et je veux que preſſé de l'un à l'autre bout,</l>
+                        <l n='737' xml:id='l737'>Tu doutes où je ſuis, &amp; me trouves par-tout.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="9" xml:id="S9">
+                    <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
+                    <stage>LE BADINAGE <pc>,</pc> LE PARTERRE <pc type="affirmative">.</pc></stage><lb/>
+                    <sp who="Le Parterre" xml:id="S9-1">
+                        <speaker>LE PARTERRE</speaker> <stage type="delivery" rend="italics">à part.</stage>
+                        <l n='738' xml:id='l738'>PEſte de la Muſique ! au diable le Poëme !</l>
+                        <l n='739' xml:id='l739'>Payer quarante ſol un mal de tête extrême !</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-2">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='740' xml:id='l740'>Quel eſt donc celui que je voi ?</l>
+                        <l n='741' xml:id='l741'>Son aſpect m'intimide , &amp; je ſens de l'effroi !</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-3">
+                        <speaker>LE PARTERRE</speaker> <stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <l n='742' xml:id='l742'>Je ſuis encore ému des flots &amp; de l'orage,</l>
+                        <l n='743' xml:id='l743'>Que je viens d'exciter dans mon juſte courroux.</l>
+                        <l n="744" xml:id="l744_1" part="I">Je cherche ici...</l>
+                    </sp>
+                    <pb n="141"/>
+                    <sp who='Badinage' xml:id="S9-4">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l744_2" part="M">Qui, Monſieur ?</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-5">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l744_3" part="F">Vous.</l>
+                        <l n='745' xml:id='l745'>N'êtes-vous pas le <persName type='allegory'>Badinage</persName> !</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-6">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="746" xml:id="l746_1" part="I">Oui, c'eſt moi.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-7">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id='l746-2' part="F">Touchez-là. Car je viens vous trouver,</l>
+                        <l n='747' xml:id='l747'>Pour diſſiper l'ennui qu'on m'a fait éprouver.</l>
+                        <l n='748' xml:id='l748'>Déja votre air fripon déride mon viſage.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-8">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='749' xml:id='l749'>Dites-moi quelles ſont vous qualités, Monſieur ?</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-9">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='750' xml:id='l750'>Toutes. Je ſuis <fs><f name="occupation">Robin</f></fs>, je ſuis <fs><f name="occupation">Auteur</f></fs>,</l>
+                        <l n='751' xml:id='l751'>Je ſuis <fs><f name="occupation">Abbé</f></fs>, je ſuis <fs><f name="occupation">homme d'Affaire</f></fs>,</l>
+                        <l n='752' xml:id='l752'>Je ſuis <fs><f name="occupation">Muſicien</f></fs>, &amp; je ſuis <fs><f name="occupation">Médecin</f></fs>,</l>
+                        <l n='753' xml:id='l753'>Je ſuis <fs><f name="occupation">Marchand</f></fs>, &amp; je ſuis <fs><f name="occupation">Mouſquetaire</f></fs>,</l>
+                        <l n='754' xml:id='l754'>Je ſuis <fs><f name="nationality">Normand</f></fs>, <fs><f name="nationality">Gaſcon</f></fs>... bref je ſuis tout <lb/>Enfin. </l>
+                        <l n='755' xml:id='l755'><lb/> En ma perſonne je raſſemble</l>
+                        <l n='756' xml:id='l756'>Tous les Etats &amp; les Pays enſemble.</l>
+                        <l n='757' xml:id='l757'>Je décide debout ; mais ſouverainement,</l>
+                        <l n='758' xml:id='l758'>Et l'on ne m'ennuya jamais impunément.</l>
+                        <l n='759' xml:id='l759'>Ici je ſuis ſur tout un Juge qu'on redoute.</l>
+                        <l n="760" xml:id="l760_1" part="I">Reconnoiſſez....</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-10">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l760_2" part="F">Qui ? Terminez mon doute.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-11">
+                        <speaker>LE PARTERRE </speaker> <stage rend="italics">(en bâillant.)</stage><lb/>
+                        <l n='761' xml:id='l761'>Reconnoiſſez à ce bâillement-là,</l>
+                        <l n='762' xml:id='l762'>Le Parterre qui ſort du nouvel Opéra.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-12">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='763' xml:id='l763'>Vous êtes le Parterre ! Ah ! mon Roi, mon cher Maître !</l>
+                        <l n='764' xml:id='l764'>Réuni dans un ſeul, comment vous reconnoître ?</l>
+                        <l n='765' xml:id='l765'>Pardonnez mon erreur, daignez être aſſis.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-13">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="766" xml:id="l766_1" part="I">Non, ce n'eſt pas ma coûtume.</l>
+                    </sp>
+                    <pb n="142"/>
+                    <sp who='Badinage' xml:id="S9-14">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l766_2" part="F">Tant pis.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-15">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='767' xml:id='l767'>Je ne le fus jamais depuis qu'on m'a vû naître.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-16">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='768' xml:id='l768'>Pourtant ſi vous le pouviez être,</l>
+                        <l n='769' xml:id='l769'>Vous ſeriez plus à l'aiſe, &amp; nous, Seigneur, auſſi.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-17">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="770" xml:id="l770_1" part="I">Vous avez peur ?</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-18">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l770_2" part="F">On voit trembler le plus hardi</l>
+                        <l n='771' xml:id='l771'>Quand il eſt devant vous obligé de paroître.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-19">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='772' xml:id='l772'>Vous êtes fait pour plaire, ainſi ne craignez rien.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-20">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='773' xml:id='l773'>Vous venez de voir <title n="Hyppolite_et_Aricie">Hypolite</title> ,</l>
+                        <l n='774' xml:id='l774'>Seigneur, que votre eſprit daigne éclairer le mien ;</l>
+                        <l n="775" xml:id="l775_1" part="I">Quels ſont vos ſentimens ?</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-21">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l775_2" part="F">Je ne le ſçai pas bien,</l>
+                        <l n='776' xml:id='l776'>J'en ai pluſieurs, &amp; tels qu'il les mérite,</l>
+                        <l n='777' xml:id='l777'>Tous juſtes dans le fond ; mais qui ne ſont pas clairs.</l>
+                        <l n='778' xml:id='l778'>Il m'en inſpire de divers ;</l>
+                        <l n='779' xml:id='l779'>D'ennui, de haine, de colére,</l>
+                        <l n='780' xml:id='l780'>De mépris, de triſteſſe, &amp; de compaſſion,</l>
+                        <l n='781' xml:id='l781'>Je reſſens tout chez moi, hors l'admiration.</l>
+                        <l n='782' xml:id='l782'>Dans tous mes jugemens, à moi-même contraire,</l>
+                        <l n='783' xml:id='l783'>J'en porte autant dans ma confuſion,</l>
+                        <l n='784' xml:id='l784'>Que ſous un ſeul bonnet je raſſemble de têtes ;</l>
+                        <l n='785' xml:id='l785'>Et leur nuage obſcur excite des tempêtes,</l>
+                        <l n='786' xml:id='l786'>Cauſes dans mon cerveau tant de flux &amp; reflux,</l>
+                        <l n='787' xml:id='l787'>Qu'ils ſe confondent tous, &amp; que je n'y vois plus.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-22">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='788' xml:id='l788'>Dans ce conflit, aux Auteurs ſi terrible,</l>
+                        <l n='789' xml:id='l789'>Je vous trouve, Seigneur, preſqu'incompréhenſible.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-23">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='790' xml:id='l790'>Mais la nuit ſe diſſipe, &amp; je vois le Soleil,</l>
+                        <l n='791' xml:id='l791'>Il eſt tems par ma voix que la vérité ſorte ;</l>
+                        <pb n="143"/>
+                        <l n='792' xml:id='l792'>Je viens d'aſſembler mon Conſeil,</l>
+                        <l n='793' xml:id='l793'>Sur un ouvrage de la ſorte.</l>
+                        <l n='794' xml:id='l794'>Voici tous les Arrêts qu'il porte.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-24">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='795' xml:id='l795'>Qu'il va partir d'orages foudroïans !</l>
+                        <l n='796' xml:id='l796'>Et de jugemens différens.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-25">
+                        <speaker>LE PARTERRE</speaker> <stage type="delivery" rend="italics">en <fs><f name="temper">Muſicien</f></fs>.</stage><lb/>
+                        <l n='797' xml:id='l797'>Je rends juſtice à la Muſique.</l>
+                        <l n='798' xml:id='l798'>Elle eſt bien travaillée, elle a de grands morceaux.</l>
+                        <l n='799' xml:id='l799'>Les accompagnemens &amp; les <choice><sic>cœurs</sic><corr>choeurs</corr></choice> en ſont beaux.</l>
+                        <l n='800' xml:id='l800'>Mais par malheur elle eſt mélancolique,</l>
+                        <l n='801' xml:id='l801'>Fatigue trop l'Orcheſtre, &amp; dans le même tems</l>
+                        <l n='802' xml:id='l802'>Qu'il paroît qu'elle pique</l>
+                        <l n='803' xml:id='l803'>Quinze ou vingt prétendus ſçavans,</l>
+                        <l n='804' xml:id='l804'>Elle ennuie à mourir plus de mille ignorans.</l>
+                        <l n='805' xml:id='l805'>Les airs d'ailleurs, nouveaux dans leur eſpéce,</l>
+                        <l n='806' xml:id='l806'>Sont plus tartares que françois ;</l>
+                        <l n='807' xml:id='l807'>On leur fait ici politeſſe,</l>
+                        <l n='808' xml:id='l808'>Comme à des gens qu'on voit pour la premiére fois.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-26">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='809' xml:id='l809'>C'eſt le Muſicien qui parle pas ſa bouche.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-27">
+                        <speaker>LE PARTERRE</speaker> <stage type="delivery" rend="italics">en <fs><f name="temper">Auteur</f></fs>.</stage><lb/>
+                        <l n='810' xml:id='l810'>Pour le Poëme, il m'effarouche,</l>
+                        <l n='811' xml:id='l811'>On n'a jamais commis de tels larcins.</l>
+                        <l n='812' xml:id='l812'>Piller effrontément, piller <title n="Phèdre">Phédre</title>, <title n="Avilie">Avilie</title> ;</l>
+                        <l n='813' xml:id='l813'>C'eſt voler ſur les grands chemins.</l>
+                        <l n='814' xml:id='l814'>On lui prend tout encore juſqu'au nom d'<persName type="lit_character" n="Aricie">Aricie</persName>;</l>
+                        <l n='815' xml:id='l815'>Mais que dis-je ? C'eſt peu dans ces tems inhumains,</l>
+                        <l n='816' xml:id='l816'>C'eſt peu qu'on la dépouille, O ciel ! on l'eſtropie.</l>
+                        <l n='817' xml:id='l817'>Un barbare, eh ! le puis-je autrement apeller ?</l>
+                        <l n='818' xml:id='l818'>Lui briſe chaque membre, &amp; l'oſe décoler,</l>
+                        <l n='819' xml:id='l819'>Sans pitié, ſans égards aux loix de l'harmonie,</l>
+                        <l n='820' xml:id='l820'>Change les plus beaux vers en des vers viſigots,</l>
+                        <l n='821' xml:id='l821'>Et par un dernier trait de licence inouïe,</l>
+                        <l n='822' xml:id='l822'>De tous les <choice><sic>cœurs</sic><corr>choeurs</corr></choice> il fait des Matelots.</l>
+                        <l n='823' xml:id='l823'>Et l'on ne venge point le bon ſens qu'il déſole,</l>
+                        <l n='824' xml:id='l824'>Ce Théâtre qu'il pille, &amp; <persName type="author" n="Racine">Racine</persName> qu'il vole !</l>
+                    </sp>
+                    <pb n="144"/>
+                    <sp who='Badinage' xml:id="S9-28">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='825' xml:id='l825'>Ah ! Voilà du public Auteur,</l>
+                        <l n='826' xml:id='l826'>Le ton cauſtique, &amp; la mauvaiſe humeur<choice><sic>,</sic><corr>.</corr></choice></l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-29">
+                        <speaker>LE PARTERRE </speaker>
+                        <stage type="delivery" rend="italics">contrefaiſant <fs><f name="temper">l'Abbé</f></fs>.</stage><lb/>
+                        <l n='827' xml:id='l827'>Sans m'échauffer les Sens, moi, je fais mes remar-<lb/>ques :</l>
+                        <l n='828' xml:id='l828'>Je fronde les Enfers, &amp; le Trio des Parques.</l>
+                        <l n='829' xml:id='l829'>Outre que dans <title n="Isis">Iſis</title> il ſont pris tout du long,</l>
+                        <l n='830' xml:id='l830'>Je ne ſçaurois ſouffrir les hommes en jupon,</l>
+                        <l n='831' xml:id='l831'>La maſcarade eſt indécente &amp; ſotte ;</l>
+                        <l n='832' xml:id='l832'>Paſſe pour mettre encore des femmes en culotte.</l>
+                        <l n='833' xml:id='l833'>J'en trouve le coup d'œil amuſant &amp; fripon.</l>
+                        <l n='834' xml:id='l834'>En tirant mon rabat, &amp; braquant ma lorgnette,</l>
+                        <l n='835' xml:id='l835'>J'ai le plaiſir alors de juger du tendron,</l>
+                        <l n='836' xml:id='l836'>Et de me récrier, qu'elle eſt bien en garçon !</l>
+                        <l n='837' xml:id='l837'>Non, je ne vis jamais de jambe ſi bien faite,</l>
+                        <l n='838' xml:id='l838'>Ni de corſage ſi mignon !</l>
+                        <l n='839' xml:id='l839'>Ah !je la croquerois, tant ſa taille eſt parfaite !</l>
+                        <l n='840' xml:id='l840'>Je n'y ſçaurois tenir, ſon petit air mutin</l>
+                        <l n='841' xml:id='l841'>Mérite qu'on la claque &amp; reclaque ſoudain.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-30">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='842' xml:id='l842'>Oh! C'eſt-là de l'Abbé le ton plein de moleſſe.</l>
+                        <l n='843' xml:id='l843'>Ce goût pour les tendrons nous marque ſa foibleſſe.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-31">
+                        <speaker>LE PARTERRE </speaker>
+                        <stage type="delivery" rend="italics">en <fs><f name="temper">petit Maître</f></fs>.</stage><lb/>
+                        <l n='844' xml:id='l844'>Le Poëme, en honneur, ne ſçauroit ſe payer.</l>
+                        <l n='845' xml:id='l845'>Entre pluſieurs endroits dont je ſuis Chevalier,</l>
+                        <l n='846' xml:id='l846'>Je trouve le retour de <persName type="lit_character" n="Thesée">Theſée</persName> impayable,</l>
+                        <l n='847' xml:id='l847'>Dans le moment qu'on dit à ce Héros</l>
+                        <l n='848' xml:id='l848'>Qu'il eſt deshonoré par ſon fils trop coupable,</l>
+                        <l n='849' xml:id='l849'>Une troupe de Matelots,</l>
+                        <l n='850' xml:id='l850'>Qui dans ſa Cour arrivent en batteaux,</l>
+                        <l n='851' xml:id='l851'>Viennent lui témoigner leur joye inexprimable</l>
+                        <l n='852' xml:id='l852'>Par des tambourins &amp; des ſauts.</l>
+                        <l n='853' xml:id='l853'>On ne peut pas, où je me donne au diable,</l>
+                        <l n='854' xml:id='l854'>On ne peut pas choiſir ſon tems plus à propos.</l>
+                        <l n='855' xml:id='l855'>Le coq-à-l'âne eſt admirable !</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-32">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='856' xml:id='l856'>Voilà du <fs><f name="temper">petit-Maître</f></fs> &amp; l'air &amp; les propos ;</l>
+                    </sp>
+                    <pb n="145"/>
+                    <sp who="Le Parterre" xml:id="S9-33">
+                        <speaker>LE PARTERRE </speaker>
+                        <stage type="delivery" rend="italics">en <fs><f name="temper">Robin</f></fs>.</stage><lb/>
+                        <l n='857' xml:id='l857'>Le Poëme en premiére inſtance</l>
+                        <l n='858' xml:id='l858'>A perdu ſon Procès tout net.</l>
+                        <l n='859' xml:id='l859'>De le mettre à néant on a ſagement fait,</l>
+                        <l n='860' xml:id='l860'>Et je confirme la Sentence.</l>
+                        <l n='861' xml:id='l861'>En outre, non content du quart qu'on a ſouſtrait ;</l>
+                        <l n='862' xml:id='l862'>Je condamne le tout par Arrêt authentique ;</l>
+                        <l n='863' xml:id='l863'>Et j'enjoins ſans délais au <name type="institution" n="Opéra"></name>Théâtre lirique,</l>
+                        <l n='864' xml:id='l864'>De ſuprimer à cet effet,</l>
+                        <l n='865' xml:id='l865'>Les paroles tout-à-fait,</l>
+                        <l n='866' xml:id='l866'>Et ne chanter que la Muſique.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-34">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='867' xml:id='l867'>On reconnoît la Robe à ce ton emphatique.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-35">
+                        <speaker>LE PARTERRE </speaker>
+                        <stage type="delivery" rend="italics">en <fs><f name="temper">Gaſcon</f></fs>.</stage><lb/>
+                        <l n='868' xml:id='l868'>Pour moi, jé mé rends toujours-là,</l>
+                        <l n='869' xml:id='l869'>Juſte à la fin dé l'Opéra.</l>
+                        <l n='870' xml:id='l870'>Pſt, lé gaillard avec ſa redingote</l>
+                        <l n='871' xml:id='l871'>Sé gliſſe comme un bent coulis.</l>
+                        <l n='872' xml:id='l872'>J'arribe à tems &amp; j'eſcamote</l>
+                        <l n='873' xml:id='l873'>Lé Roſſignol chanté par un goſier exquis</l>
+                        <l n='874' xml:id='l874'>Abec les pas que ſi bien nous tricote</l>
+                        <l n='875' xml:id='l875'>L'aimable danſeuſe qui ſaute</l>
+                        <l n='876' xml:id='l876'>Preſqu'auſſi-bien qu'un homme du Pays.</l>
+                        <l n='877' xml:id='l877'>J'enlebe ainſi lé plus beau du ſpectacle,</l>
+                        <l n='878' xml:id='l878'>Sans qu'il m'en coûte encore ni d'argent, ni d'ennui.</l>
+                        <l n='879' xml:id='l879'>Hem ! ne troubez vous pas, où jé meure aujourd'hui.</l>
+                        <l n='880' xml:id='l880'>Qué lé garçon fait à miracle,</l>
+                        <l n='881' xml:id='l881'>Et qu'on <distinct type="gasconisme">né</distinct> peut agir plus ſagement que lui ?</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-36">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='882' xml:id='l882'>On devine d'abord l'Auteur de cet Oracle ,</l>
+                        <l n='883' xml:id='l883'>Et ſans attendre ici que je nomme <sic>ici</sic> ſon nom,</l>
+                        <l n='884' xml:id='l884'>Chacun dit avant moi, c'eſt le Public Gaſcon.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-37">
+                        <speaker>LE PARTERRE </speaker>
+                        <stage type="delivery" rend="italics">en <fs><f name="temper">Commis ſubalterne</f></fs>.</stage><lb/>
+                        <l n='885' xml:id='l885'>Je ſors fort mécontent de cette Comédie.</l>
+                        <l n='886' xml:id='l886'>Tout ſuputé dans mon génie,</l>
+                        <l n='887' xml:id='l887'><name type="institution" n="Opéra">L'Opéra</name>, ventrebleu, nous prend pour des zéros,</l>
+                        <l n='888' xml:id='l888'>De nous tirer de nos Bureaux,</l>
+                        <l n='889' xml:id='l889'>Pour nous donner ſemblable <term>rapſodie</term>.</l>
+                        <pb n="146"/>
+                        <l n='890' xml:id='l890'>J'ai la tête caſſée, &amp; l'oreille aſſourdie,</l>
+                        <l n='891' xml:id='l891'>D'entendre ſans raiſon tonner à tout propos ;</l>
+                        <l n='892' xml:id='l892'>Et la Salle eſt empuantie,</l>
+                        <l n='893' xml:id='l893'>Par l'odeur des pétards qu'allument des nigauds,</l>
+                        <l n='894' xml:id='l894'>D'un bras fort mal-à-droit, dans les vilains nazeaux</l>
+                        <l n='895' xml:id='l895'>Du Monſtre que combat <persName type="lit_character" n="Aricie">Aricie</persName> ;</l>
+                        <l n='896' xml:id='l896'>Et que <persName type="author" n="Corneille">Corneille</persName> a peint ſi galamment,</l>
+                        <l n='897' xml:id='l897'>Dans <title n="Alexandre">Alexandre</title>, ou dans <title n="Iphigénie">Iphigénie</title>.</l>
+                        <l n='898' xml:id='l898'>Je ne ſçai dans lequel des deux préciſément</l>
+                        <l n='899' xml:id='l899'>J'en ai fait la lecture, étant petit enfant.</l>
+                        <l n='900' xml:id='l900'>D'une peinture ſi jolie,</l>
+                        <l n='901' xml:id='l901'>J'ai retenu ces deux Vers ſeulement.</l>
+                        <l n="902" xml:id="l902" rend="italics">Son front large eſt armé d'écailles jauniſſantes ;</l>
+                        <l n="903" xml:id="l903" rend="italics">Tout ſon corps eſt couvert de cornes menaçantes.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-38">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='904' xml:id='l904'>Oh ! du plus ruſtre des Commis ,</l>
+                        <l n='905' xml:id='l905'>Qui ſoient dans les Aydes blotis.</l>
+                        <l n='906' xml:id='l906'>Voilà les <hi rend="italics">quiproquos</hi>, &amp; l'ignorance craſſe.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-39">
+                        <speaker>LE PARTERRE </speaker> <stage type= 'delivery' rend="italics">contrefaiſant <fs><f name="temper">l'Abbé</f></fs>.</stage><lb/>
+                        <l n='907' xml:id='l907'>J'oubliois le meilleur. Un petit mot de grace.</l>
+                        <l n='908' xml:id='l908'>Je reviens aux Enfers. L'Oracle qu'on y rend</l>
+                        <l n='909' xml:id='l909'>Me paroit d'un naïf frapant.</l>
+                        <lb/><stage type="delivery" rend="italics">(s'interrompant en <fs><f name="temper">Marchand</f></fs>.)</stage><lb/>
+                        <l n='910' xml:id='l910'>Et digne de riſée... Et digne de riſée !</l>
+                        <l n='911' xml:id='l911'>Songés, Monſieur l'Abbé, qu'il prédit à <persName type="lit_character" n="Thesée">Théſée</persName>,</l>
+                        <l n='912' xml:id='l912'>Qu'il va trouver l'Enfer chez lui.</l>
+                        <l n='913' xml:id='l913'>Cette prédiction ſe trouve véritable :</l>
+                        <l n='914' xml:id='l914'>En y trouvant ſa femme , il y trouve le diable.</l>
+                        <lb/><stage type="business" rend="italics">(il rit en <fs><f name="temper">Abbé</f></fs>.)</stage><lb/>
+                        <l n='915' xml:id='l915'>Cela ſent la Boutique &amp; ſon homme établi,</l>
+                        <l n="916" xml:id="l916_1" part="I">Hi, hi...</l>
+                        <lb/><stage type="delivery" rend="italics">(en <fs><f name="temper">Marchand</f></fs>, contrefaiſant l'Abbé.)</stage><lb/>
+                        <l xml:id="l916_2" part="F">Hi, hi ! Pourquoi ricanez-vous ainſi ?</l>
+                        <l n='917' xml:id='l917'>Vous trouveriés l'Oracle inconteſtable,</l>
+                        <l n='918' xml:id='l918'>Si vous aviez une femme aujourd'hui.</l>
+                        <lb/><stage type="delivery" rend="italics">(en <fs><f name="temper">Abbé</f></fs>.)</stage><lb/>
+                        <l n='919' xml:id='l919'>Monſieur le Trafiquant, la vôtre eſt-elle aimable ?</l>
+                        <pb n="147"/>
+                        <stage type="delivery" rend="italics">(en <fs><f name="temper">Gaſcon</f></fs>.)</stage><lb/>
+                        <l n='920' xml:id='l920'>Abec tout <distinct type="gasconisme">lé</distinct> reſpect que je dois au rabat,</l>
+                        <l n='921' xml:id='l921'>Bous abez tort, Mouſſu l'Abbat,</l>
+                        <l n='922' xml:id='l922'>Aux dépens du Marchand, dé faire l'agréable.</l>
+                        <l n='923' xml:id='l923'>C'eſt de tout l'Opéra l'endroit lé plus paſſable,</l>
+                        <l n='924' xml:id='l924'>Cela fait Epigramme, ou jé né ſuis qu'un fat.</l>
+                        <lb/><stage type="delivery" rend="italics">(en <fs><f name="temper">Auteur</f></fs>.)</stage><lb/>
+                        <l n='925' xml:id='l925'>Ciel ! Peut-on ſoutenir un Oracle exécrable ?</l>
+                        <lb/><stage type="delivery" rend="italics">(en <fs><f name="temper">petit Maître</f></fs>.)</stage><lb/>
+                        <l n='926' xml:id='l926'>Monſe l'Auteur, n'en ſoyés pas ſurpris,</l>
+                        <l n='927' xml:id='l927'>Sans doute le Marchand fait crédit au Couſis.</l>
+                        <lb/><stage type="delivery" rend="italics">(en <fs><f name="temper">Commis</f></fs>.)</stage><lb/>
+                        <l n='928' xml:id='l928'>Je n'en ſçais rien, Monſieur le petit Maître,</l>
+                        <l n='929' xml:id='l929'>Je ſuis toujours de leur avis.</l>
+                        <l n='930' xml:id='l930'>L'Oracle eſt auſſi clair que trois &amp; trois font ſix,</l>
+                        <lb/><stage type="delivery" rend="italics">(en <fs><f name="temper">Avocat</f></fs>.)</stage><lb/>
+                        <l n='931' xml:id='l931'>C'eſt à moi de parler, que je faſſe ma Charge,</l>
+                        <l n='932' xml:id='l932'>Place au Barreau ; place, petit Commis,</l>
+                        <lb/><stage type="delivery" rend="italics">(en <fs><f name="temper">Gaſcon</f></fs>.)</stage><lb/>
+                        <l n='933' xml:id='l933'>Mais, Mouſſu l'Abocat, bous m'écraſés, ſandis</l>
+                        <l n='934' xml:id='l934'>Botre éloquence m'eſt à charge.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-40">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="935" xml:id="l935_1" part="I">Tous parlent à la fois.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-41">
+                        <speaker>LE PARTERRE</speaker> <stage rend="italics">en <fs><f name="temper">Avocat</f></fs>.</stage><lb/>
+                        <l xml:id="l935_2" part="F">La Cour veut être au large.</l>
+                        <lb/><stage type="delivery" rend="italics">(en <fs><f name="temper">Gaſcon</f></fs>.)</stage><lb/>
+                        <l n='936' xml:id='l936'>Ellé caſſe l'Oracle. Et jé lé rétablis.</l>
+                        <lb/><stage type="delivery" rend="italics">(en <fs><f name="collective_character" ana="#COLL">cohuë</f></fs>.)</stage><lb/>
+                        <l n='937' xml:id='l937'>J'attaque, je défens, je ſifle, j'aplaudis,</l>
+                        <l n='938' xml:id='l938'>Je proſcris, je fais grace,</l>
+                        <l n='939' xml:id='l939'>Je m'obſtine, je me dédis,</l>
+                        <l n='940' xml:id='l940'>J'ajoute, je ſuprime. Et moi, je fais main-baſſe.</l>
+                        <lb/><stage type="business" rend="italics">(il touſſe, il crache, il ſe mouche.)</stage><lb/>
+                        <stage type="delivery" rend="italics">(en fauſſet.)</stage><lb/>
+                        <l n='941' xml:id='l941'>Paix, les moucheurs, pais donc l'endroit eſt des plus <lb/>beaux.</l>
+                        <lb/><stage type="delivery" rend="italics">(en baſſe-taille.)</stage><lb/>
+                        <l n='942' xml:id='l942'>Il en eſt des plus mauvais. Silence, les Courtauts.</l>
+                    </sp>
+                    <pb n="148"/>
+                    <sp who='Badinage' xml:id="S9-42">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='943' xml:id='l943'>Ah, Seigneur ! Quel chaos ! Et quel déſordre ex-<lb/>trême !</l>
+                        <l n='944' xml:id='l944'>Qui fait naître chez vous ces contradictions ?</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-43">
+                        <speaker>LE PARTERRE</speaker> <stage rend="italics">d'un air calme</stage>
+                        <l n='945' xml:id='l945'>Paix. Ce n'eſt rien. Je ſuis en priſe avec moi-même :</l>
+                        <l n='946' xml:id='l946'>Nous avons tous les jours ces altercations.</l>
+                        <l n='947' xml:id='l947'>Je vais les apaiſer ſans tarder davantage,</l>
+                        <l n='948' xml:id='l948'>Je n'ai fait éclater ce choc d'opinions,</l>
+                        <l n='949' xml:id='l949'>Que pour faire briller avec plus d'avantage,</l>
+                        <l n='950' xml:id='l950'>Mes derniéres déciſions ;</l>
+                        <l n='951' xml:id='l951'>Tel que l'Aſtre du jour, qui fait après l'orage,</l>
+                        <l n='952' xml:id='l952'>Avec plus de ſplendeur, paroître ſes rayons.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-44">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='953' xml:id='l953'>Le calme eſt revenu. Que dira-t'il ? Voyons.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-45">
+                        <speaker>LE PARTERRE</speaker> <stage type="delivery" rend="italics">en <fs><f name="temper">public indulgent</f></fs>.</stage><lb/>
+                        <l n='954' xml:id='l954'>Juge ſans paſſion, indulgent ſans foibleſſe,</l>
+                        <l n='955' xml:id='l955'>Au ſpectacle toujours je cherche le plaiſir.</l>
+                        <l n='956' xml:id='l956'>Je ne ſifle jamais ni l'Acteur, ni la Piéce ;</l>
+                        <l n='957' xml:id='l957'>Et ſi je fais du bruit, c'eſt pour les aplaudir.</l>
+                        <l n='958' xml:id='l958'>Toujours porté vers la clémence,</l>
+                        <l n='959' xml:id='l959'>Je ſçai borner mon éloquence,</l>
+                        <l n='960' xml:id='l960'>A ſaiſir &amp; louer les endroits les plus beaux,</l>
+                        <l n='961' xml:id='l961'>Et ce n'eſt que par mon ſilence,</l>
+                        <l n='962' xml:id='l962'>Que je critique les défauts.</l>
+                        <l n='963' xml:id='l963'>On a remis <title>Iſſé</title>, ma joye en eſt extrême.</l>
+                        <l n='964' xml:id='l964'>J'éprouve l'embarras charmant,</l>
+                        <l n='965' xml:id='l965'>De ne ſçavoir à tout moment,</l>
+                        <l n='966' xml:id='l966'>Qui je dois aprouver le plus, ou le Poëme, </l>
+                        <l n='967' xml:id='l967'>Ou la Muſique, ou l'Actrice que j'aime.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-46">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='968' xml:id='l968'>Il ne ſifle jamais la Piéce, ni l'Acteur !</l>
+                        <l n='969' xml:id='l969'>Ah! de tous les Publics c'eſt pour nous le meilleur.</l>
+                        <l n='970' xml:id='l970'>La bonne pâte de Parterre !</l>
+                        <l n='971' xml:id='l971'>Vers lui toujours mon goût me portera,</l>
+                        <l n='972' xml:id='l972'>Et je m'en tiens à celui-là.</l>
+                        <l n='973' xml:id='l973'>Pour nous prouver votre humeur débonnaire,</l>
+                        <l n='974' xml:id='l974'>Faites, Seigneur, un accord avec nous <sic>?</sic></l>
+                    </sp>
+                    <pb n="149"/>
+                    <sp who="Le Parterre" xml:id="S9-47">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="975" xml:id="l975_1" part="I">Et quel accord ?</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-48">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l975_2" part="F">Ayez pour cette Comédie,</l>
+                        <l n='976' xml:id='l976'>Cette indulgence extrême, &amp; cet eſprit ſi doux,</l>
+                        <l n='977' xml:id='l977'>Que vous avez pour celle d'Italie.</l>
+                        <l n='978' xml:id='l978'>Notre foibleſſe égale leur beſoin.</l>
+                        <l n='979' xml:id='l979'>Et nous vous promettons de redoubler de ſoin,</l>
+                        <l n='980' xml:id='l980'>Et de la ſurpaſſer en ardeur de vous plaire.</l>
+                        <l n='981' xml:id='l981'>Le <persName type='allegory'>Badinage</persName> eſt <fs><f name="nationality">François</f></fs> comme vous :</l>
+                        <l n='982' xml:id='l982'>Que cette gloire, &amp; ſi grande, &amp; ſi chére,</l>
+                        <l n='983' xml:id='l983'>Vous porte, en dépit des jaloux,</l>
+                        <l n='984' xml:id='l984'>A faire autant pour lui que pour une étrangére<choice><sic>,</sic><corr>.</corr></choice></l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-49">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='985' xml:id='l985'>Pour vous je ſuis prêt à tout faire ;</l>
+                        <l n='986' xml:id='l986'>Mais à condition que pendant ce tems-là,</l>
+                        <l n='987' xml:id='l987'>Toujours le <persName type='allegory'>Badinage</persName> m'amuſera.</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-50">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n="988" xml:id="l988_1" part="I">La choſe dépend...</l>
+                    </sp>
+                    <sp who="Le Parterre">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l988_2" part="M">De qui ?</l>
+                    </sp>
+                    <sp who='Badinage' xml:id="S9-51">
+                        <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l xml:id="l988_3" part="F">Mais de votre preſence ;</l>
+                        <l n='989' xml:id='l989'>Chaque fois qu'on l'affichera,</l>
+                        <l n='990' xml:id='l990'>Venés le voir en affluence,</l>
+                        <l n='991' xml:id='l991'>Et jamais il n'y manquera ;</l>
+                        <l n='992' xml:id='l992'>Mais <span type="syllepse_dramatique">ſoyés bien exact à lui rendre viſite</span>,</l>
+                        <l n='993' xml:id='l993'>Car ſi vous y manquez deux ou trois jours de ſuite ;</l>
+                        <l n='994' xml:id='l994'>Vous ne le verrez plus, crac, il diſparoîtra.</l>
+                    </sp>
+                    <sp who="Le Parterre" xml:id="S9-52">
+                        <speaker>LE PARTERRE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l n='995' xml:id='l995'>J'y viendrai donc. Je me prête à l'abſence.</l>
+                        <l n='996' xml:id='l996'>Pour ſigne de paix maintenant,</l>
+                        <l n='997' xml:id='l997'>Recevés cet embraſſement.</l>
+                        <lb/><stage type="business" rend="italics">(Il embraſſe le badinage.)</stage><lb/>
+                        <l n='998' xml:id='l998'>Mon frere qui dit bis, je penſe,</l>
+                        <l n='999' xml:id='l999'>Ne ſeroit pas fâché d'en avoir fait autant,</l>
+                        <l n='1000' xml:id='l1000'>A propos de ce frere, il eſt bon, &amp; pour cauſe,</l>
+                        <l n='1001' xml:id='l1001'>Qu'il donne les mains à la choſe ;</l>
+                        <pb n="150"/>
+                        <l n='1002' xml:id='l1002'>Car je ne ſuis que ſon petit cadet ;</l>
+                        <l n='1003' xml:id='l1003'>Il a un aſcendant parfait ;</l>
+                        <l n='1004' xml:id='l1004'>Ma volonté toujours eſt de faire la ſienne.</l>
+                        <l n='1005' xml:id='l1005'>Si vous voulez que la paix tienne,</l>
+                        <l n='1006' xml:id='l1006'>Dites-lui qu'il ait la bonté</l>
+                        <l n='1007' xml:id='l1007'>D'aprouver à préſent lui-même le traité.</l>
+                      </sp> <stage type="exit" rend="italics">(Il ſort.)</stage>
+                    <sp who='Badinage' xml:id="S9-53">
+                        <speaker>LE BADINAGE</speaker> <stage type="delivery" rend="italics">au vrai Parterre.</stage><lb/>
+                        <l n='1008' xml:id='l1008'>Meſſiers du <fs><f name="temper">bon Public</f></fs> prenés le caractére</l>
+                        <l n='1009' xml:id='l1009'>Vous gagnerez vous-même à paroître indulgens.</l>
+                        <l n='1010' xml:id='l1010'>En nous ôtant la crainte, aux Acteurs ſi contraire,</l>
+                        <l n='1011' xml:id='l1011'>Vous augmenterez nos talens,</l>
+                        <l n='1012' xml:id='l1012'>Et vos plaiſirs en même-tems.</l>
+                        <l n='1013' xml:id='l1013'>Que notre état vous touche &amp; vous engage</l>
+                        <l n='1014' xml:id='l1014'>A ſouſcrire ce ſoir à l'accord propoſé ;</l>
+                        <l n='1015' xml:id='l1015'>Vous plaire eſt pour nous tous un difficile ouvrage.</l>
+                        <l n='1016' xml:id='l1016'>Nous excuſer vous eſt aiſé.</l>
+                        <l n='1017' xml:id='l1017'>Faites donc grace au <persName type='allegory'>Badinage</persName> ;</l>
+                        <l n='1018' xml:id='l1018'>Qu'il obtienne votre ſuffrage.</l>
+                        <l n='1019' xml:id='l1019'>Faire notre bonheur ne dépend que de vous.</l>
+                        <lb/><stage type="delivery" rend="italics">(d'un ton tragique.)</stage><lb/>
+                        <l n='' xml:id='l1020'>Seigneur, dites un mot, &amp; vous nous ſauvez tous.</l>
+                    </sp>
+                </div>
+            <trailer>FIN.</trailer>
+        </body>
+    </text>
+</TEI>

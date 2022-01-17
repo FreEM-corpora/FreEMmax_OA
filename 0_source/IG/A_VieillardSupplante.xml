@@ -1,0 +1,2814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Le Vieillard supplanté</title>
+            <title type="subtitle">Édition électronique</title>
+            <author>anonyme</author>
+            <principal>Dr. Ioana Galleron</principal>
+            <respStmt>
+               <resp>Mis au format numérique par</resp>
+               <name>Ioana Galleron</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LICoRN</publisher>
+            <pubPlace>Lorient</pubPlace>
+            <address>
+               <addrLine>http://www.licorn-research.fr</addrLine>
+            </address>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed
+                  under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0
+                  International </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+               </msIdentifier>
+               <head>Collection de pièces de théâtre, formée par <name>M. DE SOLEINNE</name>.
+                  Recueil de pièces. Troisième portefeuille.</head>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <p>Édition réalisée suivant les pages 351-384 du facsimilé publié en ligne
+                              <ptr
+                              target="http://gallica.bnf.fr/ark:/12148/btv1b9063095c.r=duchesse%20du%20Maine%20Soleinne?rk=21459;2"
+                           /></p>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Cette édition est quasi-diplomatique. Elle respecte l'orthographe du texte d'origine.
+               Toutefois, n'a pas été reproduit le "y" surmonté d'un accent circonflexe, que le
+               manuscrit emploie à quelques reprises. De même, pour faciliter la lecture, un certain
+               nombre d'interventions tacites ont été opérées. Ainsi, des apostrophes ont été
+               ajoutées dans certains cas (p. ex. "d'abord"); à l'inverse, elles ont été enlevées
+               quand cela gênait la compréhension ("l'a" écrit au lieu de "la", ou "qu'el" au lieu
+               de "quel"). De même, les accents ont été ajoutés sur certaines lettres, quand ceci
+               permettait de différencier entre les formes (ex. a/ à; des/ dès) et donc de clarifier
+               le sens de la phrase. L'usage d'époque des majuscules a, en général, été
+               conservé.Toutefois, des majuscules ont été ajoutées en début de phrase et de vers.
+               Ont également été capitalisés les noms propres, l'usage du manuscrit étant
+               inconsistant sur ce point. La ponctuation a été respectée. Des marques de ponctuation
+               ont été ajoutées lorsque leur manque était gênant pour la lecture (ex. points en fin
+               de réplique). Cependant, n'ont pas été ajoutés les tirets pour les formes inversées
+               (ex. "plaist il").</p>
+         </editorialDecl>
+         <fsdDecl>
+            <fsDecl type="character_specification">
+               <fDecl name="temper">
+                  <vRange>
+                     <string/>
+                  </vRange>
+               </fDecl>
+               <fDecl name="social_position">
+                  <vRange>
+                     <string/>
+                  </vRange>
+               </fDecl>
+               <fDecl name="dress_aspect">
+                  <vRange>
+                     <string/>
+                  </vRange>
+               </fDecl>
+               <fDecl name="age">
+                  <vRange>
+                     <vAlt>
+                        <symbol value="young" xml:id="AGY"/>
+                        <symbol value="old" xml:id="AGO"/>
+                        <symbol value="child" xml:id="AGC"/>
+                        <symbol value="adult" xml:id="AGA"/>
+                        <symbol value="unknown" xml:id="AGU"/>
+                     </vAlt>
+                  </vRange>
+               </fDecl>
+               <fDecl name="sex">
+                  <vRange>
+                     <vAlt>
+                        <symbol value="male" xml:id="SM"/>
+                        <symbol value="female" xml:id="SF"/>
+                        <symbol value="undetermined" xml:id="SU"/>
+                     </vAlt>
+                  </vRange>
+               </fDecl>
+               <fDecl name="nationality">
+                  <vRange>
+                     <string/>
+                  </vRange>
+               </fDecl>
+               <fDecl name="ontological_category">
+                  <vRange>
+                     <vAlt>
+                        <symbol value="human" xml:id="OCH"/>
+                        <symbol value="non-human" xml:id="OCNH"/>
+                        <symbol value="semi-human" xml:id="OCSH"/>
+                     </vAlt>
+                  </vRange>
+               </fDecl>
+               <fDecl name="family_position">
+                  <vRange>
+                     <vColl>
+                        <symbol value="father" xml:id="FPF"/>
+                        <symbol value="son" xml:id="FPSON"/>
+                        <symbol value="daughter" xml:id="FPD"/>
+                        <symbol value="mother" xml:id="FPM"/>
+                        <symbol value="uncle" xml:id="FPU"/>
+                        <symbol value="aunt" xml:id="FPA"/>
+                        <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                        <symbol value="sister" xml:id="FPSIS"/>
+                        <symbol value="brother" xml:id="FPB"/>
+                        <symbol value="cousin" xml:id="FPC"/>
+                        <symbol value="step-mother" xml:id="FPSM"/>
+                        <symbol value="step-father" xml:id="FPSF"/>
+                        <symbol value="step-daughter" xml:id="FPSD"/>
+                        <symbol value="step-son" xml:id="FPSS"/>
+                        <symbol value="guardian" xml:id="FPG"/>
+                        <symbol value="ward" xml:id="FPWA"/>
+                        <symbol value="husband" xml:id="FPH"/>
+                        <symbol value="wife" xml:id="FPWIF"/>
+                        <symbol value="widow" xml:id="FPWID"/>
+                        <symbol value="widower" xml:id="FPWIDR"/>
+                     </vColl>
+                  </vRange>
+               </fDecl>
+               <fDecl name="actantial_role">
+                  <vRange>
+                     <vColl>
+                        <symbol value="lover" xml:id="ARL"/>
+                        <symbol value="subject" xml:id="ARS"/>
+                        <symbol value="opponent" xml:id="AROP"/>
+                        <symbol value="adjuvant" xml:id="ARAD"/>
+                        <symbol value="authority" xml:id="ARAUT"/>
+                        <symbol value="trouble_maker" xml:id="ARTM"/>
+                        <symbol value="episodic" xml:id="AREP"/>
+                     </vColl>
+                  </vRange>
+               </fDecl>
+               <fDecl name="occupation">
+                  <vRange>
+                     <string/>
+                  </vRange>
+               </fDecl>
+               <fDecl name="collective_character">
+                  <vRange>
+                     <binary value="true" xml:id="COLL"/>
+                  </vRange>
+               </fDecl>
+            </fsDecl>
+         </fsdDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation><date/><rs/></creation>
+         <textClass>
+            <keywords>
+               <term>Théâtre</term>
+               <term>Comédie</term>
+               <term>Prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="341"/>
+         <titlePage>
+            <titlePart type="main">Le Vieillard Supplanté</titlePart>
+            <titlePart type="desc">Petitte Commedie</titlePart>
+         </titlePage>
+         <pb/>
+         <pb n="342"/>
+         <div type="epitre">
+            <head>À L'Autheur</head>
+            <l n="1">Mon cher A... Phoebus Enrage,</l>
+            <l n="2">De Voir, qu'un de ses nourissons</l>
+            <l n="3">Pourroit luy donner des leçons,</l>
+            <l n="4">Et de son coup d'Essay l'abbaisser d'un Estage.</l>
+            <l n="5">Phoebus croyoit que l'Univers</l>
+            <l n="6">Ne parleroit que de ses Vers;</l>
+            <l n="7">Mais Phoebus comptoit sans son hoste.</l>
+            <l n="8">Pour moy qui le croyois aussy,</l>
+            <l n="9">J'advoüe ingenuement ma faute;</l>
+            <l n="10">Ton vieillard supplanté m'en a trop esclaircy.</l>
+            <figure/>
+            <l xml:lang="latin">Exegit monumentum aere perennius.</l>
+            <l xml:lang="latin">Regaliquo Super pyramidum altius.</l>
+            <l>horat?</l>
+            <figure/>
+            <signed>N. Malezieux.</signed>
+         </div>
+         <div type="epigramme">
+            <head>À L'Autheur</head>
+            <head>Epigramme.</head>
+            <l>A... ce jeu d'Esprit debvroit faire connoistre</l>
+            <l>Dans un temps plus heureux ton nom à l'Univers.</l>
+            <l>Car pour un coup d'Essay tu nous donne des vers</l>
+            <l>Qui valent bien des coups de maistre.</l>
+            <figure/>
+            <signed>L. Pelgé.</signed>
+         </div>
+         <div type="epigramme">
+            <head>Autre.</head>
+            <l>Qui conque lira ton Ouvrage</l>
+            <l>Je veux qu'il sache cher amy.</l>
+            <l>Qu'il tient en main un pucelage</l>
+            <l>De quatorse ans et demy.</l>
+            <figure/>
+            <signed>L. De Grancour.</signed>
+         </div>
+         <pb n="343"/>
+         <div type="epigramme">
+            <head>Autre</head>
+            <l>Aussy tost que j'ay veu ton <sic>villard</sic> supplanté</l>
+            <l>Par un Jeune galand se voir faire la nique;</l>
+            <l>Il n'est point ay je dict de vieux poete comique</l>
+            <l>Que tu n'ayes, quoy que jeune, aujourd'huy supplanté.</l>
+            <figure/>
+            <signed>A. De Rieuville.</signed>
+         </div>
+         <div type="epigramme">
+            <head>Autre</head>
+            <l>Je suis dans le dessein de loüer ton oüvrage</l>
+            <l>Par qui plusieurs sont effacés.</l>
+            <l>Mais non je ne veux en dire davantage.</l>
+            <l>Car j'aurois peur amy de n'en pas dire assés.</l>
+            <figure/>
+            <signed>Pivert</signed>
+         </div>
+         <pb/>
+         <castList>
+            <head/>
+            <castItem ana="#ARAUT #FPF #FPH #AGO #SM"
+                  ><role>Talcante</role><pc>...</pc><roleDesc>mary de Murinde, et pere de
+                  Dorise</roleDesc></castItem>
+            <castItem ana="#ARAUT #FPWIF #AGA #SF #AROP #AGU"><role>Murinde</role></castItem>
+            <castItem ana="#AGY #ARL #FPD #SF #ARS"><role>Dorise</role><pc>...</pc><roleDesc>Amante
+                  d'Amidor</roleDesc></castItem>
+            <castItem ana="#AGY #ARL"><role>Amidor</role><pc>...</pc><roleDesc>Amant de
+                  Dorise</roleDesc></castItem>
+            <castItem ana="#AGO #SF #AREP"><role>Dame Jacline</role><pc>...</pc><roleDesc><fs>
+                     <f name="occupation">Fripiere</f>
+                  </fs></roleDesc><pc>.</pc></castItem>
+            <castItem ana="#AGU #SF #ARAD #ARL"><role>Jeanne</role><pc>...</pc><fs>
+                  <f name="occupation">Servante</f>
+               </fs> d<add>e</add><del>'Amidor</del>Talcante.</castItem>
+            <castItem ana="#AGU #SM #ARAD #ARL"><role>Potiron</role><pc>...</pc><roleDesc><fs>
+                     <f name="occupation">Vallet</f>
+                  </fs> d'Amidor</roleDesc><pc>.</pc></castItem>
+         </castList>
+         <figure/>
+         <set>
+            <p>La Scene Est à Paris <lb/> Devant la Maison de Talcante.</p>
+         </set>
+      </front>
+      <body>
+         <pb n="344"/>
+         <div type="play">
+            <div type="title">
+               <head>Le Vieillard Supplanté</head>
+               <head>Petite Comedie.</head>
+               <figure/>
+            </div>
+            <div type="scene" n="1" xml:id="I">
+               <head>Scene 1ere.</head>
+               <stage>Dame Jacline estant sur le theatre, son bassin <lb/> devant elle. Amidor,
+                  venant desvant, et regardant <lb/> La maison de Dorise. Potiron, derriere son
+                  maistre.</stage>
+               <sp who="Potiron" xml:id="I-1">
+                  <speaker>Potiron,</speaker>
+                  <stage>à part.</stage>
+                  <l n="1">Je ne scay pas ce qu'a mon maistre;</l>
+                  <l n="2">Mais depuis le matin, ce traistre,</l>
+                  <l n="3">N'a rien fait que me promener;</l>
+                  <l n="4">Et le pis Est, sans dejeûner...</l>
+                  <l n="5">Je deviens, ma foy, tout stupide,</l>
+                  <l n="6">D'abord que j'ay le le ventre vuide;</l>
+                  <l n="7">Mes boyaux font une Clameur...</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-2">
+                  <speaker>Amidor.</speaker>
+                  <l n="8" part="I">Hé, Potiron?</l>
+               </sp>
+               <pb/>
+               <sp who="Potiron" xml:id="I-3">
+                  <speaker>Potiron</speaker>
+                  <l part="F">Plaist il monsieur?</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-4">
+                  <speaker>Amidor</speaker>
+                  <l n="9" part="I">Quelle heure est il?</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-5">
+                  <speaker>Potiron.</speaker>
+                  <l part="F">En conscience,</l>
+                  <l n="10">Si je crois ce qu'en dict ma pance</l>
+                  <l n="11">Monsieur, il est du moins midy.</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-6">
+                  <speaker>Amidor.</speaker>
+                  <l n="12" part="I">J'en serois bien fâché.</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-7">
+                  <speaker>Potiron.</speaker>
+                  <l part="F">Mordy!</l>
+                  <l n="13">Je n'en ay pas sûjet de rire,</l>
+                  <l n="14">Moy. Mais voudriés vous bien me dire</l>
+                  <l n="15">Pourquoy vous estes si longtemps</l>
+                  <l n="16" part="I">À tournoyer...</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-8">
+                  <speaker>Amidor</speaker>
+                  <l part="F">Tay toy, j'attends</l>
+                  <l n="17">Affin de voir sortir la belle...</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-9">
+                  <speaker>Potiron.</speaker>
+                  <l n="18">C'est qu'il a l'amour en cervelle.</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-10">
+                  <speaker>Amidor</speaker>
+                  <l n="19" part="I">Oüy, je...</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-11">
+                  <speaker>Potiron.</speaker>
+                  <l part="F">Nous voicy bienheureux!</l>
+                  <l n="20">Il ne pourroit pas faire mieux</l>
+                  <l n="21">Pour moderer ma gourmandize.</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-12">
+                  <speaker>Amidor.</speaker>
+                  <l n="22">Ces jours passés, dans une Eglize,</l>
+                  <pb n="345"/>
+                  <l n="23">Je vois une jeune beauté</l>
+                  <l n="24">Qui m'â ravy ma liberté.</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-13">
+                  <speaker>Potiron.</speaker>
+                  <l n="25">En mesme temps cette maitresse</l>
+                  <l n="26">Vous a ravy vostre sagesse.</l>
+               </sp>
+               <pb/>
+               <sp who="Amidor" xml:id="I-14">
+                  <speaker>Amidor</speaker>
+                  <l n="27">Cher Potiron, depuis ce temps</l>
+                  <l n="28">J'ai souffert de si grands tourments;</l>
+                  <l n="29">Qu'enfin toutte ma patience,</l>
+                  <l n="30">Ne peut souffrir la violence,</l>
+                  <l n="31">Qu'Amour Exerce dans mon coeur.</l>
+                  <l n="32">Et ma trop sensible douleur</l>
+                  <l n="33">Faict que je viens dans cette rüe,</l>
+                  <l n="34">Pour revoir ma belle inconneüe</l>
+                  <l n="35">Ou pas-à-pas je la süivis</l>
+                  <l n="36">Tant qu'Elle entrâ dans ce logis.</l>
+                  <l n="37">Tu m'as toûjours esté fidelle;</l>
+                  <l n="38">Il ne faut pas que je te cele</l>
+                  <l n="39">Que je cherche l'occasion</l>
+                  <l n="40">De luy conter ma passion.</l>
+                  <l n="41">Je veux de pied ferme l'attendre...</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-15">
+                  <speaker>Potiron</speaker>
+                  <l n="42">Devant que rien entreprendre,</l>
+                  <l n="43">Il faudroit, ma foy, desjeûner;</l>
+                  <l n="44">Affin de vous illuminer...</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-16">
+                  <speaker>Amidor</speaker>
+                  <l n="45">Ta seule gueüle est ta maistresse.</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-17">
+                  <speaker>Potiron.</speaker>
+                  <l n="46">Monsieur, C'Est que la faim me presse.</l>
+               </sp>
+               <pb/>
+               <sp who="Amidor" xml:id="I-18">
+                  <speaker>Amidor.</speaker>
+                  <l n="47">Je ne veux point sortir d'icy,</l>
+                  <l n="48">Que je ne me sois Eclaircy</l>
+                  <l n="49">Quel est son nom, quel est son pere,</l>
+                  <l n="50">Et si j'auray l'heur de luy plaire.</l>
+                  <l n="51">Comme j'ay dêja remarqué</l>
+                  <l n="52">Qu'elle n'a point encore manqué</l>
+                  <l n="53">D'Estre tous les jours à la messe</l>
+                  <l n="54">Je veux tâcher par quelqu'adresse</l>
+                  <l n="55">Des aujourd'huy de l'accoster.</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-19">
+                  <speaker>Potiron.</speaker>
+                  <l n="56">Pour me faire jurer, pester,</l>
+                  <l n="57">Il n'Est rien dont il ne s'advise.</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-20">
+                  <speaker>Amidor</speaker>
+                  <l n="58">Qu'as tu donc qui te scandalise?</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-21">
+                  <speaker>Potiron.</speaker>
+                  <stage>bas.</stage>
+                  <l n="59">Qu'on a de mal avec les fous!</l>
+                  <stage>haut.</stage>
+                  <l n="60">Elle se mocquera de vous.</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-22">
+                  <speaker>Amidor</speaker>
+                  <l n="61">Je luy ferai voir par ma flame</l>
+                  <l n="62">Que ses yeux ont blessé mon ame.</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-23">
+                  <speaker>Potiron</speaker>
+                  <stage>contrefaisant la fille.</stage>
+                  <l n="63">Allés donc vous faire penser,</l>
+                  <l n="64">Dira t'elle, sans balancer,</l>
+                  <l n="65">Crainte que la bize mal saine</l>
+                  <l n="66">Ne vous y cause la cangraine.</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-24">
+                  <speaker>Amidor</speaker>
+                  <l n="67">Hé je luy dirai sans roügir</l>
+                  <l n="68">Qu'Elle seule me peut guerir.</l>
+               </sp>
+               <pb n="346"/>
+               <sp who="Potiron" xml:id="I-25">
+                  <speaker>Potiron</speaker>
+                  <l n="69">Hà la peste quelle sottise!</l>
+                  <l n="70">Mondy parlons avec franchise;</l>
+                  <l n="71">À quoy bon tous ces compliments?</l>
+                  <stage>Il contrefait ridiculement l'amant passionné.</stage>
+                  <l n="72">"Que je souffre de grands tourments!</l>
+                  <l n="73">"Je vous jure ma foy, madame,</l>
+                  <l n="74">"Vos beaux yeux ont blessé mon ame.</l>
+                  <l n="75">"Vous seule me poüvés guerir;</l>
+                  <l n="76">"Voulés vous me laisser moürir?</l>
+                  <l n="77">Quand vous avés une maistresse,</l>
+                  <l n="78">Frappés luy moy dessus la fesse,</l>
+                  <l n="79">Si la drôlesse vous le rend;</l>
+                  <l n="80">Allés, croyés qu'Elle l'entend.</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-26">
+                  <speaker>Amidor</speaker>
+                  <l n="81">Tu raisonnes comme une buse.</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-27">
+                  <speaker>Potiron.</speaker>
+                  <l n="82">Monsieur, c'est ainsy que j'en use.</l>
+               </sp>
+               <stage>Dorise passe un livre à la main.</stage>
+               <sp who="Amidor" xml:id="I-28">
+                  <speaker>Amidor</speaker>
+                  <l n="83">Voy tu ses beaux yeux Eclatter?</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-29">
+                  <speaker>Potiron.</speaker>
+                  <l n="84">Allés donc viste l'accoster.</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-30">
+                  <speaker>Amidor</speaker>
+                  <l n="85">Potiron, j'ay la bouche close</l>
+                  <l n="86">Quand je la voy je veux, je n'ose</l>
+                  <l n="87">Je demeure tout interdict,</l>
+                  <l n="88">Je sens tout broüiller mon Esprit;</l>
+                  <l n="89">Je voudrois luy faire mes plaintes;</l>
+                  <l n="90">Mais je sens redoübler mes craintes.</l>
+                  <l n="91" part="I">Et mon coeur reproche...</l>
+               </sp>
+               <pb/>
+               <sp who="Potiron" xml:id="I-31">
+                  <speaker>Potiron</speaker>
+                  <l part="F">Entre nous,</l>
+                  <l n="92">Par ma foi, j'ai pitié de vous.</l>
+                  <l n="93">Je vous y veux servir, mon maistre,</l>
+                  <l n="94">Oüy, je veux vous faire paroistre</l>
+                  <l n="95">Aujourd'hui mon affection,</l>
+                  <l n="96">Et que j'ai de l'invention.</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-32">
+                  <speaker>Amidor</speaker>
+                  <l n="97">En scaurois tu bien la maniere?</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-33">
+                  <speaker>Potiron.</speaker>
+                  <l n="98">Voyés vous la cette fripiere?</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-34">
+                  <speaker>Amidor</speaker>
+                  <l n="99" part="I">He bien!</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-35">
+                  <speaker>Potiron.</speaker>
+                  <l part="F">Monsieur dès aujourd'hui,</l>
+                  <l n="100">Je veux estre de tout instruy.</l>
+                  <l n="101">Je veux scavoir quel est son pere</l>
+                  <l n="102">Quel est son bien, quelle est sa mere</l>
+                  <l n="103">Sa soeur, son frere, leur renom,</l>
+                  <l n="104">Je veux scavoir quel est son nom.</l>
+                  <l n="105">Si c'est Marotte ou bien Loüise,</l>
+                  <l n="106">Jeanne, Marie Anne ou Denise.</l>
+                  <l n="107">Touttes celles de ce mestier</l>
+                  <l n="108">Sont les gazettes d'un quartier;</l>
+                  <l n="109">Elles scavent de la Servante</l>
+                  <l n="110">Et ce que l'on fait, et qui hante,</l>
+                  <l n="111">Mesme dans la moindre maison.</l>
+                  <l n="112">Pour peu qu'on se fonde en raison</l>
+                  <l n="113">Avec ces testes, sans cervelles,</l>
+                  <pb n="347"/>
+                  <l n="114">Elles degoisent cent noüvelles.</l>
+                  <l n="115">Ainsy nous pourons estre instruits</l>
+                  <l n="116">Comment nous serons introduits.</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-36">
+                  <speaker>Amidor.</speaker>
+                  <l n="117">Potiron, tu peus t'asseurer,</l>
+                  <l n="118">Que si tu m'y peus faire Entrer,</l>
+                  <l n="119">Tu seras payé de ta peine.</l>
+                  <l n="120">Tiên, voys tu? cette bourse Est plaine.</l>
+               </sp>
+               <sp who="Potiron" xml:id="I-37">
+                  <speaker>Potiron</speaker>
+                  <stage>faisant des postures refusantes, et cependant tendant la main.</stage>
+                  <l n="121"> Hé Monsieur, Monsieur, par ma foy,</l>
+                  <l n="122">Fy donc, vous vous mocqués de moy</l>
+                  <l n="123">Vous me croyés donc mercenaire?</l>
+               </sp>
+               <sp who="Amidor" xml:id="I-38">
+                  <speaker>Amidor</speaker>
+                  <l n="124">Songe à conduire ton affaire.</l>
+                  <l n="125">Moy de mon costé, pour la veoir,</l>
+                  <l n="126">Je <sic>vas</sic> faire tout mon pouvoir.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2" xml:id="II">
+               <head>Scene 2 <add type="supercripsit">de</add>.</head>
+               <stage>Potiron. Dame Jacline.</stage>
+               <sp who="Potiron" xml:id="II-1">
+                  <speaker>Potiron.</speaker>
+                  <l n="127">Ma foy, je croyois, qu'en brave homme</l>
+                  <l n="128">Il m'alloit donner cette somme.</l>
+                  <l n="129">Pour l'avoir, faut le contenter.</l>
+                  <stage>Regardant la fripiere.</stage>
+                  <l n="130">Je ne scay comment l'accoster.</l>
+                  <l n="131">Ah! grosse chienne que ta trogne</l>
+                  <l n="132">Fait voir une insigne Carogne!</l>
+                  <l n="133">Va je t'asseure l'on voit bien</l>
+                  <pb/>
+                  <l n="134">Que tu n'as jamais vallu rien.</l>
+                  <stage>dandidant, et d'une posture décontenancée.</stage>
+                  <l n="135">Quelle heure Est il ma bonne amye?</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-2">
+                  <speaker>D. Jacline</speaker>
+                  <l n="136">Il Est dix heures et demye.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-3">
+                  <speaker>Potiron</speaker>
+                  <l n="137">Nous aurons beau temps aujourd'huy.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-4">
+                  <speaker>D. Jacline</speaker>
+                  <l n="138">Il n'a poinct encore meshüy</l>
+                  <l n="139">Faict une si belle journée.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-5">
+                  <speaker>Potiron</speaker>
+                  <l n="140">Nous aurons je croy bonne année.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-6">
+                  <speaker>D. Jacline</speaker>
+                  <l n="141">En dict que les bleds sont si biaux</l>
+                  <l n="142">Qu'en en aura plain des togniaux.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-7">
+                  <speaker>Potiron</speaker>
+                  <l n="143">Tant mieux car l'on craignoit la grelle;</l>
+                  <l n="144">Et l'on menaçoit de la nielle.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-8">
+                  <speaker>D. Jacline</speaker>
+                  <l n="145">Ma commere dict qu'au marchér</l>
+                  <l n="146">Le bon bled n'est pas biaucoup chér.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-9">
+                  <speaker>Potiron</speaker>
+                  <l n="147">Pour vendre bien vostre marchandise</l>
+                  <l n="148">Avés vous bien la chalandise?</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-10">
+                  <speaker>D. Jacline</speaker>
+                  <l n="149">Helas! monsieur, quieu le scayt bien,</l>
+                  <l n="150">Par ma foy, je ne vendons rien,</l>
+                  <l n="151">Il n'est rian de plus veritable,</l>
+                  <l n="152">Sur mon guieu, je <sic>sus</sic> miserable.</l>
+                  <pb n="348"/>
+                  <l n="153">Car le monde n'a point d'argent.</l>
+                  <l n="154">Pour moy je ne scay pas comment</l>
+                  <l n="155">À la parfin me faudra faire.</l>
+                  <l n="156">Que voulés vous c'Est la misere,</l>
+                  <l n="157">On n'en peut rencontrer ny voir.</l>
+                  <l n="158">Enfin ceux qu'en devraient avoir</l>
+                  <l n="159">N'En ont point, n'Esce pas tout dire?</l>
+                  <l n="160">Le temps ne peut pas Estre pire.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-11">
+                  <speaker>Potiron</speaker>
+                  <l n="161">Par ma foy vous avés Raison.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-12">
+                  <speaker>D. Jacline</speaker>
+                  <l n="162">Par Exemple dans ma maison</l>
+                  <l n="163">Nostre misere est sans Egalle</l>
+                  <l n="164">Et de l'heure que je vous parle</l>
+                  <l n="165">Nous n'avons ma foy pas de pain;</l>
+                  <l n="166">Bref Enfin je mourons de <sic>fain</sic>,</l>
+                  <l n="167">De fain je mourons, c'Est tout dire;</l>
+                  <l n="168">Tant y a que je <sic>sons</sic> en martire.</l>
+                  <l n="169">Et si je ne <sic>sus</sic> pas au bout,</l>
+                  <l n="170">Car mon yvrogne mange tout;</l>
+                  <l n="171">Il faut encor que je m'En taise;</l>
+                  <l n="172">Ce gueüx Est bon porteur de chaise,</l>
+                  <l n="173">S'il vouloit estre menager</l>
+                  <l n="174">Seulement pour me soulager</l>
+                  <l n="175">Je vivrains heureux comme princes</l>
+                  <l n="176">Car je sons de grande <sic>Entretainses</sic>.</l>
+                  <l n="177">Et cependant ce grand nigaud</l>
+                  <l n="178">Remet tout sur mon pauvre dos.</l>
+                  <pb/>
+                  <l n="179">Tandis qu'avecque quelqu ÿvrogne</l>
+                  <l n="180">Ou bien au cul d'une carogne</l>
+                  <l n="181">Ou de quelque coupe jarret</l>
+                  <l n="182">Monsieur est dans le cabaret</l>
+                  <l n="183">À joüer à faire gogaille</l>
+                  <l n="184">Sans me laisser degnié, ny mailles.</l>
+                  <l n="185">Et sans songer si nos enfants</l>
+                  <l n="186">Ont du pain pour mettre à leurs dents</l>
+                  <l n="187">Cependant ce qui me console</l>
+                  <l n="188">C'est ma <sic>pore</sic> petitte Nicolle;</l>
+                  <stage>Elle pleure.</stage>
+                  <l n="189">Ce pauvre Enfant, quand il me bat</l>
+                  <l n="190">Luy eschire tout son rabat</l>
+                  <l n="191">Et dict comme ça, chien de pere</l>
+                  <l n="192">Quoy tu battras ma paüvre mere?</l>
+                  <l n="193">Et me dict, maman, saüvés vous</l>
+                  <l n="194">Il vous assommera de coups.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-13">
+                  <speaker>Potiron</speaker>
+                  <l n="195">Voyés cette petitte fille</l>
+                  <l n="196">Elle Est par ma foy bien gentille.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-14">
+                  <speaker>D. Jacline</speaker>
+                  <l n="197">Ah! monsieur vous n'En scavés rien.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-15">
+                  <speaker>Potiron</speaker>
+                  <l n="198">Pardonnés moy, je le voy bien.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="II-16">
+                  <speaker>Jeanne</speaker>
+                  <stage>passe viste.</stage>
+                  <l n="199">Adieu! adieu! dame Jacline.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-17">
+                  <speaker>D. Jacline</speaker>
+                  <l n="200">Adieu donc petitte badine.</l>
+               </sp>
+               <pb n="349"/>
+               <sp who="Potiron" xml:id="II-18">
+                  <speaker>Potiron</speaker>
+                  <l n="201">Quelle Est celle la dictes moy?</l>
+                  <l n="202">Elle Est bellotte par ma foy.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-19">
+                  <speaker>D. Jacline</speaker>
+                  <l n="203">C'Est une drosle de servante,</l>
+                  <l n="204">D'un vieux monsieur nommé Talcante,</l>
+                  <l n="205">Gentille, et propre tout à faict,</l>
+                  <l n="206">Et prompte en tout ce qu'Elle faict.</l>
+                  <l n="207">Et si Murinde sa maistresse</l>
+                  <l n="208">Est pour Elle une vray tigresse.</l>
+                  <l n="209">Elle ne troüve jamais riain</l>
+                  <l n="210">De tout ce qu'Elle fait de biain.</l>
+                  <stage>Dorise repasse.</stage>
+                  <l n="211">Tenés, tenés, voyla leur fille.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-20">
+                  <speaker>Potiron.</speaker>
+                  <l n="212">Elle est droicte comme une quille.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-21">
+                  <speaker>D. Jacline</speaker>
+                  <l n="213">La servante me dist hyër</l>
+                  <l n="214">Qu'en parloit de la marier.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-22">
+                  <speaker>Potiron</speaker>
+                  <stage>à part.</stage>
+                  <l n="215">Cela ne vault rien pour mon maistre</l>
+                  <l n="216">Ne scavés vous point qui peut Estre</l>
+                  <l n="217">Celuy que l'on luy veut donner?</l>
+                  <l n="218">Car je ne puis <sic>je ne puis</sic> m'imaginer</l>
+                  <l n="219">Que ce ne soit <sic>quelq</sic> home Riche.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-23">
+                  <speaker>D. Jacline</speaker>
+                  <l n="220">Faut qu'il ayt quelque bonne niche</l>
+                  <l n="221">Allés, car par la vertugoy,</l>
+                  <l n="222">Croyés moy qu'ils ont biain de quoy.</l>
+                  <l n="223">Et qu'ils ne donnraint pas leur fille</l>
+                  <l n="224"><sic>L'Unicle</sic> de tout leur famille,</l>
+                  <pb/>
+                  <l n="225">Car ils n'ont riain que celle la,</l>
+                  <l n="226">À quelque fichu quinola</l>
+                  <l n="227">Qui n'eust pas un pied d'héritage.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-24">
+                  <speaker>Potiron</speaker>
+                  <l n="228">Combien a t'Elle en mariage?</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-25">
+                  <speaker>D. Jacline</speaker>
+                  <l n="229">En dict qu'al â biain dix cent frans.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-26">
+                  <speaker>Potiron</speaker>
+                  <l n="230">Bonte! a t'on jette quelques bans?</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-27">
+                  <speaker>D. Jacline</speaker>
+                  <l n="231">Non... attendés, oüy... par ma fire,</l>
+                  <l n="232">Je ne scaurois vous en riain dire.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-28">
+                  <speaker>Potiron</speaker>
+                  <l n="233">Au reste ce sont gens d'honneur?</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="II-29">
+                  <speaker>D. Jacline</speaker>
+                  <l n="234">Oüy je vous assure Monsieur</l>
+                  <l n="235">Ce sont les meilleurs gens du monde.</l>
+                  <l n="236">La maistresse quelques fois gronde.</l>
+                  <l n="237">Mais oüy ce n'est riain que cela.</l>
+               </sp>
+               <sp who="Potiron" xml:id="II-30">
+                  <speaker>Potiron</speaker>
+                  <l n="238" part="I">La Servante revient.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3" xml:id="III">
+               <head>Scene 3<add type="superscripsit">me</add>.</head>
+               <stage>Potiron. D. Jacline. Jeanne.</stage>
+               <sp who="Jacqueline" xml:id="III-1">
+                  <speaker>D. Jacline</speaker>
+                  <l part="F">Heyla</l>
+                  <l n="239">Parle donc, tu passe biain viste</l>
+                  <l n="240">Crains tu de n'aller pas au giste?</l>
+                  <pb n="350"/>
+                  <l n="241">Vien ça, vien ça qu'en parle à toy.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-2">
+                  <speaker>Jeanne</speaker>
+                  <l n="242">C'Est que j'ay haste par ma foy.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="III-3">
+                  <speaker>D. Jacline</speaker>
+                  <l n="243">Ta jeune maistresse Dorise</l>
+                  <l n="244">Revenoit je croy de l'Eglise</l>
+                  <l n="245">Elle passe presentement.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-4">
+                  <speaker>Jeanne</speaker>
+                  <l n="246" part="I">Tout de bon?</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="III-5">
+                  <speaker>D. Jacline</speaker>
+                  <l part="M">Oüy.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-6">
+                  <speaker>Jeanne</speaker>
+                  <l part="F">Asseürement.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="III-7">
+                  <speaker>D. Jacline</speaker>
+                  <l n="247">D'où viens tu donc, bonne eventée?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-8">
+                  <speaker>Jeanne</speaker>
+                  <l n="248">Voyés donc la vieille Edentée,</l>
+                  <l n="249">Faut-il vous en rendre Raison?</l>
+                  <l n="250">Je viens, pour nostre bon grison,</l>
+                  <l n="251">De chés monsieur L'apotiquaire,</l>
+                  <l n="252">Dire qu'on luy fasse un clistaire.</l>
+                  <l n="253">Le bon homme se porte mal;</l>
+                  <l n="254">Il est comme un pauvre animal</l>
+                  <l n="255">À roüpiller dedans la cendre...</l>
+                  <l n="256">Si le bon dieu, le poüvoit prendre!</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="III-9">
+                  <speaker>D. Jacline</speaker>
+                  <l n="257" part="I">Il moüra bien tost.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-10">
+                  <speaker>Jeanne</speaker>
+                  <l part="F">He quoy donc.</l>
+                  <l n="258">Jacline je ne connus onc,</l>
+                  <pb/>
+                  <l n="259">Un homme plus insuportable.</l>
+                  <l n="260">Ce vieillard me rend miserable;</l>
+                  <l n="261">On est avec luy malheureux;</l>
+                  <l n="262">On n'en voit point un si coûteux</l>
+                  <l n="263">Car toutte la nuict il m'appelle</l>
+                  <stage>Elle le contrefait.</stage>
+                  <l n="264">"Jeanne debout de la chandelle.</l>
+                  <l n="265">"Donnés moy viste ce bassin</l>
+                  <l n="266">"Allés querir le medecin</l>
+                  <l n="267">"Helas que j'ay mal à ce membre</l>
+                  <l n="268">"Mon dieu fermés moy cette chambre</l>
+                  <l n="269">"Qu'il ne vienne point tant de vent.</l>
+                  <l n="270">Bref enfin continüellement</l>
+                  <l n="271">Il se plaint, il piaille, il me crie,</l>
+                  <l n="272">Il tempeste sa paüvre vie.</l>
+                  <l n="273">Il est si fort impatient</l>
+                  <l n="274">Que si je mets un seul moment</l>
+                  <l n="275">À luy donner ce qu'il demande,</l>
+                  <l n="276">Il m'appelle aussy tost gourmande,</l>
+                  <l n="277">Insolente, chienne, putain,</l>
+                  <l n="278">Et m'en dict jusqu'au lendemain.</l>
+                  <l n="279" part="I">Adieu, je m'en vas.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="III-11">
+                  <speaker>D. Jacline</speaker>
+                  <l part="F">Et Dorise,</l>
+                  <l n="280">Va t'on la marier, qu'on dise?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-12">
+                  <speaker/>
+                  <l n="281">Ah! la pauvre fille a bien peur,</l>
+                  <l n="282">Qu'on ne luy donne un serviteur</l>
+                  <l n="283">Aussy vieux, ma foy, que ces Rües</l>
+                  <l n="284">Mais Riche aussy de vingt charrües</l>
+                  <pb n="351"/>
+                  <l n="285">Elle le haÿt au dernier poinct</l>
+                  <l n="286">Et dict bien qu'Elle n'En veut point</l>
+                  <l n="287">Elle voudroit quelque jeune home</l>
+                  <l n="288">Quoy qu'il n'eust point si grande somme.</l>
+                  <l n="289">Car Enfin l'on ayme bien mieux</l>
+                  <l n="290">Un beau jeune mary, qu'un vieux.</l>
+                  <l n="291">Mais son impitoyable mere,</l>
+                  <l n="292">Luy dict tous les jours qu'Elle Espere</l>
+                  <l n="293">Que bien tost cet home viendra.</l>
+                  <l n="294">Et qu'aussy tost L'Epousera</l>
+                  <l n="295">Bref n'en â point d'autre reponse</l>
+                  <l n="296">Qu'Elle veut luy donner Alphonce.</l>
+                  <l n="297">Qu'il Est riche, et que chaque jour,</l>
+                  <l n="298">Elle desire son retour.</l>
+                  <l n="299">Car il n'Est pas de cette ville.</l>
+                  <l n="300">Je croy qu'il est de Charleville.</l>
+                  <l n="301">L'autre voudroit qu'En ce paÿs</l>
+                  <l n="302">On luy dist des de profundis</l>
+                  <l n="303">Car il viendra demain, peut Estre.</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-13">
+                  <speaker>Potiron</speaker>
+                  <stage>à part</stage>
+                  <l n="304">Il faut en avertir mon maistre.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-14">
+                  <speaker>Jeanne</speaker>
+                  <l n="305">Tu vas me faire quereller</l>
+                  <l n="306">Adieu, adieu, faut m'en aller.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="III-15">
+                  <speaker>D. Jacline</speaker>
+                  <l n="307">Et parles moy donc; ta maistresse?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-16">
+                  <speaker>Jeanne</speaker>
+                  <l n="308">Ma maistresse, Est une diablesse</l>
+                  <l n="309">Si je luy reponds un seul mot</l>
+                  <l n="310">Elle se saisit d'un tricot,</l>
+                  <pb/>
+                  <l n="311">Et me vient battre comme un diable.</l>
+                  <l n="312">Je vous dis que je suis miserable</l>
+                  <l n="313">Dans cette chienne de maison.</l>
+                  <l n="314">Si je mets de trop un tison,</l>
+                  <l n="315">Elle me dict, toutte En cholere</l>
+                  <l n="316">"Voyés la bonne menagere.</l>
+                  <l n="317">"Dict elle, vrayment l'on voit bien</l>
+                  <l n="318">"Que cela ne vous couste rien.</l>
+                  <l n="319">Allés ce sont des gens bien Riches;</l>
+                  <l n="320">Mais ils sont par ma foy bien chiches.</l>
+                  <l n="321">Je n'ay pas un sol de proffit,</l>
+                  <l n="322">Pas seulement un pauvre habit.</l>
+                  <l n="323">J'ay dessus moy tout mon bagage.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="III-17">
+                  <speaker>D. Jacline</speaker>
+                  <l n="324">Dis moy, combien as tu de gage?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-18">
+                  <speaker>Jeanne</speaker>
+                  <l n="325">Je n'ay, ma foy, que dix Escus,</l>
+                  <l n="326">Et si j'ay du mal tant et plus.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="III-19">
+                  <speaker>D. Jacline</speaker>
+                  <l n="327">Que dix louis, vierge marie!</l>
+                  <l n="328">Vrayment te voyla bien lotie.</l>
+                  <l n="329">Dix Escus, pour rompre tes bras</l>
+                  <l n="330">Avec du mal comme t'en as?</l>
+                  <l n="331">J'aymerois cent fois mieux estre morte.</l>
+                  <l n="332">Comme t'es, guieu marcy, biain forte,</l>
+                  <l n="333">Aga quien, Jeanne, sans façon,</l>
+                  <l n="334">Je quittrois ma foy la maison.</l>
+                  <l n="335">J'envoyrois la maistresse au piautre</l>
+                  <l n="336">Va je t'en veux charcher une autre</l>
+                  <l n="337">Qui sera d'un Esprit plus doux.</l>
+               </sp>
+               <pb n="352"/>
+               <sp who="Potiron" xml:id="III-20">
+                  <speaker>Potiron</speaker>
+                  <l n="338">Pardy, venés tous en chés nous</l>
+                  <l n="339">Ma belle ma foy je vous offre</l>
+                  <l n="340">Ma chambre, mon lict et mon coffre;</l>
+                  <l n="341">Nous nous accorderons tous deux...</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-21">
+                  <speaker>Jeanne</speaker>
+                  <l n="342">Nostre dame, il le vaudroit mieux.</l>
+                  <l n="343">Vous ne voudriés pas peut Estre.</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-22">
+                  <speaker>Potiron</speaker>
+                  <l n="344">Je voudrois, ma foy, que mon maistre</l>
+                  <l n="345">Vous voulût prendre avecque moy.</l>
+                  <l n="346">Je serois heureux, comme un Roy,</l>
+                  <l n="347">S'il vouloit prendre une servante</l>
+                  <l n="348">Si joliette, et si charmante</l>
+                  <l n="349">Que vous Estes. Car par ma foy...</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-23">
+                  <speaker>Jeanne</speaker>
+                  <l n="350">Monsieur, vous vous mocqués de moy.</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-24">
+                  <speaker>Potiron</speaker>
+                  <l n="351">Une telle humeur que la vostre...</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-25">
+                  <speaker>Jeanne</speaker>
+                  <l n="352">Ah! vous me prenés pour une autre.</l>
+                  <l n="353">Car je vous assure Monsieur;</l>
+                  <l n="354">Je ne suis point de belle humeur,</l>
+                  <l n="355">Ny joliette, ny charmante</l>
+                  <l n="356">Je suis une paüvre servante</l>
+                  <l n="357">Et crasseuse si tellement</l>
+                  <l n="358">Que j'ay mal au coeur seulement</l>
+                  <l n="359" part="I">De me voir. Car...</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-26">
+                  <speaker>Potiron</speaker>
+                  <l part="F">Ah! mon bel ange,</l>
+                  <pb/>
+                  <l n="360">Vos mêpris servent de loüange.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-27">
+                  <speaker>Jeanne</speaker>
+                  <l n="361">Monsieur vostre civilité</l>
+                  <l n="362">Vous fait contre la verite</l>
+                  <l n="363" part="I">Parler ainsy.</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-28">
+                  <speaker>Potiron</speaker>
+                  <l part="F">Je vous admire.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-29">
+                  <speaker>Jeanne</speaker>
+                  <l n="364">Monsieur, cela vous plaist à dire.</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-30">
+                  <speaker>Potiron</speaker>
+                  <stage>luy voulant prendre le teton.</stage>
+                  <l n="365">Je ne trouve rien de plus doux.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-31">
+                  <speaker>Jeanne</speaker>
+                  <l n="366">Monsieur, monsieur, arrestés vous.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="III-32">
+                  <speaker>D. Jacline</speaker>
+                  <l n="367">C'Est un vray mariage à faire.</l>
+                  <l n="368">Quien Jeanne voyla ton affaire.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-33">
+                  <speaker>Jeanne</speaker>
+                  <l n="369">Ah! je n'ay pas Envers Monsieur</l>
+                  <l n="370" part="I">Tant merité, pour...</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-34">
+                  <speaker>Potiron</speaker>
+                  <l part="F">Trop d'honneur...</l>
+                  <l n="371">Car... je... vous ayme bien... Madame</l>
+                  <l n="372">En verité... plus que mon ame...</l>
+                  <l n="373">Je ne suis qu'un pauvre garcon...</l>
+                  <stage>Il veut la baiser.</stage>
+                  <l n="374">Mais obbligés moy sans façon...</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-35">
+                  <speaker>Jeanne</speaker>
+                  <l n="375">Mais voyés quelle effronterie.</l>
+                  <l n="376">Eh monsieur, monsieur je vous prie.</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-36">
+                  <speaker>Potiron</speaker>
+                  <l n="377">Vous ne voulés pas me baiser?</l>
+               </sp>
+               <pb n="353"/>
+               <sp who="Jeanne" xml:id="III-37">
+                  <speaker>Jeanne</speaker>
+                  <l n="378">Vous ne faictes que m'ammuser.</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-38">
+                  <speaker>Potiron</speaker>
+                  <l n="379">Laissés moy baiser cette bouche.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-39">
+                  <speaker>Jeanne</speaker>
+                  <l n="380">Je ne veux pas que l'on me touche.</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-40">
+                  <speaker>Potiron</speaker>
+                  <l n="381" part="I">Ah baisés moy.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="III-41">
+                  <speaker>Jeanne</speaker>
+                  <l part="F">Laissés moy la.</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-42">
+                  <speaker>Potiron</speaker>
+                  <l n="382">Tenés parés moy celuy la.</l>
+               </sp>
+               <stage>Il luy porte une botte au sein. Elle y met la main. Il luy en porte une autre
+                  au ventre. Elle y porte aussy la main se baissant Et advancant son <sic>son</sic>
+                  nés. Il advance aussy le sien, et la baise.</stage>
+               <sp who="Jeanne" xml:id="III-43">
+                  <speaker>Jeanne</speaker>
+                  <stage>luy donnant un soufflet.</stage>
+                  <l n="383" part="I">Fils de putain.</l>
+               </sp>
+               <sp who="Potiron" xml:id="III-44">
+                  <speaker>Potiron</speaker>
+                  <stage>luy donnant un coup sur la fesse.</stage>
+                  <l part="F">Ah! ma princesse!</l>
+               </sp>
+               <sp who="Jeanne" n="III-45">
+                  <speaker>Jeanne</speaker>
+                  <stage type="business">courant apres luy.</stage>
+                  <l n="384">Ah je n'en puis plus de la fesse.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="III-46">
+                  <speaker>D. Jacline</speaker>
+                  <stage>Riant</stage>
+                  <l n="385">La la donc, il Est bon garcon.</l>
+                  <l n="386">Elle faisoit trop de façon.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4" xml:id="IV">
+               <head>Scene 4<add>me</add>.</head>
+               <stage>Potiron. D. Jacline. Jeanne. Murinde.</stage>
+               <sp who="Murinde" xml:id="IV-1">
+                  <speaker>Murinde</speaker>
+                  <l n="387" part="I">Jeanne?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="IV-2">
+                  <speaker>Jeanne</speaker>
+                  <stage>bas</stage>
+                  <l part="F"> Mon dieu! Plaist-il madame?</l>
+               </sp>
+               <pb/>
+               <sp who="Murinde" xml:id="IV-3">
+                  <speaker/>
+                  <l n="388">He bien, voyés la bonne lame.</l>
+               </sp>
+               <sp who="Potiron" xml:id="IV-4">
+                  <speaker>Potiron</speaker>
+                  <stage>se cachant.</stage>
+                  <l n="389">Peste il ne fait pas bon icy.</l>
+               </sp>
+               <sp who="Murinde" xml:id="IV-5">
+                  <speaker>Murinde</speaker>
+                  <l n="390">Qu'Es ce que c'Est que tout cecy?</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="IV-6">
+                  <speaker>D. Jacline</speaker>
+                  <stage>à part.</stage>
+                  <l n="391">Ah! Vrayment va ma paüvre fille,</l>
+                  <l n="392">Tu vas bien avoir de l'Estrille.</l>
+               </sp>
+               <sp who="Murinde" xml:id="IV-7">
+                  <speaker>Murinde</speaker>
+                  <l n="393">Dis moy donc d'ou tu peus venir?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="IV-8">
+                  <speaker/>
+                  <l n="394">Madame, je viens de querir</l>
+                  <l n="395">Ces drogues; Et pour le clistaire</l>
+                  <l n="396">J'ay veu monsieur l'apoticaire</l>
+                  <l n="397">Qui m'a dict, que devers le soir,</l>
+                  <l n="398">Il viendroit luy mesme nous voir.</l>
+               </sp>
+               <sp who="Murinde" xml:id="IV-9">
+                  <speaker>Murinde</speaker>
+                  <l n="399">Depuis que vous Estes partie?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="IV-10">
+                  <speaker>Jeanne.</speaker>
+                  <l n="400" part="I">Oüy.</l>
+               </sp>
+               <sp who="Murinde" xml:id="IV-11">
+                  <speaker>Murinde</speaker>
+                  <l part="F">Je gagerois bien ma vie</l>
+                  <l n="401">Que j'aurois faict depuis ce temps</l>
+                  <l n="402">Le tour de Paris. Mais tu ments;</l>
+                  <l n="403">Car dis moy, bonne garçonniere,</l>
+                  <l n="404">Que faisois tu pres la fripiere?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="IV-12">
+                  <speaker>Jeanne</speaker>
+                  <l n="405">He c'Est qu'Elle me demandoit</l>
+                  <l n="406">Comment mon maistre se portoit.</l>
+               </sp>
+               <pb n="354"/>
+               <sp who="Murinde" xml:id="IV-13">
+                  <speaker>Murinde</speaker>
+                  <l n="407">Pourquoy donc faire la badine</l>
+                  <l n="408">Avec ce garçon, dis coquine?</l>
+                  <l n="409">Et pourquoy te laisser baiser?</l>
+                  <l n="410">He quoy tu penses m'abbuser?</l>
+                  <l n="411">Va va je reconnois tes ruses.</l>
+                  <l n="412">Sera t'il dict que tu t'amuses</l>
+                  <l n="413">Incessamment à flagorner,</l>
+                  <l n="414">Sans jamais vouloir retourner?</l>
+                  <l n="415">Mais considerés cette fille;</l>
+                  <l n="416">Il faut toujours qu'elle babille.</l>
+                  <l n="417">En attendant ton beau plaisir,</l>
+                  <l n="418">Ton maistre souffre à son loisir.</l>
+                  <l n="419">Ah je le veux dire à ta mere.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="IV-14">
+                  <speaker>Jeanne</speaker>
+                  <l n="420">Et si voulés à mon pere.</l>
+               </sp>
+               <sp who="Murinde" xml:id="IV-15">
+                  <speaker>Murinde</speaker>
+                  <l n="421">Je n'ayme pas tant de Raison.</l>
+                  <l n="422">Entre viste dans la maison.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="IV-16">
+                  <speaker>Jeanne</speaker>
+                  <stage>Entre, et Murinde la bat en passant.</stage>
+                  <l n="423">Il Est bien besoing de me battre</l>
+                  <l n="424">Et de faire le diable à quatre.</l>
+               </sp>
+               <sp who="Murinde" xml:id="IV-17">
+                  <speaker>Murinde</speaker>
+                  <l n="425">Tu raisonnes donc? par ma foy,</l>
+                  <l n="426">Si tu me fais aller à toy.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="IV-18">
+                  <speaker>D. Jacline</speaker>
+                  <l n="427">Peste <sic>qu'Eul</sic> chienne de maistresse!</l>
+                  <l n="428">Tu souffres biain pauvre diablesse.</l>
+               </sp>
+               <pb/>
+            </div>
+            <div type="scene" n="5" xml:id="V">
+               <head>Scene 5<add type="superscripsit">me.</add></head>
+               <stage>Potiron. D. Jacline. Murinde. Amidor.</stage>
+               <sp who="Amidor" xml:id="V-1">
+                  <speaker>Amidor</speaker>
+                  <stage>troüvant Potiron caché.</stage>
+                  <l n="429">Dis Potiron que fais tu la?</l>
+               </sp>
+               <sp who="Potiron" xml:id="V-2">
+                  <speaker>Potiron</speaker>
+                  <l n="430">Monsieur c'est que... Mais la voyla.</l>
+                  <stage>il s'enfuyt voyant Ressortir Murinde.</stage>
+               </sp>
+               <sp who="Amidor" xml:id="V-3">
+                  <speaker>Amidor</speaker>
+                  <l n="431" part="I">Où va ce coquin?</l>
+               </sp>
+               <sp who="Murinde" xml:id="V-4">
+                  <speaker>Murinde</speaker>
+                  <stage>Ressortant.</stage>
+                  <l part="F">Flagorniere.</l>
+                  <l n="432">Je vas parler à la fripiere.</l>
+                  <l n="433">Parlés donc madame Alison?</l>
+                  <l n="434">Dictes moy pour quelle raison</l>
+                  <l n="435">Vous tenés toujours ma servante?</l>
+                  <l n="436">Ma foy vous estes bien plaisante...</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="V-5">
+                  <speaker>D. Jacline</speaker>
+                  <l n="437">Nostre dame, et tout doucement</l>
+                  <l n="438">He ne nous querellés pas tant.</l>
+                  <l n="439">He l'on diroit, à vous Entendre,</l>
+                  <l n="440">Qu'on auroit merité le pendre.</l>
+               </sp>
+               <sp who="Murinde" xml:id="V-6">
+                  <speaker>Murinde</speaker>
+                  <l n="441">Cessés vostre jargon maudict;</l>
+                  <l n="442">Ce n'Est pas ce que l'on vous dict.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="V-7">
+                  <speaker>D. Jacline</speaker>
+                  <l n="443">Qu'ay je affaire à vostre servante?</l>
+               </sp>
+               <sp who="Murinde" xml:id="V-8">
+                  <speaker>Murinde</speaker>
+                  <l n="444">Je ne veux pas qu'Elle vous hante</l>
+                  <l n="445">Car c'Est vous qui me la gastés,</l>
+                  <l n="446">De vostre langue à deux costés.</l>
+                  <pb n="355"/>
+                  <l n="447">Vous ne vallés pas une maille;</l>
+                  <l n="448">Non vous ne vallés rien qui vaille.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="V-9">
+                  <speaker>D. Jacline</speaker>
+                  <l n="449">Quoy, marcy quieu, sus je putain?</l>
+               </sp>
+               <sp who="Murinde" xml:id="V-10">
+                  <speaker>Murinde</speaker>
+                  <l n="450">Cela n'Est pas trop incertain.</l>
+                  <l n="451">Car dictes moy, bonne impudente,</l>
+                  <l n="452">Pour quoy retenir ma servante?...</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="V-11">
+                  <speaker>D. Jacline</speaker>
+                  <l n="453">Quoy je sus putain marcy quyeu?</l>
+                  <l n="454">Va va, je sons d'aussy bon lieu</l>
+                  <l n="455">Que toy, madame, ou je me gausse.</l>
+                  <l n="456">Va les putains sont dans ta chausse.</l>
+                  <l n="457">Ne me viens pas ficher malheur</l>
+                  <l n="458">Si je sons paüvres, j'on l'honneur.</l>
+                  <l n="459">Et les putains, vieille damnée,</l>
+                  <l n="460">Sont au coing de ta cheminée.</l>
+                  <l n="461">Oüy va ce n'Est qu'une putain</l>
+                  <l n="462">Qui m'a dict cela ce matin.</l>
+               </sp>
+               <sp who="Murinde" xml:id="V-12">
+                  <speaker>Murinde</speaker>
+                  <l n="463">Croy que je te ferai bien taire.</l>
+                  <l n="464">Car si monsieur le commissaire...</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="V-13">
+                  <speaker>D. Jacline</speaker>
+                  <l n="465">Je m'en mocques bien, par ma foy,</l>
+                  <l n="466">Je ne le crains non plus que toy.</l>
+                  <l n="467">Va va donc vistement t'en plaindre.</l>
+                  <l n="468">Quoy penses tu me faire craindre?</l>
+                  <l n="469">Va je te dis en faisant biain</l>
+                  <l n="470">Que je ne craindray jamais riain.</l>
+                  <l n="471">Moy qui n'Est qu'une pauvre femme,</l>
+                  <l n="472">Encor biain que tu sois madame,</l>
+                  <pb/>
+                  <l n="473">Si t'as du biain disne deux fois.</l>
+               </sp>
+               <sp who="Amidor" xml:id="V-14">
+                  <speaker>Amidor</speaker>
+                  <stage>à part</stage>
+                  <l n="474">Cette fripiere Est aux abois.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="V-15">
+                  <speaker>D. Jacline</speaker>
+                  <l n="475">Qu'es ce donc qu'Elle me lantarne?</l>
+                  <l n="476">L'on scayt comme je me goüverne</l>
+                  <l n="477">Quyeu marcy, dedans ce quarquieu</l>
+                  <l n="478">Où j'ons toujours faict ce mequier</l>
+                  <l n="479">Il n'est si petitte chenille,</l>
+                  <l n="480">Voyés vous, qui ne se croquille.</l>
+                  <l n="481">Croys tu qu'avec ton taffetas</l>
+                  <l n="482">L'on fases de toy plus grand cas?</l>
+                  <l n="483">Si ta juppe Est de ferandaine,</l>
+                  <l n="484">La mienne n'Est que de Rataine;</l>
+                  <l n="485">Mais je m'Esteme autant que toy.</l>
+                  <l n="486">Tu ne me feras pas la loy.</l>
+               </sp>
+               <sp who="Amidor" xml:id="V-16">
+                  <speaker>Amidor</speaker>
+                  <l n="487">Mais prenés vous garde Madame</l>
+                  <l n="488">À ce que vous dict cette femme.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="V-17">
+                  <speaker>D. Jacline</speaker>
+                  <l n="489">Me dire cela vartuguÿé</l>
+                  <l n="490">Je ne me mouche pas du pié.</l>
+               </sp>
+               <sp who="Murinde" xml:id="V-18">
+                  <speaker>Murinde</speaker>
+                  <l n="491">Mais monsieur voyés l'insolence,</l>
+                  <l n="492">Il faut bien de la patience...</l>
+               </sp>
+               <sp who="Amidor" xml:id="V-19">
+                  <speaker>Amidor</speaker>
+                  <l n="493">Elle ne scayt pas discerner...</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="V-20">
+                  <speaker>D. Jacline</speaker>
+                  <l n="494">Qu'es ce qu'il nous vient chicanner?</l>
+               </sp>
+               <pb n="356"/>
+               <sp who="Amidor" xml:id="V-21">
+                  <speaker>Amidor</speaker>
+                  <l n="495">Ne me choques pas, je te prie</l>
+                  <l n="496">Tu te verrois bientost servye...</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="V-22">
+                  <speaker>D. Jacline</speaker>
+                  <l n="497">Guesble soit du godeluriau;</l>
+                  <l n="498">Mais voyés comme il fait le biau.</l>
+                  <l n="499">He qui m'a baillé ce genlogne?</l>
+               </sp>
+               <sp who="Amidor" xml:id="V-23">
+                  <speaker>Amidor</speaker>
+                  <l n="500">Tiens, si tu ne te tais carogne...</l>
+                  <l n="501">Mais je doibs garder le Respect,</l>
+                  <l n="502">Tu verras bientost En Effect...</l>
+               </sp>
+               <sp who="Murinde" xml:id="V-24">
+                  <speaker>Murinde</speaker>
+                  <l n="503">Ah! soyés le plus raisonnable.</l>
+               </sp>
+               <sp who="Amidor" xml:id="V-25">
+                  <speaker>Amidor</speaker>
+                  <l n="504">Mais, madame, c'est un vray diable.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="V-26">
+                  <speaker>D. Jacline</speaker>
+                  <l n="505">Voyés donc le bel Estourgniau.</l>
+                  <l n="506">Cent guesbles du Macriau.</l>
+               </sp>
+               <sp who="Amidor" xml:id="V-27">
+                  <speaker>Amidor</speaker>
+                  <l n="507" part="I">Madame, souffrés...</l>
+               </sp>
+               <sp who="Murinde" xml:id="V-28">
+                  <speaker>Murinde</speaker>
+                  <stage>le prenant par la main.</stage>
+                  <l part="F">Je vous prie,</l>
+                  <l n="508">Crainte qu'il n'arrive folie,</l>
+                  <l n="509">D'Entrer dedans nostre maison.</l>
+                  <l n="510">Vous n'En aurés point de Raison.</l>
+                  <l n="511">On la tuerait, en sa colere,</l>
+                  <l n="512">Plûtost que de la faire taire.</l>
+               </sp>
+               <sp who="Amidor" xml:id="V-29">
+                  <speaker>Amidor</speaker>
+                  <l n="513">Madame, ce m'est trop d'honneur.</l>
+                  <stage>bas</stage>
+                  <l n="514">Pouvois je souhaiter plus d'heur!</l>
+               </sp>
+               <pb/>
+               <sp who="Murinde" xml:id="V-30">
+                  <speaker>Murinde</speaker>
+                  <l n="515">Il faut bien qu'Elle chante sa game.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6" xml:id="VI">
+               <head>Scene 6<add type="superscripsit">me.</add></head>
+               <stage>D. Jacline. Potiron.</stage>
+               <sp who="Jacqueline" xml:id="VI-1">
+                  <speaker>D. Jacline.</speaker>
+                  <l n="516">Entre monsieur, Entre madame;</l>
+                  <l n="517">Par tous les guesbles du monsieur.</l>
+                  <l n="518">Tu croyois biain me faire peur.</l>
+                  <l n="519">Va va j'En avois bien veu d'autres</l>
+                  <l n="520">File doux, file doux bon apostre</l>
+                  <l n="521">Car dans la rage où je serois</l>
+                  <l n="522">Voys tu, je te devisagerois.</l>
+                  <l n="523">Il est mêchant avec sa brette;</l>
+                  <l n="524">Voyés l'home de bonne guette.</l>
+                  <l n="525">Je me ris de ta braveté;</l>
+                  <l n="526">J'ons veu des gens de qualité;</l>
+                  <l n="527">Jour de guyeu, j'ons veû des princesses</l>
+                  <l n="528">Des marquises des vicomtesses;</l>
+                  <l n="529">Et qui ne nous ont pas fait peur.</l>
+                  <l n="530">Car j'avons pourtant eü l'honneur,</l>
+                  <l n="531">Mais ce n'Est pas que je me prise,</l>
+                  <l n="532">De sarvir un curé d'Eglise.</l>
+                  <stage>Potiron rentre en tremblant et regardant si Murinde Est Encore.</stage>
+                  <l n="533">Et j'avosn Encore un cousin</l>
+                  <l n="534">Clerc chés un maistre medecin.</l>
+                  <l n="535">Et de plus, quyeu marcy, mon home</l>
+                  <l n="536">Porte tantost un gentishome</l>
+                  <pb n="357"/>
+                  <l n="537">Un president, un conseiller</l>
+                  <l n="538">Sans biaucoup s'en Emerveiller.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VI-2">
+                  <speaker>Potiron</speaker>
+                  <l n="539">Qu'avés vous donc dame Jacline?</l>
+                  <l n="540">Vous me semblés toutte chagrine.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="VI-3">
+                  <speaker>D. Jacline</speaker>
+                  <l n="541">C'Est un guesble de Macriau,</l>
+                  <l n="542">Qui disoit que sur mon musiau...</l>
+               </sp>
+               <sp who="Potiron" xml:id="VI-4">
+                  <speaker>Potiron</speaker>
+                  <l n="543">Tout beau, c'est peut Estre mon maistre.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="VI-5">
+                  <speaker>D. Jacline</speaker>
+                  <l n="544">He biain va t'En faire paistre.</l>
+                  <l n="545">Au guesble gros fils de putain</l>
+                  <l n="546">La peste soit du gros matain.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VI-6">
+                  <speaker>Potiron</speaker>
+                  <l n="547">Quoy vous estes donc en cholere?</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="VI-7">
+                  <speaker>D. Jacline</speaker>
+                  <l n="548">Va t'en, va t'en te faire faire.</l>
+                  <l n="549">C'Est toy gros guesble de pied pla</l>
+                  <l n="550">Qui nous a causé tout cela.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VI-8">
+                  <speaker>Potiron</speaker>
+                  <l n="551" part="I">Moy?</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="VI-9">
+                  <speaker>D. Jacline</speaker>
+                  <l part="F">Ah! tais toy donc je t'En prie</l>
+                  <l n="552">Oüy toy; la maistresse me crie,</l>
+                  <l n="553">De ce que Jeanne parle à toy.</l>
+                  <l n="554">Et me vient demander pour quoy</l>
+                  <l n="555">Presque tous les jours je l'amuse?</l>
+                  <l n="556">Cette fille Est Elle une buse,</l>
+                  <pb/>
+                  <l n="557">Pour ne scavoir se goüvarner?</l>
+                  <l n="558">He qu'Elle aille se promener.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VI-10">
+                  <speaker>Potiron</speaker>
+                  <stage>à part</stage>
+                  <l n="559">Peste quelle chienne de teste!</l>
+                  <l n="560">Je ne suis mordy pas si beste,</l>
+                  <l n="561">De luy rien dire, car ma foy</l>
+                  <l n="562">Ce seroit bientost faict de moy.</l>
+               </sp>
+               <sp who="Jacqueline" xml:id="VI-11">
+                  <speaker>D. Jacline</speaker>
+                  <l n="563">Mais il est temps que je m'en aille.</l>
+                  <l n="564">Je ne gaigne pas uen maille.</l>
+                  <l n="565">Que la peste soit du monsieur!</l>
+                  <l n="566">C'Est ly qui m'a porté malheur,</l>
+                  <l n="567">Avec la putain de madame.</l>
+                  <l n="568">Je voudrois qu'en corps, et en ame</l>
+                  <l n="569">Le guesble les peust emporter.</l>
+               </sp>
+               <stage>Elle prend son bassin et s'En va.</stage>
+               <sp who="Potiron" xml:id="VI-12">
+                  <speaker>Potiron.</speaker>
+                  <l n="570">Si j'osois j'irois la frotter</l>
+                  <l n="571">Mais cette meschante diablesse,</l>
+                  <l n="572">Me fait plus peur qu'une tygresse.</l>
+                  <l n="573">Elle croqueroit Potiron</l>
+                  <l n="574">D'un coup de dent comme un maron.</l>
+               </sp>
+            </div>
+            <div type="scene" n="7" xml:id="VII">
+               <head>Scene 7<add type="superscripsit">me.</add></head>
+               <stage>Potiron. Jeanne.</stage>
+               <sp who="Jeanne" xml:id="VII-1">
+                  <speaker>Jeanne</speaker>
+                  <stage>Elle sort en balleyant.</stage>
+                  <l n="575">Qu'on est malheureuse en ce monde!</l>
+                  <pb n="358"/>
+                  <l n="576">Faut il que toujours on me gronde?</l>
+                  <l n="577">On met tout sur mon paüvre dos</l>
+                  <l n="578">Je n'ay pas un jour de repos.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-2">
+                  <speaker>Potiron</speaker>
+                  <l n="579">Bonjour donc Jeanne ma mignonne.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-3">
+                  <speaker>Jeanne</speaker>
+                  <l n="580">Oste toy de la, gros Jean-logne.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-4">
+                  <speaker>Potiron</speaker>
+                  <l n="581">Et qu'avés vous à vous fâcher?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-5">
+                  <speaker>Jeanne</speaker>
+                  <stage>luy montrant le <sic>ballet.</sic></stage>
+                  <l n="582">Je te feray bien denicher.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-6">
+                  <speaker>Potiron</speaker>
+                  <l n="583">Aussy bien que cette fripiere,</l>
+                  <l n="584">Allés vous vous mettre en cholere?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-7">
+                  <speaker>Jeanne</speaker>
+                  <l n="585" part="I">Oste toy de lâ.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-8">
+                  <speaker>Potiron</speaker>
+                  <l part="F">Mais pourquoy?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-9">
+                  <speaker>Jeanne</speaker>
+                  <l n="586">Si tu me veux croyre, oste toy.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-10">
+                  <speaker>Potiron</speaker>
+                  <l n="587">Mais peut Estre aussy que tu railles.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-11">
+                  <speaker>Jeanne</speaker>
+                  <l n="588">Non, point, je veux que tu t'en ailles.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-12">
+                  <speaker>Potiron</speaker>
+                  <l n="589">Et moy je ne m'en iray pas</l>
+                  <l n="590">Si tu ne me dis pour quel cas...</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-13">
+                  <speaker>Jeanne</speaker>
+                  <l n="591">Mon dieu, qu'il est opiniâtre</l>
+                  <l n="592">Il me va faire encore battre.</l>
+                  <pb/>
+                  <l n="593">Car monsieur, seulement pour vous</l>
+                  <l n="594">J'ay tantost Eü cinq ou six coups.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-14">
+                  <speaker>Potiron</speaker>
+                  <l n="595">Comment? j'en ay de la tristesse.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-15">
+                  <speaker>Jeanne</speaker>
+                  <l n="596">Scays tu pas bien que ma maistresse</l>
+                  <l n="597">T'a veu comme tu me baisois.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-16">
+                  <speaker>Potiron</speaker>
+                  <l n="598" part="I">Oüy.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-17">
+                  <speaker>Jeanne.</speaker>
+                  <l part="F">He bien donc, une autre fois,</l>
+                  <l n="599">Affin que le monde s'en taise,</l>
+                  <l n="600">Je ne veux plus que l'on me baise</l>
+                  <l n="601">Comme cela devant les gens.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-18">
+                  <speaker>Potiron</speaker>
+                  <l n="602">He bien oüy, oüy, va je l'Entends.</l>
+                  <l n="603">Et oüyda, oüyda ma brunette,</l>
+                  <l n="604">Tant que tu voudras en cachette.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-19">
+                  <speaker>Jeanne</speaker>
+                  <l n="605">Elle me fait cent contes bleuss</l>
+                  <l n="606">Que nous nous aymons bien tous deux.</l>
+                  <l n="607">Et que nous nous faisons caresse...</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-20">
+                  <speaker>Potiron</speaker>
+                  <l n="608">He bien je te croy ma maistresse.</l>
+                  <l n="609">Me croys tu pas ton serviteur?</l>
+                  <l n="610">Ma foy je te jure, mon coeur,</l>
+                  <l n="611">Je t'ayme de toutte mon ame.</l>
+                  <l n="612">He laisse dire ta madame.</l>
+                  <l n="613">C'Est ainsy que je le pretends.</l>
+                  <pb n="359"/>
+                  <l n="614">Pour te montrer, touche dedans.</l>
+                  <stage>Il luy touche la main, et Elle touche dedans.</stage>
+                  <l n="615">Bon, la, c'est tout dict, ma mignonne,</l>
+                  <l n="616">Mordy nous ne craignons personne.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-21">
+                  <speaker>Jeanne.</speaker>
+                  <l n="617">Par ma foy tu n'Es qu'un vault rien.</l>
+                  <l n="618">Mais je n'ay pas un sol de bien;</l>
+                  <l n="619">Puis qu'il faut que je te le dise.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-22">
+                  <speaker>Potiron</speaker>
+                  <l n="620">Quand tu n'aurais que ta chemise</l>
+                  <l n="621">Tiens, je ne m'en soucierois pas.</l>
+                  <l n="622">Car je te troüve des appas...</l>
+                  <l n="623">Mais j'ay bien de l'inquietude</l>
+                  <l n="624">Que ta maistresse t'Est si rude.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-23">
+                  <speaker>Jeanne</speaker>
+                  <l n="625">Il Est vray, j'ay bien du tourment.</l>
+                  <l n="626">Car à toutte heure, à tout moment,</l>
+                  <l n="627">Pour une simple bagatelle,</l>
+                  <l n="628">Elle me bat et me querelle.</l>
+                  <l n="629">Mais il faut souffrir tout cela.</l>
+                  <l n="630">L'autre jour seulement j'alla</l>
+                  <l n="631">Pour luy querir un blanc d'Espagne.</l>
+                  <l n="632">Et le malheur qui m'accompagne,</l>
+                  <l n="633">Fit que des mains il m'Eschappa,</l>
+                  <l n="634">Il tombit donc, et se rompa.</l>
+                  <l n="635">Ou bon dieu, me seroys je mise?</l>
+                  <l n="636">Si ce n'avoit esté Dorise,</l>
+                  <l n="637">Qui veint viste me secourir.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-24">
+                  <speaker>Potiron</speaker>
+                  <l n="638">Vrayment tu m'en fais soüvenir,</l>
+                  <l n="639">Mon maistre l'ayme bien Dorise.</l>
+                  <pb/>
+                  <l n="640">Il furte d'Eglise en Eglise,</l>
+                  <l n="641">Il va le matin, et le soir,</l>
+                  <l n="642">Il cherche partout pour la voir.</l>
+                  <l n="643">Je n'ay jamais veu quel menage,</l>
+                  <l n="644">Ma foy quelques fois j'En Enrage</l>
+                  <l n="645">Il me fait courir comme un daim,</l>
+                  <l n="646">Le plus soüvent je meurs de faim.</l>
+                  <l n="647">Et seulement quand ta maistresse</l>
+                  <l n="648">A tant faict icy la diablesse,</l>
+                  <l n="649">Je m'En suis joliement Enfuy,</l>
+                  <l n="650">Et j'ay fort bien Esté, sans luy,</l>
+                  <l n="651">Remplir mon ventre à la taverne;</l>
+                  <l n="652">Car je veux bien que l'on me berne</l>
+                  <l n="653">Si j'avois d'aujord'huy mangé;</l>
+                  <l n="654">Sans mentir, j'Estois Enragé.</l>
+                  <l n="655">Et Certes son ventre Est bien vuide</l>
+                  <l n="656">Quelque part où l'amour le guide.</l>
+                  <l n="657">Car depuis bien longtemps, je croy,</l>
+                  <l n="658">Il n'a non plus mangé que moy.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-25">
+                  <speaker>Jeanne</speaker>
+                  <l n="659">Quoy donc, ton maistre ayme Dorise?</l>
+                  <l n="660">Vrayment il faut que je luy dise</l>
+                  <l n="661">S'il est jeune, Elle l'aymera.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-26">
+                  <speaker>Potiron</speaker>
+                  <l n="662" part="I">Oüy.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-27">
+                  <speaker>Jeanne</speaker>
+                  <l part="F">Bon cela la resjoüira</l>
+                  <l n="663">Car nostre madame sa mere,</l>
+                  <l n="664">Contre la volonté du pere,</l>
+                  <pb n="360"/>
+                  <l n="665">Luy veut prendre un vieillard</l>
+                  <l n="666">Qui n'Est qu'un vieux Roupillard...</l>
+                  <l n="667">Mais je m'En fuis, je viens d'entendre</l>
+                  <l n="668">Quelqu'un dans nos degrés descendre.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-28">
+                  <speaker>Potiron.</speaker>
+                  <l n="669">Dis luy, car il est bon garçon.</l>
+                  <l n="670">Et puis son argent a bon son.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="VII-29">
+                  <speaker>Jeanne</speaker>
+                  <l n="671" part="I">Adieu poupon.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VII-30">
+                  <speaker>Potiron</speaker>
+                  <l>Adieu pouponne.</l>
+                  <l n="672">Mais regardés qu'Elle est mignonne.</l>
+               </sp>
+            </div>
+            <div type="scene" n="8" xml:id="VIII">
+               <head>Scene 8<add type="superscripsit">me.</add></head>
+               <stage>Potiron. Amidor.</stage>
+               <sp who="Potiron" xml:id="VIII-1">
+                  <speaker>Potiron</speaker>
+                  <l n="673">Ah! ah! mon maistre vous voicy,</l>
+                  <l n="674">Qui diable vous croyoit icy?</l>
+               </sp>
+               <sp who="Amidor" xml:id="VIII-2">
+                  <speaker>Amidor</speaker>
+                  <l n="675">Mais toy d'ou viens tu, je te prie,</l>
+                  <l n="676">Pour quoy t'enfuir quelle folie?</l>
+               </sp>
+               <sp who="Potiron" xml:id="VIII-3">
+                  <speaker>Potiron</speaker>
+                  <l n="677">Monsieur, j'Estois tout eperdu</l>
+                  <l n="678">La mere m'avoit Entendu</l>
+                  <l n="679">Badiner avec la Servante</l>
+                  <l n="680">Elle en faisoit fort la meschante</l>
+                  <l n="681">Et juroit tout à droit vertu,</l>
+                  <l n="682">he je craignois d'Estre battu.</l>
+                  <pb/>
+                  <l n="683">Mais vous plustost, ne vous deplaise,</l>
+                  <l n="684">Je croy que vous Estes bien ayse;</l>
+                  <l n="685">Comment avés vous aujourd'huy,</l>
+                  <l n="686">Peu faire, pour Estre introduy.</l>
+               </sp>
+               <sp who="Amidor" xml:id="VIII-4">
+                  <speaker>Amidor</speaker>
+                  <l n="687">Je suis introduit par la mere</l>
+                  <l n="688">Mais loing que cela me prospere</l>
+                  <l n="689">Je n'ay faict qu'accroistre mon mal</l>
+                  <l n="690">Je me troüve un facheux rival.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VIII-5">
+                  <speaker>Potiron.</speaker>
+                  <l n="691">Je ne suis point entré chés Elle,</l>
+                  <l n="692">Et si j'ay sceu cette noüvelle.</l>
+                  <l n="693">De plus, grace a dieu je scay tout</l>
+                  <l n="694">Ce qui s'y faict de bout en bout.</l>
+               </sp>
+               <sp who="Amidor" xml:id="VIII-6">
+                  <speaker>Amidor</speaker>
+                  <l n="695">Potiron, mon mal Est Extremme</l>
+                  <l n="696">La mere m'a dict Elle mesme</l>
+                  <l n="697">Qu'Elle vouloit que dès demain</l>
+                  <l n="698">Dorise lui donnast la main.</l>
+                  <l n="699">Apres cela j'en desespere.</l>
+                  <l n="700">Dis moy ce que je pouvois faire?</l>
+                  <l n="701">Le temps n'Est que jusqu'à demain.</l>
+                  <l n="702">Tout Effort seroit faible et vain.</l>
+                  <l n="703">O trop cruelle destinée!</l>
+                  <l n="704">Si je manque cette journée,</l>
+                  <l n="705">Demain je me verray privé</l>
+                  <l n="706">De celle qui m'a captivé.</l>
+               </sp>
+               <sp who="Potiron" xml:id="VIII-7">
+                  <speaker>Amidor</speaker>
+                  <l n="707">Monsieur vivés En Espérance,</l>
+                  <l n="708">Ayés de la perseverance,</l>
+                  <pb n="361"/>
+                  <l n="709">Vous n'Estes point encore mal</l>
+                  <l n="710">Aprenés que vostre Rival</l>
+                  <l n="711">N'Est pas un Rival fort à craindre</l>
+                  <l n="712">C'Est un vieux Reistre de malingre</l>
+                  <l n="713">Duquel Dorise ne veut point.</l>
+                  <l n="714">J'ai sceu le tout de poinct en poinct</l>
+                  <l n="715">Mesme son bonhomme de pere</l>
+                  <l n="716">Querelle à tout moment la mere</l>
+                  <l n="717">Et dict qu'il veut absolûment</l>
+                  <l n="718">Que sa fille ayt un autre amant.</l>
+               </sp>
+               <sp who="Amidor" xml:id="VIII-8">
+                  <speaker>Amidor</speaker>
+                  <l n="719">Aussy dans les yeux de Dorise</l>
+                  <l n="720">Je n'ay rien vêu qui me dêdise</l>
+                  <l n="721">Le bonhomme de son costé</l>
+                  <l n="722">M'a paru tout plain de bonté.</l>
+                  <l n="723">Mais connois tu ce malhabile?</l>
+               </sp>
+               <sp who="Potiron" xml:id="VIII-9">
+                  <speaker>Potiron</speaker>
+                  <l n="724">Quoy donc! il est de Charleville.</l>
+                  <l n="725">Riche, dict on, comme un Cresus</l>
+                  <l n="726">Noble comme le grand Cyrus</l>
+                  <l n="727">On l'appelle monsieur Alphonce,</l>
+                  <l n="728">On l'attend, ou du moins reponse.</l>
+               </sp>
+               <sp who="Amidor" xml:id="VIII-10">
+                  <speaker>Amidor</speaker>
+                  <l n="729">Il n'Est donc pas Encor icy?</l>
+               </sp>
+               <sp who="Potiron" xml:id="VIII-11">
+                  <speaker>Potiron</speaker>
+                  <l n="730" part="I">Non.</l>
+               </sp>
+               <sp who="Amidor" xml:id="VIII-12">
+                  <speaker>Amidor</speaker>
+                  <l part="F">Je n'ay plus tant de soucy.</l>
+                  <l n="731" part="I">D'où le sais tu?</l>
+               </sp>
+               <pb/>
+               <sp who="Potiron" xml:id="VIII-13">
+                  <speaker>Potiron</speaker>
+                  <l part="F">De ma fripiere</l>
+                  <l n="732">Joincte avec la chambriere</l>
+                  <l n="733">Qui m'ont faict un fort long recit</l>
+                  <l n="734">De tout ce que j'ay desja dict.</l>
+               </sp>
+            </div>
+            <div type="scene" n="9" xml:id="IX">
+               <head>Scene 9<add type="superscripsit">me.</add></head>
+               <stage>Amidor. Potiron. Jeanne.</stage>
+               <sp who="Jeanne" xml:id="IX-1">
+                  <speaker>Jeanne.</speaker>
+                  <l n="735">Dorise m'a chargé de mettre</l>
+                  <l n="736">En vos mains propres cette lettre.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-2">
+                  <speaker>Amidor</speaker>
+                  <l n="737">Ah grands dieux! qu'Es ce que je voy?</l>
+                  <l n="738">Que peut Elle vouloir de moy?</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-3">
+                  <speaker>Potiron</speaker>
+                  <l n="739">Te voyla donc ma coeur, ma mye!</l>
+               </sp>
+               <sp who="Jeanne" xml:id="IX-4">
+                  <speaker>Jeanne</speaker>
+                  <l n="740">Laisse moy donc quelle folie.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-5">
+                  <speaker>Amidor</speaker>
+                  <stage>lict.</stage>
+                  <p>Lettre.</p>
+                  <p>Si je ne vous croyois pas aussi galand home que vous Estes, je ne me serois pas
+                     hasardée à vous Escrire ces lignes, à quoy la pudeur, qui nous ESt naturelle,
+                     Repugnoit extremmement. Mais la maniere dont je vous ay vu traicté par ma mere,
+                     et l'horreur que j'ay de me voir demain dans les bras d'un<pb n="362"/>
+                     Vieillard, que je hays à mort, me font <unclear>Enlever</unclear> cet obstacle.
+                     C'est trop vous en dire pour vous faire connoistre que les sentiments d'une
+                     mere, ne sont pas toujours ceux de sa fille; Et pour vous obliger à ne pas
+                     cesser vostre poursuitte, si vous avés toutte la bonne volonté que vous
+                     témoignés pour moy.</p>
+                  <l n="741">J'ay de la joye avec exces</l>
+                  <l n="742">D'un si favorable succès.</l>
+                  <l n="743">O ciel mon bonheur Est Extremme</l>
+                  <l n="744">Puisqu Enfin ma Dorise m'ayme. </l>
+                  <l n="745">Tu peus luy dire qu'aujourd'huy</l>
+                  <l n="746">Je veux la retirer d'Ennuy.</l>
+                  <l n="747">Que je vas tenter toutte chose</l>
+                  <l n="748">Qu'il n'est rien que mon amour n'ose</l>
+                  <l n="749">Que je ferai tout mon effort</l>
+                  <l n="750">Pour nous donner un meilleur sort.</l>
+                  <l n="751">Et toy, surtout, soys moy fidelle,</l>
+                  <l n="752">Mets moy bien aupres de ma belle</l>
+                  <l n="753">Tu ne manques pas de poüvoir</l>
+                  <l n="754">Puisque tu luy rends ce debvoir.</l>
+                  <l n="755" part="I">Tiens.</l>
+                  <stage>Il luy tend de l'argent.</stage>
+               </sp>
+               <sp who="Jeanne" xml:id="IX-6">
+                  <speaker>Jeanne</speaker>
+                  <l part="F">Je ne prends rien de personne.</l>
+                  <stage>bas.</stage>
+                  <l n="756">Il a l'imagination bonne.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-7">
+                  <speaker>Amidor</speaker>
+                  <l n="757" part="I">Tiens donc.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="IX-8">
+                  <speaker>Jeanne</speaker>
+                  <stage>Elle prend et s'En va.</stage>
+                  <l part="F">Vous vous mocqués de moy.</l>
+               </sp>
+               <pb/>
+               <sp who="Potiron" xml:id="IX-9">
+                  <speaker>Potiron.</speaker>
+                  <l n="758">Mon maistre, tenés, par ma foy,</l>
+                  <l n="759">Que voulés vous que je vous dise,</l>
+                  <l n="760">Si je n'en reçois de Dorise,</l>
+                  <l n="761">Je la mettray mal avec vous.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-10">
+                  <speaker>Amidor</speaker>
+                  <l n="762">Il te faut mettre au rang des fous</l>
+                  <l n="763">Mais voyés cette grosse beste,</l>
+                  <l n="764">J'ay bien d'autres choses en teste.</l>
+                  <l n="765">Il faut que je songe comment</l>
+                  <l n="766">Je pourray finir le tourment</l>
+                  <l n="767">Que souffre ma chere Dorise.</l>
+                  <l n="768">Et tacher par mon Entreprise</l>
+                  <l n="769">De nous rendre aujourd'huy tous deux</l>
+                  <l n="770">De miserables bien heureux.</l>
+                  <l n="771">Si je ne le puis d'autre sorte,</l>
+                  <l n="772">Je veux la prendre avec main forte.</l>
+                  <l n="773">Je veux, pour la decaptiver,</l>
+                  <l n="774">À force oüverte l'Enlever.</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-11">
+                  <speaker>Potiron</speaker>
+                  <l n="775">Monsieur, ne nous faisons point pendre.</l>
+                  <l n="776">Bon dieu! Si l'on nous alloit prendre</l>
+                  <l n="777">En Executant ce dessein,</l>
+                  <l n="778">Aussy maüvais qu'un assassin</l>
+                  <l n="779">Ma foy, nous en aurions bien d'une.</l>
+                  <l n="780">Monsieur ne cherchons point rancune;</l>
+                  <l n="781">Au nom de dieu, vivons si bien,</l>
+                  <l n="782">Que l'on ne nous reproche rien.</l>
+                  <l n="783">Quel honneur à vostre famille,</l>
+                  <l n="784">Si pour satisfaire une fille,</l>
+                  <pb n="363"/>
+                  <l n="785">On luy va dire, il est pendu.</l>
+                  <l n="786">Et moy serois je pas perdu?</l>
+                  <l n="787">J'y serois compris pour complice</l>
+                  <l n="788">Et mis comme vous au suplice.</l>
+                  <l n="789">Ah je me sentirois saisir</l>
+                  <l n="790">D'un tres sensible deplaisir</l>
+                  <l n="791">De nous voir tous deux en cadence</l>
+                  <l n="792">Brandiller <alt/>gambader en mesme potence.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-12">
+                  <speaker>Amidor</speaker>
+                  <l n="793">Ah, mody ta sotte raison</l>
+                  <l n="794">N'Est pas à present de saison</l>
+                  <l n="795">S'il y venoit un miserable</l>
+                  <l n="796">Nous le dauberions comme un diable.</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-13">
+                  <speaker>Potiron</speaker>
+                  <l n="797">Mais si l'on nous dauboit aussy?</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-14">
+                  <speaker>Amidor</speaker>
+                  <l n="798">Coquin tu fais bien voir icy</l>
+                  <l n="799">Ton grand coeur, et ta vaillantise.</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-15">
+                  <speaker>Potiron</speaker>
+                  <l n="800">Monsieur quittés cette entreprise</l>
+                  <l n="801">Nous n'en recepvrons rien de bon;</l>
+                  <l n="802">Elle sent trop fort le baston.</l>
+                  <l n="803">Monsieur passés en vostre Envie</l>
+                  <l n="804">Car posés le cas, je vous prie,</l>
+                  <l n="805">Que nosu ne soyons point pendus;</l>
+                  <l n="806">Mais si nous sommes Entendus</l>
+                  <l n="807">Ou de son bonhomme de pere,</l>
+                  <l n="808">Ou de sa diablesse de mere,</l>
+                  <l n="809">Nous sentirons tomber sur nous</l>
+                  <l n="810">Bastons, pierres, tisons, cailloux;</l>
+                  <pb/>
+                  <l n="811">Quand ce ne seroit que la mere;</l>
+                  <l n="812">Monsieur sa mine Est si severe,</l>
+                  <l n="813">Qu'Elle seule, je vas gager,</l>
+                  <l n="814">Nous poüroit tous devisager.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-16">
+                  <speaker>Amidor</speaker>
+                  <l n="815">Tay toi, nous troüverons remede,</l>
+                  <l n="816">Affin que tout bien nous succede.</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-17">
+                  <speaker>Potiron</speaker>
+                  <l n="817">Ah grands dieux! qu'il est obstiné!</l>
+                  <l n="818">Et que je suis infortuné</l>
+                  <l n="819">De Servir un si vaillant maistre!</l>
+                  <l n="820">Je vous croys assés fou, pour Estre</l>
+                  <l n="821">Un de ceux qui pour leur Cloris</l>
+                  <l n="822">Se feroient metter au pilorys.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-18">
+                  <speaker>Amidor</speaker>
+                  <l n="823">C'En Est trop, Enfin je me fâche</l>
+                  <l n="824">De me voir un vallet si lâche</l>
+                  <l n="825">Allés monsieur le Potiron,</l>
+                  <l n="826">Vous Estes un vilain poltron.</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-19">
+                  <speaker>Potiron</speaker>
+                  <l n="827">Ah je veux bien que l'on me fesse</l>
+                  <l n="828">Si jamais pour une maistresse</l>
+                  <l n="829">Quelqu'un me rencontre pendu.</l>
+                  <l n="830">Et que je puisse Estre tondu...</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-20">
+                  <speaker>Amidor</speaker>
+                  <l n="831">Mais attends, j'ay bien ton affaire</l>
+                  <l n="832">Un dessein que l'amour me suggere,</l>
+                  <l n="833">Nous ne serons plus ny tondus,</l>
+                  <l n="834">Ny pris, ny daubés, ny pendus.</l>
+               </sp>
+               <pb n="364"/>
+               <sp who="Potiron" xml:id="IX-21">
+                  <speaker>Potiron</speaker>
+                  <l n="835" part="I">Bon, tant mieux.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-22">
+                  <speaker>Amidor</speaker>
+                  <l part="F">L'on attend reponse</l>
+                  <l n="836">À ce que tu m'as dict, d'Alphonce.</l>
+                  <l n="837">Aujourd'huy, de ce vieux amant</l>
+                  <l n="838">Je veux feindre un Empeschement.</l>
+                  <l n="839">Pour luy je veux Escrire au pere,</l>
+                  <l n="840">Luy mander qu'il se desespere</l>
+                  <l n="841">De ce qu'il ne peut pas venir;</l>
+                  <l n="842">Et qu'il ne luy scuaroit tenir</l>
+                  <l n="843">ce qu'il a promis à Dorise;</l>
+                  <l n="844">Et qu'une maudite surprise</l>
+                  <l n="845">Est la cause de ce malheur.</l>
+                  <l n="846">Tu t'habilleras en facteur,</l>
+                  <l n="847">Et luy porteras cette lettre.</l>
+                  <l n="848">Ainsy les Dieux pouront permettre</l>
+                  <l n="849">Que ce vieux rival Esconduict</l>
+                  <l n="850">Peut Estre, y serays je introduict.</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-23">
+                  <speaker>Potiron</speaker>
+                  <l n="851">Moy! ma foy je n'en veux rien faire;</l>
+                  <l n="852">Car je suis conneu de la mere.</l>
+                  <l n="853">Elle m'Estrilleroit, dieu scayt.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-24">
+                  <speaker>Amidor</speaker>
+                  <l n="854">Ne suis je pas bien satisfaict</l>
+                  <l n="855">D'avoir un vallet de la sorte?</l>
+                  <l n="856">Ne crains tu point qu'Elle t'Emporte</l>
+                  <l n="857">Tu n'Es qun paüvre malheureux</l>
+                  <l n="858">Tu t'estime plus precieux...</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-25">
+                  <speaker>Potiron</speaker>
+                  <l n="859">He chaqu'un vaut son prix mon maistre.</l>
+               </sp>
+               <pb/>
+               <sp who="Amidor" xml:id="IX-26">
+                  <speaker>Amidor</speaker>
+                  <l n="860">Comment te poura t'on connoistre?</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-27">
+                  <speaker>Potiron</speaker>
+                  <l n="861">Elle me connoistra toûjours.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-28">
+                  <speaker>Amidor</speaker>
+                  <l n="862">Voyés quel diable de discours</l>
+                  <l n="863">He dis moy, teste sans cervelle,</l>
+                  <l n="864">Desguisé, te connoistra t'Elle?</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-29">
+                  <speaker>Potiron</speaker>
+                  <l n="865">Elle verra bien que c'Est moy.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-30">
+                  <speaker>Amidor</speaker>
+                  <l n="866">Voit on rien de sot, comme toy?</l>
+                  <l n="867">Songe toutte à l'heure à me dire</l>
+                  <l n="868">Lequel, des deux tu veux Eslire,</l>
+                  <l n="869">D'Estre battu d'Elle, ou de moy.</l>
+                  <l n="870">Car si tu n'y vas, par ma foy,</l>
+                  <l n="871">Tu peux t'assurer de ma patte.</l>
+                  <l n="872">Tu scays bien comme Elle te frotte.</l>
+                  <l n="873">Mais de la mere, c'Est hasard,</l>
+                  <l n="874">Si tu reçois un seul regard.</l>
+               </sp>
+               <sp who="Potiron" xml:id="IX-31">
+                  <speaker>Potiron</speaker>
+                  <l n="875">Je n'aymerois ny l'un, ny l'autre;</l>
+                  <l n="876">Mais, puis qu'il le fault, c'Est le nostre,</l>
+                  <l n="877">De choisir pour nous le meilleur.</l>
+                  <l n="878">Je ne veux point de vous, Monsieur;</l>
+                  <l n="879">Et j'ayme mieux choisir la mere.</l>
+                  <l n="880">Car il est vray qu'il se peut faire</l>
+                  <l n="881">Qu'Elle ne m'Estrillera pas.</l>
+               </sp>
+               <sp who="Amidor" xml:id="IX-32">
+                  <speaker>Amidor</speaker>
+                  <stage>sortant.</stage>
+                  <l n="882" part="I">Suys moy donc.</l>
+               </sp>
+               <pb n="365"/>
+               <sp who="Potiron" xml:id="IX-33">
+                  <speaker>Potiron</speaker>
+                  <l part="F">Et puis j'ay bon pas.</l>
+                  <l n="883">Si je voy qu'Elle s'y prepare</l>
+                  <l n="884">D'Elle en courant, je me separe...</l>
+                  <l n="885" part="I">J'Entends quelqu'un.</l>
+                  <stage>Il s'enfuit come s'il craignoit que ce ne fut Murinde.</stage>
+               </sp>
+            </div>
+            <div type="scene" n="10" xml:id="X">
+               <head>Scene 10<add>me.</add></head>
+               <stage>Dorise. Jeanne.</stage>
+               <sp who="Dorise" xml:id="X-1">
+                  <speaker>Dorise</speaker>
+                  <l part="F">Que t'a t'il dict?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="X-2">
+                  <speaker>Jeanne</speaker>
+                  <l n="886">Il m'a monstré tout interdict</l>
+                  <l n="887">Des Effects de son allegresse</l>
+                  <l n="888">De vous avoir pour sa maistresse;</l>
+                  <l n="889">Et m'a dict que dès aujourd'huy</l>
+                  <l n="890">Il vouloit vous tirer d'Ennüy</l>
+                  <l n="891">Et m'a dict avec tant de grace</l>
+                  <l n="892">Qu'il feroit fondre un coeur de glace,</l>
+                  <l n="893">Si l'on en peut juger par soy,</l>
+                  <l n="894">Car je vous assure, pour moy,</l>
+                  <l n="895">Que quasy j'en Estois Eprise,</l>
+                  <l n="896">Bien aussy fort que vous, Dorise.</l>
+                  <l n="897">Mais je voyons mon Potiron.</l>
+                  <l n="898">Frais et poly comme un Baron.</l>
+               </sp>
+               <sp who="Dorise" xml:id="X-3">
+                  <speaker>Dorise</speaker>
+                  <l n="899">Jeanne l'heure m'Estoit fatala</l>
+                  <l n="900">Que je t'avois pour ma rivale.</l>
+                  <l n="901">Mais ce Potiron, quel Est il?</l>
+               </sp>
+               <pb/>
+               <sp who="Jeanne" xml:id="X-4">
+                  <speaker>Jeanne</speaker>
+                  <l n="902">Ah c'Est un garçon si civil,</l>
+                  <l n="903">Il m'ayme, il m'ayme, il m'ayme, il m'ayme</l>
+                  <l n="904">À ce qu'il dict, plus que luy mesme.</l>
+                  <l n="905">C'est le valler de vostre amant.</l>
+               </sp>
+               <sp who="Dorise" xml:id="X-5">
+                  <speaker>Dorise</speaker>
+                  <l n="906" part="I">Tu l'aymes bien aussy?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="X-6">
+                  <speaker>Jeanne</speaker>
+                  <l part="F">Tout doucement.</l>
+               </sp>
+               <sp who="Dorise" xml:id="X-7">
+                  <speaker>Dorise</speaker>
+                  <l n="907" part="I">Tu le connois?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="X-8">
+                  <speaker>Jeanne</speaker>
+                  <l part="F">Et je luy parle</l>
+                  <l n="908">Quand je le troüve, Et sans scandale.</l>
+               </sp>
+               <sp who="Dorise" xml:id="X-9">
+                  <speaker>Dorise</speaker>
+                  <l n="909">Ah dieux, que vous Estes tous deux</l>
+                  <l n="910">Amants Egalement heureux!</l>
+               </sp>
+               <sp who="Jeanne" xml:id="X-10">
+                  <speaker>Jeanne</speaker>
+                  <l n="911">Oüy dictes vous, hé vostre mere</l>
+                  <l n="912">Ne nous Est Elle pas contraire</l>
+                  <l n="913">N'a t'Elle pas sur mon museau</l>
+                  <l n="914">Desja donné d'un chinforgniau.</l>
+                  <l n="915">Tantost pres de dame Jacline</l>
+                  <l n="916">ce garçon d'une humeur Encline</l>
+                  <l n="917">Comme la mienne à <del>badiner</del> joüer</l>
+                  <l n="918">M'a baisée, il faut l'advoüer</l>
+                  <l n="919">D'abord madame vostre mere</l>
+                  <l n="920">Nous voyant s'est mise en cholere</l>
+                  <l n="921">Et m'a battue en vray cheval</l>
+                  <l n="922">Le dos m'En faict Encore mal.</l>
+                  <pb n="366"/>
+                  <l n="923">Mais j'Enrageois de me voir battre</l>
+                  <l n="924">Devant ce peste de folastre</l>
+                  <l n="925">car ce m'Estoit un grand affront,</l>
+                  <l n="926">Et qui m'a faict Rougir le front.</l>
+                  <l n="927">Elle croyt que ces coups peut Estre</l>
+                  <l n="928">Feront que je l'Envoyray paistre.</l>
+                  <l n="929">Mais oüyda, je l'En ayme mieux.</l>
+               </sp>
+               <sp who="Dorise" xml:id="X-11">
+                  <speaker>Dorise</speaker>
+                  <l n="930">IL Est vray que des Envieux</l>
+                  <l n="931">La peine Est toûjours inutile</l>
+                  <l n="932">Plus on rend l'amour difficile</l>
+                  <l n="933">Et plus nous le sentons ardent.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="X-12">
+                  <speaker>Jeanne</speaker>
+                  <l n="934">He comment donc, il est constant.</l>
+               </sp>
+               <sp who="Dorise" xml:id="X-13">
+                  <speaker>Dorise</speaker>
+                  <l n="935">Mais qu'En dis tu l'heure se passe</l>
+                  <l n="936">S'En faut peu que je ne trespasse</l>
+                  <l n="937">de peur que j'ay que cet amant</l>
+                  <l n="938">Ne mette en oubly son serment.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="X-14">
+                  <speaker>Jeanne</speaker>
+                  <l n="939">Ah je jurerois bien, madame,</l>
+                  <l n="940">Que non. Il a par trop bonne ame.</l>
+                  <l n="941">Vous aurés nouvelle de luy.</l>
+               </sp>
+               <sp who="Dorise" xml:id="X-15">
+                  <speaker>Dorise</speaker>
+                  <l n="942">Ma mere s'attend aujourd'huy</l>
+                  <l n="943">Ou demain, d'avoir la Reponce</l>
+                  <l n="944">De ce vieux insensé d'Alphonce</l>
+                  <l n="945">S'il tarde nous serons tous deux</l>
+                  <l n="946">reduits dans un sort <del>rigoureux</del> malheureux</l>
+                  <l n="947">Car aussy tost qu'En cette ville</l>
+                  <pb/>
+                  <l n="948">Sera venu ce croquodile</l>
+                  <l n="949">Fus ce aujourd'huy, fus ce demain</l>
+                  <l n="950">Il faudra luy donner la main.</l>
+                  <l n="951">Tu ne sais que trop, qu'il faut faire</l>
+                  <l n="952">Malgré soy ce que veut ma mere</l>
+                  <l n="953">Ou se tenir tout asseuré</l>
+                  <l n="954">D'Estre par Elle devoré.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="X-16">
+                  <speaker>Jeanne</speaker>
+                  <l n="955">Entre nous deux, c'est ma maistresse</l>
+                  <l n="956">Mais Elle Est ma foy bien diablesse.</l>
+               </sp>
+               <sp who="Dorise" xml:id="X-17">
+                  <speaker>Dorise</speaker>
+                  <l n="957">Elle a d'une estrange façon</l>
+                  <l n="958">Rebutté ce paüvre garçon</l>
+                  <l n="959">Apres qu'il a fait sa demande.</l>
+                  <l n="960">C'est pourquoy Jeanne j'apprehende</l>
+                  <l n="961">Qu'il ne se soit formalisé</l>
+                  <l n="962">De s'Estre veu si mesprisé.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="X-18">
+                  <speaker>Jeanne</speaker>
+                  <l n="963">Point, point, Encore un coup madame</l>
+                  <l n="964">Je vous dis que pour vous sa flame</l>
+                  <l n="965">Le presse encore tout à faict</l>
+                  <l n="966">Et qu'il n'Est poinct mal satisfaict</l>
+                  <l n="967">De tout ce qu'a dict vostre mere.</l>
+                  <l n="968">Que plus que jamais il Espere</l>
+                  <l n="969">Car je scay bien de Potiron</l>
+                  <l n="970">Qu'il Est toûjours à l'Environ</l>
+                  <l n="971">De ces lieux, à souffrir la bise</l>
+                  <l n="972">Qu'il vous suit d'Eglise en Eglise</l>
+                  <l n="973">Pour tacher de vous accoster</l>
+                  <l n="974">bref qu'il ne faict que rassoter.</l>
+               </sp>
+               <pb n="367"/>
+               <sp who="Dorise" xml:id="X-19">
+                  <speaker>Dorise</speaker>
+                  <l n="975">Jeanne j'ay bien connu sa flamme</l>
+                  <l n="976">Dès qu'il a commencé sa trame</l>
+                  <l n="977">Mon coeur, jusqu'alors innocent,</l>
+                  <l n="978">N'En peût Estre meconnoissant</l>
+                  <l n="979">Je souffrois un secret martyre</l>
+                  <l n="980">De ne scavoir comment luy dire</l>
+                  <l n="981">Et trouvois plaines de rigueur</l>
+                  <l n="982">Le loix que nous fait la pudeur.</l>
+                  <l n="983">Mais cependant qu'on a de peines</l>
+                  <l n="984">À quitter ces loix inhumaines</l>
+                  <l n="985">Combien de larmes m'a cousté</l>
+                  <l n="986">Le billet que tu m'as porté.</l>
+                  <l n="987">Sans uen occasion pressante</l>
+                  <l n="988">Comme celle qui se presente</l>
+                  <l n="989">J'aurois malgré tout mon tourment</l>
+                  <l n="990">Caché toujours mon sentiment.</l>
+                  <l n="991">Mais helas dans la juste crainte</l>
+                  <l n="992">De se voir dès demain contrainte</l>
+                  <l n="993">D'Epouser un fascheux vieillard</l>
+                  <l n="994">Que ne met on point au hasard?</l>
+                  <l n="995">On vaincq dans cette crainte affreuse</l>
+                  <l n="996">La pudeur la plus Rigoureuse.</l>
+                  <l n="997">Oüy... Mais Jeanne une autre peur</l>
+                  <l n="998">Saisit presentement mon coeur.</l>
+                  <l n="999">Amidor blasme ma conduite</l>
+                  <l n="1000">Sans doute, Et laisse sa poursuite</l>
+                  <l n="1001"><gap n="3" reason="stained"/> rien declaré?</l>
+               </sp>
+               <sp who="Jeanne" xml:id="X-20">
+                  <speaker>Jeanne</speaker>
+                  <l n="1002">Non, il m'a vous dis je asseuré,</l>
+                  <pb/>
+                  <l n="1003">Que pour vous delivrer de peine</l>
+                  <l n="1004">Il ne voyt rien qu'il n'Entreprenne</l>
+                  <l n="1005">Et que sans manquer aujourd'huy</l>
+                  <l n="1006">Vous auriés noüvelle de luy.</l>
+                  <l/>
+               </sp>
+            </div>
+            <div type="scene" n="11" xml:id="XI">
+               <head>Scene 11<add>me.</add></head>
+               <stage>Dorise. Jeanne. Murinde. Talcante.</stage>
+               <sp who="Murinde" xml:id="XI-1">
+                  <speaker>Murinde</speaker>
+                  <l n="1007">Jeanne va chés l'apoticaire</l>
+                  <l n="1008">Querir vistement ce clystaire.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="XI-2">
+                  <speaker>Jeanne</speaker>
+                  <l n="1009">Ca madame tout de ce pas.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XI-3">
+                  <speaker>Talcante</speaker>
+                  <stage>sortant en courant de sa maison.</stage>
+                  <l n="1010">Non Jeanne, Jeanne n'y vas pas.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XI-4">
+                  <speaker>Murinde</speaker>
+                  <l n="1011">Comment? Il faut bien qu'Elle y aÿlle.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XI-5">
+                  <speaker>Talcante</speaker>
+                  <l n="1012">Mais Ecoutés comme Elle piaylle.</l>
+                  <l n="1013">Je n'En veux jamais prendre nul.</l>
+                  <l n="1014">Car j'ay toujours la fluste au cul</l>
+                  <l n="1015" part="I">Avecque vous.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XI-6">
+                  <speaker>Murinde</speaker>
+                  <l part="F">Mon dieu quel home!</l>
+                  <l n="1016">Vous Estes obstiné comme...</l>
+               </sp>
+               <sp who="Talcante" xml:id="XI-7">
+                  <speaker>Talcante</speaker>
+                  <l n="1017">Je vous dis que je n'En veut point.</l>
+                  <stage>Il tousse.</stage>
+               </sp>
+               <sp who="Dorise" xml:id="XI-8">
+                  <speaker>Dorise</speaker>
+                  <stage>à Jeanne.</stage>
+                  <l n="1018">Nous voyla la sur un beau poinct.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="XI-9">
+                  <speaker>Jeanne</speaker>
+                  <stage>à Dorise.</stage>
+                  <l n="1019">S'il ne veut prendre ce clystaire</l>
+                  <l n="1020">Toutte nuict d'un suppositoire</l>
+                  <pb n="368"/>
+                  <l n="1021">Il me faudra le faire aller</l>
+                  <l n="1022">Au lieu... Reverence parler.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XI-10">
+                  <speaker>Talcante</speaker>
+                  <l n="1023">Quand je verrois tout l'or du monde</l>
+                  <l n="1024">je ne veux plus que l'on me sonde...</l>
+               </sp>
+               <sp who="Murinde" xml:id="XI-11">
+                  <speaker>Murinde</speaker>
+                  <l n="1025">Mais vous vous En trouverrés mal.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="XI-12">
+                  <speaker>Jeanne</speaker>
+                  <stage>bas.</stage>
+                  <l n="1026">La peste soit du vieux brutal.</l>
+               </sp>
+               <sp who="Dorise" xml:id="XI-13">
+                  <speaker>Dorise</speaker>
+                  <l n="1027">Mais mon pere il le faut bien faire</l>
+                  <l n="1028">Si cela vous Est necessaire.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XI-14">
+                  <speaker>Talcante</speaker>
+                  <l n="1029">Ma fille je me porte mieux.</l>
+                  <l n="1030">C'Est que je vas devenir vieux,</l>
+                  <l n="1031">Voyés vous bien; Et vostre mere</l>
+                  <l n="1032">A dans sa teste une chimere</l>
+                  <l n="1033">Qu'il faut toûjours un lavement.</l>
+                  <l n="1034">Mais je n'En veux aucunement.</l>
+                  <l n="1035">Tout cela me rend trop debile;</l>
+                  <l n="1036">Maintenant je me sens agile,</l>
+                  <l n="1037">Je marcherois comme un garçon,</l>
+                  <l n="1038">je me sens gay comme un pinçon</l>
+                  <l n="1039">Et bien loing que je sois malade,</l>
+                  <l n="1040">Je ferois volontiers gambade.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XI-15">
+                  <speaker>Murinde</speaker>
+                  <l n="1041">Mais voulés vous qu'il soit perdu?</l>
+               </sp>
+               <sp who="Talcante" xml:id="XI-16">
+                  <speaker>Talcante</speaker>
+                  <l n="1042">He comment donc? bien Entendu.</l>
+                  <l n="1043">Car pour moy, vous pouvés bien croyre</l>
+                  <l n="1044">Que je ne veux point de clystoire.</l>
+                  <pb/>
+                  <l n="1045">Je n'y troüve point de bon goust.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XI-17">
+                  <speaker>Murinde</speaker>
+                  <l n="1046">Vous ne nous faictes que du coust</l>
+                  <l n="1047">Voyés cela ne couste guere</l>
+                  <l n="1048">Tous les jours de vous faire faire</l>
+                  <l n="1049">Des lavements, et cependant</l>
+                  <l n="1050">C'Est du bien que l'on jette au vent.</l>
+                  <l n="1051">Vous ne voulés jamais les prendre.</l>
+                  <l n="1052">Encor si l'on les poüvoit rendre.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XI-18">
+                  <speaker>Talcante</speaker>
+                  <l n="1053">Prenés le si cela vous plaist.</l>
+                  <l n="1054">Vous ne songés qu'à l'interest.</l>
+                  <l n="1055">Je n'ayme point vostre menage,</l>
+                  <l n="1056">De ne pas saler un potage,</l>
+                  <l n="1057">Ou bien tout du moins, que fort peu;</l>
+                  <l n="1058">De tirer les tisons du feu,</l>
+                  <l n="1059">Les dresser dans la cheminée,</l>
+                  <l n="1060">De vous tenir soüvent couchée,</l>
+                  <l n="1061">Crainte de brusler vostre bois;</l>
+                  <l n="1062">De ne nous donner que des poix</l>
+                  <l n="1063">Pour ne point faire de depense;</l>
+                  <l n="1064">J'en suis tout en outrecuidance.</l>
+                  <l n="1065">Maintenant que je me sens vieux,</l>
+                  <l n="1066">Je veux que vous me traictiés mieux</l>
+                  <l n="1067">Je ne veux plus que bal et dance,</l>
+                  <l n="1068">Et tous les jours faire bombance</l>
+                  <l n="1069">Avecque tous mes vieux amis.</l>
+                  <l n="1070">Seul dans ma maison, je gemis.</l>
+                  <l n="1071">Il faut aussy pourvoir ma fille,</l>
+                  <l n="1072">Pour conserver nostre famille.</l>
+                  <pb n="369"/>
+                  <l n="1073">Je vas luy donner un Epoux...</l>
+                  <stage>Il tousse.</stage>
+                  <l n="1074">Ah mon dieu la vilaine toux</l>
+                  <l n="1075">Depuis hyer elle me tourmente.</l>
+               </sp>
+            </div>
+            <div type="scene" n="12" xml:id="XII">
+               <head>Scene 12<add type="superscripsit">me.</add></head>
+               <stage>Talcante. Murinde. Jeanne. Dorise. Potiron. Amidor, se tenant caché.</stage>
+               <sp who="Potiron" xml:id="XII-1">
+                  <speaker>Potiron</speaker>
+                  <stage>habillé en facteur.</stage>
+                  <l n="1076">Ou demeure monsieur Talcante.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-2">
+                  <stage>Talcante</stage>
+                  <l n="1077">C'est moy mesme, mon cher amy.</l>
+                  <l n="1078">Dis, qu'Es ce qui t'amene icy?</l>
+               </sp>
+               <sp who="Potiron" xml:id="XII-3">
+                  <stage>Potiron</stage>
+                  <stage>luy donnant la lettre.</stage>
+                  <l n="1079">Ca de l'argent habile, habile.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-4">
+                  <speaker>Talcante</speaker>
+                  <l n="1080" part="I">De quel pays?</l>
+               </sp>
+               <sp who="Potiron" xml:id="XII-5">
+                  <speaker>Potiron</speaker>
+                  <l part="F">De Charleville.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XII-6">
+                  <speaker>Murinde</speaker>
+                  <l n="1081">Ah c'Est d'Alphonce asseurement.</l>
+               </sp>
+               <sp who="Dorise" xml:id="XII-7">
+                  <speaker>Dorise</speaker>
+                  <stage>bas.</stage>
+                  <l n="1082">Jeanne il me prend un tremblement.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="XII-8">
+                  <speaker>Jeanne</speaker>
+                  <l n="1083">Mais c'Est Potiron. C'Est luy mesme.</l>
+               </sp>
+               <sp who="Dorise" xml:id="XII-9">
+                  <speaker>Dorise</speaker>
+                  <l n="1084">Oüy? C'Est donc quelque stratagême.</l>
+               </sp>
+               <pb/>
+               <sp who="Talcante" xml:id="XII-10">
+                  <speaker>Talcante</speaker>
+                  <l n="1085" part="I">Combien te faut-il?</l>
+               </sp>
+               <sp who="Potiron" xml:id="XII-11">
+                  <speaker>Potiron</speaker>
+                  <l part="F">Quinse soüs.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XII-12">
+                  <speaker>Murinde</speaker>
+                  <l n="1086">Vrayment c'Est se mocquer de nous.</l>
+                  <l n="1087">Quinse sols! Seroit il possible?</l>
+                  <l n="1088">Ma foy, si cela n'Est horrible!</l>
+                  <l n="1089">L'on debvroit bien de ces coquins</l>
+                  <l n="1090">Songer à rabaisser les gains.</l>
+                  <l n="1091">Quinse sols! il faudroit s'en plaindre,</l>
+                  <l n="1092">Et l'on les feroit bien contraindre...</l>
+               </sp>
+               <sp who="Potiron" xml:id="XII-13">
+                  <speaker>Potiron</speaker>
+                  <stage>tremblant.</stage>
+                  <l n="1093">Donnés moi ce qu'il vous plaira.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XII-14">
+                  <speaker>Murinde</speaker>
+                  <l n="1094">Peut Estre il vous en coustera</l>
+                  <l n="1095" part="I">Donnés cinq sols.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-15">
+                  <speaker>Talcante</speaker>
+                  <l part="F">La bagatelle!</l>
+               </sp>
+               <sp who="Potiron" xml:id="XII-16">
+                  <speaker>Potiron</speaker>
+                  <stage>à son maistre en s'en allant.</stage>
+                  <l n="1096">Par ma foy, j'ay rechapé belle.</l>
+               </sp>
+               <sp who="Amidor" xml:id="XII-17">
+                  <speaker>Amidor</speaker>
+                  <l n="1097" part="I">Rhabille toy.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XII-18">
+                  <speaker>Murinde.</speaker>
+                  <l part="F">Qu'En dictes vous</l>
+                  <l n="1098">Si l'on eust donné quise soüs</l>
+                  <l n="1099">N'auroit ce pas Esté folie.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-19">
+                  <speaker>Talcante</speaker>
+                  <stage type="business">mettant ses lunettes.</stage>
+                  <l n="1100">Ça lisons donc je vous en prie.</l>
+                  <pb n="370"/>
+                  <p>Lettre.</p>
+                  <p>Monsieur,</p>
+                  <p>Je suis infiniment fâché de ne poüvoir m'acquitter de ce que je vous ay
+                     priomis, j'En suis Empesché par un Estrange accident. Pendant ma jeunsee
+                     j'Engageay ma foy à une jolye Damoiselle de ceste ville qui fut obligée de
+                     quitter le paÿs, pour quelques affaires qui l'appellerent autre part. Son
+                     absence me donna lieu de m'allier avec ma deffuncte femme, croyant que cette
+                     Demoiselle ne reviendroit plus, Et que j'Estois aussy deschargé de ma parolle.
+                     Elle Revint pourtant pendant nostre mariage. Et depuis que d'avoir veu Dorise,
+                     nous nous sommes veüs fort soüvent; Et comme les vieilles flammes se rallument
+                     facilement Il s'est passé des choses Entre nous que j'aurois point à vous
+                     apprendre, si la necessité ne m'y contraignoit. Car Enfin quand vous scaurés
+                     qu'il est sorty de nous deux un petit Enfant, qui joinct à la promesse qu'Elle
+                     avoit desja Escripte de ma main, m'a contrainct depuis deux <pb/> jours de
+                     l'Epouser, vous me pardonnerés si je ne puis Exécuter La parolle que Dorise a
+                     reçue.</p>
+                  <p>Monsieur</p>
+                  <p>De vostre tres humble tres obeissant et tres fasché serviteur</p>
+                  <p>Alphonce.</p>
+               </sp>
+               <sp who="Murinde" xml:id="XII-20">
+                  <speaker>Murinde</speaker>
+                  <l n="1101">Helas! mon fils quel accident!</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-21">
+                  <speaker>Talcante</speaker>
+                  <l n="1102">Certes il est bien Estonnant.</l>
+               </sp>
+               <sp who="Dorise" xml:id="XII-22">
+                  <speaker>Dorise</speaker>
+                  <stage>bas.</stage>
+                  <l n="1103">Jeanne le Ciel me favorise.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-23">
+                  <speaker>Talcante</speaker>
+                  <l n="1104">Et toy donc qu'En dis tu Dorise.</l>
+               </sp>
+               <sp who="Dorise" xml:id="XII-24">
+                  <speaker>Dorise</speaker>
+                  <l n="1105">Mon pere je m'En resjoüys</l>
+                  <l n="1106">Plus que si j'avois mille loüis.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XII-25">
+                  <speaker>Murinde</speaker>
+                  <l n="1107">Mais voyés donc la bonne sotte</l>
+                  <l n="1108">Tu gaignes fort grande idiotte</l>
+                  <l n="1109">De perdre aujourd'huy cet Amant</l>
+                  <l n="1110">Qui, je scay bien asseurement</l>
+                  <l n="1111">T'auroit faict un grand âvantage.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-26">
+                  <speaker>Talcante</speaker>
+                  <l n="1112">Ma femme quittons ce langage,</l>
+                  <pb n="371"/>
+                  <l n="1113">Escoüte Elle a quelque raison</l>
+                  <l n="1114">Car pour un home si grison</l>
+                  <l n="1115">Escoute moy donc, nostre fille</l>
+                  <l n="1116">Est et trop jeune, et trop gentille.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XII-27">
+                  <speaker>Murinde</speaker>
+                  <l n="1117">Oüy, mais il avoit bien du bien.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-28">
+                  <speaker>Talcante</speaker>
+                  <l n="1118">Aga, tout cela ne fait rien.</l>
+                  <l n="1119">Elle Eüst Esté trop malheureuse.</l>
+                  <l n="1120"><del>Cela l'auroit fai</del>Et dans cette gehenne ennuyeuse,</l>
+                  <l n="1121">Ils auroient Ensemble vescu,</l>
+                  <l n="1122">Elle coquette, et luy cocu.</l>
+               </sp>
+               <sp who="Dorise" xml:id="XII-29">
+                  <speaker>Dorise</speaker>
+                  <l n="1123">Ne croyés pas cela mon pere.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-30">
+                  <speaker>Talcante</speaker>
+                  <l n="1124">Cela se seroit bien peü faire.</l>
+                  <l n="1125">Alphonce Estoit un vieux rattier</l>
+                  <l n="1126">De vouloir se remarrier.</l>
+                  <l n="1127">Vieux comme il Est il couroit risque</l>
+                  <l n="1128">Qu'une <del>jeune</del> femme <del>fist frisque</del> luy fist la
+                     nique <alt/> le fist repique.</l>
+                  <stage>à Murinde</stage>
+                  <l n="1129">Si tu moürais je te promets</l>
+                  <l n="1130">De ne remarrier jamais.</l>
+                  <l n="1131">Va songeons donc ma paüvre fille,</l>
+                  <l n="1132">À proroger nostre famille...</l>
+                  <l n="1133">Il luy faut donner un amant</l>
+                  <l n="1134">Qui soit à son contentement.</l>
+                  <l n="1135" part="I">Jeune...</l>
+               </sp>
+               <sp who="Murinde" xml:id="XII-31">
+                  <speaker>Murinde</speaker>
+                  <l part="F">C'Est ce qu'Elle demande.</l>
+               </sp>
+               <sp who="Dorise" xml:id="XII-32">
+                  <speaker>Dorise</speaker>
+                  <stage type="delivery">bas.</stage>
+                  <l n="1136">Ma joÿe en Est tout à fait grande.</l>
+               </sp>
+               <pb/>
+               <sp who="Talcante" xml:id="XII-33">
+                  <speaker>Talcante</speaker>
+                  <l n="1137">Dis n'as tu point donné ton coeur</l>
+                  <l n="1138">À quelque jeune serviteur?</l>
+               </sp>
+               <sp who="Dorise" xml:id="XII-34">
+                  <speaker>Dorise</speaker>
+                  <l n="1139">Si vous le voüliés bien, mon pere,</l>
+                  <l n="1140">ce gentilhomme que ma mere</l>
+                  <l n="1141">A reffusé si rudement</l>
+                  <l n="1142">Est digne d'Estre mon amant.</l>
+               </sp>
+               <sp who="Amidor" xml:id="XII-35">
+                  <speaker>Amidor</speaker>
+                  <stage>caché.</stage>
+                  <l n="1143" part="I">O ciel!</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-36">
+                  <speaker>Talcante</speaker>
+                  <l part="F">Qu'En dictes vous ma fille?</l>
+               </sp>
+               <stage>Murinde est quelque temps sans repondre.</stage>
+               <sp who="Potiron" xml:id="XII-37">
+                  <speaker>Potiron</speaker>
+                  <stage>caché avec son maistre.</stage>
+                  <l n="1144">On n'y peut troüver de cheville.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XII-38">
+                  <speaker>Murinde</speaker>
+                  <l n="1145">Enfin, mon amy, malgré moy,</l>
+                  <l n="1146">Il faut bien à ce que je voy</l>
+                  <l n="1147">Apres une telle infortune</l>
+                  <l n="1148">De nos deux voix n'en faire qu'une.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-39">
+                  <speaker>Talcante</speaker>
+                  <l n="1149">Pour moi, je l'ai troüvé bien faict</l>
+                  <l n="1150">Je croy que ce sera son faict.</l>
+               </sp>
+               <sp who="Murinde" xml:id="XII-40">
+                  <speaker>Murinde</speaker>
+                  <l n="1151">Il faut voir s'il a quelque chose.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XII-41">
+                  <speaker>Talcante</speaker>
+                  <l n="1152">Il faut bien que je luy propose.</l>
+                  <l n="1153">Ho bien, Il faut donc y resver</l>
+                  <l n="1154">Et tâcher de le retroüver.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="XII-42">
+                  <speaker>Jeanne</speaker>
+                  <l n="1155">Vrayment notre fortune est faicte.</l>
+                  <pb n="372"/>
+                  <l n="1156">Tout nous vient comme on le souhaite</l>
+                  <l n="1157">Allés monsieur dans peu de temps</l>
+                  <l n="1158">Nous unîrons ces deux amants.</l>
+                  <l n="1159">La chose n'Est pas difficile.</l>
+               </sp>
+               <sp who="Amidor" xml:id="XII-43">
+                  <speaker>Amidor</speaker>
+                  <stage>sortant de sa cachette.</stage>
+                  <l n="1160">Quittons à présent cet asile.</l>
+               </sp>
+               <sp who="Jeanne" xml:id="XII-44">
+                  <speaker>Jeanne</speaker>
+                  <l n="1161" part="I">Il vient fort à propos.</l>
+               </sp>
+            </div>
+            <div type="scene" n="13" xml:id="XIII">
+               <head>Scene derniere.</head>
+               <stage>Talcante. Murinde. Dorise. Jeanne. Amidor. Potiron.</stage>
+               <sp who="Amidor" xml:id="XIII-1">
+                  <speaker>Amidor.</speaker>
+                  <l part="F">Monsieur</l>
+                  <l n="1162">Pour me consoler du malheur</l>
+                  <l n="1163">Qui m'a fait reffuser Dorise,</l>
+                  <l n="1164">Dont mon ame Est toujours Eprise</l>
+                  <l n="1165">Je frequente soüvent ces lieux</l>
+                  <l n="1166">Pour y voir, au moins, ses beaux yeux.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XIII-2">
+                  <speaker>Talcante</speaker>
+                  <l n="1167">He quoy vous l'aymés donc Encore?</l>
+               </sp>
+               <sp who="Amidor" xml:id="XIII-3">
+                  <speaker>Amidor</speaker>
+                  <l n="1168">Si je l'ayme, ah Dieux, je l'adore.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XIII-4">
+                  <speaker>Talcante</speaker>
+                  <l n="1169">Vous voulés Estre son Epoux?</l>
+               </sp>
+               <sp who="Amidor" xml:id="XIII-5">
+                  <speaker>Amidor</speaker>
+                  <l n="1170">Monsieur il ne tiendra qu'à vous.</l>
+               </sp>
+               <pb/>
+               <sp who="Talcante" xml:id="XIII-6">
+                  <speaker>Talcante</speaker>
+                  <l n="1171">Monsieur vous vous pourriés attendre</l>
+                  <l n="1172">De bien tost devenir mon gendre,</l>
+                  <l n="1173">Si vous aviés assés de bien</l>
+                  <l n="1174">Pour pouvoir Egaller le mien.</l>
+                  <l n="1175">Et si vous Estiez de famille</l>
+                  <l n="1176">À ne point ravaller ma fille.</l>
+               </sp>
+               <sp who="Amidor" xml:id="XIII-7">
+                  <speaker>Amidor</speaker>
+                  <l n="1177">Monsieur, je me nomme Amidor...</l>
+               </sp>
+               <sp who="Talcante" xml:id="XIII-8">
+                  <speaker>Talcante</speaker>
+                  <l n="1178">Quoy le fils de Casthelmidor?</l>
+               </sp>
+               <sp who="Amidor" xml:id="XIII-9">
+                  <speaker>Amidor</speaker>
+                  <l n="1179" part="I">Oüy.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XIII-10">
+                  <speaker>Talcante</speaker>
+                  <l part="F">Vrayment j'ai conneu vostre pere.</l>
+                  <l n="1180">C'Estoit le filiol de ma mere.</l>
+                  <l n="1181">C'Est asseés je suis Esclaircy.</l>
+                  <l n="1182">Embrassons nous mon cher amy.</l>
+                  <l n="1183">Monsieur mon bonheur Est Extremme</l>
+                  <l n="1184">De voir que ma fille vous ayme</l>
+                  <l n="1185">Elle ne poüvoit pas choisir</l>
+                  <l n="1186">Un homme plus à mon desir,</l>
+                  <l n="1187">Jeune, mieux fait, plus raisonnable,</l>
+                  <l n="1188">Plus doux, plus civil, plus affable.</l>
+                  <l n="1189">Ayés la bonté d'Excuser</l>
+                  <l n="1190">Si l'on vous a peu reffuser</l>
+                  <l n="1191">Quand vous nous l'avés demandée;</l>
+                  <l n="1192">Sa mere l'avoit accordée</l>
+                  <l n="1193">Avec un homme desja vieux.</l>
+                  <pb n="373"/>
+                  <l n="1194">Qui s'en Est dêdit, grace aux dieux,</l>
+                  <l n="1195">Qu'il n'Est point besoin que je nomme.</l>
+                  <l n="1196">Comme j'ayme mieux un jeune home</l>
+                  <l n="1197">Et qu'on m'a mesmement appris,</l>
+                  <l n="1198">Que vous Estes tous deux Epris;</l>
+                  <l n="1199">Vous honorerés ma famille,</l>
+                  <l n="1200">Ouy, je vous veux donner ma fille.</l>
+               </sp>
+               <sp who="Amidor" xml:id="XIII-11">
+                  <speaker>Amidor</speaker>
+                  <l n="1201">Monsieur vous me comblés d'honneur</l>
+                  <l n="1202">En me faisant tant de faveur.</l>
+                  <stage>à Dorise</stage>
+                  <l n="1203">Quel plaisir je ressens madame</l>
+                  <l n="1204">De vous voir aujourd'huy ma femme.</l>
+               </sp>
+               <sp who="Dorise" xml:id="XIII-12">
+                  <speaker>Dorise</speaker>
+                  <l n="1205">Monsieur il ne m'Est pas moins doux,</l>
+                  <l n="1206">De vous voir aussy mon Epoux.</l>
+               </sp>
+               <sp who="Talcante" xml:id="XIII-13">
+                  <speaker>Talcante</speaker>
+                  <l n="1207">Allons pour la Rejoüissance</l>
+                  <l n="1208">Preparer le festin la dance.</l>
+                  <l n="1209">Où je veux, quoy que je sois vieux</l>
+                  <l n="1210">Trinquer, et gambader des mieux.</l>
+               </sp>
+               <sp who="Potiron" xml:id="XIII-14">
+                  <speaker>Potiron</speaker>
+                  <l n="1211">Jeanne il seroit mieux ce me semble</l>
+                  <l n="1212">De nous marrier tous ensemble.</l>
+                  <stage>à Murinde.</stage>
+                  <l n="1213">Madame, Et moy qui suis l'amant</l>
+                  <l n="1214">De cet objet doux, et charmant?</l>
+               </sp>
+               <sp who="Murinde" xml:id="XIII-15">
+                  <speaker>Murinde</speaker>
+                  <l n="1215" part="I">C'est pour toy.</l>
+               </sp>
+               <sp who="Potiron" xml:id="XIII-16">
+                  <speaker>Potiron</speaker>
+                  <l part="F">Grand mercy madame.</l>
+               </sp>
+               <pb/>
+               <sp who="Jeanne" xml:id="XIII-17">
+                  <speaker>Jeanne</speaker>
+                  <l n="1216">Potiron, je suis donc ta femme.</l>
+               </sp>
+               <sp who="Potiron" xml:id="XIII-18">
+                  <speaker>Potiron</speaker>
+                  <l n="1217">Allons voir si nous planterons</l>
+                  <l n="1218">À qui mieux mieux des potirons.</l>
+               </sp>
+            </div>
+
+         </div>
+         <trailer>fin</trailer>
+      </body>
+   </text>
+</TEI>

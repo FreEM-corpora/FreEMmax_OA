@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">L'Auteur superstitieux</title>
+                <title type="subtitle">Édition électronique</title>
+                <author>Louis de Boissy (1694-1758)</author>
+                <principal><name>Pr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Padey, Cyrielle</name>
+                    <name>Salaün, Marianne</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Première édition, <date>2017</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            <date>2017</date></publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014.</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+                <note>Ce texte est  le prologue de la pièce <title rend="italics">La Critique</title>, comédie en un acte, en vers, qui vient après dans le volume. Curieusement, l'ensemble est édité sous le titre <title rend="italics">L'Auteur superstitieux</title>. Il paraissait peu légitime de maintenir celui-ci pour l'ensemble dramatique, et tout aussi illégitime de "corriger" le titre général en <title rend="italics">La Critique</title>. Aussi a-t-il été décidé de publier les deux pièces dans des fichiers séparés, chacune avec son propre titre.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT</hi><lb/>Son Théâtre François &amp; Italien<pc>.</pc><lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                        <imprint>
+                            <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                            <publisher>JEAN NEAULME</publisher>
+                            <date when="1758">M.DCC.LVIII</date>
+                            <note>Tome quatrième.</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                    <citedRange>Pages 1-17.</citedRange>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+                <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+                <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques, ainsi que les vers. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+                <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+                <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+                <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+                <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+                <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+                <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+                <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction><p>Les erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+                <punctuation>
+                    <p>La ponctuation n'est pas systématiquement encodée. Elle a été distinguée à l'intérieur des balises 'titre', afin de ne pas créer de faux doublons lors de l'extraction de ceux-ci (ex. 'Admète et Alceste,' considéré comme un titre distinct de 'Admète et Alceste.').</p> <p>Dans tous les cas, la punctuation d'origine a été respectée, y compris quand elle paraissait fautive. Dans ce cas, elle est signalée avec 'sic' et 'corr'. Toutefois, les particularités d'espacement de la ponctuation n'ont pas été reproduites à l'identique. Un système uniforme a été adopté: les ponctuations simples (point, virgule), sont placées immédiatement après le mot, les ponctuations doubles (point virgule, deux points, signes d'interrogation et d'exclamation) sont placées après une espace.</p>
+                </punctuation>
+                <interpretation>
+                    <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+                </interpretation>
+            </editorialDecl>
+            <fsdDecl>
+                <fsDecl type="character_specification">
+                    <fDecl name="temper">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="age">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="young" xml:id="AGY"/>
+                                <symbol value="old" xml:id="AGO"/>
+                                <symbol value="child" xml:id="AGC"/>
+                                <symbol value="adult" xml:id="AGA"/>
+                                <symbol value="unknown" xml:id="AGU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="sex">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="male" xml:id="SM"/>
+                                <symbol value="female" xml:id="SF"/>
+                                <symbol value="undetermined" xml:id="SU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="nationality">
+                        <vRange><string></string>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="ontological_category">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="human" xml:id="OCH"/>
+                                <symbol value="non-human" xml:id="OCNH"/>
+                                <symbol value="semi-human" xml:id="OCSH"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="family_position">
+                        <vRange>
+                            <vColl>
+                                <symbol value="father" xml:id="FPF"/>
+                                <symbol value="son" xml:id="FPSON"/>
+                                <symbol value="daughter" xml:id="FPD"/>
+                                <symbol value="mother" xml:id="FPM"/>
+                                <symbol value="uncle" xml:id="FPU"/>
+                                <symbol value="aunt" xml:id="FPA"/>
+                                <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                                <symbol value="sister" xml:id="FPSIS"/>
+                                <symbol value="brother" xml:id="FPB"/>
+                                <symbol value="cousin" xml:id="FPC"/>
+                                <symbol value="step-mother" xml:id="FPSM"/>
+                                <symbol value="step-father" xml:id="FPSF"/>
+                                <symbol value="step-daughter" xml:id="FPSD"/>
+                                <symbol value="step-son" xml:id="FPSS"/>
+                                <symbol value="guardian" xml:id="FPG"/>
+                                <symbol value="ward" xml:id="FPWA"/>
+                                <symbol value="husband" xml:id="FPH"/>
+                                <symbol value="wife" xml:id="FPWIF"/>
+                                <symbol value="widow" xml:id="FPWID"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="actantial_role">
+                        <vRange>
+                            <vColl>
+                                <symbol value="lover" xml:id="ARL"/>
+                                <symbol value="subject" xml:id="ARS"/>
+                                <symbol value="object" xml:id="ARO"/>
+                                <symbol value="opponent" xml:id="AROP"/>
+                                <symbol value="adjuvant" xml:id="ARAD"/>
+                                <symbol value="authority" xml:id="ARAUT"/>
+                                <symbol value="trouble_maker" xml:id="ARTM"/>
+                                <symbol value="episodic" xml:id="AREP"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="occupation">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="collective_character">
+                        <vRange>
+                            <binary value="true" xml:id="COLL"/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1732-02-09">9 février 1732</date>
+                <rs type="city">Paris, France.</rs></creation>
+            <textClass>
+                <keywords>
+                    <term>théâtre</term>
+                    <term>comédie</term>
+                    <term>métathéâtralité</term>
+                    <term>comédie en vers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+           <change when="2015-05-21">Révisions faites par Josephine LOTERIE en vue de l'harmonisation du corpus Boissy.</change>
+            <change when="2017-07-25" who='IG'>Confrontation avec le témoin (Néaulme 1758), et correction des erreurs de saisie. Remplacement des balises 'name' par des balises 'persName' et 'placeName'. Ajout de la 'feature structure' et balisage de la liste des personnages. Ajout de 'xml:id'.</change>
+        </revisionDesc>
+    </teiHeader>    
+    <text xml:lang="fr">
+        <front>
+            <pb n="1"/>
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">L'AUTEUR <lb/>SUPERSTITIEUX,</titlePart><lb/><lb/>
+                    <titlePart type="desc" rend="italics">PROLOGUE</titlePart><lb/><lb/><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="2"/>
+            <castList>
+                <head rend="center">ACTEURS DU PROLOGUE.</head><lb/>
+                <castItem ana="#OCH #SM #AGU #ARS #ARL"><role>CLITANDRE</role>, <roleDesc>Amant d'<persName>Hortenſe</persName></roleDesc>.</castItem>
+                <castItem ana="#OCH #SM #AGU #ARAD"><role>DAMON</role>, <roleDesc>ami de <persName>Clitandre</persName></roleDesc></castItem>
+                <castItem ana="#OCH #SM #AGU #ARAD"><role>ARLEQUIN</role>, <roleDesc>valet de <persName>Clitandre</persName></roleDesc>.</castItem>
+                <castItem ana="#0CH #SM #AGU #AREP"><roleDesc>UN LAQUAIS d'<persName>Hortenſe</persName></roleDesc>.</castItem>
+            </castList>
+            <lb/><lb/><lb/><lb/>
+            <set>
+                <p rend="center" rendition="italics">La Scène eſt à Paris, chez <persName>Clitandre</persName>.</p>
+            </set>
+            <pb n="3"/>
+        </front>
+        <body>
+           <div type="title">
+                <head rend="centered">L'AUTEUR <lb/>SUPERSTITIEUX,<lb/>
+                <hi rend="italics" rendition="centered">PROLOGUE</hi></head><lb/>
+           </div>
+          <div type="scene" n="1" xml:id="I">
+                <head>SCENE PREMIERE.</head>
+                <stage>CLITANDRE DAMON.</stage>
+                <sp who="Damon" xml:id="I_1">
+                    <speaker>DAMON.</speaker>
+                   <l n='1' xml:id='l1'>QUI vous fait bruſquement quitter ainſi la <lb/> table,</l>
+                   <l n='2' xml:id='l2'>Au milieu d'un repas &amp; d'une troupe <lb/> aimable ?</l>
+                   <l n='3' xml:id='l3'>Pouviez-vous être mieux que parmi vos amis,</l>
+                   <l n='4' xml:id='l4'>Et près du tendre objet dont vous êtes épris ?</l>
+                   <l n='5' xml:id='l5'>Toute la Compagnie en a paru choquée ;</l>
+                   <l n='6' xml:id='l6'>Mais <persName>Hortenſe</persName>, ſur-tout, doit en être piquée,</l>
+                   <l n='7' xml:id='l7'>Elle que vous aimez, &amp; qui donne à dîner :</l>
+                   <l n='8' xml:id='l8'>Un procédé ſemblable a lieu de m'étonner.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_2">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                   <l n='9' xml:id='l9'>Cher ami, c'eſt l'effet d'une <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice> extrême,</l>
+                    <pb n="4"/>
+                   <l n='10' xml:id='l10'>Que je ne puis dompter, dont j'ai honte moi-même,</l>
+                   <l n='11' xml:id='l11'>Dont, à d'autres que vous, mon coeur n'oſe parler,</l>
+                   <l n='12' xml:id='l12'>Qu'aux yeux même d'<persName>Hortenſe</persName> il a ſoin de voiler.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_3">
+                    <speaker>DAMON.</speaker><lb/>
+                   <l n='13' xml:id='l13'>Mais, quoi que vous diſiez, une telle <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice></l>
+                   <l n='14' xml:id='l14'>N'a pas dû vous porter à cette impoliteſſe</l>
+                   <l n='15' xml:id='l15'>Que la raiſon, Monſieur, ne ſçaurait excuſer.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_4">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                   <l n='16' xml:id='l16'>C'eſt elle, cependant, qu'on doit en accuſer ;</l>
+                   <l n='17' xml:id='l17'>Et, puiſqu'il faut vous faire un aveu véritable,</l>
+                   <l n='18' xml:id='l18'>Nous étions... j'en rougis... nous étions treize à table,</l>
+                   <l n='19' xml:id='l19'>Et l'on nous a ſervi treize plats à la fois.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_5">
+                    <speaker>DAMON </speaker><stage type="delivery" rend="italics">d'un air railleur.</stage><lb/>
+                   <l n='20' xml:id='l20'>Ajoutez qu'aujourd'hui c'eſt le treize du mois.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_6">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                   <l n='21' xml:id='l21'>Moquez-vous de ma peur, <persName>Damon</persName>, je le mérite ;</l>
+                   <l n='22' xml:id='l22'>Mais elle n'eſt pas moins la cauſe de ma fuite.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_7">
+                    <speaker>DAMON.</speaker><lb/>
+                   <l n='23' xml:id='l23'>Se peut-il qu'un Auteur qui veut railler autrui,</l>
+                   <l n='24' xml:id='l24'>Par un foible ſi grand donne à rire de lui ?</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_8">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                   <l n='25' xml:id='l25'>Je me ſuis déjà fait les mêmes remontrances ;</l>
+                   <l n='26' xml:id='l26'>Mais je ſuis dans un cas &amp; dans des circonſtances,</l>
+                   <l n='27' xml:id='l27'>Où, malgré ma raiſon, tout allarme mon coeur :</l>
+                   <l n='28' xml:id='l28'>Elles doivent ſervir d'excuſe à ma terreur.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_9">
+                    <speaker>DAMON.</speaker><lb/>
+                   <l n='29' xml:id='l29'>Qui vous inſpire donc les frayeurs d'une femme ?</l>
+                    <l n="30" xml:id="l30_1" part="I">Parlés.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_10">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l xml:id="l30_2" part="F">Tout ce qui peut tyranniſer une ame.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_11">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l n="31" xml:id="l31_1" part="I">Mais encore ?</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_12">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                   <l xml:id='l31_2' part="F">L'intérêt, la gloire avec l'amour ;</l>
+                   <l n='32' xml:id='l32'>Ils m'occupent tous trois : &amp; dans ce même jour,</l>
+                   <l n='33' xml:id='l33'>On juge mon affaire, on doit jouer ma <choice><orig>piéce</orig><reg>pièce</reg></choice>,</l>
+                   <l n='34' xml:id='l34'>Et je ſuis ſur le point d'épouſer ma maîtreſſe.</l>
+                   <l n='35' xml:id='l35'>Jugés s'il eſt quelqu'un en proye à plus de ſoins.</l>
+                </sp>
+                <pb n="5"/>
+                <sp who="Damon" xml:id="I_13">
+                    <speaker>DAMON.</speaker><lb/>
+                   <l n='36' xml:id='l36'>Je n'ai plus rien à dire. On trembleroit à moins.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_14">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                   <l n='37' xml:id='l37'>Tous mes ſens ſont émûs d'une façon terrible.</l>
+                   <l n='38' xml:id='l38'>Pour l'intérêt, ami, je ſuis très-peu ſenſible.</l>
+                   <l n='39' xml:id='l39'>Si je perds mon Procés, comme je le crois fort,</l>
+                   <l n='40' xml:id='l40'>Je m'en conſolerai ſans faire un grand effort.</l>
+                   <l n='41' xml:id='l41'>Pour l'amour &amp; la gloire, il n'en eſt pas de même ;</l>
+                   <l n='42' xml:id='l42'>Tous deux me font ſentir leur aſcendant ſuprême ;</l>
+                   <l n='43' xml:id='l43'>Tous deux, d'un feu pareil, enflamment mon déſir,</l>
+                   <l n='44' xml:id='l44'>Et font en même-tems ma peine &amp; mon plaiſir.</l>
+                   <l n='45' xml:id='l45'>Dans mes ſens agités, leur cruelle puiſſance</l>
+                   <l n='46' xml:id='l46'>Fait ſuccéder la peur, sans ceſſe, à l'eſpérance.</l>
+                   <l n='47' xml:id='l47'>Plaire à l'objet que j'aime, &amp; me voir ſon époux,</l>
+                   <l n='48' xml:id='l48'>Offre à mon coeur ſenſible un triomphe bien doux ;</l>
+                   <l n='49' xml:id='l49'>Mais la crainte de perdre un bien ſi plein de charmes,</l>
+                   <l n='50' xml:id='l50'>Y porte, au même inſtant, les plus vives allarmes.</l>
+                   <l n='51' xml:id='l51'>Par un brillant Ouvrage aſſembler tout <placeName>Paris</placeName>,</l>
+                   <l n='52' xml:id='l52'>Réunir tous les goûts, charmer tous les eſprits,</l>
+                   <l n='53' xml:id='l53'>Malgré tous les efforts que tente la Critique ;</l>
+                   <l n='54' xml:id='l54'>Captiver par ſon art l'attention publique,</l>
+                   <l n='55' xml:id='l55'>Forcer deux mille mains d'aplaudir à la fois,</l>
+                   <l n='56' xml:id='l56'>Et s'entendre louer d'une commune voix,</l>
+                   <l n='57' xml:id='l57'>Preſente à mon eſprit la plus haute victoire :</l>
+                   <l n='58' xml:id='l58'>D'un guerrier qui triomphe on égale la gloire ;</l>
+                   <l n='59' xml:id='l59'>Mais, ſi l'honneur eſt grand, le revers eſt affreux :</l>
+                   <l n='60' xml:id='l60'>Du Parterre indigné les cris tumultueux,</l>
+                   <l n='61' xml:id='l61'>Sa fureur qui maudit &amp; l'Auteur &amp; l'Ouvrage ;</l>
+                   <l n='62' xml:id='l62'>La triſteſſe et l'ennui peints ſur chaque viſage ;</l>
+                   <l n='63' xml:id='l63'>Tous les brocards malins qu'on vous donne en ſortant ;</l>
+                   <l n='64' xml:id='l64'>Et votre nom en bute au mépris éclatant.</l>
+                   <l n='65' xml:id='l65'>Le déſert qui ſuccéde à la foule écartée,</l>
+                   <l n='66' xml:id='l66'>Accablent, à leur tour, mon ame épouvantée.</l>
+                   <l n='67' xml:id='l67'>Je crains, de deux côtés, d'avoir un ſort fâcheux ;</l>
+                   <l n='68' xml:id='l68'>D'être Amant traverſé, comme Auteur malheureux :</l>
+                   <l n='69' xml:id='l69'>Le public qu'on ennuye, eſt un Juge ſévére ;</l>
+                   <l n='70' xml:id='l70'><persName>Hortenſe</persName>, quoique veuve, attend l'aveu d'un pere ;</l>
+                   <l n='71' xml:id='l71'>Si mes voeux ſont trompés, un autre l'obtiendra :</l>
+                    <pb n="6"/>
+                   <l n='72' xml:id='l72'>Pour ſurcroît de malheur, ma <choice><orig>piéce</orig><reg>pièce</reg></choice> tombera ;</l>
+                    <l n="73" xml:id="l73_1" part="I">J'en frémis.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_15">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l xml:id="l73_2" part="F">Ah ! Chaſſés une frayeur si noire ;</l>
+                   <l n='74' xml:id='l74'>Je réponds de l'amour, eſpérés pour la gloire.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_16">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='75' xml:id='l75'>Non ; j'ai, mon cher ami, des malheurs que je crains,</l>
+                  <l n='76' xml:id='l76'>Trop de preſſentiments &amp; de ſignes certains.</l>
+                  <l n='77' xml:id='l77'>C'eſt peu d'avoir les ſoirs mille terreurs ſecrettes,</l>
+                  <l n='78' xml:id='l78'>D'ouïr hurler des chiens, &amp; crier des chouettes,</l>
+                  <l n='79' xml:id='l79'>De rencontrer le jour des Créanciers fâcheux ;</l>
+                  <l n='80' xml:id='l80'>Sçachés que cette nuit j'ai fait un rêve affreux :</l>
+                  <l n='81' xml:id='l81'>J'ai ſongé que j'allois m'unir avec <persName>Hortenſe</persName></l>
+                  <l n='82' xml:id='l82'>Dans le temps que vers elle un inconnu s'avance,</l>
+                  <l n='83' xml:id='l83'>L'arrache de mes bras, &amp; l'enleve à mes yeux </l>
+                  <l n='84' xml:id='l84'>Sur un char que traînoient deux taureaux furieux :</l>
+                  <l n='85' xml:id='l85'>Je veux les arrêter dans leur courſe fougueuſe,</l>
+                  <l n='86' xml:id='l86'>Quand je tombe au milieu d'une eau ſale &amp; bour-<lb/>beuse.</l>
+                  <l n='87' xml:id='l87'>Mille confus objets troublent alors mes ſens ;</l>
+                  <l n='88' xml:id='l88'>Je prens du poiſſon mort, je ſens tomber mes dents ;</l>
+                  <l n='89' xml:id='l89'>J'ai vû mon Procureur boire avec ma Partie,</l>
+                  <l n='90' xml:id='l90'>Puis j'ai vû tout-à-coup jouer ma Comédie :</l>
+                  <l n='91' xml:id='l91'>Le Parterre à mes yeux, les Loges, n'ont offert</l>
+                  <l n='92' xml:id='l92'>Qu'un grand vuide effroyable, &amp; qu'un vaſte deſert ;</l>
+                  <l n='93' xml:id='l93'>Des luſtres preſque éteints, la lueur ſombre &amp; pâle</l>
+                  <l n='94' xml:id='l94'>Éclairoit triſtement la moitié de la ſale ;</l>
+                  <l n='95' xml:id='l95'>Tout le fond du Théâtre étoit tendu de noir,</l>
+                  <l n='96' xml:id='l96'>Et formoit un ſpectacle <choice><sic>épouventable</sic><corr>épouvantable</corr></choice> à voir.</l>
+                  <l n='97' xml:id='l97'>Je tremble, et je veux fuir à cet objet terrible ;</l>
+                  <l n='98' xml:id='l98'>Mais je ſuis arrêté par un bras inviſible :</l>
+                  <l n='99' xml:id='l99'>Pour comble de terreur, cent voix , en même-tems,</l>
+                  <l n='100' xml:id='l100'>Pouſſent autour de moi d'horribles hurlemens ;</l>
+                  <l n='101' xml:id='l101'>Sur ma tête j'entens le tonnerre qui roule ;</l>
+                  <l n='102' xml:id='l102'>Sous les pieds des Acteurs le Théâtre s'écroule !</l>
+                  <l n='103' xml:id='l103'>Les luſtres, à l'inſtant, s'éteignent tout-à-fait,</l>
+                  <l n='104' xml:id='l104'>Et mon ſonge finit par trois coups de ſifflet.</l>
+                </sp>
+                <pb n="7"/>
+                <sp who="Damon" xml:id="I_17">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='105' xml:id='l105'>C'eſt un vilain réveil, ami, je le confeſſe ;</l>
+                  <l n='106' xml:id='l106'>Pour un Auteur ſur-tout dont on donne la <choice><orig>piéce</orig><reg>pièce</reg></choice>.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_18">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='107' xml:id='l107'>Mon eſprit, dans l'horreur dont il eſt travaillé,</l>
+                  <l n='108' xml:id='l108'>Eſt digne d'être plaint, &amp; non d'être raillé.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_19">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='109' xml:id='l109'>Vous méritez, Monſieur, les ris de tout le monde :</l>
+                  <l n='110' xml:id='l110'>Et, loin que je vous plaigne, il faut que je vous <lb/>gronde :</l>
+                  <l n='111' xml:id='l111'>Dans votre ame, aujourd'hui, la ſuperſtition</l>
+                  <l n='112' xml:id='l112'>Etouffe du bon ſens juſqu'au moindre rayon ;</l>
+                  <l n='113' xml:id='l113'>Des plus fauſſes terreurs vous recevez l'empreinte ;</l>
+                  <l n='114' xml:id='l114'>Et croyez un vain ſonge enfanté par la crainte.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_20">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='115' xml:id='l115'>Tout ce que vous direz ne ſervira de rien ;</l>
+                  <l n='116' xml:id='l116'>Et pour finir le cours d'un pareil entretien,</l>
+                  <l n='117' xml:id='l117'>Né ſuperſtitieux, je ne ſuis pas mon maître ;</l>
+                  <l n='118' xml:id='l118'>Je penſe, comme vous, qu'il eſt honteux de l'être ;</l>
+                  <l n='119' xml:id='l119'>Ma raiſon me le dit, mais elle perd ſes ſoins :</l>
+                  <l n='120' xml:id='l120'>J'en ſens le ridicule, &amp; ne le ſuis pas moins.</l>
+                  <l n='121' xml:id='l121'>Contre les préjugés en vain on se rebelle :</l>
+                  <l n='121' xml:id='l122'>La ſuperſtition à l'homme eſt naturelle ;</l>
+                  <l n='121' xml:id='l123'>Et le hazard malin , pour la fortifier ,</l>
+                  <l n='124' xml:id='l124'>Se plaît inceſſamment à la justifier.</l>
+                  <l n='125' xml:id='l125'>Je l'ai trop éprouvé dans plus d'une occurence ;</l>
+                  <l n='126' xml:id='l126'>La raiſon ne tient pas contre l'expérience ;</l>
+                  <l n='127' xml:id='l127'>Et votre coeur, peut-être, auroit le même effroi,</l>
+                  <l n='128' xml:id='l128'>Si vous étiez, Monſieur, ſur le point comme moi,</l>
+                  <l n='129' xml:id='l129'>D'attirer du Public la louange ou le blâme,</l>
+                  <l n='130' xml:id='l130'>De perdre ou d'obtenir l'objet de votre flâme.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_21">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='131' xml:id='l131'>Mais vous êtes aimé. Dites-moi, pouvez-vous</l>
+                  <l n='132' xml:id='l132'>Avoir pour votre Hymen un préſage plus doux ?</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_22">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='133' xml:id='l133'>En vain par ſa tendreſſe , <persName>Hortenſe</persName> me raſſure ;</l>
+                  <l n='134' xml:id='l134'>Je crains de le former ſous un fâcheux augure.</l>
+                </sp>
+                <pb n="8"/>
+                <sp who="Damon" xml:id="I_23">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='135' xml:id='l135'>L'inconnu, cher <persName>Clitandre</persName>, allarme votre coeur ;</l>
+                  <l n='136' xml:id='l136'>Et je crois, qu'entre-nous, les taureaux vous font peur.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_24">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='137' xml:id='l137'><persName>Damon</persName>, encore un coup, tréve de raillerie.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_25">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='138' xml:id='l138'>Mais vous ouvrez le champ à la plaiſanterie.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_26">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='139' xml:id='l139'>Sur ce point, j'en conviens, mon eſprit va trop loin,</l>
+                  <l n='140' xml:id='l140'>Et ſuit trop la frayeur où jette un tendre ſoin ;</l>
+                  <l n='141' xml:id='l141'>Mais, ſi dans mes amours je parois moins à plaindre,</l>
+                  <l n='142' xml:id='l142'>Pour ma <choice><orig>Piéce</orig><reg>pièce</reg></choice> avoués que j'ai tout lieu de craindre.</l>
+                  <l n='143' xml:id='l143'>Tant d'exemples fameux que je vois devant moi,</l>
+                  <l n='144' xml:id='l144'>Ne me doivent-ils pas glacer d'un juſte effroi ?</l>
+                </sp>
+                <sp who="Damon" xml:id="I_27">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='145' xml:id='l145'>Oui ; mais vous m'avez dit que la choſe eſt ſecrette.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_28">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='146' xml:id='l146'>Je vous l'ai dit ; ſans doute, &amp; je vous le répéte :</l>
+                  <l n='147' xml:id='l147'>Je l'ai lûe aux Acteurs ſous le ſceau du ſecret ;</l>
+                  <l n='148' xml:id='l148'>Et nul n'en eſt inſtruit, hors vous &amp; mon valet,</l>
+                  <l n='149' xml:id='l149'>Et trois ou quatre Acteurs, amis ſûrs, que j'eſtime.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_29">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='150' xml:id='l151'>Vous voilà bien caché ! D'un brevet d'anonime,</l>
+                  <l n='152' xml:id='l152'>La Calotte, Monſieur, doit vous faire preſent.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="I_30">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='153' xml:id='l153'>Avoir un prête-nom, eût été plus prudent.</l>
+                </sp>
+                <sp who="Damon" xml:id="I_31">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='154' xml:id='l154'>A dire vrai, j'y trouve &amp; du pour &amp; du contre.</l>
+                  <l n='155' xml:id='l155'>Un prête-nom bien ſûr, rarement ſe rencontre :</l>
+                  <l n='156' xml:id='l156'>Ces Meſſieurs, quand l'ouvrage attire &amp; réuſſit,</l>
+                  <l n='157' xml:id='l157'>Souvent, avec la gloire, emportent le profit.</l>
+                  <l n='158' xml:id='l158'>Selon moi, le plus court &amp; le plus raiſonnable,</l>
+                  <l n='159' xml:id='l159'>Eſt d'oſer ſe montrer ſous ſon nom véritable.</l>
+                  <l n='160' xml:id='l160'>Un Auteur mal caché ſe fait moquer de lui ;</l>
+                  <l n='161' xml:id='l161'>Et peu, par ce moyen, font fortune aujourd'hui.</l>
+                </sp>
+            </div>
+            <pb n="9"/>
+            <div type="scene" n="2" xml:id="II">
+                <head>SCENE II.</head><lb/>
+                <stage>CLITANDRE, DAMON, ARLEQUIN.</stage><lb/>
+                <sp who="Clitandre" xml:id="II_1">
+                    <speaker>CLITANDRE </speaker><stage type="business" rend="italics">donnant un ſoufflet à <persName>Arlequin</persName> <lb/> qui entre en ſifflant.</stage><lb/>
+                  <l n='162' xml:id='l162'>TIens, voilà pour t'aprendre à ſiffler de la ſorte.</l>
+                </sp>
+                <sp who="Arlequin" xml:id="II_2">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                  <l n='163' xml:id='l163'>Peſte! Quand vous frapez ce n'eſt pas de main-morte.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="II_3">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l n="164" xml:id="l164_1" part="I">Je te l'ai défendu cent fois.</l>
+                </sp>
+                <sp who="Arlequin" xml:id="II_4">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l xml:id="l164_2" part="F">J'ai tort, Monſeur :</l>
+                  <l n='165' xml:id='l165'>Et j'avois oublié que je ſers un Auteur,</l>
+                  <l n='166' xml:id='l166'>Et que l'on repreſente aujourd'hui votre <choice><orig>Piéce</orig><reg>pièce</reg></choice> :</l>
+                  <l n='167' xml:id='l167'>Je ne tomberai plus dans cette impoliteſſe.</l>
+                    <l n="168" xml:id="l168_1" part="I">L'augure vous allarme ; &amp; j'ai...</l>
+                </sp>
+                <sp who="Clitandre" xml:id="II_5">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l xml:id="l168_2" part="F">Tai-toi, faquin.</l>
+                  <l n='169' xml:id='l169'>Quel eſt donc ce papier que tu tiens dans ta main ?</l>
+                    <l part="I">Dis.</l>
+                </sp>
+                <sp who="Arlequin" xml:id="II_6">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="F">De votre Avocat, Monſieur, c'eſt une lettre,</l>
+                  <l n='170' xml:id='l170'>Qu'un homme, de ſa part, m'a dit de vous remettre.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="II_7">
+                    <speaker>CLITANDRE </speaker><stage type="business" rend="italics">prenant la lettre.</stage><lb/>
+                    <l n="171" xml:id="l171_1" part="I">J'ai perdu mon procès, je gage.</l>
+                    <lb/><stage type="business" rend="italics">(Il lit.)</stage><lb/>
+                  <p>Vous venez, Monſieur, de perdre votre procès.</p>
+                    <l xml:id="l171_2" part="F">Qu'ai-je dit?</l>
+                  <l n='172' xml:id='l172'>Vous le voyez déja , mon ſonge s'accomplit.</l>
+                </sp>
+                <sp who="Arlequin" xml:id="II_8">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                  <l n='173' xml:id='l173'>J'ai rêvé, comme vous, du poiſſon mort, d'eau ſale :</l>
+                  <l n='174' xml:id='l174'>Si la journée auſſi m'alloit être fatale ?</l>
+                  <l n='175' xml:id='l175'>Mais elle l'eſt déja ; je viens d'être battu.</l>
+                </sp>
+                <pb n="10"/>
+                <sp who="Damon" xml:id="II_9">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l n="176" xml:id="l176_1" part="I">Voyez donc juſqu'au bout.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="II_10">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l xml:id="l176_2" part="F">Je ſçai que j'ai perdu.</l>
+                  <l n='177' xml:id='l177'>Du reſte de la lettre à quoi ſert de m'inſtruire ?</l>
+                  <l n='178' xml:id='l178'>Pour moi, ſi vous voulez, vous n'avez qu'à la lire.</l>
+                </sp>
+                <sp who="Damon" xml:id="II_11">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l xml:id="l179_1" n="179" part="I">Très-volontiers.</l>
+                    <lb/><stage type="business" rend="italics">(Il lit.)</stage><lb/>
+                    <p rend="italics">Vous venez, Monſieur, de perdre votre procès,mal-<lb/>gré votre bon droit. Tout ce que je puis vous dire, c'eſt <lb/> que j'ai plaidé comme un Ange.</p>
+                </sp>
+                <sp who="Clitandre" xml:id="II_12">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l xml:id="l179_2" part="F">Le trait eſt des plus conſolans,</l>
+                  <l n='180' xml:id='l180'>Pour un homme qui perd plus de vingt mille francs.</l>
+                </sp>
+                <sp who="Damon" xml:id="II_13">
+                    <speaker>DAMON </speaker><stage type="business" rend="italics">pourſuit.</stage><lb/>
+                    <p rend="italics">Tout le monde a trouvé le Jugement ridicule, &amp; a dit <lb/> hautement, que, pour n'avoir pas gagné une cauſe que <lb/>j'avois ſi bien plaidée, il falloit que ma Partie fût née <lb/> ſous une planette bien malheureuſe.</p>
+                </sp>
+                <sp who="Clitandre" xml:id="II_14">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='181' xml:id='l181'>Ah ! qu'on a bien raiſon ! Graces à ma planette,</l>
+                  <l n='182' xml:id='l182'>Je ſuis de l'infortune une image parfaite !</l>
+                </sp>
+                <sp who="Damon" xml:id="II_15">
+                    <speaker>DAMON </speaker><stage type="business" rend="italics">pourſuit.</stage><lb/>
+                    <p><hi rend="italics">Ce vendredi à deux heures après midi.</hi></p>
+                </sp>
+                <sp who="Clitandre" xml:id="II_16">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='183' xml:id='l183'>Du malheur qui m'arrive, ah ! je ſuis peu surpris ;</l>
+                  <l n='184' xml:id='l184'>Rien ne me réuſſit jamais les vendredis !</l>
+                </sp>
+                <sp who="Damon" xml:id="II_17">
+                    <speaker>DAMON, </speaker><stage type="delivery" rend="italics">reprend.</stage>
+                    <p rend="italics">J'avois oublié de vous marquer que je ſoupçonne votre <lb/>Procureur d'avoir été d'intelligence avec votre Partie <lb/>adverſe.</p>
+                </sp>
+                <sp who="Clitandre" xml:id="II_18">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='185' xml:id='l185'>Oh! Mon rêve, à ce coup, en plein ſe vérifie :</l>
+                  <l n='186' xml:id='l186'>J'ai vû mon Procureur boire avec ma Partie.</l>
+                  <l n='187' xml:id='l187'>Qu'on diſe après cela que tout ſonge eſt menteur ;</l>
+                  <l n='188' xml:id='l188'>Et vous, preſentement, riez de ma terreur :</l>
+                  <l n='189' xml:id='l189'>Dites, du moindre effroi, que je reçois l'empreinte,</l>
+                    <pb n="11"/>
+                  <l n='190' xml:id='l190'>Et crois un ſonge vain enfanté par la crainte.</l>
+                    <l n="191" xml:id="l191_1" part="I">Démentez ce billet.</l>
+                </sp>
+                <sp who="Damon" xml:id="II_19">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l xml:id="l191_2" part="F">Je veux qu'à cet égard,</l>
+                  <l n='192' xml:id='l192'>Votre rêve, Monſieur, ait dit vrai par hazard ;</l>
+                  <l n='193' xml:id='l193'>Vous le trouverez faux bientôt dans tout le reſte.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="II_20">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='194' xml:id='l194'>Non, dans ce triſte jour, tout va m'être funeſte.</l>
+                  <l n='195' xml:id='l195'>Vous me verriez tranquille, &amp; non pas éperdu,</l>
+                  <l n='196' xml:id='l196'>Si mes maux ſe bornoient à mon procès perdu ;</l>
+                  <l n='197' xml:id='l197'>Mais je regarde en lui les ſuites qu'il préſage ;</l>
+                  <l n='198' xml:id='l198'>Il eſt comme l'éclair qui devance l'orage ;</l>
+                  <l n='199' xml:id='l199'>Il eſt le noir ſignal que le Ciel en courroux,</l>
+                  <l n='200' xml:id='l200'>Vient, tout prêt à fraper, de déployer ſur nous.</l>
+                  <l n='201' xml:id='l201'><persName>Hortenſe</persName> recevra de fâcheuſes nouvelles ;</l>
+                  <l n='202' xml:id='l202'>Mon ouvrage eſſuyera des diſgraces cruelles.</l>
+                  <l n='203' xml:id='l203'>Juſtifiant l'effroi dont mon coeur eſt rempli,</l>
+                  <l n='204' xml:id='l204'>Mon rêve en tous ſes points va ſe voir accompli !</l>
+                  <l n='205' xml:id='l205'>Courez dire aux Acteurs, cher ami, je vous prie,</l>
+                  <l n='206' xml:id='l206'>De ne pas aujourd'hui donner ma Comédie,</l>
+                  <l n='207' xml:id='l207'>Que pour la retarder, j'ai des motifs puiſſans :</l>
+                  <l n='208' xml:id='l208'>Rendez-moi ce ſervice, &amp; ſans perdre de tems.</l>
+                </sp>
+                <sp who="Damon" xml:id="II_21">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='209' xml:id='l209'>N'en déplaiſe aux frayeurs de votre eſprit crédule,</l>
+                  <l n='210' xml:id='l210'>Cette commiſſion eſt par trop ridicule ;</l>
+                    <l n="211" xml:id="l211_1" part="I">Je ne m'en charge point.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="II_22">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l xml:id="l211_2" part="F">Seulement, dites-leur</l>
+                  <l n='212' xml:id='l212'>De remettre à lundi ; c'eſt mon jour de bonheur.</l>
+                </sp>
+                <sp who="Damon" xml:id="II_23">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='213' xml:id='l213'>Vous vous moquez ; la <choice><orig>Piéce</orig><reg>pièce</reg></choice> eſt pour ce ſoir promiſe ;</l>
+                  <l n='214' xml:id='l214'>Au lieu de vous ſervir, c'eſt vouloir qu'on vous nuiſe:</l>
+                  <l n='215' xml:id='l215'>Vous indiſpoſeriez le public contre vous :</l>
+                  <l n='216' xml:id='l216'>Les Acteurs à cela doivent s'opoſer tous.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="II_24">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='217' xml:id='l217'>Après votre refus, dans ce péril extrême,</l>
+                  <l n='218' xml:id='l218'>Je ſçaurai les trouver, &amp; leur parler moi-même.</l>
+                </sp>
+                <pb n="12"/>
+                <sp who="Damon" xml:id="II_25">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='219' xml:id='l219'>Ah ! Vous n'en ferez rien ; &amp; vous n'y ſongez pas :</l>
+                  <l n='220' xml:id='l220'>Pour vous en empêcher, je marche ſur vos pas.</l>
+                </sp>
+                <lb/><stage type="exit" rend="italics">(Il ſuit <persName>Clitandre</persName>.)</stage>
+            </div>
+            <div type="scene" n="3" xml:id="III">
+                <head>SCENE III</head><lb/><lb/>
+                <sp who="Arlequin" xml:id="III_1">
+                    <speaker>ARLEQUIN </speaker><stage type="delivery" rend="italics">ſeul.</stage><lb/>
+                  <l n='221' xml:id='l221'>AVec tout ſon ſavoir, ah! que mon Maître eſt bête !</l>
+                  <l n='222' xml:id='l222'>La frayeur, à la fin, lui tournera la tête.</l>
+                  <l n='223' xml:id='l223'>Elle eſt cauſe, morbleau ! cette folle frayeur ,</l>
+                  <l n='224' xml:id='l224'>Qu'il m'a frapé d'un coup que j'ai fort ſur le coeur !</l>
+                  <l n='225' xml:id='l225'>Me battre pour ſiffler par pure inadvertance !</l>
+                  <l n='226' xml:id='l226'>Que n'en puis-je au Parterre aller prendre vengeance !</l>
+                  <l n='227' xml:id='l227'>À Meſſieurs mes pareils pourquoi l'interdit-on ?</l>
+                  <l n='228' xml:id='l228'>Je ſifflerois alors, mais ſur un joli ton.</l>
+                  <l n='229' xml:id='l229'>Quel plaiſir, pour vingt ſols, de huer comme un dia-<lb/>ble !</l>
+                  <l n='230' xml:id='l230'>Je rendrois, pour le coup, ſon rêve véritable.</l>
+                  <l n='231' xml:id='l231'>Il veut être caché dans cette occaſion ;</l>
+                  <l n='232' xml:id='l232'>Mais, pour mieux me venger, je nommerois ſon nom ;</l>
+                  <l n='233' xml:id='l233'>Et je dirois tout haut : La <choice><orig>Piéce</orig><reg>pièce</reg></choice> eſt de <persName>Clitandre</persName>,</l>
+                  <l n='234' xml:id='l234'>Epargnez-vous, Meſſieurs, la peine de l'entendre ;</l>
+                  <l n='235' xml:id='l235'>Il croit avoir produit quelque choſe de beau,</l>
+                  <l n='236' xml:id='l236'>Mais l'ouvrage eſt un monſtre, &amp; l'auteur un bourreau.</l>
+                </sp>                
+            </div>
+            <pb n="13"/>
+            <div type="scene" n="4" xml:id="IV">
+                <head>SCENE IV.</head><lb/>
+                <stage>CLITANDRE, ARLEQUIN.</stage><lb/>
+                <sp who="Clitandre" xml:id="IV_1">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='237' xml:id='l237'><persName>DAmon</persName>, m'a ſçu convaincre, &amp; ſa raiſon m'éclaire ;</l>
+                  <l n='238' xml:id='l238'>Mon effroi ſe diſſipe aux traits de ſa lumiére :</l>
+                  <l n='239' xml:id='l239'>Sans lui, ſans ses conſeils, dans mes fauſſes terreurs,</l>
+                  <l n='240' xml:id='l240'>J'allois, à mes dépens, divertir les Acteurs :</l>
+                  <l n='241' xml:id='l241'>J'aurois, à leurs regards, dévoilant ma <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice>,</l>
+                  <l n='242' xml:id='l242'>Ajoûté follement une Scène à ma <choice><orig>Piéce</orig><reg>pièce</reg></choice>,</l>
+                  <l n='243' xml:id='l243'>Dont j'allois devenir moi-même le héros :</l>
+                  <l n='244' xml:id='l244'>Je lui dois ma raiſon, je lui dois mon repos.</l>
+                  <l n='245' xml:id='l245'>C'en eſt fait, mon eſprit ne croit plus au préſage :</l>
+                  <l n='246' xml:id='l246'>J'attens préſentement le ſort de mon ouvrage,</l>
+                  <l n='247' xml:id='l247'>Avec la fermeté qu'un ſage doit avoir ;</l>
+                  <l n='248' xml:id='l248'>Et, ſans trop préſumer, je ſens un noble eſpoir :</l>
+                  <l n='249' xml:id='l249'>Je prétens me montrer, quoi que le deſtin faſſe,</l>
+                  <l n='250' xml:id='l250'>Modeſte dans ma gloire, ou fort dans ma diſgrace.</l>
+                </sp>
+                <sp who="Arlequin" xml:id="IV_2">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                  <l n='251' xml:id='l251'>Ah ! Qu'entens-je ? Monſieur, quel heureux change-<lb/>ment !</l>
+                  <l n='252' xml:id='l252'>Puiſſiez-vous perſiſter dans un tel ſentiment!</l>
+                </sp>
+                <sp who="Clitandre" xml:id="IV_3">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='253' xml:id='l253'>Oui, j'y perſiſterai. Je ſuis aimé d'<persName>Hortenſe</persName> :</l>
+                  <l n='254' xml:id='l254'>Mes feux vont être heureux, ſelon toute apparence.</l>
+                  <l n='255' xml:id='l255'>Que me faut-il de plus, armé d'un tel bonheur ?</l>
+                  <l n='256' xml:id='l256'>Je puis du ſort jaloux défier la fureur.</l>
+                </sp>
+                <sp who="Arlequin" xml:id="IV_4"> 
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                  <l n='257' xml:id='l257'>Tremblez, Monſieur ; j'entens la pendule qui ſonne.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="IV_5">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='258' xml:id='l258'>Voilà l'heure fatale &amp; tout mon corps friſſonne.</l>
+                </sp>
+            </div>
+            <pb n="14"/>
+            <div type="scene" n="5" xml:id="V">
+                <head>SCENE V.</head><lb/><lb/>
+                <stage>CLITANDRE, DAMON, ARLEQUIN.</stage><lb/>
+                <sp who="Damon" xml:id="V_1">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='259' xml:id='l259'>ALlons, courage, ami ; le préſage eſt flatteur ;</l>
+                  <l n='260' xml:id='l260'>Votre ſonge commence à ſe trouver menteur,</l>
+                  <l n='261' xml:id='l261'>Car vous aurez grand monde à votre Comédie,</l>
+                  <l n='262' xml:id='l262'>De carroſſes, déja, cette rue eſt remplie.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="V_2">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='263' xml:id='l263'>Tant pis ; un ſi grand monde eſt toujours dangereux :</l>
+                  <l n='264' xml:id='l264'>Le tumulte accompagne un public trop nombreux.</l>
+                </sp>
+                <sp who="Arlequin" xml:id="V_3">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                  <l n='265' xml:id='l265'>Ah ! Monſieur, diſſipez la peur qui vous domine :</l>
+                  <l n='266' xml:id='l266'>Le ſouffleur avec qui j'ai bû tantôt chopine,</l>
+                  <l n='267' xml:id='l267'>M'a dit que ſur la <choice><orig>Piéce</orig><reg>pièce</reg></choice> il faiſoit un grand fond :</l>
+                  <l n='268' xml:id='l268'>Et, qui plus eſt encore, tout l'orcheſtre en répond.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="V_4">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='269' xml:id='l269'>Ce ſuffrage me donne une aſſurance extrême.</l>
+                </sp>
+                <sp who="Damon" xml:id="V_5">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='270' xml:id='l270'>Mais les Comédiens en répondent eux-mêmes ;</l>
+                    <l n="271" xml:id="l271_1" part="I">Ils le diſent tout haut.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="V_6">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l xml:id="l271_2" part="F">Que m'annoncez-vous là?</l>
+                  <l n='272' xml:id='l272'>Je ſuis perdu, Monsieur; ma <choice><orig>Piéce</orig><reg>pièce</reg></choice> déplaira.</l>
+                  <l n='273' xml:id='l273'>Le malheur ſuit toujours les ouvrages qu'on vante :</l>
+                  <l n='274' xml:id='l274'>L'exemple nous le prouve, &amp; le ſort m'épouvante.</l>
+                </sp>
+                <sp who="Damon" xml:id="V_7">
+                    <speaker>DAMON.</speaker><lb/>
+                  <l n='275' xml:id='l275'>Moi, j'eſpére, au retour, vous faire compliment ;</l>
+                  <l n='276' xml:id='l276'>Et je cours me placer ſans perdre un ſeul moment.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="V_8">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='277' xml:id='l277'>Allez vîte ; en un jour de combat &amp; de guerre,</l>
+                  <l n='278' xml:id='l278'>On ne ſçauroit avoir trop d'amis au Parterre.</l>
+                  <l n='279' xml:id='l279'>De marcher ſur vos pas, je ne puis m'empêcher ;</l>
+                  <l n='280' xml:id='l280'>Au fond du Paradis je m'en vais me cacher.</l>
+                </sp>
+                <pb n="15"/>
+                <sp who="Arlequin" xml:id="V_9">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                  <l n='281' xml:id='l281'>C'eſt l'enfer des Auteurs, qu'un Paradis ſemblable ,</l>
+                    <l n="282" xml:id="l282_1" part="I">Monſieur.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="V_10">
+                    <speaker>CLITANDRE </speaker><stage type="exit" rend="italics">en s'en allant.</stage><lb/>
+                    <l xml:id="l282_2" part="F">Ce qu'il me dit n'eſ que trop véritable.</l>
+                </sp>
+            </div>
+            <div type="scene" n="6" xml:id="VI">
+                <head>SCENE VI.</head>
+                <sp who="Arlequin" xml:id="VI_1">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage><hi rend="italics">ſeul.</hi></stage><lb/><lb/>
+                  <l n='283' xml:id='l283'>S'Il tremble maintenant, ce n'eſt pas ſans raiſon :</l> 
+                  <l n='284' xml:id='l284'>Tout brave que je ſuis, j'ai pour lui le friſſon.</l>
+                  <l n='285' xml:id='l285'>Ce qui préſentement m'allarme davantage,</l>
+                  <l n='286' xml:id='l286'>C'eſt qu'il m'a, ventrebleu dépeint dans ſon ouvrage :</l>
+                  <l n='287' xml:id='l287'>J'y parois ſous mon nom, comme ſous mes habits.</l>
+                  <l n='288' xml:id='l288'>Un homme comme moi craint d'être compromis.</l>
+                  <l n='289' xml:id='l289'>Si le nom d'<persName>Arlequin</persName>, ce nom ſi reſpectable ,</l>
+                  <l n='290' xml:id='l290'>Se voyoit bafoué, ce ſeroit bien le diable !</l>
+                  <l n='291' xml:id='l291'>Comme la Comédie eſt à deux pas d'ici,</l>
+                  <l n='292' xml:id='l292'>Je n'irai pas bien loin pour en être éclairci :</l>
+                  <l n='293' xml:id='l293'>Courons-y de ce pas... . Mais on vient. C'eſt mon <lb/>Maître !</l>
+                  <l n='294' xml:id='l294'>O Ciel ! En quel état je le revois paroître ?</l>
+                </sp>
+            </div>
+            <div type="scene" n="7" xml:id="VII">
+                <head>SCENE VII.</head><lb/><lb/>
+                <stage>CLITANDRE, ARLEQUIN.</stage><lb/>
+                <sp who="Arlequin" xml:id="VII_1">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l n="295" xml:id="l295_1" part="I">QU'avez-vous ?</l>
+                </sp>
+                <sp who="Clitandre" xml:id="VII_2">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l xml:id="l295_2" part="F">Un fauteuil, vîte ; je n'en puis plus !</l>
+                  <l n='296' xml:id='l296'>Mes ſens, jamais mes ſens ne furent plus émûs.</l>
+                  <l n='297' xml:id='l297'>J'entre à la Comédie, admire mon étoile,</l>
+                    <pb n="16"/>
+                  <l n='298' xml:id='l298'>Dans le moment fatal que l'on leve la toile :</l>
+                  <l n='299' xml:id='l299'>Du monde que je vois je ſuis épouvanté ;</l>
+                  <l n='300' xml:id='l300'>J'entens mugir les flots du Parterre agité :</l>
+                  <l n='301' xml:id='l301'>Je regarde en tremblant tous ces Juges ſévéres,</l>
+                  <l n='302' xml:id='l302'>Que ne ſçauroient fléchir ni brigues ni priéres.</l>
+                  <l n='303' xml:id='l303'>De mon ſuplice alors je crois voir les aprêts :</l>
+                  <l n='304' xml:id='l304'>Tous les cris que j'entens me ſemblent des ſifflets ;</l>
+                  <l n='305' xml:id='l305'>Quand, pour comble d'effroi, j'aperçois un vieux <lb/>Cuiſtre</l>
+                  <l n='306' xml:id='l306'>Dont  je n'ai jamais vû le viſage ſiniſtre,</l>
+                  <l n='307' xml:id='l307'>Qu'il ne m'ait annoncé quelque malheur prochain ;</l>
+                  <l n='308' xml:id='l308'>Il me fixe des yeux, me montre de la main :</l>
+                  <l n='309' xml:id='l309'>Je lis dans ſes regards ma mortelle ſentence,</l>
+                  <l n='310' xml:id='l310'>Et veux me dérober à ſa noire preſence ;</l>
+                  <l n='311' xml:id='l311'>Mais je fais un faux pas, &amp; culbute en fuyant.</l>
+                  <l n='312' xml:id='l312'>Voilà l'Auteur tombé, dit-il, en me voyant ;</l>
+                  <l n='313' xml:id='l313'>C'eſt lui, je le connois : je crains que pour l'ouvrage</l>
+                  <l n='314' xml:id='l314'>Cette chûte ne ſoit d'un funeſte préſage.</l>
+                  <l n='315' xml:id='l315'>Ces mots me percent l'ame, &amp; je reviens enfin,</l>
+                  <l n='316' xml:id='l316'>La pâleur ſur le front &amp; la peur dans le ſein.</l>
+                </sp>
+            </div>
+            <div type="scene" n="8" xml:id="VIII">
+                <head>SCENE DERNIERE</head><lb/>
+                <stage>CLITANDRE, ARLEQUIN, <lb/> UN LAQUAIS.</stage><lb/>
+                <sp who="laquais" xml:id="VIII_1">
+                    <speaker>UN LAQUAIS.</speaker><lb/><lb/>
+                    <l n="317" xml:id="l317_1" part="I">UNe lettre, Monſieur...</l>
+                </sp>
+                <sp who="Clitandre" xml:id="VIII_2">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l xml:id="l317_2" part="F">De quelle part vient-elle ?</l>
+                  <l n='318' xml:id='l318'>Tu fus toujours porteur de mauvaiſe nouvelle.</l>
+                    <lb/><stage type="business" rend="italics">(Il lit.)</stage><lb/>
+                  <l n='319' xml:id='l319' rend="italics">Mon pere arrive en ce moment.</l>
+                    <l n='320' xml:id='l320' rend="italics">Il aprouve notre flâme,</l>
+                    <l n='321' xml:id='l321' rend="italics">Et, pour êpoux, j'obtiens l'amant</l>
+                    <l n='321' xml:id='l322' rend="italics">Qui pouvoit ſeul toucher mon ame.</l>
+                    <pb n="17"/>
+                    <l n='321' xml:id='l323' rend="italics">Enchanté comme moi d'un aveu ſi flatteur,</l> 
+                    <l n='321' xml:id='l324' rend="italics"><persName>Clitandre</persName> connoît-il l'excès de mon bonheur ?</l>
+                    <p rend="align(right)" rendition="small_caps">HORTENSE</p>
+                  <l n='325' xml:id='l325'>Mon coeur eſt tranſporté ! Si le public affable</l>
+                  <l n='326' xml:id='l326'>Faisoit à mon ouvrage un accueil favorable,</l>
+                  <l n='327' xml:id='l327'>Et s'il m'aplaudiſſoit en cet heureux inſtant,</l>
+                  <l n='328' xml:id='l328'>Non, il ne ſeroit pas de mortel plus content !</l>
+                </sp>
+                <sp who="Arlequin" xml:id="VIII_3">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                  <l n='329' xml:id='l329'>Monſieur, d'un bon ſuccès ce billet vous aſſure.</l>
+                </sp>
+                <sp who="Clitandre" xml:id="VIII_4">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                  <l n='330' xml:id='l330'>Ah ! Mon procès perdu m'eſt d'un mauvais augure.</l>
+                  <l n='331' xml:id='l331'>Mais, voyons au plûtôt cet objet raviſſant ;</l>
+                  <l n='332' xml:id='l332'>Et nous viſiterons le parterre en paſſant.</l>
+                </sp>
+               
+                <p rend="center"><hi rend="italics">Fin du Prologue</hi></p>
+            </div>
+   
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,2469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Le Comte de Neuilli</title>
+                <title type="subtitle">Édition électronique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Pr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par </resp>
+                    <name>Loterie, Joséphine</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Première édition, <date>2017</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            <date>2017</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT</hi><lb/>Son Théâtre François &amp; Italien<pc>.</pc><lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                        <imprint>
+                            <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                            <publisher>JEAN NEAULME</publisher>
+                            <date when="1758">M.DCC.LVIII</date>
+                            <note>Tome cinquième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                    <citedRange>Pages 115-168.</citedRange>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+                <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+                <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques, ainsi que les vers. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+                <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+                <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+                <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+                <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+                <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+                <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+                <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction><p>Les erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+                <punctuation>
+                    <p>La ponctuation n'est pas systématiquement encodée. Elle a été distinguée à l'intérieur des balises 'titre', afin de ne pas créer de faux doublons lors de l'extraction de ceux-ci (ex. 'Admète et Alceste,' considéré comme un titre distinct de 'Admète et Alceste.').</p> <p>Dans tous les cas, la punctuation d'origine a été respectée, y compris quand elle paraissait fautive. Dans ce cas, elle est signalée avec 'sic' et 'corr'. Toutefois, les particularités d'espacement de la ponctuation n'ont pas été reproduites à l'identique. Un système uniforme a été adopté: les ponctuations simples (point, virgule), sont placées immédiatement après le mot, les ponctuations doubles (point virgule, deux points, signes d'interrogation et d'exclamation) sont placées après une espace.</p>
+                </punctuation>
+                <interpretation>
+                    <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+                </interpretation>
+            </editorialDecl>
+            <fsdDecl>
+                <fsDecl type="character_specification">
+                    <fDecl name="temper">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="age">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="young" xml:id="AGY"/>
+                                <symbol value="old" xml:id="AGO"/>
+                                <symbol value="child" xml:id="AGC"/>
+                                <symbol value="adult" xml:id="AGA"/>
+                                <symbol value="unknown" xml:id="AGU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="sex">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="male" xml:id="SM"/>
+                                <symbol value="female" xml:id="SF"/>
+                                <symbol value="undetermined" xml:id="SU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="nationality">
+                        <vRange><string></string>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="ontological_category">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="human" xml:id="OCH"/>
+                                <symbol value="non-human" xml:id="OCNH"/>
+                                <symbol value="semi-human" xml:id="OCSH"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="family_position">
+                        <vRange>
+                            <vColl>
+                                <symbol value="father" xml:id="FPF"/>
+                                <symbol value="son" xml:id="FPSON"/>
+                                <symbol value="daughter" xml:id="FPD"/>
+                                <symbol value="mother" xml:id="FPM"/>
+                                <symbol value="uncle" xml:id="FPU"/>
+                                <symbol value="aunt" xml:id="FPA"/>
+                                <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                                <symbol value="sister" xml:id="FPSIS"/>
+                                <symbol value="brother" xml:id="FPB"/>
+                                <symbol value="cousin" xml:id="FPC"/>
+                                <symbol value="step-mother" xml:id="FPSM"/>
+                                <symbol value="step-father" xml:id="FPSF"/>
+                                <symbol value="step-daughter" xml:id="FPSD"/>
+                                <symbol value="step-son" xml:id="FPSS"/>
+                                <symbol value="guardian" xml:id="FPG"/>
+                                <symbol value="ward" xml:id="FPWA"/>
+                                <symbol value="husband" xml:id="FPH"/>
+                                <symbol value="wife" xml:id="FPWIF"/>
+                                <symbol value="widow" xml:id="FPWID"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="actantial_role">
+                        <vRange>
+                            <vColl>
+                                <symbol value="lover" xml:id="ARL"/>
+                                <symbol value="subject" xml:id="ARS"/>
+                                <symbol value="opponent" xml:id="AROP"/>
+                                <symbol value="adjuvant" xml:id="ARAD"/>
+                                <symbol value="authority" xml:id="ARAUT"/>
+                                <symbol value="trouble_maker" xml:id="ARTM"/>
+                                <symbol value="episodic" xml:id="AREP"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="occupation">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="collective_character">
+                        <vRange>
+                            <binary value="true" xml:id="COLL"/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1736-01-18">18 janvier 1736</date>
+                <rs type="city">Paris, France.</rs></creation>
+            <textClass>
+                <keywords>
+                    <term>théâtre</term>
+                    <term>tragédie</term>
+                    <term>comédie héroïque</term>
+                    <term>pièce en alexandrins</term>
+                    <term>pièce historique</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when='2017-08-09' who="IG">
+                Confrontation avec le témoin (Néaulme 1758), et correction des erreurs de saisie. Remplacement des balises 'name' par des balises 'persName' et 'placeName'. Ajout de la 'feature structure' et balisage de la liste des personnages. Ajout de 'xml:id'.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <titlePage type="half-title">
+                <pb n="115"/>
+                <docTitle>
+                    <titlePart type="main">LE COMTE <lb/> DE NEUILLI<pc>,</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE HEROIQUE<pc>.</pc></titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="116"/>
+            <castList>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
+                <castItem ana="#OCH #SM #AGA #ARL #ARS"><role>LE COMTE DE NEUILLI</role><pc>.</pc></castItem>
+                <castItem ana="#OCH #SF #AGA #FPM #ARAUT"><role>LA MARQUISE</role><pc>.</pc></castItem>
+                <castItem ana="#OCH #SM  #AGY #FPSON #ARL #ARS"><role>LE MARQUIS</role><pc>,</pc> <roleDesc>fils de la Marquiſe<pc>.</pc></roleDesc></castItem>
+                <castItem ana="#OCH #SF #AGY #FPWA #ARL"><role>LEONORE</role><pc>,</pc> <roleDesc>crûe fille de la Marquiſe<pc>.</pc></roleDesc></castItem>
+                <castItem ana="#OCH #SF #AGY #ARAD"><role>LUCIE</role><pc>.</pc></castItem>
+                <castItem ana="#OCH #SM #AGU #ARAD"><role>NELTON</role><pc>,</pc> <roleDesc>confident du Comte de Neuilli<pc>.</pc></roleDesc></castItem>
+            </castList>
+            <set>
+                <p rend="center" rendition="italics">La Scène eſt à <placeName n="Paris">Paris</placeName>, dans l'Hôtel de la <lb/> Marquiſe.</p>
+            </set>
+            <lb/>
+            <lb/>
+        </front>
+        <body>
+            <pb n="117"/>
+            <div type="title">
+                <head>LE COMTE <lb/> DE NEUILLI<pc>,</pc><lb/> COMEDIE HEROÏQUE<pc>.</pc></head>
+            </div>
+            <div type="acte" n="1" xml:id="I">
+                    <head>ACTE PREMIER.</head><lb/>
+                    <div type="scene" n="1" xml:id="I01">
+                        <head>SCENE PREMIERE.</head><lb/>
+                        <stage>NELTON, LUCIE.</stage><lb/>
+                        <sp who="Lucie" xml:id="I01-1">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l1"><c type="lettrine">P</c>EUT-ON ſçavoir ici quel ſujet vous <lb/> attire ?</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I01-2">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l2">Faites-moi, s'il vous plaît, la grace de <lb/>me dire</l>
+                            <l xml:id="l3">Si <unclear>Madame</unclear> bien-tôt reviendra de la cour.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I01-3">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l4">Monſieur, ce matin même on attend ſon retour.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I01-4">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l5"> <persName n="Neuilly">Milord Neuilli</persName>, pour elle, eſt pénétré d'eſtime,</l>
+                            <l xml:id="l6">Du <persName n='Sussex'>Comte de Suſſex</persName> ce Seigneur fut l'intime ;</l>
+                            <pb n="118"/>
+                            <l xml:id="l7">Il ſçait qu'à ſa famille elle a ſervi d'apui ;</l>
+                            <l xml:id="l8">Il eſt impatient de la voir aujourd'hui :</l>
+                            <l xml:id="l9">Brûlant de l'aſſurer de ſa reconnoiſſance,</l>
+                            <l xml:id="l10">Il eſt déja venu deux foix dans ſon abſence.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I01-5">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l11">Vous venez de la part du <persName n='Neuilly'>Comte de Neuilli</persName>,</l>
+                            <l xml:id="l12">Et vous apartenez à cet homme accompli ?</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I01-6">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l13_1" part="I">J'ai ce bonheur, Madame.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I01-7">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l13_2" part="F">Ah ! Pour vous quelle gloire !</l>
+                            <l xml:id="l14">La renommée ici nous a fait ſon hiſtoire ;</l>
+                            <l xml:id="l15">Et, dans tous ſes récits, nous l'a peint ſi parfait,</l>
+                            <l xml:id="l16">Que je m'eſtime heureuſe, avec juſte ſujet,</l>
+                            <l xml:id="l17">D'avoir reçû le jour aux lieux qui l'ont vû naître.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I01-8">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l18">La renommée eſt juſte à l'égard de mon maître,</l>
+                            <l xml:id="l19">Elle ne peut jamais trop vanter ſes vertus ;</l>
+                            <l xml:id="l20">Et, quoi qu'elle publie, elles ſont au-deſſus.</l>
+                            <l xml:id="l21"><placeName n='Paris'>Paris</placeName>, des Etrangers fut de tout tems l'aſile ;</l>
+                            <l xml:id="l22">Milord, pour les aider, a choiſi cette ville.</l>
+                            <l xml:id="l23">Sa patrie eſt partout où ſon cœur généreux</l>
+                            <l xml:id="l24">Peut verſer, en ſecret, ſes dons aux malheureux :</l>
+                            <l xml:id="l25">Sa vie eſt un tiſſu d'actions héroïques ;</l>
+                            <l xml:id="l26">Pere de ſes vaſſaux &amp; de ſes domeſtiques,</l>
+                            <l xml:id="l27">Il ſoulage leur peine, il prévient leurs beſoins,</l>
+                            <l xml:id="l28">Et le plus miſérable obtient ſes premiers ſoins.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I01-9">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l29_1" part="I">Quels traits ?</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I01-10">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l29_2" part="F">Des gens de biens c'eſt le parfait modèle :</l>
+                            <l xml:id="l30">Il eſt maître auſſi bon, qu'il eſt ami fidèle.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I01-11">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l31">C'eſt tout dire en un mot. On nous a raconté</l>
+                            <l xml:id="l32">Que pour <persName n="Sussex">Milord Suſſex</persName> il avoit tout quitté.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I01-12">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l33">Pour ſuivre cet ami qu'avoit proſcrit l'envie,</l>
+                            <l xml:id="l34">Il a plus fait encore, il a riſqué ſa vie ;</l>
+                            <pb n="119"/>
+                            <l xml:id="l35">Et, par un rare exemple, il a ſacrifié</l>
+                            <l xml:id="l36">Repos, grandeurs, fortune, aux droits de l'amitié.</l>
+                            <l xml:id="l37">D'autres, par plus d'exploits, ont brillé dans la guerre :</l>
+                            <l xml:id="l38">Mais ſouvent ces guerriers, qui, ravageant la terre,</l>
+                            <l xml:id="l39">Ne ſe font admirer que par des traits ſanglans,</l>
+                            <l xml:id="l40">Doivent toute leur gloire à des vices brillans.</l>
+                            <l xml:id="l41">Quoiqu'elle ait moins d'éclat, la ſienne eſt plus ſolide :</l>
+                            <l xml:id="l42">Et, ſi la probité, ſi la vertu rigide,</l>
+                            <l xml:id="l43">Font ſeules le grand homme aux yeux de la raiſon,</l>
+                            <l xml:id="l44">Perſonne, plus que lui, n'eſt digne de ce nom.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I01-13">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l45">Il eſt beau d'obtenir un éloge ſemblable ;</l>
+                            <l xml:id="l46">Et voilà le portrait du héros véritable.</l>
+                            <l xml:id="l47">Mais la <unclear>j</unclear>eune Marquiſe a mal paſſé la nuit ;</l>
+                            <l xml:id="l48">Près d'elle, en ce moment, l'amitié me conduit ;</l>
+                            <l xml:id="l49">D'un devoir ſi preſſant il faut que je m'acquitte ;</l>
+                            <l xml:id="l50">Et vous m'excuserez, Monſieur, ſi je vous quitte.</l>
+                            <lb/><stage type="exit" rend="italics">(<persName n='Lucie'>Lucie</persName> rentre.)</stage><lb/>
+                        </sp>
+                    </div>
+                    <div type="scene" n="2" xml:id="I02">
+                        <head>SCENE II.</head><lb/>
+                        <sp who="Nelton" xml:id="I02-1">
+                            <speaker>NELTON </speaker>
+                            <stage type="delivery"><hi rend="italics">ſeul.</hi></stage><lb/>
+                            <l xml:id="l51"><c type="lettrine">D</c>Ans ce jour, malgré moi, je forme ſur Milord</l>
+                            <l xml:id="l52">Un ſoupçon que j'étouffe &amp; qui renaît plus fort.</l>
+                            <l xml:id="l53">De ſon ame, avec ſoin, il me cache le trouble ;</l>
+                            <l xml:id="l54">Sa triſteſſe eſt plus grande, &amp; son ennui redouble ;</l>
+                            <l xml:id="l55">Mais tous deux ont changé de forme dans ces lieux ;</l>
+                            <l xml:id="l56">Et depuis quatre jours que j'obſerve ſes yeux,</l>
+                            <l xml:id="l57">Je les trouve chargés d'une langueur ſecrette,</l>
+                            <l xml:id="l58">Qui ſemble de ſon cœur annoncer la défaite.</l>
+                            <l xml:id="l59">Il exhale ſouvent des ſoupirs à demi,</l>
+                            <l xml:id="l60">Non tels qu'il les pouſſoit pour la mort d'un ami.</l>
+                            <l xml:id="l61">Il gémit à préſent, mais c'eſt d'un ton plus tendre,</l>
+                            <l xml:id="l62">Et ſa plainte tout haut n'oſe ſe faire entendre.</l>
+                            <l xml:id="l63">La différence frape à travers tout détour,</l>
+                            <pb n="120"/>
+                            <l xml:id="l64">Et l'amitié ſoupire autrement que l'amour.</l>
+                            <l xml:id="l65">Ce dernier a vaincu ſa longue réſiſtance ;</l>
+                            <l xml:id="l66">Et, pour mieux le ſoumettre, il l'attendoit en <placeName n="France">France</placeName>.</l>
+                            <l xml:id="l67">Mais je le vois paroître, &amp; je l'entens gémir ;</l>
+                            <l xml:id="l68">Mon doute, à ſon aſpect, ne fait que s'affermir.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="3" xml:id="I03">
+                        <head>SCENE III.</head><lb/>
+                        <stage>LE COMTE, NELTON</stage> <stage type="location" rend="italics">ſe tenant éloigné.</stage><lb/>
+                        <sp who="Le Comte" xml:id="I03-1">
+                            <speaker>LE COMTE </speaker><stage type="mixed" rend="italics">ſans voir <persName n='Nelton'>Nelton</persName>.</stage><lb/>
+                            <l xml:id="l69"><c type="lettrine">Q</c>Uels tranſports inconnus ! Et quel combat ter-<lb/>rible !</l>
+                            <l xml:id="l70">A l'amour, juſqu'ici, mon cœur inacceſſible,</l>
+                            <l xml:id="l71">Avoit ſenti les traits de la ſeule amitié.</l>
+                            <l xml:id="l72">Par quel charme fatal s'eſt-il donc oublié ?</l>
+                            <l xml:id="l73">Quand je fuis un pays funeſte à l'innocence ;</l>
+                            <l xml:id="l74">Indigné contre lui, quand je n'aborde en <placeName n="France">France</placeName></l>
+                            <l xml:id="l75">Que pour y regretter, par un deuil éternel,</l>
+                            <l xml:id="l76">Un ami condamné ſans être criminel :</l>
+                            <l xml:id="l77">Que je viens conſacrer mes douleurs les plus fortes</l>
+                            <l xml:id="l78">Dans des lieux où ſa femme &amp; ſa fille ſont mortes ;</l>
+                            <l xml:id="l79">Aux ſoins que je leur dois mettant le dernier ſceau,</l>
+                            <l xml:id="l80">Quand je viens de mes pleurs arroſer leur tombeau :</l>
+                            <l xml:id="l81">Que la vertu paiſible eſt mon ſeul exercice,</l>
+                            <l xml:id="l82">Et que j'arrive ici pour voir leur protectrice.</l>
+                            <l xml:id="l83">Dans ce même ſalon un objet enchanteur</l>
+                            <l xml:id="l84">Paroît, lance un regard, &amp; ſubjugue mon cœur.</l>
+                            <l xml:id="l85">Des écueils de l'amour j'ai ſauvé ma jeuneſſe ;</l>
+                            <l xml:id="l86">J'attens, pour m'y briſer, l'âge de la ſageſſe,</l>
+                            <l xml:id="l87">Et d'une folle ardeur je me vois aſſailli!</l>
+                            <l xml:id="l88">O Ciel ! Eſt-il poſſible ? Et ſuis-je bien <persName n="Neuilly">Neuilli</persName> ?</l>
+                            <l xml:id="l89">Je combats vainement, ma raiſon eſt vaincue ;</l>
+                            <l xml:id="l90">L'amour régne en tyran dans mon ame éperdue ;</l>
+                            <l xml:id="l91">Il y verſe l'oubli des devoirs les plus forts,</l>
+                            <l xml:id="l92">Et juſqu'à l'amitié, tout céde à ſes tranſports</l>
+                            <pb n="121"/>
+                            <l xml:id="l93"><unclear>Je</unclear> perds, depuis trois jours, tout le ſoin de ma gloire,</l>
+                            <l xml:id="l94"><supplied>Et</supplied> les noms les plus chers ſortent de ma mémoire.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-2">
+                            <speaker>NELTON </speaker><stage type="delivery" rend="italics">à part.</stage><lb/>
+                            <l xml:id="l95">Mon ſoupçon étoit juſte, &amp; le Comte a parlé.</l>
+                            <l xml:id="l96">Le ſecret de ſes feux m'eſt enfin dévoilé.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-3">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l97">O <persName n="Sussex">Comte de Suſſex</persName> ! O, cendre révérée !</l>
+                            <l xml:id="l98">Tu gémis de l'yvreſſe où mon ame eſt livrée !</l>
+                            <l xml:id="l99">Du tort qu'elle te fait ne ſois pas offenſé ;</l>
+                            <l xml:id="l100">En dépit de moi-même, hélas ! j'y ſuis forcé.</l>
+                            <l xml:id="l101">Si mes feux dans mon cœur ont ſur toi l'avantage ;</l>
+                            <l xml:id="l102">La raiſon venge bien cet injuſte partage.</l>
+                            <l xml:id="l103">Ah ! Qu'il eût mieux valu terminer mon deſtin,</l>
+                            <l xml:id="l104">Noblement avec toi les armes à la main ;</l>
+                            <l xml:id="l105">Et, couronnant par-là notre tendreſſe illuſtre,</l>
+                            <l xml:id="l106">Emporter chez les morts ma gloire en tout ſon luſtre ;</l>
+                            <l xml:id="l107">Que d'aller te ſurvivre, &amp; conſerver le jour,</l>
+                            <l xml:id="l108">Pour fléchir aujourd'hui ſous le joug de l'amour,</l>
+                            <l xml:id="l109">Et perdre, par l'affront d'un inſtant de foibleſſe,</l>
+                            <l xml:id="l110">L'honneur que m'avoient fait quarante ans de ſageſſe !</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-4">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l111">Il aigrit ſa douleur en voulant la cacher.</l>
+                            <l xml:id="l112">Partons... Mais le reſpect m'enpêche d'aprocher.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-5">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l113">Puiſque je ne puis vaincre une ardeur qui m'entraîne<choice><sic> ;</sic><corr>,</corr></choice></l>
+                            <l xml:id="l114">Ma raiſon ſur mes ſens ſe rendant ſouveraine,</l>
+                            <l xml:id="l115">Lui fera du devoir ſubir la juſte loi,</l>
+                            <l xml:id="l116">Et la ſçaura du moins rendre digne de moi.</l>
+                            <l xml:id="l117">Mais doit-elle éclater ? Ou doit-elle ſe taire ?</l>
+                            <lb/><stage rend="italics" type="business">(apercevant <persName n='Nelton'>Nelton</persName>.)</stage><lb/>
+                            <l xml:id="l118">Le conſeil d'un ami me ſeroit néceſſaire.</l>
+                            <l xml:id="l119"><persName n='Nelton'>Nelton</persName> s'offre à ma vue ; incertain dans mes vœux,</l>
+                            <l xml:id="l120">Je n'oſe, &amp; je voudrois lui confier mes feux.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-6">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l121">Si je romps le ſilence, excuſés mon audace ;</l>
+                            <l xml:id="l122">A mon attachement vous devez faire grace.</l>
+                            <l xml:id="l123">Depuis votre arrivée en ce lieu déſiré,</l>
+                            <l xml:id="l124">A de nouveaux chagrins vous paroiſſez livré :</l>
+                            <pb n="122"/>
+                            <l xml:id="l125">Je vois, à tout moment, que votre main me cache</l>
+                            <l xml:id="l126">Des pleurs que, malgré vous, la douleur vous arrache</l>
+                            <l xml:id="l127">De vos tourmens ſecrets je me ſens déchirer !</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-7">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l128_1" part="I">Hélas !</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-8">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l128_2" part="F">Je vous entends encore ſoupirer !</l>
+                            <l xml:id="l129">Oſez-vous confier à mon zèle ſincére ;</l>
+                            <l xml:id="l130_1" part="I">Vos peines....</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-9">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l130_2" part="F">Je n'ai pas de confidence à faire.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-10">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l131">Cette faveur, ſans doute, eſt trop grande pour nous ;</l>
+                            <l xml:id="l132">Et le ſort m'a placé trop au deſſous de vous,</l>
+                            <l xml:id="l133">Pour mériter l'honneur de votre confidence.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-11">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l134">Vous faites éclater un ſoupçon qui m'offenſe,</l>
+                            <l xml:id="l135"><persName n='Nelton'>Nelton</persName>, vous le devez bannir de votre eſprit ;</l>
+                            <l xml:id="l136">La vertu, ſur le mien, a ſeule du crédit.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-12">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l137">Ah ! S'il eſt vrai, Monſieur, ceſſez de vous défendre,</l>
+                            <l xml:id="l138">Daignez juſques à moi, daignés enfin deſcendre,</l>
+                            <l xml:id="l139">Et ſongés que <persName n='Nelton'>Nelton</persName>, dans l'honneur affermi,</l>
+                            <l xml:id="l140">Eſt votre ſerviteur, &amp;, de plus, votre ami.</l>
+                            <l xml:id="l141">Oui, votre ami, Monſieur ; pardonnés moi ce terme,</l>
+                            <l xml:id="l142">J'en ſens toute la force, &amp; ſçai ce qu'il renferme ;</l>
+                            <l xml:id="l143">Tout auſſi-bien qu'aux grands, il convient aux petits,</l>
+                            <l xml:id="l144">La nobleſſe du cœur en fait ſeule le prix ;</l>
+                            <l xml:id="l145">Celle du rang, ſans l'autre, eſt peu recommandable :</l>
+                            <l xml:id="l146">On doit moins honorer de ce nom reſpectable,</l>
+                            <l xml:id="l147">Un noble vicieux qui penſe baſſement,</l>
+                            <l xml:id="l148">Qu'un ſerviteur fidèle &amp; plein de ſentiment.</l>
+                            <l xml:id="l149">A le prendre avec vous, c'eſt ce qui m'encourage ;</l>
+                            <l xml:id="l150">Mon cœur, dont je ſuis ſûr, m'enhardit davantage :</l>
+                            <l xml:id="l151">Nul, par ſon zèle ardent, ſon reſpect &amp; ſa foi,</l>
+                            <l xml:id="l152">De le porter, Monſieur, n'eſt plus digne que moi ;</l>
+                            <l xml:id="l153">Vous l'avez illuſtré beaucoup plus que perſonne.</l>
+                            <l xml:id="l154">Par ce titre ſi beau que mon ardeur me donne,</l>
+                            <pb n="123"/>
+                            <l xml:id="l155">Et qui peut tout ſur vous, dites-moi vos ſecrets ;</l>
+                            <l xml:id="l156">Vos douleurs en ſeront bien moins vives après :</l>
+                            <l xml:id="l157_1" part="I">Votre interêt lui ſeul me porte...</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-13">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l157_2" part="F">Tu me charmes !</l>
+                            <l xml:id="l158">Je ne balance plus, &amp; je te rends les armes ;</l>
+                            <l xml:id="l159">Mon eſtime t'eſt dûe ; &amp; tu penſes ſi bien,</l>
+                            <l xml:id="l160">Qu'à tes yeux déſormais je ne dois cacher rien :</l>
+                            <l xml:id="l161">A ta fidélité je dois ma confidence ;</l>
+                            <l xml:id="l162">Et, puiſqu'elle m'oblige à rompre le ſilence,</l>
+                            <l xml:id="l163">Contre un attrait vainqueur en vain j'ai réſiſté,</l>
+                            <l xml:id="l164">Depuis trois jours, ici, l'amour ma ſurmonté.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-14">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l165">La beauté qui vous plaît, peut-elle être connue ?</l>
+                            <l xml:id="l166_1" part="I">Et ces lieux...</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-15">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l166_2" part="F">La Marquiſe eſt-elle revenue ?</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-16">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l167">Monſieur, elle n'eſt pas encore de retour.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-17">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l168_1" part="I">Et ſa fille, <persName n='Nelton'>Nelton</persName> ?</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-18">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l168_2" part="F">Chez elle il n'eſt pas jour.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-19">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l169"><persName n='Leonore'>Léonore</persName> ! Vers vous un doux penchant m'apelle</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-20">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l170_1" part="I">Vous l'aimez ?</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-21">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l170_2" part="M">Je l'adore.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-22">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l170_3" part="F">He, Monſieur le ſçait-elle ?</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-23">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l171">Non. Ton maître novice à pouſſer des ſoupirs,</l>
+                            <l xml:id="l172">Ignore l'art flatteur d'exprimer ſes désirs ;</l>
+                            <l xml:id="l173">Et, d'un Amant ſoumis, je rougis à mon âge</l>
+                            <l xml:id="l174">De venir faire ici le triſte aprentiſſage.</l>
+                            <l xml:id="l175">Je vais du ridicule affronter le danger,</l>
+                            <l xml:id="l176">Sur-tout dans un pays où je ſuis étranger,</l>
+                            <pb n="124"/>
+                            <l xml:id="l177">Le centre des bons airs, où l'agrément préſide,</l>
+                            <l xml:id="l178">Où la mode gouverne &amp; le dehors décide.</l>
+                            <l xml:id="l179">Un rien choque à <placeName n='Paris'>Paris</placeName>, l'œil d'un ſexe charmant ;</l>
+                            <l xml:id="l180">Qui ſe rend à la grace &amp; non au ſentiment :</l>
+                            <l xml:id="l181">Il faut être enjoué, pour lui paroître aimable,</l>
+                            <l xml:id="l182">Et, ſi l'on badine, on n'eſt pas agréable.</l>
+                            <l xml:id="l183">Vieilli dans la douleur, puis-je plaire à préſent ?</l>
+                            <l xml:id="l184">Je ſçais être fidèle &amp; non pas amuſant :</l>
+                            <l xml:id="l185">Des François ſéducteurs je n'ai pas le mérite ;</l>
+                            <l xml:id="l186">Mais, quand j'en aurois l'art, j'en fuirois la conduite ;</l>
+                            <l xml:id="l187">Je ſerois, à ce prix, honteux d'avoir vaincu ;</l>
+                            <l xml:id="l188">Et l'amour eſt un monſtre où manque la vertu.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-24">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l189">Chaſſés de votre cœur la crainte qui l'agite :</l>
+                            <l xml:id="l190">Rien ne ſçauroit ternir l'éclat du vrai mérite ;</l>
+                            <l xml:id="l191">On le reſpecte à <placeName n="Londres">Londres</placeName>, on l'admire à <placeName n='Paris'>Paris</placeName></l>
+                            <l xml:id="l192">Et, plus fort que la mode, il brille en tout pays.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-25">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l193">Il faut d'autres attraits pour vaincre une Maîtreſſe ;</l>
+                            <l xml:id="l194">Un triomphe ſi doux n'eſt dû qu'à la jeuneſſe.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-26">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l195"><persName n='Leonore'>Léonore</persName>, Monſieur, penſe trop ſagement,</l>
+                            <l xml:id="l196">Pour croire que ſon cœur préfére aveuglement</l>
+                            <l xml:id="l197">Un brillant paſſager au mérite ſolide.</l>
+                            <l xml:id="l198">On dit qu'en tous ſes pas la ſageſſe la guide ;</l>
+                            <l xml:id="l199">Faites parler les feux dont vous êtes épris,</l>
+                            <l xml:id="l200">Pour être rebutés, ils ſont d'un trop grand prix.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-27">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l201">Tes diſcours ſéduiſans ont beau flatter mon ame ;</l>
+                            <l xml:id="l202">Je ne puis me réſoudre à déclarer ma flamme,</l>
+                            <l xml:id="l203">Et mon cœur malheureux eſt contraint de nourrir</l>
+                            <l xml:id="l204">Un feu qu'il ne peut vaincre &amp; n'oſe découvrir.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-28">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l205">Ah ! Je tremble pour vous de cette violence.</l>
+                            <l xml:id="l206">Voulez-vous donc mourir d'un ſi cruel ſilence,</l>
+                            <l xml:id="l207">Quand, par un mot, Monſieur, vous pouvez être heu-<lb/>reux ?</l>
+                        </sp>
+                        <pb n="125"/>
+                        <sp who="Le Comte" xml:id="I03-29">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l208"><unclear>Non</unclear> je ne ferai point cet aveu dangereux ;</l>
+                            <l xml:id="l209"><unclear>Ma</unclear> gloire m'eſt trop chere , &amp; c'eſt la compro-<lb/>mettre.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-30">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l210">Dans cette extrémité, daignés donc me permettre</l>
+                            <l xml:id="l211">D'employer tous mes ſoins &amp; de parler pour vous.</l>
+                            <l xml:id="l212">Je fais, de votre bien, mon bonheur le plus doux ;</l>
+                            <l xml:id="l213">Et <persName n='Nelton'>Nelton</persName> vous répond, ſi vous voulez l'en croire,</l>
+                            <l xml:id="l214">De ſervir votre amour, ſans riſquer votre gloire ;</l>
+                            <l xml:id="l215_1" part="I">Elle m'eſt précieuſe autant qu'à vous.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-31">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l215_2" part="F">Je crains....</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I03-32">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l216">C'eſt à tort. Raſſurés vos eſprits incertains.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="I03-33">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l217">Ton zèle eſt ſi preſſant, qu'il faut que je lui céde ;</l>
+                            <l xml:id="l218">Je ſens que mon ardeur a beſoin de ton aide.</l>
+                            <l xml:id="l219">Va, puiſque tu le veux, tu peux agir pour moi ;</l>
+                            <l xml:id="l220">Je connois ta ſageſſe, &amp; je me livre à toi..</l>
+                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
+                        </sp>
+                    </div>
+                    <div type="scene" n="4" xml:id="I04">
+                        <head>SCENE IV.</head><lb/>
+                        <sp who="Nelton" xml:id="I04-1">
+                            <speaker>NELTON </speaker>
+                            <stage type="delivery"><hi rend="italics">ſeul.</hi></stage><lb/>
+                            <l xml:id="l221"><c type="lettrine">P</c>Our un Maître ſi grand mon ame s'intereſſe,</l>
+                            <l xml:id="l222">Et je veux, dans ce jour couronner ſa tendreſſe.</l>
+                            <l xml:id="l223">Recourons à <persName n='Lucie'>Lucie</persName>, employons on apui ;</l>
+                            <l xml:id="l224">Elle eſtime le Comte, &amp; fera tout pour lui :</l>
+                            <l xml:id="l225">Elle a de la naiſſance, elle eſt ſage &amp; diſcrette ;</l>
+                            <l xml:id="l226"><persName n='Leonore'>Léonore</persName> à pour elle une amitié parfaite.</l>
+                            <l xml:id="l227">Je ne puis mieux choiſir. Je vais ... Mais la voici.</l>
+                        </sp>
+                    </div>
+                    <pb n="126"/>
+                    <div type="scene" n="5" xml:id="I05">
+                        <head>SCENE V.</head><lb/>
+                        <stage>NELTON, LUCIE.</stage><lb/>
+                        <sp who="Lucie" xml:id="I05-1">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l228"><c type="lettrine">P</c>Our ſaluer Milord, je reparois ici ;</l>
+                            <l xml:id="l229_1" part="I">Mais je ne le vois pas.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I05-2">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l229_2" part="F">Il ſort dans l'inſtant même.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I05-3">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l230">Je n'ai que ce jour ſeul. Mon regret eſt extrême.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I05-4">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l231_1" part="I">Comment ?</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I05-5">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l231_2" part="F">Je pars demain pour entrer au Couvent</l>
+                            <l xml:id="l232">Et je voulois, Monſieur, le voir auparavant ;</l>
+                            <l xml:id="l233">J'y dois ſuivre les pas de la jeune Marquiſe,</l>
+                            <l xml:id="l234_1" part="I">Elle y va pour toujours.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I05-6">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l234_2" part="F">Ciel ! Qu'elle eſt ma ſurpriſe!</l>
+                            <l xml:id="l235">Ce revers pour Milord doit me faire trembler.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I05-7">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l236_1" part="I">Dites ; pourquoi ?</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I05-8">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l236_2" part="F">Je crains... Mais non, je dois parler!</l>
+                            <l xml:id="l237">Son interrêt preſſant veut qu'à votre prudence</l>
+                            <l xml:id="l238">Je découvre, Madame, un ſecret d'importance,</l>
+                            <l xml:id="l239">Qui doit être, aux regards, voilé ſoigneuſement,</l>
+                            <l xml:id="l240">Et qui va vous remplir d'un juſte étonnement.</l>
+                            <l xml:id="l241">Sçachés que ce Héros, dont l'ame ſans foibleſſe</l>
+                            <l xml:id="l242">Avoit juſqu'à ce jour méconnu la tendreſſe,</l>
+                            <l xml:id="l243">Et que l'amitié ſeule avoit fait ſoupirer ;</l>
+                            <l xml:id="l244">Sçachés, d'un feu brûlant, qu'il ſe ſent dévorer ;</l>
+                            <l xml:id="l245">Et que, pour ſon malheur, l'aimable <persName n='Leonore'>Léonore</persName></l>
+                            <l xml:id="l246">Votre jeune Marquiſe, eſt l'objet qu'il adore.</l>
+                        </sp>
+                        <pb n="127"/>
+                        <sp who="Lucie" xml:id="I05-9">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l247"><unclear>Vei</unclear>llai-je en ce moment ? Et l'ai-je bien oüi ?</l>
+                            <l xml:id="l248_1" part="I"><unclear>Le</unclear> Comte, dites-vous, aime <persName n='Leonore'>Léonore</persName> ?</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I05-10">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l248_2" part="F">Oui.</l>
+                            <l xml:id="l249">Un inſtant a fait naître une flamme ſi vive ;</l>
+                            <l xml:id="l250">Mais, pour la déclarer, ſa bouche eſt trop craintive ;</l>
+                            <l xml:id="l251">Et je croyois, par vous, pouvoir le rendre heureux.</l>
+                            <l xml:id="l252">Jugés de ma douleur dans ce revers affreux ;</l>
+                            <l xml:id="l253">Jugés, en même-tems, quelle atteinte mortelle</l>
+                            <l xml:id="l254">Va porter à ſon cœur cette triſte nouvelle !</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I05-11">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l255">Quelle fatalité ! Je le plains aujourd'hui ;</l>
+                            <l xml:id="l256">Ses grandes qualités m'intéreſſent pour lui :</l>
+                            <l xml:id="l257">Je voudrois que l'Hymen pût l'unir avec elle,</l>
+                            <l xml:id="l258">Tous deux y trouveroient leur gloire mutuelle :</l>
+                            <l xml:id="l259">Je ſouhaite ce nœud pour leur commun bonheur ;</l>
+                            <l xml:id="l260">Et, d'y contribuer, je me ferois honneur :</l>
+                            <l xml:id="l261">Leur vertu forme entre eux une chaîne ſecrette,</l>
+                            <l xml:id="l262">Et, s'il eſt accompli, <persName n='Leonore'>Léonore</persName> eſt parfaite.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I05-12">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l263">Ah ! Puiſqu'il eſt ainſi, parlés en ſa faveur ;</l>
+                            <l xml:id="l264">Mais ménagés ſa gloire en ſervant ſon ardeur :</l>
+                            <l xml:id="l265">S'il ne peut être heureux, qu'à jamais on ignore</l>
+                            <l xml:id="l266">L'ardente paſſion qu'il ſent pour <persName n='Leonore'>Léonore</persName>.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I05-13">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l267">Sans l'expoſer en rien, mes ſoins ſçauront agir,</l>
+                            <l xml:id="l268">Et ſon front, d'un refus, n'aura point à rougir : </l>
+                            <l xml:id="l269">A <supplied>c</supplied>ouronner ſes vœux, plus d'un motif me porte.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I05-14">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l270_1" part="I">Et <supplied>q</supplied>uelle autre raiſon ?</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I05-15">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l270_2" part="F">Une raiſon très-forte :</l>
+                            <l xml:id="l271">Le repos du Marquis, &amp; le ſoin de ſes jours.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I05-16">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l272">De ſon frere ? Daignez m'expliquer ce diſcours.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I05-17">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l273">Puiſqu'il faut, à mon tour, que je vous le révéle,</l>
+                            <pb n="128"/>
+                            <l xml:id="l274">Le Marquis ne reſpire &amp; ne vit que par elle ;</l>
+                            <l xml:id="l275">Il ne peut un moment s'éloigner de ſa ſœur,</l>
+                            <l xml:id="l276">S'il ſçavoit ſon deſſein, il mourroit de douleur ;</l>
+                            <l xml:id="l277">Et je dois l'empêcher pour lui ſauver la vie ;</l>
+                            <l xml:id="l278_1" part="I">Je cours y travailler.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="I05-18">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l278_2" part="F">Hâtez-vous, je vous prie.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="I05-19">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l279">Allés, &amp; du ſuccès repoſez-vous ſur moi ;</l>
+                            <l xml:id="l280">Il va ſuivre bien-tôt l'eſpoir que j'en conçoi.</l>
+                            <l xml:id="l281"><persName n='Leonore'>Léonore</persName> du Comte a reçu la viſite,</l>
+                            <l xml:id="l282">Son eſprit eſt déja frapé de ſon mérite ;</l>
+                            <l xml:id="l283">Avec beaucoup d'éloge elle m'en a parlé.</l>
+                            <l xml:id="l284">Par l'eſtime, aiſément, un cœur eſt ébranlé :</l>
+                            <l xml:id="l285">Et je croirai ſervir <placeName n="France">la France</placeName> &amp; <placeName n="Angleterre">l'Angleterre</placeName>,</l>
+                            <l xml:id="l286">Si je puis, par mes ſoins, faire voir à la Terre,</l>
+                            <l xml:id="l287">Uni d'un même ſort, ce que toutes les deux</l>
+                            <l xml:id="l288">Ont produit de plus rare &amp; de plus vertueux.</l>
+                        </sp>
+                        <lb/>
+                        <lb/>
+                        <trailer rend="center" rendition="italics">>Fin du premier Acte.</trailer>
+                    </div>
+                </div>
+                <pb n="129"/>
+                <div type="acte" n="2" xml:id="II">
+                    <head>ACTE II.</head><lb/>
+                    <div type="scene" n="1" xml:id="II01">
+                        <head>SCENE PREMIERE.</head><lb/>
+                        <sp who="La Marquise" xml:id="II01-1">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l289"><persName n="Leonore"><c type="lettrine">L</c>Éonore</persName> choiſit l'état de la retraite ;</l>
+                            <l xml:id="l290">Sa beauté, ſa douceur, font que je la regrette:</l>
+                            <l xml:id="l291">De ma Fille elle occupe &amp; mérite le rang,</l>
+                            <l xml:id="l292">Mais elle ne l'eſt pas, &amp; ſort d'un autre ſang.</l>
+                            <l xml:id="l293">Quoique dans ma maiſon elle ſoit étrangére,</l>
+                            <l xml:id="l294">Preſqu'autant que mon Fils, je ſens qu'elle m'eſt chére ;</l>
+                            <l xml:id="l295">Son ſort eſt un ſecret ignoré dans ces lieux.</l>
+                            <l xml:id="l296"><persName n='Lucie'>Lucie</persName> entre, je dois le cacher à ſes yeux.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="2" xml:id="II02">
+                        <head>SCENE II.</head><lb/>
+                        <stage>LA MARQUISE, LUCIE</stage><lb/>
+                        <sp who="La Marquise" xml:id="II02-1">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l297"><c type="lettrine">D</c>E voir <persName n="Neuilly">Milord Neuilli</persName> je ſuis impatiente ;</l>
+                            <l xml:id="l298">Mais des pas que j'ai faits j'ai lieu d'être contente.</l>
+                            <l xml:id="l299">Je dois encore agir pour hâter le ſuccès</l>
+                            <l xml:id="l300">D'un projet important où tendent mes ſouhaits.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II02-2">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l301_1" part="I">Quel eſt donc ce projet ?</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="II02-3">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l301_2" part="F">Un très-grand mariage.</l>
+                            <l xml:id="l302">C'eſt en ſecret pour lui que j'ai fait mon voyage ;</l>
+                            <l xml:id="l303">Son ſecours peut lui ſeul empêcher de tomber</l>
+                            <pb n="130"/>
+                            <l xml:id="l304">Ma maiſon affoiblie &amp; prête à ſuccomber</l>
+                            <l xml:id="l305">Sous le poids des emprunts &amp; des dettes immenſes;</l>
+                            <l xml:id="l306">Où, du rang que je tiens, me forcent les dépenſes.</l>
+                            <l xml:id="l307">Pour briller au dehors, on épuiſe ſes biens,</l>
+                            <l xml:id="l308">Et les malheurs d'autrui m'éclairent ſur les miens.</l>
+                            <l xml:id="l309">Je vois avec effroi tant de nobles célébres,</l>
+                            <l xml:id="l310">Qui, de l'éclat du jour, paſſent dans les ténèvres,</l>
+                            <l xml:id="l311">Et, diſparus ſoudain, ne laiſſent après eux</l>
+                            <l xml:id="l312">Que le bruit de leur chûte &amp; des débris honteux.</l>
+                            <l xml:id="l313">Pour fuir un tel revers, mes ſoins &amp; ma prudence</l>
+                            <l xml:id="l314">D'une riche héritiére ont brigué l'alliance ;</l>
+                            <l xml:id="l315">Pour l'unir à mon fils, tout eſt preſque arrêté.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II02-4">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l316">Madame, ſur ce nœud l'avez vous conſulté ?</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="II02-5">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l317">Je n'ai pas eu le tems ; mais mon fils eſt trop ſage</l>
+                            <l xml:id="l318">Pour ne pas conſentir à ſon propre avantage :</l>
+                            <l xml:id="l319">Je dois, à ce ſujet, ce ſoir l'entretenir,</l>
+                            <l xml:id="l320">Gardez-vous de rien dire &amp; de le prévenir.</l>
+                            <lb/><stage type="exit" rend='italics'>(Elle ſort.)</stage><lb/>
+                        </sp>
+                    </div>
+                    <div type="scene" n="3" xml:id="II03">
+                        <head>SCENE III.</head><lb/>
+                        <sp who="Lucie" xml:id="II03-1">
+                            <speaker>LUCIE </speaker><stage type="delivery" rend="italics">ſeule.</stage><lb/>
+                            <l xml:id="l321"><c type="lettrine">S</c>A noble ambition eſt digne de louange ;</l>
+                            <l xml:id="l322">Cependant <persName n='Leonore'>Léonore</persName> &amp; ſa langueur étrange</l>
+                            <l xml:id="l323">Ne ceſſent un moment d'agiter mon eſprit ;</l>
+                            <l xml:id="l324">Je mets tout en uſage, &amp; rien ne l'en guérit.</l>
+                        </sp>
+                    </div>
+                    <pb n="131"/>
+                    <div type="scene" n="4" xml:id="II04">
+                        <head>SCENE IV.</head><lb/>
+                        <stage>LUCIE, NELTON.</stage><lb/>
+                        <sp who="Nelton" xml:id="II04-1">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l325"><c type="lettrine">M</c>Adame, pardonnez au zèle qui m'entraîne ;</l>
+                            <l xml:id="l326">L'intérêt de mon Maître en ce lieu me raméne ;</l>
+                            <l xml:id="l327">Sur le ſort de ſa flamme, inquiet &amp; troublé,</l>
+                            <l xml:id="l328">Je reviens pour ſçavoir ſi vous avez parlé.</l>
+                            <l xml:id="l329">Une ſi belle ardeur ſera-t-elle écoutée ?</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II04-2">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l330">Tantôt d'un faux eſpoir mon ame s'eſt flattée;</l>
+                            <l xml:id="l331">Et le deſtin du Comte eſt des plus malheureux,</l>
+                            <l xml:id="l332">Le cœur de <persName n='Leonore'>Léonore</persName> eſt contraire à ſes feux.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="II04-3">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l333_1" part="I">Qu'entens-je ?</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II04-4">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l333_2" part="F">Elle a pour lui la plus parfaite eſtime,</l>
+                            <l xml:id="l334"><unclear>Et</unclear> ſent tout le reſpect que ſon mérité imprime ;</l>
+                            <l xml:id="l335">Mais l'hymen eſt pour elle un lien odieux,</l>
+                            <l xml:id="l336">Et la retraite ſeule eſt aimable à ſes yeux.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="II04-5">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l337">Je gémis de ce coup, il accable mon ame !</l>
+                            <l xml:id="l338">Je comptois l'informer du ſuccès de ſa flâme ;</l>
+                            <l xml:id="l339">Je ſuis bien éloigné de ce flatteur eſpoir,</l>
+                            <l xml:id="l340">Je n'ai que des malheurs à lui faire ſçavoir !</l>
+                            <l xml:id="l341">Il a reçu des Cieux l'ame la plus ſenſible ;</l>
+                            <l xml:id="l342">Quelle épreuve pour elle ! Et quel ſuplice horrible !</l>
+                            <l xml:id="l343">Le ſort de ce grand homme eſt digne de pitié ;</l>
+                            <l xml:id="l344">L'amour ne lui prépare, ainſi que l'amitié,</l>
+                            <l xml:id="l345">Pour prix de ſes vertus, que des peines cruelles :</l>
+                            <l xml:id="l346">Il eſt toujours en bute à des rigueurs nouvelles,</l>
+                            <l xml:id="l347">Vieilli par la fatigue, uſé par la douleur,</l>
+                            <l xml:id="l348">Il ne ſurvivra pas à ce dernier malheur.</l>
+                            <l xml:id="l349">A le ſuivre, s'il meurt, mon ame ſera prompte ;</l>
+                            <pb n="132"/>
+                            <l xml:id="l350">Je ne puis être heureux que du bonheur du Comte.</l>
+                            <l xml:id="l351">Mais <persName n='Leonore'>Léonore</persName> eſt-elle infléxible à tel point</l>
+                            <l xml:id="l352_1" part="I">Qu'on ne puiſſe eſpérer ?....</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II04-6">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l352_2" part="F">Ne vous en flattez point ;</l>
+                            <l xml:id="l353">Elle a pris pour le monde une haine mortelle,</l>
+                            <l xml:id="l354">Et l'air qu'elle y reſpire eſt un poiſon pour elle ;</l>
+                            <l xml:id="l355">Il porte, chaque jour, atteinte à ſa ſanté :</l>
+                            <l xml:id="l356">Sa retraite devient une néceſſité.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="II04-7">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l357">Qui peut cauſer en elle un dégoût ſi terrible ?</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II04-8">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l358">Je ne ſçai ; mais il faut qu'il ſoit bien invincible,</l>
+                            <l xml:id="l359">Puiſque ſon Frere même, &amp; leur tendre union,</l>
+                            <l xml:id="l360">Sont moins forts dans ſon cœur que cette averſion.</l>
+                            <l xml:id="l361_1" part="I">Mais on vient. C'eſt lui-même.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="II04-9">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l361_2" part="F">Adieu. Je me retire ;</l>
+                            <l xml:id="l362">Et je vais joindre Milord que je frémis d'inſtruire.</l>
+                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
+                        </sp>
+                    </div>
+                    <div type="scene" n="5" xml:id="II05">
+                        <head>SCENE V.</head><lb/>
+                        <stage>LE MARQUIS, LUCIE.</stage><lb/>
+                        <sp who="Le Marquis" xml:id="II05-1">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l363"><c type="lettrine">A</c>H ! De grace, <persName n='Lucie'>Lucie</persName>, éclairciſſez mon cœur ;</l>
+                            <l xml:id="l364">Depuis hier au ſoir je n'ai pû voir ma Sœur :</l>
+                            <l xml:id="l365_1" part="I">Que fait-elle ? Parlez.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II05-2">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l365_2" part="F">Mais ſa triſteſſe augmente ;</l>
+                            <l xml:id="l366">Et je trouve aujourd'hui ſa ſanté languiſſante.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II05-3">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l367">Qu'entens-je ! Ce diſcours m'allarme vivement.</l>
+                            <l xml:id="l368">Pourquoi n'eſt-elle pas dans ſon apartement ?</l>
+                        </sp>
+                        <pb n="133"/>
+                        <sp who="Lucie" xml:id="II05-4">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l369">Pour vaincre ſon ennui, ſans doute elle eſt ſortie.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II05-5">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l370">Je crains les noirs effets de ſa mélancolie.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II05-6">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l371">Son mal ne ſera rien, ranimez votre eſpoir.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II05-7">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l372">Pour m'en bien aſſurer, je brûle de la voir.</l>
+                            <l xml:id="l373">Depuis sept ou huit jours je la trouve changée,</l>
+                            <l xml:id="l374">Et dans la rêverie elle eſt toujours plongée :</l>
+                            <l xml:id="l375">Mais elle eſt votre amie, &amp; vous ouvre ſon cœur.</l>
+                            <l xml:id="l376">Quelle peine l'occupe &amp; cauſe ſa langueur ?</l>
+                            <l xml:id="l377">Vous ſçavez à ſon ſort combien je m'intéreſſe,</l>
+                            <l xml:id="l378">Et que ſes moindres maux allarment ma tendreſſe :</l>
+                            <l xml:id="l379">Ne me cachez donc plus ce qui peut l'affliger,</l>
+                            <l xml:id="l380">Je ne veux le ſçavoir que pour le partager.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II05-8">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l381">Sans aucun fondement vous avez cette idée.</l>
+                            <l xml:id="l382">Si de quelque chagrin elle étoit obſédée,</l>
+                            <l xml:id="l383">Son cœur, de vous l'aprendre, eût-il pu s'empêcher ?</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II05-9">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l384">Il en eſt qu'à ſoi-même on voudroit ſe cacher.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II05-10">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l385">Un ſouci paſſager peut troubler ſon viſage ;</l>
+                            <l xml:id="l386">Les plus beaux jours, Monſieur, ne ſont pas ſans nuage.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II05-11">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l387">Je ne reconnois pas ma Sœur à ce portrait,</l>
+                            <l xml:id="l388">La raiſon la conduit dans tout ce qu'elle fait.</l>
+                            <l xml:id="l389">Mais je ſuis trop long-tems privé de ſa preſence ;</l>
+                            <l xml:id="l390">Etre une heure loin d'elle, eſt une longue abſence !</l>
+                            <l xml:id="l391">Les momens où je ſuis éloigné de ſes pas,</l>
+                            <l xml:id="l392">Sont des inſtans perdus où mon cœur ne vit pas;</l>
+                            <l xml:id="l393_1" part="I">Et je vole...</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="II05-12">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l393_2" part="F">Elle vient, &amp; je vous laiſſe enſemble.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II05-13">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l394">Sa triſteſſe m'allarme, &amp; près d'elle je tremble.</l>
+                        </sp>
+                        <lb/><stage type="exit" rend="italics">(<persName n='Lucie'>Lucie</persName> ſort.)</stage><lb/>
+                    </div>
+                    <pb n="134"/>
+                    <div type="scene" n="6" xml:id="II06">
+                        <head>SCENE VI.</head><lb/>
+                        <stage>LE MARQUIS, LÉONORE</stage> <stage type="entrance" rend="italics">plongée <lb/> dans la rêverie.</stage><lb/>
+                        <sp who="Léonore" xml:id="II06-1">
+                            <speaker>LEONORE </speaker><stage type="location" rend="italics">ſe trouvant vis-à-vis <lb/> le Marquis.</stage><lb/>
+                            <l xml:id="l395_1" part="I"><c type="lettrine">A</c>H! Mon Frere, c'eſt vous !</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-2">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l395_2" part="F">Qu'avez-vous donc, ma Sœur ?</l>
+                            <l xml:id="l396">D'où naît ſur votre front cette ſombre pâleur ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-3">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l397_1" part="I">Mon Frere, ce n'eſt rien.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-4">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l397_2" part="F">Vous avez beau le taire ;</l>
+                            <l xml:id="l398">L'état où je vous vois m'aſſure le contraire.</l>
+                            <l xml:id="l399">Qu'eſt ce qui vous afflige ? Eh, quoi ! ma Sœur, eh, <lb/> quoi!</l>
+                            <l xml:id="l400">Votre ame, dans ce jour, a des ſecrets pour moi ?</l>
+                            <l xml:id="l401">D'un pareil procédé que faut-il que je penſe ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-5">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l402_1" part="I">Diſſipez vos frayeurs?</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-6">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l402_2" part="F">Rompez donc ce ſilence ;</l>
+                            <l xml:id="l403">Ne déſeſpérez pas un Frere malheureux.</l>
+                            <l xml:id="l404">Au nom de l'amitié qui nous unit tous deux,</l>
+                            <l xml:id="l405">Dévoilez-moi votre ame, &amp; calmez mes allarmes.</l>
+                            <l xml:id="l406">Vous pouſſez des ſoupirs, &amp; vous verſez des larmes,</l>
+                            <l xml:id="l407_1" part="I"><persName n='Leonore'>Léonore</persName> !</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-7">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l407_2" part="M">Fuyons.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-8">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l407_3" part="F">Je ne vous quitte pas</l>
+                            <l xml:id="l408_1" part="I">Que vous ne m'apreniez...</l>
+                        </sp>
+                        <pb n="135"/>
+                        <sp who="Léonore" xml:id="II06-9">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l408_2" part="F">N'arrêtez point mes pas :</l>
+                            <l xml:id="l409">Laiſſez-moi ; je ne puis ni ne dois vous inſtruire.</l>
+                            <l xml:id="l410">Tâchez de m'oublier ; ce mot doit vous ſuffire.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-10">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l411">Quel diſcours ſurprenant ! Ma Sœur, expliquez-vous.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-11">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l412">Je crains de vous porter de trop ſenſibles coups.</l>
+                            <l xml:id="l413">Adieu. Je dois fuir par pitié pour vous-même.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-12">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l414">Non, ma Sœur parlera s'il eſt vrai qu'elle m'aime :</l>
+                            <l xml:id="l415">Son ſilence eſt, pour moi, plus affreux que la mort.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-13">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l416_1" part="I">Où me réduiſez-vous ?</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-14">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l416_2" part="F">J'exige cet effort.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-15">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l417">Puiſque vous me forcez, mon Frere, à vous le dire,</l>
+                            <l xml:id="l418">Du monde, pour jamais, demain je me retire.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-16">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l419">Qu'entes-je! A ce deſſein, qui vous porte aujourd'hui?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-17">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l420">C'eſt le dégoût mortel que j'ai conçû pour lui :</l>
+                            <l xml:id="l421">Chaque pas que j'y fais, me montre un précipice :</l>
+                            <l xml:id="l422">Chaque inſtant que j'y paſſe, ajoûte à mon ſuplice :</l>
+                            <l xml:id="l423">Votre ſœur plus long-tems ne peut y reſpirer ;</l>
+                            <l xml:id="l424">Et mon unique peine, eſt de me ſéparer</l>
+                            <l xml:id="l425">D'une Mere que j'aime, &amp; d'un Frere ſi tendre.</l>
+                            <l xml:id="l426">Je voulois, de ces lieux, partir ſans vous l'aprendre.</l>
+                            <l xml:id="l427">D'un adieu ſi cruel qui déchire mon cœur,</l>
+                            <l xml:id="l428">Je voulois à tous deux épargner la douleur ;</l>
+                            <l xml:id="l429">Je ſentois le danger d'une telle entrevûe,</l>
+                            <l xml:id="l430">Et, pour la détourner , j'évitois votre vûe.</l>
+                            <l xml:id="l431">Je vous ai rencontré, je n'ai pû réſiſter ;</l>
+                            <l xml:id="l432">Et même, en ces inſtans, je me ſens arrêter</l>
+                            <l xml:id="l433">Par un charme puiſſant qui près de vous me lie,</l>
+                            <l xml:id="l434">Et combat ma raiſon qui veut que je vous fuïe.</l>
+                        </sp>
+                        <pb n="136"/>
+                        <sp who="Le Marquis" xml:id="II06-18">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l435">Je demeure immobile à cet affreux diſcours !</l>
+                            <l xml:id="l436">Vous allez me quitter, ma Sœur, &amp; pour toujours !</l>
+                            <l xml:id="l437">Pour la derniére fois je parle à <persName n='Leonore'>Léonore</persName> ;</l>
+                            <l xml:id="l438">Je ne reverrai plus une Sœur que j'adore :</l>
+                            <l xml:id="l439">Une retrait auſtére &amp; des murs odieux</l>
+                            <l xml:id="l440">Vont d'un voile éternel, la cacher à mes yeux ;</l>
+                            <l xml:id="l441">Et, ce qui met le comble à ma douleur extrême,</l>
+                            <l xml:id="l442">C'eſt cette même Sœur qui forme d'elle-même</l>
+                            <l xml:id="l443">Ce barbare deſſein qui doit nous déſunir ;</l>
+                            <l xml:id="l444">Et, de notre amitié perdant le ſouvenir,</l>
+                            <l xml:id="l445">Elle oſe prononcer un arrêt qui me tue.</l>
+                            <l xml:id="l446">Mais voulez-vous en vain vous ſouſtraire à ma vûe,</l>
+                            <l xml:id="l447">Vous ne partirez point, &amp;, d'un pareil projet,</l>
+                            <l xml:id="l448">Mon juſte deſeſpoir empêchera l'effet.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-19">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l449">Arrêtez ! Je frémis ! Que prétendez-vous faire ?</l>
+                            <l xml:id="l450">Pour notre bien commun ma fuite eſt néceſſaire.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-20">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l451">Néceſſaire ! Grand Dieu ! Quand ma mort la ſuivra.</l>
+                            <l xml:id="l452">Quoi ! pour un vain dégoût qu'un inſtant détruira ;</l>
+                            <l xml:id="l453">Vouloir vous arracher à tout ce qui vous aime ;</l>
+                            <l xml:id="l454">A de fauſſes terreurs vous immoler vous-même ;</l>
+                            <l xml:id="l455">M'abandonner enfin, ſans eſpoir de retour,</l>
+                            <l xml:id="l456">Moi qui, loin de ma Sœur, ne puis paſſer un jour,</l>
+                            <l xml:id="l457">Qui ſuporte à regret ſa plus legére abſence,</l>
+                            <l xml:id="l458">Et qui dans elle ſeule ai mis ma confiance.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-21">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l459">Croyez qu'à ces douceurs je m'arrache à regret :</l>
+                            <l xml:id="l460">J'en gémis comme vous ; mais, au choix que j'ai fait,</l>
+                            <l xml:id="l461">Votre intérêt m'engage &amp; mon repos l'exige :</l>
+                            <l xml:id="l462">L'état de ma maiſon en même-tems l'exige :</l>
+                            <l xml:id="l463">Mon Frere doit lui ſeul en être le ſoutien,</l>
+                            <l xml:id="l464">Et j'aime à l'enrichir aux dépens de mon bien.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-22">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l465">C'eſt faire à ma tendreſſe une cruelle offenſe.</l>
+                            <l xml:id="l466">Pour moi le plus grand bien, ah ! c'eſt votre preſence :</l>
+                            <l xml:id="l467">Il n'en eſt point, ſans lui, que je puiſſe goûter,</l>
+                            <pb n="137"/>
+                            <l xml:id="l468">Et de mon propre ſang je voudrois l'acheter :</l>
+                            <l xml:id="l469">Tout plaiſir, ſans ce bien, toute paix m'eſt ravie,</l>
+                            <l xml:id="l470">Et vouloir me l'ôter, c'eſt m'arracher la vie.</l>
+                            <l xml:id="l471">La généroſité que vous me faites voir,</l>
+                            <l xml:id="l472">Prouve que l'amitié ſur vous eſt ſans pouvoir.</l>
+                            <l xml:id="l473">Je ne vous ſuis plus cher, &amp; votre ame inhumaine...</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-23">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l474">Ah ! Vous me l'êtes trop ! C'eſt ce qui fait ma peine.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-24">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l475">C'eſt manquer d'amitié, que d'en craindre l'excès.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-25">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l476">De la vôtre je dois redouter les attraits.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-26">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l477">Eh ! Pourquoi donc, ma ſœur, aprehender ſes char-<lb/>mes ?</l>
+                            <l xml:id="l478">Mon amitié peut-elle exciter vos alarmes ?</l>
+                            <l xml:id="l479">Un tel attachement eſt-il donc défendu !</l>
+                            <l xml:id="l480">En quoi peut-il choquer la ſevére vertu ?</l>
+                            <l xml:id="l481">Le ſang l'a dans mon ame imprimé dès l'enfance,</l>
+                            <l xml:id="l482">Et tous mes ſoins pour vous reſpirent l'innocence.</l>
+                            <l xml:id="l483">Etre toujours enſemble, &amp; ſe complaire en tout,</l>
+                            <l xml:id="l484">N'avoir qu'un ſentiment, qu'un eſprit &amp; qu'un goût,</l>
+                            <l xml:id="l485">Par mille doux égards ſe prouver ſa tendreſſe,</l>
+                            <l xml:id="l486">Et, ſur les moindres vœux, ſe prévenir ſans ceſſe ;</l>
+                            <l xml:id="l487">Tel eſt le nœud flatteur qui m'unit avec vous.</l>
+                            <l xml:id="l488">Devez-vous un moment craindre un lien ſi doux ?</l>
+                            <l xml:id="l489">Ne vous opoſez plus à ma juſte demande,</l>
+                            <l xml:id="l490">Ma ſœur ; ne partez pas, la rigueur eſt trop grande ;</l>
+                            <l xml:id="l491">Laiſſez-moi ſeulement vivre où vous demeurez ;</l>
+                            <l xml:id="l492">Que je partage au moins l'air que vous reſpirez :</l>
+                            <l xml:id="l493">Cet eſpoir peut lui ſeul faire naître ma joie ;</l>
+                            <l xml:id="l494">Et je ſuis trop heureux, pouvû que je vous voie.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-27">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l495">Ah ! Ce même diſcours qui doit m'épouvanter,</l>
+                            <l xml:id="l496">Précipite ma fuite, au lieu de l'arrêter :</l>
+                            <l xml:id="l497">Il a beau déguiſer le poiſon qu'il renferme,</l>
+                            <l xml:id="l498">Dans ſon juſte deſſein mon cœur demeure ferme.</l>
+                            <l xml:id="l499">D'un penchant ſéducteur défions-nous tous deux ;</l>
+                            <pb n="138"/>
+                            <l xml:id="l500">Le crime qui ſe voile eſt le plus dangereux.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-28">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l501">Que dites-vous, ma ſœur ? Et quelle étrange crainte?...</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-29">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l502">Dans le trouble mortel dont mon ame eſt atteinte,</l>
+                            <l xml:id="l503">Je pars, &amp; ne dois plus vous voir ni vous parler :</l>
+                            <l xml:id="l504">Mon cœur même, mon cœur craint de ſe démêler ;</l>
+                            <l xml:id="l505">Il ſent des mouvemens dont à peine il eſt maître,</l>
+                            <l xml:id="l506">Et je ferme les yeux de peur de me connoître.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-30">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l507">Quel horrible ſoupçon vient noircir votre eſprit !</l>
+                            <l xml:id="l508">Ah ! J'en ſuis effrayé, j'en demeure interdit.</l>
+                            <l xml:id="l509">Quoi ! Mon trop d'amitié ſeroit-il condamnable ?</l>
+                            <l xml:id="l510">Sans m'en être aperçû, Dieu ! ſerois-je coupable ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-31">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l511">Le doute ſur ce point ſuffit pour nous quitter.</l>
+                            <l xml:id="l512_1" part="I">Domptez des ſentimens...</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-32">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l512_2" part="F">Eh ! Puis-je les dompter ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-33">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l513">Oui ; de les étouffer vous aurez l'avantage,</l>
+                            <l xml:id="l514">Si de luter contre eux vous avez le courage.</l>
+                            <l xml:id="l515">On ſoumet les deſirs qui ſont bien combattus ;</l>
+                            <l xml:id="l516">Et les vices détruits ſe changent en vertus.</l>
+                            <l xml:id="l517">Qu'en un ſi grand péril votre force ſe montre,</l>
+                            <l xml:id="l518">Et, juſqu'à mon départ, évitez ma rencontre ;</l>
+                            <l xml:id="l519">Elle rendroit ma peine &amp; mon trouble plus forts.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-34">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l520_1" part="I">Qu'exigez-vous de moi ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-35">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l520_2" part="F">Faites-vous ces efforts.</l>
+                            <l xml:id="l521">Apellez, comme moi, la raiſon à votre aide,</l>
+                            <l xml:id="l522">Et ſongez, qu'à nos maux il n'eſt que ce reméde.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-36">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l523">Vous le voulez, hé bien, je vous imiterai ;</l>
+                            <l xml:id="l524">Mais le coup eſt mortel, &amp; j'y ſuccomberai.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-37">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l525">Prenez ſoin de vos jours pour conſoler ma mere;</l>
+                            <pb n="139"/>
+                            <l xml:id="l526_1" part="I">Tout vous l'ordonne.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-38">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l526_2" part="M">Adieu, ma ſœur.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-39">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l526_3" part="F">Adieu, mon frere.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-40">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l527">Pour ne plus nous rejoindre, il nous faut ſéparer.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="II06-41">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l528_1" part="I">Je vais ſortir du monde.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="II06-42">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l528_2" part="F">Et je vais expirer.</l>
+                        </sp>
+                        <lb/><lb/><trailer rend="center" rendition="italics">Fin du ſecond Acte.</trailer>
+                    </div>
+                </div>
+                <pb n="140"/>
+                <div type="acte" n="3" xml:id="III">
+                    <head>ACTE III.</head><lb/>
+                    <div type="scene" n="1" xml:id="III01">
+                        <head>SCENE PREMIERE.</head><lb/>
+                        <stage>LE COMTE, NELTON.</stage><lb/>
+                        <sp who="Le Comte" xml:id="III01-1">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l529"><persName n="Léonore"><c type="lettrine">L</c>EONORE</persName> nous quitte, ô Ciel ! Eſt-il poſſible ?</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="III01-2">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l530_1" part="I">Oui, Monſieur.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III01-3">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l530_2" part="F">Ah ! Quel coup pour mon ame ſenſible !</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="III01-4">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l531">Vous m'en voyez ici, comme vous, abattu :</l>
+                            <l xml:id="l532">Votre eſprit a beſoin de toute ſa vertu.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III01-5">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l533">Aurois-je dû m'attendre au revers qui m'accable !</l>
+                            <l xml:id="l534">Et peut-on éprouver un ſort plus déplorable ?</l>
+                            <l xml:id="l535">C'étoit peu qu'un ami plongé dans le malheur,</l>
+                            <l xml:id="l536">Pendant vingt ans entiers eût nourri ma douleur ;</l>
+                            <l xml:id="l537">C'étoit peu, dans l'exil, &amp; loin de ma patrie,</l>
+                            <l xml:id="l538">D'avoir traîné pour lui la moitié de ma vie : </l>
+                            <l xml:id="l539">Les maux de l'amitié n'étoient pas aſſez forts.</l>
+                            <l xml:id="l540">Il falloit que l'amour y joignit ſes transports !</l>
+                            <l xml:id="l541">J'avois bravé ſes coups au plus fort de l'orage,</l>
+                            <l xml:id="l542">Il m'attendoit au port pour exercer ſa rage ;</l>
+                            <l xml:id="l543">Mes ans de ſa fureur n'ont pû me garantir,</l>
+                            <l xml:id="l544">Pour combler les tourmens qu'il me fait reſſentir ;</l>
+                            <l xml:id="l545">Il me rend dans ces lieux épris d'une maîtreſſe</l>
+                            <l xml:id="l546">Qu'un obſtacle invincible enleve à ma tendreſſe ;</l>
+                            <l xml:id="l547">Un moment à mes yeux il offre ſes attraits,</l>
+                            <l xml:id="l548">Pour embraſer mon ame, &amp; m'en priver après :</l>
+                            <l xml:id="l549">Ce plaiſir eſt payé d'une abſence éternelle,</l>
+                            <pb n="141"/>
+                            <l xml:id="l550">Et ſa vertu me rend ſa perte plus cruelle.</l>
+                            <l xml:id="l551">Mais parles ; n'eſt-il plus d'eſpoir pour mon amour ?</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="III01-6">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l552">Non. Rien ne peut la vaincre ; elle part ſans retour.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III01-7">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l553">C'en eſt fait, pour jamais je vais perdre ſa vûe.</l>
+                            <l xml:id="l554">De qui ſçais-tu, <persName n='Nelton'>Nelton</persName>, ce départ qui me tue ?</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="III01-8">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l555">Monſieur ; tantôt <persName n='Lucie'>Lucie</persName> a ſçu m'en informer ;</l>
+                            <l xml:id="l556">Elle-même qui vient peut vous le confirmer.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III01-9">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l557">Va ſçavoir ſi je puis parler à la Marquiſe.</l>
+                        </sp>
+                        <sp who="Nelton" xml:id="III01-10">
+                            <speaker>NELTON.</speaker><lb/>
+                            <l xml:id="l558">A vos ordre, Monſieur, j'obéis ſans remiſe.</l>
+                        </sp>
+                        <lb/><stage type="exit" rend="italics"><persName n='Nelton'>Nelton</persName> ſort.</stage>
+                    </div>
+                    <div type="scene" n="2" xml:id="III02">
+                        <head>SCENE II.</head><lb/>
+                        <stage></stage><lb/>
+                        <sp who="Le Comte" xml:id="III02-1">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l559"><c type="lettrine">C</c>Roirai-je dans ce jour un bruit qui ſe répand ?</l>
+                            <l xml:id="l560"><persName n='Leonore'>Léonore</persName>, dit-on, entre dans un Couvent.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="III02-2">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l561">Il eſt vrai. Vous voyez ſa compagne fidelle,</l>
+                            <l xml:id="l562">Et moi-même demain je m'y rens avec elle.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III02-3">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l563">Ma ſurpriſe redouble ! Eſt-ce bien pour toujours ?</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="III02-4">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l564">Oui ; nous allons, Monſieur, conſacrer nos jours :</l>
+                            <l xml:id="l565_1" part="I">Le deſſein en eſt pris.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III02-5">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l565_2" part="F">Quel projet eſt le vôtre ?</l>
+                            <l xml:id="l566_1" part="I">Sa mere y conſent ?</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="III02-6">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l566_2" part="M">Oui.</l>
+                        </sp>
+                        <pb n="142"/>
+                        <sp who="Le Comte" xml:id="III02-7">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l566_3" part="F">Mais pourquoi l'un &amp; l'autre,</l>
+                            <l xml:id="l567">Pourquoi quitter le monde ? Eh ! l'air en eſt ſi doux,</l>
+                            <l xml:id="l568">Quand on eſt belle, aimable &amp; faite comme vous.</l>
+                            <l xml:id="l569">D'une jeune beauté qu'il éleve ſans ceſſe,</l>
+                            <l xml:id="l570">Le monde eſt idolâtre, elle en eſt la déeſſe ;</l>
+                            <l xml:id="l571">Pour elle il fait brûler l'encens le plus flatteur,</l>
+                            <l xml:id="l572">Il enchaîne à ſes pas le plaiſir ſéducteur :</l>
+                            <l xml:id="l573">Pour la mieux amuſer, ſes efforts le varient,</l>
+                            <l xml:id="l574">Et, comme ſes deſirs, ſes jeux ſe multiplient.</l>
+                            <l xml:id="l575">Toutes deux préférer une auſtére priſon !</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="III02-8">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l576">Elle y va par penchant, &amp; j'y vais pas raiſon :</l>
+                            <l xml:id="l577">Avec plus de beautés, avec plus de richeſſe,</l>
+                            <l xml:id="l578">Elle court pour jamais enterrer ſa jeuneſſe :</l>
+                            <l xml:id="l579">Son ſacrifice eſt grand beaucoup plus que le mien ;</l>
+                            <l xml:id="l580">Le monde eſt fait pour elle, &amp; moi, je n'y perds rien.</l>
+                            <l xml:id="l581">Son rang dans l'Univers, je m'y vois étrangére,</l>
+                            <l xml:id="l582">Et n'ai d'autre ſoutien que celui de ſa mere.</l>
+                            <l xml:id="l583">J'ai beau devoir le jour à de Nobles parens,</l>
+                            <l xml:id="l584">C'eſt un titre onéreux qui rend mes maux plus grands.</l>
+                            <l xml:id="l585">La naiſſance, ſans bien, eſt un poids dans la vie ;</l>
+                            <l xml:id="l586">Loin de nous élever, elle nous humilie.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III02-9">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l587">Vos charmes, votre ſort &amp; vos péril preſſans,</l>
+                            <l xml:id="l588">Deviennent les objets les plus intéreſſans.</l>
+                            <l xml:id="l589">Vous me faites trembler, puiſqu'il faut vous le dire ;</l>
+                            <l xml:id="l590">Et le nouvel état que vous voulez élire,</l>
+                            <l xml:id="l591">Exige des devoirs, veut des dons ſi parfaits,</l>
+                            <l xml:id="l592">Qu'il eſt, pour le remplir, peu d'eſprits qui ſoient faits</l>
+                            <l xml:id="l593">L'amour du changement, un caprice frivole,</l>
+                            <l xml:id="l594">Un chagrin paſſager, font ſouvent qu'on s'immole :</l>
+                            <l xml:id="l595">On croit dans cet aſile aſſurer ſon repos,</l>
+                            <l xml:id="l596">Et ſouvent on y trouve un ſurcroît à ſes maux.</l>
+                            <l xml:id="l597">D'abord les paſſions pour quelque tems ſommeillent ;</l>
+                            <l xml:id="l598">Mais leurs feux aſſoupis tout à-coup ſe réveillent :</l>
+                            <l xml:id="l599">L'image des douceurs que l'on vient de quitter,</l>
+                            <l xml:id="l600">La fougue des deſirs qu'on ne peut contenter,</l>
+                            <pb n="143"/>
+                            <l xml:id="l601">Sont autant de bourreaux qui déchirent une ame,</l>
+                            <l xml:id="l602">Et portent le remords ſans éteindre la flamme.</l>
+                            <l xml:id="l603">Le déſeſpoir ſurvient, le ſéjour de la paix</l>
+                            <l xml:id="l604">Devient celui du trouble &amp; des mortels regrets,</l>
+                            <l xml:id="l605">Et, du goût des plaiſirs ſentant le violence,</l>
+                            <l xml:id="l606">Dans le ſein des vertus on perd ſon innocence.</l>
+                            <l xml:id="l607">Prête à faire un tel pas, ne précipitez rien ;</l>
+                            <l xml:id="l608">Sentez-en le danger, &amp; conſultez-vous bien.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="III02-10">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l609">Monſieur, je l'avourai, ce tableau m'épouvante</l>
+                            <l xml:id="l610">Et, ſi près du péril, je ſuis toute tremblante.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III02-11">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l611">Vos malheurs ſont pour moi les titres les plus doux ;</l>
+                            <l xml:id="l612">Ce ſont autant de nœuds qui m'attachent à vous.</l>
+                            <l xml:id="l613">Votre pays d'ailleurs, m'a donné la naiſſance,</l>
+                            <l xml:id="l614">C'eſt un nouveau lien qui nous unit en <placeName n="France">France</placeName>;</l>
+                            <l xml:id="l615">J'y ſerai votre apui, n'ayez aucun effroi,</l>
+                            <l xml:id="l616">Et de votre bonheur repoſez-vous ſur moi.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="III02-12">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l617">Pour exprimer l'excès de ma reconnoiſſance,</l>
+                            <l xml:id="l618">Monſieur, en ces inſtans je n'ai que mon ſilence.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III02-13">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l619"><persName n='Leonore'>Léonore</persName> dévroit elle-même ſentir</l>
+                            <l xml:id="l620">Tout le danger d'un choix que ſuit le repentir ;</l>
+                            <l xml:id="l621">Le Ciel ne l'a formée avec tant de mérite,</l>
+                            <l xml:id="l622">Que pour faire l'honneur du monde qu'elle quitte :</l>
+                            <l xml:id="l623">Pour elle, il eſt des cœurs qui n'épargneroient rien ;</l>
+                            <l xml:id="l624">Dans ſon bonheur unique, ils mettroient tout leur bien.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="III02-14">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l625">C'eſt ce qu'à tout moment ma bouche lui répéte :</l>
+                            <l xml:id="l626">Et, parmi tant de cœurs que ſon ame rejette,</l>
+                            <l xml:id="l627">Il en eſt un, ſur-tout, dont j'ai vanté le prix :</l>
+                            <l xml:id="l628">J'ai peint l'amour parfait dont je le ſçais épris ;</l>
+                            <l xml:id="l629">Il n'eſt point de vertus qu'il n'ait en apanage,</l>
+                            <l xml:id="l630">Et la fidélité, ſur-tout, eſt ſon partage.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III02-15">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l631">Eh ! Quel eſt donc ce cœur que vous priſez ſi fort ?</l>
+                            <l xml:id="l632_1" part="I">De grace, répondez.</l>
+                        </sp>
+                        <pb n="144"/>
+                        <sp who="Lucie" xml:id="III02-16">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l632_2" part="F">C'eſt le vôtre, Milord.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III02-17">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l633">Ah ! <persName n='Nelton'>Nelton</persName> vous a dit le ſecret de mon ame.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="III02-18">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l634">Il me l'a confié pour ſervir votre flamme ;</l>
+                            <l xml:id="l635">Il vouloit, avec moi, rendre heureux vos deſtins :</l>
+                            <l xml:id="l636">Le ſecret de vos feux eſt en de ſûres mains,</l>
+                            <l xml:id="l637">Il eſt, pour votre amour, une reſſource encore,</l>
+                            <l xml:id="l638">La Marquiſe, Monſieur, peut tout ſur <persName n='Leonore'>Léonore</persName> ;</l>
+                            <l xml:id="l639">Son reſpect pour ſa mere, apuyé de mes ſoins,</l>
+                            <l xml:id="l640">Peut rompre ce projet, ou le ſuſpendre au moins.</l>
+                            <l xml:id="l641">Oſez tout espérer, pourvû qu'elle différe ;</l>
+                            <l xml:id="l642">Elle a pour vos vertus une eſtime ſincére :</l>
+                            <l xml:id="l643">Si l'on peut la réſoudre à choiſir un époux,</l>
+                            <l xml:id="l644">Soyez ſûr que ſon choix inclinera vers vous.</l>
+                            <l xml:id="l645">Parlez à la Marquiſe, &amp; comptez ſur <persName n='Lucie'>Lucie</persName>.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="3" xml:id="III03">
+                        <head>SCENE III.</head><lb/>
+                        <stage></stage><lb/>
+                        <sp who="Nelton" xml:id="III03-1">
+                            <speaker></speaker><lb/>
+                            <l xml:id="l646"><c type="lettrine">M</c>Onſieur, vos pas ſont vains, &amp; Madame eſt <lb/> ſortie.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="III03-2">
+                            <speaker>LE COMTE </speaker><stage type="delivery" rend="italics">à <persName n='Lucie'>Lucie</persName>.</stage><lb/>
+                            <l xml:id="l647">Adieu. <stage type="delivery" rend="italics">(à part.)</stage> Si mon ardeur n'éclate dans ce jour,</l>
+                            <l xml:id="l648">Sa fille part demain, je la perds ſans retour.</l>
+                            <l xml:id="l649">De parler au plûtôt cette raiſon me preſſe ;</l>
+                            <l xml:id="l650">Dans un ſi grand péril déclarons ma tendreſſe.</l>
+                            <l xml:id="l651">Demandons <persName n='Leonore'>Léonore</persName>, il le faut ſans tarder ;</l>
+                            <l xml:id="l652">Et quand l'amour craint tout, il doit tout haſarder.</l>
+                        </sp>
+                    </div>
+                    <pb n="145"/>
+                    <div type="scene" n="4" xml:id="III04">
+                        <head>SCENE IV.</head><lb/>
+                        <sp who="Lucie" xml:id="III04-1">
+                            <speaker>LUCIE </speaker><stage type="delivery" rend="italics">ſeule.</stage><lb/>
+                            <l xml:id="l653"><c type="lettrine">J</c>E déplore ſon ſort, &amp; je plains <persName n='Leonore'>Léonore</persName> ;</l>
+                            <l xml:id="l654">Chaque moment accroît l'ennui qui la dévore.</l>
+                            <l xml:id="l655">Depuis l'inſtant fatal qu'elle a vû le Marquis,</l>
+                            <l xml:id="l656">Une morne triſteſſe accable ſes eſprits.</l>
+                            <l xml:id="l657">Son état m'épouvante, &amp; ſa peine me touche ;</l>
+                            <l xml:id="l658">Les ſanglots étouffés expirent dans ſa bouche,</l>
+                            <l xml:id="l659">Aucun mot échapé ne ſe mêle avec eux :</l>
+                            <l xml:id="l660">Sa douleur eſt muette, &amp; ſon ſilence affreux.</l>
+                            <l xml:id="l661">J'ai beau la conjurer d'éclaircir mes alarmes :</l>
+                            <l xml:id="l662">Au lieu de me répondre, elle cache ſes larmes :</l>
+                            <l xml:id="l663">Dans le fond de ſon cœur je ne puis pénétrer.</l>
+                            <l xml:id="l664">Si ſa Mere ſçavoit... Mais je la vois rentrer.</l>
+                        </sp>
+                        <lb/><stage type="exit" rend="italics">Elle ſort.</stage>
+                    </div>
+                    <div type="scene" n="5" xml:id="III05">
+                        <head>SCENE V.</head><lb/>
+                        <stage></stage><lb/>
+                        <sp who="La Marquise" xml:id="III05-1">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l665"><name type="person" n="Léonore"><c type="lettrine">L</c>Eonore</name>, aprochés ; il eſt tems que mes mains</l>
+                            <l xml:id="l666">Ecartent le rideau qui voile vos deſtins.</l>
+                            <l xml:id="l667">Du monde, pour toujours, vous allez diſparoître !</l>
+                            <l xml:id="l668">Dans cet inſtant fatal vous devez vous connoître.</l>
+                            <l xml:id="l669">Pour vous faire un état digne de vos ayeux,</l>
+                            <l xml:id="l670">J'ai caché ce ſecret aux regards curieux ;</l>
+                            <l xml:id="l671">Mais, quand vous quittez tout, je ne dois plus rien taire.</l>
+                            <l xml:id="l672">Faiſant briller pour vous tout l'amour d'une Mere,</l>
+                            <l xml:id="l673">J'ai ſur votre perſonne épuiſé mes bontés ;</l>
+                            <l xml:id="l674">Et, malgré tant de ſoins que vous m'avez coûtés,</l>
+                            <pb n="146"/>
+                            <l xml:id="l675">Vous êtes étrangére, &amp; n'êtes point ma fille.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="III05-2">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l676_1" part="I">Qu'entens-je ?</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="III05-3">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l676_2" part="F">Un coup du ſort vous mit dans ma famille.</l>
+                            <l xml:id="l677"><placeName n="Londres">Londres</placeName> eſt votre patrie, &amp; non pas ce ſéjour ;</l>
+                            <l xml:id="l678"><persName n="Sussex">Le Comte de Suſſex</persName> vous y donna le jour :</l>
+                            <l xml:id="l679">Accuſé fauſſement par une brigue lâche,</l>
+                            <l xml:id="l680">Il vit ſon nom flétri d'une éternelle tache ;</l>
+                            <l xml:id="l681">On proſcrivit ſa tête, on confiſqua ſes biens,</l>
+                            <l xml:id="l682">Et l'aveugle fureur dégrada tous les ſiens.</l>
+                            <l xml:id="l683">Aux noirs traits de l'envie injuſtement en priſe,</l>
+                            <l xml:id="l684">Ce malheureux Seigneur ſe ſauva dans <placeName n="Venise">Veniſe</placeName> ;</l>
+                            <l xml:id="l685">Le fidèle <persName n="Neuilly">Neuilli</persName> ſuivit lui ſeul ſes pas,</l>
+                            <l xml:id="l686">Et le Comte périt au milieu des combats.</l>
+                            <l xml:id="l687">Son épouſe avec vous, porta ſes pleurs en <persName n="France">France</persName>;</l>
+                            <l xml:id="l688">Je la vis, ſon air noble annonçoit ſa naiſſance :</l>
+                            <l xml:id="l689">Elle vous reſſembloit. Son malheur me toucha :</l>
+                            <l xml:id="l690">La plus forte amitié d'abord nous attacha ;</l>
+                            <l xml:id="l691">Mais le chagrin bien-tôt finit ſa triſte vie,</l>
+                            <l xml:id="l692">Et le Ciel me priva de cette illuſtre amie.</l>
+                            <l xml:id="l693">La Comteſſe en mourant (j'ai peine à retenir</l>
+                            <l xml:id="l694">Les larmes que m'arrache un ſi dur ſouvenir)</l>
+                            <l xml:id="l695">Vous remit dans mes mains, en vous baignant de <lb/> larmes,</l>
+                            <l xml:id="l696">Et me recommanda votre enfance &amp; vos charmes.</l>
+                            <l xml:id="l697">Je lui jurai pour vous un amour maternel,</l>
+                            <l xml:id="l698">Et j'ai rempli depuis ce ſerment ſolemnel.</l>
+                            <l xml:id="l699">Mon fils n'etoit pas né : je n'avois en partage</l>
+                            <l xml:id="l700">Qu'une fille pour lors à-peu-près de votre âge :</l>
+                            <l xml:id="l701">Pour comble de malheurs, je la perdis, hélas !</l>
+                            <l xml:id="l702">Le jour que votre mere expira dans mes bras.</l>
+                            <l xml:id="l703">Ma douleur profita de cette circonſtance ;</l>
+                            <l xml:id="l704">Et, renfermant en vous toute mon eſpérance,</l>
+                            <l xml:id="l705">Je vous mis en ſa place, &amp; changeai votre ſort.</l>
+                            <l xml:id="l706">De <persName type="person" n="Milady_Sussex">Miledi Suſſex</persName> en publiant la mort,</l>
+                            <l xml:id="l707">Je fis en même-tems répandre la nouvelle</l>
+                            <l xml:id="l708">Que ſa fille, la nuit, étoit morte après elle.</l>
+                            <pb n="147"/>
+                            <l xml:id="l709">Depuis ce même jour vous occupez ſon rang,</l>
+                            <l xml:id="l710">Ma tendreſſe eſt égale à la force du ſang ;</l>
+                            <l xml:id="l711">Et le nœud qui vous tient lié à ma famille,</l>
+                            <l xml:id="l712">Ne ſeroit pas plus fort quand vous ſeriez ma fille.</l>
+                            <l xml:id="l713">Gardez un nom ſi doux, j'aime à le proférer ;</l>
+                            <l xml:id="l714">Et même en ce moment, qui va nous ſéparer,</l>
+                            <l xml:id="l715">Et mettre, à nous revoir, un obſtacle invincible,</l>
+                            <l xml:id="l716">J'éprouve les combats d'une mere ſenſible.</l>
+                            <l xml:id="l717">Je ſouffre, en vous parlant, les plus vives douleurs ;</l>
+                            <l xml:id="l718">Et je ne puis vous voir ſans répandre des pleurs.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="III05-4">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l719">Madame, en ces inſtans les plus grands de ma vie,</l>
+                            <l xml:id="l720">Je demeure affligée, étonnée, attendrie :</l>
+                            <l xml:id="l721">Tant de ſecrets nouveaux que j'aprends à la fois,</l>
+                            <l xml:id="l722">M'ont preſque dérobé l'uſage de la voix ;</l>
+                            <l xml:id="l723">Mon ame &amp; tous mes ſens qu'ils viennnent d'inter-<lb/>dire,</l>
+                            <l xml:id="l724">Succombent ſous ce poids, &amp; n'y ſçauroient ſuffire</l>
+                            <l xml:id="l725">Trop de trouble accompagne un ſort ſi peu com-<lb/>mun ,</l>
+                            <l xml:id="l726">Et j'ai trop de devoirs pour en remplir aucun.</l>
+                            <l xml:id="l727">Je dois pleurer la mort &amp; les malheurs d'un Pere,</l>
+                            <l xml:id="l728">Je dois regretter la perte d'une Mere :</l>
+                            <l xml:id="l729">Je dois remercier votre cœur généreux</l>
+                            <l xml:id="l730">De tout ce qu'il a fait pour moi comme pour eux :</l>
+                            <l xml:id="l731">Je dois en même-tems gémir, au fond de l'ame,</l>
+                            <l xml:id="l732">De tout perdre aujourd'hui, juſqu'au bonheur, Ma-<lb/>dame,</l>
+                            <l xml:id="l733">Que je croyois avoir de vous apartenir.</l>
+                            <l xml:id="l734">Le Ciel, par plus de coups, pouvoit-il me punir ?</l>
+                            <l xml:id="l735">Dans ce comble de maux, tout ce qui me conſole,</l>
+                            <l xml:id="l736">Vous m'avez ordonné, quelle douce parole !</l>
+                            <l xml:id="l737">De conſerver toujours, juſqu'aux derniers ſoupirs,</l>
+                            <l xml:id="l738">Le nom de votre fille où tendent mes deſirs.</l>
+                            <l xml:id="l739">Ah ! Si je ne tiens pas à vous par la naiſſance,</l>
+                            <l xml:id="l740">J'y tiens par les bienfaits &amp; la reconnoiſſance ;</l>
+                            <l xml:id="l741">Et, pour un cœur bien né, je ſens par mon tranſport</l>
+                            <l xml:id="l742">Qu'il n'eſt point de lien plus puiſſant ni plus fort :</l>
+                            <pb n="148"/>
+                            <l xml:id="l743">Je ſens, dans ces momens que je ſuis éclairée,</l>
+                            <l xml:id="l744">Qu'il accroit le reſpect dont m'avoit pénétrée</l>
+                            <l xml:id="l745">La croyance où j'étois de vous devoir le jour.</l>
+                            <l xml:id="l746">Ayant plus fait pour moi, je vous dois plus d'a-<lb/>mour.</l>
+                            <l xml:id="l747">Vos bontés, ſi de vous j'avois reçû la vie,</l>
+                            <l xml:id="l748">Avec plus ſplendeur ne m'auroient pas nourrie ;</l>
+                            <l xml:id="l749">Et quelque ardeur qu'elle ait, ma tendreſſe jamais</l>
+                            <l xml:id="l750">Ne ſçauroit égaler vos ſoins &amp; vos bienfaits.</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="III05-5">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l751">Par-là, vous ajoutez à mon regret ſincére</l>
+                            <l xml:id="l752">Et vous méritez trop que je ſois votre mere :</l>
+                            <l xml:id="l753">J'en garderai toujours les tendres ſentimens.</l>
+                            <l xml:id="l754">Adieu. Votre préſence augmente mes tourmens.</l>
+                            <l xml:id="l755">Tenés votre ſecret dans un profond ſilence,</l>
+                            <l xml:id="l756">Et de vos fiers tyrans redoutés la puiſſance.</l>
+                        </sp>
+                        <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage><lb/>
+                    </div>
+                    <div type="scene" n="6" xml:id="IIIO6">
+                        <head>SCENE VIII.</head><note resp="Joséphine Loterie">Erreur de l'éditeur, il s'agit de la scène VI.</note><lb/>
+                        <sp who="Léonore" xml:id="III06-1">
+                            <speaker>LEONORE </speaker><stage rend="italics" type="delivery">ſeule.</stage><lb/>
+                            <l xml:id="l757"><c type="lettrine">R</c>Eſpirons ! De ſon fils je ne ſuis pas la ſœur,</l>
+                            <l xml:id="l758">Et je ſens ſuccomber la joye à la douleur ;</l>
+                            <l xml:id="l759">Je puis l'aimer ſans crime, &amp; je puis le lui dire.</l>
+                            <l xml:id="l760">Quelle douceur ! Déja je brûle de l'inſtruire.</l>
+                            <l xml:id="l761">Mon frere, en l'aprenant, quel ſera ſon tranſport !</l>
+                            <l xml:id="l762">O Ciel ! Un jour plus tard, ſi j'euſſe apris mon ſort,</l>
+                            <l xml:id="l763">J'allois lier mes vœux d'une chaîne éternelle,</l>
+                            <l xml:id="l764">Je ne puis y ſonger ſans une horreur mortelle.</l>
+                            <l xml:id="l765">O vous ! jeunes beautés, qu'un amour malheureux</l>
+                            <l xml:id="l766">Pouſſe à franchir trop vite un pas ſi dangereux,</l>
+                            <l xml:id="l767">Tremblés ! Que mon exemple aujourd'hui vous <supplied>ar-</supplied><lb/>rête,</l>
+                            <l xml:id="l768">Et craignés les regrets qu'un tel choix vous aprête</l>
+                            <l xml:id="l769">Attendés le moment, tout changera pour vous,</l>
+                            <pb n="149"/>
+                            <l xml:id="l770"><supplied>Et</supplied> du ſein de l'orage, il naît un tems plus doux.</l>
+                            <l xml:id="l771"><supplied>Mais</supplied> je ne ſonge pas que d'un bien qu'il ignore,</l>
+                            <l xml:id="l772"><supplied>Je</supplied> dévrois informer un Amant qui m'adore ;</l>
+                            <l xml:id="l773">J'y vole. Son état a beſoin de ſecours :</l>
+                            <l xml:id="l774">Chaque inſtant que je perds met en danger ſes jours.</l>
+                        </sp>
+                        <lb/>
+                        <lb/>
+                        <lb/>
+                        <trailer rend="center" rendition="italics">Fin du troiſiéme Acte.</trailer>
+                    </div>
+                </div>
+                <pb n="150"/>
+                <div type="acte" n="4" xml:id="IV">
+                    <head>ACTE IV.</head><lb/>
+                    <div type="scene" n="1" xml:id="IV01">
+                        <head>SCENE PREMIERE.</head><lb/>
+                        <stage>LA MARQUISE LUCIE.</stage><lb/>
+                        <sp who="La Marquise" xml:id="IV01-1">
+                            <speaker>LA MARQUISE</speaker><lb/>
+                            <l xml:id="l775"><c type="lettrine">J</c>E ne vois pas mon fils. Quel charme ailleurs l'atire ?</l>
+                            <l xml:id="l776">De ſon heureux hymen il eſt tems de l'inſtruire :</l>
+                            <l xml:id="l777">Il doit, ſans différer, lui-même y conſentir.</l>
+                            <l xml:id="l778">Les momens nous ſont chers. Qu'on aille l'avertir.</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="IV01-2">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l779">Je cours pour ſatisfaire à votre impatience.</l>
+                            <l xml:id="l780">Mais, Madame, voilà le Comte qui s'avance.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="2" xml:id="IV02">
+                        <head>SCENE II.</head><lb/>
+                        <stage>LA COMTE LA MARQUISE.</stage><lb/>
+                        <sp who="Le Comte" xml:id="IV02-1">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l781"><c type="lettrine">M</c>Adame, je vous vois, &amp; mon cœur tranſporté</l>
+                            <l xml:id="l782">Goute enfin un bonheur que j'ai tant ſouhaité.</l>
+                            <l xml:id="l783">Du <persName n="Sussex">Comte de Suſſex</persName> l'ami fidèle &amp; tendre</l>
+                            <l xml:id="l784">Brûloit de s'acquitter du devoir qu'il doit rendre</l>
+                            <l xml:id="l785">Au génereux apui de ſa triſte Maiſon.</l>
+                            <l xml:id="l786">Vos bontés ont tout fait en faveur de ſon nom :</l>
+                            <l xml:id="l787">Vous avez dans l'exil, protégé ſa famille,</l>
+                            <l xml:id="l788">Et comblé de vos dons ſon épouſe &amp; ſa fille.</l>
+                            <l xml:id="l789">Pénétré de leur ſort , je viens pour les pleurer,</l>
+                            <l xml:id="l790">Pour honorer leur cendre &amp; pour vous admirer.</l>
+                        </sp>
+                        <pb n="151"/>
+                        <sp who="La Marquise" xml:id="IV02-2">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l791"><supplied>J'aur</supplied>ois voulu du ſort réparer l'injuſtice,</l>
+                            <l xml:id="l792"><supplied>Et</supplied> vous élevez trop un ſi foible ſervice,</l>
+                            <l xml:id="l793"><supplied>J</supplied>e lui dois dans ce jour l'honneur que je reçois :</l>
+                            <l xml:id="l794_1" part="I">Ce bonheur eſt ſi grand...</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="IV02-3">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l794_2" part="F">Il eſt plus grand pour moi :</l>
+                            <l xml:id="l795">Trop ſûr que la Comteſſe &amp; ſa fille après elle,</l>
+                            <l xml:id="l796">Ont rejoint mon ami dans la nuit éternelle,</l>
+                            <l xml:id="l797">Je puis préſentement après avoir rendu</l>
+                            <l xml:id="l798">A leurs mânes chéris tout ce qui leur eſt dû,</l>
+                            <l xml:id="l799">Je puis agir pour moi près de leur Protectrice,</l>
+                            <l xml:id="l800">Sans que leur voix s'en plaigne &amp; leur ombre en gé-<lb/>miſſe.</l>
+                            <l xml:id="l801">Je ſuis venu d'abord voir en vous leur apui.</l>
+                            <l xml:id="l802">Un intérêt nouveau me conduit aujourd'hui.</l>
+                            <l xml:id="l803">Je vous ſuis attaché par la forte eſtime :</l>
+                            <l xml:id="l804">Je voudrois l'être encore par un nœud plus intime.</l>
+                            <l xml:id="l805">Pardonnés, mais mon cœur ne ſçauroit reculer ;</l>
+                            <l xml:id="l806">Il n'a que cet inſtant, Madame, pour parler.</l>
+                            <l xml:id="l807">Un Couvent doit demain enfermer <persName n='Leonore'>Léonore</persName>...</l>
+                            <l xml:id="l808">Et ce mot échapé <sic>nous</sic> dit que je l'adore.</l>
+                            <l xml:id="l809">Ma flamme vous ſurprend. Dans l'eſpace d'un jour,</l>
+                            <l xml:id="l810">Au ſein de la douleur, je ſuccombe à l'amour.</l>
+                            <l xml:id="l811">Mais contre la beauté, que peut notre ſageſſe ?</l>
+                            <l xml:id="l812">Il m'eſt doux, quand je ſuis ſouis à la tendreſſe,</l>
+                            <l xml:id="l813">De voir que votre fille eſt du moins mon vainqueur.</l>
+                            <l xml:id="l814">C'étoit à votre ſang que je devois mon cœur.</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV02-4">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l815"> Monſieur, le noble aveu d'une flamme ſi belle</l>
+                            <l xml:id="l816">Flatte trop <persName n='Leonore'>Léonore</persName>, &amp; moi même avec elle ;</l>
+                            <l xml:id="l817">Elle ne peut attendre un plus heureux deſtin.</l>
+                            <l xml:id="l818">Puiſqu'il faut l'avouer , je ſens un vrai chagrin</l>
+                            <l xml:id="l819">Qu'elle ait pour la retraite un penchant invincible :</l>
+                            <l xml:id="l820">Je tremble que ce goût ne la rende inflexible ;</l>
+                            <l xml:id="l821">Et quelque glorieux que ſoit un tel lien,</l>
+                            <l xml:id="l822">La raiſon me défend de la gêner en rien.</l>
+                        </sp>
+                        <pb n="152"/>
+                        <sp who="Le Comte" xml:id="IV02-5">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l823">De l'éxiger moi-même, ah ! je ſuis incapable.</l>
+                            <l xml:id="l824">Si vers la ſolitude un attrait véritable</l>
+                            <l xml:id="l825">Entraîne conſtamment ſon eſprit retiré,</l>
+                            <l xml:id="l826">Malgré la vive ardeur dont je ſuis dévoré ;</l>
+                            <l xml:id="l827">J'inclinerai toujours vers le parti qu'elle aime.</l>
+                            <l xml:id="l828">Son bonheur m'eſt cent fois plus cher que le mien <lb/>même.</l>
+                            <l xml:id="l829">J'aſpire au nom d'Epoux, &amp; non pas de tyran ;</l>
+                            <l xml:id="l830">Et de la liberté je ſuis trop partiſan.</l>
+                            <l xml:id="l831">Tout ce que je demande eſt, par un eſprit ſage,</l>
+                            <l xml:id="l832">De retarder encore pour ſon propre avantage,</l>
+                            <l xml:id="l833">Peut-être ſon penchant n'eſt qu'un goût paſſager</l>
+                            <l xml:id="l834">Qu'un moment a produit, qu'un inſtant peut changer.</l>
+                            <l xml:id="l835">S'il eſt tel que je dis, ſouffrés que j'en profite.</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV02-6">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l836">C'eſt le moins que je doive à votre vrai mérite.</l>
+                            <l xml:id="l837">Je veux bien différer, &amp; perſonne que vous,</l>
+                            <l xml:id="l838">De mon conſentement, ne ſera ſon époux :</l>
+                            <l xml:id="l839">Vous avez ſur ſon cœur plus de droit que tout autre ;</l>
+                            <l xml:id="l840">Et je m'aplaudirois d'unir ſon ſort au vôtre.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="IV02-7">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l841">Qu'une telle aſſurance à pour moi de douceur !</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV02-8">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l842">Mais ce n'eſt pas aſſez de ce diſcours flatteur,</l>
+                            <l xml:id="l843">Il faut d'un autre prix payer ce que vous êtes :</l>
+                            <l xml:id="l844">Votre eſtime pour moi, vos qualités parfaites,</l>
+                            <l xml:id="l845">Votre nom, en un mot, tout me fait une loi</l>
+                            <l xml:id="l846">De confier ici, Monſieur, à votre foi</l>
+                            <l xml:id="l847">Un ſecret important qui, vous comblant de joye,</l>
+                            <l xml:id="l848_1" part="I">Va vous...</l>
+                        </sp>
+                    </div>
+                    <pb n="153"/>
+                    <div type="scene" n="3" xml:id="IV03">
+                        <head>SCENE III.</head><lb/>
+                        <stage>LA COMTE, LA MARQUISE, LUCIE.</stage><lb/>
+                        <sp who="Lucie" xml:id="IV03-1">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l848_2" part="F"><c type="lettrine">A</c>H! Dans le trouble où mon ame eſt en proïe</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV03-2">
+                            <speaker>LA MARQUISE </speaker>
+                            <stage type="delivery" rend="italics">à <persName n='Lucie'>Lucie</persName>.</stage><lb/>
+                            <l xml:id="l849">Quel eſt donc le ſujet d'un tel ſaiſiſſement ?</l>
+                        </sp>
+                        <sp who="Lucie" xml:id="IV03-3">
+                            <speaker>LUCIE.</speaker><lb/>
+                            <l xml:id="l850">Madame, votre Fils ſe meurt dans ce moment ;</l>
+                            <l xml:id="l851">Rien ne peut diſſiper ſa foibleſſe cruelle ,</l>
+                            <l xml:id="l852">Et ſon front eſt couvert d'une pâleur mortelle.</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV03-4">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l853">Je vole à ſon ſecours, &amp; ſuccombe à ce trait.</l>
+                            <l xml:id="l854">Adieu, Comte ; tantôt vous ſçaurez mon ſecret.</l>
+                        </sp>
+                        <lb/><stage type="exit" rend="italics">(Elle ſort, avec <persName n='Lucie'>Lucie</persName>.)</stage><lb/>
+                    </div>
+                    <div type="scene" n="4" xml:id="IV04">
+                        <head>SCENE IV.</head><lb/>
+                        <sp who="Le Comte" xml:id="IV04-1">
+                            <speaker>LE COMTE </speaker><stage rend="italics" type="delivery">ſeul.</stage><lb/>
+                            <l xml:id="l855"><c type="lettrine">C</c>E coup eſt accablant, pour elle j'en ſoupire,</l>
+                            <l xml:id="l856">Mais quel eſt le ſecret qu'elle vouloit me dire ?</l>
+                            <l xml:id="l857">Regarde-t'il <persName n="Sussex">Suſſex</persName>, ou touche-t'il mes feux?</l>
+                            <l xml:id="l858">S'il les favoriſoit, que j'en ſerois heureux !</l>
+                        </sp>
+                        <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
+                    </div>
+                    <pb n="154"/>
+                    <div type="scene" n="5" xml:id="IV05">
+                        <head>SCENE V.</head><lb/>
+                        <stage>LE MARQUIS LEONORE</stage><lb/>
+                        <sp who="Léonore" xml:id="IV05-1">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l859"><c type="lettrine">M</c>On frere, rapellez votre ame évanouie ;</l>
+                            <l xml:id="l860">Venez, &amp; que d'un mot je vous ſauve la vie.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-2">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l861_1" part="I">Non. Laiſſez-moi mourir.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="IV05-3">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l861_2" part="F">Quittez ce noir deſſein,</l>
+                            <l xml:id="l862">Tout vous invite à vivre ; aprenez le deſtin....</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-4">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l863">Quand vous m'allez quitter, vous voulez que je vive !</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="IV05-5">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l864">Je ne vous quitte plus ; &amp; ma joie eſt ſi vive....</l>
+                            <l xml:id="l865">Mon frere, écoutez-moi ; ſongeons à profiter</l>
+                            <l xml:id="l866">Du moment ou mon cœur peut la faire éclater.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-6">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l867">Non, je n'écoute rien. Quand mon ame eſt mourante,</l>
+                            <l xml:id="l868">Vous montrez à mes yeux une joie offenſante,</l>
+                            <l xml:id="l869_1" part="I">Cruelle !</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="IV05-7">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l869_2" part="F">Je n'en eus jamais tant de ſujet.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-8">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l870">Ah ! Peux-tu me percer d'un plus ſenſible trait ?</l>
+                            <l xml:id="l871">Eſt-ce d'abandonner un frere qui t'adore,</l>
+                            <l xml:id="l872">Et contraint de cacher le feu qui le dévore ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="IV05-9">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l873">Des tranſports que je fais éclater devant vous,</l>
+                            <l xml:id="l874">Ah ! la ſource eſt plus pure, &amp; le motif plus doux !</l>
+                            <l xml:id="l875">Rien ne condamne plus notre juſte tendreſſe :</l>
+                            <l xml:id="l876">Donnés un libre cours à l'amour qui vous preſſe.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-10">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l877_1" part="I">Que dites-vous ?</l>
+                        </sp>
+                        <pb n="155"/>
+                        <sp who="Léonore" xml:id="IV05-11">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l877_2" part="F">Je dis que tout doit vous calmer : </l>
+                            <l xml:id="l878">Vous n'êtes pas mon frere, &amp; vous pouvez m'aimer.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-12">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l879">Je ne ſuis pas ſon frere ! O Ciel Puis-je le croire ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="IV05-13">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l880">Non, vous ne l'êtes pas, pour mon bien, pour ma <lb/> gloire.</l>
+                            <l xml:id="l881">Je n'ai pas vû le jour dans ce climat heureux.</l>
+                            <l xml:id="l882">Du <persName n="Neuilly">Comte de Neuilli</persName> <choice><sic>;</sic><corr>,</corr></choice> c'eſt l'ami ſi fameux,</l>
+                            <l xml:id="l883">Le <persName n="Sussex">comte de Suſſex</persName> dont je tiens la naiſſance :</l>
+                            <l xml:id="l884">Et ce ſont ſes malheurs qui m'ont conduit en <placeName n="France">France</placeName>:</l>
+                            <l xml:id="l885">Votre mere, elle-même, aujourd'hui m'a tout dit.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-14">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l886">Arrêtez ! Ménagez ce paſſage ſubit</l>
+                            <l xml:id="l887">De l'extrême douleur à la joie exceſſive :</l>
+                            <l xml:id="l888">Il donne une ſecouſſe, &amp; ſi prompte, &amp; ſi vive</l>
+                            <l xml:id="l889">A mes ſens ébranlés, qu'ils vont ſe déſunir ;</l>
+                            <l xml:id="l890">Et je crains d'expirer d'un excès de plaiſir.</l>
+                            <l xml:id="l891">Vous n'êtes pas ma ſœur, ma chere <persName n='Leonore'>Léonore</persName> !</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="IV05-15">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l892_1" part="I">Non, je ne la ſuis pas.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-16">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l892_2" part="F">Ah ! Répétez-le encore.</l>
+                            <l xml:id="l893">D'un bonheur ſi parfait qu'il n'oſoit eſpérer,</l>
+                            <l xml:id="l894">Mon cœur, mon tendre cœur ne peut trop s'aſſurer.</l>
+                            <l xml:id="l895">Ce titre qui faiſoit ma peine &amp; ma contraite,</l>
+                            <l xml:id="l896">Je puis le prononcer ſans rougeur &amp; ſans crainte !</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="IV05-17">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l897_1" part="I">O ! mon frere !</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-18">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l897_2" part="F">O ma ſœur ! Que ce nom a d'apas,</l>
+                            <l xml:id="l898">A préſent que je ſçai que vous ne l'êtes pas !</l>
+                            <l xml:id="l899">Jouiſſons de concert de la douleur extrême</l>
+                            <l xml:id="l900">De nous dire, ma ſœur, mon frere, je vous aime:</l>
+                            <l xml:id="l901">Proférons mille fois tous deux des mots ſi doux,</l>
+                            <l xml:id="l902">Et ne changeons ces noms que pour celui d'époux.</l>
+                        </sp>
+                        <pb n="156"/>
+                        <sp who="Léonore" xml:id="IV05-19">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l903">Oui, j'aime à les redire, &amp; j'aime à les entendre ;</l>
+                            <l xml:id="l904">Nous les avons portés dès l'âge le plus tendre.</l>
+                            <l xml:id="l905">Sous des titres ſi chers déguiſant ſon vrai nom,</l>
+                            <l xml:id="l906">L'amour a dans nos cœurs prevenu la raiſon ;</l>
+                            <l xml:id="l907">Avant qu'elle régnât, il étoit notre maître,</l>
+                            <l xml:id="l908">Et je brûlois pour vous avant de me connoître.</l>
+                            <l xml:id="l909">Si l'on m'avoit, dès-lors, revélé mes deſtins,</l>
+                            <l xml:id="l910">Qu'on nous eût épargné de trouble &amp; de chagrins !</l>
+                            <l xml:id="l911">Sûrs de nos ſentimens &amp; de notre innocence,</l>
+                            <l xml:id="l912">Avec quelle douceur, avec quelle aſſurance</l>
+                            <l xml:id="l913">Nous nous fuſſions livrés à nos tendres tranſports !</l>
+                            <l xml:id="l914">Que d'inſtans au plaiſir ont volé les remords !</l>
+                            <l xml:id="l915">Grand Dieu ! Je m'étonnois qu'une flamme ſi pure</l>
+                            <l xml:id="l916">Pût offenſer tes loix, &amp; bleſſer la nature ;</l>
+                            <l xml:id="l917">Et, démentant la voix de ces remords cruels,</l>
+                            <l xml:id="l918">Nos feux étoient trop beaux pour être criminels.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-20">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l919">Nous ſommes détrompés d'une erreur ſi fatale,</l>
+                            <l xml:id="l920">Quel heureux changement ! Il n'eſt rien qui l'égale :</l>
+                            <l xml:id="l921">Le bien qui nous arrive eſt à ſon plus haut point</l>
+                            <l xml:id="l922">Et, de le répéter, je ne me laſſe point.</l>
+                            <l xml:id="l923">Oui, l'amour pour nous ſeuls a fait un tel miracle ;</l>
+                            <l xml:id="l924">Nous pouvons nous aimer &amp; nous voir ſans obſtacle.</l>
+                            <l xml:id="l925">Comme moi, ſentez-vous, après tant de tourmens,</l>
+                            <l xml:id="l926">Sentez-vous la douceur d'un retour ſi charmant ?</l>
+                            <l xml:id="l927">Songez-vous que les nœuds d'une flatteur hyménée</l>
+                            <l xml:id="l928">Vont à tous vos momens unir ma deſtinée ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="IV05-21">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l929">J'y ſonge avec tranſport ; mais, dans ce même jour,</l>
+                            <l xml:id="l930">Si le pas que j'ai fait nuiſoit à notre amour,</l>
+                            <l xml:id="l931">S'il formaoit un obſtacle au bonheur où j'aſpire ?</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV05-22">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l932">Quelle crainte eſt la vôtre ? Et qu'oſez-vous me dire ?</l>
+                            <l xml:id="l933">Par un trait de vertu vous avez fait ce pas ;</l>
+                            <l xml:id="l934">Il vous eſt glorieux, &amp; ne vous force pas.</l>
+                            <l xml:id="l935">Ma mere me chérit, vous en êtes aimée ;</l>
+                            <l xml:id="l936">De nos feux mutuels elle ſera charmée :</l>
+                            <pb n="157"/>
+                            <l xml:id="l937">Vos graces, vos vertus, votre rang qu'elle ſçait,</l>
+                            <l xml:id="l938">Sa tendreſſe pour vous, &amp; tout ce qu'elle a fait,</l>
+                            <l xml:id="l939">Vous répondent trop bien de l'aveu de ſon ame ;</l>
+                            <l xml:id="l940">Et je jure à vos pieds, par l'ardeur qui m'enflâme,</l>
+                            <l xml:id="l941">Par cette chére main qui peut me rendre heureux,</l>
+                            <l xml:id="l942">De ne ſouffrir jamais qu'on forme d'autres nœuds.</l>
+                            <l xml:id="l943">Je jure qu'il n'eſt point d'effort ni de puiſſance,</l>
+                            <l xml:id="l944">Qui puiſſent déſormais ébranler ma constance,</l>
+                            <l xml:id="l945">Et, qu'en dépit du ſort, je tiendrai mon ſerment.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="6" xml:id="IV06">
+                        <head>SCENE VI.</head><lb/>
+                        <stage>LE MARQUIS , LEONORE. <lb/> LA MARQUISE.</stage><lb/>
+                        <sp who="La Marquise" xml:id="IV06-1">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l946"><c type="lettrine">J</c>E cherche en vain mon Fils. Mais quel étonne-<lb/>ment !</l>
+                            <l xml:id="l947">Mon Fils, que faites-vous aux pieds de <persName n='Leonore'>Léonore</persName> ?</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV06-2">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l948">Mon cœur qui la connoît, lui jure qu'il l'adore,</l>
+                            <l xml:id="l949">Madame ; &amp;, dans ce jour, il oſe ſe flatter</l>
+                            <l xml:id="l950">Qu'aprouvant le tranſport qu'il a fait éclater,</l>
+                            <l xml:id="l951_1" part="I">Vous voudrez....</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV06-3">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l951_2" part="F">Levez-vous. Que votre ame modére</l>
+                            <l xml:id="l952">L'ardeur de ce tranſport qui ſurprend votre Mere.</l>
+                            <l xml:id="l953"><persName n='Leonore'>Léonore</persName>, j'ai lieu de me plaindre de vous ;</l>
+                            <l xml:id="l954">Vous avez, méritant mon trop juſte courroux,</l>
+                            <l xml:id="l955">Contre mes volontés &amp; contre ma priére,</l>
+                            <l xml:id="l956">Révélé des ſecrets que vous auriez dû taire,</l>
+                            <l xml:id="l957">Et qui peuvent troubler l'ordre de ma maiſon.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="IV06-4">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l958">Madame, pardonnez ; je l'ai dû par raiſon:</l>
+                            <l xml:id="l959">Pour ſauver votre Fils d'une perte prochaine,</l>
+                            <l xml:id="l960">Si je n'avois parlé, ſa mort étoit certaine.</l>
+                        </sp>
+                        <pb n="158"/>
+                        <sp who="La Marquise" xml:id="IV06-5">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l961">C'en eſt aſſez. Rentrez dans votre apartement.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="7" xml:id="IV07">
+                        <head>SCENE VII.</head><lb/>
+                        <stage>LA MARQUISE, LE MARQUIS.</stage><lb/>
+                        <sp who="Le Marquis" xml:id="IV07-1">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l962"><c type="lettrine">J</c>E ne ſçai que penſer d'un pareil traitement.</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV07-2">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l963">Avec douleur, mon Fils, je dois ici vous dire</l>
+                            <l xml:id="l964">Qu'au choix de votre cœur je ne ſçaurois ſouſcrire.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV07-3">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l965">Ciel ! A tant de rigueur qui peut donc vous porter ?</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV07-4">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l966">Des obſtacles puiſſans qu'on ne peut ſurmonter :</l>
+                            <l xml:id="l967">Et, puiſqu'il faut, mon Fils, que je vous en inſtruiſe,</l>
+                            <l xml:id="l968">Au <persName n="Neuilly">Comte de Neuilli</persName> <persName n='Leonore'>Léonore</persName> eſt promiſe.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV07-5">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l969">Quoi ! Ma Mere, aux dépens de mes vœux les plus <lb/> doux....</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV07-6">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l970">D'une riche héritiére elle a fait choix pour vous.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV07-7">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l971">Sans l'aveu de mon cœur ! Qui vous y détermine ?</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV07-8">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l972">L'état de ma maiſon qui touche à ſa ruine.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="IV07-9">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l973">Non, vous ne le ſçauriez rétablir à ce prix,</l>
+                            <l xml:id="l974">Puiſqu'il en coûteroit le jour à votre fils,</l>
+                            <l xml:id="l975">Je ſens pour <persName n='Leonore'>Léonore</persName> une ſi vive flâme,</l>
+                            <l xml:id="l976">Qu'elle anime mon ſang, qu'elle tient à mon ame :</l>
+                            <l xml:id="l977">Rien ne peut l'en ôter. Jugez de mon ardeur,</l>
+                            <l xml:id="l978">Puiſque je l'adorois, en la croyant ma ſœur.</l>
+                            <l xml:id="l979">Craignez pour moi l'état d'où je ſors tout-à-l'heure ;</l>
+                            <l xml:id="l980">Si vous nous ſéparez, il faudra que je meure.</l>
+                            <pb n="159"/>
+                            <l xml:id="l981">Il n'eſt que deux partis, décidez de mon ſort ;</l>
+                            <l xml:id="l982">Donnez-loi <persName n='Leonore'>Léonore</persName>, ou donnez-moi la mort.</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="IV07-10">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l983">C'eſt un premier tranſport, j'excuſe ſa foibleſſe ;</l>
+                            <l xml:id="l984">Le tems le calmera, mon Fils, &amp; je vous laiſſe.</l>
+                            <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage>
+                        </sp>
+                    </div>
+                    <div type="scene" n="8" xml:id="IV08">
+                        <head>SCENE VIII.</head><lb/>
+                        <sp who="Le Marquis" xml:id="IV08-1">
+                            <speaker>LE MARQUIS </speaker><stage type="delivery" rend="italics">ſeul.</stage><lb/>
+                            <l xml:id="l985"><c type="lettrine">N</c>On , le tems ne fera qu'augmenter ma fureur.</l>
+                            <l xml:id="l986">Que ne me laiſſoit-on mourir dans mon erreur ?</l>
+                            <l xml:id="l987">Quand je croyois brûler d'une ardeur criminelle,</l>
+                            <l xml:id="l988">La mort, à mes regards, étoit bien moins cruelle,</l>
+                            <l xml:id="l989">Que la perte d'un bien que je me ſuis promis,</l>
+                            <l xml:id="l990">Et qui m'eſt enlevé quand il devient permis.</l>
+                        </sp>
+                        <lb/><lb/><trailer rend="center" rendition="italics">Fin de quatriéme Acte.</trailer>
+                    </div>
+                </div>
+                <pb n="160"/>
+                <div type="acte" n="5" xml:id="V">
+                    <head>ACTE V.</head><lb/>
+                    <div type="scene" n="1" xml:id="V01">
+                        <head>SCENE PREMIERE.</head><lb/>
+                        <stage>LE MARQUIS, LEONORE.</stage><lb/>
+                        <sp who="Le Marquis" xml:id="V01-1">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l991"><c type="lettrine">R</c>Épondez, <persName n='Leonore'>Léonore</persName>, à mon impatience ;</l>
+                            <l xml:id="l992">Parlez, ne laiſſez pas mon eſprit en balance ;</l>
+                            <l xml:id="l993">Avez-vous de ma Mere adouci les rigueurs ?</l>
+                            <l xml:id="l994_1" part="I">Et puis-je me flatter....</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V01-2">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l994_2" part="F">Jugez-en par mes pleurs :</l>
+                            <l xml:id="l995">Ils n'ont pû la changer ; ſon ame eſt infléxible,</l>
+                            <l xml:id="l996">D'autant plus qu'à nos maux elle paroît ſenſible,</l>
+                            <l xml:id="l997">Qu'elle combat nos vœux par effort de raiſon,</l>
+                            <l xml:id="l998">Et que j'ai contre moi le bien de ſa maiſon.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="V01-3">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l999">Pour faire mon bonheur &amp; ſon propre avantage,</l>
+                            <l xml:id="l1000">Eh quoi, n'avez-vous pas tous les dons en partage ?</l>
+                            <l xml:id="l1001">C'eſt l'amour mutuel, c'eſt l'accord des humeurs,</l>
+                            <l xml:id="l1002">Qui ſeuls du mariage aſſurent les douceurs.</l>
+                            <l xml:id="l1003">Le perfide intérêt, l'affreuſe politique,</l>
+                            <l xml:id="l1004">Enfantent le divorce &amp; le feu domeſtique ;</l>
+                            <l xml:id="l1005">Ils ne forment des nœuds qu'afin d'en abuſer,</l>
+                            <l xml:id="l1006">Et n'uniſſent les cœurs que pour les diviſer :</l>
+                            <l xml:id="l1007">Ma Mere, pour les croire, eſt aujourd'hui cruelle,</l>
+                            <l xml:id="l1008">Et moi, pour mon repos, je dois être rebelle.</l>
+                            <l xml:id="l1009">Venez, plus d'un parent dont je ſuis adoré,</l>
+                            <l xml:id="l1010">Vous offrira contre elle un aſyle aſſuré ;</l>
+                            <l xml:id="l1011_1" part="I">Là nous pourrons lier....</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V01-4">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1011_2" part="F">O Ciel ! Quelle entrepriſe !</l>
+                            <l xml:id="l1012">Qui? Moi, me dérober des bras de la Marquiſe!</l>
+                            <pb n="161"/>
+                            <l xml:id="l1013"><supplied>S</supplied>uivant de vos eſprits l'aveugle paſſion,</l>
+                            <l xml:id="l1014"><supplied>Cau</supplied>ſer &amp; partager votre rebellion!</l>
+                            <l xml:id="l1015"><supplied>M</supplied>oi, payer d'un tel prix ſes bienfaits, ſa tendreſſe !</l>
+                            <l xml:id="l1016"><supplied>Q</supplied>ue juſqu'au déshonneur je porte ma foibleſſe !</l>
+                            <l xml:id="l1017"><supplied>Et</supplied> m'oubliant ainſi.... Non, ne l'eſpérez pas ;</l>
+                            <l xml:id="l1018"><supplied>V</supplied>ous me verriez plûtôt affronter le trépas.</l>
+                            <l xml:id="l1019">Tout mon bonheur dépend de me voir votre épouſe;</l>
+                            <l xml:id="l1020"><supplied>M</supplied>ais je ſuis à tel point de mon devoir jalouſe,</l>
+                            <l xml:id="l1021"><supplied>Qu</supplied>'en dépit de ma flamme, &amp; malgré votre feu,</l>
+                            <l xml:id="l1022">Je ne la deviendrai que de ſon propre aveu :</l>
+                            <l xml:id="l1023">Autant que votre amour votre eſtime m'eſt chere,</l>
+                            <l xml:id="l1024">Et, ſi je vous croyois, je perdrois la derniére.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="V01-5">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l1025_1" part="I">Que prétendez-vous donc ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V01-6">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1025_2" part="F">Réprimer votre ardeur :</l>
+                            <l xml:id="l1026">Votre gloire l'exige ainſi que mon honneur ;</l>
+                            <l xml:id="l1027">Pour vous-même je dois me conſerver ſans tache :</l>
+                            <l xml:id="l1028">Et, ſi j'oſois tenter une fuite ſi lâche,</l>
+                            <l xml:id="l1029">Le pas déshonorant que je ferois pour vous,</l>
+                            <l xml:id="l1030">Satisfaiſant l'amant, feroit rougir l'époux.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="V01-7">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l1031">La fuite, quel que ſoit le préjugé ſévére,</l>
+                            <l xml:id="l1032">Ne fait jamais rougir quand elle eſt néceſſaire.</l>
+                            <l xml:id="l1033_1" part="I">L'hymen....</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V01-8">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1033_2" part="F">Non, d'un tel nœud je ſens trop le danger :</l>
+                            <l xml:id="l1034">Et, ſans frémiſſement, je ne puis y ſonger.</l>
+                            <l xml:id="l1035">Si nous formions tous deux cette chaîne coupable,</l>
+                            <l xml:id="l1036">Votre mere armeroit ſon pouvoir redoutable ;</l>
+                            <l xml:id="l1037">Perdant de votre épouſe, &amp; la titre, &amp; les droits,</l>
+                            <l xml:id="l1038">Je ſerois malheureuſe &amp; blâmée à la fois :</l>
+                            <l xml:id="l1039"><persName n='Leonore'>Léonore</persName> de vous ſe verroit ſéparée,</l>
+                            <l xml:id="l1040">Et, pour comble d'horreur, vivroit déshonorée.</l>
+                            <l xml:id="l1041">Non, vous brûlez pour moi d'un trop parfait amour,</l>
+                            <l xml:id="l1042">Pour vouloir m'expoſer à cet affreux retour.</l>
+                            <l xml:id="l1043">Par le deſtin cruel, ſi je ſuis maltraitée,</l>
+                            <l xml:id="l1044">J'ai du moins la douceur de me voir reſpectée ;</l>
+                            <pb n="162"/>
+                            <l xml:id="l1045">Et c'eſt toujours un bien de pouvoir, dans mon ſort,</l>
+                            <l xml:id="l1046">Soupirer ſans reproche, &amp; pleurer ſans remord.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="V01-9">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l1047">Mais, ſi vous demeurez dans ce ſéjour funeſte,</l>
+                            <l xml:id="l1048">On prépare pour vous un nœud que je déteſte ;</l>
+                            <l xml:id="l1049">Le <persName n="Neuilly">Comte de Neuilli</persName> va m'enlever ma ſœur,</l>
+                            <l xml:id="l1050">Et, de tous ſes apas, ſe voir le poſſeſſeur.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V01-10">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1051">Raſſurez-vous, jamais je ne ſerai ſa femme ;</l>
+                            <l xml:id="l1052">Rien ne doit, rien ne peut y contraindre mon ame.</l>
+                            <l xml:id="l1053">De la Marquiſe, en tout, je révére la loi ;</l>
+                            <l xml:id="l1054">Mais je ſçai que ma main ne dépend que de moi.</l>
+                            <l xml:id="l1055">Vous poſſédez mon cœur; je régne ſur le vôtre ;</l>
+                            <l xml:id="l1056">Mon devoir me défend d'en épouſer un autre :</l>
+                            <l xml:id="l1057">Rien ne peut ébranler un cœur comme le mien,</l>
+                            <l xml:id="l1058">Quand il a la raiſon &amp; l'honneur pour ſoutien.</l>
+                            <l xml:id="l1059">Je <supplied>j</supplied>ure d'être à vous, ou de n'être à perſonne,</l>
+                            <l xml:id="l1060">Ma tendreſſe le veut, ma gloire me l'ordonne ;</l>
+                            <l xml:id="l1061">Toutes deux à mon cœur parlent également,</l>
+                            <l xml:id="l1062">Et fiez-vous à lui de remplir me ſerment.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="V01-11">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l1063">Je vais revoir ma mere, &amp; ſûr de votre flamme,</l>
+                            <l xml:id="l1064">Faire un dernier effort pour déſarmer ſon ame,</l>
+                            <l xml:id="l1065">Adieu. Si mes ſoupirs ſont encore ſuperflus,</l>
+                            <l xml:id="l1066">Mon cœur déſeſpéré ne ſe contraindra plus,</l>
+                            <l xml:id="l1067">Des plus grandes fureurs il deviendra capable,</l>
+                            <l xml:id="l1068">Et, pour vous obtenir, croira tout pardonnable.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="2" xml:id="V02">
+                        <head>SCENE II.</head><lb/>
+                        <sp who="Léonore" xml:id="V02-1">
+                            <speaker>LEONORE </speaker><stage rend="italics" type="delivery">ſeule.</stage><lb/>
+                            <l xml:id="l1069"><c type="lettrine">V</c>It-on jamais amans plus malheureux que nous ?</l>
+                            <l xml:id="l1070">Et peut-on être en butte à de plus rudes coups?</l>
+                            <l xml:id="l1071">A peine délivrés du poids honteux du crime,</l>
+                            <l xml:id="l1072">Nous voyons tout s'armer contre un feu légitime.</l>
+                            <pb n="163"/>
+                            <l xml:id="l1073">Mais le Comte paroît ; je ſens, à ſon aſpect,</l>
+                            <l xml:id="l1074">Un mouvement mêlé de crainte &amp; de reſpect.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="3" xml:id="V03">
+                        <head>SCENE III.</head><lb/>
+                        <stage>LE COMTE, LEONORE.</stage><lb/>
+                        <sp who="Le Comte" xml:id="V03-1">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1075"><c type="lettrine">M</c>Adame, en ce moment, je doute ſi je veille ;</l>
+                            <l xml:id="l1076">Le bruit le plus flatteur a frappé mon oreille :</l>
+                            <l xml:id="l1077">On dit que, par l'effet d'un heureux changement,</l>
+                            <l xml:id="l1078">Le monde ne perd plus ſon plus grand ornement ;</l>
+                            <l xml:id="l1079">On ajoute, &amp; j'attens votre aveu pour le croire,</l>
+                            <l xml:id="l1080">Que d'y fixer vos pas je dois avoir la gloire,</l>
+                            <l xml:id="l1081">Et, qu'au gré de mes vœux, le plus beau des liens</l>
+                            <l xml:id="l1082">Doit enchaîner, ce ſoir, vos jours avec les miens.</l>
+                            <l xml:id="l1083">Vous me voyez ſurpris de ce bonheur inſigne,</l>
+                            <l xml:id="l1084">D'autant plus que mes ſoins n'ont pû m'en rendre digne,</l>
+                            <l xml:id="l1085">Qu'à vos yeux mon amour a paru s'oublier,</l>
+                            <l xml:id="l1086">Et n'a pas conſulté votre cœur le premier.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V03-2">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1087">Il eſt vrai, la Marquiſe ordonne cette fête ;</l>
+                            <l xml:id="l1088_1" part="I">Mais, Monſieur...</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="V03-3">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1088_2" part="F">Achevez. Quel trouble vous arrête ?</l>
+                            <l xml:id="l1089">O Ciel ! Je vois des pleurs qui coulent de vos yeux!</l>
+                            <l xml:id="l1090">Aurois-je le malheur de vous être odieux ?</l>
+                            <l xml:id="l1091">Et m'auroit-on flatté d'une fauſſe eſpérance ?</l>
+                            <l xml:id="l1092">Parlez ; à vos deſirs feroit-on violence ?</l>
+                            <l xml:id="l1093">Daignez me dévoiler vos ſentimes ſecrets,</l>
+                            <l xml:id="l1094">Je prendrai leur parti contre mes intérêts.</l>
+                            <l xml:id="l1095">De l'Hymen que j'attens dépend me bien ſuprême ;</l>
+                            <l xml:id="l1096">Mais, Madame, je veux le tenir de vous-même.</l>
+                            <l xml:id="l1097">De ma félicité j'aurois trop à rougir,</l>
+                            <l xml:id="l1098">S'il devoit à votre ame en coûter un ſoupir.</l>
+                            <l xml:id="l1099">J'aime mieux voir cent fois mon attente déçue,</l>
+                            <pb n="164"/>
+                            <l xml:id="l1100">Et mourir du regret de vous avoir perdue,</l>
+                            <l xml:id="l1101">Que de vous poſſéder par des liens contraints,</l>
+                            <l xml:id="l1102">Qui ſans joindre nos cœurs, uniroient nos deſtins.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V03-4">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1103">Ce diſcours m'enhardit à rompre le ſilence,</l>
+                            <l xml:id="l1104">Et vous méritez trop toute ma confiance ;</l>
+                            <l xml:id="l1105">Un homme tel que vous, fait ma règle aujourd'hui,</l>
+                            <l xml:id="l1106">Et veut des procédés auſſi nobles que lui.</l>
+                            <l xml:id="l1107">Perſonne, plus que moi, ne vous eſt redevable ;</l>
+                            <l xml:id="l1108">Et, par plus d'un endroit, vous m'êtes reſpectable.</l>
+                            <l xml:id="l1109">Ce qui fait ma douleur, tout mon ſang répandu</l>
+                            <l xml:id="l1110">Ne ſçauroit m'acquitter de ce qui vous eſt dû.</l>
+                            <l xml:id="l1111">Rendre vos jours heureux, eſt ma plus forte envie ;</l>
+                            <l xml:id="l1112">Pour un bonheur ſi doux je donnerois ma vie :</l>
+                            <l xml:id="l1113">Et cependant, tel eſt mon ſort infortuné,</l>
+                            <l xml:id="l1114">Que, malgré mes efforts, mon eſprit entraîné</l>
+                            <l xml:id="l1115">Ne ſçauroit procurer votre bien qu'il ſouhaite :</l>
+                            <l xml:id="l1116">Ce bien rendroit ma joye &amp; ma gloire parfaite,</l>
+                            <l xml:id="l1117">Mais il m'eſt interdit même par mon devoir ;</l>
+                            <l xml:id="l1118">Ce qui doit l'aſſurer, n'eſt plus en mon pouvoir :</l>
+                            <l xml:id="l1119">Un autre, par malheur, un autre a ma tendreſſe ;</l>
+                            <l xml:id="l1120">Par effort de vertu je vous dis ma foibleſſe ;</l>
+                            <l xml:id="l1121">Et cet aveu ſi rare &amp; ſi cruel pour nous,</l>
+                            <l xml:id="l1122">Vous prouve juſqu'où va mon eſtime pour vous.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="V03-5">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1123">De ce coup imprévû, je frémis, je ſoupire,</l>
+                            <l xml:id="l1124">Et, dans le même-tems, mon eſprit vous admire.</l>
+                            <l xml:id="l1125">Mais, Madame, achevez de me percer le cœur,</l>
+                            <l xml:id="l1126">Et dites-moi le nom de votre heureux vainqueur.</l>
+                        </sp>
+                    </div>
+                    <pb n="165"/>
+                    <div type="scene" n="4" xml:id="V04">
+                        <head>SCENE IV.</head><lb/>
+                        <stage>LE COMTE, LEONORE, <sic></sic><corr><lb/> LE MARQUIS.</corr></stage><lb/>
+                        <sp who="Le Marquis" xml:id="V04-1">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l1127"><c type="lettrine">C</c>Omte, il n'eſt plus de frein à l'ardeur qui m'en-<lb/>traine,</l>
+                            <l xml:id="l1128">Et, dans mon deſeſpoir, je me poſſéde à peine :</l>
+                            <l xml:id="l1129">Connoiſſez un rival à ce bouillant tranſport ;</l>
+                            <l xml:id="l1130">Votre hymen qu'on prépare eſt l'arrêt de ma mort.</l>
+                            <l xml:id="l1131">Nous nous aimons tous deux dès l'age le plus tendre:</l>
+                            <l xml:id="l1132_1" part="I">Et l'on m'arrachera....</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="V04-2">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1132_2" part="F">Dieu ! Que viens-je d'entendre ?</l>
+                            <l xml:id="l1133">Il aime <persName n='Leonore'>Léonore</persName>, &amp; j'en frémis d'horreur.</l>
+                            <l xml:id="l1134_1" part="I">Son frere !</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V04-3">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1134_2" part="M">Il ne l'eſt pas.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="V04-4">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1134_3" part="F">Vous n'êtes pas ſa ſœur ?</l>
+                            <l xml:id="l1135_1" part="I">Et de qui donc êtes-vous ? Répondez.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V04-5">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1135_2" part="F">Je ſuis née</l>
+                            <l xml:id="l1136">D'une race auſſi noble &amp; plus infortunée.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="V04-6">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1137">Parlez, rien n'eſt égal au trouble que je ſens.</l>
+                            <l xml:id="l1138_1" part="I">Quel eſt votre pays ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V04-7">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1138_2" part="M"><placeName n="Londres">Londres</placeName>.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="V04-8">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1138_3" part="F">Et vos parens</l>
+                            <l xml:id="l1139_1" part="I">Reſpirent-ils encore ?</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V04-9">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1139_2" part="F">Non ; je n'ai plus de mere,</l>
+                            <pb n="166"/>
+                            <l xml:id="l1140">Et vous étiez l'ami de mon malheureux pere.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="V04-10">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1141">Du Comte de <persName n="Sussex">Suſſex</persName>, ah ! vous êtes le ſang.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V04-11">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1142">Oui. Que dans votre cœur je reprenne ſon rang.</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="V04-12">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1143">D'un ami tant pleuré j'embraſſe donc la fille,</l>
+                            <l xml:id="l1144">Elle que je croyois morte avec ſa famille ;</l>
+                            <l xml:id="l1145">Et dans un même objet qui fixe mes eſprits,</l>
+                            <l xml:id="l1146">L'amour &amp; l'amitié ſe trouvent réunis :</l>
+                            <l xml:id="l1147">Ce que le premier perd, l'autre ici le retrouve,</l>
+                            <l xml:id="l1148">Et rien n'eſt comparable à tout ce que j'éprouve.</l>
+                            <l xml:id="l1149">Je ne puis m'enpêcher de gémir comme amant,</l>
+                            <l xml:id="l1150">Et je ſuis, comme ami, dans le raviſſement.</l>
+                            <l xml:id="l1151">La joie &amp; la douleur, la pitié, la ſurpriſe,</l>
+                            <l xml:id="l1152">A des tranſports divers mettent mon cœur en priſe,</l>
+                            <l xml:id="l1153">Et forment un trait incertain &amp; confus,</l>
+                            <l xml:id="l1154">Où l'ame eſt partagée, &amp; ne ſe connoit plus.</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V04-13">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1155">Que l'amitié, Monſieur, demeure la maîtreſſe :</l>
+                            <l xml:id="l1156">D'une fille, pour vous, j'ai toute la tendreſſe.</l>
+                            <l xml:id="l1157">D'un pere, en ma faveur, prenez les ſentimes,</l>
+                            <l xml:id="l1158">Et laiſſez-vous toucher par mes gémiſſemens.</l>
+                            <l xml:id="l1159">Il ne me reſte plus de parens dans le monde,</l>
+                            <l xml:id="l1160">Ce n'eſt que ſur vous ſeul que mon eſpoir ſe fonde ;</l>
+                            <l xml:id="l1161">La Marquiſe devient inſenſible aujourd'hui,</l>
+                            <l xml:id="l1162">Et mon malheur eſt ſûr, ſi je n'ai votre apui.</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="V04-14">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l1163">Ce ſpectacle touchant rend mon ame interdite ;</l>
+                            <l xml:id="l1164">Et je ſens, à mon tour, la pitié qui m'agite.</l>
+                            <l xml:id="l1165">Fortune ! contre moi falloit-il ſuſciter</l>
+                            <l xml:id="l1166">Un rival que je dois &amp; plaindre &amp; reſpecter ?</l>
+                        </sp>
+                        <sp who="Le Comte" xml:id="V04-15">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1167">Je ne puis ſoutenir une attaque ſi vive ;</l>
+                            <l xml:id="l1168">Du Comte, en même-tems, j'entends la voix plaintive</l>
+                            <l xml:id="l1169">Je l'entens dans mon cœur me répéter tout bas.</l>
+                            <l xml:id="l1170">Ces mots qu'il proféra mourant entre mes bras :</l>
+                            <l xml:id="l1171">Cher <persName n="Neuilly">Neuilli</persName>, me dit-il, la mort m'eſt favorable,</l>
+                            <pb n="167"/>
+                            <l xml:id="l1172">Ma femme avec ma fille eſt tout ce qui m'accable ;</l>
+                            <l xml:id="l1173">Leur deſtin malheureux eſt digne de pitié ;</l>
+                            <l xml:id="l1174">Elles n'ont pour tout bien que ta ſeule amitié ;</l>
+                            <l xml:id="l1175">A ma fille, ſur-tout, ton aide eſt néceſſaire ;</l>
+                            <l xml:id="l1176">Daigne la ſecourir &amp; lui ſervir de pere :</l>
+                            <l xml:id="l1177">Je vous en ſervirai, j'en ai fait ſerment,</l>
+                            <l xml:id="l1178">Et je vais le remplir dans ce même moment.</l>
+                            <l xml:id="l1179">J'ouvre les yeux. L'amour n'eſt pas fait pour mon âge</l>
+                            <l xml:id="l1180">La ſolide amitié doit être mon partage :</l>
+                            <l xml:id="l1181">C'en eſt fait, dans mon ame elle reprend ſes droits,</l>
+                            <l xml:id="l1182">Et, pour la ſignaler, je rentre ſous ſes loix.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="5" xml:id="V05">
+                        <head>SCENE V.</head><lb/>
+                        <stage>LE COMTE, LE MARQUIS, LEONORE, <lb/> LA MARQUISE.</stage><lb/>
+                        <sp who="Le Comte" xml:id="V05-1">
+                            <speaker>LE COMTE.</speaker><lb/>
+                            <l xml:id="l1183"><c type="lettrine">D</c>U <persName n="Sussex">Comte de Suſſex</persName> la fille m'eſt connue,</l>
+                            <l xml:id="l1184">Madame, &amp; mon amour expire à cette vûe :</l>
+                            <l xml:id="l1185">Un ſentiment plus juſte, un ſoin plus généreux,</l>
+                            <l xml:id="l1186">M'occupent maintenant, &amp; me parlent pour eux.</l>
+                            <l xml:id="l1187">Ils s'aiment d'une ardeur parfaite &amp; mutuelle ;</l>
+                            <l xml:id="l1188">Je rougirois de rompre une union ſi belle ;</l>
+                            <l xml:id="l1189">Loin de les traverſer, je dois les ſoutenir ;</l>
+                            <l xml:id="l1190">Ils ſont faits l'un pour l'autre, &amp; daignez les unir.</l>
+                            <l xml:id="l1191">Beauté, vertu, naiſſance, elle a tout en partage ;</l>
+                            <l xml:id="l1192">La fortune, il eſt vrai, n'eſt pas ſon apanage ;</l>
+                            <l xml:id="l1193">Mais ma vive amitié, pour hâter ce lien,</l>
+                            <l xml:id="l1194">L'adopte pour ma fille, &amp; lui donne mon bien.</l>
+                            <l xml:id="l1195">Un véritable ami doit tenir lieu de pere,</l>
+                            <l xml:id="l1196">Et c'eſt votre deſtin d'être toujours ſa mere.</l>
+                        </sp>
+                        <sp who="La Marquise" xml:id="V05-2">
+                            <speaker>LA MARQUISE.</speaker><lb/>
+                            <l xml:id="l1197">Je me ſens attendrir de tout ce que je voi,</l>
+                            <l xml:id="l1198">Monſieur, &amp; votre exemple eſt une loi pour moi.</l>
+                            <pb n="168"/>
+                            <stage type="delivery" rend="italics">à <persName n='Leonore'>Léonore</persName>.</stage><lb/>
+                            <l xml:id="l1199">Pour la ſeconde fois entrez dans ma famille,</l>
+                        </sp>
+                        <sp who="Léonore" xml:id="V05-3">
+                            <speaker>LEONORE.</speaker><lb/>
+                            <l xml:id="l1200">Madame, qu'il m'eſt doux de reſter votre fille !</l>
+                        </sp>
+                        <sp who="Le Marquis" xml:id="V05-4">
+                            <speaker>LE MARQUIS.</speaker><lb/>
+                            <l xml:id="l1201">Ah, ma mere ! Ah, Monſieur ! j'ai trop peu d'une <lb/> voix</l>
+                            <l xml:id="l1202">Pour vous remercier du bien que je vous dois.</l>
+                        </sp>
+                        <lb/><lb/><lb/><trailer rend="center" rendition="italics">FIN.</trailer>
+                    </div>
+                </div>
+        </body>
+    </text>
+</TEI>

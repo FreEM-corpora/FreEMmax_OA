@@ -1,0 +1,2012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Relation de la querelle de Malezieu avec l'Académie Française</title>
+            <title type="subtitle">Édition électronique</title>
+            <author>Regnier Desmarais</author>
+            <principal>
+               <persName>
+               <forename>Ioana</forename>
+               <surname>Galleron</surname>
+               <abbr>IG</abbr>
+                  <affiliation>Université de Paris III (Paris, France)</affiliation>
+                 </persName>
+            </principal>
+            <respStmt>
+               <resp>Mis au format numérique par</resp>
+               <persName>
+                  <forename>Ioana</forename>
+                  <surname>Galleron</surname>
+                  <abbr>IG</abbr>
+               </persName>
+              </respStmt>
+          </titleStmt>
+         <publicationStmt>
+            <publisher>LICoRN</publisher>
+            <pubPlace>Lorient</pubPlace>
+            <address>
+               <addrLine>http://www.licorn-research.fr</addrLine>
+            </address>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed
+                  under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0
+                  International </licence>
+            </availability>
+            <idno type="handle">11280/ce360734</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+               </msIdentifier>
+               <head>Relation de la querelle de Malesieu avec l'Academie françoise, arrivée à la fin
+                  de l'année 1704, et recueil des vers qui ont esté faits à cette occasion.</head>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <p>Édition réalisée d'après le facsimilé publié en ligne <ptr
+                              target="http://gallica.bnf.fr/ark:/12148/btv1b9058953d?rk=21459;2"
+                           /></p>
+                     </supportDesc>
+                     </objectDesc>
+               </physDesc>
+            </msDesc>
+            <listBibl>
+               <head>Liste des autres témoins avec lesquels le texte a été confronté</head>
+               <bibl xml:id='ChM'>
+                  <title>Recueil de chansons, vaudeville, sonnets, épigrammes, épitaphes, et autres vers satiriques et historiques, avec des remarques curieuses, depuis 1700 jusques en 1706</title>, dit <title>Chansonnier de Maurepas</title>
+                  <citedRange>Vol. X, p. 349-377</citedRange>
+                  <idno>Manuscrits français 12625</idno>
+                  </bibl>
+               <bibl xml:id='PEF'>
+                  <title>Pièces échappées du feu</title>
+                  <pubPlace>A Plaisance</pubPlace>
+                  <date>1717</date>
+                  <idno type="BNF_Catalogue">16_Z_1192</idno>
+               </bibl>
+               <bibl xml:id="RPRF">
+                  <title>Recueil de pièces rares et facétieuses, anciennes et modernes, en vers et en prose, remises en lumière pour l'esbattement des Pantagruélistes, avec le concours d'un bibliophile.</title>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>A. Barraud</publisher>
+                  <date>1873</date>
+                  <citedRange>tome quatrième, p. 31-41.</citedRange>
+               </bibl>
+               <bibl xml:id="PCarnaval">
+                  <author>Caron, Pierre-Siméon</author>
+                  <title>Le Plat de carnaval, ou les beignets apprêtés par Guillaume Bonnepâte, pour remettre en appétit ceux qui l'ont perdu.</title>
+                  <note>Le texte porte une fausse adresse: "A Bonne-Huile, chez Feu-clair, rue de la Poêle, à la Pomme de reinette, l'an dix-huit-cent-d'oeufs.</note>
+                  <citedRange>p. 20-29</citedRange>
+               </bibl>
+               <bibl xml:id="Jullien_CC">
+                  <author>Jullien, Adolphe</author>
+                  <title>La Comédie à la cour. Les théâtres de société royale pendant le siècle dernier.</title>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Librairie Firmin Didot et Cie</publisher>
+                  <date>1885</date>
+                  <citedRange>p. 57-67.</citedRange>
+               </bibl>
+               <bibl xml:id="Bled_CC">
+                  <author>Du Bled, Victor</author>
+                  <title>Les Comédiennes de la cour</title>
+                  dans <title>Revue des deux mondes</title>
+                  <pubPlace>Paris</pubPlace>
+                  <date>1891</date>
+                  <citedRange>Tome cent-sixième, LXIe année, troisième période</citedRange>
+                  <note resp="IG">L'article est disponible via Wikisource.</note>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>Liste des airs cités dans le texte</head>
+               <bibl xml:id="A1">
+                  <title>Il a battu son petit frère</title>
+                  <note>Air non identifié. Il est utilisé au moins depuis 1669 (voir citation par Eugène Sue.)</note>
+               </bibl>
+               <bibl xml:id="A2">
+                  <title>Mais</title>
+                 <note resp="IG">Air non identifié.</note>
+               </bibl>
+               <bibl xml:id="A3">
+                  <title>Confiteor</title>, voir <title>Mon père je viens devant vous</title>
+                  <idno>air no. 10</idno> dans
+                  <author>Lesage</author> et <author>D'Orneval</author>
+                  <title>Le Théâtre de la Foire ou l'Opéra comique</title>
+                  tome I, 
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Etienne Ganeau</publisher>
+                  <date>1721</date>
+                  <citedRange>Table des airs, p. 3.</citedRange>
+                  <note>L'air peut être écouté sur le site <ptr target="http://www.theaville.org/kitesite/index.php?r=vaudevilles"/></note>
+               </bibl>
+               <bibl xml:id="A4">
+                  <title>Enfants de Bacchus</title>
+                  <note resp="IG">Air non identifié. Un <title>Second tome du concert des Enfants de Bacchus</title> est publié en 1628, à Paris, chez Charles Hulpeau, mais il n'a pas été trouvé d'air des "Enfants de Bacchus et de l'Amour".</note>
+               </bibl>
+               <bibl xml:id="A5">
+                  <title>Fifres et tambours</title>
+                  <note resp="IG">Air non identifié.</note>
+               </bibl>
+               <bibl xml:id="A6">
+                  <title>Joconde</title>
+                  <idno>air no. 13</idno> dans
+                  <author>Lesage</author> et <author>D'Orneval</author>
+                  <title>Le Théâtre de la Foire ou l'Opéra comique</title>
+                  tome I, 
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Etienne Ganeau</publisher>
+                  <date>1721</date>
+                  <citedRange>Table des airs, p. 3.</citedRange>
+                  <note>L'air peut être écouté sur le site <ptr target="http://www.theaville.org/kitesite/index.php?r=vaudevilles"/></note>
+                 </bibl>
+               <bibl xml:id="A7">
+                  <title>Laire la lan laire</title>
+                  <idno>air no. 23</idno> dans
+                  <title>Les Parodies du nouveau théâtre italien</title>
+                  tome second,
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Briasson</publisher>
+                  <date>1738</date>
+               </bibl>
+               <bibl xml:id="A8">
+                  <title>La Sénéchalle</title>
+                  <note resp="IG">Air non identifié.</note>
+               </bibl>
+               <bibl xml:id="A9">
+                  <title>Juge qui te déplace</title>
+                  Voir
+                  <title>Chanson contre M... D...</title> dans
+                  <title>Oeuvres du Sr. Rousseau, contenant ses poésies</title>
+                  <pubPlace>Rotterdam</pubPlace>
+                  <publisher>Fritz et Bohm</publisher>
+                  <date>1712</date>
+                  <citedRange>tome I, p. 273</citedRange>
+               </bibl>
+            </listBibl>
+            <listPerson>
+               <head>Personnes citées dans la relation et le recueil.</head>
+               <person xml:id="NM" xml:base="https://fr.wikipedia.org/wiki/Nicolas_de_Mal%C3%A9zieu">
+                  <persName>
+                     <forename>Nicolas</forename>
+                     <nameLink>de</nameLink>
+                     <surname >Malezieu</surname>
+                  </persName>
+                  <birth>7 septembre 1650</birth>
+                  <death>4 mars 1727</death>
+                  <idno type="URI">http://viaf.org/viaf/24610992</idno>
+                  <socecStatus>Membre de l'Académie française (1701-1727).</socecStatus>
+                  <socecStatus>chancelier de Dombes</socecStatus>
+                 </person>
+               <person xml:id="RD" xml:base='https://fr.wikipedia.org/wiki/Fran%C3%A7ois-S%C3%A9raphin_R%C3%A9gnier-Desmarais'>
+                  <persName >
+                     <forename>François-Séraphin</forename>
+                     <surname >Regnier Desmarais</surname>
+                  </persName>
+                  <socecStatus>Secrétaire perpétuel de l'Académie Française entre 1683 et 1713.</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/7495117/</idno>
+               </person>
+               <person xml:id="DDM" xml:base="https://fr.wikipedia.org/wiki/Louis-Auguste_de_Bourbon_(1670-1736)">
+                  <persName>
+                     <forename>Louis-Auguste</forename>
+                     <nameLink>de</nameLink>
+                     <surname >Bourbon</surname>
+                    </persName>
+                  <birth>31 mars 1670</birth>
+                  <death>14 mai 1736</death>
+                  <socecStatus>duc du Maine</socecStatus>
+                  <socecStatus>duc d'Aumale</socecStatus>
+                  <socecStatus>prince de Dombes</socecStatus>
+                  <socecStatus>comte d'Eu</socecStatus>
+                  <idno type='URI'>http://viaf.org/viaf/34461426/</idno>
+               </person>
+               <person xml:id="DDC" xml:base='https://fr.wikipedia.org/wiki/Louis_III_de_Bourbon-Cond%C3%A9'>
+                  <persName>
+                     <forename>Louis III</forename>
+                     <nameLink>de</nameLink>
+                     <surname >Bourbon-Condé</surname>
+                     <soCalled>Monsieur le Duc</soCalled>
+                  </persName>
+                  <birth>10 novembre 1668</birth>
+                  <death>4 mars 1710</death>
+                  <socecStatus>duc de Bourbon</socecStatus>
+                  <socecStatus>duc de Montmorency (1668-1689)</socecStatus>
+                  <socecStatus>duc d'Enghien (1689-1709)</socecStatus>
+                  <socecStatus>prince de Condé (1709-1710)</socecStatus>
+                  <socecStatus>prince du sang</socecStatus>
+                  <socecStatus>comte de Sancerre (1709-1710)</socecStatus>
+                  <socecStatus>comte de Charolais (1709)</socecStatus>
+                  <socecStatus>seigneur de Chantilly</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/29800851/</idno>
+               </person>
+               <person xml:id="PDC" xml:base="https://fr.wikipedia.org/wiki/Henri-Jules_de_Bourbon-Cond%C3%A9">
+                  <persName>
+                     <forename>Henri Jules</forename>
+                     <nameLink>de</nameLink>
+                     <surname >Bourbon</surname>
+                  </persName>
+                  <birth>26 juillet 1643</birth>
+                  <death>1er avril 1709</death>
+                  <socecStatus>Prince de Condé</socecStatus>
+                <socecStatus>premier prince du sang</socecStatus>
+                  <socecStatus>duc de Bellegarde</socecStatus>
+                  <socecStatus>duc de Châteauroux</socecStatus>
+                  <socecStatus>duc de Montmorency</socecStatus>
+                  <idno xml:id="URI">http://www.isni.org/isni/0000000118723301</idno>
+               </person>
+               <person xml:id="EP" xml:base="https://fr.wikipedia.org/wiki/%C3%89tienne_Pavillon">
+                  <persName>
+                     <forename>Etienne</forename>
+                     <surname >Pavillon</surname>
+                  </persName>
+                  <idno>http://viaf.org/viaf/2510442"</idno>
+                  <socecStatus>Membre de l'Académie Française de 1691 à 1705.</socecStatus>
+                  </person>
+               <person xml:id="CP" xml:base="https://fr.wikipedia.org/wiki/Charles_Perrault">
+                  <persName >
+                     <forename>Charles</forename>
+                     <surname>Perrault</surname>
+                  </persName>
+                  <idno type="URI">http://viaf.org/viaf/34461426/</idno>
+               </person>
+               <person xml:id="GC" xml:base="https://fr.wikipedia.org/wiki/Guillaume_Amfrye_de_Chaulieu">
+                  <persName>
+                     <forename>Guillaume Amfrye</forename>
+                     <nameLink>de</nameLink>
+                     <surname >Chaulieu</surname>
+                  </persName>
+                  <birth>1639</birth>
+                  <death>27 juin 1720</death>
+                  <socecStatus>abbé d'Aumale</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/27174209/</idno>
+               </person>
+               <person xml:id="CFL" xml:base='https://fr.wikipedia.org/wiki/Chr%C3%A9tien-Fran%C3%A7ois_Ier_de_Lamoignon'>
+                  <persName>
+                     <forename>Chrétien-François Ier</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Lamoignon</surname>
+                  </persName>
+                  <birth>26 juin 1644</birth>
+                  <death>7 août 1709</death>
+                  <socecStatus>Avocat général</socecStatus>
+                  <socecStatus>Président à mortier du Parlement de Paris</socecStatus>
+                  <idno type="URI">http://www.isni.org/isni/0000000121253187</idno>
+               </person>
+               <person xml:id="JTB" xml:base='https://fr.wikipedia.org/wiki/Jacques_Testu_de_Belval'>
+                  <persName>
+                     <forename>Jacques</forename>
+                     <surname >Testu</surname>
+                     <soCalled>Testu tais-toi</soCalled>
+                    </persName>
+                  <birth>vers 1626</birth>
+                  <death>juin 1706</death>
+                  <socecStatus>abbé de Belval</socecStatus>
+                  <socecStatus>membre de l'Académie française (1665-1706)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/230064699/</idno>
+               </person>
+               <person xml:id="JT" xml:base="https://fr.wikipedia.org/wiki/Jacques_de_Tourreil">
+                  <persName>
+                     <forename>Jacques</forename>
+                     <nameLink>de</nameLink>
+                     <surname >Tourreil</surname>
+                  </persName>
+                  <birth>18 novembre 1656</birth>
+                  <death>11 octobre 1714</death>
+                  <socecStatus>Membre de l'Académie Française de 1692 à 1714.</socecStatus>
+                  <socecStatus>Directeur de l'Académie Française de 1694 à 1714.</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/103224085/</idno>
+               </person>
+               <person xml:id="LXIV" xml:base="https://fr.wikipedia.org/wiki/Louis_XIV">
+                  <persName>
+                     <forename>Louis-Dieudonné</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Bourbon</surname>
+                     <soCalled>Louis XIV</soCalled>
+                     <soCalled>Roi Soleil</soCalled>
+                  </persName>
+                  <birth>14 mai 1643</birth>
+                  <death>1er septembre 1715</death>
+                  <socecStatus>Roi de France et de Navarre (1654-1715)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/268675767/</idno>
+               </person>
+               <person xml:id="LP" xml:base="https://fr.wikipedia.org/wiki/Louis_II_Ph%C3%A9lypeaux_de_Pontchartrain">
+                  <persName>
+                     <forename>Louis II</forename>
+                     <surname>Phélypeaux de Pontchartrain</surname>
+                  </persName>
+                  <birth>29 mars 1643</birth>
+                  <death>22 décembre 1727</death>
+                  <socecStatus>Marquis de Phélypeaux (1667)</socecStatus>
+                  <socecStatus>Comte de Pontchartrain (1699)</socecStatus>
+                  <socecStatus>Comte de Maurepas (1687)</socecStatus>
+                  <socecStatus>chancelier de France</socecStatus>
+                  <socecStatus>contrôleur général des finances</socecStatus>
+                  <socecStatus>secrétaire d'État à la Marine</socecStatus>
+                  <socecStatus>secrétaire d'État de la Maison du Roi</socecStatus>
+                  <idno type="URI">http://www.isni.org/isni/000000005509376X</idno>
+               </person>
+               <person xml:id="CDR" xml:base="https://fr.wikipedia.org/wiki/Armand_Jean_du_Plessis_de_Richelieu">
+                  <persName>
+                     <forename>Armand Jean</forename>
+                     <surname>du Plessis de Richelieu</surname>
+                     <soCalled>Cardinal de Richelieu</soCalled>
+                  </persName>
+                  <birth>9 septembre 1585</birth>
+                  <death>4 décembre 1642</death>
+                  <socecStatus>cardinal</socecStatus>
+                  <socecStatus>évêque de Luçon</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/12314392/</idno>
+               </person>
+               <person xml:id="PS" xml:base="https://fr.wikipedia.org/wiki/Pierre_S%C3%A9guier">
+                  <persName>
+                     <forename>Pierre</forename>
+                     <surname>Séguier</surname>
+                  </persName>
+                  <birth>28 mai 1558</birth>
+                  <death>28 janvier 1672</death>
+                  <socecStatus>chancelier de France</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/41846468/</idno>
+               </person>
+               <person xml:id="PDR" xml:base="https://fr.wikipedia.org/wiki/Armand-Gaston-Maximilien_de_Rohan">
+                  <persName>
+                     <forename>Armand-Gaston-Maximilien</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Rohan</surname>
+                  </persName>
+                  <birth>276 juin 1674</birth>
+                  <death>19 juillet 1749</death>
+                  <socecStatus>prince</socecStatus>
+                  <socecStatus>évêque de Strasbourg (1704-1749)</socecStatus>
+                  <socecStatus>cardinal (1712)</socecStatus>
+                  <socecStatus>membre de l'Académie française (1703-1749)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/36948547/</idno>
+               </person>
+               <person xml:id="JBB" xml:base="https://fr.wikipedia.org/wiki/Jacques-B%C3%A9nigne_Bossuet">
+                  <persName>
+                     <forename>Jacques-Bénigne</forename>
+                     <surname >Bossuet</surname>
+                  </persName>
+                  <birth>27 septembre 1627</birth>
+                  <death>12 avril 1704</death>
+                  <socecStatus>évêque de Meaux (1681-1704)</socecStatus>
+                  <socecStatus>évêque de Condom (1669-1671)</socecStatus>
+                  <socecStatus>membre de l'Académie française (1671-1704)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/2467099/</idno>
+               </person>
+               <person xml:id="MP" xml:base="https://fr.wikipedia.org/wiki/Melchior_de_Polignac">
+                  <persName>
+                     <forename>Melchior</forename>
+                     <nameLink>de</nameLink>
+                     <surname >Polignac</surname>
+                  </persName>
+                  <birth>11 octobre 1661</birth>
+                  <death>20 novembre 1741</death>
+                  <socecStatus>cardinal de S. Maria in Portico (1712-1741)</socecStatus>
+                  <socecStatus>membre de l'Académie française (1704-1741)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/89067645/</idno>
+               </person>
+               <person xml:id="GA" xml:base='https://fr.wikipedia.org/wiki/Gaspard_Abeille'>
+                  <persName>
+                     <forename>Gaspard</forename>
+                     <surname>Abeille</surname>
+                  </persName>
+                  <birth>1648</birth>
+                  <death>22 mai 1718</death>
+                  <socecStatus>membre de l'Académie française (1704-1718)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/71416066/</idno>
+               </person>
+               <person xml:id="CB" xml:base="https://fr.wikipedia.org/wiki/Charles_Boileau">
+                  <persName>
+                     <forename>Charles</forename>
+                     <surname>Boileau</surname>
+                  </persName>
+                  <birth>1648</birth>
+                  <death>28 mai 1704</death>
+                  <socecStatus>abbé de Beaulieu</socecStatus>
+                  <socecStatus>membre de l'Académie française (1694-1704)</socecStatus>
+                  <socecStatus>directeur de l'Académie française (1704)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/66457810/</idno>
+               </person>
+               <person xml:id="BS" xml:base="https://fr.wikipedia.org/wiki/Fabio_Brulart_de_Sillery">
+                  <persName>
+                     <forename>Fabio</forename>
+                     <surname >Brulart de Sillery</surname>
+                  </persName>
+                  <socecStatus>Évêque d'Avranches de juin à octobre 1689.</socecStatus>
+                  <socecStatus>Évêque de Soissons de novembre 1689 à novembre 1714.</socecStatus>
+                  <socecStatus>Membre de l'Académie Française de 1705 à 1714.</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/7483769/</idno>
+               </person>
+               <person xml:id="LDM" xml:base="https://fr.wikipedia.org/wiki/Louise-B%C3%A9n%C3%A9dicte_de_Bourbon">
+                  <persName>
+                     <forename>Anne-Louise-Bénédicte</forename>
+                     <nameLink>de</nameLink>
+                     <surname >Bourbon-Condé</surname>
+                  </persName>
+                  <birth>8 novembre 1676</birth>
+                  <death>23 janvier 1753</death>
+                  <socecStatus>duchesse du Maine</socecStatus>
+                  <socecStatus>comtesse de Dreux</socecStatus>
+                  <socecStatus>mademoiselle d'Enghien</socecStatus>
+                  <socecStatus>mademoiselle de Charolais</socecStatus>
+                  <idno type="URI">http://www.isni.org/isni/000000010914640X</idno>
+               </person>
+               <person xml:id="FB" xml:base="https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Datelin">
+                  <persName>
+                     <forename>François</forename>
+                     <surname >Datelin</surname>
+                     <soCalled>Fanchon Brioché</soCalled>
+                  </persName>
+                  <socecStatus>Montreur de marionnettes</socecStatus>
+               </person>
+               <person xml:id="AGT" xml:base="http://www.universalis.fr/encyclopedie/tabarin/">
+                  <persName>
+                     <forename>Antoine</forename>
+                     <surname>Girard</surname>
+                     <soCalled>Tabarin</soCalled>
+                  </persName>
+                  <birth>1584</birth>
+                  <death>1633</death>
+               </person>
+               <person xml:id="GR" xml:base='https://fr.wikipedia.org/wiki/Du_Parc_(acteur)'>
+                  <persName>
+                     <forename>René</forename>
+                     <surname >Berthelot</surname>
+                     <soCalled>Du Parc</soCalled>
+                     <soCalled>Gros René</soCalled>
+                  </persName>
+                  <birth>24 janvier 1615</birth>
+                  <death>28 octobre 1664</death>
+                  <socecStatus>acteur de la troupe de Molière</socecStatus>
+                </person>
+               <person xml:id="JBJ" xml:base='https://fr.wikipedia.org/wiki/Jodelet'>
+                  <persName>
+                     <forename>Julien</forename>
+                     <surname >Bedeau</surname>
+                     <soCalled>Jodelet</soCalled>
+                    </persName>
+                  <birth>14 octobre 1591</birth>
+                  <death>26 mars 1660</death>
+                  <socecStatus>acteur du théâtre du Marais</socecStatus>
+               </person>
+               <person xml:id="JBC">
+                  <persName>
+                     <forename>Elie Jean-Baptiste</forename>
+                     <surname>Coignard</surname>
+                     <soCalled>Jean-Baptiste II</soCalled>
+                     </persName>
+                  <birth>1666</birth>
+                  <death>1735</death>
+                  <socecStatus>libraire-imprimeur de l'Académie française</socecStatus>
+                  <socecStatus>libraire-imprimeur du Roi (1689)</socecStatus>
+                  <idno type="URI">http://www.isni.org/isni/0000000121194412</idno>
+               </person>
+               <person xml:id="CFV" xml:base='https://fr.wikipedia.org/wiki/Claude_Favre_de_Vaugelas'>
+                  <persName>
+                     <forename>Claude Favre</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Vaugelas</surname>
+                    </persName>
+                  <birth>1585</birth>
+                  <death>1650</death>
+                  <socecStatus>membre de l'Académie française (1635-1650)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/27072573/</idno>
+               </person>
+               <person xml:id="CM" xml:base="https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Marot">
+                  <persName>
+                     <forename>Clément</forename>
+                     <surname>Marot</surname>
+                  </persName>
+                  <birth>1496</birth>
+                  <death>1544</death>
+                  <idno type="URI">http://viaf.org/viaf/59086239/</idno>
+               </person>
+               <person xml:id="JM" xml:base="https://fr.wikipedia.org/wiki/Jean_Marot_(po%C3%A8te)">
+                  <persName>
+                     <forename>Jean</forename>
+                     <nameLink>des</nameLink>
+                     <surname>Marets</surname>
+                     <soCalled>Marot</soCalled>
+                  </persName>
+                  <birth>1450</birth>
+                  <death>1526</death>
+                  <idno type="URI">http://viaf.org/viaf/44506789/</idno>
+               </person>
+               <person xml:id="PDD" xml:base="https://fr.wikipedia.org/wiki/Philippe_de_Courcillon_de_Dangeau">
+                  <persName>
+                     <forename>Philippe</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Courcillon de Dangeau</surname></persName>
+                  <birth>21 septembre 1638</birth>
+                  <death>9 septembre 1720</death>
+                  <socecStatus>marquis de Dangeau</socecStatus>
+                  <socecStatus>membre de l'Académie française (1667).</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/7513421/</idno>
+               </person>
+               <person xml:id="CE" xml:base="https://fr.wikipedia.org/wiki/C%C3%A9sar_d%27Estr%C3%A9es">
+                  <persName>
+                     <forename>César</forename>
+                     <nameLink>d'</nameLink>
+                     <surname>Estrées</surname>
+                  </persName>
+                  <birth>5 février 1628</birth>
+                  <death>18 décembre 1714</death>
+                  <socecStatus>cardinal de S. Maria in Via (1671)</socecStatus>
+                  <socecStatus>évêque de Laon (1655)</socecStatus>
+                  <socecStatus>membre de l'Académie française (1658-1714)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/19668533/</idno>
+               </person>
+               <person xml:id="PDH" xml:base="https://fr.wikipedia.org/wiki/Pierre-Daniel_Huet">
+                  <persName>
+                     <forename>Pierre-Daniel</forename>
+                     <surname>Huet</surname>
+                  </persName>
+                  <birth>8 février 1630</birth>
+                  <death>26 janvier 1721</death>
+                  <socecStatus>évêque de Soissons (1685-1689)</socecStatus>
+                  <socecStatus>évêque d'Avranches (1692-1699)</socecStatus>
+                  <socecStatus>membre de l'Académie française (1674-1721)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/4972902/</idno>
+               </person>
+               <person xml:id="EVF" xml:base="https://fr.wikipedia.org/wiki/Esprit_Fl%C3%A9chier">
+                  <persName>
+                     <forename>Esprit Valentin</forename>
+                     <surname>Fléchier</surname>
+                  </persName>
+                  <birth>10 juin 1632</birth>
+                  <death>16 février 1710</death>
+                  <socecStatus>membre de l'Académie française (1673-1721)</socecStatus>
+                  <socecStatus>évêque de Nîmes (1689-1710)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/17222512/</idno>
+               </person>
+               <person xml:id="LVC" xml:base="https://fr.wikipedia.org/wiki/Louis_de_Verjus">
+                  <persName>
+                     <forename>Louis</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Verjus</surname>
+                  </persName>
+                  <birth>1629</birth>
+                  <death>13 décembre 1709</death>
+                  <socecStatus>comte de Crécy</socecStatus>
+                  <socecStatus>membre de l'Académie française (1679-1709)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/68919503/</idno>
+               </person>
+               <person xml:id="FC" xml:base="https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Calli%C3%A8res">
+                  <persName>
+                     <forename>François</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Callières</surname>
+                  </persName>
+                  <birth>mai 1645</birth>
+                  <death>5 mai 1717</death>
+                  <socecStatus>membre de l'Académie française (1688-1717)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/27174041/</idno>
+               </person>
+               <person xml:id="JFPLC" xml:base="https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Lefebvre_de_Caumartin">
+                  <persName>
+                     <forename>Jean-François-Paul</forename>
+                     <surname>Lefèvre Caumartin</surname>
+                  </persName>
+                  <birth>16 décembre 1668</birth>
+                  <death>30 août 1733</death>
+                  <socecStatus>membre de l'Académie française (1694-1733)</socecStatus>
+                  <socecStatus>évêque de Blois (1719-1733)</socecStatus>
+                  <socecStatus>évêque de Vannes (1717-1719)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/66558422/</idno>
+               </person>
+               <person xml:id="JBHV" xml:base="https://fr.wikipedia.org/wiki/Jean-Baptiste-Henri_de_Valincour">
+                  <persName>
+                     <forename>Jean-Baptiste-Henri</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Valincourt</surname>
+                  </persName>
+                  <birth>1er mars 1653</birth>
+                  <death>4 janvier 1730</death>
+                  <socecStatus>membre de l'Académie française (1699-1730)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/51807811/</idno>
+               </person>
+               <person xml:id="JFC" xml:base="https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_de_Chamillart">
+                  <persName>
+                     <forename>Jean-François</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Chamillart</surname>
+                  </persName>
+                  <birth>1657</birth>
+                  <death>15 avril 1714</death>
+                  <socecStatus>membre de l'Académie française (1702-1714)</socecStatus>
+                  <socecStatus>évêque de Dol (1692-1702)</socecStatus>
+                  <socecStatus>évêque de Senlis (1702-1714)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/61535885/</idno>
+               </person>
+               <person xml:id="LD" xml:base="https://fr.wikipedia.org/wiki/Louis_de_Courcillon_de_Dangeau">
+                  <persName>
+                     <forename>Louis</forename>
+                     <surname>de Coucillon de Dangeau</surname>
+                  </persName>
+                  <birth>1643</birth>
+                  <death>1er janvier 1723</death>
+                  <socecStatus>membre de l'Académie française (1682-1723)</socecStatus>
+                  <socecStatus>abbé de Dangeau</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/4940621/</idno>
+               </person>
+               <person xml:id="TC" xml:base="https://fr.wikipedia.org/wiki/Thomas_Corneille">
+                  <persName>
+                     <forename>Thomas</forename>
+                     <surname>Corneille</surname>
+                  </persName>
+                  <birth>20 août 1625</birth>
+                  <death>8 décembre 1709</death>
+                  <socecStatus>membre de l'Académie française (1684-)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/71400829/</idno>
+               </person>
+               <person xml:id="FTC" xml:base="https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Timol%C3%A9on_de_Choisy">
+                  <persName>
+                     <forename>François-Timoléon</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Choisy</surname>
+                     <soCalled>Mme la comtesse des Barres</soCalled>
+                     <soCalled>Mme de Sancy</soCalled>
+                  </persName>
+                  <birth>16 août 1644</birth>
+                  <death>2 octobre 1724</death>
+                  <socecStatus>membre de l'Académie française (1687-1724)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/95171691/</idno>
+               </person>
+               <person xml:id="AD" xml:base="https://fr.wikipedia.org/wiki/Andr%C3%A9_Dacier">
+                  <persName>
+                     <forename>André</forename>
+                     <surname>Dacier</surname>
+                  </persName>
+                  <birth>6 avril 1651</birth>
+                  <death>18 septembre 1722</death>
+                  <socecStatus>membre de l'Académie française (1695-1722)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/27063045/</idno>
+               </person>
+               <person xml:id="JG" xml:base="https://fr.wikipedia.org/wiki/Jean_Gallois">
+                  <persName>
+                     <forename>Jean</forename>
+                     <surname>Gallois</surname>
+                  </persName>
+                  <birth>14 juin 1632</birth>
+                  <death>9 avril 1707</death>
+                  <socecStatus>membre de l'Académie française (1672-1707)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/54137326/</idno>
+               </person>
+               <person xml:id="LS" xml:base="https://fr.wikipedia.org/wiki/Louis_de_Sacy">
+                  <persName>
+                     <forename>Louis</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Sacy</surname>
+                  </persName>
+                  <birth>1654</birth>
+                  <death>26 octobre 1727</death>
+                  <socecStatus>membre de l'Académie française (1701-1727)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/71448962/</idno>
+               </person>
+               <person xml:id="CISP" xml:base="https://fr.wikipedia.org/wiki/Charles-Ir%C3%A9n%C3%A9e_Castel_de_Saint-Pierre">
+                  <persName>
+                     <forename>Charles Irénée</forename>
+                     <surname>Castel de Saint-Pierre</surname>
+                  </persName>
+                  <birth>18 février 1658</birth>
+                  <death>29 avril 1743</death>
+                  <socecStatus>membre de l'Académie française (1695-1718)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/22201759/</idno>
+               </person>
+               <person xml:id="JGC" xml:base="https://fr.wikipedia.org/wiki/Jean_Galbert_de_Campistron">
+                  <persName>
+                     <forename>Jean Galbert</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Campistron</surname>
+                  </persName>
+                  <birth>3 août 1656</birth>
+                  <death>11 mai 1723</death>
+                  <socecStatus>membre de l'Académie française (1701-1723)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/56619533/</idno>
+               </person>
+               <person xml:id="JTM" xml:base="https://fr.wikipedia.org/wiki/Jean_Testu_de_Mauroy">
+                  <persName>
+                     <forename>Jean</forename>
+                     <surname>Testu de Mauroy</surname>
+                  </persName>
+                  <birth>1626</birth>
+                  <death>1706</death>
+                  <socecStatus>membre de l'Académie française (1688-1706)</socecStatus>
+                  <idno type="URI">http://www.isni.org/isni/0000000006477601</idno>
+               </person>
+               <person xml:id="PCC" xml:base="https://fr.wikipedia.org/wiki/Pierre_du_Cambout">
+                  <persName>
+                     <forename>Pierre</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Camboust</surname>
+                  </persName>
+                  <birth>1664</birth>
+                  <death>7 mai 1710</death>
+                  <socecStatus>duc de Coislin</socecStatus>
+                  <socecStatus>membre de l'Académie française (1702-1710)</socecStatus>
+                  <idno type="URI">http://isni.org/isni/0000000055094957</idno>
+               </person>
+               <person xml:id="JC" xml:base="https://fr.wikipedia.org/wiki/Jules_de_Cl%C3%A9rambault">
+                  <persName>
+                     <forename>Jules</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Clérambault</surname>
+                  </persName>
+                  <birth>1660</birth>
+                  <death>17 août 1714</death>
+                  <socecStatus>membre de l'Académie française (1695-1714)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/27055785/</idno>
+               </person>
+               <person xml:id="SLL" xml:base="https://fr.wikipedia.org/wiki/Simon_de_La_Loub%C3%A8re">
+                  <persName>
+                     <forename>Simon</forename>
+                     <nameLink>de</nameLink>
+                     <surname>La Loubère</surname>
+                  </persName>
+                  <birth>21 avril 1642</birth>
+                  <death>26 mars 1729</death>
+                  <socecStatus>membre de l'Académie française (1693-1729)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/19707236/</idno>
+               </person>
+               <person xml:id="NB" xml:base="https://fr.wikipedia.org/wiki/Nicolas_Boileau">
+                  <persName>
+                     <forename>Nicolas</forename>
+                     <surname>Boileau</surname>
+                     <soCalled>Despréaux</soCalled>
+                     <soCalled>Boileau-Despréaux</soCalled>
+                  </persName>
+                  <birth>1er novembre 1636</birth>
+                  <death>13 mars 1711</death>
+                  <socecStatus>membre de l'Académie française (1684-1711)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/299253454/</idno>
+               </person>
+               <person xml:id="CF" xml:base="https://fr.wikipedia.org/wiki/Claude_Fleury">
+                  <persName>
+                     <forename>Claude</forename>
+                     <surname>Fleury</surname>
+                  </persName>
+                  <birth>6 décembre 1640</birth>
+                  <death>14 juillet 1723</death>
+                  <socecStatus>membre de l'Académie française (1696-1723)</socecStatus>
+                  <socecStatus>confesseur du roi Louis XIV</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/107553/</idno>
+               </person>
+               <person xml:id="JPB" xml:base="https://fr.wikipedia.org/wiki/Jean-Paul_Bignon">
+                  <persName>
+                     <forename>Jean-Paul</forename>
+                     <surname>Bignon</surname>
+                  </persName>
+                  <birth>19 septembre 1662</birth>
+                  <death>14 mars 1743</death>
+                  <socecStatus>membre de l'Académie française (1693-1743)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/29581678/</idno>
+               </person>
+               <person xml:id="ER" xml:base="http://dictionnaire-journalistes.gazettes18e.fr/journaliste/676-eusebe-renaudot">
+                  <persName>
+                     <forename>Eusèbe</forename>
+                     <surname>Renaudot</surname>
+                  </persName>
+                  <birth>20 juillet 1646</birth>
+                  <death>1er septembre 1720</death>
+                  <socecStatus>membre de l'Académie française (1688-1720)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/102329089/</idno>
+               </person>
+               <person xml:id="FF" xml:base="https://fr.wikipedia.org/wiki/F%C3%A9nelon">
+                  <persName>
+                     <forename>François</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Salignac de La Mothe-Fénelon</surname>
+                     <soCalled>Fénelon</soCalled>
+                  </persName>
+                  <birth>6 août 1651</birth>
+                  <death>7 janvier 1715</death>
+                  <socecStatus>évêque de Cambrai (1695)</socecStatus>
+                  <socecStatus>précepteur du duc de Bourgogne</socecStatus>
+                  <socecStatus>membre de l'Académie française (1693-1715)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/61539997/</idno>
+               </person>
+               <person xml:id="JLC" xml:base="https://fr.wikipedia.org/wiki/Jean_de_La_Chapelle">
+                  <persName>
+                     <forename>Jean</forename>
+                     <nameLink>de</nameLink>
+                     <surname>La Chapelle</surname>
+                  </persName>
+                  <birth>24 octobre 1651</birth>
+                  <death>29 mai 1723</death>
+                  <socecStatus>membre de l'Académie française (1688-1723)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/107371423/</idno>
+               </person>
+               <person xml:id="BF" xml:base="https://fr.wikipedia.org/wiki/Bernard_Le_Bouyer_de_Fontenelle">
+                  <persName>
+                     <forename>Bernard</forename>
+                     <surname>Le Bouyer de Fontenelle</surname>
+                  </persName>
+                  <birth>11 février 1657</birth>
+                  <death>9 janvier 1757</death>
+                  <socecStatus>membre de l'Académie française (1691-1757)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/99744686/</idno>
+               </person>
+               <person xml:id="LC" xml:base="https://fr.wikipedia.org/wiki/Louis_Cousin">
+                  <persName>
+                     <forename>Louis</forename>
+                     <surname>Cousin</surname>
+                  </persName>
+                  <birth>21 août 1627</birth>
+                  <death>26 février 1707</death>
+                  <socecStatus>membre de l'Académie française (1697-1707)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/12367359/</idno>
+               </person>
+               <person xml:id="CCG" xml:base="https://fr.wikipedia.org/wiki/Charles-Claude_Genest">
+                  <persName>
+                     <forename>Charles-Claude</forename>
+                     <surname>Genest</surname>
+                  </persName>
+                  <birth>17 octobre 1639</birth>
+                  <death>19 novembre 1719</death>
+                  <socecStatus>membre de l'Académie française (1698-1719)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/4982445/</idno>
+               </person>
+               <person xml:id="JNC" xml:base="https://fr.wikipedia.org/wiki/Jacques_Nicolas_Colbert">
+                  <persName>
+                     <forename>Jacques-Nicolas</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Colbert</surname>
+                  </persName>
+                  <birth>14 février 1655</birth>
+                  <death>10 décembre 1707</death>
+                  <socecStatus>archévêque de Rouen (1691-1707)</socecStatus>
+                  <socecStatus>membre de l'Académie française (1678-1707)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/36909612/</idno>
+               </person>
+              <person xml:id="PEC" xml:base="https://fr.wikipedia.org/wiki/Philippe-Emmanuel_Coulanges">
+                 <persName>
+                    <forename>Philippe-Emmanuel</forename>
+                    <nameLink>de</nameLink>
+                    <surname>Coulanges</surname>
+                    <soCalled>marquis de Coulanges</soCalled>
+                 </persName>
+                 <birth>23 août 1633</birth>
+                 <death>31 janvier 1716</death>
+                 <socecStatus>chansonnier</socecStatus>
+              </person>
+               <person xml:id="JAM" xml:base="https://fr.wikipedia.org/wiki/Jean-Antoine_de_Mesmes">
+                  <persName>
+                     <forename>Jean-Antoine</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Mesmes</surname>
+                     <soCalled>président de Mesmes</soCalled>
+                  </persName>
+                  <birth>1661</birth>
+                  <death>23 août 1723</death>
+                  <socecStatus>Président du Parlement de Paris</socecStatus>
+                  <socecStatus>Membre de l'Académie-Française (1710-1723)</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/36909817/</idno>
+               </person>
+               <person>
+                  <persName xml:id="PDC_GC" xml:base="https://fr.wikipedia.org/wiki/Louis_II_de_Bourbon-Cond%C3%A9">
+                     <forename>Louis II</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Bourbon Condé</surname>
+                     <soCalled>Le Grand Condé</soCalled>
+                  </persName>
+                  <birth>8 septembre 1621</birth>
+                  <death>11 décembre 1686</death>
+                  <socecStatus>Prince de sang</socecStatus>
+                  <socecStatus>Général français</socecStatus>
+                  <socecStatus>Meneur de la Fronde</socecStatus>
+                  <idno type="URI">http://viaf.org/viaf/12383242/</idno>
+               </person>
+               <person xml:id="JS" xml:base="https://fr.wikipedia.org/wiki/Jean_de_Santeul">
+                  <persName>
+                     <forename>Jean</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Santeul</surname>
+                     </persName>
+                  <birth>5 décembre 1630</birth>
+                  <death>5 août 1697</death>
+                  <socecStatus>poète</socecStatus>
+                  <socecStatus>chanoine de Saint-Victor</socecStatus>
+                  <idno>http://viaf.org/viaf/20008/</idno>
+               </person>
+               <person xml:id="DDG">
+               <persName>
+                  <forename>François Bernard</forename>
+                  <surname>Potier de Gesvres</surname>
+                  <soCalled>duc de Gesvres</soCalled>
+               </persName>
+                  <birth>1655</birth>
+                  <death>1739</death>
+                  <socecStatus>gouverneur de Paris</socecStatus>
+                  <socecStatus>duc de Gesvres (1704-1739)</socecStatus>
+                  <idno>http://viaf.org/viaf/188626648</idno>
+            </person>
+            </listPerson> 
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Cette édition est quasi-diplomatique. Elle respecte l'orthographe du texte d'origine.
+               Toutefois, pour faciliter la lecture, un certain nombre d'interventions tacites ont
+               été opérées: certains mots ont été séparés (ex. "decepas" a été écrit "de ce pas") et
+               des apostrophes ont été ajoutées dans certains cas (p. ex. "l'on") . L'usage d'époque des
+               majuscules a été conservé, ainsi que l'utilisation de "i" pour "j" en syllabe
+               médiane. La ponctuation (ou plutôt l'absence de ponctuation, qui est récurrente) a été respectée. </p>     
+            <p>En ce qui concerne la mise en page: le passage à la ligne n'est indiqué que dans les titres. Le manuscrit n'est paginé que sur le recto; cet usage se reflète dans l'utilisation d'attributs n pour les <gi>pb</gi> uniquement une page sur deux. Plusieurs explications sont apportées par le rédacteur du manuscrit (qui est peut-être son auteur); elles sont appelées par des astérisques et ont été traitées à l'aide de la balise <gi>gloss</gi>, pour les différencier des notes de l'éditeur scientifique moderne. En revanche, la disposition de ces gloses, tantôt marginales, tantôt en bas de page, n'a pas été respectée: elles sont invariablement placées après le mot marqué par un astérique.</p>
+            <p>L'organisation de la <title>Querelle</title> est particulièrement complexe, alternant des parties de récit avec une pièce de théâtre puis des morceaux en vers entrecoupés d'explications. Afin de permettre de s'orienter plus facilement dans le texte, il a été décidé de créer trois grandes sections: une comprenant les explications préliminaires, principalement narrative; une deuxième contenant la pièce de théâtre; et une troisième regroupant les vers et explications finales. Cette dernière section a été sous-divisée à son tour; on peut y trouver trois types de <gi>div</gi>: explicatives (typées "explanation"), musicales (typées "song") ou épigrammatiques (typées "poem"). Ces deux dernières sous-divisions ont été les plus délicates à définir: on parle tantôt de "chason sur l'air de", tantôt de "vaudeville", et pour les pièces qui ne sont pas censées être accompagnées d'un timbre on parle d'"épigramme", de "madrigal", de "rondeau". Il était tentant d'essayer une caractérisation au plus proche de ces dénominations génériques, mais outre qu'elles ne sont pas régulières (ni tous les vers, ni toutes les chansons ne sont caractérisés), la question de la légitimité de l'appellation générique se pose parfois (s'agit-il vraiment d'un "madrigal"? d'un "épigramme"?). Au final, les divisions de ce texte peuvent prendre une des valeurs suivantes: narrative, dramatic, anthology, explanation, poem, song. </p>
+            <p>Le texte de la <title ref="#RQM">Querelle</title> contient des parties qui ont été éditées ailleurs. C'est le cas de la pièce <title>Polichinelle demandant une place à l'Académie</title>, plusieurs fois reproduite ou éditée, ainsi que d'une partie des chansons et épigrammes générés par le différend de Malézieux avec la Comédie-Française. Une liste de tous les ouvrages collationnés est fournie plus haut, ainsi que dans le <gi>front</gi>.</p> 
+            <p>Toutefois, les variantes n'ont été établies que sur trois témoins. En effet, la publication de la pièce dans le <title ref="#PCarnaval">Plat du carnaval</title> d'abord, en 1802, puis dans le <title ref="#RPRF">Recueil de pièces rares et facétieuses</title> de 1873 n'apporte aucune variante notable, à part le changement d'appellation du personnage du Voisin, qui devient "Le Compère"; à part cette modification, le texte publié est très exactement celui qui paraît en 1717 dans les <title>Pièces échappées du feu</title>, à quelques modifications de ponctuation près. Quant aux éditeurs scientifiques du XIXe siècle, leur objectif est de rendre une idée de la pièce, et non pas d’en fournir véritablement le texte. Au nom de la décence, Adolphe Jullien, dans <title ref="#Jullien_CC">la Comédie à la cour</title>, expurge lourdement le texte de la pièce, laissant de côté, par exemple, tout le discours de "réception" de Polichinelle à l'Académie. L'intérêt de son texte est d'accompagner la pièce de quelques chansons et épigrammes, puisées dans le <title ref="#ChM">Chansonnier de Maurepas</title>. Celles-ci sont toutefois réordonnées, en leur faisant raconter une histoire bien moins exacte et plus édulcorée que celle que l'on trouve dans la <title ref="#RQM">Relation de la querelle de Malézieux</title>. Enfin, Victor Du Bled consulte visiblement le recueil des <title ref="#PEF">Pièces échappées du feu</title>, ce qui lui permet de rétablir une partie du texte supprimé par Jullien, mais continue à voiler les expressions qu'il juge trop crues, à condenser la pièce, et ne reproduit aucune des chansons que la querelle suscite.</p>
+           <p> On dispose ainsi de trois témoins à peu près contemporains de la querelle, suivis au XIXe siècle de quatre éditions plus ou moins complètes. Nous n’avons pas d’indications quant aux relations possibles entre les trois témoins d’époque, et nous ne savons pas de quelle façon ils ont été établis, d’autant plus qu’il n’est pas facile de dater les deux premiers, à savoir la Relation de la querelle, notre texte de base, et le Chansonnier de Maurepas. Très détaillée, la première semble avoir été écrite par un auteur bien informé, et à relativement peu de distance des événements (mais on verra qu’une erreur de datation suggère quand même que ce n’est pas non plus un récit « sur le vif ») ; les événements racontés ayant eu lieu entre la fin 1704 et le premier trimestre de 1705, on peut conjecturer que le manuscrit date de 1705-1706. Le volume X du Chansonnier de Maurepas couvre la période 1700-1706 ; la collecte des chansons a probablement dû avoir lieu aussi près que possible de leur moment d’apparition, mais à tenir compte des délais de transmission et de transcription, il est possible que le texte ait été couché sur papier plutôt en 1707-1708. Le dialogue de Polichinelle avec le Voisin, tel qu’il y figure, est assez proche de celui de la Querelle ; quelques menues variantes suggèrent toutefois qu’il a été établi à partir d’une autre source que celle employée par Regnier-Desmarais (si c’est bien lui l’auteur de la Querelle). La comédie a dû certainement exister en plusieurs exemplaires, dont au moins un pour le marionnettiste Brioché, et un autre pour le cercle Condé-Du Maine, dans lequel elle a vu le jour sous la plume de Malezieu (v. infra) ; compte tenu des habitudes épistolaires de l’époque et de la circulation manuscrite des œuvres de circonstance, on peut imaginer une diffusion assez large, et des sources pas nécessairement concordantes employées par Regnier-Desmarais d’une part, Clairembault et Maurepas d’autre part. L’ordre très différent des affiches, épigrammes, rondeaux et autres vaudevilles qui accompagnent le dialogue plaide à son tour pour une rédaction indépendante des deux témoins.</p>
+            <p>Quant aux <title>Pièces échappées du feu</title>, là aussi on peut soupçonner une troisième source, différente de celles de Regnier-Desmarais et de Maurepas. Le recueil de 1717 transcrit ainsi une faute de langue de Polichinelle en mettant « profil » au lieu de « profitte ». Par ailleurs, certaines répliques sont prolongées, éclaircies : le jeu de mots de Polichinelle sur « hareng »/ « haranguer » est  explicité dans une question rhétorique, « comment ne saurais-je haranguer ? ». Il n’y a pas de garantie que l’éditeur hollandais inconnu soit parti d’une véritable lettre de M. le duc de R*** à une comtesse, dont un fragment est « reproduit » en préambule du dialogue ; les correspondances fictives sont légion au XVIIIe siècle, et celle-ci ne porte pas avec soi d’éléments d’authentification. Quoi qu’il en soit, il semble évident, compte tenu de ces différences, que le libraire des Pays-Bas n’a pas eu accès à la Relation de la Querelle, ni au Chansonnier de Maurepas ou à leurs sources respectives.</p>
+            <p>Dans la notation des variantes, établies donc à partir du <title ref="#ChM">Chansonnier de Maurepas</title> et des <title ref="#PEF">Pièces échappées du feu</title>, il n'a pas été tenu compte des différences orthographiques, sauf dans le cas des noms propres. De même, les différences de ponctuation ne sont pas relevées, sauf quand elles introduisent une variante (ex. point transformé en virgule avant l'ajout d'un segment de phrase).</p>
+            <p>En ce qui concerne les chansons et épigrammes, le <title ref="#ChM">Chansonnier de Maurepas</title> en contient une qui n'apparaît pas dans le texte de la <title ref="#RQM">Querelle</title>, et fournit quelques explications complémentaires. Le texte de base étant considéré celui de la <title ref="#RQM">Querelle</title>, tous ces ajouts ont été reproduits en annexe, dans la section <gi>back</gi>. L'ordre des chansons et épigrammes est naturellement celui de la <title ref="#RQM">Querelle</title>. Toutefois, un attribut <gi>corresp</gi> a été ajouté à chaque chanson ou épigramme; il indique la place de la pièce en question dans le <title ref="#ChM">Chansonnier de Maurepas</title>.</p>
+            <p>À une exception près, tous les noms propres cités dans la <title ref="#RQM">Relation de la querelle</title> ont été identifiés; chacune de leurs occurrences pointe, au moyen de l'attribut <gi>ref</gi>vers l'identifiant unique qui leur a été attribué dans la personnographie. Celle-ci pointe, à son tour, vers l'identifiant VIAF (à défaut, vers l'identifiant ISNI) de la personne, donné au moyen de la balise <gi>idno</gi>, ainsi que vers sa page Wikipédia, lorsque celle-ci était disponible (on en trouve l'adresse dans l'attribut <gi>xml:base</gi>).</p>
+            <p>Le personnage qui reste non-identifié est celui du "grand Renaud" mentionné dans une des chansons, et qui aurait "joué" les "jetonniers" à la Cour. Aucune pièce de ce genre, probablement pour les marionnettes, ne semble avoir été conservée à la Bibliothèque nationale, mais il n'est pas exclu que son canevas apparaisse dans un manuscrit encore non étudié. Il en est de même des pièces <title>Brioché chancelier</title> et <title>Arlequin chancelier</title>, mentionnées dans le recueil de <title ref="#PEF">Pièces échappées du feu</title>, et qui n'ont pas pu être localisées.</p>
+            <p>Un travail d'identification, similaire à celui réalisé pour les personnes citées, a été mené à propos des airs sur lesquels plusieurs chansons sont composées. Toutefois, l'information reste lacunaire; plusieurs occurrences du même timbre ont été trouvées dans les recueils de chansons périodiquement édités depuis le XVIIe siècle, surtout par Ballard, mais dans plusieurs cas la partition et l'origine de ces airs n'ont pas été trouvées.</p>
+         </editorialDecl>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Querelle</term>
+               <term>Académie française</term>
+               <term>Comédie</term>
+               <term>Prose</term>
+            </keywords>
+         </textClass>
+         </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+        <div>
+           <listWit>
+              <witness xml:id="RQM">Relation de la querelle de Malesieu</witness>
+              <witness corresp="#ChM">Chansonnier de Maurepas</witness>
+              <witness corresp="#PEF">Pièces échappées du feu</witness>
+           </listWit>
+        </div>
+      </front>
+      <body>
+         <pb/>
+         <pb/>
+         <div type="bibliographical_additions">
+            <p>Ouvrage posthume attr. L'abbé Regnier Desmarais</p>
+            <p>Cod V. de Boze <lb/> Regime 8082</p>
+            <p><del>Suppt. fr. 533</del></p>
+         </div>
+         <div type="narrative" xml:id="I">
+            <head>Relation de la querelle de <persName ref="#NM">Malesieu</persName> <lb/> avec l'Academie francoise arrivée à la
+               fin <lb/>de l'année 1704, et Recueil des vers qui ont esté faits à cette
+               occasion.</head>
+            <p>L'Empire des lettres jouissoit d'une profonde paix, quand la mort de <persName ref="#EP">Mr. Pavillon</persName>
+               l'un des quarante de l'Academie francoise, arrivée au mois de novembre 1704<note resp="IG">Étienne Pavillon, poète léger, élu à l’Académie française en 1691, meurt en réalité le 10 janvier 1705. La distorsion de la chronologie relève-t-elle de l’oubli, ou de la volonté de créer une explication logique à la colère des ducs et à la suite des événements qui en découlent ?</note> réveilla
+               une rancune depuis longtemps assoupie, que gardoient contre cette compagnie <rs ref="#DDC">Mr le Duc</rs>
+               fils de <persName ref="#PDC">Mr Le Prince de Condé</persName>, et <persName ref="#DDM">Mr Le Duc du Maine</persName>. voici quel en estoit le
+               suiet.</p>
+            <p><persName ref="#CP">Mr Perrault</persName>, académicien fort connu par ses <title ref="http://gallica.bnf.fr/ark:/12148/bpt6k12658330?rk=42918;4">paralleles des anciens et des modernes</title> et
+               par beaucoup d'autres ouvrages, estant mort au mois de juin 1703 <note resp="IG">En réalité, Charles Perrault meurt le <date when="1703-05-16">16 mai 1703</date>.</note>, l'Académie toujours
+               attentive à reparer avantageusement ses pertes, jetta les yeux sur <persName ref="#CFL"></persName>Mr le President de
+               Lamoignon; son éloquence pouvoit faire autant d'honneur à cette compagnie que la
+               dignité de President à mortier dont il estoit revétu; elle luy avoit âquis <pb/>
+               beaucoup de réputation pendant un long exercice de la charge d'avocat général du
+               parlement de Paris; aussi tous les académiciens convinrent dans une de leurs
+               assemblées qui n'estoit point celle qui estoit destinée à faire l'élection qu'ils ne
+               pouvoient faire un meilleur choix.</p>
+            <p><rs ref="#DDC">Monsr. Le Duc</rs> eut dans le meme temps envie de faire élire à cette place <persName ref="#GC">Mr. l'Abbé de
+               Chaulieu</persName>, qu'un esprit naturel et enjoué, et beaucoup de goût pour les plaisirs avoit
+               mis depuis longtemps dans la familiarité de <rs ref="#DDC">ce prince</rs>. Il se joignit à <persName ref="#DDM">Mr. Le Duc du
+               Maine</persName>, qui aimoit aussi <persName ref="#GC">l'Abbé de Chaulieu</persName>, et tous deux reprochérent à <persName ref="#JTB">l'Abbé Testu</persName>,
+                  <gloss resp="unknown">C'est <persName ref="#JTB">l'Abbe Testu</persName> qui a un tic, le plus grand des deux, ou Testu tais
+                     toy<note resp="IG">Selon la <bibl><title>Biographie universelle ancienne et moderne…</title>, tome quarante-cinquième, Paris, L. G. Michaud, 1826, p. 212-213, article signé W-s</bibl>, l'abbé Têtu était opiniâtre, et ne supportait pas la contradiction. Afin de l'arrêter quand il contredisait, on lui disait "tais-toi", tirant également effet de la paronymie.</note></gloss> qui recoit une pension de deux mille livres de <persName ref="#DDM">Mr. le Duc du Maine</persName>
+               qu'il estoit bien peu digne du bien qu'on luy faisoit puisque son crédit dans sa
+               compagnie ne pouvoit pas luy faire obtenir une place d'académicien pour un homme
+               qu'ils protegoient, et qui estoit fort capable de la remplir: on dit meme que la
+               colere ou la plaisanterie fit aller <rs ref="#DDC #DDM">ces Princes</rs> jusqu'à menacer <persName ref="#JTB">l'Abbe Testu</persName> de luy
+               oster la pension s'il ne réussissoit à obtenir la place qui vaquoit. La menace
+               l'effraya, et croyant n'en pouvoir détourner l'effet qu'en empeschant <persName ref="#CFL">Mr de Lamoignon</persName>
+               d'estre de l'Academie, il alla chez luy, et après un long préambule dans <pb n="2"/>
+               lequel il luy étala combien l'Académie se trouvoit honorée de le voir un de ses
+               membres, il ne laissa pas de luy insinuer qu'il trouveroit un concurrent dont le
+               mérite ni le rang n'avoient rien qui luy pût estre comparé, mais qui avoit deux
+               puissans protecteurs, contre lesquels peut etre il ne seroit pas bien aise de
+               disputer quelque chose. <persName ref="#JTB">L'Abbé Testu</persName> nomma <rs ref="#DDC #DDM">les deux Princes</rs> à <persName ref="#CFL">Mr de Lamoignon</persName>, luy
+               exagéra fort l'envie qu'ils avoient de faire plaisir à <persName ref="#GC">l'abbé de Chaulieu</persName>, et luy
+               repeta tant de fois qu'un homme tel que luy faisoit trop d'honneur à l'Académie pour
+               n'estre pas blessé qu'il se trouvât un compétiteur, quel qu'il peût estre, et que
+               d'ailleurs <rs ref="#DDM #DDC">les Princes</rs> se trouveroient peut estre offensés de ce qu'il s'opposoit à
+               ce qu'ils souhaitoient, qu'il fit presque consentir <persName ref="#CFL">le President</persName> à ne plus penser à
+               cette place.</p>
+            <p><persName ref="#JT">L'Abbé Testu</persName> ravi d'avoir si bien réussi luy demanda s'il ne vouloit pas bien qu'il
+               dist à sa compagnie qu'il n'estoit plus dans le dessein d'y entrer, et meme exigea de
+               <persName ref="#CFL">Monsr de Lamoignon</persName> qu'il luy écrivit sur cela une lettre qu'il pust montrer, persuadé
+               que ses confreres ne renonceroient pas sur sa seule parole à l'honneur dont ils
+               s'estoient flattés en pensant à l'acquérir.</p>
+            <p><rs ref="#CFL">Le Président</rs> consentit à tout ce qu'on voulut mais les discours de <persName ref="#JT">l'Abbé Testu</persName>, ni
+               la lettre qu'il lut en <pb/>pleine assemblée ne persuada pas les Académiciens. <persName ref="#JT">Mr de
+               Toureil</persName> alors directeur de l'Académie alla chez <persName ref="#CFL">Mr de Lamoignon</persName> il luy representa si
+               bien l'ardeur avec laquelle il estoit desiré par toute la Compagnie, le peu de
+               comparaison qu'il y avoit entre luy et <persName ref="#GC">l'Abbé de Chaulieu</persName>, pour qu'il peust rien
+               craindre d'un tel concurrent, que <rs ref="#DDM #DDC">les Princes</rs> n'auroient nul suiet de plainte de voir
+               une preference si juste, et dont l'Académie estoit absolument maitresse, que <rs ref="#CFL">le
+               President</rs> luy dist en le reconduisant <quote>Vous estes un grand séducteur</quote>.</p>
+            <p>Charmé de cette réponse <persName ref="#JT">Toureil</persName> alla de ce pas à l'Académie, où l'on s'assembloit ce
+               jour là pour l'élection, et ayant raconté à ses confreres ce qu'il avoit dit à <persName ref="#CFL">Mr. de
+               Lamoignon</persName>, et les réponses que <rs ref="#CFL">le Président</rs> avoit faites, il fut elû, malgré la
+               contradiction de <persName ref="#JTB">l'Abbé Testu</persName>, presque tout d'une voix.</p>
+            <p><persName ref="#JT">Monsr de Toureil</persName> estant allé le soir selon l'usage<note resp="IG">Selon les statuts de l'Académie, elle ne pouvait élire de membre qui ne fut agréé par son protecteur, en l'occurrence le roi.</note> rendre compte au <persName ref="LXIV">Roy</persName> du sujet
+               qu'on avoit nommé pour remplir la place vacante. <rs ref="LXIV">Sa Majesté</rs> luy répondit qu'on n'en
+               pouvoit choisir un qui luy fut plus agréable, et qui peust estre plus utile à
+               l'Académie.</p>
+            <p>Cette affaire paroissoit absolument terminée, mais <persName ref="#JTB">l'Abbé Testu</persName> y fit naître encore de
+               nouveaux obstacles; il dist et fit dire par tant de personnes à <persName ref="#CFL">Mr. Le Président de <pb
+                  n="3"/> Lamoignon</persName> qu'il s'estoit fait deux ennemis irréconciliables de <rs ref="#DDC">Mr Le Duc</rs>
+               et de <persName ref="#DDM">Mr Le Duc du Maine</persName>, que ce <rs ref="#CFL">President</rs> qui au fond ne se soucioit que
+               mediocrement d'estre de l'Académie ne voulut pas y entrer à ce prix : il écrivit à <persName ref="#LP">Mr
+               de Pontchartrain</persName> pour le prier de faire agréer au <rs ref="#LXIV">Roy</rs> qu'il n'acceptât point la place
+               où il avoit esté nommé. <rs ref="#LXIV"><choice><abbr>S. M.</abbr><expan>Sa Majesté</expan></choice></rs> l'en laissa le maitre : il semble que ce refus devoit
+               faciliter le <unclear>Succes</unclear> de la brigue commencée en faveur de <persName ref="#GC">l'Abbé de
+               Chaulieu</persName>, mais il fit un effet tout contraire: la vanité de l'Académie se trouva
+               blessée de la contrainte où l'on vouloit la mettre d'assuiettir ses suffrages aux
+               desirs des <rs ref="#DDM #DDC">Princes</rs>. Elle s'estoit piquée dès son institution d'independance, et il
+               sembloit que la protection dont <rs ref="#LXIV">le Roy</rs> avoit bien voulu l'honorer après la mort du
+               <persName ref="#CDR">Cardinal de Richelieu</persName> son instituteur, et du <persName ref="#PS">chancelier Seguyer</persName> son second
+               protecteur, devoit encore luy asseurer sa liberté. Mais les Académiciens furent
+               encore plus allarmés de la honte qu'ils recevoient de ce qu'on avoit refusé une de
+               leurs places, ils crurent que s'ils ne sacrifioient celuy qui estoit cause qu'on leur
+               faisoit cette injure, que le corps en seroit fletry, et non contens d'exclure <persName ref="#GC">l'Abbé
+               de Chaulieu</persName>, ils songèrent a se donner un confrere dont la naissance le rang et
+               l'erudition pust les consoler de ce qu'ils manquoient d'avoir <pb/> <persName ref="#CFL">Mr de
+               Lamoignon</persName>.</p>
+            <p>Ils jettérent les yeux sur <persName ref="#PDR">Mr. l'Abbé de Rohan</persName> alors coadjuteur de
+                  <unclear>l'Eveché</unclear> de Strasbourg, qui venoit d'acquerir dans sa licence
+               et dans plusieurs discours publics, une réputation d'eloquence qui le distinguoit
+               presque autant que ses dignités; il accepta la place sans se trouver offensé de
+               n'avoir que le refus d'un autre, et l'Académie satisfaite de ce que l'offence qu'on
+               avoit voulu luy faire etoit reparée, songea par un nouveau statut qu'elle fit à en
+               prévenir une pareille en deffendant un usage ou plutôt un abus qui s'estoit introduit
+               de souffrir que ceux qui demandoient à estre receus de l'Académie, allassent
+               solliciter les suffrages chez chaque Académicien et fissent intervenir les Princes et
+               Princesses du sang, ou les Ministres pour les obtenir.</p><note>L'interdiction de solliciter une place à l'Académie est pourtant en vigueur depuis 1701, puisque lors de la réception de Malezieu même, le récipiendaire, comme le secrétaire de l'Académie, qui répond à son discours, y font tous les deux allusion. Toutefois, la remarque suggère que les sollicitations en sous-main n'ont pas cessé.</note>
+            <p>Personne n'osa murmurer des précautions de l'Académie, et le choix qu'elle venoit de
+               faire luy estoit si honorable et étoit d'ailleurs si juste, que ç'auroit esté
+               deshonorer <persName ref="#GC">l'Abbé de Chaulieu</persName> que de le vouloir mettre en parallele. <persName ref="#PDR">Mr L'Eveque de
+               Strasbourg</persName> fut receu le <date when="1704-01-31">31 janvier 1704</date> et <persName ref="#JT">Toureil</persName> qui répondit à sa harangue fit
+               sonner fort haut les libertés de l'Académie, parla du refus de <persName ref="#CFL">Mr. de Lamoignon</persName> et
+               s'applaudit de ce que ceux qui en avoient esté cause n'en avoient pas profité</p>
+            <note>Une version édulcorée du refus du président de Lamoignon et du soutien des princes à Chaulieu est donnée dans <bibl><title rend="italics" type="main">Histoire de l'Académie française</title> par <persName type="author">Pelisson</persName> et <persName type="author">d'Olivet</persName>, <placeName>Paris</placeName>, <publisher>J. B. Coignard</publisher>, <date when="1753">M.DCC.XLIII</date>, tome second, pages 39-41.</bibl> Voir aussi les pages consacrées au refus dans <bibl>Helène Carrère d'Encausse <title>Des siècles d’immortalité. L’Académie française, 1635-…</title>, Paris, <publisher>Fayard</publisher>, 2011.</bibl></note>
+            <pb n="4"/>
+            <p>Ce discours peut avoir deplu aux <rs ref="#DDC #DDM">Princes</rs> qui protegeoient <persName ref="#GC">l'Abbé de Chaulieu</persName>, mais
+               ils n'en donnérent pour lors aucune marque et comptérent apparemment qu'après avoir
+               fait connoitre leurs intentions en sa faveur il ne pourroit manquer d'obtenir dans la
+               suite la place que l'Académie paroissoit avoir esté obligée pour son propre honneur
+               de luy refuser.</p>
+            <p>On vit vaquer la place de <persName ref="#JBB">Mr. l'Eveque de Meaux</persName> qui fut remplie par <persName ref="#MP">Mr l'Abbé de
+               Polignac</persName>, et on élut <persName ref="#GA">l'Abbé Abeille</persName> à celle de <persName ref="#CB">l'Abbé Boileau</persName> sans que <rs ref="#DDC">Mr Le Duc</rs> ny
+               <persName ref="#DDM">Mr Le Duc du Maine</persName> murmurassent <note resp="IG">Et l'abbé de Polignac et l'abbé Abeille sont des proches du duc et de la duchesse du Maine, donc il est probable que leur élection n'a pas suscité la réaction des Princes puisqu'ils voyaient placés d'autres alliés et clients.</note>; mais <persName ref="#EP"
+                  >Mr Pavillon</persName> estant mort, et les Académiciens s'estant portés à élire <persName ref="#BS">Mr
+               de Sillery Eveque de Soissons</persName>, il y a apparence que l'oubly où l'on continuoit de
+               mettre un homme que <rs ref="#DDM #DDC">ces Princes</rs> avoient recommandé, les piqua, et qu'ils resolurent
+               de donner un ridicule à cette compagnie.</p>
+            <p><persName ref="#LDM">Madame la Duchesse du Maine</persName> estoit fort dans le goût de faire jouer devant elle par
+               les personnes de sa cour et ses domestiques des comédies où souvent elle prenoit elle
+               meme quelque roolle, on voulut en faire une aux dépens de l'Académie, et on fit
+               repeter plusieurs fois par des marionnettes au mois de decembre 1704 et au
+               commencement<pb/> de Janvier 1705 le dialogue qui suit, en présence de <rs ref="#DDC">Mr le Duc</rs> de
+               <rs ref="#DDM">Mr</rs> et <persName ref="#LDM">Me du Maine</persName>, et de plusieurs personnes invitées au spectacle.</p>
+         </div>
+         <div type="dramatic" xml:id="II">
+            <head>
+               <app>
+                  <rdg wit='#RQM'>Dialogue entre Polichinelle<lb/> Et son voisin</rdg>
+                  <rdg wit='#ChM'>Scene<lb/> de Polichinelle, &amp; du Voisin.</rdg>
+                  <rdg wit="#PEF">POLICHINELLE<lb/>demandant une place dans<lb/>l'Académie.<lb/><hi rend="smallCaps">comedie</hi>,<lb/><hi rend="italics">Représentée à plusieurs reprises par les Mario-<lb/>nettes de <persName ref="#FB">Brioché</persName>, en présence des Person-<lb/>nes les plus considérables de la Cour</hi>.<lb/><lb/>POLICHINELLE &amp; LE VOISIN.</rdg>
+               </app>
+               </head>
+            <sp who="Polichinelle" xml:id="R1">
+               <speaker>Polichinelle</speaker>
+               <p>Bonjour voisin, scais tu le dessein qui m'a pissé par la teste?</p>
+            </sp>
+            <sp who="Voisin" xml:id="R2">
+               <speaker>Le Voisin</speaker>
+               <p>
+                  <app>
+                     <rdg wit="#RQM">Comment pissé, c'est passé que tu veux dire!</rdg>
+                     <rdg wit="#ChM">Comment pissé, c'est passé, que veux tu dire?</rdg>
+                  </app>
+                  </p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R3">
+               <speaker>Polichinelle</speaker>
+               <p>Par la sanguenne il n'est pas passé puisqu'il y est encore.</p>
+            </sp>
+            <sp who="Voisin" xml:id="R4">
+               <speaker>Le Voisin</speaker>
+               <p>Eh bien quel <app><rdg wit="#RQM #ChM">est</rdg><rdg wit="#PEF">est-il</rdg></app> ce dessein?</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R5">
+               <speaker><app><rdg wit="#RQM">Pol.</rdg><rdg wit="#ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>C'est que je veux demander à estre receu <app> <rdg wit="#RQM #PEF">au cas de ma mie françoise.</rdg> <rdg wit="#ChM">dans le cas de ma mie Françoise.</rdg></app></p>
+            </sp>
+            <sp who="Voisin" xml:id="R6">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM">Comment au cas de ta mie, qu'est ce que le cas de ta mie?</rdg>
+               <rdg wit="#ChM"><add type="superscription">Diable</add> Comment le cas de ta mie, qu'est-ce que le cas de ta mie françoise.</rdg><rdg wit="#PEF">Comment au Cas de ta Mie Françoise? Qu'est-ce que c'est que le Cas de ta Mie?</rdg></app></p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R7">
+               <speaker><app><rdg wit="#RQM">Pol.</rdg><rdg wit="#ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>Diable! le cas de ma mie <app><rdg wit="#RQM #ChM">est</rdg><rdg wit="#PEF">c'est</rdg></app> un lieu où chaque fois qu'on y va on donne à chacun <app><rdg wit="#RQM #PEF">du
+                  jus</rdg><rdg wit="#ChM">des jue</rdg></app> de tetons.</p>
+            </sp>
+            <pb n="5"/>
+            <sp who="Voisin" xml:id="R8">
+               <speaker><app><rdg wit="#RQM #PEF">Le Voisin</rdg><rdg wit="#ChM">V.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM #PEF">Du
+                  jus</rdg><rdg wit="#ChM">Des jue</rdg></app> de tetons<app><rdg wit="#RQM">; et</rdg><rdg wit="#ChM"></rdg></app> le cas de ta mie<app><rdg wit="#RQM">?... ah</rdg><rdg wit="#ChM">, ha</rdg></app> je t'entens, tu voudrois estre de l'Académie
+                  <app><rdg wit="#RQM"></rdg><rdg wit="#ChM">Françoise</rdg></app> pour avoir des jettons.</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R9">
+               <speaker><app><rdg wit="#RQM #PEF">Polichinelle</rdg><rdg wit="#ChM">P.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM">Eh, oui Palsangué, t'y voilà. On</rdg><rdg wit="#ChM">Eh ouy t'y voila, par sanguié. On</rdg><rdg wit="#PEF">Eh! oüi, t'y voilà. Palsangué, on</rdg></app>  dit que ces jettons la valent pour le moins vingt
+                  sols, et je n'en gagne que cinq à porter mes crochets, voilà un grand <app><rdg wit="#RQM #ChM">profitte</rdg><rdg wit="#PEF">profil</rdg></app> que
+                  je feray la.</p>
+            </sp>
+            <sp who="Voisin" xml:id="R10">
+               <speaker><app><rdg wit="#RQM">Le Voi</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Dis <app><rdg wit="#RQM #PEF">donc</rdg><rdg wit="#ChM">dont</rdg></app> profit, en parlant comme tu fais comment peux tu esperer d'entrer dans
+                  cette compagnie qui n'est composée que de gens éclairés.</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R11">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM #PEF">Palsangué s'il</rdg><rdg wit="#ChM">Par sanguié si il</rdg></app>  n'y a que cela, je suis <app><rdg wit="#RQM #ChM">bien</rdg><rdg wit="#PEF"></rdg></app> plus eclairé qu'eux, car c'est moy qui
+                  éclaire les autres.</p>
+            </sp>
+            <sp who="Voisin" xml:id="R12">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Comment tu eclaires les autres?</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R13">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>Eh oui tu ne scais donc pas que je suis <app><rdg wit="#RQM #ChM">le</rdg><rdg wit="#PEF"></rdg></app> lanternier de nostre quartier, et puis
+                  on dit que ces gens la ne <app><rdg wit="#RQM #PEF">parlent</rdg><rdg wit="#ChM">parle</rdg></app> que lanternerie. Si cela est la vache est à nous
+                  compere. <pb/>Il y a pourtant une chose qui m'embarrasse.</p>
+            </sp>
+            <sp who="Voisin" xml:id="R14">
+               <speaker><app><rdg wit="#RQM #PEF">Le Voisin.</rdg><rdg wit="#ChM">V.</rdg></app></speaker>
+               <p>Qu'est ce que c'est?</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R15">
+               <speaker><app><rdg wit="#RQM">Pol.</rdg><rdg wit="#ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>C'est que je ne scais <app><rdg wit="#RQM #ChM"></rdg><rdg wit="#PEF">pas</rdg></app>comment je feray pour manger du foin.</p>
+            </sp>
+            <sp who="Voisin" xml:id="R16">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM #ChM">Qu'est ce que tu veux dire manger du foin?</rdg>
+                  <rdg wit="#PEF">Que veux tu dire manger du foin? es tu fou?</rdg></app></p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R17">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle</rdg></app></speaker>
+               <p><app><rdg wit="#RQM #ChM">J'</rdg><rdg wit="#PEF">Je veux dire que j'</rdg></app>ay trouvé deux charettes de foin qui faisoient un embarras devant <app><rdg wit="#RQM">leurs portes</rdg><rdg wit="#ChM #PEF">leur porte</rdg></app>,
+                  et <app><rdg wit="#RQM #ChM">on m'a dit que c'estoit la colation de</rdg><rdg wit="#PEF">l'on disoit que c'étoit pour</rdg></app> ces messieurs la <sic>;</sic></p>
+            </sp>
+            <sp who="Voisin" xml:id="R18">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Gros sot c'est pour les chevaux.</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R19">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM">Oh ho ce sont</rdg><rdg wit="#ChM">Oh oh se sont</rdg><rdg wit="#PEF">Oh! oh! ce sont donc</rdg></app>  des chevaux qui sont <app><rdg wit="#RQM #ChM">la</rdg><rdg wit="#PEF">là-dedans</rdg></app>la, <app><rdg wit="#RQM">palsangué</rdg><rdg wit="#ChM">parsanguié</rdg></app> je m'en vais demander une place
+                  pour le mien, aussy bien est-il bien maigre, le foin sera pour luy et les jettons
+                  pour moi <app><rdg wit="#RQM #ChM">compere</rdg><rdg wit="#PEF"></rdg></app>.</p>
+            </sp>
+            <sp who="Voisin" xml:id="R20">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Impertinent <app><rdg wit="#RQM #ChM">gros paysan que tu es,</rdg><rdg wit="#PEF">!</rdg></app> scais tu bien qu'il faut faire des vers pour
+                  estre de cette compagnie</p>
+            </sp>
+            <pb n="6"/>
+            <sp who="Polichinelle" xml:id="R21">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>J'en ay peut estre fait sans y prendre garde, mais doresnavant, je <unclear>n'</unclear>iray plus à la
+                  selle sans y regarder de prés quand j'auray mal au ventre</p>
+            </sp>
+            <sp who="Voisin" xml:id="R22">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM #ChM">Le gros boeuf</rdg><rdg wit="#PEF">Gros Boeuf?</rdg></app> il ne s'agit <app><rdg wit="#RQM #ChM">pas</rdg><rdg wit="#PEF">point</rdg></app> de ces vers là.</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R23">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle</rdg></app></speaker>
+               <p>Quoy <app><rdg wit="#RQM #ChM">est ce</rdg><rdg wit="#PEF">sont ce</rdg></app> des <app><rdg wit="#RQM">verres</rdg><rdg wit="#ChM #PEF">vers</rdg></app> de Fougere? <note resp="IG">Le Littré explique l'expression "Verre dans lequel il entre des cendres de fougère" (voir notice sur ATILF,http://stella.atilf.fr/Dendien/scripts/tlfiv5/search.exe?23;s=2356406040;cat=1;m=verre+de+foug%8Are;). L'expression est donnée en exemple dans le <title>Dictionnaire de l'Académie</title>, mais elle n'est pas explicitée. De même, le <title rend="italics">Dictionnaire universel</title> utilise l'expression à l'article "verre", mais ne l'explique pas: "Verre signifie aussi un petit vase dont on se sert à table pour boire, qui est de la même matière. [...] Un verre de fougere, de cristal de Venise." Il signale cependant que "Le verre se fait avec des cailloux blancs et reluisants [...] ou bien pour faire du verre commun, du sel de cendres de fougere".  </note></p>
+            </sp>
+            <sp who="Voisin" xml:id="R24">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Des vers sont des ouvrages d'esprit que font les Poetes - cela rime</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R25">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>Cela lime <app><rdg wit="#RQM #PEF">dis tu?</rdg><rdg wit="#ChM">tu dis</rdg></app> <app><rdg wit="#RQM #ChM"></rdg><rdg wit="#PEF">Oh!</rdg></app> S'il ne faut qu'une lime j'en ay une chez nous</p>
+            </sp>
+            <sp who="Voisin" xml:id="R26">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Rime te dis je, voylà un plaisant animal tu ne scais pas dire deux mots de suitte,
+                  <app><rdg wit="#RQM #ChM">et</rdg><rdg wit="#PEF"></rdg></app> comment ferois tu <app><rdg wit="#RQM #ChM"></rdg><rdg wit="#PEF">donc</rdg></app> pour haranguer le jour de ta reception</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R27">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>Pourquoy non je suis de race?</p>
+            </sp>
+            <sp who="Voisin" xml:id="R28">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Comment de race?</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R29">
+               <speaker><app><rdg wit="#RQM">P.</rdg><rdg wit="#ChM #PEF">Polichinelle.</rdg></app></speaker>
+               <p>Oui de race. Mon pere vendoit des harengs, et ma mere estoit harangére<app><rdg wit="#RQM #ChM">.</rdg><rdg wit="#PEF">; comment ne saurois-je pas haranguer?</rdg></app></p>
+            </sp>
+            <pb/>
+            <sp who="Voisin" xml:id="R30">
+               <speaker><app><rdg wit="#RQM #PEF">Le Voisin</rdg><rdg wit="#ChM">Voisin.</rdg></app></speaker>
+               <p>Allons voyons <app><rdg wit="#RQM">comme</rdg><rdg wit="#ChM #PEF">comment</rdg></app> tu ferois, <app><rdg wit="#RQM #ChM">represente</rdg><rdg wit="#PEF">imagine</rdg></app> toy que je suis l'Academie.</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R31">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>Ouy da compere...</p>
+               <stage type="business">Il pette, tousse et crache.</stage>
+            </sp>
+            <sp who="Voisin" xml:id="R32">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg>Le Voisin.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM">que fais tu la</rdg><rdg wit="#ChM #PEF">Qu'est ce que tu fais là,</rdg></app> infame</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R33">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF"><hi rend="italics">Polichinelle commençant sa Harangue.</hi></rdg></app></speaker>
+               <p><app><rdg wit="#RQM #ChM">je me prepare...</rdg><rdg wit="#PEF">Je me propose,</rdg></app> Mes Chieurs</p>
+            </sp>
+            <sp who="Voisin" xml:id="R34">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Comment mes chieurs, dis donc messieurs, allons repete</p>
+            </sp>
+            <stage type="business">
+               <app><rdg wit="#RQM #PEF">Polichinelle pette encore.</rdg>
+                  <rdg wit="#ChM">
+                     P.
+                        Pette encore.
+                     </rdg>
+               </app>
+            </stage>
+            <sp who="Voisin" xml:id="R35">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM">Ah</rdg><rdg wit="#ChM">Hé</rdg><rdg wit="#PEF"></rdg></app> que fais tu <app><rdg wit="#RQM #ChM"></rdg><rdg wit="#PEF">donc</rdg></app>là vilain pourceau</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R36">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM">Oh</rdg><rdg wit="#ChM #PEF">Eh</rdg></app> dame! <app><rdg wit="#RQM #ChM"></rdg><rdg wit="#PEF">tu es bien difficile</rdg></app>on ne scait comment faire <app><rdg wit="#RQM #ChM"></rdg><rdg wit="#PEF">avec toi</rdg></app>, tu me dis de repetter, je repette.</p>
+            </sp>
+            <sp who="Voisin" xml:id="R37">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Je veux <app><rdg wit="#RQM">te</rdg><rdg wit="#ChM #PEF"></rdg></app> dire de recommencer</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R38">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM">Oh</rdg><rdg wit="#ChM">ho</rdg></app> ça! puisque tu le veux entrons <app><rdg wit="#RQM #ChM"></rdg><rdg wit="#PEF">donc</rdg></app> en matiére...</p>
+               <pb n="7"/>
+               <p>Messieurs <app><rdg wit="#RQM #ChM">donc</rdg><rdg wit="#PEF"></rdg></app>, depuis que <app><rdg wit="#RQM #ChM">ce</rdg><rdg wit="#PEF">le</rdg></app> grand <persName ref="#CDR">Cardinal de Richelieu</persName> a tiré l'Académie
+                  <app><rdg wit="#RQM #ChM">francoise</rdg><rdg wit="#PEF"></rdg></app> de <app><rdg wit="#RQM #ChM">la</rdg><rdg wit="#PEF">cette</rdg></app> profonde et vaste matrice du neant, elle a si bien rivé le clou
+                  aux autres académies, <app><rdg wit="#RQM #ChM">qu'on peut dire</rdg><rdg wit="#PEF"></rdg></app> qu'elles ne sont à l'égard de la <app><rdg wit="#RQM">nostre</rdg><rdg wit="#ChM #PEF">vostre</rdg></app> que
+                  comme un étron auprès d'un pain de sucre<note resp="IG">Allusion probable au protectorat de Louis XIV accordé à l'Académie française en 1672, qui la distingue, dès lors, des autres sociétés et corps constitués.</note>, ainsi je ne prétens point vous ennuyer
+                  par <app><rdg wit="#RQM #ChM">de fades</rdg><rdg wit="#PEF">des</rdg></app> losanges</p>
+            </sp>
+            <sp who="Voisin" xml:id="R39">
+               <speaker><app><rdg wit="#RQM">Le Voisin</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Dis donc <app><rdg wit="#RQM #ChM"></rdg><rdg wit="#PEF">des</rdg></app>louanges</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R40">
+               <speaker><app><rdg wit="#RQM #PEF">Polichinelle</rdg><rdg wit="#ChM">P.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM #ChM"></rdg><rdg wit="#PEF">Loüanges soit.</rdg></app>Je veux d'abord vous fourbir une occasion</p>
+            </sp>
+            <sp who="Voisin" xml:id="R41">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>fournir, gros sot, et non pas fourbir.</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R42">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>vous fournir <app><rdg wit="#RQM #ChM">une </rdg><rdg wit="#ChM"></rdg><rdg wit="#PEF">l'</rdg></app>occasion de <app><rdg wit="#RQM">manifester</rdg><rdg wit="#ChM">manifrustrer</rdg></app> vos talons et vos <app><rdg wit="#RQM #PEF">genisses</rdg><rdg wit="#ChM">génices</rdg></app></p>
+            </sp>
+            <sp who="Voisin" xml:id="R43">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>quel diable de patois: <app><rdg wit="#RQM #ChM">crois tu</rdg><rdg wit="#PEF">t'imagine tu</rdg></app> que ce soit là le stile de l'Academie? tu veux
+                  dire manifester vos talents, et vos génies</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R44">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>Eh ouy <app><rdg wit="#RQM #ChM">l'un vaut l'autre,</rdg><rdg wit="#PEF">l'un ne vaut-il pas l'autre?</rdg></app> c'est tout un<app><rdg wit="#RQM">.</rdg><rdg wit="#ChM">, de par tous les Diables, ne m'interrons donc plus.</rdg></app> j'ay pour cela messieurs, trois <app><rdg wit="#RQM #ChM">questions
+                  à vous faire:</rdg><rdg wit="#PEF">trois choses à vous proposer.</rdg></app> premiérement <pb/> scavoir s'il faut dire une vesse en coque ou une
+                  vesse en coquille<note>Ni l'une ni l'autre expression n'est attestée par les dictionnaires, anciens ou modernes. On comprend que Polichinelle pète sans bruit dans son pantalon, une sorte de coque.</note>, je vous prie Mrs de vouloir <app><rdg wit="#RQM #ChM"></rdg><rdg wit="#PEF">bien</rdg></app>sentir toute la force de cette
+                  question, qui ne peut échaper à des nés tels que les vostres, secondement j'ay <app><rdg wit="#RQM #ChM">un
+                     grand</rdg><rdg wit="#PEF">une grande</rdg></app> crapule sur <app><rdg wit="#RQM #ChM">cette</rdg><rdg wit="#PEF">une</rdg></app> façon de parler</p>
+            </sp>
+            <sp who="Voisin" xml:id="R46">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg>Le Voisin.</rdg></app></speaker>
+               <p>Dis donc scrupule.</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R47">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM #ChM">Eh oui...</rdg><rdg wit="#PEF"></rdg></app> on dit quelquefois entre deux selles le cul à terre,<app><rdg wit="#RQM"></rdg><rdg wit="#ChM #PEF">et</rdg></app> je maintiens qu'il
+                  faut dire entre deux siéges le cul à terre,<app><rdg wit="#RQM #PEF"></rdg><rdg wit="#ChM">parce que des gens qui n'ont point étudié, (</rdg></app> car à cause du rapport qu'il y a <app><rdg wit="#RQM #ChM">des</rdg><rdg wit="#PEF">entre les</rdg></app>
+                  <del>salles</del> selles que l'on pousse, <app><rdg wit="#RQM #ChM">aux</rdg><rdg wit="#PEF">et les</rdg></app> selles <app><rdg wit="#RQM #ChM">où l'on est assis, et</rdg><rdg wit="#PEF">sur lesqueles on s'assied, outre</rdg></app>
+                  qu'il y est parlé <app><rdg wit="#RQM #ChM">de</rdg><rdg wit="#PEF">du</rdg></app>de cul<app><rdg wit="#RQM">,</rdg><rdg wit="#ChM">)</rdg></app> on pourroit croire <app><rdg wit="#RQM #ChM">que l'on se</rdg><rdg wit="#PEF">qu'on</rdg></app> seroit assis entre deux
+                  étrons; troisiémement je voudrois <app><rdg wit="#RQM #ChM">que l'on</rdg><rdg wit="#PEF">qu'on</rdg></app> dit le conseil aisance<note resp="IG">"Aisances, au pluriel, signifie le retrait, garderobe; le lieu où est la chaise percée. Le mot d'aisance en ce sens, n'est guères connu qu'à Paris." (Furetière, 1701). Le <title rend="italics">Dictionnaire de l'Académie</title>, dans son édition de 1694, ne donne que le sens "Facilité. Faire toutes choses avec une grande aisance, beaucoup d' aisance." </note> et non pas le
+                  conseil privé<note resp="IG">"Le Conseil privé du Roi est un Conseil d'Etat qu'il tient pour juger quelques affaires de ses sujets qui réclament sa justice" (Furetière, 1701). "Privé. s. m. Retrait, aisance, l'endroit de la maison destiné à décharger le ventre." (Académie, 1694) "Au substantif, on appelle un privé, un retrait, un lieu particulier où l'on va à ses nécessitez secretes. Cela put comme un privé. La lunette, la ventouse d'un privé; un cureur de privez." (Furetière, 1701)</note>; je voudrois aussy que vous changeassiez ce vilain mot de brandevin
+                  parce que bran<note resp="IG">"BRAN ou Bren. s. m. Matiere fecale. "(Académie, 1694). "Excrément de l'homme qui décharge son ventre." (Furetière, 1701).</note> ressemble trop à <app><rdg wit="#RQM #ChM">de la</rdg><rdg wit="#PEF"></rdg></app> merde. Je vous laisse sur la bonne bouche
+                  voylà de quoy <app><rdg wit="#RQM #ChM">pétrifier un</rdg><rdg wit="#PEF">putrifier votre</rdg></app> dictionnaire</p>
+            </sp>
+            <sp who="Voisin" xml:id="R48">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p><app><rdg wit="#RQM #ChM">Dis</rdg><rdg wit="#PEF">Putrifier, dis</rdg></app> donc purifier.</p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R49">
+               <speaker><app><rdg wit="#RQM #ChM">P.</rdg><rdg wit="#PEF">Polichinelle.</rdg></app></speaker>
+               <p>Purifier vostre dictionnaire, qui ne pourroit servir <pb n="8"/> qu'a 
+                  <app><rdg wit="#RQM">faire des torcheculs</rdg><rdg wit="#ChM">faire des torchecul</rdg><rdg wit="#PEF">qu'à torcher le cul</rdg></app>, si vous y laissiés toutes ces ordures</p>
+            </sp>
+            <sp who="Voisin" xml:id="R50">
+               <speaker><app><rdg wit="#RQM">Le V.</rdg><rdg wit="#ChM">V.</rdg><rdg wit="#PEF">Le Voisin.</rdg></app></speaker>
+               <p>Voilà qui va <app><rdg wit="#RQM #ChM">fort</rdg><rdg wit="#PEF"></rdg></app> bien, tu n'as qu'à <app><rdg wit="#RQM #ChM">t'aller</rdg><rdg wit="#PEF">aller te</rdg></app> faire recevoir, tu <app><rdg wit="#RQM #ChM">pourras bien recevoir aussy</rdg><rdg wit="#PEF">pourais bien en même temps recevoir</rdg></app>  quelques coups de <app><rdg wit="#RQM">baston</rdg><rdg wit="#ChM">bâtons.</rdg><rdg wit="#PEF">bâton.</rdg></app></p>
+            </sp>
+            <sp who="Polichinelle" xml:id="R51">
+               <speaker><app><rdg wit="#RQM #PEF">Polichinelle.</rdg><rdg wit="#ChM">P.</rdg></app></speaker>
+               <p>Bon <app><rdg wit="#RQM #ChM">il y a tant de gens</rdg><rdg wit="#PEF">je n'en aurois pas plus que tant d'autres delà dedans</rdg></app> qui en méritent et <app><rdg wit="#RQM #ChM">qui n'en ont pas!</rdg><rdg wit="#PEF">auxquels on n'en donne point.</rdg></app></p>
+            </sp>
+            <trailer><app><rdg wit="#RQM">fin du dialogue</rdg><rdg wit="#ChM #PEF"></rdg></app></trailer>
+         </div>
+         <div type="anthology" xml:id="III">
+            <div type="explanation" xml:id="III_1">
+               <p><persName ref="#NM">Monsieur de Malaisieu</persName> chancelier de Dombes
+                  qui a esté soûgouverneur de <persName ref="#DDM">Mr le Duc du Maine</persName> et qui est encore attaché à luy
+                  estoit un des acteurs des grandes comédies, il fut accusé d'avoir contribué à
+                  faire jouer cellecy et meme d'en estre l'autheur, comme il est luy meme un des
+                  quarante de l'Académie, tout le monde fut revolté de ce qu'il cherchoit à luy
+                  donner un ridicule, et des qu'on eut raconté quelques lambeaux du dialogue de
+                  Polichinelle dans le monde, car on ne l'avoit pas d'abord tout entier, on vit
+                  courir beaucoup d'ouvrages contre luy. Ce Rondeau fut un des premiers</p>
+            </div>
+            <div type="poem" corresp="ChM_2" xml:id="III_2">
+               <l n="1">De <app><rdg wit="#RQM"><persName ref="#NM">Malésieu</persName></rdg><rdg wit="#ChM"><persName ref="#NM">Malézieux</persName></rdg></app>, <app><rdg wit="#RQM">l'on vante </rdg><rdg wit="#ChM">on compte</rdg></app>les
+                  exploits,</l>
+               <l n="2"><app><rdg wit="#RQM">Et tous</rdg><rdg wit="#ChM">Tous tres</rdg></app> fameux; <rs type="god">Protée</rs> eut autrefois</l>
+               <l n="3">L'art de changer de forme et de visage;</l>
+               <l n="4">Mais <app><rdg wit="#RQM"><persName ref="#NM">Malésieu</persName></rdg><rdg wit="#ChM">celui cy</rdg></app> plus adroit
+                  personnage</l>
+               <l n="5">En <app><rdg wit="#RQM">cent</rdg><rdg wit="#ChM">vingt</rdg></app> façons se transforme à la fois:</l>
+               <l n="6"><app><rdg wit="#RQM">De</rdg><rdg wit="#ChM">D'un</rdg></app> chancelier égal à ceux des Rois</l>
+               <l n="7">Il prend le titre, <app><rdg wit="#RQM">il</rdg><rdg wit="#ChM">et</rdg></app> débite des lois</l>
+               <l n="8">Sceaux et brevets signés en haut parage</l>
+               <l n="9">De <app><rdg wit="#RQM"><persName ref="#NM">Malésieu</persName></rdg><rdg wit="#ChM"><persName ref="#NM">Malézieux.</persName></rdg></app></l>
+               <l n="10"><app><rdg wit="#RQM">Mais vers le soir sur deux treteaux</rdg><rdg wit="#ChM">Le Soir monté sur un Treteau</rdg></app>  de bois,</l>
+               <l n="11">D'un <rs type="lit_character">Arlequin</rs> il prend l'air et la voix</l>
+               <l><app><rdg wit="#RQM"></rdg><rdg wit="#ChM"><add type="superscription">ou</add>Du Savoyard<add>*</add><gloss>Ce Savoyard fameux Chantre du <placeName>Pont Neuf</placeName>.</gloss> il emprunte l'air et la voix</rdg></app></l>
+               <l n="12">Fait <app><rdg wit="#RQM"><persName ref='#FB'>Brioché</persName>, <persName ref="#AGT">Tabarin</persName></rdg><rdg wit="#ChM"><persName ref="#AGT">Tabarin</persName>, <persName ref="#FB">Brioché</persName></rdg></app>, <rs type="lit_character">Jeanpotage</rs><note resp="IG">"Fagotin, Jean Potage, Valet, bouffon d'un opérateur qui monte avec lui sur le théâtre." (<bibl><title rend="italics">Dictionnaire françois et hollandois</title>, 1762.</bibl>)</note></l>
+               <l n="13">Des beaux esprits brocarde l'assemblage;</l>
+               <l n="14">C'est à bon droit, pourquoy faisoient ils choix</l>
+               <l n="15">De <app><rdg wit="#RQM"><persName ref="#NM">Malésieu</persName></rdg><rdg wit="#ChM"><persName ref="#NM">Malézieux</persName></rdg></app>.</l>
+            </div>
+            <div type="explanation" xml:id="III_3">
+               <p>Le madrigal et les chansons qui suivent parurent presque en meme temps</p>
+            </div>
+            <div type="song" corresp="ChM_4" xml:id="III_4">
+               <l n="1">On a longtemps vanté pour leurs sornettes</l>
+               <l n="2"><persName ref="#GR">Le gros René</persName>, <persName ref="#AGT">Tabarin</persName>,
+                     <persName ref="#JBJ">Jodelet</persName></l>
+               <l n="3">Et <persName ref="#FB">Brioché</persName> sur tout autre excelloit</l>
+               <l n="4">Depuis longtemps pour les marionnettes.</l>
+               <l n="5">La gloire passe et joue aux olivettes; <note resp="IG">Probablement, "joue aux oubliettes". L'expression "jouer aux olivettes" n'est pas attestée dans les dictionnaires d'époque. Selon Furetière, "olivettes" est une "espèce de danse de campagne", qui ne fait pas tout à fait sens dans le contexte.</note></l>
+               <l n="6"><app><rdg wit="#RQM">Ces grands</rdg><rdg wit="#ChM">Tous ces</rdg></app> Heros, au <placeName>pont neuf</placeName> si vantés,</l>
+               <l n="7">Par <app><rdg wit="#RQM"><persName ref="#NM">Malesieux</persName></rdg><rdg wit="#ChM"><persName ref="#NM">Malézieux</persName></rdg></app> ont esté supplantés.</l>
+            </div>
+            <pb n="9"/>
+            <div type='song' corresp="ChM_3" xml:id="III_5">
+               <head>Sur l'air de <sound corresp="#A6">Joconde</sound></head>
+               <l n="1"><app><rdg wit="#RQM">Que le</rdg><rdg wit="#ChM">Le</rdg></app> chancelier <app><rdg wit="#RQM"><persName ref="#NM">Malésieux</persName></rdg><rdg wit="#ChM"><persName>Malézieux</persName></rdg></app></l>
+               <l n="2">Monte sur le theatre,</l>
+               <l n="3">Et pour estre facetieux</l>
+               <l n="4"><app><rdg wit="#RQM">Fasse</rdg><rdg wit="#ChM">Il fait</rdg></app> le diable a quatre.</l>
+               <l n="5"><app><rdg wit="#RQM">Il reussit mal au</rdg><rdg wit="#ChM">Exerçant un si beau</rdg></app> metier</l>
+               <l n="6">De bouffon de tragique,</l>
+               <l n="7">Mais dès qu'il fait le chancelier</l>
+               <l n="8">C'est un parfait comique.</l>
+            </div>
+            <div type='song' xml:id="III_6" corresp="ChM_18">
+               <head><app><rdg wit="#RQM">Sur le meme <sound corresp="#A6">air</sound></rdg><rdg wit="#ChM">Chanson<lb/>Sur l'air de <sound corresp="#A6">Joconde</sound></rdg></app></head>
+               <l n="1">Quand <persName ref="#NM">le chancelier Malésieux</persName></l>
+               <l n="2">Fait le <rs type="lit_character">Polichinelle</rs>,</l>
+               <l n="3">Loin de s'avilir à mes yeux</l>
+               <l n="4">Mon respect renouvelle.</l>
+               <l n="5">Sous cet habit de barbouillé</l>
+               <l n="6">Je reconnois mon drôle,</l>
+               <l n="7">Et <app><rdg wit="#RQM">scais bien</rdg><rdg wit="#ChM">je scais</rdg></app> qu'en deshabillé<app><rdg wit="#RQM">* <gloss>On veut accuser <persName ref="#LDM">Mad<abbr>e</abbr> La
+                     Duchesse du Maine</persName> d'avoir quelque gout pour luy.</gloss></rdg><rdg wit="#ChM"></rdg></app></l>
+               <l n="8">Il joue un autre roolle</l>
+            </div>
+            <div type="explanation" xml:id="III_7">
+               <p>
+                  <app>
+                     <rdg wit="#RQM">Comme le public se plaît assez à ces sortes de querelles qui font faire des
+                  vaudevilles qui le divertissent, on excita l'Académie à la vengeance par celuy cy
+                  qui est sur un air fort connu.<note resp="IG">À en juger d'après le mètre des vers, l'air est celui des "Mais", explicitement cité plus bas à propos d'une autre chanson.</note></rdg>
+                  <rdg wit="#ChM">Chanson<lb/>Sur l'air de <sound>Mais</sound>.<lb/>
+                  On fit jouer les mêmes Marionettes de <persName>M<add type="superscription">r</add>. de Malézieux</persName> à <placeName>l'hostel de Tresmes</placeName>, en présence de <persName ref="#DDC">M<add type="superscription">r</add>. le Duc de Bourbon</persName>, fils du <persName ref="#PDC">Prince de Condé</persName>, où le <persName ref="#JAM">président de Mesmes</persName> fut tourné en ridicule, pour se vanger il fit les couplets suivans. On dit que <rs ref="#DDC">M<add type="superscription">r</add>. le Duc</rs> fit après la Chanson <sound corresp="#A9">Juge qui te déplace</sound>, qu'il donna sous le nom de Rousseau.</rdg>
+                  </app>
+               </p>
+            </div>
+            <pb/>
+            <div type="song" corresp="ChM_8_1" xml:id="III_8">
+               <head><app><rdg wit="#RQM"></rdg><rdg wit="#ChM">A Messieurs de l'Académie</rdg></app></head>
+               <l n="1">Souffrirez vous, quarante que vous estes</l>
+               <l n="2"><app><rdg wit="#RQM">D'estre traittés</rdg><rdg wit="#ChM">Que l'on vous jouë</rdg></app> ainsi que des masettes.</l><note resp="IG">"Petit cheval, ou cheval ruïné qu'on ne sçauroit faire aller, ni avec le foüet, ni avec l'éperon." (<bibl>Furetière, 1701</bibl>)</note>
+               <l n="3">Paix.</l>
+               <l n="4">Contre des marionnettes</l>
+               <l n="5">On ne se facha jamais.</l>
+            </div>
+            <div type="explanation" xml:id="III_9">
+               <p>On publia aussy cette affiche</p>
+            </div>
+            <div type="song" xml:id="III_10" corresp="ChM_1"><note resp="IG">Cette chanson est reproduite deux fois dans la <title>Querelle</title>, comme dans le <title>Chansonnier de Maurepas</title>, p. 357, puis p. 367, avec une légère variante (inversion des deux premiers vers), et une entête légèrement différente: "Contre l'Affiche cy devant".</note>
+               <head><app><rdg wit="#RQM"></rdg><rdg wit="#ChM">Chanson<lb/>Sur l'air de <sound>la Seneschalle</sound><lb/>Affiche</rdg></app></head>
+               <l n="1">De la part de Polichinelle</l>
+               <l n="2">On fait scavoir aux curieux</l>
+               <l n="3">Que <app><rdg wit="#RQM">l'histrion de</rdg><rdg wit="#ChM">l'Istrion</rdg></app> <app><rdg wit="#RQM"><persName ref="#NM">Malesieux</persName></rdg><rdg wit="#ChM"><persName ref="#NM">Malezieux</persName></rdg></app></l>
+               <l n="4">A fait une piece<app><rdg wit="#RQM"></rdg><rdg wit="#ChM">*<gloss>Elle est cy devant.</gloss></rdg></app> nouvelle,</l>
+               <l n="5">Et qu'à tous les honnestes gens</l>
+               <l n="6">L'Autheur la donne à ses depens.</l>
+            </div>
+            <div type="explanation" xml:id="III_11">
+               <p>On ne manqua pas de croire que ces petits écrits partoient des Académiciens, qu'on
+                  étoit persuadé qui etoient fort courroucés; le bruit courut meme qu'on avoit
+                  deliberé si on <add>n'</add>excluroit pas desormais <persName ref="#NM"
+                     >Malésieux</persName> de l'entrée aux assemblées, et si on l'appelleroit aux
+                  élections qu'on feroit à l'avenir; pour s'eclaircir de ce fait <rs ref="#DDC">Mr le Duc</rs> qui luy
+                  attiroit tous ces ennemis, engagea <persName ref="#LP">Mr de Pontchartrain</persName> secretaire d'etat de la
+                  maison du Roy dans le département duquel est l'Academie d'ordonner à <persName ref="#RD">l'Abbé
+                  Regnier</persName> secrétaire perpetuel de cette compagnie de le venir trouver, et d'apporter
+                  le registre où s'escrivent les déliberations.</p>
+               <p><persName ref="#LP">Le ministre</persName> débuta par gronder <rs ref="#RD">l'Abbé</rs> de la prétendue <pb n="10"/>exclusion qu'on
+                  disoit qu'on avoit donnée à <persName ref="#NM">Malésieux</persName> et
+                  l'asseura qu'elle deplaisoit fort au <rs ref="#LXIV">Roy</rs>, <rs ref="#RD">le Secretaire</rs> répondit que loin que sa
+                  compagnie eust pû deplaire à <rs ref="#LXIV"><choice><abbr>S. M.</abbr><expan>Sa Majesté</expan></choice></rs> en faisant un tel acte sans luy demander ses
+                  ordres, qu'il n'avoit pas esté seulement parlé dans les assemblées de *l'Académie
+                     <gloss resp="unknown">La verité est que les plus animés contre <persName ref="#NM">Malesieu</persName>
+                     proposerent dans l'Academie de l'exclure, on en delibera meme, mais les plus
+                     sages rompirent la déliberation, et empechèrent qu'il n'y eut rien d'écrit dont
+                     tout le corps se sceut bon gré dans la suitte.</gloss> ny de <persName
+                     ref="#NM">Malesieux</persName> ny de la piéce qui faisoit la querelle,
+                  qu'il ne répondoit pas que quelque Académicien n'eust recherché par ses vers à
+                  vanger l'injure qu'on faisoit à un corps que <rs ref="#LXIV">le Roy</rs> a bien voulu prendre sous sa
+                  protection <note resp="IG">La "protection" accordée par Louis XIV à l'Académie est ancienne, elle remonte à 1672, mais on voit que Regnier-Desmarais sait toujours tirer parti de cette faveur, tout comme l'avait fait, à des fins comiques, Malezieu dans sa pièce pour marionnettes.</note>, mais que l'Académie en general n'avoit point relevé cette bagatelle,
+                  croioit qu'il estoit indigne d'elle d'en parler, et n'en vouloit pas accuser 
+                     <persName ref="#NM">Mr de Malésieux</persName>. 
+                     <persName ref="#RD">L'Abbé Regnier</persName> pour prouver son discours montra son registre tout
+                  blanc</p>
+               <p><rs ref="#DDC">Monsr Le Duc</rs>, qui se trouva present à cette conversation, prit l'affirmative pour
+                     <persName ref="#NM">Malesieu</persName><note resp="IG">"Prendre l'affirmative pour quelqu'un, c'est se déclarer pour lui." (<bibl>Furetière, 1701</bibl>)</note>, et déclara nettement que luy qui
+                  parloit etoit autheur de la piéce, qu'elle avoit esté jouée par ses ordres, et
+                  qu'il etoit bien aise que l'Academie en fût informée.</p>
+               <p><persName ref="#RD">L'Abbé Regnier</persName> ne répondit à ce discours que par une profonde
+                  reverence, et par une prompte retraitte, mais il ne resta pas sans reponse dans le
+                  public. On commença par retourner l'affiche qu'on donna de cette façon.</p>
+            </div>
+            <pb/>
+            <div type="poem" xml:id="III_12" corresp="ChM_13">
+               <head><app><rdg wit="#RQM">contre affiche</rdg><rdg wit="#ChM">Chanson<lb/>Sur l'air de <sound>la Seneschalle</sound><lb/>Contre l'Affiche cy devant.</rdg></app></head>
+               <l n="1">L'on fait scavoir aux curieux</l>
+               <l n="2">De la part de <rs type="lit_character">Polichinelle</rs>,</l>
+               <l n="3">Que le chancelier <app><rdg wit="#RQM"><persName ref="#NM">Malésieux</persName></rdg><rdg wit="#ChM"><persName>Malézieux</persName></rdg></app></l>
+               <l n="4">N'est point l'autheur de la piece nouvelle;</l>
+               <l n="5">que le véritable <app><rdg wit="#RQM">Histrion</rdg><rdg wit="#ChM">Istrion</rdg></app></l>
+               <l n="6">Est monsieur <persName ref="#DDC">Le Duc de Bourbon</persName>.</l>
+            </div>
+            <div type="explanation" xml:id="III_13">
+               <p>Quelqu'un crut que <persName ref="#DDM">Mr Le Duc du Maine</persName> avoit pris aussy la piéce sur son compte, ce
+                  qui donna lieu à cette Epigramme</p>
+            </div>
+            <div type="poem" xml:id="III_14" corresp="ChM_22">
+               <l n="1"><persName ref="#NM">Malesieu</persName> faites toûjours bien,</l>
+               <l n="2">Vous avez un bon maitre, il ne prend point d'ombrages</l>
+               <l n="3">Et sans qu'il se plaigne de rien</l>
+               <l n="4">Il adopte tous vos ouvrages.</l><note resp="IG">L'allusion à la prétendue relation extraconjugale entre Malezieu et la duchesse du Maine n'est plus signalée par le rédacteur, mais elle est évidente ici.</note>
+            </div>
+            <div type="explanation" xml:id="III_15">
+               <p>apparemment que la crainte d'estre exclus fit dire à <persName ref="#NM"
+                     >Malesieu</persName> que de bon coeur il renonceroit à retourner jamais à
+                  l'Académie: ce discours fît faire ces vers</p>
+            </div>
+            <div type="poem" xml:id="III_16" corresp="ChM_10">
+               <l n="1">On dit partout que <app><rdg wit="#RQM"><persName ref="#NM">Malesieux</persName></rdg><rdg wit="#ChM"><persName ref="#NM">Malézieux</persName></rdg></app></l>
+               <l n="2">Se bannit de l'Académie,</l>
+               <l n="3">Et qu'il a juré ses grands dieux</l>
+               <l n="4">De n'y retourner de sa vie.</l>
+               <l n="5">Qui peut remplacer ce heros?</l>
+               <l n="6">J'en suis embarassé pour elle;</l>
+               <l n="7">Mais j'apprens que <rs type="lit_character">Polichinelle</rs></l>
+               <l n="8">Vient s'offrir, je suis en repos.<app><rdg wit="#RQM"></rdg><rdg wit="#ChM"><gloss>Nota. Ces vers ne sont point de la Chanson cy dessus, attendu qu'il n'y à que 6 vers à ce couplet et qu'a celui cy il y en a 8.</gloss></rdg></app></l>
+            </div>
+            <div type="explanation" xml:id="III_17">
+               <p><persName ref="#JBC">Coignard</persName> Libraire de l'academie acheva d'imprimer en ce temps
+                  là un livre qui a pour titre <title>Observations de l'academie françoise sur les
+                  remarques de <persName ref="#CFV">Mr. de Vaugelas</persName></title>. comme chaque Academicien avoit
+                  contribué de quelque chose à cet ouvrage chacun devoit en avoir un exemplaire. On
+                  delibera si on enverroit un à <persName ref="#NM">Malesieux</persName> <persName ref="#JBC">Le Libraire</persName> fut
+                  chargé de s'en acquitter, mais ne l'ayant pas receu sitôt que les autres, on crut
+                  qu'on ne luy en porteroit pas, et on le témoigna par ces vers.</p>
+            </div>
+            <div type="poem" xml:id="III_18" corresp="ChM_12">
+               <l n="1">Pour vous vanger du grand <rs type="lit_character">Polichinelle</rs></l>
+               <l n="2">vous deffendez qu'on donne a <app><rdg wit="#RQM"><persName ref="#NM">Malésieux</persName></rdg><rdg wit="#ChM"><persName ref="#NM">Malézieux</persName></rdg></app>,</l>
+               <l n="3">Grands jettonniers, ces livres curieux</l>
+               <l n="4">Qu'enfante chaque jour vostre plume immortelle.</l>
+               <l n="5">Vous pourriez faire beaucoup mieux,</l>
+               <l n="6">En profitant de tous vos avantages,</l>
+               <l n="7">Voulez vous le punir, messieurs, et vous vanger</l>
+               <l n="8">Qu'on le condamne à lire vos ouvrages,</l>
+               <l n="9">C'est l'unique moyen de le faire enrager.</l>
+            </div>
+            <div type="explanation" xml:id="III_19">
+               <p>Les partisans de <rs ref="#DDC">Mr Le Duc</rs> voulurent aussy travailler à la vangeance, et
+                  publiérent ce qui suit</p>
+            </div>
+            <div type="poem" corresp="ChM_5" xml:id="III_20">
+               <l n="1">Ces jours passez naquit grande querelle</l>
+               <l n="2">Entre l'Académie, et son fils <app><rdg wit="#RQM"><persName ref="#NM"
+                  >Malesieux</persName></rdg><rdg wit="#ChM"><persName ref="#NM">Malézieux</persName></rdg></app></l>
+               <l n="3">Pour avoir fait, dit on, en présence des Dieux</l>
+               <l n="4">D'elle un peu librement parler <rs type="lit_character">Polichinelle</rs></l>
+               <l n="5">Or me paroit qu'assez mal à propos</l>
+               <l n="6">Sur ce point là gronde l'Académie,</l>
+               <l n="7">Car le public ne se courrouce mie</l>
+               <l n="8">Depuis longtemps de voir quarante sots</l>
+               <l n="9">Ne s'occuper qu'à fadaise et sornette,</l>
+               <l n="10">Qu'a r'habiller et regratter des mots</l>
+               <l n="11">Et rendre enfin la langue moins parfaite</l>
+               <l n="12">Qu'elle n'estoit du temps <rs ref="#CM #JM">des deux Marots</rs>.</l>
+               <l n="13">Rien n'a plus dit nostre mario<add>n</add>nette</l>
+               <l n="14">Pour tant fâcher les <rs ref="#PCC"></rs>Coaslins<note resp="IG">Depuis l'élection d'Armand de Coislin à l'Académie française en 1652, élection voulue par Louis XIV, le fauteuil est considéré comme un bien de famille, et le restera jusqu'en 1733, alors même que ses occupants ne présentent aucun mérite littéraire. Voir en ce sens <bibl>Hélène Carrère d'Encausse, <title rend="italics">Des siècles d’immortalité. L’Académie française, 1635-…</title>, Paris, Fayard, 2011.</bibl></note>, <app><rdg wit="#RQM">les</rdg><rdg wit="#ChM">et</rdg></app> D'Angeaux.<note resp="IG">Philippe de Dangeau est élu à l'Académie en 1662 sans avoir rien publié. Louis de Courcillon de Dangeau, élu en 1682 contre La Fontaine, a de plus grand mérites, mais le favoritisme est clairement visible dans son cas aussi.</note></l>
+               <l n="15"><rs ref="#LXIV">Le Roy</rs> souffre qu'en son palais</l>
+               <l n="16">Des pedans assembles y débitent en paix,</l>
+               <l n="17"><app><rdg wit="#RQM">Sept ou huit fois</rdg><rdg wit="#ChM">Quatre ou cinq fois</rdg></app> le mois <app><rdg wit="#RQM">mainte et mainte sottise</rdg><rdg wit="#ChM"></rdg></app></l>
+               <l n='17bis'><app><rdg wit="#RQM"></rdg><rdg wit="#ChM">Maintes et maintes sottises</rdg></app></l>
+               <l n="18">Et ces fats là trouvent mauvais</l>
+               <l n="19">Qu'en carnaval <rs type="lit_character">Polichinelle</rs> en dise.</l>
+            </div>
+            <div type="explanation" xml:id="III_21">
+               <p>Le terme de sots estoit trop difficile à digerer pour n'estre pas relevé, il le
+                  fut par des contreverites et par une chanson</p>
+            </div>
+            <pb n="12"/>
+            <div type="poem" xml:id="III_22">
+               <head>Contreverites</head>
+               <l n="1">Examinons en peu de mots</l>
+               <l n="2">La liste des quarante sots.</l>
+               <l n="3"><rs ref="#CE">Le Cardinal</rs><gloss>le C. d'Estrées</gloss> petit genie - </l>
+               <l n="4"><persName ref="#JTB">Testu</persName> a la muse endormie</l>
+               <l n="5"><persName ref="#PDD">D'Angeau</persName><gloss>le Mar.
+                     d'Angeau.</gloss> est tant soit peu brutal - </l>
+               <l n="6"><persName ref="#RD">Regnier</persName> ne scait point de grammaire</l>
+               <l n="7"><persName ref="#NM">Malésieu</persName> vante ses confreres</l>
+               <l n="8"><persName ref="#PDH">Huët</persName><gloss>ancien Ev.
+                     d'Avranches</gloss> est un franc ignorant </l>
+               <l n="9"><persName ref="#EVF">Flechier</persName><gloss>Ev. de Nîmes</gloss> est un vray prédicant - </l>
+               <l n="10"><rs ref="#LVC #FC">Les deux plenipotentiaires</rs> <gloss><persName ref="#LVC">Mrs de Crecy</persName> et <persName ref="#FC">de Callieres</persName></gloss></l>
+               <l n="11">Ne songent point à leurs affaires</l>
+               <l n="12"><rs ref="#PDR">L'Eveque de Strasbourg</rs> est laid</l>
+               <l n="13"><persName ref="#JFPLC">Caumartin</persName> est assez mal fait</l>
+               <l n="14"><persName ref="#JBHV">Valincourt</persName> n'aime point son maitre</l><note>Il n'est pas très clair de quel "maître" il doit s'agir, probablement de Louis XIV, mais Valincourt ne semble pas s'être distingué de façon particulière sur ce plan.</note>
+               <l n="15"><persName ref="#JFC">Chamillart</persName><gloss>Ev. de
+                     Senlis</gloss> a tout l'air d'un traitre </l>
+               <l n="16"><persName ref="#LD">D'Angeau</persName><gloss>l'Abbé dangeau</gloss> a l'esprit de travers</l>
+               <l n="17"><persName ref="#TC">Corneille</persName> n'a point fait de vers</l>
+               <l n="18"><persName ref="#FTC">Choisy</persName> scait assez mal écrire</l>
+               <pb/>
+               <l n="19"><persName ref="#AD">Dacier</persName> à peine scait il lire</l>
+               <l n="20"><persName ref="#JG">Gallois</persName><gloss>Curieux d'anciennes
+                     Editions</gloss> avec son habit neuf </l>
+               <l n="21">Ne visita jamais les rebords du <placeName>Pont Neuf</placeName></l>
+               <l n="22"><persName ref="#LS">Sacy</persName> fut toujours infidelle</l>
+               <l n="23">Insociable comme <persName ref="#GA">Abeille</persName></l>
+               <l n="24"><persName ref="#CISP">Saint Pierre</persName> n'est point indiscret</l>
+               <l n="25"><persName ref="#JGC">Capistron</persName><gloss>Secretaire de Mr
+                     de Vandôme qui est devenu riche en Italie</gloss> ne va point au fait </l>
+               <l n="26"><persName ref="#JTM">Mauroy</persName><gloss>L'abbé Testu mauroy
+                     qui est horriblement laid</gloss> a des graces infinies </l>
+               <l n="27"><persName ref="#PCC">Coaslin</persName> hait les ceremonies</l>
+               <l n="28"><persName ref="#JC">Clerembault</persName> n'a jamais d'argent</l>
+               <l n="29"><persName ref="#SLL">La Loubere</persName> est toujours content</l>
+               <l n="30"><persName ref="#NB">Des Preaux</persName> ne fait plus de bile</l>
+               <l n="31"><persName ref="#CF">Fleuri</persName> l'est meme dans son stile</l>
+               <l n="32"><persName ref="#JPB">Bignon</persName> va briguant l'Eveché</l>
+               <l n="33"><persName ref="#ER">Renaudot</persName> a <placeName>Conflans</placeName> passe pour
+                  entiché</l>
+               <l n="34"><persName ref="#FF">Fenelon</persName><gloss>L'Arch. de Cambray, il
+                     ecrit des lettres politiques sous le nom d'un Suisse.</gloss> ecrit en novice </l>
+               <l n="35"><persName ref="#JLC">La Chapelle</persName> fait mal le Suisse</l>
+               <l n="36"><persName ref="#JT">Toureil</persName> a l'esprit tout bouché</l>
+               <l n="37"><persName ref="#BF">Fontenelle</persName> est toujours faché</l>
+               <l n="38"><persName ref="#LC">Cousin</persName> aime trop la dispute</l>
+               <l n="39"><persName ref="#CCG">Genest</persName><gloss>Aumonier de Made
+                     d'Orleans</gloss> parle comme une brute </l>
+               <l n="40"><persName ref="#JNC">Colbert</persName><gloss>Arch. de
+                     Rouen</gloss> est des plus assidus </l>
+               <pb n="13"/>
+               <l n="41"><persName ref="#MP">Polignac</persName> est sot et de plus</l>
+               <l n="42">Messieurs ne soyez point en peine</l>
+               <l n="43">Pour achever la quarantaine</l>
+               <l n="44">Voulez vous un asne parfait</l>
+               <l n="45"><persName ref="#BS">Sillery</persName> est vostre vray fait</l>
+            </div>
+            <div type="song" xml:id="III_23" corresp="ChM_15">
+               <head>Chanson</head>
+               <p><app><rdg wit="#RQM">Sur l'air <sound corresp="#A1">Il a battu son petit frere</sound></rdg><rdg wit="#ChM">Sur l'air <sound>Mon cher Chevalier que je t'aime.</sound></rdg></app>
+               </p>
+               <p><app><rdg wit="#RQM"></rdg><rdg wit="#ChM"><persName ref="#NM">M<add type="superscription">r</add>. de Malézieux</persName> fit jouër chez Mad<add type="superscription">e</add>. la Duchese du Maine à <placeName>Sceaux</placeName> des Marionnettes, où il y avoit quelques railleries sur l'Académie. On excepta <persName ref="#JAM">M<add type="superscription">r</add>. de Mesmes</persName> 1<add type="superscription">er</add>. Président, qui y fut fot loué. voyez cy devant.</rdg></app></p><note resp="IG">La pièce antérieure qui évoque le président de Mesmes, numérotée ChM_8_1 dans cette édition, dit, au contraire, que ce dernier fut "tourné en ridicule".</note>
+               <l n="1">Parmy cette troupe scavante</l>
+               <l n="2">Qu'on nomme messieurs les quarante,</l>
+               <l n="3">Et qu'on ose traitter de sots,</l>
+               <l n="4">Il est des plumes immortelles</l>
+               <l n="5">Qui scavent louer les Heros<app><rdg wit="#RQM"></rdg><rdg wit="#ChM"><gloss>à <persName ref="#DDM">M<add>r</add>. le Duc du Maine</persName></gloss></rdg></app></l>
+               <l n="6">Et berner les <rs type="lit_character">Polichinelles</rs>.</l>
+            </div>
+            <div type="explanation" xml:id="III_24">
+               <p>On vit encore d'autres écrits contre l'Académie en general</p>
+            </div>
+            <div type="poem" corresp="ChM_7" xml:id="III_25">
+               <l n="1">Pour estre homme d'honneur, Académicien,</l>
+               <l n="2">Deux choses sont fort nécessaires</l>
+               <l n="3">À cela près il ne vous manque rien</l>
+               <l n="4">Messieurs les quarante confreres</l>
+               <l n="5">Mon conseil est trop bon pour le dissimuler</l>
+               <l n="6">Il renferme deux points et vous devez le suivre</l>
+               <l n="7">Le premier <app><rdg wit="#RQM">est</rdg><rdg wit="#ChM">c'est</rdg></app> d'apprendre à vivre</l>
+               <l n="8">Et le second c'est d'apprendre à parler</l>
+            </div>
+            <pb/>
+            <div type="poem" xml:id="III_26" corresp="ChM_26">
+               <head>Rondeau</head>
+               <l n="1">Des jettonniers qui font les beaux esprits</l>
+               <l n="2">Depuis longtemps on parle avec mepris</l>
+               <l n="3">Ils n'ont de goût que pour la bagatelle</l>
+               <l n="4">Du vray génie a peine une etincelle</l>
+               <l n="5">Se fait sentir dans leurs fades écrits</l>
+               
+ <l n="6"><persName>Le grand Renaud</persName>, comique a juste prix</l>
+               <l n="7">Sur son theatre à la cour les a mis</l>
+               <l n="8">Et l'on y rit de la Scene nouvelle</l>
+               <l n="9">Des jettonniers.</l>
+
+               <l n="10">De cette piece allarmés et Surpris,</l>
+               <l n="11">Ils ont voulu se vanger a <placeName>Paris</placeName>,</l>
+               <l n="12">Et que <persName ref="#PEC">Coulange</persName> epousât leur querelle</l>
+               <l n="13">Mais on l'eust pris pour un <rs type="lit_character">Polichinelle</rs></l>
+               <l n="14">S'il eut voulu chanter les faits et dits</l>
+               <l n="15">Des jettonniers.</l>
+            </div>
+            <div type="explanation" xml:id="III_27">
+               <p>On attaqua quelques uns des membres en particulier par les deux pieces qui
+                  suivent</p>
+            </div>
+            <div type='song' xml:id="III_28" corresp="ChM_25">
+               <head>Chason sur l'air <sound corresp="#A7">laire la laire lan</sound></head>
+               <l n="1">L'on demande quel est plus sot</l>
+               <l n="2">Ou de <app><rdg wit="#RQM"><persName ref="#PCC">Coaslin</persName></rdg><rdg wit="#ChM"><persName ref="#LVC">Crecy</persName></rdg></app> ou de <persName ref="#LD">Dangeau</persName></l>
+               <l n="3">Moy je dis que c'est <persName ref="#FC">Calliere</persName></l>
+               <l n="4">Laire la laire lan laire laire la laire lan la</l>
+              </div> 
+            <pb n="14"/>
+              <div type="poem" corresp="ChM_6" xml:id="III_29">
+               <l n="5">Si vous cherchez un grand Docteur,</l>
+               <l n="6">Une veine facile, une plume eloquente,</l>
+               <l n="7">Un bon Poete, un habile orateur</l>
+               <l n="8">Ne vous transportez pas chez messieurs les quarante.</l>
+               <l n="9">Mais si vous desirez un froid déclamateur,</l>
+               <l n="10">Un menteur impudent, un insigne imposteur,</l>
+               <l n="11">Un impertinent traducteur</l>
+               <l n="12">Qui donne à Demosthene un stile de servante,</l>
+               <l n="13">Allez au Louvre ami lecteur</l>
+               <l n="14">Cet homme est parmy les quarante.</l></div>
+            <div type="explanation" xml:id="III_30">
+               <p><rs ref="#DDC">Monsieur le Duc</rs> ne s'en tint pas à ce qu'on écrivit pour sa deffence, on prétend
+                  qu'il luy échapa des menaces en prose aussy bien que des injures en vers, et qu'il
+                  ne pût s'empescher de dire qu'il y avoit là un insolent de
+                     <persName ref="#JT">Toureil</persName> qui pourroit bien s'attirer des coups de baston.
+                  voicy ce qu'on y répondit</p>
+            </div>
+            <div type="poem" xml:id="III_31" corresp="ChM_27">
+               <l n="1">Quand ta bile sera vomie,</l>
+               <l n="2">Tu viendras aux coups de baston,</l>
+               <l n="3"><app><rdg wit="#RQM">Puisque dans nostre Academie</rdg><rdg wit="#ChM"></rdg></app></l>
+               <l n="4">Il est comme ailleurs maint poltron.</l>
+               <l n="5">Cher <app><rdg wit="#RQM"><persName ref="#NM">Malésieux</persName></rdg><rdg wit="#ChM">Malezieux</rdg></app> faisons la paix</l>
+               <l n="7">Finissons la querelle</l>
+               <l n="8">Nous pourrions te répondre: mais</l>
+               <l n="9">Nous craignons ton <rs type='lit_character'>Polichinelle</rs>.</l>
+            </div>
+            <pb/>
+            <div type="explanation" xml:id="III_32">
+               <p>Cette Epigramme fut suivie d'un deluge de chansons sur differents airs</p>
+            </div>
+            <div type="song" xml:id="III_33" corresp="ChM_9">
+               <head><app><rdg wit="#RQM"></rdg><rdg wit="#ChM">Chanson<lb/></rdg></app>Sur l'air <sound corresp="#A1">il a battu son petit frere</sound><app><rdg wit="#RQM"></rdg><rdg wit="#ChM"><lb/>Sur le même sujet que les précédentes.</rdg></app></head>
+               <l n="1">Par quelle fortune ennemie</l>
+               <l n="2">Contre la docte Academie</l>
+               <l n="3"><app><rdg wit="#RQM"><persName ref="#NM">Malésieux</persName></rdg><rdg wit="#ChM">Malézieux</rdg></app> est donc faché?</l>
+               <l n="4">Que ne fait point craindre pour Elle</l>
+               <l n="5">L'associé de <persName ref="#FB">Brioché</persName></l>
+               <l n="6">Soutenu de <rs type="lit_character">Polichinelle</rs></l>
+            </div>
+            <div type='song' xml:id="III_34" corresp="ChM_17"><note>Cette chanson figure dans deux variantes dans le Chansonnier de Maurepas, une qui est exactement conforme à celle de la <title>Relation de la querelle</title>, une autre qui comporte des variantes indiquées dans ce qui suit.</note>
+               <head><app><rdg wit="#RQM"></rdg><rdg wit="#ChM">Chanson<lb/>Sur l'air du <sound>Cher Chevalier que je t'aime</sound><lb/>ou<lb/><sound>Terrible en paix</sound>.</rdg></app></head>
+               <l n="1"><persName ref="#PDC_GC">Condé</persName> <app><rdg wit="#RQM">sceut gagner</rdg><rdg wit="#ChM">tu gagnois</rdg></app> des batailles</l>
+               <l n="2"><app><rdg wit="#RQM">Forcer et</rdg><rdg wit="#ChM">Tu forçois</rdg></app> lignes et murailles</l>
+               <l n="3"><app><rdg wit="#RQM">Son</rdg><rdg wit="#ChM">Ton</rdg></app><rs ref="#DDC"> petit fils</rs> plus moderé</l>
+               <l n="4"><app><rdg wit="#RQM">Ne s'occupe qu'a</rdg><rdg wit="#ChM">Compose avec soin</rdg></app> des sornettes</l>
+               <l n="5"><app><rdg wit="#RQM">Content de se voir</rdg><rdg wit="#ChM">Trop content d'estre</rdg></app> declaré</l>
+               <l n="6">General des marionnettes</l>
+            </div>
+            <div type='song' xml:id="III_35">
+               <l n="1">Quand <rs ref="#DDC">ce petit Duc</rs> en furie</l>
+               <l n="2">Ligue contre l'Academie</l>
+               <l n="3"><rs type='lit_character'>Polichinelle</rs> et <persName ref="#NM">Malesieux</persName></l>
+               <l n="4">Que pouvoit il choisir de mieux</l>
+               <l n="5">Pour representer <rs ref="#DDC">son Altesse</rs></l>
+               <pb n="15"/>
+               <l n="6">Quoy que sa vangeance menace</l>
+               <l n="7">Tous les habitans du <placeName>Parnasse</placeName></l>
+               <l n="8">L'on craint moins son inimitié</l>
+               <l n="9">Et les transports de sa colere</l>
+               <l n="10">Que sa douce et tendre amitié</l>
+               <l n="11">Qui fut à <persName ref="#JS">Santeuil<add>*</add></persName><gloss>Santeuil mourut à Dijon d'une fievre continue qui
+                     luy fut causée par un verre de vin que <rs ref="#DDC">Mrs Le Duc</rs> avoit rempli de poivre et de
+                     sel qu'il le forca de boire en plaisantant</gloss> si contraire.</l><note resp="IG">Cette accusation se retrouve dans les <title>Mémoires</title> de <persName>Saint-Simon</persName>, mais là il s'agit de tabac mis dans le verre de vin de Santeuil. Voir <bibl><author>Saint-Simon</author> <title>Mémoires (1691-1701). Additions au Journal de Dangeau</title>, édition établie par <editor>Yves Coirault</editor>, <pubPlace>Paris</pubPlace>, <publisher>Gallimard</publisher>, <date>1983</date>, <citedRange>vol. 1, p. 418-419.</citedRange></bibl></note>
+            </div>
+            <div type='song' xml:id="III_36">
+               <l n="1">Faut il que nostre Academie</l>
+               <l n="2">Reste toujours son ennemie</l>
+               <l n="3">Pourquoy l'accabler de bons mots</l>
+               <l n="4">Quoyque son merite soit mince</l>
+               <l n="5">Essayons d'en faire un Heros</l>
+               <l n="6">La faculté l'a bien fait prince</l>
+            </div>
+            <div type='song' xml:id="III_37" corresp="ChM_11">
+               <head><app><rdg wit="#RQM"></rdg><rdg wit="#ChM">Chanson<lb/></rdg></app>Sur l'air de <sound corresp="#A6">Joconde</sound></head>
+               <l n="1">A quoy <rs ref="#DDC">grand Prince</rs> songez vous<app><rdg wit="#RQM"></rdg><rdg wit="#ChM">* <gloss>le <persName ref="#DDC">Duc de Bourbon</persName></gloss></rdg></app></l>
+               <l n="2">Vostre erreur est extreme</l>
+               <l n="3">Moderez donc vostre courroux</l>
+               <l n="4">En faveur de vous meme</l>
+               <l n="5">De quoy qu'on se puisse flatter</l>
+               <l n="6">Il est bon de vous dire</l>
+               <l n="7">Que l'on doit toujours respecter</l>
+               <l n="8">Ceux qui scavent ecrire.</l>
+            </div>
+            <pb/>
+            <div type="explanation" xml:id="III_38">
+               <p>ce qui donna lieu à cette <del type="word" n="1"/> derniere chanson, fut un discours que tint en ce
+                  temps la <rs ref="#PDC">Mons<add type="superscription">r</add> Le Prince</rs> à <rs ref="#DDC">Mr Le Duc</rs>. On prétend qu'il le blama de s'estre athiré
+                  l'inimitié de l'Académie, et qu'il luy dît qu'il avoit oui dire à <rs ref="#PDC_GC">Monsr Son Pere</rs>
+                  qu'il auroit mieux aimé avoir une armée de trente mille hommes à combattre, que
+                  d'estre en proye à l'aversion d'une troupe de gens qui sçavent donner un tour si
+                  agréable aux sottises qu'ils disent, que le souvenir ne s'en efface jamais</p>
+               <p>On vit encore paroitre les chansons qui suivent</p>
+            </div>
+            <div type='song' corresp="ChM_8_2" xml:id="III_39"><note resp="IG">Ces quatre strophes sont données, dans le <title>Chansonnier de Maurepas</title>, à la suite de <title>"Souffrirez-vous, quarante que vous êtes". C'est la raison pour laquelle elles sont numérotées "ChM_8_2"</title>. L'odre des strophes n'est pas le même dans <title>Maurepas</title>, qui donne lg2-lg1-lg4-lg3.</note>
+               <head>Sur l'air <sound corresp="#A2">mais</sound></head>
+               <lg n="lg1">
+                  <l n="1">De vos ayeux, <rs ref="#DDC">Grand Duc</rs> suivez la trace</l>
+                  <l n="2">Aux Allemans faites voir vostre audace</l>
+                  <l n="3">Mais</l>
+                  <l n="4">Pour les troupes du <placeName>Parnasse</placeName></l>
+                  <l n="5">Ne les attaquez jamais.</l>
+               </lg>
+               <lg n="lg2">
+                  <l n="6">Pourquoy <rs ref="#DDC">Grand Duc</rs> hair l'Académie</l>
+                  <l n="7">Et la vouloir couvrir d'ignominie</l>
+                  <l n="8">Quoy</l>
+                  <l n="9">Vous la traittez d'Ennemie</l>
+                  <l n="10">Son protecteur est <rs ref="#LXIV">le Roy</rs>.</l>
+               </lg>
+               <pb n="16"/>
+               <lg n="lg3"><note resp="IG">Cette strophe figure de nouveau un peu plus loin dans le <title>Chansonnier de Maurepas</title>, de façon indépendante. C'est la <rs corresp="ChM_16">16e de la partie du recueil concernant l'affaire de Malezieu avec l'Académie</rs>. Elle n'a pas été reproduite deux fois.</note>
+                  <l n="11"><persName type="author">Esope</persName> estoit d'une étrange structure</l>
+                  <l n="12">L'esprit en luy reparoit la nature</l>
+                  <l n="13">Mais</l>
+                  <l n="14">Qui n'en a que la figure</l>
+                  <l n="15">Ne devroit parler jamais.</l>
+               </lg>
+               <lg n="lg4">
+                  <l n="16">N'attaquez point ceux qu'<rs type='god'>Apollon</rs> inspire,</l>
+                  <l n="17"><app><rdg wit="#RQM">A qui ce Dieu a confié sa Lyre</rdg><rdg wit="#ChM">Ceux qui du Dieu portent l'arc et la lire;</rdg></app></l>
+                  <l n="18">Ceux</l>
+                  <l n="19">Qui <app><rdg wit="#RQM">peuvent de tout</rdg><rdg wit="#ChM">de tout scavent</rdg></app> instruire</l>
+                  <l n="20">Nos plus reculez neveux.</l>
+               </lg>
+            </div>
+            <div type="explanation" xml:id="III_40">
+               <p>Quelques autheurs en affectant un air neutre prirent plaisir à badiner aux depens
+                  de deux partis</p>
+            </div>
+            <div type="poem" xml:id="III_41" corresp="ChM_14">
+               <head>Rondeau</head>
+               <l n="1">Qui n'en riroit de voir en parallelle</l>
+               <l n="2">Les beaux esprits avec <rs type='lit_character'>Polichinelle</rs></l>
+               <l n="3">L'auriez vous cru, que pour si piteux cas</l>
+               <l n="4">L'Académie et tous ses <del type="word" n="1"/> fierabras</l>
+               <l n="5">A <persName ref="#FB">Brioché</persName> feroit une querelle</l>
+               <l n="6">Ah pour le coup ils en ont tous dans l'aîle</l>
+               <l n="7">Car du <placeName>Pont Neuf</placeName> l'historien fidelle</l>
+               <pb/>
+               <l n="8">À haute voix chante qu'ils ont des rats</l>
+               <l n="9">Qui n'en riroit</l>
+               <l n="10">Tu devois bien, illustre <persName ref="#BF">Fontenelle</persName></l>
+               <l n="11">Toy que l'on trouve en si sotte <del type="word" n='1'/><add>sequelle</add></l>
+               <l n="12">Leur dire eh fy! vous n'y pensez donc pas,</l>
+               <l n="13">Vous vous fâchez et faites du fracas</l>
+               <l n="14">Contre un magot qui n'a pas de cervelle</l>
+               <l n="15">Qui n'en riroit.</l>
+            </div>
+            <div type="explanation" xml:id="III_42">
+               <p>La chanson qui suit est du meme caractere</p>
+            </div>
+            <div type='song' xml:id="III_43">
+               <head>Sur l'air <sound corresp="#A1">il a battu son petit frere</sound></head>
+               <l n="1">Comme on vit autrefois les grües</l>
+               <l n="2">Avec fureur du haut des nües</l>
+               <l n="3">Fondre dessus leurs ennemis</l>
+               <l n="4">Ainsi les muses animées</l>
+               <l n="5">Croyant que tout leur est permis</l>
+               <l n="6">Font la guerre à d'autres pygmées.</l>
+            </div>
+            <div type="explanation" xml:id="III_44">
+               <p><persName ref="#DDG">Monsieur le Duc de Gesvres</persName> gouverneur de Paris, qui n'est pas un Seigneur de grande
+                  reputation pour l'esprit, s'estant avisé de donner le tort à l'Académie, en
+                  parlant de sa querelle qui faisoit <pb n="17"/> alors le suiet de toutes les
+                  conversations, il ne fut pas epargné</p>
+            </div>
+            <div type='song' xml:id="III_45" corresp="ChM_19">
+               <head><app><rdg wit="#RQM"></rdg><rdg wit="#ChM">Chanson<lb/></rdg></app>Sur l'air du <sound corresp="#A3">Confiteor</sound></head>
+               <l n="1">Scavez vous qui s'est declaré</l>
+               <l n="2">Contre les troupes du <placeName>Parnasse</placeName>,</l>
+               <l n="3">Est ce quelque nom reveré</l>
+               <l n="4">Est ce quelque grand sçavantasse</l>
+               <l n="5">Messieurs vous en serez surpris</l>
+               <l n="6">C'est le <rs ref="#DDG">gouverneur<app><rdg wit="#RQM"></rdg><rdg wit="#ChM">* <gloss><persName ref="#DDG">Potier Duc de Gesvres</persName></gloss></rdg></app> de <placeName>Paris</placeName></rs>!</l>
+            </div>
+            <div type='song' xml:id="III_46" corresp="ChM_20">
+               <head>Sur l'air <sound corresp="#A4">Enfans de Bacchus et d'Amour</sound></head>
+               <l n="1">La troupe du sacré vallon</l>
+               <l n="2">Avoit à sa teste <rs type='god'>Apollon</rs>,</l>
+               <l n="3">Et la victoire étoit pour Elle;</l>
+               <l n="4">Mais <persName ref="#DDG">Gesvres</persName>, ce docte Seigneur</l>
+               <l n="5">S'est joint au grand <rs type='lit_character'>Polichinelle</rs>,</l>
+               <l n="6">Et ce Dieu s'est enfuy de peur.</l>
+            </div>
+            <div type='song' xml:id="III_47" corresp="ChM_21">
+               <head>Sur l'air <sound corresp="#A5">Fifres et Tambours</sound></head>
+               <l n="1">Contre la docte sequelle</l>
+               <l n="2">Pour le vray <rs type='lit_character'>Polichinelle</rs></l>
+               <pb/>
+               <l n="3"><persName>Gevres</persName> vient de s'enroller</l>
+               <l n="4">Silence, marionnettes,</l>
+               <l n="5">Ne dites plus de sornettes,</l>
+               <l n="6">C'est à <persName ref="#DDG">Gesvres</persName> à parler.</l>
+            </div>
+            <div type="explanation" xml:id="III_48">
+               <p><app><rdg wit="#RQM">Ces vers, et ces chansons n'empeschérent pas <persName ref="#LDM">Mad<add type="superscription">e</add> La Duchesse du Maine</persName> de continuer à jouer des comedies et de danser des
+                  ballets, elle donna les trois jours gras de l'année 170<unclear>4</unclear> des bals magnifiques à
+                  <placeName>Sceaux</placeName>, au dernier elle parut habillée en muse avec huit personnes de sa cour et
+                     <persName ref="#NM">Malésieu</persName> galamment vestu, assis sur une
+                  montagne representoit <rs type='god'>Apollon</rs>. On fit ces vers sur cette feste</rdg>
+                  <rdg wit="#ChM">Sur ce que <persName ref="#NM">M<add type="superscription">r</add>. de Malézieux</persName> parut habillé en Apollon le Mardi Gras 1705 à un bal que donnoit <persName ref="#LDM">Mad<add type="superscription">e</add> la Duchesse du Maine</persName> à <placeName>Sceaux</placeName>; qui avec 8 personnes de sa Cour étoit habillée en Muse.</rdg></app></p>
+            </div>
+            <div type="poem" xml:id="III_49" corresp="ChM_28">
+               <l n="1">Que ce Vallon délicieux</l>
+               <l n="2">Que ces bois, que cette fontaine,</l>
+               <l n="3">Representent bien à mes yeux</l>
+               <l n="4">Le Sacré vallon d'<placeName>Hypocrene</placeName>;</l>
+               <l n="5">Que dans les nymphes de ces lieux</l>
+               <l n="6">J'aime l'air noble et gracieux</l>
+               <l n="7">De la belle et docte neuvaine</l>
+               <l n="8">J'y vois meme le sang des Dieux.</l>
+               <l n="9">Mais quel est cet audacieux</l>
+               <l n="10">Qui se mesle de contrefaire</l>
+               <pb n="18"/>
+               <l n="19">Le Dieu que le <placeName>Pinde</placeName> revere?</l>
+               <l n="20">Depuis le satyre odieux</l>
+               <l n="21">De qui le dessein temeraire</l>
+               <l n="22">Rendit <rs type="god">Apollon</rs> furieux</l><note>Allusion à Marsyas, qui défie Apollon à un concours de musique.</note>
+               <l n="23">Vit on rien qui meritât mieux</l>
+               <l n="24">Et sa risée et sa colere?</l>
+               <l n="25">C'est le farceur de <app><rdg wit="#RQM"><persName ref="#NM">Malésieux</persName></rdg><rdg wit="#ChM"><persName ref="#NM">Malézieux</persName></rdg></app></l>
+            </div>
+            <div type="explanation" xml:id="III_50">
+               <p>On fit encore sur cela cette chanson</p>
+            </div>
+            <div type="song" xml:id="III_51">
+               <head>Sur l'air <sound corresp="#A1">il a battu son petit frere</sound></head>
+               <l n="1">C'est bien à vous à prendre place,</l>
+               <l n="2"><persName ref="#NM">Malésieu</persName>, dessus le <placeName>Parnasse</placeName></l>
+               <l n="3">N'usurpez rien sur <rs type="god">Apollon</rs>;</l>
+               <l n="4">Mais parlant avec moins d'emphase</l>
+               <l n="5">Descendez au sacré vallon</l>
+               <l n="6">Pour penser le cheval <rs type="god">Pégase</rs></l>
+            </div>
+            <div type="explanation" xml:id="III_52">
+               <p><persName ref="#NM">Malésieu</persName> quelque tranquillité qu'il affectât
+                  ne laissoit pas de s'ennuyer d'estre en butte aux traits que la satyre tiroit sans
+                  cesse sur luy, il fut bien aise qu'une occasion publique l'obligeât d'aller à
+                  <pb/>l'Académie, elle se presenta à la réception de <persName ref="#BS">M<add type="superscription"
+                     >r</add>. l'Eveque de Soissons</persName> qui fut marquée au <date when="1705-03-09">neuvieme Mars 1705</date>. <persName
+                     ref="#NM">Malésieu</persName> parut d'abord assez deconcerté il s'assit
+                  avec un air d'humilité au plus bas bout de la table, autour de laquelle les
+                  Académiciens se rangent, <persName ref="#FTC">l'Abbé de Choisy</persName> le pressa de monter plus haut pour faire
+                  place à ceux qui arrivoient, il en fit beaucoup de difficultés; et sa honte
+                  augmenta en voyant qu'aucun de ses confreres qu'il n'avoit pas vûs depuis
+                  longtemps ne s'informoit de sa Santé et ne luy rendoit les civilités qu'on a
+                  ordinairement les uns pour les autres en pareil cas. On remarqua que le <persName ref="#PDD">Marquis
+                  D'Angeau</persName> fut le seul qui luy parla, cette entreveüe fut pourtant le signal de la
+                  paix elle fut annoncée par cette Epigramme</p>
+            </div>
+            <div type="poem" xml:id="III_53" corresp="ChM_23">
+               <head><app><rdg wit="#RQM"></rdg><rdg wit="#ChM">Epigramme sur l'entrée de <persName ref="#NM">Malezieux</persName> à l'Académie, à la réception de <persName ref="#BS">M<add>r</add>. l'Evesque de Soissons</persName>.</rdg></app></head>
+               <l n="1">Que la discorde ennemie</l>
+               <l n="2">Aille en des états nouveaux;</l>
+               <l n="3">Entre les quarante et <placeName>Sceaux</placeName></l>
+               <l n="4">La paix vient d'estre affermie;</l>
+               <l n="5">Elle l'est, n'en doutez pas;</l>
+               <l n="6">J'ay vû dans l'Académie</l>
+               <l n="7"><rs ref="#NM">L'<rs type="god">Apollon</rs> du mardy gras</rs>.</l>
+            </div>
+            <pb n='19'/>
+            <div type="explanation" xml:id="III_54" >
+               <p><app><rdg wit="#RQM">L'Academie qui donne ordinairement deux prix l'un d'eloquence et l'autre de Poesie
+                  à la S<add type="superscription">t</add>. Louis, a coutume de publier les suiets
+                  sur lesquels ceux qui aspirent aux prix doivent travailler, on mît des affiches publiques pour inviter les autheurs d'écrire, et quelque mauvais plaisant fit celle cy</rdg><rdg wit="#ChM"></rdg></app></p>
+            </div>
+            <div type="poem" xml:id="III_55" corresp="ChM_24">
+               <head><app><rdg wit="#RQM"></rdg><rdg wit="#ChM">Affiche</rdg></app></head>
+               <l n="1">De la part de l'Académie,</l>
+               <l n="2">On fait scavoir aux beaux esprits</l>
+               <l n="3">Qui veulent remporter le prix</l>
+               <l n="4">Que celui de la Poésie</l>
+               <l n="5">Sera pour qui dira le mieux</l>
+               <l n="6">Des injures à <app><rdg wit="#RQM"><persName ref="#NM">Malésieux</persName></rdg><rdg wit="#ChM"><persName ref="#NM">Malézieux</persName>.</rdg></app></l>
+            </div>
+         </div>
+         <pb n="20"/>
+         <pb n="21"/>
+      </body>
+      <back>
+         <div>
+            <head><!--Annexes--></head>
+            <div n="annex_1">
+               <head>Présentation de la querelle dans le chansonnier dit "de Maurepas"</head>
+               <p><persName ref="#NM">Malezieux</persName> est Intendant de <persName ref="#DDM">Mr. le Duc du Maine</persName> et son favory, aussi bien que de <persName ref="#LDM">Mad<add type="superscription">e</add> la Duchesse du Maine</persName>; Il est homme de savoir et d'érudition, il fait agréablement des Vers, il est de l'Academie Françoise. Comme <rs ref="#LDM">cette Princesse</rs> aime a jouer des Comedies, et qu'elle les récite aussi bien que les meilleurs Comédiens. <persName ref="#NM">Malezieux</persName> qui a de toute sorte d'esprit, dans toutes les réprésentations que <persName ref="#LDM">Mad<add type="supercription">e</add>. du Maine</persName> joue chez Elle, à toujours le rolle le plus difficile, et il le joue comme les plus habiles. Cet hiver ayant voulu avoir les Marionnettes chez <rs ref="#LDM">Elle, <add type="superscription">on</add> composa</rs> une petite piece qu'on leur fit jouer. cette piece tournoit en ridicule M<add type="superscription">rs</add> de l'Académie. Ils l'imputerent à <persName ref="#NM">Malezieux</persName> qu'ils regarderent comme l'auteur et commencerent par la <abbr>I<add>re</add>.</abbr> affiche, le nombre infiny de vers qu'ils ont faits contre <persName ref="#NM">Malezieux</persName>, et même contre <rs ref="#DDC">M<add type="superscription">r</add> le Duc</rs> qui s'est rendu protecteur de <persName ref="#NM">Malezieux</persName>.</p>
+               <p>Dès que la <abbr>I<add>re</add>.</abbr> affiche parût dans le public, <rs ref="#DDC">M<add type="superscription">r</add> le Duc</rs> qui avoit en badinant une partie de la piece que les Marionnettes jouerent, s'emporta contre M<add type="superscription">rs</add> de l'Académie qu'il crût auteurs de l'Affiche, et dit qu'il les trouvoit bien insolens de brocarder ce divertissement qu'il avoit bien voulu se donner. Aussitost on réforma l'Affiche de la maniere qu'elle est icy, et depuis ce moment <rs ref="#DDC">M<add type="superscription">r</add> le Duc</rs> s'etant encore plus emporté de parolles contre l'Academie, ils firent tant de Chansons et de vers sur luy, malgré le respect infini qu'on lui doit, que je crois que <rs ref="#DDC">ce Prince</rs> plein de mérite et d'esprit, pouvoit bien se repentir d'avoir attaqué ce Corps.</p>
+            </div>
+            <div n="annex_2">
+               <head>Autre pièce de vers présente dans le <title>Chansonnier de Maurepas</title></head>
+               <div>
+                  <head>Réponse</head><note resp="IG">Cette "Réponse" vient après <rs ref="#III_39">la chanson sur l'air des "Mais" numérotée "ChM_8_2"</rs></note>
+                  <lg n="lg1">
+                     <l n='1'>Si l'on scavoit Chansonnier, qui vous êtes</l>
+                     <l n='2'>L'on nettoyeroit vôtre habit sans vergettes;</l>
+                     <l n="3">Mais</l>
+                     <l n="4">Vous n'etes que des Mazettes;</l>
+                     <l n="5">Vous ne le direz jamais.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="annex_3">
+               <head rend='italics'>Fragment<lb/>d'une<lb/>Lettre de M. le Duc de R... à Madame la Contesse de...</head><note resp="IG">Ce "Fragment" se trouve dans les <title ref="#PEF">Pièces échappées du feu</title>. Il n'est pas paginé, non plus que la pièce <title>Polichinelle demandant une place à l'Académie</title>, dont il est suivi.</note>
+               <p>A propos de la Cour, je gagerois bien, que vous ne devineriez pas ce qui fait aujourd'hui son amusement, et que vous allez croire que je veux vous en donner à garder, pour me divertir ensuite de votre crédulité. Mais, Madame, pour aller au-devant d'un soupçon qui me seroit si injurieux et si oposé au res-<pb/>pect que je vous dois, je vous envoie la Piéce même que Brioché y a fait jouer à ses Marionettes. C'est <title rend="italics">Polichinelle qui demande une Place à l'Académie Françoise</title>. Cette Pollissonnerie, qui est une Satire sanglante contre cette Académie, est attribuée à M. de M***. Chancelier de ***, &amp; un des quarante qui composent ce même Corps qu'il fait si cruellement tourner en ridicule par son Polichinelle. Je ne sai s'il en est véritablement l'Auteur; mais ce qu'il y a de certain, c'est qu'il est violemment soubçonné de l'être, &amp; que quelques-uns de ses Confreres, jaloux de l'honneur de leur Compagnie, ont fait, pour la venger une petite Piéce intitulée<pb/> <title rend="italics">Brioché Chancelier</title>, où ce Magistrat est turlupiné sans aucun ménagement. Dès que Madame la Princesse de *** à qui je l'ai prêtée me l'aura renduë, je ne manquerai pas de vous l'envoïer.(*)<gloss>On promet au Libraire cette dernière Piéce avec <title rend="italics">Arlequin Chancelier</title> &amp; plusieurs autres de ce genre, qui trouveront leur place dans le Volume qui suivra celui-ci.</gloss></p>
+            </div>
+         </div>
+      </back>
+   </text>
+</TEI>

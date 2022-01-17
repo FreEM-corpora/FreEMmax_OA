@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">L'Apologie du siècle, ou Momus corrigé</title>
+                <title type="subtitle"> Édition électronique</title>
+                <author>Louis de Boissy (1694-1758)</author>
+                <principal><name>Pr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Padey, Cyrielle</name>
+                    <name>Salaün, Marianne</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Première édition, <date>2017</date>.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            <date>2017</date></publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014.</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+                <note>Il existe plusieurs versions de cette pièce. Dans la table du tome cinquiéme, celle-ci est présentée comme une version "avec des augmentations".</note>
+                <note>La pièce mentionne des airs ; dans certaines sections, elle alterne chant et parole. Cependant, la musique n'est pas reproduite, et le compositeur n'a pas été identifié pour cette édition.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT</hi><lb/>Son Théâtre François &amp; Italien<pc>.</pc><lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                        <imprint>
+                            <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                            <publisher>JEAN NEAULME</publisher>
+                            <date when="1758">M.DCC.LVIII</date>
+                            <note>Tome cinquième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                    <citedRange>Pages 43-80</citedRange>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+                <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+                <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques, ainsi que les vers. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+                <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+                <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+                <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+                <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+                <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+                <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+                <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction><p>Les erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+                <punctuation>
+                    <p>La ponctuation n'est pas systématiquement encodée. Elle a été distinguée à l'intérieur des balises 'titre', afin de ne pas créer de faux doublons lors de l'extraction de ceux-ci (ex. 'Admète et Alceste,' considéré comme un titre distinct de 'Admète et Alceste.').</p> <p>Dans tous les cas, la punctuation d'origine a été respectée, y compris quand elle paraissait fautive. Dans ce cas, elle est signalée avec 'sic' et 'corr'. Toutefois, les particularités d'espacement de la ponctuation n'ont pas été reproduites à l'identique. Un système uniforme a été adopté: les ponctuations simples (point, virgule), sont placées immédiatement après le mot, les ponctuations doubles (point virgule, deux points, signes d'interrogation et d'exclamation) sont placées après une espace.</p>
+                </punctuation>
+                <interpretation>
+                    <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+                </interpretation>
+            </editorialDecl>
+            <fsdDecl>
+                <fsDecl type="character_specification">
+                    <fDecl name="temper">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="age">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="young" xml:id="AGY"/>
+                                <symbol value="old" xml:id="AGO"/>
+                                <symbol value="child" xml:id="AGC"/>
+                                <symbol value="adult" xml:id="AGA"/>
+                                <symbol value="unknown" xml:id="AGU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="sex">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="male" xml:id="SM"/>
+                                <symbol value="female" xml:id="SF"/>
+                                <symbol value="undetermined" xml:id="SU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="nationality">
+                        <vRange><string></string>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="ontological_category">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="human" xml:id="OCH"/>
+                                <symbol value="non-human" xml:id="OCNH"/>
+                                <symbol value="semi-human" xml:id="OCSH"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="family_position">
+                        <vRange>
+                            <vColl>
+                                <symbol value="father" xml:id="FPF"/>
+                                <symbol value="son" xml:id="FPSON"/>
+                                <symbol value="daughter" xml:id="FPD"/>
+                                <symbol value="mother" xml:id="FPM"/>
+                                <symbol value="uncle" xml:id="FPU"/>
+                                <symbol value="aunt" xml:id="FPA"/>
+                                <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                                <symbol value="sister" xml:id="FPSIS"/>
+                                <symbol value="brother" xml:id="FPB"/>
+                                <symbol value="cousin" xml:id="FPC"/>
+                                <symbol value="step-mother" xml:id="FPSM"/>
+                                <symbol value="step-father" xml:id="FPSF"/>
+                                <symbol value="step-daughter" xml:id="FPSD"/>
+                                <symbol value="step-son" xml:id="FPSS"/>
+                                <symbol value="guardian" xml:id="FPG"/>
+                                <symbol value="ward" xml:id="FPWA"/>
+                                <symbol value="husband" xml:id="FPH"/>
+                                <symbol value="wife" xml:id="FPWIF"/>
+                                <symbol value="widow" xml:id="FPWID"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="actantial_role">
+                        <vRange>
+                            <vColl>
+                                <symbol value="lover" xml:id="ARL"/>
+                                <symbol value="subject" xml:id="ARS"/>
+                                <symbol value="object" xml:id="ARO"/>
+                                <symbol value="opponent" xml:id="AROP"/>
+                                <symbol value="adjuvant" xml:id="ARAD"/>
+                                <symbol value="authority" xml:id="ARAUT"/>
+                                <symbol value="trouble_maker" xml:id="ARTM"/>
+                                <symbol value="episodic" xml:id="AREP"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="occupation">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="collective_character">
+                        <vRange>
+                            <binary value="true" xml:id="COLL"/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1734-04-01">1 avril 1734</date>
+                <rs type="city">Paris, France.</rs></creation>
+            <textClass>
+                <keywords>
+                    <term>théâtre</term>
+                    <term>comédie</term>
+                    <term>vaudeville</term>
+                    <term>Opéra Comique</term>
+                <term>allégorie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-05-27">Révisions faites par Josephine LOTERIE en vue de l'harmonisation du corpus Boissy.</change>
+            <change when="2017-07-24" who="IG">Confrontation avec le témoin (Néaulme 1758), et correction des erreurs de saisie. Remplacement des balises 'name' par des balises 'persName' et 'placeName'. Ajout de la 'feature structure' et balisage de la liste des personnages. Ajout de 'xml:id'
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="43"/>
+            <titlePage type="half-title">
+            <docTitle>
+                    <titlePart type="main">L'APOLOGIE <lb/>DU SIÉCLE, <lb/> OU <lb/>MOMUS CORRIGÉ.</titlePart><lb/>
+                    <titlePart type="desc" rend="italic">COMEDIE.</titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="44"/>
+            <castList>
+                <head rend="italic">ACTEURS.</head><lb/><lb/>
+                <castItem ana="#OCNH #SM #ARS"><role>MOMUS.</role></castItem>
+                <castItem ana="#OCH #SF #AGU #AREP"><role>UNE ACTRICE.</role></castItem>
+                <castItem ana="#OCH #SM #AGU #AREP"><role>PHILINTE.</role></castItem>
+                <castItem ana="#OCH #SM #AGU #AREP"><role>L'INDIFFÉRENT.</role></castItem>
+                <castItem ana="#OCNH #SM #AREP"><role>LE GÉNIE DU SIÈCLE.</role></castItem>
+                <castItem ana="#OCNH #SF"><role>TERPSICORÉ.</role></castItem><note resp="JLotterie">Ce personnage n'apparaît pas dans cette version de la pièce.</note>
+                <note resp="JLotterie">D'autres personnages sont présents dans la pièce, mais pas nommés dans la liste des Acteurs: Chrisante, La Critique et Le Vaudeville.</note>
+            </castList>
+            <set>
+               <p rend="italics" rendition='centered'>La ſcène eſt au Théâtre de la Comédie Italienne.</p>
+            </set>
+            <lb/>
+            <lb/>
+        </front>
+        <body>
+            <pb n="45"/>
+            <head>L'APOLOGIE <lb/>DU SIÉCLE, <lb/>OU <lb/>MOMUS CORRIGÉ. <lb/> COMEDIE.</head>
+            <div type="scene" n="1" xml:id="I">
+                    <head>SCENE PREMIERE.</head><lb/>
+                    <stage>MOMUS, UNE ACTRICE.</stage><lb/>
+                    <sp who="Actrice" xml:id="I_1">
+                        <speaker>L'ACTRICE.</speaker><lb/><lb/>
+                        <l n='1' xml:id='l1'>Quoi ! <persName type="god">Momus</persName>, le ſoutien de notre Co-<lb/>médie</l>
+                        <l n='2' xml:id='l2'>Porte, au lieu de Marotte, un Bouquet <lb/>à la main,</l>
+                        <l n='3' xml:id='l3'>Son chef n'eſt plus orné du bonnet Calotin ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="I_2">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l n='4' xml:id='l4'>Ce changement vous notifie,</l>
+                        <l n='5' xml:id='l5'>Qu'à fronder déſormais je ne ſuis plus enclin.</l>
+                    </sp>
+                    <sp who="Actrice" xml:id="I_3">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l n='6' xml:id='l6'>Mais quel eſt donc votre deſſein ?</l>
+                    </sp> 
+                    <pb n="46"/>
+                    <sp who="Momus" xml:id="I_4">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l n='7' xml:id='l7'>De faire ici l'Apologie...</l>
+                    </sp> 
+                    <sp who="Actrice" xml:id="I_5">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l n='8' xml:id="l8_1" part="I">De qui ?</l>
+                    </sp> 
+                    <sp who="Momus" xml:id="I_6">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l xml:id="l8_2" part="F">De tout le genre-humain.</l>
+                    </sp> 
+                    <sp who="Actrice" xml:id="I_7">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l n='9' xml:id='l9'>Oh ! Ce ſera je le parie,</l>
+                        <l n='10' xml:id='l10'>La Critique du Siécle avec art traveſtie</l>
+                        <l n='11' xml:id='l11'>Sous les traits adoucis d'un éloge malin.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="I_8">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l n='12' xml:id='l12'>Non, j'abjure la raillerie,</l>
+                        <l n='13' xml:id='l13'>Et je <choice><orig>prétens</orig><reg>prétends</reg></choice> louer de bonne-foi.</l>
+                    </sp> 
+                    <sp who="Actrice" xml:id="I_9">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l n='14' xml:id='l14'>Allons, Seigneur, vous vous moquez de moi ;</l>
+                        <l n='15' xml:id='l15'>On <choice><orig>ſçait</orig><reg>sait</reg></choice> que vous aimez à rire,</l>
+                        <l n='16' xml:id='l16'>Et l'encens de <persName type='god'>Momus</persName> eſt un trait de Satire.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="I_10">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l n='17' xml:id='l17'>Depuis, qu'en bien, tout le monde eſt changé,</l>
+                        <l n='18' xml:id='l18'><choice><orig>Sçachez</orig><reg>Sachez</reg></choice> que je ſuis corrigé.</l>
+                        <l n='19' xml:id='l19'>De la douceur que je reſpire,</l>
+                        <l n='20' xml:id='l20'>Ces  fleurs ſont un garant qu'on ne peut contredire,</l>
+                        <l n='21' xml:id='l21'>La Critique n'eſt plus de ſaiſon ;</l>
+                        <l n='22' xml:id='l22'>Et le Siécle vit de façon,</l>
+                        <l n='23' xml:id='l23'>Qu'il ne convient plus d'en médire.</l>
+                        <l n='24' xml:id='l24'>Il fait voir tant d'eſprit, de candeur, de raiſon,</l>
+                        <l n='25' xml:id='l25'>Qu'en dépit qu'on en ait, il faut bien qu'on l'admire.</l>
+                        <l n='26' xml:id='l26'>Plein de sageſſe, exempt d'abus,</l>
+                        <l n='27' xml:id='l27'>Des ridicules, d'injuſtices,</l>
+                        <l n='28' xml:id='l28'>Il m'oblige à changer d'humeur <choice><orig>&amp;</orig><reg>et</reg></choice> d'attributs.</l>
+                        <l n='29' xml:id='l29'>A l'avenir je ne dois plus</l>
+                        <l n='30' xml:id='l30'>Faire la ſatire des Vices,</l>
+                        <l n='31' xml:id='l31'>Que par l'éloge des Vertus.</l>
+                    </sp> 
+                    <sp who="Actrice" xml:id="I_11">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l n='32' xml:id='l32'>Je me rends à ce trait, vous n'êtes plus cauſtique.</l>
+                    </sp> 
+                    <sp who="Momus" xml:id="I_12">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='33' xml:id='l33'>Les bonnes moeurs du <choice><orig>tems</orig><reg>temps</reg></choice> m'ont rendu pacifique.</l>
+                       <l n='34' xml:id='l34'>Je vois tout par le beau côté ;</l>
+                        <pb n="47"/>
+                       <l n='35' xml:id='l35'>Et, de tous les Auteurs, je veux être <choice><sic>intimé</sic><corr>imité</corr></choice>.</l>
+                </sp>
+                    <sp who="Actrice" xml:id="I_13">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                       <l n='36' xml:id='l36'>Mais jamais au Panégirique,</l>
+                       <l n='37' xml:id='l37'>Ces lieux ne furent conſacrés ;</l>
+                       <l n='38' xml:id='l38'>Et, de tout <choice><orig>tems</orig><reg>temps</reg></choice>, ſur la Critique,</l>
+                       <l n='39' xml:id='l39'>Nos revenus ſont aſſurés :</l>
+                       <l n='40' xml:id='l40'>Sans elle, ſerviteur au Théâtre Italique.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="I_14">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='41' xml:id='l41'>Elle ne fait que l'avilir,</l>
+                       <l n='42' xml:id='l42'>Et ce n'eſt qu'en louant qu'on le peut annoblir.</l>
+                    </sp>
+                    <sp who="Actrice" xml:id="I_15">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                       <l n='43' xml:id='l43'>Seigneur, tel eſt notre malheur extrême.</l>
+                       <l n='44' xml:id='l44'>Nous ne pouvons, au <choice><orig>tems</orig><reg>temps</reg></choice> préſent,</l>
+                       <l n='45' xml:id='l45'>Attirer à nos jeux <placeName>Paris</placeName> qu'en l'amuſant,</l>
+                       <l n='46' xml:id='l46'>Ni l'amuſer qu'aux dépens de lui-même.</l>
+                        </sp>
+                <sp who="Momus" xml:id="I_16">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='47' xml:id='l47'>Madame, c'<choice><orig>étoit</orig><reg>était</reg></choice> bon jadis</l>
+                       <l n='48' xml:id='l48'>Que le Public <choice><orig>rioit</orig><reg>riait</reg></choice> sans entendre fineſſe ;</l>
+                       <l n='49' xml:id='l49'>Mais aujourd'hui qu'il eſt des plus polis<sic>;</sic></l>
+                       <l n='50' xml:id='l50'>Et que le moindre trait alarme ſes esprits</l>
+                       <l n='51' xml:id='l51'>Et choque ſa délicateſſe ;</l>
+                       <l n='52' xml:id='l52'>Que les portraits par lui ne ſont ſaiſis,</l>
+                       <l n='53' xml:id='l53'>Que pour les commenter contre l'Auteur sans ceſſe ;</l>
+                       <l n='54' xml:id='l54'>ET qu'il les blâme, après les avoir aplaudis,</l>
+                       <l n='55' xml:id='l55'>La Critique eſt funeſte, <choice><orig>&amp;</orig><reg>et</reg></choice> je vous l'interdis.</l>
+                    </sp>
+                    <sp who="Actrice" xml:id="I_17">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                       <l n='56' xml:id='l56'>C'eſt vouloir nous ôter notre reſſource unique :</l>
+                       <l n='57' xml:id='l57'>De tout <choice><orig>Poëte</orig><reg>poète</reg></choice> dramatique,</l>
+                       <l n='58' xml:id='l58'>Songez qu'elle eſt, Seigneur, le véritable lot.</l>
+                       <l n='59' xml:id='l59'>Il la profeſſe en ſage, <choice><orig>&amp;</orig><reg>et</reg></choice> non pas en <choice><orig>cinique</orig> <reg>cynique</reg></choice>;</l>
+                       <l n='60' xml:id='l60'>S'il fronde la ſottiſe, il épargne le ſot:</l>
+                       <l n='61' xml:id='l61'>Ménageant, avec art, ſon pinceau ſatyrique,</l>
+                       <l n='62' xml:id='l62'>Il peint le Siécle entier des plus fortes couleurs.</l>
+                       <l n='63' xml:id='l63'>Sans déſigner perſonne <choice><orig>&amp;</orig><reg>et</reg></choice> ſans noircir les moeurs,</l>
+                       <l n='64' xml:id='l64'>Il fait par ſes écrits la cenſure publique</l>
+                       <l n='65' xml:id='l65'>Sous des noms empruntés <choice><orig>&amp;</orig><reg>et</reg></choice> des traits généraux ;</l>
+                       <l n='66' xml:id='l66'>Et comme en un miroir, dans ce tableau critique,</l>
+                       <l n='67' xml:id='l67'>Sans en être offenſé, chacun voit ſes défauts.</l>
+                    </sp>
+                    <pb n="48"/>
+                    <sp who="Momus" xml:id="I_18">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='68' xml:id='l68'>Ses applications ſont toujours dangereuſes.</l>
+                       <l n='69' xml:id='l69'>Et font naître ſouvent des diſputes fâcheuſes ;</l>
+                       <l n='70' xml:id='l70'>Ecrivons pour la paix, non contre le repos.</l>
+                       <l n='71' xml:id='l71'>Pour plaire ſagement, <choice><orig>&amp;</orig><reg>et</reg></choice> ſans qu'on nous redoute,</l>
+                       <l n='72' xml:id='l72'>Je veux, dans ce jour, eſſayer</l>
+                       <l n='73' xml:id='l73'>De tracer au Théâtre une nouvelle route,</l>
+                       <l n='74' xml:id='l74'>Et d'y louer ſans ennuyer.</l>
+                    </sp>
+                    <sp who="Actrice" xml:id="I_19">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                       <l n='75' xml:id='l75'><choice><orig>Carriére</orig><reg>Carrière</reg></choice> difficile, <choice><orig>&amp;</orig><reg>et</reg></choice> délicat métier !</l>
+                    </sp>
+                    <sp who="Momus" xml:id="I_20">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l n='76' xml:id="l76_1" part="I">J'eſpére la remplir.</l>
+                    </sp>
+                    <sp who="Actrice" xml:id="I_21">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l xml:id="l76_2" part="F">Permettez que j'en doute.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="I_22">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='77' xml:id='l77'>Allez, j'aurai toujours l'honneur de la frayer.</l>
+                    </sp>
+                    <sp who="Actrice" xml:id="I_23 ">
+                        <speaker>L'ACTRICE </speaker>
+                        <stage type="exit"><hi rend="italic">en s'en allant.</hi></stage><lb/>
+                       <l n='78' xml:id='l78'>Par la louange vouloir plaire !</l>
+                       <l n='79' xml:id='l79'>Le ſeul projet a lieu de m'effrayer ;</l>
+                       <l n='80' xml:id='l80'>Nous ſommes ruinés, ſi <persName type='god'>Momus</persName> eſt ſincére.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="2" xml:id="II">
+                    <head>SCENE II.</head><lb/>
+                    <stage>MOMUS, PHILINTE.</stage><lb/>
+                    <sp who="Philinte" xml:id="II_1">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='81' xml:id='l81'><c rend="lettrine">S</c>Eigneur, je viens pour vous prier</l>
+                        <l n="82" xml:id="l82_1" part="I">De me venger.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_2">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l xml:id="l82_2" part="M">De qui ?</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_3">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l xml:id="l82_3" part="F">De l'Univers entier.</l>
+                       <l n='83' xml:id='l83'>Contre lui, répandez un torrent d'Epigrammes :</l>
+                       <l n='84' xml:id='l84'>Tirez à bout portant. Morbleu, point de quartier ;</l>
+                       <l n='85' xml:id='l85'>Déchirez, à <choice><orig>l'envie</orig> <reg>l'envi</reg></choice> les hommes <choice><orig>&amp;</orig><reg>et</reg></choice> les femmes.</l>
+                    </sp>
+                    <pb n="49"/>
+                    <sp who="Momus" xml:id="II_4">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='86' xml:id='l86'>Que vous a fait le Siécle ? <choice><orig>&amp;</orig><reg>et</reg></choice> par quelles raiſons</l>
+                       <l n='87' xml:id='l87'>Excite-t-il chez-vous une pareille rage ?</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_5">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='88' xml:id='l88'>Parce qu'il eſt méchant de toutes les façons.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_6">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='89' xml:id='l89'><choice><orig>Parlés</orig><reg>Parlez</reg></choice> plus poliment du Siécle où nous vivons.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_7">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='90' xml:id='l90'>Quoi ! Vous voulez que je ménage</l>
+                        <l part="I">Un Siécle ſi fripon ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_8">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l part="F"><choice><orig>Corrigés</orig><reg>Corrigez</reg></choice> ce language,</l>
+                       <l n='91' xml:id='l91'>Le terme de fripon n'eſt plus du bel uſage.</l>
+                       <l n='92' xml:id='l92'>Il révolte l'oreille en ce tems épuré</l>
+                       <l n='93' xml:id='l93'>Où chaque mot qu'on dit doit être meſuré</l>
+                        <l part="I">La politeſſe veut...</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_9">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l part="F">Ah ! Ventrebleu, j'enrage ;</l>
+                       <l n='94' xml:id='l94'>Je ne trouve, en amour, que des coeurs ſcélérats ;</l>
+                       <l n='95' xml:id='l95'>En amitié, que des ingrats</l>
+                       <l n='96' xml:id='l96'>On me gruge au Palais, au jeu, l'on me friponne,</l>
+                       <l n='97' xml:id='l97'>Et l'on me vole à la Maiſon.</l>
+                       <l n='98' xml:id='l98'>Chez le Traiteur on m'empoiſonne,</l>
+                       <l n='99' xml:id='l99'>Et vous ne voulez pas, contre toute raiſon,</l>
+                       <l n='100' xml:id='l100'>Que je traite aujourd'hui le Siécle de Fripon ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_10">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='101' xml:id='l101'>Groſſiérement pourquoi le dire,</l>
+                       <l n='102' xml:id='l102'>Quand, par des correctifs, vous pouvez l'adoucir ?</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_11">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='103' xml:id='l103'>Oh ! <choice><orig>Commencés</orig><reg>Commencez</reg></choice> donc par m'inſtruire ;</l>
+                       <l n='104' xml:id='l104'>Qu'eſt-ce qu'un correctif ? Vous me ferez plaiſir</l>
+                       <l n='105' xml:id='l105'>De m'expliquer le ſens de ce mot qui m'arrête.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_12">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='106' xml:id='l106'>C'eſt l'art, à le bien définir,</l>
+                       <l n='107' xml:id='l107'>De faire tout paſſer par le tour qu'on lui prête,</l>
+                       <l n='108' xml:id='l108'>Et de choiſir toujours le nom le plus honnête.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_13">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='109' xml:id='l109'>Pour m'enſeigner cet art où vous ſemblez primer</l>
+                        <pb n="50"/>
+                       <l n='110' xml:id='l110'>Aprenez-moi d'abord comment je dois nommer</l>
+                       <l n='112' xml:id='l112'>Une Friponne, une Coquette,</l>
+                       <l n='113' xml:id='l113'>Dont la bouche me jure un amour ſans égal,</l>
+                       <l n='114' xml:id='l114'>Et qui, l'inſtant d'après, me trahit en cachette,</l>
+                       <l n='115' xml:id='l115'>Et favoriſe mon Rival ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_14">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='116' xml:id='l116'>Mais on la nomme une femme ordinaire,</l>
+                       <l n='117' xml:id='l117'>Qui ſuit le train du monde, <choice><orig>&amp;</orig><reg>et</reg></choice> qui, faite pour plaire,</l>
+                       <l n='118' xml:id='l118'>A l'eſprit de jouir des droits de ſa beauté.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_15">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='119' xml:id='l119'>C'eſt donner un beau maſque à l'infidélité.</l>
+                       <l n='120' xml:id='l120'>Et l'Ami déloyal qui m'enlève la Belle,</l>
+                       <l n='121' xml:id='l121'>Et qui m'emprunte mon argent</l>
+                       <l n='122' xml:id='l122'>Pour triompher de l'<choice><orig>infidelle</orig><reg>infidèle</reg></choice>,</l>
+                       <l n='123' xml:id='l123'>Comment l'appelle-t'on en ce ſiécle charmant ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_16">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='124' xml:id='l124'>Un ami <choice><reg>faible</reg><orig>foible</orig></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> que l'amour emporte :</l>
+                       <l n='125' xml:id='l125'>On doit avoir pitié d'un homme de la ſorte.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_17">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='126' xml:id='l126'><persName type='god'>Momus</persName> eſt bien compatiſſant.</l>
+                       <l n='127' xml:id='l127'>Et de quelle façon eſt-ce qu'il qualifie</l>
+                       <l n='128' xml:id='l128'>Un Procureur avide, <choice><orig>&amp;</orig><reg>et</reg></choice> qui ſans modeſtie</l>
+                       <l n='129' xml:id='l129'>De toutes mains reçoit double valeur,</l>
+                       <l n='130' xml:id='l130'>Et qui me vend à ma Partie ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_18">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='131' xml:id='l131'>Mais je l'apelle un Procureur.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_19">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='132' xml:id='l132'>Un Chevalier de l'induſtrie,</l>
+                       <l n='133' xml:id='l133'>Qui de filer la carte oſe profeſſer l'art ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_20">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='134' xml:id='l134'>Un habile Joueur qui fixe le hazard.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_21">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='135' xml:id='l135'>Un Valet qui me vole avec effronterie,</l>
+                       <l n='136' xml:id='l136'>Et qui vend mes habits ſans ma permiſſion ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_22">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='137' xml:id='l137'>Un pauvre diable qui s'oublie,</l>
+                       <l n='138' xml:id='l138'>Entraîné par l'occaſion.</l>
+                    </sp>
+                    <pb n="51"/>
+                    <sp who="Philinte" xml:id="II_23">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='139' xml:id='l139'>Un pareil diſcours m'édifie : </l>
+                       <l n='140' xml:id='l140'>On ne peut pas ſur ſa friponnerie,</l>
+                       <l n='141' xml:id='l141'>Excuſer un Coquin en termes plus civils.</l>
+                       <l n='142' xml:id='l142'>Et celui qui parvient, des emplois les plus vils,</l>
+                       <l n='143' xml:id='l143'><choice><orig>A</orig><reg>À</reg></choice> des poſtes d'honneur qu'il arrache au mérite</l>
+                       <l n='144' xml:id='l144'>Par une <choice><orig>voye</orig><reg>voie</reg></choice> oblique <choice><orig>&amp;</orig><reg>et</reg></choice> des détours ſubtils ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_24">
+                        <speaker>MOMUS.</speaker><lb/>
+                       <l n='145' xml:id='l145'>Le modèle parfait de la bonne conduite,</l>
+                       <l n='146' xml:id='l146'>Qui devenu ſon propre Créateur,</l>
+                       <l n='147' xml:id='l147'>Du fond de ſon néant a tiré sa grandeur.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_25">
+                        <speaker>PHILINTE.</speaker><lb/>
+                       <l n='148' xml:id='l148'>Peſte ! Quel éloge ſublime !</l>
+                       <l n='149' xml:id='l149'>Et celui qui voilant le noir deſſein qu'il a,</l>
+                       <l n='150' xml:id='l150'>Répand malignement un Libelle anonyme,</l>
+                      <l n='151' xml:id='l151'>Contre ſon Concurrent qu'il ſuplante par-là ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_26">
+                        <speaker>MOMUS.</speaker><lb/>
+                      <l n='152' xml:id='l152'>Un politique adroit, qui croit tout légitime</l>
+                      <l n='153' xml:id='l153'>Pour arriver au but où tendent ſes déſirs.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_27">
+                        <speaker>PHILINTE.</speaker><lb/>
+                      <l n='154' xml:id='l154'>Pour en finir, en un mot : Comment eſt-ce qu'on nomme</l>
+                      <l n='155' xml:id='l155'>L'animal vicieux, eſclave des plaiſirs,</l>
+                        <l n="156" xml:id="l156_1" part="I">Qui manque à tous ſes devoirs ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_28">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l xml:id="l156_2" part="F">L'Homme.</l>
+                      <l n='157' xml:id='l157'>Le plus puiſſant de tous, <choice><orig>&amp;</orig><reg>et</reg></choice> des autres le Roi,</l>
+                      <l n='158' xml:id='l158'>Formé pour impoſer, non pour ſubir la Loi.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_29">
+                        <speaker>PHILINTE.</speaker><lb/>
+                      <l n='159' xml:id='l159'>En ce Siécle pervers, voilà comme l'on donne</l>
+                      <l n='160' xml:id='l160'>De favorables noms aux vices <choice><orig>triomphans</orig><reg>triomphants</reg></choice> ;</l>
+                     <l n='161' xml:id='l161'>Par ces beaux correctifs <choice><orig>&amp;</orig><reg>et</reg></choice> ces tours <choice><orig>éloquens</orig><reg>éloquents</reg></choice>,</l>
+                     <l n='162' xml:id='l162'>Tout crime eſt excuſé, toute action eſt bonne,</l>
+                     <l n='163' xml:id='l163'>Et l'on ne trouve plus de malhonnêtes gens.</l>
+                     <l n='164' xml:id='l164'>Moi qui ne puis ſouffrir ce jargon qui m'irrite,</l>
+                     <l n='165' xml:id='l165'>Je parle à découvert contre les Moeurs du tems,</l>
+                     <l n='166' xml:id='l166'>Et je donne à chacun le vrai nom qu'il mérite.</l>
+                     <l n='167' xml:id='l167'>J'apelle une Maîtreſſe, au maintien hypocrite,</l>
+                     <l n='168' xml:id='l168'>Qui me trompe, ſous main, en feignant de m'aimer,</l>
+                        <pb n="52"/>
+                     <l n='169' xml:id='l169'>Une coquette inſigne, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'on doit enfermer :</l>
+                     <l n='170' xml:id='l170'>Et mon ami qui l'a ſéduite,</l>
+                     <l n='171' xml:id='l171'>Un perfide, un ingrat digne d'être noyé.</l>
+                     <l n='172' xml:id='l172'>Un Valet qui me vole, un ſcélérat à pendre ;</l>
+                     <l n='173' xml:id='l173'>Un Procureur qui prend ſans jamais rendre,</l>
+                     <l n='174' xml:id='l174'>Un fripon privilégié.</l>
+                     <l n='175' xml:id='l175'>Un Chevalier qui fait commerce de jouer,</l>
+                     <l n='176' xml:id='l176'>Pour eſcroquer <choice><orig>&amp;</orig><reg>et</reg></choice> filouter l'eſpéce,</l>
+                     <l n='177' xml:id='l177'>Eſt un Gentilhomme à clouer</l>
+                     <l n='178' xml:id='l178'>Sans quartier, ſur la table où brille ſon adreſſe.</l>
+                     <l n='179' xml:id='l179'>Un homme qui parvient à des Emplois <choice><orig>brillans</orig><reg>brillants</reg></choice></l>
+                     <l n='180' xml:id='l180'>Par la baſſeſſe <choice><orig>&amp;</orig><reg>et</reg></choice> le pillage,</l>
+                     <l n='181' xml:id='l181'>Un <choice><orig>piéplat</orig><reg>pied plat</reg></choice> qui <choice><orig>devroit</orig><reg>devrait</reg></choice> conduire l'équipage</l>
+                     <l n='182' xml:id='l182'>Dont il occupe le dedans.</l>
+                     <l n='183' xml:id='l183'>Celui de qui la noire calomnie</l>
+                     <l n='184' xml:id='l184'>Va ſemer contre nous des Ecrits Clandeſtins,</l>
+                     <l n='185' xml:id='l185'>Et nous couvre d'ignominie,</l>
+                     <l n='186' xml:id='l186'>Le plus affreux de tous les aſſaſſins</l>
+                     <l n='187' xml:id='l187'>Qui nous ravit l'honneur bien plus cher que la vie.</l>
+                     <l n='188' xml:id='l188'>Le Roi des animaux eſt le pire de tous,</l>
+                     <l n='189' xml:id='l189'>Et ce ſiécle, celui des travers les plus fous.</l>
+                     <l n='190' xml:id='l190'><persName type='god'>Momus</persName>, enfin, <name type='god' n='Momus'>Momus</name> qui juſtifie</l>
+                     <l n='191' xml:id='l191'>Ce que notre âge a de plus odieux,</l>
+                     <l n='192' xml:id='l192'>Eſt le dernier de tous les Dieux ;</l>
+                     <l n='193' xml:id='l193'>Et, par ſa lâche flatterie,</l>
+                     <l n='194' xml:id='l194'>Cent fois plus bas, plus méchant à mes yeux</l>
+                     <l n='195' xml:id='l195'>Que les mortels qu'il juſtifie.</l>
+                     <l n='196' xml:id='l196'>Adieu. Ton ſeul aſpect me chaſſe de ces lieux,</l>
+                     <l n='197' xml:id='l197'>Vil apologiſte du vice :</l>
+                     <l n='198' xml:id='l198'>Va, qui prend ſa défenſe, en devient le complice.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_30">
+                        <speaker>MOMUS</speaker> <stage type="action" rend="italics">l'arrêtant.</stage><lb/>
+                     <l n='199' xml:id='l199'>Arrêtez-vous. Je ne ſouffrirai pas</l>
+                     <l n='200' xml:id='l200'>Que vous partiez avec l'idée injurieuſe</l>
+                     <l n='201' xml:id='l201'>Qu'a du ſiécle <choice><orig>&amp;</orig><reg>et</reg></choice> de moi votre ame furieuſe.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_31">
+                        <speaker>PHILINTE.</speaker><lb/>
+                     <l n='202' xml:id='l202'>Crois-tu donc me convaincre en retenant mes pas ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_32">
+                        <speaker>MOMUS.</speaker><lb/>
+                     <l n='203' xml:id='l203'>Entre notre âge <choice><orig>&amp;</orig><reg>et</reg></choice> vous je veux me rendre arbitre,</l>
+                        <pb n="53"/>
+                     <l n='204' xml:id='l204'>Et devenir en vertu de ce titre,</l>
+                     <l n='205' xml:id='l205'>De tous vos différends le Pacificateur.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_33">
+                        <speaker>PHILINTE.</speaker><lb/>
+                     <l n='206' xml:id='l206'>Moi ! je récuſe un tel Médiateur.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_34">
+                        <speaker>MOMUS.</speaker><lb/>
+                     <l n='207' xml:id='l207'>J'ai des moyens ſi bons à vous déduire,</l>
+                     <l n='208' xml:id='l208'>Que vous allez me croire, <choice><orig>&amp;</orig><reg>et</reg></choice> dompter ce transport.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_35">
+                        <speaker>PHILINTE.</speaker><lb/>
+                     <l n='209' xml:id='l209'>Mais lorſque j'ai raison ; comment peux-tu détruire...</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_36">
+                        <speaker>MOMUS.</speaker><lb/>
+                     <l n='210' xml:id='l210'>Oui, vous avez raiſon ; mais nous n'avons pas tort.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_37">
+                        <speaker>PHILINTE.</speaker><lb/>
+                     <l n='211' xml:id='l211'>Ventrebleu ! Ce diſcours eſt digne qu'on l'admire.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_38">
+                        <speaker>MOMUS.</speaker><lb/>
+                     <l n='212' xml:id='l212'>Vous allez en tomber d'accord.</l>
+                     <l n='213' xml:id='l213'>Prêtez-moi ſeulement une oreille docile.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_39">
+                        <speaker>PHILINTE.</speaker><lb/>
+                     <l n='214' xml:id='l214'>Pour la rareté du fait, ſoit ;</l>
+                     <l n='215' xml:id='l215'>J'écoute, <choice><orig>&amp;</orig><reg>et</reg></choice> je <choice><orig>ſuſpens</orig><reg>suspends</reg></choice> ma bile.</l>
+                     <l n='216' xml:id='l216'>S'il ſe tire de là, je le tiens pour adroit.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_40">
+                        <speaker>MOMUS.</speaker><lb/>
+                     <l n='217' xml:id='l217'>Votre plainte, Monſieur, eſt d'abord légitime :</l>
+                     <l n='218' xml:id='l218'>Des mauvais procédés dont on eſt la victime,</l>
+                     <l n='219' xml:id='l219'>Les exemples ſont familiers ;</l>
+                     <l n='220' xml:id='l220'>Mais du Siécle, après-tout, ils ne ſont pas le crime.</l>
+                     <l n='221' xml:id='l221'>C'eſt celui des Particuliers.</l>
+                     <l n='222' xml:id='l222'>De quelques faux amis qu'on ſe trouve la dupe,</l>
+                     <l n='223' xml:id='l223'>De la fureur qui nous occupe,</l>
+                     <l n='224' xml:id='l224'>Tout l'Univers devient l'objet ;</l>
+                     <l n='225' xml:id='l225'>Nous nous prenons à lui du bien que l'on nous ôte,</l>
+                     <l n='226' xml:id='l226'>Et nous ne ſongeons pas que c'eſt ſouvent la faute</l>
+                     <l n='227' xml:id='l227'>Du mauvais choix que notre cur a fait.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_41">
+                        <speaker>PHILINTE.</speaker><lb/>
+                     <l n='228' xml:id='l228'>Ce raiſonnement là me frape,</l>
+                     <l n='229' xml:id='l229'>Je puis bien être dans le cas.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_42">
+                        <speaker>MOMUS.</speaker><lb/>
+                     <l n='230' xml:id='l230'>Par ce diſcours qui vous <choice><orig>échape</orig><reg>échappe</reg></choice>,</l>
+                     <l n='231' xml:id='l231'>De votre erreur vous convenez tout bas ;</l>
+                        <pb n="54"/>
+                     <l n='232' xml:id='l232'>Le ſiécle, à cet égard, n'eſt donc plus si blâmable ;</l>
+                     <l n='233' xml:id='l233'>Dans l'aveugle tranſport qui vous l'a peint coupable,</l>
+                     <l n='234' xml:id='l234'>Vous le voyiez en laid, <choice><orig>&amp;</orig><reg>et</reg></choice> dans ſon vilain jour :</l>
+                     <l n='235' xml:id='l235'>Par un eſprit plus doux, <choice><orig>&amp;</orig><reg>et</reg></choice> d'un oeil équitable,</l>
+                     <l n='236' xml:id='l236'>Voyez-le en beau, Monſieur, à votre tour.</l>
+                     <l n='237' xml:id='l237'>La Juſtice jamais fut-elle mieux rendue ?</l>
+                     <l n='238' xml:id='l238'>Et l'Univers mieux policé, </l>
+                     <l n='239' xml:id='l239'>La vérité fut-elle mieux connue ?</l>
+                     <l n='240' xml:id='l240'>Plus loin, dans la Nature, a-t-on jamais percé ?</l>
+                     <l n='241' xml:id='l241'>Jamais la Nation fut-elle plus polie ?</l>
+                     <l n='242' xml:id='l242'>Le Commerce plus sûr, <choice><orig>&amp;</orig><reg>et</reg></choice> la Société</l>
+                     <l n='243' xml:id='l243'>Plus charmante, <choice><orig>&amp;</orig><reg>et</reg></choice> plus accomplie ?</l>
+                     <l n='244' xml:id='l244'>La Grace au <choice><orig>Sçavoir</orig><reg>savoir</reg></choice> s'y marie ,</l>
+                     <l n='245' xml:id='l245'><sic>l'</sic>Agrément à l'Utilité.</l>
+                     <l n='246' xml:id='l246'>La Bienſéance à la Commodité.</l>
+                     <l n='247' xml:id='l247'>À l'Enjoûment la Nobleſſe eſt unie,</l>
+                     <l n='248' xml:id='l248'>Et l'Elégance à la Solidité.</l>
+                     <l n='249' xml:id='l249'>C'eſt le Siécle du Goût, titre bien mérité !</l>
+                     <l n='250' xml:id='l250'>Et, s'il a ſes défauts comme les autres âges,</l>
+                     <l n='251' xml:id='l251'><choice><orig>Convenés</orig><reg>Convenez</reg></choice> avec moi qu'ils ſont bien compenſés ;</l>
+                    <l n='252' xml:id='l252'>Et que, par tous ſes avantages,</l>
+                    <l n='253' xml:id='l253'>Il enchérit en bien ſur les ſiécles paſſés.</l>
+                    </sp> 
+                    <sp who="Philinte" xml:id="II_43">
+                        <speaker>PHILINTE.</speaker><lb/>
+                    <l n='254' xml:id='l254'>Ce portrait, quoique favorable,</l>
+                    <l n='255' xml:id='l255'>Eſt conforme à la vérité ;</l>
+                    <l n='256' xml:id='l256'>J'ai trop crû la fureur dont <choice><orig>j'étois</orig><reg>j'étais</reg></choice> agité ;</l>
+                    <l n='257' xml:id='l257'>J'ouvre les yeux , je ſens qu'il eſt plus raiſonnable</l>
+                    <l n='258' xml:id='l258'> De voir tout, ici bas, par le plus beau côté.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_44">
+                        <speaker>MOMUS.</speaker><lb/>
+                    <l n='259' xml:id='l259'>D'un ſi ſage retour que je ſuis enchanté !</l>
+                    <l n='260' xml:id='l260'>Notre Age n'a pas <choice><sic>tout</sic><corr>tort</corr></choice>, j'ai <choice><orig>ſçû</orig><reg>su</reg></choice> vous en convaince ;</l>
+                    <l n='261' xml:id='l261'><choice><orig>Consentés</orig><reg>Consentez</reg></choice> donc que <persName type='god'>Momus</persName> aujourd'hui,</l>
+                    <l n='262' xml:id='l262'>Vous réconcilie avec lui.</l>
+                    </sp>  
+                    <sp who="Philinte" xml:id="II_45">
+                        <speaker>PHILINTE.</speaker><lb/>
+                    <l n='263' xml:id='l263'>Je le veux de bon cur. On eſt ſûr de me vaincre.</l>
+                    <l n='264' xml:id='l264'>Dès qu'on me montre la raiſon.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="II_46">
+                        <speaker>MOMUS.</speaker><lb/>
+                    <l n='265' xml:id='l265'>Vous avez l'eſprit droit, vous avez le coeur bon.</l>
+                        <pb n="55"/>
+                    <l n='266' xml:id='l266'><choice><orig>Allés</orig><reg>Allez</reg></choice>, <choice><orig>joignés</orig><reg>joignez</reg></choice> , plein d'une ardeur nouvelle,</l>
+                    <l n='267' xml:id='l267'>Au fond de probité qui vous eſt naturelle,</l>
+                    <l n='268' xml:id='l268'>Trois couches de vernis de ce ſiécle poli,</l>
+                    <l n='269' xml:id='l269'>Et vous ſerez, Monſieur, un mortel accompli.</l>
+                    </sp>
+                    <sp who="Philinte" xml:id="II_47">
+                        <speaker>PHILINTE.</speaker><lb/>
+                    <l n='270' xml:id='l270'>Je cours mettre à profit le conſeil qu'on me donne,</l>
+                    <l n='271' xml:id='l271'>Mettre d'accord en ma perſonne</l>
+                    <l n='272' xml:id='l272'>L'homme du ſiécle avec l'homme d'honneur ;</l>
+                    <l n='273' xml:id='l273'>Sans nuire à la franchiſe, orner l'extérieur ;</l>
+                    <l n='274' xml:id='l274'>Joindre par un noble <choice><orig>aliage</orig><reg>alliage</reg></choice></l>
+                    <l n='275' xml:id='l275'>Aux vertus du vieux <choice><orig>tems</orig><reg>temps</reg></choice>, les vertus de notre âge :</l>
+                    <l n='276' xml:id='l276'>La dépouillant de ſon auſtérité</l>
+                    <l n='277' xml:id='l277'>Rendre agréable la ſageſſe,</l>
+                    <l n='278' xml:id='l278'>Et faire aimer la probité</l>
+                    <l n='279' xml:id='l279'>Sous les traits de la politeſſe.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="3" xml:id="III">
+                    <head>SCENE III.</head><lb/>
+                    <stage>MOMUS, L'INDIFFERENT.</stage><lb/><lb/>
+                    <sp who="Indifferent" xml:id="III_1">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                   <l n='280' xml:id='l280'>JE viens d'entendre vos diſcours,</l>
+                   <l n='281' xml:id='l281'>Seigneur <name type='god' n='Momus'>Momus</name>, qu'ils m'ont fait rire !</l>
+                   <l n='282' xml:id='l282'>Vous ſerez le même toujours</l>
+                   <l n='283' xml:id='l283'>En éloge comme en <choice><orig>ſatyre</orig><reg>satire</reg></choice>.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_2">
+                        <speaker>MOMUS.</speaker><lb/>
+                   <l n='284' xml:id='l284'>Comment donc ? Que voulez-vous dire ?</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_3">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                   <l n='285' xml:id='l285'>Que votre eſprit, par de ſubtils détours,</l>
+                   <l n='286' xml:id='l286'><choice><orig>Sçait</orig><reg>Sait</reg></choice> adroitement ſe conduire !</l>
+                   <l n='287' xml:id='l287'>Mais tout le monde, cher <persName type='god'>Momus</persName>,</l>
+                   <l n='288' xml:id='l288'>De ce Proſélite crédule</l>
+                   <l n='289' xml:id='l289'>Ne ſuivra pas le ſot abus ;</l>
+                   <l n='290' xml:id='l290'> En entrant, en ſortant, je l'ai vû ridicule.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_4">
+                        <speaker>MOMUS.</speaker><lb/>
+                   <l n='291' xml:id='l291'>De quel abus le taxez-vous ?</l>
+                        <pb n="56"/>
+                   <l n='292' xml:id='l292'>Il <choice><orig>reconnoît</orig><reg>reconnait</reg></choice> ſon injuſtice.</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_5">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                   <l n='293' xml:id='l293'>Premiérement, je blâme le courroux</l>
+                   <l n='294' xml:id='l294'>Qu'il a fait éclater ſi fort contre le vice.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_6">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l n="295" xml:id="l295_1" part="I">Il en eſt revenu.</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_7">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l xml:id="l295_2" part="F">Par un autre caprice</l>
+                   <l n='296' xml:id='l296'>Qui doit le mettre au rang des fous.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_8">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l n="297" xml:id="l297_1" part="I">Comment ?</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_9">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l xml:id="l297_2" part="F">D'une autre erreur ſur le champ adoptée</l>
+                   <l n='298' xml:id='l298'> Vous avez rempli ſon eſprit,</l>
+                   <l n='299' xml:id='l299'>Cette victoire remportée</l>
+                   <l n='300' xml:id='l300'>Doit établir votre crédit.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_10">
+                        <speaker>MOMUS.</speaker><lb/>
+                  <l n='301' xml:id='l301'>Quoi ! Vous riez d'un galant homme </l>
+                  <l n='302' xml:id='l302'>Qui <choice><orig>connoît</orig><reg>connaît</reg></choice> ſes défauts, <choice><orig>&amp;</orig><reg>et</reg></choice> veut s'en corriger ?</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_11">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                  <l n='303' xml:id='l303'>Oui, c'eſt ainſi que votre orgueil le nomme,</l>
+                  <l n='304' xml:id='l304'>Mais ce n'eſt pas ainſi que l'on en doit juger. </l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_12">
+                        <speaker>MOMUS.</speaker><lb/>
+                  <l n='305' xml:id='l305'>Et quelle idée eſt donc la vôtre ?</l>
+                  <l n='306' xml:id='l306'>Il  <choice><orig>blâmoît</orig><reg>blâmait</reg></choice> tout le monde, <choice><orig><choice><orig>&amp;</orig><reg>et</reg></choice></orig><reg>et</reg></choice> j'ai  <choice><orig>ſçû</orig><reg>su</reg></choice> lui prouver</l>
+                  <l n='307' xml:id='l307'>Qu'il eſt beaucoup de gens que l'on doit aprouver.</l>
+                        <l n="308" xml:id="l308_1" part="I">Vers lequel <choice><orig>panchez-vous</orig><reg>penchez-vous</reg></choice> ?</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_13">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l xml:id="l308_2" part="F">Ni vers l'un, ni vers l'autre.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_14">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l n="309" xml:id="l309_1" part="I">Oh, oh !</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_15">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l xml:id="L309_2" part="F">L'indifférence eſt le meilleur parti.</l>
+                  <l n='310' xml:id='l310'>Irai-je me fâcher contre un plat perſonnage,</l>
+                  <l n='311' xml:id='l311'>Et lui donner un démenti</l>
+                  <l n='312' xml:id='l312'>Sur toutes les vertus qu'il croit ſon apanage ?</l>
+                  <l n='313' xml:id='l313'>Si le Sort à quelqu'un enfin a départi</l>
+                  <l n='314' xml:id='l314'>De rares qualités un brillant assemblage,</l>
+                        <pb n="57"/>
+                  <l n='315' xml:id='l315'>Irai-je en l'admirant me croire anéanti,</l>
+                  <l n='316' xml:id='l316'>Et le louer d'un bien qui n'eſt pas ſon ouvrage ?</l>
+                  <l n='317' xml:id='l317'>Car, Seigneur, en naiſſant chacun porte ſon lot.</l>
+                  <l n='318' xml:id='l318'><choice><orig>Foibles</orig><reg>Faibles</reg></choice> jouets de la nature,</l>
+                  <l n='319' xml:id='l319'>Chacun vient riſquer <choice><orig>l'avanture</orig><reg>l'aventure</reg></choice></l>
+                  <l n='320' xml:id='l320'>D'être bien ou mal fait, ſpirituel ou ſot,</l>
+                  <l n='321' xml:id='l321'>Et nous ne nous formons l'eſprit ni la figure.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_16">
+                        <speaker>MOMUS.</speaker><lb/>
+                  <l n='322' xml:id='l322'>Mais l'éducation dompte le naturel,</l>
+                  <l n='323' xml:id='l323'>Et fait ſouvent en nous un changement extrême.</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_17">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                  <l n='324' xml:id='l324'>Ce changement eſt ſuperficiel :</l>
+                  <l n='325' xml:id='l325'>Puiſqu'il faut, juſqu'au bout, vous prouver mon <lb/> ſyſtême,</l>
+                  <l n='326' xml:id='l326'>Elle avance fort peu par tous ſes vains efforts ;</l>
+                  <l n='327' xml:id='l327'>Elle a beau plâtrer les dehors,</l>
+                  <l n='328' xml:id='l328'>Notre fonds eſt toujours le même.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_18">
+                        <speaker>MOMUS.</speaker><lb/>
+                  <l n='329' xml:id='l329'>Mais je ſoutiens que ſon ſecours,</l>
+                  <l n='330' xml:id='l330'>Qu'à tort vous peignez inutile,</l>
+                  <l n='331' xml:id='l331'>Fait des merveilles tous les jours.</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_19">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                  <l n='332' xml:id='l332'>Oui, ſur un naturel fertile ;</l>
+                  <l n='333' xml:id='l333'>Vraiment, je n'en doutai jamais, </l>
+                  <l n='334' xml:id='l334'>Puiſqu'il ſort de ſes mains heureuſes,</l>
+                  <l n='335' xml:id='l335'>Auſſi brillant, auſſi poli,</l>
+                  <l n='336' xml:id='l336'>Que de la main d'un Artiſte accompli,</l>
+                  <l n='337' xml:id='l337'>Sortent des Pierres précieuſes.</l>
+                  <l n='338' xml:id='l338'>Oui, je conviens qu'il faut des ſoins au naturel,</l>
+                  <l n='339' xml:id='l339'>Au bon, car au mauvais, ce ſont peines perdues.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_20">
+                        <speaker>MOMUS.</speaker><lb/>
+                  <l n='340' xml:id='l340'>Convenez donc qu'auſſi les louanges ſont dûes</l>
+                 <l n='341' xml:id='l341'>À ceux qui l'ont reçu du Ciel.</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_21">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                 <l n='342' xml:id='l342'>C'eſt juſtement ce que je nie.</l>
+                 <l n='343' xml:id='l343'>J'en reviens à mon premier point,</l>
+                 <l n='344' xml:id='l344'>Que l'on poſſède un mince, ou bien un grand génie,</l>
+                 <l n='345' xml:id='l345'>Je ne mépriſe pas, mais je n'admire point.</l> 
+                        <pb n="58"/>
+                 <l n='346' xml:id='l346'>Un malheureux, à qui la Nature cruelle</l>
+                 <l n='347' xml:id='l347'>A même refuſé ſa plus ſimple faveur,</l>
+                 <l n='348' xml:id='l348'>En eſt aſſez puni par la douleur mortelle,</l>
+                 <l n='349' xml:id='l349'>Que lui cauſe en ſecret cet excès de rigueur</l>
+                 <l n='350' xml:id='l350'>Qui l'avilit à ſes yeux même,</l>
+                 <l n='351' xml:id='l351'>Sans que j'aille ajouter encore à ſon malheur,</l>
+                 <l n='352' xml:id='l352'>En l'accablant du poids de mon mépris extrême,</l>
+                 <l n='353' xml:id='l353'>Et le perçant d'un ris moqueur :</l>
+                 <l n='354' xml:id='l354'>Un triomphe ſi bas, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'on obtient ſans peine,</l>
+                 <l n='355' xml:id='l355'>Deshonore l'eſprit, <choice><orig>&amp;</orig><reg>et</reg></choice> fait outrage au coeur;</l>
+                 <l n='356' xml:id='l356'>Alors, plus la victoire eſt pleine,</l>
+                 <l n='357' xml:id='l357'>Plus ſon éclat honteux dégrade le vainqueur.</l>
+                 <l n='358' xml:id='l358'>Quant à celui ſur qui le ſort propice</l>
+                 <l n='359' xml:id='l359'>A libéralement verſé</l>
+                 <l n='360' xml:id='l360'>Tous les dons ſéducteurs qu'accorde ſon caprice,</l>
+                 <l n='361' xml:id='l361'>N'en eſt-il pas aſſez récompenſé</l>
+                 <l n='362' xml:id='l362'>Par ces mêmes <choice><orig>preſens</orig><reg>présents</reg></choice> de ſon étoile heureuſe,</l>
+                 <l n='363' xml:id='l363'>Et la comparaiſon <choice><orig>flâteuſe</orig><reg>flatteuse</reg></choice></l>
+                 <l n='364' xml:id='l364'>Qu'il fait de ſon mérite avec celui d'autrui ?</l>
+                 <l n='365' xml:id='l365'>Il ſent trop bien ce mérite ſuprême,</l>
+                 <l n='366' xml:id='l366'>Et nous devons nous repoſer ſur lui</l>
+                 <l n='367' xml:id='l367'>Du ſoin de s'aplaudir lui-même.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="III_22">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='368' xml:id='l368'>Souffrez que je vous diſe ici...</l>
+                    </sp>
+                    <sp who="Indifferent" xml:id="III_23">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                 <l n='369' xml:id='l369'>Adieu. Vous me feriez un diſcours inutile ; </l>
+                 <l n='370' xml:id='l370'>Dans mon opinion je suis toujours tranquille.</l>
+                 <l n='371' xml:id='l371'>Admirer, eſt d'un ſot ; fronder, d'un étourdi ;</l>
+                 <l n='372' xml:id='l372'>Reſter neutre, d'un homme ſage ;</l>
+                 <l n='373' xml:id='l373'>Et je m'en tiens à ce dernier parti,</l>
+                 <l n='374' xml:id='l374'>Sans vous en dire davantage.</l>
+                    </sp>
+                </div>
+                <pb n="59"/>
+                <div type="scene" n="4" xml:id="IV">
+                    <head>SCENE IV.</head><lb/>
+                    <stage>MOMUS, LE GENIE DU SIECLE.</stage><lb/>
+                    <sp who="Le Génie du siècle" xml:id="IV_1">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='375' xml:id='l375'>SEigneur, je viens vous éclairer,</l>
+                 <l n='376' xml:id='l376'>Et vous ſervir de conducteur moi-même</l>
+                 <l n='377' xml:id='l377'>Dans la carriére où je vous vois entrer.</l>
+                 <l n='378' xml:id='l378'>Comme le monde a changé de ſyſtême ,</l>
+                 <l n='379' xml:id='l379'>Et qu'étant mal inſtruit, vous pourriez exalter</l>
+                 <l n='380' xml:id='l380'>Ce qui n'eſt plus digne de l'être,</l>
+                 <l n='381' xml:id='l381'>Ou taire ce qu'il faut vanter,</l>
+                 <l n='382' xml:id='l382'>Il eſt bon en ce jour de vous faire <choice><orig>connoître</orig><reg>connaître</reg></choice></l>
+                 <l n='383' xml:id='l383'>L'eſprit qui le gouverne, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'on doit conſulter.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="IV_2">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='383' xml:id='l384'>C'eſt m'obliger très-fort ; mais daignez, je vous prie</l>
+                 <l n='384' xml:id='l385'>M'aprendre votre nom avec vos qualités ?</l>
+                    </sp>
+                    <sp who="Le Génie du siècle" xml:id="IV_3">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='386' xml:id='l386'>Du Siécle, en moi, vous voyez le génie :</l>
+                 <l n='387' xml:id='l387'>Rempliſſant l'Univers de nouvelles clartés,</l>
+                 <l n='388' xml:id='l388'>J'ai des vieux préjugés vaincu la tyrannie ;</l>
+                 <l n='389' xml:id='l389'>De nos <choice><orig>Ayeux</orig><reg>aïeux</reg></choice> bornés corrigé les abus ;</l>
+                 <l n='390' xml:id='l390'>D'une conſtance ridicule</l>
+                 <l n='391' xml:id='l391'>Affranchi les Amours qui ne ſoupirent plus :</l>
+                 <l n='392' xml:id='l395'>Dégagé l'amitié des devoirs ſuperflus ;</l>
+                 <l n='393' xml:id='l396'>La probité, du poids d'un vain ſcrupule ;</l>
+                 <l n='394' xml:id='l397'>Et j'ai créé d'autres vertus.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="IV_4">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='398' xml:id='l398'>Cette réforme eſt des plus belles ;</l>
+                 <l n='399' xml:id='l399'>On fait tout ce qu'on veut quand on a de l'eſprit.</l>
+                 <l n='400' xml:id='l400'>Mais les vieilles Vertus n'ont donc plus de crédit ?</l>
+                    </sp>
+                    <sp who="Le Génie du siècle" xml:id="IV_5">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='401' xml:id='l401'>Non. J'ai ſur leur ruine établi les nouvelles.</l>
+                 <l n='402' xml:id='l402'>Ces contrôleuſes éternelles</l>
+                 <l n='403' xml:id='l403'><choice><orig>Etoient</orig><reg>Étaient</reg></choice> dures à vivre, <choice><orig>&amp;</orig><reg>et</reg></choice> d'un ſot entretien.</l>
+                    </sp>
+                    <pb n="60"/>
+                    <sp who="Momus" xml:id="IV_6">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='404' xml:id='l404'>De m'avertir vous faites bien ;</l>
+                 <l n='405' xml:id='l405'>Car j'<choice><orig>aurois</orig><reg>aurais</reg></choice>, dans mon ignorance,</l>
+                 <l n='406' xml:id='l406'>Loué bêtement la Conſtance,</l>
+                 <l n='407' xml:id='l407'>La Candeur, la Fidélité,</l>
+                 <l n='408' xml:id='l408'>La Modeſtie <choice><orig>&amp;</orig><reg>et</reg></choice> la Franchiſe,</l>
+                 <l n='409' xml:id='l409'>La Bonne-Foi, l'Intégrité.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle" xml:id="IV_7">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='410' xml:id='l410'>Vous auriez fait une inſigne mépriſe.</l>
+                 <l n='411' xml:id='l411'>Aprenez qu'aujourd'hui la Candeur eſt ſottiſe ;</l>
+                 <l n='412' xml:id='l412'>La Conſtance fadeur, ou <choice><sic>défauts</sic><reg>défaut</reg></choice> d'<choice><orig>agrémens</orig><reg>agréments</reg></choice>;</l>
+                 <l n='413' xml:id='l413'>La Modeſtie un vice des plus grands,</l>
+                 <l n='414' xml:id='l414'>Qui par la crainte qu'elle excite,</l>
+                 <l n='415' xml:id='l415'><choice><orig>Oſte</orig><reg>Ôte</reg></choice> la grace, étouffe les <choice><orig>talens</orig><reg>talents</reg></choice>,</l>
+                 <l n='416' xml:id='l416'>Et fait ſouvent un ſot d'un homme de mérite ;</l>
+                 <l n='417' xml:id='l417'>La Bonne-Foi produit les plus petits eſprits,</l>
+                 <l n='418' xml:id='l418'>Qui n'oſant s'écarter de la marche commune,</l>
+                 <l n='419' xml:id='l419'>Ne font jamais un pas vers la Fortune ;</l>
+                 <l n='420' xml:id='l420'>L'Intégrité, des gens durs, impolis,</l>
+                 <l n='421' xml:id='l421'>Sur qui ne peuvent rien les <choice><orig>parens</orig><reg>parents</reg></choice>, les amis,</l>
+                 <l n='422' xml:id='l422'>Et qui refuſent tout aux Dames ;</l>
+                 <l n='423' xml:id='l423'>La Franchise, des étourdis ;</l>
+                 <l n='424' xml:id='l424'>Et la Fidélité fait les plus ſottes femmes.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="IV_8">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='425' xml:id='l425'>J'ouvre les yeux <choice><orig>&amp;</orig><reg>et</reg></choice> ſuis de votre avis.</l>
+                 <l n='426' xml:id='l426'>Ces vertus-là ne ſont pas de commerce.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle" xml:id="IV_9">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='427' xml:id='l427'>Voilà pourquoi je les proſcris,</l>
+                 <l n='428' xml:id='l428'>Et ne veux plus qu'on les exerce.</l>
+                 <l n='429' xml:id='l429'>Je leur ſubſtitue, en ce jour,</l>
+                 <l n='430' xml:id='l430'>L'Inconſtance, qui de l'amour</l>
+                 <l n='431' xml:id='l431'>Fait un amuſement au lieu d'un eſclavage,</l>
+                 <l n='432' xml:id='l432'>Et rend illustre un aimable volage.</l>
+                 <l n='433' xml:id='l433'>La juſte Défiance, au cœur toujours couvert,</l>
+                 <l n='434' xml:id='l434'>Qui <choice><orig>ſçait</orig><reg>sait</reg></choice> ſe déguiſer ſous un maintien ouvert,</l>
+                 <l n='435' xml:id='l435'>Et qui déſigne un homme ſage.</l>
+                 <l n='436' xml:id='l436'>La Bonne Opinion, ferme dans tous ſes pas,</l>
+                 <l n='437' xml:id='l437'>Qui porte <choice><orig>&amp;</orig><reg>et</reg></choice> met <sic>en jour</sic> le mérite qu'elle aide,</l>
+                        <pb n="61"/>
+                 <l n='438' xml:id='l438'>Qui fait briller l'eſprit que l'on poſſéde,</l>
+                 <l n='439' xml:id='l439'>Et <choice><orig>paroître</orig><reg>paraître</reg></choice> ſouvent celui que l'on n'a pas.</l>
+                 <l n='440' xml:id='l440'>La douce Politeſſe, <choice><orig>&amp;</orig><reg>et</reg></choice> l'exacte Décence</l>
+                 <l n='441' xml:id='l441'>Que ſuivent les égards ſi reſpectés en <placeName>France</placeName>,</l>
+                 <l n='442' xml:id='l442'>Qui parent les dehors ſans gêner les deſirs,</l>
+                 <l n='443' xml:id='l443'>Et leur ſervant de voile, augmentent les plaiſirs.</l>
+                 <l n='444' xml:id='l444'>La Coquetterie attrayante,</l>
+                 <l n='445' xml:id='l445'>Au ſouris fin, au regard ſéducteur,</l>
+                 <l n='446' xml:id='l446'>Pour mieux plaire toujours décente,</l>
+                 <l n='447' xml:id='l447'>Se couvrant à demi d'un vernis de pudeur,</l>
+                 <l n='448' xml:id='l448'>Animant la beauté qu'elle rend plus piquante,</l>
+                 <l n='449' xml:id='l449'>Qui répand ſes attraits juſques ſur la laideur,</l>
+                 <l n='450' xml:id='l450'>Et forme, en épuiſant ſon pouvoir enchanteur,</l>
+                 <l n='451' xml:id='l451'>La femme du grand monde, ou la femme charmante.</l>
+                 <l n='452' xml:id='l452'>La fine Politique, <choice><orig>&amp;</orig><reg>et</reg></choice> le Manége adroit,</l>
+                 <l n='453' xml:id='l453'>Epoux clandeſtin de l'Intrigue,</l>
+                 <l n='454' xml:id='l454'>Ami des ſouterrains, <choice><orig>&amp;</orig><reg>et</reg></choice> pere de la Brigue,</l>
+                 <l n='455' xml:id='l455'>Qui cache d'un rideau que perſonne ne voit,</l>
+                 <l n='456' xml:id='l456'>L'art de tout aplanir, <choice><orig>&amp;</orig><reg>et</reg></choice> l'utile ſcience</l>
+                 <l n='457' xml:id='l457'>D'aller à la Fortune avec rapidité,</l>
+                 <l n='458' xml:id='l458'>Et d'une main que conduit la prudence,</l>
+                 <l n='459' xml:id='l459'>D'arracher ſes faveurs avec impunité ;</l>
+                 <l n='460' xml:id='l460'>C'eſt ce Manége enfin qui compoſe l'eſſence</l>
+                 <l n='461' xml:id='l461'>Du Génie élevé, de l'eſprit tranſcendant,</l>
+                 <l n='462' xml:id='l462'>Qui franchit la <choice><orig>barriére</orig><reg>barrière</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> qui vole au plus grand.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="IV_10">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='463' xml:id='l463'>Oh! voilà pour le coup les vertus à la mode.</l>
+                 <l n='464' xml:id='l464'>La morale en eſt douce, <choice><orig>&amp;</orig><reg>et</reg></choice> l'uſage commode.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle" xml:id="IV_11">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='465' xml:id='l465'>C'eſt l'agrément joint à l'utilité,</l>
+                 <l n='466' xml:id='l466'>Qui fait les vertus véritables ;</l>
+                 <l n='467' xml:id='l467'>Les miennes, douces <choice><orig>&amp;</orig><reg>et</reg></choice> traitables,</l>
+                 <l n='468' xml:id='l468'>Ont cette double qualité ;</l>
+                 <l n='469' xml:id='l469'>Et, faites pour l'humanité,</l>
+                 <l n='470' xml:id='l470'>Sont utiles autant qu'aimables.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="IV_12">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='471' xml:id='l471'>Elles auront nombre de partiſans.</l>
+                    </sp>
+                    <pb n="62"/>
+                    <sp who="Le Génie du siècle" xml:id="IV_13">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='472' xml:id='l472'>Pour mieux prouver mon avantage</l>
+                 <l n='473' xml:id='l473'>Sur la ſageſſe du vieux <choice><orig>tems</orig><reg>temps</reg></choice>,</l>
+                 <l n='474' xml:id='l474'>Examinons ſon plus parfait Ouvrage.</l>
+                 <l n='475' xml:id='l475'>Quels ſont ces ſages renommés,</l>
+                 <l n='476' xml:id='l476'>Ces mortels ſi parfaits que ſes mains ont formés ?</l>
+                 <l n='477' xml:id='l477'>Des hommes ſinguliers, des eſprits indociles,</l>
+                 <l n='478' xml:id='l478'>Des <choice><orig>miſantropes</orig><reg>misanthropes</reg></choice> noirs, des cenſeurs difficiles,</l>
+                 <l n='479' xml:id='l479'>Qui trouvent tout mauvais, <choice><orig>&amp;</orig><reg>et</reg></choice> ne ſont bons à rien ;</l>
+                 <l n='480' xml:id='l480'>Des vains déclamateurs, en maximes fertiles,</l>
+                 <l n='481' xml:id='l481'>Parés du nom de gens de bien,</l>
+                 <l n='482' xml:id='l482'>Et Citoyens très-inutiles ;</l>
+                 <l n='483' xml:id='l483'>S'ils ſont dans l'indigence, ils le méritent bien.</l>
+                 <l n='484' xml:id='l484'>Quels ſont preſentement ceux que je favoriſe,</l>
+                 <l n='485' xml:id='l485'>Et que j'ai pris ſoin de polir ?</l>
+                 <l n='486' xml:id='l486'>Des hommes accomplis que tout le monde priſe,</l>
+                 <l n='487' xml:id='l487'>Qui joignent l'art de plaire à l'art de s'agrandir,</l>
+                 <l n='488' xml:id='l488'>Propres à tout, alliant les contraires,</l>
+                 <l n='489' xml:id='l489'><choice><orig>Amuſans</orig><reg>Amusants</reg></choice> dans un cercle, utiles à l'Etat,</l>
+                 <l n='490' xml:id='l490'>Papillons en amour, Aigles dans les affaires,</l>
+                 <l n='491' xml:id='l491'>Polis dans le commerce, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>vaillans</orig><reg>vaillants</reg></choice> au combat ;</l>
+                 <l n='492' xml:id='l492'>Comblés de gloire, ils ſont dignes de leur éclat.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="IV_14">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='493' xml:id='l493'>À ces derniers que je préfére,</l>
+                 <l n='494' xml:id='l494'>Je donne, en ces <choice><orig>inſtans</orig><reg>instants</reg></choice>, le prix ſans balancer :</l>
+                 <l n='495' xml:id='l495'>Ils ſont riches, <choice><orig>brillans</orig><reg>brillants</reg></choice>, le ſort leur eſt proſpére.</l>
+                 <l n='496' xml:id='l496'>Ce ſont-là les Héros que je dois encenſer ;</l>
+                 <l n='497' xml:id='l497'>Et c'eſt à vous que je veux plaire,</l>
+                 <l n='498' xml:id='l498'>Sur la vertu, quoique je la révére,</l>
+                 <l n='499' xml:id='l499'>Je me tairai, de peur de m'oublier.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle" xml:id="IV_15">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='500' xml:id='l500'>À ſes dépens <persName type='god'>Momus</persName> peut s'égayer.</l>
+                 <l n='501' xml:id='l501'>Gothique comme elle eſt, chacun vous l'abandonne.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="IV_16">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='502' xml:id='l502'>Mais mon métier eſt <choice><orig>d'aprouver</orig><reg>d'approuver</reg></choice>.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle" xml:id="IV_17">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='503' xml:id='l503'>Attaquez-la, Seigneur, vous n'offenſez perſonne.</l>
+                    </sp>
+                    <pb n="63"/>
+                    <sp who="Momus" xml:id="IV_18">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='504' xml:id='l504'>J'offenſe tout le monde, <choice><orig>&amp;</orig><reg>et</reg></choice> je vais le prouver.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle" xml:id="IV_19">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='505' xml:id='l505'>Oh ! Cette ſaillie eſt fort bonne !</l>
+                 <l n='506' xml:id='l506'>On vous défend d'être malin,</l>
+                 <l n='507' xml:id='l507'>Vous déguiſez la pente où vous êtes enclin,</l>
+                 <l n='508' xml:id='l508'>Et vous ſauvez par l'ironie ;</l>
+                 <l n='509' xml:id='l509'>J'aplaudis de bon cœur à ce trait de génie,</l>
+                 <l n='510' xml:id='l510'>Et vous prenez le bon chemin.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="IV_20">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='511' xml:id='l511'>Moi ! Je ne raille point, quoique vous puiſſiez dire ;</l>	
+                 <l n='512' xml:id='l512'>Penſer ainſi de moi, c'eſt vouloir me détruire,</l>
+                 <l n='513' xml:id='l513'>Car qu'eſt-ce qu'un railleur ? Un eſprit ſans égard,</l>
+                 <l n='514' xml:id='l514'>Qui ne reſpecte rien, qu'on fuit de toute part,</l>
+                 <l n='515' xml:id='l515'>Haï de la moitié du monde qu'il déchire,</l>
+                 <l n='516' xml:id='l516'>Et craint ou mépriſé de l'autre qu'il fait rire.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle" xml:id="IV_21">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='517' xml:id='l517'>Vous peignez un cauſtique, <choice><orig>&amp;</orig><reg>et</reg></choice> non un fin railleur ;</l>	
+                 <l n='518' xml:id='l518'>Songez que le plus ſage eſt quelquefois rieur.</l>
+                 <l n='519' xml:id='l519'>Avec raiſon, <placeName>Paris</placeName> s'offenſe</l>
+                 <l n='520' xml:id='l520'>Qu'on fronde ouvertement <choice><orig>&amp;</orig><reg>et</reg></choice> par profeſſion ;</l>
+                 <l n='521' xml:id='l521'>Mais il eſt <choice><orig>très-permis</orig><reg>très permis</reg></choice> en <placeName>France</placeName></l>
+                 <l n='522' xml:id='l522'>De railler joliment <choice><orig>&amp;</orig><reg>et</reg></choice> par occaſion</l>
+                 <l n='523' xml:id='l523'>Vous pouvez, en faiſant la juſte apologie</l>
+                 <l n='524' xml:id='l524'>Du goût du <choice><orig>Siécle</orig><reg>Siècle</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> de ſes mœurs,</l>
+                 <l n='525' xml:id='l525'>Vous pouvez en paſſant contre tous ſes frondeurs,</l>
+                 <l n='526' xml:id='l526'>Exercer votre raillerie :</l>
+                 <l n='527' xml:id='l527'>Décochez-leur vos traits, mais d'une main polie.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="IV_22">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='528' xml:id='l528'>La mienne eſt mal adroite, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>pourroit</orig><reg>pourrait</reg></choice> les meurtrir.</l>	
+                 <l n='529' xml:id='l529'>Pour louer, volontiers, je ſuis prêt d'obéir,</l>
+                 <l n='530' xml:id='l530'>Car j'en ai fait un ſerment <choice><orig>autentique</orig><reg>authentique</reg></choice></l>
+                 <l n='531' xml:id='l531'>Pour mon repos <choice><orig>&amp;</orig><reg>et</reg></choice> pour mon bien ;</l>
+                 <l n='532' xml:id='l532'>Et <choice><orig>duſſai-je</orig><reg>dussé-je</reg></choice> échouer dans le Panégyrique,</l>
+                 <l n='533' xml:id='l533'>J'aime mieux louer mal, que de médire bien.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle" xml:id="IV_23">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                 <l n='534' xml:id='l534'>Je ne puis m'empêcher d'en rire,</l>	
+                 <l n='535' xml:id='l535'>Et je trouve le trait <choice><sic>auſſi-neuf</sic><reg> aussi neuf</reg></choice> que charmant ;</l>
+                        <pb n="64"/>
+                 <l n='536' xml:id='l536'><persName type='god'>Momus</persName> qui, me prie inſtamment</l>
+                 <l n='537' xml:id='l537'>De le diſpenſer de médire !</l>
+                 <l n='538' xml:id='l538'>Adieu... Je vais, Seigneur, publier hautement,</l>
+                 <l n='539' xml:id='l539'>Que <persName type='god'>Momus</persName> a quitté, dépoſant ſon tonnerre,</l>
+                 <l n='540' xml:id='l540'>L'uniforme du régiment :</l>
+                 <l n='541' xml:id='l541'>Qu'à l'avenir, toute la terre</l>
+                 <l n='542' xml:id='l542'>Peut être ridicule, <choice><orig>&amp;</orig><reg>et</reg></choice> folle impunément,</l>
+                 <l n='543' xml:id='l543'>Et qu'il fait en ces lieux trafic de compliment :</l>
+                 <l n='544' xml:id='l544'>Que ſans contribuer à l'intrigue comique,</l>
+                 <l n='545' xml:id='l545'>Et ſans ſervir au dénoûment,</l>
+                 <l n='546' xml:id='l546'>Tout Perſonnage épiſodique,</l>
+                 <l n='547' xml:id='l547'>Peut à ſes yeux <choice><orig>paroître</orig><reg>paraître</reg></choice> hardiment,</l>
+                 <l n='548' xml:id='l548'>Beauté, <choice><orig>Laidron</orig><reg>Laideron</reg></choice>, <choice><orig>Roturiére</orig><reg>Roturière</reg></choice>, Marquiſe,</l>
+                 <l n='549' xml:id='l549'>Vieille, Tendron piquant,</l>
+                 <l n='550' xml:id='l550'>Honnête-homme, Fripon, Ignorant <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>Sçavant</orig><reg>savant</reg></choice> ;</l>
+                 <l n='551' xml:id='l551'>Les vertus, les défauts, l'eſprit <choice><orig>&amp;</orig><reg>et</reg></choice> la ſottiſe :</l>
+                 <l n='552' xml:id='l552'>Que vous louez, enfin, tous indifféremment,</l>
+                 <l n='553' xml:id='l553'>Et qu'au premier venu, d'une main libérale,</l>
+                 <l n='554' xml:id='l554'>Vous prodiguez l'encens dans cette Salle,</l>
+                 <l n='555' xml:id='l555'>Sans <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> pourquoi, ni comment.</l>
+                    </sp>  
+                    <sp who="Momus" xml:id="IV_24">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='556' xml:id='l556'>Allez, vous me forcez de quitter l'ironie,</l>
+                 <l n='557' xml:id='l557'>À mes yeux ne vous offrez plus :</l>     
+                 <l n='558' xml:id='l558'>Si de ce Siécle heureux vous étiez le Génie,</l>
+                 <l n='559' xml:id='l559'>Vous feriez plus de cas des ſolides vertus.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="5" xml:id="V">
+                    <head>SCENE V.</head><lb/>
+                    <stage>MOMUS, CHRISANTE.</stage><lb/>
+                    <sp who="Chrisante" xml:id="V_1">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='560' xml:id='l560'>JE donne le bon jour au Dieu de la Critique.</l>
+                 <l n='561' xml:id='l561'>Je viens ici, je viens exprès</l>
+                 <l n='562' xml:id='l562'>Pour un deſſein qu'il faut que je lui communique.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_2">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='563' xml:id='l563'>Sçachez que <persName type='god'>Momus</persName> déſormais</l>
+                        <pb n="65"/>
+                 <l n='564' xml:id='l564'>Préſide au ſeul Panégyrique.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_3">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='565' xml:id='l565'>Ah ! Je vous reconnois à ce trait ironique.</l>
+                 <l n='566' xml:id='l566'>Vous voyez devant vous un homme ſingulier.</l>
+                 <l n='567' xml:id='l567'>J'ai le goût excellent , mais <choice><orig>très-particulier</orig><reg>très particulier</reg></choice>.</l>
+                 <l n='568' xml:id='l568'>Ce qui plaît au Public a droit de me déplaire ;</l>
+                 <l n='569' xml:id='l569'>Je blâme conſtamment ce qu'il ſemble eſtimer,</l>
+                 <l n='570' xml:id='l570'>Et j'eſtime au contraire</l>
+                 <l n='571' xml:id='l571'>Ce qu'il affecte de blâmer.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_4">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='572' xml:id='l572'>Pourquoi vous écarter du chemin ordinaire ?</l>
+                 <l n='573' xml:id='l573'>Et qui peut contre lui ſi fort vous animer ?</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_5">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='574' xml:id='l574'>C'eſt la droite équité que jamais il n'écoute.</l>
+                 <l n='575' xml:id='l575'>Conduit par ſon caprice il eſt extrême en tout,</l>
+                 <l n='576' xml:id='l576'>Et je viens vous prier de réformer ſon goût.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_6">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='577' xml:id='l577'>Monſieur, ſur le vôtre ſans doute ?</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_7">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='578' xml:id='l578'>Ne penſez pas railler, tout n'en iroit que mieux :</l>
+                 <l n='579' xml:id='l579'>S'il ſuivoit aujourd'hui mon goût délicieux :</l>
+                 <l n='580' xml:id='l580'>La raiſon fixeroit ſon eſprit trop volage,</l>
+                 <l n='581' xml:id='l581'>Et lui feroit tenir une route plus ſage.</l>
+                 <l n='582' xml:id='l582'>On verroit moins d'abus : La prudence <choice><orig>&amp;</orig><reg>et</reg></choice> la paix</l>
+                 <l n='583' xml:id='l583'>Dans tous les lieux publics régneroient à jamais.</l>
+                 <l n='584' xml:id='l584'>Nuls orages <choice><orig>ſur-tout</orig><reg>surtout</reg></choice>, nuls flots <choice><orig>&amp;</orig><reg>et</reg></choice> nuls obſtacles,</l>
+                 <l n='585' xml:id='l585'>Ne troubleroient, Seigneur,les tranquilles Spectacles ;</l>
+                 <l n='586' xml:id='l586'>On <choice><orig>n'entendroit</orig><reg>n'entendrait</reg></choice> plus de <choice><orig>Siflets</orig><reg>Sifflets</reg></choice> :</l>
+                 <l n='587' xml:id='l587'>L'humanité condamne un inſtrument ſi triſte.</l>
+                 <l n='588' xml:id='l588'>Je ne m'en ſuis ſervi jamais que contre <title n="Inès de Castro">Inès</title>,</l>
+                 <l n='589' xml:id='l589'>Contre <title n="Zaïre">Zaïre</title> <choice><orig>&amp;</orig><reg>et</reg></choice> contre <title n="Rhadamiste et Zénobie">Radamiste</title>.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_8">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='590' xml:id='l590'>Qui vous rend leur Antagoniſte ?</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_9">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='591' xml:id='l591'>Belle demande ! Leur ſuccès.</l>
+                 <l n='592' xml:id='l592'>Le ſentiment commun eſt toujours le mauvais,</l>
+                 <l n='593' xml:id='l593'>Je vous l'ai déjà dit, c'eſt pourquoi j'y réſiſte.</l>
+                 <l n='594' xml:id='l594'>Par la même raiſon je me pique aujourd'hui</l>
+                        <pb n="66"/>
+                 <l n='595' xml:id='l595'>D'être le Chevalier des <choice><orig>Piéces</orig><reg>Pièces</reg></choice> malheureuſes.</l>
+                 <l n='596' xml:id='l596'>Mes <choice><orig>poulmons</orig><reg>poumons</reg></choice> <choice><orig>éloquens</orig><reg>éloquents</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> mes mains généreuſes</l>
+                 <l n='597' xml:id='l597'>Combattent pour leur cauſe en dépit de l'ennui ;</l>
+                 <l n='598' xml:id='l598'>Et tout Auteur qui tombe en moi trouve un <choice><orig>apui</orig><reg>appui</reg></choice>.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_10">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='599' xml:id='l599'>Voilà des <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> <choice><orig>tout-à-fait</orig><reg>tout à fait</reg></choice> charitables.</l>
+                 <l n='600' xml:id='l600'>Mais <choice><orig>entre-nous</orig><reg>entre nous</reg></choice>, mon cher Monſieur,</l>
+                 <l n='601' xml:id='l601'>N'auriez-vous point pitié de vos ſemblables ?</l>
+                 <l n='602' xml:id='l602'>Et du Public qui cauſe votre aigreur,</l>
+                 <l n='603' xml:id='l603'>N'auriez-vous pas vous-même éprouvé la rigueur ?</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_11">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='604' xml:id='l604'>Il m'a bruſqué, Seigneur, une fois en ma vie ;</l>
+                 <l n='605' xml:id='l605'>Mais à la charge, il n'eſt plus revenu,</l>
+                 <l n='606' xml:id='l606'>Car je m'en ſuis fort ſagement tenu</l>
+                 <l n='607' xml:id='l607'>A ma <choice><orig>premiére</orig><reg>première</reg></choice> Tragédie.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_12">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='608' xml:id='l608'>Je ne m'étonne plus de votre antipathie.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_13">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='609' xml:id='l609'>J'ai l'avantage maintenant</l>
+                 <l n='610' xml:id='l610'>De le contrarier sans ceſſe,</l>
+                 <l n='611' xml:id='l611'>Et de me déchaîner contre ſon jugement</l>
+                 <l n='612' xml:id='l612'>Sans redouter ſa fureur vengereſſe.</l>
+                 <l n='613' xml:id='l613'>C'eſt pour jouir de ce contentement</l>
+                 <l n='614' xml:id='l614'>Que je vais à la Comédie.</l>
+                 <l n='615' xml:id='l615'>Critique-t-il ? J'apologie.</l>
+                 <l n='616' xml:id='l616'><choice><orig>Aplaudit-il</orig><reg>Applaudit-il</reg></choice> ? Je ſuis ardent</l>
+                 <l n='617' xml:id='l617'>A faire la contre partie.</l>
+                 <l n='618' xml:id='l618'>Ce qui me flatte enfin, <choice><orig>&amp;</orig><reg>et</reg></choice> qui doit le piquer,</l>
+                 <l n='619' xml:id='l619'>Puiſqu'avec vous il faut que je m'épanche,</l>
+                 <l n='620' xml:id='l620'>C'eſt qu'il n'a jamais pû qu'une fois m'attaquer,</l>
+                 <l n='621' xml:id='l621'>Et qu'il me donne, lui, tous les jours ma revanche.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_14">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='622' xml:id='l622'>Je ne puis m'empêcher de blâmer hautement</l>
+                 <l n='623' xml:id='l623'>Une conduite ſi peu ſage.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_15">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='624' xml:id='l624'>Vous avez beau dans ce moment</l>
+                 <l n='625' xml:id='l625'>Prendre ſa Cauſe en main à mon déſavantage,</l>
+                 <l n='626' xml:id='l626'>J'ai là dans mon cerveau le deſſein d'un Ouvrage</l>
+                        <pb n="67"/>
+                 <l n='627' xml:id='l627'>Qui vous fera <choice><orig>bien-tôt</orig><reg>bientôt</reg></choice> changer de ſentiment.</l>
+                 <l n='628' xml:id='l628'>Vous l'allez aplaudir, je gage :</l>
+                 <l n='629' xml:id='l629'>Son titre ſeul eſt un bon pronoſtic.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_16">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='630' xml:id='l630'>Quel eſt donc ce deſſein digne de mon ſuffrage ?</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_17">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='631' xml:id='l631'>C'eſt la critique du Public</l>
+                 <l n='632' xml:id='l632'>Ses écarts démontrés par ſa propre conduite,</l>
+                 <l n='633' xml:id='l633'>Par ſon peu de <choice><orig>lumiére</orig><reg>lumière</reg></choice> ou ſon peu d'équité,</l>
+                 <l n='634' xml:id='l634'>Et ſon infaillibilité</l>
+                 <l n='635' xml:id='l635'>Totalement détruite</l>
+                 <l n='636' xml:id='l636'>Car tous ſes jugemens pleins de prévention,</l>
+                 <l n='637' xml:id='l637'>D'erreur, de contradiction,</l>
+                 <l n='638' xml:id='l638'>Par ſes geſtes <choice><orig>&amp;</orig><reg>et</reg></choice> dits, qui n'ont ni fin ni ſuite.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_18">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='639' xml:id='l639'>Le projet eſt nouveau ! Mais voudriez-vous bien</l>
+                 <l n='640' xml:id='l640'>Et me détailler <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>m'aprendre</orig><reg>m'apprendre</reg></choice></l>
+                 <l n='641' xml:id='l641'>Ce que dans le Public vous trouvez à reprendre,</l>
+                 <l n='642' xml:id='l642'>Soit dans ſes actions, ſoit dans ſon entretien ?</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_19">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='643' xml:id='l643'>Mille travers, mille <choice><orig>bévûes</orig><reg>bévues</reg></choice> ;</l>
+                 <l n='644' xml:id='l644'>Son goût pour le clinquant dont il eſt le ſoutien,</l>
+                 <l n='645' xml:id='l645'>Et pour la nouveauté qu'il porte juſqu'aux nues</l>
+                 <l n='646' xml:id='l646'>Ou qu'il met au deſſous de rien,</l>
+                 <l n='647' xml:id='l647'>Car jamais il ne garde un milieu raiſonnable.</l>
+                 <l n='648' xml:id='l648'>Chez lui tout eſt divin, ou tout eſt miſérable.</l>
+                 <l n='649' xml:id='l649'>Sa fureur pour la mode <choice><orig>&amp;</orig><reg>et</reg></choice> pour tout charlatan ;</l>
+                 <l n='650' xml:id='l650'>Tous les uſages fous dont il eſt le Partiſan ;</l>
+                 <l n='651' xml:id='l651'>Toutes ſes politeſſes fades,</l>
+                 <l n='652' xml:id='l652'>Ses viſites, ſes embraſſades,</l>
+                 <l n='653' xml:id='l653'>Et ſes ſaluts du premier jour de l'an ;</l>
+                 <l n='654' xml:id='l654'>Du Carnaval ſes Maſcarades ;</l>
+                 <l n='655' xml:id='l655'>Du Mardi gras ſon tranſport calotin,</l>
+                 <l n='656' xml:id='l656'>Et ſon air ſot le lendemain,</l>
+                 <l n='657' xml:id='l657'>Son exercice aux <placeName>Thuilleries</placeName>,</l>
+                 <l n='658' xml:id='l658'>Ses caracols, ſes lorgneries ;</l>
+                 <l n='659' xml:id='l659'>Aux ſpectacles ſes flots, ſes vertiges <choice><orig>fréquens</orig><reg>fréquents</reg></choice>,</l>
+                 <l n='660' xml:id='l660'>Ses battemens de mains donnés à <choice><orig>contre-tems</orig><reg>contretemps</reg></choice>,</l>
+                        <pb n="68"/>
+                 <l n='661' xml:id='l661'>Toutes ſes moucheries,</l>
+                 <l n='662' xml:id='l662'>Ses <choice><orig>bâillemens</orig><reg>bâillements</reg></choice>, ſes <choice><orig>crachemens</orig><reg>crachements</reg></choice></l>
+                 <l n='663' xml:id='l663'>Aux endroits les plus beaux, les plus <choice><orig>interreſſans</orig><reg>intéressants</reg></choice>,</l>
+                 <l n='664' xml:id='l664'>Son ridicule étrange</l>
+                 <l n='665' xml:id='l665'>De recevoir avidement</l>
+                 <l n='666' xml:id='l666'>La plus inſipide louange,</l>
+                 <l n='667' xml:id='l667'>Qu'on lui retourne inceſſament,</l>
+                 <l n='668' xml:id='l668'>Dans un Prologue ou dans un Compliment.</l>
+                 <l n='669' xml:id='l669'>Sa rage opiniâtre</l>
+                 <l n='670' xml:id='l670'>De crier preſqu'à tout moment,</l>
+                 <l n='671' xml:id='l671'>Place aux Dames ! Place au Théâtre !</l>
+                 <l n='672' xml:id='l672'>Parlez plus haut ! L'habit noir, chapeau bas !</l>
+                 <l n='673' xml:id='l673'>Paix! Monſieur l'Abbé, haut les bras !</l>
+                 <l n='674' xml:id='l674'>Annoncez ! Bis ! La <choice><orig>capriole</orig><reg>cabriole</reg></choice> !</l>
+                 <l n='675' xml:id='l675'>Et pour tout dire enfin, l'inſuportable rôle</l>
+                 <l n='676' xml:id='l676'>Qu'il fait, dès qu'au Parterre il ſe trouve preſſé.</l>
+                 <l n='677' xml:id='l677'>Ce qui révolte l'ame <choice><orig>&amp;</orig><reg>et</reg></choice> fait hauſſer l'épaule</l>
+                 <l n='678' xml:id='l678'>A tout homme de goût, à tout homme ſenſé.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_20">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='679' xml:id='l679'>Vous peignez-là la multitude</l>
+                 <l n='680' xml:id='l680'><choice><orig>Mere</orig><reg>Mère</reg></choice> du tumulte <choice><orig>&amp;</orig><reg>et</reg></choice> du bruit,</l>
+                 <l n='681' xml:id='l681'>Que n'arrête aucun frein, que l'éxemple ſéduit,</l>
+                 <l n='682' xml:id='l682'>Qu'entraîne la <choice><orig>coûtume</orig><reg>coutume</reg></choice>, ou l'aveugle habitude,</l>
+                 <l n='683' xml:id='l683'>Et non le vrai Public, avec choix aſſemblé,</l>
+                 <l n='684' xml:id='l684'>Tel qu'on le voit paroître</l>
+                 <l n='685' xml:id='l685'>Au Jeux d'un Théâtre réglé,</l>
+                 <l n='686' xml:id='l686'>Quand il écoute en ſage, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il prononce en maître,</l>
+                 <l n='687' xml:id='l687'>Ses arrêt qui le font ſi dignement connoître,</l>
+                 <l n='688' xml:id='l688'>Et dont nul avant vous n'a jamais <choice><orig>apellé</orig><reg>appelé</reg></choice>.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_21">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='689' xml:id='l689'>Vous nous repreſentez une belle <choice><orig>chimére</orig><reg>chimère</reg></choice> :</l>
+                 <l n='690' xml:id='l690'>Le Public que nous <choice><orig>connoiſſons</orig><reg>connaissons</reg></choice></l>
+                 <l n='691' xml:id='l691'>Tient juſtement un chemin tout contraire,</l>
+                 <l n='692' xml:id='l692'>Et pour en apeller , j'ai de bonnes raiſons :</l>
+                 <l n='693' xml:id='l693'>Quand dans ſa fougue extrême</l>
+                 <l n='694' xml:id='l694'>Il juge ſans entendre <choice><orig>&amp;</orig><reg>et</reg></choice> s'inſtruire du fonds,</l>
+                 <l n='695' xml:id='l695'>Et qu'il ſe contredit à chaque inſtant lui-même</l>
+                 <l n='696' xml:id='l696'>Par ſes Ouis, <choice><orig>&amp;</orig><reg>et</reg></choice> par ſes Nons.</l>
+                        <pb n="69"/>
+                 <l n='697' xml:id='l697'>Je porte ici de quoi prouver la choſe :</l>
+                 <l n='698' xml:id='l698'>Tenez, liſez, ſans attendre plus tard,</l>
+                 <l n='699' xml:id='l699'>Vous verrez qu'il aprouve <choice><orig>&amp;</orig><reg>et</reg></choice> condamne au <choice><orig>hazard</orig><reg>hasard</reg></choice></l>
+                 <l n='700' xml:id='l700'>Et ſans connoiſſance de Cauſe.</l>
+                 <l n='701' xml:id='l701'>Seigneur, la liste que voilà</l>
+                 <l n='702' xml:id='l702'>Fait voir en plein ſon injuſtice,</l>
+                 <l n='703' xml:id='l703'>Sa <choice><orig>legereté</orig><reg>légèreté</reg></choice>, ſon caprice,</l>
+                 <l n='704' xml:id='l704'>Et ſon goût dépravé qui toujours l'emporta.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_22">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='705' xml:id='l705'>Non, j'ai fait voeu de ne plus lire</l>
+                 <l n='706' xml:id='l706'>Aucun Libelle ni Satire.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_23">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='707' xml:id='l707'>Oh, parbleu, tout au moins , <persName type='god'>Momus</persName> m'écoutera : </l>
+                        <lb/><stage type='delivery'><hi rend="italic">(Il lit.)</hi></stage><lb/>
+                        <p><hi rend="italic"><choice><orig>Piéce</orig><reg>Pièce</reg></choice> que le Public a <choice><orig>aplaudie</orig><reg>applaudie</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il <choice><orig>devoit ſifler</orig><reg>devait siffler</reg></choice><unclear>:</unclear>
+                            </hi><lb/>LA COMEDIE AUX QUATRE ETOILES.</p>
+                    </sp>
+                    <sp who="Momus" xml:id="V_24">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='708' xml:id='l708'>A rire malgré moi ſa colére m'excite.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_25">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='709' xml:id='l709'>C'eſt ici que je vous <choice><orig>attens</orig><reg>attends</reg></choice>.</l>
+                 <l n='710' xml:id='l710'>Je vous défie en ces <choice><orig>inſtans</orig><reg>instants</reg></choice></l>
+                 <l n='710' xml:id='l711'>De me juſtifier ſa folle réuſſite.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_26">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='712' xml:id='l712'>Le Ballet lui ſeul la mérite.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_27">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                 <l n='713' xml:id='l713'>Vous êtes ami de l'Auteur.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_28">
+                        <speaker>MOMUS.</speaker><lb/>
+                 <l n='714' xml:id='l714'>Non, je ſuis de la douceur;</l>
+                 <l n='715' xml:id='l715'>Et le Public a dû ſon indulgence</l>
+                 <l n='716' xml:id='l716'>A qui s'efforce uniquement</l>
+                 <l n='717' xml:id='l717'>De le divertir noblement,</l>
+                 <l n='718' xml:id='l718'>Et dans l'exacte bienſéance.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_29">
+                        <speaker>CHRISANTE.</speaker>
+                 <l n='719' xml:id='l719'>L'exacte bienſéance ? Ah ! le trait eſt fort bon !</l>
+                 <l n='720' xml:id='l720'>Oui, rien de plus décent que Finette <choice><orig>&amp;</orig><reg>et</reg></choice> Marton.</l>
+                 <l n='721' xml:id='l721'>Deux hommes traveſtis, qui pour ſervir leur <choice><orig>flâme</orig><reg>flamme</reg></choice>,</l>
+                 <l n='722' xml:id='l722'>Se font dans la même maiſon</l>
+                 <l n='723' xml:id='l723'>Femmes de Chambre de Madame,</l>
+                        <pb n="70"/>
+                 <l n='724' xml:id='l724'>Et qui ſemblent tous deux s'être donné le mot</l>
+                 <l n='725' xml:id='l725'>Pour ce déguiſement falot !</l>
+                 <l n='726' xml:id='l726'>Une telle conduite bleſſe</l>
+                 <l n='727' xml:id='l727'>La vraiſemblance autant que la ſageſſe.</l>
+                 <l n='728' xml:id='l728'>Quel fond de Comédie ! <choice><orig>O</orig><reg>Ô</reg></choice> Ciel ! où ſommes-nous ?</l>
+                 <l n='729' xml:id='l729'>L'encens que vous donnez me fait rougir pour vous.</l>
+                 <l n='730' xml:id='l730'>Vous nous vantez les moeurs (la choſe eſt ſans égale)</l>
+                 <l n='731' xml:id='l731'>D'un ouvrage effronté, qui de ſens <choice><orig>dépourvû</orig><reg>dépourvu</reg></choice>,</l>
+                 <l n='732' xml:id='l732'>Peint l'indécence tout à <choice><orig>nû</orig><reg>nu</reg></choice>,</l>
+                 <l n='733' xml:id='l733'>Et qui préciſément ouvre par le ſcandale.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_30">
+                        <speaker>MOMUS.</speaker>
+                 <l n='734' xml:id='l734'>C'eſt pour finir par la vertu.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_31">
+                        <speaker>CHRISANTE.</speaker>
+                 <l n='735' xml:id='l735'>Quel raiſonnement biſcornu !</l>
+                 <l n='736' xml:id='l736'>Et quand ils vont tous deux habiller la Marquiſe,</l>
+                 <l n='737' xml:id='l737'>Hem ! Qu'eſt-ce que vous en penſez ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_32">
+                        <speaker>MOMUS.</speaker>
+                        <l n="738" xml:id="l738_1" part="I">C'eſt la <choice><orig>premiere</orig><reg>première</reg></choice> fois.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_33">
+                        <speaker>CHRISANTE.</speaker>
+                        <l xml:id="l738_2" part="F">N'en eſt-ce pas aſſez</l>
+                 <l n='739' xml:id='l739'>Pour qu'un eſprit bien né, morbleu, s'en ſcandaliſe ?</l>
+                    </sp>
+                    <sp who="Momus" xml:id="V_34">
+                        <speaker>MOMUS.</speaker>
+                        <l n="740" xml:id="l740_1" part="I">Paſſons.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_35">
+                        <speaker>CHRISANTE.</speaker>
+                        <l xml:id="l740_2" part="F">J'ai donc raiſon, <choice><orig>&amp;</orig><reg>et</reg></choice> vous le confeſſez.</l>
+                        <lb/><stage type="business"><hi rend="italic">(Il continue à lire.)</hi></stage><lb/>
+                        <p><hi rend="italic">Actrice que le Public a bien reçue, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il <choice><orig>devoit</orig><reg>devait</reg></choice> <lb/>proſcrire.</hi> PHEDRE.</p>
+                    </sp>
+                    <sp who="Momus" xml:id="V_36">
+                        <speaker>MOMUS.</speaker>
+                 <l n='741' xml:id='l741'>Tout doucement, Monſieur, reſpecter cette Actrice,</l>
+                 <l n='742' xml:id='l742'><choice><orig>Sçachez</orig><reg>Sachez</reg></choice> que le Public <choice><orig>l'aprouve</orig><reg>l'approuve</reg></choice> avec juſtice : </l>
+                 <l n='743' xml:id='l743'>Ce qui lui manque eſt un défaut <choice><orig>leger</orig><reg>léger</reg></choice></l>
+                 <l n='744' xml:id='l744'>Que ſix mois peuvent corriger ;</l>
+                 <l n='745' xml:id='l745'>Mais tous les dons heureux qu'au Théâtre elle étale ;</l>
+                 <l n='746' xml:id='l746'>Cette <choice><orig>ame</orig><reg>âme</reg></choice>, ces éclats, <choice><orig>&amp;</orig><reg>et</reg></choice> ces ſons <choice><orig>ſéduisans</orig><reg>séduisants</reg></choice>,</l>
+                 <l n='747' xml:id='l747'>Sont des faveurs <choice><orig>&amp;</orig><reg>et</reg></choice> des <choice><orig>préſens</orig><reg>présents</reg></choice></l>
+                 <l n='748' xml:id='l748'>De la Nature libérale</l>
+                 <l n='749' xml:id='l749'>Qu'on ne <choice><orig>ſçauroit</orig><reg>saurait</reg></choice> acquérir par le <choice><orig>tems</orig><reg>temps</reg></choice> ;</l>
+                        <pb n="71"/>
+                 <l n='750' xml:id='l750'>Fuyant le ton ſervile <choice><orig>&amp;</orig><reg>et</reg></choice> le jeu monotone,</l>
+                 <l n='751' xml:id='l751'>A ſon feu naturel ſon ame s'abandonne ; </l>
+                 <l n='752' xml:id='l752'>Dans ſon brillant eſſai <choice><orig>qu'aplaudit</orig><reg>qu'applaudit</reg></choice> tout <placeName>Paris</placeName>,</l>
+                 <l n='753' xml:id='l753'>Le ſuprême talent ſe <choice><orig>dévelope</orig><reg>développe</reg></choice> en elle ;</l>
+                 <l n='754' xml:id='l754'>Et prenant un eſſor dont les yeux ſont ſurpris,</l>
+                 <l n='755' xml:id='l755'>Elle ne ſuit perſonne, <choice><orig>&amp;</orig><reg>et</reg></choice> promet un modèle.</l>
+                    </sp>
+                    <sp who="Chrisante" xml:id="V_37">
+                        <speaker>CHRISANTE.</speaker>
+                 <l n='756' xml:id='l756'>J'écoute en frémiſſant cet éloge parfait.</l>
+                 <l n='757' xml:id='l757'>Adieu, Seigneur <sic>?</sic> adieu, je quitte la partie :</l>
+                 <l n='758' xml:id='l758'>Après un pareil trait</l>
+                 <l n='759' xml:id='l759'>Le Public me révolte; <choice><orig>&amp;</orig><reg>et</reg></choice> qui le juſtifie</l>
+                 <l n='760' xml:id='l760'>Ne peut être mon fait.</l>
+                 <l n='761' xml:id='l761'>Je <choice><orig>ſçai</orig><reg>sais</reg></choice> qu'à nos dépens chargeant notre portrait,</l>
+                 <l n='762' xml:id='l762'>Vous allez divertir le Peuple <choice><orig>Poëtique</orig><reg>poétique</reg></choice> ;</l>
+                 <l n='763' xml:id='l763'>Tirer ſur les paſſans fût toujours votre tic.</l>
+                 <l n='764' xml:id='l764'>Mais aprenez, Monſieur le Dieu cauſtique,</l>
+                 <l n='765' xml:id='l765'>Que qui ſe moque du Public,</l>
+                 <l n='766' xml:id='l766'>Se moque auſſi de la Critique,</l>
+                 <l n='767' xml:id='l767'>Et de <persName type='god'>Momus</persName>, <choice><orig>&amp;</orig><reg>et</reg></choice> de toute ſa clique.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="6" xml:id="VI">
+                    <head>SCENE VI.</head><lb/>
+                    <sp who="Momus" xml:id="VI_1">
+                        <speaker>MOMUS </speaker>
+                        <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                 <l n='768' xml:id='l768'>SOn ridicule eſt ſans égal !</l>
+                 <l n='769' xml:id='l769'>Tout ſingulier qu'il eſt dans ſa folie,</l>
+                 <l n='770' xml:id='l770'>C'eſt pourtant un Original</l>
+                 <l n='771' xml:id='l771'>Qui dans <placeName>Paris</placeName> a plus d'une Copie,</l>
+                 <l n='772' xml:id='l772'>Et ſouvent même il y donne le ton.</l>
+                 <l n='773' xml:id='l773'>Quelle eſt la Dame qui s'avance ?</l>
+                 <l n='774' xml:id='l774'><choice><orig>O</orig><reg>Ô</reg></choice> Ciel ! C'eſt la Critique ! évitons ſa préſence.</l>
+                 <l n='775' xml:id='l775'>Apologiſte par raiſon,</l>
+                 <l n='776' xml:id='l776'><persName type='god'>Momus</persName> ne doit plus avec elle</l>
+                 <l n='777' xml:id='l777'>Avoir aucune liaiſon.</l>
+                    </sp>  
+                </div>
+                <pb n="72"/>
+                <div type="scene" n="7" xml:id="VII">
+                    <head>SCENE VII.</head><lb/>
+                    <stage>MOMUS, LA CRITIQUE.</stage><lb/>
+                    <sp who="La Critique" xml:id="VII_1">
+                        <speaker>LA CRITIQUE.</speaker><lb/><lb/>
+                 <l n='778' xml:id='l778'>SEigneur, vous me fuyez?La choſe eſt <choice><orig>très-nouvelle</orig><reg>très nouvelle</reg></choice>.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="VII_2">
+                        <speaker>MOMUS.</speaker>
+                 <l n='779' xml:id='l779'>Pardon, l'état que je viens d'embraſſer</l>
+                 <l n='780' xml:id='l780'>A l'honneur de vous voir, me force à renoncer.</l>
+                    </sp>
+                    <sp who="La Critique" xml:id="VII_3">
+                        <speaker>LA CRITIQUE.</speaker>
+                 <l n='781' xml:id='l781'>Un pareil compliment, Seigneur, eſt malhonnête,</l>
+                 <l n='782' xml:id='l782'>Dans le tems que je viens vous donner une Fête ;</l>
+                 <l n='783' xml:id='l783'>D'en être témoin tout vous fait un devoir.</l>
+                    </sp>
+                    <sp who="Momus" xml:id="VII_4">
+                        <speaker>MOMUS.</speaker>
+                 <l n='784' xml:id='l784'>Je m'éloigne par modeſtie,</l>
+                 <l n='785' xml:id='l785'>Et je l'aplaudis ſans la voir.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="8" xml:id="VIII">
+                    <head>SCENE VIII.</head><lb/>
+                    <sp who="La Critique" xml:id="VIII_1">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">ſeule.</hi></stage><lb/><lb/>
+                 <l n='786' xml:id='l786'>QUel accueil ſurprenant ! A ſa bruſque ſortie</l>
+                 <l n='787' xml:id='l787'>Je ne comprens rien aujourd'hui.</l>
+                 <l n='788' xml:id='l788'>Mais moquons-nous de ſon abſence,</l>
+                 <l n='789' xml:id='l789'>Et dans ces lieux qui ſont de notre dépendance</l>
+                 <l n='790' xml:id='l790'>Exécutons notre <choice><orig>Balet</orig><reg>Ballet</reg></choice> ſans lui.</l>
+                    </sp>
+                </div>
+                <pb n="73"/>
+                <div type="scene" n="9" xml:id="IX">
+                    <head>SCENE IX.</head><lb/>
+                    <stage>LA CRITIQUE, LE VAUDEVILLE.</stage><lb/>
+                    <sp who="Le Vaudeville" xml:id="IX_1">
+                        <speaker>LA VAUDEVILLE.</speaker><lb/>
+                        <sound type="song" n="Souffrez que je dresse">AIR, <hi rend="italic">Souffrez que je dreſſe.</hi></sound>
+                        <lg n="1" xml:id="S1">
+                     <l n='791' xml:id='l791'>VOtre aſpect aimable,</l>
+                     <l n='792' xml:id='l792'>Critique agréable,</l>
+                     <l n='793' xml:id='l793'>Votre aſpect aimable</l>
+                     <l n='794' xml:id='l794'>M'attire en ces lieux :</l>
+                     <l n='795' xml:id='l795'><choice><orig>Daignés</orig><reg>Daignez</reg></choice> à mes voeux</l>
+                     <l n='796' xml:id='l796'>Vous montrer favorable.</l>
+                     <l n='797' xml:id='l797'>Votre aſpect aimable</l>
+                     <l n='798' xml:id='l798'>M'attire en ces lieux.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_2">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage type="delivery" rend="italics"><choice><orig>recite</orig><reg>récite</reg></choice>.</stage>
+                 <l n='799' xml:id='l799'><choice><orig>Ayés</orig><reg>Ayez</reg></choice> la bonté de <choice><orig>m'aprendre</orig><reg>m'apprendre</reg></choice></l>
+                <l n='800' xml:id='l800'>Qui vous êtes <choice><orig>premiérement</orig><reg>premièrement</reg></choice>,</l>
+                <l n='801' xml:id='l801'>Beau Chanteur qui <choice><orig>venés</orig><reg>venez</reg></choice> me rendre</l>
+                <l n='802' xml:id='l802'>Viſite ſi <choice><orig>gayment</orig><reg>gaiement</reg></choice>.</l>
+                    </sp>
+                    <sp who="Le Vaudeville" xml:id="IX_3">
+                        <speaker>LE VAUDEVILLE.</speaker>
+                        <lg n="2" xml:id="S2">
+                    <l n='803' xml:id='l803'>Je ſuis, ma belle Reine,</l>
+                    <l n='804' xml:id='l804'>Flon, flon, larira dondaine,</l>
+                    <l n='805' xml:id='l805'>Un Dieu plaiſant <choice><orig>&amp;</orig><reg>et</reg></choice> gai gai</l>
+                    <l n='806' xml:id='l806'>Larira dondé,</l>
+                    <l n='807' xml:id='l807'>Soumis à votre Empire,</l>
+                    <l n='808' xml:id='l808'>Ta la rari ta la ra rire,</l>
+                    <l n='809' xml:id='l809'>Et dans la nouveauté couru</l>
+                    <l n='810' xml:id='l810'>Lanturlu, lanturlu.</l>
+                    <l n='811' xml:id='l811'>A la cour, à la Ville</l>
+                    <l n='812' xml:id='l812'>Je <choice><orig>célebre</orig><reg>célèbre</reg></choice> Jean Gille ;</l>
+                    <l n='813' xml:id='l813'>Et de Bachus <choice><orig>&amp;</orig><reg>et</reg></choice> de l'Amour,</l>
+                    <l n='814' xml:id='l814'>La nuit <choice><orig>&amp;</orig><reg>et</reg></choice> le jour,</l>
+                    <l n='815' xml:id='l815'>Je chante la , la , la , la , la ,</l>
+                    <l n='816' xml:id='l816'>Je chante la Folie.</l>
+                            <pb n="74"/>
+                    <l n='817' xml:id='l817'>J'amuſe, <choice><orig>tour-à-tour</orig><reg>tour à tour</reg></choice>,</l>
+                    <l n='818' xml:id='l818'>La laide <choice><orig>&amp;</orig><reg>et</reg></choice> la jolie,</l>
+                    <l n='819' xml:id='l819'>l'Homme d'eſprit <choice><orig>&amp;</orig><reg>et</reg></choice> le <choice><orig>Nigaut</orig><reg>Nigaud</reg></choice>,</l>
+                    <l n='820' xml:id='l820'>La mirtan plan lantire larigaut.</l>
+                    <l n='821' xml:id='l821'>Par mes tourelourirettes</l>
+                    <l n='822' xml:id='l822'>Je mets en train les Fillettes,</l>
+                    <l n='823' xml:id='l823'>Et je leur fais faire un ſaut</l>
+                    <l n='824' xml:id='l824'>Deux ſauts.</l>
+                    <l n='825' xml:id='l825'>Ma puiſſance eſt <choice><orig>entiére</orig><reg>entière</reg></choice></l>
+                    <l n='826' xml:id='l826'>Tout le long de la <choice><orig>Riviére</orig><reg>Rivière</reg></choice>,</l>
+                    <l n='827' xml:id='l827'>Et je mets tous dans mes airs fous</l>
+                    <l n='828' xml:id='l828'><choice><orig>Sans</orig><reg>Sens</reg></choice> deſſus deſſous,</l>
+                    <l n='829' xml:id='l829'><choice><orig>Sans</orig><reg>Sens</reg></choice> devant <choice><orig>derriére</orig><reg>derrière</reg></choice> : </l>
+                    <l n='830' xml:id='l830'>Mon caprice eſt mon ſeul Roi</l>
+                    <l n='831' xml:id='l831'>Et toute la Terre eſt à moi.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_4">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage rend="italics" type="delivery">récite.</stage><lb/>
+                <l n='832' xml:id='l832'>A ce langage, à ces refrains</l>
+                <l n='833' xml:id='l833'>Je <choice><orig>reconnois</orig><reg>reconnais</reg></choice> le Vaudeville,</l>
+                <l n='834' xml:id='l834'>Qui fait le plaiſir de la Ville,</l>
+                <l n='835' xml:id='l835'>Et <choice><orig>l'ame</orig><reg>l'âme</reg></choice> de tous les feſtins.</l>
+                    </sp>
+                    <sp who="Le Vaudeville" xml:id="IX_5">
+                        <speaker>LE VAUDEVILLE </speaker>
+                        <stage rend="italics" type="delivery">chante.</stage><lb/>
+                        <sound type="song" n="Tu croyais en aimant Colette">AIR, <hi rend="italic">tu <choice><orig>croyois</orig><reg>croyais</reg></choice> en aimant Colette.</hi></sound>
+                        <lg n="3" xml:id="S3" part="I">
+                    <l n='836' xml:id='l836'>Oui, de <persName type="god">Comus</persName> que je fais rire</l>
+                    <l n='837' xml:id='l837'>Je ſuis le plus cher Favori.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_6">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <lg part="F">
+                    <l n='838' xml:id='l838'>Je ne m'étonne plus, beau Sire ,</l>
+                    <l n='839' xml:id='l839'>Si vous êtes ſi bien nourri.</l>
+                        </lg>
+                        <stage rend="italics" type="delivery">(Elle récite.)</stage>
+                <l n='840' xml:id='l840'>Mais dans ces lieux quel ſujet vous <choice><orig>améne</orig><reg>amène</reg></choice> ?</l>
+                    </sp>
+                    <sp who="Le Vaudeville" xml:id="IX_7">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound type="song" n="Quel plaisir de voir Claudine">AIR, <hi rend="italic">Quel plaiſir de voir Claudine.</hi></sound>
+                        <lg n="4" xml:id="S4">
+                    <l n='841' xml:id='l841'>C'eſt mon penchant qui <choice><orig>m'entraine</orig><reg>m'entraîne</reg></choice>,</l>
+                    <l n='842' xml:id='l842'>Madame, vers vos attraits ,</l>
+                    <l n='843' xml:id='l843'><choice><orig>Daignés</orig><reg>Daignez</reg></choice> annoblir ma veine,</l>
+                    <l n='844' xml:id='l844'>Et me prêter tous vos traits.</l>
+                        </lg>
+                        <sound type="song" n="La bonne aventure, ô gué">AIR, <hi rend="italic">La Bonne <choice><orig></orig><reg></reg></choice>avanture o gué des <title n="Les Trois cousines">trois Couſines</title>.</hi></sound>
+                        <lg xml:id="S5" n="5">
+                    <l n='845' xml:id='l845'>Comme vous du monde entier</l>
+                    <l n='846' xml:id='l846'>Je fais la cenſure,</l>
+                            <pb n="75"/>
+                    <l n='847' xml:id='l847'>Mon plaiſir <choice><orig>&amp;</orig><reg>et</reg></choice> mon métier</l>
+                    <l n='848' xml:id='l848'>Sont toujours de publier,</l>
+                    <l n='849' xml:id='l849'>La bonne avanture,</l>
+                    <l n='850' xml:id='l850'>O gué,</l>
+                    <l n='851' xml:id='l851'>La bonne avanture.</l>
+                        </lg>
+                        <sound type="song" n="Quand le péril est agréable">AIR, <hi rend="italic">Quand le péril eſt agréable.</hi></sound>
+                        <lg n="6" xml:id="S6">
+                    <l n='852' xml:id='l852'>Je fais ſeul l'étude profonde</l>
+                    <l n='853' xml:id='l853'>Des jeunes Robins <choice><orig>d'a-preſent</orig><reg>d'à présent</reg></choice>,</l>
+                    <l n='854' xml:id='l854'>Et tout le <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> éminent</l>
+                    <l n='855' xml:id='l855'>Des Abbés du grand monde.</l>
+                        </lg>
+                        <sound type="song" n="Le Ciel bénisse la besogne">AIR, <hi rend="italic">Le Ciel béniſſe la beſongne.</hi></sound>
+                        <lg xml:id="S7_1" n="7" part="I">
+                    <l n='856' xml:id='l856'>De ces Meſſieurs le plus ſouvent</l>
+                    <l n='857' xml:id='l857'>L'eſprit eſt un recueil vivant</l>
+                    <l n='858' xml:id='l858'>De mes Chanſons badines.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_8">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <lg xml:id="S7_2" part="M">
+                    <l n='859' xml:id='l859'>Pour ne pas dire libertines.</l>
+                        </lg>
+                    </sp>
+                    <sp who="Le Vaudeville" xml:id="IX_9">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <lg xml:id="S7_3" part="M">
+                    <l n='860' xml:id='l860'>Tout Couplet de ce genre eſt d'un ſel enchanté ;</l>
+                    <l n='861' xml:id='l861'>Dans un repas aimable.</l>
+                    <l n='862' xml:id='l862'>Il eſt toujours le plus goûté.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_10">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <lg xml:id="S7_4" part="F">
+                    <l n='863' xml:id='l863'>Mais du beau Sexe il n'eſt point écouté.</l>
+                        </lg>
+                    </sp>
+                    <sp who="Le Vaudeville" xml:id="IX_11">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound type="song" n="On passe la nuit à table">AIR, <hi rend="italic">On paſſe la nuit à Table.</hi></sound>
+                        <lg xml:id="S8" n="8">
+                    <l n='864' xml:id='l864'>Que chanté d'un air aimable</l>
+                    <l n='865' xml:id='l865'>Il faſſe rougir ſa fierté ;</l>
+                    <l n='866' xml:id='l866'>Voilà la Fable :</l>
+                    <l n='867' xml:id='l867'>Mais qu'il en ſourie à table,</l>
+                    <l n='868' xml:id='l868'>Que ſon goût en ſoit flatté;</l>
+                    <l n='869' xml:id='l869'>Voilà la Vérité.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_12">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <sound type="song" n="Pour passer doucement la vie">AIR, <hi rend="italic">pour paſſer doucement la vie.</hi></sound>
+                        <lg n="9" xml:id="S9">
+                    <l n='870' xml:id='l870'>Oh ! Je vous trouve condamnable</l>
+                    <l n='871' xml:id='l871'>En ce point-là préciſément :</l>
+                    <l n='872' xml:id='l872'>Vous rendez le vice agréable,</l>
+                    <l n='873' xml:id='l873'>En lui prêtant votre <choice><orig>enjoûment</orig><reg>enjouement</reg></choice>.</l>
+                        </lg>
+                        <stage type="delivery" rend="italics">(Elle recite.)</stage>
+                <l n='874' xml:id='l874'>Il faut pour plaire même au grand nombre de Femmes</l>
+                        <pb n="76"/>
+                <l n='875' xml:id='l875'>Qui ne <choice><orig>ſçauroient</orig><reg>sauraient</reg></choice> vous chanter ſans rougir</l>
+                <l n='876' xml:id='l876'>Vous corriger <choice><orig>&amp;</orig><reg>et</reg></choice> m'obéir.</l>
+                    </sp>
+                    <sp who="La Vaudeville" xml:id="IX_13">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                <l n='877' xml:id='l877'>Me voir employé par les Dames</l>
+                <l n='878' xml:id='l878'>Fait mon plus grand plaiſir.</l>
+                        <lb/><stage rend="italics" type="delivery">(Il chante.)</stage>
+                        <sound type="song" n="L'austère philosophie">AIR, <hi rend="italic">L'auſtére Pholoſophie.</hi></sound>
+                        <lg n="10" xml:id="S10">
+                    <l n='879' xml:id='l879'>Oui, ma gloire véritable,</l>
+                    <l n='880' xml:id='l880'>Et mon triomphe certain</l>
+                    <l n='881' xml:id='l881'>Eſt quand leur bouche adorable</l>
+                    <l n='882' xml:id='l882'>Me chante, le verre en main :</l>
+                    <l n='883' xml:id='l883'>A mes couplets tous leurs charmes</l>
+                    <l n='884' xml:id='l884'>Semblent s'imprimer ſoudain ;</l>
+                    <l n='885' xml:id='l885'>L'Amour alors n'a point d'armes</l>
+                    <l n='886' xml:id='l886'>Plus sûres que mon refrein.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_14">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage type="delivery" rend="italics">récite.</stage><lb/>
+                <l n='887' xml:id='l887'>La Table fut toujours votre Champ de bataille ;</l>
+                <l n='888' xml:id='l888'>Et le Fils de <persName type="god">Vénus</persName> votre Dieu favori.</l>
+                    </sp>
+                    <sp who="Le Vaudeville" xml:id="IX_15">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                <l n='889' xml:id='l889'>Pour l'honneur de ce Dieu, dont je ſuis fort chéri,</l>
+                <l n='890' xml:id='l890'>Il eſt vrai, toujours je travaille ;</l>
+                        <lb/><stage rend="italics" type="delivery">(Il récite.)</stage><lb/>
+                <l n='891' xml:id='l891'>Selon l'objet, ſelon l'occaſion ,</l>
+                <l n='892' xml:id='l892'>Je ſçais adroitement changer d'air <choice><orig>&amp;</orig><reg>et</reg></choice> de ton :</l>
+                <l n='893' xml:id='l893'>Je prends ce dernier pour mon guide :</l>
+                <l n='894' xml:id='l894'>Car ſoit caprice, ſoit raiſon,</l>
+                <l n='895' xml:id='l895'>Dans le monde toujours, c'eſt le ton qui décide,</l>
+                <l n='896' xml:id='l896'>Si je veux, par exemple, enflammer un tendron,</l>
+                <l n='897' xml:id='l897'>Encore novice <choice><orig>&amp;</orig><reg>et</reg></choice> timide,</l>
+                <l n='898' xml:id='l898'>Ma voix lui gliſſe , ainſi , doucement ſon poiſon,</l>
+                        <lb/><stage rend="italics" type="delivery">(Il chante.)</stage><lb/>
+                        <sound type="song">AIR, <hi rend="italic">D'un <persName type="god">Zéphir</persName> mutin.</hi></sound>
+                        <lg>
+                    <l n='899' xml:id='l899'>Voyez un Amant</l>
+                    <l n='900' xml:id='l900'>D'amour tout ardent ,</l>
+                    <l n='901' xml:id='l901'>Dont votre air enchanteur</l>
+                    <l n='902' xml:id='l902'>S'eſt rendu vainqueur,</l>
+                    <l n='903' xml:id='l903'>Fixez vos beaux yeux</l>
+                    <l n='904' xml:id='l904'>Sur les miens pleins de feux,</l>
+                            <pb n="77"/>
+                    <l n='905' xml:id='l905'>Dans un combat ſi doux</l>
+                    <l n='906' xml:id='l906'>Engagez-vous :</l>
+                    <l n='907' xml:id='l907'>Que ma flamme</l>
+                    <l n='908' xml:id='l908'>Dans votre <choice><orig>ame</orig><reg>âme</reg></choice></l>
+                    <l n='909' xml:id='l909'>Porte mes <choice><orig>brulans</orig><reg>brûlants</reg></choice> ſoupirs ;</l>
+                    <l n='910' xml:id='l910'>De ma peine,</l>
+                    <l n='911' xml:id='l911'>Belle Reine ,</l>
+                    <l n='912' xml:id='l912'>De tous mes <choice><orig>deſirs</orig><reg>désirs</reg></choice></l>
+                    <l n='913' xml:id='l913'>Faites des plaiſirs.</l>
+                    <l n='914' xml:id='l914'><choice><orig>Voyés</orig><reg>Voyez</reg></choice> un Amant, <choice><orig>&amp;c</orig><reg>etc</reg></choice></l>
+                        </lg>
+                        <lb/><stage type="delivery" rend="italics">(Il récite.)</stage><lb/>
+                <l n='915' xml:id='l915'>Si je rencontre en mon chemin<sic>.</sic></l>
+                <l n='916' xml:id='l916'>Une Beauté plus aguerrie,</l>
+                <l n='917' xml:id='l917'>Et dans le grand Monde nourrie :</l>
+                <l n='918' xml:id='l918'>Je prends alors un ton plus vif <choice><orig>&amp;</orig><reg>et</reg></choice> plus badin ;</l>
+                <l n='919' xml:id='l919'>Et ſans perdre le <choice><orig>tems</orig><reg>temps</reg></choice> en des diſcours frivoles,</l>
+                <l n='920' xml:id='l920'>Voici <choice><sic>commenr</sic><reg>comment</reg></choice> je change d'air ſoudain</l>
+                <l n='921' xml:id='l921'>Sans changer de paroles.</l>
+                        <lb/><stage type="delivery" rend="italics">Il chante.</stage>
+                        <sound type="song" n="Laissons-nous charmer">AIR, <hi rend="italic">Laiſſons-nous charmer.</hi></sound>
+                        <lg>
+                    <l n='922' xml:id='l922'>Voyez un Amant</l>
+                    <l n='923' xml:id='l923'>D'amour tout ardent,</l>
+                    <l n='924' xml:id='l924'>Dont votre air enchanteur</l>
+                    <l n='925' xml:id='l925'>S'eſt rendu vainqueur,</l>
+                    <l n='926' xml:id='l926'><choice><orig>Fixés</orig><reg>Fixez</reg></choice> vos beaux yeux</l>
+                    <l n='927' xml:id='l927'>Sur les miens pleins de feux,</l>
+                    <l n='928' xml:id='l928'>Dans un combat ſi doux</l>
+                    <l n='929' xml:id='l929'>Engagez-vous ;</l>
+                    <l n='930' xml:id='l930'>Que ma <choice><orig>flame</orig><reg>flamme</reg></choice></l>
+                    <l n='931' xml:id='l931'>Dans votre <choice><orig>ame</orig><reg>âme</reg></choice></l>
+                    <l n='932' xml:id='l932'>Porte mes <choice><orig>brûlans</orig><reg>brûlants</reg></choice> ſoupirs ;</l>
+                    <l n='933' xml:id='l933'>De ma peine,</l>
+                    <l n='934' xml:id='l934'>Belle Reine,</l>
+                    <l n='935' xml:id='l935'>De tous mes <choice><orig>deſirs</orig><reg>désirs</reg></choice></l>
+                    <l n='936' xml:id='l936'>Faites des plaiſirs.</l>
+                    <l n='937' xml:id='l937'>Voyés un Amant, <choice><orig>&amp;</orig><reg>et</reg></choice>c.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_16">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage type="delivery" rend="italics">récite.</stage><lb/>
+                <l n='938' xml:id='l938'>Vous êtes, je l'avoue, un dangereux Fripon ;</l>
+                <l n='939' xml:id='l939'>Monſieur le Vaudeville :</l>
+                        <pb n="78"/>
+               <l n='940' xml:id='l940'>Moi-même en cet inſtant, ſéduite par le ton,</l>
+               <l n='941' xml:id='l941'>J'ai peine à vous entendre avec un coeur tranquille.</l>
+                    </sp>
+                    <sp who="Le Vaudeville" xml:id="IX_17">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+               <l n='942' xml:id='l942'>Ah ! vous avez raiſon</l>
+               <l n='943' xml:id='l943'>D'être ſenſible à ma Chanſon.</l>
+                        <lb/><stage rend="italics" type="delivery">(Il chante.)</stage><lb/>
+               <l n='944' xml:id='l944'>Pour plaire à vos yeux je me tourne, tourne, tourne,</l>
+               <l n='945' xml:id='l945'>Je me tourne de tout côté.</l>
+               <l n='946' xml:id='l946'>L'Air que je tourne, <choice><orig>&amp;</orig><reg>et</reg></choice> je retourne ,</l>
+               <l n='947' xml:id='l947'>C'eſt pour vous que je l'ai chanté.</l>
+               <l n='948' xml:id='l948'>Vers votre Amant</l>
+               <l n='949' xml:id='l949'>Votre bel oeil ſe tourne !</l>
+               <l n='950' xml:id='l950'>Tourne tendrement ;</l>
+               <l n='951' xml:id='l951'>Qu'un doux baiſer !.. encore que j'y retourne.</l>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_18">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+               <l n='952' xml:id='l952'>N'y <choice><orig>retournés</orig><reg>retournez</reg></choice> plus vraiment.</l>
+                    </sp>
+                    <sp who="Le Vaudeville" xml:id="IX_19">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound type="song" n="Chantez petit Colin">AIR, <hi rend="italic">Chantez petit Colin.</hi></sound>
+                        <lg n="11" xml:id="S11">
+                   <l n='953' xml:id='l953'>Ce baiſer innocent, </l>
+                   <l n='954' xml:id='l954'>Cette faveur legére,</l>
+                   <l n='955' xml:id='l955'>Ce baiſer innocent</l>
+                   <l n='956' xml:id='l956'>De votre coeur m'eſt-il garant ?</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_20">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+               <l n='957' xml:id='l957'>La Critique eſt ſincére,</l>
+               <l n='958' xml:id='l958'>Vous avez ſçu me plaire,</l>
+               <l n='959' xml:id='l959'>Puiſque je le dis ;</l>
+               <l n='960' xml:id='l960'>Vos airs, quoique pris ,</l>
+               <l n='961' xml:id='l961'>Charment mes eſprits.</l>
+                    </sp>
+                    <sp who="Le Vaudeville" xml:id="IX_21">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound type="menuet" n="Premier menuet">AIR, <hi rend="italic">Premier Menuet.</hi></sound>
+                        <lg n="12" xml:id="S12">
+                   <l n='962' xml:id='l962'>Quelle douceur</l>
+                   <l n='963' xml:id='l963'>Dans mon coeur</l>
+                   <l n='964' xml:id='l964'>Vient répandre un aveu ſi <choice><orig>flâteur</orig><reg>flatteur</reg></choice> !</l>
+                   <l n='965' xml:id='l965'>Quelle douceur</l>
+                   <l n='966' xml:id='l966'>Dans mon coeur</l>
+                   <l n='967' xml:id='l967'>Répand mon bonheur !</l>
+                   <l n='958' xml:id='l968'>De votre ſel piquant</l>
+                   <l n='969' xml:id='l969'>Naît mon agrément ;</l>
+                            <pb n="79"/>
+                   <l n='970' xml:id='l970'>Pour unir leurs frais</l>
+                   <l n='971' xml:id='l971'>Nos eſprits ſont faits ;</l>
+                   <l n='972' xml:id='l972'><choice><orig>Comblés</orig><reg>Comblez</reg></choice> mes ſouhaits :</l>
+                   <l n='973' xml:id='l973'>Je vous adore <choice><orig>&amp;</orig><reg>et</reg></choice> je vous plais.</l>
+                        </lg>
+                        <sound type="menuet" n="Second menuet">AIR, <hi rend="italic">Second Menuet.</hi></sound>
+                        <lg n="13" xml:id="S13_1" part="I">
+                   <l n='974' xml:id='l974'>Votre amour, quand on lui plaît ;</l>
+                   <l n='975' xml:id='l975'>Se <choice><orig>taît</orig><reg>tait</reg></choice>.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique" xml:id="IX_22">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <lg  xml:id="S13_2" part="F">
+                   <l n='976' xml:id='l976'>Qui ſe <choice><orig>taît</orig><reg>tait</reg></choice> communément,</l>
+                   <l n='977' xml:id='l977'>Se rend.</l>
+                   <l n='978' xml:id='l978'>Notre gloire eſt d'être unis ;</l>
+                   <l n='979' xml:id='l979'>Vous deviendrez plus ſage,</l>
+                   <l n='980' xml:id='l980'><choice><orig>Ecoutans</orig><reg>Ecoutant</reg></choice> mes avis ;</l>
+                   <l n='981' xml:id='l981'>Et vos airs <choice><orig>réjouiſſans</orig><reg>réjouissants</reg></choice>,</l>
+                   <l n='982' xml:id='l982'>Vos Chants,</l>
+                   <l n='983' xml:id='l983'>Vont me rendre moins ſauvage,</l>
+                   <l n='984' xml:id='l984'>Tous deux nous allons nous unir</l>
+                   <l n='985' xml:id='l985'><choice><orig>L'Enjoûment</orig><reg>L'Enjouement</reg></choice> aux leçons, la Sageſſe aux plaiſirs.</l>
+                        </lg>
+                    </sp>
+                    <sp who="Le Vaudeville" xml:id="IX_23">
+                        <speaker>LA VAUDEVILLE.</speaker><lb/>
+                        <sound type="menuet" n="Troisième menuet">AIR, <hi rend="italic"><choice><orig>Troiſiéme</orig><reg>Troisième</reg></choice> Menuet.</hi></sound>
+                        <lg n="14" xml:id="S14">
+                   <l n='986' xml:id='l986'><choice><orig>O</orig><reg>Ô</reg></choice> Journée</l>
+                   <l n='987' xml:id='l987'>Douce <choice><orig>&amp;</orig><reg>et</reg></choice> fortunée !</l>
+                   <l n='988' xml:id='l988'>Que de biens à ces lieux</l>
+                   <l n='989' xml:id='l989'>Promettent ces beaux noeuds !</l>
+                   <l n='990' xml:id='l990'>Que d'Ouvrages</l>
+                   <l n='991' xml:id='l991'>Hardis, <choice><orig>piquans</orig><reg>piquants</reg></choice>, mais ſages ;</l>
+                   <l n='991' xml:id='l992'>De Traits heureux,</l>
+                   <l n='993' xml:id='l993'>De Badinages,</l>
+                   <l n='994' xml:id='l994'>De Jeux,</l>
+                   <l n='995' xml:id='l995'>D'airs fameux</l>
+                   <l n='996' xml:id='l996'>Vont naître de nous deux !</l>
+                   <l n='997' xml:id='l997'><choice><orig>O</orig><reg>Ô</reg></choice> Journée, <choice><orig>&amp;c</orig><reg>etc</reg></choice>.</l>
+                        </lg>
+                    </sp>
+                </div>
+                <pb n="80"/>
+                <div type="divertissement" xml:id="X">
+                    <head>DIVERTISSEMENT.</head>
+                    <div type="menuet" xml:id="X_1">
+                        <head><sound type="menuet">MENUET.</sound></head><lb/>
+                        <lg n="15" xml:id="S15">
+                   <l n='998' xml:id='D1'>CHantons du Citadin</l>
+                   <l n='999' xml:id='D2'>Chantons les moeurs faciles,</l>
+                   <l n='1000' xml:id='D3'>Chantons du Citadin</l>
+                   <l n='1001' xml:id='D4'>L'eſprit agréable <choice><orig>&amp;</orig><reg>et</reg></choice> badin ;</l>
+                   <l n='1002' xml:id='D5'>Les femmes ſont civiles,</l>
+                   <l n='1003' xml:id='D6'>Les maris ſont <choice><orig>tranquiles</orig><reg>tranquilles</reg></choice>,</l>
+                   <l n='1004' xml:id='D7'>Les tendrons <choice><orig>ſçavans</orig><reg>savants</reg></choice></l>
+                   <l n='1005' xml:id='D8'>Trompent à quinze ans</l>
+                   <l n='1006' xml:id='D9'>Leurs bonnes Mamans.</l>
+                        </lg>
+                    </div>
+                    <div type="air" xml:id="X_2">
+                        <head><sound type="song">AIR.</sound></head><lb/>
+                        <lg xml:id="S16" n="16">
+                   <l n='1007' xml:id='A1'>Dans ce <choice><orig>Siécle</orig><reg>Siècle</reg></choice> tout eſt charmant,</l>
+                    <l n='1008' xml:id='A2'>Tout eſt poli, tout eſt galant,</l>
+                   <l n='1009' xml:id='A3'>Tout <choice><orig>poſſéde</orig><reg>possède</reg></choice> le don de plaire,</l>
+                    <l n='1010' xml:id='A4'>Et le plus ſot <choice><orig>paroît</orig><reg>paraît</reg></choice> brillant ;</l>
+                    <l n='1011' xml:id='A5'>Avec beaucoup d'eſprit on ment.</l>
+                    <l n='1012' xml:id='A6'>On ſe trompe joliment,</l>
+                   <l n='1013' xml:id='A7'>Et la beauté la plus <choice><orig>ſévére</orig><reg>sévère</reg></choice></l>
+                    <l n='1014' xml:id='A8'>Ne l'eſt qu'un petit moment.</l>
+                        </lg>
+                    </div>
+                    <div type="vaudeville" xml:id="X_3">
+                        <head>VAUDEVILLE.</head><lb/>
+               <l n='1015' xml:id='V1'><c rend="lettrine">R</c>Egardons en beau le monde,</l>
+               <l n='1016' xml:id='V2'>Trop poli pour qu'on le fronde.</l>
+                        <l n='1017' xml:id='V3'><choice><orig>Aprouvons</orig><reg>Approuvons</reg></choice> également;</l>
+               <l n='1018' xml:id='V4'>Qu'on pardonne, ou qu'on ſe venge,</l>
+               <l n='1019' xml:id='V5'>L'un eſt juſte, <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre eſt grand ;</l>
+               <l n='1020' xml:id='V6'>Tout eſt digne de louange.</l>
+               <l n='1021' xml:id='V7'>Qu'à ſa guiſe chacun aime,</l>
+               <l n='1022' xml:id='V8'>Ne blâmons aucun <choice><orig>ſyſtême</orig><reg>système</reg></choice>,</l>
+               <l n='1023' xml:id='V9'>On doit ſuivre ſon penchant.</l>
+               <l n='1024' xml:id='V10'>C'eſt ſageſſe quand on change,</l>
+               <l n='1025' xml:id='V11'>Vertu quand on eſt conſtant :</l>
+               <l n='1026' xml:id='V12'>Tout eſt digne de louange.</l>
+                        <p rend="center">FIN.</p>
+                    </div>
+                </div>
+        </body>
+</text>
+</TEI>

@@ -1,0 +1,1801 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Les Billets doux</title>
+                <title type="subtitle">Édition électronique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Pr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par </resp>
+                    <name>Allanic, Estelle</name>
+                    <name>Bonnec, Eugénie</name>
+                    <name>Le Bihan, Noémie</name>
+                    <name>Michel, Pauline</name>
+                    <name>Poquillon, Basile</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Première édition, <date>2017</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            <date>2017</date></publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2014 et 2015.</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT</hi><lb/>Son Théâtre François &amp; Italien<pc>.</pc><lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                        <imprint>
+                            <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                            <publisher>JEAN NEAULME</publisher>
+                            <date when="1758">M.DCC.LVIII</date>
+                            <note>Tome cinquième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                    <citedRange>Pages 81-114.</citedRange>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+                <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+                <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques, ainsi que les vers. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+                <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+                <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+                <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+                <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+                <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+                <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+                <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction><p>Les erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+                <punctuation>
+                    <p>La ponctuation n'est pas systématiquement encodée. Elle a été distinguée à l'intérieur des balises 'titre', afin de ne pas créer de faux doublons lors de l'extraction de ceux-ci (ex. 'Admète et Alceste,' considéré comme un titre distinct de 'Admète et Alceste.').</p> <p>Dans tous les cas, la punctuation d'origine a été respectée, y compris quand elle paraissait fautive. Dans ce cas, elle est signalée avec 'sic' et 'corr'. Toutefois, les particularités d'espacement de la ponctuation n'ont pas été reproduites à l'identique. Un système uniforme a été adopté: les ponctuations simples (point, virgule), sont placées immédiatement après le mot, les ponctuations doubles (point virgule, deux points, signes d'interrogation et d'exclamation) sont placées après une espace.</p>
+                </punctuation>
+                <interpretation>
+                    <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+                </interpretation>
+            </editorialDecl>
+            <fsdDecl>
+                <fsDecl type="character_specification">
+                    <fDecl name="temper">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="age">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="young" xml:id="AGY"/>
+                                <symbol value="old" xml:id="AGO"/>
+                                <symbol value="child" xml:id="AGC"/>
+                                <symbol value="adult" xml:id="AGA"/>
+                                <symbol value="unknown" xml:id="AGU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="sex">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="male" xml:id="SM"/>
+                                <symbol value="female" xml:id="SF"/>
+                                <symbol value="undetermined" xml:id="SU"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="nationality">
+                        <vRange><string></string>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="ontological_category">
+                        <vRange>
+                            <vAlt>
+                                <symbol value="human" xml:id="OCH"/>
+                                <symbol value="non-human" xml:id="OCNH"/>
+                                <symbol value="semi-human" xml:id="OCSH"/>
+                            </vAlt>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="family_position">
+                        <vRange>
+                            <vColl>
+                                <symbol value="father" xml:id="FPF"/>
+                                <symbol value="son" xml:id="FPSON"/>
+                                <symbol value="daughter" xml:id="FPD"/>
+                                <symbol value="mother" xml:id="FPM"/>
+                                <symbol value="uncle" xml:id="FPU"/>
+                                <symbol value="aunt" xml:id="FPA"/>
+                                <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                                <symbol value="sister" xml:id="FPSIS"/>
+                                <symbol value="brother" xml:id="FPB"/>
+                                <symbol value="cousin" xml:id="FPC"/>
+                                <symbol value="step-mother" xml:id="FPSM"/>
+                                <symbol value="step-father" xml:id="FPSF"/>
+                                <symbol value="step-daughter" xml:id="FPSD"/>
+                                <symbol value="step-son" xml:id="FPSS"/>
+                                <symbol value="guardian" xml:id="FPG"/>
+                                <symbol value="ward" xml:id="FPWA"/>
+                                <symbol value="husband" xml:id="FPH"/>
+                                <symbol value="wife" xml:id="FPWIF"/>
+                                <symbol value="widow" xml:id="FPWID"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="actantial_role">
+                        <vRange>
+                            <vColl>
+                                <symbol value="lover" xml:id="ARL"/>
+                                <symbol value="subject" xml:id="ARS"/>
+                                <symbol value="opponent" xml:id="AROP"/>
+                                <symbol value="adjuvant" xml:id="ARAD"/>
+                                <symbol value="authority" xml:id="ARAUT"/>
+                                <symbol value="trouble_maker" xml:id="ARTM"/>
+                                <symbol value="episodic" xml:id="AREP"/>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl name="occupation">
+                        <vRange><string></string></vRange>
+                    </fDecl>
+                    <fDecl name="collective_character">
+                        <vRange>
+                            <binary value="true" xml:id="COLL"/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1734-09-15">15 septembre 1734</date>
+                <rs type="city">Paris, France.</rs></creation>
+            <textClass>
+                <keywords>
+                    <term>théâtre</term>
+                    <term>comédie</term>
+                    <term>comédie en vers</term>
+                    <term>comédie d'intrigue</term>
+                    <term>qui pro quo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-05-28">Révisions faites par Josephine LOTERIE en vue de l'harmonisation du corpus Boissy.
+            </change>
+<change when="2017-08-03" who="IG">Confrontation avec le témoin (Néaulme 1758), et correction des erreurs de saisie. Remplacement des balises 'name' par des balises 'persName' et 'placeName'. Ajout de la 'feature structure' et balisage de la liste des personnages. Ajout de 'xml:id'.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <titlePage type="half-title">
+                <pb n="81"/>
+                <docTitle>
+                    <titlePart type="main">LES <lb/>BILLETS DOUX,</titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE.</titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="82"/>
+            <castList>
+                <head rend="italics">ACTEURS.</head>
+                <castItem ana="#OCH #SF #ARL #AGA"><role>CLARICE</role>.</castItem>
+                <castItem ana="#OCH #SF #AGY #ARL"><role>JULIE</role>.</castItem>
+                <castItem ana="#OCH #SM #ARL #AGA #ARS"><role>DAMON</role>.</castItem>
+                <castItem ana="#OCH #SM #ARL #AGY #ARS"><role>VALERE</role></castItem>
+                <castItem ana="#OCH #SM #ARL #AGU #ARS #ARAD #AROP"><role>ARLEQUIN</role>.</castItem>
+                <castItem ana="#OCH #SM #AGU #AREP"><roleDesc>UN <fs><f name="occupation">NOTAIRE</f></fs></roleDesc>.</castItem>
+                <castItem ana="#OCH #SF #AGU #AROP #ARAD"><role>MARTON</role>.</castItem>
+            </castList>
+            <lb/><lb/><lb/>
+            <set>
+                <p rend="italics">La Scène eſt chez <persName>Clarice</persName>.</p>
+            </set>
+            <pb n="83"/>
+        </front>
+        <body>
+          <head>LES <lb/>BILLETS DOUX,<lb/> <hi rend="italics">COMEDIE.</hi></head>
+            <div type="scene" n="1" xml:id="S1">
+                    <head>SCENE PREMIERE.</head><lb/>
+                    <stage>DAMON, VALERE, ARLEQUIN.</stage><lb/>
+                    <sp who="Damon" xml:id="S1_1">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n="1" xml:id="l1_1" part="I"><c rend="lettrine">O</c>UI, je brûle en ſecret.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S1_2">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l xml:id="l1_2" part="F">Je ſoupire de même.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S1_3">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='2' xml:id='l2'>Et c'eſt <hi rend="italics">incognito</hi> que j'aime.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S1_4">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n="3" xml:id="l3_1" part="I">Où loge la Beauté quî t'a <choice><orig>ſçu</orig></choice><reg>su</reg> plaire ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S1_5">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l xml:id="l3_2" part="F">Ici.</l> 
+                        <l n="4" xml:id="l4_1" part="I">Et ta Belle ?</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S1_6">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l xml:id="l4_2" part="M">En ces lieux.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S1_7">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l xml:id="l4_3" part="F">La mienne y loge auſſi.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S1_8">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='5' xml:id='l5'><persName>Julie</persName> eſt l'objet qui m'enchante.</l>
+                    </sp>
+                    <pb n="84"/>
+                    <sp who="Valere" xml:id="S1_9">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='6' xml:id='l6'>Je reſpire ! Mes vœux s'adreſſent à ſa Tante.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S1_10">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='7' xml:id='l7'>Oh ! Pour le coup, je ſuis hors de ſouci ,</l>
+                        <l n='8' xml:id='l8'>Car j'ai donné mon cœur à leur Suivante.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S1_11">
+                        <speaker>DAMON.</speaker>
+                        <l n='9' xml:id='l9'><persName>Clarice</persName> allume en toi les feux les plus <choice><orig>ardens</orig><reg>ardents</reg></choice> ?</l>
+                        <l n='10' xml:id='l10'>J'en reſſens une <choice><orig>joïe</orig><reg>joie</reg></choice> extrême,</l>
+                        <l n='11' xml:id='l11'>Et je t'admire en même <choice><orig><choice><orig>tems</orig><reg>temps</reg></choice></orig><reg>temps</reg></choice> ;</l>
+                        <l n='12' xml:id='l12'>Car <choice><orig>déja</orig><reg>déjà</reg></choice> <fs><f name="family_position" ana="#FPWID">douairiére</f></fs>, elle touche à <fs><f name="age" ana="#AGA"></f></fs>trente ans ;</l>
+                        <l n='13' xml:id='l13'>A peine es-tu <fs><f name="age" ana="#AGY">majeur</f></fs>, <choice><orig><choice><orig>&amp;</orig><reg>et</reg></choice>;</orig><reg>et</reg></choice> maître de toi-même.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S1_12">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='14' xml:id='l14'>J'ai toujours eu du goût pour les mamans.</l>
+                        <l n='15' xml:id='l15'>Mais toi, mon cher <persName>Damon</persName>, toi formé par le <choice><orig><choice><orig>tems</orig><reg>temps</reg></choice></orig><reg>temps</reg></choice>,</l>
+                        <l n='16' xml:id='l16'>Dis-moi, quelle eſt donc ta folie</l>
+                        <l n='17' xml:id='l17'>D'aller ſoupirer pour <persName>Julie</persName> ?</l>
+                        <l n='18' xml:id='l18'>Ce n'eſt encore qu'un enfant.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S1_13">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='19' xml:id='l19'>Pour les jeunes tendrons <note><cit><bibl>Furetière 1701 </bibl><quote>ſe dit figurément <choice><orig>&amp;</orig><reg>et</reg></choice>; burleſquement, des files au deſſous de vingt ans.</quote></cit></note> mon cœur a du penchant.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S1_14">
+                        <speaker>ARLEQUIN.</speaker>
+                        <l n='20' xml:id='l20'>Et je les aime entre deux âges.</l>
+                        <l n='21' xml:id='l21'>Voilà pourquoi <persName>Marton</persName> a mes tendres hommages.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S1_15">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n="22" xml:id="l22_1" part="I">Ton choix, <name type="person" n="Valère">Valere</name>, ...</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S1_16">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l xml:id="l22_2" part="F"> Eſt bon ſans contredit.</l>
+                        <l n='23' xml:id='l23'>La ſolide beauté qu'accompagne l'eſprit,</l>
+                        <l n='24' xml:id='l24'>De l'âge mûr est l'heureux apanage.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S1_17">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='25' xml:id='l25'>Non, non, ſon attrait qui ſéduit</l>
+                        <l n='26' xml:id='l26'>Ne fut jamais un don du <choice><orig>tems</orig><reg>temps</reg></choice> qui le détruit.</l>
+                        <l n='27' xml:id='l27'>De la primeur il eſt le vrai partage.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S1_18">
+                        <speaker>ARLEQUIN.</speaker>
+                        <l n='28' xml:id='l28'>Moi, je ſoutiens que la beauté</l>
+                        <l n='29' xml:id='l29'>Eſt entre la verdeur <choice><orig>&amp;</orig><reg>et</reg></choice> la maturité.</l>
+                        <l n='30' xml:id='l30'>Elle reſſemble à la pêche qui brille ;</l>
+                        <l n='31' xml:id='l31'>Son aimable faveur, <choice><orig>&amp;</orig><reg>et</reg></choice> ſon charmant éclat</l>
+                        <l n='32' xml:id='l32'>Sont renfermés dans ce point délicat</l>
+                        <pb n="85"/>
+                        <l n='33' xml:id='l33'>Qu'il faut ſaiſir dans une fille.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S1_19">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='34' xml:id='l34'>L'eſprit, <persName>Damon</persName>, l'eſprit a des attraits</l>
+                        <l n='35' xml:id='l35'>Plus <choice><orig>brillans</orig><reg>brillants</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> plus forts que ceux de la perſonne :</l>
+                        <l n='36' xml:id='l36'>Eux ſeuls à la beauté mettent les derniers traits ;</l>
+                        <l n='37' xml:id='l37'>Et ces charmes vainqueurs, c'eſt l'âge qui les donne.</l>
+                        <l n='38' xml:id='l38'>Conviens donc qu'en ce point mon goût eſt des <lb/>meilleurs.</l>
+                        <l n='39' xml:id='l39'>Jeune comme je ſuis, <choice><orig>&amp;</orig><reg>et</reg></choice> ſans expérience,</l>
+                        <l n='40' xml:id='l40'>J'ai beſoin de choiſir une beauté qui penſe,</l>
+                        <l n='41' xml:id='l41'>Et qui dirige mes ardeurs.</l>
+                        <l n='42' xml:id='l42'>Mon <choice><orig>ame</orig><reg>âme</reg></choice> d'un feu pur veut goûter les douceurs,</l>
+                        <l n='43' xml:id='l43'>Et ſe polir par la tendreſſe.</l>
+                        <l n='44' xml:id='l44'>L'amour qui nous inſtruit, <choice><orig>&amp;</orig><reg>et</reg></choice> qui forme nos mœurs,</l>
+                        <l n='45' xml:id='l45'>Devient une vertu loin d'être une <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice>;</l>
+                        <l n='46' xml:id='l46'>Et l'on doit tous les jours ſes plus grandes erreurs</l>
+                        <l n='47' xml:id='l47'>Au mauvais choix d'une maîtreſſe.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S1_20">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='48' xml:id='l48'>Moi, qui ſuis ton aîné, je dis, pour bien choiſir,</l>
+                        <l n='49' xml:id='l49'>Qu'il faut la prendre en ſa grande jeuneſſe :</l>
+                        <l n='50' xml:id='l50'>Nous la formons alors ſelon notre deſir ;</l>
+                        <l n='51' xml:id='l51'>Et nous goûtons la volupté ſuprême</l>
+                        <l n='52' xml:id='l52'>De voir au moindre mot ſon beau front ſe couvrir <choice><sic>.</sic><corr> </corr></choice></l>
+                        <l n='53' xml:id='l53'>D'une tendre rougeur qui ſert à l'embellir,</l>
+                        <l n='54' xml:id='l54'>Et de voir ſes <choice><orig>apas</orig><reg>appas</reg></choice> croître ſous nos yeux même,</l>
+                        <l n='55' xml:id='l55'>Des vrais plaiſirs c'eſt le premier.</l>
+                        <l n='56' xml:id='l56'>Il eſt plus doux d'être de ce qu'on aime,</l>
+                        <l n='57' xml:id='l57'>Le Précepteur que l'Ecolier.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S1_21">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='58' xml:id='l58'>C'eſt justement ce que j'oſe nier.</l>
+                        <l n='59' xml:id='l59'>Et je ſuis ſûr qu'en un commerce tendre,</l>
+                        <l n='60' xml:id='l60'>Le plaiſir le plus vif eſt le plaiſir d'<choice><orig>aprendre</orig><reg>apprendre</reg></choice>.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S1_22">
+                        <speaker>ARLEQUIN.</speaker>
+                        <l n='61' xml:id='l61'>Quand je <choice><orig>dévrois</orig><reg>devrais</reg></choice>, Meſſieurs, paſſer pour importun,</l>
+                            <l n='62' xml:id='l62'>Mon ſentiment eſt différent du vôtre.</l>
+                            <l n='63' xml:id='l63'>Il faut, quand on aime quelqu'un,</l>
+                            <l n='64' xml:id='l64'>Il faut, pour le plaiſir commun,</l>
+                            <l n='65' xml:id='l65'><choice><orig>Eſtre</orig><reg>Etre</reg></choice> auſſi <choice><orig>ſçavant</orig><reg>savant</reg></choice> l'un que l'autre,</l>
+                    </sp>
+                    <pb n="86"/>
+                    <sp who="Damon" xml:id="S1_23">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='66' xml:id='l66'><persName>Valere</persName>, finiſſons un vain raiſonnement ;</l>
+                        <l n='67' xml:id='l67'>Ce n'eſt que ſur l'eſprit qu'il a quelque puiſſance :</l>
+                        <l n='68' xml:id='l68'>Mais le cœur brave l'éloquence,</l>
+                        <l n='69' xml:id='l69'>Et ne ſe rend qu'au ſentiment.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S1_24">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='70' xml:id='l70'>Là-deſſus comme toi je penſe.</l>
+                        <l n='71' xml:id='l71'>Ce qui cauſe à preſent mon plus grand embarras,</l>
+                        <l n='72' xml:id='l72'>Eſt de faire l'aveu de ma <choice><orig>ſecrette</orig><reg>secrète</reg></choice> <choice><orig>flâme</orig><reg>flamme</reg></choice></l>
+                        <l n='73' xml:id='l73'>A l'objet que j'adore, <choice><orig>&amp;</orig><reg>et</reg></choice> qui ne le <choice><orig>ſçait</orig><reg>sait</reg></choice> pas.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S1_25">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='74' xml:id='l74'>Un pareil ſoin trouble mon ame,</l>
+                        <l n='75' xml:id='l75'>Et je ſuis dans le même cas.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S1_26">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='76' xml:id='l76'>Un véritable amour eſt tremblant <choice><orig>&amp;</orig><reg>et</reg></choice> timide ;</l>
+                        <l n='77' xml:id='l77'>Le reſpect l'accompagne, <choice><orig>&amp;</orig><reg>et</reg></choice> la crainte le guide :</l>
+                        <l n='78' xml:id='l78'>Rien ne lui coûte plus que de ſe déclarer.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S1_27">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='79' xml:id='l79'>Il eſt vrai dans l'ardeur qui m'a <choice><orig>ſçu</orig><reg>su</reg></choice> pénétrer,</l>
+                        <l n='80' xml:id='l80'>Je ſens que je n'ai pas la force de le dire ;</l>
+                        <l n='81' xml:id='l81'>Et comme je ne puis plus <choice><orig>long-tems</orig><reg>longtemps</reg></choice> différer,</l>
+                        <l n='82' xml:id='l82'>Je vais prendre aujourd'hui le parti de l'écrire.</l>
+                        <l n='83' xml:id='l83'>Adieu, <persName>Valere</persName>.
+                            <stage type="delivery" rend="italics"> (à <persName>Arlequin</persName>.)</stage> Et toi, viens prendre mon Billet.</l>
+                        <lb/><stage type="exit" rend="italics">(Il ſort.)</stage>
+                    </sp>
+                    <sp who="Valere" xml:id="S1_28">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='84' xml:id='l84'>Imitons ſon exemple, <choice><orig>&amp;</orig><reg>et</reg></choice> courons ſans remettre,</l>
+                        <l n='85' xml:id='l85'>Pour expliquer mon feu diſcret,</l>
+                        <l n='86' xml:id='l86'>Employer comme lui le ſecours d'une Lettre.</l>
+                        <stage type="exit" rend="italics">(<persName>Valere</persName> ſuit <persName>Damon</persName>.)</stage>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S1_29">
+                        <speaker>ARLEQUIN </speaker><stage type="mixed" rend="italics">en s'en allant.</stage><lb/>
+                        <l n='87' xml:id='l87'>Je vais auſſi tracer un amoureux Poulet<note resp="JL"><cit><bibl>Furetière 1701 </bibl><quote>ſignifie auſſi un petit billet amoureux qu'on <choice><orig>envoye</orig><reg>envoie</reg></choice> aux Dames galantes, ainsi nommé, parce qu'en le pliant on y <choice><orig>faiſoit</orig><reg>faisait</reg></choice> deux pointes qui <choice><orig>repreſentoient</orig><reg>représentaient</reg></choice> les ailes d'un <hi rend="italics">poulet</hi></quote></cit></note>.</l>
+                    </sp>
+                </div>
+                <pb n="87"/>
+                <div type="scene" n="2" xml:id="S2">
+                    <head>SCENE II.</head><lb/>
+                    <stage>JULIE, MARTON.</stage><lb/>
+                    <sp who="Marton" xml:id="S2_1">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='88' xml:id='l88'><c type="lettrine">V</c>Ous pouvez à préſent me parler ſans <choice><orig>myſtére</orig><reg>mystère</reg></choice> ;</l>
+                        <l n='89' xml:id='l89'>Car les voilà tous trois ſortis.</l>
+                        <l n='90' xml:id='l90'>Vous <choice><orig>ſçavez</orig><reg>savez</reg></choice> que <persName>Marton</persName> n'eſt rien moins que <choice><orig>ſévére</orig><reg>sévère</reg></choice>.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S2_2">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='91' xml:id='l91'>Je n'ai pas <fs><f name="age" ana="#AGY">ſeize ans accomplis</f></fs>,</l>
+                        <l n='92' xml:id='l92'>Et cependant mon <choice><orig>ame</orig><reg>âme</reg></choice><sic>....</sic> Ah ! <persName>Marton</persName>, j'en rougis,</l>
+                        <l n='93' xml:id='l93'>Et je <choice><orig>dévrois</orig><reg>devrais</reg></choice> <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> me taire.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S2_3">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n="94" xml:id="l94_1" part="I">Vous aimez ?</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S2_4">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l xml:id="l94_2" part="M">Tu l'as dit.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S2_5">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l xml:id="l94_3" part="F">Choſe extraordinaire !</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S2_6">
+                        <speaker>JULIE.</speaker>
+                        <l n="95" xml:id="l95_1" part="I">Quelle honte à mon âge !</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S2_7">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l xml:id="l95_2" part="F">En vérité, j'en ris.</l>
+                        <l n='96' xml:id='l96'>Le ſcrupule nouveau ! La plaiſante penſée !</l>
+                        <l n='97' xml:id='l97'><choice><orig>Sçachez</orig><reg>Sachez</reg></choice>, pour raſſurer vos timides eſprits,</l>
+                        <l n='98' xml:id='l98'>Qu'à quinze ans aujourd'hui l'on eſt plus avancée</l>
+                        <l n='99' xml:id='l99'>Qu'à trente on ne l'<choice><orig>étoit</orig><reg>était</reg></choice> jadis.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S2_8">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='100' xml:id='l100'>Oui, par ma propre expérience,</l>
+                        <l n='101' xml:id='l101'>Je ſens la vérité de ce que tu me dis ;</l>
+                        <l n='102' xml:id='l102'>Car j'ai penſé dès mon enfance.</l>
+                        <l n='103' xml:id='l103'>Je n'<choice><orig>étois</orig><reg>étais</reg></choice> pas, <persName>Marton</persName>, plus haute que cela,</l>
+                        <l n='104' xml:id='l104'>Que mon cœur <choice><orig>palpitoit</orig><reg>palpitait</reg></choice> <choice><orig>déja</orig><reg>déjà</reg></choice></l>
+                    </sp>
+                    <sp who="Marton" xml:id="S2_9">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='105' xml:id='l105'>Prodige heureux de la nature !</l>
+                    </sp>
+                    <pb n="88"/>
+                    <sp who="Julie" xml:id="S2_10">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='106' xml:id='l106'>Façonné par le monde, inſtruit par la lecture,</l>
+                        <l n='107' xml:id='l107'>Qu'il a fait de progrès depuis cet âge-là !</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S2_11">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='108' xml:id='l108'>Celui pour qui ce cœur palpite,</l>
+                        <l n='109' xml:id='l109'>Sans doute a beaucoup de mérite ?</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S2_12">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='110' xml:id='l110'>C'eſt un Cavalier accompli.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S2_13">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n="111" part="I" xml:id="l111_1">Eſt-il bien fait ?</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S2_14">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l xml:id="l111_2" part="F">Oh ! Rien n'eſt plus joli.</l>
+                        <l n='112' xml:id='l112'>De toutes les façons il eſt formé pour plaire.</l>
+                        <l n='113' xml:id='l113'>Son air eſt enjoué ſans être trop hardi,</l>
+                        <l n='114' xml:id='l114'>Et ſon eſprit brillant ſans <choice><orig>paroître</orig><reg>paraître</reg></choice> étourdi.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S2_15">
+                        <speaker>MARTON </speaker><stage rend="italics" type="delivery">à part.</stage><lb/>
+                        <l n='115' xml:id='l115'>A ces traits-là je <choice><orig>reconnois</orig><reg>reconnais</reg></choice> <persName>Valere</persName>.</l>
+                        <lb/><stage type="delivery" rend="italics">(à <persName>Julie</persName>.)</stage><lb/>
+                        <l n="116" xml:id="l116_1" part="I">Vous parlez-vous ?</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S2_16">
+                        <speaker>JULIE.</speaker>
+                        <l xml:id="l116_2" part="F">Oui, des yeux ſeulement.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S2_17">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='117' xml:id='l117'>Mais les vôtres déjà s'expriment tendrement.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S2_18">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='118' xml:id='l118'>Depuis huit jours que je l'obſerve ;</l>
+                        <l n='119' xml:id='l119'>Ah ! Les ſiens m'ont lancé des regards ſi <choice><orig>flâteurs</orig><reg>flatteurs</reg></choice>,</l>
+                        <l n='120' xml:id='l120'>Qu'il faut qu'il m'aime ſans réſerve,</l>
+                        <l n='121' xml:id='l121'>Ou que ces mêmes yeux ſoient de grands impoſteurs!</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S2_19">
+                        <speaker>MARTON </speaker><stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <l n='122' xml:id='l122'>Son petit cœur ſe <choice><orig>dévelope</orig><reg>développe</reg></choice> ;</l>
+                        <l n='123' xml:id='l123'><choice><orig>Déja</orig><reg>Déjà</reg></choice> chez lui comme l'amour galope !</l>
+                        <lb/><stage type="delivery" rend="italics">(à Julie.)</stage><lb/>
+                        <l n='124' xml:id='l124'>De votre Amant je devine le nom.</l>
+                        <l n="125" xml:id="l125_1" part="I">Mais <persName>Arlequin</persName> revient.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S2_20">
+                        <speaker>JULIE.</speaker>
+                        <l xml:id="l125_2" part="F">Avec lui je te laiſſe,</l>
+                        <l n="126" xml:id="l126_1" part="I"><choice><orig>Gardes</orig><reg>Garde</reg></choice> bien mon ſecret.</l>
+                        <lb/><stage type="exit" rend="italics">(Elle s'en va.)</stage>
+                    </sp>
+                </div>
+                <pb n="89"/>
+                <div type="scene" n="3" xml:id="S3">
+                    <head>SCENE III.</head><lb/>
+                    <stage>ARLEQUIN, MARTON.</stage><lb/>
+                    <sp who="Arlequin" xml:id="S3_1">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='127' xml:id='l127'><choice><orig><c type="lettrine">T</c>Ien</orig><reg>Tiens</reg></choice>, <choice><orig>donnes</orig><reg>donne</reg></choice> à ta maîtreſſe</l>
+                        <l n='128' xml:id='l128'>Ce Billet doux de la part de <persName>Damon</persName>,</l>
+                        <l n='129' xml:id='l129'>Et celui-ci de la mienne à <persName>Marton</persName>.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S3_2">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n="130" xml:id="l130_1" part="I">Je n'y manquerai pas.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S3_3">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l xml:id="l130_2" part="F">Fort bien. La choſe preſſe.</l>
+                        <l n='131' xml:id='l131'>Adieu. Je ſors pour faire un tour,</l>
+                        <l n='132' xml:id='l132'>Puis je reviens prendre les deux réponſes<sic>,</sic></l>
+                    </sp>
+                    <sp who="Marton" xml:id="S3_4">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='133' xml:id='l133'>Monſieur les trouvera prêtes à ſon retour.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S3_5">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='134' xml:id='l134'>Songe à tenir le bien que tu m'annonces,</l>
+                        <l n='135' xml:id='l135'>Et que mérite un amant fait au tour.</l>
+                        <lb/><stage type="exit" rend="italics">(Il ſort.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="4" xml:id="S4">
+                    <head>SCENE IV.</head><lb/>
+                    <sp who="Marton" xml:id="S4_1">
+                        <speaker>MARTON </speaker><stage type="delivery" rend="italics">ſeule.</stage><lb/>
+                        <l n='136' xml:id='l136'><c type="lettrine">C</c>'Eſt un plaiſant faquin <note resp="JL"><cit><bibl>Furetière 1701</bibl><quote>ſe dit auſſi en quelque ſorte au figuré, pour un homme ſans mérite , ſans honneur, ſans coeur, digne de toute ſorte de mepris.</quote></cit></note> pour me faire ſa cour !</l>
+                        <l n='137' xml:id='l137'><persName>Damon</persName> aime <persName>Clarice</persName>. Oui la Lettre eſt pour elle,</l>
+                        <l n='138' xml:id='l138'>Et j'ai <choice><orig>ſçû</orig><reg>su</reg></choice> pénétrer qu'elle l'aime à ſon tour ;</l>
+                        <l n='139' xml:id='l139'>C'eſt vainement que ſa fierté le <choice><orig>céle</orig><reg>cèle</reg></choice>.</l>
+                        <l n='140' xml:id='l140'>Tous nos Amants ſont aſſortis au mieux :</l>
+                        <l n='141' xml:id='l141'>Mais elle <choice><orig>paroît</orig><reg>paraît</reg></choice> en ces lieux.</l>
+                    </sp>
+                </div>
+                <pb n="90"/>
+                <div type="Scene" n="5" xml:id="S5">
+                    <head>SCENE V.</head><lb/>
+                    <stage>CLARICE, MARTON.</stage><lb/>
+                    <sp who="Marton" xml:id="S5_1">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='142' xml:id='l142'><c type="lettrine">B</c>Elle <persName>Clarice</persName>, eh quoi, dans l'été de votre âge,</l>
+                        <l n='143' xml:id='l143'>Vous, riche en bien autant qu'en agrément,</l>
+                        <l n='144' xml:id='l144'>Voulez-vous donc languir dans l'ennui du Veuvage ?</l>
+                        <l n='145' xml:id='l145'>De mille cœurs, à tout moment,</l>
+                        <l n='146' xml:id='l146'>Votre beauté vous attire l'hommage.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S5_2">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='147' xml:id='l147'>Ma richeſſe <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> fait leur empreſſement.</l>
+                            <l n='148' xml:id='l148'>J'ai juré de fuir ſagement</l>
+                            <l n='149' xml:id='l149'>Le ridicule joug d'un ſecond mariage.</l>
+                            <l n='150' xml:id='l150'>Un ſeul <choice><orig>pourroit</orig><reg>pourrait</reg></choice>, s'il m'<choice><orig>aimoit</orig><reg>aimait</reg></choice> tendrement,</l>
+                            <l n='151' xml:id='l151'>Me faire rompre mon ſerment.</l>
+                            <l n='152' xml:id='l152'>Quoiqu'il nous rende ici des viſites fréquentes,</l>
+                            <l n='153' xml:id='l153'>Je n'oſe me flatter de ſon attachement.</l>
+                            <l n='154' xml:id='l154'>Sa figure eſt des plus charmantes :</l>
+                        <l n='155' xml:id='l155'>Mais je <choice><orig>ſçai</orig><reg>sais</reg></choice> réſiſter à cet attrait flatteur</l>
+                            <l n='156' xml:id='l156'>Que m'offre en vain ſon image importune.</l>
+                            <l n='157' xml:id='l157'>Pour me réſoudre à faire ſa fortune,</l>
+                            <l n='158' xml:id='l158'>Je <choice><orig>voudrois</orig><reg>voudrais</reg></choice> m'aſſurer qu'il <choice><orig>feroit</orig><reg>ferait</reg></choice> mon bonheur.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S5_3">
+                        <speaker><choice><sic>DAMON</sic><corr>MARTON</corr></choice>.</speaker><lb/>
+                        <l n='159' xml:id='l159'>Ah ! Puiſqu'il eſt ainſi, grande, grande nouvelle !</l>
+                        <l n='160' xml:id='l160'>Ce Cavalier de figure ſi belle,</l>
+                        <l n='161' xml:id='l161'>Qui <choice><orig>pourroit</orig><reg>pourrait</reg></choice> ſeul vous faire dans ce jour,</l>
+                        <l n='162' xml:id='l162'>Rompre le ſerment d'être veuve,</l>
+                        <l n='163' xml:id='l163'>Reſſent pour vous le plus parfait amour,</l>
+                        <l n='164' xml:id='l164'>Et dans mes mains j'en ai la preuve.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S5_4">
+                        <speaker>CLARICE </speaker><stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <l n='165' xml:id='l165'><persName>Marton</persName> a démêlé que <persName>Valére</persName> eſt l'objet</l>
+                        <l n='166' xml:id='l166'>Du feu qui <choice><orig>m'enflâme</orig><reg>m'enflamme</reg></choice> en ſecret ?</l>
+                        <lb/><stage type="delivery" rend="italics">(à Marton.)</stage><lb/>
+                        <l n='167' xml:id='l167'>Quelle eſt donc cette preuve, <choice><orig>&amp;</orig><reg>et</reg></choice> que <choice><orig>prétens-tu</orig><reg>prétends-tu</reg></choice> dire ?</l>
+                    </sp>
+                    <pb n="91"/>
+                    <sp who="Marton" xml:id="S5_5">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n="168" xml:id="l168_1" part="I">Ce Billet.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S5_6">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l xml:id="l168_2" part="M">Un Billet ?</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S5_7">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l xml:id="l168_3" part="F">Oui, l'Amour l'a dicté,</l>
+                            <l n='169' xml:id='l169'>Mais, Madame, je me retire</l>
+                            <l n='170' xml:id='l170'>Pour vous donner tout le <choice><orig>tems</orig><reg>temps</reg></choice> de le lire,</l>
+                            <l n='171' xml:id='l171'>Et d'y répondre en liberté.</l>
+                            <lb/><stage type="delivery" rend="italics">(à part.)</stage><lb/>
+                            <l n='172' xml:id='l172'>Je vais faire de mon côté,</l>
+                            <l n='173' xml:id='l173'>La réponſe au Poulet que l'on vient de m'écrire.</l>
+                            <lb/><stage type="exit" rend="italics">>(Elle s'en va.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="6" xml:id="S6">
+                    <head>SCENE VI.</head><lb/>
+                    <sp who="Clarice" xml:id="S6_1"> 
+                        <speaker>CLARICE </speaker><stage type="delivery" rend="italics">ſeule.</stage>
+                        <l n='174' xml:id='l174'><c type="lettrine">L</c>Iſons vîte ; en l'ouvrant je ſens trembler ma main.</l>
+                        <l n='175' xml:id='l175'>Que cette Lettre eſt tendre ! Elle n'a point de ſeing.</l>
+                        <l n='176' xml:id='l176'>Celui qui me l'écrit eſt jeune, <choice><orig>&amp;</orig><reg>et</reg></choice> fait pour plaire.</l>
+                        <l n='177' xml:id='l177'>Ah ! N'en doutons point, c'eſt <name type="person" n="Valere"><choice><orig>Valére</orig><reg>Valère</reg></choice></name> :</l>
+                        <l n='178' xml:id='l178'>Et je le <choice><orig>reconnois</orig><reg>reconnais</reg></choice> pour en être l'Auteur,</l>
+                        <l n='179' xml:id='l179'>A ce portrait que <persName>Marton</persName> vient d'en faire,</l>
+                        <l n='180' xml:id='l180'>Et plus encore au trouble de mon cœur.</l>
+                        <l n='181' xml:id='l181'>Répondons-lui. Je puis me le permettre.</l>
+                        <lb/><stage type="business" rend="italics">(elle ſe met en devoir d'écrire.)</stage>
+                        <l n='182' xml:id='l182'>Pour me faire l'aveu d'un amour ſi flatteur,</l>
+                        <l n='183' xml:id='l183'>Ses yeux ont prévenu ſa Lettre.</l>
+                        <l n='184' xml:id='l184'>Son front, dès qu'il me voit, ſe couvre de rougeur.</l>
+                        <l n='185' xml:id='l185'>Tout me dit qu'il m'adore, <choice><orig>&amp;</orig><reg>et</reg></choice> ſa grande jeuneſſe</l>
+                        <l n='186' xml:id='l186'>M'eſt un garant trop ſûr de sa <choice><orig>ſincére</orig><reg>sincère</reg></choice> ardeur.</l>
+                        <l n='187' xml:id='l187'>Le monde encore n'a pas <choice><orig>alteré</orig><reg>altéré</reg></choice> ſa candeur.</l>
+                        <lb/><stage type="business" rend="italics">(en écrivant toujours.)</stage>
+                        <l n='188' xml:id='l188'>Je dois cette réponſe au beau feu qui le preſſe ;</l>
+                        <l n='189' xml:id='l189'>Et n'en déplaiſe au rigide cenſeur</l>
+                        <pb n="92"/>
+                        <l n='190' xml:id='l190'>Qui condamnera ma <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice>,</l>
+                        <l n='191' xml:id='l191'>Je ne puis faire un choix meilleur.</l>
+                        <lb/><stage type="business" rend="italics">(après avoir écrit <choice><orig>&amp;</orig><reg>et</reg></choice> plié ſon billet.)</stage>
+                        <l n='192' xml:id='l192'>Les ans que j'ai ſur lui ſont même un avantage.</l>
+                        <l n='193' xml:id='l193'>Quand une femme a le bonheur</l>
+                        <l n='194' xml:id='l194'>D'attacher à ſon char un Amant de ſon âge,</l>
+                        <l n='195' xml:id='l195'>Et d'avoir ſon premier hommage,</l>
+                        <l n='196' xml:id='l196'>Elle peut à ſon gré façonner ſes eſprits,</l>
+                        <l n='197' xml:id='l197'>Former les ſentimens, épurer ſa tendreſſe ;</l>
+                        <l n='198' xml:id='l198'>Et de ſes volontés ſe rendant la maîtreſſe,</l>
+                        <l n='199' xml:id='l199'>Faire de ſon vainqueur un eſclave ſoumis.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="7" xml:id="S7">
+                    <head>SCENE VII.</head><lb/>
+                    <stage>CLARICE, MARTON.</stage><lb/>
+                    <sp who="Marton" xml:id="S7_1">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='200' xml:id='l200'><c type="lettrine">V</c>Otre réponſe eſt-elle prête,</l>
+                        <l n="201" xml:id="l201_1" part="I">Madame?</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S7_2">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l xml:id="l201_2" part="M">Oui. <choice><orig>Donnes-la</orig><reg>Donne-la</reg></choice>.</l>
+                        <lb/><stage rend="italics">(elle rentre.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="8" xml:id="S8">
+                    <head>SCENE VIII.</head><lb/>
+                    <sp who="Marton" xml:id="S8_1">
+                        <speaker>MARTON </speaker>
+                        <stage rend="italics">ſeule.</stage><lb/>
+                        <l xml:id="l201_3" part="F">L'Affaire eſt en bon train;</l>
+                        <l n='202' xml:id='l202'>Cette Lettre à <persName>Damon</persName> aſſure ſa conquête.</l>
+                        <l n='203' xml:id='l203'>J'écris de la bonne encre à Monſieur <persName>Arlequin</persName> ;</l>
+                        <l n='204' xml:id='l204'>Il aura lieu....Mais je le vois <choice><orig>paroître</orig><reg>paraître</reg></choice>.</l>
+                    </sp>
+                </div>
+                <pb n="93"/>
+                <div type="scene" n="9" xml:id="S9">
+                    <head>SCENE IX.</head><lb/>
+                    <stage>MARTON, ARLEQUIN.</stage><lb/>
+                    <sp who="Arlequin" xml:id="S9_1">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='205' xml:id='l205'><c type="lettrine">N</c>Ous a-t-on répondu? Je vois certain papier</l>
+                        <l n="206" xml:id="l206_1" part="I">Qui flatte mon eſpoir....</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S9_2">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l xml:id="l206_2" part="F">Voilà pour votre maître;</l>
+                        <l n='207' xml:id='l207'>Et voici pour ſon Ecuyer.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S9_3">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='208' xml:id='l208'>Pour moi, <persName>Marton</persName> ! Je brûle de la lire.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S9_4">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='209' xml:id='l209'>J'ai fait ma charge. Adieu. Je me retire.</l>
+                        <stage type="exit" rend="italics">(elle ſort.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="10" xml:id="S10">
+                    <head>SCENE X.</head><lb/>
+                    <sp who="Arlequin" xml:id="S10_1">
+                        <speaker>ARLEQUIN </speaker><stage rend="italics">ſeul.</stage><lb/>
+                        <l n='210' xml:id='l210'><c type="lettrine">D</c>Ans ma poche d'abord mettons ce billet-ci.</l>
+                        <lb/><stage type="business" rend="italics">(Il met le Billet de <persName>Marton</persName> dans ſa poche.)</stage><lb/>
+                        <l n='211' xml:id='l211'>La Lettre de <persName>Marton</persName>, voyons ce qu'elle chante.</l>
+                        <l n='212' xml:id='l212'>Et ſaiſiſſons l'inſtant que je ſuis ſeul ici.</l>
+                        <lb/><stage type="business" rend="italics">(Après avoir <choice><orig>lû</orig><reg>lu</reg></choice> la Lettre de <persName>Clarice</persName>.)</stage><lb/>
+                        <l n='213' xml:id='l213'>Trop heureux <persName>Arlequin</persName>! Ta fortune m'enchante ;</l>
+                        <l n='214' xml:id='l214'>J'expire de plaiſir. L'aimable Billet doux !</l>
+                        <l n='215' xml:id='l215'><persName>Marton</persName> m'aime, <persName>Marton</persName> m'adore ;</l>
+                        <l n='216' xml:id='l216'>Elle me donne un rendez-vous.</l>
+                        <l n='217' xml:id='l217'>Charmante Lettre, <choice><orig>aprochez-vous</orig><reg>approchez-vous</reg></choice>,</l>
+                        <l n='218' xml:id='l218'>Que je vous baiſe, <choice><orig>&amp;</orig><reg>et</reg></choice> vous rebaiſe encore.</l> 
+                    </sp>
+                </div>
+                <pb n="94"/>
+                <div type="scene" n="11" xml:id="S11">
+                    <head>SCENE XI.</head><lb/>
+                    <stage>DAMON, ARLEQUIN.</stage><lb/>
+                    <sp who="Damon" xml:id="S11_1">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='219' xml:id='l219'><c type="lettrine">S</c>Atisfais au <choice><orig>plûtôt</orig><reg>plus tôt</reg></choice> mes <choice><orig>deſirs</orig><reg>désirs</reg></choice> empreſſés.</l>
+                        <l n='220' xml:id='l220'>A ma Lettre, <persName>Julie</persName> a-t-elle fait réponſe ?</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S11_2">
+                        <speaker>ARLEQUIN </speaker><stage type="mixed" rend="italics">ſans voir <persName>Damon</persName>.</stage>
+                        <l n="221" xml:id="l221_1" part="I">Non, je ſuis hors de moi. </l>
+                    </sp>
+                    <sp who="Damon" xml:id="S11_3">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l xml:id="l221_2" part="F">Non ! Qu'eſt-ce qu'il m'annonce ?</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S11_4">
+                        <speaker>ARLEQUIN </speaker><stage type="business" rend="italics">embraſſant <persName>Damon</persName> ſans le regarder.</stage><lb/>
+                        <l n='222' xml:id='l222'>Doux objet ! Vous me raviſſez ;</l>
+                        <l n='223' xml:id='l223'>Et pour vous, <persName>Arlequin</persName> à <persName>Liſette</persName> renonce.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S11_5">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='225' xml:id='l224'><choice><orig>Parles</orig><reg>Parle</reg></choice>, Maraud <note resp="JL"><cit><bibl>Furetière 1701</bibl><quote>Terme injurieux qui ſe dit des gueux, des coquins, des fripons, des belitres, qui n'ont ni bien ni honneur, qui ſont capables de faire toutes ſortes de lâchetez.</quote></cit></note>! As-tu les ſens bleſſés !</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S11_6">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='225' xml:id='l225'>C'eſt vous , Monſieur ? Mon <choice><orig>ame</orig><reg>âme</reg></choice> en eſt ravie.</l>
+                        <l n='226' xml:id='l226'>Ah ! Prenez part au bonheur d'<persName>Arlequin</persName> ;</l>
+                        <l n='227' xml:id='l227'>J'ai le plus grand plaiſir que j'aurai de ma vie,</l>
+                        <l n='228' xml:id='l228'>Et vous voyez en moi le plus heureux coquin.</l>
+                        <l n='229' xml:id='l229'><persName>Marton</persName> m'aime, Monſieur, juſqu'à l'idolâtrie.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S11_7">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='230' xml:id='l230'>Laiſſe-là ta <persName>Marton</persName>. <choice><orig>Parles-moi</orig><reg>Parle-moi</reg></choice> de <persName>Julie</persName>,</l>
+                        <l n="231" xml:id="l231_1" part="I">M'écrit-elle?</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S11_8">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l xml:id="l231_2" part="F">Voici qui vous en inſtruira.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S11_9">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n="232" xml:id="l232_1" part="I"><choice><orig>Donnes</orig><reg>Donne</reg></choice> donc <choice><orig>vîte</orig><reg>vite</reg></choice>.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S11_10">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l xml:id="l232_2" part="F">Eh , Monſieur, la voilà !</l>
+                        <l n='233' xml:id='l233'>Ne vous fâchez pas, je vous prie.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S11_11">
+                        <speaker>DAMON </speaker><stage type="business" rend="italics">lit.</stage>
+                        <lg part="I">
+                            <l n="234" xml:id="l234" rend="italics">Mon cher petit Monſieur, je vous trouve bien fat,</l>
+                            <l n="235" xml:id="l235" rend="italics">D'oſer me déclarer votre amour ridicule.</l>
+                        </lg>
+                    </sp>
+                    <pb n="95"/>
+                    <sp who="Arlequin" xml:id="S11_12">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='236' xml:id='l236'>Ah ! L'amour de mon maître eſt en mauvais état.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S11_13">
+                        <speaker>DAMON </speaker><stage type="business" rend="italics">continue.</stage>
+                        <lg part="F">
+                            <l n="237" xml:id="l237" rend="italics">Pour que je ſois ſenſible à l'ardeur qui vous brûle,</l>
+                            <l n="238" xml:id="l238" rend="italics">Votre taille eſt trop gauche : <choice><orig>&amp;</orig><reg>et</reg></choice> votre eſprit trop plat.</l>
+                            <l n="239" xml:id="l239" rend="italics">Vous êtes libertin au vingtiéme <choice><orig>quarrat</orig><reg>carat</reg></choice>,</l>
+                            <l n="240" xml:id="l240" rend="italics">Par deſſus tout vous aimez le Bourgogne,</l>
+                            <l n="241" xml:id="l241" rend="italics">Et j'ai toujours été d'un goût trop délicat,</l>
+                            <l n="242" xml:id="l242" rend="italics">Pour écouter les ſoupirs d'un <choice><orig>yvrogne</orig><reg>ivrogne</reg></choice>.</l>
+                        </lg>
+                        <lb/><stage type="mixed" rend="italics">(après avoir lû.)</stage><lb/>
+                        <l n='243' xml:id='l243'>Quel <choice><orig>ſtile</orig><reg>style</reg></choice> ! Quelle Lettre! Eſt-ce à moi qu'on l'écrit ?</l>
+                        <l n='244' xml:id='l244'>Et peut-elle partir d'une fille bien née ?</l>
+                        <l n='245' xml:id='l245'>Que la <choice><orig>groſſiéreté</orig><reg>grossièreté</reg></choice> que fait voir ſon eſprit,</l>
+                        <l n='246' xml:id='l246'>Dément bien la douceur dont les Cieux l'ont ornée.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S11_14">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='247' xml:id='l247'>Tous les <choice><orig>Amans</orig><reg>Amants</reg></choice> n'ont pas la même deſtinée ,</l>
+                        <l n='248' xml:id='l248'>Et je conçois votre dépit :</l>
+                        <l n='249' xml:id='l249'>Mais le beau ſexe eſt ſujet au caprice,</l>
+                        <l n='250' xml:id='l250'>Et j'ai vraiment de la douleur</l>
+                        <l n='251' xml:id='l251'>Qu'il ne vous rende pas juſtice</l>
+                        <l n='252' xml:id='l252'>Comme il la rend à votre ſerviteur.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S11_15">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='253' xml:id='l253'>Sans indignation je ne puis la relire.</l>
+                        <l n='254' xml:id='l254'>Me reſuſer ſon cœur, je n'<choice><orig>aurois</orig><reg>aurais </reg></choice> rien à dire :</l>
+                        <l n='255' xml:id='l255'>Mais joindre l'inſulte au dédain,</l>
+                        <l n='256' xml:id='l256'>Et me traiter d'<choice><orig>yvrogne</orig><reg>ivrogne</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> de bas libertin ;</l>
+                        <l n='257' xml:id='l257'>C'eſt tout ce qu'on <choice><orig>pourroit</orig><reg>pourrait</reg></choice> écrire</l>
+                        <l n='258' xml:id='l258'>A mon valet, à ce faquin. <note resp="JL"><cit><bibl>Furetière 1701</bibl><quote>ſe dit auſſi en quelque ſorte au figuré, pour un homme ſans mérite , ſans honneur, ſans coeur, digne de toute ſorte de mepris.</quote></cit></note>.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S11_16">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='259' xml:id='l259'>Souvent le plaiſir vous attire,</l>
+                        <l n='260' xml:id='l260'>Et, comme moi, Monſieur, vous aimez le bon vin ;</l>
+                        <l n='261' xml:id='l261'>Mais j'excuſe ce trait malin,</l>
+                        <l n='262' xml:id='l262'>C'eſt la rage qui vous l'inſpire.</l>
+                        <l n='263' xml:id='l263'>Quand on eſt comme moi fortuné dans ſes feux,</l>
+                        <l n='264' xml:id='l264'>On paſſe quelque choſe aux <choice><orig>Amans</orig><reg>amants</reg></choice> malheureux.</l>
+                        <l n='265' xml:id='l265'>Je vois entrer celle qui vous captive :</l>
+                        <l n='266' xml:id='l266'>Demandez-lui raiſon de ſa belle miſſive.</l>
+                    </sp>
+                </div>
+                <pb n="96"/>
+                <div type="scene" n="12" xml:id="S12">
+                    <head>SCENE XII.</head><lb/>
+                    <stage>DAMON, JULIE, ARLEQUIN, MARTON</stage><lb/>
+                    <sp who="Damon" xml:id="S12_1">
+                        <speaker>DAMON </speaker><stage type="delivery" rend="italics">à Julie</stage><lb/>
+                        <l n='267' xml:id='l267'><c type="lettrine">Q</c>Uelque peu de mérite, <choice><orig>&amp;</orig><reg>et</reg></choice> quelque peu d'eſprit</l>
+                        <l n='268' xml:id='l268'>Dont m'ait fait préſent la nature,</l>
+                        <l n='269' xml:id='l269'>Je n'<choice><orig>aurois</orig></choice><reg>aurais</reg> jamais <choice><orig>crû</orig><reg>cru</reg></choice> que mon feu vous aigrit</l>
+                        <l n='270' xml:id='l270'>Au point de m'attirer la lettre la plus dure,</l>
+                        <l n='271' xml:id='l271'>Pour l'avoir dans ce jour déclarée par écrit ;</l>
+                        <l n='272' xml:id='l272'>Ni qu'un amour ſi pur ſût pour vous une injure.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_2">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='273' xml:id='l273'>Un pareil diſcours m'étourdit.</l>
+                        <l n="274" xml:id="l274_1" part="I">Quelle lettre, Monſieur ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_3">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l xml:id="l274_2" part="F">Une lettre <choice><orig>conçûe</orig><reg>conçue</reg></choice></l>
+                        <l n='275' xml:id='l275'>En termes ſi choquans, ſi peu dignes de vous,</l>
+                        <l n='276' xml:id='l276'>Qu'elle vous fait plus d'outrage qu'à nous.</l>
+                        <l n='277' xml:id='l277'>Ma déclaration <choice><orig>pouvoit</orig><reg>pouvait</reg></choice> être <choice><orig>reçûe</orig><reg>reçue</reg></choice></l>
+                        <l n='278' xml:id='l278'>Avec un peu plus de douceur ;</l>
+                        <l n='279' xml:id='l279'>Et vous pouviez, puiſque j'ai le malheur</l>
+                        <l n='280' xml:id='l280'>De ne pas plaire à votre <choice><orig>vûe</orig><reg>vue</reg></choice>,</l>
+                        <l n='281' xml:id='l281'>Refuſer poliment l'hommage de mon cœur ;</l>
+                        <l n='282' xml:id='l282'>Vous m'auriez plus puni, témoignant moins d'aigreur.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S12_4">
+                        <speaker>ARLEQUIN.</speaker>
+                        <l n='283' xml:id='l283'>Pour moi belle <persName>Marton</persName>, <choice><orig>j'aurois</orig><reg>j'aurais</reg></choice> tort de me plaindre.</l>
+                        <l n='284' xml:id='l284'>Je ſuis content de ce poulet.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_5">
+                        <speaker><choice><sic>ARTON</sic><corr>MARTON</corr></choice>  </speaker><stage type="delivery" rend="italics">d'un air ironique.</stage>
+                        <l n='285' xml:id='l285'>Vous prenez bien la choſe, à vous parler ſans feindre ;</l>
+                        <l n='286' xml:id='l286'>Et vous avez l'eſprit bien fait.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_6">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='287' xml:id='l287'>Il me <choice><orig>fait-là</orig><reg>fait là</reg></choice>, <persName>Marton</persName>, un reproche en idée ;</l>
+                        <l n='288' xml:id='l288'>Et je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> ſur quoi cette plainte eſt fondée,</l>
+                        <pb n="97"/>
+                        <l n='289' xml:id='l289'>Ni qui le porte à me parler ainſi</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_7">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='290' xml:id='l290'>Mais je n'y comprends rien auſſi.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_8">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='291' xml:id='l291'>Je vous l'ai dit, Mademoiſelle.</l>
+                        <l n='292' xml:id='l292'>C'eſt un Billet de vous, ou <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> un Libelle <note resp="JL"><cit><bibl>Furetière 1701</bibl><quote>tout écrit offensant ou injurieux, généralement anonyme</quote></cit></note> ;</l>
+                        <l n='293' xml:id='l293'>Où je ſuis honoré du beau titre de fat :</l>
+                        <l n='294' xml:id='l294'>A cette qualité pompeuſe,</l>
+                        <l n='295' xml:id='l295'>Vous <choice><orig>ajoûtez</orig><reg>ajoutez</reg></choice> encore <choice><orig>l'épithete</orig><reg>l'épithète</reg></choice> flatteuſe ,</l>
+                        <l n='296' xml:id='l296'>De ridicule <choice><orig>&amp;</orig><reg>et</reg></choice> d'eſprit plat.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_9">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='297' xml:id='l297'>Moi, <persName>Damon</persName>, avec vous employer ce langage,</l>
+                        <l n='298' xml:id='l298'>Et vous écrire sur ce ton ?</l>
+                        <l n='299' xml:id='l299'>Ah ! J'en ſuis incapable, <choice><orig>&amp;</orig><reg>et</reg></choice> c'eſt me faire outrage</l>
+                        <l n='300' xml:id='l300'>Que d'en avoir seulement le ſoupçon.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_10">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='301' xml:id='l301'>Ce diſcours à mon tour a lieu de me ſurprendre.</l>
+                        <l n='302' xml:id='l302'>Mais la réponſe que voilà ,</l>
+                        <l n='303' xml:id='l303'>De tout ce que je dis, <choice><orig>bien-tôt</orig><reg>bientôt</reg></choice> vous convaincra ;</l>
+                        <l n='304' xml:id='l304'><persName>Arlequin</persName> vient de me la rendre.</l>
+                        <l n='305' xml:id='l305'><choice><orig>Tenés</orig><reg>Tenez</reg></choice>, <choice><orig>voyés</orig><reg>voyez</reg></choice>, <choice><orig>demeurés-là</orig><reg>demeurez-là</reg></choice>.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_11">
+                        <speaker>JULIE </speaker><stage type="mixed" rend="italics">après avoir <choice><orig>lû</orig><reg>lu</reg></choice>.</stage><lb/>
+                        <l n='306' xml:id='l306'>Ce n'eſt pas-là mon écriture.</l>
+                        <l n='307' xml:id='l307'>Mon ſtile encore moins. Monſieur, on s'eſt mépris.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_12">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='308' xml:id='l308'>D'où vient donc ce Billet , <choice><orig>&amp;</orig><reg>et</reg></choice> par quelle <choice><orig>avanture</orig><reg>aventure</reg></choice>,</l>
+                        <l n='309' xml:id='l309'>Puiſqu'il n'eſt pas de vous, m'a-t-il été remis ?</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_13">
+                        <speaker>MARTON</speaker>
+                        <l n='310' xml:id='l310'>Le plaiſant <hi rend="italics">qui pro quo</hi> que cauſent ces Ecrits !</l>
+                        <l n='311' xml:id='l311'>Je ne puis m'empêcher d'en rire ;</l>
+                        <l n='312' xml:id='l312'>Il eſt <choice><orig>tems</orig><reg>temps</reg></choice> de finir l'embarras de tous deux.</l>
+                        <stage type="delivery" rend="italics">(à <persName>Damon</persName>.<corr>)</corr></stage>
+                        <l n='313' xml:id='l313'><choice><orig>Remettés-moi</orig><reg>Remettez-moi</reg></choice>, Monſieur, ce poulet doucereux. </l>
+                        <stage type="delivery" rend="italics">(à <persName>Arlequin</persName>.)</stage>
+                        <l n='314' xml:id='l314'>Et vous, qu'un pareil coup commence d'interdire,</l>
+                        <l n='315' xml:id='l315'>Maître étourdi, <choice><orig>donnés</orig><reg>donnez</reg></choice> <choice><orig>vîte</orig><reg>vite</reg></choice>, <choice><orig>donnés</orig><reg>donnez</reg></choice></l>
+                        <l n='316' xml:id='l316'>L'autre qu'à tort vous <choice><orig>retenés</orig><reg>retenez</reg></choice>.</l>
+                        <stage type="business" rend="italics">(elle le donne à <persName>Damon</persName>.)</stage>
+                    </sp>
+                    <pb n="98"/>
+                    <sp who="Arlequin" xml:id="S12_14">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='317' xml:id='l317'>Pourquoi donc cela ? Qu'eſt-ce à dire ?</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_15">
+                        <speaker>MARTON </speaker><stage type="delivery" rend="italics">à <persName>Arlequin</persName>.</stage>
+                        <l n='318' xml:id='l318'>Tiens, reçois de ma part celui qui <choice><orig>t'apartient</orig><reg>t'appartient</reg></choice>.</l>
+                        <l n='319' xml:id='l319'>Chacun a maintenant l'Ecrit qui lui convient.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_16">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='320' xml:id='l320'>C'eſt donc l'Ouvrage de ce traître ?</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_17">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='321' xml:id='l321'>A cette balourdiſe on doit le <choice><orig>reconnoître</orig><reg>reconnaître</reg></choice>.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S12_18">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='322' xml:id='l322'>De ma bonne fortune, ah ! Je ſuis culbuté.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_19">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='323' xml:id='l323'><choice><orig>Pardonnés</orig></choice><reg>Pardonnez</reg> ſi d'abord mon eſprit tranſporté...</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_20">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='324' xml:id='l324'>Vous étiez dans l'erreur, vous êtes excuſable.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_21">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='325' xml:id='l325'>Dans cet Ecrit mon ſort eſt renfermé.</l>
+                        <l n='326' xml:id='l326'>Pour éclaircir mon amour alarmé,</l>
+                        <l n='327' xml:id='l327'><choice><orig>Permettés-moi</orig><reg>Permettez-moi</reg></choice> de voir s'il m'eſt plus favorable.</l>
+                        <lb/><stage type="business" rend="italics">(Il lit.)</stage><lb/>
+                        <lg>
+                            <l n="328" xml:id="l328" rend="italics">Vous reſſentez pour moi la plus parfaite ardeur ,</l>
+                            <l n="329" xml:id="l329" rend="italics">Si j'en crois le Billet que vous oſez m'écrire,</l>
+                            <l n="330" xml:id="l330" rend="italics">Pour mieux convaincre mon cœur,</l>
+                            <l n="331" xml:id="l331" rend="italics">Je vous permets de venir me le dire.</l>
+                        </lg>
+                        <lb/><stage type="business" rend="italics">(après avoir <choice><orig>lû</orig><reg>lu</reg></choice>.)</stage><lb/>
+                        <l n='332' xml:id='l332'>Adorable <persName>Julie</persName>, ah ! Quel eſt mon bonheur !</l>
+                        <l n='333' xml:id='l333'>Je ſens comme je dois cet excès de faveur,</l>
+                        <l n='334' xml:id='l334'>Et tout mon eſpoir ſe réveille.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_22">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='335' xml:id='l335'>Une ſeconde fois vous tombez dans l'erreur.</l>
+                        <l n='336' xml:id='l336'>C'eſt une autre que moi, que vous devez, Monſieur,</l>
+                        <l n='337' xml:id='l337'>Remercier d'une <choice><orig>grace</orig><reg>grâce</reg></choice> pareille.</l>
+                        <l n='338' xml:id='l338'>De cette lettre-là je ne ſuis pas l'Auteur.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_23">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n="339" xml:id="l339_1" part="I"><choice><orig>O</orig><reg>Ô</reg></choice> Ciel ? Ce n'eſt point vous ?</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_24">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l xml:id="l339_2" part="F">Non, ce n'eſt point <persName>Julie</persName></l>
+                        <l n='340' xml:id='l340'>Qui n'a jamais écrit à <persName>Damon</persName> de ſa vie,</l>
+                        <pb n="99"/>
+                        <l n='341' xml:id='l341'>Ni reçu de ſa part nul Billet amoureux.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_25">
+                        <speaker>DAMON </speaker><stage type="delivery" rend="italics">à <persName>Arlequin</persName>.</stage>
+                        <l n='342' xml:id='l342'>Ah ! C'en eſt trop ; <choice><orig>aproche</orig><reg>approche</reg></choice>, malheureux.</l>
+                        <l n='343' xml:id='l343'><choice><orig>Parles</orig><reg>Parle</reg></choice>, à qui donc as-tu rendu ma Lettre ?</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S12_26">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='344' xml:id='l344'>A cette fille-là, Monſieur, pour la remettre</l>
+                        <l n="345" xml:id="l345_1" part="I">A ſa Maitreſſe.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_27">
+                        <speaker>MARTON </speaker><stage type="delivery" rend="italics">d'un air embaraſſé.</stage><lb/>
+                        <l xml:id="l345_2" part="M">Oui, mais ...</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_28">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l xml:id="l345_3" part="M">Mais...</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_29">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l xml:id="l345_4" part="F">Comme j'en ſers deux,</l>
+                        <l n='346' xml:id='l346'>J'ai <choice><orig>crû</orig><reg>cru</reg></choice>, faiſant une bévue,</l>
+                        <l n='347' xml:id='l347'>Qu'elle <choice><orig>étoit</orig><reg>était</reg></choice> pour <persName>Clarice</persName>, à qui je l'ai rendue.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_30">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='348' xml:id='l348'>Ah ! qu'as-tu fait ? par ce coup aſſomant,</l>
+                        <l n='349' xml:id='l349'>Je vois ma tendreſſe trahie !</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S12_31">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='350' xml:id='l350'>Si je ſuis un balourd, elle eſt une étourdie.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_32">
+                        <speaker>DAMON </speaker><stage type="delivery" rend="italics">à <persName>Julie</persName>.</stage><lb/>
+                        <l n='351' xml:id='l351'>Si vous vouliez dans ce moment,</l>
+                        <l n='352' xml:id='l352'>De ce Billet heureuſement,</l>
+                        <l n='353' xml:id='l353'>Vous pourriez réparer la mépriſe piquante,</l>
+                        <l n='354' xml:id='l354'>Et la changer en vérité conſtante.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_33">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='355' xml:id='l355'>Comment ? Expliquez-vous, <persName>Damon</persName>.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_34">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='356' xml:id='l356'>En y mettant ſeulement votre nom.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_35">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='357' xml:id='l357'>Mon nom eſt-il si néceſſaire ?</l>
+                        <l n='358' xml:id='l358'>Ne <choice><orig>ſuffiroit-il</orig><reg>suffirait-il</reg></choice> pas que ma bouche <choice><orig>ſincére</orig><reg>sincère</reg></choice>,</l>
+                        <l n='359' xml:id='l359'>En adoptant le ſens de ce tendre Billet,</l>
+                        <l n='360' xml:id='l360'>Vous confirmât tout ce qu'il vous promet ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_36">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='361' xml:id='l361'>Je ne crains plus d'équivoque <choice><orig>facheuſe</orig><reg>fâcheuse</reg></choice>,</l>
+                        <l n='362' xml:id='l362'>Mes déſirs ſont comblés, <choice><orig>&amp;</orig><reg>et</reg></choice> ma <choice><orig>flâme</orig><reg>flamme</reg></choice> eſt heureuſe !</l>
+                    </sp>
+                    <pb n="100"/>
+                    <sp who="Marton" xml:id="S12_37">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='363' xml:id='l363'>D'accord. Mais vous avez à craindre le pouvoir...</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_38">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n="364" xml:id="l364_1" part="I">Eh ! De qui donc ?</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_39">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l xml:id="l364_2" part="F">De <persName>Clarice</persName> amoureuſe,</l>
+                        <l n='365' xml:id='l365'>Qui peut traverſer votre eſpoir.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_40">
+                        <speaker>DAMON.</speaker>
+                        <l n='366' xml:id='l366'>Sa Tante à <choice><orig>l'ame</orig><reg>l'âme</reg></choice> généreuſe.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_41">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='367' xml:id='l367'>Oui, mais elle vous aime, <choice><orig>&amp;</orig><reg>et</reg></choice> croit que ſon amour</l>
+                        <l n='368' xml:id='l368'>Eſt payé d'un tendre retour.</l>
+                        <l n='369' xml:id='l369'>L'affaire eſt vraiment épineuſe.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_42">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='370' xml:id='l370'>Dans un tel embarras que faire ? Juſtes Cieux !</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_43">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='371' xml:id='l371'>Je ne vois qu'un moyen, s'il faut que je le diſe.</l>
+                        <l n='372' xml:id='l372'>C'eſt de ſoutenir la mépriſe.</l>
+                        <l n='373' xml:id='l373'>Et de feindre en attendant mieux.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_44">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='374' xml:id='l374'>Moi ! Feindre pour <persName>Clarice</persName> une fauſſe tendreſſe ?</l>
+                        <l n='375' xml:id='l375'>D'un procédé ſi bas je me ſens révolté ;</l>
+                        <l n='376' xml:id='l376'>Il fait outrage à la <choice><orig>ſincerité</orig><reg>sincérité</reg></choice>,</l>
+                        <l n='377' xml:id='l377'>Et bleſſe trop l'amour que je ſens pour ſa <choice><orig>Niéce</orig><reg>nièce</reg></choice>.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_45">
+                        <speaker>MARTON </speaker><stage type="delivery" rend="italics">à <persName>Julie</persName>.</stage><lb/>
+                        <l n='378' xml:id='l378'>Votre Amant eſt trop ſcrupuleux.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_46">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n="379" xml:id="l379_1" part="I">Il a raiſon.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_47">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l xml:id="l379_2" part="F">Sotte délicateſſe !</l>
+                        <l n='380' xml:id='l380'>Et vous devez vous-même y réſoudre ſes feux.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_48">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n="381" xml:id="l381_1" part="I">Y ſonges-tu, <persName>Marton</persName> ?</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_49">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l xml:id="l381_2" part="F">Y songez-vous vous-même ?</l>
+                        <l n='382' xml:id='l382'>Si <persName>Clarice</persName> <choice><orig>aprend</orig><reg>apprend</reg></choice> qu'il vous aime,</l>
+                        <l n='383' xml:id='l383'>Il ne vous reſte aucun recours :</l>
+                        <l n='384' xml:id='l384'>Pour ſe venger dans ſa colère,</l>
+                        <pb n="101"/>
+                        <l n='385' xml:id='l385'>Elle mettra d'abord obſtacle à vos amours.</l>
+                        <l n='386' xml:id='l386'>Contre Monſieur, préviendra votre <choice><orig>pere</orig><reg>père</reg></choice>,</l>
+                        <l n='387' xml:id='l387'>Et vous allez le perdre pour toujours.</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_50">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l n='388' xml:id='l388'>A me prêter à tout cette crainte me porte.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_51">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n="389" xml:id="l389_1" part="I">Pouvez-vous conſentir...</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_52">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l xml:id="l389_2" part="F"><choice><orig>J'entens</orig><reg>J'entends</reg></choice> ouvrir la porte</l>
+                        <l xml:id="l390_1" part="I">C'eſt <persName>Clarice</persName> !</l>
+                    </sp>
+                    <sp who="Julie" xml:id="S12_53">
+                        <speaker>JULIE </speaker><stage type="delivery" rend="italics">à <persName>Damon</persName>.</stage>
+                        <l part="F" xml:id='l390_2'>Ah ! <choice><orig>Feignés</orig><reg>Feignez</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>cédés</orig><reg>cédez</reg></choice> au beſoin.</l>
+                        <l n='391' xml:id='l391'>Je l'exige de vous. Mais il faut que je ſorte,</l>
+                        <l n='392' xml:id='l392'>Et je <choice><orig>ſouffrirois</orig><reg>souffrirais</reg></choice> trop d'en être le témoin.</l>
+                        <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage>
+                    </sp>
+                    <sp who="Marton" xml:id="S12_54">
+                        <speaker>MARTON </speaker><stage type="delivery" rend="italics">à <persName>Damon</persName>.</stage><lb/>
+                        <l n='393' xml:id='l393'>Je vais vous ſeconder <choice><orig>&amp;</orig><reg>et</reg></choice> de la bonne ſorte.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S12_55">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='394' xml:id='l394'>En contraignant mon <choice><orig>ame</orig><reg>âme</reg></choice> à ce déguiſement,</l>
+                        <l n='395' xml:id='l395'>Je donne de mes feux la preuve la plus forte</l>
+                        <l n='396' xml:id='l396'>Que puiſſe donner un Amant.</l>
+                    </sp>
+                    </div>
+                <div type="scene" n="13" xml:id="S13">
+                    <head>SCENE XIII.</head><lb/>
+                    <stage>DAMON, CLARICE, MARTON.</stage><lb/>
+                    <sp who="Damon" xml:id="S13_1">
+                        <speaker>DAMON.</speaker><lb/><lb/>
+                        <l n='397' xml:id='l397'><c type="lettrine">J</c>E viens en ce jour favorable</l>
+                            <l n='398' xml:id='l398'>Faire éclater mes tranſports amoureux,</l>
+                            <l n='399' xml:id='l399'>Et vous remercier de la réponſe aimable</l>
+                            <l n='400' xml:id='l400'>Que vous venez de faire à mon Billet heureux.</l>
+                            <l n='401' xml:id='l401'>L'audace que je prends doit m'être pardonnée.</l>
+                            <l n='402' xml:id='l402'>A vos bontés je ne fais qu'obéir,</l>
+                            <l n='403' xml:id='l403'>Belle <persName>Clarice</persName>, <choice><orig>&amp;</orig><reg>et</reg></choice> me ſervir</l>
+                            <l n='404' xml:id='l404'>De la permiſſion que vous m'avez donnée.</l>
+                    </sp>
+                    <pb n="102"/>
+                    <sp who="Clarice" xml:id="S13_2">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='405' xml:id='l405'>D'un tel diſcours je demeure étonnée ?</l>
+                        <l n='406' xml:id='l406'>Vous avez tort, Monſieur, de me remercier.</l>
+                        <l n="407" xml:id="l401_1" part="I"><persName>Marton</persName> ?</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S13_3">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l xml:id="l407_2" part="F">Eh bien, Monſieur vous aime ;</l>
+                        <l n='408' xml:id='l408'>Madame, <choice><orig>&amp;</orig><reg>et</reg></choice> vous l'aimez de même ;</l>
+                        <l n='409' xml:id='l409'>Vous vous l'êtes écrit, à quoi bon le nier ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S13_4">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='410' xml:id='l410'>Du plus tendre retour cette Lettre m'aſſure.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S13_5">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='411' xml:id='l411'>Vous ne <choice><orig>ſçauriez</orig><reg>sauriez</reg></choice> aller contre votre écriture.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_6">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='412' xml:id='l413'>On vous a remis ce Billet ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S13_7">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='414' xml:id='l414'>Oui, Madame, tantôt <persName>Marton</persName> à mon Valet</l>
+                        <l n='415' xml:id='l415'>L'a donné pour me le remettre,</l>
+                        <l n='416' xml:id='l416'>En réponſe du mien, qu'elle vous a rendu.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S13_8">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n="417" xml:id="l417_1" part="I">Monſieur accuſe vrai.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_9">
+                        <speaker>CLARICE </speaker><stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <l xml:id="l417_2" part="F">L'ai-je bien entendu ?</l>
+                        <l n='418' xml:id='l418'>Fatale erreur ! Et malheureuſe Lettre!</l>
+                        <lb/><stage type="delivery" rend="italics">(bas à <persName>Marton</persName>.)</stage><lb/>
+                        <l n='419' xml:id='l419'><persName>Marton</persName> ! tu t'es trompée <choice><orig>&amp;</orig><reg>et</reg></choice> m'as trompée auſſi.</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S13_10">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='420' xml:id='l420'>Autre incident ! Qu'eſt-ce donc que ceci ?</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S13_11">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='421' xml:id='l421'>Ma ſurpriſe, Madame, eſt égale à la vôtre.</l>
+                        <l n='422' xml:id='l422'>Me donnant ce Billet, ſe <choice><orig>ſeroit</orig><reg>serait</reg></choice>-on mépris ?</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_12">
+                        <speaker>CLARICE </speaker><stage type="delivery" rend="italics">d'un air embaraſſé.</stage><lb/>
+                        <l n='423' xml:id='l423'>Mais, Monſieur, <choice><orig>pardonnés</orig><reg>pardonnez</reg></choice> à mes ſens étourdis.</l>
+                        <l n='424' xml:id='l424'>Il eſt vrai, j'<choice><orig>avois</orig><reg>avais</reg></choice> <choice><orig>crû</orig><reg>cru</reg></choice> l'écrire pour un autre.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S13_13">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='425' xml:id='l425'>Comment entre mes mains eſt-il donc parvenu ?</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_14">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='426' xml:id='l426'>Monſieur, par un mal entendu,</l>
+                        <l n="427" xml:id="l427_1" part="I">Votre Lettre...</l>
+                    </sp>
+                    <pb n="103"/>
+                    <sp who="Damon" xml:id="S13_15">
+                        <speaker>DAMON.</speaker>
+                        <l xml:id="l427_2" part="M">Eh bien ?</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_16">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l xml:id="l427_3" part="F"><persName>Marton</persName> me l'a rendue</l>
+                        <l n='428' xml:id='l428'>Sans vous nommer, diſant qu'elle <choice><orig>venoit</orig><reg>venait</reg></choice></l>
+                        <l n='429' xml:id='l429'>D'un jeune Cavalier qui pour moi <choice><orig>ſoupiroit</orig><reg>soupirait</reg></choice>.</l>
+                        <l n='430' xml:id='l430'>Sur ce portrait qui m'a <choice><orig>déçûe</orig><reg>déçue</reg></choice>,</l>
+                        <l n='431' xml:id='l431'>Ayant l'eſprit <choice><orig>frapé</orig><reg>frappé</reg></choice> d'un autre objet,</l>
+                        <l n="432" xml:id="l432_1" part="I">J'ai <choice><orig>crû</orig><reg>cru</reg></choice>, Monſieur.....</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S13_17">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l xml:id="l432_2" part="F">Vous avez <choice><orig>crû</orig><reg>cru</reg></choice>, Madame<corr>...</corr></l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_18">
+                        <speaker>CLARICE.</speaker>
+                        <l n='433' xml:id='l433'>Ah ! Dans la confidence où vous forcez mon <choice><orig>ame</orig><reg>âme</reg></choice>,</l>
+                        <l n='434' xml:id='l434'>De <choice><orig>grace</orig><reg>grâce</reg></choice>, <choice><orig>épargnés</orig><reg>épargnez</reg></choice> ma douleur !</l>
+                        <l n='435' xml:id='l435'><choice><orig>N'achevés</orig><reg>N'achevez</reg></choice> pas de me confondre.</l>
+                        <l n='436' xml:id='l436'>Vous m'entendez aſſez, <choice><orig>&amp;</orig><reg>et</reg></choice> voyez ma rougeur. </l>
+                        <l n='437' xml:id='l437'>Elle vous dit qu'un autre eſt maître de mon cœur,</l>
+                        <l n='438' xml:id='l438'>Et que c'<choice><orig>étoit</orig><reg>était</reg></choice> à lui que je <choice><orig>croyois</orig><reg>croyais</reg></choice> répondre.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S13_19">
+                        <speaker>DAMON </speaker><stage type="delivery" rend="italics">à part.</stage>
+                        <l n='439' xml:id='l439'>Je ne ſuis pas aimé. Ciel ! Que je ſuis heureux ! </l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_20">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='440' xml:id='l440'>Après un tel aveu ſi dur pour tous les deux,</l>
+                        <l n='441' xml:id='l441'>Etouffez au <choice><orig>plûtôt</orig><reg>plus tôt</reg></choice> une <choice><orig>flâme</orig><reg>flamme</reg></choice> inutile ;</l>
+                        <l n='442' xml:id='l442'>Et faites, aux tranſports d'un amour trop ardent,</l>
+                        <l n='443' xml:id='l443'>Succéder les égards d'une eſtime tranquille,</l>
+                        <l n='444' xml:id='l444'>Sur vous-même <choice><orig>obtenés</orig><reg>obtenez</reg></choice> cet effort difficile :</l>
+                        <l n='445' xml:id='l445'>Et puiſque le <choice><orig>hazard</orig><reg>hasard</reg></choice> vous fait mon Confident,</l>
+                        <l n='446' xml:id='l446'><choice><orig>Gardés</orig><reg>Gardez</reg></choice> ſur mon ſujet un ſilence prudent.</l>
+                        <l n='447' xml:id='l447'><choice><orig>Songés</orig><reg>Songez</reg></choice> qu'à mon ſecret ma gloire eſt attachée ;</l>
+                        <l n='448' xml:id='l448'>Que l'objet de mes feux n'en eſt pas informé,</l>
+                        <l n='449' xml:id='l449'>Et que de quelque trait que l'amour m'ait touchée <choice><sic>;</sic><corr></corr></choice></l>
+                        <l n='450' xml:id='l450'>Ma <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice> à jamais demeurera cachée ;</l>
+                        <l n='451' xml:id='l451'>S'il ne <choice><orig>m'aprend</orig><reg>m'apprend</reg></choice> qu'il m'aime autant qu'il eſt aimé.</l>   
+                    </sp>
+                    <sp who="Damon" xml:id="S13_21">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='452' xml:id='l452'>Madame, <choice><orig>ſoyés</orig><reg>soyez</reg></choice> raſſurée</l>
+                        <l n='453' xml:id='l453'>Ne <choice><orig>craignés</orig><reg>craignez</reg></choice> rien de ce côté</l>
+                        <l n='454' xml:id='l454'>Pour moi la loi la plus ſacrée</l>
+                        <l n='455' xml:id='l455'>Eſt celle de la probité.</l>
+                        <pb n="104"/>
+                        <l n='456' xml:id='l456'>A quelque paſſion qu'il ait <choice><orig>l'ame</orig><reg>l'âme</reg></choice> livrée</l>
+                        <l n='457' xml:id='l457'>L'honnête-homme obéit <choice><orig>ſi-tôt</orig><reg>sitôt</reg></choice> qu'elle a parlé ;</l>
+                        <l n='458' xml:id='l458'>Et tout, juſqu'à l'amour, lui doit être immolé.</l>
+                        <l n='459' xml:id='l459'>A noircir le beau ſexe on a la bouche prompte</l>
+                        <l n='460' xml:id='l460'>Vice qu'au fond du cœur j'ai toujours abhorré :</l>
+                        <l n='461' xml:id='l461'>De la <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice> qui le dompte,</l>
+                        <l n='462' xml:id='l462'>Quand le ſecret eſt ignoré,</l>
+                        <l n='463' xml:id='l463'>Qui le publie, en mérite la honte,</l>
+                        <l n='464' xml:id='l464'>Et devant la raiſon eſt ſeul deshonoré.</l>
+                        <l n='465' xml:id='l465'>Pour moi, que cet exemple irrite,</l>
+                        <l n='466' xml:id='l466'>Pour les Dames je ſuis d'un tel zèle <choice><orig>enflâmé</orig><reg>enflammé</reg></choice>,</l>
+                        <l n='467' xml:id='l467'>Que je veux parvenir du moins par ma conduite,</l>
+                        <l n='468' xml:id='l468'>Au bonheur d'en être eſtimé,</l>
+                        <l n='469' xml:id='l469'>Si je ne puis par mon mérite,</l>
+                        <l n='470' xml:id='l470'>Avoir celui d'en être aimé.</l>
+                        <l n='471' xml:id='l471'>Et pour vous en donner une forte aſſurance,</l>
+                        <l n='472' xml:id='l472'>Je vous rends ce Billet, puiſqu'il n'eſt pas pour moi ;</l>
+                        <l n='473' xml:id='l473'>Il vous répond de mon ſilence ,</l>
+                        <l n='474' xml:id='l474'>Et vous prouve ma bonne foi.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_22">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='475' xml:id='l475'>Un ſi beau procédé m'enchante.</l>
+                        <l n='476' xml:id='l476'>Ah ! Que ne puis-je en ce jour vous marquer</l>
+                        <l n='477' xml:id='l477'>Combien j'en ſuis <choice><orig>reconnoiſſante</orig><reg>reconnaissante</reg></choice> !</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S13_23">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n="478" xml:id="l478_1" part="I">Vous le pouvez.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_24">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l xml:id="l478_2" part="F">Comment ? Daignez vous expliquer.</l>
+                        <l n="479" xml:id="l479_1" part="I"><choice><orig>Parlés</orig><reg>Parlez</reg></choice>.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S13_25">
+                        <speaker>DAMON.</speaker><lb/>   
+                        <l xml:id="l479_2" part="F">Le prix que je demande</l>
+                        <l n='480' xml:id='l480'>Eſt trop grand pour le mériter.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_26">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='481' xml:id='l481'>Non, il n'eſt point, pour m'acquitter,</l>
+                        <l n='482' xml:id='l482'>Une récompenſe trop grande.</l>
+                        <l n='483' xml:id='l483'><choice><orig>Demandés</orig><reg>Demandez</reg></choice>. <choice><orig>Soyés</orig><reg>Soyez</reg></choice> ſûr d'obtenir tout de moi,</l>
+                        <l n='484' xml:id='l484'>Hors ma main, <choice><orig>&amp;</orig><reg>et</reg></choice> mon cœur qui n'eſt plus ſous ma loi.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S13_27">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='485' xml:id='l485'>Par vos bontés mon <choice><orig>ame</orig><reg>âme</reg></choice> eſt enhardie.</l>
+                        <pb n="105"/>
+                        <l n='486' xml:id='l486'>Puiſque la fortune m'envie</l>
+                        <l n='487' xml:id='l487'>La gloire d'être votre époux,</l>
+                        <l n='488' xml:id='l488'>Au défaut d'un bonheur ſi doux,</l>
+                        <l n='489' xml:id='l489'>Le ſeul qui peut me <choice><orig>flâter</orig><reg>flatter</reg></choice> dans la vie,</l>
+                        <l n='490' xml:id='l490'>Je vous en fais ici l'aveu,</l>
+                        <l n='491' xml:id='l491'>Eſt de me voir votre neveu.</l>
+                        <l n='492' xml:id='l492'>Pour mériter ce nom, accordez-moi <persName>Julie</persName>.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S13_28">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='493' xml:id='l493'>Le choix eſt trop <choice><orig>flâteur</orig><reg>flatteur</reg></choice>. Pour hâter ce lien,</l>
+                        <l n='494' xml:id='l494'>Courez la demander de ce pas à mon <choice><orig>Frere</orig><reg>frère</reg></choice>;</l>
+                        <l n='495' xml:id='l495'>Parlez-lui de ma part, il vous recevra bien.</l>
+                        <l n='496' xml:id='l496'>Il eſt d'ailleurs ami de votre <choice><orig>Pere</orig><reg>père</reg></choice> ;</l>
+                        <l n='497' xml:id='l497'>Et pour vous <choice><orig>apuyer</orig><reg>appuyer</reg></choice>, je n'épargnerai rien.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S13_29">
+                        <speaker>DAMON </speaker><stage type="exit" rend="italics">en s'en allant.</stage><lb/>  
+                        <l n='498' xml:id='l498'>Quel heureux coup pour ma tendreſſe !</l>
+                    </sp>
+                    <sp who="Marton" xml:id="S13_30">
+                        <speaker>MARTON</speaker> <stage type="business" rend="italics">à part.</stage><lb/>
+                        <l n='499' xml:id='l499'>Du ſuccès de cet entretien ,</l>
+                        <l n='500' xml:id='l500'>Courons <choice><orig>vîte</orig><reg>vite</reg></choice> informer la <choice><orig>Niéce</orig><reg>nièce</reg></choice>.</l>
+                        <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="14" xml:id="S14">
+                    <head>SCENE XIV.</head><lb/>
+                    <sp who="Clarice" xml:id="S14_1">
+                        <speaker>CLARICE </speaker>
+                        <stage type="setting" rend="italics">ſeule.</stage>
+                            <l n='501' xml:id='l501'><c type="lettrine">D</c>Ans un malheur comme le mien</l>
+                        <l n='502' xml:id='l502'>Ce qui me conſole <choice><orig>&amp;</orig><reg>et</reg></choice> me <choice><orig>flâte</orig><reg>flatte</reg></choice>,</l>
+                            <l n='503' xml:id='l503'>L'objet de mon amour n'eſt connu que de moi.</l>
+                        <l n='504' xml:id='l504'>Mais quelqu'un vient. Ah ! C'eſt lui que je <choice><orig>voi</orig><reg>vois</reg></choice>.</l>
+                            <l n='505' xml:id='l505'>Empêchons qu'à ſes yeux ma <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice> n'éclate.</l>
+                    </sp>
+                </div>
+                <pb n="106"/>
+                <div type="scene" n="15" xml:id="S15">
+                    <head>SCENE XV.</head><lb/>
+                    <stage>VALERE, CLARICE.</stage><lb/>
+                    <sp who="Valere" xml:id="S15_1">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='506' xml:id='l506'><c type="lettrine">M</c>Adame, c'eſt à vous qu'aujourd'hui j'ai recours.</l>
+                        <l n='507' xml:id='l507'>De vos ſages conſeils j'implore le ſecours</l>
+                        <l n='508' xml:id='l508'>Sur une affaire délicate,</l>
+                        <l n='509' xml:id='l509'>Et qui doit décider du bonheur de mes jours.</l>
+                        <l n='510' xml:id='l510'>A peine j'entre dans le monde.</l>
+                        <l n='511' xml:id='l511'>Et dès le premier pas je crains de m'égarer :</l>
+                        <l n='512' xml:id='l512'>Je <choice><orig>ſçai</orig><reg>sais</reg></choice> qu'en écueils il abonde ;</l>
+                        <l n='513' xml:id='l513'>Sur le plus grand de tous daignez donc m'éclairer.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_2">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='514' xml:id='l514'>Vous faites trop d'honneur à mon peu de <choice><orig>lumiére</orig><reg>lumière</reg></choice>.</l>
+                        <l n='515' xml:id='l515'>Si vous jugez pourtant qu'il vous ſoit néceſſaire,</l>
+                        <l n='516' xml:id='l516'>Monſieur, vous n'avez qu'à parler.</l>
+                        <l n='517' xml:id='l517'>Je ſuis prête à vous conſeiller.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_3">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='518' xml:id='l518'>Puiſqu'il faut vous ouvrir mon <choice><orig>ame</orig><reg>âme</reg></choice> toute entiére,</l>
+                        <l n="519" xml:id="l519_1" part="I">Je vous dirai que j'aime.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_4">
+                        <speaker>CLARICE </speaker><stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <l xml:id="l519_2" part="F">Ah ! Qu'eſt-ce que j'<choice><orig>entens</orig><reg>entends</reg></choice> !</l>
+                        <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Valère">Valere</name>.)</stage><lb/>
+                        <l n='520' xml:id='l520'>Celle pour qui votre <choice><orig>ame</orig><reg>âme</reg></choice> eſt <choice><orig>enflâmée</orig><reg>enflammée</reg></choice>,</l>
+                        <l n='521' xml:id='l521'>Sans doute eſt digne d'être aimée,</l>
+                        <l n='522' xml:id='l522'>Et ſes attraits ſont <choice><orig>éclatans</orig><reg>éclatants</reg></choice> !</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_5">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='523' xml:id='l523'>Autant que ſes vertus, c'eſt tout ce qu'on peut dire.</l>
+                        <l n='524' xml:id='l524'>Je la reſpecte, <choice><orig>&amp;</orig><reg>et</reg></choice> je l'admire.</l>
+                        <l n='525' xml:id='l525'>On trouve tout en elle, eſprit, beauté, douceur.</l>
+                        <l n='526' xml:id='l526'>A la droiture, à la candeur</l>
+                        <l n='527' xml:id='l527'>Elle joint l'agrément avec la politeſſe,</l>
+                        <l n='528' xml:id='l528'>Et l'étude du monde à beaucoup de ſageſſe.</l>
+                    </sp>
+                    <pb n="107"/>
+                    <sp who="Clarice" xml:id="S15_6">
+                        <speaker>CLARICE </speaker><stage type="delivery" rend="italics">bas.</stage><lb/>
+                        <l n='529' xml:id='l529'>Chaque mot eſt un trait qui me perce le cœur !</l>
+                        <lb/><stage type="delivery" rend="italics">(haut.)</stage><lb/>
+                        <l n='530' xml:id='l530'>Vous ne pouvez en faire un portrait plus <choice><orig>flâteur</orig><reg>flatteur</reg></choice>,</l>
+                        <l n='531' xml:id='l531'>Et ne <choice><orig>ſçauriez</orig><reg>sauriez</reg></choice> brûler d'une <choice><orig>flâme</orig><reg>flamme</reg></choice> plus belle.</l>
+                        <l n='532' xml:id='l532'>Mais répond-elle à votre ardeur ?</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_7">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='533' xml:id='l533'>Je ſuis bien loin de ce bonheur !</l>
+                        <l n='534' xml:id='l534'>Mon amour n'eſt pas connu d'elle :</l>
+                        <l n='535' xml:id='l535'>Mon reſpect à ſes yeux s'eſt fait seul remarquer.</l>
+                        <l n='536' xml:id='l536'>Quand je <choice><orig>parois</orig><reg>parais</reg></choice> devant ma Souveraine,</l>
+                        <l n='537' xml:id='l537'>Je demeure interdit, je n'oſe m'expliquer,</l>
+                        <l n='538' xml:id='l538'>Et je tremble toujours que l'aveu de ma peine,</l>
+                        <l n='539' xml:id='l539'>N'ait le malheur de la choquer.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_8">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='540' xml:id='l540'>Votre conduite eſt <choice><orig>très-louable</orig><reg>très louable</reg></choice>,</l>
+                        <l n='541' xml:id='l541'>Et votre cœur fait éclater</l>
+                        <l n='542' xml:id='l542'>Tous les ſignes, Monſieur, d'un amour véritable,</l>
+                        <l n='543' xml:id='l543'>Qui ne <choice><orig>ſçauroit</orig><reg>saurait</reg></choice> la révolter.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_9">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='544' xml:id='l544'>Non, je n'ai pas l'orgueil de m'en <choice><orig>flâter</orig><reg>flatter</reg></choice> ;</l>
+                        <l n='545' xml:id='l545'>Et pour m'expoſer moins dans l'ardeur qui me guide,</l>
+                        <l n='546' xml:id='l546'>Ma main dans un Billet oſe la déclarer,</l>
+                        <l n='547' xml:id='l547'>Et <choice><orig>ſuplée</orig><reg>supplée</reg></choice> au défaut de ma bouche timide.</l>
+                        <l n='548' xml:id='l548'>Pour <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> s'il eſt bien, je viens vous le montrer.</l>
+                        <l n='549' xml:id='l549'>Ne me ſoyez pas trop rigide ;</l>
+                        <l n='550' xml:id='l550'>S'ils ſont mal exprimés, mes ſentiments ſont vrais.</l>
+                        <l n='551' xml:id='l551'>Que votre coeur seul en décide.</l>
+                        <l n='552' xml:id='l552'>S'il les goûte aujourd'hui, je ſuis ſûr du ſuccès.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_10">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='553' xml:id='l553'>Pour répondre, Monſieur, à votre confiance,</l>
+                        <l n='554' xml:id='l554'>Je vais lire, <choice><orig>&amp;</orig><reg>et</reg></choice> vous dire après,</l>
+                        <l n='555' xml:id='l555'>Sans nul détour ce que je penſe.</l>
+                        <lb/><stage type="delivery" rend="italics">(à part.)</stage><lb/>
+                        <l n='556' xml:id='l556'>En cette dure <choice><orig>extrêmité</orig><reg>extrémité</reg></choice></l>
+                        <l n='557' xml:id='l557'>Oublions que je ſuis Amante,</l>
+                        <l n='558' xml:id='l558'>Pour <choice><orig>m'acquiter</orig><reg>m'acquitter</reg></choice> avec ſincérité</l>
+                        <l n='559' xml:id='l559'>De l'office de Confidente.</l>
+                        <pb n="108"/>
+                        <lb/><stage type="business" rend="italics">(Elle lit.)</stage><lb/>
+                        <lg>
+                            <l n="560" xml:id="l560" rend="italics">Pour vous d'un feu ſi pur je me ſens pénétrer,</l>
+                            <l n="561" xml:id="l561" rend="italics">Que ce n'eſt qu'en tremblant que ma main vous l'exprime.</l>
+                            <l n="562" xml:id="l562" rend="italics">Comme je ne vis plus que pour vous adorer,</l>
+                            <l n="563" xml:id="l563" rend="italics">Je meurs, ſi l'eſpoir ne m'anime.</l>
+                            <l n="564" xml:id="l564" rend="italics">Prononcez donc l'arrêt d'où dépendent mes jours.</l>
+                            <l n="565" xml:id="l565" rend="italics">En <choice><orig>flâtant</orig><reg>flattant</reg></choice> mon ardeur d'un retour légitime,</l>
+                            <l n="566" xml:id="l566" rend="italics">Ne craignez pas d'en voir finir le cours ;</l>
+                            <l n="567" xml:id="l567" rend="italics">Mon amour doit durer toujours,</l>
+                            <l n="568" xml:id="l568" rend="italics">Puiſqu'il eſt fondé ſur l'eſtime.</l>
+                        </lg>
+                        <lb/><stage type="mixed" rend="italics">(après avoir <choice><orig>lû</orig><reg>lu</reg></choice>.)</stage><lb/>
+                        <l n='569' xml:id='l569'>On ne peut déclarer ſon feu plus ſagement.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_11">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n="570" xml:id="l570_1" part="I">Vous <choice><orig>aprouvez</orig><reg>approuvez</reg></choice> ma Lettre ?</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_12">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l xml:id="l570_2" part="F"><choice><orig>Aſſûrément</orig><reg>Assurément</reg></choice>,</l>
+                        <l n="571" xml:id="l571_1" part="I">Et vous ne mourrez point.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_13">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l xml:id="l571_2" part="F"><persName>Clarice</persName> le prononce ?</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_14">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='572' xml:id='l572'>Oui, ce Billet mérite une tendre réponſe.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_15">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n="573" xml:id="l573_1" part="I">Je l'<choice><orig>attens</orig><reg>attends</reg></choice>.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_16">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l xml:id="l573_2" part="F">Envoyez-le à l'objet de vos vœux.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_17">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='574' xml:id='l574'>La choſe eſt déja faite. En ces <choice><orig>inſtans</orig><reg>instants</reg></choice> heureux</l>
+                        <l n="575" xml:id="l575_1" part="I">Il eſt entre ſes mains.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_18">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l xml:id="l575_2" part="F">C'eſt donc-là la copie ?</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_19">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='576' xml:id='l576'>Non c'eſt l'original. Répondez, je vous prie.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_20">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n="577" xml:id="l577_1" part="I">C'eſt à moi, <name type="person" n="Valère">Valere</name> ?</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_21">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l xml:id="l577_2" part="F">Oui. C'eſt à vous que j'écris.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_22">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='578' xml:id='l578'>La déclaration étonne mes eſprits.</l>
+                    </sp>
+                    <pb n="109"/>
+                    <sp who="Valere" xml:id="S15_23">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='579' xml:id='l579'>Dites un mot, vous me ſauvez la vie.</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_24">
+                        <speaker>CLARICE </speaker><stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <l n='580' xml:id='l580'>Je ſuis aimée ! Ah ! Mon <choice><orig>ame</orig><reg>âme</reg></choice> eſt ravie.</l>
+                        <l n='581' xml:id='l581'>Et rien n'eſt plus galant que le tour qu'il a pris</l>
+                        <l n='582' xml:id='l582'>Pour déclarer l'ardeur dont il ſe ſent épris <choice><sic>?</sic><corr>.</corr></choice></l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_25">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='583' xml:id='l583'>Eh quoi ! De l'amour le plus tendre</l>
+                        <l n='584' xml:id='l584'>Le ſilence eſt-il donc le prix ?</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_26">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='585' xml:id='l585'>Il naît de ma ſurpriſe, <choice><orig>&amp;</orig><reg>et</reg></choice> pour me faire entendre,</l>
+                        <l n='586' xml:id='l586'>J'ai beſoin.... Mais on vient, je me retire. Adieu.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S15_27">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='587' xml:id='l587'>Daignez me dire, avant que de quitter ce lieu.</l>
+                        <l n="588" xml:id="l588_1" part="I">Quels ſont vos ſentiments ?</l>
+                    </sp>
+                    <sp who="Clarice" xml:id="S15_28">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l xml:id="l588_2" part="F">Si vous voulez attendre,</l>
+                        <l n='589' xml:id='l589'>On viendra de ma part ici vous les <choice><orig>aprendre</orig><reg>apprendre</reg></choice>.</l>
+                        <lb/><stage type="exit" rend="italics">(Elle rentre.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="16" xml:id="S16">
+                    <head>SCENE XVI.</head><lb/>
+                    <stage>DAMON, VALERE.</stage><lb/>
+                    <sp who="Damon" xml:id="S16_1">
+                        <speaker>DAMON </speaker><stage type="delivery" rend="italics">à Valère.</stage><lb/>
+                        <l n='590' xml:id='l590'><c type="lettrine">M</c>A joie, Ami, ne peut ſe concevoir !</l>
+                        <l n='591' xml:id='l591'>J'obtiens <persName>Julie</persName>, <choice><orig>&amp;</orig><reg>et</reg></choice> j'ai l'agrément de ſon <choice><orig>Pere</orig><reg>père</reg></choice>.</l>
+                        <l n='592' xml:id='l592'>On a fait venir le Notaire,</l>
+                        <l n='593' xml:id='l593'>Le Contrat eſt dreſſé, je te le fais <choice><orig>ſçavoir</orig><reg>savoir</reg></choice>,</l> 
+                        <l n='594' xml:id='l594'>Les violons ſont prêts, nous danſerons ce ſoir.</l>
+                        <l n='595' xml:id='l595'>Et toi, mon cher, dis-moi, ſans tarder davantage,</l>
+                        <l n='596' xml:id='l596'>Comment vont tes amours où je <choice><orig>prens</orig><reg>prends</reg></choice> intérêt ?</l>
+                        <l n='597' xml:id='l597'>Mais, ſur ton front qui répand ce nuage ?</l>
+                        <l n='598' xml:id='l598'>D'un Plaideur incertain tu portes le viſage.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S16_2">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='599' xml:id='l599'>Mon deſtin eſt pareil, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>j'attens</orig><reg>j'attends</reg></choice> mon arrêt.</l>                            
+                    </sp>
+                    <pb n="110"/>
+                    <sp who="Damon" xml:id="S16_3">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='600' xml:id='l600'>Ma <choice><orig>preſence</orig><reg>présence</reg></choice> en ces lieux l'a suſpendu peut-être.</l>                                                   
+                    </sp>                  
+                    <sp who="Valere" xml:id="S16_4">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='601' xml:id='l601'>Oui. Dans le moment qu'elle t'a <choice><orig>vû</orig><reg>vu</reg></choice> <choice><orig>paroître</orig><reg>paraître</reg></choice>,</l>
+                        <l n='602' xml:id='l602'><persName>Clarice</persName> <choice><orig>alloit</orig><reg>allait</reg></choice> le prononcer.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S16_5">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='603' xml:id='l603'>Mais ſes yeux, en partie, ont <choice><orig>dû</orig><reg>du</reg></choice> te l'annoncer ?</l>                                                          
+                    </sp>     
+                    <sp who="Valere" xml:id="S16_6">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='604' xml:id='l604'>Dans ſes regards douteux où régnoit la contrainte,</l>   
+                        <l n='605' xml:id='l605'>Je n'ai rien <choice><orig>vû</orig><reg>vu</reg></choice> de déciſif.</l>
+                            <l n='606' xml:id='l606'>Et le doute eſt pour moi le tourment le plus vif.</l>
+                        <l n='607' xml:id='l607'><choice><orig>Enflâmé</orig><reg>Enflammé</reg></choice> par l'eſpoir, <choice><orig>&amp;</orig><reg>et</reg></choice> glacé par la crainte,</l>
+                        <l n='608' xml:id='l608'>Je ne <choice><orig>ſçaurois</orig><reg>saurais</reg></choice> me définir ;</l>
+                        <l n='609' xml:id='l609'>Ma ſituation ne <choice><orig>peut-être</orig><reg>peut être</reg></choice> dépeinte;</l>
+                        <l n='610' xml:id='l610'>Je crains de perdre un bien que <choice><orig>j'eſpére</orig><reg>j'espère</reg></choice> obtenir.</l>
+                            <l n='611' xml:id='l611'>Dans cette obſcurité qui me trouble <choice><orig>&amp;</orig><reg>et</reg></choice> me gêne,</l>
+                            <l n='612' xml:id='l612'>Je ne ſens rien pour trop ſentir ;</l>
+                        <l n='613' xml:id='l613'>Et n'oſant former de <choice><orig>deſir</orig><reg>désir</reg></choice>,</l>
+                            <l n='614' xml:id='l614'>Je ſuis dans l'attente incertaine</l>
+                            <l n='615' xml:id='l615'>De la douleur <choice><orig>&amp;</orig><reg>et</reg></choice> du plaiſir.</l>
+                    </sp>     
+                    <sp who="Damon" xml:id="S16_7">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='616' xml:id='l616'>L'état eſt violent, <choice><orig>&amp;</orig><reg>et</reg></choice> j'entre dans ta peine.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="17" xml:id="S17">
+                    <head>SCENE XVII.</head><lb/>
+                    <stage>VALERE, DAMON, UN NOTAIRE.</stage>
+                    <sp who="Notaire" xml:id="S17_1">
+                        <speaker>LE NOTAIRE </speaker><stage type="delivery" rend="italics">à <persName>Valere</persName>.</stage><lb/>
+                        <l n='617' xml:id='l617'><c type="lettrine">L</c>Iſez , Monſieur, ce papier, s'il vous plaît.</l>
+                        <l n="618" xml:id="l618_1" part="I"><persName>Clarice</persName> vous <choice><orig>l'envoye</orig><reg>l'envoie</reg></choice>.</l>
+                    </sp>     
+                    <sp who="Valere" xml:id="S17_2">
+                        <speaker>VALERE</speaker><lb/>
+                        <l xml:id="l618_2" part="F">Ah ! Quel noir perſonnage !</l>
+                        <l n='619' xml:id='l619'>Je frémis. Son habit m'eſt d'un mauvais préſage.</l>
+                    </sp>   
+                    <sp who="Damon" xml:id="S17_3">
+                        <speaker>DAMON</speaker><lb/>
+                        <l n='620' xml:id='l620'>Avant de t'affliger regarde ce que c'eſt.</l>                                                   
+                    </sp>
+                    <pb n="111"/>
+                    <sp who="Valere" xml:id="S17_4">
+                        <speaker>VALERE </speaker><stage type="mixed" rend="italics">après avoir <choice><orig>lû</orig><reg>lu</reg></choice>.</stage>
+                        <l n='621' xml:id='l621'>C'eſt un Contrat de Mariage !</l>
+                        <l n='622' xml:id='l622'><persName>Clarice</persName>, en cet écrit, quel bonheur eſt le mien !</l>
+                        <l n="623" xml:id="l623_1" part="I">M'accepte pour Epoux!</l>
+                    </sp>
+                    <sp who="Notaire" xml:id="S17_5">
+                        <speaker>LE NOTAIRE.</speaker><lb/>
+                        <l xml:id="l623_2" part="F">Et vous donne ſon bien.</l>
+                    </sp>
+                    <sp who="Damon" xml:id="S17_6">
+                        <speaker>DAMON</speaker><lb/>
+                        <l n='624' xml:id='l624'>Un pareil Billet doux doit avoir ton ſuffrage.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S17_7">
+                        <speaker>VALERE</speaker><lb/>
+                        <l n='625' xml:id='l626'><choice><orig>O</orig><reg>Ô</reg></choice> ! Procédé charmant, <choice><orig>&amp;</orig><reg>et</reg></choice> qui n'a point d'égal !</l>
+                    </sp>
+                    <sp who="Notaire" xml:id="S17_8">
+                        <speaker>LE NOTAIRE </speaker><stage type="delivery" rend="italics">à <persName>Valere</persName>.</stage><lb/>
+                        <l n='627' xml:id='l627'> Signez <choice><orig>vîte</orig><reg>vite</reg></choice>, en voyant un ſi gros avantage.</l>
+                    </sp>
+                    <sp who="Valere" xml:id="S17_9">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='628' xml:id='l628'>Monſieur, à ce noble langage</l>
+                        <l n='629' xml:id='l629'>Je <choice><orig>reconnois</orig><reg>reconnais</reg></choice> en vous un Notaire Royal.</l>
+                        <lb/><stage type="action" rend="italics">(Il ſigne.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="18" xml:id="S18">
+                    <head>SCENE XVIII.</head><lb/>
+                    <stage>DAMON, VALERE, CLARICE, JULIE, <lb/> ARLEQUIN, MARTON, LE NOTAIRE.</stage><lb/>
+                    <sp who="Clarice" rend="S18_1">
+                        <speaker>CLARICE </speaker><stage type="delivery" rend="italics">à <persName>Valere</persName>.</stage><lb/>
+                        <l n='630' xml:id='l630'><c type="lettrine">D</c>E la réponſe que j'ai faite</l>
+                        <l n='631' xml:id='l631'>Votre <choice><orig>ame</orig><reg>âme</reg></choice> eſt-elle ſatiſfaite ?</l>
+                        <l n='632' xml:id='l632'>Et trouvez-vous que j'écrive ſi mal ?</l>
+                    </sp>
+                    <sp who="Valere" rend="S18_2">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l n='633' xml:id='l633'>Surpris de mon bonheur, je ne puis que me taire,</l>
+                        <l n='634' xml:id='l634'>Et me <choice><orig>jetter</orig><reg>jeter</reg></choice> à vos genoux.</l>
+                    </sp>
+                    <sp who="Clarice" rend="S18_3">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l n='635' xml:id='l635'> Vous m'aimez. Il ſuffit , <persName>Valere</persName>, levez-vous.</l>
+                        <l n='636' xml:id='l636'>Quelques biens dans ce jour que je puiſſe vous faire,</l>
+                        <l n='637' xml:id='l637'>Votre cœur eſt d'un prix qui les <choice><orig>acquite</orig><reg>acquitte</reg></choice> tous.</l>
+                    </sp>
+                    <sp who="Damon" rend="S18_4">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l n='638' xml:id='l638'>Nous voilà tous heureux, que la fête commence.</l>
+                    </sp>
+                    <pb n="112"/>
+                    <sp who="Arlequin" rend="S18_5">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='639' xml:id='l639'><persName>Marton</persName>, un mot avant qu'on danſe.</l>
+                        <l n='640' xml:id='l640'>La Lettre de tantôt , je veux bien l'excuſer,</l>
+                        <l n='641' xml:id='l641'><choice><orig>Pourvû</orig><reg>Pourvu</reg></choice> que votre main répare l'inſolence <sic>....</sic></l>
+                    </sp>
+                    <sp who="Marton" xml:id="S18_6">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l n='642' xml:id='l642'>Non, je ne veux que m'amuſer.</l>
+                        <l n='643' xml:id='l643'>Je ſuis faite pour plaire, <choice><orig>&amp;</orig><reg>et</reg></choice> non pour épouſer.</l>
+                    </sp>
+                    <sp who="Arlequin" xml:id="S18_7">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l n='644' xml:id='l644'>Et moi, quand on me fait un compliment ſemblable,</l>
+                        <l n='645' xml:id='l645'>J'ai l'eſprit de le mépriſer,</l>
+                        <l n='646' xml:id='l646'>Et d'envoyer fort poliment au diable</l>
+                        <l n='647' xml:id='l647'>Toute fille ſans goût, qui m'oſe refuſer.</l>
+                    </sp>
+                </div>
+                <pb n="113"/>
+                <div type="scene" n="19" xml:id="S19">
+                    <head>SCENE DERNIERE.</head> <lb/>
+                    <stage>LES ACTEURS <choice><orig>PRECEDENS</orig><reg>PRECEDENTS</reg></choice>. <lb/><lb/><hi rend="italics">Le Chanteur, Danſeurs <choice><orig>&amp;</orig><reg>et</reg></choice> Danſeuſes.</hi></stage><lb/>
+                    <sp who="Le Chanteur" xml:id="S19_1">
+                        <speaker>LE CHANTEUR.</speaker><lb/>
+                        <lg>
+                            <l n='648' xml:id='D1'><c type="lettrine">V</c>Enez, jeunes <choice><orig>Amans</orig><reg>amants</reg></choice> je ſuis un Précepteur</l>
+                            <l n='649' xml:id='D2'>Dont la morale eſt peu rigide.</l>
+                            <l n='650' xml:id='D3'>De l'Enfant de <placeName type="mythical" n="Paphos">Paphos</placeName> je tiens mon art <choice><orig>flateur</orig><reg>flatteur</reg></choice>;</l>
+                            <l n='651' xml:id='D4'>Ecoutez des leçons où lui-même préſide.</l>
+                            <l n='652' xml:id='D5'>A votre doux vainqueur,</l>
+                            <l n='653' xml:id='D6'>Quand votre main timide</l>
+                            <l n='654' xml:id='D7'>Voudra déclarer votre ardeur,</l>
+                            <l n='655' xml:id='D8'>Ne prenez pas l'eſprit pour guide ;</l>
+                            <l n='656' xml:id='D9'>Ne faites parler que le cœur.</l>
+                            <l n='657' xml:id='D10'>De l'amour en lui ſeul tout le charme réſide,</l>
+                            <l n='658' xml:id='D11'>Il eſt ſon plus grand orateur.</l>
+                            <l n='659' xml:id='D12'>Venez, jeunes <choice><orig>Amans</orig><reg>amants</reg></choice>, je ſuis un Précepteur</l>
+                            <l n='660' xml:id='D13'>Dont la morale eſt peu rigide.</l>
+                            <l n='661' xml:id='D14'>De l'Enfant de <placeName type="mythical" n="Paphos">Paphos</placeName> je tiens mon art <choice><orig>flateur</orig><reg>flatteur</reg></choice>,</l>
+                            <l n='662' xml:id='D15'>Ecoutez des leçons où lui-même préſide.</l>
+                        </lg>
+                    </sp>
+                    <div type="vaudeville" xml:id="V">
+                        <head rend="italics">VAUDEVILLE.</head><lb/>
+                        <sp who="Le Chanteur" xml:id="V1">
+                            <speaker>LE CHANTEUR.</speaker><lb/>
+                            <lg>
+                                <l n='663' xml:id='V1_1'>Pour vous, en qualité d'Amant,</l>
+                                <l n='664' xml:id='V1_2'>Je <choice><orig>prens</orig><reg>prends</reg></choice> la plume à tout moment,</l>
+                                <l n='665' xml:id='V1_3'>Beautés de l'œil m'attire ;</l>
+                                <l n='666' xml:id='V1_4'>Mais pour me charger avec vous</l>
+                                <l n='667' xml:id='V1_5'>Du titre dangereux d'Epoux,</l>
+                                <l n='668' xml:id='V1_6'>Je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> pas écrire.</l>
+                            </lg>
+                        </sp>
+                        <sp who="Mlle. Thomassin" xml:id="V2">
+                            <speaker>Mlle. THOMASSIN.</speaker><lb/>
+                            <lg>
+                                <l n='669' xml:id='V2_1'>Pour copier une chanſon,</l>
+                                <l n='670' xml:id='V2_2'>Ma main ne fait point de façon,</l>
+                                <l n='671' xml:id='V2_3'>On n'a qu'à me la dire ;</l>
+                                <pb n="114"/>
+                                <l n='672' xml:id='V2_4'>Mais pour donner des rendez-vous,</l>
+                                <l n='673' xml:id='V2_5'>Et répondre à des Billets doux, </l>
+                                <l n='674' xml:id='V2_6'>Je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> pas écrire.</l>
+                            </lg>
+                        </sp>
+                        <sp who="Gascon" xml:id="V3">
+                            <speaker>UN GASCON.</speaker><lb/>
+                            <lg>
+                                <l n='675' xml:id='V3_1'>A des tendrons <note resp="JL"><cit><bibl>Furetière 1701 </bibl><quote>ſe dit figurément <choice><orig>&amp;</orig><reg>et</reg></choice> burleſquement, des filles au deſſous de vingt ans.</quote></cit></note> jeunes <choice><orig>&amp;</orig><reg>et</reg></choice> frais,</l>
+                                <l n='676' xml:id='V3_2'>Sandis jé tracé des Billets</l>
+                                <l n='677' xml:id='V3_3'>Autant qu'on le <choice><orig>deſire</orig><reg>désire</reg></choice> ;</l>
+                                <l n='678' xml:id='V3_4'>Mais à des créanciers jamais :</l>
+                                <l n='679' xml:id='V3_5'>Pour ces Meſſieurs qui font des frais,</l>
+                                <l n='680' xml:id='V3_6'>Je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> pas écrire.</l>
+                            </lg>
+                        </sp>
+                        <sp who="Silvia" xml:id="V4">
+                            <speaker>Mlle. SILVIA.</speaker>
+                            <lg>
+                                <l n='681' xml:id='V4_1'>Quand il faut ſigner un contrat</l>
+                                <l n='682' xml:id='V4_2'>Contre lequel l'Amour combat,</l>
+                                <l n='683' xml:id='V4_3'>Notre main ſe retire ;</l>
+                                <l n='684' xml:id='V4_4'>Mais pour assurer le bonheur</l>
+                                <l n='685' xml:id='V4_5'>D'un Amant choiſi par le cœur,</l>
+                                <l n='686' xml:id='V4_6'>Ah ! Quel plaiſir d'écrire !</l>
+                            </lg>
+                        </sp>
+                        <sp who="Arlequin" xml:id="V5">
+                            <speaker>ARLEQUIN </speaker><stage type="delivery" rend="italics">au Parterre.</stage><lb/>
+                            <lg>
+                                <l n='687' xml:id='V5_1'>On peſte contre le Papier</l>
+                                <l n='688' xml:id='V5_2'>Quand on a le don d'ennuyer</l>
+                                <l n='689' xml:id='V5_3'>Au lieu de faire rire ;</l>
+                                <l n='690' xml:id='V5_4'>Mais pour l'Auteur qui réuſſit</l>
+                                <l n='691' xml:id='V5_5'>Et que votre main aplaudit</l>
+                                <l n='692' xml:id='V5_6'>Ah ! Qu'il eſt doux d'écrire !</l>
+                            </lg>
+                        </sp>
+                        <lb/><lb/><lb/>
+                        <p rend="center">FIN</p>
+                    </div>
+                </div>
+        </body>
+    </text>
+</TEI>

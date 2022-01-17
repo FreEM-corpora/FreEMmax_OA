@@ -1,0 +1,2376 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="fr">
+       <fileDesc>
+            <titleStmt>
+                <title type="main">Le Je ne sçai quoi</title>
+                <title type="subtitle">Édition électronique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Pr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Padey, Cyrielle</name>
+                    <name>Salaün, Marianne</name>
+                </respStmt>
+            </titleStmt>
+           <editionStmt>
+               <edition>Première édition, <date>2017</date>.
+               </edition>
+           </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address>
+                    <addrLine>http://www.licorn-ubs.com</addrLine>
+                </address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            <date>2017</date></publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>OEUVRES<lb/>DE MONSIEUR<lb/>DE BOISSY<pc>,</pc><lb/><hi rend='italics'>CONTENANT<lb/>Son Théâtre François &amp; Italien<pc>.</pc></hi> <lb/>NOUVELLE ÉDITION<pc>,</pc><lb/> Revuë<pc>,</pc> corrigée<pc>,</pc> &amp; augmentée de pluſieurs<lb/>Piéces nouvelles<pc>.</pc></title>
+                        <imprint>
+                            <pubPlace>AMSTERDAM et BERLIN</pubPlace>
+                            <publisher>JEAN NEAULME</publisher>
+                            <date when="1758">M.DCC.LVIII</date>
+                            <note>Tome troisième.</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                    <citedRange>Tome troisième, p. 139-183/</citedRange>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+       <encodingDesc>
+           <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.Son objectif principal est de fournir un texte destiné à l'exploration avec des outils électroniques. De ce fait, ce n'est ni une édition philologique, ni une édition pédagogique ou de redécouverte d'un auteur oublié.</p>
+               <p>Aussi n'est-elle pas accompagnée de présentation soignée, HTML ou PDF, quoique de tels développements restent possibles et sont planifiés dans un avenir plus ou moins proche. On ne trouvera pas d'introduction dans cetté édition, ni de notes explicatives. Elle ne présente pas non plus d'apparat critique. En partie, la raison de ces manques est à chercher du côté du contrat éditorial passé par la responsable scientifique avec une maison d'édition traditionnelle, qui se réserve la propriété de ces éléments paratextuels. Cependant, la raison principale reste l'intention de fournir avant tout une édition 'pour la recherche', l'encodage étant, dans cette perspective, la principale valeur de ce témoin électronique de l'oeuvre.</p>
+               <p>En revanche, le chercheur trouvera des balises 'analytiques'. Chaque réplique est attribuée à un personnage au moyen d'appellations unifiées (attribut 'who'). Actes, scènes et tours de parole sont dotés d'identifiants uniques, ainsi que les vers. Les noms (de personnes, de lieux), ainsi que les dates ont été balisés. Chaque didascalie est typée, quoique la liste d'attributs fournie dans ce cas par la TEI s'est avérée plus d'une fois insuffisante et sujette à interprétation: est-ce que 'seule' est à encoder avec l'attribut 'setting', 'novelistic' ou 'modifier'? Ou bien la balise 'mixed' est-elle à préférer? Dans ce cas précis, c'est 'delivery' qui a été préféré, sans certitude qu'il s'agisse de la meilleure pratique. D'une manière générale, l'utilisation de 'mixed' a été réduite autant que possible, comme étant trop peu précise.</p>
+               <p>En outre, la liste des personnages a été enrichie avec des 'features', dont on trouvera plus bas la déclaration. Cette liste permet également le signalement d'éléments de caractérisation dans le texte, mais cet enrichissement n'a pas été réalisé faute de vision claire sur les attributs à utiliser afin de signaler d'une part qui est caractérisé, d'autre part qui caractérise. La question, encore à l'étude, donnera lieu à un seconde couche d'encodage.</p>
+               <p>Dans certaines pièces, le lecteur trouvera une partie 'Interpretations' dans la section 'Back', signalant des topoï textuels au moyen de balises 'span'.</p>
+               <p>De même, il est à noter  que, quoique cette édition ne soit pas réalisée avec l'intention de fournir 'le meilleur texte', elle adopte une partie des principes philologiques. L'édition de base a été choisie parce qu'elle a été publiée l'année même de décès de Louis de Boissy, et probablement comme une opération commerciale destinée à profiter de l'intérêt que l'événement a pu susciter parmi les lecteurs. Elle offre une sorte de 'dernier état' du texte, certes non revu par l'auteur (ou, du moins, nou n'avons pas d'indication en ce sens), mais profitant malgré tout des corrections, additions, modifications apportées au fil des éditions précédentes. Celles-ci ne vont pas toujours dans le sens d'une amélioration du texte: certaines pièces sont dépouillées d'indications telles que l'air sur lequel certains vers sont chantés, sans doute pour en gommer la dimension parodique, à tout le moins de divertissement populaire, qu'elles assumaient dans les premières publications. Dans l'ensemble, cependant, Néaulme 1758 est une édition soignée, permettant de se faire une idée juste du talent de Boissy et de son univers dramaturgique.</p>
+               <p>Dans le même ordre d'idées, l'orthographe et la ponctuation d'origine ont été respectées. Une deuxième couche d'encodage, prévue ultérieurement, s'attachera à ajouter dans le texte des graphies modernisées, et à permettre le choix entre une ou l'autre graphie. En attendant, les spécificités de la graphie d'époque n'ont pas été 'écrasées' et permettent des études de grammaire historique.</p>
+               <p>Ce choix a l'inconvénient de rendre plus difficile le traitement du texte avec des concordanciers et autres outils de lemmatisation et balisage des parties du langage. Cependant, le progrès de ces derniers permet d'espérer que de telles opérations seront bientôt possibles sur des textes en graphie non-modernisée. Par ailleurs, la normalisation de la graphie est une opération relativement aisée à réaliser à partir d'une extraction du texte dans un format type docx ou odt, tandis que, à l'inverse, le 'retour' à la graphie d'origine est beaucoup plus difficile et chronophage.</p>
+               <p>La transcription qui est fournie ici n'est toutefois pas diplomatique. Les retours à la ligne ne sont signalés que dans le cas des pièces en vers (où ils sont moins nombreux), ou dans les titres. Si certaines pièces reproduisent le 's long', dans une seconde phase de saisie cet élément a été abandonné, comme étant très chronophage et porteur de peu d'information dans la perspective littéraire qui est celle de l'investigateur principal. De même, la variété typographique (capitales de différentes dimensions, ornements, espacements différenciés de certains mots) n'a pas été reproduite scrupuleusement: certaines capitales ont été translitérées en petites capitales, d'autres ont été 'aggrandies' ou 'diminuées' à la taille unique utilisée dans la transcription. Seules les italiques ont été scrupuleusement reproduites.</p>
+               <p>En revanche, les abbréviations utilisées dans le texte d'origine ont été respectées, et encodées quand elles ont été étendues. On y trouvera également la pagination de l'édition de base.</p>
+           </projectDesc>
+           <editorialDecl>
+               <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+               <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+               <punctuation>
+                   <p>La ponctuation n'est pas systématiquement encodée. Elle a été distinguée à l'intérieur des balises 'titre', afin de ne pas créer de faux doublons lors de l'extraction de ceux-ci (ex. 'Admète et Alceste,' considéré comme un titre distinct de 'Admète et Alceste.').</p> <p>Dans tous les cas, la punctuation d'origine a été respectée, y compris quand elle paraissait fautive. Dans ce cas, elle est signalée avec 'sic' et 'corr'. Toutefois, les particularités d'espacement de la ponctuation n'ont pas été reproduites à l'identique. Un système uniforme a été adopté: les ponctuations simples (point, virgule), sont placées immédiatement après le mot, les ponctuations doubles (point virgule, deux points, signes d'interrogation et d'exclamation) sont placées après une espace.</p>
+               </punctuation>
+               <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+               <interpretation>
+                   <p>Un schéma de 'features' (traits) est déclaré dans ce qui suit. Il permet de capter différents aspects de la caractérisation des personnages, selon des règles qui sont détaillées dans un 'Guide de saisie des caractérisèmes'. Cette caractérisation au moyen de features a été menée, pour cette première édition, uniquement sur la liste des personnages, mais peut être réalisée en principe, sur l'ensmeble du texte. Afin de mener une telle extension, il faut toutefois définir, au préalable, des façons d'encoder qui est caractérisé et par qui. Il convient également d'établir une pratique de balisage: faut-il encoder un seul mot, ou le syntagme, 'caractérisant', ou bien l'ensemble de la phrase où l'élément apparaît?</p>
+               </interpretation>
+           </editorialDecl>
+           <fsdDecl>
+               <fsDecl type="character_specification">
+                   <fDecl name="temper">
+                       <vRange><string></string></vRange>
+                   </fDecl>
+                   <fDecl name="age">
+                       <vRange>
+                           <vAlt>
+                               <symbol value="young" xml:id="AGY"/>
+                               <symbol value="old" xml:id="AGO"/>
+                               <symbol value="child" xml:id="AGC"/>
+                               <symbol value="adult" xml:id="AGA"/>
+                               <symbol value="unknown" xml:id="AGU"/>
+                           </vAlt>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="sex">
+                       <vRange>
+                           <vAlt>
+                               <symbol value="male" xml:id="SM"/>
+                               <symbol value="female" xml:id="SF"/>
+                               <symbol value="undetermined" xml:id="SU"/>
+                           </vAlt>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="nationality">
+                       <vRange><string></string>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="ontological_category">
+                       <vRange>
+                           <vAlt>
+                               <symbol value="human" xml:id="OCH"/>
+                               <symbol value="non-human" xml:id="OCNH"/>
+                               <symbol value="semi-human" xml:id="OCSH"/>
+                           </vAlt>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="family_position">
+                       <vRange>
+                           <vColl>
+                               <symbol value="father" xml:id="FPF"/>
+                               <symbol value="son" xml:id="FPSON"/>
+                               <symbol value="daughter" xml:id="FPD"/>
+                               <symbol value="mother" xml:id="FPM"/>
+                               <symbol value="uncle" xml:id="FPU"/>
+                               <symbol value="aunt" xml:id="FPA"/>
+                               <symbol value="nepheu_or_niece" xml:id="FPN"/>
+                               <symbol value="sister" xml:id="FPSIS"/>
+                               <symbol value="brother" xml:id="FPB"/>
+                               <symbol value="cousin" xml:id="FPC"/>
+                               <symbol value="step-mother" xml:id="FPSM"/>
+                               <symbol value="step-father" xml:id="FPSF"/>
+                               <symbol value="step-daughter" xml:id="FPSD"/>
+                               <symbol value="step-son" xml:id="FPSS"/>
+                               <symbol value="guardian" xml:id="FPG"/>
+                               <symbol value="ward" xml:id="FPWA"/>
+                               <symbol value="husband" xml:id="FPH"/>
+                               <symbol value="wife" xml:id="FPWIF"/>
+                               <symbol value="widow" xml:id="FPWID"/>
+                           </vColl>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="actantial_role">
+                       <vRange>
+                           <vColl>
+                               <symbol value="lover" xml:id="ARL"/>
+                               <symbol value="subject" xml:id="ARS"/>
+                               <symbol value="opponent" xml:id="AROP"/>
+                               <symbol value="adjuvant" xml:id="ARAD"/>
+                               <symbol value="authority" xml:id="ARAUT"/>
+                               <symbol value="trouble_maker" xml:id="ARTM"/>
+                               <symbol value="episodic" xml:id="AREP"/>
+                           </vColl>
+                       </vRange>
+                   </fDecl>
+                   <fDecl name="occupation">
+                       <vRange><string></string></vRange>
+                   </fDecl>
+                   <fDecl name="collective_character">
+                       <vRange>
+                           <binary value="true" xml:id="COLL"/>
+                       </vRange>
+                   </fDecl>
+               </fsDecl>
+           </fsdDecl>
+       </encodingDesc>
+       <profileDesc>
+           <creation>
+               <date when="1731-09-10">10 septembre 1731</date>
+               <rs type="city">Paris, France.</rs></creation>
+           <textClass>
+               <keywords>
+                   <term>théâtre</term>
+                   <term>comédie</term>
+                   <term>divertissement</term>
+                   <term>comédie allégorique</term>
+                   <term>parodie</term>
+               </keywords>
+           </textClass>
+       </profileDesc>
+       <revisionDesc>
+           <change><date when="2015-05-23">23 mai 2015</date>Révisions faites par Josephine LOTERIE en vue de l'harmonisation du corpus Boissy.</change>
+           <change><date when="2017-10-12">12 octobre 2017</date>. Révision du texte par confrontation optique avec le témoin. Ajout de xml:id. Vérification de l'usage de <gi>name</gi>. Responsable: <name>Ioana GALLERON.</name></change>
+          </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="139"/>
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">LE <lb/>JE NE SÇAI QUOI,</titlePart><lb/>
+                    <titlePart type="desc">COMEDIE. <lb/> EN UN ACTE,</titlePart><lb/>
+                    <titlePart type="sub" rend="italics">AVEC UN DIVERTISSEMENT.</titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="140"/>
+            <castList>
+                <head rend="italics">ACTEURS.</head><lb/><lb/>
+                <castItem xml:id="Momus" ana="#OCNH #SM #ARS"><role>MOMUS</role>.</castItem>
+                <castItem xml:id="Venus" ana="#OCNH #SF #AROP"><role>VENUS</role>.</castItem>
+                <castItem xml:id="Apollon" ana="#AROP #OCNH #SM"><role>APOLLON</role>.</castItem>
+                <castItem xml:id="Arlequin" ana="#SM #OCH #ARS"><role>LE JE NE SÇAI QUOI</role>,</castItem>
+                <castItem xml:id="Geometre" ana="#OCH #SM #AREP"><role>LE GEOMETRE.</role>.</castItem>
+                <castItem ana="#OCH #SM #AREP" xml:id="pm"><role>LE PETIT MAISTRE</role>.</castItem>
+                <castItem xml:id="Suisse" ana="#OCH #SM #AREP"><role><fs><f name="nationality">LE SUISSE</f></fs></role>.</castItem>
+                <castItem xml:id="PublicF" ana="#OCH #SF #ARAD #AREP #COLL"><role>LE PUBLIC FEMININ</role>.</castItem>
+                <castItem xml:id="Acteur" ana="#OCH #SM #AREP #ARAD"><role>Acteur Français</role>.</castItem>
+                <castItem ana="#COLL"><role xml:id="Musicien"><fs><f name="occupation">LE MUSICIEN</f></fs></role> ET <role xml:id="Danseuse"><fs><f name="occupation">LA DANSEUSE</f></fs></role>.</castItem>
+                <castItem xml:id="Silvia" ana="#OCH #SF #ARAD #AREP"><role>SILVIA</role>.</castItem>
+                <castItem xml:id="Troupe" ana="#COLL"><roleDesc>TROUPE de Calotins &amp; Calotines</roleDesc>.</castItem>
+            </castList><lb/><lb/><lb/><lb/>
+            <set>
+                <p rend="center" rendition="italics">La Scène eſt dans un Déſert.</p>
+            </set>
+            <pb n="141"/>
+        </front>
+        <body>
+            <div type="title">
+                <head>LE <lb/> JE NE SÇAI QUOI, <lb/>COMEDIE</head>
+            </div>
+            <div type="scene" n="1" xml:id="S1">
+                <head>SCENE PREMIERE.</head><lb/>
+                <stage>MOMUS, VENUS.</stage><lb/>
+                <sp who="#Momus" xml:id="S1_1">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l><c type="lettrine">Q</c>UE vient faire <name type='god' ref="#Venus">Cypris</name> dans ce lieu ſoli-<lb/>taire ?</l>
+                </sp>
+                <sp who="#Venus" xml:id="S1_2">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l part="I">Et qu'y cherche <name type="god" ref="#Momus">Momus</name> ?</l>
+                </sp>
+                <sp who="#Momus" xml:id="S1_3">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l part="F">C'eſt un fripon charmant, </l>
+                    <l>Qui n'eſt pas <rs type="god" n="Amour">votre fils</rs>, &amp; qu'on prend pour ſon frere,</l>
+                    <l>Dont le nom, même, eſt un <choice><orig>myſtére</orig><reg>mystère</reg></choice> ;</l>
+                    <l>Déserteur de mon Régiment</l>
+                    <l>Ainſi que de <name type="place" n="Cythère">Cythére</name> : </l>
+                    <l>Il a les traits peu réguliers, mais fins ;</l>
+                    <l>Son air eſt ingénu, ſes diſcours ſont badins ;</l>
+                    <l>Il eſt brun de viſage, &amp; petit de figure ;</l>
+                    <pb n="142"/>
+                    <l>De l'art trop compoſé fuit les charmes contraints</l>
+                    <l>Et tient ſes <choice><orig>agrémens</orig><reg>agréments</reg></choice> des mains de la nature :</l>
+                    <l>Votre fils eſt plus beau, mais je crois celui-ci,</l>
+                    <l>Soit dit ſans vous mettre en <choice><orig>colére</orig><reg>colère</reg></choice>,</l>
+                    <l>Mille fois plus piquant, mille fois plus joli ;</l>
+                    <l>Et, dans tout ce qu'il fait, il a le don de plaire.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S1_4">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l>Ah ! je <choice><orig>reconnois</orig><reg>reconnais</reg></choice>-là le Dieu de l'Agrément,</l>
+                    <l><rs type="allegory" ref="#Arlequin">LE JE NE <choice><orig>SÇAI</orig><reg>SAIS</reg></choice> QUOI</rs> raviſſant,</l>
+                    <l>Que <rs type="god">la plus charmante des Graces</rs></l>
+                    <l>Et <rs type="allegory">le Caprice</rs> ont mis au jour ;</l>
+                    <l>Qui <choice><orig>faiſoit</orig><reg>faisait</reg></choice> autrefois la gloire de ma cour,</l>
+                    <l>Et qui fuit à préſent mes traces.</l>
+                </sp>
+                <sp who="#Momus" xml:id="S1_5">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>Conſolez-vous, <rs type="god" ref="#Venus">Déeſſe</rs>, <name type="god" ref="#Apollon">Apollon</name> que voici,</l>
+                    <l>Eprouve les mêmes <choice><orig>diſgraces</orig><reg>disgrâces</reg></choice>,</l>
+                    <l>Et, comme vous, ſans doute, il vient chercher ici</l>
+                    <l>Le fier <rs type="allegory" ref="#Arlequin">Je ne ſçai quoi</rs> que cache cette grotte.</l>
+                </sp>
+            </div>
+            <div type="scene" n="2" xml:id="S2">
+                <head>SCENE II.</head><lb/>
+                <stage>APOLLON, MOMUS, VENUS.</stage><lb/>
+                <sp who="#Apollon" xml:id="S2_1">
+                    <speaker>APOLLON.</speaker><lb/><lb/>
+                    <l><c type="lettrine">L</c>E Dieu <name type="god" ref="#Momus">Momus</name> l'y cherche auſſi ;</l>
+                    <l>Eſt-ce pour lui donner une Brevet de Calotte ?</l>
+                    <l>Il en eſt digne, ſûrement,</l>
+                    <l>Par ſa rare conduite.</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_2">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>Mais vous faites, par-là, ſon éloge vraiment.</l>
+                    <l>La brigue ne fait rien dans notre régiment,</l>
+                    <l>On n'y reçoit que le mérite :</l>
+                    <l>Vous en faites, <rs type="god" ref="#Apollon">Seigneur</rs>, vous-même l'ornement,</l>
+                    <l>Auſſi-bien que <rs type="allegory" ref="#Arlequin">le Dieu dont vous blâmez la fuite</rs>.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S2_3">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Un tel honneur me flatte infiniment :</l>
+                    <pb n="143"/>
+                    <l>Mais je me rends juſtice, &amp; je ſens l'avantage</l>
+                    <l>Qu'à ſur moi cet enfant volage ;</l>
+                    <l>C'eſt lui qui, le premier, a rendu floriſſant</l>
+                    <l>Ce corps dont la chaleur s'eſt un peut ralentie.</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_4">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>Et ! C'eſt depuis qu'il eſt absent.</l>
+                    <l>Sans <rs type="allegory" ref="#Arlequin">le Je ne <choice><orig>sçai</orig><reg>sais</reg></choice> quoi</rs>, tout languit dans la vie ;</l>
+                    <l>Il en fait tout l'enchantement :</l>
+                    <l>C'eſt <rs type="allegory" ref="#Arlequin">le Je ne <choice><orig>sçai</orig><reg>sais</reg></choice></rs> quoi qui met ſur la folie,</l>
+                    <l>Cet aimable vernis qui la rend ſi jolie,</l>
+                    <l>Et ſur tous mes ſujets répand cet enjoûement</l>
+                    <l>Qui fait paſſer heureuſement</l>
+                    <l>Leur plus piquante raillerie :</l>
+                    <l>Sans <rs type="allegory" ref="#Arlequin">le Je ne <choice><orig>sçai</orig><reg>sais</reg></choice> quoi</rs>, <rs ref="#Apollon">le Dieu des vers</rs> ennuie ;</l>
+                    <l>Il donne à ſes accords ce doux charme qui plaît</l>
+                    <l>Et remplit  seul <term>la Tragédie</term></l>
+                    <l>De <term>la chaleur de l'Intérêt</term> : </l>
+                    <l>Sans <rs type="allegory" ref="#Arlequin">le Je ne <choice><orig>sçai</orig><reg>sais</reg></choice> quoi</rs>, ſans ſa <choice><orig>grace</orig><reg>grâce</reg></choice> infinie,</l>
+                    <l>La Beauté n'offre aux yeux qu'un éclat impuiſſant ;</l>
+                    <l>C'eſt <rs type="allegory" ref="#Arlequin">le Je ne <choice><orig>sçai</orig><reg>sais</reg></choice> quoi</rs>, qui, je ne ſçai comment,</l>
+                    <l>Forme la ſympathie.</l>
+                    <l>Enfin, par <rs type="allegory" ref="#Arlequin">ce Je ne <choice><orig>sçai</orig><reg>sais</reg></choice> quoi</rs>,</l>
+                    <l>Un cœur s'attache à l'autre, &amp; ſans <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> pourquoi :</l>
+                    <l>On combattoit en vain, ſa douce tyrannie ;</l>
+                    <l>Du petit enchanteur un regard ſéduisant,</l>
+                    <l>Un coup de tête, un geſte, une <choice><orig>maniére</orig><reg>manière</reg></choice>,</l>
+                    <l><rs type="god" ref="#Venus">Déeſſe des Amours</rs>, font plus en un inſtant,</l>
+                    <l>Que ne <choice><orig>feroient</orig><reg>feraient</reg></choice> votre Art &amp; ſon talent</l>
+                    <l>En une année <choice><orig>entiére</orig><reg>entière</reg></choice>.</l>
+                    <l>Heureux cent fois l'Auteur,</l>
+                    <l>Heureux l'amant, heureux l'Acteur ;</l>
+                    <l>Heureuſes mille fois les belles,</l>
+                    <l>Sur qui ſes libérales mains</l>
+                    <l>Répandent en naiſſant ſes <choice><orig>graces</orig><reg>grâces</reg></choice> naturelles ;</l>
+                    <l>De toucher &amp; de plaire, ils ſont toujours certains.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S2_5">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Ciel ! Qu'<choice><orig>entens</orig><reg>entends</reg></choice>-je ? <name type="god" ref="#Momus">Momus</name> s'eſt fait panégyriſte.</l>
+                </sp>
+                <pb n="144"/>
+                <sp who="#Venus" xml:id="S2_6">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l><rs type="god" ref="#Momus">Le Dieu des <choice><orig>médiſans</orig><reg>médisants</reg></choice></rs> devient votre copiſte.</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_7">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>Doucement ; je ne fais cet éloge de lui,</l>
+                    <l>Que pour mieux vous blâmer <rs type="god" ref="#Apollon">l'un</rs> &amp; <rs type="god" ref="#Venus">l'autre</rs> aujour-<lb/>d'hui :</l>
+                    <l>Du départ de <rs type="allegory" ref="#Arlequin">ce Dieu</rs> vous êtes ſeuls la cauſe.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S2_8">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l part="I">Qui ? Nous ?</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_9">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l part="F">Vous même. En vain vous faites les ſurpris.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S2_10">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l>Je m'étonne, ſur nous, que vous mettiez la choſe.</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_11">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>Ce ſont tous les abus que vous avez permis ;</l>
+                    <l>C'eſt l'affectation, c'eſt la coquetterie,</l>
+                    <l>Le fard &amp; le clinquant qui ſemble, des habits,</l>
+                    <l>Avoir paſſé dans les écrits ;</l>
+                    <l>Ce ſont tous les faux airs que le faſte a fait naître,</l>
+                    <l>Qui l'ont forcé d'abandonner <name type="place" n="Paris">Paris</name>,</l>
+                    <l>Pour ſuivre la nature en ce ſéjour champêtre.</l>
+                    <l>Voilà ce qu'a produit la fureur de <choice><orig>paroître</orig><reg>paraître</reg></choice>.</l>
+                    <l>De la ſimplicité l'on ne ſent plus le prix :</l>
+                    <l>Toute belle eſt <rs type="character">coquette</rs>, &amp; fait gloire de l'être ;</l>
+                    <l>Tous les Auteurs ſont <rs type='character'>beaux eſprits</rs>,</l>
+                    <l>Et tout amant eſt <rs type="character">petit-maître</rs>.</l>
+                    <l>De la contagion ſi quelqu'un eſt exempt,</l>
+                    <l>C'eſt à l'abri de ma marotte ;</l>
+                    <l>Et, pour amis du vrai, je compte uniquement</l>
+                    <l>Nos <rs type="character">Officiers de la Calotte</rs>.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S2_12">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Je fronde, comme vous, le faux goût d'à-préſent ;</l>
+                    <l>Mais, malgré mes efforts, ſon empire s'étend.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S2_13">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l>C'eſt par un pur caprice, &amp; non par notre faute,</l>
+                    <l>Que nous avons perdu ce génie inconſtant ;</l>
+                    <l>Avec les <choice><orig>graces</orig><reg>grâces</reg></choice> de sa mere,</l>
+                    <l>Il a l'humeur fantaſque de ſon pere.</l>
+                </sp>
+                <pb n="145"/>
+                <sp who="#Momus" xml:id="S2_14">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>Ce que j'y vois pour vous de plus triſte aujourd'hui,</l>
+                    <l>C'eſt que, depuis le jour que ce Dieu s'eſt enfui,</l>
+                    <l>L'Ennui mortel a pris ſa place ;</l>
+                    <l>Et l'on <choice><orig>bâille</orig><reg>baille</reg></choice> à <name type="place" n="Cythère">Cythére</name> auſſi fort qu'au <name type="place" n="Parnasse">Parnaſſe</name>.</l>
+                    <l><rs type="god">L'Amour</rs> ne fait plus que languir ;</l>
+                    <l>De vains <choice><orig>amuſemens</orig><reg>amusements</reg></choice> on a beau le remplir,</l>
+                    <l>Le cœur demeure toujours <choice><orig>vuide</orig><reg>vide</reg></choice>,</l>
+                    <l>Et <rs type="allegory">l'Ennui</rs>, d'un vol rapide,</l>
+                    <l>S'y vient nicher au milieu du Plaiſir.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S2_15">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l>Le moyen de s'en garantir ?</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_16">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>Cela me <choice><orig>paroît</orig><reg>paraît</reg></choice> difficile.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S2_17">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l>Il a même forcé notre dernier <choice><orig>azile</orig><reg>asile</reg></choice> ;</l>
+                    <l>Le Théâtre eſt en <choice><orig>proye</orig><reg>proie</reg></choice> à ſa noire vapeur.</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_18">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>C'eſt notre premier temple ; il eſt de notre honneur</l>
+                    <l>D'en prendre la défenſe :</l>
+                    <l>C'eſt la cauſe, d'ailleurs, de tous les immortels.</l>
+                    <l>Si <rs type="allegory">l'Ennui</rs> s'établit dans le ſein de la France,</l>
+                    <l>Il détruira tous leurs autels.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S2_19">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Contre un fléau ſi grand, que peut votre puiſſance ?</l>
+                    <l part="I">Que faire enfin ?</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_20">
+                    <speaker>MOMUS</speaker><lb/>
+                    <l part="F">Agir tous de concert,</l>
+                    <l>Pour arracher de ſe déſert</l>
+                    <l><rs ref="#Arlequin" type="allegory">Le Dieu dont la preſence</rs></l>
+                    <l>Peut ſeule exterminer cet ennemi fatal ;</l>
+                    <l>Mais il ne faut pas moins qu'un effort général ;</l>
+                    <l>Cette grotte &amp; ces lieux qu'arroſe une onde pure ;</l>
+                    <l>Pour retenir ſes pas ſemblent formés exprès ;</l>
+                    <l>De leur agréable ſtructure,</l>
+                    <l>Le ſeul <rs type="allegory">Caprice</rs> a fait les frais.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S2_21">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l>Mais, comment l'arracher du fond de ſa retraite ?</l>
+                </sp>
+                <pb n="146"/>
+                <sp who="#Momus" xml:id="S2_22">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>Pour lui faire quitter ces lieux,</l>
+                    <l>Ecoutez un deſſein que mon eſprit projette,</l>
+                    <l>Et qui ſera, je crois, approuvé dans les Cieux.</l>
+                    <l>Parmi tous les mortels qui nous rendent hommage,</l>
+                    <l>Que chacun de nous tâche à trouver un ſujet</l>
+                    <l>Qui puiſſe avoir l'heureux attrait</l>
+                    <l>De rapeller <rs type="allegory" ref="#Arlequin">ce Dieu volage</rs>,</l>
+                    <l>Et de le fixer tout-à-fait.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S2_23">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Vous eſpérez avoir, ſans doute, l'avantage</l>
+                    <l>De l'emporter ſur tous les autres Dieux ;</l>
+                    <l>Et ce retour ſera l'ouvrage</l>
+                    <l>De quelque <rs type="character">Calotin joyeux</rs>.</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_24">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>Mais ne croyez pas rire, avec un tel langage ;</l>
+                    <l>On plaît moins par le ſérieux,</l>
+                    <l>Qu'on ne fait pas le badinage,</l>
+                    <l>Et <rs type="allegory" ref="#Arlequin">le Je ne ſçai quoi</rs>, ſi charmant à nos yeux,</l>
+                    <l>Eſt lui-même porté vers le Calotinage,</l>
+                    <l>Et tient de lui ſes traits les plus victorieux.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S2_25">
+                    <speaker>VENUS.</speaker>
+                    <l>Mais aux Mortels, pourquoi donner la gloire</l>
+                    <l>De l'exécution ?</l>
+                    <l>C'eſt nous avilir de les croire,</l>
+                    <l>Dans cette occaſion,</l>
+                    <l>Plus capables que nous d'obtenir la victoire.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S2_26">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Oui, de n'avoir pas cet honneur,</l>
+                    <l>Ma dignité s'offenſe &amp; mon orgueil murmure.</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_27">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l>C'eſt cette dignité qui doit nous en exclure ;</l>
+                    <l>La contrainte &amp; l'<choice><orig>aprêt</orig><reg>apprêt</reg></choice> qui ſuivent la grandeur,</l>
+                    <l><choice><orig>Donneroient</orig><reg>Donneraient</reg></choice> l'épouvante à <rs ref="#Arlequin" type="allegory">notre deſerteur</rs>.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S2_28">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l>Avant de recourir à ce moyen extrême,</l>
+                    <l>Moi, je veux essayer du moins,</l>
+                    <l>Si je ne pourrai pas réuſſir par moi-même.</l>
+                </sp>
+                <pb n="147"/>
+                <sp who="#Apollon" xml:id="S2_29">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Et j'y vais, comme vous, apliquer tous mes ſoins.</l>
+                </sp>
+                <sp who="#Momus" xml:id="S2_30">
+                    <speaker>MOMUS.</speaker><lb/>
+                    <l><fs><f name="temper">Des Coquettes </f></fs> <rs type="god" ref="#Venus">elle</rs> eſt la Reine,</l>
+                    <l><rs ref="#Apollon">Il eſt le Dieu</rs> <fs><f name="temper">des beaux eſprits</f></fs> ;</l>
+                    <l>Je ne ſuis nullement ſurpris</l>
+                    <l>Si l'amour propre les entraîne.</l>
+                    <l>D'un ſi noble deſſein je vous aplaudis fort.</l>
+                    <l>Mais voici <rs ref="#Arlequin" type="allegory">ce Dieu ſolitaire</rs>,</l>
+                    <l>Qui vers ce lieu prend ſon eſſort ;</l>
+                    <l>Il s'offre à vos filets, <choice><orig>ſignalés</orig><reg>signalez</reg></choice> votre effort.</l>
+                    <l>Pour convaincre les Dieux du choix qu'ils doivent <lb/>faire,</l>
+                    <l>Et pour ſonger au mien, moi, je quitte ce bord.</l>
+                    <lb/><stage type="exit" rend="italics">(Il s'en va.)</stage>
+                </sp>
+            </div>
+            <div type="scene" n="3" xml:id="S3">
+                <head>SCENE III.</head>
+                <stage>APOLLON, VENUS, ARLEQUIN</stage>
+                <sp who="#Arlequin" xml:id="S3_1">
+                    <speaker>ARLEQUIN.</speaker>
+                    <l><c type="lettrine">Q</c>Uels ſont les importuns qu'ici je vous <choice><orig>paroître</orig><reg>paraître</reg></choice> ?</l>
+                    <l>C'eſt <name type="god" ref="#Apollon">Apollon</name> &amp; <name type="god" ref="#Venus">Madame Vénus</name> : </l>
+                    <l>Qu'ils ſont changés depuis que je ne les ai <choice><orig>vûs</orig><reg>vus</reg></choice> !</l>
+                    <l>J'<choice><orig>avois</orig><reg>avais</reg></choice> d'abord peine à les <choice><orig>reconnoître</orig><reg>reconnaître</reg></choice>.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S3_2">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Il s'effarouche en nous voyant.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_3">
+                    <speaker>ARLEQUIN</speaker><lb/>
+                    <l part="I">Que veulent-ils ?</l>
+                </sp>
+                <sp who="#Venus" xml:id="S3_4">
+                    <speaker>VENUS.</speaker>
+                    <l part="F">Il faut l'aborder doucement.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_5">
+                    <speaker>ARLEQUIN.</speaker>
+                    <l>Quelle affectation ! Quel rouge épouventable !</l>
+                    <l>Je ne puis ſoutenir leur aſpect ſeulement.</l>
+                    <l><choice><orig>Vîte</orig><reg>Vite</reg></choice>, rentrons dans mon apartement.</l>
+                </sp>
+                <pb n="148"/>
+                <sp who="#Venus" xml:id="S3_6">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l>Pourquoi nous fuir, <rs ref="#Arlequin" type="allegory">génie aimable</rs> ?</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S3_7">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Vous ſeriez accompli,</l>
+                    <l>Si vous vouliez vous montrer plus affable.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_8">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Ah ! vous me trouvez donc joli ?</l>
+                </sp>
+                <sp who="#Venus" xml:id="S3_9">
+                    <speaker>VENUS </speaker>
+                    <stage type="delivery" rend="italics">d'un air minaudier.</stage><lb/>
+                    <l>Plus on vous voit, &amp; plus on vous trouve agréable.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_10">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage type="delivery" rend="italics">à Vénus.</stage><lb/>
+                    <l>Ce compliment eſt fort poli ;</l>
+                    <l>Mais, ne pourriez-vous pas, de <choice><orig>grace</orig><reg>grâce</reg></choice>,</l>
+                    <l>Me dire des douceurs ſans faire la grimace ?</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S3_11">
+                    <speaker>APOLLON </speaker>
+                    <stage type="business" rend="italics">faisant le gracieux.</stage><lb/>
+                    <l>Tout eſt charmant en vous ; vous êtes embelli</l>
+                    <l>Même par votre bruſquerie.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_12">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Ah ! Vous m'affadiſſez par votre flatterie,</l>
+                    <l>Et vous accompagnez ce trait, digne de vous,</l>
+                    <l>D'un <fs><f name="temper">ſouris fat</f></fs> &amp; plein d'<choice><orig>affeterie</orig><reg>afféterie</reg></choice>,</l>
+                    <l>Capable de gâter l'éloge le plus doux.</l>
+                    <l>Faites-moi tous les deux un plaiſir, je vous prie.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S3_13">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l part="I">Volontiers.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_14">
+                    <speaker>ARLEQUIN.</speaker>
+                    <l part="F"><choice><orig>Privés-moi</orig><reg>Privez-moi</reg></choice> de votre compagnie,</l>
+                    <l>Ou <choice><orig>trouvés</orig><reg>trouvez</reg></choice> bon que je vous diſe adieu.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S3_15">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l>D'où vous vient cette ſaillie <unclear>?</unclear></l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_16">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>D'une raiſon ſans répartie.</l>
+                    <l>Nous ne <choice><orig>ſçaurions</orig><reg>saurions</reg></choice> tous trois être en un même lieu.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S3_17">
+                    <speaker>APOLLON.</speaker>
+                    <l>Mais pourquoi donc, je vous ſuplie ?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_18">
+                    <speaker>ARLEQUIN.</speaker>
+                    <l>C'eſt qu'avec l'art, j'ai de l'antipathie ;</l>
+                    <l>Et pour trancher les diſcours ſuperflus,</l>
+                    <l>Que Madame n'eſt plus</l>
+                    <pb n="149"/>
+                    <l>Qu'une <fs><f name="temper">vieille Coquette</f></fs> à mes yeux enlaidie,</l>
+                    <l>Dont je ne puis ſouffrir le viſage fardé,</l>
+                    <l>Et que vous êtes, vous, <fs><f name="temper">un bel eſprit guindé</f></fs>,</l>
+                    <l>Dont l'entretien m'ennuye.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S3_19">
+                    <speaker>APOLLON </speaker>
+                    <stage type="business" rend="italics">l'arrêtant.</stage><lb/>
+                    <l><choice><orig>Arrêtés</orig><reg>Arrêtez</reg></choice>, <rs type="allegory" ref="#Arlequin">charmant je ne ſçai quoi</rs> ;</l>
+                    <l>Ne partés pas ſi <choice><orig>vîte</orig><reg>vite</reg></choice> ;</l>
+                    <l>Nous avons traverſé les airs, <name type="god" ref="#Venus">Vénus</name> &amp; moi,</l>
+                    <l>Pour venir vous rendre viſite.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_20">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Adieu. Je prens la fuite,</l>
+                    <l>Dès qu'on court après moi.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S3_21">
+                    <speaker>VENUS </speaker>
+                    <stage type="business" rend="italics">en le retenant.</stage><lb/>
+                    <l>Ah ! <choice><orig>montrés-nous</orig><reg>montrez-nous</reg></choice> <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> le moyen de vous plaire.</l>
+                    <l>Pour vaincre vos rigueurs, dites, que faut-il faire ?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_22">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Vous <choice><orig>raprocher</orig><reg>rapprocher</reg></choice> de la ſimplicité.</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S3_23">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>C'eſt à quoi, chaque jour, notre eſprit s'étudie ;</l>
+                    <l>En ſans ceſſe par nous votre air eſt imité.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_24">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Par-là même, morbleu ! vous êtes affecté :</l>
+                    <l>On n'eſt plus naturel, <choice><orig>ſi-tôt</orig><reg>sitôt</reg></choice> que l'on copie ;</l>
+                    <l part="I">Ainſi, plus de commerce.</l>
+                </sp>
+                <sp who="#Venus" xml:id="S3_25">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l part="F">Ah ! Quelle cruauté !</l>
+                    <l>Le dernier des mortels ne <choice><orig>seroit</orig><reg>serait</reg></choice> pas traité</l>
+                    <l>D'une façon plus dure.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_26">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Je le <choice><orig>recevrois</orig><reg>recevrais</reg></choice> beaucoup mieux</l>
+                </sp>
+                <sp who="#Apollon" xml:id="S3_27">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Pourquoi nous faire cette injure ?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S3_28">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>C'eſt que les hommes ſont moins fardés que les Dieux.</l>
+                    <l>Plus on eſt guindé dans les Cieux,</l>
+                    <l>Moins on eſt près de la nature ;</l>
+                    <l>Et ſouvent les plus grands sont les plus ennuyeux.</l>
+                    <l>Voilà pourquoi je vous fais mes adieux.</l>
+                </sp>
+                <pb n="150"/>
+                <sp who="#Venus" xml:id="S3_29">
+                    <speaker>VENUS.</speaker><lb/>
+                    <l><sic></sic><corr>C'</corr>eſt moi, <choice><orig>plûtôt</orig><reg>plutôt</reg></choice>, qui vous <choice><orig>céde</orig><reg>cède</reg></choice> la place</l>
+                    <l>Je rougis d'en avoir trop fait,</l>
+                    <l>Et mon juſte dépit me chaſſe.</l>
+                    <l>Une mortelle aura peut-être le ſecret</l>
+                    <l>De venger ma <choice><orig>diſgrace</orig><reg>disgrâce</reg></choice>.</l>
+                    <stage type="exit" rend="italics">(Elle ſort.)</stage>
+                </sp>
+                <sp who="#Apollon" xml:id="S3_30">
+                    <speaker>APOLLON.</speaker><lb/>
+                    <l>Honteux d'avoir tenté des efforts ſuperflus,</l>
+                    <l>Je vais ſuivre trop tard le conſeil de <name type="god" ref="#Momus">Momus</name>.</l>
+                    <stage type="exit" rend="italics">(Il s'en va.)</stage>
+                </sp>
+            </div>
+            <div type="scene" n="4" xml:id="S4">
+                <head>SCENE IV.</head><lb/>
+                <stage>ARLEQUIN, UN GÉOMETRE.</stage><lb/>
+                <sp who="#Geometre" xml:id="S4_1">
+                    <speaker>LE GÉOMETRE </speaker>
+                    <stage rend="italics">ſans voir <name type="person" n="Arlequin">Arlequin</name>.</stage><lb/><lb/>
+                    <l><c type="lettrine">P</c>Lus je combine, plus je penſe,</l>
+                    <l>Et moins dans le fond je conçois</l>
+                    <l>Le prétendu <rs ref="#Arlequin" type="allegory">JE NE SÇAI QUOI</rs>,</l>
+                    <l>Dont chacun regrette l'abſence,</l>
+                    <l>Et qu'on dit en ces lieux faire ſa réſidence.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_2">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage type="delivery" rend="italics">à par<sic>r</sic><corr>t</corr>.</stage><lb/>
+                    <l>Ce faquin-là médit de moi.</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_3">
+                    <speaker>LE GÉOMETRE</speaker><lb/>
+                    <l>Ou la Géométrie eſt fauſſe &amp; vaine en ſoi,</l>
+                    <l>Et je ſuis une franche bête ;</l>
+                    <l>Ou <rs type="allegory" ref="#Arlequin">ce Je ne ſçai quoi</rs> dont l'Univers s'entête,</l>
+                    <l>Et cette gentilleſſe avec cet agrément</l>
+                    <l>Que dans le monde on cherche tant,</l>
+                    <l>Et dont on prétend qu'il eſt pere,</l>
+                    <l>Ne ſont qu'une pure <choice><orig>chimére</orig><reg>chimère</reg></choice>.</l>
+                    <l><rs type="allegory">L'exacte Vérité</rs>, <rs type="allegory">la ſolide Raiſon</rs>,</l>
+                    <l>Ont ſeules droit de plaire ;</l>
+                    <l>Tout le reſte n'eſt qu'un jargon.</l>
+                </sp>
+                <pb n="151"/>
+                <sp who="#Arlequin" xml:id="S4_4">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Holà, héy ! Jargon toi-même.</l>
+                    <l><choice><orig>Sçais</orig><reg>Sais</reg></choice>-tu bien, maître original,</l>
+                    <l><choice><orig>Sçais</orig><reg>Sais</reg></choice>-tu bien que celui dont tu parles ſi mal,</l>
+                    <l><choice><orig>Pourroit</orig><reg>pourrait</reg></choice> fort bien punir ton inſolence extrême ?</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_5">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l part="I">Vous le <choice><orig>connoiſſez</orig><reg>connaissez</reg></choice> donc ?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_6">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="F"><choice><orig>Oüi</orig><reg>Oui</reg></choice>.</l>
+                    <l>Ma gloire, qui plus eſt, m'engage à le défendre.</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_7">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l>Pour moi, la Vérité qui me conduit ici,</l>
+                    <l>Ne me permet pas de me rendre</l>
+                    <l>Avant d'être mieux éclairci.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_8">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Pour convaincre à l'inſtant ton eprit endurci,</l>
+                    <l>Il te ſuffit de ſa <choice><orig>preſence</orig><reg>présence</reg></choice>.</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_9">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l>Où donc eſt-il ? Je <choice><orig>ſerois</orig><reg>serais</reg></choice> curieux</l>
+                    <l part="I">D'en faire l'analyſe.</l> 
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_10">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="F">Il te <choice><orig>crée</orig><reg>crève</reg></choice> les yeux ;</l>
+                    <l><fs><f name="temper">Homme ignorant à force de ſcience</f></fs>.</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_11">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l>Mais je ne vois que vous ſeul en ces lieux.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_12">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Eh ! N'aperçois-tu pas, butor, que c'eſt moi-même ?</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_13">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l>En ce cas-là, vous êtes un <choice><orig>problême</orig><reg>problème</reg></choice></l>
+                    <l>Que je ne puis réſoudre, &amp; dont je dois douter.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_14">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Mais, animal <choice><orig>indécrotable</orig><reg>indécrottable</reg></choice>,</l>
+                    <l>Je suis un être, moi, mais un être palpable ;</l>
+                    <l>Tu n'as <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> qu'à me tâter.</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_15">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l>Le raport de mes ſens eſt trompeur, variable ;</l>
+                    <l>Sur lui je ne puis m'aſſurer ;</l>
+                    <l>C'eſt mon eſprit qu'il faut ſeul pénétrer</l>
+                    <pb n="152"/>
+                    <l>D'une conviction qui foit inébranlable.</l>
+                    <l>A mes regards, que ſert de vous montrer ?</l>
+                    <l>Je ne <choice><orig>ſçaurois</orig><reg>saurais</reg></choice> vous croire véritable,</l>
+                    <l>Vous, que rien, juſqu'ici, n'a <choice><orig>pû</orig><reg>pu</reg></choice> me démontrer.</l>
+                    <l>Il faut, s'il vous plaît, me permettre,</l>
+                    <l>Pour me convaincre pleinement,</l>
+                    <l>De vous examiner géométriquement,</l>
+                    <l>Et de vous définir ſans plus <choice><orig>long-tems</orig><reg>longtemps</reg></choice> remettre.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_16">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l><choice><orig>Aprenés</orig><reg>Apprenez</reg></choice> qu'il faut me ſentir,</l>
+                    <l>Et qu'on ne peut me définir,</l>
+                    <l><name type="character" ref="#Geometre">Monſieur le <choice><orig>Géométre</orig><reg>Géomètre</reg></choice></name>.</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_17">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l><choice><orig>Souffrés</orig><reg>Souffrez</reg></choice> du moins, de peur d'un quiproquo,</l>
+                    <l><choice><orig>Souffrés</orig><reg>Souffrez</reg></choice> que je vous décompoſe,</l>
+                    <l>Ou je vous tiens pour un zéro.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_18">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Je vais te faire voir que je ſuis quelque chofe,</l>
+                    <l>Et te décompoſer toi-même de façon,</l>
+                    <l>Que tu vas au <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> changer d'opinion.</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_19">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l><choice><orig>Arrêtés</orig><reg>Arrêtez</reg></choice>; point de violence.</l>
+                    <l>Là, ſoit, pour un moment j'admets votre exiſtence ;</l>
+                    <l>Mais pour mieux affermir mon eſprit chancelant,</l>
+                    <l>Avec ce <choice><orig>demi cercle</orig><reg>demi-cercle</reg></choice> *<note type="stage" place="bottom"><stage type="business" rend="italics"> * Il tire de ſa poche un demi cercle, &amp; le braque ſur<lb/> une canne qu'il tient à la main, &amp; qui ſert d'apui.</stage></note> agréez ſeulement,</l>
+                    <l>Que je meſure ici votre circonférence,</l>
+                    <l>Et prenne exactement chaque <choice><orig>dimention</orig><reg>dimension</reg></choice>.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_20">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Mais il me prend, je penſe,</l>
+                    <l>Pour une contreſcarpe, ou pour un bastion.</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_21">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l>Ne <choice><orig>remués</orig><reg>remuez</reg></choice> donc pas ; un peu de patience.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_22">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Renverſons &amp; briſons fon inſtrument maudit.</l>
+                </sp>
+                <pb n="153"/>
+                <sp who="#Geometre" xml:id="S4_23">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l>Que faites-vous ? Quel aveugle dépit !</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_24">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Vous êtes <fs><f name="temper">un faquin</f></fs>, dont l'audace ſournoiſe</l>
+                    <l>Et le doute inſolent excitent mon courroux.</l>
+                    <l>Je ne ſuis pas un Dieu qu'on meſure à la toiſe;</l>
+                    <l>Et je <choice><orig>devrois</orig><reg>devrais</reg></choice> ici vous donner mille coups.</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_25">
+                    <speaker>LE GEOMETRE.</speaker><lb/>
+                    <l>Eh ! Par-là, qu'avanceriez-vous ?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_26">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Je <choice><orig>fçaurois</orig><reg>saurais</reg></choice> te convaincre avec tes propres armes :</l>
+                    <l>Mais, va, tu n'as point d'yeux pour <choice><orig>connoître</orig><reg>connaître</reg></choice> mes <lb/>charmes ;</l>
+                    <l>Et, toi-même, tu perds tous les ſoins que tu <choice><orig>prens</orig><reg>prends</reg></choice>;</l>
+                    <l>Je ſuis un don de la nature,</l>
+                    <l>Qu'on ne peut concevoir par l'art ni par le <choice><orig>tems</orig><reg>temps</reg></choice></l>
+                    <l>Et qu'on ne vit jamais briller dans la figure,</l>
+                    <l>Ni dans le Cabinet de Meſſieurs les <choice><orig>Sçavans</orig><reg>savants</reg></choice>.</l>
+                </sp>
+                <sp who="#Geometre" xml:id="S4_27">
+                    <speaker>LE GEOMETRE </speaker>
+                    <stage type="business"><hi>en s'en allant</hi></stage><lb/>
+                    <l>Pour moi, qui ne me rends qu'à la ſeule évidence,</l>
+                    <l>J'en ſuis toujours pour ce que j'en ai dit ;</l>
+                    <l>Et, dans cette occurrence,</l>
+                    <l>Mes yeux font convaincus, mais non pas mon eſprit.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S4_28">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Si tu me <choice><orig>comprenois</orig><reg>comprenais</reg></choice>, je <choice><orig>perdrois</orig><reg>perdrais</reg></choice> mon crédit.</l>
+                </sp>
+            </div>
+            <div type="scene" n="5" xml:id="S5">
+                <head>SCENE V.</head><lb/>
+                <stage>ARLEQUIN , LE PETIT MAISTRE.</stage><lb/>
+                <sp who="#pm" xml:id="S5_1">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/>
+                    <l><c type="lettrine">A</c>U <rs ref="#Arlequin" type="allegory">Dieu de l'Agrément</rs> je fais la révérence</l> 
+                    <l>En qualité d'Ambaſſadeur.</l>
+                </sp> 
+                <sp who="#Arlequin" xml:id="S5_2">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Et quelle eſt la puiſſance</l>
+                    <l>Qui vers notre grandeur</l>
+                    <pb n="154"/>
+                    <l>A député votre excellence ?</l>
+                </sp> 
+                <sp who="#pm" xml:id="S5_3">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/> 
+                    <l>En me voyant, Seigneur,</l> 
+                    <l>Vous devinez qui c'eſt, je penſe.</l>
+                </sp> 
+                <sp who="#Arlequin" xml:id="S5_4">
+                    <speaker>ARLEQUIN.</speaker><lb/> 
+                    <l part="I">Moi ? Point du tout.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S5_5">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/>
+                    <l part="F">C'eſt <name type="god" ref="#Venus">Vénus</name> &amp; <name type="god" n="Amour">l'Amour</name>,</l> 
+                    <l>Qui ſoupirent tous deux après votre retour,</l> 
+                    <l>Et qui m'ont aujourd'hui donné la préférence</l> 
+                    <l>Sur tant d'aimables gens</l> 
+                    <l>Qui font l'ornement de la <name type='place' n='France'>France</name> :</l> 
+                    <l>Dans cette occaſion, je dois ſans perdre de <choice><orig>tems</orig><reg>temps</reg></choice> ;</l> 
+                    <l>Vous marquer ma <choice><orig>reconnoiſſance</orig><reg>reconnaissance</reg></choice>,</l> 
+                    <l>Et vous faire, Seigneur, mille <choice><orig>remercimens</orig><reg>remerciements</reg></choice>.</l>
+                </sp> 
+                <sp who="#Arlequin" xml:id="S5_6">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="I">Eh ! Pourquoi, s'il vous plaît ?</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S5_7">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/>
+                    <l part="F">La demande m'étonne !</l> 
+                    <l>Pour avoir comblé ma perſonne</l> 
+                    <l>De tous vos dons les plus <choice><orig>charmans</orig><reg>charmants</reg></choice>.</l>
+                </sp> 
+                <sp who="#Arlequin" xml:id="S5_8">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage type="delivery" rend="italics">à part.</stage><lb/> 
+                    <l>S'il n'<choice><orig>étoit</orig><reg>était</reg></choice> pas ſi <fs><f name="temper">fat</f></fs>, il <choice><orig>ſeroit</orig><reg>serait</reg></choice> fort aimable.</l> 
+                    <l>Mortifions un peu à ſa vanité.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S5_9">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/>
+                    <l>Si je plais, c'eſt à vous que j'en ſuis redevable.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S5_10">
+                    <speaker>ARLEQUIN.</speaker><lb/> 
+                    <l>Vous vous moquez, en vérité,</l> 
+                    <l><name ref="#pm" type="character">Monſieur le Petit-Maître</name> ;</l> 
+                    <l>Je n'ai pas ſeulement l'honneur de vous <choice><orig>connoître</orig><reg>connaître</reg></choice>.</l> 
+                </sp>
+                <sp who="#pm" xml:id="S5_11">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/>
+                    <l>Trêve de modeſtie &amp; de déguiſement :</l> 
+                    <l>Tous ces bons airs qu'en moi l'on voit <choice><orig>paroître</orig><reg>paraître</reg></choice>,</l> 
+                    <l>Ce goût qui <choice><orig>regne</orig><reg>règne</reg></choice> en mon ajuſtement,</l> 
+                    <l>Ce dehors, ces façons, ces riens inexprimables,</l> 
+                    <l>Qui rendent tous les cœur épris ;</l> 
+                    <l>Ces coups de tête inimitables,</l> 
+                    <l>Que tâchent d'attraper tous nos jeunes Marquis,</l>
+                    <pb n="155"/>
+                    <l>Quand on les voit dans les couliſſes</l> 
+                    <l>Déployer leurs <choice><orig>talens</orig><reg>talents</reg></choice> aux yeux des ſpectateurs,</l> 
+                    <l>Et, jouant avec les Actrices ;</l> 
+                    <l>Chanter plus haut que les Acteurs.</l> 
+                    <lb/><stage type="business" rend="italics">(Il chante.)</stage><lb/>
+                    <l>Ah ! belle Reine, eſt-il poſſible</l> 
+                    <l>Que vous ſoyez ſensible</l> 
+                    <l>Pour un autre que moi ?</l> 
+                    <l>Ah ! Belle Reine, eſt-il poſſible</l> 
+                    <l>Que je ne ſois pas votre Roi ?</l> 
+                    <lb/><stage type="business" rend="italics">(Il déclame.)</stage><lb/>
+                    <l>En un mot, tous ces dons qui parent ma figure ;</l> 
+                    <l>C'eſt de vous ſeul que je les tiens.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S5_12">
+                    <speaker>ARLEQUIN.</speaker><lb/> 
+                    <l>Il n'en eſt rien, je vous affure :</l>
+                    <l>Car je ne <choice><orig>reconnois</orig><reg>reconnais</reg></choice> pour miens,</l> 
+                    <l>Que ceux qui ſont marqués au coin de la nature :</l> 
+                    <l part="I">Et jamais <rs type="character">Petit-Maître</rs>... </l>             
+                </sp> 
+                <sp who="#pm" xml:id="S5_13">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/> 
+                    <l part="F">Oh, je le ſuis en beau ;</l> 
+                    <l>Et je le ſuis dès le berceau.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S5_14">
+                    <speaker>ARLEQUIN.</speaker><lb/> 
+                    <l><choice><orig>Aprenés</orig><reg>Apprenez</reg></choice> mieux à vous <choice><orig>connoître</orig><reg>connaître</reg></choice>.</l> 
+                    <l>La nature jamais ne fit un Petit-Maître.</l> 
+                    <l>Le plus aimable eſt toujours aprêté ;</l> 
+                    <l>Et c'eſt, en le louant autant qu'il puiſſe l'être,</l> 
+                    <l>Le chef-d'œuvre de l'art &amp; de la vanité ;</l> 
+                    <l part="I">Ainſi, détrompez-vous.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S5_15">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/> 
+                    <l part="F">Ce n'eſt qu'une défaite.</l> 
+                    <l>Vous <supplied>ne</supplied>pouvez, en ce moment,</l> 
+                    <l>Vous diſpenser honnêtement</l> 
+                    <l>D'abandonner votre retraite,</l> 
+                    <l>Pour me ſuivre à <name type="place" n="Paris">Paris</name>, où chacun vous ſouhaite.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S5_16">
+                    <speaker>ARLEQUIN.</speaker><lb/> 
+                    <l>Vous comptez donc ſur mon retour ?</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S5_17">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/> 
+                    <l>Oui, vraiment ; j'ai donné ma parole à l'<name type="god" n="Amour">Amour</name></l>
+                    <pb n="156"/>
+                    <l>De vous ramener dans ce jour.</l>
+                </sp> 
+                <sp who="#Arlequin" xml:id="S5_18">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Le compliment eſt aſſez drôle.</l> 
+                    <l>Il eſt bon, mon ami, de vous faire <choice><orig>ſçavoir</orig><reg>savoir</reg></choice>,</l> 
+                    <l>Qu'avec tous les apas que vous croyez avoir,</l> 
+                    <l>Vous riſquez, à l'<name type="god" n="Amour">Amour</name>, de manquer de parole.</l> 
+                    <l>Mais quel eſt le fâcheux qui vient encore nous voir <unclear>?</unclear></l> 
+                </sp>
+            </div> 
+            <div type="scene" n="6" xml:id="S6">
+                <head>SCENE VI.</head><lb/>
+                <stage>ARLEQUIN, LE PETIT MAISTRE, <lb/>UN OFFICIER SUISSE.</stage><lb/><lb/>
+                <sp who="#Suisse" xml:id="S6_1"> 
+                    <speaker>LE SUISSE.</speaker><lb/><lb/>
+                    <l><rs type="god" n="Bacchus"><c type="lettrine">L</c>I Tieu qui préſide à la Tonne</rs>,</l> 
+                    <l><name type="god" n="Bacchus">Monſir Pacchus</name>, me preferir à tous ,</l> 
+                    <l>Et faire choix de mon perſonne.</l> 
+                    <l>Pour faire l'Ambaſſade &amp; la harangue à fous.</l>
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_2">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>L'aimable Ambaſſadeur ! Qu'il a de gentilleſſe !</l> 
+                    <l>Quand <name n="Bacchus" type="god">Bacchus</name> a choiſi</l> 
+                    <l>Un Envoyé de cette <choice><orig>eſpéce</orig><reg>espèce</reg></choice>,</l> 
+                    <l>Aſſurément il <choice><orig>étoit</orig><reg>était</reg></choice> dans l'<choice><orig>yvreſſe</orig><reg>ivresse</reg></choice>.</l>
+                </sp>
+                <sp who="#Suisse" xml:id="S6_3">
+                    <speaker>LE SUISSE </speaker>
+                    <stage type="delivery"><hi rend="italics">à <name type="person" n="Arlequin">Arlequin</name></hi></stage><lb/>
+                    <l>Moi, mon petit cadet, fous troufe fort choli ;</l> 
+                    <l>Tout li corps di bifeurs qu'ici ché repréſente,</l>
+                    <l>S'ennuyer peaucoup, Tieu merci,</l> 
+                    <l>Di foir fotre perſonne abſente ;</l> 
+                    <l>Nous être également, ſans <rs type="allegory" ref="#Arlequin">li Ché ne ſçai quoi</rs> ;</l> 
+                    <l>Tout ché ne ſçai comment , &amp; ſans ſavre pourquoi.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_4">
+                    <speaker>LE PETIT MAISTRE </speaker>
+                    <stage type="delivery" rend="italics">à <name type="character" ref="#Arlequin">Arlequin</name></stage><lb/>
+                    <l>Des Suiſſes ſoupirer après votre préſence !</l> 
+                    <l>Ce <choice><orig>phœnoméne</orig><reg>phénomène</reg></choice> me ſurprend ;</l> 
+                    <l>Je ne <choice><orig>croyois</orig><reg>croyais</reg></choice> pas ſeulement</l> 
+                    <l>Que <rs ref="#Arlequin" type="allegory">le Je ne ſçai quoi</rs> fût de leur <choice><orig>connoiſſance</orig><reg>connaissance</reg></choice>.</l> 
+                </sp>
+                <pb n="157"/>
+                <sp who="#Suisse" xml:id="S6_5"> 
+                    <speaker>LE SUISSE.</speaker><lb/>
+                    <l>Toi li parle très-mal, quand toi li parle ainſi,</l> 
+                    <l>Et, por tranche un diſcours qui m'échauffe mon pile,</l> 
+                    <l>Moi di <rs type="allegory" ref="#Arlequin">Ché ne ſçai quoi</rs> ſi fort être l'ami,</l> 
+                    <l>Que li méne ſoupir ſti soir même à la file.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_6">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage type="delivery" rend="italics">à part.</stage><lb/>
+                    <l>Ce ne ſera pas d'aujourd'hui</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_7">
+                    <speaker>LE PETIT MAISTRE </speaker>
+                    <stage type="delivery" rend="italics">au <name type="character" ref="#Suisse">Suiſſe</name>.</stage><lb/>
+                    <l>Vous pouvez vous paſſer de lui,</l> 
+                    <l>Et ſon ſecours vous eſt fort inutile.</l>
+                    <l>Vous n'avez pas, Meſſieurs, le goût ſi difficile ;</l> 
+                    <l><choice><orig>Pourvû</orig><reg>Pourvu</reg></choice> qu'un cabaret, centre de vos plaiſirs,</l> 
+                    <l>Vous offre une table garnie ;</l> 
+                    <l>Il n'eſt plus rien qui manque à vos deſirs.</l> 
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_8">
+                    <speaker>LE SUISSE.</speaker><lb/>
+                    <l>Fous ouplier le meillir, ché fous prie.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_9">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/> 
+                    <l part="I">Quoi donc ?</l> 
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_10">
+                    <speaker>LE SUISSE.</speaker><lb/>
+                    <l part="F">Un <name type="character" n="Fanchon">Fanchon</name> pien cholie :</l> 
+                    <l>Puis, dans li même <choice><orig>tems</orig><reg>temps</reg></choice>, li manque au <rs type="god" n="Bacchus">Tieu tu fin</rs></l> 
+                    <l>Sti <rs type="allegory" ref="#Arlequin">Ché ne ſçai quoi difin</rs>,</l> 
+                    <l>Qui touchours fous réfeille,</l> 
+                    <l>Et fous fait afalir de ſon liqueur fermeille</l> 
+                    <l>Pendant trois chours entiers li ſoir &amp; li matin,</l> 
+                    <l>Sans être incommodé di tout li lendemain,</l> 
+                    <l>Ho ! <rs type="allegory" ref="#Arlequin">Sti Ché ne ſçai quoi</rs> n'avre pas ſa pareille.</l> 
+                    <l>Puis manque à mon mouſtache encore un acrément</l> 
+                    <l>Qui de <rs type="allegory" ref="#Arlequin">Monſir</rs> dépend ;</l> 
+                    <l>C'eſt que ſon petit main rempli de chentilleſſe,</l> 
+                    <l>Li tonne un tour patin, &amp; ſti ché ne ſçai qu'eſt-ce</l> 
+                    <l>Qui me rente charmant</l> 
+                    <l>Aux yeux de mon maîtreſſe.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S6_11">
+                    <speaker>ARLEQUIN.</speaker><lb/> 
+                    <l part="I">Le bel emploi pour moi !</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_12">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/> 
+                    <l part="F">Comment, <rs ref="#Suisse" type="character">Monſieur</rs> ! Comment</l> 
+                    <l>Toute votre perſonne a naturellement.</l>
+                    <pb n="158"/>
+                    <l>Tant de <choice><orig>graces</orig><reg>grâces</reg></choice> &amp; tant de charmes,</l> 
+                    <l>Qu'elle n'a pas beſoin d'aucun autre ornement,</l> 
+                    <l>Vos mouſtaches, <choice><orig>ſur-tout</orig><reg>surtout</reg></choice>, friſent si joliment,</l> 
+                    <l>Que l'objet le plus fier doit leur rendre les armes.</l> 
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_13"> 
+                    <speaker>LE SUISSE.</speaker><lb/>
+                    <l><rs type="character" ref="#pm">Monſir de France</rs>, ché t'<choice><orig>entens</orig><reg>entends</reg></choice>;</l> 
+                    <l>Pour faire l'acréaple,</l> 
+                    <l>Toi fouloir rire à mes dépens.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_14">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/>
+                    <l>Moi, rire à vos dépens, je n'en ſuis point capable ;</l> 
+                    <l>Et, pour être raillé, vous êtes trop aimable.</l> 
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_15"> 
+                    <speaker>LE SUISSE.</speaker><lb/>
+                    <l>Ne crois point patiner ; mon foi,</l> 
+                    <l>Dans mon façon, moi l'être autant que toi :</l> 
+                    <l>Lavre de mon pays li craces en partage.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_16">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/> 
+                    <l>Des <choice><orig>graces</orig><reg>grâces</reg></choice> Suiſſes! Oh ! Je ſens leur avantage.</l> 
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_17"> 
+                    <speaker>LE SUISSE.</speaker><lb/>
+                    <l>Par la tertombre, moi,</l> 
+                    <l>Moi parlir tout di pon, &amp; fouloir fiſte faire</l> 
+                    <l><rs type="allegory" ref="#Arlequin">Monſeignir li Ché ne ſçai quoi</rs>,</l> 
+                    <l>Chiché de ſti petit affaire.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_18">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/> 
+                    <l>Vous êtes ſûr d'avoir une victoire <choice><orig>entiére</orig><reg>entière</reg></choice>.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_19">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Le défi me <choice><orig>paroît</orig><reg>paraît</reg></choice> plaiſant ;</l> 
+                    <l>Je vais vous écouter fort attentivement,</l> 
+                    <l>Parlés : ſur pareille <choice><orig>matiére</orig><reg>matière</reg></choice>,</l> 
+                    <l>Je me crois juge compétent.</l> 
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_20"> 
+                    <speaker>LE SUISSE.</speaker><lb/> 
+                    <l>Hé pien, <rs type="allegory" ref="#Arlequin">Monſir</rs>, ſans tardir dafantache,</l> 
+                    <l>Por faire le comparaiſon,</l> 
+                    <l>Ricarte ſon perſonne, obſerfe <rs ref="#pm" type="character">ſti mignon</rs>,</l> 
+                    <l>Li <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> afre l'air, le foix &amp; la fiſſage.</l> 
+                    <l>D'une fille que d'un garçon.</l> 
+                    <l>Pui, toi, préſentement, toi contemple mon mine ;</l> 
+                    <l>Admire cette coffre, &amp; mon larche poitrine ;</l> 
+                    <l>Foi ſti maintien guerrier, ſti front macheſtueux :</l>
+                    <pb n="159"/>
+                    <l>Foilà, foilà ce que ché nomme</l> 
+                    <l>Le témoignache afantacheux,</l> 
+                    <l>Et tout li frai peauté d'in homme ;</l> 
+                    <l>Et foilà ce qui plaît, <choice><orig>ſur-tout</orig><reg>surtout</reg></choice>,</l> 
+                    <l>A tous les Tames di pon coût,</l> 
+                    <l>Et dans leur petit cœur fait fenir le tendreſſe,</l> 
+                    <l>Peaucoup mieux que <rs type="character" ref="#pm">ſti drôle</rs> afec ſon gentilleſſe.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_21"> 
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Ah ! Ah ! Ah ! Je ris de bon cœur.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_22">
+                    <speaker>LE PETIT MAISTRE </speaker>
+                    <stage type="delivery" rend="italics">bas à <name type="character" ref="#Arlequin">Arlequin</name></stage><lb/>
+                    <l>Un tel original vous réjouit, <rs ref="#Arlequin" type="allegory">Seigneur</rs> ?</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_23">
+                    <speaker>ARLEQUIN.</speaker><lb/> 
+                    <l>Rien n'eſt plus véritable.</l> 
+                    <l><rs ref="#Suisse" type="character">Ce Suiſſe</rs> qui ſe croit aimable,</l> 
+                    <l>Et qui vient, avec vous, faire aſſaut d'agrément,</l> 
+                    <l>Me divertit infiniment ;</l> 
+                    <l>Mais vous, qui vous moquez d'un pareil perſonnage,</l> 
+                    <l>Vous me divertiſſez encore davantage.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_24">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/> 
+                    <l part="I">Qui ? Moi, Seigneur, je vous divertis ?</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_25">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="F">Oui.</l> 
+                    <l>Vous le plaiſantés aujourd'hui,</l> 
+                    <l>Et vous trouvez ſes façons ſinguliéres,</l> 
+                    <l>Lorſque, dans vos <choice><orig>maniéres</orig><reg>manières</reg></choice>,</l> 
+                    <l>Vous êtes <fs><f name="temper">ridicule</f></fs> autant &amp; plus que lui.</l> 
+                </sp>
+                <sp who="#Suisse" xml:id="S6_26"> 
+                    <speaker>LE SUISSE.</speaker><lb/>
+                    <l>Oh ! l'être fort pien dit cela, tiaple m'emporte,</l> 
+                    <l>Et montre à reſpectir un homme de mon ſorte.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_27">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/>
+                    <l>La choſe me ſurprend ; vous trouvez mes façons</l> 
+                    <l>Plus choquantes que celles</l> 
+                    <l>D'un homme des <rs type="place" n="Suisse">Treize Cantons</rs>.</l> 
+                    <l>Dites-moi, pour les trouver telles,</l> 
+                    <l>Dites-moi du moins vos raiſons ?</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_28">
+                    <speaker>ARLEQUIN.</speaker><lb/> 
+                    <l>Oh ! Pour trancher en deux mots la diſpute,</l> 
+                    <l>Vous avez pris de mauvaiſes leçons ;</l>
+                    <pb n="160"/>
+                    <l>Et je fais plus de cas de la nature brute,</l> 
+                    <l>Telle qu'en <rs type="character">un Suiſſe ſans fard</rs></l> 
+                    <l>On peut la voir <choice><orig>paroître</orig><reg>paraître</reg></choice>,</l> 
+                    <l>Que des faux <choice><orig>agrémens</orig><reg>agréments</reg></choice> de l'art,</l> 
+                    <l>Qui brillent dans <rs type="character">un Petit-Maître</rs>.</l> 
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_29"> 
+                    <speaker>LE SUISSE.</speaker><lb/>
+                    <l>Mon peauté sur le tien l'avre enfin emporté.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_30">
+                    <speaker>LE PETIT MAISTRE </speaker>
+                    <stage type="delivery" rend="italics">à <name type="character" ref="#Arlequin">Arlequin</name></stage><lb/>
+                    <l>Juſqu'ici, d'être aimable, on m'a pourtant flatté.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_31">
+                    <speaker>ARLEQUIN.</speaker><lb/> 
+                    <l>Vous étiez né pour l'être,</l> 
+                    <l>Mais l'affectation chez vous a tout gâté.</l> 
+                </sp>
+                <sp who="#pm" xml:id="S6_32">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/>
+                    <l>Vous m'accuſez d'être affecté,</l> 
+                    <l>Vous êtes le premier. Tout autant que perſonne,</l> 
+                    <l>Je crois avoir, ſans vanité,</l> 
+                    <l>Ces <choice><orig>graces</orig><reg>grâces</reg></choice>, cette aiſance, &amp; cette liberté</l> 
+                    <l>Que le grand monde donne.</l> 
+                    <l>J'abhorre, <choice><orig>ſur-tout</orig><reg>surtout</reg></choice> l'air que vous me reprochés.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_33">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Il y <choice><orig>paroît</orig><reg>paraît</reg></choice> à vos <choice><orig>maniéres</orig><reg>manières</reg></choice>.</l> 
+                    <l>Vous careſſez ainſi vos <choice><orig>lévres</orig><reg>lèvres</reg></choice> <choice><orig>minaudiéres</orig><reg>minaudières</reg></choice>,</l> 
+                    <l>Et voici comme vous marchez.</l>
+                    <lb/><stage type="business" rend="italics">(Il ſe <choice><orig>proméne</orig><reg>promène</reg></choice>, &amp; contrefait <name type="character" ref="#pm">le Petit-Maître</name>.)</stage>  
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_34"> 
+                    <speaker>LE SUISSE.</speaker><lb/>
+                    <l>Li marchir en catence,</l> 
+                    <l>Comment faire <rs type="character">un Maître à danſer</rs>.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_35">
+                    <speaker>LE PETIT MAISTRE </speaker>
+                    <stage type="delivery" rend="italics">à <name type="character" ref="#Arlequin">Arlequin</name>.</stage><lb/> 
+                    <l>Eh ! Comment donc marcher ? Montrez-m'en la <lb/>ſcience.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_36">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Tout naturellement, ſans <choice><orig>paroître</orig><reg>paraître</reg></choice> y penſer.</l> 
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_37"> 
+                    <speaker>LE SUISSE.</speaker><lb/> 
+                    <l>Comme li marche, moi. La façon la plus ronde</l> 
+                    <l>Eſtre la meillire façon.</l> 
+                    <l>Ricarte ſti pon air ; profite du leçon,</l> 
+                    <l>Et, par là, plaire à tout li monde.</l> 
+                </sp> 
+                <pb n="161"/>
+                <sp who="#pm" xml:id="S6_38">
+                    <speaker>LE PETIT MAISTRE </speaker>
+                    <stage type="delivery" rend="italics">d'un air ironique.</stage><lb/>
+                    <l>Cette démarche eſt noble, &amp; vous avez raiſon.</l>
+                    <lb/><stage type="delivery" rend="italics">à <name type="character" ref="#Arlequin">Arlequin</name>.</stage><lb/>
+                    <l>Ah ! C'eſt trop m'éprouver, <rs ref="#Arlequin" type="allegory">Seigneur</rs>, je vous ſuplie</l> 
+                    <l>De vous déterminer à partir avec moi,</l> 
+                    <l>Et de quitter la raillerie.</l>
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_39"> 
+                    <speaker>LE SUISSE.</speaker><lb/> 
+                    <l>Li montir dans mon chaiſe, &amp; ne point ſuifre toi.</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_40">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Je <choice><orig>voudrois</orig><reg>voudrais</reg></choice> à tous deux vous être favorable,</l> 
+                    <l>Mais je ne puis me rendre à vos ſoins empreſſés.</l> 
+                </sp> 
+                <sp who="#pm" xml:id="S6_41">
+                    <speaker>LE PETIT MAISTRE.</speaker><lb/>
+                    <l part="I">D'où vient ?</l> 
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_42"> 
+                    <speaker>LE SUISSE.</speaker><lb/> 
+                    <l part="F">Pourquoi ?</l> 
+                </sp> 
+                <sp who="#Arlequin" xml:id="S6_43">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage rend="italics" type="business">montrant <name ref="#pm" type="character">le Petit-Maître</name>.</stage><lb/>
+                    <l><rs type="character" ref="#pm">Monſieur</rs> veut faire trop l'aimable,</l> 
+                    <l>Et vous ne l'êtes pas aſſez.</l>
+                </sp> 
+                <sp who="#Suisse" xml:id="S6_44"> 
+                    <speaker>LE SUISSE.</speaker><lb/> 
+                    <l>L'être plus qu'il ne faut, &amp; de ton compagnie,</l> 
+                    <l>Moi me paſſir fort pien, <rs type="allegory" ref="#Arlequin">Monſir Ché ne ſçai quoi</rs> :</l> 
+                    <l>Pendant trente-cinq ans, moi l'afre pû ſans toi,</l> 
+                    <l>Et li poire encore pien li reſte de mon fie.</l>
+                    <lb/><stage type="exit" rend="italics">(Il s'en va en peſtant.)</stage>
+                </sp>
+            </div> 
+            <div type="scene" n="7" xml:id="S7"> 
+                <head>SCENE VII.</head><lb/>
+                <stage>ARLEQUIN, LE PETIT MAISTRE.</stage><lb/>
+                <sp who="#pm" xml:id="S7_1">
+                    <speaker>LE PETIT MAISTRE</speaker><lb/><lb/>
+                    <l><c type="lettrine">A</c>Dieu, <rs type="allegory" ref="#Arlequin">Seigneur</rs>, votre eſprit s'eſt gâté ;</l> 
+                    <l>Vous avez même contracté</l> 
+                    <l>Une humeur bruſque, un air ſombre &amp; ſauvage.</l> 
+                    <l>A <name type="place" n="Paris">Paris</name>, aujourd'hui, vous ſeriez peu goûté ;</l> 
+                    <l>Vous faites ſagement de reſter au village.</l>
+                    <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
+                </sp>
+            </div>
+            <pb n="162"/>
+            <div type="scene" n="8" xml:id="S8">
+                <head>SCENE VIII.</head><lb/>
+                <stage>ARLEQUIN, LE PUBLIC FÉMININ.</stage><lb/>
+                <sp who="#PublicF" xml:id="S8_1">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l><c type="lettrine">A</c>H ! Vous voilà, <rs type="allegory" ref="#Arlequin">Seigneur</rs> ! Je vous trouve à la <lb/>fin,</l> 
+                    <l>Mais ce n'eſt pas ſans une peine extrême.</l>
+                    <l>Je n'en puis plus ! Il faut bien qu'on vous aime,</l>
+                    <l>Pour avoir fait tant de chemin,</l>
+                    <l>Et pour vous viſiter <choice><orig>juſques</orig><reg>jusque</reg></choice> dans ces retraites.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_2">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l><rs ref="#PublicF" type="character">Madame</rs>, <choice><orig>aprenés-moi</orig><reg>apprenez-moi</reg></choice>, s'il vous plaît, qui vous êtes ?</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_3">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Quoi ! Se peut-il, en ce moment, </l>
+                    <l>Que <rs type="allegory" ref="#Arlequin">le <choice><orig>pere</orig><reg>père</reg></choice> de l'Agrément</rs></l>
+                    <l>Et de <rs type="allegory">la Gentilleſſe</rs>,</l>
+                    <l>Me demande mon nom, &amp; qu'il me <choice><orig>méconnoiſſe</orig><reg>méconnaisse</reg></choice> ?</l>
+                    <l>Moi, l'objet, autrefois, de ſon empreſſement</l>
+                    <l>Et de ſa plus vive tendreſſe ;</l>
+                    <l>Moi, qui décide ſeul, &amp; ſouverainement,</l>
+                    <l>Des affaires qui ſont de ſon département ;</l>
+                    <l>Moi, dont le tribunal eſt tout-puissant en <name type="place" n="France">France</name>,</l>
+                    <l>Dont le goût naturel ſurpaſſe la ſcience</l>
+                    <l>Du peuple auteur qu'il éclaire ſouvent ;</l>
+                    <l>Qui, l'éventail en main, juge auſſi ſûrement,</l>
+                    <l>De la bonté des <choice><orig>piéces</orig><reg>pièces</reg></choice> de Théâtre,</l>
+                    <l>Que de l'air des habits &amp; de l'ajuſtement</l>
+                    <l>Dont je ſuis idolâtre ?</l>
+                    <l>Ma <choice><orig>régle</orig><reg>règle</reg></choice> ſûre eſt le pur ſentiment.</l>
+                    <l>Mon coeur tendre &amp; ſenſible</l>
+                    <l>Dicte lui ſeul tous mes Arrêts ;</l>
+                    <l>Et cet oracle infaillible</l>
+                    <l>Eſt l'arbitre ſûr des ſuccès.</l>
+                    <l>Ce n'eſt qu'à ce qui porte un <choice><orig>caractére</orig><reg>caractère</reg></choice> aimable,</l>
+                    <pb n="163"/>
+                    <l>Que mon encens eſt départi ;</l>
+                    <l>On ne l'obtient jamais, ſi l'on n'eſt agréable.</l>
+                    <l><choice><orig>Connoiſſez </orig><reg>Connaissez</reg></choice>, à ce trait, votre meilleur ami</l>
+                    <l><rs type="character" ref="#PublicF">Le Public</rs>, qui toujours vous a le plus chéri.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_4">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="I">Vous êtes <rs type="character" ref="#PublicF">le Public</rs> ? Vous ?</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_5">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l part="M">Oui.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_6">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">Le véritable ?</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_7">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Oui, je ſuis <rs type="character" ref="#PublicF">ce Public délicat &amp; choiſi</rs>,</l>
+                    <l>Qui détermine l'autre, &amp; qui s'en voit ſuivi.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_8">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l><rs ref="#PublicF" type="character">Le Public, en cornette</rs> ! Il eſt <choice><orig>méconnoiſſable</orig><reg>méconnaissable</reg></choice>.</l>
+                    <l>Mais, pourquoi donc ? A quel deſſein</l>
+                    <l>Vous traveſtir de la ſorte ?</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_9">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>C'eſt l'habit qu'en tout <choice><orig>tems</orig><reg>temps</reg></choice> je porte,</l>
+                    <l>Puiſque je ſuis <name ref="#PublicF" type="character">le Public Féminin</name>,</l>
+                    <l>Cette aimable moitié du plus grand monde, enfin,</l>
+                    <l>Dont je fais l'ornement &amp; l'ame.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_10">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Ah ! <rs type="character" ref="#PublicF">Monſeigneur, ou bien Madame</rs>,</l>
+                    <l>Car je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> comment il faut vous <choice><orig>apeller</orig><reg>appeler</reg></choice>,</l>
+                    <l>Pardonnez à l'erreur qui  m'<choice><orig>avoit</orig><reg>avait</reg></choice> <choice><orig>ſçû</orig><reg>su</reg></choice> troubler.</l>
+                    <l>Je <choice><orig>révére</orig><reg>révère</reg></choice> <name ref="#PublicF" type="character">le Public Femme</name> ;</l>
+                    <l>D'être chéri de lui je me ſens trop flatté ;</l>
+                    <l>Et cette double qualité</l>
+                    <l>Me fait ſentir le prix d'une amitié ſi <choice><orig>chére</orig><reg>chère</reg></choice>,</l>
+                    <l>Et craindre en <choice><orig>même-tems</orig><reg>même temps</reg></choice> les traits de ſon courroux.</l>
+                    <l>Malheur à qui ſe voit haï de vous,</l>
+                    <l>Et trop heureux qui <choice><orig>ſçait</orig><reg>sait</reg></choice> vous plaire</l>
+                    <l>Oui, de tous les encens, le vôtre eſt le plus doux,</l>
+                    <l>Et vous donnez le ton au <rs type="allegory">Public votre frere</rs>.</l>
+                    <l>Mais, dans ce ſéjour écarté,</l>
+                    <l><rs type="character" ref="#PublicF">Madame</rs>, qui vous a conduite ?</l>
+                </sp>
+                <pb n="164"/>
+                <sp who="#PublicF" xml:id="S8_11">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l><rs type="god">Les <choice><orig>Graces</orig><reg>Grâces</reg></choice></rs> &amp; <rs type="allegory">la Volupté</rs>,</l>
+                    <l>Qui, depuis votre fuite,</l>
+                    <l>Ont perdu leurs attraits &amp; leur vivacité.</l>
+                    <l>Vous <choice><orig>ſçavez</orig><reg>savez</reg></choice> qu'elles font le partage ordinaire</l>
+                    <l>De notre ſexe né pour plaire,</l>
+                    <l>Formé pour les Amours, porté vers le Plaiſir,</l>
+                    <l>Et qui fait ſon unique affaire</l>
+                    <l>De l'inſpirer &amp; de le reſſentir :</l>
+                    <l>Mais chaque jour, notre adreſſe impuiſſante</l>
+                    <l>A beau le varier &amp; beau le traveſtir</l>
+                    <l>Sous une forme différente,</l>
+                    <l>Il lui manque, ſans vous, cette pointe charmante,</l>
+                    <l>Et ce Je ne ſçai quoi qui pique le <choice><orig>deſir</orig><reg>désir</reg></choice>.</l>
+                    <l>Sa douceur n'eſt plus qu'aparente,</l>
+                    <l>Ou, <choice><orig>plûtôt</orig><reg>plutôt</reg></choice>, avec vous <rs type="allegory">le Plaiſir</rs> s'eſt enfui ;</l>
+                    <l>Sans pouvoir le ſaiſir, je le cherche ſans ceſſe.</l>
+                    <l>Je crois ſouvent, dans mon <choice><orig>yvreſſe</orig><reg>ivresse</reg></choice>,</l>
+                    <l>Que je le tiens, &amp; vais jouir de lui :</l>
+                    <l>Mais je ne trouve que <rs type="allegory">l'Ennui</rs></l>
+                    <l>Sous le maſque de <rs type="allegory">l'Allégreſſe</rs>.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_12">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l><rs type="allegory">Le Plaiſir</rs> me reſſemble, il eſt un peu malin ;</l>
+                    <l>Lorſqu'on croit le tenir, il <choice><orig>échape</orig><reg>échappe</reg></choice> ſoudain.</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_13">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Que dis-je ? Pour chaſſer <rs type="allegory">la Tristeſſe cruelle</rs>,</l>
+                    <l>Un monſtre encore plus affreux qu'elle,</l>
+                    <l>Qu'ont mis au jour <rs type="allegory">le <choice><orig>Deſir</orig><reg>Désir</reg></choice> effréné</rs></l>
+                    <l>Et <rs type="allegory">la Coquetterie</rs>,</l>
+                    <l>A fait ſentir par-tout ſon ſouffle empoiſonné.</l>
+                    <l>On l'apelle <rs type="allegory">Galanterie</rs>.</l>
+                    <l>Il a, ſous ce beau nom, ſéduit tous les eſprits,</l>
+                    <l>Et trouvé le ſecret de régner dans <name type="place" n="Paris">Paris</name> :</l>
+                    <l>Il ſe dit des <rs type="allegory">Plaiſirs</rs> le Pere véritable,</l>
+                    <l>Et n'eſt que la ſource effroyable</l>
+                    <l>Du <rs type="allegory">Repentir</rs> &amp; du <rs type="allegory">Dégoût</rs>.</l>
+                    <l>Et rendant tout facile, il a renverſé tout.</l>
+                    <l>Cet ennemi fatal de <rs type="allegory">la Délicateſſe</rs>,</l>
+                    <pb n="165"/>
+                    <l>Par ſon affreux <choice><orig>ſiſtême</orig><reg>système</reg></choice>, a détruit <rs type="allegory">la Tendreſſe</rs> :</l>
+                    <l>Il a fait de l'Amour un commerce honteux,</l>
+                    <l>Formé ſans <choice><orig>ſentimens</orig><reg>sentiments</reg></choice>, &amp; lié ſans eſtime,</l>
+                    <l>Où l'on jouit ſans être heureux ;</l>
+                    <l>Un trafic paſſager que <rs type="allegory">l'Intérêt</rs> anime,</l>
+                    <l>Que produit <rs type="allegory">l'Inconſtance</rs>, &amp; qu'ils rompent tous <lb/>deux;</l>
+                    <l>Des <choice><orig>régles</orig><reg>règles</reg></choice> de la bienſéance</l>
+                    <l>Notre coeur oſant s'affranchir,</l>
+                    <l><unclear>S'</unclear>écarte du chemin en croyant l'accourcir,</l>
+                    <l>Et nous avons beaucoup perdu de l'Innocence,</l>
+                    <l>Sans rien gagner du côté du Plaiſir.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_14">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Par la ſeule <rs type="allegory">Innocence</rs> on y peut parvenir ;</l>
+                    <l><rs type="allegory">Le Plaiſir</rs> eſt trop pur pour ſubſiſter ſans elle :</l>
+                    <l>On ne <choice><orig>ſçauroit</orig><reg>saurait</reg></choice> briſer leur chaîne mutuelle,</l>
+                    <l>Sans le détruire ou l'<choice><orig>affoiblir</orig><reg>affaiblir</reg></choice>.</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_15">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Ce qui me déſeſpére,</l>
+                    <l>Comme lui, <rs type="allegory">l'Agrément</rs> affecte de me fuir.</l>
+                    <l>A combler ma <choice><orig>miſére</orig><reg>misère</reg></choice>,</l>
+                    <l><rs type="allegory" ref="#Arlequin">Seigneur</rs>, tout ſemble concourir.</l>
+                    <l>J'ai de la peine à plaire,</l>
+                    <l>Et je ne puis me divertir.</l>
+                    <l>Je commence le jour par me mettre en <choice><orig>colére</orig><reg>colère</reg></choice> :</l>
+                    <l>On m'éveille mal-à-propos,</l>
+                    <l>Dans l'inſtant que je goûte un <choice><orig>tranquile</orig><reg>tranquille</reg></choice> repos :</l>
+                    <l>Je m'arrache à regret des bras de <rs type="allegory">la Molleſſe</rs>,</l>
+                    <l>Je crois que du ſommeil la force enchantereſſe</l>
+                    <l>Aura du moins repoſé mes attraits,</l>
+                    <l>Que je vais me lever plus belle que jamais.</l>
+                    <l>Je cours me regarder ; mais j'en ſuis bien punie :</l>
+                    <l>Je vois les mêmes traits,</l>
+                    <l>Mais je ne trouve plus ma phyſionomie,</l>
+                    <l>Ni cet air animé qui leur donne la vie,</l>
+                    <l>A mon ſecours j'apelle <rs type="allegory">l'Art flatteur</rs>,</l>
+                    <l>Pour ramener cet éclat ſéducteur,</l>
+                    <l>Plus d'une habile main s'aplique &amp; s'étudie.</l>
+                    <pb n="166"/>    
+                    <l>De m'avoir rendu ma beauté,</l>
+                    <l>On s'aplaudit déjà ; mon coeur en eſt flatté,</l>
+                    <l>Quand, par une boucle indocile,</l>
+                    <l>Tout l'ouvrage eſt gâté :</l>
+                    <l>On fait pour la réduire, un effort inutile :</l>
+                    <l>J'y mets la main moi-même, &amp; n'y puis réuſſir.</l>
+                    <l><rs type="allegory">L'Art</rs> me rend ridicule, au lieu de m'embellir ;</l>
+                    <l>Et, par malheur, la choſe eſt ſans <choice><orig>reméde</orig><reg>remède</reg></choice> :</l>
+                    <l>Le chagrin que j'en ai me rend encore plus laide.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_16">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Vous méritez votre laideur ;</l>
+                    <l>Et c'eſt pour vous aprendre</l>
+                    <l>A vouloir employer l'artifice trompeur.</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_17">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Pour mettre, enfin, le comble à ma mauvaiſe humeur,</l>
+                    <l><rs type="character">Un Abbé doucereux</rs> à force d'être tendre,</l>
+                    <l>Précédé d'<rs type="character">un Robin</rs>, &amp; suivi d'<rs type="character">un Auteur</rs>,</l>
+                    <l>A ma toilette vient ſe rendre.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_18">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Quel amuſant trio de toutes les façons !</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_19">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>L'Abbé m'endort en me prêchant fleurette :</l>
+                    <l>Et l'Avocat m'aſſomme en plaidant ſes raiſons ;</l>
+                    <l>L'Auteur, un peu moins ſot, ſans en être plus ſage,</l>
+                    <l>Se tait en m'offrant un ouvrage</l>
+                    <l>Qu'il s'empreſſe de publier :</l>
+                    <l>Je le lis ; mais je ſens dès la <choice><orig>premiére</orig><reg>première</reg></choice> page,</l>
+                    <l>Quoiqu'on m'ait fait l'honneur de me le dédier,</l>
+                    <l>Et que de mon mérite il faſſe l'étalage ;</l>
+                    <l>Je ſens qu'il n'a pas moins le don de m'ennuyer :</l>
+                    <l>Mon viſage en fait la critique.</l>
+                    <l>Je bâille en attendant l'heure de <name type="institution"> l'<choice><orig>Opera</orig><reg>Opéra</reg></choice></name>,</l>
+                    <l>Qui me délivre enfin de ces trois Meſſieurs-là :</l>
+                    <l>Je m'y rends pour entendre <rs type="character">une chanteuſe unique</rs>,</l>
+                    <l>Qui porte juſqu'aux cieux ſa voix, ſans la forcer,</l>
+                    <l>Qui ne <choice><orig>connoît</orig><reg>connaît</reg></choice> d'autre art que l'art de prononcer,</l>
+                    <l>Et n'a que le coeur seul pour maître de muſique.</l>
+                </sp>
+                <pb n="167"/>
+                <sp who="#Arlequin" xml:id="S8_20">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Si j'<choice><orig>étois</orig><reg>étais</reg></choice> à <name type="place" n="Paris">Paris</name>, elle <choice><orig>auroit</orig><reg>aurait</reg></choice> ma pratique.</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_21">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Mais, de plus d'<rs type="character">un Acteur que je ne puis ſouffrir</rs>,</l>
+                    <l>Le chant déſagréable &amp; la mauvaise <choice><orig>grace</orig><reg>grâce</reg></choice>,</l>
+                    <l>En troublant ſes accords, trouble tout mon plaiſir,</l>
+                    <l>Et, dans mon coeur portant la glace,</l>
+                    <l>Y fait rentrer l'ennui qui <choice><orig>venoit</orig><reg>venait</reg></choice> d'en ſortir.</l>
+                    <l>Ce poiſon eſt mêlé d'un transport de <choice><orig>colére</orig><reg>colère</reg></choice>,</l>
+                    <l>Et je ne puis alors m'empêcher d'envier</l>
+                    <l>L'heureuſe liberté dont jouit <rs type="allegory">le Parterre</rs>,</l>
+                    <l>Et l'avantage qu'a <rs type="allegory">mon frere</rs></l>
+                    <l>De ſifler, quand il veut, pour se déſennuyer.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_22">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Si les Dames <choice><orig>ſifloient</orig><reg>sifflaient</reg></choice> en pleine Comedie,</l>
+                    <l>J'<choice><orig>irois</orig><reg>irais</reg></choice> exprès pour voir cela :</l>
+                    <l>Elles <choice><orig>feroient</orig><reg>feraient</reg></choice>, je crois, une mine jolie.</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_23">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Ce n'eſt pas tout ; je ſors de-là,</l>
+                    <l>Et je me rends aux <name type="place" n="Tuileries">Thuilleries</name>,</l>
+                    <l>Eſpérant diſſiper un mal de tête affreux :</l>
+                    <l>Mais, malgré leur éclat qui vient <choice><orig>fraper</orig><reg>frapper</reg></choice> mes yeux,</l>
+                    <l>Je ſens que par <rs type="allegory">l'Art</rs> ſeul elles ſont embellies ;</l>
+                    <l>Et je déſire à ces beaux lieux,</l>
+                    <l>L'air ſimple &amp; naturel qu'on voit dans ces prairies :</l>
+                    <l>J'ai beau les parcourir avec empreſſement,</l>
+                    <l>Pour divertir l'ennui dont je suis poſſédée,</l>
+                    <l>Et jouir de l'amuſement</l>
+                    <l>De regarder &amp; d'être regardée,</l>
+                    <l>Je n'aperçois à chaque inſtant,</l>
+                    <l>Qu'ajuſtements ſans goût, &amp; que modes choquantes,</l>
+                    <l>Qu'airs empruntés, mines impertinentes.</l>
+                    <l>A force d'être trop parés,</l>
+                    <l>J'y vois des hommes ridicules,</l>
+                    <l>Imitant nos paniers outrés,</l>
+                    <l>Maronnés comme nous, &amp; beaucoup plus poudrés ;</l>
+                    <l>Il ne leur manque que des mules.</l>
+                </sp>
+                <pb n="168"/>
+                <sp who="#Arlequin" xml:id="S8_24">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Que j'ai bien fait de les quitter !</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_25">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Laſſe de prendre l'air bien moins que la <choice><orig>pouſſiére</orig><reg>poussière</reg></choice>,</l>
+                    <l>Et ſentant que mon mal ne fait que s'augmenter</l>
+                    <l>Par tant d'objets qui n'ont que l'art de me déplaire,</l>
+                    <l>Et contre qui je me ſens irriter ;</l>
+                    <l>Même, à l'inſtant qu'ils me font rire,</l>
+                    <l>Je quitte ces jardins, ſans avoir pû goûter</l>
+                    <l>D'autre contentement que celui de médire.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_26">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Vous ne pouvez pas mieux faire votre ſatire.</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_27">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Je compte que la nuit va me dédommager</l>
+                    <l>D'avoir paſſé triſtement la journée ;</l>
+                    <l>Et, par <rs type="allegory">la Volupté</rs>, je me vois amenée</l>
+                    <l>Dans un hôtel riant, tout fait pour la loger.</l>
+                    <l>D'abord la <choice><orig>gayté</orig><reg>gaieté</reg></choice> ſe <choice><orig>déploye</orig><reg>déploie</reg></choice></l>
+                    <l>Sur le front animé du maître du logis,</l>
+                    <l>Et, de là, ſe répand parmi tous les eſprits.</l>
+                    <l>D'un repas enchanteur tout annonce la joie ;</l>
+                    <l>Petits plats délicats &amp; convives choiſis :</l>
+                    <l><rs type="allegory">Le Goût</rs> préſide à tout, <rs type="god">les <choice><orig>Graces</orig><reg>Grâces</reg></choice></rs> &amp; <rs type="god">les Ris</rs></l>
+                    <l>Avec nous sont aſſis à table.</l>
+                    <l>On ſent bientôt régner ce concert délectable</l>
+                    <l>Qui naît des coeurs bien aſſortis,</l>
+                    <l>Et forme l'enjoûment, ſans qui les mets exquis</l>
+                    <l>N'ont qu'un goût effroyable :</l>
+                    <l>On ſe livre aux accès d'une folie aimable :</l>
+                    <l>Le plaisir déſiré vient inſenſiblement.</l>
+                    <l>Dans le vif transport qui m'enflamme,</l>
+                    <l>Avec un vin de <name type="place" n="Graves">Grave</name> auſſi frais que brillant,</l>
+                    <l>Je le ſens, ce plaiſir, qui coule dans mon <choice><orig>ame</orig><reg>âme</reg></choice></l>
+                    <l>Dans le moment fatal qu'un homme affreux, peſant,</l>
+                    <l>Qu'on n'attend point, forçant la porte,</l>
+                    <l>Vient préſenter ſon viſage aſſommant,</l>
+                    <l>Et glacer tous les coeurs par l'ennui qu'il aporte :</l>
+                    <l>Nous prenons tous la fuite, &amp; notre joie eſt morte.</l>
+                    <pb n="169"/>    
+                    <l>Pour ſurcroît d'agrément,</l>
+                    <l>Je rencontre chez moi mon mari qui m'attend,</l>
+                    <l>Et veut m'entretenir quand je ſuis arrivée,</l>
+                    <l>Mais je le quitte bruſquement,</l>
+                    <l>Et vais me coucher en grondant,</l>
+                    <l>Ainſi que je me ſuis levée.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_28">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Votre récit eſt fort touchant.</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_29">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Par le détail exact de l'ennuyeuſe vie</l>
+                    <l>Que je <choice><orig>méne</orig><reg>mène</reg></choice> depuis que vous êtes abſent,</l>
+                    <l>Jugés, <rs type="allegory" ref="#Arlequin">Seigneur</rs>, de ma peine infinie :</l>
+                    <l>C'eſt de votre retour que mon bonheur dépend.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_30">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Je puis vous donner maintenant,</l>
+                    <l><rs ref="#PublicF" type="character">Madame</rs>, ſans quitter cette plaine fleurie,</l>
+                    <l>Le moyen de gouter plus de contentement,</l>
+                    <l>Et de vous rendre plus jolie,</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_31">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l part="I">Et comment donc ?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_32">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="F"><choice><orig>Premiérement</orig><reg>Premièrement</reg></choice>,</l>
+                    <l>Fuyez <rs type="allegory">l'Art</rs> impoſteur dont vous êtes eſclave;</l>
+                    <l>Couchez-vous de bonne heure, &amp; levez-vous matin ;</l>
+                    <l>N'uſez plus tant de vin de <name type="place" n="Graves">Grave</name>,</l>
+                    <l>Et vous aurez le teint plus frais le lendemain.</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_33">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Vous voulez qu'avec <rs type="allegory">l'Art</rs> je me brouille aujourd'hui,</l>
+                    <l>Quand ſon ſecours m'eſt favorable ?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_34">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Vous êtes née aſſez aimable</l>
+                    <l>Pour vous paſſer de lui.</l>
+                    <l>Raprochez-vous du <rs type="allegory">Naturel</rs>, Madame,</l>
+                    <l>Qui peut lui ſeul vous embellir :</l>
+                    <l>A cet inſtinct ſi ſûr, laiſſez aller votre ame ;</l>
+                    <l>Il <choice><orig>ſçaura</orig><reg>saura</reg></choice> mener droit au <rs type="allegory">Plaiſir</rs>,</l>
+                    <l>Et vous m'obligerez par là de revenir</l>
+                </sp>
+                <pb n="170"/>
+                <sp who="#PublicF" xml:id="S8_35">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Venez <choice><orig>plûtôt</orig><reg>plutôt</reg></choice>, venez vous-même nous conduire</l>
+                    <l>Dans le chemin qu'il faut que nous tenions.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_36">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Je <choice><orig>mettrois</orig><reg>mettrais</reg></choice> mon retour à des conditions...</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_37">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Je m'y ſoumets, vous n'avez qu'à les dire.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S8_38">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l><rs type="character" ref="#PublicF">Madame</rs>, accordez-moi deux jours pour les écrire.</l>
+                </sp>
+                <sp who="#PublicF" xml:id="S8_39">
+                    <speaker>LE PUBLIC.</speaker><lb/>
+                    <l>Soit ; mais vous me tiendrez parole, s'il vous plaît,</l>
+                    <l>Car je n'écoute point d'excuſe.</l>
+                    <l>Je ſuis peuple, <rs type="allegory" ref="#Arlequin">Seigneur</rs>, &amp; femme, qui plus eſt ;</l>
+                    <l>Impunément jamais on ne m'abuſe.</l>
+                    <l>Après demain tenez-vous prêt,</l>
+                    <l>Je viendrai vous tirer de ce ſéjour champêtre.</l>
+                    <l>A votre aſpect, <rs type="allegory">l'Ennui</rs> va <choice><orig>diſparoître</orig><reg>disparaître</reg></choice>,</l>
+                    <l><rs type="god">Les <choice><orig>Graces</orig><reg>Grâces</reg></choice></rs> vont ſe rétablir,</l>
+                    <l>Tous <rs type="allegory">les Jeux</rs> vont ſe réunir,</l>
+                    <l>Et tous <rs type="allegory">les Plaiſirs</rs> vont renaître.</l>
+                    <l>Quel favorable changement !</l>
+                    <l><rs type="character">L'Abbé</rs> va devenir piquant ;</l>
+                    <l><rs type="character">Le Financier</rs> <choice><orig>leger</orig><reg>léger</reg></choice>, aimable ;</l>
+                    <l><rs type="character">Le Robin</rs> amuſant &amp; railleur agréable ;</l>
+                    <l><rs type="character">L'Auteur</rs> plein d'agrément :</l>
+                    <l>Et, juſqu'à mon mari, tout va m'être charmant.</l>
+                </sp>
+            </div>
+            <div type="scene" n="9" xml:id="S9">
+                <head>SCENE IX.</head><lb/>
+                <stage>ARLEQUIN, L'ACTEUR FRANC,OIS.</stage><lb/><lb/>
+                <sp who="#Acteur" xml:id="S9_1">
+                    <speaker>L'ACTEUR.</speaker><lb/>
+                    <l><c type="lettrine">D</c>Ans l'état déplorable où nous ſommes reduits.</l>
+                    <l>Je ne <choice><orig>ſçais</orig><reg>sais</reg></choice> où je vais, je ne <choice><orig>ſçais</orig><reg>fais</reg></choice> où je ſuis.</l>
+                    <l>Ah ! <rs type="allegory" ref="#Arlequin">Seigneur</rs>, pardonnez à mon déſordre extrême,</l>
+                </sp>
+                <pb n="171"/>
+                <sp who="#Arlequin" xml:id="S9_2">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="I">Que cherchez-vous ici ?</l>
+                </sp>
+                <sp who="#Acteur" xml:id="S9_3">
+                    <speaker>L'ACTEUR.</speaker><lb/>
+                    <l part="F">Je vous cherche vous-même.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S9_4">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="I">Mais, quel homme êtes-vous ?</l>
+                </sp>
+                <sp who="#Acteur" xml:id="S9_5">
+                    <speaker>L'ACTEUR.</speaker><lb/>
+                    <l part="F">Je ſuis <name type="character" n="Héraclius">Héraclius</name>,</l>
+                    <l><name type="character" n="Mithridate">Mitridate</name>, <name type="character" n="Cesar">Céſar</name>, <name type="character" n="Pompee">Pompée</name> &amp; <name type="character" n="Regulus">Régulus</name> ;</l>
+                    <l>Pour tout dire, en un mot, je régne sur la Scène,</l>
+                    <l>Et je ſuis envoyé vers vous par <name type="god" n="Melpomene">Melpoméne</name>.</l>
+                    <l>C'en eſt fait, nous touchons à notre dernier jour ;</l>
+                    <l>Son Empire eſt détruit ſans votre prompt retour.</l>
+                    <l>Privé de vos attraits &amp; de votre <choice><orig>preſence</orig><reg>présence</reg></choice>,</l>
+                    <l>Sur les coeurs révoltés je n'ai plus de puiſſance.</l>
+                    <l>Je ſuis en vain paré du grand titre de Roi,</l>
+                    <l>Quand le peuple eſt mon maître, &amp; m'impoſe la loi ;</l>
+                    <l><choice><orig>Si-tôt</orig><reg>Sitôt</reg></choice> que je n'ai point le bonheur de lui plaire,</l>
+                    <l>Sa redoutable voix me contraint de me taire ;</l>
+                    <l>Il ne pardonne rien à qui l'oſe ennuyer.</l>
+                    <l>Quand je ſonge aux affronts qu'il me faut eſſuyer,</l>
+                    <l>Une juſte fureur de mon <choice><orig>ame</orig><reg>âme</reg></choice> s'empare ;</l>
+                    <l>Je jette mon chapeau, je <choice><orig>deſcens</orig><reg>descends</reg></choice> au <name type="place" n="Tartare">Tartare</name>,</l>
+                    <l>Je marche à la lueur du flambeau d'<name type="god" n="Alecton">Alecton</name>,</l>
+                    <l>J'embraſſe <name type="god" n="Proserpine">Proſerpine</name> en dépit de <name type="god" n="Pluton">Pluton</name>.</l>
+                    <l>Dieux ! Il veut me <choice><orig>fraper</orig><reg>frapper</reg></choice> de ſon ſceptre effroyable !</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S9_6">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Cet homme-là, je crois, eſt poſſédé du Diable.</l>
+                </sp>
+                <sp who="#Acteur" xml:id="S9_7">
+                    <speaker>L'ACTEUR.</speaker><lb/>
+                    <l>Arrête ! Dieu cruel !....pour éviter ſes coups,</l>
+                    <l>Fuyons... J'<choice><orig>entens</orig><reg>entends</reg></choice> <name type='god' n="Cerbère">Cerbére</name> aboyer aprés nous...</l>
+                    <l>Il ſe lance ſur moi dans ſa cruelle rage !</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S9_8">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Dites-moi, Roi des Fous, pourquoi tout ce tapage ?</l>
+                    <l>Pourquoi vous tourmenter avec tant de fureur ?</l>
+                </sp>
+                <sp who="#Acteur" xml:id="S9_9">
+                    <speaker>L'ACTEUR.</speaker><lb/>
+                    <l>Pour exciter en vous une noble terreur.</l>
+                </sp>
+                <pb n="172"/>
+                <sp who="#Arlequin" xml:id="S9_10">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Que la peste t'étouffe ! avec ce bruit terrible,</l>
+                    <l>Tu n'excites en moi qu'un mal de tête horrible.</l>
+                </sp>
+                <sp who="#Acteur" xml:id="S9_11">
+                    <speaker>L'ACTEUR.</speaker><lb/>
+                    <l>Aplaudiſſez du moins à mes gestes choiſis,</l>
+                    <l>Et de mon jeu muet ſentez bien tout le prix ;</l>
+                    <l>Au mérite, au talent rendez enfin juſtice,</l>
+                    <l>Et du chapeau, ſur-tout, admirez l'exercice :</l>
+                    <l>En trois <choice><orig>tems</orig><reg>temps</reg></choice> je le mets &amp; l'ôte <choice><orig>fiérement</orig><reg>fièrement</reg></choice>,</l>
+                    <l>Puis, ma main, avec <choice><orig>grace</orig><reg>grâce</reg></choice>, en décore mon flanc.</l>
+                    <l>Vous vous armez en vain d'un front ſauvage &amp;rude,</l>
+                    <l>Vous ne <choice><orig>ſçauriez</orig><reg>sauriez</reg></choice> tenir contre cette attitude.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S9_12">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Campé de la <choice><orig>maniére</orig><reg>manière</reg></choice>, ô Prince ſans égal !</l>
+                    <l>Il ne vous manque plus, vraiment, qu'un pied-d'eſtal,</l>
+                    <l>Et vous orneriez bien une place publique.</l>
+                    <l>Mais vous m'ennuyez fort dans ce ſéjour ruſtique.</l>
+                </sp>
+                <sp who="#Acteur" xml:id="S9_13">
+                    <speaker>L'ACTEUR.</speaker><lb/>
+                    <l>Ah ! Pour vous ramener au ſein de nos Etats,</l>
+                    <l>Il faut, je le vois bien, que je marche à grands pas,</l>
+                    <l>Et qu'épuiſant mon art... Mais inutile gêne !</l>
+                    <l>A me battre les flancs, je perds toute ma peine.</l>
+                    <l>J'ai beau rouler mes yeux, j'ai beau lancer ce bras,</l>
+                    <l>Et forcer mon goſier, vous n'aplaudiſſez pas :</l>
+                    <l>Aux efforts que je fais vous êtes inſenſible,</l>
+                    <l>Et montrez la rigueur d'un Parterre infléxible.</l>
+                    <l>Puiſque vous n'êtes point frapé par la terreur,</l>
+                    <l>Voyons ſi la pitié touchera votre coeur.</l>
+                    <l>J'embraſſe vos genoux, &amp; j'implore vos charmes :</l>
+                    <l>Laiſſez-vous, <rs ref="#Arlequin" type="allegory">Dieu puiſſant</rs>, attendrir par mes larmes ;</l>
+                    <l>Soyez touché du sort d'un Prince malheureux,</l>
+                    <l>Qui n'eſt plus reſpecté ſous ſes habits pompeux.</l>
+                    <l>Je vois à chaque inſtant ma grandeur mépriſée ;</l>
+                    <l>Mes voeux infortunés excitent la riſée.</l>
+                    <l>Venez rendre à mon rang ſa <choice><orig>premiére</orig><reg>première</reg></choice> ſplendeur,</l>
+                    <l>Et répandre ſur nous ce charme ſéducteur,</l>
+                    <l>Qui <choice><orig>ſçait</orig><reg>sait</reg></choice> nous attirer une indulgence extrême,</l>
+                    <l>Et qui fait aplaudir juſqu'à nos défauts même,</l>
+                    <pb n="173"/>
+                    <l>Ne laiſſez point tomber un Théatre fameux,</l>
+                    <l>Dont vos faveurs jadis ont fait fleurir les jeux.</l>
+                    <l>Au nom d'<name type="character" n="Agamemnon">Agamemnon</name>, au nom de nos Princeſſes,</l>
+                    <l>Venez du Peuple, enfin, nous rendre les tendreſſes.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S9_14">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Prince, n'avez-vous rien à me dire de plus ?</l>
+                </sp>
+                <sp who="#Acteur" xml:id="S9_15">
+                    <speaker>L'ACTEUR </speaker>
+                    <stage type="action" rend="italics">ſe levant.</stage><lb/>
+                    <l>Non ; d'en avoir tant dit je ſuis même confus.</l><note resp="IG">Ce vers aurait été lancé par un plaisantin du Parterre lors de la représentation du <title>Gentilhomme Guespin</title> de <name type="author">Donneau de Visé</name>, en 1670. Voir <bibl>Jean-Marie Clément, <title>Bibliothèque des théâtres, dictionnaire dramatique</title>, tome I, Veuve Duchesne, 1784.</bibl></note>
+                    <l>Vos mépris redoublés laſſent ma patience,</l>
+                    <l>Et tout m'inſulte en vous, juſqu'à votre ſilence.</l>
+                    <l>Je ſuis entré, <rs type="allegory" ref="#Arlequin">Seigneur</rs>, éperdu dans ces lieux,</l>
+                    <l>Et vous me contraignez d'en ſortir furieux.</l>
+                    <l>Adieu. Je vais, je cours, guidé par la <choice><orig>colére</orig><reg>colère</reg></choice>,</l>
+                    <l>Des Princes tels que moi la reſſource ordinaire,</l>
+                    <l>Remplir tous nos Etats des horreurs que je ſens,</l>
+                    <l>Pour <choice><orig>premiére</orig><reg>première</reg></choice> victime, immoler le bon-sens :</l>
+                    <l>Et, ſignalant mes coups par des débris illuſtres,</l>
+                    <l>Poignarder le ſouffleur, &amp; briser tous nos lustres.</l>
+                    <lb/><stage type="exit" rend="italics">(Il s'en va.)</stage>
+                </sp>  
+            </div>
+            <div type="scene" n="10" xml:id="S10">
+                <head>SCENE X.</head><lb/>
+                <stage>LE MUSICIEN, LA DANSEUSE, ARLEQUIN.</stage><lb/>
+                <sp who="#Musicien" xml:id="S101_">
+                    <speaker>LE MUSICIEN </speaker>
+                    <stage type="delivery" rend="italics">à la Danſeuſe.</stage><lb/>
+                    <l><c type="lettrine">D</c>E nos communs efforts nous devons tout atten-<lb/>dre.</l>
+                    <l part="I">Vos pas <choice><orig>brillans</orig><reg>brillants</reg></choice>....</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_2">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l part="F">Votre voix tendre...</l>
+                </sp>
+                <sp who="#Musicien" xml:id="S10_3">
+                    <speaker>LE MUSICIEN.</speaker><lb/>
+                    <l part="I">Ah ! C'eſt vous.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_4">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l part="M">Ah ! C'eſt vous.</l>
+                </sp>
+                <pb n="174"/> 
+                <sp who="#Musicien #Danseuse" xml:id="S10_5">
+                    <speaker><hi rend="italics">Enſemble.</hi></speaker>
+                    <l part="F">Qui charmerez <rs type="allegory" ref="#Arlequin">ce Dieu</rs>.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_6">
+                    <speaker>LA DANSEUSE </speaker>
+                    <stage type="delivery" rend="italics">déclame.</stage><lb/>
+                    <l>Mais le voilà qui <choice><orig>paroît</orig><reg>paraît</reg></choice> dans ce lieu.</l>
+                </sp>
+                <sp who="#Musicien" xml:id="S10_7">
+                    <speaker>LE MUSICIEN </speaker>
+                    <stage type="action" rend="italics">chante.</stage><lb/>
+                    <l>Vous voyez un des favoris</l>
+                    <l>Du <rs ref="#Apollon" type="god">Dieu de l'Harmonie</rs></l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_8">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l>De <name type="god" xml:id="Terpsichore">Terſicore</name> moi, je ſuis</l>
+                    <l>Une éléve chérie.</l>
+                    <lb/><stage type="business" rend="italics">(Elle déclame.)</stage><lb/>
+                    <l>Vers vous, <rs type="allegory" ref="#Arlequin">Seigneur</rs>, par <rs type="god" ref="#Apollon #Terpsichore">ces Divinités</rs></l>
+                    <l>L'un &amp; l'autre, aujourd'hui, nous ſommes députés.</l>
+                </sp>
+                <sp who="#Musicien" xml:id="S10_9">
+                    <speaker>LE MUSICIEN.</speaker><lb/>
+                    <l>Sans vous, malgré mon art, nos concerts aſſoupiſſent.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_10">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l>Et, ſans vous, nos fêtes languiſſent,</l>
+                    <l>Malgré tout mon talent.</l>
+                 </sp>
+                <sp who="#Arlequin" xml:id="S10_11">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l><rs ref="#Danseuse" type="character">Madame</rs> excelle donc au grand art de la danſe,</l>
+                    <l>Et <rs type="character" ref="#Musicien">Monſieur</rs> prime dans le chant ?</l>
+                </sp>
+                <sp who="#Musicien" xml:id="S10_12">
+                    <speaker>LE MUSICIEN </speaker>
+                    <stage type="business" rend="italics">chante.</stage><lb/>
+                    <l>Du public enchanté j'ai merité l'eſtime ;</l>
+                    <l>Je réunis les goûts divers :</l>
+                    <l>Je ſuis tantôt badin, je ſuis tantôt ſublime ;</l>
+                    <l>Je fais l'honneur de nos concerts :</l>
+                    <l>Ma canne ſeule les anime,</l>
+                    <l>Et fait ſentir l'eſprit qui <choice><orig>régne</orig><reg>règne</reg></choice> dans nos airs.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_13">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l>Je ſuis le phoenix de la danſe,</l>
+                    <l>Je fais l'étonnement des yeux ;</l>
+                    <l>Et, comme un aigle qui s'élance,</l>
+                    <l>Je m'<choice><orig>éleve</orig><reg>élève</reg></choice> jusques aux Cieux.</l>
+                </sp>
+                <sp who="#Musicien" xml:id="S10_14">
+                    <speaker>LE MUSICIEN.</speaker><lb/>
+                    <l>Grace à mon art divin, j'affronte le tonnerre, </l>
+                    <l>Je maîtriſe &amp; parcours les élémens divers :</l>
+                    <l>Soutenus par mes ſons, je vole dans les airs,</l>
+                    <l>Je <choice><orig>régne</orig><reg>règne</reg></choice> ſur la terre,</l>
+                    <pb n="175"/>
+                    <l>Et je nage au milieu des mers.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_15">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l>D'un zéphir mutin, </l>
+                    <l>Folâtre &amp; badin,</l>
+                    <l>Par un effort nouveau</l>
+                    <l>Je ſuis le tableau ;</l>
+                    <l>Et mon pied leger</l>
+                    <l>Vole, &amp; trace dans l'air,</l>
+                    <l>Par ſon rapide cours,</l>
+                    <l>Cent lacs-d'amours.</l>
+                    <l><rs type="allegory">La Jeuneſſe</rs>,</l>
+                    <l><rs type="allegory">La Vieilleſſe</rs>,</l>
+                    <l>Admirent mes entrechats.</l>
+                    <l>La justeſſe,</l>
+                    <l>La vîteſſe</l>
+                    <l>Qu'on voit dans mes pas,</l>
+                    <l>Ne ſe conçoit pas.</l>
+                </sp>
+                <sp who="#Musicien" xml:id="S10_16">
+                    <speaker>LE MUSICIEN.</speaker><lb/>
+                    <l>Mon talent le plus grand &amp; le plus admirable,</l>
+                    <l>Eſt celui d'inſpirer un ſommeil favorable.</l>
+                    <l>Mes ſons endorment noblement,</l>
+                    <l>Et je fais bâiller décemment,</l>
+                    <l>Si je peins un buveur renverſé ſous la table,</l>
+                    <l>Vous l'entendez diſtinctement</l>
+                    <l>Qui ronfle muſicalement.</l> 
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_17">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l>Mes bras expriment la moleſſe</l>
+                    <l>Repoſant ſur un lit de fleurs ;</l>
+                    <l>Et mes yeux peignent l'<choice><orig>yvresse</orig><reg>ivresse</reg></choice></l>
+                    <l>Où plongent de tendres ardeurs.</l>
+                </sp>
+                <sp who="#Musicien" xml:id="S10_18">
+                    <speaker>LE MUSICIEN.</speaker><lb/>
+                    <l>Je célébre <name type="god" n="Amour">l'Amour</name>, je chante ſon empire</l>
+                    <l>Sur tout ce qui reſpire.</l>
+                    <l>A l'oreille je peins les charmes du <choice><orig>Printems</orig><reg>Printemps</reg></choice>,</l>
+                    <l>Et le ſoufle leger du zéphir qui ſoupire.</l>
+                    <l>J'imite, par mes ſons, tous les chants <choice><orig>différens</orig><reg>différents</reg></choice></l>
+                    <l>Des oiſeaux amoureux qui plaignent leur martyre.</l>
+                    <l>On croit <choice><orig>ouir</orig><reg>ouïr</reg></choice> parfaitement</l>
+                    <pb n="176"/>
+                    <l>Un ſerin qui ramage, un pigeon qui roucoule</l>
+                    <l>Et qui gémit de ſon tourment ;</l>
+                    <l>Le jet-d'eau qui s'élance audacieuſement ;</l>
+                    <l>La caſcade qui tombe, roule,</l>
+                    <l>Et qui, de-là, ſe coule</l>
+                    <l>Dans le lit d'un fleuve charmant.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_19">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l>Mes pas qui coulent doucement,</l>
+                    <l>D'abord imitent l'onde pure ;</l>
+                    <l>Puis, précipitant leur meſure,</l>
+                    <l>Partent vite comme un torrent.</l>
+                </sp>
+                <sp who="#Musicien" xml:id="S10_20">
+                    <speaker>LE MUSICIEN.</speaker><lb/>
+                    <l>Au goût  <choice><orig>françois</orig><reg>français</reg></choice> j'allie</l>
+                    <l>Le goût brillant de <name type="place" n="Italie">l'Italie</name> ;</l>
+                    <l>Je fais, dans mes airs nouveaux,</l>
+                    <l>Badiner <stage type="delivery" rend="italics">(3. fois.)</stage> les jeunes fleurettes :</l>
+                    <l>Je fais, dans mes chanſonnettes,</l>
+                    <l>Sautiller <stage type="delivery" rend="italics">(3. fois.)</stage> les petits moineaux,</l>
+                    <l><unclear>E</unclear>t, par mes tendres muſettes,</l>
+                    <l>Frétiller <stage type="delivery" rend="italics">(3. fois.)</stage> les  <choice><orig>habitans</orig><reg>habitants</reg></choice> des eaux.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_21">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l>Mes yeux naïfs &amp; mes airs <choice><orig>innocens</orig><reg>innocents</reg></choice>,</l>
+                    <l>D'une <name type="character" n="Agnès">Agnès</name> aux regards tracent le caractère :</l>
+                    <l>D'<rs type="character">une coquette qui veut plaire</rs>,</l>
+                    <l>Je peins les geſtes <choice><orig>agaçans</orig><reg>agaçants</reg></choice>,</l>
+                    <l>Par ma danſe vive &amp; legére.</l>
+                    <l>Faut-il d'une jalouſe exprimer la colére ?</l>
+                    <l>D'un pas impétueux</l>
+                    <l>Je vole après mon infidèle,</l>
+                    <l>Pour le ſurprendre avec ſa belle,</l>
+                    <l>Et pour les étrangler tous deux.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S10_22">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Arrêtez ; il ſuffit. Avec toute <name type="place" n="France">la France</name>,</l>
+                    <l><rs type="character" ref="#Danseuse">Madame</rs>, j'aplaudis, j'admire votre danſe ;</l>
+                    <l>Rien n'eſt plus ſurprenant, plus fort, ni plus hardi.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_23">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l>Ah ! Vous me ſuivrez donc, la choſe étant ainſi.</l>
+                </sp>
+                <pb n="177"/>
+                <sp who="#Arlequin" xml:id="S10_24">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Vous m'en diſpenſerez, <rs type="character" ref="#Danseuse">Madame</rs>.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_25">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l>Eh ! Qu'ai-je en moi qui rebute votre <choice><orig>ame</orig><reg>âme</reg></choice>?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S10_26">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Un défaut qui <choice><orig>feroit</orig><reg>ferait</reg></choice> un danſeur accompli.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_27">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <l part="I">Quel défaut ?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S10_28">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage type="business" rend="italics">faiſant la capriole.</stage><lb/>
+                    <l part="F">Vous ſautez trop bien pour une femme.</l>
+                </sp>
+                <sp who="#Danseuse" xml:id="S10_29">
+                    <speaker>LA DANSEUSE.</speaker><lb/>
+                    <sound>AIR.</sound><lb/>
+                    <lg>
+                        <l>Que vous jugez mal,</l>
+                        <l><stage type="business" rend="italics">Un ſaut.</stage>     Mon cher petit bon-homme !</l>
+                        <l>Que vous jugez mal,</l>
+                        <l>Mon petit animal !</l>
+                        <l>Peut-on trouver un défaut</l>
+                        <l part="I">A fille qui fait un ſaut,</l>
+                        <l part="F">Deux ſauts, &amp;c.</l>
+                    </lg>
+                    <lb/><stage type="exit" rend="italics">(Elle s'en va.)</stage><lb/>
+                </sp>
+            </div>
+            <div type="scene" n="11" xml:id="S11">
+                <head>SCENE XI.</head><lb/>
+                <stage>ARLEQUIN, LE MUSICIEN.</stage><lb/>
+                <sp who="#Musicien" xml:id="S11_1">
+                    <speaker>LE MUSICIEN.</speaker><lb/><lb/>
+                    <l part="I"><c type="lettrine">E</c>T moi?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S11_2">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="F">Par l'action, par la délicateſſe,</l>
+                    <l>Par l'eſprit &amp; la gentilleſſe,</l>
+                    <l>Vous l'emportez ſur tous les <name type="character" n="Amphion">Amphions</name>,</l>
+                    <l>Et votre jeu ſuplée au défaut de vos ſons :</l>
+                    <l>De tout faire ſentir vous avez la ſcience,</l>
+                    <l>Et rendez finement un perſonnage outré ;</l>
+                    <l>Mais, pour attirer ma préſence,</l>
+                    <pb n="178"/>
+                    <l>Vous êtes, bel <rs type="character">Orphée</rs>, un peu trop maniéré.</l>
+                </sp>
+                <sp who="#Musicien" xml:id="S11_3">
+                    <speaker>LE MUSICIEN.</speaker><lb/>
+                    <l>Adieu. Je vous <choice><orig>croyois</orig><reg>croyais</reg></choice> le goût plus épuré.</l>
+                    <l>Sçachez, quand il s'agit de muſique &amp; de danſe,</l>
+                    <l>Que l'art toujours doit être préféré.</l>
+                    <stage type="exit" rend="italics">(Il chante en s'en allant.)</stage>
+                    <l>Un pigeon qui roucoule.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S11_4">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage type="business" rend="italics">le contrefait, &amp; répéte.</stage><lb/>
+                    <l>Un pigeon qui roucoule.</l>
+                </sp>
+            </div>
+            <div type="scene" n="12" xml:id="S12">
+                <head>SCENE XII.</head><lb/>
+                <stage>ARLEQUIN, SILVIA.</stage><lb/><lb/>
+                <sp who="#Arlequin" xml:id="S12_1">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l><c type="lettrine">A</c>H! Le <fs><f name="temper">joli tendron</f></fs> qu'ici je vois <choice><orig>paroître</orig><reg>paraître</reg></choice> !</l>
+                    <lb/><stage type="delivery" rend="italics">(haut)</stage><lb/>
+                    <l><rs type="character" ref="#Silvia">Belle</rs>, qui vous envoye en ce ſéjour champêtre ?</l>
+                </sp>
+                <sp who="#Silvia" xml:id="S12_2">
+                    <speaker>SILVIA.</speaker><lb/>
+                    <l>C'eſt <name type="god" ref="#Momus">Momus</name> dont je ſuis la loi ;</l>
+                    <l>Et, de la part de cet aimable maître,</l>
+                    <l>J'y cherche <rs type="allegory" ref="#Arlequin">le JE NE SÇAI QUOI</rs>.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S12_3">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Vous le voyez en ma perfonne.</l>
+                </sp>
+                <sp who="#Silvia" xml:id="S12_4">
+                    <speaker>SILVIA.</speaker><lb/>
+                    <l>En ce cas, de ſa part recevez ce brevet.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S12_5">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>C'eſt bien de l'honneur qu'il me fait.</l>
+                </sp>
+                <sp who="#Silvia" xml:id="S12_6">
+                    <speaker>SILVIA.</speaker><lb/>
+                    <l>Vous méritez, <rs type="allegory" ref="#Arlequin">Seigneur</rs>, ce qu'il vous donne.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S12_7">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage type="business" rend="italics">lit en ânonant.</stage><lb/>
+                    <l>Le Dieu Porte.... Le Dieu Porte....</l>
+                </sp>
+                <sp who="#Silvia" xml:id="S12_8">
+                    <speaker>SILVIA.</speaker><lb/>
+                    <l>Ah! pour un Dieu, comme vous ânonez !</l>
+                    <l part="I">Je vais lire pour vous ; donnez, <rs type="allegory" ref="#Arlequin">Seigneur</rs>.</l>
+                </sp>
+                <pb n="179"/>
+                <sp who="#Arlequin" xml:id="S12_9">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="F">Tenez.</l>
+                </sp>
+                <sp who="#Silvia" xml:id="S12_10">
+                    <speaker>SILVIA </speaker>
+                    <stage type="business" rend="italics">lit.</stage><lb/>
+                    <l>"Le <rs type="god" ref="#Momus">Dieu Porte-Marotte</rs>,</l>
+                    <l>"Au <rs type="allegory" ref="#Arlequin">Dieu JE NE SÇAI QUOI</rs>, citoyen des forêts,</l>
+                    <l>Salut, folie &amp; paix.</l>
+                    <l>"Notre corps admirant ſa conduite falotte,</l>
+                    <l>"D'avoir quitté <name type="place" n="Paris">Paris</name>, le plus beau des ſéjours,</l>
+                    <l>Pour s'enterrer dans une grotte,</l>
+                    <l>"Et de fuir les mortels, pour vivre avec les ours,</l>
+                    <l>Lui décerne, à voix haute,</l>
+                    <l>"Tous les honneurs de la Calotte.</l>
+                    <l>"Nous remettons, nous-mêmes, dans ſa main</l>
+                    <l>"Le ſceptre calotin :</l>
+                    <l>"Enjoint à lui par <rs type="allegory">la Folie</rs></l>
+                    <l>"De l'accepter malgré ſa modeftie,</l>
+                    <l>"De quitter ſon défert, notre brevet reçû,</l>
+                    <l>"Sous peine, s'il reſifte à cet ordre abſolu,</l>
+                    <l>"De perdre la parole,</l>
+                    <l>"Et cet air ingénu</l>
+                    <l>"Qui du Public le rend l'idole;</l>
+                    <l>"D'être peſant &amp; malotru,</l>
+                    <l>"Même en faiſant la capriole,</l>
+                    <l>"Et de devenir aujourd'hui</l>
+                    <l>"Le fléau de <choice><orig>joye</orig><reg>joie</reg></choice>, &amp; le Dieu de l'ennui.</l>
+                    <l>"Fait je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> quel jour, à je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> quelle heure,</l>
+                    <l>"Dans je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> quelle demeure,</l>
+                    <l>"Par un Auteur du Régiment,</l>
+                    <l><choice><orig>Apellé</orig><reg>Appelé</reg></choice> JE NE <choice><orig>SÇAI</orig><reg>SAIS</reg></choice> COMMENT.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S12_11">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="I">C'eſt bien joli!</l>
+                </sp>
+                <sp who="#Silvia" xml:id="S12_12">
+                    <speaker>SILVIA.</speaker><lb/>
+                    <l part="F">La <choice><orig>Piéce</orig><reg>Pièce</reg></choice> a donc votre ſuffrage ?</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S12_13">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Je parle du lecteur, &amp; non pas de l'ouvrage.</l>
+                    <l>Votre bouche rend flateurs</l>
+                    <l>Les traits piquans de la ſatyre ;</l>
+                    <l>Et je les préfére aux douceurs</l>
+                    <pb n="180"/>
+                    <l>Que les autres peuvent me dire.</l>
+                </sp>
+                <sp who="#Silvia" xml:id="S12_14">
+                    <speaker>SILVIA.</speaker><lb/>
+                    <l>Ah ! Vous me dites-là, vous-même, des fadeurs.</l>
+                    <l>Je vous dirai, pour moi, qu'aucun égard n'arrête,</l>
+                    <l>Qu'il n'eſt qu'un mot qui ſerve en cette occaſion.</l>
+                    <l>Suis-je de votre goût, ou non ?</l>
+                    <l>Répondez net &amp; <choice><orig>vîte</orig><reg>vite</reg></choice>, je vous prie.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S12_15">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Moi, je vous trouve fort jolie.</l>
+                </sp>
+                <sp who="#Silvia" xml:id="S12_16">
+                    <speaker>SILVIA.</speaker><lb/>
+                    <l>Il faut me le prouver non par un compliment,</l>
+                    <l>Mais par un prompt effet, quittant cette demeure,</l>
+                    <l>Et me ſuivant en <name type="place" n="France">France</name> tout-à-l'heure.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S12_17">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Tout-à-l'heure ? Le cas eſt-il donc ſi preſſant ?</l>
+                </sp>
+                <sp who="#Silvia" xml:id="S12_18">
+                    <speaker>SILVIA.</speaker><lb/>
+                    <l>Oui ; point de retardement.</l>
+                    <l>Décidez-vous, Seigneur ? Au bas de la Requête,</l>
+                    <l>Mettez BON OU NÉANT.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S12_19">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Cet air mutin ſuffit pour faire ma conquête ;</l>
+                    <l>Et vous avez un minois ſi fripon,</l>
+                    <l>Qu'en dépit qu'on en ait, il faut bien dire BON.</l>
+                </sp>
+                <sp who="#Silvia" xml:id="S12_20">
+                    <speaker>SILVIA.</speaker><lb/>
+                    <l>Donnez-moi donc la main, ſans autre répartie,</l>
+                    <l>Et venez avec moi vous rendre au Régiment.</l>
+                    <l>Mon coeur avec le vôtre a de la ſympathie,</l>
+                    <l>Et nous nous convenons tous deux parfaitement :</l>
+                    <l>Vous êtes fait pour <rs type="allegory">la Folie</rs>,</l>
+                    <l>Et moi pour <rs type="allegory">l'Agrément</rs>.</l>
+                    <l>Venez, volez ; partons inceſſamment.</l>
+                </sp>
+                <sp who="#Arlequin" xml:id="S12_21">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Taupe. J'irai par tout en votre compagnie ;</l>
+                    <l>Et l'on nous verra, vous &amp; moi,</l>
+                    <l>Ce ſoir même, à la Comédie.</l>
+                    <l>A tous les coeurs je donnerai la loi :</l>
+                    <l>On vous <choice><orig>aplaudira</orig><reg>applaudira</reg></choice> ſans ceſſe.</l>
+                    <pb n="181"/>
+                    <l>Moi, je ferai JE NE <choice><orig>SÇAI<reg>SAIS</reg></orig></choice> QUOI,</l>
+                    <l>Et vous ferez JE NE <choice><orig>SÇAI<reg>SAIS</reg></orig></choice> QU'EST-CE,</l>
+                    <stage type="exit"><hi rend="italics">(Il part avec Silvia.)</hi></stage>
+                </sp>
+            </div>
+            <div type="scene" n="13" xml:id="S13">
+                <head>SCENE XIII.</head>
+                <sp who="#Momus" xml:id="S13_1">
+                    <speaker>MOMUS </speaker>
+                    <stage type="delivery" rend="italics">ſeul.</stage><lb/><lb/>
+                    <l><c type="lettrine">P</c>Our le coup, je triomphe, &amp; le voilà parti ;</l>
+                    <l>Ma ſujétte l'<choice><orig>emmene</orig><reg>emmène</reg></choice>, &amp; me comble de gloire :</l>
+                    <l>Sur tous les autres Dieux j'emporte la victoire :</l>
+                    <l>Au gré de mes deſirs l'ouvrage a réuſſi.</l>
+                    <l>Je cours <choice><orig>vîte</orig><reg>vite</reg></choice> à <name type="place" n="Paris">Paris</name> accompagner l'entrée</l>
+                    <l>Du <rs type="allegory" ref="#Arlequin">Dieu de l'Agrément</rs> ;</l>
+                    <l>Je veux qu'elle ſoit célébrée</l>
+                    <l>Par tout mon Régiment :</l>
+                    <l>Par mon ordre, déjà la fête eſt préparée.</l>
+                </sp>
+            </div>
+            <div type="scene" n="14" xml:id="S14">
+                <head>SCENE DERNIERE.</head><lb/>
+                <stage type="setting" rend="italics">Le Theatre change, &amp; repréſente une ſalle ornée de <lb/>tout ce qui peut caractériſer <rs type="allegory">la Folie</rs> &amp; <rs type="allegory">l'agrément</rs> réunis <lb/> enſemble. <lb/> (On méne en triomphe <name type="character" ref="#Arlequin">Arlequin</name> et <name type="character" ref="#Silvia">Silvia</name>.)</stage><lb/><lb/>
+                <sp who="Calotin1" xml:id="S14_1">
+                    <speaker>UN CALOTIN </speaker>
+                    <stage rend="italics">chante.</stage><lb/><lb/>
+                    <l><c type="lettrine">Q</c>ue le tambour, que la trompette,</l>
+                    <l>Célébrent de <name type="god" ref="#Momus">Momus</name> le triomphe éclatant :</l>
+                    <l>Que la <choice><orig>flute</orig><reg>flûte</reg></choice>, que la muſette,</l>
+                    <l>Annoncent le retour du <rs type="allegory" ref="#Arlequin">Dieu de l'agrément</rs> ;</l>
+                    <l>Il vient régner dans notre Régiment.</l>
+                    <l>Que le tambour, que la trompette,</l>
+                    <l>Annoncent de <name type="god" ref="#Momus">Momus</name> le triomphe éclatant.</l>
+                </sp>
+                <pb n="182"/>
+                <sp who="Calotin2" xml:id="S14_2">
+                    <speaker>UN CALOTIN.</speaker><lb/>
+                    <l>Grands Officiers de la Calotte,</l>
+                    <l>Devant <rs type="allegory" ref="#Arlequin">ce Dieu</rs> fléchiſſez les genoux,</l>
+                    <l><choice><orig>Armés</orig><reg>Armez</reg></choice> ſa main de la Marotte :</l>
+                    <l>Qu'il <choice><orig>régne</orig><reg>règne</reg></choice> ici, <name type="god" ref="#Momus">Momus</name> n'en ſera point jaloux.</l>
+                </sp>
+                <stage type="business" rend="italics">(Ici, tous les Officiers de la Calotte vont rendre hom-<lb/>mage à <name type="character" ref="#Arlequin">Arlequin</name>, &amp; lui présenter la Marotte, qu'il <lb/>reçoit comiquement, en faiſant pluſieurs lazzis.</stage><lb/>
+                <sp who="Calotin3" xml:id="S14_3">
+                    <speaker>UN CALOTIN.</speaker><lb/>
+                    <l>Calotins ennuyeux, Calotins ſans mérite,</l>
+                    <l><choice><orig>Fuyés</orig><reg>Fuyez</reg></choice> <choice><orig>vîte</orig><reg>vite</reg></choice>, on vous caſſe tous.</l>
+                    <l>De notre Régiment, on ne veut que l'élite ;</l>
+                    <l><choice><orig>Accourés</orig><reg>Accourez</reg></choice> ſeuls, aimables fous.</l>
+                </sp>
+                <stage rend="italics" rendition="center" type="business">(On danſe.)</stage>
+                <sp who="Calotin4" xml:id="S14_4">
+                    <speaker>UN CALOTIN.</speaker><lb/>
+                    <l>Le partage du Régiment</l>
+                    <l>Eſt la ſaine Philoſophie.</l>
+                    <l>L'eſprit de <rs type="allegory">l'aimable Folie</rs>,</l>
+                    <l>Qui <choice><orig>régne</orig><reg>règne</reg></choice> dans ce corps brillant,</l>
+                    <l>N'eſt que <rs type="allegory">la raison</rs> traveſtie</l>
+                    <l>Sous les habits de <choice><orig>l'enjoûment</orig><reg>l'enjouement</reg></choice>,</l>
+                    <l>Et <rs type="allegory">la Morale</rs> embellie</l>
+                    <l>Par le ſecours de <rs type="allegory">l'Agrément</rs>.</l>
+                </sp>
+            </div>
+            <div type="vaudeville" xml:id="V">
+                <head>VAUDEVILLE.</head><lb/><lb/>
+                    <lb/>
+                    <lg xml:id="V1">
+                        <head>I.</head>
+                        <l xml:id="V1_1"><c type="lettrine">A</c> L'Univers rendons juſtice,</l>
+                        <l xml:id="V1_2">Même en dépit qu'il en ait :</l>
+                        <l xml:id="V1_3">De quelque façon qu'on agiſſe.</l>
+                        <l xml:id="V1_4">On eſt digne du Brevet.</l>
+                        <l xml:id="V1_5">Que la Marotte</l>
+                        <l xml:id="V1_6">Paſſe ſoudain</l>
+                        <l xml:id="V1_7">De main en main;</l>
+                        <pb n="183"/>
+                        <l xml:id="V1_8">Que la Calotte</l>
+                        <l xml:id="V1_9">Couvre la tête falotte</l>
+                        <l xml:id="V1_10">Du genre humain.</l>
+                    </lg>
+                
+                   
+                    <lg xml:id="V2"> <head>II.</head><lb/>
+                        <l xml:id="V2_1"><rs type="character">Un noble</rs> mange, pour paroître,</l>
+                        <l xml:id="V2_2">Principal &amp; revenus.</l>
+                        <l xml:id="V2_3"><rs type="character">Un riche heureux, s'il vouloit l'être,</rs></l>
+                        <l xml:id="V2_4">Meurt de faim sur ſes écus.</l>
+                        <l xml:id="V2_5">Que la Marotte, &amp;c.</l>
+                    </lg>
+                
+                
+                    
+                    <lg xml:id="V3"><head>III.</head><lb/>
+                        <l xml:id="V3_1"><rs type="character">Un Pédant</rs> né deſagréable,</l>
+                        <l xml:id="V3_2">Prétend faire le galant :</l>
+                        <l xml:id="V3_3"><rs type="character">Un Marquis ignorant, aimable,</rs></l>
+                        <l xml:id="V3_4">Veut ſe donner pour ſçavant.</l>
+                        <l xml:id="V3_5">Que la Marotte, &amp;c.</l>
+                    </lg>
+               
+                    
+                    <lg xml:id="V4"><head>IV.</head><lb/>
+                        <l xml:id="V4_1">Aujourd'hui <name type="institution">l'Opéra</name> nous <choice><orig>frape</orig><reg>frappe</reg></choice>,</l>
+                        <l xml:id="V4_2">Demain les Comédiens ;</l>
+                        <l xml:id="V4_3">Après demain on nous attrape</l>
+                        <l xml:id="V4_4">Par les moindres petits riens.</l>
+                        <l xml:id="V4_5">Que la Marotte, &amp;c.</l>
+                    </lg>
+                
+                        <lg xml:id="V5"> 
+                            <head>V.<lb/>
+                                ARLEQUIN <hi>au Parterre.</hi>
+                            </head>
+                            <lb/>
+                                <l xml:id="V5_1">Heureux ſi le Parterre affable</l>
+                            <l xml:id="V5_2"><choice><orig>Goûtoit</orig><reg>Goûtait</reg></choice> ce jeu calotin,</l>
+                            <l xml:id="V5_3">Et que, d'une voix favorable,</l>
+                            <l xml:id="V5_4">Il chantât notre refrein.</l>
+                            <l xml:id="V5_5">Que la Marotte, &amp;c.</l>
+                        </lg>
+                   
+                    <lb/><lb/><trailer rend="center" rendition="italics">Fin du troiſiéme Tome.</trailer>
+                
+            </div>
+    
+        </body>
+    </text>
+</TEI>

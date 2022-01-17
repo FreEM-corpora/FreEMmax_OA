@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1688-02">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mercure galant, février 1688 [tome 2].</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL/IReMuS</edition>
+        <respStmt>
+          <name>Nathalie Berton-Blivet</name>
+          <resp>Responsable éditorial</resp>
+        </respStmt>
+        <respStmt>
+          <name>Anne Piéjus</name>
+          <resp>Responsable éditorial</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+        <respStmt>
+          <name>Vincent Jolivet</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1688-02</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Mercure galant</title>, <date>février 1688</date> [tome 2].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1688-02"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Mercure galant</hi>, février 1688 [tome 2].</head>
+        <div type="article" xml:id="MG-1688-02_000" resp="wordpro">
+          <head>Avis</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. I-IV</bibl>
+          <quote>
+            <label>AVIS.</label>
+            <p><hi rend="i">Quelques prieres qu’on ait faites jusqu’à present de bien écrire les noms de Famille employez dans les Memoires qu’on envoye pour le Mercure, on ne laisse pas d’y manquer toûjours. Cela est cause qu’il y a de temps en temps quelques-uns de ces Memoires dont on ne se peut servir. On reïtere la mesme priere de bien écrire ces noms, en sorte qu’on ne s’y puisse tromper. On ne prend aucun argent pour les Memoires, &amp; l’on employera tous les bons Ouvrages à leur tour, pourveu qu’ils ne desobligent personne, &amp; qu’il n’y ait rien de licentieux. On prie seulement ceux qui les envoyent &amp; sur tout ceux qui n’écrivent que pour faire employer leurs noms dans l’article des Enigmes, d’affranchir leurs Lettres de port, s’ils veulent qu’on fasse ce qu’ils demandent. C’est fort peu de chose pour chaque particulier, &amp; le tout ensemble est beaucoup pour un Libraire.</hi></p>
+            <p><hi rend="i">Le sieur Guerout qui debite presentement le Mercure, a rétably les choses de maniere qu’il est toûjours imprimé au commencement de chaque mois. Il avertit qu’à l’égard des Envois qui se font à la Campagne, il fera partir les paquets de ceux qui le chargeront de les envoyer avant que l’on commence à vendre icy le Mercure. Comme ces paquets seront plusieurs jours en chemin, Paris ne laissera pas d’avoir le Mercure longtemps avant qu’il soit arrivé dans les Villes éloignées, mais aussi les Villes ne le recevront pas si tard qu’elles faisoient auparavant. Ceux qui se le font envoyer par leurs Amis sans en charger ledit Guerout, s’exposent à le recevoir toûjours fort tard par deux raisons. La premiere, parce que ces Amis n’ont pas soin de le venir prendre si-tost qu’il est imprimé, outre qu’il le sera toûjours quelques jours avant qu’on en fasse le debit ; &amp; l’autre, que ne l’envoyant qu’aprés qu’ils l’ont leu, eux &amp; quelques autres à qui ils le prestent, ils rejettent la faute du retardement sur le Libraire, en disant que la vente n’en a commencé que fort avant dans le mois. On évitera ce retardement par la voye dudit sieur Guerout, puis qu’il se charge de faire les paquets luy-mesme, &amp; de les faire porter à la poste ou aux Messagers sans nul interest, tant pour les Particuliers que pour les Libraires de Province, qui luy auront donné leur adresse. Il fera la mesme chose generalement de tous les Livres nouveaux qu’on luy demandera, soit qu’il les debite, ou qu’ils appartiennent à d’autres Libraires, sans en prendre pour cela davantage que le prix fixé par les Libraires qui les vendront. Quand il se rencontrera qu’on demandera ces Livres à la fin du mois, il les joindra au Mercure, afin de n’en faire qu’un mesme paquet. Tout cela sera executé avec une exactitude dont on aura tout lieu d’estre content.</hi></p>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-02_007" resp="wordpro">
+          <head>[Discours sur la Gloire]</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 7-41</bibl>
+          <p>Je commence à mon ordinaire, Madame, c’est à dire, sans donner aucunes loüanges au Roy, mais en vous parlant seulement de quelques-unes de ses actions. Elles sont toujours si loüables d’elles-mêmes, qu’elles portent leurs Eloges avec elles. Vous avez sceu que Sa Majesté a donné la Charge de President au Mortier qui vaquoit par la mort de feu M<hi rend="sup">r</hi> le President de Mesme, à M<hi rend="sup">r</hi> de Neuchatel son Fils, Conseiller au Parlement, à present M<hi rend="sup">r</hi> de Mesme. Ce Monarque n’a pas seulement consideré qu’il donnoit au Fils la Charge du Pere. C’estoit à la verité un droit qui luy donnoit sujet d’y pretendre, mais ce n’en estoit pas un suffisant pour l’obtenir, il faut un droit demerite, &amp; d’un merite qui convienne aux emplois qu’on doit remplir. C’est ce que le Roy, aprés s’en estre particulierement informé, a trouvé dans M<hi rend="sup">r</hi> de Neuchatel, qui estant Substitut de M<hi rend="sup">r</hi> le Procureur General, a travaillé avec toute l’assiduité &amp; toute la capacité imaginable. On ne doit pas s’étonner aprés cela, s’il a esté gratifié de la Charge de President au Mortier, puis qu’un sujet qui la meritoit, s’est trouvé Fils d’un Pere qui s’estoit particulierement attaché à servir ce Prince, &amp; avoit pris une Charge dans la Maison de Sa Majesté, pour avoir l’honneur d’approcher souvent de sa Personne, avant que d’estre President au Mortier. Le Roy juste &amp; reconnoissant, recompense toûjours dans les enfans, les services de ceux qui se sont attachez auprés de luy, quand il les trouve dignes de ses graces, preferablement à ceux dont les peres ne luy ont rendu aucun service. Ainsi quiconque s’applique à servir sa Majesté, est seur d’en voir passer les recompenses jusques à son sang, pourvû qu’il n’ait point de tache qui l’en rende indigne.</p>
+          <p>Toutes les Histoires font foy que les Lettres &amp; les Arts ont toûjours fleury sous les grands Monarques, mais nous ne voyons aucun regne pendant lequel ils ayent éclaté d’une maniere plus avantageuse, que depuis que la France est gouvernée par LOUIS LE GRAND. Ce Monarque aime les Lettres, &amp; le titre qu’il a daigné prendre de Protecteur de la premiere Academie de son Royaume, est cause qu’il s’en est formé dans la pluspart des Villes considerables. Parmy ces Academies, celles dont on entend le moins parler, &amp; dont les exercices semblent n’estre pas aussi connus qu’ils le sont dans quelques autres, sont aujourd’huy plus celebres &amp; plus remplies de personnes d’un esprit sublime, que n’estoient avant son regne, les premieres Academies du Royaume, si on peut nommer ainsi les Societez qui ont paru avant ce temps-là. Je vous ay souvent parlé de celle de Ville-Franche, &amp; je vous ay envoyé divers Ouvrages de ceux qui la composent. En voicy un de M<hi rend="sup">r</hi> Mignot de Bussy, Directeur de cette Academie, &amp; Lieutenant General de Beaujolois. Je ne vous en diray rien, puis que je vous l’envoye entier, &amp; qu’ayant le goust aussi bon que vous l’avez, vous n’avez besoin que de vous-mesme pour en découvrir toute la beauté.</p>
+          <quote>
+            <label>DISCOURS<lb/>SUR LA GLOIRE.</label>
+            <p><hi rend="i">Quoy que la Nature comble l’homme chaque jour de ses bien-faits, &amp; qu’elle ne luy laisse rien à desirer de ce qui est utile, necessaire, &amp; agreable à la vie, elle n’attire pas neanmoins son entiere reconnoissance ny toutes ses adorations. Une autre Divinité les partage, ou pour mieux dire, elle luy en enleve la plus grande part. En vain cette Mere commune des animaux ouvre son sein pour leur en faire tirer ses plus grandes richesses ; en vain elle produit tout ce qui peut contenter leurs sens &amp; prolonger leurs années. Si ces dons precieux semblent satisfaire en apparence l’appetit de l’homme, ils ne remplissent pas tout à fait son cœur ny son esprit ; il luy faut quelque chose qui soit plus degagé de la matiere, &amp; où le corps ne participe en rien, si ce n’est par la liaison qu’il a avec l’ame. Les faveurs de la Nature sont communes à tous les animaux ; elle travaille également pour les brutes &amp; pour les hommes, ou si elle les distingue dans ses operations, &amp; qu’elle paroisse plus soigneuse à suivre les differens desirs des humains, ce n’est que pour obeir aux ordres de son divin Auteur, qui l’a soumise en quelque façon à la Creature, sur le visage de laquelle il a uny tous les traits de sa Divinité. Mais la Gloire, son aimable Concurrente, a bien de plus forts attraits ; elle est la Mere des années, disoit un Sage de la Grece, ses presens n’ont point de fin, &amp; les jours qu’elle fait voir joignent à leur brillant le cours de l’eternité, au lieu que la Nature forcée dans ses productions, &amp; limitée par le temps, ne fait rien qui ne finisse presqu’au mesme moment qu’il commence à paroistre. L’une s’attache au merite &amp; à la vertu, l’autre enrichit aussi-tost le méchant que le sage, &amp; l’hebeté que le spirituel ; l’une n’agit qu’en commandant, l’autre qu’en obeissant, &amp; pour marque de sa dépendance, elle voit tres-souvent ses plus riches tresors servir d’ornement glorieux aux favoris de sa Rivale. Quoy que la Gloire soit invisible, le cœur de l’homme, naturellement ambitieux, trouve un plaisir extrême à la chercher. Quelque difficile que soit son accés, rien ne nous rebute dans les routes qu’il faut suivre pour la meriter. Les travaux, les veilles, les peines &amp; les soins ne suffisent pas, nous nous exposons encore aux hazards &amp; aux coups, nous affrontons tous les perils, &amp; nous déclarons mesme la guerre à tous les Elemens, pour nous frayer un chemin jusques à son Temple.</hi></p>
+            <p><hi rend="i">Par l’empressement que l’homme fait paroistre pour y parvenir, il faut juger des delices qu’il ressent lors qu’il y est arrivé. Est-il rien de plus doux que les fruits dont la Gloire le comble ? Est-il rien de plus engageant que les triomphes &amp; les honneurs qu’elle luy procure, &amp; peut-on s’imaginer quelque chose de plus grand que ce qui nous acquiert un legitime droit dans l’immortalité, &amp; qui nous met dans un estat approchant de celuy de l’Estre eternel ? Convenons, Messieurs, que la Gloire l’emporte sur la Nature, &amp; qu’elle merite beaucoup mieux nos hommages. En tout cas, si cette derniere peut pretendre de les partager, elle ne peut exiger cette reconnoissance de nous, qu’en distinguant l’homme de l’animal. Qu’elle prenne tout ce qui dépend de celuy-cy, &amp; qu’elle s’en fasse respecter comme sa Mere &amp; sa Nourrice, pourveu que sa Concurrente ait seule tout l’attachement de l’autre, &amp; qu’elle en soit considerée comme son unique fin.</hi></p>
+            <p><hi rend="i">Si le raisonnement &amp; l’experience nous prouvent que l’homme a plus lieu de consacrer ses Autels à la Gloire, &amp; qu’il a fait brûler son Encens avec plus de profusion pour cette Divinité que pour toutes les autres, ils nous apprennent aussi que les vœux qu’on luy rend sont bien differents, &amp; que les chemins qui semblent nous conduire au lieu de son séjour, sont bien opposez. La vertu qui renferme dans ses projets &amp; dans ses actions tout ce qu’il y a de plus relevé &amp; de plus glorieux dans le monde, nous en propose plusieurs. Il n’est pas mesme jusqu’au vice &amp; au crime qui n’ayent pretendu d’avoir ce privilege. Si les routes qu’ils ont offertes n’ont esté ny belles, ny bonnes, elles en ont eu du moins quelque apparence ; si l’honneur qu’ils ont procuré n’a pas esté réel aux yeux des sages &amp; des vertueux, ceux qui ont cru l’acquerir se sont du moins forgé un phantôme de Gloire. Le fameux Incendiaire du Temple d’Ephese s’imagina qu’il ne pouvoit immortaliser son nom que par un des plus grands forfaits. La derniere Reyne d’Egypte voulut se rendre memorable en sacrifiant son Trône &amp; sa pudeur à ses infames amours ; &amp; les horribles meurtriers de tant de Princes &amp; de grands personnages n’auroient jamais laissé leur memoire à la posterité, si dans cette veuë ils n’avoient employé le fer ou le poison. Les Auteurs de la Fable ont poussé encore plus loin leur imagination &amp; leur déreglement. Pour autoriser leurs perverses habitudes, &amp; pour tromper la credulité des hommes qui d’ailleurs ne sont que trop portez au mal, ils inventerent des Heros &amp; des demy-Dieux plus dignes de l’opprobre &amp; de la haine des mortels, que de leurs loüanges &amp; de leurs venerations. Ils s’efforcerent de couronner le vice, de faire triompher l’abomination &amp; l’idolâtrie, &amp; ne craignirent pas de blasphêmer contre la Divinité, &amp; de la deshonorer impunément, en luy attribuant des titres &amp; des faits également contraires à la pureté &amp; à la Majesté de son estre.</hi></p>
+            <p><hi rend="i">Mais laissons ces exemples odieux qui ne meritent que de l’horreur &amp; du mépris ; servons-nous des plus convenables aux mœurs de l’honneste homme que nous avons pris pour regle de nos entretiens. La Religion &amp; la Morale nous en offrent de saints &amp; de vertueux ; la politique &amp; les armes de merveilleux &amp; d’éclatans, les Sciences &amp; les Arts nous montrent les plus doux &amp; les moins penibles. S’il nous falloit chercher dans les doutes &amp; dans les obscuritez de la Fable, si nous avions recours à l’Antiquité, ou que nous pussions nous contenter de ce que nostre siecle a produit de grands hommes, j’aurois dequoy faire un nombre considerable de volumes sur les actions heroïques, &amp; sur les Ouvrages surprenans qu’on a veus &amp; que l’on voit encore ; mais comme l’Histoire satisfait amplement nostre curiosité sur ce sujet, &amp; que d’ailleurs la multiplicité des exemples ennuye quelque fois autant qu’elle agrée, je veux me renfermer dans l’abregé d’un seul qui réunit tous ceux que j’aurois pû recueillir par un long travail, &amp; qui me donne plus de matiere mille fois que les autres ne m’en fourniroient tous ensemble. Les divers estats ou professions dont je viens de parler, ont eu chacun leurs Heros, &amp; ont divisé par consequent les enfans de la Gloire en differentes especes ou caracteres, mais si nous trouvons un sujet qui rassemble en luy toutes ces especes, il me sera plus facile de faire voir dans un seul portrait tous les traits qui peuvent chacun en particulier le rendre incomparable, &amp; mesme en former un original qu’on peut dire miraculeux. N’allons pas plus loin, Messieurs, jettons les yeux sur le Trône des Lis, il nous fera voir que Loüis le Grand, nostre Auguste Monarque, est le seul Enfant de la Gloire qui possede toutes les qualitez éminentes de ceux qui ont pretendu luy ressembler. C’est un Heros achevé dans toutes les faces où l’on peut le regarder. Disons mieux, il est unique &amp; universel en son espece, Restaurateur de la Foy, Vainqueur des passions, Maistre en l’art de regner, Foudre dans la Guerre, Protecteur des Sciences &amp; des Arts ; tous ces differens caracteres ensemble n’en font qu’un, &amp; c’est Loüis qui le possede éminemment.</hi></p>
+            <p><hi rend="i">La Religion nous le montre comme son solide appuy contre les Infidelles, &amp; comme l’impitoyable Destructeur des Sectes malheureuses qui la déchiroient. Si les Temples qu’il a fait élever ou enrichir par son autorité &amp; par sa magnificence dans les pays Orientaux, sont autant de monumens éclatans de sa gloire, les ruines &amp; les débris de ceux qu’il a fait abattre dans ce Royaume, luy servent de trophées immortels. Comme ce n’est pas estre plagiaire que de l’estre à soy-mesme, je puis me servir icy d’une pensée que je mis au jour il y a un an, &amp; soutenir que si le Soleil de la France a voulu fixer son cours pour favoriser les genereux Chefs du peuple de Dieu dans la défaite des Infidelles ; s’il a cessé d’élever des nuages &amp; d’en former des foudres &amp; des tonnerres pour écraser ses ennemis, l’éclat de sa lumiere, la force &amp; l’ardeur de ses rayons, la douceur &amp; la serenité de ses influences n’ont pas laissé d’agir sur les cœurs endurcis &amp; aveuglez de ses Sujets, &amp; d’imprimer en eux les veritables semences de la Foy, &amp; les doux fruits de la Charité.</hi></p>
+            <p><hi rend="i">La Morale nous le presente comme un Hercule triomphant de tous les Monstres ennemis de la sagesse. Ce n’est pas tant par l’éclat de sa puissance, qu’elle le croit le plus grand Monarque de l’Univers ; c’est par l’empire absolu qu’il exerce sur ces superbes Geans qui attaquent mesme Jupiter sur son trône, &amp; qui luy font souffrir une honteuse captivité jusque dans la splendeur de son Diadême. Ce n’est pas tant par les Victoires que LOUIS remporte sur ses ennemis exterieurs qu’elle l’avoüe invincible. C’est par les chaisnes &amp; les fers dont il charge sans pitié ses ennemis domestiques, &amp; les mouvemens impetueux de l’ame, qui ont eu pour leurs esclaves tant de testes couronnées. Un Philosophe Cinique osa bien dans son tonneau soutenir au grand Alexandre, qu’il avoit l’avantage sur luy, tout redoutable Monarque qu’il fust, d’estre le Maistre de ses Maistres ; mais si la bouche de ce pretendu Sectateur de la sagesse, &amp; de ce Vainqueur imaginaire des passions, eut la hardiesse d’avancer un fait que son orgueil démentit en mesme temps ; la Morale par la voix de la Renommée soutient la mesme proposition avec plus de justice en faveur de LOUIS ; &amp; ce que la modestie de ce Prince ne veut pas avoüer, trouve mille trompettes éclatantes pour estre publié.</hi></p>
+            <p><hi rend="i">La Politique le donne à tous les Potentats, comme un modelle parfait en l’art de regner. Elle leur represente toutes ses actions comme autant de regles qu’ils doivent suivre ; elle leur apprend cette conduite judicieuse qui trompe les yeux les plus fins &amp; les plus clairs-voyans de ses Ennemis ou de ses envieux ; elle leur apprend cette prudence sans égale qui prévoit le bien pour l’embrasser, &amp; qui prévient le mal pour le détourner ; elle leur apprend enfin cette vigilance infatigable qui attache tout Loüis à ses Etats, &amp; qui semble le détacher de luy-mesme dans les momens où le repos luy est le plus necessaire.</hi></p>
+            <p><hi rend="i">La Guerre n’a que trop fait connoistre aux Nations les plus puissantes ce que peut le bras d’un Heros égal à Loüis. Les Conqisestes qu’il a faites, &amp; les Victoires qu’il a remportées, sont trop recentes pour estre obligé de vous les apprendre, &amp; vostre memoire est trop remplie des faits merveilleux qu’elles ont produits pour avoir besoin d’un discours qui l’en rafraîchisse ; il suffit de dire que la plus grand part de la Hollande prise en moins d’une Campagne ; tout la Franche-Comté soumise en un mois, &amp; les trois fortes Places de Valenciennes, Cambray, &amp; S. Omer, conquises en trois semaines, ont renouvellé par trois fois en faveur de Loüis, ce que Cesar ne put dire qu’une fois</hi>, Je suis venu, j’ay veu, j’ay vaincu.</p>
+            <p><hi rend="i">Enfin les Sciences &amp; les Arts le publient par tout comme celuy qui leur fait avoir un nouvel estre par la protection qu’il leur donne, &amp; par le soin qu’il prend à les faire fleurir. Si la Philosophie nous apprend que nous devons considerer également pour les Auteurs de la vie, &amp; ceux de qui on tient la naissance, &amp; ceux de qui on tient l’éducation &amp; la nourriture, il faut convenir en mesme temps que Loüis le Grand est le Pere de tous les Sçavans &amp; de tous les Esprits ingenieux &amp; habiles, qui effacent dans ce Royaume la memoire de Rome &amp; d’Athenes, &amp; que jamais paternité ne fut plus étenduë que la sienne. En effet, les siecles passez ont-ils vû tous ensemble dans la France tant d’illustres Enfans des Muses &amp; de Minerve, que le nostre en a produit ; &amp; ne pouvons-nous pas dire hardiment que la protection de nostre Monarque a rendu le Parnasse plus fecond que tous les soins des Rois ses Predecesseurs n’avoient fait depuis le commencement de nostre Monarchie ? Jamais tant d’Academies &amp; de Compagnies celebres ne parurent tout à la fois. L’on diroit que les Palmes &amp; les Lauriers ne croissent qu’à l’ombre de ses Lis, &amp; que la blancheur &amp; l’éclat de ceux-cy sont la seule cause de la verdure des autres. Le divin Auteur de la Nature crea le Soleil avant les Plantes &amp; les Animaux, parce qu’il voulut que ce bel Astre fust consideré comme la cause seconde de tous les Estres ; ne doit-on pas aussi dire que ce mesme Createur n’a fait paroistre qu’aprés la naissance de Loüis le Grand tout ce que l’esprit &amp; la main peuvent faire d’excellent, afin que cet Auguste Prince en fust estimé le second principe &amp; le principal agent.</hi></p>
+            <p><hi rend="i">Toutes ces veritez dont vous estes justement prevenus, Messieurs, en font naistre une autre incontestable qui a esté déja proposée au milieu de ce Discours, que Loüis renferme dans ses actions tous les exemples qui nous marquent les divers degrez par lesquels l’homme peut monter au Temple de la Gloire. Suivons-le donc dans les voyes qu’il nous a déja frayées, ne hesitons pas de courir aprés ce Heros, puis qu’il nous rend si faciles les routes qu’il a tenuës. Si nostre profession &amp; les exercices que nous avons embrassez ne nous permettent pas de cüeillir comme luy des Lauriers ensanglantez, &amp; d’orner nos Trophées des dépoüilles de nos Ennemis, ils nous offrent des prix proportionnez à nostre estat. Loüis est arrivé au séjour de la Gloire par tous les chemins qu’elle propose ; contentons-nous de le suivre par les plus tranquilles &amp; les plus doux ; laissons les plus dangereux &amp; les plus éclatans à tant de braves Guerriers, qui preferent les Jeux de Bellonne aux Concerts des Muses, &amp; les Champs formidables de Mars aux aimables retraites du Parnasse. Continuons, Messieurs, nos Assemblées avec assiduité, entretenons nostre Commerce avec attachement, aimons la Gloire &amp; ce qui peut nous l’acquerir, celebrons sans cesse les faits heroïques de nostre Monarque ; que ce soit le premier, ou plûtost l’unique but de nos entretiens ; &amp; pour peu que nos Plumes s’exercent à toucher les traits de la gloire qui l’environne, soyons certains qu’il en rejaillira assez de rayons sur nos fronts, pour les ceindre des couronnes de l’immortalité.</hi></p>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-02_051" resp="wordpro">
+          <head>[Mort de M. le Noble]*</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 51-53</bibl>
+          <p>M<hi rend="sup">r</hi> le Noble, Seigneur du Bellay &amp; de Thennelieres, cy-devant Lieutenant General, &amp; premier President au Bailliage de Troyes, mourut aussi dans le mois de Janvier. Il estoit d’une des premieres Maisons de Champagne, &amp; allié de beaucoup de celles qui tiennent le premier rang dans la Robe. Comme il avoit de l’esprit, du sçavoir, &amp; une probité à l’épreuve, il a esté honoré de plusieurs commissions extraordinaires. Il laisse deux Fils, dont l’Aisné a exercé long-temps la Charge de Procureur General au Parlement de Mets. C’est luy qui a fait le Poëme, intitulé, <hi rend="i">Charenton, ou l’Heresie détruite</hi>. Il eut l’honneur de le presenter au Roy dans le temps de la cassation de l’Edit de Nantes, &amp; les marques de bonté qu’il receut de ce Monarque, luy firent connoistre solidement que cet Ouvrage luy estoit fort agreable. L’autre Fils de feu M<hi rend="sup">r</hi> le Noble est President à Troyes.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-02_053" resp="wordpro">
+          <head>[Lettre]</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 53-61</bibl>
+          <p/>
+          <p>Le regne du Roy estant celuy des Miracles, on en voit en France de toutes manieres. Une aimable Demoiselle qui n’est âgée que de dix-huit ans, a composé l’Eglogue que je vous envoye. La Lettre qui l’accompagne, &amp; qu’elle adresse à une de ses Amies, en explique le sujet. Elle a de la naissance, &amp; son esprit &amp; sa vertu luy attirent l’estime de tous les honnestes gens.</p>
+          <quote>
+            <label>A MADEMOISELLE D. B.</label>
+            <p><hi rend="i">Vous allez voir, Mademoiselle, par l’Eglogue que je vous envoye, que j’ay de l’exactitude à vous satisfaire, &amp; que je m’acquitte de la promesse que je vous fis il y a quelque temps, de faire des Vers sur la tendresse, à la premiere occasion qui s’en offriroit. Je croy qu’ils vous feront quitter le sentiment où vous estes, qu’on ne réussit jamais si bien en Poësie, que dans les sujets que nous fournit cette passion ; car malgré le peu de justesse qu’il y a dans les petites bagatelles que vous avez veuës de moy, sur la Gloire &amp; sur la Morale, vous trouverez assurément que celle-cy leur cede encore de beaucoup. Peut-estre ne serez-vous pas fâchée que je vous apprenne pour quelle occasion elle a esté faite ; en voicy l’histoire. J’estois il y a quelques jours, chez nostre spirituelle Amie du quartier à fracas. Mademoiselle D.V. y vint, &amp; toute la Compagnie qui estoit fort grande, vit avec plaisir l’arrivée de cette aimable Fille ; car on sçait qu’elle est ordinairement d’une conversation des plus charmantes. Mais qu’elle estoit ce jour-là differente d’elle-mesme ! Point d’enjoüement, point de liberté d’esprit. Elle parut inquiete, &amp; ne fit autre chose que resver. On luy en fit une douce guerre, &amp; s’appercevant qu’elle faisoit une méchante figure, elle fut ravie de pouvoir sortir, sous pretexte d’aller chercher les deux Cousines qu’on luy dit qui se promenoient dans le jardin. On nous apprit aprés qu’elle fut sortie, que l’accablement où on la voyoit, estoit causé par le changement d’un Infidelle ; &amp; je vous diray, tant je suis sincere, que j’entray en ce moment dans une maniere de colere contre vous, en faisant reflexion sur la malice que vous avez, de faire tous vos efforts pour m’embarasser dans un de ces sortes d’engagemens qui mettent les gens en estat de n’avoir plus de raison, si ce n’est, comme vous le dites trop obligeamment pour moy, que vous estes persuadée que l’amour me rendroit une Muse parfaite, &amp; que vous vous feriez un plaisir de me voir pousser de beaux sentimens dans une Elegie ou dans une Eglogue. Je vous rends graces de l’opinion avantageuse que vous voulez bien avoir de mon esprit, mais il ne faut pas, s’il vous plaist, que mon cœur en souffre. Je croy qu’on peut faire voir les sentimens les plus tendres &amp; les plus touchans, sans les ressentir. Si je me trompe, &amp; s’il faut en estre atteint pour les exprimer vivement &amp; avec grace, j’aime mieux ne pretendre jamais à la qualité de bon Auteur, que de renoncer à celle d’Indifferente. Mademoiselle D.V. me donne un exemple qui me fait peur. Je la suivis presque aussi-tost dans le jardin où je l’avois veuë aller, &amp; menay avec moy une Demoiselle qui sçait tous les secrets de son cœur. Loin d’avoir joint celles qu’elle avoit dit qu’elle alloit chercher, nous l’aperceusmes de loin assise au pied d’un arbre qui resvoit profondement, &amp; qui quelquefois se parloit à elle-mesme. Nous ne voulusmes point interrompre une solitude qu’elle avoit cherchée avec tant d’empressement, &amp; je dis à la Dame du logis, qui fut surprise de nous voir revenir si tost du jardin, que la Belle dont il estoit question, estoit allée se plaindre aux Rochers &amp; aux Arbres d’alentour. Quelqu’un releva cette petite raillerie, &amp; aprés qu’on m’eut menacée du pouvoir de l’amour, qui se vangeroit un jour de moy, d’insulter ainsi les malheureux qui vivent sous son empire, on me donna pour punition, de renfermer dans une Eglogue l’histoire &amp; les sentimens de cette Amante trahie, dont son Amie s’offroit de me faire part. Toute la Compagnie jugea, comme vous l’avez dit vous-mesme bien des fois, Mademoiselle, que l’on pouvoit parler tendrement sans avoir le cœur touché ; &amp; j’acceptay le party qu’on me proposoit, avec d’autant moins de peine, qu’il me donnoit une occasion de faire ce que vous avez souhaité de moy ; car je sentois que la petite colere où vous m’aviez mise, estoit déja passée, tant la tendre amitié que j’ay pour vous, est forte. Mais ne comptez pas, je vous prie, que je parle jamais de l’autre tendresse que sur la foy d’autruy. Je suis, Mademoiselle, vostre, &amp;c.</hi></p>
+            <p><hi rend="i">L.H.D.V.</hi></p>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-02_061" resp="wordpro" copyOf="JLB_MG-1688-02_062">
+            <head>[Eglogue]</head>
+            <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 61-67</bibl>
+          <p/>
+          <p>Voicy l’Eglogue dont il est parlé dans cette Lettre.</p>
+          <quote>
+            <label>CELIMENE.<lb/>EGLOGUE.</label>
+            <lg>
+              <l rend="i">Assise à l’ombre d’un Chesne,</l>
+              <l rend="i">Sur le bord d’un clair ruisseau,</l>
+              <l rend="i">La Bergere Celimene,</l>
+              <l rend="i">Révoit au doux bruit de l’eau.</l>
+              <l rend="i">Son Troupeau dans la prairie,</l>
+              <l rend="i">Sur l’herbe tendre &amp; fleurie,</l>
+              <l rend="i">Erre au gré de ses desirs,</l>
+              <l rend="i">Dans le temps que la Bergere</l>
+              <l rend="i">Qu’un noir chagrin desespere</l>
+              <l rend="i">S’abandonne à ses soûpirs.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> En vain d’un tendre ramage</l>
+              <l rend="i">Les Oyseaux de ce Bocage</l>
+              <l rend="i">Veulent charmer sa douleur,</l>
+              <l rend="i">Tout déplait à sa langueur,</l>
+              <l rend="i">Le trouble qui l’inquiete</l>
+              <l rend="i">Rend ses ennuis si pressans,</l>
+              <l rend="i">Que mesme de sa Musette</l>
+              <l rend="i">Elle hait les doux accents.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Tircis, ce Berger volage,</l>
+              <l rend="i">Est la cause de ses pleurs ;</l>
+              <l rend="i">Pour de nouvelles ardeurs</l>
+              <l rend="i">Il a quitté le Village.</l>
+              <l rend="i">La Belle loin de bannir</l>
+              <l rend="i">L’image de l’Infidelle,</l>
+              <l rend="i">Ne sçauroit s’entretenir</l>
+              <l rend="i">Que du feu qu’il eut pour elle.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Levant au Ciel ses beaux yeux,</l>
+              <l rend="i">Qu’offusque un torrent de larmes ;</l>
+              <l rend="i">Ce fut, dit-elle, en ces lieux,</l>
+              <l rend="i">Que mon cœur rendit les armes.</l>
+              <l rend="i">Ce fut dans ces mesmes Bois</l>
+              <l rend="i">Que l’ingrat cent &amp; cent fois,</l>
+              <l rend="i">Jura qu’il m’aimeroit d’une eternelle flâme,</l>
+              <l rend="i">Mais les perfides sermens</l>
+              <l rend="i">Dont il seduisoit mon ame,</l>
+              <l rend="i">Ne sont que trop communs parmy tous les Amans.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Ouy, dans le siecle où nous sommes,</l>
+              <l rend="i">Tous cherchent à nous tromper,</l>
+              <l rend="i">Et l’amour empressé que nous montrent les hommes,</l>
+              <l rend="i">N’a rien qui nous deust frapper.</l>
+              <l rend="i">Lors que par mille tendresses</l>
+              <l rend="i">Ils ont engagé nos cœurs,</l>
+              <l rend="i">Sans songer à leurs promesses,</l>
+              <l rend="i">Ils en font autant ailleurs.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Helas, que vostre sort est doux auprés du nostre,</l>
+              <l rend="i">Petits Moutons, innocents animaux !</l>
+              <l rend="i">L’objet qui vous cherit n’en aime jamais d’autre.</l>
+              <l rend="i"> Et fuit tous les liens nouveaux.</l>
+              <l rend="i">Vous ne ressentez point l’accablement extrême</l>
+              <l rend="i">Que produit dans un cœur un cruel changement ;</l>
+              <l rend="i">Et chez vous dés l’instant qu’on aime</l>
+              <l rend="i">Cette brulante ardeur dure eternellement.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Dans ces paisibles Bois, les Oyseaux sans rien craindre</l>
+              <l rend="i">Ainsi que vous se laissent enflâmer,</l>
+              <l rend="i"> Charmez du seul plaisir d’aimer</l>
+              <l rend="i">Ils n’ont jamais connu ce que c’est que de feindre ;</l>
+              <l rend="i">C’est chez les hommes seuls qu’on ose avoir recours</l>
+              <l rend="i"> A de pernicieux détours.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i">Puis que l’amour sur eux a si peu de puissance,</l>
+              <l rend="i"> Que cherchant à nous ébloüir</l>
+              <l rend="i"> Par tout ce qu’ils nous font oüir,</l>
+              <l rend="i">Ils ne respectent point la timide innocence,</l>
+              <l rend="i">Loin de les écouter, fuyons-les desormais,</l>
+              <l rend="i"> Cherchons dans ces vastes Forests</l>
+              <l rend="i"> Parmy le silence &amp; les ombres</l>
+              <l rend="i">Le doux repos que mon cœur a perdu,</l>
+              <l rend="i">Du mensonge jamais jusque dans ces lieux sombres</l>
+              <l rend="i">  L’empire ne s’est étendu.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Par vostre agreable murmure,</l>
+              <l rend="i">Ruisseaux, affoiblissez la peine que j’endure.</l>
+              <l rend="i">Belles fleurs, gazons, arbres verds,</l>
+              <l rend="i">Et vous, petits Oyseaux, par vos charmants concerts ;</l>
+              <l rend="i"> Bannissez les inquietudes,</l>
+              <l rend="i">Que me cause un ingrat qui rompt les plus beaux nœuds ;</l>
+              <l rend="i">Charmez si bien mes sens, aimables solitudes,</l>
+              <l rend="i">Que je rende à mon cœur enfin un calme heureux.</l>
+            </lg>
+          </quote>
+        </div>
+      <div type="article" xml:id="MG-1688-02_098" resp="angele">
+        <head>Air nouveau</head>
+        <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 98-99.</bibl>
+        <p>L'Air nouveau que je vous envoye, est de M de Montailly, qui non seulement sçait parfaitement la Musique, mais aussi la methode de bien chanter, ce qui ne se trouve pas toûjours ensemble. C'est luy qui apprend aux Filles que Mademoiselle de Guise entretient dans son Hostel pour sa Musique. Vous sçavez que cette magnifique Princesse en a une fort bonne, &amp; qu'il y a presque tous les jours Concert chez elle.</p>
+        <quote>
+          <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Nos Bois ont perdu leurs feüillages</hi>, doit regarder la page 99.</note>
+          <lg><l rend="i">Nos Bois ont perdu leurs feüillages,</l>
+            <l rend="i">Je ne reconnois plus ce sejour si charmant,</l>
+            <l rend="i">Où je venois chercher le silence, &amp; l'ombrage ;</l>
+            <l rend="i">C'est toy, cruel Hyver, qui fais ce changement,</l>
+            <l rend="i">Je ne voy dans mes fers que le soulagement</l>
+            <l rend="i">De redire en secret dans ces Bocages sombres,</l>
+            <l rend="i">Les maux que je souffre en aimant.</l>
+            <l rend="i">Helas, que t'ay-je fait pour en chasser les ombres.</l></lg>
+        </quote>
+        <ref target="images/1688-02_098.JPG">&#x2028;          <figure>&#x2028;            <graphic url="images/1688-02_098.JPG"/>&#x2028;          </figure>&#x2028;        </ref>
+      </div>
+        <div type="article" xml:id="MG-1688-02_099" resp="mercure">
+          <head>[Vers en maniere de petit Opera, propres à mettre en chant]</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 99-110</bibl>
+          <p/>
+          <p>Voicy d'autres Vers fort agreables &amp; fort propres à estre mis en Musique ; aussi celuy qui les a faits n'a travaillé que dans la pensée qu'il se trouveroit quelque habile homme qui voudroit bien les mettre en estat d'estre chantez. Il y a plusieurs endroits où l'on peut faire des Choeurs. C'est une maniere de prologue d'<hi rend="i">Opera</hi>, &amp; comme il est à la loüange du Roy, la matiere invite à luy donner l'agrément du chant. On suppose que la Scene est dans une solitude agreable. L'ouverture est d'un Berger &amp; d'une Bergere.</p>
+          <quote>
+          <label>LE BERGER.</label>
+            <lg>
+              <l rend="i"> Solitude charmante,</l>
+              <l rend="i"> Agreables Forests,</l>
+              <l rend="i"> Vostre tranquilité m'enchante.</l>
+              <l rend="i">Qu'auprés de vous le repos a d'attraits !</l>
+          </lg>
+          <label>LA BERGERE.</label>
+            <lg>
+              <l  rend="i">  Belle Retraitte</l>
+              <l rend="i"> Qui favorisez nos desirs,</l>
+              <l rend="i">  Le Ciel ne vous a faite</l>
+              <l rend="i">Que pour estre témoin de nos plus doux plaisirs.</l>
+          </lg>
+          <label>Tous deux ensemble.</label>
+            <lg>
+              <l rend="i">  Bien-heureuse vie,</l>
+              <l rend="i">  Que vous avez d'appas !</l>
+              <l rend="i"> Vous nous enchantez icy-bas,</l>
+              <l rend="i"> Nostre sort est digne d'envie.</l>
+              <l rend="i">  Bien-heureuse vie.</l>
+              <l rend="i">  Que vous avez d'appas !</l>
+          </lg>
+          <label>LE BERGER.</label>
+            <lg>
+          <l rend="i">Suivons l'Amour qui nous appelle,</l>
+              <l rend="i"> Aimons, aimons-nous toûjours.</l>
+          </lg>
+          <label>LA BERGERE.</label>
+            <lg>
+          <l rend="i">Lorsqu'on cede aux tendres amours,</l>
+              <l rend="i"> La chaisne en doit estre eternelle.</l>
+          </lg>
+          <label>Tous deux.</label>
+            <lg>
+              <l rend="i"> Suivons l'amour qui nous appelle,</l>
+              <l rend="i"> Aimons, aimons-nous toûjours.</l>
+          </lg>
+          <label>LE BERGER.</label>
+            <lg>
+              <l rend="i"> C'est un bonheur charmant</l>
+              <l rend="i">  D'estre fidelle,</l>
+              <l rend="i"> C'est un bonheur charmant</l>
+              <l rend="i">  D'aimer constamment.</l>
+              <l rend="i">  La peine cruelle</l>
+              <l rend="i">  D'un parfait Amant</l>
+              <l rend="i"> Redouble son empressement,</l>
+          <l rend="i">Une fiere Beauté n'est pas toûjours rebelle.</l>
+              <l rend="i"> C'est un bonheur charmant</l>
+              <l rend="i">  D'estre fidelle.</l>
+              <l rend="i"> C'est un bonheur charmant</l>
+              <l rend="i">  D'aimer constamment.</l>
+          </lg>
+          <label>LA BERGERE.</label>
+            <lg>
+            <l rend="i"> Fuyez de nous, Bergers volages,</l>
+            <l rend="i"> Ne vous meslez point à nos Jeux.</l>
+            <l rend="i">  Dans ces charmans Bocages</l>
+            <l rend="i"> Il n'est point d'Amant malheureux.</l>
+            <l rend="i"> Fuyez de nous, Bergers volages,</l>
+            <l rend="i"> Ne vous meslez point à nos Jeux.</l>
+          </lg>
+          <label>LE BERGER.</label>
+            <lg>
+              <l rend="i"> Que ce beau sejour est tranquille !</l>
+              <l rend="i"> Rien n'en peut troubler les douceurs.</l>
+              <l rend="i"> L'amour se plaist dans cette azyle,</l>
+              <l rend="i"> Il en bannit les soûpirs &amp; les pleurs.</l>
+            </lg>
+          <label>Tous deux.</label>
+            <lg>
+              <l rend="i"> Nous devons annoncer le favorable empire</l>
+              <l rend="i">Du paisible repos qui regne parmy nous.</l>
+              <l rend="i">Aux Echos d'alentour faisons toûjours redire</l>
+              <l rend="i">Qu'il n'est point de Bergers dont le sort soit si doux.</l>
+            </lg>
+          <label>Mercure vient, precedé d'une Toupe [sic] de Divinitez, &amp; avant qu'il paroisse on entend une agreable Musique.</label>
+          <label>LE BERGER.</label>
+            <lg>
+              <l rend="i"> D'où peut venir cette harmonie ?</l>
+          </lg>
+          <label>LA BERGERE.</label>
+            <lg>
+              <l rend="i">  La douceur en est infinie.</l>
+          </lg>
+          <label>LE BERGER.</label>
+            <lg>
+              <l rend="i">  Que ces chants sont melodieux !</l>
+            </lg>
+          <label>LA BERGERE.</label>
+            <lg>
+            <l rend="i"> Rien n'est si charmant dans les Cieux.</l>
+              </lg>
+          <label>Une des DIVINITEZ qui viennent avant Mercure.</label>
+            <lg>
+              <l rend="i"> Venez, Bergers, que tout s'appreste</l>
+              <l rend="i"> A celebrer une pompeuse Feste</l>
+              <l rend="i">  Qui se fait par l'ordre des Dieux.</l>
+              <l rend="i">Mercure au nom de tous va paroistre en ce lieux.</l>
+            </lg>
+          <label>MERCURE.</label>
+            <lg>
+          <l rend="i">Habitans fortunez qui goustez le repos,</l>
+          <l rend="i">Vous devez ce bonheur au plus grand des Heros</l>
+              <l rend="i">  Il a banny la Guerre,</l>
+              <l rend="i"> Il fait regner l'abondance &amp; la Paix.</l>
+              <l rend="i"> Le calme qu'il rend à la Terre</l>
+          <l rend="i">Pour ses Peuples heureux ne finira jamais.</l>
+          </lg>
+          <label>Une des DIVINITEZ.</label>
+            <lg>
+              <l rend="i"> C'est le parfait bonheur des Peuples de la France</l>
+              <l rend="i"> De respirer sous son obeïssance ;</l>
+              <l rend="i">C'est le parfait bonheur des Peuples de la France.</l>
+              <l rend="i"> De respecter toûjours ses Loix.</l>
+              <l rend="i"> Pour bien chanter son auguste puissance</l>
+              <l rend="i"> Nous devons tous unir nos voix.</l>
+              <l rend="i">C'est le parfait bonheur des Peuples de la France</l>
+              <l rend="i"> De respirer sous son obeïssance,</l>
+              <l rend="i">C'est le parfait bonheur des Peuples de la France</l>
+              <l rend="i"> De respecter toujours ses Loix.</l>
+          </lg>
+          <label>MERCURE.</label>
+            <lg>
+              <l rend="i">  Admirez sa magnificence,</l>
+              <l rend="i">Bergers, meslez vos chants à nos Divins Concerts,</l>
+              <l rend="i"> Faites par tout éclater dans les airs</l>
+              <l rend="i">La suprême grandeur, la parfaite clemence</l>
+              <l rend="i">Du plus puissant Vainqueur qui soit dans l'Univers.</l>
+          </lg>
+          <label>Une des DIVINITEZ.</label>
+            <lg>
+              <l rend="i"> De quel éclat brille sa gloire !</l>
+              <l rend="i">  Chacun luy dresse des Autels.</l>
+              <l rend="i"> Son grand nom retentit au Temple de Memoire,</l>
+              <l rend="i">  Où l'on voit par luy la Victoire</l>
+              <l rend="i"> S'élever au dessus de tous les Immortels.</l>
+          </lg>
+          <label>MERCURE.</label>
+            <lg>
+              <l rend="i"> Sa valeur est incomparable.</l>
+          </lg>
+          <label>Une des DIVINITEZ.</label>
+            <lg>
+              <l rend="i"> Tous ses projets sont glorieux.</l>
+            </lg>
+          <label>MERCURE.</label>
+            <lg>
+              <l rend="i"> Il est favorisé des Cieux.</l>
+          </lg>
+          <label>Une des DIVINITEZ.</label>
+            <lg>
+              <l rend="i"> Tout l'Univers le trouve aimable.</l>
+          </lg>
+          <label>CHOEUR.</label>
+            <lg>
+              <l rend="i">  Sa valeur est incomparable</l>
+              <l rend="i">  Tous ses projets sont glorieux.</l>
+          </lg>
+          <label>MERCURE.</label>
+            <lg>
+            <l rend="i"> Je vois la Renommée, elle se fait entendre,</l>
+            <l rend="i"> Les chants guerriers ne l'abandonnent pas.</l>
+            <l rend="i"> Que pourroit-elle vous apprendre ?</l>
+            <l rend="i"> Vers nous elle porte ses pas.</l>
+          </lg>
+          <label>LA RENOMMEE.</label>
+            <lg>
+              <l rend="i"> Je cours sur la Terre &amp; sur l'Onde</l>
+              <l rend="i">Pour parler des vertus du plus puissant des Rois,</l>
+              <l rend="i"> Et ne puis dire assez de fois</l>
+              <l rend="i">Qu'on ne peut trop vanter sa sagesse profonde.</l>
+              <l rend="i">  Dans un employ si beau</l>
+              <l rend="i">  Chaque jour il m'engage.</l>
+              <l rend="i">Il fait naistre en tout temps quelque sujet nouveau</l>
+              <l rend="i">Digne de sa grandeur, digne de son courage.</l>
+          </lg>
+          <label>MERCURE.</label>
+            <lg>
+              <l rend="i"> Vous qui faites par tout retentir vos cent voix,</l>
+              <l rend="i">  Divine Renommée,</l>
+              <l rend="i"> Que vous devez estre charmée</l>
+              <l rend="i"> Quand vous parlez de ses exploits !</l>
+          </lg>
+          <label>LA RENOMMEE.</label>
+            <lg>
+              <l rend="i"> Depuis que les Dieux l'ont fait naistre</l>
+              <l rend="i"> Mon bonheur ne peut s'égaler ;</l>
+              <l rend="i"> De luy j'ay toujours à parler,</l>
+              <l rend="i"> C'est luy seul qui me fait connoistre.</l>
+          </lg>
+          <label>MERCURE.</label>
+            <lg>
+              <l rend="i"> Il vous occupera toûjours</l>
+              <l rend="i"> Son plus grand soin est de vous plaire.</l>
+          </lg>
+          <label>LA RENOMMEE.</label>
+            <lg>
+          <l rend="i">Mon bonheur tout entier dépend de son secours.</l>
+              <l rend="i"> Sans ce Heros je n'aurois rien à faire.</l>
+          </lg>
+          <label>MERCURE &amp; LA RENOMMEE.</label>
+            <lg>
+              <l rend="i">  Qu'il regne dans le coeurs,</l>
+              <l rend="i">  Qu'il regne sur la Terre ;</l>
+              <l rend="i"> Grand dans la Paix, grand dans la Guerre,</l>
+              <l rend="i"> Qu'il soit par tout comblé d'honneurs.</l>
+              <l rend="i">  Qu'il regne dans les coeurs,</l>
+              <l rend="i">  Qu'il regne sur la Terre.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-02_121" resp="wordpro">
+          <head>Le Quinquina d’Amour</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 121-126</bibl>
+          <p/>
+          <p>Voicy de fort jolis Vers sur une maladie dont on meurt tres-rarement, &amp; dont on dit toûjours que l’on est prest d’expirer, quoy qu’on n’en croye rien, Il y a aparence que lors qu’ils ont esté faits, le Medecin Anglois vivoit encore ; ou que s’agissant de Quinquina, on s’en servy de son nom pour rendre la galanterie plus agreable. Ces Vers sont fort estimez, &amp; comme je croy qu’ils seront nouveaux pour vous, je ne veux pas vous priver du plaisir que vous recevrez en les lisant.</p>
+          <quote>
+            <label>LE QUINQUINA<lb/>D’AMOUR.</label>
+            <lg>
+              <l rend="i"> Sentant augmenter tous les jours</l>
+              <l rend="i"> Mon amoureuse inquietude,</l>
+              <l rend="i"> Et ce mal me paroissant rude,</l>
+              <l rend="i">Au Medecin Anglois je demanday secours ;</l>
+              <l rend="i">Et comme, supposé qu’un Amant accomplisse</l>
+              <l rend="i"> Ce qu’il m’a dit sans fiction,</l>
+              <l rend="i"> Il faut surement qu’il guerisse</l>
+              <l rend="i"> De la plus chaude passion,</l>
+              <l rend="i">Au Public amoureux je crois rendre service</l>
+              <l rend="i">De débiter icy sa consultation.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Medecin, dont on vante à bon droit le remede,</l>
+              <l rend="i">Ne me déguise rien, parle sincerement.</l>
+              <l rend="i">Tu sçais bien ce que c’est, luy dis-je, qu’un Amant ;</l>
+              <l rend="i">A la fiévre d’amour peux-tu donner quelque aide ?</l>
+              <l rend="i"> J’en suis atteint fort chaudement,</l>
+              <l rend="i">Et quand sa vive ardeur une fois me possede</l>
+              <l rend="i"> Je crois descendre au monument.</l>
+              <l rend="i"> Mais comme j’ay l’ame inconstante,</l>
+              <l rend="i"> Encor que j’aime avec excés,</l>
+              <l rend="i"> Souvent au plus fort de l’accés,</l>
+              <l rend="i">Une amour chassant l’autre, une nouvelle Amante</l>
+              <l rend="i"> Guerit le mal qui me tourmente.</l>
+              <l rend="i">Cela peut s’appeller, si je le comprens bien,</l>
+              <l rend="i"> Fiévre d’amour intermittente.</l>
+              <l rend="i"> Je sçay que ton Art ne peut rien</l>
+              <l rend="i"> Lors qu’elle devient continuë.</l>
+              <l rend="i">Elle nous fait languir, quelquefois elle tuë ;</l>
+              <l rend="i">Mais tu connois mon mal, parle-moy sans façon.</l>
+              <l rend="i">Pour fixer cette humeur qui quelquefois domine,</l>
+              <l rend="i">Et laisse dans mon cœur l’impression chagrine</l>
+              <l rend="i"> De son pernicieux poison,</l>
+              <l rend="i"> Le Quinquina seroit-il bon ?</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Te guerir, me dit-il, ce n’est pas une affaire.</l>
+              <l rend="i"> Tu n’as, sans autre infusion.</l>
+              <l rend="i">Qu’à suivre le panchant de l’inclination</l>
+              <l rend="i">Qui t’invite d’aller de Bergere en Bergere.</l>
+              <l rend="i">Lors qu’auprés de quelqu’une un peu fiere &amp; severe</l>
+              <l rend="i">Ton cœur se trouble, &amp; commence à languir,</l>
+              <l rend="i">Prens une potion de ton humeur legere,</l>
+              <l rend="i"> C’en est assez pour te guerir.</l>
+              <l rend="i"> Je sçay bien que ton ame est tendre,</l>
+              <l rend="i">Que peut-estre à quel-qu’autre elle s’engagera,</l>
+              <l rend="i">Mais prens la potion tant qu’elle durera,</l>
+              <l rend="i"> J’espere qu’à force d’en prendre</l>
+              <l rend="i"> Ta guerison s’achevera.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i"> Voilà tout ce que ma science</l>
+              <l rend="i">Peut, pour te soulager, me fournir en ce jour ;</l>
+              <l rend="i"> Mais souviens-toy que l’inconstance</l>
+              <l rend="i">  Est le Quinquina de l’Amour.</l>
+            </lg>
+            <ab type="ornament">***</ab>
+            <lg>
+              <l rend="i">  A quiconque aura besoin d’aide</l>
+              <l rend="i">Pour détourner l’ardeur d’un mal pareil au mien,</l>
+              <l rend="i">Je donne donc avis que j’use du remede,</l>
+              <l rend="i">  Et que je m’en trouve fort bien.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-02_128" resp="wordpro">
+          <head>[Galanterie]</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 128-141</bibl>
+          <p/>
+          <p>Je vous envoye une galanterie Enigmatique contenuë dans un Billet que l’on m’a écrit, &amp; dans une Lettre adressée à celuy dont j’ay receu le Billet. Vous ne mettrez pourtant pas vostre esprit à la torture pour deviner dequoy il s’agit, &amp; à peine aurez-vous leu quelques lignes de la Lettre que vous connoistrez où va la plaisanterie. Voicy le Billet.</p>
+          <p><hi rend="i">Je me suis si bien trouvé, Monsieur, d’une Femme qu’un de mes Amis m’a donnée pour Estrennes, que je ferois conscience de laisser plus long-temps ses bonnes qualitez cachées. Elles sont toutes representées au naturel dans le portrait qu’il en a fait, &amp; je n’y puis rien ajoûter, sinon qu’elle n’est point grimaciere. Je l’ay éprouvé dans une tres-grande maladie, qui m’a empesché de vous faire plûtost part de ce que je vous envoye, &amp; pendant laquelle je ne luy ay point veu répandre de ces larmes feintes que les Femmes versent si aisément dans les maladies de leurs Maris, &amp; que le plaisir d’estre Veuves tarit aussi-tost.</hi></p>
+          <p>La Lettre qui suit vous en apprendra davantage.</p>
+          <quote>
+            <label>A. M. C. C. D. R. A. D. C.</label>
+            <p>A Paris ce 1. Janvier 1688.</p>
+            <p><hi rend="i">Enfin, mon cher Amy, tes peines sont couronnées, &amp; te voilà pourveu d’une grande Charge. Mille gens pensent à te marier, mais c’est parce qu’ils ne sçavent pas que tu l’es déja. Tu ne le sçais pas toy-mesme, &amp; la chose est assez nouvelle, de se trouver marié sans le sçavoir. Je suis seur cependant, que tu en seras bien-aise, &amp; que tu me sçauras gré d’avoir pris pour toy ce penible soin. Par là je t’ay épargné l’embarras de choisir, &amp; de trouver des défaites pour refuser honnestement les Belles dont tu n’aurois pas fait choix. Voicy quel est le mien, voicy quelle est la Femme que je t’ay donnée. Elle se nomme</hi> Tacita Poupeia ; <hi rend="i">elle est de Flandres, &amp; originaire d’Italie. Elle descend en droite ligne du Grand Pompée, comme le marque son nom, où le temps a pourtant fait quelque petit changement. Elle est jeune, jolie, grande, &amp; bien faite. Elle n’est ny coquette, ny medisante, ny grande parleuse. Elle a une douceur charmante, son humeur est toûjours égale, sa vertu est à toute épreuve. Pour sa dot, j’avoüe franchement qu’elle n’est pas considerable, &amp; qu’elle ne vaut pas la peine d’en parler. Mais, me diras-tu, tant d’agrément, tant de sagesse qu’il vous plaira, il faut du bien quand on se marie. Hé doucement, mon cher, ne nous laissons point ébloüir par des dehors éclatans ; examinons sainement les choses, ne prenons pas le party le plus apparent, prenons le plus seur. Une Femme qui t’apporteroit, si tu veux, cent mille livres en mariage avec esperance de beaucoup plus, t’engageroit à de tres-grosses dépenses ; il t’en couteroit au moins quinze ou vingt mille francs pour les frais de Noces. Tu serois obligé de luy entretenir un bon équipage, une bonne table, de fournir abondamment à sa dépense &amp; à son jeu, à peine mille pistoles suffiroient-elles chaque année pour tout cela. Que deviendroient donc les grands avantages que tu aurois cru trouver ? Avec Tacita les choses ne tourneront pas ainsi. Sa sagesse est son plus grand bien, mais ce bien est inestimable ; avec elle point de dépense en se mariant ; elle est peu ajustée, mais le peu qu’elle a luy suffit. Les habits qu’elle porte, luy servent depuis qu’elle a commencé à paroistre dans le monde Cependant ils sont encore tout neufs ; ils pourront luy servir long-temps, elle ne se soucie point d’en changer. Elle ne joüe point, la sobrieté est une de ses vertus favorites. Elle ne visitera personne, si tu veux, &amp; quand tu voudras qu’elle sorte, il luy suffira d’un Laquais pour l’accompagner. Ne sont-ce pas là de vrayes rentes ? N’est-ce pas un revenu plus certain que celuy d’une Femme riche, &amp; qui donneroit dans le fracas ? J’oubliois à te dire, qu’en prenant l’épouse que je t’ay choisie, tu pourras te dispenser de payer le droit de chevet, sans que tes Confreres s’en puissent plaindre. Que le nom de Pompée ne t’alarme point, ta Moitié ne t’étourdira jamais des grands noms de ses ayeux. Ne crains point que l’envie de passer pour bel esprit luy prenne ; elle ne fait point de Vers ; elle n’écrit point de Billets galans ; elle n’en reçoit point : jamais elle n’a lû ny de Romans, ny d’Histoire ; elle n’a point de commerce avec les gens de Lettres ; elle ne parle ny atomes ny petits corps : en un mot, ce n’est point une Femme sçavante. Elle ne passera pourtant point pour beste, puis qu’elle ne parle jamais mal à propos. Pour ce qui est de la beauté, tu pourrois en trouver autant ailleurs ; mais quelque précaution qu’on pust prendre, cette beauté s’effaceroit avec le temps, &amp; il ne tiendra qu’à toy que ta chere Poupeia ne soit dans soixante ans aussi belle qu’aujourd’huy. Mais c’est trop te parler d’elle, son air &amp; ses manieres te convaincront mieux que mes paroles. Elle va te trouver sans façon, persuadée que la reserve des Femmes ne passe avec justice que pour grimace, &amp; que l’on sçait bien que quand une Belle fuit un jeune Epoux, c’est parce qu’elle est seure qu’il la suivra de prés ; &amp; puis, qui oseroit blâmer la démarche de nostre Heroïne ? Le nom de Poupeia n’est-il pas un bouclier suffisant contre tous les traits de la médisance ? Ouy, l’on vous verra vivre ensemble comme Mary &amp; Femme sans en estre scandalisé, quoy que le Notaire ny le Curé ne se soient point mêlez de vos affaires. Joüis donc de ton bonheur, mon cher, ne crains point de le voir troubler par certains accidens fâcheux qui arrivent à mille gens, souffre que les Galans voyent ton épouse en toute liberté ; ton honneur n’y peut courre de hazard ; quelques douceurs qu’ils luy disent, elle sera sourde, elle n’y répondra jamais ; quelques soins qu’ils luy rendent ; quelques empressemens qu’ils luy marquent, elle y sera toûjours insensible. Au reste, mon cher Amy, tu n’es pas inconnu à Poupeia. Tu as paru plusieurs fois devant elle au Palais, pour empletes à la Boutique d’un certain Marchand. Ta Charge, le bruit de tes richesses ne l’ont point tentée. Une personne aussi vertueuse qu’elle, considere plus dans un homme son merite &amp; sa vertu, que son bien, &amp; tu as tout ce qu’il luy faut pour la rendre parfaitement heureuse. Adieu, je m’assure que tu me remercieras des Estrennes que je te donne, que tu me diras qu’une Femme sage &amp; discrete, est un rare present, &amp; que tu conviendras enfin qu’on doit moins s’attacher au bien qu’à ces deux excellentes qualitez.</hi></p>
+          </quote>
+          <p>Je n’ay pas voulu vous dire d’abord qu’il ne s’agissoit que d’une Poupée qu’un Amy envoyoit à son Amy. Peut-estre avant que de lire, auriez-vous regardé cette galanterie comme une chose tout-à-fait fade, au lieu que la curiosité ayant dû vous faire entrer insensiblement dans ce qu’elle a d’agreable, il ne se peut que vous n’y ayez remarqué beaucoup d’esprit. Les qualitez qui seroient à souhaiter dans une Femme, &amp; celles qu’on y doit craindre, se trouvent assez heureusement assemblées dans cette Lettre, &amp; la peinture que l’on y en fait a son agrément.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-02_146" resp="mercure">
+          <head>[Jetons]*</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 146-147</bibl>
+          <p/>
+          <p>Ayant fait graver depuis plusieurs années les Jettons qui se frappent tous les ans, j'ay cru devoir prendre encore le mesme soin celle-cy, &amp; je vous les envoye à mon ordinaire. La Planche que je joins à cette Lettre vous les fera voir. Comme on connoist presque tous ces Jettons par les explications qui sont au bas, il n'est pas besoin que je vous donne beaucoup d'éclaircissement là-dessus. Je vous diray seulement que le premier est pour la Maison de Madame la Dauphine, &amp; le dernier pour la Troupe Italienne.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-02_147" resp="wordpro">
+          <head>[Vers de Petonne à sa Maistresse]</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 147-152</bibl>
+          <p/>
+          <p>Il me souvient qu’au commencement de l’année 1686. je vous parlay d’une petite Chienne fort spirituelle, appellée Petonne, qui vous fit entendre de fort jolies choses. Elle a toûjours le talent de s’expliquer d’une maniere agreable, &amp; ce que vous allez lire ne vous en laissera pas douter.</p>
+          <quote>
+            <label><hi rend="i">PETONNE A SA MAISTRESSE.</hi><lb/>ETRENNES.</label>
+            <lg>
+              <l rend="i"> Bon-jour Maistresse, &amp; bonne année.</l>
+              <l rend="i">Voicy deux ans passez, si je m’en souviens bien,</l>
+              <l rend="i"> Depuis l’heureuse matinée</l>
+              <l rend="i">Que j’eus dans vostre lit un petit entretien.</l>
+              <l rend="i">Bichon faisoit alors le sujet de mes peines,</l>
+              <l rend="i"> Vous le demandant pour Etrennes,</l>
+              <l rend="i"> J’eus le bonheur de l’obtenir ;</l>
+              <l rend="i"> Mais vous devez vous souvenir,</l>
+              <l rend="i"> Qu’en mesme temps vous me permîtes</l>
+              <l rend="i">De laisser là Bichon pour vous entretenir.</l>
+              <l rend="i">De ce nombre infiny d’amoureuses visites</l>
+              <l rend="i"> Qu’aprés moy vous vîtes venir.</l>
+              <l rend="i"> Quand tout fut party, vous me dîtes,</l>
+              <l rend="i">Que d’importuns, Petonne ! il les faut tous bannir</l>
+              <l rend="i"> Je te promets qu’à l’avenir,</l>
+              <l rend="i"> Je reserveray mes tendresses</l>
+              <l rend="i">A l’Amant favory pour qui tu t’interesses.</l>
+              <l rend="i">Ce sont vos propres mots, &amp; je n’y change rien ;</l>
+              <l rend="i"> Cependant, ma belle Maistresse,</l>
+              <l rend="i">Quel fruit a-t-il tiré depuis nostre entretien</l>
+              <l rend="i"> De vostre flateuse promesse ?</l>
+              <l rend="i"> Vous voit-on un Amant de moins ?</l>
+              <l rend="i"> Au contraire le nombre augmente ;</l>
+              <l rend="i"> De bon compte j’en connois trente,</l>
+              <l rend="i">Qui tous les jours appliquent tous leurs soins</l>
+              <l rend="i"> A rendre vostre cœur sensible.</l>
+              <l rend="i"> Je sçay bien qu’il n’est pas possible</l>
+              <l rend="i"> D’échaper aux coups de vos yeux,</l>
+              <l rend="i"> Je suis témoin qu’en mille lieux,</l>
+              <l rend="i"> Vous contraignez, chose terrible !</l>
+              <l rend="i">Quand on jette sur vous un regard curieux,</l>
+              <l rend="i"> De perdre le nom d’invincible ;</l>
+              <l rend="i">Mais de grace, à quoy bon inspirer tant d’amour,</l>
+              <l rend="i">Si vous ne voulez pas en prendre à vostre tour ?</l>
+              <l rend="i"> N’est-ce que pour faire parade</l>
+              <l rend="i">D’un grand nombre de cœurs qui soûpirent pour vous ?</l>
+              <l rend="i"> Ma belle Maistresse, entre nous,</l>
+              <l rend="i"> Ce seroit une Gasconnade.</l>
+              <l rend="i">Estre aimé sans qu’on aime est un plaisir bien fade.</l>
+              <l rend="i">Demandez à Bichon s’il me dementira,</l>
+              <l rend="i"> Je suis sure qu’il vous dira,</l>
+              <l rend="i">Qu’encore qu’il connust ma passion extrême,</l>
+              <l rend="i"> Tant qu’à mes feux indifferent,</l>
+              <l rend="i">Il crut que vivre libre estoit le bien suprême,</l>
+              <l rend="i">Il ne goûtoit qu’un plaisir apparent,</l>
+              <l rend="i">Et qu’il n’en eut jamais de plus doux, de plus grand,</l>
+              <l rend="i"> Que depuis l’heureux temps qu’il m’aime.</l>
+              <l rend="i"> Aimez, belle Maistresse, aimez,</l>
+              <l rend="i">Aujourd’huy vos Amans vont passer en reveuë.</l>
+              <l rend="i"> Retenez de cette cohuë</l>
+              <l rend="i">L’Amant mon Favory, déja vous l’estimez.</l>
+              <l rend="i"> Il n’est pas un Amant vulgaire,</l>
+              <l rend="i"> Il est discret, tendre, &amp; sincere ;</l>
+              <l rend="i"> Malgré tous les soins d’un jaloux,</l>
+              <l rend="i">Il sçait l’art de passer les momens les plus doux.</l>
+              <l rend="i"> Il a de grands talens pour plaire.</l>
+              <l rend="i">Il vaut...... ne disons pas icy tout ce qu’il vaut,</l>
+              <l rend="i"> Vous en pourrez faire l’experience.</l>
+              <l rend="i"> Pour les plaisirs sans consequence</l>
+              <l rend="i">Ne cherchez point ailleurs, c’est l’homme qu’il vous faut.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="article" xml:id="MG-1688-02_152" resp="wordpro">
+          <head>[Histoire]</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 152-170</bibl>
+          <p/>
+          <p>On dit ordinairement que les Femmes meurent de joie, &amp; que souvent elles se nourrissent de chagrin. Si vous doutez de la verité de ce Proverbe, ce qui est arrivé depuis peu de temps dans une des plus grandes Villes du Royaume, vous en convaincra. Une Dame ayant résolu sur la fin de l’Esté dernier, d’aller prendre l’air à la campagne, où elle avoit une fort belle maison, pria une de ses Amies d’y venir passer l’Automne avec elle. Cette Amie n’eut pas de peine à y consentir. La douceur de la saison l’engageoit à faire ce voyage, &amp; elle partit accompagnée d’une Fille unique qu’elle avoit. C’estoit une jeune personne d’une taille grande, mais libre &amp; dégagée. Son visage estoit fort bien proportionné. Elle avoit un teint uny des yeux doux &amp; bien coupez, une bouche petite &amp; vermeille, &amp; toutes ses manieres faisoient paroistre une si grande sagesse, qu’il eust esté difficile de n’en estre pas touché. Son esprit répondoit assez à sa beauté. Il est vray que comme elle vivoit extrémement retirée, &amp; que sa Mere l’avoit toûjours éloignée avec grand soin de toutes les Compagnies, elle n’avoit point dans ses actions &amp; dans ses paroles, cet air aisé &amp; cet enjoüement qui ne s’acquiert que par le commerce du beau monde ; mais si elle ne s’expliquoit pas avec toute la justesse qu’on auroit pu souhaiter, on attribuoit ce defaut au peu d’habitude qu’elle avoit de se tirer d’une conversation, ou serieuse, ou galante. Cependant il suffisoit qu’elle fust aimable, pour plaire en tout ce qu’elle disoit. On ne doit pas en estre surpris. Quand une jolie personne a de l’agrément pour satisfaire la veuë, ses moindres paroles passent pour esprit. Aprés que ces deux Amies eurent esté quelque temps dans cette belle Maison, le Fils de la Dame à qui elle appartenoit, y arriva. Il estoit fort riche, &amp; sa Mere qui n’avoit que luy pour tous Enfans, avoit tâché plusieurs fois de le marier, mais le plaisir qu’il trouvoit à vivre libre luy ayant fait refuser tous les partis qui s’estoient offerts, elle n’avoit pû y réussir, &amp; c’estoit pour elle un tres-grand chagrin de le voir toûjours dans le dessein de ne s’engager jamais. Il estoit assez bien fait, &amp; quoy qu’il eust toûjours paru fort indifferent, il ne laissoit pas d’avoir de fort grandes complaisances pour les Belles. Ainsi il n’eut pas plûtost veu l’aimable Personne qu’il rencontra chez sa Mere, qu’il fut ravy d’avoir trouvé une occasion qui luy donnoit le moyen de la voir souvent. Il avoit marqué d’abord qu’il ne venoit que pour quatre jours, &amp; quand il l’eut entretenuë plusieurs fois, il ne luy fut plus possible de songer à la quitter. Il fut surpris de ce changement, &amp; quelque effort qu’il fist pour se vaincre, comme il luy trouvoit tous les jours de nouveaux charmes, cette liberté qu’il avoit toûjours cherie uniquement, commença à s’ébranler. Vous pouvez juger de là qu’il ne manqua pas de faire sa cour à cette charmante Fille. Il luy rendoit des soins obligeans, qui furent bientost suivis de quelques sentimens tendres qu’il luy expliqua. On l’eust écouté plus favorablement qu’on ne fit, si on l’eust cru d’humeur à s’engager tout de bon ; mais comme on sçavoit qu’il s’estoit fait une habitude de debiter des douceurs à toutes les Belles qu’il voyoit, on imputa à son humeur galante &amp; honneste les protestations de tendresse que sa passion luy faisoit faire. Sa Mere elle-mesme qui le connoissoit, quelque forte envie qu’elle eust que la Fille de son Amie s’en fist veritablement aimer, luy conseilloit de ne pas faire de fond sur toutes les choses qu’il pourroit luy dire. La Belle la crut, &amp; le peu qu’elle témoigna donner de créance aux discours du Cavalier, sembla irriter sa passion. Elle s’augmenta toûjours ; &amp; en l’asseurant qu’il sentoit pour elle, ce qu’il n’avoit jamais senty pour personne, il parloit de bonne foy, mais il ne falloit pas le mener plus loin. Dés qu’on luy faisoit entendre que le mariage estoit un moyen seur pour gagner le cœur qu’il attaquoit, il ne sçavoit que répondre, &amp; l’engagement luy faisoit peur. Il eust voulu estre libre pour aimer toûjours, &amp; la pensée d’un Contrat estoit pour luy quelque chose de terrible. Cependant comme on luy voyoit des empressemens qui passoient la complaisance ordinaire qu’il avoit euë jusque-là pour le beau Sexe, la Belle, par le conseil de sa Mere, prit quelque soin de le ménager, &amp; l’envie qu’elle eut de luy plaire assez pour malgré luy l’engager à prendre pour elle ce qu’il commençoit à luy inspirer, la fit agir avec tant d’adresse, qu’en traitant de jeu d’esprit, &amp; d’amusement d’homme galant ce qu’il vouloit luy persuader de son amour, elle l’obligeoit à luy en donner de plus fortes asseurances. On passa à la campagne tout le reste de l’Automne, tantost à se promener, tantost à quelque partie de Chasse, &amp; tantost à recevoir ou à faire des visites. Le Cavalier accompagnoit la Belle par tout, &amp; tout le monde souhaitant qu’il s’attachast, il ne cherchoit point à l’entretenir qu’il n’en trouvast aussitost l’occasion favorable La saison étant enfin devenuë fâcheuse, on retourna à la Ville, &amp; le Cavalier sentit dans le changement de sa fortune, qu’il manquoit beaucoup à son bonheur. Il s’estoit accoûtumé à voir la Belle à toute heure, &amp; cette habitude n’estoit pas aisée à perdre. Il luy rendit deux ou trois visites qui furent receuës agreablement, mais quand il voulut les rendre assiduës, on luy fit connoistre que la liberté de la campagne autorisoit bien des choses, &amp; que dans la Ville, le compte que l’on devoit au Public de ses actions, obligeoit à des reserves qui estoient indispensables. Il entendit ce que cela vouloit dire, &amp; en répondant qu’il y avoit un moyen de faire taire le monde, il fit comprendre qu’il n’estoit pas entierement éloigné de penser au mariage. Il eut pourtant quelque peine à s’y résoudre. Il devint resveur &amp; inquiet, &amp; sa Mere qui en devina la cause, luy ayant demandé un jour en riant s’il n’avoit point pris plus d’amour qu’il ne croyoit, il luy avoüa que depuis qu’il avoit veu la Fille de son Amie, il avoit senty ce qui luy estoit inconnu auparavant, &amp; que sa vertu, sa modestie, sa sagesse, &amp; un certain tour d’esprit, qui dans sa simplicité avoit quelque chose de vif &amp; de delicat, estoient des charmes ausquels il avoit de la peine à résister. Sa Mere luy exagera le prix dont ces qualitez estoient quand on avoit à faire choix d’une Femme, &amp; aprés luy avoir dit qu’ayant beaucoup de bien, il devoit songer uniquement à ce qui pouvoit le rendre heureux, elle crut devoir l’abandonner à luy-mesme, &amp; à ses reflexions. Peu de jours aprés elle eut un accés de fiévre qui l’obligea de se mettre au lit. Son mal parut dangereux, &amp; son Amie qui crut qu’il y alloit de ses interests de se montrer empressée, ne la quitta presque point. Elle venoit fort souvent accompagnée de sa Fille, qui donnoit ses soins de si bonne grace pour soulager la Malade en tout ce qu’elle pouvoit, qu’elle s’en fit aimer tendrement. Ce fut pour le Cavalier un nouveau sujet de redoubler son amour. Il avoit beaucoup d’attachement pour sa Mere, &amp; ce qu’on faisoit pour elle sembloit estre fait pour luy, Sa fiévre estant fort diminuée, il luy en marqua sa joye, &amp; ce témoignage de tendresse luy donna occasion de luy dire, que s’il vouloit la revoir dans une santé parfaite, il en sçavoit les moyens ; qu’il ne pouvoit ignorer qu’elle n’avoit jamais rien souhaité avec tant d’ardeur que de le voir marié, &amp; qu’ayant pris de l’attachement pour une personne toute aimable, il luy feroit un plaisir sensible de l’épouser. Le Cavalier ne put tenir davantage contre l’amour qui luy parloit pour la Belle. Il satisfaisoit sa Mere, &amp; en mesme temps sa passion. Il luy promit ce qu’elle voulut, &amp; cette promesse la mit bientost en estat de se guerir. A peine la fiévre l’eut-elle quittée, qu’elle fit dresser le Contrat de mariage. Il fut signé avec grande joye des deux Amans ; on acheta les habits de Noces, &amp; quand tout fut prest, la Mere prit jour dés le lendemain pour la ceremonie de l’Eglise. On vouloit attendre qu’elle eust recouvré assez de forces pour s’y trouver, mais elle aima mieux se priver de ce plaisir, que de differer ce qu’elle avoit long-temps regardé comme un bonheur. dont l’indifference de son Fils l’empescheroit de joüir. Le mariage se fit avec l’applaudissement de tous les Parens, mais on ne s’attendoit pas à un accident aussi chagrinant qu’extraordinaire dont il fut suivy. La Dame qui vit enfin arriver ce qu’elle avoit souhaité avec tant de passion, s’abandonna tellement aux vifs transports de sa joye, que lors que les Mariez la vinrent saluër à leur retour, elle ne put leur répondre que par un soupir. L’extréme tendresse qu’elle sentoit pour l’un &amp; pour l’autre, luy causa dans ce moment une violente émotion, qui luy coupant la parole, la fit expirer entre leurs bras. Ainsi l’appareil des Noces fut changé en celuy des Funerailles ; &amp; à peine commençoit-on à se réjoüir du bonheur de ces Amans, qu’on se vit reduit à verser des larmes.</p>
+        </div>
+        <div type="article" xml:id="MG-1688-02_170" resp="mercure">
+          <head>[Lettre écrite de Ratisbonne]</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 170-173, 176-177, 179-184</bibl>
+          <p/>
+          <p>Voicy une Lettre écrite de Ratisbonne, à la personne dont je la tiens, j'ay cru vous la devoir envoyer en original, pour ne pas laisser échapper l'occasion de donner des loüanges à M<hi rend="sup">r</hi> le Comte de Crecy, dont la modestie a souvent caché mille choses par lesquelles il en meritoit, &amp; pour vous faire voir en mesme temps que je ne suis pas le seul qui le crois digne de ces loüanges, puis que la Lettre que je vous envoye, vient d'une autre Plume que de la mienne.</p>
+          <p/>
+          <quote>
+          <p>De Ratisbonne ce dernier Decembre 1687</p>
+            <p><hi rend="i">Vous me demandez, Monsieur, la Relation d'une Feste qui se fit icy le mois passé. Je ne puis rien refuser à vôtre amitié, quoy que j'apprehende en vous obeissant de choquer la modestie de celuy qui l'a faite, &amp; qui dans le temps même qu'il avoit terminé heureusement l'affaire la plus glorieuse &amp; la plus agreable au Roy, je veux dire la Treve, qu'il conclut pour Sa Majesté, tant avec l'Empire qu'avec l'Espagne, dans l'espace de dix jours, ne permit jamais à ses Amis de prendre le moindre soin de la gloire qui luy en estoit deuë. La Feste dont vous voulez que je vous apprenne le détail, se fit le 24. de Novembre dernier, à l'occasion du Baptesme du Fils unique de Messire Loüis Verjus, Chevalier, Comte de Crecy, &amp; Plenipotentiaire du Roy à la Diete Generale de l'Empire, &amp; de Dame Marie-Marguerite de Ratabon son Epouse, Fille de M<hi rend="sup">r</hi> de Ratabon, Surintendant des Bastimens avant M<hi rend="sup">r</hi> Colbert.</hi> [...]</p>
+            <p/>
+            <p><hi rend="i">Le temps ayant esté concerté par toutes ces personnes illustres pour accomplir les ordres de Sa Majesté, M<hi rend="sup">r</hi> le Comte de Crecy fit richement parer un Appartement, &amp; l'on y dressa un Autel qui fut richement orné, afin que toutes choses y répondissent à la sainteté du Sacrement, &amp; à la grandeur du nom qu'on devoit donner à son Fils. Personne ne sçait mieux ordonner ces sortes de choses, &amp; en faire en même temps moins d'éclat. La Ceremonie se fit par M. le Comte de Vvartemberg, Doyen des Chanoines de la Cathedrale de Ratisbonne, &amp; qui y fait maintenant la fonction de Suffragant, homme distingué par sa naissance, estant issu de la Serenissime Maison de Baviere, &amp; venerable par la sainteté de ses moeurs.</hi> [...]</p>
+            <p/>
+            <p><hi rend="i">La Ceremonie estant finie, la Compagnie fut invitée à une Collation. C'estoit un Ambigu qui avoit esté preparé dans une autre Salle éclairée à la Françoise. Il y avoit une Table de trente couverts. Les faisans, les gelinotes, les perdrix, gibiers plus rares en ces quartiers qu'en nul autre lieu du monde, s'y rencontroient par tout. L'abondance y estoit mêlée avec de la délicatesse. Les vins les plus delicieux, &amp; les liqueurs s'y répandoient de tous costez. Une ou deux Festes de cette force épuiseroient les Costes d'où vient le vin de S. Laurent, qui l'emporta pour cette fois sur les vins du Rhin, dont on fait d'ailleurs tant de cas à la Diete. M<hi rend="sup">r</hi> le Comte de Crecy eut soin d'égayer M<hi rend="sup">rs</hi> les Ambassadeurs ; &amp; Madame la Comtesse entretint les Ambassadrices &amp; les Dames ; car dans ces sortes de repas les Dames, quoy qu'assises à la mesme Table, ne s'y mêlent pas ordinairement parmy les hommes. Par ce moyen les uns sont moins contraints à goûter le vin ; &amp; les Dames de leur costé profitent mieux de la conversation. Elles pouvoient en cette rencontre prester l'oreille à la simphonie d'une bande de Violons François, qui sont icy assez rares. Le repas fut suivy d'un Ballet dansé par la Famille d'une personne, qui outre son zele pour tout ce qui peut avoir quelque rapport à la gloire ou au service du Roy, fait depuis longtemps une profession particuliere d'estre attachée d'inclination &amp; d'obligation à celle de M. le Comte de Crecy. Ce Ballet estoit composé de Bergers &amp; de Bergeres, dont les jeux &amp; les danses, qui representoient les plaisirs de l'estat d'innocence, estoient en mesme temps des marques de la profonde paix que LOUIS LE GRAND a donnée à l'Europe, &amp; par laquelle il la comble de plaisirs &amp; de richesses. Après ce Ballet, dont la Compagnie qui ne s'y attendoit pas, se vit agreablement surprise, le Bal commença dans les formes, &amp; dura jusques au jour. Le filleul du Roy fit tous les honneurs &amp; en eut presque toute la fatigue. Il montra qu'il estoit aussi galant qu'il est sçavant ; &amp; qu'un jour il seroit aussi agreable aux Dames, qu'utile au service du Roy son Maistre. Toute cette Feste finit par les liberalitez que fit M<hi rend="sup">r</hi> le Comte de Crecy, à ceux qui avoient esté occupez à la Ceremonie du Baptesme.</hi> [...]</p>
+            </quote>
+        </div>
+      <div type="article" xml:id="MG-1688-02_305" resp="angele">
+        <head>Air nouveau</head>
+        <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 305-306.</bibl>
+        <p>Les Vers de la seconde Chanson que je vous envoye sont de Mademoiselle Pascal. Ils ont esté mis en Air par le mesme M<hi rend="sup">r</hi> de Montailly, dont je vous ay déja parlé dans cette Lettre. Vous en devez attendre beaucoup, puis qu'il a joint à la sçience de Musique la connoissance du François à l'égard du chant, &amp; la methode de bien chanter qu'il a pratiquée sous M. de Bacilly, chez qui il a demeuré pendant quatre ans.</p>
+        <quote>
+          <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Aimables Bois, Boccages sombres</hi>, doit regarder la page 306.</note>
+          <lg><l rend="i">Aimables Bois, Boccages sombres</l>
+            <l rend="i">Charmes secrets des tendres cœurs</l>
+            <l rend="i">Pour cacher à Philis mes naissantes langueurs,</l>
+            <l rend="i">Je ne cherche plus que vos ombres.</l>
+            <l rend="i">Dés que je vis ses yeux, mon cœur sentit leurs coups,</l>
+            <l rend="i">Cependant le respect que cette Belle inspire</l>
+            <l rend="i">Me fait éprouver un martyre</l>
+            <l rend="i">Dont je n'ose parler qu'à vous.</l></lg>
+        </quote>
+        <ref target="images/1688-02_305.JPG">
+          <figure>
+            <graphic url="images/1688-02_305.JPG"/>
+          </figure>
+        </ref>
+      </div>
+        <div type="article" xml:id="MG-1688-02_308" resp="wordpro">
+          <head>[Livres nouveaux]</head>
+          <bibl><title>Mercure galant</title>, février 1688 [tome 2], p. 308-310</bibl>
+          <p/>
+          <p>Je vous envoyeray dans quinze jours deux Livres nouveaux, dont le Sieur Guerout, Libraire dans la Court-neuve du Palais, doit commencer le debit en ce temps-là. L’un est intitulé <hi rend="i">le Mary Jaloux</hi>. C’est une Historiette galante, composée par une personne de vostre sexe, dont la reputation vous est fort connuë. Elle a déja fait divers Ouvrages qui luy ont attiré beaucoup d’estime. Vous trouverez infiniment de l’esprit dans celuy-cy. Il vous sera aisé de connoistre par les Caracteres qu’elle donne aux Personnages qui font le nœud de l’Historiette, que les choses se sont effectivement passées de la maniere qu’elle les raconte, &amp; qu’elle ne rapporte aucun incident qui ne soit vray. Ainsi l’on peut asseurer qu’elle a travaillé d’aprés Nature. Je vous en diray davantage la premiere fois.</p>
+          <p>L’autre Ouvrage qui doit paroistre dans le mesme temps, est une suite des <hi rend="i">Dialogues Satyriques &amp; Moraux</hi>, de M. Petit de Roüen. Vous m’avez marqué estre si contente de la premiere partie, qu’il y a grande apparence que vous lirez la seconde avec le mesme plaisir. On m’asseure que parmy ces Dialogues nouveaux, il y en a un d’une nature à exciter de la curiosité à tout le monde. Je sçay que la matiere vous sera fort agreable. Elle est du temps, &amp; regarde beaucoup de Personnes que vous estimez.</p>
+        </div>
+      </body>
+  </text>
+</TEI>
