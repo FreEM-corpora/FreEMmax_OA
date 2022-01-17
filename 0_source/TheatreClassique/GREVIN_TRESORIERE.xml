@@ -1,0 +1,2092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LA TRÉSORIÈRE, COMÉDIE </title>
+				<author type="texte" ISNI="0000 0001 1754 2496">Jacques GRÉVIN (1538-1570)</author>
+			</titleStmt>
+			<publicationStmp>	
+				<editor>Texte établi par Paul FIEVRE, novembre 2020</editor>
+				<publisher>Publié par Paul FIEVRE, décembre 2020</publisher>
+				<idno>GREVIN_TRESORIERE</idno>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Comédie</genre>
+				<inspiration>moeurs</inspiration>
+				<structure>Cinq actes et un prologue</structure>
+				<type>vers</type>
+				<periode>1561-1570</periode>
+				<taille>1000-1250</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k1084913</permalien>
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">LA TRÉSORIÈRE</titlePart>
+			<titlePart type="sub">TRAGÉDIE</titlePart>
+		</docTitle> 
+		<docDate value="1561">M. D. LXI. AVEC PRIVILÈGE</docDate>
+		<docAuthor id="GRÉVIN, Jacques" bio='grevin'>PAR JACQUES GRÉVIN DE CLERMONT EN BEAUVAISIS.</docAuthor>
+		<docImprint>
+			<privilege><head>EXTRAIT DU PRIVILÈGE</head>
+				<p>Il est permis à Vincent Sertenas marchand libraire à PAris d'imprimer ou faire imprimer par qui bon lui semble, et exposer en vente le présent livre imprimé Le Théâtre de Jacques Grévin de Clermont en Beauvaisis, avec le second livre de l'Olympe, et de la Gelodacrye. Avec défenses à toutes autres personnes qu'il appartiendra de n'imprimer, n'exposer en vente icelui livre, sans le vouloir et consentement dudit Sertenas, dedans le temps de six ans prochainement venants et accomplis, sur peine de confiscation desdits livres et amende arbitraire comme plus à plein est contenu es lettre de privilège données à PAris, le seizième jour de juin 1561, </p>
+				<p>Par le Conseil, DE COURLAY.</p>
+			</privilege>
+			<printer id="">À PARIS, Pour Vincent Sertenas, demeurant en la rue Notre-Dame, à l'enseigne Saint-Jean-l'Evangéliste, et en sa boutique au Palais, en la galerie par où on va à la Chancellerie. ET Pour Guillaume Barbé rue Saint-Jean de Beauvais, devant le Béllérophon.</printer>
+		</docImprint>
+		<performance>
+			<premiere date="1658-02-06" location='Collège de Beauvais'>Représentée pour la première fois en 6 février 1658 au Collège de Beauvais.</premiere>
+		</performance>
+		<div type="preface"><head>AU LECTEUR</head> 
+			<p>La liberté des poètes comiques a toujours été telle, que souventes fois ils ont usé de mots assez grossiers, de sentences et manières de parler rejetées de la boutique des mieux disants, ou de ceux qui pensent mieux dire : ce que par aventure l'on pourra trouver lisant mes Comédies. Mais pourtant il ne se faut renfrogner, car il n'est pas ici question de farder la langue d'un mercadant, d'un serviteur ou d'une chambrière, et moins orner le langage du vulgaire, lequel a plutôt dit un mot que pensé. Seulement le Comique se propose de représenter la vérité et naïveté de sa langue, comme les moeurs, les conditions et les états de ceux qu'il met en jeu : sans toutefois faire tort à sa pureté, laquelle est plutôt entre le vulgaire (je dis si l'on change quelques mots qui ressentent leur terroir) qu'entre ces courtisans, qui pensent avoir fait un beau coup, quand ils ont arraché la peau de quelque mot Latin, pour déguiser le Français, qui n'a aucune grâce (disent-ils), s'il ne donne à songer aux femmes, comme s'ils prenaient plaisir de n'être point entendus. Tu ne trouveras donc étrange, Lecteur, si en ces Comédies tu ne trouves un langage recherché curieusement, et enrichi des plumes d'autrui : car je ne suis point de ceux qui font parler un cuisinier des choses célestes et descriptions des temps et des saisons, ou bien une simple chambrière française des amours de Jupiter avec Léda, et des vaillantises d'Alexandre le Grand. Je me contente seulement de donner aux Français la Comédie en telle pureté qu'anciennement l'ont baillée Aristophane aux Grecs, Plaute et Térence aux Romains. Ce que je me suis proposé toujours en écrivant ce poème, ainsi qu'ont pu apercevoir ceux qui ont vu la Maubertine première Comédie que je mis en jeu, et que j'avais bien délibéré te donner, si elle ne m'eût été dérobée. Toutefois celles-ci pourront suffire pour montrez le chemin à ceux qui viendront après nous. Tu peux donc, maintenant, ami Lecteur, averti de ce point, te mettre à lire ce poème ; et si tu trouves quelque chose qui ne soit à ton goût, souvienne toi que ce n'est chose étrange, si ceux qui vont les premiers en un désert et pays inconnu se fourvoient souventes fois de leur chemin. </p>
+		</div>
+		<castList><head>ENTREPARLEURS</head>
+		<castItem><role id="LOYS" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>LOYS</role>, gentilhomme.</castItem>
+		<castItem><role id="RICHARD" sex="1" type="H" statut='serviteur' age='A' stat_amour='néant'>RICHARD</role>, serviteur.</castItem>
+		<castItem><role id="LE TRÉSORIER" sex="1" type="H" statut='trésorier' age='A' stat_amour='néant'>LE TRÉSORIER</role>.</castItem>
+		<castItem><role id="MARIE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MARIE</role>, fille de la Trésorière.</castItem>
+		<castItem><role id="LE PROTONOTAIRE" sex="1" type="H" statut='notaire' age='A' stat_amour='néant'>LE PROTONOTAIRE</role>.</castItem>
+		<castItem><role id="BONIFACE" sex="1" type="H" statut='serviteur' age='A' stat_amour='néant'>BONIFACE</role>, serviteur.</castItem>
+		<castItem><role id="CONSTANTE" sex="2" type="H" statut='trésorier' age='A' stat_amour='César'>CONSTANTE</role>, trésorière.</castItem>
+		<castItem><role id="SULPICE" sex="1" type="H" statut='marchand' age='A' stat_amour='néant'>SULPICE</role>, marchand.</castItem>
+		<castItem><role id="THOMAS" sex="1" type="H" statut='serviteur' age='A' stat_amour='néant'>THOMAS</role>, serviteur.</castItem>
+		</castList>
+	<set location='Paris' country='France' periode='XVIème' gps="48.856614, 2.352222"></set>
+	</front>
+<body>
+<div1 type="prologue" n="1"><head>AVANT-JEU</head>
+<div2 type="scene" n="1"><head></head>
+<stage>CETTE COMÉDIE FUT FAITE PAR LE COMMANDEMENT DU ROI HENRI II POUR SERVIR AUX NOCES DE MADAME CLAUDE DUCHESSE DE LORRAINE, MAIS POUR QUELQUES EMPÊCHEMENTS DIFFÉRÉE : ET DEPUIS MISE EN JEU À PARIS AU COLLÈGE DE BEAUVAIS, APRÈS LA SATIRE QU'ON APPELLE COMMUNÉMENT LES VEAUX, LE V FÉVRIER, M. DC. LVIII. </stage>
+<sp who="ACTEUR DU PROLOGUE"><speaker>LE PROLOGUE</speaker>
+	<l id="1">Non, ce n'est pas de nous qu'il faut, </l>
+	<l id="2">Pour accomplir cet échafaud, </l>
+	<l id="3">Attendre les farces prisées </l>
+	<l id="4">Qu'on a toujours moralisées : </l>
+	<l id="5">Car ce n'est notre intention </l>
+	<l id="6">De mêler la religion </l>
+	<l id="7">Dans le sujet des choses feintes. </l>
+	<l id="8">Aussi jamais les lettres Saintes </l>
+	<l id="9">Ne furent données de Dieu, </l>
+	<l id="10">Pour en faire après quelque jeu. </l>
+	<l id="11">Et puis tout' ces farces badines </l>
+	<l id="12">Me semblent être trop indignes </l>
+	<l id="13">Pour être mises au devant </l>
+	<l id="14">Des yeux d'un homme plus savant. </l>
+	<l id="15">Celui donc qui voudra complaire </l>
+	<l id="16">Tant seulement au populaire, </l>
+	<l id="17">Celui choisira les erreurs </l>
+	<l id="18">Des plus ignorants bateleurs : </l>
+	<l id="19">Il introduira la Nature, </l>
+	<l id="20">Le Genre-humain, l'Agriculture, </l>
+	<l id="21">Un Tout, un Rien, et un Chacun, </l>
+	<l id="22">Le Faux-parler, le Bruit-commun, </l>
+	<l id="23">Et telles choses qu'ignorance </l>
+	<l id="24">Jadis mêla parmi la France. </l>
+	<l id="25">Que pourrons-nous donc inventer </l>
+	<l id="26">Afin de chacun contenter ? </l>
+	<l id="27">Quoi ? Le badinage inutile </l>
+	<l id="28">Par qui quelquefois Martin-Ville</l>
+	<l id="29">Se fit écouter de son temps ? </l>
+	<l id="30">Quoi ? Demandez vous ces romans </l>
+	<l id="31">Jouez d'une aussi sotte grâce </l>
+	<l id="32">Que sotte est cette populace </l>
+	<l id="33">De qui tous seuls ils sont prisés, </l>
+	<l id="34">Vous êtes bien mieux avisés, </l>
+	<l id="35">Comme je crois : votre présence </l>
+	<l id="36">Mérite avoir la jouissance </l>
+	<l id="37">D'un discours qui soit mieux limé.</l>
+	<l id="38">Aussi avons-nous estimé </l>
+	<l id="39">Que la gentille poésie </l>
+	<l id="40">Veut une matière choisie, </l>
+	<l id="41">Digne d'être mise aux écrits </l>
+	<l id="42">De ceux qui ont meilleurs esprits </l>
+	<l id="43">Et non pour être ainsi souillée, </l>
+	<l id="44">Ou en mille parts détaillée </l>
+	<l id="45">Par ceux qui encore ne l'ont pas </l>
+	<l id="46">Saluée du premier pas : </l>
+	<l id="47">Et qui pensent malgré Minerve </l>
+	<l id="48">La retenir ainsi que serve, </l>
+	<l id="49">Ou dans l'escale la lier </l>
+	<l id="50">Ainsi qu'un petit écolier. </l>
+	<l id="51">Non, non, ce n'est pas sa nature </l>
+<note type="L">Voiser : Se divertir, s’amuser.</note>
+	<l id="52">Qu'elle s'en voise à l'aventure </l>
+	<l id="53">Vers celui qui la veut avoir. </l>
+	<l id="54">Il faut premièrement savoir </l>
+	<l id="55">Petit-à-petit sa pensée : </l>
+	<l id="56">Car elle ne veut être forcée, </l>
+	<l id="57">Ni traitée, comme souvent </l>
+	<l id="58">Nous l'avons vue auparavant </l>
+<note type="L">Marâtre : Mauvaise mère. Ce n'est pas une mère, c'est une marâtre. Ici, sens figuré et adjectivé.</note>
+	<l id="59">Au joug d'une plume marâtre. </l>
+	<l id="60">N'attendez donc en ce Théâtre </l>
+<note type="L">Ne : ancienne forme de ni.</note>
+	<l id="61">Ne farce, ne moralité : </l>
+	<l id="62">Mais seulement l'antiquité, </l>
+	<l id="63">Qui d'une face plus hardie </l>
+	<l id="64">Se représente en Comédie : </l>
+	<l id="65">Car onc je ne pourrai penser, </l>
+	<l id="66">Qu'aucun se voulût courroucer </l>
+	<l id="67">Encontre nous, si pour mieux faire </l>
+	<l id="68">Nous voulons aux doctes complaire. </l>
+	<l id="69">Or sachez qu'en tout ce discours, </l>
+	<l id="70">Nous représentons les amours </l>
+	<l id="71">Et la finesse coutumière </l>
+	<l id="72">D'une gentille trésorière, </l>
+	<l id="73">Dont le métier est découvert </l>
+	<l id="74">Non loin de la place_Maubert. </l>
+<note type="L">Proronotaire : Officier de Cour de Rome qui a un degré de prééminence fur les autres Notaires. [F]</note>
+	<l id="75">Vrai est que le Protonotaire, </l>
+	<l id="76">Principal de toute cette affaire </l>
+	<l id="77">Est de notre université. </l>
+	<l id="78">Mais j'ai un peu trop arrêté, </l>
+	<l id="79">Il vaut mieux avec le silence </l>
+	<l id="80">Vous en donner la jouissance. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="1"><head>ACTE I</head>
+<div2 type="scene" n="1"><head>SCÈNE I. Loys, Richard.</head><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="81">Et bien Richard, quelle nouvelle </l>
+	<l id="82">Apportes-tu de ma cruelle ? </l>
+	<l id="83">Veut-elle doncque être toujours </l>
+	<l id="84">Ainsi peureuse en ses amours ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="85">Monsieur, je crois que la pauvrette </l>
+	<l id="86">Sans aucun repos vous souhaite </l>
+	<l id="87">Entre ses bras ; voulez-vous mieux ? </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="88">Je pense, moi, que tous les Dieux </l>
+	<l id="89">Prennent plaisir en mon martyre : </l>
+	<l id="90">Incessamment mon mal empire, </l>
+<note type="L">Heur : rencontre avantageuse. (...) [F] [antonyme de malheur]</note>
+	<l id="91">Sans toutefois avoir cet heur </l>
+	<l id="92">D'apaiser mon amour vainqueur. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="93">Non non, Monsieur, j'ai espérance </l>
+	<l id="94">Que vous en aurez jouissance </l>
+	<l id="95">En peu de temps. Laissez moi faire, </l>
+	<l id="96">C'est mon office, dont j'espère </l>
+	<l id="97">En faire si bien mon devoir. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="98">Oui, mais toujours le vain espoir </l>
+	<l id="99">Trompe ma trop grande constance </l>
+	<l id="100">Au milieu de mon impuissance. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="101">Vraiment une telle beauté </l>
+	<l id="102">A bien un amant mérité : </l>
+	<l id="103">Et d'autant qu'êtes languissant, </l>
+	<l id="104">D'autant quand serez jouissant </l>
+	<l id="105">Le plaisir sera désirable. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="106">Mais toujours pauvre misérable </l>
+	<l id="107">Le jour je me mourrai cent fois </l>
+	<l id="108">Pour son amour, et toutefois </l>
+	<l id="109">Déjà je prévois que l'issue </l>
+	<l id="110">Sera de quelque maigre vue. </l>
+	<l id="111">Cela ne vient point que ma race </l>
+	<l id="112">Ne fut digne d'avoir la grâce </l>
+	<l id="113">D'une dame de plus haut lieu : </l>
+	<l id="114">C'est, c'est bien plutôt quelque dieu </l>
+	<l id="115">Qui me cachait dedans son sein </l>
+	<l id="116">L'impuissance de mon dessein. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="117">Monsieur, je me tiendrais heureux </l>
+	<l id="118">De mourir étant amoureux </l>
+	<l id="119">D'une si parfaite beauté. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="120">Richard, Richard, la cruauté </l>
+<note type="L">Archerot : Petit archer, nom donné à Cupidon. [L]</note>
+	<l id="121">De cet archerot qui me dompte </l>
+	<l id="122">Selon son fier désir, surmonte </l>
+	<l id="123">L'extrême douleur de la mort. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="124">Nous sommes en cela d'accord : </l>
+	<l id="125">Mais à cette longue espérance </l>
+	<l id="126">Opposez votre jouissance. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="127">Encore, Richard, je t'assure </l>
+	<l id="128">Que tout le malheur que j'endure </l>
+	<l id="129">N'est rien, si tu peux faire tant </l>
+<note type="L">Parfin : fin.</note>
+	<l id="130">Qu'en la parfin je sois content. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="131">Ce n'est pas moi qu'il faut prier : </l>
+	<l id="132">Il ne tient qu'à ce trésorier. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="133">Le mari est-il averti ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="134">Non, non, mais il n'est pas parti </l>
+	<l id="135" syll="6" part="i">Ainsi qu'elle pensait. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="135" syll="2" part="f">Comment ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="136">Pour s'en aller faire un paiement </l>
+	<l id="137">En Languedoc. Lui délogé, </l>
+	<l id="138">Votre malheur sera changé </l>
+<note type="L">Perdurable : Qui doit durer jusqu'à la fin. [L]</note>
+	<l id="139">En un perdurable plaisir : </l>
+	<l id="140">Car alors vous aurez loisir </l>
+	<l id="141">De recouvrer le temps perdu. </l>
+	<l id="142">Si avez longtemps attendu, </l>
+	<l id="143">Reprenez hardiment courage. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="144">Ha, Richard, pourquoi d'avantage </l>
+	<l id="145">As-tu celé mon doux repos ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="146">Il ne venait pas à propos : </l>
+	<l id="147">Encore votre joie augmente </l>
+	<l id="148">De plus en plus par cette attente. </l>
+	<l id="149">Et si je m'en rapporte à vous, </l>
+	<l id="150">Si vous ne trouvez pas plus doux </l>
+<note type="L">Tardement : Action de tarder. [L]</note>
+	<l id="151">Le plaisir, par le tardement, </l>
+	<l id="152">Que n'eussiez au commencement. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="153">Vraiment, Richard, pour ton devoir </l>
+	<l id="154">Tu mérites de recevoir </l>
+	<l id="155">D'un plus grand seigneur le loyer. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="156">Monsieur, il ne faut qu'employer </l>
+	<l id="157">Richard, quand il est question </l>
+	<l id="158">De conduire une faction ; </l>
+	<l id="159">Ainsi le serviteur doit faire, </l>
+	<l id="160">Pour à son bon maître complaire, </l>
+	<l id="161">Le devoir, comme il appartient, </l>
+	<l id="162">Jusques à la mort, s'il convient </l>
+	<l id="163">L'endurer pour l'amour de lui. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="164">Mais dis, Richard, est-ce aujourd'hui </l>
+	<l id="165">Que notre trésorier se part ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="166">Penseriez-vous bien que Richard </l>
+	<l id="167">Vous le dit s'il n'était ainsi ? </l>
+	<l id="168">Vie, mettez-moi tout souci </l>
+	<l id="169" syll="3" part="i">Sous le pied. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="169" syll="5" part="f">Mais ce Trésorier </l>
+	<l id="170">Me doit encore mon quartier : </l>
+	<l id="171">Il faut que tu sois diligent </l>
+	<l id="172">De recouvrer tout cet argent </l>
+	<l id="173">Avant qu'il parte : et qui plus est, </l>
+	<l id="174">Je lui paierai son intérêt, </l>
+	<l id="175">S'il veut faire du rigoureux : </l>
+	<l id="176">Car à ces braves glorieux </l>
+	<l id="177">Il faut quitter une moitié </l>
+	<l id="178" syll="4" part="i">Pour avoir l'autre </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="178" syll="4" part="f">L'amitié </l>
+	<l id="179">Vaut bien cela, c'est pour l'usage </l>
+	<l id="180">De son ennuyeux cocuage. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="181">Va-t'en vers lui, voilà quittance : </l>
+	<l id="182">Que s'il veut faire quelque avance, </l>
+	<l id="183">Promets lui le vin hardiment. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="184" syll="4" part="i">Je m'y en vais. </l>
+</sp>
+<sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="184" syll="4" part="f">Pareillement, </l>
+	<l id="185">Fais les recommandations </l>
+	<l id="186">De mes journelles passions </l>
+	<l id="187">À ma damoiselle et maîtresse : </l>
+	<l id="188">Que si de ma longue détresse </l>
+	<l id="189">Elle a quelque compassion, </l>
+	<l id="190">Qu'elle me donne assignation </l>
+	<l id="191">Pour par un doux contentement </l>
+	<l id="192">Mettre la fin à mon tourment. </l>
+</sp>
+<sp stage="alone" who="RICHARD"><speaker>RICHARD, seul.</speaker>
+	<l id="193">Mon maître a bien ce qu'il lui faut, </l>
+	<l id="194">Encore qu'il ait le coeur haut ; </l>
+	<l id="195">Et qu'il ne veuille être dompté, </l>
+	<l id="196">Si est-ce qu'il est surmonté </l>
+	<l id="197">Par une femme aussi commune </l>
+	<l id="198">Que les divers cours de la Lune. </l>
+	<l id="199">Elle peut tant envers mon maître, </l>
+	<l id="200">Que par babil elle l'a fait être </l>
+	<l id="201">Un parangon de pauvreté : </l>
+	<l id="202">Et sous l'ombre d'une beauté </l>
+	<l id="203">Qu'elle vend plus cher qu'au marché, </l>
+	<l id="204">Elle lui a jà arraché </l>
+	<l id="205">Les biens, l'honneur et les amis : </l>
+	<l id="206">C'est une mer, où il a mis </l>
+	<l id="207">Mille trésors qu'elle dévore, </l>
+	<l id="208">Sans les regorger : et encore </l>
+	<l id="209">Qu'il lui donne tant qu'il voudra, </l>
+	<l id="210">De rien plus il n'en adviendra </l>
+	<l id="211">À mon maître qu'elle déçoit, </l>
+	<l id="212">Ni à elle qui le reçoit. </l>
+	<l id="213">Et cependant, mille langueurs, </l>
+	<l id="214">Et dix mille amoureux vainqueurs </l>
+	<l id="215">Tourmentant son coeur attisé, </l>
+	<l id="216">Je pensais qu'il fut plus rusé, </l>
+	<l id="217">Vu qu'il a tant hanté les armes, </l>
+	<l id="218">Les courtisans et les gendarmes : </l>
+	<l id="219">Mais les plus fins y sont trompés, </l>
+	<l id="220">Et les plus légers attrapés, </l>
+	<l id="221">Tant seulement sous l'apparence </l>
+	<l id="222">D'une légère jouissance. </l>
+	<l id="223">Encore si pour sa beauté </l>
+	<l id="224">Elle valait le décrotté, </l>
+	<l id="225">Je dirais : mais quoi ? Seulement </l>
+	<l id="226">La façon de l'habillement </l>
+	<l id="227">Vaut autant que la bague entière. </l>
+	<l id="228">Et bien, c'est une trésorière, </l>
+	<l id="229">Laquelle par son doux parler </l>
+	<l id="230">Sait bien un homme emmieler. </l>
+	<l id="231">Mais par ma foi j'estime autant </l>
+	<l id="232">Ma Marion, et suis content </l>
+	<l id="233">Encore plus de mes amours </l>
+	<l id="234">Que non pas lui de son velours, </l>
+	<l id="235">Sans qu'il me la faille prier. </l>
+	<l id="236">Mais n'est-ce pas mon trésorier </l>
+	<l id="237">Que je vois venir droit à moi ? </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Le Trésorier, Richard.</head><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="238">Puisque c'est l'affaire du Roi </l>
+	<l id="239">Je ne diffère m'absenter, </l>
+	<l id="240">Afin d'un chacun contenter : </l>
+	<l id="241">Le gain récompense le mal. </l>
+	<l id="242">Qu'on fasse seller mon cheval. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="243">Tant mieux il est prêt de partir ;</l>
+	<l id="244">La dame pourra départir </l>
+	<l id="245">La jouissance de son corps, </l>
+	<l id="246">Puisque Monsieur s'en va dehors. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+<note type="C">Vers, 247. Encore est graphié Encor'.</note>
+	<l id="247">Encore ai-je quelque douleur </l>
+	<l id="248">De laisser ma femme en sa fleur : </l>
+	<l id="249">Car, las ! Cette tendre jeunesse </l>
+	<l id="250">Ne pourra porter la détresse </l>
+	<l id="251">De mon absence : et puis ces gens </l>
+	<l id="252">Qui sont soigneux et diligents </l>
+	<l id="253">À tromper une créature, </l>
+	<l id="254">Qui sera simple de nature ; </l>
+	<l id="255">Vrai, que je tiens tant de ma femme, </l>
+	<l id="256">Qu'avant me faire un cas infâme </l>
+	<l id="257">Plutôt endurerait la mort. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="258">Hélas, jamais ne lui fit tort, </l>
+	<l id="259">Elle est de bonne parenté. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="260">Pensez qu'un homme est tourmenté, </l>
+	<l id="261">Depuis qu'il lui convient souvent </l>
+	<l id="262">Aller à la pluie et au vent. </l>
+	<l id="263">Délaissant avec le ménage </l>
+	<l id="264">La femme en la fleur de son âge. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="265">Le coeur lui faut, la conscience </l>
+	<l id="266">Lui fait connaître son offense. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="267">Il ne m'est rien plus agréable </l>
+	<l id="268">Qu'avec ma femme désirable </l>
+	<l id="269">Jouir du bien que Dieu me donne. </l>
+	<l id="270">Mais quoi ? La pratique en est bonne : </l>
+	<l id="271">Car je pourrai, si je suis sage, </l>
+	<l id="272">Pratiquer en ce mien voyage </l>
+	<l id="273">Trois mille francs en peu de jours. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="274">Cependant comment les amours </l>
+	<l id="275">Se demerront, la damoiselle </l>
+	<l id="276">Ne sera du tout si rebelle </l>
+	<l id="277">Qu'auparavant : car le loisir </l>
+	<l id="278">Lui fera mille fois choisir </l>
+	<l id="279">Le bon moyen, l'heure et le temps </l>
+	<l id="280">Pour rendre ses amis contents, </l>
+	<l id="281">Tant le courtisan que son page. </l>
+	<l id="282">Mais il faut faire mon message, </l>
+	<l id="283">Craignant qu'en quelque coin de rue </l>
+	<l id="284">Je ne le perde de la vue : </l>
+	<l id="285">Puis je pourrais venir trop tard. </l>
+	<l id="286" syll="4" part="i">Dieu gard' monsieur. </l>
+</sp>
+<sp stage="watch" who="LE TRÉSORIER"><speaker>LE TRÉSORIER, apercevant Richard.</speaker>
+	<l id="286" syll="4" part="f">Et bien Richard, </l>
+	<l id="287">Comment va du seigneur Loys ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="288">Il a toujours dix mille ennuis </l>
+	<l id="289">Qui le tourmentent, pour autant </l>
+	<l id="290">Qu'il n'a pas son argent content, </l>
+	<l id="291">Et si ne voit qui en apporte. </l>
+	<l id="292">Et qui pis est, jamais sa porte </l>
+	<l id="293">N'est sans un marchand ennuyeux, </l>
+	<l id="294">Qui se présentant à ses yeux </l>
+	<l id="295">Le menace pour son argent </l>
+	<l id="296">De lui envoyer un sergent. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="297">Richard, par Dieu c'est comme moi, </l>
+	<l id="298">Car maintenant je ne reçois </l>
+	<l id="299">À peine rien de mon office. </l>
+	<l id="300">Encore pour faire service </l>
+	<l id="301">À quelques uns, toujours j'avance, </l>
+	<l id="302">Et si ma foi, la récompense </l>
+	<l id="303">Que j'en reçois, n'est comme rien. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="304">Vertubieu : je vous entends bien, </l>
+	<l id="305">Le paiement n'est encore prêt, </l>
+	<l id="306">Nous demandons un intérêt, </l>
+	<l id="307">Voilà comment vous êtes doux. </l>
+	<l id="308">Je suis venu par devers vous </l>
+	<l id="309">Pour entendre tant seulement </l>
+	<l id="310">Si mon maître aura le paiement </l>
+	<l id="311">De son quartier que lui devez. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="312">Vous êtes fort mal arrivés, </l>
+	<l id="313">Vous venez après la bataille </l>
+	<l id="314">Je ne sache pas une maille.</l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="315">Comment, monsieur ? Et cependant </l>
+	<l id="316">Mon maître sera attendant </l>
+	<l id="317" syll="4" part="i">Votre retour ?</l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="317" syll="4" part="f">Il le faut bien. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="318">Mais, Monsieur, pensez-vous combien </l>
+	<l id="319">Ce lui est chose insupportable </l>
+	<l id="320">D'être si longtemps redevable </l>
+	<l id="321">À un tas de gens importuns ? </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="322">Vraiment Richard, je sais aucuns </l>
+	<l id="323">Qui m'ont voulu donner le quart </l>
+	<l id="324" syll="4" part="i">De leur paiement. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="324" syll="4" part="f">Ma foi, Richard, </l>
+	<l id="325">N'a point telle commission : </l>
+	<l id="326">Pour donner une portion </l>
+	<l id="327">De l'argent, il le fera bien. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="328">C'est bien parlé : viens ça, combien </l>
+	<l id="329">Veut-il donner pour l'intérêt, </l>
+	<l id="330">S'il trouve son argent tout prêt ? </l>
+	<l id="331">Quant est de moi, je ne l'ai pas : </l>
+	<l id="332">Mais il n'y a que quatre pas </l>
+	<l id="333">Jusqu'au logis d'un mien ami. </l>
+</sp>
+<sp stage="aparte" who="RICHARD"><speaker>RICHARD, à part.</speaker>
+	<l id="334">Le Trésorier n'est endormi, </l>
+	<l id="335">Se voyant en main la fortune; </l>
+<note type="L">Pécune : Terme vieilli et familier. Argent comptant. [L]</note>
+	<l id="336">De pouvoir gagner la pécune.</l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="337" syll="5" part="i">Que dis-tu Richard ? </l>
+</sp>
+<sp who="RICHARD"><speaker>RICHARD, haut.</speaker>
+	<l id="337" syll="3" part="f">Je songeais, </l>
+	<l id="338">En comptant ci-dessus mes doigts, </l>
+	<l id="339">Combien il voudrait bien donner. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="340">Je ne pourrai plus séjourner. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="341">De trois cents livres vingt écus. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="342">Ha vraiment il mérite plus. </l>
+	<l id="343">Voudrait-il bien en donner trente ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="344">Pour vingt et cinq, qu'il se contente : </l>
+	<l id="345">Je vous ferai récompenser, </l>
+	<l id="346">Si voulez encor avancer. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="347">Je le veux à même profit : </l>
+	<l id="348">Aussi je voudrai qu'il me fit </l>
+	<l id="349">Quittance des paiements entiers </l>
+	<l id="350">Qu'il recevra des deux quartiers. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="351" syll="4" part="i">Vous les aurez. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="351" syll="4" part="f">Mais il ne faut </l>
+	<l id="352">Aussi m'en faire aucun défaut. </l>
+	<l id="353">Car je veux partir dans une heure : </l>
+	<l id="354">Pourquoi soyez en mon demeure </l>
+	<l id="355" syll="4" part="i">Incontinent. </l>
+</sp>
+<sp stage="alone" who="RICHARD"><speaker>RICHARD, seul.</speaker>
+	<l id="355" syll="4" part="f">C'est bien assez. </l>
+	<l id="356">Jamais ils ne seront lassés </l>
+	<l id="357">De prendre argent de toutes parts : </l>
+<note type="L">Soudard : Terme familier. Homme qui a longtemps servi à la guerre et qui en a les habitudes ; il se prend en mauvaise part, soit par moquerie, soit pour exprimer la grossièreté ou la barbarie. [L]</note>
+	<l id="358">Il n'est pas des pauvres soudards </l>
+	<l id="359">Desquels ces braves trésoriers </l>
+	<l id="360">N'attirent tous jours les deniers : </l>
+	<l id="361">Mais au besoin il se faut taire. </l>
+<stage type="exit">Il sort.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Marie, Richard.</head><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="362">Dieu, Monsieur le Protonotaire </l>
+	<l id="363">Est négligent en ses amours. </l>
+	<l id="364">J'ai vu le temps que tous les jours ; </l>
+	<l id="365">Il passait devant la maison </l>
+	<l id="366">Cinquante fois, mais la saison </l>
+	<l id="367">Comme je crois lui est venue, </l>
+	<l id="368">Qu'il ne va plus parmi la rue : </l>
+	<l id="369">Pensez qu'il est devenu sage. </l>
+</sp>
+<sp stage="aparte" who="RICHARD"><speaker>RICHARD, à part.</speaker>
+	<l id="370">Si je joue mon personnage, </l>
+	<l id="371">Je saurai d'elle tout' l'affaire </l>
+	<l id="372">De ce jeune Protonotaire. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="373">Nous fuyons toujours notre bien, </l>
+	<l id="374">Jamais, jamais à un bon chien </l>
+	<l id="375">Ne tombera quelque bon os : </l>
+	<l id="376">Après qu'ils ont tourné le dos, </l>
+	<l id="377">Ils font les meilleures risées </l>
+	<l id="378">De celles qu'ils ont abusées. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="379">Les plus rusés y sont donc pris. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="380">Quant ils ont l'amour entrepris </l>
+	<l id="381">De quelque dame, à Dieu comment </l>
+	<l id="382">S'ils en ont eu contentement. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="383">Autant ailleurs c'est ma devise. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="384">Voilà mademoiselle éprise </l>
+	<l id="385">De l'amour d'un jeune écolier, </l>
+	<l id="386">Qui n'a le sou pour employer, </l>
+	<l id="387">Et veut être aimé à crédit. </l>
+</sp>
+<sp stage="aparte" who="RICHARD"><speaker>RICHARD, à part.</speaker>
+	<l id="388">Ne l'avais-je donc pas bien dit ? </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="389">Le seigneur Loys cependant </l>
+	<l id="390">Est à son amour prétendant, </l>
+	<l id="391">Sans toutefois avoir cet heur </l>
+	<l id="392">D'apaiser sa trop grande ardeur, </l>
+	<l id="393">Si n'est de quelque vaine course; </l>
+	<l id="394">Lui qui a plus d'écus en bourse </l>
+	<l id="395">Que l'autre n'a pas de deniers. </l>
+	<l id="396">Mais voilà comment les derniers </l>
+	<l id="397">Seront toujours favorisés, </l>
+	<l id="398">Et les plus fermes déprisés. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="399">J'entends le noeud de la matière, </l>
+	<l id="400">Il se faut garder du derrière; </l>
+</sp>
+<sp stage="watch" who="MARIE"><speaker>MARIE, apercevant Richard.</speaker>
+	<l id="401">Voici Richard le serviteur </l>
+	<l id="402">Du seigneur Loys ; j'ai grand peur </l>
+	<l id="403">Qu'il n'ait entendu ce qu'ai dit; </l>
+	<l id="404">Au pis, j'en ferai contredit. </l>
+	<l id="405">Mon Dieu, Richard, venez avant. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="406">Que faites-vous ici devant ?</l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="407">Rien, sinon que ma damoiselle </l>
+	<l id="408" syll="5" part="i">Veut parler à vous. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="408" syll="3" part="f">Que veut-elle ? </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="409">Quant à moi, je ne le sais pas, </l>
+	<l id="410">Elle est jà descendue en bas. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="act" n="2"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE I. Le Protonotaire, Boxiface.</head><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="411">Hé, Boniface, mon ami, </l>
+	<l id="412">Je suis déjà mort à demi, </l>
+	<l id="413">Tant ce petit Dieu me tourmente. </l>
+	<l id="414">Ha, ma trop cruelle Constante ! </l>
+	<l id="415">La grand' constance de ton sort, </l>
+	<l id="416">Seule me causera la mort. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="417">Comment cela, Monsieur ? Vous ai-je </l>
+	<l id="418">Si longtemps servi au collège </l>
+	<l id="419">Pour maintenant vous défier </l>
+	<l id="420">De votre serviteur, premier </l>
+	<l id="421">Qui en a mis les fers au feu ? </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="422">Hélas, Boniface ! pour Dieu </l>
+	<l id="423">Si jamais la fidélité </l>
+	<l id="424">De ton devoir m'a incité </l>
+	<l id="425">À récompenser ton service, </l>
+	<l id="426">Comme je dois, de mon office, </l>
+	<l id="427">C'est ores qu'il te faut prévoir </l>
+	<l id="428">Au mal instant du désespoir, </l>
+	<l id="429">Et montrer ton invention. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="430">Je sais bien qu'il n'est question </l>
+	<l id="431">Que d'argent, dont avez défaut : </l>
+	<l id="432">Car le temps est venu qu'il faut </l>
+	<l id="433">Toujours avoir argent en banque, </l>
+	<l id="434">Qui veut que la dame ne manque. </l>
+</sp>
+<sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="435">Il est vrai : car tout mon tourment </l>
+	<l id="436">Vient de cela, tant seulement, </l>
+	<l id="437">Tu sais que nous n'avons la croix </l>
+	<l id="438">Encore qu'il y ait trois mois </l>
+	<l id="439">Avant que recevoir argent. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="440">Vous êtes par trop diligent </l>
+	<l id="441">A faire la magnificence, </l>
+	<l id="442">Depuis qu'avez la jouissance </l>
+	<l id="443">De quarante ou cinquante écus.</l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="444">Boniface, je ne suis plus </l>
+	<l id="445">Enfant comme je soulais être.</l>
+</sp>
+<sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="446">Il faut que vous soyez le maître </l>
+	<l id="447">Dorénavant des passions </l>
+<note type="L">Journelle : de journée, quotidienne.</note> 
+	<l id="448">De vos journelles actions. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="449">Je le serai. Mais penses-tu </l>
+	<l id="450">Combien est grande sa vertu, </l>
+	<l id="451">Et combien sa perfection </l>
+	<l id="452">Peut dompter mon affection ? </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="453">Nous voyons cela tous les jours : </l>
+	<l id="454">Ce sont vos premières amours. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="455">Ce n'est point cela, Boniface : </l>
+	<l id="456">Tant seulement sa bonne grâce, </l>
+	<l id="457">Son doux parler et son maintien, </l>
+	<l id="458">Sans rien flatter méritent bien </l>
+	<l id="459">L'amour d'un bien plus grand seigneur. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="460">Voilà, vous y avez le coeur : </l>
+	<l id="461">Non pas vraiment que je déprise, </l>
+	<l id="462">Disant cela, votre entreprise : </l>
+	<l id="463">Mais il ne faut être si chaud </l>
+	<l id="464" syll="4" part="i">En ses affaires. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="464" syll="4" part="f">Son coeur haut </l>
+	<l id="465">Mérite un plus parfait service. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="466">Mais si l'argent du bénéfice </l>
+	<l id="467">Ne suffit à telle dépense ?</l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="468">Il faut aimer en espérance ; </l>
+	<l id="469">Il nous viendra quelque hasard. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="470">Oui bien, mais possible trop tard ; </l>
+	<l id="471">Il faut prévoir à son affaire. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="472">Encore le bien de mon père </l>
+	<l id="473" syll="5" part="i">Ne manquera point. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="473" syll="3" part="f">Il ne pense </l>
+	<l id="474">Que nous fassions si grand dépense. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="475">Ha, je veux être entretenu </l>
+	<l id="476">Honnêtement du revenu </l>
+	<l id="477" syll="4" part="i">Qui m'appartient. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="477" syll="4" part="f">C'est la raison : </l>
+	<l id="478">Car vous êtes d'une maison </l>
+	<l id="479">Qui le mérite : mais aussi </l>
+	<l id="480">Il faut avoir des siens souci. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="481">Or, Boniface, il n'est pas heure </l>
+	<l id="482">De faire plus longue demeure, </l>
+	<l id="483">Nous avons métier d'autre chose. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="484" syll="3" part="i">Je l'entends.</l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="484" syll="5" part="f">Dont je me repose </l>
+	<l id="485" syll="4" part="i">Du tout sur toi. </l>
+</sp>
+<sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="485" syll="4" part="f">Je ferai tant </l>
+	<l id="486">Que nous aurons argent comptant. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="487">J'aime mieux payer l'intérêt, </l>
+	<l id="488">Pourvu que le paiement soit prêt. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="489">Je vous prie laissez faire à moi. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="490">Aussi je m'en attends à toi.</l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="491">Vous le pouvez, allez m'attendre </l>
+	<l id="492">Dans le palais, j'irai vous prendre </l>
+<note type="L">Repasser : Après être allé d'un lieu à un autre, revenir de celui-ci au premier. [L]</note>
+	<l id="493" syll="4" part="i">Au repasser. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="493" syll="4" part="f">Le Secrétaire </l>
+	<l id="494">M'y doit trouver pour quelque affaire. </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Constante, Richard, Boniface.</head><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="495">Richard mon ami, dites lui</l>
+	<l id="496">Que j'en endure autant d'ennui</l>
+	<l id="497">Qu'il m'est possible, et que j'espère, </l>
+	<l id="498">Mais qu'il soit parti, si bien faire </l>
+	<l id="499">Qu'il sera content du devoir </l>
+	<l id="500" syll="4" part="i">Que j'en ferai. </l>
+</sp>
+<sp stage="aparte" who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+	<l id="500" syll="4" part="f">Il faut savoir </l>
+	<l id="501">Que veut ce doux contentement. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="502">Vous n'en voulez foi ne serment, </l>
+	<l id="503">Mais il vous aime de tel coeur. </l>
+	<l id="504">Que déjà son amour vainqueur </l>
+	<l id="505">L'a presque mis au désespoir. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="506">Las, Richard, il a tout pouvoir </l>
+	<l id="507">Sur moi qui suis sienne, et j'espère, </l>
+	<l id="508">S'il me survient en mon affaire, </l>
+	<l id="509">Le reconnaître tant que l'âme </l>
+	<l id="510" syll="4" part="i">Me batte au corps. </l>
+</sp>
+<sp stage="aparte" who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+	<l id="510" syll="4" part="f">La pauvre femme </l>
+	<l id="511">Ne se donne qu'à ses amis : </l>
+	<l id="512">J'entends bien tout, elle a commis </l>
+	<l id="513">Quelque petite portion </l>
+	<l id="514">De l'amoureuse affection </l>
+	<l id="515">Sur la bourse d'un amoureux. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="516">Mademoiselle, il est heureux </l>
+	<l id="517">De ce qu'il vous plaît demander </l>
+	<l id="518">La chose qu'il peut accorder. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="519">Et bien, Richard, vous lui direz </l>
+	<l id="520">Que je suis sienne, et le prierez </l>
+	<l id="521">De ce dont je vous ai parlé. </l>
+</sp>
+<sp stage="aparte" who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+<note type="L">Emmaler : Mis dans une malle, enfermé.</note>
+	<l id="522">Voilà le paquet emmalé, </l>
+	<l id="523">Mon maître peut bien dire à Dieu. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="524">Je ne puis plus être en ce lieu, </l>
+	<l id="525">Je vais quérir l'autre quittance. </l>
+</sp>
+<sp stage="aparte" who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+	<l id="526">Si est-ce que j'ai espérance </l>
+<note type="L">Emoucher : Chasser les mouches. Par extension, battre, comme si les coups étaient donnés pour chasser les mouches. [L]</note>
+	<l id="527">D'émoucher quelque argent de vous. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="528">Haut, Boniface, un peu plus doux, </l>
+	<l id="529">Quelqu'un vous fait-il déplaisir ?</l>
+</sp>
+<sp stage="aparte" who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+	<l id="530">Il la faut avoir à loisir. </l>
+<stage type="toward">À Constante.</stage>
+	<l id="531">Ha, mademoiselle Constante. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="532">Quel est l'ennui qui vous tourmente ? </l>
+	<l id="533">N'y saurait-on bientôt prévoir ? </l>
+	<l id="534">Il est grand seigneur, qui peut voir </l>
+	<l id="535">Monseigneur le Protonotaire. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="536">Il est empêché d'un affaire </l>
+	<l id="537">Qui est de bien grande importance, </l>
+	<l id="538">En quoi il a bonne espérance </l>
+	<l id="539">De parvenir à grand honneur. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="540">Et bien, bien, ce sera Monsieur, </l>
+	<l id="541">Il ne voudra plus regarder </l>
+	<l id="542" syll="3" part="i">Ses amis.</l>
+</sp>
+<sp stage="aparte" who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+	<l id="542" syll="5" part="f">Tant elle sait farder </l>
+	<l id="543">Et emmieller son langage ! </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="544">Bon Dieu, que vous êtes sauvage </l>
+	<l id="545" syll="4" part="i">Depuis un peu ! </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="545" syll="4" part="f">C'est que je pense </l>
+	<l id="546">À une bonne récompense </l>
+	<l id="547">Qu'on donne pour son bénéfice, </l>
+	<l id="548">Si quelqu'un veut faire un service </l>
+	<l id="549">De lui prêter deux cents écus. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="550">Ne lui en faudrait-il non plus ?</l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="551" syll="1" part="i">Non. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="551" syll="5" part="f">N'a-t-il point quelque amitié </l>
+	<l id="552">Dedans Paris, pour la moitié ? </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="553">Non du tout, oui bien pour cinquante. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="554">Ha, vraiment je suis très contente </l>
+	<l id="555">De lui prêter le demeurant, </l>
+	<l id="556">Du bon du coeur, en m'assurant. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="557">Mademoiselle, le plaisir </l>
+	<l id="558">Sera selon votre désir </l>
+	<l id="559">Honnêtement récompensé. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="560" syll="4" part="i">À son vouloir. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="560" syll="4" part="f">J'ai avancé </l>
+	<l id="561">Ma langue, sans son mandement. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="562">Vous le pouvez honnêtement : </l>
+	<l id="563">Car je suis si bien son amie, </l>
+	<l id="564">Que s'il me demandait la vie </l>
+	<l id="565">Je lui départirais mon âme, </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="566">Tant le bon vouloir d'une dame </l>
+	<l id="567">Peut aider l'ami au besoin.</l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="568">Boniface, j'ai plus de soin</l>
+	<l id="569">De l'avancement de son bien </l>
+	<l id="570">Et honneur, que non pas du mien, </l>
+	<l id="571">Encore que j'en soi reprise ;</l>
+	<l id="572">Mais je suis tellement éprise </l>
+	<l id="573">De son amour, que j'ai grand peur </l>
+	<l id="574">Que ce soit mon dernier malheur. </l>
+	<l id="575">Au pis aller, je suis heureuse </l>
+	<l id="576">Que cette étincelle amoureuse </l>
+	<l id="577">A touché sa perfection. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="578">Ce n'est qu'a bonne intention </l>
+	<l id="579">Mademoiselle, et le tourment </l>
+	<l id="580">Se finira heureusement. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="581">Je prie Dieu qu'il vous veuille ouïr. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="582">Et allez vous pourrez jouir, </l>
+	<l id="583" syll="4" part="i">Vous savez quoi. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="583" syll="4" part="f">Ha ! Boniface. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="584">Mademoiselle, votre grâce, </l>
+	<l id="585">Et votre parfaite beauté </l>
+	<l id="586">Seule vainquit sa liberté : </l>
+	<l id="587">Car plus il vit en ce martyre, </l>
+	<l id="588">Tant plus constamment il aspire </l>
+	<l id="589">À faire chose qui contente </l>
+	<l id="590">Le seul désir de sa Constante. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="591">Écoutez, je vous veux prier, </l>
+	<l id="592">À cause que le Trésorier </l>
+	<l id="593">S'apprête pour tantôt partir, </l>
+	<l id="594">D'en vouloir Monsieur avertir, </l>
+	<l id="595">Qu'il soit un peu plus diligent : </l>
+	<l id="596">Et cependant, voilà l'argent, </l>
+	<l id="597">Il m'en fera reconnaissance </l>
+	<l id="598" syll="4" part="i">Quand il viendra. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="598" syll="4" part="f">J'ai espérance </l>
+	<l id="599">Qu'avant qu'il soit une bonne heure </l>
+	<l id="600">Il sera dans votre demeure. </l>
+<stage type="aparte">À part.</stage>
+	<l id="601">Vive, vive l'invention </l>
+	<l id="602">Pour bien faire ma faction : </l>
+	<l id="603">Il en faut bien faire la croix </l>
+	<l id="604">En notre âtre : ils sont tous de poids,</l>
+	<l id="605">Je les ai eus tous pour le prix </l>
+	<l id="606">Que cette dame les a pris. </l>
+	<l id="607">Je reconnais bien celui-ci,</l>
+	<l id="608">Et ce double ducat aussi, </l>
+	<l id="609">Un noble, un angelot encor : </l>
+	<l id="610">C'était pour des bracelets d'or </l>
+	<l id="611">Que Monsieur lui donna un jour. </l>
+	<l id="612">Ce demeurant vient de l'amour </l>
+	<l id="613">Des bonnes gens de son quartier. </l>
+	<l id="614">A tous les diables le métier, </l>
+	<l id="615">Oui ne nourrit et entretient </l>
+	<l id="616">Le compagnon qui le maintient, </l>
+	<l id="617">Et ne fut qu'un peigne de buis. </l>
+</sp>
+<sp stage="aparte" who="CONSTANTE"><speaker>CONSTANTE, à part.</speaker>
+	<l id="618">Au moins si le seigneur Loys </l>
+	<l id="619">Me fait ce bien, dont je le prie, </l>
+	<l id="620">Ma bourse sera bien remplie </l>
+	<l id="621">De l'argent que j'ai déboursé. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Le Trésorier, Sulpice, Constante.</head><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="622">Croyez qu'un argent avancé </l>
+	<l id="623" syll="4" part="i">Vaut bien cela. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="623" syll="4" part="f">Si fait vraiment </l>
+	<l id="624">Et je m'ébahi fort comment </l>
+	<l id="625">Vous faites si honnête tour. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="626">Sire Sulpice, c'est l'amour </l>
+	<l id="627" syll="4" part="i">Que je lui porte. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="627" syll="4" part="f">Il le vaut bien. </l>
+	<l id="628">Et puis de ces gens l'entretien </l>
+	<l id="629">Sert de beaucoup aucune fois. </l>
+	<l id="630">Il me souvient qu'un jour j'étais </l>
+	<l id="631">En la court pour un mien affaire, </l>
+	<l id="632">Seulement un protonotaire </l>
+	<l id="633">Auquel j'avais fait du service </l>
+	<l id="634" syll="4" part="i">Fit tout mon cas. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="634" syll="4" part="f">Sire Sulpice, </l>
+	<l id="635">Comme vous dites, le maintien </l>
+	<l id="636">De gens de Cour, est notre bien. </l>
+	<l id="637">Je crains que nos fautes commises </l>
+	<l id="638">À la parfin ne soient reprises, </l>
+	<l id="639">Comme nous voyons la fortune </l>
+	<l id="640">Être plus souvent importune </l>
+	<l id="641">À gens qui sont en tel degré, </l>
+	<l id="642">Qui n'ont toujours le vent à gré : </l>
+	<l id="643">Il ne faudrait au mal extrême </l>
+	<l id="644">Que ce bon gentilhomme même </l>
+	<l id="645">Pour bien conduire mon affaire, </l>
+	<l id="646">S'il m'advenait quelque misère. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="647">Vous dites bien, il faut prévoir </l>
+	<l id="648">Au mal qui nous peut décevoir. </l>
+	<l id="649">C'est ainsi qu'il faut disposer, </l>
+	<l id="650">C'est ainsi qu'il faut aviser </l>
+	<l id="651">À un malheur qui se présente </l>
+	<l id="652">Pour brouiller toujours notre attente, </l>
+	<l id="653">Tant nature nous est cruelle. </l>
+	<l id="654">Mais n'est-ce pas Mademoiselle </l>
+	<l id="655">Que je vois venir droit à nous ?</l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="656">Mon dieu, monsieur, dépêchez-vous, </l>
+	<l id="657">Vous savez qu'il est déjà tard. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="658">Je n'attends plus qu'après Richard. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="659">Hélas mon Dieu ! La seule peur </l>
+	<l id="660">Qu'il ne vous advienne un malheur </l>
+	<l id="661">Me le fait dire, tous les champs </l>
+	<l id="662">Sont remplis de mauvaises gens : </l>
+	<l id="663">Surtout gardez vous bien du soir. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="664">Encore y fait il bon prévoir, </l>
+	<l id="665">Cela ne vient que de bon coeur. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="666">Si vous voyez le serviteur </l>
+	<l id="667">Du seigneur Loys, que Marie </l>
+	<l id="668" syll="5" part="i">L'amène après nous. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="668" syll="3" part="f">Je vous prie </l>
+	<l id="669">De tôt dépêcher votre affaire. </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+<sp stage="alone" who="MARIE"><speaker>MARIE, seule.</speaker>
+	<l id="670">L'homme de ce Protonotaire </l>
+	<l id="671">N'est pas des plus niais du monde : </l>
+	<l id="672">Quand il est céans, il me sonde, </l>
+	<l id="673">Et semble bien à l'ouïr dire </l>
+	<l id="674">Qu'il ait intention de rire </l>
+	<l id="675">Tout ainsi comme fait son maître : </l>
+	<l id="676">Et crois que s'il se sentait être </l>
+	<l id="677">Si peu que rien favorisé, </l>
+	<l id="678">Il serait bien assez rusé </l>
+	<l id="679">D'essayer s'il pourrait bien faire </l>
+	<l id="680">Ce que fait le Protonotaire. </l>
+	<l id="681">Je n'userai plus de rudesse </l>
+	<l id="682">En son endroit, car ma maîtresse </l>
+	<l id="683">Dit qu'il ne faut point refuser </l>
+	<l id="684">Ce qui ne se peut onc user. </l>
+	<l id="685">Aussi est-ce une grand' folie </l>
+	<l id="686">Que d'engendrer mélancolie. </l>
+	<l id="687">Nous n'aurons pas toujours le temps </l>
+	<l id="688">Pour rendre nos désirs contents. </l>
+	<l id="689">Il faut donc prendre le loisir, </l>
+	<l id="690">Puisque nous voyons le plaisir </l>
+	<l id="691">S'offrir d'une gaieté de coeur. </l>
+	<l id="692">Et pourquoi non ? Le serviteur </l>
+	<l id="693">N'aura-t-il aussi grand' puissance</l>
+	<l id="694">De me donner la jouissance,</l>
+	<l id="695">Et rendre l'appétit content </l>
+	<l id="696">De ce point que l'on prise tant, </l>
+	<l id="697">Comme Monsieur à sa Constante ?</l>
+	<l id="698">Je crois que le mal qui tourmente </l>
+	<l id="699">L'esprit et mon repos de nuit </l>
+	<l id="700">Se guérit par même déduit : </l>
+	<l id="701">Autant peut le lait que le prêtre, </l>
+	<l id="702">Et le serviteur que le maître, </l>
+	<l id="703">Le pauvre, comme un de grand' race. </l>
+	<l id="704">Mais je ne vois point Boniface </l>
+	<l id="705">Venir ainsi qu'il a promis. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="act" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head>
+<sp stage="alone" who="LOYS"><speaker>LOYS, seul.</speaker>
+	<l id="706">Aujourd'hui l'on n'a plus d'amis </l>
+	<l id="707">Si n'est la bourse et les écus ; </l>
+	<l id="708">Aujourd'hui l'on ne trouve plus </l>
+	<l id="709">Qui veuille tenir la querelle </l>
+	<l id="710">De quelque honnête damoiselle : </l>
+	<l id="711">Le gain fait tout, le gain emporte </l>
+	<l id="712">Les remparts d'une ville forte ; </l>
+	<l id="713">Le gain fait cocus les maris ; </l>
+	<l id="714">Le gain est le dieu de Paris ; </l>
+	<l id="715">C'est le dieu des inventions </l>
+	<l id="716">Et la fin des intentions. </l>
+	<l id="717">Le gain fait courir les marchands </l>
+	<l id="718">Aux périls et dangers des champs, </l>
+	<l id="719">Aux périls des vents et tempêtes </l>
+	<l id="720">Qui plus souvent dessus leurs têtes. </l>
+	<l id="721">Tombants d'épouvantable effort, </l>
+	<l id="722">Leur mettent dans les dents la mort, </l>
+	<l id="723">Voire au plus beau de leur jeunesse. </l>
+	<l id="724">Encore qu'il soit tel, si est-ce </l>
+	<l id="725">Que jamais il n'eut la puissance </l>
+	<l id="726">De faire fléchir la constance </l>
+	<l id="727">De ma Cruelle. De son coeur </l>
+	<l id="728">Amour en fut le seul vainqueur : </l>
+	<l id="729">Tant seulement d'une beauté </l>
+	<l id="730">Son coeur se sentit incité ; </l>
+	<l id="731">Il repose aussi en un lieu </l>
+	<l id="732">Digne du triomphe d'un dieu. </l>
+	<l id="733">Qu'un dieu tout seul aussi se vante </l>
+	<l id="734">D'avoir fait broncher ma Constante, </l>
+	<l id="735">Elle seule, dessous le Ciel, </l>
+	<l id="736">Qui mérite avoir l'honneur tel. </l>
+	<l id="737">L'amour qui le commun enflamme </l>
+	<l id="738">N'est que neige auprès de ma flamme, </l>
+	<l id="739">D'autant que sa divinité </l>
+	<l id="740">Surpasse toute humanité </l>
+	<l id="741">Au brasier qu'il m'a fait sentir. </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Richard, Loys.</head><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="742">Monsieur, il est prêt à partir, </l>
+	<l id="743">Et ne reste plus que quittance </l>
+	<l id="744">Pour votre dette et pour l'avance : </l>
+	<l id="745">Car l'argent est déjà tout prêt. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="746">Combien prend-il pour l'intérêt ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="747">Vingt-cinq écus sur le paiement, </l>
+	<l id="748">Et autant sur l'avancement. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="749">C'est trop vraiment de la moitié. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="750">Encore si n'était l'amitié </l>
+	<l id="751">D'un sien voisin, il ne pourrait </l>
+	<l id="752" syll="4" part="i">Vous en bailler. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="752" syll="4" part="f">Et ce serait </l>
+	<l id="753">Un tour duquel la repentance </l>
+	<l id="754">Suivrait de bien près la vengeance. </l>
+	<l id="755">Retiendrait-il ainsi mon bien ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="756">Monsieur, encore n'y prend il rien, </l>
+	<l id="757">C'est un marchand, comme j'ai dit. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="758">Pardieu il a pauvre crédit </l>
+	<l id="759" syll="4" part="i">À ce prêteur. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="759" syll="4" part="f">Voilà que c'est : </l>
+	<l id="760">Les amis sont à intérêt, </l>
+	<l id="761">Encore se faut-il hâter. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="762">Or puisqu'il en faut échapper </l>
+	<l id="763">Voilà l'autre quittance encor'. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="764">C'est mon, mais de la chaîne d'or </l>
+	<l id="765">Que demande la damoiselle ? </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="766">Je n'en sache point d'assez belle : </l>
+	<l id="767">Délivre lui cinquante écus </l>
+	<l id="768">Pour en acheter une, ou plus, </l>
+	<l id="769">S'il est métier, la récompense </l>
+	<l id="770">Que je prétends vaut la dépence : </l>
+	<l id="771">Au demeurant hâte le pas.</l>
+<stage type="exit">Il sort.</stage>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="772">Les escadrons et les combats </l>
+	<l id="773">N'eurent oncque si grand' puissance </l>
+	<l id="774">Que Monsieur n'y fit résistance : </l>
+	<l id="775">Et maintenant une beauté </l>
+	<l id="776">Triomphe de sa liberté. </l>
+	<l id="777">Encore vraiment la Damoiselle, </l>
+	<l id="778">Quand tout est dit, n'est pas si belle : </l>
+	<l id="779">Toutefois je ne la déprise : </l>
+	<l id="780">Car on dit que la marchandise </l>
+	<l id="781">Qui plaît est à demi vendue. </l>
+	<l id="782">Je crains que ma voix entendue </l>
+	<l id="783">Ne soit entrée en la cervelle </l>
+	<l id="784">De cette rapporte-nouvelle, </l>
+	<l id="785">Qui m'attend là devant la porte : </l>
+	<l id="786">Car vraiment elle est assez sotte </l>
+	<l id="787">Pour le rapporte à Constante. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Marie, Richard.</head><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="788">Voici Richard qui se tourmente </l>
+	<l id="789">De quelque malheur advenu. </l>
+	<l id="790">Son esprit est bien détenu </l>
+	<l id="791">À voir sa manière de faire. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="792">Il faut penser à mon affaire. </l>
+	<l id="793">Puisque j'approche la maison. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="794">Venez, Richard, c'est la raison </l>
+	<l id="795">Que si longtemps on vous attende. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="796">Et bien, quoi, petite friande ? </l>
+	<l id="797">Vous serez donc toujours fâcheuse ?</l>
+	<l id="798">Vous ferez donc la rigoureuse </l>
+	<l id="799">Au pauvre Richard langoureux ? </l>
+	<l id="800">Mon Dieu, que je serais heureux, </l>
+	<l id="801">Si je pouvais à mon loisir </l>
+	<l id="802">Avoir de ce sein le plaisir : </l>
+<note type="L">Ivoirine : Qui est d'ivoire ou qui est semblable à l'ivoire [L]</note>
+	<l id="803">Ces deux ivoirines boulettes, </l>
+	<l id="804">Ces deux cerises rondelettes. </l>
+	<l id="805">Ce sera bien quand vous voudrez. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="806">Lâchez vos chiens, vous les prendrez, </l>
+<note type="L">Nonpareil : Qui est sans pareil. [L]</note>
+	<l id="807">Car vous êtes le nonpareil. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="808">Si vous êtes de mon conseil </l>
+<note type="L">Besognette : On lit besongnette. Probablement diminutif de besongne, petit travail, tâche.</note>
+	<l id="809">Nous ferons bien nos besognettes. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="810">Et mon, Dieu, Richard, que vous êtes </l>
+	<l id="811">Ores éveillé pour votre âge ! </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="812">Ce n'est sinon que le courage </l>
+	<l id="813">Qui s'augmente de jour en jour. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="814">Vous voulez donc faire l'amour ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="815">Ma foi, Richard se délibère </l>
+	<l id="816">Avoir toujours pour l'ordinaire </l>
+	<l id="817">Quelque chose qui soit de mise. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="818">Voilà une belle entreprise. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="819">Il m'y faut or' avant prévoir. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="820">Comment ? Il semblerait à voir </l>
+	<l id="821">Que vous ne sussiez troubler l'eau. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="822">L'intention est au cerveau, </l>
+	<l id="823">Marie, et puis il ne faut pas </l>
+	<l id="824">Estimer le moine à son pas </l>
+	<l id="825">Quand il marche dans le couvent. </l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="826">Ananda vous êtes savant, </l>
+	<l id="827">Vous entendez bien cette affaire. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="828">Je suis niais, laissez moi faire, </l>
+	<l id="829">Aussi bien n'engendrai-je point. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="830">Richard, Richard, j'entends le point. </l>
+	<l id="831">Vous voulez rire, c'est cela. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="832">Ma foi, me voici, me voilà, </l>
+	<l id="833">Je ne tiens jamais mon courroux, </l>
+	<l id="834">Je suis humain, courtois et doux, </l>
+	<l id="835">Prêt à vous faire tout service, </l>
+	<l id="836">À celle fin que je jouisse. </l>
+	<l id="837">Vous entendez le demeurant. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="838">Sus, sus, Richard : marchez avant : </l>
+	<l id="839">Monsieur le Trésorier attend </l>
+	<l id="840">Pour vous donner argent comptant. </l>
+	<l id="841">Il est chez le sire Sulpice. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="842">Prendre argent est un bon office, </l>
+	<l id="843">Et mauvais d'être fournisseur. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+<note type="L">Gaudisseur : Celui, celle qui aime à se gaudir. Terme familier et qui commence à vieillir. Se réjouir. [L]</note>
+	<l id="844">Vous êtes un beau gaudisseur, </l>
+	<l id="845">Ananda je m'y recommande. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="846">Adieu la petite friande. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="847">Il veut ressembler Boniface. </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Constante, Marie.</head><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="848">Viens çà, méchante, quand sera-ce </l>
+	<l id="849">Que feras ce qu'il appartient ? </l>
+	<l id="850" syll="1" part="i">Dis. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="850" syll="7" part="f">Ce n'est pas à moi qu'il tient. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="851">Que jases-tu en cette place ? </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="852">Que voulez-vous si Boniface </l>
+	<l id="853">Ne se veut d'aventure hâter ? </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="854">Qu'as-tu à faire d'arrêter </l>
+	<l id="855">Le valet du seigneur Loys, </l>
+<note typoe="L">Babiller : Parler beaucoup, facilement, et surtout pour le seul plaisir de parler. [L]</note>
+<note type="L">Huis : Terme vieilli qui signifie porte. [L]</note>
+	<l id="856">À babiller devant cet huis </l>
+	<l id="857">Avec lui ? Vous sentez le coeur : </l>
+	<l id="858">Encore avec un serviteur. </l>
+	<l id="859">Saint Jean, le bon ami de Dieu, </l>
+	<l id="860">Vous irez en un autre lieu </l>
+	<l id="861">Faire votre belle menée. </l>
+<note type="L">Affeté : Qui a de l'afféterie ; qui marque de l'afféterie. Recherche mignarde dans les manières ou dans le langage. [L]</note>
+	<l id="862">Comment, madame l'affétée </l>
+	<l id="863">Est-ce l'état que je vous montre ?</l>
+	<l id="864">Croyez que si je vous rencontre, </l>
+	<l id="865">Vous maudirez à jamais l'heure </l>
+	<l id="866">D'avoir entré en mon demeure. </l>
+	<l id="867">Marchez, marchez, entrez dedans. </l>
+<stage type="alone">Seule.</stage>
+	<l id="868">Voilà, c'est l'amour de ce temps ; </l>
+	<l id="869">Aujourd'hui l'on ne voit plus homme </l>
+	<l id="870">Garder la fidélité, comme </l>
+	<l id="871">Les amoureux du temps passé. </l>
+<note type="L">Déchassé : parti.</note>
+	<l id="872">Le ferme amour est déchassé. </l>
+<note type="L">Feintise : Habitude de la feinte. Synonyme de feinte, avec cette seule nuance que feintise vieillit et qu'il a un air archaïque. [L]</note>
+	<l id="873">Et en son lieu une feintise, </l>
+	<l id="874">Le seul masque, à sa place prise. </l>
+	<l id="875">Nous cependant, mal avisées, </l>
+	<l id="876">Sommes plus souvent abusées </l>
+	<l id="877">Par ceux qui ne font que chercher </l>
+	<l id="878">Le moyen de nous débaucher. </l>
+	<l id="879">Et voilà comment aujourd'hui </l>
+	<l id="880">La fin d'amour n'est rien qu'ennui : </l>
+	<l id="881">Car des hommes l'outrecuidance </l>
+	<l id="882">Est cause de cette inconstance </l>
+	<l id="883">Eux qui tireraient d'une femme </l>
+	<l id="884">Les biens, l'honneur, le corps et l'âme : </l>
+	<l id="885">Et puis quand ils ont fait, à Dieu, </l>
+	<l id="886">Tout autant en un autre lieu, </l>
+	<l id="887">Ainsi que fortune leur donne : </l>
+	<l id="888">Mais en vain je me passionne. </l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Le Protonotaire, Boniface, Constante.</head><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="889">Ma Constante se plaint de moi, </l>
+	<l id="890">Et m'accuse, comme je crois, </l>
+	<l id="891">De ce que je demeure tant </l>
+	<l id="892" syll="3" part="i">À venir. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="892" syll="5" part="f">Ah ! Trop inconstant ! </l>
+	<l id="893">Et moi trop facile à le croire ! </l>
+	<l id="894">Je pensais le Protonotaire </l>
+	<l id="895">Être digne d'un plus grand heur : </l>
+	<l id="896">Mais je crois que son serviteur </l>
+	<l id="897">A pris sur lui plus de puissance </l>
+	<l id="898">Qu'il ne fit onc d'obéissance. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="899">Ha Boniface ! Maintenant </l>
+	<l id="900">J'aperçois que tout ce tourment </l>
+	<l id="901">Ne lui vient sinon que de moi. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="902">L'amour donc n'aura plus de loi ? </l>
+	<l id="903">On n'en fera donc plus de compte ? </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="904">L'impatience me surmonte, </l>
+	<l id="905">Je n'en saurais plus endurer. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="906">Encore qui me fait espérer, </l>
+	<l id="907">C'est la mort après longue attente. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="908">Las ! Que pensez-vous, ma Constante, </l>
+	<l id="909">En vous menaçant du trépas ? </l>
+</sp>
+<sp stage="aparte" who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+	<l id="910">Le voilà pris, il a son cas, </l>
+	<l id="911">La dame le tient à son aise. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="912">Hélas ! Monsieur ne vous déplaise, </l>
+	<l id="913">Je vous pensais être plus loin. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="914">Comment, mon coeur ? Comment, mon soin ? </l>
+	<l id="915">Penseriez-vous bien qu'en amour </l>
+	<l id="916">Je voulusse faire un tel tour ? </l>
+	<l id="917">Vous n'avez expérimenté </l>
+	<l id="918">Quel vouloir à ma fermeté, </l>
+	<l id="919">Encore vous n'avez assurance </l>
+	<l id="920">Quelle est en amour ma constance. </l>
+</sp>
+<sp who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+	<l id="921">Il en a tout au long du bras. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+<note type="L">Soulas : Terme vieilli. Soulagement, consolation, joie, plaisir. [L]</note>
+	<l id="922">Pardonnez moi, mon seul soulas, </l>
+	<l id="923">L'amour est toujours soupçonneux. </l>
+</sp>
+<sp stage="aparte" who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+	<l id="924">C'est l'ordinaire entre amoureux, </l>
+	<l id="925">Qui fait que la foi se renforce : </l>
+<note type="L">Amorce : Fig. Tout ce qui fait mordre à, tout ce qui attire. [L]</note>
+	<l id="926">Car c'est d'amour subtile amorce </l>
+	<l id="927">Que les débats de deux amants. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="928">La mort puisse mes jeunes ans </l>
+	<l id="929">Plutôt retrancher en ma fleur, </l>
+	<l id="930">Que je sois jamais serviteur </l>
+	<l id="931">D'une autre dame que de vous. </l>
+	<l id="932">Jamais l'amour ne me soit doux, </l>
+	<l id="933">Si par mon infidélité </l>
+	<l id="934">Je sers à une autre beauté. </l>
+	<l id="935">Plutôt me laisse tout ami, </l>
+	<l id="936">Et plutôt me soit ennemi </l>
+	<l id="937">L'aspect de mon astre fatal. </l>
+</sp>
+<sp stage="aparte" who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+	<l id="938">Il est au plus fort de son mal. </l>
+	<l id="939">Il n'y a rien dessous les cieux </l>
+	<l id="940">Ou pire, ou plus audacieux.</l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="941">Aussi vous savez, Monseigneur, </l>
+	<l id="942">Que mon corps et tout mon honneur </l>
+	<l id="943">Vous fut abandonné par moi</l>
+	<l id="944">Sur l'assurance de la foi, </l>
+	<l id="945">Comme seul digne d'être aimé. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="946">Aussi toujours ai-je estimé </l>
+	<l id="947">Mon heur favorisé des dieux, </l>
+	<l id="948">Comme celui seul sous les cieux, </l>
+	<l id="949">Qui est heureux en ses amours. </l>
+</sp>
+<sp stage="aparte" who="BONIFACE"><speaker>BONIFACE, à part.</speaker>
+	<l id="950">C'est la coutume, on voit toujours </l>
+	<l id="951">Ces jeunes gens à marier </l>
+<note type="L">Fol : fou.</note>
+	<l id="952" syll="4" part="i">Devenir fols. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="952" syll="4" part="f">Le Trésorier.</l>
+	<l id="953">A-t-il déjà gagné le haut ? </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="954">Non pas encore, mais il faut </l>
+	<l id="955">Entrer céans, et vous cacher : </l>
+	<l id="956">Encor faut-il se dépêcher, </l>
+	<l id="957" syll="5" part="i">Car il n'est pas loin. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="957" syll="3" part="f">Mais comment ? </l>
+	<l id="958">S'il demeurait plus longuement ? </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="959">Il est sur le point de partir. </l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Richard, Constante.</head>
+<sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="960">Par le corps, j'en veux avertir </l>
+	<l id="961">Mon maître, il le saura : comment ! </l>
+	<l id="962">Est-ce là donc le beau serment </l>
+	<l id="963">De loyauté ? Je m'en doutais, </l>
+	<l id="964">J'en suis certain à cette fois : </l>
+	<l id="965">Car de mes deux yeux je l'ai vu. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="966">Et bien, Richard, avez-vous eu </l>
+	<l id="967" syll="4" part="i">Votre paiement ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="967" syll="4" part="f">Une moitié. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="968">Mon don n'est il point oublié ?</l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="969">Voici l'argent pour en avoir, </l>
+	<l id="970">Si vous voulez le recevoir. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="971" syll="3" part="i">Pourquoi non ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="971" syll="5" part="f">Ouvrez votre main. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="972">Ha, Richard, ce serait en vain, </l>
+	<l id="973">Je vous prie, ne me trompez plus. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="974">Non, non, voilà cinquante écus </l>
+	<l id="975">Pour avoir une chaîne d'or, </l>
+	<l id="976" syll="6" part="i">Me pensez-vous moqueur ? </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="976" syll="2" part="f">Encore </l>
+	<l id="977">Vous avez de moi souvenance ; </l>
+	<l id="978">Voilà pour votre récompense. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="979">Il m'a commandé de savoir </l>
+	<l id="980">Quand il pourrait vous venir voir. </l>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="981">Non pas pour aujourd'hui, demain. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="982">Touchez en donc dedans ma main. </l>
+<stage type="exit">Elle sort.</stage>
+</sp><sp who="CONSTANTE"><speaker>CONSTANTE.</speaker>
+	<l id="983">Je le veux, je me recommande. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+<note type="L">Par_le_corps_bieu : juron.</note>
+	<l id="984">Par_le_corps_bieu, elle ne demande </l>
+	<l id="985">Que les écus : car quant au reste, </l>
+	<l id="986">Elle a son cas ; mais je proteste </l>
+	<l id="987">D'en avoir bientôt la vengeance, </l>
+	<l id="988">Et du paiement et de l'avance ; </l>
+	<l id="989">Et des cinquante écus encore, </l>
+	<l id="990">Des anneaux et des chaînes d'or </l>
+	<l id="991">Dont Monsieur lui a fait présent ; </l>
+	<l id="992">Elle n'a rien trop chaud ne pesant. </l>
+	<l id="993">Et voilà, la coutume est telle : </l>
+	<l id="994">Car envers une damoiselle </l>
+	<l id="995">Il faut toujours l'argent en main : </l>
+	<l id="996">Et puis on sait bien que son gain </l>
+	<l id="997">Est semblable à l'oisellerie : </l>
+	<l id="998">L'oiseleur en quelque prairie </l>
+	<l id="999">Vient épandre ses grains semés, </l>
+	<l id="1000">Où les oiseaux accoutumés </l>
+	<l id="1001">Ainsi se laissent amorcer : </l>
+	<l id="1002">(Car il faut un peu avancer </l>
+	<l id="1003">Pour en avoir du grain après) </l>
+<note type="L">Rets : Filet pour prendre du poisson, du gibier. [L]</note>
+	<l id="1004">Et lorsqu'ils sont pris dans les rets </l>
+	<l id="1005">Ils paient au long la dépense. </l>
+	<l id="1006">Dont l'oiseleur a fait l'avance. </l>
+<note type="L">Bordeau : Vieux pour bordel ; lieu de prostitution.</note>
+	<l id="1007">Ainsi le bordeau, c'est le pré, </l>
+	<l id="1008">Là ou l'amoureux est entré </l>
+<note type="L">Maquerelle : Terme qui ne se dit pas en bonne compagnie. Celui, celle qui fait métier de débaucher et de prostituer des femmes ou des filles. [L]</note>
+	<l id="1009">Comme un oiseau : la maquerelle </l>
+	<l id="1010">Est l'oiseleur, qui renouvelle </l>
+	<l id="1011">Souvent l'appas, et met en main </l>
+	<l id="1012">Au lieu d'amorce, une putain : </l>
+	<l id="1013">Les caresses, les mignardises, </l>
+	<l id="1014">Les bonjours et les gaillardises, </l>
+<note type="L">Deviser : Échanger avec quelqu'un de menus propos. [L] Ici substantivé.</note>
+	<l id="1015">Le doux accueil, le deviser, </l>
+	<l id="1016">Sont les moyens d'apprivoiser. </l>
+	<l id="1017">Et en cette façon, mon maître </l>
+	<l id="1018">Est aux rets : mais si je puis être </l>
+	<l id="1019">Écouté, il aura vengeance </l>
+	<l id="1020">De toute cette grand' dépense. </l>
+	<l id="1021">Encore ce beau Trésorier, </l>
+	<l id="1022">Et ce cocu, se fait prier, </l>
+	<l id="1023">Où il est le plus diligent : </l>
+	<l id="1024">Et fait accroire que l'argent </l>
+	<l id="1025">Qu'il m'a baillé n'est pas à lui. </l>
+	<l id="1026">Je lui ferai dire aujourd'hui </l>
+	<l id="1027">Celui qui a mangé le lard, </l>
+	<l id="1028">Si je le puis tenir à part. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="4"><head>ACTE IV</head>
+<div2 type="scene" n="1"><head>SCÈNE I. Loys, Richard.</head><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1029">Amour premier de notre vie </l>
+<note type="L">Boulrellerie : Le métier, le commerce du bourrelier : ouvrier qui fait et vend des harnais. [L]</note>
+	<l id="1030">Inventa la bourellerie,</l>
+	<l id="1031">Et cruauté, comme je crois : </l>
+	<l id="1032">Car assez en moi j'aperçois </l>
+	<l id="1033">Combien sa rage est redoutable, </l>
+	<l id="1034">Moi qui suis le plus misérable </l>
+	<l id="1035">Qui soit en ce monde vivant. </l>
+	<l id="1036">Je suis ébranlé comme au vent, </l>
+<note type="L">Époindre : Terme vieilli. Faire sentir un aiguillon, un désir. [L]</note>
+	<l id="1037">Je suis époind et tourmenté, </l>
+	<l id="1038">Demi-mort, rompu, transporté, </l>
+	<l id="1039">Tourné dans la roue d'amour : </l>
+	<l id="1040">En mon esprit ne fait séjour </l>
+	<l id="1041">Aucun repos, je suis jà las, </l>
+	<l id="1042">Là je suis où je ne suis pas, </l>
+	<l id="1043">Mon esprit n'est là où je suis, </l>
+	<l id="1044">Je veux cela que je ne puis ; </l>
+	<l id="1045">Vivant et mourant je demeure ; </l>
+	<l id="1046">Ce qui me plaît en la même heure </l>
+	<l id="1047">Me tourne en mécontentement, </l>
+	<l id="1048">Tant déjà l'amoureux tourment </l>
+	<l id="1049">S'est acquis sur moi de puissance : </l>
+	<l id="1050">Il me met en route, il m'élance, </l>
+	<l id="1051">Il désire, il ravit, il tient, </l>
+	<l id="1052">Ce qu'il me donne, il le retient : </l>
+	<l id="1053">Il me fait à l'instant défaire </l>
+	<l id="1054">Ce que lui même m'a fait faire, </l>
+	<l id="1055">Et l'oeuvre faite à sa poursuite </l>
+	<l id="1056">Est tout incontinent détruite </l>
+	<l id="1057">Et encore avec ces malheurs, </l>
+	<l id="1058">Ce seul point ci fait que je meurs. </l>
+	<l id="1059" syll="2" part="i">Richard. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1059" syll="2" part="m">Monsieur. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1059" syll="4" part="f">Ce peut-il faire </l>
+	<l id="1060">Que ce gentil Protonotaire </l>
+	<l id="1061">Soit jouissant de mon mérite ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1062">Je vous ai l'affaire décrite, </l>
+	<l id="1063">Hors mis le saut tant seulement. </l>
+	<l id="1064" syll="6" part="i">N'est-ce donc pas assez ? </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1064" syll="3" part="f">Comment ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1065">Demandez vous comment j'ai su </l>
+	<l id="1066">Ce beau chef-d'oeuvre ? Je l'ai vu </l>
+	<l id="1067">De mes deux yeux : et d'avantage, </l>
+	<l id="1068">J'ai entendu tout leur langage, </l>
+	<l id="1069">Et la conduite de l'affaire. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1070">Mais qui est ce Protonotaire ? </l>
+	<l id="1071">Le pourras-tu bien reconnaître ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1072">Ha, je vois bien que c'est mon maître </l>
+	<l id="1073">Ne croira Dieu que sur bon gage. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1074">Je perds le sens et le courage </l>
+	<l id="1075">Tant ce dur rapport me tourmente. </l>
+	<l id="1076">Qui eut pensé que ma Constante </l>
+	<l id="1077">M'eut voulu faillir en amour, </l>
+	<l id="1078">Et me faire un si lâche tour ? </l>
+	<l id="1079">Encore ne le puis-je croire. </l>
+	<l id="1080">As-tu vu ce Protonotaire </l>
+	<l id="1081" syll="4" part="i">Entrer dedans ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1081" syll="4" part="f">Oui, je l'ai vu. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1082">As-tu vu qu'elle la reçu ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1083">J'ai vu même qu'elle le baisait, </l>
+	<l id="1084">Et, le flattant, le courtisait. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1085">Tout cela n'est que courtoisie ; </l>
+	<l id="1086">Je ne prends point de fantaisie </l>
+	<l id="1087">Pour un baiser : car maintenant </l>
+	<l id="1088">Cela se fait honnêtement. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1089">Mais quand avecque ce baiser </l>
+	<l id="1090">On ajoute le deviser, </l>
+	<l id="1091">Qui montre assez l'affection </l>
+	<l id="1092">De l'amoureuse passion, </l>
+	<l id="1093">Je crois qu'il ne faut plus de doute. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1094">Est-ce ainsi donc qu'elle me redoute ? </l>
+	<l id="1095">Serai-je donc si peu prisé ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1096">Elle vous a dévalisé.</l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1097">Encore ne le crois-je point. </l>
+	<l id="1098">Raconte moi de point en point </l>
+	<l id="1099">Comment le tout c'est démené. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1100">J'étais en un lieu détourné, </l>
+	<l id="1101">Ou j'ai entendu tout l'affaire. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1102">Je suis donc contraint de le croire : </l>
+	<l id="1103">Tu ne voudrais être menteur. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1104">Je n'en suis que le serviteur, </l>
+	<l id="1105">Et pour le devoir de service </l>
+	<l id="1106">Je fais au moins mal mon office </l>
+	<l id="1107">Qu'il m'est possible. Au demeurant </l>
+	<l id="1108">Toujours véritable, espérant </l>
+	<l id="1109">Faire toujours de mieux en mieux. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1110">L'eau, la terre, l'air et les cieux, </l>
+	<l id="1111">Et mille autres fureurs éprises </l>
+	<l id="1112">Contrarient mes entreprises. </l>
+	<l id="1113">Mais je veux montrer combien peut </l>
+	<l id="1114">Mon vie depuis qu'elle s'émeut. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1115">Celui qui voudra s'empêcher, </l>
+	<l id="1116">Qu'il entreprenne être nocher. </l>
+	<l id="1117">Pour dessus la grand' mer conduire </l>
+	<l id="1118">Par son conseil une navire </l>
+	<l id="1119">Et une femme : car au monde, </l>
+	<l id="1120">Il n'y a rien qui plus abonde </l>
+	<l id="1121">En toutes affaires nouvelles </l>
+	<l id="1122">Que les nefs et les damoiselles. </l>
+	<l id="1123">Et pourtant si mon maître est sage, </l>
+	<l id="1124">Qu'il ne s'en fâche davantage. </l>
+	<l id="1125">Puis j'ai entendu bien souvent, </l>
+	<l id="1126">Que d'une femme le devant,</l>
+	<l id="1127">Ressemble à cette lampe ardente, </l>
+	<l id="1128">Qui est dans l'Église pendante, </l>
+	<l id="1129">À fin d'allumer les chandelles </l>
+	<l id="1130">De toutes les offrandes nouvelles : </l>
+	<l id="1131">Elle en allume infinité </l>
+	<l id="1132">Sans rien perdre de sa clarté : </l>
+	<l id="1133">Aussi la femme a beau changer </l>
+	<l id="1134">Un familier à l'étranger, </l>
+	<l id="1135">L'étranger au premier venu, </l>
+	<l id="1136">Toujours son cas est maintenu </l>
+	<l id="1137">En son entier, si d'aventure </l>
+	<l id="1138">Elle n'y mêle quelque ordure. </l>
+	<l id="1139">Et si dit-on communément, </l>
+	<l id="1140">Qu'après le doux ébattement </l>
+	<l id="1141">Du jeu d'amour, il n'y perd plus </l>
+	<l id="1142">Le tablier rabaissé dessus. </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Le Trésorier, Sulpice.</head><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1143">Sire Sulpice, j'ai vouloir </l>
+	<l id="1144">De vous le faire apercevoir. </l>
+</sp>
+<sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1145">Vous me faites par trop d'honneur. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1146">Vous trouverez un serviteur </l>
+	<l id="1147">Et un ami en mon endroit. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1148">Non, non, Monsieur, quand il faudrait </l>
+	<l id="1149">Montrer la bonne affection, </l>
+	<l id="1150">Vous sauriez quelle intention </l>
+	<l id="1151">J'ai de vous faire du service. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1152">Je le sais bien, sire Sulpice, </l>
+	<l id="1153">Ce n'est d'aujourd'hui seulement : </l>
+	<l id="1154">Et je vous promets le serment, </l>
+	<l id="1155">Que tant que Dieu me donne vie </l>
+	<l id="1156">J'aurai toujours pareille envie : </l>
+	<l id="1157">Je vous connais digne d'aimer. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1158">Autant devez vous estimer </l>
+	<l id="1159" syll="3" part="i">De ma part. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Loys, Richard, Thomas, Le Trésorier, Sulpice.</head>
+<sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1159" syll="5" part="f">Çà, çà, tous en armes. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1160">Ils ont affaire à des gendarmes, </l>
+	<l id="1161">Ils le connaîtront par effet. </l>
+</sp><sp who="THOMAS"><speaker>THOMAS.</speaker>
+	<l id="1162">Monsieur, ce ne serait mal fait </l>
+	<l id="1163">De prendre en main quelque rondelle. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1164">Non, non, je n'ai que faire d'elle, </l>
+	<l id="1165">Elle pense donc que je prise </l>
+	<l id="1166">Davantage sa marchandise </l>
+	<l id="1167">Que mon honneur : je ne suis plus </l>
+	<l id="1168">De ceux qui donnent des écus</l>
+	<l id="1169">Pour m' entretenir en sa grâce : </l>
+	<l id="1170">Je suis d'une trop noble race. </l>
+</sp><sp who="THOMAS"><speaker>THOMAS.</speaker>
+	<l id="1171">Je veux faire provision </l>
+<note type="L">Morion : Ancienne armure de tête plus légère que le casque. [L]</note>
+	<l id="1172">Maintenant d'un bon morion </l>
+	<l id="1173">Pour couvrir le haut de ma tête. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1174">Me penserait elle tant bête </l>
+	<l id="1175">Que voulusse endurer tel sort ?</l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1176">Sire Sulpice, quel effort ! </l>
+	<l id="1177">Que veut dire cette entreprise ? </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+<note type="L">Noise : Discorde accompagnée de bruit. [L]</note>
+	<l id="1178">Possible quelque noise éprise </l>
+<note type="L">Soudard : Terme familier. Homme qui a longtemps servi à la guerre et qui en a les habitudes ; il se prend en mauvaise part, soit par moquerie, soit pour exprimer la grossièreté ou la barbarie. [L]</note>
+	<l id="1179">Entre eux : car toujours ces soudards</l>
+	<l id="1180">Ont querelles en toutes parts. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1181" syll="4" part="i">Entrons dedans.</l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1181" syll="4" part="f">Fermez votre huis. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1182">Je connais le seigneur Loys, </l>
+	<l id="1183">Je crois qu'il ne me cherche pas. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1184">Monsieur, monsieur, hâtons le pas, </l>
+	<l id="1185">Le Trésorier est à la porte. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1186">Çà, çà, faites moi bonne escorte ; </l>
+	<l id="1187">Qu'on me lui fende les naseaux. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+<note type="L">Bésasseau : Petit de la bécasse ; oiseau. Fig. et populairement. C'est une bécasse, se dit d'une femme sans esprit. [L]</note>
+	<l id="1188">Je veux comme des bécasseaux </l>
+	<l id="1189">Enfiler cette Trésorière, </l>
+	<l id="1190">Le Trésorier, la chambrière, </l>
+	<l id="1191">Pour marque qu'une telle injure </l>
+	<l id="1192" syll="4" part="i">N'est impunie. </l>
+</sp><sp who="THOMAS"><speaker>THOMAS.</speaker>
+	<l id="1192" syll="4" part="f">Et moi je jure </l>
+	<l id="1193">Que le premier par moi trouvé </l>
+	<l id="1194">Demeurera sur le pavé, </l>
+	<l id="1195">Protonotaire et Boniface. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1196">Sire Sulpice, il nous menace. </l>
+	<l id="1197">Hélas, mon dieu ! Je suis perdu. </l>
+</sp><sp who="THOMAS"><speaker>THOMAS.</speaker>
+	<l id="1198">Le Trésorier m'a entendu, </l>
+	<l id="1199">Il heurte pour entrer dedans. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1200">Ils sont armes jusques aux dents, </l>
+	<l id="1201">Et si chacun son bâton porte. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1202">Ne veut-on point ouvrir la porte ? </l>
+	<l id="1203">Me laisserez vous massacrer ? </l>
+</sp><sp who="THOMAS"><speaker>THOMAS.</speaker>
+	<l id="1204">Il est en grand peine d'entrer, </l>
+<note type="L">Armet : Armure de tête. [L]</note>
+	<l id="1205">Poussons dedans, armet en tête. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1206">Sus, que chacun de vous s'apprête </l>
+	<l id="1207">De faire maintenant devoir. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1208">Je lui ferai bien à savoir </l>
+	<l id="1209">A ce gentil Protonotaire, </l>
+	<l id="1210">Qu'il n'a pas maintenant affaire </l>
+<note type="L">Pédant : Terme de mépris. Celui qui enseigne aux enfants. Pédant, pédante, celui, celle qui, avec de médiocres lumières et peu de savoir-vivre, prend un air de suffisance, et fait un usage mal entendu de sa doctrine. [L] Le féminin n'est pas requis ci-contre, il permet de faire 8 pieds au vers.</note>
+	<l id="1211">À un pédante de collège. </l>
+</sp><sp who="THOMAS"><speaker>THOMAS.</speaker>
+	<l id="1212">Il est pris, il s'est mis au piège. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1213">Sus, sus, dedans, enfoncez l'huis. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1214">Il me semble à voir que je suis </l>
+	<l id="1215">A l'assaut de quelque rempart. </l>
+	<l id="1216">Enfonçons l'huis de part en part, </l>
+	<l id="1217">Nous sommes sur nos ennemis. </l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+<sp stage="alone" who="MARIE"><speaker>MARIE, seule.</speaker>
+	<l id="1218">Miséricorde mes amis, </l>
+	<l id="1219">Sommes-nous en une province </l>
+	<l id="1220">Où l'on ne craigne point le Prince ? </l>
+	<l id="1221">Hélas, mon dieu ! Quelle frayeur ! </l>
+	<l id="1222">Encore qui plus est, Monsieur </l>
+	<l id="1223">A trouvé ce Protonotaire, </l>
+	<l id="1224">Qui n'a su autre chose faire, </l>
+	<l id="1225">Sinon que se pensant, sauver, </l>
+	<l id="1226">Et voyant subit arriver </l>
+	<l id="1227">Le courtisan et ses soudards </l>
+	<l id="1228">Qui le cherchaient de toutes parts, </l>
+	<l id="1229">Il s'est rendu à leur merci. </l>
+	<l id="1230">Ô quel ennui ! ô quel souci ! </l>
+	<l id="1231">Quelle lamentable journée </l>
+	<l id="1232">Maintenant nous est ordonnée ! </l>
+	<l id="1233">Voilà, jamais nous n'aurons bien </l>
+	<l id="1234">Dans le logis : car aussi bien </l>
+	<l id="1235">Toujours le Trésorier jaloux </l>
+<note type="L">Acravanter : Assomer, accabler. [Ancien français]</note>
+	<l id="1236">Nous acravantera de coups : </l>
+	<l id="1237">Jamais il n'aura merci d'elle, </l>
+	<l id="1238">Encore si ma Damoiselle </l>
+	<l id="1239">N'eût été prise en ce délit </l>
+	<l id="1240">Avec monsieur dessus le lit, </l>
+	<l id="1241">L'on eut pu couvrir cette affaire : </l>
+	<l id="1242">Mais comment ? le Protonotaire </l>
+	<l id="1243">La tenait déjà embrassée, </l>
+	<l id="1244">Quant le mari la devancée </l>
+	<l id="1245">Comme elle se pensait cacher, </l>
+	<l id="1246">Et si ne la pouvait lâcher : </l>
+	<l id="1247">Ce qui a tant seulement fait </l>
+	<l id="1248">Qu'il les a pris dessus le fait. </l>
+	<l id="1249">Je m'ébahis bien fort comment </l>
+	<l id="1250">Il n'est venu premièrement, </l>
+	<l id="1251">À Boniface : toutefois </l>
+	<l id="1252" syll="6" part="i">J'en suis échappée. </l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Boniface, Marie.</head><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1252" syll="2" part="f">J'étais </l>
+	<l id="1253">Pour mon profit particulier, </l>
+	<l id="1254">Quant j'ai ouï ce beau Trésorier </l>
+	<l id="1255">Heurter, crier d'une voix forte </l>
+	<l id="1256">Que l'on lui vint ouvrir la porte. </l>
+	<l id="1257">Si est-ce que j'ai si bien fait, </l>
+	<l id="1258">Qu'il ne m'a pris dessus le fait, </l>
+	<l id="1259">Car, quand j'ai oui ce beau ménage, </l>
+	<l id="1260">Ainsi qu'un homme de courage </l>
+	<l id="1261">J'ai gagné le grenier au foin : </l>
+	<l id="1262">Les jambes servent au besoin, </l>
+	<l id="1263">Encore n'est-il que toujours être. </l>
+	<l id="1264">Mais, par Dieu, cependant mon maître </l>
+	<l id="1265">Est pour les gages demeuré, </l>
+	<l id="1266">Et moi un peu plus assuré </l>
+	<l id="1267" syll="4" part="i">Que je n'étais. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1267" syll="4" part="f">Hé ! Boniface ! </l>
+	<l id="1268">Vraiment vous avez bonne grâce, </l>
+	<l id="1269">Encore vous vous moquez des gens. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1270">Comment cela ? Ce sont sergents, </l>
+	<l id="1271">Qui veulent mener prisonnier </l>
+	<l id="1272">Votre maître le Trésorier.</l>
+	<l id="1273">Quant à moi, j'aime mieux m'en taire. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1274">Mais Monsieur le Protonotaire </l>
+	<l id="1275">Est tout seul entre ces soudards. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1276">Je ne me mets en tels hasards, </l>
+	<l id="1277">Je pourrais bien faisant ma monstre </l>
+<note type="L">Malencontre : Mauvaise rencontre. [L]</note>
+	<l id="1278">Recevoir quelque malencontre : </l>
+	<l id="1279">Je ferai ci la sentinelle. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+<note type="C">Le E de mademoiselle est remplacé par une apostrophe.</note>
+	<l id="1280">Lors que dira Mademoiselle ! </l>
+	<l id="1281">Il m'est avoir qu'elle me suit. </l>
+	<l id="1282">Hé ! Vierge Marie, quel bruit ! </l>
+	<l id="1283">Je crois que le seigneur Loys </l>
+	<l id="1284" syll="3" part="i">Veut vous tuer. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1284" syll="" part="f">Il n'est que l'huis </l>
+	<l id="1285">Pour bien échapper du danger : </l>
+	<l id="1286">C'est assez pour m'en étranger,</l>
+	<l id="1287">Par Dieu, je n'y retourne pas. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1288">Hé ! Boniface, parlez bas : </l>
+<note type="L">Sallette : Petite salle. Désuet.</note>
+	<l id="1289">Je m'en vais jusque à la sallette. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1290">Quant à moi, ma tâche est jà faite, </l>
+	<l id="1291">Je n'y retourne du jourd'hui, </l>
+	<l id="1292">Puisque l'affaire j'ai conduis, </l>
+	<l id="1293">Jusqu'ici, j'en suis échappé. </l>
+	<l id="1294">Et Monsieur demeure trompé ; </l>
+	<l id="1295">Qu'il se contente à sa fortune. </l>
+</sp><sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1296">Elle nous est à tous commune : </l>
+	<l id="1297">Encore en fault-il voir la fin. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1298">J'en suis bien content : mais à fin </l>
+	<l id="1299">Que ne m'y pensiez embrouiller, </l>
+	<l id="1300">Si l'on me faisait dépouiller ; </l>
+	<l id="1301">J'en aurais mon recours sur vous. </l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="5"><head>ACTE V</head>
+<div2 type="scene" n="1"><head>SCÈNE I. Sulpice, Loys, Richard, Le Trésorier.</head>
+<sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1302">Monsieur, soyez un peu plus doux, </l>
+	<l id="1303">Quel profit pourriez vous avoir </l>
+	<l id="1304">Quand vous le feriez à savoir </l>
+	<l id="1305" syll="5" part="i">À la justice ? </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1305" syll="3" part="f">C'est tout un </l>
+	<l id="1306">Le profit est à tous commun. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1307">Çà, çà, monsieur le Trésorier, </l>
+	<l id="1308">Vous en porterez le collier, </l>
+	<l id="1309">Et ce pour juste récompense </l>
+	<l id="1310">D'avoir pillé l'argent de France. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1311">Il se soumet à tout accord. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1312">Par Dieu, je serai le plus fort, </l>
+	<l id="1313">Vous viendrez aussi quand_et_quand, </l>
+	<l id="1314">Car vous en faisiez le paiement </l>
+	<l id="1315">En son nom, m'aidant à tromper </l>
+	<l id="1316">Vous ne me pouvez échapper </l>
+	<l id="1317">Que ne vous fasse mille ennuis. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1318">Écoutez moi, Seigneur Loys, </l>
+	<l id="1319">Vous savez que j'ai fait avance : </l>
+	<l id="1320">Sera-ce donc la récompense </l>
+	<l id="1321">Que pour moi vous voulez choisir, </l>
+	<l id="1322">Après vous avoir fait plaisir ? </l>
+	<l id="1323">Auriez-vous bien donc le courage </l>
+	<l id="1324">De m'empêcher en ce voyage, </l>
+	<l id="1325">Considéré que mon affaire, </l>
+	<l id="1326">Me contraint comme nécessaire </l>
+	<l id="1327">Pour le profit de notre Prince ? </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1328">Vous êtes sujet à la pince, </l>
+	<l id="1329">C'est cela qui gâte le tout. </l>
+</sp>
+<sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1330">Encore en aurons-nous le bout, </l>
+	<l id="1331">Richard, fais ce que je commande. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1332">Seigneur Loys, je ne demande </l>
+	<l id="1333">Sinon avoir appointement </l>
+	<l id="1334" syll="3" part="i">Avecque vous. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1334" syll="5" part="f">Premièrement </l>
+	<l id="1335">Il faut venir en la prison. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1336">Je vous ferai toute raison, </l>
+	<l id="1337">Si vous faites un tour honnête. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1338">Cela n'est que laver la tête </l>
+<note type="L">Bons-hommes : religieux établis l'an 1259, en Angleterre, par le prince Edmond ; ils professaient la règle de Saint Augustin et portaient un habit bleu. [L]</note>
+	<l id="1339">De l'âne qui est aux Bons-hommes. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1340">Voici grand cas, tant que nous sommes </l>
+	<l id="1341">N'aurons pouvoir de le mener </l>
+	<l id="1342">Au palais pour l'emprisonner, </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1343">Chargez le moi comme une balle </l>
+	<l id="1344">Sus le dos, ou comme une malle, </l>
+<note tyhpe="L">Courtaud : Personne de taille courte et ramassée. [L]</note>
+	<l id="1345">Puis nous aurons votre courtaud </l>
+	<l id="1346">Qui le mènera aussitôt </l>
+	<l id="1347" syll="4" part="i">Que commandé. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1347" syll="6" part="f">Soumettez vous, </l>
+	<l id="1348">Et puis Monsieur sera plus doux. </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1349">À celle fin d'en voir le bout, </l>
+	<l id="1350">Je suis content de perdre tout. </l>
+	<l id="1351">J'ai payé le quartier passé, </l>
+	<l id="1352">Encore vous ai-je avancé </l>
+	<l id="1353">Celui qui vient, pour avoir paix </l>
+	<l id="1354">Avecque vous, Monsieur, je fais </l>
+	<l id="1355">Comme si n'eussiez rien reçu. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1356">Vraiment vous ne serez déçu </l>
+	<l id="1357">Par ce moyen, et de ma part </l>
+	<l id="1358">J'en donnerai le vin à Richard : </l>
+	<l id="1359">Et si désire faire plus. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1360">Vous dites bien : mais les écus </l>
+	<l id="1361">Que la Constante tient encore </l>
+	<l id="1362">Pour avoir une chêne d'or ? </l>
+</sp><sp who="LE TRÉSORIER"><speaker>LE TRÉSORIER.</speaker>
+	<l id="1363">Ces écus vous seront rendus, </l>
+	<l id="1364">Et d'autant d'autres dépendus, </l>
+	<l id="1365">Pour nous réjouir tous ensemble. </l>
+</sp>
+<sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1366">C'est un bon parti ce me semble. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1367">Le vin que vous avez promis </l>
+	<l id="1368">À Richard, n'est-il pas donc mis </l>
+	<l id="1369" syll="5" part="i">Parmi le marché ? </l>
+</sp>
+<sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1369" syll="3" part="f">Si est bien, </l>
+	<l id="1370">Je vous le veux donner du mien. </l>
+</sp><sp who="RICHARD"><speaker>RICHARD.</speaker>
+	<l id="1371">Mais j'aime bien mieux dans ma main </l>
+	<l id="1372">Le voir que d'attendre à demain : </l>
+	<l id="1373">Car je sais bien que les promesses </l>
+	<l id="1374">De leur naturel sont traîtresses : </l>
+	<l id="1375">Parquoi si voulez paix à moi </l>
+	<l id="1376" syll="'" part="i">Foncez argent. </l>
+</sp><sp who="SULPICE"><speaker>SULPICE.</speaker>
+	<l id="1376" syll="4" part="f">Ha, par ma foi, </l>
+	<l id="1377">Vous l'aurez, car c'est la raison. </l>
+</sp><sp who="LOYS"><speaker>LOYS.</speaker>
+	<l id="1378">Entrons doncques en la maison </l>
+	<l id="1379">Affin de ravoir ma quittance : </l>
+	<l id="1380">Car je veux du tout assurance. </l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Boniface, Le Protonotaire.</head><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1381">Non, non, Monsieur, si j'eusse été </l>
+	<l id="1382">Dedans notre Université, </l>
+	<l id="1383">Je leur eusse fait à connaître </l>
+	<l id="1384">Que là dedans je suis le maître. </l>
+	<l id="1385">Encore j'ai bonne espérance </l>
+	<l id="1386">D'en avoir un jour la vengeance. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="1387">Mais que diable es-tu devenu </l>
+	<l id="1388" syll="2" part="i">Cependant ? </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1388" syll="5" part="f">J'étais détenu </l>
+	<l id="1389">Combattant contre deux soudards : </l>
+	<l id="1390">Par dieu, c'étaient deux grands pendards, </l>
+	<l id="1391">Qui m'eussent arraché la vie </l>
+	<l id="1392">Du corps, si n'eut été l'envie </l>
+	<l id="1393">Qu'avais de vaillamment défendre, </l>
+	<l id="1394">Si bien que je leur ai fait rendre </l>
+	<l id="1395">Tout le courage avec les armes, </l>
+	<l id="1396">Encore que ce fussent gendarmes. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="1397">Par dieu, je n'ai su si bien faire, </l>
+	<l id="1398">Qu'au plus fort de tout mon affaire </l>
+	<l id="1399">Je n'aie été surpris. Mais quoi ? </l>
+	<l id="1400">Il ne se souvient plus de moi : </l>
+	<l id="1401">Car l'ardeur du Seigneur Loys, </l>
+	<l id="1402">Qui enfonçait en bas son huis </l>
+	<l id="1403">Pour entrer dedans la maison, </l>
+	<l id="1404">Lui a fait perdre la raison. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1405">Non, Monsieur, je m'en veux venger. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="1406">Mais, Boniface, en quel danger </l>
+	<l id="1407">Penses-tu que j'étais alors ? </l>
+	<l id="1408">Je t'assure que tout mon corps, </l>
+	<l id="1409">Étant aussi froid que le marbre, </l>
+	<l id="1410">Tremblait comme une feuille d'arbre. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1411">Ne pourriez-vous revancher ? </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="1412">Encore ne savais-je attacher </l>
+	<l id="1413">Mes chausses chutes aux genoux. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1414">Ha, si j'eusse été avec vous ! </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="1415">Encore me pensant sauver, </l>
+	<l id="1416">Un autre m'est venu trouver </l>
+	<l id="1417">Caché dans la chambre privée : </l>
+	<l id="1418">Puis Constante y est arrivée, </l>
+	<l id="1419">Ce qui a fait que, me sauvant, </l>
+	<l id="1420">Je me suis trouvé au devant </l>
+	<l id="1421">Du Seigneur Loys, qui suivait </l>
+	<l id="1422">Le Trésorier, qui s'enfuyait. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1423">Quelle mine vous a-t-il fait ? </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="1424">Il m'a dit que c'était bienfait </l>
+	<l id="1425">À l'homme qui cherche toujours </l>
+	<l id="1426">Son aventure en ses amours, </l>
+	<l id="1427">Et que lui, étant pourchassant </l>
+	<l id="1428">De ce dont j'étais jouissant, </l>
+	<l id="1429">Il se pensait être aimé d'elle. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1430">Comment ! De cette damoiselle ? </l>
+	<l id="1431">Sait-on pas bien qui est Constante ?</l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="1432">Oui, et qu'en cette folle attente </l>
+	<l id="1433">Il avait dépendu beaucoup : </l>
+	<l id="1434">Mais qu'il voulait tout en un coup </l>
+	<l id="1435">Son argent, que le Trésorier </l>
+	<l id="1436">Retenait dessus son quartier, </l>
+	<l id="1437">Puisqu'elle était ainsi commune. </l>
+</sp><sp who="BONIFACE"><speaker>BONIFACE.</speaker>
+	<l id="1438">Or la damoiselle en a d'une, </l>
+	<l id="1439">L'argent qu'elle vous a prêté </l>
+	<l id="1440">Entre nos mains est arrêté </l>
+	<l id="1441">Jusque à la plus grande récompense, </l>
+	<l id="1442">Des présents et de la dépense </l>
+	<l id="1443">Que vous avez fait, poursuivant </l>
+	<l id="1444">Son amour, et dorénavant </l>
+<note type="L">Rechoir : Fig. Retomber dans une même maladie ou dans une même faute. [L]</note>
+	<l id="1445">Il se faut garder d'y rechoir. </l>
+</sp><sp who="LE PROTONOTAIRE"><speaker>LE PROTONOTAIRE.</speaker>
+	<l id="1446">Boniface allons nous en voir </l>
+	<l id="1447">Tous les écus de la Constante. </l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<sp stage="alone" who="MARIE"><speaker>MARIE, seule.</speaker>
+	<l id="1448">Loué soit Dieu, tout se contente : </l>
+	<l id="1449">Et qui plus est, le Trésorier </l>
+	<l id="1450">Ne sera point mis prisonnier; </l>
+	<l id="1451">J'en remercie bien nos amis. </l>
+	<l id="1452">Encore plus il a promis </l>
+	<l id="1453">Pardonner, dont je me contente, </l>
+	<l id="1454">À Mademoiselle Constante, </l>
+	<l id="1455">Et à moi aussi, promettant </l>
+	<l id="1456">D'en faire encore demain autant, </l>
+	<l id="1457">Cela s'entend : mais par ma foi, </l>
+	<l id="1458">Je regarderai mieux à moi, </l>
+	<l id="1459">Et à mon cas dorénavant, </l>
+	<l id="1460">Que je n'ai fait par ci-devant. </l>
+	<l id="1461">Ne vaudra-il pas mieux choisir, </l>
+	<l id="1462">Afin de prendre mon plaisir, </l>
+	<l id="1463">Quelque jeune homme, que toujours </l>
+	<l id="1464">Languir aux misères d'amours ? </l>
+	<l id="1465">Si fait, pendant que la jeunesse </l>
+	<l id="1466">Émut dans mon coeur l'allégresse </l>
+	<l id="1467">Du doux amour, qui or' m'enlasse, </l>
+	<l id="1468">Et duquel déjà Boniface </l>
+	<l id="1469">M'a fait sentir l'ébattement, </l>
+	<l id="1470">Mais ce sera secrètement : </l>
+	<l id="1471">Car voilà, l'on n'est jamais sage </l>
+	<l id="1472">Qu'après les plaies : c'est, c'est l'usage </l>
+	<l id="1473">Du temps qui court, et pour vrai dire, </l>
+	<l id="1474">Ma maîtresse veut toujours rire </l>
+	<l id="1475">Au premier venu, c'est tout un, </l>
+	<l id="1476">Autant aux nobles qu'au commun : </l>
+	<l id="1477">Et en cela gît tant l'affaire </l>
+	<l id="1478">De par dieu. Le Protonotaire </l>
+	<l id="1479">Dont elle tirait tant d'écus, </l>
+	<l id="1480">Maintenant n'y reviendra plus, </l>
+	<l id="1481">Et voilà autant de pratique. </l>
+	<l id="1482">Étrangée de sa boutique. </l>
+	<l id="1483">Mais il faut aller apprêter </l>
+	<l id="1484">Le banquet. De vous inviter </l>
+	<l id="1485">Messeigneurs, j'aurai bonne envie : </l>
+<note type="L">Au vers 1486, il est écrit anenda, nous préférons ananda pour homogénéiser la graphie dans tout le texte.</note>
+	<l id="1486">Mais, ananda, la compagnie </l>
+	<l id="1487">Qui est céans mangerait bien </l>
+	<l id="1488">Le Trésorier et tout son bien. </l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>
