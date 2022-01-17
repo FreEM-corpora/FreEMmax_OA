@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1613_François_de_Combles_RSL">
+            <titleStmt>
+                <title type="sermon">TROISIESME SERMON,QVI EST TOVCHANT LA CHEVTE DE l'Apostre S. Pierre fait en l'Eglise de Metz le 18.Ianuier, 1612.</title>
+                <title type="book">Trois Sermons touchant la preparation requise pour communiquer
+                    deuëment &amp; dignement à la Cene de nostre Seigneur. Plus vn Dialogue de l'homme fidele auec sa propre
+                    conscience pour s'esprouuer lors qu'il s'y veut presenter. ITEM DIX AVTRES SERMONS CONTENANS DES EXEMPLES remarquables de repentance, de
+                    Foy, &amp; de charité : Et vne exhortation à ceux qui sont en quereles, tendante à les amener à vne saincte reconciliation.
+                    Par François De Combles. Ministre de l'Eglise reformee de Metz, A Geneve. Pour Pierre &amp; Iaques Chouet, M. DC. XIII.</title>
+                <author ref="...">François de Combles</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l'Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="RSL">Ruth STAWARZ-LUGINBUEHL</persName>
+                        <email>ruth.luginbuhl@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l'Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>François de Combles</author>
+                        <title>TROIS SERMONS TOVCHANT LA PREPARATION REQUISE POVR communiquer
+                            deüment &amp; dignement à la Cene de nostre Seigneur.</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Pierre &amp; Jaques Chouët</publisher>
+                            <date>1613</date>
+                            <date type="sermon">1612</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">http://google.ch/books?id=4d08AAAAcAAJ&amp;hl=fr</idno>
+                    <idno type="source">Bibliothèque cantonale et universitaire de Lausanne, Cote TP 554</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term>
+                    <term type="sermonType">sermon</term>
+                    <term type="sermonTheme"></term>
+                    <term type="howPublished">recueil</term>
+                    <term type="numberOfSermons">14</term>
+                    <term type="typeOfCollection"></term>
+                    <term type="themeOfCollection"></term>
+                    <term type="commentedBiblicalText">Luke.22.55</term>
+                    <term type="paratext" subtype="tableOfContents">MATIERES CONTENVES EN CE LIBRE</term>
+                    <term type="paratext" subtype="epistle">A MESSIEVRS DE L'EGLISE REFORMEE DE METZ</term>
+                    <term type="paratext" subtype="preface">PREFACE AVX LECTEVRS</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-02-10" who="#LjD">transformation word - XML</change>
+            <change when="2016-02-10" who="#MAG">Verification, citations</change>
+            <change when="2014-05-15" who="#RSL">Transcription word</change>
+            <change when="2016-03-31" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                 <pb n="titre"/>
+                <p n="1">
+                    <lb/>TROIS SERMONS
+                    <lb/>TOVCHANT LA PREPARATON
+                    <lb/>REQVISE POVR
+                    <lb/>communiquer deüement &amp; dignement
+                    <lb/>à la Cene de nostre Seigneur.</p>
+                <p n="1">
+                    <lb/>
+                    <hi rend="I">Plus vn Dialogue de l'homme fidele auec sa propre
+                        <lb/>conscience pour s'esprouuer lors qu'il
+                        <lb/>s'y veut presenter. </hi>
+                </p>
+                <p n="2">
+                    <lb/>ITEM DIX AVTRES SERMONS
+                    <lb/>CONTENANS DES EXEMPLES
+                    <lb/>remarquables de repentance, de
+                    <lb/>Foy, &amp; de charité :</p>
+                <p n="3">
+                    <lb/>
+                    <hi rend="I">Et vne exhortation à ceux qui sont en quereles,
+                        <lb/>tendante à les amener à vne
+                        <lb/>saincte reconciliation.</hi>
+                </p>
+                <p n="4">
+                    <lb/>PAR FRANÇOIS DE COMBLES.
+                    <lb/>Ministre de l'Eglise reformee de Metz.<figure/>
+                    <lb/>A GENEVE.
+                    <lb/>Pour PIERRE &amp; IAQVES CHOVET.
+                    <lb/>M. DC. XIII.</p>
+            </div>
+        </front>
+            <body>
+            <div type="sermon">
+                 <pb n="147"/>
+                <head type="main">
+                    <lb/>TROISIESME SERMON,
+                    <lb/>QVI EST TOVCHANT
+                    <lb/>LA CHEVTE DE
+                    <lb/>l'Apostre S. Pierre, fait en l'Eglise
+                    <lb/>de Metz <date>le 18.Ianuier,
+                        <lb/>1612</date>.</head>
+                <p n="1">
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#Luke.22.55">Luc 22. 55</ref>.</p>
+                <p n="2">
+                    <lb/>
+                    <quote source="bible1588.xml#Luke.22.55">
+                        <hi rend="I">Et ayans allumé du feu au milieu de la cour,
+                            <lb/>&amp; s'estans assis ensemble, Pierre aussi
+                            <lb/>s'assit au milieu d'eux</hi></quote>,
+
+                    <hi rend="I"> &amp;c.
+                        <lb/>iusques au vers. </hi>60.</p>
+                <p n="3">
+                    <lb/>
+                    <c type="lettrine">N</c>Ous vous auons autresfois mis en auant
+                    <lb/>vn exemple fort remarquable de
+                    <lb/>la misericorde de Dieu enuers les pauures
+                    <lb/>pecheurs qui se repentent à bon escient de
+                    <lb/>leurs pechez, en la persõne de Manassé Roy
+                    <lb/>de Iuda, selon que l'histoire en est escrite au
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#_1Chr.33.2">33. chap. du 2. liure des Chroniques</ref>.</p>
+                <p n="4">
+                    <lb/>Maintenant nous vous en proposerons
+                    <lb/>vn autre, tiré du nouueau Testament, en la
+                    <lb/>personne de l'Apostre S. Pierre. Et pour
+                    <lb/>mieux cognoistre &amp; considerer la grandeur
+                    <lb/>de la grace que Dieu lui a faite : deuant que
+                    <lb/>de venir à l'histoire de sa repentance, nous
+                    <lb/>parlerons premierement de son peché. Car <pb n="148"/>
+                    <lb/>comme on cognoit beaucoup mieux la grãdeur
+                    <lb/>de la puissance &amp; bonté de Dieu enuers
+                    <lb/>vn homme auquel il a renuoyé sa santé,
+                    <lb/>quand on sçait combien grieuement il a esté
+                    <lb/>malade : ainsi aussi tant plus nous entendons
+                    <lb/>qu'vn homme a grieuement offensé
+                    <lb/>Dieu, tant plus cognoissons nous la grande
+                    <lb/>grace que Dieu lui a faite de lui auoir pardonné
+                    <lb/>les offenses qu'il a commises.</p>
+                <p n="5">
+                    <lb/>Toutesfois ce n'est pas nostre intention
+                    <lb/>de nous arrester sur l'histoire de la cheute
+                    <lb/>d'icelui, laquelle nous auons assez amplement
+                    <lb/>deduit en exposant S. Matthieu : mais
+                    <lb/>seulement de mettre en auant les doctrines
+                    <lb/>&amp; instructions que nous en deuons tirer.
+                    <lb/>Car s'il y a histoire en toute l'Escriture saincte,
+                    <lb/>qui merite d'estre attentiuement considerée,
+                    <lb/>c'este ci le merite : y ayant en icelle vn
+                    <lb/>exemple tresremarquable, tant de l'infirmité
+                    <lb/>de l'hõme, que de la misericorde de Dieu ;
+                    <lb/>lequel comme il permet que ses Eleus tombent
+                    <lb/>quelquesfois bien lourdement, afin
+                    <lb/>qu'ils apprennent à se cognoistre eux mesmes,
+                    <lb/>&amp; afin que d'autres apprennent à leur
+                    <lb/>exemple, que l'homme n'a de soy-mesme
+                    <lb/>aucunes forces pour perseuerer au biẽ, ainsi
+                    <lb/>aussi sçait il bien trouuer les moyens de les
+                    <lb/>releuer, afin que tant plus leur cheute a esté
+                    <lb/>dangereuse, tant plus clairement reluise sa
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rom.5"> <hi rend="I">Rom</hi>. 5.</ref></note> misericorde enuers eux, comme S. Paul dit
+                    <lb/>que là où le peché a abõdé, la a encore plus <fw place="bot-right"
+                        type="catch">abondé</fw>
+                     <pb n="149"/>
+                    <lb/>abondé la grace de Dieu : de sorte que la
+                    <lb/>consideration de ceste histoire seruira d'aduertissemẽt
+                    <lb/>à ceux qui par la faueur de Dieu
+                    <lb/>sont iusqu'à present demeurez constans en
+                    <lb/>la foy &amp; en la pieté, afin que selon l'exhortation
+                    <lb/>de S. Paul, Philip. 2. ils s'employent à
+                    <lb/>leur salut auec crainte &amp; tremblement, &amp; à
+                    <lb/>ceux qui sont tombez, elle leur seruira à ce
+                    <lb/>qu'ils esperent certainement qu'ils obtiendront
+                    <lb/>remission de leurs pechez, par la misericorde
+                    <lb/>de Dieu, pourueu que sans hypocrisie
+                    <lb/>ils se repentent &amp; se conuertissent à
+                    <lb/>bon escient à lui.</p>
+                <p n="6">
+                    <lb/>En ce peché donc de S. Pierre nous deuõs
+                    <lb/>premierement contempler comme en vn
+                    <lb/>miroir l'infirmité de nous tous, voire que
+                    <lb/>nous ne sommes rien, que nous ne pouuons
+                    <lb/>rien quand Dieu nous laisse à nous mesmes,
+                    <lb/>c'est à dire, quand il nous soustrait sa grace,
+                    <lb/>quand il ne nous fortifie pas incessamment
+                    <lb/>par l'assistance de son S. Esprit : que nous n'auons
+                    <lb/>pas le pouuoir de faire aucun bien,
+                    <lb/>mais que nous ne pouuons faire autre chose
+                    <lb/>que de pecher, que nous ne pouuons demeurer
+                    <lb/>fermes contre les tentations : mais
+                    <lb/>que nous y succombons incontinent, si ce
+                    <lb/>n'est que Dieu nous fortifie par son S. Esprit.
+                    <lb/>S. Paul dit, <ref type="bible" target="bibleSegond21.xml#Phil.4.13">Philip. 4.</ref>
+                    <quote source="bible1588.xml#Phil.4.13">
+                        ie puis toutes choses
+                            <lb/>en Christ qui me fortifie
+                    </quote> : &amp; le mesme Apostre
+                    <lb/>parlant des tribulations dit, <ref type="bible" target="bibleSegond21.xml#Rom.8.36">Rom. 8.</ref>
+                    <lb/>
+                    <quote source="bible1588.xml#Rom.8.36">En toutes ces choses nous sommes plus que <pb n="150"/>
+                        <lb/>vainqueurs par celui qui nous a aimez</quote>, à
+                    <lb/>l'opposite nous deuons dire, en toutes ces
+                    <lb/>choses nous sommes incontinent vaincus &amp;
+                    <lb/>surmontez, si celui qui nous a aimez ne nous
+                    <lb/>donne force pour y resister.</p>
+                <p n="7">
+                    <lb/>Il ne faut point de grand combat pour
+                    <lb/>rompre les forces de l'homme, c'est bien
+                    <lb/>tost faict de luy, quand Dieu ne luy assiste
+                    <lb/>pas par son Esprit. Bref nous deuons apprendre
+                    <lb/>par l'exemple de S. Pierre, que la victoire
+                    <lb/>contre les tentations n'est pas en nostre
+                    <lb/>puissance, que la constance ou perseuerance
+                    <lb/>au bien n'est pas de nous, mais qu'il nous
+                    <lb/>faut prier Dieu qu'il nous conforme au bien,
+                    <lb/>&amp; qu'il nous garde du mal : qu'il nous faut
+                    <lb/>dire incessamment ne nous <choice><sic>ind'huy</sic><corr resp="#RSL">indhuy</corr></choice>
+                     point en
+                    <lb/>tentation. Veillez &amp; priez auoit dit nostre
+                    <lb/>Seigneur, que vous n'entriez en tentation.
+                    <lb/>S. Pierre auoit bien ouy cela, mais il n'auoit
+                    <lb/>pas bien obtẽperé à c'este exhortation là que
+                    <lb/>nostre Seigneur auoit faict à luy &amp; à ses
+                    <lb/>compagnons. Pourtant n'a il pas seulement
+                    <lb/>esté tenté, mais il a succombé sous le fardeau
+                    <lb/>de la tentation. Nous auons si peu de force
+                    <lb/>de nous-mesmes, que nous perdons courage
+                    <lb/>quand nous voyons seulement l'ombre
+                    <lb/>d'vn combat, tant s'en faut que nous ayons
+                    <lb/>assez de force pour soustenir vn grand combat,
+                    <lb/>&amp; repousser vn rude assaut. Pourtant
+                    <lb/>deuons nous apprendre par c'est exemple à
+                    <lb/>demander à Dieu force &amp; constance, &amp; <fw place="bot-right"
+                        type="catch">n'estre</fw>
+                     <pb n="151"/>
+                    <lb/>n'estre
+                    point presomptueux à cause d'aucunes
+                    <lb/>forces que nous ayons. Car autrement
+                    <lb/>ce qui est aduenu à l'Apostre S. Pierre pour
+                    <lb/>punition de sa presomption, cela nous peut
+                    <lb/>aussi aduenir : lors que nous nous ioignons
+                    <lb/>à l'Eglise reformée nous faisons de fort belles
+                    <lb/>promesses. Nous promettons de ne nous
+                    <lb/>iamais departir de la profession de la doctrine
+                    <lb/>de l'Euangile, nous promettons de
+                    <lb/>mettre peine de viure selon icelle, &amp; de nous
+                    <lb/>garder de donner scandale à nos prochains.</p>
+                <p n="8">
+                    <lb/>Mais il n'y a rien de tout cela qui soit en
+                    <lb/>nostre puissance : pourtant faut-il demander
+                    <lb/>à Dieu la grace de son S. Esprit, afin que ce
+                    <lb/>que nous auons promis par son mouuemẽt
+                    <lb/>&amp; inspiration, nous le puissions effectuer &amp;
+                    <lb/>accomplir par son assistance. S. Pierre n'auoit
+                    <lb/>pas moins de volonté d'accomplir ce
+                    <lb/>qu'il auoit promis à nostre Seigneur, que
+                    <lb/>nous en auons d'accomplir ce que nous promettons
+                    <lb/>quand nous nous rangeons à l'Eglise :
+                    <lb/>&amp; cependant nous voyons combien
+                    <lb/>vilainement &amp; lourdement il est tombé.
+                    <lb/>Pourtant dit S. Paul <ref type="bible" target="bibleSegond21.xml#_1Cor.10.12">1. Cor. 10.</ref> que <quote
+                        source="bibleSegond21.xml#Cor.10.12">celui qui <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Cor.10.12"> 1. <hi rend="I">Cor.</hi> 10.</ref>
+                        </note>
+                        <lb/>cuide estre debout regarde qu'il ne tombe</quote>.
+                </p>
+                <p n="9">
+                    <lb/>Cependant ce que nous disons ne tẽd pas
+                    <lb/>à reuoquer en doubte la perseuerance des
+                    <lb/>saincts, c'est à dire, nous ne voulons pas contredire
+                    <lb/>aux passages de l'Escriture saincte, esquels
+                    <lb/>il est promis que Dieu donnera à ses
+                    <lb/>fideles la force de perseuerer : comme entre <pb n="152"/>
+                    <lb/>autres nous en auons vne fort belle promesse,
+                    <lb/>
+                    <note type="margin"><hi rend="I">Ier.</hi>
+                        34.40</note>
+                    <ref type="bible" target="bibleSegond21.xml#Jer.32.40">Ieremie 32.</ref> où Dieu dit, <quote source="bible1588.xml#Jer.32.40">ie
+                        traiterai auec
+                        <lb/>eux vne alliance eternelle, ie ne me retirerai
+                        <lb/>point arriere d'eux, afin que ie leur
+                        <lb/>face du bien, ains ie mettrai la crainte de
+                        <lb/>moy en leur cœur, afin qu'ils ne se destournent
+                        <lb/>point arriere de moy</quote>. Mais ces choses
+                    <lb/>sont dites pour diuerses consideratiõs, quãd
+                    <lb/>les fideles considerent combien certaines
+                    <lb/>sont les promesses de Dieu, alors ils doiuent
+                    <lb/>estre certains qu'il acheuera en eux la
+                    <lb/>bonne œuure qu'il y a commẽcé, mais s'ils
+                    <lb/>viennent à considerer leur infirmité &amp; indignité,
+                    <lb/>alors ils doiuent auoir crainte, à celle
+                    <lb/>fin que c'este crainte là les incite à prier
+                    <lb/>Dieu, &amp; soit cause qu'ils se donnent garde
+                    <lb/>de pecher, &amp; qu'ils ne tombent point en vne
+                    <lb/>securité charnele. Au reste au lieu que S.
+                    <lb/>Pierre a renié nostre Seigneur en presence
+                    <lb/>de tous ceux qui estoyẽt en la Cour du Souuerain
+                    <lb/>sacrificateur, au lieu de cela nous le
+                    <lb/>deuons confesser en presence de tous ceux
+                    <lb/>qui nous interroguent de nostre creance.</p>
+                <p n="10">
+                    <lb/>Car c'est mal fait renier nostre Seigneur
+                    <lb/>Iesus Christ deuant vn ou deux, &amp; de le renier
+                    <lb/>deuant plusieurs c'est encore pis. Car si
+                    <lb/>ceux la sont infirmes en la foy, nous les scandalizons
+                    <lb/>grieuement, &amp; blessons leurs consciences
+                    <lb/>par nostre exemple, voire nous les
+                    <lb/>destournons de se mettre de la vraye Religion :
+                    <lb/>que s'ils sont infideles, nous priuons <fw place="bot-right" type="catch"
+                        >nostre</fw>
+                     <pb n="153"/>
+                    <lb/>nostre Seigneur Iesus Christ de l'honneur
+                    <lb/>que nous sommes tenus de lui rendre par la
+                    <lb/>confessiõ de sa verité, &amp; sommes cause que
+                    <lb/>les ennemis de nostre Seigneur Iesus Christ
+                    <lb/>tiennent moins de compte de sa doctrine,
+                    <lb/>&amp; la persecutẽt plus grieuemẽt ; par ce qu'ils
+                    <lb/>se font accroire que nous en auons honte,
+                    <lb/>veu que nous ne la voulons pas confesser
+                    <lb/>franchement &amp; rondement. Et à l'opposite
+                    <lb/>quand ils voyent que nous sommes constãs
+                    <lb/>en la profession de la doctrine du Fils de
+                    <lb/>Dieu, toute occasion leur est ostée de la reietter :
+                    <lb/>principalement quand ils voyent que
+                    <lb/>nous demeurons constans en la profession
+                    <lb/>d'icelle iusqu'à la mort, laquelle constance
+                    <lb/>nous deuons prier Dieu qu'il nous donne à
+                    <lb/>tous par son S. Esprit, afin que lui estans fideles <note type="margin">
+                        <hi rend="I">Apoc.</hi> 2. <lb/>10.</note>
+                    <lb/>iusqu'à la mort, il nous donne la couronne
+                    <lb/>de vie.</p>
+                <p n="11">
+                    <lb/>Nous deuons donc bien remarquer ce qui
+                    <lb/>a esté dict, asçauoir que de nature nous n'auons
+                    <lb/>aucune force pour resister aux tentations
+                    <lb/>ou tenir bon à l'encontre d'icelles, afin
+                    <lb/>de prier Dieu incessamment qu'il nous
+                    <lb/>donne force pour les surmonter. Secondement
+                    <lb/>nous deuons apprendre de c'est exemple,
+                    <lb/>qu'il peut aduenir mesmes aux plus
+                    <lb/>gens de bien &amp; aux plus zelez de commettre
+                    <lb/>les crimes les plus enormes, si Dieu ne
+                    <lb/>les tient en bride par son S. Esprit, &amp; qu'il
+                    <lb/>n'y a ni la cognoissance de Dieu, ni la profession <pb n="154"/>
+                    <lb/>de la foy, ny l'ouye de la parole de
+                    <lb/>Dieu, ni la reception des sacremens, par lesquels
+                    <lb/>la foy est confermée, qui les puisse
+                    <lb/>garder de pecher. S. Pierre estoit vn excellent
+                    <lb/>personnage, car comme les Apostres
+                    <lb/>ont esté les principaux entre les Chrestiẽs,
+                    <lb/>aussi S. Pierre a esté non pas voirement le
+                    <lb/>chef des autres Apostres, ou Princes par
+                    <lb/>dessus les Apostres, comme ceux de l'Eglise
+                    <lb/>Romaine parlent, mais il a esté l'vn des
+                    <lb/>principaux Apostres : comme aussi il est
+                    <lb/>
+                    <note type="margin">
+                        <hi rend="I">Gal.</hi> 2.</note> compté entre ces trois lesquels S. Paul
+                    <lb/>appelle colomnes, comme si vous disiez Piliers
+                    <lb/>de l'Eglise Chrestienne. Nostre Seigneur
+                    <lb/>luy auoit faict cest honneur de le
+                    <lb/>laisser entrer auec soy, ensemble Iaques &amp;
+                    <lb/>Iean, lors qu'il auoit ressuscité la fille de
+                    <lb/>Iairus, s'çauoit esté l'vn des trois qui auoyent
+                    <lb/>veu la transfiguration d'iceluy en la
+                    <lb/>montagne. C'estoit l'vn des trois que nostre
+                    <lb/>Seigneur auoit voulu estre tesmoins de
+                    <lb/>ses souffrances, lors qu'il estoit entré au iardin
+                    <lb/>en la montagne des oliuiers, &amp; ausquels
+                    <lb/>il auoit dit, <quote source="bible1588.xml#Matt.26.38">mon ame est saisie de tristesse
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.26.38">
+                                <hi rend="I">Matth.</hi> <lb/>16.</ref>
+                        </note> iusqu'à la mort</quote>. S. Pierre auoit
+                    dit à nostre
+                    <lb/>Seigneur, <quote source="bible1588.xml#Matt.16.16">Tu es le Christ, le fils du Dieu
+                        <lb/>viuant</quote>.  Lors que nostre Seigneur luy auoit
+                    <lb/>dit, en ceste nuict ci, <quote source="bible1588.xml#Matt.14.30">auant que le coq chante
+                        <lb/>tu me renieras trois fois</quote>, il luy auoit respõdu
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Mark.14">
+                            <hi rend="I">Marc</hi> 14.</ref>
+                    </note>
+                    <ref type="bible" target="bibleSegond21.xml#Mark.14.31">Marc 14.</ref>
+                    <quote source="bible1588.xml#Mark.14.31">Quand il me faudroit mourir
+                        <lb/>auec toy, ie ne te renieray point</quote>. Et
+                        en <fw place="bot-right" type="catch">ce 22</fw>
+                     <pb n="155"/>
+                    <lb/>ce <ref type="bible" target="bibleSegond21.xml#Luke.22.33">22. chap. de S. Luc</ref> est recité qu'il auoit dit,
+                    <lb/>
+                    <quote source="bible1588.xml#Luke.22.33">Seigneur ie suis prest d'aller auec toy, &amp;
+                        <lb/>en prison, &amp; à la mort</quote>, <ref
+                            type="bible" target="bibleSegond21.xml#John.13.37">Iean 13.</ref> Il auoit dit, <note type="margin">
+                                <ref type="bible"  target="bibleSegond21.xml#John.13">
+                            <hi rend="I">Iean</hi> 13.</ref>
+                    </note>
+                    <lb/>
+                    <quote source="bible1588.xml#John.13.37">ie mettrai mon ame, c'est à dire ma vie, pour
+                        <lb/>toy</quote>. S. Pierre auoit receu c'este nuict là
+                    la S.
+                    <lb/>Cene : il auoit ouy tant de belles exhortations
+                    <lb/>à constance qui sont recitées Iean
+                    <lb/>13. 14. 15. &amp; 16. nostre Seigneur l'auoit aduerti
+                    <lb/>particulierement de ce qui luy deuoit arriuer,
+                    <lb/>&amp; cependant tout cela n'a point empesché
+                    <lb/>qu'il ne soit lourdement tombé.
+                    <lb/>Car il y a eu en la faute d'iceluy plusieurs
+                    <lb/>pechez ensemble. Premierement, la presomption,
+                    <lb/>qu'il a trop attribué à ses forces.
+                    <lb/>Secõdement, le mespris de ses compagnons,
+                    <lb/>qui repugne à la charité, qu'il a estimé que
+                    <lb/>ses compagnons pourroyẽt bien estre scandalizez
+                    <lb/>en nostre Seigneur, mais non pas
+                    <lb/>luy. Tiercement l'incredulité, qu'encore que
+                    <lb/>nostre Seigneur eust affermé qu'il luy aduiendroit
+                    <lb/>de le renier, il ne l'a pas creu, iusqu'à
+                    <lb/>ce qu'il en a veu l'experience. Quartement
+                    <lb/>la securité &amp; temerité, qu'il s'est allé
+                    <lb/>ietter en vn danger lequel il pouuoit bien
+                    <lb/>euiter, lors qu'il s'est allé chauffer auec les
+                    <lb/>seruiteurs des plus grãds ennemis de nostre
+                    <lb/>Seigneur. 5. au premier reniement il y a eu
+                    <lb/>du mensonge. 6. en tous les trois il y a eu vne
+                    <lb/>ingratitude insupportable à l'encontre de
+                    <lb/>nostre Seigneur Iesus Christ, duquel il a parlé
+                    <lb/>comme si iamais il ne l'eust cogneu, ou <pb n="156"/>
+                    <lb/>comme si iamais il n'eust receu aucun bien
+                    <lb/>faict de luy, comme ainsi soit que nostre Seigneur
+                    <lb/>luy eust dict vn peu au parauant, <quote source="bible1588.xml#Luke.22.32">i'ay
+                    <lb/>prié pour toy afin que ta foy ne defaille
+                        <lb/>point</quote>, 7. au deuxiesme reniement il y a eu
+                    <lb/>vn abus du iuremẽt, &amp; au troisieme vne malediction
+                    <lb/>contre soy mesme, contre sa propre
+                    <lb/>conscience, laquelle sans les autres pechez
+                    <lb/>eust esté suffisante pour le damner, si
+                    <lb/>Dieu ne lui eust faict misericorde : tous ces
+                    <lb/>pechez se sont rencontrez par ensemble en
+                    <lb/>ces reniemens de S. Pierre, si nous les voulons
+                    <lb/>bien peser &amp; considerer.</p>
+                <p n="12">
+                    <lb/>En 3. lieu nous voyons par ceste histoire,
+                    <lb/>que si vne fois nous laschons la bride au peché
+                    <lb/>nous n'y tenons point de mesure, ains
+                    <lb/>nous tombons tousiours plus lourdement
+                    <lb/>&amp; auec plus de danger : car nous voyons ici
+                    <lb/>que S. Pierre du mensonge ou de la simple
+                    <lb/>negation de la verité est venu à iurer mal à
+                    <lb/>propos, &amp; de là à se maudire soy-mesme,
+                    <lb/>comme aussi nous auons vn exemple de cela
+                    <lb/>en Dauid, lequel d'adultere est deuenu
+                    <lb/>meurtrier : dont nous deuons apprendre,
+                    <lb/>qu'il nous faut euiter les commencemens
+                    <lb/>des pechez. Car si vne fois nous leur ouurõs
+                    <lb/>la porte, Satan ne cessera point, s'il peut, iusqu'à
+                    <lb/>ce qu'il nous embrasse tellement en ses
+                    <lb/>pieges, que nous aurons beaucoup de peine
+                    <lb/>de nous en depestrer, cõme aussi nous voyons
+                    <lb/>en Simeon &amp; Leui, lesquels ayans esté <fw place="bot-right" type="catch"
+                        >meur</fw>
+                     <pb n="157"/>
+                    <lb/>meurtriers des hommes de Sichem, &amp; ayans
+                    <lb/>tué les innocẽs auec les coupables, sont deuenus
+                    <lb/>puis apres rauisseurs à l'endroit des
+                    <lb/>femmes &amp; du bestail d'iceux. Et ainsi les freres
+                    <lb/>de Ioseph d'enuieux qu'ils ont esté contre
+                    <lb/>lui sont deuenus plagiaires, c'est à dire
+                    <lb/>larrons d'hommes, l'ayans vendu à des marchans
+                    <lb/>pour estre esclaue en Egypte, &amp; peu
+                    <lb/>s'en est falu qu'ils ne l'ayent mis à mort.</p>
+                <p n="13">
+                    <lb/>Mais comment est aduenu cela, que sainct
+                    <lb/>Pierre est tombé en vn tel abysme de pechez ?
+                    <lb/>cela est aduenu par ce que Dieu a retiré
+                    <lb/>de lui en ce faict particulier la grace de
+                    <lb/>son S. Esprit, laquelle eust esté necessaire
+                    <lb/>pour le fortifier, comme il est dit du Roy
+                    <lb/>Ezechias que quand les Ambassadeurs des
+                    <lb/>Princes de Babylon furẽt enuoyez vers lui, <note type="margin">2. <hi
+                            rend="I">Chr.</hi> 32.</note>
+                    <lb/>Dieu le delaissa pour l'esprouuer, afin de cognoistre
+                    <lb/>tout ce qui estoit en son cœur : ainsi
+                    <lb/>pouuons nous dire de S. Pierre qu'il est
+                    <lb/>bien vray qu'il auoit au parauant demonstré
+                    <lb/>vn zele ardent, &amp; vne grande amour enuers
+                    <lb/>nostre Seigneur Iesus Christ : mais qu'apres
+                    <lb/>que sans auoir esgard à l'aduertissement que
+                    <lb/>nostre Seigneur luy auoit donné, il fut entré
+                    <lb/>en la Court du Souuerain sacrificateur,
+                    <lb/>Dieu le delaissa, &amp; permist qu'il succombast
+                    <lb/>sous la tentation, à celle fin qu'il recogneust
+                    <lb/>qu'il n'estoit pas si constant qu'il pensoit estre.
+                    <lb/>Car S. Pierre eust mieux faict lors que
+                    <lb/>nostre Seigneur luy predit qu'il luy aduiendroit <pb n="158"/>
+                    <lb/>de le renier, s'il l'eust supplié de prier
+                    <lb/>Dieu pour lui, afin qu'il ne la laissast point
+                    <lb/>tomber si lourdement que cela, comme Simon
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.8.24">
+                            <hi rend="I">Act</hi>. 8.</ref>
+                    </note> le magicien disoit à Pierre &amp; à Iean,
+                    <lb/>
+                    <quote source="bible1588.xml#Acts.8.24">vous autres priez pour moy enuers le Seigneur,
+                        <lb/>afin que rien ne vienne sur moy des
+                        <lb/>choses que vous auez dites</quote>, que de penser
+                    <lb/>que cela ne lui aduiendroit point, encore
+                    <lb/>que le fils de Dieu, qui est la verité mesme,
+                    <lb/>non seulement l'eust predit, mais aussi eust
+                    <lb/>affermé qu'il lui aduiendroit.</p>
+                <p n="14">
+                    <lb/>Dirons nous donc que S. Pierre par c'este
+                    <lb/>cheute ait du tout perdu le S. Esprit ? non.
+                    <lb/>Car nostre Seigneur luy auoit dict, <quote source="bible1588.xml#Luke.22.32">i'ay prié
+                        <lb/>pour toy, à fin que ta foy ne defaille point</quote>
+                    <lb/>&amp; nous ne deuons point doubter que la
+                    <lb/>priere de nostre Seigneur Iesus Christ n'ait
+                    <lb/>esté exaucée. Que si la foy est demeurée en
+                    <lb/>S. Pierre, le S. Esprit aussi sans lequel la foy
+                    <lb/>ne peut estre, est demeurée en luy. Quand
+                    <lb/>donc nous auõs dit que Dieu a retiré la grace
+                    <lb/>du S. Esprit de S. Pierre, cela ne se doit
+                    <lb/>pas entendre comme si S. Pierre n'auoit plus
+                    <lb/>eu le S. Esprit du tout : mais il luy est aduenu
+                    <lb/>comme à vn homme yure, lequel semble
+                    <lb/>n'auoir point de raison, parce que durant
+                    <lb/>qu'il est ainsi yure, il n'a pas ou il ne monstre
+                    <lb/>pas qu'il ait l'vsage de la raison : Mais
+                    <lb/>apres qu'il a cuué son vin, alors on voit
+                    <lb/>manifestement que la raison n'estoit pas du
+                    <lb/>tout departie de luy. Le S. Esprit estoit resté <fw place="bot-right"
+                        type="catch">en S.</fw>
+                     <pb n="159"/>
+                    <lb/>en S. Pierre comme la chaleur naturelle en
+                    <lb/>vn homme qui deuient tellement froid
+                    <lb/>par maladie, qu'il semble qu'il soit mort,
+                    <lb/>comme ainsi soit que la chaleur naturelle est
+                    <lb/>encore aupres de son cœur, ou comme vn
+                    <lb/>homme blesme, duquel il semble que le
+                    <lb/>sang se soit retiré : ainsi le S. Esprit est demeuré
+                    <lb/>en S. Pierre iusques là, que son cœur
+                    <lb/>n'a pas pensé ce que sa langue disoit, c'est à
+                    <lb/>dire sa langue a dit d'vn, &amp; son cœur a pensé
+                    <lb/>d'autre : mais le S. Esprit n'a pas esté en
+                    <lb/>luy iusques là, qu'il ait osé confesser de bouche,
+                    <lb/>ou donner à cognoistre par paroles,
+                    <lb/>l'amour qu'il portait à nostre Seigneur en
+                    <lb/>son cœur : ou si nous voulons dire cecy plus
+                    <lb/>brieuement, le S. Esprit est demeuré au
+                    <lb/>cœur de S. Pierre, mais il n'a pas monstré sa
+                    <lb/>vertu, &amp; n'a pas gouuerné en ce fait ici la
+                    <lb/>langue d'iceluy. C'est en ce sens la que i'ay
+                    <lb/>dit, que Dieu luy a soustrait l'assistence du S.
+                    <lb/>Esprit, par ce que le S. Esprit ne luy a point
+                    <lb/>assisté si auant, que pour luy faire la grace
+                    <lb/>de dire de sa bouche la mesme chose qu'il auoit
+                    <lb/>en son cœur.</p>
+                <p n="15">
+                    <lb/>Et faut noter, que combien que Sainct
+                    <lb/>Pierre soit fort lourdement tombé, si est-ce
+                    <lb/>que toutesfois sa cheute lui a serui, à ce qu'apres
+                    <lb/>auoir cogneu par experience combien
+                    <lb/>grande estoit son infirmité, il fust puis apres
+                    <lb/>plus diligent à prier Dieu qu'il le fortifiast,
+                    <lb/>comme aussi S. Pierre tant plus il s'estoit <pb n="160"/>
+                    <lb/>monstré craintif en ce faict icy, tant plus
+                    <lb/>courageux &amp; constant a il esté puis apres,
+                    <lb/>comme nous voyons en quelques endroicts
+                    <lb/>des Actes des Apostres, lui qui auoit eu si
+                    <lb/>peur de la Chambriere du Souuerain sacrificateur,
+                    <lb/>que parlant à elle il auoit nié qu'il
+                    <lb/>fust des disciples du Seigneur, n'a pas puis
+                    <lb/>apres craint le Souuerain sacrificateur mesmes,
+                    <lb/>ni tous ses assesseurs : ains il leur a dit,
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#Acts.4.19-20">Act. 4.</ref>
+                    <quote source="bible1588.xml#Acts.4.19-20">Iugez vous mesmes, s'il est raisonnable
+                        <lb/>que nous vous obeissions plustost qu'à
+                        <lb/>Dieu. Car nous ne pouuons que nous ne disions
+                        <lb/>les choses que nous auons veuës &amp;
+                        <lb/>ouyes</quote>. &amp; au <ref type="bible" target="bibleSegond21.xml#Acts.5.29">5.
+                        chap</ref>. <quote source="bible1588.xml#Acts.5.29">Il faut plustost obeir
+                        <lb/>Dieu qu'aux hommes</quote>. Ainsi aduient-il quelquesfois
+                    <lb/>que ceux qui n'estoyẽt pas si diligẽs
+                    <lb/>qu'ils deuoyent estre à se donner de garde
+                    <lb/>des tentations, &amp; qui viuoyent en quelque
+                    <lb/>façon en securité, quand il leur est aduenu
+                    <lb/>de tomber en quelque grief peché, alors ils
+                    <lb/>prennent de plus pres garde à eux, &amp; sont
+                    <lb/>plus diligens au seruice de Dieu, &amp; plus ardens
+                    <lb/>&amp; zelez à le prier qu'ils n'auoyent esté
+                    <lb/>au parauant.</p>
+                <p n="16">
+                    <lb/>En 4. lieu nous deuons remarquer sur c'este
+                    <lb/>Histoire de sainct Pierre, que mesmes
+                    <lb/>les saincts seruiteurs &amp; esleus de Dieu s'aheurtent
+                    <lb/>quelquefois plus d'vn coup à vne
+                    <lb/>mesme peine : car nous voyons que durant
+                    <lb/>l'espace d'enuiron vne heure &amp; demie S.
+                    <lb/>Pierre a renié nostre Seigneur par 3. fois. <fw place="bot-right"
+                        type="catch">Ainsi</fw>
+                     <pb n="161"/>
+                    <lb/>Ainsi a dit Abraham par 2. fois que Sara sa
+                    <lb/>femme estoit sa sœur, vne fois en Egypte
+                    <lb/>Genes. 12. &amp; vne autre fois entre les Philistins
+                    <lb/>Genes. 20. lesquels exemples ne nous
+                    <lb/>doiuent pas seruir afin que nous ne nous
+                    <lb/>flattions nous mesmes : mais plustost afin
+                    <lb/>que nous ne prononcions pas temerairement
+                    <lb/>sentence de condemnation à l'encontre
+                    <lb/>de ceux, qui par infirmité humaine ont
+                    <lb/>commis vne mesme faute deux fois, ou encore
+                    <lb/>plus, comme s'ils auoyent d'espouillé
+                    <lb/>toute crainte de Dieu, ou comme si ils ne
+                    <lb/>pouuoyent plus obtenir aucune remission
+                    <lb/>de leurs pechez. Il est vray qu'il est dit
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#Eccl.7.8">Eccles. 7.</ref>
+                    <quote source="bible1588.xml#Eccl.7.8">Ne redouble point les liens de peché :
+                        <lb/>Car mesmes pour vn seul tu ne seras
+                        <lb/>point impuni</quote>. &amp; au <ref type="bible" target="bibleSegond21.xml#Eccl.12.12"
+                        >chap. 12.</ref>
+                    <quote source="bible1588.xml#Eccl.12.12">Ne continue
+                        <lb/>point le peché en redoublant : car tu ne demeureras
+                        <lb/>point impuni, n'y en eust-il qu'vn
+                        <lb/>seul</quote>. Mais ces passages-la nous doiuent seruir
+                    <lb/>d'aduertissement pour estre sur nos gardes,
+                    <lb/>afin de ne point tomber deux fois en vn
+                    <lb/>mesme peché : mais c'est exemple de S. Pierre
+                    <lb/>nous doit seruir de consolation, si desia
+                    <lb/>il nous est aduenu par infirmité humaine, &amp;
+                    <lb/>non point par vn malicieux mespris de
+                    <lb/>Dieu, d'estre tombez deux fois ou plus en
+                    <lb/>vn mesme peché, afin que nous ne doutions
+                    <lb/>point de la misericorde de Dieu, pourueu
+                    <lb/>que nous n'y continuions plus.</p>
+                <p n="17">
+                    <lb/>En 5. lieu nous deuons remarquer cy dessus, <pb n="162"/>
+                    <lb/>que combien que les saincts tombent
+                    <lb/>quelquefois en de tres-lourdes fautes,
+                    <lb/>toutefois Dieu ne permet point qu'ils pechent
+                    <lb/>à mort, de peur qu'ils ne tombent en
+                    <lb/>damnation, mais s'ils sont tombez il les redresse
+                    <lb/>&amp; les releue, à celle fin qu'il demonstre
+                    <lb/>sa misericorde en les sauuant,
+                    <lb/>comme il demonstre sa iustice en damnant
+                    <lb/>les reprouuez. Vray est que S. Pierre a grieuement
+                    <lb/>peché : mais tant y a que Dieu n'a
+                    <lb/>point permis qu'il soit tombé au peché qui
+                    <lb/>est irremissible. Ainsi ont grieuement peché
+                    <lb/>Dauid, Manassé, &amp; le Brigand duquel il
+                    <lb/>est parlé au 23. chap. de c'est Euangile : mais
+                    <lb/>cependant Dieu les a redressez par repentance,
+                    <lb/>&amp; n'a point permis qu'ils tombassent
+                    <lb/>en damnation.</p>
+                <p n="18">
+                    <lb/>D'icy aussi nous pouuons recueillir en 6.
+                    <lb/>lieu que Dieu pardonne non seulement les
+                    <lb/>pechez qui sont commis par ignorance,
+                    <lb/>mais aussi ceux que l'homme commet sachãt
+                    <lb/>biẽ qu'il fait mal : pourueu qu'ils ayẽt esté
+                    <lb/>cõmis par infirmité de la chair, &amp; nõ poĩt
+                    <lb/>par vne malice deliberee, &amp; que tout peché
+                    <lb/>que l'homme commet contre sa conscience
+                    <lb/>n'est pas le peché irremissible contre le
+                    <lb/>sainct Esprit, voire mesme que toute espece
+                    <lb/>de reniemẽt ou d'abjuration de la verité cognuë
+                    <lb/>n'est pas ce peché-là : car c'est chose
+                    <lb/>certaine que S. Pierre a peché contre sa conscience,
+                    <lb/>il n'a pas peché par ignorance, comme <fw place="bot-right" type="catch"
+                        >me</fw>
+                     <pb n="163"/>
+                    <lb/>faisoit S. Paul lors qu'il persecutoit l'Euãgile.
+                    <lb/>Car S. Paul ne sçauoit pas que la doctrine
+                    <lb/>de l'Euangile fust vne doctrine de
+                    <lb/>Dieu <hi rend="I">:</hi> mais S. Pierre sçauoit bien que Iesus
+                    <lb/>estoit le Christ, qu'il parloit mal de dire
+                    <lb/>qu'il ne le cognoissoit pas, &amp; qu'il n'estoit
+                    <lb/>pas son disciple. Si S. Pierre fust tombé iusques
+                    <lb/>en c'este impieté, que de renier par
+                    <lb/>vne malice volontaire &amp; deliberee, &amp; par
+                    <lb/>haine qu'il eust conceuë à l'encontre de <choice><sic>no-</sic><corr resp="#RSL">nostre</corr></choice>
+                    <lb/>Seigneur Iesus Christ, la doctrine d'iceluy,
+                    <lb/>de laquelle il sçauoit bien que c'estoit la verité,
+                    <lb/>&amp; eust blasphemé à l'encontre d'icelle,
+                    <lb/>alors il eust commis ce peché contre le S.
+                    <lb/>Esprit, lequel nous disons qu'il n'a pas commis,
+                    <lb/>&amp; il n'eust point obtenu de pardon
+                    <lb/>d'vn tel peché, voire mesme Dieu ne lui
+                    <lb/>eust point fait la grace d'auoir repentance,
+                    <lb/>comme il appert par le 6. chapitre de
+                    <lb/>l'Epistre aux Hebrieux. Or nous entendrons
+                    <lb/>puis apres que Dieu lui a donné repentance :
+                    <lb/>dont nous concluons certainement
+                    <lb/>qu'il n'a point commis ce peché irremissible
+                    <lb/>contre le S. Esprit. Il a renié nostre
+                    <lb/>Seigneur, nõ pas par malice, mais par crainte
+                    <lb/>excessiue &amp; demesuree. Il n'a pas dit aussi, ie
+                    <lb/>ne cognois point ce seducteur-là, ou ce meschant
+                    <lb/>homme-là, car s'il eust ainsi parlé il
+                    <lb/>eust blasphemé, mais il a dit simplement ie
+                    <lb/>ne cognoy point c'est homme. Cecy nous
+                    <lb/>doit seruir afin que nous ne condamnions <pb n="164"/>
+                    <lb/>point tous ceux qui par crainte excessiue durant
+                    <lb/>les persecutions, ont renié ou mesmes
+                    <lb/>abjuré la verité de Dieu, &amp; que nous ne desesperions
+                    <lb/>point du salut d'iceux. Il est vray
+                    <lb/>qu'il faut tousiours condamner le peché, &amp;
+                    <lb/>dire que c'est mal fait, quiconque ce soit qui
+                    <lb/>le cõmette : mais il faut prier Dieu pour les
+                    <lb/>personnes, assauoir pour ceux qui sont tombez
+                    <lb/>non point par malice ou haine de la verité,
+                    <lb/>mais par infirmité de la chair. Car Dieu
+                    <lb/>qui a releué S. Pierre les pourra bien aussi
+                    <lb/>releuer. Mais aussi d'autre costé, comme
+                    <lb/>nous ne deuons condamner personne temerairement,
+                    <lb/>aussi ne faut-il pas que nous
+                    <lb/>ensuiuions les pecheurs en leurs pechez. Car
+                    <lb/>comme l'inceste de Lot, ou son enyurement,
+                    <lb/>l'enyurement aussi de Noé, l'adultere
+                    <lb/>de Dauid, le peché de Salomon qui est tombé
+                    <lb/>en Idolatrie, ne nous sont pas recitez afin
+                    <lb/>que les ensuiuions, mais afin que nous apprenions
+                    <lb/>que tous ont besoin de recourir à
+                    <lb/>la grace du benefice de nostre Seigneur
+                    <lb/>Iesus Christ Redempteur, &amp; aussi que nous
+                    <lb/>prions Dieu qu'il nous face la grace de n'y
+                    <lb/>point tomber, ainsi aussi la cheute de S. Pierre
+                    <lb/>ne nous est point recitée afin que nous
+                    <lb/>tombions comme lui, ains plustost afin que
+                    <lb/>nous soyons sur nos gardes, &amp; que nous
+                    <lb/>prions Dieu diligemment, à ce qu'il nous
+                    <lb/>conferme en la foy, afin que nous demeurions
+                    <lb/>constans en la profession de sa verité. <fw place="bot-right" type="catch"
+                        >Comme</fw>
+                     <pb n="165"/>
+                    <lb/>Comme si quelqu'vn disoit, vn tel est tõbé
+                    <lb/>en la riuiere, peu s'en est falu qu'il ne se soit
+                    <lb/>noyé : cela ne nous doit pas donner occasion
+                    <lb/>de nous aller ietter en la riuiere, soubs ombre
+                    <lb/>que l'autre en est eschappé. Ainsi l'histoire
+                    <lb/>de la cheute de S. Pierre ne nous est
+                    <lb/>point recitee, afin que nous renions nostre
+                    <lb/>Seigneur Iesus Christ, mais plustost afin que
+                    <lb/>si l'infirmité de la chair nous a portez iusques-
+                    <lb/>là, que nous nous soyons reuoltez de
+                    <lb/>son seruice, ou que nous ayons esté espouuantez,
+                    <lb/>pour ne point faire profession de sa
+                    <lb/>verité, nous ne cõtinuions pas en c'est horrible
+                    <lb/>peché-là, mais que nous ensuiuions S.
+                    <lb/>Pierre en sa repentance, afin qu'auec lui
+                    <lb/>nous obtenions de Dieu la remission de nos pechez.</p>
+                <p n="19">
+                    <lb/>En 7. lieu l'exemple de S. Pierre nous
+                    <lb/>doit seruir de doctrine &amp; d'aduertissement,
+                    <lb/>afin que pour euiter les pechez nous euitions
+                    <lb/>les occasions d'iceux, qui nous pourroyent inciter
+                    <lb/>à les commettre. Il nous doit
+                    <lb/>enseigner que nous deuons fuir la compagnie
+                    <lb/>&amp; la frequentation des meschans, qui
+                    <lb/>nous pourroyent soliciter à offenser Dieu.
+                    <lb/>Si quelqu'vn a des habits blancs, &amp; il les
+                    <lb/>veut garder blancs, il ne faut pas qu'il les
+                    <lb/>frote contre ceux des charbonniers ou contre
+                    <lb/>les sacs d'iceux, si quelqu'vn a des habits
+                    <lb/>noirs, &amp; il les veut garder nets, il ne faut pas
+                    <lb/>qu'il aille au moulin, ou en d'autres lieux esquels <pb n="166"/>
+                    <lb/>il pourroit tomber de la farine sur iceux,
+                    <lb/>il ne faut pas qu'auec iceux il aille seruir
+                    <lb/>les massons. Celui qui veut demeurer
+                    <lb/>chaste &amp; pudique, il ne faut pas qu'il frequente
+                    <lb/>les paillards ny les paillardes : celui
+                    <lb/>qui veut demeurer bon mesnager, il ne faut
+                    <lb/>pas qu'il frequente les prodigues &amp; les
+                    <lb/>ioueurs : celui qui veut demeurer loyal &amp; fidelle,
+                    <lb/>il ne faut pas qu'il frequente les larrons :
+                    <lb/>celui qui ne veut point s'enyurer, il ne
+                    <lb/>faut pas qu'il frequente les tauerniers, ni
+                    <lb/>les compagnies des yurongnes : celui qui
+                    <lb/>veut demeurer homme de bien, il ne faut
+                    <lb/>pas qu'il frequente : les voleurs : celui qui ne
+                    <lb/>veut point apprendre à blasphemer, il ne
+                    <lb/>faut pas qu'il frequente les blasphemateurs,
+                    <lb/>celui qui ne veut point renier nostre Seigneur
+                    <lb/>Iesus Christ, il ne se doit pas legerement
+                    <lb/>trouuer és lieux, l'à où on ne le peut
+                    <lb/>confesser sans grands dangers. Car <quote source="bible1588.xml#Ecclq.13.1">qui touche
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Ecclq.13.1"> <!-- le livre de l'Ecclésiastique n'est pas dans Segond21-->
+                                <hi rend="I">Eccles.</hi> 13. <lb/>1.</ref>
+                        </note> la poix il sera taché, &amp; qui communique
+                        <lb/>auec l'orgueilleux deuiendra semblable à lui</quote> :
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.26"><hi rend="I">Pseau</hi>. 26</ref></note> &amp; voila pourquoi Dauid dit, Meschantes
+                    <lb/>compagnies, i'ay tellement hayes, que ne
+                    <lb/>m'en suis point accointé : &amp; Salomon dit és
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#Prov.1.10:15">Prouerbes chap. 1.</ref>
+                    <quote source="bible1588.xml#Prov.1.10">Mon fils si les pecheurs
+                        <lb/>te veullent attraire, ne t'y accorde point</quote>,
+                    <lb/>&amp;c. <quote source="bible1588.xml#Prov.1.15">mon fils ne te mets point en chemin auec
+                        <lb/>eux, retire ton pied de leur sentier</quote>. Plusieurs
+                    <lb/>ne pensent pas au peché lequel ils cõmettent
+                    <lb/>puis apres, ou au malheur auquel <fw place="bot-right" type="catch">ils</fw>
+                     <pb n="167"/>
+                    <lb/>ils tombent, quand ils se trouuent en des
+                    <lb/>lieux dangereux, ou auec des gẽs meschans :
+                    <lb/>Dina ne pensoit pas à la paillardise quand
+                    <lb/>elle alla en Sichem, elle ne pensoit guere
+                    <lb/>qu'elle y deust estre violee, autrement elle
+                    <lb/>fust demeuree aupres de sa mere en la maison,
+                    <lb/>mais seulement la curiosité la portoit là
+                    <lb/>pour aller voir les filles du pays, peut estre
+                    <lb/>pour voir comment elles estoyẽt habillees
+                    <lb/>ou coiffees : &amp; cependant nous voyons en
+                    <lb/>quel inconuenient elle est tombee. Pourtant
+                    <lb/>faut-il que nous euitions les occasions
+                    <lb/>de pecher, si nous hayssons le peché, &amp; que
+                    <lb/>nous fuyons les compagnies des meschans,
+                    <lb/>auec lesquels nous ne pourrons pas subsister
+                    <lb/>si nous voulons seruir à Dieu.</p>
+                <p n="20">
+                    <lb/>Et principalement ceux ausquels Dieu a
+                    <lb/>donné la cognoissance de l'Euãgile doiuent
+                    <lb/>apprendre par ceste cheute de S. Pierre de
+                    <lb/>fuir les Courts des Prelats de l'Eglise Romaine.
+                    <lb/>Car s'ils se veulent chauffer à
+                    <choice><sic>leu</sic><corr resp="#RSL">leur</corr></choice> feu,
+                    <lb/>c'est à dire estre participans de leur grasse
+                    <lb/>cuisine, ou auoir par à leur marmite, ils se
+                    <lb/>mettent en dãger de renier nostre Seigneur
+                    <lb/>Iesus Christ, ou s'ils le veulent confesser,
+                    <lb/>leur langage les donnera à cognoistre, &amp; ils
+                    <lb/>ne seront en seurté en ses Courts là ni
+                    <lb/>quant à l'ame ni quant au corps.</p>
+                <p n="21">
+                    <lb/>Nous deuons aussi retenir de ceste Histoire
+                    <lb/>de la cheute de S. Pierre, qu'il ne nous faut
+                    <lb/>point perdre esperãce du salut d'aucũ homme <pb n="168"/>
+                    <lb/>quelque lourdement qu'il soit tõbé, quãd
+                    <lb/>nous voyons que Dieu lui a donné vraye repentance
+                    <lb/>pour se releuer de sa cheute : &amp; la
+                    <lb/>vraye repentance est celle qui se monstre
+                    <lb/>par ses fruicts : quand l'hõme non seulement
+                    <lb/>conoit &amp; cõfesse ses pechez, mais aussi qu'il
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Prov.28.13">
+                            <hi rend="I">Prou.</hi> 28.</ref>
+                    </note> les delaisse, cõme Salomõ dit és Prouerbes,
+                    <lb/>
+                    <quote source="bible1588.xml#Prov.28.13">qui cache ses mesfaits il ne prosperera point,
+                        <lb/>mais celui qui les confesse &amp; les delaisse obtiendra
+                        <lb/>misericorde</quote>, &amp; qu'il fait le contraire
+                    <lb/>du mal qu'il auoit fait, comme il est dit
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#Ps.34.15">Psea. 34.</ref>
+                    <quote source="bible1588.xml#Ps.34.15">destourne toi du mal, &amp; fai le bien</quote>,
+                    <lb/>cõme nous auons tantost entendu que tant
+                    <lb/>plus S. Pierre s'estoit monstré craintif en
+                    <lb/>reniant nostre Seigneur, tant plus s'est-il
+                    <lb/>puis apres monstré hardi &amp; courageux à le
+                    <lb/>confesser : &amp; a monstré qu'il ne se soucioyt
+                    <lb/>en façon quelconque de toutes les menaces
+                    <lb/>de ceux qui le vouloyent empescher de
+                    <lb/>prescher la doctrine du Sainct Euangile, &amp;
+                    <lb/>qu'ils auoyent beau lui defendre de plus
+                    <lb/>prescher au nom de Iesus.</p>
+                <p n="22">
+                    <lb/>Voila les doctrines &amp; instructions que
+                    <lb/>nous auons à remarquer sur la cheute de S.
+                    <lb/>Pierre. Celles que nous auons à remarquer
+                    <lb/>sur la repentance d'icelui seront remises à
+                    <lb/>vne autre fois moyennant la grace de Dieu,
+                    <lb/>auquel pour tous ses benefices enuers nous
+                    <lb/>soit honneur &amp; benediction à iamais. AMEN.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

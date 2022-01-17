@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1745_Vinchon_Des_Vœux_RSL">
+            <titleStmt>
+                <title type="sermon">SERMON.Sur la véritable Patrie des François Réfugiés.</title>
+                <title type="book">Trois Sermons. I. Sur la véritable Patrie des François Réfugiés.
+                    II. Sur l’interposition singulière de la Providence dans la Révolution de 1688.
+                    III. Sur l’obligation indispensable de soutenir les Droits du Roi contre les
+                    Rebelles. Par V. Des Voeux. L’un des Pasteurs des Eglises Françoises de Dublin,
+                    &amp; Chapelain du Regiment des Carabiniers Du Roi, A Dublin : Chéz S. Powell.
+                    1745.</title>
+                <author ref="...">Vinchon Des Vœux</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="RSL">Ruth STAWARZ-LUGINBUEHL</persName>
+                        <email>ruth.luginbuhl@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Vinchon Des Vœux</author>
+                        <title>Trois Sermons. I. Sur la véritable Patrie des François Réfugiés. II.
+                            Sur l’interposition singulière de la Providence dans la Révolution de
+                            1688. III. Sur l’obligation indispensable de soutenir les Droits du Roi
+                            contre les Rebelles.</title>
+                        <imprint>
+                            <pubPlace>Dublin</pubPlace>
+                            <publisher>S. Powell</publisher>
+                            <date>1745</date>
+                            <date type="sermon">1744</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">https://books.google.ch/books?id=zxdgAAAAcAAJ</idno>
+                    <idno type="source">The British Library</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_thématique</term>
+                    <term type="sermonTheme">sur la véritable patrie des Français réfugiés</term>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">3</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">1Sam.29.8</term>
+                    <term type="paratext" subtype="epistle">A SON EXCELLENCE MONSEIGNEUR Le Comte DE CHESTERFIELD Baron STANHOPE de SHELFORD, Conseiller Privé de sa Majesté, Chevalier de l’ordre de la Jaretierre, VICEROI d’Irlande.</term>
+                    <term type="paratext" subtype="preface">AVERTISSEMENT.</term>
+                    <term type="paratext" subtype="other">Noms des SOUSCRIVANS.</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-03-04" who="#LjD">transformation word - XML</change>
+            <change when="2016-03-04" who="#MAG">Verification, citations</change>
+            <change when="2014-05-27" who="#RSL">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>TROIS 
+                    <lb/>SERMONS. 
+                    <lb/>I. Sur la véritable Patrie des François Réfugiés. 
+                    <lb/>II. Sur l'interposition singulière de la Providence 
+                    <lb/>dans la Révolution de 1688. 
+                    <lb/>III. Sur l'obligation indispensable de soutenir 
+                    <lb/>les Droits du Roi contre les Rebelles. 
+                    <lb/>Par <hi rend="I">V. DES VOEUX. </hi> 
+                    <lb/>L'un des <hi rend="I">Pasteurs </hi>des Eglises Françoises de 
+                    <lb/>Dublin, &amp; <hi rend="I">Chapelain </hi>du Regiment des <hi rend="I">Carabiniers</hi> 
+                    <lb/>Du Roi. 
+                    <lb/>
+                    <hi rend="I">A DUBLIN : </hi> 
+                    <lb/>Chéz S. POWELL. 1745.</p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <head type="main">
+                    <lb/>SERMON. 
+                    <lb/>Sur la véritable Patrie des François 
+                    <lb/>Réfugiés.</head>
+                <p n="1">
+                    <lb/>Prèché le Jour de JEUNE, <date>11 Avril, 1744.</date>
+                </p>
+                <p n="2">
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#_1Sam.29.8">1 SAM. XXIX. 8.</ref> 
+                    <lb/>
+                    <quote source="bibleOstervald1724.xml#_1Sam.29.8">
+                        <hi rend="I">David dit à Akis qu'ai-je fait ? et qu'as tu 
+                            <lb/>trouvé en ton serviteur, depuis le Jour que 
+                            <lb/>j'ai été avec toi jusqu'à ce jour ; que 
+                            <lb/>je n'aille pas combattre contre les ennemis 
+                            <lb/>du Roi mon Seigneur</hi></quote> <hi rend="I">?</hi>
+                    
+                </p>
+                <p n="3">
+                    <lb/>MES FRERES,</p>
+                <p n="4">
+                    <lb/>
+                    <c type="lettrine">L</c>E zèle que David exprime dans ces 
+                    <lb/>parolles nous a déterminé dans le 
+                    <lb/>choix que nous en avons fait, plûtôt 
+                    <lb/>que l'occasion particulière qui les lui 
+                    <lb/>fit profèrer. Opprimé dans les lieux que la 
+                    <lb/>Naissance lui avoit donnés pour PATRIE ; <fw place="bot-right" type="catch">per-</fw>
+                    <pb n="2"/>
+                    <lb/>persécuté à toute outrance ; ne pouvant vivre 
+                    <lb/>en seureté dans les Etats de Saül ; il avoit été 
+                    <lb/>obligé de chercher un azyle ailleurs. Le 
+                    <lb/>Roi de Gath lui avoit donné retraite à lui 
+                    <lb/>&amp; à ses Gens. <quote source="bibleOstervald1724.xml#_1Sam.27.1-3">"<ref target="#fn_2_1" type="noteAnchor">*</ref>
+                        David dit en son coeur ; 
+                        <lb/>"certes je perirai un jour par les mains de 
+                        <lb/>"Saül ; Ne vaut-il pas mieux que je me 
+                        <lb/>"sauve au païs des Philistins ? David donc 
+                        <lb/>"se leva, lui et les six cens hommes qui 
+                        <lb/>"étoient avec lui, et passa vers Akis fils de 
+                        <lb/>"Mahoc, Roi de Gath ; &amp; David demeura 
+                        <lb/>"avec Akis à Gath, lui et ses gens 
+                        <lb/>"chacun avec sa 
+                        famille."</quote>
+                    Comblés des 
+                    <lb/>bienfaits de ce Prince, David et son monde 
+                    <lb/>regardent comme leur <hi rend="I">Patrie</hi> le païs de 
+                    <lb/>leur <hi rend="I">Réfuge</hi>. Ils ne demandent qu'à combattre 
+                    <lb/>ceux là même qui furent autrefois 
+                    <lb/>leurs Compatriotes, dès là qu'ils sont 
+                    <lb/>ennemis de l'Etat dans lequel ils ont 
+                    <lb/>trouvé, ce qui seul a droit d'attacher les 
+                    <lb/>hommes à un païs plûtôt qu'à un autre, 
+                    <lb/>la seureté et la protection. Cette disposition 
+                    <lb/>suppose une maxime que nous avons 
+                    <lb/>dessein d'établir dans la prémiere partie de 
+                    <lb/>ce Discours. <hi rend="I">Tout Païs qui reçoit et protege 
+                        <lb/>un Peuple opprimé et persécuté devient 
+                        <lb/>la PATRIE de ce Peuple, et aquiert à 
+                            <lb/>son égard les droits que le nom de PATRIE 
+                    <lb/>suppose, et de plus sacrés encore.</hi> 
+                    <fw place="bot-right" type="catch">Tels</fw>
+                    <note xml:id="fn_2_1" type="foot" n="*">
+                        <ref type="bible" target="bibleSegond21.xml#Sam.27.1-3">1 <hi rend="I">Sam.</hi> xxvii. 1-3.</ref>
+                    </note>
+                        
+                    <pb n="3"/>
+                    <lb/>Tels sont à nottre égard ces Roïaumes. 
+                    <lb/>C'est un fait que nous déveloperons en 
+                    <lb/>peu de mots dans nottre seconde partie. 
+                    <lb/>Cela étant, que nous convient il de faire 
+                    <lb/>dans les circonstances présentes ? C'est une 
+                    <lb/>question à laquelle nous répondrons dans 
+                    <lb/>notre troisième et dernière partie. Dieu 
+                    <lb/>veuïlle bénir nos Réflexions, afinque sachant 
+                    <lb/>où le nom de PATRIE doit être 
+                    <lb/>placé par rapport à nous, nous demeurions 
+                    <lb/>aussi bien convaincus qu'il ne nous 
+                    <lb/>est pas possible d'être bons Chrétiens sans 
+                    <lb/>être bons Citoïens ! Amen !</p>
+                <div type="sub" n="1">
+                    <head type="sub">
+                        <lb/>PREMIERE PARTIE.</head>
+                    <p n="5">
+                        <lb/>Le nom de PATRIE a toujours paru 
+                        <lb/>respectable ; mais on n'a pas toujours eu 
+                        <lb/>de saines idées de ce qui caractérise la 
+                        <lb/>PATRIE. Les Anciens d'entre les Gentils, 
+                        <lb/>à qui les loix qui concernent l'adoption 
+                        <lb/>rendoient familière l'idée d'un changement 
+                        <lb/>de Père, auroient dû ce semble en 
+                        <lb/>avoir quelcune d'un changement de PATRIE. 
+                        <lb/>Cependant on ne voit point qu'ils 
+                        <lb/>en aïent eu ; et conformément à ce 
+                        <lb/>qu'exige l'intèrest des Tyrans, ils ont constament 
+                        <lb/>regardé le lieu de la naissance, ou 
+                        <lb/>l'origine des Ancêtres, comme fixant la 
+                        <lb/>PATRIE d'une manière irrévocable. David 
+                        <lb/>etoit dans d'autres principes ; et ses <fw place="bot-right" type="catch">principes</fw>
+                        <pb n="4"/>
+                        <lb/>principes nous nous faisons d'autant plus 
+                        <lb/>de gloire de les adopter, que leur conformité 
+                        <lb/>avec la droite raison ne nous permet 
+                        <lb/>pas de douter qu'ils n'appartiennent 
+                        <lb/>au Christianisme, puisque cette Religion 
+                        <lb/>nous recommande la pratique de tout ce qui 
+                        <lb/>peut devenir un devoir selon les circonstances 
+                        <lb/>où nous nous trouvons. La maxime 
+                        <lb/>qui regloit le zèle de ce Prince pour le 
+                        <lb/>service d'Akis, se déduit si naturellement 
+                        <lb/>et si nécessairement de tous les principes 
+                        <lb/>sur les quels peuvent être fondés les droits 
+                        <lb/>de la PATRIE, que nous ne concevons 
+                        <lb/>pas comment on peut admettre ces droits 
+                        <lb/>et les révoquer en doute. C'est ce dont 
+                        <lb/>un court examen de ces principes peut 
+                        <lb/>facilement nous convaincre. Je les réduits 
+                        <lb/>à trois.</p>
+                    <p n="6">
+                        <lb/>La reconnoissance des bienfaits reçus est 
+                        <lb/>le prémier principe d'où naissent les droits 
+                        <lb/>de la PATRIE. Les hommes, originairement 
+                        <lb/>égaux et indépendants, ne se doivent 
+                        <lb/>primitivement rien les uns aux autres. 
+                        <lb/>Mais un bienfait reçu détruit, à proportion 
+                        <lb/>de sa valeur, cette égalité et cette 
+                        <lb/>indépendance. Il aquiert au bienfaicteur le 
+                        <lb/>droit d'exiger le retour ; et ce droit subsiste 
+                        <lb/>jusqu'à ce que la dette soit pleinement 
+                        <lb/>acquitée, ou que, par des mauvais 
+                        <lb/>traitemens dont il <choice><sic>nétoit</sic><corr resp="#MAG">n'étoit</corr></choice> point en droit 
+                        <lb/>d'user, le bienfaicteur ait compensé l'obligation <fw place="bot-right" type="catch">gation</fw>
+                        <pb n="5"/>
+                        <lb/>qu'on lui avoit, et l'ait anéantie. 
+                        <lb/>La Société au milieu de la quelle on 
+                        <lb/>naît acquiert d'abord ce droit sur chacun 
+                        <lb/>de nous, par les soins de diverses especes 
+                        <lb/>qu'elle prend collectivement pour empêcher 
+                        <lb/>nottre destruction, dans un âge où 
+                        <lb/>l'homme est absolument incapable de 
+                        <lb/>veiller à sa propre sureté. Elle le fortifie 
+                        <lb/>ensuite, par la manutention, et par l'exacte 
+                        <lb/>exécution des loix, sous la protection des 
+                        <lb/>quelles le particulier vit en sureté, et jouit 
+                        <lb/>en paix de ce qui est à lui. Mais si cette 
+                        <lb/>Société, aulieu de me protéger, me tyrannise ; 
+                        <lb/>si, aulieu de me conserver, elle 
+                        <lb/>cherche à me détruire ; si elle m'opprime ; 
+                        <lb/>si elle me persécute ; si elle me ravit l'apui 
+                        <lb/>des loix ; si, au lieu de me procurer la 
+                        <lb/>jouissance paisible de ce qui est à moi, 
+                        <lb/>elle m'en prive sans raison ; que lui dois-
+                        <lb/>je alors ? De la reconnoissance ? Eh pour 
+                        <lb/>quoi ? Pour m'avoir fait du mal ! Le 
+                        <lb/>prétendre seroit l'effet d'un étrange renversement 
+                        <lb/>d'idées. Mais lors que, forcé de 
+                        <lb/>quiter cette Société pour me soustraire à 
+                        <lb/>ses vexations, je trouve ailleurs cette protection ; 
+                        <lb/>cette sureté ; cet apui ; en un mot 
+                        <lb/>tous les avantages que me refusoit le lieu 
+                        <lb/>qui m'avoit vû naitre ; cet azyle n'a-t-il 
+                        <lb/>pas droit à ma reconnoissance ? N'acquiert-
+                        <lb/>il pas visiblement, à mon égard, tous les 
+                        <lb/>droits, qu'à titre de bienfaictrice, la Nation <fw place="bot-right" type="catch">on</fw>
+                        <pb n="6"/>
+                        <lb/>dans la quelle je suis né eut pu prétendre ; 
+                        <lb/>si, en renonçant au titre, elle ne 
+                        <lb/>fut déchue de toutes les prérogatives qui 
+                        <lb/>y sont attachées ?</p>
+                    <p n="7">
+                        <lb/>Réünissons sous un même Chef, pour 
+                        <lb/>prévenir la longueur, les deux autres principes, 
+                        <lb/>d'où naissent les droits de la PATRIE 
+                        <lb/>sur les Particuliers : L'esperance de 
+                        <lb/>protection pour l'avenir, et la Communeauté 
+                        <lb/>d'intèrest. Je n'ai garde de prétendre 
+                        <lb/>que Dieu nous ait mis sur la terre pour 
+                        <lb/>nous seuls ; mais au fond, nous n'y <choice><sic>sommos</sic><corr resp="#RSL">sommes</corr></choice> 
+                        <lb/>pas plus pour autres que les 
+                        <lb/>autres n'y sont pour nous. Cela est réciproque. 
+                        <lb/>Comme Dieu nous a créés avec 
+                        <lb/>le desir insurmontable d'être heureux, 
+                        <lb/>c'est nottre propre bonheur ; c'est nottre 
+                        <lb/>propre avantage qui nous guide, et qui 
+                        <lb/>nous doit guider en tout. C'est parceque 
+                        <lb/>nottre bien être dépend en grande partie 
+                        <lb/>de celui des autres hommes et de nottre 
+                        <lb/>union avec eux, que nous vivons en Société. 
+                        <lb/>Sans cela il vaudroit autant ; il vaudroit mieux 
+                        <lb/>même à certains égards, vivre isolé dans 
+                        <lb/>les Deserts. Mais il résulteroit de cette vie 
+                        <lb/>solitaire des inconvéniens dont les hommes 
+                        <lb/>se guarantissent par la protection et par l'apui 
+                        <lb/>mutuel qu'ils se donnent lorsqu'ils s'unissent 
+                        <lb/>ensemble pour former un corps politique. 
+                        <lb/>Sans l'attente de cette protection, et <fw place="bot-right" type="catch">sans</fw>
+                        <pb n="7"/>
+                        <lb/>sans la communeauté d'intèrest dont cette attente 
+                        <lb/>est la base, il n'y auroit point de Société ; 
+                        <lb/>point de Corps Politique ; et parconséquent 
+                        <lb/>point de PATRIE. Il n'y auroit 
+                        <lb/>donc pas non plus de droits de la part d'une 
+                        <lb/>PATRIE qui n'existeroit point ; ny de devoirs 
+                        <lb/>à remplir envers elle. Par là M. F. 
+                        <lb/>vous voïés clairement, qu'un païs ne peut 
+                        <lb/>meriter le nom de PATRIE à nottre égard, 
+                        <lb/>qu'autant que nous avons lieu de nous promettre, 
+                        <lb/>de la part de ses Habitans, la même 
+                        <lb/>protection, le même apui, que nous serions 
+                        <lb/>nous même en état de donner ; proportion 
+                        <lb/>gardée du nombre et du pouvoir d'eux 
+                        <lb/>et de nous ; enfin autant que ses intèrests 
+                        <lb/>et les nôtres sont les mêmes. Mais en tout 
+                        <lb/>cela je n'apperçois rien qui attache les hommes 
+                        <lb/>à un païs, plûtôt qu'à un autre ; si ce 
+                        <lb/>n'est à celui, où ils ont déja trouvé cette 
+                        <lb/>protection et cette bienveillance, qui donnent 
+                        <lb/>lieu d'esperer qu'on sera toujours protégé ; 
+                        <lb/>où, par cette raison, ils se sont fixés, 
+                        <lb/>et qui comprend leur sort aussi bien que 
+                        <lb/>celui des autres Habitans. Ce païs là seul a sur 
+                        <lb/>eux les droits que suppose un nom si doux. 
+                        <lb/>Ces droits même deviennent d'autant plus 
+                        <lb/>sacrés, que les bienfaits ont été plus volontaires, 
+                        <lb/>et plus indépendants du hazard. 
+                        <lb/>Un Peuple, reçu à bras ouverts au milieu 
+                        <lb/>d'un autre Peuple, doit plus à la Nation qui <fw place="bot-right" type="catch">le</fw>
+                        <pb n="8"/>
+                        <lb/>le reçoit, que les membres même de cette 
+                        <lb/>Nation ne se doivent les uns aux autres. 
+                        <lb/>
+                        <hi rend="I">Tout païs qui reçoit et protege un Peuple opprimé 
+                            <lb/>et persécuté devient la PATRIE de ce 
+                            <lb/>Peuple </hi>; <hi rend="I">et acquiert à son égard les droits que 
+                                <lb/>le nom de PATRIE suppose, et de plus sacrés 
+                            <lb/>encore</hi>. C'est ce que nous nous étions 
+                        <lb/>proposés de vous faire voir.</p>
+                    <p n="8">
+                        <lb/>Nous sommes ce Peuple M. F. Nous 
+                        <lb/>sommes, ou nos Peres ont été, ce que David 
+                        <lb/>et les siens étoient dans les Etats d'Akis. 
+                        <lb/>Ce Païs est desormais nottre PATRIE. Il 
+                        <lb/>en a acquis à nottre égard tous les droits. 
+                        <lb/>C'est un fait que nous avons promis de déveloper. 
+                        <lb/>Mais en a-t-il besoin ? Qui l'ignore ? 
+                        <lb/>Jusqu'où le bruit de nos malheurs 
+                        <lb/>n'a-t-il point été ? Où n'est pas connuë la 
+                        <lb/>perfidie, dont furent les victimes, vers la 
+                        <lb/>fin du Siècle passé, les Réformés que la 
+                        <lb/>France renfermoit dans son sein ; mais 
+                        <lb/>dont elle refusoit de se montrer la PATRIE ? 
+                        <lb/>Ils vivoient en paix sur la foi des 
+                        <lb/>Traités les plus solemnels. Ils n'aspiroient 
+                        <lb/>point à de <choice><sic>nouvaux</sic><corr resp="#MAG">nouveaux</corr></choice> Privileges. Ils ne 
+                        <lb/>demandoient autre chose que d'être protégés 
+                        <lb/>par des loix faites en leur faveur, et 
+                        <lb/>qu'il s'agissoit simplement d'exécuter. Mais 
+                        <lb/>ces loix on les foula aux pieds. On opprima, <fw place="bot-right" type="catch">ma,</fw>
+                        <pb n="9"/>
+                        <lb/>sans les respecter, un Peuple qui les 
+                        <lb/>réclamoit. La foi donnèe, à des hommes que 
+                        <lb/>l'on jugeoit à propos d'appeler Herétiques, 
+                        <lb/>fut comptée pour rien. Les droits communs 
+                        <lb/>à tous les Sujets, et sacrés pour tous 
+                        <lb/>les autres, furent violés à leur égard. Ceux 
+                        <lb/>même de la Conscience ne furent point respectés. 
+                        <lb/>Où étoit alors leur PATRIE ? Ce 
+                        <lb/>seroit abuser des termes, que de prétendre 
+                        <lb/>qu'elle se trouvat dans leur Païs natal. Elle 
+                        <lb/>n'y étoit point en effet. Mais ils la trouvèrent 
+                        <lb/>dans les lieux où la Providence les 
+                        <lb/>conduisit, et en particulier au milieu de la 
+                        <lb/>Nation qui habite ces Roïaumes. Oui ; si 
+                        <lb/>la PATRIE est le Païs au quel on se doit par
+                        <lb/>reconnoissance ; cet Etat est nottre PATRIE<supplied resp="#RSL" reason="omission">.</supplied> 
+                        <lb/>C'est lui qui nous a sauvés de la destruction. 
+                        <lb/>C'est lui qui nous a recueïllis dans nottre 
+                        <lb/>naufrage. C'est lui, qui nous faisant participer 
+                        <lb/>aux suites avantageuses de l'heureuse 
+                        <lb/>
+                        <hi rend="I">Révolution</hi> qu'il a subie, met en sureté nos 
+                        <lb/>biens ; nottre liberté ; notre vie ; nottre Religion.</p>
+                    <p n="9">
+                        <lb/>Faut-il d'autres motifs pour nous y attacher ? 
+                        <lb/>Si la reconnoissance du passé ne les fournit pas, 
+                        <lb/>nottre intèrest actuel nous les suggère ; et ne 
+                        <lb/>peut manquer de nous y trouver sensibles. 
+                        <lb/>Quelle attente pour l'avenir bon Dieu ! Si 
+                        <lb/>les malheurs dont on a menacé cette Nation 
+                        <lb/>venoient à fondre sur elle ! Si un Homme 
+                        <lb/>élevé dans cette même Cour, d'où sont émanées <fw place="bot-right" type="catch">nées</fw>
+                        <pb n="10"/>
+                        <lb/>les loix, dont la cruauté nous a forcés à 
+                        <lb/>abandonner nos biens, nos familles, nos habitudes, 
+                        <lb/>nos liaisons les plus chères ; un 
+                        <lb/>homme affermi, par le long sejour qu'il a 
+                        <lb/>fait à Rome, dans les principes du Despotisme, 
+                        <lb/>de l'Oppression, et de la Persécution <hi rend="I">:</hi> 
+                        <lb/>un homme qui devroit son élévation à une 
+                        <lb/>Puissance qui ne nous a jamais perdus de 
+                        <lb/>vuë, et qui nous considère comme des Sujets 
+                        <lb/>Rebelles et fugitifs : Quelle attente, si Dieu 
+                        <lb/>dans sa colère permettoit qu'un tel homme 
+                        <lb/>montat sur le Thrône de ces Roïaumes ! 
+                        <lb/>Mais si Dieu détourne un tel fleau de dessus 
+                        <lb/>cette Nation ; s'il la bénit ; s'il maintient 
+                        <lb/>sur le Thrône, où il l'a placée, une Famille 
+                        <lb/>accoutumée à se faire aimer, plûtôt qu'à 
+                        <lb/>se faire redouter de ses sujets : la protection 
+                        <lb/>dont nous avons joui jusques icy, nous est 
+                        <lb/>guarante que nottre bonheur continuëra. 
+                        <lb/>Incorporés dans la Nation, sa prospèrité ne 
+                        <lb/>peut qu'être la nôtre. Ses Loix sont nos 
+                        <lb/>Loix. Ses Privileges sont nos Privileges. 
+                        <lb/>Sa Liberté n'est point distincte de la nôtre. 
+                        <lb/>Le Païs de notre Refuge est vraïment notre 
+                        <lb/>Patrie. Il n'a point d'intèrests, qui ne 
+                        <lb/>nous soient communs avec lui.</p>
+                </div>
+                <div type="sub" n="2">
+                    <head type="sub">
+                        <lb/>TROISIEME PARTIE.</head>
+                    <p n="10">
+                        <lb/>Qu'il nous Soit permis M. F. d'appliquer 
+                        <lb/>icy, sans profanation, aux hommes, par le <fw place="bot-right" type="catch">mini-</fw>
+                        <pb n="11"/>
+                        <lb/>ministère des quels Dieu nous fait du bien, 
+                        <lb/>ce que David disoit à l'égard de Dieu 
+                        <lb/>même. <quote source="bibleOstervald1724.xml#Ps.116.12">
+                            <hi rend="I">Que rendrai-je </hi>à cette Nation ?<!-- citation approximative --><ref target="#fn_11_1" type="noteAnchor">*</ref>
+                            
+                            <lb/>
+                            <hi rend="I">Tous ses bienfaits sont sur moi</hi>
+                           </quote>.
+                        <hi rend="I"> </hi>
+                        <quote source="bibleOstervald1724.xml#Ps.116.6:8">
+                            <hi rend="I">J'étois devenu
+                                <lb/>misèrable</hi>, et elle <hi rend="I">m'a sauvé</hi>
+                        </quote>. Par elle <quote source="bibleOstervald1724.xml#Ps.116.6:8">
+                            <hi rend="I">mon 
+                                <lb/>ame a <choice><sic>éte</sic><corr resp="#RSL">été</corr></choice></hi>
+                            <hi rend="I">retirée de la mort, mes yeux de 
+                                <lb/>pleurs, et mes pieds de
+                            trébuchement</hi><!-- citation approximative --></quote>. 
+                        <lb/>Que rendrons nous à cette Nation ? Que 
+                        <lb/>nous convient-il de faire, dans les circonstances 
+                        <lb/>présentes ? Tout ce que l'on doit à 
+                        <lb/>sa PATRIE ; à la PATRIE la plus bienfaisante ; 
+                        <lb/>nous le devons à l'Etat. Nous 
+                        <lb/>lui devons plus encore. Nous lui devons cela 
+                        <lb/>même que nous pouvons l'appeler notre 
+                        <lb/>PATRIE<hi rend="I">. </hi>Sentés vous bien M. F. jusqu'où 
+                        <lb/>va une telle obligation, et tout ce qu'elle 
+                        <lb/>renferme ? Nous devons la conservation de 
+                        <lb/>tout ce que nous avons ; et en tant que la 
+                        <lb/>vie, la liberté, et les biens nous ont été conservés, 
+                        <lb/>nous pouvons dire que nous les avons 
+                        <lb/>reçus. Soïons donc prets à nous en 
+                        <lb/>désaisir génereusement, si le bien de la PATRIE 
+                        <lb/>l'exige. Après tout ; ces avantages 
+                        <lb/>n'auroient rien qui meritat d'être regretté, 
+                        <lb/>s'ils survivoient au bonheur Public. La 
+                        <lb/>possession, qui nous en seroit peutêtre 
+                        <lb/>laissée, pour quelque tems, si le Gouvernement 
+                        <lb/>présent étoit bouleversé, seroit trop 
+                        <lb/>précaire, pour pouvoir nous flater qu'ils 
+                        <lb/>fussent à nous. Sous un Gouvernement Tyrannique, <fw place="bot-right" type="catch">ranni-</fw>
+                        <note xml:id="fn_11_1" type="foot" n="*">
+                            <ref type="bible" target="bibleSegond21.xml#Ps.116.6:8:12">Ps. cxvi. 6, 8, 12.</ref>
+                        </note> 
+                        <pb n="12"/>
+                        <lb/>le Sujet n'a rien qui soit véritablement 
+                        <lb/>à lui ; et cela même qu'il semble 
+                        <lb/>avoir, il est sans cesse à la veille de se le voir 
+                        <lb/>enlever. De la conservation du Gouvernement 
+                        <lb/>présent dépend donc la nôtre ; et par 
+                        <lb/>conséquent, à ne consulter que nottre propre 
+                        <lb/>intèrest, il n'y a rien que nous ne deussions 
+                        <lb/>être prets à sacrifier pour sa défense. Fussions-
+                        <lb/>nous réduits à sacrifier tout, sans exception ; 
+                        <lb/>nous ne perdrions par ce Sacrifice, que 
+                        <lb/>ce qui periroit avec le reste, s'il n'étoit point 
+                        <lb/>défendu <hi rend="I">:</hi> et, en risquant de sacrifier tout, 
+                        <lb/>nous avons toujours l'esperance d'être nous 
+                        <lb/>mêmes ce reste, qui peut être sauvé par le 
+                        <lb/>Sacrifice d'une partie.</p>
+                    <p n="11">
+                        <lb/>Mais, graces à Dieu, nous sommes bien 
+                        <lb/>loin d'en être réduits à cette extrémité. 
+                        <lb/>Tout ce que nous demandons de vous 
+                        <lb/>aujourd'hui, M. F. c'est le Sacrifice, de ce 
+                        <lb/>que vous ne pouriés conserver, sans un danger 
+                        <lb/>manifeste pour vous mêmes en particulier, 
+                        <lb/>aussi bien que pour la Nation dont vous 
+                        <lb/>faites partie. C'est uniquement le Sacrifice 
+                        <lb/>de ces <hi rend="I">passions</hi> corrompuës <quote source="bibleSegond21.xml#_1Pet.2.11">
+                            <hi rend="I">qui font la guerre
+                                <lb/>à l'ame</hi>
+                        </quote>, et qui, vous rendant odieux au 
+                        <lb/>Dieu des Batailles, pourroient contribuer à 
+                        <lb/>attirer sa colère sur nos Armées, et sa malédiction 
+                        <lb/>sur nos entreprises. Si le Roi 
+                        <lb/>forme des projets, et fait des préparatifs, convenables 
+                        <lb/>à l'importance de la guerre qui vient 
+                        <lb/>d'être déclarée contre la France, il nous annonce <fw place="bot-right" type="catch">nonce</fw>
+                        <pb n="13"/>
+                        <lb/>cependant, qu'il ne regarde ces moïens 
+                        <lb/>de vaincre, que comme subordonnés à la 
+                        <lb/>bénédiction du Ciel, et c'est pour implorer 
+                        <lb/>cette bénédiction sur ses armes, que nous 
+                        <lb/>sommes assemblés par son ordre. Reconnoissons 
+                        <lb/>avec lui, que quelque force 
+                        <lb/>qu'ait l'homme, et de quelque prudence qu'il 
+                        <lb/>soit doué ; le succès dépend de l'Eternel 
+                        <lb/>des Armées. Et s'il est vrai, comme il 
+                        <lb/>n'est que trop certain, que nous avons merité, 
+                        <lb/>par nos péchés, l'indignation de cet Etre 
+                        <lb/>Suprême ; tâchons de le fléchir par un 
+                        <lb/>sincère repentir. Sa misericorde ne s'est 
+                        <lb/>point encore retirée de dessus nous. Nous 
+                        <lb/>l'avons vû, il n'y a que quelques jours, se 
+                        <lb/>déclarer en nottre faveur contre un Ennemi 
+                        <lb/>perfide, qui se disposoit à nous envahir en 
+                        <lb/>pleine paix. Il a fait <hi rend="I">des vents ses Anges</hi>,
+                        <lb/>et a dissipé l'Orage qui nous menaçoit. Il 
+                        <lb/>a détourné de dessus nos Côtes, et sa main a 
+                        <lb/>englouti, en partie, dans les abymes de la 
+                        <lb/>Mer, une flotte destinée à raporter dans ces 
+                        <lb/>Roïaumes l'Oppression, la Tyrannie, et le 
+                        <lb/>Papisme, qui en ont été chassés. Les hommes 
+                        <lb/>avoient formé le projet de nous conquèrir.  
+                        <lb/>Ils avoient dit en leur cœur ; nous 
+                        <lb/>les subjuguerons. Nous leur donnerons pour 
+                        <lb/>Roi, celui qu'ils ne pourroient aimer sans 
+                        <lb/>se haïr eux mêmes. Dieu a souflé sur leurs 
+                        <lb/>desseins, et leurs projets se sont évanouis. 
+                        <lb/>
+                        <hi rend="I">Dieu est</hi> donc <hi rend="I">pour nous</hi>. Eh <hi rend="I">qui sera contre</hi> 
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">nous </hi>?</fw>
+                        <pb n="14"/>
+                        <lb/>
+                        <hi rend="I">nous </hi>? à moins que nous même, par notre 
+                        <lb/>endurcissement, nous ne forcions, pour ainsi 
+                        <lb/>dire, Dieu à nous abandonner. Ne soïons 
+                        <lb/>pas si insensés M. F. Assurons nos succès par 
+                        <lb/>nottre conversion. Que chacun dise avec 
+                        <lb/>David ; je veux <quote source="bibleOstervald1724.xml#_1Sam.29.8">
+                            <hi rend="I">combattre contre les ennemis
+                                <lb/>du Roi mon Seigneur</hi>
+                            
+                        </quote>
+                        <hi rend="I"> </hi>; et, si les circonstances 
+                        <lb/>ne demandent pas que je me serve 
+                        <lb/>des armes matèrielles, je combattrai auprès 
+                        <lb/>de Dieu par mes prières ; je combattrai, en 
+                        <lb/>augmentant le nombre de ces justes, dont un 
+                        <lb/>petit nombre même peut sufire pour détourner, 
+                        <lb/>de dessus une Nation, les plus terribles 
+                        <lb/>effects de la vangeance Divine. Tels 
+                        <lb/>puissent être nos sentimens et nos dispositions ! 
+                        <lb/>Dieu nous en fasse à tous la grace ! A 
+                        <lb/>lui Pere Fils et Saint Esprit soit honneur et 
+                        <lb/>gloire à jamais ! Amen !</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

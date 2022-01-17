@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1727_Pierre_Rival_RSL"> 
+            <titleStmt> 
+                <title type="sermon">SERMON SUR L'honeur que les Sujets doivent rendre a leurs Souverains.</title> 
+                <title type="book">Sermon prononcé le 25 de Juin, 1727 à l’occasion de l’avenement 
+                    du Roy George II. à la Couronne dans la Chapelle Royale Françoise du Palais de 
+                    St. James. Par Pierre Rival un des Chapelains de sa Majesté dans cette Chapelle. 
+                    A Londres. De L’imprimerie de Sam. Jallasson &amp; se vend chez J. P. Coderc, à 
+                    l’Enseigne de Pline in Little Newport-Street. M. DCC. XXVII.</title> 
+                <author ref="...">Pierre Rival</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="RSL">Ruth STAWARZ-LUGINBUEHL</persName> 
+                        <email>ruth.luginbuhl@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Pierre Rival</author> 
+                        <title>Sermon prononcé le 25 de Juin, 1727 à l’occasion de l’avenement du 
+                            Roy George II. à la Couronne dans la Chapelle Royale Françoise du Palais 
+                            de St. James.</title> 
+                        <imprint> 
+                            <pubPlace>Londres</pubPlace> 
+                            <publisher>Samuel Jallasson</publisher> 
+                            <date>1727</date>
+                            <date type="sermon">1727</date>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="source">Bibliothèque publique et universitaire de Neuchâtel, Bibliothèque des Pasteurs, Cote BPUN PA Cb 5/11</idno> 
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_circonstances</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">isolé</term>   
+                    <term type="numberOfSermons"/>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">1Pet.2.17</term>
+                    <term type="paratext" subtype="preface">Avertissement.</term>
+                    <term type="paratext" subtype="other">ERRATA.</term>
+                </keywords> 
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-03-04" who="#LjD">transformation word - XML</change> 
+            <change when="2016-03-04" who="#MAG">Verification, citations</change> 
+            <change when="2014-06-16" who="#RSL">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>SERMON 
+                    <lb/>PRONONCÉ 
+                    <lb/>Le 25 de <hi rend="I">Juin</hi>, 1727 
+                    <lb/>à l'occasion de l'avenement 
+                    <lb/>DU 
+                    <lb/>Roy George II. 
+                    <lb/> 
+                    <hi rend="I">à la Couronne. </hi> 
+                    <lb/>DANS 
+                    <lb/>La Chapelle Royale Françoise du Palais 
+                    <lb/>de St. <hi rend="I">James</hi>. 
+                    <lb/> 
+                    <hi rend="I">Par </hi>Pierre Rival <hi rend="I">un des Chapelains 
+                        <lb/>de </hi>SA MAJESTÉ <hi rend="I">dans cette Chapelle. 
+                        <lb/>A LONDRES. </hi> 
+                    <lb/>De L'imprimerie de SAM. JALLASSON 
+                    <lb/>&amp; se vend chez J. P. CODERC, à l'Enseigne 
+                    <lb/>de Pline in <hi rend="I">Little Newport-Street. </hi> 
+                    <lb/>M. DCC. XXVII.</p> 
+            </div> 
+        </front> 
+        <body> 
+            <div type="sermon"> 
+                <pb n="1"/> 
+                <figure/> 
+                <head type="main"> 
+                    <lb/>SERMON 
+                    <lb/>SUR 
+                    <lb/>L'honeur que les Sujets doivent 
+                    <lb/>rendre a leurs Souverains.</head> 
+                <p n="1"> 
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#_1Pet.2.17">I. Ep. de St. Pierre Ch. II. v. 17.</ref> 
+                </p> 
+                <p n="2"> 
+                    <lb/> 
+                    <quote source="bibleOstervald1724.xml#_1Pet.2.17"> 
+                        <hi rend="I">Honorez le Roi</hi> 
+                    </quote>. 
+                </p> 
+                <p n="3"> 
+                    <lb/>MES FRERES,</p> 
+                <p n="4"> 
+                    <lb/> 
+                    <c type="letterine">I</c>L ne peut jamais être hors de saison 
+                    <lb/>pour nous, de vous entretenir du 
+                    <lb/>devoir des Sujets envers leurs Souverains. 
+                    <lb/>Il entre nécessairement, 
+                    <lb/>il tient meme le premier rang, dans cette 
+                    <lb/>partie si essentielle de la Morale, qu'on appelle 
+                    <lb/>la <hi rend="I">Justice</hi>, &amp; qui consiste à rendre, à chacun 
+                    <lb/>des hommes, ce qui lui appartient. S. Paul 
+                    <lb/>nous en recommande éxpressément la prédication, 
+                    <lb/>en la personne de Tite, lors qu'il lui ordonne <fw place="bot-right" type="catch">don-</fw> 
+                    <pb n="2"/> 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Titus.3.1">Ch. iii. 1.</ref> 
+                    </note> d'<hi rend="I">éxhorter</hi> les membres de son Troupeau, 
+                    <lb/>d'<quote source="bibleOstervald1724.xml#Titus.3.1"> 
+                        <hi rend="I">être soûmis aux Principautez &amp; aux Puissances</hi> 
+                         
+                    </quote> 
+                    <hi rend="I">.</hi> 
+                    <lb/>Mais s'il est jamais plus à propos, s'il est jamais 
+                    <lb/>plus nécessaire, de traitter une matiere si 
+                    <lb/>importante, n'est ce pas dans un temps tel que 
+                    <lb/>celui-ci ? C'est pour cela que nous avons choisi 
+                    <lb/>notre Texte, pour être le sujet de notre Meditation. 
+                    <lb/>Les termes en son fort courts, 
+                    <lb/>mais le sens en est d'une longue êtendue. 
+                    <lb/>Tout ce que les Sujets doivent faire à l'égard 
+                    <lb/>de leurs Souverains, est sommairement compris 
+                    <lb/>dans ce Precepte, <quote source="bibleOstervald1724.xml#_1Pet.2.17"> 
+                        <hi rend="I">Honorez le Roi</hi> 
+                    </quote>. Meditons 
+                    <lb/>le donc dans la premiere Partie de ce 
+                    <lb/>Discours, &amp; dans la seconde, nous ferons 
+                    <lb/>quelques Reflexions, qui se rapporteront directement 
+                    <lb/>à la circonstance du temps.</p> 
+                <p n="5"> 
+                    <lb/>Nous avons aujourdhui un grand avantage. 
+                    <lb/>Sans nous flatter, sans présumer de 
+                    <lb/>nous mêmes, nous sommes asseurez par avance, 
+                    <lb/>d'arriver au but que l'on se propose, 
+                    <lb/>sur quelque sujet que l'on parle ; c'est de 
+                    <lb/>persuader. Tout même temoigne en vous, 
+                    <lb/>que votre persuasion n'est point à produire, 
+                    <lb/>qu'elle est toute produite, &amp; dans un si haut 
+                    <lb/>degré, qu'il nous seroit impossible de l'augmenter. 
+                    <lb/>Nous ne pourrons que vous prêter 
+                    <lb/>notre voix ; Toutes les facultés, toutes les 
+                    <lb/>affections de votre ame, viendront, voleront 
+                    <lb/>d'elles mêmes, au devant de tout ce que nous 
+                    <lb/>dirons. Tout l'avantage que vous retirerez 
+                    <lb/>de notre Ministère, ce sera peut être que 
+                    <lb/>nous éclairerons plus distinctement vôtre persuasion, 
+                    <lb/>&amp; que nous donnerons quelque ordre, 
+                    <lb/>aux pensées &amp; aux mouvemens, que 
+                    <lb/>l'ardeur de votre Zèle pour notre Monarque, 
+                    <lb/>fait naitre confusément &amp; en foule, dans vôtre <fw place="bot-right" type="catch">tre</fw> 
+                    <pb n="3"/> 
+                    <lb/>esprit &amp; dans vôtre cœur. <quote source="bibleOstervald1724.xml#Jer.10.7"> 
+                        <hi rend="I">Roi des Nations</hi> 
+                    </quote>, <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Jer.10.7">Jer. x. 7.</ref> 
+                    </note> 
+                    <lb/>Maitre absolu de l'Univers, pour expliquer 
+                    <lb/>ce que nous Te devons, en la personne 
+                    <lb/>de Tes Lieutenants sur la terre, Veuille nous 
+                    <lb/>éclairer de Tes divines lumieres, &amp; nous <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Isa.50.4">Esa. L, 4.</ref> 
+                    </note> 
+                    <lb/>donner <quote source="bibleOstervald1724.xml#Isa.50.4"> 
+                        <hi rend="I">la langue des bien appris</hi> 
+                    </quote> 
+                    <hi rend="I">.</hi> Amen.</p> 
+                <p n="6"> 
+                    <lb/>Puis que le devoir des Sujets envers leurs 
+                    <lb/>Souverains, est, comme nous venons de le 
+                    <lb/>remarquer, une partie de la Morale, les 
+                    <lb/>Saints Apôtres auroient manqué, dans un 
+                    <lb/>Point très important &amp; capital, s'ils avoient 
+                    <lb/>negligé de le recommander aux Chrêtiens. 
+                    <lb/>Mais outre cette raison générale, ils en avoient 
+                    <lb/>d'autres particulieres, qui les obligeoient 
+                    <lb/>à inculquer souvent ce devoir dans 
+                    <lb/>leurs Ecrits, aussi bien que dans leurs Prédications. 
+                    <lb/>Sous pretexte que les Adorateurs 
+                    <lb/>de Jesus Christ, le regardoient comme 
+                    <lb/>leur Roi, on les accusoit de vouloir se soustraire 
+                    <lb/>à l'autorité des Princes. On suivoit 
+                    <lb/>en cela le même esprit, dont les Juifs avoient 
+                    <lb/>été animez contre Nôtre Seigneur, en le 
+                    <lb/>traduisant devant le Tribunal du Gouverneur 
+                    <lb/>Romain, comme un rebelle, qui avoit <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Luke.22.2">Luc. xxii. <lb/>2.</ref> 
+                    </note> 
+                    <lb/>defendu de payer le Tribut à Cesar, &amp; 
+                    <lb/>porté même les attentats de sa Rebellion, jusqu'à 
+                    <lb/>se faire Roi. D'ailleurs parmi les Sectes, <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#John.19.12">Jean xix. <lb/>12.</ref> 
+                    </note> 
+                    <lb/>qui s'étoient dèja élevées dans le Christianisme, 
+                    <lb/>il y avoit des Libertins, qui abusant 
+                    <lb/>de cette grande &amp; consolante Verité, que nôtre 
+                    <lb/>Redempteur nous a aquis la liberté des 
+                    <lb/>Enfans de Dieu, prétendoient que l'Evangile 
+                    <lb/>affranchissoit les Fidelles, du joug de toute 
+                    <lb/>sorte d'autorité humaine, &amp; qu'il ne devoit 
+                    <lb/>plus y avoir entre les hommes aucune Dignité, <fw place="bot-right" type="catch">nité,</fw> 
+                    <pb n="4"/> 
+                    <lb/>aucune Superiorité, ni même aucune 
+                    <lb/>Distinction.</p> 
+                <p n="7"> 
+                    <lb/>C'est ce que S. Pierre &amp; S. Jude nous font 
+                    <lb/>entendre bien clairement. L'un &amp; l'autre 
+                    <lb/>disent en parlant de ces Libertins, <hi rend="I">qu'</hi> 
+                    <quote source="bibleOstervald1724.xml#_2Pet.2.10"> 
+                        <hi rend="I">ils </hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_2Pet.2.10">2 Pierr. ii. <lb/>10.</ref> 
+                        </note> 
+                        <hi rend="I">meprisoient la domination, &amp; qu'ils n'avoient </hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Jude.8">Jude viii.</ref> 
+                        </note> 
+                        <hi rend="I">point horreur de blamer</hi>, de condamner <hi rend="I">les 
+                            Dignités</hi> 
+                    </quote>. 
+                    <lb/>Afin donc de mettre la Religion Chrêtienne, 
+                    <lb/>à couvert d'un reproche si faux, si 
+                    <lb/>odieux ; &amp; en même temps pour munir les 
+                    <lb/>Fidelles contre une erreur, si opposée à une 
+                    <lb/>des plus grandes obligations de la Morale ; 
+                    <lb/>par conséquent si condamnable en elle même ; 
+                    <lb/>d'ailleurs si contraire au bien de la Societé ; 
+                    <lb/>par conséquent si funeste aux progrès de l'Evangile, 
+                    <lb/>&amp; si capable de faire armer contre lui 
+                    <lb/>les Puissances du Monde ; les Apôtres prenoient 
+                    <lb/>un soin particulier, de faire sentir 
+                    <lb/>aux Chrêtiens, combien, leur Religion 
+                    <lb/>les obligeoit indispensablement, à se soumettre 
+                    <lb/>à l'autorité des Princes, quand ils 
+                    <lb/>ne commandoient rien de contraire à la 
+                    <lb/>Foi &amp; aux bonnes moeurs. On ne peut douter 
+                    <lb/>que ce ne soit là le dessein de St. Pierre, 
+                    <lb/>dans l'endroit d'où nôtre Texte est tiré. 
+                    <lb/> 
+                    <quote source="bibleOstervald1724.xml#_1Pet.2.13-15">"Rendez vous<seg type="interpolation">, dit-il au 13 
+                        verset,</seg> Rendez 
+                        <lb/>"vous sujets à tout ordre humain pour l'amour 
+                        <lb/>"du Seigneur : soit au Roi comme à 
+                        <lb/>"celui qui est par dessus tous ; soit aux 
+                        <lb/>"Gouverneurs, comme à ceux qui sont envoyez 
+                        <lb/>"de par lui, pour exercer vangeance 
+                        <lb/>"sur les malfaiteurs, &amp; à la louange de 
+                        <lb/>"ceux qui font bien. Car telle est la volonté 
+                        <lb/>"de Dieu, qu'en faisant bien vous 
+                        <lb/>"fermiez la bouche à l'ignorance des hommes <fw place="bot-right" type="catch">" mes</fw> 
+                        <pb n="5"/> 
+                        <lb/>"fols." </quote> Il exhortoit ainsi les Chrêtiens 
+                    <lb/>de son temps, à dissiper par leur soûmission 
+                    <lb/>aux Rois &amp; aux Magistrats, les faux &amp; pernicieux 
+                    <lb/>préjugés, dont les ennemis de la Religion 
+                    <lb/>Chrêtienne, êtoient prévenus contre 
+                    <lb/>elle à cet egard. Il ajoute, <quote source="bibleOstervald1724.xml#_1Pet.2.16"> 
+                        <hi rend="I">comme Libres, &amp; 
+                            <lb/>non point comme ayant la liberté pour couverture 
+                            <lb/>de malice, mais comme Serviteurs de Dieu</hi> 
+                    </quote>. 
+                    <lb/>Peut on ne point voir, que cette Reflexion 
+                    <lb/>portoit directement contre ces Libertins, 
+                    <lb/>dont nous venons de parler, &amp; qui furent 
+                    <lb/>l'origine des infames <hi rend="I">Gnostiques</hi>, qu'on peut 
+                    <lb/>appeller la honte &amp; l'opprobre du nom Chrêtien ? 
+                    <lb/>L'Apôtre poursuit en ces termes. 
+                    <lb/> 
+                    <quote source="bibleOstervald1724.xml#_1Pet.2.17"> 
+                        <hi rend="I">Portés honeur à tous </hi>; <hi rend="I">Aimés la fraternité </hi>; 
+                        <lb/> 
+                        <hi rend="I">Craignés Dieu </hi>; <hi rend="I">Honorés le 
+                        Roi</hi></quote>. Comme s'il 
+                    <lb/>disoit "Ayés de la consideration &amp; du respect, 
+                    <lb/>"pour tous les hommes de quelque 
+                    <lb/>"Religion qu'ils puissent estre. Aimez 
+                    <lb/>"particulierement ceux qui sont vos Freres 
+                    <lb/>"en Jesus Christ ; &amp; comme vous devez 
+                    <lb/>"<hi rend="I">Craindre Dieu</hi>, vous devez aussi <hi rend="I">Honorer </hi> 
+                    <lb/>"<hi rend="I">le Roi.</hi> Ce sont là deux devoirs qu'il 
+                    <lb/>"n'est point permis de séparer. comme 
+                    <lb/>"il ne suffiroit pas d'honorer le Roi sans 
+                    <lb/>"craindre Dieu ; aussi ne suffit il point de 
+                    <lb/>"craindre Dieu sans honorer le Roi."</p> 
+                <p n="8"> 
+                    <lb/>Par ce terme il ne faut pas entendre uniquement 
+                    <lb/>les Testes Couronnées, les Princes 
+                    <lb/>qui portent le Titre de Roi, ou d'autres 
+                    <lb/>équivalents. Il désigne en général tous 
+                    <lb/>ceux qui exercent le Pouvoir Souverain 
+                    <lb/>dans les Etats, sous quelque forme de Gouvernement 
+                    <lb/>que ce soit. Quelque diversité 
+                    <lb/>qu'il y ait à cet égard entre les Etats, ils ont <fw place="bot-right" type="catch">tous</fw> 
+                    <pb n="6"/> 
+                    <lb/>tous ceci de commun, que le plus petit &amp; le 
+                    <lb/>plus foible, est revêtu de même que le plus 
+                    <lb/>êtendu &amp; le plus puissant, d'une autorité suprême, 
+                    <lb/>qui decide en dernier ressort &amp; souverainement, 
+                    <lb/>des biens &amp; de la vie de ceux 
+                    <lb/>qui le composent ; de sorte que tandis qu'ils 
+                    <lb/>en sont membres, ils en dependent absolument 
+                    <lb/>&amp; sans reserve. Mais comme il est 
+                    <lb/>impossible, que hors des Monarchies hereditaires, 
+                    <lb/>cette autorité s'exerce, à moins qu'il 
+                    <lb/>n'y ait des personnes préposées pour cela, ou 
+                    <lb/>pendant toute leur vie, ou pendant un 
+                    <lb/>terme limité : ces personnes doivent être 
+                    <lb/>regardées, comme si c'étoient de veritables 
+                    <lb/>Rois ; parce qu'encore qu'ils n'en portent 
+                    <lb/>point l'auguste nom, ils ne laissent pas d'en 
+                    <lb/>avoir la réalité, par raport à l'éxercice, puis 
+                    <lb/>qu'ils font tout ce que les rois peuvent 
+                    <lb/>faire.</p> 
+                <p n="9"> 
+                    <lb/>Tel est le sujet dont il s'agit dans nôtre 
+                    <lb/>Texte. Que nous est-il prescrit à son égard ? 
+                    <lb/>De l'<hi rend="I">Honorer</hi>. C'est là une idée générale, 
+                    <lb/>qu'il faut diversifier, selon les differens sujets, 
+                    <lb/>auxquels elle peut être appliquée. 
+                    <lb/>Nous avons vû que dans ce même verset, 
+                    <lb/>l'Apôtre nous recommande de <quote source="bibleOstervald1724.xml#_1Pet.2.17"> 
+                        <hi rend="I">porter Honeur à</hi> 
+                        <lb/> 
+                        <hi rend="I">tous</hi> 
+                    </quote>, &amp; il se sert du même terme qu'il employe, 
+                    <lb/>lors qu'il nous ordonne d'<quote source="bibleOstervald1724.xml#_1Pet.2.17"> 
+                        <hi rend="I">Honorer le 
+                            <lb/>Roi</hi> 
+                    </quote>. Voila donc deux sortes d'honeur fort 
+                    <lb/>differentes, qui sont exprimées par un même 
+                    <lb/>terme. C'est ce qui nous aprend deux 
+                    <lb/>choses. La premiere, qu'il y a un certain 
+                    <lb/>honeur d'égard &amp; d'honesteté, qui est dû à 
+                    <lb/>tous les hommes généralement, à cause de 
+                    <lb/>l'éxcellence de leur espèce, faite à l'image <fw place="bot-right" type="catch">de</fw> 
+                    <pb n="7"/> 
+                    <lb/>de Dieu, qui doit être respectée par tout où 
+                    <lb/>elle se trouve ; d'autant plus que tous les 
+                    <lb/>hommes la possedent dans une parfaite égalité. 
+                    <lb/>Les plus vils de tous les Esclaves, ne 
+                    <lb/>participent pas moins à la nature humaine, 
+                    <lb/>que les plus grands de tous les Potentats. 
+                    <lb/>La seconde chose que nous apprenons ici ; 
+                    <lb/>c'est qu'il y à pourtant un certain <hi rend="I">Honeur </hi> 
+                    <lb/>particulier, que les Sujets doivent rendre à 
+                    <lb/>leurs Souverains.</p> 
+                <p n="10"> 
+                    <lb/>En quoi consiste cet <hi rend="I">Honeur ?</hi> C'est d'abord 
+                    <lb/>dans des démonstrations de respect, de vénération, 
+                    <lb/>&amp; de soûmission, qui aillent au plus 
+                    <lb/>haut point dans le genre civil, conformément 
+                    <lb/>à ce qui s'observe en chaque Etat, ou 
+                    <lb/>par des Loix expresses, ou par de simples 
+                    <lb/>coûtumes. Les Grecs ne pouvoient point 
+                    <lb/>souffrir, que l'on honorât les Rois, jusqu'à 
+                    <lb/>se prosterner en leur présence. C'est ce 
+                    <lb/>qu'ils regardoient comme un Sacrilège, prévenus 
+                    <lb/>de cette fausse idée, qu'un si grand 
+                    <lb/>signe d'honeur, ne pouvoit apartenir qu'à la 
+                    <lb/>Divinité. Il n'en étoit pas de même, dans 
+                    <lb/>l'Egypte &amp; dans l'Asie. On y honoroit les 
+                    <lb/>Rois, &amp; même en general tous ceux à qui 
+                    <lb/>l'on vouloit temoigner un grand respect, en 
+                    <lb/>se prosternant devant eux, &amp; bien plus en 
+                    <lb/>mettant la face contre terre. Nous voyons 
+                    <lb/>dans l'Histoire sainte, que cette maniere d'<hi rend="I">honorer</hi>, 
+                    <lb/>étoit en usage parmi le Peuple de 
+                    <lb/>Dieu. Elle y étoit fort legitimement, parce 
+                    <lb/>qu'il ne s'agissoit que d'un honeur purement 
+                    <lb/>humain &amp; civil ; par conséquent il ne pouvoit 
+                    <lb/>porter aucun préjudice au culte Religieux, 
+                    <lb/>dont Dieu seul doit être l'objet. <fw place="bot-right" type="catch">Autre-</fw> 
+                    <pb n="8"/> 
+                    <lb/>Autrement auroit elle êté pratiquée par tant 
+                    <lb/>de Saints Hommes ; par des Prophètes, &amp; 
+                    <lb/>même dans le temps qu'ils faisoient, les fonctions 
+                    <lb/>les plus solemnelles de leur Mission 
+                    <lb/>Divine ? Il n'en faut pas davantage pour 
+                    <lb/>nous convaincre, de la ridicule &amp; brutale 
+                    <lb/>superstition de ces Fanatiques, qui croiroient 
+                    <lb/>blesser la Religion, s'ils se prosternoient 
+                    <lb/>devant les Princes, &amp; bien plus, comble 
+                    <lb/>d'éxtravagance ! s'ils se découvroient pour 
+                    <lb/>les saluer. Encore une fois, il ne s'agit ici 
+                    <lb/>que d'un honeur, qui ne sauroit choquer en 
+                    <lb/>rien la Religion, puis qu'il n'a rien que 
+                    <lb/>d'humain &amp; de civil. Ainsi on doit le pratiquer 
+                    <lb/>sans scrupule de conscience, &amp; même 
+                    <lb/>avec plaisir, en se conformant à l'usage qui 
+                    <lb/>se trouve êtabli dans chaque Païs, &amp; qui est 
+                    <lb/>si different, que ce qu'on regarde en de certains 
+                    <lb/>Etats, comme une grande marque de 
+                    <lb/>respect, passe en d'autres pour une éxtrême 
+                    <lb/>incivilité. C'est le sort de tout ce qui depend 
+                    <lb/>de l'institution des hommes. La diversité 
+                    <lb/>de leurs genies, fait que les uns admettent 
+                    <lb/>&amp; louent, ce que les autres ne peuvent 
+                    <lb/>ni approuver ni même souffrir ; parce 
+                    <lb/>qu'ils le regardent dans des vües differentes, 
+                    <lb/>&amp; opposées les unes aux autres.</p> 
+                <p n="11"> 
+                    <lb/>Les grandes démonstrations de respect &amp; 
+                    <lb/>de vénération, dont nous avons fait la premiere 
+                    <lb/>partie, de l'honeur qu'il faut rendre 
+                    <lb/>aux Rois, parce que c'est celle qui frappe 
+                    <lb/>les sens, doivent être accompagnées d'un 
+                    <lb/>respect interieur, qui reponde à ces demonstrations 
+                    <lb/>éxterieures. Il est vrai qu'elles doivent 
+                    <lb/>les contenter, sans qu'ils recherchent curieusement, <fw place="bot-right" type="catch">rieuse-</fw> 
+                    <pb n="9"/> 
+                    <lb/>ce qui se passe dans l'ame de 
+                    <lb/>ceux qui les leur donnent ; parce qu'il est de 
+                    <lb/>leur équité, de les prendre pour sincères, à 
+                    <lb/>moins qu'ils n'ayent des raisons de croire ou 
+                    <lb/>de soupçonner, qu'elles ne sont que de pures 
+                    <lb/>grimaces, de simples cérémonies du corps, 
+                    <lb/>où le cœur n'a point de part. Mais au fonds, 
+                    <lb/>n'honorer les Rois qu'éxterieurement, c'est 
+                    <lb/>leur dérober la principale &amp; la plus importante 
+                    <lb/>partie, de l'honeur qui leur est dû. 
+                    <lb/>C'est violer l'ordre de la Nature ; elle veut 
+                    <lb/>qu'il y ait une juste harmonie, entre les actions 
+                    <lb/>éxterieures du corps, &amp; les mouvemens 
+                    <lb/>interieurs de l'ame ; &amp; que même les mouvemens 
+                    <lb/>interieurs de l'ame soient la source 
+                    <lb/>&amp; le principe des actions éxterieures du 
+                    <lb/>corps : de sorte que nos respects éxterieurs 
+                    <lb/>ne soient qu'un effet, qu'un signe, qu'une 
+                    <lb/>démonstration, de nos respects interieurs. 
+                    <lb/>Oui l'hypocrisie est criminelle en tout ; dans 
+                    <lb/>l'Etat, aussi bien que dans l'Eglise : dans 
+                    <lb/>la Politique, aussi bien que dans la Religion. 
+                    <lb/>C'est Dieu lui même qui nous crie 
+                    <lb/> 
+                    <quote source="bibleOstervald1724.xml#_1Pet.2.17"> 
+                        <hi rend="I">Honorez le Roi</hi> 
+                    </quote>, par le Ministere de St. Pierre, 
+                    <lb/>un des plus éxcellents organes de sa 
+                    <lb/>voix. L'Apôtre nous fait bien entendre, 
+                    <lb/>que c'est là, non un conseil de prudence 
+                    <lb/>humaine qu'il donne aux Chretiens, 
+                    <lb/>mais un commandement qu'il leur adresse 
+                    <lb/>de la part de Dieu, lors qu'il dit <ref type="bible" target="bibleSegond21.xml#_1Pet.2.13">au verset 
+                        <lb/>13.</ref> 
+                    <quote source="bibleOstervald1724.xml#_1Pet.2.13">Rendez vous sujets à tout ordre humain 
+                        <lb/> 
+                        <hi rend="I">pour l'amour du Seigneur</hi> 
+                    </quote>. C'est à dire visiblement, 
+                    <lb/>pour obeïr, &amp; pour plaire au Seigneur, 
+                    <lb/>puis qu'il vous le commande. Dieu 
+                    <lb/>est un Legislateur Spirituel ; c'est à nos personnes 
+                    <lb/>toutes entieres qu'il donne ses Loix : <fw place="bot-right" type="catch">&amp;</fw> 
+                    <pb n="10"/> 
+                    <lb/>&amp; par conséquent nous devons les éxécuter 
+                    <lb/>de l'esprit &amp; du corps tout ensemble. Appliquons 
+                    <lb/>ici ce que St. Paul dit aux Romains, 
+                    <lb/>qu'il faut être sujets aux Princes, 
+                    <lb/>non seulement pour ne point s'attirer leur 
+                    <lb/>juste colère, en manquant éxterieurement à 
+                    <lb/>la soûmission qui leur est dûe ; mais encore 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.13.5">Ch. xiii. 15.</ref> 
+                    </note> 
+                    <quote source="bibleOstervald1724.xml#Rom.13.5"> 
+                        <hi rend="I">à cause de la conscience</hi> 
+                        
+                    </quote>. Voici donc un devoir 
+                    <lb/>qui regarde <hi rend="I">la conscience</hi>, &amp; par conséquent 
+                    <lb/>tout ce qu'il renferme, ou qui s'en 
+                    <lb/>déduit, doit venir du fond de nôtre ame, qui 
+                    <lb/>seule est le siège de nôtre <hi rend="I">conscience </hi>; &amp; nous 
+                    <lb/>devrions fidélement nous en aquitter, quand 
+                    <lb/>même nous n'aurions rien à craindre, de la 
+                    <lb/>part des Princes en la violant.</p> 
+                <p n="12"> 
+                    <lb/>Au reste le respect interieur que nous 
+                    <lb/>devons aux Rois, n'est pas déterminé dans 
+                    <lb/>son éxercice comme l'éxterieur, par l'institution 
+                    <lb/>des hommes, où il y a souvent beaucoup 
+                    <lb/>de bizarres contrarietés ; &amp; à proprement 
+                    <lb/>parler, on ne peut donner ici aucune Regle. 
+                    <lb/>Tous les hommes ont également dans l'ame, 
+                    <lb/>les mêmes sentimens de respect, considerez 
+                    <lb/>en eux mêmes, &amp; dans leur nature, comme 
+                    <lb/>ils ont les mêmes sentimens de plaisir ou de 
+                    <lb/>douleur. On ne sauroit leur aprendre à sentir 
+                    <lb/>ni l'un ni l'autre ; il en est de même de 
+                    <lb/>tout ce qui consiste en quelque sensation. 
+                    <lb/>Ainsi il est impossible d'enseigner à personne, 
+                    <lb/>comment on doit sentir du respect en général ; 
+                    <lb/>&amp; il n'est point nécessaire. Il suffit que 
+                    <lb/>l'on veuille en estre animé, puis que cela 
+                    <lb/>depend uniquement de la volonté. L'ame 
+                    <lb/>prend aussi tost d'elle même, toutes les routes 
+                    <lb/>qui tendent à cette fin ; ou plustost elle est <fw place="bot-right" type="catch">saisie</fw> 
+                    <pb n="11"/> 
+                    <lb/>saisie de tous les mouvemens, qui constituent 
+                    <lb/>la nature &amp; l'éssence d'un respect interieur.</p> 
+                <p n="13"> 
+                    <lb/>Tout ce que l'on peut faire, c'est de l'éxciter, 
+                    <lb/>en montrant les fortes raisons, qui 
+                    <lb/>prouvent qu'on en doit être penétré. Si nous 
+                    <lb/>cherchons ces fortes raisons, sur la matiere 
+                    <lb/>que nous traitons, nous les trouverons 
+                    <lb/>suffisamment dans cette Maxime, d'une 
+                    <lb/>verité sensible &amp; palpable. <quote source="#...">"Que tout honeur, 
+                        <lb/>"&amp; par conséquent tout respect, soit 
+                        <lb/>"éxterieur, soit interieur, doit être plus ou 
+                        <lb/>"moins grand, selon qu'il y a plus ou 
+                        <lb/>"moins, d'éxcellence &amp; de dignité dans son 
+                        <lb/>"objet."</quote> Car de là il s'ensuit évidemment, 
+                    <lb/>qu'il n'y a rien entre les hommes, qui doive 
+                    <lb/>être aussi respectable, aussi digne d'être 
+                    <lb/>honoré, que la Majesté des Souverains. 
+                    <lb/>Leur dignité est dans leurs Etats, au dessus 
+                    <lb/>de toute autre. <quote source="bibleOstervald1724.xml#_2Thess.2.2"> 
+                        <hi rend="I">Le Roi</hi><seg type="interpolation">, dit nôtre Apôtre,</seg> 
+                        <lb/> 
+                        <hi rend="I">est au dessus de tous</hi> 
+                    </quote>. Il étoit bien eloigné du 
+                    <lb/>système, de ceux se disent à faux ses 
+                    <lb/>Successeurs, &amp; qui se portant * dans le Temple <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_2Thess.2.2">2 Thess <lb/>ii. 2.</ref> 
+                    </note> 
+                    <lb/>de Dieu, dans l'Eglise Chretienne, comme 
+                    <lb/>s'ils êtoient la Divinité elle même, s'élèvent 
+                    <lb/>sur tout ce qui est nommé Dieu 
+                    <lb/>dans ce bas Monde, c'est à dire sur les Princes 
+                    <lb/>qui sont nommés Dieux, même par le 
+                    <lb/>saint Esprit. Bien plus ils vont jusqu'à prétendre, 
+                    <lb/>qu'ils ont droit de dispenser &amp; absoudre 
+                    <lb/>les sujets du serment de fidelité, &amp; de 
+                    <lb/>disposer du Temporel des Princes, &amp; de 
+                    <lb/>leurs Couronnes. Encore s'ils n'avoient eu 
+                    <lb/>cette prétention qu'en Theorie ; mais combien 
+                    <lb/>de fois l'ont ils mise en pratique, même 
+                    <lb/>contre les Empereurs, qu'ils devoient respecter <fw place="bot-right" type="catch">specter</fw> 
+                    <pb n="12"/> 
+                    <lb/>comme êtans leurs propres Souverains ? 
+                    <lb/>Combien en ont ils deposé ; &amp; quels torrens 
+                    <lb/>de sang, n'ont ils pas fait si souvent répandre, 
+                    <lb/>en Italie &amp; dans toute l'Allemagne, 
+                    <lb/>pour maintenir de si Sacrileges attentats ? 
+                    <lb/>Oracles sacrés, que vôtre Divinité est bien 
+                    <lb/>éclattante, puis que vos prédictions sur ce 
+                    <lb/>sujet, ont été si visiblement accomplies, par 
+                    <lb/>des événemens, que toute la sagacité humaine, 
+                    <lb/>n'auroit pû mettre avant leur arrivée, 
+                    <lb/>que dans les espaces imaginaires de la 
+                    <lb/>plus absolue impossibilité ! Qui auroit jamais 
+                    <lb/>pû songer, que des Princes si naturellement 
+                    <lb/>jaloux de leurs droits, les eussent pourtant 
+                    <lb/>sacrifiés à l'Evêque qui a son Siege dans 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rev.17.9">Apoc. xvii. <lb/>9.</ref> 
+                    </note> la Ville <quote source="bibleOstervald1724.xml#Rev.17.9"> 
+                        <hi rend="I">bâtie sur sept montagnes</hi> 
+                    </quote>, jusqu'à donner 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_2Thess.2.3">2 Thess. ii. <lb/>3.</ref> 
+                    </note> leur puissance à cet <quote source="bibleOstervald1724.xml#_2Thess.2.3"> 
+                        <hi rend="I">Homme de peché</hi> 
+                    </quote>, afin 
+                    <lb/>de depouiller leurs semblables de ces droits si 
+                    <lb/>sacrés, quoi qu'ils ne pussent ignorer qu'ils 
+                    <lb/>le mettoient ainsi en pouvoir, de les en 
+                    <lb/>dépouiller eux mêmes à leur tour quand il lui 
+                    <lb/>en prendroit fantaisie ? C'est quelque chose 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.11.33">Rom. xi. <lb/>33.</ref> 
+                    </note> 
+                    <quote source="bibleOstervald1724.xml#Rom.11.33"> 
+                        <hi rend="I">de si impossible à trouver</hi> 
+                    </quote>, de si incompréhensible, 
+                    <lb/>qu'on ne peut le regarder, que comme 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rev.2.24">Apocal. ii. <lb/>24.</ref> 
+                    </note> une de ces <quote source="bibleOstervald1724.xml#Rev.2.24"> 
+                        <hi rend="I">profondeurs de Satan</hi> 
+                    </quote>, dont nous 
+                    <lb/>ne saurions découvrir les ressorts.</p> 
+                <p n="14"> 
+                    <lb/>Revenons à ce que nous disions, que la 
+                    <lb/>Dignité des Rois est dans leurs Etats au 
+                    <lb/>dessus de toute autre. Nous l'avons prouvé 
+                    <lb/>par l'autorité de St. Pierre ; confirmons le 
+                    <lb/>encore par l'autorité de St. Paul, écrivant 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.13.1">Rom. xiii. <lb/>1</ref> 
+                    </note> même aux Fidelles de Rome. <hi rend="I">Que toute personne</hi>, 
+                    <lb/>leur disoit il, voila une <hi rend="I">généralité</hi>, ou 
+                    <lb/>plustost une <hi rend="I">universalité</hi>, qui comprenoit 
+                    <lb/>l'Evêque de cette Capitale du Monde, &amp; <fw place="bot-right" type="catch">tout</fw> 
+                    <pb n="13"/> 
+                    <lb/>tout son Clergé, aussi bien que les Laïques 
+                    <lb/>qui vivoient dans son sein ; <quote source="bibleOstervald1724.xml#Rom.13.1"> 
+                        <hi rend="I">Que toute personne </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.13.1">Rom. xiii. <lb/>1.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">soit sujette aux Puissances superieures </hi>; <hi rend="I">car 
+                            <lb/>il n'y a point de Puissance, qui ne vienne de Dieu</hi>, 
+                        <lb/> 
+                        <hi rend="I">&amp; les Puissances qui subsistent</hi>, <seg type="interpolation">qui éxistent,</seg> 
+                        <hi rend="I">sont 
+                            <lb/>ordonnées de Dieu</hi></quote>. La suite fait voir qu'il veut 
+                    <lb/>parler des Princes, car il les nomme éxpressément. 
+                    <lb/>Pour mettre la pensée de cet Apôtre dans 
+                    <lb/>tout son jour, il ne faut pas se contenter de 
+                    <lb/>dire, que c'est la Sagesse de Dieu, qui fait 
+                    <lb/>règner les Souverains, comme elle même le 
+                    <lb/>déclare, quand elle s'écrie dans le Livre des <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Prov.8.15">Ch. viii. 15.</ref> 
+                    </note> 
+                    <lb/>Proverbes, <quote source="bibleOstervald1724.xml#Prov.8.15"> 
+                        <hi rend="I">C'est par moi que les Rois règnent, &amp; 
+                            <lb/>que les Princes decernent la Justice</hi></quote>. Il faut 
+                    <lb/>ajouter, ce qui est beaucoup davantage, que 
+                    <lb/>Dieu les fait règner <hi rend="I">en sa Place</hi>. C'est ce que 
+                    <lb/>St. Paul dit éxpressément, un peu après ce 
+                    <lb/>que nous venons de citer de son Epitre aux 
+                    <lb/>Romains ; <quote source="bibleOstervald1724.xml#Rom.13.4"> 
+                        <hi rend="I">Le Prince et le Ministre de Dieu----- 
+                            <lb/>ordonné pour faire Justice</hi> 
+                    </quote>. Ce titre de <hi rend="I">Ministre 
+                        <lb/>de Dieu</hi>, il l'employe jusqu'à trois fois 
+                    <lb/>dans cet endroit. <quote source="bibleOstervald1724.xml#_2Chr.9.8"> 
+                        <hi rend="I">Beni</hi><seg type="interpolation">, disoit la Reine de <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_2Chr.9.8">2 Chron. <lb/>ix. 8.</ref> 
+                        </note> 
+                        <lb/> 
+                            <hi rend="I">Sceba</hi>, en parlant à Salomon,</seg> 
+                        <hi rend="I">Beni soit l'Eternel 
+                            <lb/>ton Dieu, qui t'a eû pour agréable, &amp; qui 
+                            <lb/>t'a fait asseoir sur </hi>son <hi rend="I">Trone, afin que tu sois 
+                            <lb/>Roi</hi> pour <hi rend="I">l'Eternel ton Dieu</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>; pour, <hi rend="I">en la place </hi> 
+                    <lb/>de l'Eternel ton Dieu. Que sont donc les 
+                    <lb/>Rois ? des Deputés, des Lieutenants de Dieu, 
+                    <lb/>consideré comme Recteur de ce bas Monde ; <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Sap.6.5">Sap. vi. 4.</ref> 
+                    </note> 
+                    <lb/>des <quote source="bible1588.xml#Sap.6.5"> 
+                        <hi rend="I">Ministres de son Royaume</hi> 
+                        
+                    </quote>, comme parle 
+                    <lb/>l'Auteur du Livre de la <hi rend="I">Sagesse</hi>. Dieu seul 
+                    <lb/>est proprement le Roi de l'Univers, qui lui 
+                    <lb/>apartient absolument, par un droit de <hi rend="I">Domaine</hi> 
+                    <lb/>&amp; de <hi rend="I">Proprieté</hi>, aussi bien que de <hi rend="I">Regime</hi>, 
+                    <lb/>puis qu'il l'a créé &amp; qu'il le conserve. 
+                    <lb/>Ainsi les Rois de la Terre portent ce nom, <fw place="bot-right" type="catch">par</fw> 
+                    <pb n="14"/> 
+                    <lb/>par <hi rend="I">Députation</hi>, par <hi rend="I">Représentation</hi>, 
+                    entant qu'il 
+                    <lb/>les êtablit, pour éxercer par leur Ministère 
+                    <lb/>son Empire entre les hommes, par raport à 
+                    <lb/>la Societé, soit Civile, soit Religieuse. Ils 
+                    <lb/>sont par cette raison, les Chefs de l'Etat &amp; de 
+                    <lb/>l'Eglise ; Les Protecteurs, les Defenseurs, &amp; 
+                    <lb/>les Exécuteurs des Loix, dans l'un &amp; dans 
+                    <lb/>l'autre ; Distributeurs des recompenses &amp; des 
+                    <lb/>graces ; Dispensateurs des chatimens &amp; des 
+                    <lb/>peines. En un mot ils sont par leur caractère, 
+                    <lb/>les Images vivantes de la Divinité. 
+                    <lb/>Quelle Excellence ; quelle Dignité ! Quel respect 
+                    <lb/>ne faut-il pas avoir pour elle ; &amp; par 
+                    <lb/>conséquent pour la personne sacrée, de ceux 
+                    <lb/>que le Monarque du Monde en a revestus ! 
+                    <lb/>Pourrions nous honorer ce Roi suprême de 
+                    <lb/>l'Univers, sans honorer ceux qui sont à nôtre 
+                    <lb/>égard, ses Deputés, ses Lieutenants, ses 
+                    <lb/>Vicerois ?</p> 
+                <p n="15"> 
+                    <lb/>Nous nous sommes êtendus à faire voir, 
+                    <lb/>que nous devons honorer nos Souverains, 
+                    <lb/>par nos plus profonds respects éxterieurs &amp; 
+                    <lb/>interieurs, parce que c'est là l'idée que le 
+                    <lb/>terme <hi rend="I">d'honorer</hi>, présente immediatement à 
+                    <lb/>l'esprit, &amp; que dans le fonds c'est la base, 
+                    <lb/>le principe &amp; l'abregé de tous les autres devoirs, 
+                    <lb/>dont nous sommes obligez de nous 
+                    <lb/>aquitter à leur égard. Par éxemple, nos profonds 
+                    <lb/>respects interieurs pour nos Souverains, 
+                    <lb/>n'emportent-ils pas nécessairement, un 
+                    <lb/>ardent amour eux ? Afin de le justifier, 
+                    <lb/>il suffiroit quand nous n'en aurions pas d'autre 
+                    <lb/>preuve, que du moins dans l'esprit des 
+                    <lb/>bons Princes, tout ce que nous pourrions 
+                    <lb/>faire pour eux, ne seroit d'aucun prix, 
+                    <lb/>d'aucune valeur, s'ils pouvoient juger qu'ils <fw place="bot-right" type="catch">n'au-</fw> 
+                    <pb n="15"/> 
+                    <lb/>n'auroient point de part dans nôtre amour. 
+                    <lb/>Les Tyrans ne se soucient point d'être aimez 
+                    <lb/>de leurs Sujets, pourvû qu'ils en soient 
+                    <lb/>craints, &amp; il est aisé d'en trouver la raison ; 
+                    <lb/>c'est que de leur côté ils n'ont aucun amour 
+                    <lb/>pour leurs Sujets. Les bons Rois au contraire, 
+                    <lb/>souhaitent sur tout d'être aimés de leurs 
+                    <lb/>Peuples, parce qu'ils les aiment tendrement. 
+                    <lb/>C'est le propre de l'amour, de ne pouvoir 
+                    <lb/>jamais être content, à moins qu'il ne trouve 
+                    <lb/>pour retour dans son objet, un autre lui même.</p> 
+                <p n="16"> 
+                    <lb/>D'ailleurs nous devons aimer nos Souverains, 
+                    <lb/>par la même raison que nous sommes 
+                    <lb/>obligés de les respecter ; c'est qu'ils sont 
+                    <lb/>les Deputés &amp; les Lieutenants de Dieu, qui 
+                    <lb/>nous gouverne par leur Ministère, dans le 
+                    <lb/>Monde de la Societé. Dieu n'a-t-'il pas pour 
+                    <lb/>les hommes, les mêmes yeux que les Peres 
+                    <lb/>ont pour leurs enfans ? Encore n'est ce là 
+                    <lb/>qu'une foible image, de l'amour que Dieu 
+                    <lb/>nous porte. Ainsi les Princes pour répondre 
+                    <lb/>au glorieux Caractère, de Ministres &amp; de 
+                    <lb/>Vice-regents de la Divinité, dans le regime 
+                    <lb/>du Monde, doivent être les <hi rend="I">Peres</hi> de leurs 
+                    <lb/>Sujets. Ce tendre nom est fondé sur l'Ecriture, 
+                    <lb/>&amp; il vient si naturellement dans l'esprit, 
+                    <lb/>que les Anciens Poëtes l'ont donné aux 
+                    <lb/>Rois. Il renferme quelque chose de si doux 
+                    <lb/>&amp; de si grand, que les Romains ne croyoient 
+                    <lb/>rien faire, d'aussi honorable pour les Empereurs, 
+                    <lb/>que quand ils les appelloient <hi rend="I">Peres de 
+                        <lb/>la Patrie</hi>. Or où sont les Peuples qui ne desireroient 
+                    <lb/>pas avec ardeur, que les Princes 
+                    <lb/>de qui ils dependent, les aimassent comme <fw place="bot-right" type="catch"> 
+                        <hi rend="I">leurs</hi> 
+                    </fw> 
+                    <pb n="16"/> 
+                    <lb/> 
+                    <hi rend="I">leurs enfans ?</hi> Par là ne se sentent-ils pas obligés ; 
+                    <lb/>ne se sentent-ils pas animez, à aimer 
+                    <lb/>leurs Princes comme <hi rend="I">leurs Peres ?</hi> C'est la 
+                    <lb/>Loi réciproque de la Nature : c'est la Loi 
+                    <lb/>des Familles particulieres ; &amp; n'est elle pas 
+                    <lb/>applicable à la Societé ? Chaque Etat est 
+                    <lb/>une Famille générale, où le Souverain est 
+                    <lb/>le <hi rend="I">Pere</hi>, &amp; où par conséquent les Sujets sont 
+                    <lb/>les <hi rend="I">Enfans</hi>. Disons donc qu'ici, un honeur 
+                    <lb/>de respect éxterieur &amp; interieur, &amp; un honeur 
+                    <lb/>d'amour, sont deux espèces d'honeur 
+                    <lb/>inséparables, puis que, comme nous venons 
+                    <lb/>de le montrer, l'une &amp; l'autre ont le même 
+                    <lb/>Principe, dans la Dignité des Rois, entant 
+                    <lb/>qu'elle est une image &amp; une représentation 
+                    <lb/>pour nous, de l'autorité suprème du Monarque 
+                    <lb/>de l'Univers.</p> 
+                <p n="17"> 
+                    <lb/>Plust à Dieu qu'une connexion si juste, 
+                    <lb/>&amp; si conforme aux sentimens de la Nature, 
+                    <lb/>fût profondément gravée dans tous les cœurs ! 
+                    <lb/>On n'auroit pas la déchirante douleur, d'avoir 
+                    <lb/>vû depuis près de quarante ans, dans 
+                    <lb/>l'Etat, &amp; même quel prodige ! &amp; même dans 
+                    <lb/>l'Eglise : des Hypocrites, de faux Sujets, 
+                    <lb/>qui pour obtenir des Emplois &amp; des Dignités 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Mark.7.6">Marc. vii. <lb/>6.</ref> 
+                    </note> dans l'un &amp; dans l'autre, <quote source="bibleOstervald1724.xml#Mark.7.6"> 
+                        <hi rend="I">honoroient de 
+                            <lb/>leurs levres</hi>, une Teste couronnée, <hi rend="I">pendant 
+                            <lb/>que leur cœur en étoit éloigné</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>; Qui lui rendoient 
+                    <lb/>éxtérieurement les plus profonds homages, 
+                    <lb/>pendant qu'ils disoient dans leur ame, 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Luke.19.14">Luc. xix. <lb/>14.</ref> 
+                    </note> 
+                    <quote source="bibleOstervald1724.xml#Luke.19.14"> 
+                        <hi rend="I">Nous ne voudrions point que ce Roi, ou que cette 
+                            <lb/>Reine regnât sur nous</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>; Bien plus qui lui prêtoient 
+                    <lb/>des Sermens de fidelité, scèllés même 
+                    <lb/>de la participation au Saint Sacrement de 
+                    <lb/>l'Eucharistie, pendant qu'ils êtoient ses ennemis <fw place="bot-right" type="catch">nemis</fw> 
+                    <pb n="17"/> 
+                    <lb/>jurés, jusqu'à chercher &amp; à tenter 
+                    <lb/>des moyens, pour lui ôter la Couronne, falût 
+                    <lb/>il même pour cela lui ôter la vie. Comment 
+                    <lb/>êtoit-il possible, que des gens, qui portoient 
+                    <lb/>le nom de Chrêtiens, tombassent dans 
+                    <lb/>des déguisemens si sacrilèges ; puis qu'il 
+                    <lb/>semble que des Payens, qui auroient le 
+                    <lb/>moindre sentiment de probité, ne pourroient 
+                    <lb/>pas en être capables ? Souverain Maitre 
+                    <lb/>des cœurs, veuille enfin aujourd'hui veuille 
+                    <lb/>faire cesser, de si abominables, de si infernales 
+                    <lb/>pratiques !</p> 
+                <p n="18"> 
+                    <lb/>Nous trouverons une autre grande raison, 
+                    <lb/>d'honorer nos Rois avec amour, si nous réfléchissons 
+                    <lb/>sur les avantages du Gouvernement 
+                    <lb/>en général. Pour les sentir, il ne faut 
+                    <lb/>que penser, aux inconveniens, aux desordres, 
+                    <lb/>que dis-je, aux horribles malheurs d'un 
+                    <lb/>Peuple, qui seroit dans l'Anarchie, qui n'auroit 
+                    <lb/>personne pour le gouverner. Ce seroit 
+                    <lb/>quelque chose de plus affreux, qu'une Troupe 
+                    <lb/>de Brigans. Oui les Brigans eux mêmes, 
+                    <lb/>pour peu qu'ils veuillent vivre en Societé 
+                    <lb/>pour se maintenir, ne peuvent se passer d'avoir 
+                    <lb/>des Chefs qui les commandent, &amp; à 
+                    <lb/>qui ils obeïssent, comme s'ils avoient sur eux 
+                    <lb/>une autorité legitime. Les Romains croyoient, 
+                    <lb/>qu'à moins que de détruire entierement 
+                    <lb/>un Peuple par le fer &amp; par le feu, on ne 
+                    <lb/>pouvoit point le punir avec plus de severité, 
+                    <lb/>qu'en le dépouillant de l'éxercice des 
+                    <lb/>Loix ; de sorte qu'on y pût faire tout ce que 
+                    <lb/>l'on vouloit, sans être retenu par le frein du 
+                    <lb/>Magistrat. Puis donc que c'est par les Princes, 
+                    <lb/>que Dieu fait éxercer la Justice dans <fw place="bot-right" type="catch">le</fw> 
+                    <pb n="18"/> 
+                    <lb/>le Monde n'est-il pas évident, qu'ils doivent 
+                    <lb/>être après Lui, le principal objet de 
+                    <lb/>nôtre amour, pour les avantages inéstimables, 
+                    <lb/>qui nous reviennent du Gouvernement 
+                    <lb/>en géneral ?</p> 
+                <p n="19"> 
+                    <lb/>N'oublions pas ici, les soins, les peines, 
+                    <lb/>qu'il faut qu'ils se donnent, sans compter les 
+                    <lb/>dangers auxquels ils s'éxposent, pour procurer 
+                    <lb/>la tranquilité &amp; le bonheur de leurs 
+                    <lb/>Sujets. On s'imagine que leur condition 
+                    <lb/>n'a rien que d'agréable &amp; d'heureux. On 
+                    <lb/>se trompe, à moins qu'on n'établisse cette 
+                    <lb/>maxime qui est certaine ; Qu'il n'y a rien 
+                    <lb/>de plus agréable &amp; de plus heureux, aussi 
+                    <lb/>bien que de plus louable &amp; de plus glorieux, 
+                    <lb/>pour des Princes Magnanimes, &amp; qui 
+                    <lb/>ont l'ame veritablement Royale, que de veiller 
+                    <lb/>sans cesse, &amp; de travailler sans relache jour 
+                    <lb/>&amp; nuit, pour faire la félicité de leurs Peuples. 
+                    <lb/>Non leurs Couronnes ne sont pas toutes composées 
+                    <lb/>de fleurs ; il y a sans comparaison 
+                    <lb/>plus d'épines. De tous les fardeaux, c'est le plus 
+                    <lb/>difficile à porter, le plus pesant, le plus accablant. 
+                    <lb/>Si l'on pouvoit mettre dans une 
+                    <lb/>balance, d'un coté tous les plaisirs que les 
+                    <lb/>Princes peuvent se donner ; &amp; de l'autre 
+                    <lb/>leurs travaux, leurs soucis, leurs inquiétudes, 
+                    <lb/>leurs alarmes ; sur tout lors qu'ils veulent 
+                    <lb/>être veritablement Rois, &amp; <choice><sic>règnér</sic><corr resp="#CiM">règner</corr></choice> par 
+                    <lb/>eux mêmes, sans se décharger aveuglement, 
+                    <lb/>des plus importantes fonctions de la <choice><sic>Royanté</sic><corr resp="#RSL">Royauté</corr></choice>, 
+                    <lb/>sur des Ministres quelquefois negligens, 
+                    <lb/>quelquefois interessé<add resp="#RSL" place="E">s</add> &amp; 
+                    insatiables, quelquefois 
+                    <lb/>injustes &amp; cruels, quelquefois mal intentionnés 
+                    <lb/>&amp; infidelles ; en un mot lors <fw place="bot-right" type="catch">qu'ils</fw> 
+                    <pb n="19"/> 
+                    <lb/>qu'ils veulent remplir dignement les glorieux 
+                    <lb/>caractères de Rois équitables, &amp; de Peres 
+                    <lb/>de leurs Peuples ; On trouveroit que 
+                    <lb/>pour un plaisir qu'ils peuvent goûter, il 
+                    <lb/>faut qu'ils soient devorés de mille cuisans 
+                    <lb/>chagrins. Quels motifs de réconnoissance 
+                    <lb/>pour eux ! Que peut il y a avoir de plus puissant 
+                    <lb/>&amp; de plus engageant, pour nous les 
+                    <lb/>faire honorer, non seulement par nos respects 
+                    <lb/>les plus profonds, mais encore par nôtre 
+                    <lb/>amour, &amp; par l'amour le plus zèlé, le 
+                    <lb/>plus vif, &amp; le plus ardent ?</p> 
+                <p n="20"> 
+                    <lb/>La chose du Monde la plus à souhaiter, 
+                    <lb/>ce seroit qu'il ne falût jamais distinguer, 
+                    <lb/>entre la Dignité des Souverains, &amp; leurs 
+                    <lb/>qualités personnelles. Quel bonheur s'ils étoient 
+                    <lb/>tous aussi respectables, aussi dignes 
+                    <lb/>d'amour, par d'éminentes Vertus morales, 
+                    <lb/>que par l'élévation de leur rang, &amp; par leur 
+                    <lb/>autorité ! Le seul qui me paroitroit en approcher, 
+                    <lb/>ce seroit, que tous les Herauts de 
+                    <lb/>l'Evangile, vécussent conformément à la 
+                    <lb/> 
+                    <quote source="bibleOstervald1724.xml#_1Tim.6.3"> 
+                        <hi rend="I">Doctrine qui est selon la Pieté</hi> 
+                    </quote>, puis qu'ils sont <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_1Tim.6.3">1 Tim. vi. 3.</ref> 
+                    </note> 
+                    <lb/>si obligez à la prêcher, encore plus par une 
+                    <lb/>sainte vie, que par leurs Discours. Mais par 
+                    <lb/>malheur la distinction dont nous parlons, 
+                    <lb/>n'est quelquefois, que par trop nécessaire aux 
+                    <lb/>deux égards que nous venons de toucher. 
+                    <lb/>Quel est donc alors le devoir des Sujets ; 
+                    <lb/>comment rempliront-ils le Précepte qui les 
+                    <lb/>oblige à honorer leurs Souverains ? Il faut 
+                    <lb/>toujours qu'ils respectent &amp; qu'ils aiment 
+                    <lb/>leurs Personnes, nonobstant leurs mauvaises 
+                    <lb/>qualités morales, à cause de l'éxcellence de 
+                    <lb/>leur dignité. Mais pour de l'estime, il n'est pas <fw place="bot-right" type="catch">pos-</fw> 
+                    <pb n="20"/> 
+                    <lb/>possible que les Gens de bien en ayent pour 
+                    <lb/>eux. Le moyen d'estimer, les <hi rend="I">Sardanapales, </hi> 
+                    <lb/>les <hi rend="I">Tiberes</hi>, les <hi rend="I">Caligulas</hi>, les <hi rend="I">Nerons</hi>, les <hi rend="I">Heliogabales !</hi> 
+                    <lb/>L'estime est un Tribut, qui ne 
+                    <lb/>sauroit estre reéllement payé qu'au seul mérite. 
+                    <lb/>Il ne faut pas rechercher les defauts 
+                    <lb/>des Princes ; mais quand ils éclattent à la 
+                    <lb/>face du Ciel &amp; de la Terre, peut-on s'empècher 
+                    <lb/>de les voir ; peut on n'en pas gémir, 
+                    <lb/>avec une vive douleur, pour peu que l'on 
+                    <lb/>réfléchisse sur les malheurs, qui en peuvent 
+                    <lb/>être les funestes suites, soit par raport aux 
+                    <lb/>Princes mêmes, soit par raport à leurs Peuples ? 
+                    <lb/>Qu'y-a-til de plus contagieux &amp; de 
+                    <lb/>plus pernicieux pour corrompre les Sujets, 
+                    <lb/>que les mauvais Exemples des Souverains ; 
+                    <lb/>&amp; par conséquent, y-a-til rien qui soit plus 
+                    <lb/>capable, d'attirer la malédiction de Dieu, sur 
+                    <lb/>leurs propres personnes &amp; sur leurs Etats ?</p> 
+                <p n="21"> 
+                    <lb/>A la verité il n'est permis de parler de 
+                    <lb/>leurs défauts, quelque grands &amp; quelque 
+                    <lb/>éclattans qu'ils soient, qu'avec le respect que 
+                    <lb/>des Enfans sont obligés d'observer, lors 
+                    <lb/>qu'ils se trouvent dans la dure necessité, de 
+                    <lb/>parler des vices de leurs parens. Mais pourtant 
+                    <lb/>il est bon, que les Princes puissent apprendre, 
+                    <lb/>ce qu'on en pense &amp; ce qu'on en 
+                    <lb/>dit dans le particulier ; parce que ce peut 
+                    <lb/>être un moyen pour les en faire revenir. 
+                    <lb/>Sur tout il y a des Personnes que la sainteté 
+                    <lb/>de leur caractère, met dans une obligation 
+                    <lb/>indispensable, de leur faire de sages Remonstrances. 
+                    <lb/>Les <hi rend="I">Nathans</hi> doivent dire aux 
+                    <lb/> 
+                    <hi rend="I">Davids</hi> coupables de grands crimes ; <quote source="bibleOstervald1724.xml#_2Sam.12.7"> 
+                        <hi rend="I">vous êtes </hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_2Sam.12.7">2 Sam. xii. <lb/>v. 7.</ref> 
+                        </note> 
+                        <hi rend="I">ces hommes là</hi> 
+                    </quote>. 
+                    <hi rend="I"> </hi>Les Jean-Batistes doivent dire <fw place="bot-right" type="catch">re</fw> 
+                    <pb n="21"/> 
+                    <lb/>aux Herodes, quand même il devroit leur 
+                    <lb/>en coûter la teste, <quote source="bibleOstervald1724.xml#Mark.6.18"> 
+                        <hi rend="I">Il ne vous est point permis</hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Mark.6.18">Marc. vi. <lb/>18.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">d'avoir la femme de vôtre Frere</hi> 
+                    </quote>. Ce n'est point 
+                    <lb/>là manquer, à l'honeur que l'on doit aux Souverains ; 
+                    <lb/>Au contraire, c'est les honorer, &amp; 
+                    <lb/>même de la maniere la plus utile. C'est un 
+                    <lb/>moyen pour les porter à se corriger ; C'est un 
+                    <lb/>moyen pour détourner de dessus leurs Têtes 
+                    <lb/>les Jugemens temporels ; &amp; ce qui est infiniment 
+                    <lb/>davantage, pour leur faire éviter les 
+                    <lb/>tourmens de l'Enfer, lors qu'ils comparoitront, 
+                    <lb/>aussi bien que les derniers de leurs 
+                    <lb/>Sujets, devant le Tribunal de Dieu, qui rendra 
+                    <lb/>à chacun selon ses œuvres, conformément 
+                    <lb/>à cette règle de Jesus Christ, <quote source="bibleOsterald1724.xml#Luke.12.48"> 
+                        <hi rend="I">à celui à 
+                            <lb/>qui il aura été beaucoup donné, il sera aussi</hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Luke.12.48">Luc. xii. <lb/>48.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">beaucoup redemandé</hi></quote>. 
+                </p> 
+                <p n="22"> 
+                    <lb/>Enfin, nous devons faire paroitre nôtre 
+                    <lb/>respect &amp; nôtre amour pour les Rois, par 
+                    <lb/>des effets reéls. Reduisons cette réfléxion à 
+                    <lb/>quatre articles, que nous ne ferons qu'indiquer, 
+                    <lb/>parce que le temps nous presse. 
+                    <lb/>Prémiérement nous devons démander à 
+                    <lb/>Dieu, par des priéres ardentes en public &amp; 
+                    <lb/>en particulier, qu'il lui plaise, de couvrir 
+                    <lb/>nos Rois de son invincible protection, &amp; de 
+                    <lb/>les garder chérement <quote source="bibleOstervald1724.xml#Deut.32.10"> 
+                        <hi rend="I">comme la prunelle de son </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Deut.32.10">Deuteron. <lb/>xxxii. 10.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">œil</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>; de bénir leurs Personnes &amp; leur Administration, 
+                    <lb/>&amp; de leur donner <quote source="bibleSegond21.xml#Ps.72.1"> 
+                        <hi rend="I">ses Jugemens</hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.72.1">Psal. lxxii.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">&amp; la Justice</hi> 
+                    </quote>, afin que règnant pour Dieu, 
+                    <lb/>ils le fassent sur tout règner lui même dans 
+                    <lb/>leurs Etats, en y faisant fleurir la vertu &amp; 
+                    <lb/>la pieté, non seulement par de bonnes Loix, 
+                    <lb/>qu'ils prennent soin de faire éxécuter ; mais 
+                    <lb/>encore par les bons, les attrayans Exemples, 
+                    <lb/>d'une vie Chrêtienne, pure, sainte, édifiante. <fw place="bot-right" type="catch">Nous</fw> 
+                    <pb n="22"/> 
+                    <lb/>Nous devons prier pour tous les hommes ; 
+                    <lb/>Mais prémiérement, principalement pour nos 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_1Tim.2.1-2">1 Tim. ii. <lb/>1, 2.</ref> 
+                    </note> Rois : C'est ce que S. Paul nous apprend. 
+                    <lb/>En second lieu nous devons contribuer, sans 
+                    <lb/>regret, de bon cœur, avec plaisir, aux subsides 
+                    <lb/>nécessaires, non seulement pour l'entretien 
+                    <lb/>de l'Etat, car au fond ce que nous pouvons 
+                    <lb/>donner à cet égard, nous ne le donnons 
+                    <lb/>que pour nous mêmes ; mais encore 
+                    <lb/>pour soûtenir, &amp; faire paroitre avec éclat la 
+                    <lb/>Dignité de leur Couronne. En troisieme 
+                    <lb/>lieu nous devons faire, tout ce qui dépend 
+                    <lb/>de nous, chacun selon sa condition, pour défendre 
+                    <lb/>leur Personne, &amp; maintenir leur 
+                    <lb/>autorité &amp; leurs Droits personnels, au peril 
+                    <lb/>de nos biens &amp; même de nos vies. En 
+                    <lb/>quatrième &amp; dernier lieu, nous devons obeïr 
+                    <lb/>aux Loix, dont ils ont en main l'éxécution, 
+                    <lb/>avec toute la fidelité &amp; tout le Zèle dont nous 
+                    <lb/>sommes capables, pourvû qu'elles n'ayent 
+                    <lb/>rien de contraire, aux Loix que Dieu nous 
+                    <lb/>a donné dans sa Sainte Parole, pour être 
+                    <lb/>les règles inviolables de la Foi &amp; des moeurs. 
+                    <lb/>S'il y a de l'incompatibilité entre ces Loix de 
+                    <lb/>Dieu, &amp; celles des Souverains, alors il faut 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Acts.4.19">Act. iv. 19.</ref> 
+                    </note> dire à ces derniers, <quote source="bibleOstervald1724.xml#Acts.4.19"> 
+                        <hi rend="I">Jugés s'il est juste de 
+                            <lb/>vous obeir plustôt qu'à Dieu</hi></quote>. Cette sainte maxime 
+                    <lb/>n'est pas seulement fondée, sur l'autorité 
+                    <lb/>du St. Esprit, parlant par l'organe de 
+                    <lb/>St. Pierre. Elle nait si naturellement, des 
+                    <lb/>principes de la droite raison, que Socrate la 
+                    <lb/>fit retentir, presque dans les mêmes termes, 
+                    <lb/>aux Oreilles des Atheniens. <quote source="bibleOstervald1724.xml#_2Cor.2.14"> 
+                        <hi rend="I">Craignez Dieu, 
+                            <lb/>&amp; Honorez le Roi</hi> 
+                    </quote>, dit ici le même Apôtre. 
+                    <lb/>Comme s'il disoit <quote source="bibleOstervald1724.xml#_2Cor.2.14"> 
+                        <hi rend="I">Craignez Dieu</hi> 
+                    </quote> prémiérement 
+                    <lb/>&amp; sur tout. Ensuite, &amp; observez cette <fw place="bot-right" type="catch">sub-</fw> 
+                    <pb n="23"/> 
+                    <lb/>subordination ; ensuite <quote source="bibleOstervald1724.xml#_2Cor.2.14"> 
+                        <hi rend="I">Honorez le Roi</hi> 
+                    </quote>, Par 
+                    <lb/>conséquent en voulant <hi rend="I">Honorer le Roi</hi>, prenez 
+                    <lb/>bien garde de ne rien faire, qui choque en 
+                    <lb/><surplus reason="repeated">en</surplus> aucune maniere, la <hi rend="I">Crainte 
+                    </hi>que vous devez 
+                    <lb/>avoir pour Dieu.</p> 
+                <p n="23"> 
+                    <lb/>Que dirons nous de ce qu'on appelle <hi rend="I">Obeissance 
+                        <lb/>Passive</hi>, que certaines gens portent à 
+                    <lb/>un si grand éxcès, qu'ils prétendent, que 
+                    <lb/>des Sujets sont indispensablement obligés de 
+                    <lb/>la pratiquer, sous quelque oppression, sous 
+                    <lb/>quelque tyrannie qu'ils puissent gemir ? Elle 
+                    <lb/>n'a aucun solide fondement dans l'Ecriture ; 
+                    <lb/>Elle choque les prémiers Principes de la 
+                    <lb/>droite raison ; Elle est incompatible avec les 
+                    <lb/>vûes les plus essentieles, <choice><sic>quil</sic><corr resp="#MAG">qu'il</corr></choice> faloit nécessairement, 
+                    <lb/>que les Peuples se fussent proposé, 
+                    <lb/>dans l'établissement des Rois, &amp; qu'ils n'ont 
+                    <lb/>jamais dû ni pû abandonner ; Elle fait revolter 
+                    <lb/>tous les sentimens naturels, &amp; par conséquent 
+                    <lb/>legitimes, du cœur humain ; Elle 
+                    <lb/>n'a jamais été pratiquée par aucun Peuple, 
+                    <lb/>que lors qu'il y a été forcé par la nécessité, 
+                    <lb/>&amp; que la crainte de s'attirer de plus grands 
+                    <lb/>malheurs, l'a detourné de chercher à se tirer 
+                    <lb/>d'esclavage. Qu'on lise l'Histoire de tous 
+                    <lb/>les temps ; on verra que les Peuples qui ont 
+                    <lb/>souffert davantage, que leur Princes usurpassent 
+                    <lb/>sur eux le pouvoir le plus Despotique 
+                    <lb/>&amp; le plus Arbitraire, n'ont pas laissé de se 
+                    <lb/>souvenir qu'ils étoient <hi rend="I">hommes</hi>, &amp; qu'ils ne 
+                    <lb/>devoient être traités qu'en cette qualité, 
+                    <lb/>quand ils ont crû trouver les moyens d'empécher, 
+                    <lb/>que leurs Tyrans ne les traitassent 
+                    <lb/>plus en <hi rend="I">bêtes</hi>. Il faudroit avoir renoncé à 
+                    <lb/>tout sens commun, si l'on condamnoit le Senat <fw place="bot-right" type="catch">nat</fw> 
+                    <pb n="24"/> 
+                    <lb/>de Rome, pour avoir proscrit l'Empereur 
+                    <lb/> 
+                    <hi rend="I">Neron</hi>. L'admirable, l'heureuse Révolution, 
+                    <lb/>que la bonté Divine opera dans ces 
+                    <lb/>Royaumes, il y a près de trente neuf ans, 
+                    <lb/>par l'organe d'un Prince, d'un Heros d'immortelle 
+                    <lb/>memoire, a êté si bien justifiée contre 
+                    <lb/>ceux qui ont taché de la noircir, qu'il 
+                    <lb/>faut se mettre volontairement, un bandeau 
+                    <lb/>redoublé, d'obstination &amp; d'opiniastreté sur 
+                    <lb/>les yeux, pour ne point voir combien elle 
+                    <lb/>étoit juste &amp; legitime, de même que nécessaire, 
+                    <lb/>pour le bien Spirituel &amp; temporel de cet 
+                    <lb/>Etat. Que nous serions ingrats, si nous ne 
+                    <lb/>la défendions pas de tout nôtre pouvoir, après 
+                    <lb/>les grands avantages, que Dieu nous a 
+                    <lb/>fait la grace d'en retirer, sous les Règnes, 
+                    <lb/>qui l'ont suivie ! C'est ce qui nous conduit 
+                    <lb/>à nôtre seconde Partie, où nous avons dit 
+                    <lb/>que nous ferions des Réflexions, qui se rapporteroient 
+                    <lb/>directement à la circonstance du 
+                    <lb/>temps ; Circonstance <hi rend="I">si triste</hi>, &amp; <hi rend="I">si 
+                        rejouissante </hi> 
+                    <lb/>tout ensemble.</p> 
+                <p n="24"> 
+                    <lb/>LA Providence Divine peut être aujourdhui 
+                    <lb/>représentée à nôtre égard, sous l'emblème 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Exod.14.23">Exod. xiv. <lb/>23.</ref> 
+                    </note> de la nuée qui conduisoit les Israëlites, <hi rend="I">tenebreuse </hi> 
+                    <lb/>d'un côté, &amp; <hi rend="I">lumineuse</hi> de l'autre. Cette 
+                    <lb/>adorable Providence à deux faces, si l'on 
+                    <lb/>peut parler ainsi, nous appelle à pratiquer 
+                    <lb/>le précepte de nôtre Texte de deux manieres 
+                    <lb/>bien differentes ; L'une pour le Roi que 
+                    <lb/>nous n'avons plus, &amp; l'autre pour le Roi 
+                    <lb/>que nous espérons, de la bonté de Dieu 
+                    <lb/>qui nous le donne, qu'elle 
+                    <unclear reason="illegible" resp="#RSL">le</unclear> conservera 
+                    <lb/>long temps, soit pour nous, soit pour ceux 
+                    <lb/>qui viendront après nous. Disons ici avec <fw place="bot-right" type="catch">St.</fw> 
+                    <pb n="25"/> 
+                    <lb/>St. Paul, <quote source="bibleOstervald1724.xml#Phil.1.23"> 
+                        <hi rend="I">Nous sommes serrés de deux cotés</hi> 
+                    </quote>. 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Phil.1.23">Phil. i. 23.</ref> 
+                    </note> 
+                    <lb/>La <hi rend="I">Tristesse </hi>&amp; la <hi rend="I">Joye</hi>, deux 
+                    Passions si contraires, 
+                    <lb/>s'emparent tout à la fois de nôtre 
+                    <lb/>ame ; sans se detruire, &amp; même sans 
+                    <lb/>se confondre, elles nous agitent de leurs 
+                    <lb/>mouvemens opposés. L'une nous fait <hi rend="I">affliger</hi>, 
+                    <lb/>de la mort du Roi que nous avons perdu ; 
+                    <lb/>L'autre nous fait <hi rend="I">réjouir</hi>, de ce que nous 
+                    <lb/>le retrouvons en la personne d'un Fils, si 
+                    <lb/>digne de lui succèder, &amp; par conséquent si 
+                    <lb/>capable de réparer la perte que nous avons 
+                    <lb/>faite.</p> 
+                <p n="25"> 
+                    <lb/>Nous avons <hi rend="I">honoré</hi> le feu Roi, tant que 
+                    <lb/>nous avons vécu sous sa douce &amp; heureuse 
+                    <lb/>Domination. Nous l'avons <hi rend="I">honoré</hi> par devoir, 
+                    <lb/>par inclination, &amp; par réconoissance ; 
+                    <lb/>avec un profond respect, avec un ardent 
+                    <lb/>amour, avec une fidelité &amp; un zèle inviolables. 
+                    <lb/>Enfin nous lui rendons nos derniers<surplus reason="mistake">.</surplus> 
+                    <lb/>homages, en regrettant vivement &amp; de tout 
+                    <lb/>nôtre cœur, la perte d'un <hi rend="I">Si Bon Roi</hi>. Sans 
+                    <lb/>y penser, sans en avoir osé entreprendre le 
+                    <lb/>dessein, nous avons fait son Eloge, &amp; un des 
+                    <lb/>plus magnifiques. Ce nom, si beau, si glorieux 
+                    <lb/>en lui même, si agréable aux oreilles 
+                    <lb/>des Sujets, si touchant, si ravissant dans leurs 
+                    <lb/>cœurs, n'a jamais été donné à meilleur Titre. 
+                    <lb/>La Bonté étoit le caractère éminent de 
+                    <lb/>GEORGE prémier ; Il la possedoit si bien 
+                    <lb/>par éxcellence, que l'on seroit tenté de croire 
+                    <lb/>qu'il en portoit l'éxercice trop loin. Où 
+                    <lb/>est l'injustice que ses Ennemis, ayent jamais 
+                    <lb/>eu quelque raison de lui reprocher ? 
+                    <lb/>Au lieu que s'il eûst pû avoir trop de Clémence, 
+                    <lb/>la seule chose que l'on pourroit avoir <fw place="bot-right" type="catch">du</fw> 
+                    <pb n="26"/> 
+                    <lb/>du penchant à ne pas goûter dans son Gouvernement, 
+                    <lb/>ce seroit son peu de severité contre 
+                    <lb/>les attentats de la Rebellion, &amp; son éxtrème 
+                    <lb/>facilité, à donner des amnisties &amp; des 
+                    <lb/>Graces à des Rebelles ; Mais qu'un Roi est 
+                    <lb/>bien digne d'éxcuse, quand il n'en a besoin, 
+                    <lb/>que pour des éxcès de bonté, en faveur de 
+                    <lb/>ses ennemis ! Bien loin d'opprimer ses Sujets ; 
+                    <lb/>Jaloux de leurs Libertés, autant qu'ils le 
+                    <lb/>pouvoient être eux mêmes, il s'est fait un 
+                    <lb/>doux plaisir, de les en faire jouir dans toute 
+                    <lb/>leur plénitude, &amp; de leur donner les plus 
+                    <lb/>solides asseurances, qu'elles lui seroient toujours 
+                    <lb/>inviolables &amp; sacrées. Quel soin, quelle 
+                    <lb/>vigilance, pour faire vivre ses Peuples 
+                    <lb/>dans une profonde Paix, nonobstant, malgré 
+                    <lb/>son inclination naturelle, pour le noble 
+                    <lb/>&amp; glorieux Metier de la Guerre, qu'il avoit 
+                    <lb/>apris dans sa premiere Jeunesse, sur tout en 
+                    <lb/>combattant contre les Infidelles, &amp; éxercé 
+                    <lb/>depuis en divers Climats, avec tant de prudence 
+                    <lb/>&amp; de valeur, qu'il étoit reconu pour 
+                    <lb/>un des meilleurs, &amp; des plus consommez Géneraux, 
+                    <lb/>qu'on ait vû depuis long temps en 
+                    <lb/>Europe !</p> 
+                <p n="26"> 
+                    <lb/>Lors même que par de sages précautions, 
+                    <lb/>il faisoit de grands &amp; de puissans armemens, 
+                    <lb/>pour entrer promptement en Campagne, afin 
+                    <lb/>de prévenir &amp; de confondre les pernicieux 
+                    <lb/>desseins des Ennemis ; ce qu'il desiroit 
+                    <lb/>avec le plus d'ardeur, c'étoit de leur inspirer 
+                    <lb/>assés d'appréhension, &amp; de crainte, pour ne 
+                    <lb/>vouloir pas essuyer l'effort de ses armes, &amp; 
+                    <lb/>pour se reduire à accepter sagement des Propositions <fw place="bot-right" type="catch">posi-</fw> 
+                    <pb n="27"/> 
+                    <lb/>de Paix, qu'il jugeoit plus avantageuses 
+                    <lb/>pour ses Sujets, que n'auroient été 
+                    <lb/>les heureux succès que la Guerre sembloit lui 
+                    <lb/>promettre. Dieu venoit de le faire reüssir, 
+                    <lb/>dans un dessein si génereux, si magnanime. 
+                    <lb/>Comblé de joye, &amp; des Benedictions de ses 
+                    <lb/>Peuples, il étoit parti pour prendre avec les 
+                    <lb/>Alliés, les mesures nécessaires, afin de parvenir 
+                    <lb/>à la consommation de ses souhaits, 
+                    <lb/>par une Paix générale, solide, &amp; durable. 
+                    <lb/>Le Ciel avoit exaucé nos voeux, en le garantissant 
+                    <lb/>des dangers de la Mer, qui avoient 
+                    <lb/>failli à nous être si funestes en sa Personne, 
+                    <lb/>la derniere fois qu'Elle y avoit été éxposée. 
+                    <lb/>Nous n'étions occupez, que du plaisir d'en 
+                    <lb/>rendre à Dieu nos plus vives actions de graces, 
+                    <lb/>&amp; de l'impatient desir d'apprendre à tous 
+                    <lb/>momens, qu'il étoit heureusement arrivé, 
+                    <lb/>au terme de son Voyage. Dans ce plaisir 
+                    <lb/>dans cette douce attente, nous entendons 
+                    <lb/>tout à coup, qu'il a fini sa vie, dans le même 
+                    <lb/>Palais où il l'avoit commencée. Quelle triste, 
+                    <lb/>quelle accablante nouvelle ? Qui n'en a pas été 
+                    <lb/>frappé comme d'un coup de foudre ! Qui est 
+                    <lb/>ce qui n'en a pas encore l'ame toute penétrée ! 
+                    <lb/>Helas ! Sa vigoureuse constitution, sembloit 
+                    <lb/>promettre à ses Peuples, qu'ils auroient le 
+                    <lb/>bonheur de le posseder encore plusieurs années, 
+                    <lb/>&amp; jusqu'à la plus grande Vieillesse. 
+                    <lb/>Cependant, O vanité, O néant de toutes les 
+                    <lb/>espérances humaines ! une mort imprevue &amp; 
+                    <lb/>presque subite, nous l'enlève comme un 
+                    <lb/>tourbillon.</p> 
+                <p n="27"> 
+                    <lb/>Une mort imprévue, &amp; presque subite ! 
+                    <lb/>O Dieu tout Bon ! nous esperons de ton infinie <fw place="bot-right" type="catch">nie</fw> 
+                    <pb n="28"/> 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Ps.116.15">Ps. cxvi. 15.</ref> 
+                    </note> Misericorde, qu'elle aura été <quote source="bibleOstervald1724.xml#Ps.116.15"> 
+                        <hi rend="I">précieuse 
+                            <lb/>devant tes yeux</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>; que ta Grace qui peut en un 
+                    <lb/>moment deployer toute son efficace dans les 
+                    <lb/>Pecheurs, sans l'usage d'aucun moyen éxterieur, 
+                    <lb/>aura mis son ame, en êtat d'être portée 
+                    <lb/>par tes saints Anges, dans ton Paradis, 
+                    <lb/>dans ton Sein, lavée de la coulpe de tous 
+                    <lb/>ses pechés, par le precieux Sang de ton Fils 
+                    <lb/>Jesus Christ le Redempteur du Monde, purifiée 
+                    <lb/>de toutes ses souillures, par l'Eau sanctifiante 
+                    <lb/>de ton S. Esprit ; &amp; qu'ainsi tu auras 
+                    <lb/>changé la couronne corruptible qu'il 
+                    <lb/>portoit sur la Terre, en une couronne immarcessible 
+                    <lb/>de gloire dans le Ciel.</p> 
+                <p n="28"> 
+                    <lb/>Conservons chérement sa Glorieuse Memoire, 
+                    <lb/>&amp; le tendre souvenir de ses bien-faits. 
+                    <lb/>Benissons Dieu qui fait vivre &amp; qui fait 
+                    <lb/> 
+                    <note type="margin"> 
+                        <gap resp="#RSL" unit="character" extent="unknown" reason="illegible"/> 
+                    </note> mourir, de l'avoir conservé jusqu'à un âge, 
+                    <lb/>où l'on voit parvenir peu d'hommes, &amp; sur 
+                    <lb/>tout un si petit nombre de Rois. Benissons 
+                    <lb/>Dieu, la source &amp; la prémiere cause de 
+                    <lb/>toute sorte de biens, des douceurs générales &amp; 
+                    <lb/>particulieres, qu'il nous a fait trouver à 
+                    <lb/>l'ombre de son <hi rend="I">Sceptre d'or</hi>, pendant près de 
+                    <lb/>treize années. Et pour profiter saintement 
+                    <lb/>de sa mort, regardons la comme un grand 
+                    <lb/>commentaire, bien sensible &amp; bien touchant, 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Jas.4.13-14">Iac. iv. 13, <lb/>14.</ref> 
+                    </note> de cette Leçon d'un Apôtre ; <quote source="bibleOstervald1724.xml#Jas.4.13-14">"Vous 
+                        <lb/>"qui dittes ; allons aujourdhui ou demain 
+                        <lb/>"dans un tel Païs, pour y avancer nos affaires ; 
+                        <lb/>"Vous ne savez pas ce qui vous 
+                        <lb/>"arrivera le lendemain. Car qu'est ce que 
+                        <lb/>"vôtre vie ? Certainement ce n'est qu'une 
+                        <lb/>"legere vapeur, qui apparoit pour un peu, 
+                        <lb/>"&amp; puis s'évanouit."</quote> Incertitude, fragilité <fw place="bot-right" type="catch">gilité</fw> 
+                    <pb n="29"/> 
+                    <lb/>de la vie humaine, ne ferez vous 
+                    <lb/>jamais, d'assés vives, d'assés profondes impressions 
+                    <lb/>dans nos ames, pour nous inspirer 
+                    <lb/> 
+                    <hi rend="I">un cœur de sagesse ?</hi> Ne ferons nous jamais <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Ps.90.12">Ps. xc. 12.</ref> 
+                    </note> 
+                    <lb/>d'assés serieuses, d'assés durables réflexions, 
+                    <lb/>sur ces verités si humiliantes mais 
+                    <lb/>en même temps si sanctifiantes ; <quote source="bibleOstervald1724.xml#Eccl.1.1">"Vanité des <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Eccl.1.1">Eccles. i. 1.</ref> 
+                        </note> 
+                        <lb/>"Vanités, tout est Vanité. Toute chair est <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_1Pet.1.24">1 Pier. i. <lb/>24.</ref> 
+                        </note> 
+                        <lb/>"comme l'herbe, &amp; toute la gloire des hommes, 
+                        <lb/>"comme la fleur de l'herbe. Le Monde <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_1John.2.27">1 Jean. ii. <lb/>27.</ref> 
+                        </note> 
+                        <lb/>"passe &amp; sa convoitise, ses richesses, ses plaisirs, 
+                        <lb/>"ses honeurs, ses Dignités, ses Sceptres, 
+                        <lb/>"ses Couronnes, s'envolent, s'anéantissent. 
+                        <lb/>"Au lieu que ceux qui font la volonté de 
+                        <lb/>"<hi rend="I">Dieu</hi>, demeurent éternellement."</quote> 
+                </p> 
+                <p n="29"> 
+                    <lb/>C'en est fait, Mes Freres, nous avons <hi rend="I">Honoré</hi>, 
+                    <lb/>autant que nous l'avons pû selon nôtre 
+                    <lb/>foible portée, le Roi qui n'a plus de respiration. 
+                    <lb/>Il reste que selon l'obligation de 
+                    <lb/>nôtre Ministère, nous vous éxhortions, quoi 
+                    <lb/>que vous y soyés mieux disposés, que nous 
+                    <lb/>ne saurions vous y animer, à <hi rend="I">Honorer </hi>désormais 
+                    <lb/>le Roi, qui pour parler avec un Prophete, <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Lam.4.20">Lament. <lb/>iv. 20.</ref> 
+                    </note> 
+                    <lb/>est à présent le <quote source="bibleOstervald1724.xml#Lam.4.20"> 
+                        <hi rend="I">souffle de nos Narines</hi> 
+                    </quote>. Pratiquons 
+                    <lb/>à son égard, avec toute la fidelité, 
+                    <lb/>avec tout le Zèle dont nous sommes capables, 
+                    <lb/>tous les devoirs que nous avons medité dans 
+                    <lb/>nôtre Texte. Beni soit l'Arbitre Souverain 
+                    <lb/>de toutes choses, qui n'a point retiré sa gratuité 
+                    <lb/>de dessus nous. En <quote source="bibleOstervald1724.xml#Job.5.18"> 
+                        <hi rend="I">faisant la playe, il </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Job.5.18">Job. v. 18.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">l'a bandée</hi> 
+                    </quote> en même temps. Si les pleurs 
+                    <lb/>ont fondu le soir sur nous, il nous a fait <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Ps.30.6">Ps. xxx. <lb/>6.</ref> 
+                    </note> 
+                    <lb/>entendre le matin des chants de triomphe. 
+                    <lb/>En retirant à soi un Roi selon nôtre cœur, 
+                    <lb/>il nous en a donné un autre, qui le sera de <fw place="bot-right" type="catch">même,</fw> 
+                    <pb n="30"/> 
+                    <lb/>même ; que dis je, il l'est dèja. Nous avons 
+                    <lb/>un Salomon en la place de David son Pere. 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_1Kgs.3.7">1 Rois iii. <lb/>7.</ref> 
+                    </note> Non un Salomon <quote source="bibleOstervald1724.xml#_1Kgs.3.7"> 
+                        <hi rend="I">qui soit encore trop jeune, &amp; 
+                            <lb/>qui ne sache ni entrer ni sortir</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>; Mais un Salomon, 
+                    <lb/>dans sa maturité, dans la force de l'âge, 
+                    <lb/>&amp; qui a déja une si grande portion de sagesse. 
+                    <lb/>Non un Roi à former ; mais un Roi 
+                    <lb/>tout formé pour le Trône. Un Prince qui 
+                    <lb/>pendant douze années, a étudié avec tant 
+                    <lb/>de soin &amp; d'assiduité, la Constitution &amp; les 
+                    <lb/>Loix de ces Puissans Royaumes, pour être 
+                    <lb/>en état d'en tenir glorieusement les Rêsnes, 
+                    <lb/>s'il plaisoit à la Divine Providence, de les 
+                    <lb/>Lui mettre un jour en main, selon le cours 
+                    <lb/>de la Nature.</p> 
+                <p n="30"> 
+                    <lb/>Que ne devons nous pas attendre de son 
+                    <lb/>Règne, quand nous pensons avec quel heureux 
+                    <lb/>succès, avec quel applaudissement, il fit 
+                    <lb/>briller tant d'application, de prudence, &amp; 
+                    <lb/>d'habileté, dans le temps de sa Règence ? 
+                    <lb/>Oh ! si cette joye qui éclatte aujourdhui de 
+                    <lb/>toutes parts, pour son avenement à la Couronne, 
+                    <lb/>&amp; qui se signale en tous lieux avec 
+                    <lb/>tant de Zèle, Oh ! si cette joye si universelle 
+                    <lb/>étoit un asseuré présage, que les Factions 
+                    <lb/><choice><sic>vout</sic><corr resp="#RSL">vont</corr></choice> finir, qu'il n'y aura plus de Partis, &amp; 
+                    <lb/>que tous ses Sujets à l'envi les uns des autres, 
+                    <lb/>n'auront plus qu'un cœur &amp; qu'une 
+                    <lb/>ame ; pour ses interests &amp; pour son service ! 
+                    <lb/>Le Dieu de Paix veuille consommer le bonheur 
+                    <lb/>de ce florissant Etat, en amenant par sa 
+                    <lb/>bonne Providence un si heureux événement ! 
+                    <lb/> 
+                    <quote source="bibleOstervald1724.xml#Mark.11.9"> 
+                        <hi rend="I">Hosanna, beni soit le Roi qui vient au nom du </hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Mark.11.9">Marc. xii. <lb/>9.</ref> 
+                        </note> 
+                        <hi rend="I">Seigneur</hi></quote>. Veuille <quote source="bible1588.xml#Jas.1.17"> 
+                        <hi rend="I">l'Auteur de toute bonne donation</hi> 
+                    </quote>, 
+                    <lb/>le revestir de sagesse &amp; de force ; <fw place="bot-right" type="catch">l'Ani-</fw> 
+                    <pb n="31"/> 
+                    <lb/>l'animer toujours de plus en plus, de sa 
+                    <lb/>crainte &amp; de son amour ; être <quote source="bibleOstervald1724.xml#Ps.84.12"> 
+                        <hi rend="I">son Soleil &amp; son </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.84.12">Ps. <add resp="#RSL" place="inline">L</add>xxxiv.</ref> 
+                        </note> 
+                        <!-- la première lettre du chiffre romain a été tracée à la main ; impossible de savoir s’il s’agit d’un ajout ou de la correction d’une autre lettre. --> 
+                        <lb/> 
+                        <hi rend="I">Bouclier, lui donner Grace &amp; Gloire, ne lui 
+                            <lb/>épargner aucun bien</hi></quote> <hi rend="I">!</hi> 
+                     Que le Sceptre qu'il a 
+                    <lb/>en héritage, fleurisse toujours en sa main ; 
+                    <lb/>Qu'il le porte long temps, toujours avec 
+                    <lb/>Plaisir &amp; avec Gloire ! Qu'après une longue 
+                    <lb/>suite d'années, toutes heureuses pour Lui, 
+                    <lb/>&amp; pour la Reine, sa Digne, Son Excellente, 
+                    <lb/>Son Auguste Epouse, ce beau Sceptre passe au 
+                    <lb/>Prince, qui par tant de belles qualités, si dignes 
+                    <lb/>de sa naissance, mais en même tems 
+                    <lb/>si fort au dessus de son âge, fait déjà tant 
+                    <lb/>d'honeur à ses Glorieux Ancestres, &amp; allonge 
+                    <lb/>ainsi à nos yeux, l'agréable Perspective d'un 
+                    <lb/>heureux Avenir ! Enfin, Que ses Couronnes 
+                    <lb/>devenues sur sa Tête sacrée, encore plus 
+                    <lb/>Illustres qu'elles n'ont été dans les Règnes 
+                    <lb/>précédens, soient transmises avec toute leur 
+                    <lb/>Splendeur, à sa Posterité de Fils en Fils, 
+                    <lb/>jusqu'à la derniere génération des hommes.</p> 
+                <p n="31"> 
+                    <lb/>Ces Actions de Graces, ces Prieres, 
+                    <lb/>nous les poussons tous au Ciel du plus 
+                    <lb/>profond de nôtre cœur. Mais, afin qu'elles 
+                    <lb/>montent heureusement jusqu'au Trône de 
+                    <lb/>Dieu, suffit il qu'elles soient sincères &amp; ardentes ? 
+                    <lb/>Si nous voulons qu'il reçoive favorablement 
+                    <lb/>les unes, &amp; qu'il éxauce les autres, 
+                    <lb/>souvenons nous qu'il faut qu'elles soient 
+                    <lb/>soutenues, &amp; animées d'une vie sainte. Est 
+                    <lb/>ce en vain que l'Ecriture a dit, que le sacrifice 
+                    <lb/>des Mechans, est en abomination à l'Eternel, <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Prov.15.1">Prov. xv. <lb/>1</ref> 
+                    </note> 
+                    <lb/>&amp; qu'il ne les éxauce point ? Quelque <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#John.9.31">Jean ix. <lb/>31.</ref> 
+                    </note> 
+                    <lb/>Zèlez que des Sujets puissent être pour 
+                    <lb/>leur Souverain, s'ils manquent de Zèle pour <fw place="bot-right" type="catch">Dieu,</fw> 
+                    <pb n="32"/> 
+                    <lb/>Dieu, ils sont Traitres au Roi, &amp; à la Patrie. 
+                    <lb/>Autant qu'il depend d'eux, ils attirent 
+                    <lb/>les malédictions du Ciel en haut &amp; de la terre 
+                    <lb/>en bas, sur sa Personne &amp; sur ses Etats. 
+                    <lb/>Apliquons nous ce que Samuel dit aux Israëlites, 
+                    <lb/>après que par le commandement de 
+                    <lb/>Dieu, il eut oint Saül pour règner sur eux ; 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_1Sam.12.25">1 Sam. xii. <lb/>25.</ref> 
+                    </note> 
+                    <quote source="bibleOstervald1724.xml#_1Sam.12.25"> 
+                        <hi rend="I">Si vous perseverez à mal faire, tant vous que vôtre 
+                            <lb/>Roi, vous serez consumez</hi></quote>. Au contraire, si 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Matt.22.21">Mat. xxii. <lb/>21.</ref> 
+                    </note> en <hi rend="I">Honorant le Roi</hi>, nous <hi rend="I">craignons Dieu 
+                    </hi>; si 
+                    <lb/>en <quote source="bibleOStervald1724.xml#Matt.22.21"> 
+                        <hi rend="I">rendant à César ce qui est à César</hi>, nous <hi rend="I">rendons 
+                            <lb/>à Dieu ce qui appartient à Dieu</hi> 
+                    </quote>, nous aurons 
+                    <lb/>la joye &amp; le bonheur, de contribuer 
+                    <lb/>par la voye la plus éfficace, à faire descendre 
+                    <lb/>abondamment du Ciel, les plus précieuses bénédictions, 
+                    <lb/>sur le Roi, sur la Reine, sur 
+                    <lb/>leurs Altesses Royales les Princes &amp; les Princesses 
+                    <lb/>leurs Enfans, sur toute la Maison Royale ; 
+                    <lb/>&amp; en même temps sur l'Eglise &amp; sur 
+                    <lb/>l'Etat, sur nos Personnes &amp; sur nos Familles. 
+                    <lb/>Enfin après avoir <hi rend="I">Craint Dieu, &amp; Honoré le 
+                        <lb/>Roi </hi>sur la terre, nous vivrons, nous règnerons 
+                    <lb/>avec le Roi des Rois, &amp; le Seigneur 
+                    <lb/>des Seigneurs, dans le Palais de sa Gloire 
+                    <lb/>éternelle. Dieu nous en fasse à tous la 
+                    <lb/>Grace ; &amp; à Lui Pere, Fils, &amp; Saint Esprit, 
+                    <lb/>un seul Dieu en trois Personnes, soit Honeur, 
+                    <lb/>Louange, &amp; Gloire dès maintenant 
+                    <lb/>&amp; à jamais. <hi rend="I">AMEN.</hi> 
+                </p> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

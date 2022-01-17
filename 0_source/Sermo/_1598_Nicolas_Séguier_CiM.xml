@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1598_Nicolas_Séguier_CiM">
+            <titleStmt>
+                <title type="sermon">LA PREMIERE HOMELIE sur le cinquantetroisiesme chapitre de la prophetie d'Esaie, vers.1. ...</title>
+                <title type="book">VINT QVATRE HOMELIES, OV, SERMONS FAMILIERS, SUR LE LIII. CHAP.
+                    DV LIVRE DES REVELATIONS DV PROPHETE ESAÏE</title>
+                <author ref="...">Nicolas Séguier</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="CiM">Cinthia MELI</persName>
+                        <email>cinthia.meli@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Nicolas Séguier</author>
+                        <title>VINT QVATRE HOMELIES, OV, SERMONS FAMILIERS, SUR LE LIII. CHAP. DV
+                            LIVRE DES REVELATIONS DV PROPHETE ESAÏE</title>
+                        <imprint>
+                            <pubPlace>Genève<!-- pas noté sur la page du titre mais éditeur genevois normalement --></pubPlace>
+                            <publisher>Jaques Chouët</publisher>
+                            <date>1598</date>
+                            <date type="sermon"/>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">http://dx.doi.org/10.3931/e-rara-6865</idno>
+                    <idno type="source">Bibliothèque de Genève, Cote BGE Bd 360*</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">homélie</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">24</term>
+                    <term type="typeOfCollection">lectio continua</term>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Isa.53.1</term>
+                    <term type="paratext" subtype="epistle">A TRESMAGNIFIQVES, Puissans, &amp; souuerains Seigneurs de la ville &amp; Canton de Berne</term>
+                    <term type="paratext" subtype="preface">AV LECTEVR Chrestien</term>
+                    <term type="paratext" subtype="other">Sonnet de l'autheur</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français préclassique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-07-13" who="#LjD">transformation word - XML</change>
+            <change when="2017-07-13" who="#MAG">Verification, citations</change>
+            <change when="2017-07-10" who="#CiM">Transcription word</change>
+            <change when="2017-07-13" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>VINT QVATRE
+                    <lb/>HOMELIES,
+                    <lb/>OV,
+                    <lb/>SERMONS FAMILIERS,
+                    <lb/>SVR LE LIII. CHAP. DV LIVRE
+                    <lb/>DES REVELATIONS DV
+                    <lb/>PROPHETE ESAÏE: </p>
+                <p n="2">
+                    <lb/>
+                    <hi rend="I">Composees </hi>PAR N. SEGVIER,<hi rend="I"> Parisien,
+                        <lb/>Ministre de la parole de Dieu en la
+                        <lb/>ville de Lausanne.</hi>
+                </p>
+                <p n="3">
+                    <lb/>Pour Iaques Chouët.
+                    <lb/>M. D. XCVIII. </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <note type="qqch"><!-- trouver qqch -->
+                    <lb/>
+                    <hi rend="I">Nostre aide soit au nom de Dieu,
+                        <lb/>Qui a fait le ciel, &amp; la terre. Amen.</hi>
+                </note>
+                <head type="main">
+                    <lb/>LA PREMIERE HOMELIE
+                    <lb/>sur le <ref type="bible" target="bibleSegond21.xml#Isa.53.1">cinquantetroisiesme chapitre de la
+                        <lb/>prophetie d'Esaie, vers.1.</ref>
+                    <lb/>
+                    <lb/>
+                    <quote source="bibleSegond21.xml#Isa.53.1"><!--traduction personnelle-->
+                        <hi rend="I">Qui est-ce qui a creu à nostre predication</hi></quote><hi rend="I">?</hi>
+                    
+                </head>
+                <p n="2">
+                    <lb/>
+                    <c type="lettrine">Q</c>VAND l'Apostre S. Paul dit au <ref type="bible" target="bibleSegond21.xml#_1Cor.2.2">2.
+                        <lb/>chap.de la 1.aux Corint. au 2. vers.</ref>
+                    <lb/>Qu'il ne veut sçauoir autre chose
+                    <lb/>que Christ, &amp; icelui crucifié , il
+                    <lb/>nous enseigne , que la parfaite , &amp;
+                    <lb/>entiere cognoissance de toute la
+                    <lb/>Philosophie celeste, que les Chrestiens
+                    <lb/>appellent Theologie, consiste
+                    <lb/>en la cognoissance de Christ crucifié,c'estadire,comme
+                    <lb/>le mesme Apostre interprete, mort pour nos pechez,
+                    <lb/>&amp; resuscité pour nostre iustification:dautant que
+                    <lb/>toute la cognoissãce que nous pouuõs auoir de Christ,
+                    <lb/>ne nous apporte aucun prouffit , sans la mort &amp; resurrection
+                    <lb/>d'icelui. La cognoissance , &amp; apprehension de
+                    <lb/>Christ, nous est alors vtile &amp; prouffitable, quand nous
+                    <lb/>le cognoissons, &amp; embrassons par vne vraye &amp; viue foi,
+                    <lb/>pour nostre Sauueur, &amp; Redempteur : lequel ayant par
+                    <lb/>sa mort appaisé l'ire de Dieu, &amp; nous ayant reconciliez
+                    <lb/>à lui par l'effusion de son sang , nous a deliurez de la
+                    <lb/>mort, &amp; obtenu vie eternelle. Voila pourquoi,quand
+                    <lb/>nous parlons du moyen de nostre salut , nous le constituons
+                    <lb/>en ceste seule mort de<supplied resp="#MAG" reason="omission"> </supplied>Christ;<choice><sic>sous</sic><corr resp="#CiM">sans</corr></choice> laquelle neantmoins ,
+                    <lb/>nous ne laissons pas de comprendre l'obeïssance
+                    <lb/>entiere , &amp; parfaite , que Christ a rendu à Dieu son
+                    <lb/>Pere , en toute sa vie ; &amp; aussi sa resurrection , laquelle
+                    <lb/>a suiui sa mort. Mais pource que la mort qu'il a enduré,
+                    <lb/>a esté comme le comble, &amp; la perfection de son obeissance, <pb n="2"/>
+                    <lb/>par laquelle il faloit que nostre desobeissance fust
+                    <lb/>satisfaite , ainsi que l'Apostre monstre , tant au <ref type="bible" target="bibleSegond21.xml#Rom.4.19">4.
+                        des
+                        <lb/>Rom. 19. vers.</ref> qu'au <ref type="bible" target="bibleSegond21.xml#Phil.2.8">2. des
+                        Philip.8.vers.</ref> disant, qu'il s'est
+                    <lb/>rendu obeissant iusques à la mort de la croix: voila
+                    <lb/>pourquoi , venans iusques au souuerain degré de ceste
+                    <lb/>obeissance, par laquelle salut nous est aquis, nostre foi
+                    <lb/>se repose sur ceste mort , laquelle l'Esprit de Dieu nous
+                    <lb/>propose pour le seul repos de nos ames , &amp; de nos consciences:
+                    <lb/>pource aussi que c'est le seul, &amp; vnique moyen,
+                    <lb/>par lequel Dieu a esté satisfait , &amp; payé de l'obligation
+                    <lb/>de mort , par laquelle nous estions redeuables à son iugement.
+                    <lb/>L'Escriture saincte,&amp; sur tout le nouueau Testamẽt,
+                    <lb/>nous enseigne plusieurs autres choses de Christ;
+                    <lb/>mais cependant, dautant que l'accomplissement du salut
+                    <lb/>gist en cela,finalement, l'Esprit de Dieu, par la bouche
+                    <lb/>des Euangelistes, &amp; Apostres,qui ont esté specialement
+                    <lb/>designez , &amp; ordonnez tesmoings de ces choses,
+                    <lb/>nous ramene la. Or combien que cest office, &amp; charge,
+                    <lb/>leur ait esté particulierement donnee par Christ , &amp;
+                    <lb/>qu'ils s'y soyent aussi fidelement employez , toutesfois,
+                    <lb/>pource qu'Esaye a parlé si clairement, &amp; ouuertement,
+                    <lb/>non seulement de la naissance , &amp; du regne de Christ,
+                    <lb/>mais aussi de sa mort, &amp; de sa resurrection,&amp;, specialement,
+                    <lb/>en ce <ref type="bible" target="bibleSegond21.xml#Isa.53">cinquante &amp; troisieme chapitre</ref> de sa
+                    Prophetie,
+                    <lb/>que nul des Euangelistes ne l'a surpassé en cela;
+                    <lb/>&amp;, que, pour ceste occasion , il a aussi bien acquis nom
+                    <lb/>d'Euangeliste que de Prophete:voila pourquoi, si nous
+                    <lb/>voulons estre instruits , &amp; enseignez de ce qui appartient
+                    <lb/>a la mort , &amp; resurrection de Christ , il faut que
+                    <lb/>nous lisions , &amp; considerions soigneusement , ce qui est
+                    <lb/>escrit par le Prophete en ce passage:auquel il declare la
+                    <lb/>condition du regne de Christ;l'Estat de sa personne,telle
+                    <lb/>qu'elle est venue,&amp; a esté en ce monde:Sa petitesse,&amp;
+                    <lb/>son abiection,&amp; les causes pourquoi il a esté ainsi vil,&amp;
+                    <lb/>contemptible : Ses souffrances , passions, &amp; mort, auec
+                    <lb/>les causes pour lesquelles il l'a souffert , &amp; enduré : Les
+                    <lb/>biens , &amp; les fruicts excellens qui en sont prouenus , &amp; <fw place="bot-right" type="catch">desq</fw>
+                    <pb n="3"/>
+                    <lb/>desquels nous sommes faits participans : bref , sa resurrection,
+                    <lb/>son exaltation, &amp; l'excellence de sa victoire par
+                    <lb/>dessus tous ses ennemis : qui sont en somme toutes les
+                    <lb/>choses que nous deuons cognoistre de Christ,&amp; apprehender
+                    <lb/>en lui, par vne vraye, &amp; viue foi , pour obtenir
+                    <lb/>salut. Ce n'a point esté sans vne prouidence admirable
+                    <lb/>de Dieu,que l'eunuque de Candacé fut trouué par Philippe
+                    <lb/>sur ce passage,lesquel seruit d'argument,&amp; de matiere
+                    <lb/>excellente,pour lui enseigner Christ. Dauantage,
+                    <lb/>il n'y a passage en l'Escriture , qui nous serue plus pour
+                    <lb/>adoucir, &amp; oster le scandale,que la croix de Christ nous
+                    <lb/>apporte. Or,pour le bien entendre,il ne le faut pas passer
+                    <lb/>legerement,mais il faut diligemment, &amp; soigneusement
+                    <lb/>esplucher, mascher, &amp; ruminer, toutes les belles,
+                    <lb/>&amp; excellentes doctrines lesquelles y sont contenues ; &amp;
+                    <lb/>obseruer aussi l'art,&amp; la methode,que tient le Prophete
+                    <lb/>à les proposer. Car,comme ce Prophete est,entre tous
+                    <lb/>les autres,iugé,&amp; estimé eloquent,aussi semble il,qu'en
+                    <lb/>ce passage surtout,pour ce qu'il traite de la substãce du
+                    <lb/>salut des hommes , il se soit estudié d'enrichir les choses
+                    <lb/>( quoi que d'elles mesmes elles le soyent assez ) par vn
+                    <lb/>artifice,&amp; vne eloquence merueilleuse:laquelle,si on ne
+                    <lb/>considere , il est certain , qu'on perdra beaucoup de la
+                    <lb/>substance de ce passage, &amp; n'en rapportera-on, par maniere
+                    <lb/>de dire,qu'vn corps sans ame. Apres que le Prophete
+                    <lb/>a declaré au <ref type="bible" target="bibleSegond21.xml#Isa.52.13">13. vers. du chap. precedent</ref> , qu'au
+                    <lb/>faict de la deliurance du peuple , le seruiteur de Dieu se
+                    <lb/>porteroit heureusement , &amp; seroit exalté, &amp; esleué fort
+                    <lb/>haut,il commence, des le <ref type="bible" target="bibleSegond21.xml#Isa.52.14">14. vers. suiuant</ref>, à
+                    parler de la
+                    <lb/>matiere , laquelle il traite en ce chap. c'estassauoir , de
+                    <lb/>l'abiection , &amp; aneantissement de ce Seruiteur , disant,
+                    <lb/>que plusieurs s'estoyent esbahis de ce qu'il estoit ainsi
+                    <lb/>defait de visage plus que nul,&amp; deformé par dessus tous
+                    <lb/>les enfans des hommes.Or combien que les paroles du
+                    <lb/>Prophete,en ce <ref type="bible" target="bibleSegond21.xml#Isa.52.13">13.vers.</ref>se
+                    peuuent,premierement,&amp; aucunement,
+                    <lb/>rapporter à Cyrus, par lequel le peuple a esté
+                    <lb/>deliuré de la captiuité de Babylone , toutefois, dautant <pb n="4"/>
+                    <lb/>qu'il n'est pas seulement parlé la d'vne simple deliurance
+                    <lb/>de ceste captiuité , mais d'vne beaucoup plus
+                    <lb/>grande,assauoir de la deliurance mise en auant par Zacharie
+                    <lb/>en son Cantique,laquelle deuoit estre faite par
+                    <lb/>le Messias , il faut que nous rapportions les paroles du
+                    <lb/>Prophete au Christ promis en la Loi , &amp; es Prophetes.
+                    <lb/>Comme aussi il y a plusieurs choses en ce chapitre , lesquelles,
+                    <lb/>quoi que les Iuifs gazouillent,ne se peuuent atribuer
+                    <lb/>a Cyrus,ni autres quelconques,fors qu'a Christ:
+                    <lb/>comme quand il est dit, qu'il a esté nauré pour nos forfaicts,
+                    <lb/>&amp; que la correction de nostre paix est sur lui,qu'il
+                    <lb/>n'a point fait d'iniquité, &amp; qu'il ne s'est point trouué
+                    <lb/>de fraude en sa bouche. Nous tenons donc pour tout
+                    <lb/>certain,&amp; resolu, comme aussi nul des Chrestiens ne le
+                    <lb/>reuoque en doute , que le Prophete traitte &amp; parle du
+                    <lb/>Christ en ce chapitre. Cependant,dautant que la description
+                    <lb/>qu'il en fait, est merueilleusement estrange, &amp;
+                    <lb/>semble du tout contraire à la nature &amp; condition de ce
+                    <lb/>qu'il veut proposer, voire mesme contraire à ce qu'il auoit
+                    <lb/>dit en ce <ref type="bible" target="bibleSegond21.xml#Isa.52.13">13.vers.du chap. precedent</ref>,de
+                    l'exaltation
+                    <lb/>&amp; esleuement de ce Seruiteur , tellement qu'il sembleroit
+                    <lb/>qu'en ce <ref type="bible" target="bibleSegond21.xml#Isa.53">cinquante troisiesme chap.</ref> il parlast
+                    d'vn
+                    <lb/>autre Seruiteur que de celui duquel il a parlé au <ref type="bible" target="bibleSegond21.xml#Isa.52.13">13.vers.
+                        <lb/>du chap. precedent</ref> , combien que toutefois il ne parle
+                    <lb/>que du mesme , mais consideré selon la diuersité des
+                    <lb/>temps:voila pourquoi il s'escrie <ref type="bible" target="bibleSegond21.xml#Isa.53.1">des l'entree de ce
+                        chap</ref>.
+                    <lb/>
+                    <quote source="bibleSegond21.xml#Isa.53.1">Qui est ce qui a creu,&amp; qui croira à nostre
+                        predication</quote>?
+                    <lb/>comme s'il vouloit dire, Nous enseignons vne chose
+                    <lb/>laquelle les hommes ne croiront point , assauoir , que
+                    <lb/>cestui-la , lequel nous est promis pour Roy, &amp; Liberateur,
+                    <lb/>doit estre vil, contemptible, &amp; reietté;sans forme,
+                    <lb/>beauté,ni figure quelconque. y a il chose plus contraire
+                    <lb/>à la nature , &amp; condition d'vn Roy que cela? comme
+                    <lb/>sont aussi toutes les autres circonstances , desquelles le
+                    <lb/>Prophete orne le Christ en ce chapitre , &amp; pour raison
+                    <lb/>desquelles, comme dit S.Paul la <ref type="bible" target="bibleSegond21.xml#_1Cor.1.23">1.des Corinth. au 1.
+                        <lb/>chap.23.vers.</ref>il a esté folie aux Gentils, &amp; scandale aux <fw place="bot-right" type="catch">Iuifs</fw>
+                    <pb n="5"/>
+                    <lb/>Iuifs. Le Prophete,donques,par ceste exclamation declare
+                    <lb/>ce qui doit aduenir touchant nostre Seigneur Iesus
+                    <lb/>Christ, c'estassauoir, que ce qu'il en presche, &amp; enseigne,
+                    <lb/>ne sera point receu , ou pour le moins de bien
+                    <lb/>peu de personnes : que le Christ venant sera reietté , &amp;
+                    <lb/>ne sera pas aduoué pour tel qu'il se propose, assauoir,
+                    <lb/>Sauueur, &amp; Liberateur: &amp; preuient , par ce moyen, le
+                    <lb/>scandale qui pourra reussir d'vne telle reiection. Il est
+                    <lb/>vrai que la sentence du Prophete passe bien plus loin;
+                    <lb/>dautant <choice><sic>quelle</sic><corr resp="#CiM">qu'elle</corr></choice> s'estend en general à toute la
+                    doctrine
+                    <lb/>preschee par lui , &amp; taxe l'incredulité du peuple de son
+                    <lb/>temps,comme s'il eust voulu dire,Il y a long temps que
+                    <lb/>nous preschons,mais cependant, qui est-ce qui a creu à
+                    <lb/>nostre predication? Ce n'est pas que nous n'ayons fait
+                    <lb/>nostre deuoir, &amp; que la matiere que nous auons presché
+                    <lb/>ne merite d'estre entendue, mais cela procede de la dureté,
+                    <lb/>obstination , &amp; incredulité du peuple : comme il
+                    <lb/>est certain , qu'Esaye n'auoit pas esté lasche en sa charge,
+                    <lb/>ains auoit employé toute la diligence,requise &amp; necessaire
+                    <lb/>pour la fidele execution d'icelle; &amp; cependant,
+                    <lb/>il voit si peu de fruict de tout son trauail , qu'il s'escrie,
+                    <lb/>que nul n'a receu sa predicatiõ.Il estoit Prophete,voire
+                    <lb/>excellent entre les autres, tant en race, qu'en eloquence:
+                    <lb/>sa vocation confermee, &amp; verifiee par vne vision notable,
+                    <lb/>comme elle est descrite au <ref type="bible" target="bibleSegond21.xml#_1Cor.6">6.chap. de sa
+                        Prophetie</ref>;
+                    <lb/>&amp; en laquelle il a continué l'espace de soixante ans,
+                    <lb/>&amp; dauantage. Qui est ce donc, qui ne dira qu'il a eu vne
+                    <lb/>iuste occasion de reprendre, &amp; taxer ainsi aigrement
+                    <lb/>ceste infidelité?Et qui est-ce d'entre nous qui ne la condamnera?
+                    <lb/>Au reste, le Prophete parlant par l'Esprit de
+                    <lb/>prophetie,n'a point voulu seulement taxer l'incredulité
+                    <lb/>de son temps ; mais preuoyant que ceste incredulité
+                    <lb/>continueroit, a aussi voulu laisser en main des autres
+                    <lb/>Prophetes &amp; seruiteurs de Dieu , qui suiuroyent apres
+                    <lb/>lui, &amp; seroyent ses successeurs, non seulement en charge,
+                    <lb/>ains aussi en l'espreuue,&amp; experience d'vne telle rebellion,
+                    <lb/>&amp; incredulité,ceste vehemente &amp; aspre censure ; <pb n="6"/>
+                    <lb/>afin que par icelle ils peussent foudroyer sur la teste
+                    <lb/>des incredules : comme nous voyons que nostre Seigneur
+                    <lb/>Iesus s'en est serui,pour reprẽdre l'incredulité de
+                    <lb/>son temps,ainsi qu'il est escrit au <ref type="bible" target="bibleSegond21.xml#John.12.38">12.chap.de
+                        l'Euangile
+                        <lb/>selon S.Iean vers.38</ref>. Et l'Apostre S.Paul aussi,comme
+                    <lb/>il est escrit au <ref type="bible" target="bibleSegond21.xml#Rom.10">10.des Rom.</ref>.Et dautant que nous
+                    voyons
+                    <lb/>encores au iourdhui que le monde continue en ceste
+                    <lb/>incredulité, &amp; rebellion, nous auons iuste matiere d'vser
+                    <lb/>de ceste reprehension. Il est vray qu'on dira , que
+                    <lb/>nous ne sommes pas Esaye,Christ,ni S.Paul,&amp; qu'il ne
+                    <lb/>se faut point estonner, si eux, estans si grands, &amp; si excellens
+                    <lb/>personnages , &amp; proposans au monde vne doctrine
+                    <lb/>si excellente,on eu iuste occasion de reprendre si
+                    <lb/>aigrement l'incredulité. Il n'y en a pas vn aussi de ceux
+                    <lb/>de ce temps,qui ne face le proces, &amp; ne condamne l'infidelité
+                    <lb/>des Iuifs ; comme il ne faut point douter que
+                    <lb/>ceux qui ont esté du temps de Christ , n'ayent taxé , &amp;
+                    <lb/>condamné ceux qui ont esté repris par Esaye , ainsi que
+                    <lb/>nostre Seigneur Iesus leur reproche au <ref type="bible" target="bibleSegond21.xml#Matt.26">26.chapitre de
+                        <lb/>S.Math.</ref> Vous dites,si nous eussions esté aux iours de
+                    <lb/>nos peres,nous n'eussions pas esté <choice><sic>leur</sic><corr resp="#CiM">leurs</corr></choice> compagnons au
+                    <lb/>sang des Prophetes ; mais, cependant , tout ainsi qu'ils
+                    <lb/>ont continué en la cruauté de leurs peres, voire mesme,
+                    <lb/>comme dit Christ, en ont empli la mesure,encore qu'ils
+                    <lb/>les condemnassent , aussi le monde d'auiourdhui continue
+                    <lb/>en l'infidelité reprise par Esaye, &amp; par Christ, &amp;
+                    <lb/>condamnee par eux mesmes. Ie confesse que nous ne
+                    <lb/>sommes pas Esaye, Christ, ne S.Paul, &amp; que nous sommes
+                    <lb/>merueilleusement eslongnez de leur excellence;
+                    <lb/>aussi ne reprenons nous pas le monde de ce qu'il ne
+                    <lb/>croit à nous,encore que nous vsions du mot , duquel le
+                    <lb/>Prophete a vsé, Nostre predication;mais de ce qu'il ne
+                    <lb/>croit pas à la doctrine d'Esaye, de Christ, &amp; de S.Paul,
+                    <lb/>preschee par nous. Et de fait,pensons nous qu'Esaye vsant
+                    <lb/>de ce mot de, Nostre,eust osé taxer, &amp; condamner
+                    <lb/>l'incredulité du peuple , si la doctrine qu'il proposoit
+                    <lb/>eust esté sienne? Et pensons nous mesmes que le peuple, <fw place="bot-right" type="catch">leq</fw>
+                    <pb n="7"/>
+                    <lb/>lequel il reprend , ne se soit pas defendu par cest argument
+                    <lb/>contre sa reprehension ? Tu nous taxes de ce que
+                    <lb/>nous n'auons pas creu à ta predication ; ce sont choses
+                    <lb/>forgees par toi, &amp; inuentees en ta teste : &amp; quand nous
+                    <lb/>ne t'aurions pas creu , est-ce a dire pourtant que nous
+                    <lb/>n'ayons pas creu à Dieu? Il ne faut point aussi douter,
+                    <lb/>que ceux qui on testé repris par Christ, ne lui ayent dit
+                    <lb/>le semblable , lors qu'il alleguoit la reprehension d'Esaye
+                    <lb/>contre eux, Tu n'es pas Esaye; &amp; que S.Paul n'ait
+                    <lb/>esté batu de mesmes raisons, Tu n'es pas Esaye , ni le
+                    <lb/>Christ.Et cependant,a ce esté sans cause que le Prophete
+                    <lb/>voyant le mespris , &amp; la reiection de la doctrine par
+                    <lb/>lui preschee, l'a si asprement reprise , &amp; a si seuerement
+                    <lb/>condamné vne telle incredulité?A ce esté pource qu'elle
+                    <lb/>s'adressoit à lui? Nenni certes ; mais ç'a esté , pource
+                    <lb/>que la doctrine qu'il preschoit estoit la doctrine de
+                    <lb/>Dieu : laquelle il appelloit neanmoins sienne , à cause
+                    <lb/>qu'il en estoit le porteur,&amp; prescheur. Christ mesmes,
+                    <lb/>parlant de la doctrine qu'il preschoit , en dit autant en
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#John.7.16">S.Iean 7.chap.16.vers.</ref> <quote source="bibleSegond21.xml#John.7.16">Ce n'est point ma
+                    doctrine<seg type="interpolation">(parlant
+                    <lb/>comme homme)</seg> mais c'est la doctrine de mon Pere,
+                    <lb/>qui m'a enuoyé</quote>. Et a peu aussi respondre à ceux qui
+                    <lb/>lui pouuoyent obiecter qu'il n'estoit pas Esaye, &amp; que,
+                    <lb/>partant, il ne leur deuoit pas faire la reproche qu'Esaye
+                    <lb/>a fait à ceux de son temps, qu'il n'annõçoit pas vne autre
+                    <lb/>doctrine que celle qu'Esaye auoit presché, &amp; qu'à
+                    <lb/>ceste occasion,il pouuoit à bon droit reprendre l'incredulité
+                    <lb/>de son temps , comme auoit fait Esaye du sien,
+                    <lb/>veu que c'estoit vne mesme doctrine,reietee par les vns
+                    <lb/>&amp; par les autres. S.Paul en a peu faire autant;&amp; nous
+                    <lb/>aussi auiourdhui , preschans &amp; annonçans la doctrine
+                    <lb/>iadis preschee par Esaye, par Christ &amp; par S.Paul, encores
+                    <lb/>que nous ne soyons Esaye, ne Christ, ne S. Paul,
+                    <lb/>pouuons iustement reprendre , &amp; condamner l'incredulité
+                    <lb/>du monde ; non point pource qu'il ne croit pas à
+                    <lb/>nous , mais pource qu'il ne croit pas à la doctrine de
+                    <lb/>Dieu,iadis preschee par Esaye, &amp; par les Prophetes, &amp; <pb n="8"/>
+                    <lb/>puis par nostre Seigneur Iesus, &amp; ses Apostres; &amp;,finalement,
+                    <lb/>par nous en ces derniers temps : voire,dautant
+                    <lb/>plus courageusement,&amp; asprement,pouuons-nous crier
+                    <lb/>contre ceste incredulité, que nous la voyons, non
+                    <lb/>seulement continuer, mais aussi accroistre, &amp; augmenter
+                    <lb/>de plus en plus. Au demeurant,il faut bien noter la
+                    <lb/>maniere de parler du Prophete. Il ne dit pas simplement,
+                    <lb/>Qui est-ce qui a ouy nostre predication? mais,
+                    <lb/>qui est-ce qui a creu à nostre predication ? Car on lui
+                    <lb/>eust peu respondre incontinent , Tout le peuple a ouy
+                    <lb/>tes predications,dequoi te pleins-tu? Ne nous sommes
+                    <lb/>nous pas trouuez au temple, ou es autres endroits ou
+                    <lb/>tu les a fait? Penses-tu que nous ayons esté sourds, &amp;
+                    <lb/>que nous ne t'ayons pas ouy quand tu as parlé? Mais le
+                    <lb/><choice><sic>Prohete</sic><corr resp="#CiM">Prophete</corr></choice>,par ces mots desquels il vse,leur monstre,que
+                    <lb/>combien qu'ils ayent ouy,neantmoins ils n'ont point
+                    <lb/>creu,&amp; qu'à ceste occasion leur faute est plus grande.Ie
+                    <lb/>ne doute point aussi, que quand auiourdhui nous voudrons
+                    <lb/>vser de ceste aspre reprehension du Prophete , il
+                    <lb/>ne semble a plusieurs que nous sommes hors du sens, &amp;
+                    <lb/>que nous nous pleignons à tort;car ils diront, N'allons
+                    <lb/>nous pas au temple?N'oyons nous pas les predications?
+                    <lb/>De quelle incredulité nous accuse-on? Pensons-nous
+                    <lb/>que ceux de Ierusalem,qu'Esaye reprend si aigrement,
+                    <lb/>n'ayent pas esté au temple? Et neantmoins il ne laisse
+                    <lb/>pas de les reprendre ; non pas de ce qu'ils n'ont point
+                    <lb/>ouy,mais de ce qu'ils n'ont point creu. Et de fait, il y a
+                    <lb/>bien difference entre Ouyr,&amp; Croire. Plusieurs oyent,
+                    <lb/>mais tous ne croyent pas. L'ouye est vn instrument par
+                    <lb/>le moyen duquel la foy est formee,comme dit l'Apostre
+                    <lb/>au <ref type="bible" target="bibleSegond21.xml#Rom.10.17">10. chap. des Rom. vers.17.</ref> La foy vient de
+                    l'ouye;
+                    <lb/>mais cela s'entend aux fideles ; &amp; n'est pas à dire que
+                    <lb/>tous ceux qui oyent,croyent pourtant. C'est l'argumẽt
+                    <lb/>que traitte l'Apostre au <ref type="bible" target="bibleSegond21.xml#Rom.10">10.chap.des Rom.</ref>&amp;
+                    par lequel
+                    <lb/>il conuainc &amp; condamne dauantage l'incredulité des
+                    <lb/>Iuifs,de ce qu'ayans ouy,ils n'ont point creu.Nous voyons
+                    <lb/>en la Loy,qu'Ouir &amp; Garder,Ouir &amp; Obeir sont <fw place="bot-right" type="catch">ord</fw>
+                    <pb n="9"/>
+                    <lb/>ordinairement conioints ensemble. Voila pourquoi
+                    <lb/>Christ respondit excellemment , sur ce propos , à ceste
+                    <lb/>poure femme qui lui disoit , que bien-heureuses <choice><sic>estoy-</sic><corr resp="#CiM">estoyent</corr></choice>
+                    <lb/>les mammelles qu'il auoit succé , mais plustost bien
+                    <lb/>heureux sont ceux qui oyent la parole de Dieu , &amp; qui
+                    <lb/>la gardent,comme il est escrit en <ref type="bible" target="bibleSegond21.xml#Luke.11.28">S.Luc
+                        11.28.ver.</ref>Christ
+                    <lb/>aussi parlant de ses brebis , en <ref type="bible" target="bibleSegond21.xml#John.10.27">S.Iean 10.chap. 27.
+                        vers.</ref>
+                    <lb/>dit,<choice><sic>quelles</sic><corr resp="#CiM">qu'elles</corr></choice> n'oyent pas seulement sa voix,mais qu'elles
+                    <lb/>le suiuent. Et c'est aussi pourquoi S.Iaques nous commande
+                    <lb/>au <ref type="bible" target="bibleSegond21.xml#Jas.1.25">1.chap. de son epist.Cathol.vers.25</ref>, de
+                    n'estre
+                    <lb/>point auditeurs oublieux ; lesquels il compare à ceux
+                    <lb/>qui se mirent en vn miroer, &amp; s'en estans allez, ont incontinent
+                    <lb/>oublié ce qu'ils estoyent. Ce n'est donc pas
+                    <lb/>assez d'ouir , mais il faut croire , cest a dire , il faut mascher,
+                    <lb/>&amp; aualer ce qu'on oyt. Tout ainsi que ce n'est pas
+                    <lb/>assez qu'vne viande entre en la bouche, mais il faut que
+                    <lb/>elle descende en l'estomach, &amp; qu'elle soit la cuitte, &amp;
+                    <lb/>digeree, pour estre par apres portee au foye,&amp; de la respandue
+                    <lb/>par tout le corps ; aussi faut il que la parole estant
+                    <lb/>entree par l'ouye en l'entendement, soit digeree
+                    <lb/>la dedans , pour estre par apres portee au cœur , &amp; y
+                    <lb/>prendre sa racine,afin de produire ses fruicts. Ceux-la
+                    <lb/>donc croyent, non pas qui oyent simplement auec les
+                    <lb/>oreilles charnelles , mais qui par vne vraye &amp; viue foy
+                    <lb/>embrassent la parole preschee, &amp; y rendent obeissance.
+                    <lb/>Et d'autant que nous ne voyons point ceste obeissance,
+                    <lb/>ains au contraire , que le monde demeure tousiours en
+                    <lb/>la corruption , &amp; peruersité de sa nature , en son ignorance,
+                    <lb/>&amp; superstition ; &amp; chemine tousiours en ses voyes,
+                    <lb/>sans s'amender, &amp; corriger, voila pourquoi, ayant
+                    <lb/>premierement esgard au petit nombre de ceux qui oyent,
+                    <lb/>les comparant auec ceux qui ne veulent point
+                    <lb/>ouir, les comparant auec ceux qui ne veulent point
+                    <lb/>ouir,&amp; puis au nombre de ceux qui en oyant ne croyent
+                    <lb/>point,c'estadire,qui n'embrassẽt point ceste parole par
+                    <lb/>foy, &amp; n'y rendent point d'obeissance,nous crions auec
+                    <lb/>Esaye,Qui est-ce qui a creu à nostre predication? </p>
+                <p n="3">
+                    <lb/>Dauantage, les mots, desquels vse le Prophete en sa <pb n="10"/>
+                    <lb/>langue, monstrent combien est detestable ceste incredulité,
+                    <lb/>Qui est-ce qui a creu a ce qu'en preschant nous
+                    <lb/>auons fait ouir,&amp; ce qui merite aussi d'estre ouy,&amp; entendu
+                    <lb/>des hommes? Car voila deux circonstances lesquelles
+                    <lb/>on peut recueillir de ses paroles, &amp; lesquelles ne
+                    <lb/>doiuent pas estre legerement passees. Par l'vne,il monstre
+                    <lb/>la diligence de laquelle il a vsé en l'execution de sa
+                    <lb/>charge; &amp; par l'autre, la dignité de la chose qu'il a proposée.
+                    <lb/>comme nous voyons aussi,que par le tesmoignage
+                    <lb/>que l'Escriture lui rend,il a esté fort fidele executeur
+                    <lb/>de sa commission , &amp; quelqu'empeschement qui lui ait
+                    <lb/>esté mis au deuant,il les a tous surmontez &amp; a perseueré,
+                    <lb/>comme nous auons touché si dessus,l'espace de plus
+                    <lb/>de soixante ans à prescher. Il s'est donc bien fait ouir.
+                    <lb/>Voila pourquoi aussi nostre Seigneur Iesus,par ce mesme
+                    <lb/>argument , aggraue l'incredulité du peuple de son
+                    <lb/>temps,en disant, comme il est escrit en <ref type="bible" target="bibleSegond21.xml#Matt.23.37">S.Math.23.chap.
+                        <lb/>37.vers.</ref>
+                    <quote source="bibleSegond21.xml#Matt.23.37">Ierusalem,Ierusalem,combien de fois t'ay-ie
+                        <lb/>voulu rassembler comme la poule fait les poulets sous
+                        <lb/>son aisle,&amp; tu n'a point voulu</quote>?L'Apostre S.Paul aussi,
+                    <lb/>par toutes ses epistres,monstre la diligence,&amp; fidelité,
+                    <lb/>de laquelle il a vsé en l'execution de sa charge. &amp; aux
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#Acts.13">Actes 13.chap.</ref>il tesmoigne aux Iuifs qu'il s'est
+                    fidelement
+                    <lb/>aquitté de leur annoncer la parole de salut ; mais
+                    <lb/>que ne l'ayãt point voulu receuoir,il les a quittez pour
+                    <lb/>s'en aller aux Gentils. Et de faict, c'est vne chose,laquelle
+                    <lb/>condamne merueilleusement l'incredulité des
+                    <lb/>hommes auiourdhui. Le Seigneur enuoye ses pasteurs,
+                    <lb/>lesquels iournellement annoncent, &amp; font ouir ceste
+                    <lb/>parole ; mais quelque deuoir qu'ils facent , les hommes
+                    <lb/>ne veulent point ouir,&amp; encore moins croire. S'il n'y auoit
+                    <lb/>point de prescheurs, ou si les prescheurs ne se faisoyent
+                    <lb/>pas ouir, les hommes s'excuseroyent ; combien que
+                    <lb/>mesmes ils ne seroyent pas excusez par ce moyen. Car,
+                    <lb/>tant les creatures qui sont au ciel, &amp; en la terre, &amp; lesquelles
+                    <lb/>comme dit Dauid au <ref type="bible" target="bibleSegond21.xml#Ps.19">Pseau.19.</ref> annoncent la
+                    <lb/>gloire de Dieu,comme aussi la Loy naturelle imprimee <fw place="bot-right" type="catch">au</fw>
+                    <pb n="11"/>
+                    <lb/>au cœur des hommes,les rendront sans excuse, &amp; ferõt
+                    <lb/>que leur incredulité sera punie;de ce qu'ayans cogneu,
+                    <lb/>ou deu cognoistre ce qui est de Dieu,ils ne l'ont pas serui
+                    <lb/>comme Dieu.Combien plus donc serõt punis ceux,
+                    <lb/>au milieu desquels le Seigneur a fait retentir , &amp; resonner
+                    <lb/>sa parole, &amp; qui ce pendant n'y ont point creu , &amp;
+                    <lb/>n'y croyent point, c'estadire, n'y obeissent pas, &amp; ne la
+                    <lb/>suiuent pas?Pensons nous que Dieu ne venge merueilleusement
+                    <lb/>vn tel mespris de sa grace?Nous voyons tant
+                    <lb/>de peuples qui en sont priuez, &amp; ausquels Dieu n'enuoye
+                    <lb/>nuls pasteurs , au milieu desquels sa voix n'est aucunement
+                    <lb/>entendue ; &amp; nous, aux oreilles desquels elle
+                    <lb/>resonne tous les iours , la foulons aux pieds par nostre
+                    <lb/>incredulité;laquelle est dautant plus à condamner,que
+                    <lb/>ceste parole se fait continuellement ouir,&amp; qu'elle nous
+                    <lb/>remonstre,&amp; reprend nostre incredulité. Voila comment
+                    <lb/>ceste continuelle repetition de la voix de Dieu,
+                    <lb/>qui nous est publiee par ses seruiteurs,monstre dautant
+                    <lb/>plus la grandeur , &amp; l'enormité de nostre incredulité.
+                    <lb/>Secondement, il y a l'autre circonstance, assauoir,la dignité
+                    <lb/>de ceste parole , qui fait qu'elle merite d'estre ouye,
+                    <lb/>&amp; entendue des hommes. Si c'estoit chose qui ne
+                    <lb/>meritast pas d'estre creue, ce seroit en vain qu'on allegueroit
+                    <lb/>la continuelle,&amp; frequente publication.Car vn
+                    <lb/>mensonge, ou vne chose profane,&amp; meschante, ne merite
+                    <lb/>pas d'estre mieux receue pource qu'elle est souuent
+                    <lb/>proposee , mais au contraire , tant plus eux qui la publient,
+                    <lb/>s'opiniastrent à la publier, &amp; tant plus ceux ausquels
+                    <lb/>elle est publiee,se doiuent-ils opiniastrer à fermer
+                    <lb/>les oreilles,&amp; à la reietter,&amp; ce, dautant qu'elle ne vaut
+                    <lb/>rien. Mais quand il est question d'vne chose bonne,qui
+                    <lb/>apporte quelque prouffit, &amp; vtilité à l'homme, &amp; sur
+                    <lb/>tout qui est pour la gloire de Dieu, il faut que les hommes
+                    <lb/>ouurent incontinent les oreilles pour l'ouir. Si on
+                    <lb/>nous veux dire quelque chose pour nostre prouffit,
+                    <lb/>nous ne sommes pas paresseux, mais nous courons incontinent,
+                    <lb/>&amp; laissons toute besoigne pour l'entendre, <pb n="12"/>
+                    <lb/>nous ouurons attentiuement les oreilles.y a il chose qui
+                    <lb/>nous apporte vn plus grand prouffit que la declaration
+                    <lb/>de la bonne volonté de Dieu qui nous est faite par la
+                    <lb/>predication? Qu'est-ce de toutes les choses du monde,
+                    <lb/>&amp; quel contentement nous peuuent elles donner;voire
+                    <lb/>mesmes quand nous les aurions,peuuent elles apporter
+                    <lb/>paix, &amp; repos,en nos consciences? Il est certain que non.
+                    <lb/>Et sans ce repos, qu'est-ce que de nous? Il n'y a chose
+                    <lb/>qui nous puisse donner ce repos que ceste parole. Et
+                    <lb/>partant il n'y a chose qui merite mieux d'estre ouye. Et
+                    <lb/>ce pendant , le malheur des hommes est si grand , qu'il
+                    <lb/>n'y a chose qu'ils veuillent moins ouir. Nous voyons
+                    <lb/>comment la plus grande partie du monde se bouche
+                    <lb/>les oreilles de propos deliberé de peur de l'ouir , &amp; voyons
+                    <lb/>comment ils persequutent ceux qui la veulent
+                    <lb/>ouir. Nous voyons aussi comment ceux,au milieu desquels
+                    <lb/>elle est publiee,sont paresseux,&amp; lasches à l'ouir,
+                    <lb/>il ne faut qu'vne paille pour nous retenir , tant nostre
+                    <lb/>zele est lasche &amp; froid. Les bancs &amp; les pierres l'oyent,
+                    <lb/>&amp; seruiront de iugement , &amp; de condemnation contre
+                    <lb/>les hommes.Sçaurions nous mieux monstrer nostre incredulité,
+                    <lb/>&amp; que nous n'auons encores aucunement
+                    <lb/>gousté, ni sauouré la douceur de ce message de salut, ni
+                    <lb/>sa dignité?Si nous regardõs à l'autheur de ceste nouuelle,
+                    <lb/>c'est Dieu. Qui est ce qui merite mieux d'estre ouy
+                    <lb/>que Dieu?Dauantage,le bien qu'elle nous apporte;c'est
+                    <lb/>nostre salut, c'est la vie eternelle. Qu'est-ce de toutes
+                    <lb/>les richesses que ce monde au prix de cela? Voila , donc,
+                    <lb/>comment ayant esgard à la dignité de ceste parole,nous
+                    <lb/>la deuons ouir : &amp; Dieu punira plus rigoureusement
+                    <lb/>nostre incredulité , à cause de la dignité , &amp; excellence
+                    <lb/>d'icelle.Au reste,ce passage est merueilleusemẽt propre
+                    <lb/>pour respondre à ceux qui accusent la doctrine que
+                    <lb/>nous preschons, &amp; qui la veulent blasmer, &amp; denigrer,
+                    <lb/>pour ceste occasion qu'il y en a bien peu qui la reçoiuent;
+                    <lb/>&amp; disent, que si c'estoit vne doctrine celeste,comme
+                    <lb/>nous publions, Dieu l'authoriseroit, &amp; feroit receuoir, <fw place="bot-right" type="catch">uoir</fw>
+                    <pb n="13"/>
+                    <lb/>car il ne manque point de puissance. Or,ie leur
+                    <lb/>demande, si la doctrine preschee par Esaye, par Christ,
+                    <lb/>&amp; par S. Paul, n'est pas auouee par eux pour doctrine
+                    <lb/>celeste?Ie croy qu'ils ne l'oseroyent nier;&amp; ce pendant,
+                    <lb/>c'est leur doctrine que le monde a reietté par incredulité,
+                    <lb/>&amp; ce sont eux aussi lesquels crient, Qui est-ce qui a
+                    <lb/>creu à nostre predication? Ce n'est pas Mahumet, ou
+                    <lb/>quelqu'autre faux Prophete, qui fait ceste compleinte.
+                    <lb/>Dieu n'auoit-il pas assez de puissance pour faire receuoir
+                    <lb/>la doctrine de son Fils?Mais il n'est pas ici question
+                    <lb/>de sçauoir quelle puissance a Dieu , &amp; n'est pas le but
+                    <lb/>auquel vise le Prophete; ains seulement de monstrer
+                    <lb/>quelle est l'incredulité des hommes enuers ceste doctrine.
+                    <lb/>L'argument donc duquel vsent telles personnes,
+                    <lb/>pour amoindrir, ou aneantir la vertu de la doctrine
+                    <lb/>preschee par nous, dautant qu'elle est escoutee &amp; receue
+                    <lb/>de peu,ne vaut rien;autrement,il en faudroit autant
+                    <lb/>conclurre de celle qu'a presché Esaie,veu la plainte
+                    <lb/>qu'il fait ; de celle qu'a presché Christ , qui se compleint
+                    <lb/>d'vne mesme incredulité. </p>
+                <p n="4">
+                    <lb/>Ce passage sert aussi de consolation aux pasteurs &amp;
+                    <lb/>ministres de la parole de Dieu , contre la dureté &amp; rebellion
+                    <lb/>des hommes ; &amp; pour surmonter la tentation
+                    <lb/>qui leur est liuree pour cest effect ; comme , à la verité,
+                    <lb/>ils ont besoin d'estre fortifiez en cest endroit. Nous
+                    <lb/>lisons au <ref type="bible" target="bibleSegond21.xml#Jer.20.9">20.chap.de Ieremie vers.9.</ref> le dur
+                    assaut qu'a
+                    <lb/>eu le Prophete touchant cela, iusques à dire à Dieu, <quote source="bibleSegond21.xml#Jer.20.9">Ie
+                    <lb/>ne parlerai plus en ton nom</quote>.Les hommes prenent le labeur
+                    <lb/>en patience quand ils voyent qu'il n'est point
+                    <lb/>vain, &amp; qu'il rapporte quelque fruit;mais quand ils voyent
+                    <lb/>le contraire, &amp; que quoi qu'ils facent ils n'auancent rien,
+                    <lb/>ils se lassent, &amp; quittent tout. Aussi ne faut
+                    <lb/>il point douter,que quand vn poure seruiteur de Dieu,
+                    <lb/>pasteur, &amp; ministre, voit,qu'il y a plus de vingt &amp; trente
+                    <lb/>ans qu'il presche, &amp; ce pendant , il n'auance rien ; le
+                    <lb/>monde demeure,non seulement en son ignorance, mais
+                    <lb/>aussi en sa nature peruerse, &amp; corrompue , qu'il ne die <pb n="14"/>
+                    <lb/>en soi mesme , il vaudroit mieux m'employer en quelqu'
+                    <lb/>autre chose. Ceste tentation mesme lui peut venir
+                    <lb/>en l'entendement,ma vocation possible n'est pas legitime,
+                    <lb/>car si elle l'estoit, Dieu la beniroit. Nous voyons
+                    <lb/>qu'à quelque trauail que les hommes s'occuppent; encores
+                    <lb/>en voyent-ils reüssir quelque fruict, &amp; benediction:
+                    <lb/>Et ce pendant,ceux qui s'employent à annoncer
+                    <lb/>ceste parole, n'en voyent que bien peu , ou point du
+                    <lb/>tout qui la reçoiuent: La dessus,le degoustement vient.
+                    <lb/>Or voici vn passage, &amp; vn exemple,auec les autres que
+                    <lb/>nous auons allegué de Christ, &amp; de S. Paul, qui nous
+                    <lb/>doiuent seruir, &amp; fortifier. On dit en commun prouerbe,
+                    <lb/>que la consolation des miserables est d'auoir plusieurs
+                    <lb/>semblables à soi. Nous ne sommes pas tous seuls,
+                    <lb/>ni n'est pas seulement de ceste heure, &amp; de ce temps,
+                    <lb/>que ce mespris, &amp; ceste incredulité s'est veue. Sommes
+                    <lb/>nous plus escellens qu'Esaye? Sommes nous plus sçauans
+                    <lb/>que Christ qui est la Sapience eternelle? Si on n'a
+                    <lb/>point creu à la predication de ceux la,trouuerons nous
+                    <lb/>estrange si on ne croit point à la nostre? Concluerons
+                    <lb/>nous pourtãt que nostre vocation ne soit pas legitime,
+                    <lb/>ou que nostre doctrine ne soit pas bonne? Contentons
+                    <lb/>nous d'estre traittez comme nostre maistre, &amp; d'auoir
+                    <lb/>telle audience au monde qu'il a eu. Regardons premierement
+                    <lb/>à la necessité qui nous est imposee d'euangelizer :
+                    <lb/>&amp; au malheur duquel l'Apostre nous menace si
+                    <lb/>nous n'euangelizons : Dauantage contentons nous de
+                    <lb/>ce que dit Esaye au <ref type="bible" target="bibleSegond21.xml#Isa.49.4">49.chap.vers.4</ref>, &amp; au
+                    <ref type="bible" target="bibleSegond21.xml#Isa.55.11">55.vers.11.</ref>que
+                    <lb/>nostre œuvre est deuant les yeux du Seigneur , &amp; que sa
+                    <lb/>parole ne retournera point en vain à lui. Plantons, arrousons,
+                    <lb/>&amp; semons ; &amp; laissons à Dieu de donner tel accroissement
+                    <lb/>qu'il cognoistra estre expedient. Le laboureur
+                    <lb/>quitte il sa terre sous ombre qu'il voit qu'elle ne
+                    <lb/>rapporte point de fruict pour quelque temps, &amp; qu'elle
+                    <lb/>ne lui produit que des ronces, &amp; des espines? mais au
+                    <lb/>contraire tant plus il la trouue rebelle , &amp; tant plus il
+                    <lb/>combat par son trauail contre sa rebellion. Sachons <fw place="bot-right" type="catch">que</fw>
+                    <pb n="15"/>
+                    <lb/>que si ceste parole n'est receue, &amp; n'apporte vie, elle sera
+                    <lb/>pour le moins odeur de mort à ceux qui la reiettent.
+                    <lb/>N'est ce par vn fruict, &amp; qui reüssit à la gloire de Dieu,
+                    <lb/>qu'elle manifeste les rebelles,&amp; incredules,afin que par
+                    <lb/>apres la iustice de Dieu reluise sur tels enfans d'infidelité?
+                    <lb/>Nous voudrions bien voir vn autre fruict, c'est-
+                    <lb/>assauoir,qu'elle fust receue;mais ce n'est pas à nous à limiter
+                    <lb/>à Dieu en quelle façon il la doit faire fructifier.
+                    <lb/>Asseurons nous seulement , qu'en quelque sorte que ce
+                    <lb/>soit , elle ne sera point vaine : Et si nous n'en tirons le
+                    <lb/>fruict que nous voudrions , consolons nous auec tant
+                    <lb/>d'excellens personnages, &amp; sur tant d'aages &amp; de siecles
+                    <lb/>qui nous ont precedé , esquels , ceste mesme ingratitude,
+                    <lb/>&amp; rebellion s'est veuë. Et de fait, il est certain que le
+                    <lb/>Prophete n'a point voulu ici parler seulement de son
+                    <lb/>temps , mais ( comme nous auons touché ci dessus ) a
+                    <lb/>monstré la condition de l'Eglise qui deuoit venir apres
+                    <lb/>lui. Car nous voyons que Christ , &amp; l'Apostre, se sont
+                    <lb/>seruis de sa complainte; &amp; , par consequent, a voulu aduertir
+                    <lb/>les pasteurs , &amp; les munir contre ce scandale , &amp;
+                    <lb/>ceste tentation. Ce qui doit aussi seruir à tous fideles
+                    <lb/>Chrestiens en general. Car, comme les pasteurs sont
+                    <lb/>tentez pour ce qui concerne leur charge, aussi ne faut il
+                    <lb/>point douter , que ceste incredulité &amp; rebellion du
+                    <lb/>monde, ne donne vn merueilleux assaut à tous les fideles
+                    <lb/>en general ; lesquels , pour ceste occasion , sont souuent
+                    <lb/>ainsi assaillis, Si la religion , &amp; doctrine que nous
+                    <lb/>suiuons, &amp; de laquelle nous faisons profession , estoit la
+                    <lb/>vraye doctrine de Dieu , &amp; la vraye religion , les hommes
+                    <lb/>la reietteroyent ils en ceste façon, &amp; se banderoyent
+                    <lb/>ils ainsi contre elle? Nous voyons combien il y a
+                    <lb/>peu de personnes qui la reçoiuent , &amp; encore combien
+                    <lb/>moins entre ceux qui la reçoiuent, qui en facent vne
+                    <lb/>profession telle qu'ils deuroyent. Au contraire,nous
+                    <lb/>voyons combien toutes les autres religions, &amp; doctrines,
+                    <lb/>ont de disciples qui se rangent à elles, &amp; qui les suiuent.
+                    <lb/>Voila vn assaut qui n'est pas petit, &amp; pour lequel <pb n="16"/>
+                    <lb/>surmonter, nous n'auons point de meilleur moyen que
+                    <lb/>cestui ci. Il n'y en a pas vn d'entre nous qui ne confesse
+                    <lb/>que la doctrine preschee par Christ ne soit <choice><sic>doctrne</sic><corr resp="#CiM">doctrine</corr></choice> de
+                    <lb/>Dieu , &amp; ce pendant elle n'a pas eu plus de credit au
+                    <lb/>monde, ni n'a esté mieux receue. Dirons nous que
+                    <lb/>la doctrine de Mahumet, &amp; de tant d'autres payens, &amp;
+                    <lb/>idolatres, qui sont parmi le monde, soit meilleure que
+                    <lb/>la Chrestienne , pour ce qu'il y a moins de Chrestiens
+                    <lb/>que de Mahumetistes, &amp; idolatres? Il est certain que
+                    <lb/>non : ou autrement nous serions entierement depourueus
+                    <lb/>de sens, &amp; ne meriterions pas d'estre appellez
+                    <lb/>Chrestiens. Tant s'en faut,donc,que nous deuions pour
+                    <lb/>ceste occasion desister de la vraye doctrine, ou la reuoquer
+                    <lb/>en doute, que au contraire,c'est vn des plus grãds,
+                    <lb/>&amp; plus forts argumens que nous ayons,pour cognoistre
+                    <lb/>qu'elle est doctrine de Dieu, &amp; non des hommes, &amp; pour
+                    <lb/>nous confermer en icelle. Car si elle estoit du monde
+                    <lb/>(comme dit nostre Seigneur Iesus parlant à ses Apostres,
+                    <lb/>en <ref type="bible" target="bibleSegond21.xml#John.17.14">S. Iehan 17. chap.14.vers.</ref>) le mõde la
+                    receuroit;
+                    <lb/>mais dautant qu'elle est de Dieu, &amp; non du monde, le
+                    <lb/>monde la hayt, &amp; la reiette. Est ce à dire ce pendant,
+                    <lb/>combien que le monde la reiette,qu'elle perde quelque
+                    <lb/>chose de sa dignité?Combien que Christ, qui est l'autheur
+                    <lb/>d'icelle,ait esté reietté du mõde,a il perdu neantmoins
+                    <lb/>quelque chose de son excellence, &amp; de sa maiesté?
+                    <lb/>A il esté,ou, est il moins Fils eternel de Dieu,sa Parole,
+                    <lb/>&amp; Sapience eternelle , par laquelle toutes choses
+                    <lb/>ont esté faites, &amp; sont conseruees en estre ? Est il moins
+                    <lb/>souuerain Roy , souuerain Sacrificateur , &amp; Prophete?
+                    <lb/>Dieu laisse il de demeurer Dieu, &amp; pert il quelque chose
+                    <lb/>de sa diuinité, encore que les hommes, tant par leurs
+                    <lb/>idolatries,que par leur meschante vie, lui en arrachent
+                    <lb/>ce qu'ils peuuent? Laisse il d'estre Toutpuissant encore
+                    <lb/>que les hommes se moquent de sa puissance , &amp; lui facent
+                    <lb/>la guerre?Les nuees,quoi qu'elles obscurcissent le
+                    <lb/>ciel , peuuent elles oster quelque chose au Soleil de sa
+                    <lb/>clarté? Sachons donc,que tout ainsi que Dieu a sa diuinité <fw place="bot-right" type="catch">nité</fw>
+                    <pb n="17"/>
+                    <lb/>en soi mesme, &amp; prend sa dignité de soi, &amp; non des
+                    <lb/>hommes,aussi quoi que facent les hommes ils ne lui en
+                    <lb/>sçauroyent rien oster : comme il asseure par son Prophete
+                    <lb/>Esaye, au <ref type="bible" target="bibleSegond21.xml#Isa.42.8">42.chap.8.vers.</ref> &amp; au <ref type="bible" target="bibleSegond21.xml#Isa.48.11">48.vers.11</ref>, qu'il ne
+                    <lb/>permetra point que sa gloire lui soit rauie. Et tout ainsi
+                    <lb/>que les hommes ne lui peuuent rien donner, comme
+                    <lb/>disoit Dauid au <ref type="bible" target="bibleSegond21.xml#Ps.16">Pseau.16</ref>, <quote source="#...">Il n'y a nul bien en nous qui
+                        <lb/>paruienne iusques à toi Seigneur</quote>,aussi ne le sçauroyent
+                    <lb/>ils amoindrir ne diminuer. Cõme aussi il n'est point en
+                    <lb/>la puissance des hommes d'oster à Christ les dignitez
+                    <lb/>qu'il a du Pere.Et d'autant que la parole de Dieu a aussi
+                    <lb/>sa dignité, &amp; son excellence, sa fermeté, &amp; son authorité ,
+                    <lb/>de Dieu ; que les hommes en facent comment ils
+                    <lb/>voudront, qu'ils la reçoiuent, ou qu'ils la reiettent, elle
+                    <lb/>demeur tousiours doctrine celeste, &amp; verité de Dieu,
+                    <lb/>&amp; sera tousiours aduouee telle deuant Dieu. Et de fait,
+                    <lb/>regardons, si, combien qu'elle ait esté depuis le commencement
+                    <lb/>du monde reiettee, assaillie, &amp; poursuiuie
+                    <lb/>par tant de peuples, tant de Rois, tant d'heretiques, &amp;
+                    <lb/>tant de diables, elle a pour cela rien perdu de sa puissance,
+                    <lb/>&amp; de sa vertu, &amp; si elle n'est pas tousiours demeuree
+                    <lb/>victorieuse par dessus tous ses ennemis. Ne nous estonnons,
+                    <lb/>donc,pas des assaux qu'on lui donne, &amp; de ce
+                    <lb/>qu'on la reiette , &amp; ne nous desbauchons pas pour cela
+                    <lb/>de la suiure.Sachons que finalement,&amp; elle,&amp; ceux qui
+                    <lb/>la suiuent , seront victorieux, &amp; qu'il faudra que les
+                    <lb/>meschans,qui lui sont contraires, le cognoissent, à leur
+                    <lb/>grande vergoigne,&amp; confusion:&amp; ceux qui l'auront suiuie,
+                    <lb/>à leur gloire,&amp; felicité : Qui sera,quand Christ venant
+                    <lb/>recueillir ses enfans en la derniere iournee, nous
+                    <lb/>menera tous en son Royaume, pour viure, &amp; regner eternellement
+                    <lb/>auec lui. </p>
+                <p n="5">
+                    <lb/>Dieu nous en face la grace. </p>
+                <p n="6">
+                    <lb/>Amen. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

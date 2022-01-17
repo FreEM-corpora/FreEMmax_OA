@@ -1,0 +1,1607 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1659_Jaques_Gaultier_CiM">
+            <titleStmt>
+                <title type="sermon">SErmon fait a l’ovvertvre du colloqvE des eglises reformées d’Aulnix,
+                    à Ciré le v. Nouemb. 1658.</title>
+                <title type="book">SErmon fait a l’ovvertvre du colloqvE des eglises reformées
+                    d’Aulnix, à Ciré le v. Nouemb. 1658.</title>
+                <author ref="...">Jaques Gaultier</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="CiM">Cinthia MELI</persName>
+                        <email>cinthia.meli@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Jaques Gaultier</author>
+                        <title>SErmon fait a l’ovvertvre du colloqvE des eglises reformées d’Aulnix,
+                            à Ciré le v. Nouemb. 1658.</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Pierre Chouët</publisher>
+                            <date>1659</date>
+                            <date type="sermon">1658</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">https://www.e-rara.ch/gep_r/doi/10.3931/e-rara-61684</idno>
+                    <idno type="source">Bibliothèque de Genève, Cote BGE Bd 511 (12)</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_circonstances</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">isolé</term>   
+                    <term type="numberOfSermons"/>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">1Thess.1.1</term>
+                    <term type="paratext" subtype="epistle">A MESSIEVRS,ET TRES-HONOREZ FRERES, Messieurs les Pasteurs &amp; Anciens  des Eglises Reformées d'Aulnix</term>
+                    
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-03-15" who="#LjD">transformation word - XML</change>
+            <change when="2017-03-15" who="#MAG">Verification, citations</change>
+            <change when="2016-12-19" who="#CiM">Transcription word</change>
+            <change when="2017-03-31" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>SERMON
+                    <lb/>FAIT A L'OVVERTVRE
+                    <lb/>DV COLLOQVE
+                    <lb/>DES EGLISES
+                    <lb/>Reformées d'Aulnix,à Ciré
+                    <lb/>le <date>v. de Nouemb. 1658.</date>
+                </p>
+                <p n="2">
+                    <lb/>
+                    <hi rend="I">Sur le I. v. du chap. I. de la 1. Epistre
+                        <lb/>aux Thessaloniciens.</hi>
+                    <lb/>Par Iaqves Gavltier. </p>
+                <figure/>
+                <p n="3">
+                    <lb/>
+                    <hi rend="I">A GENEVE</hi>
+                    <lb/>Pour Pierre Chouët.
+                    <lb/>
+                    <hi rend="I">M. DC. LIX</hi>. </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="5"/>
+                <head type="main">
+                    <lb/>SERMON FAIT
+                    <lb/>
+                    A L'OVVERTVRE
+                        <lb/>du Colloque d'Aulnix.</head>
+                <p n="1">
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#_1Thess.1.1">1. <hi rend="I">Thessaloniciens </hi>I. vers. I.</ref>
+                </p>
+                <p n="2">
+                    <lb/>
+                    <quote source="bible1588.xml#_1Thess.1.1">
+                        <c type="lettrine">P</c>
+                        <hi rend="I">AVL</hi>, <hi rend="I">&amp; Siluain, &amp; Timothée à
+                            <lb/>l'Eglise des Thessaloniciens,qui est
+                            <lb/>en Dieu le Pere,&amp; au Seigneur Iesus
+                            <lb/>Christ,Grace vous soit , &amp; paix
+                            <lb/>de par Dieu nostre Pere:&amp; de par
+                            <lb/>le Seigneur Iesus Christ</hi>
+                    </quote>.
+                </p>
+                <p n="3">
+                    <lb/>CHERS FRERES , C'est vne des plus remarquables
+                    <lb/>sentences de S. Irenée, qui bien
+                    <lb/>tost apres le temps des Apostres fut donné
+                    <lb/>par la prouidence diuine pour conducteur à
+                    <lb/>l'Eglise de Lyon,qu'apres que les saincts Disciples
+                    <lb/>de Christ , dont il s'est voulu seruir
+                    <lb/>pour porter parmy les hommes la doctrine
+                    <lb/>du salut , <choice><sic>leurent</sic><corr resp="#CiM">l'eurent</corr></choice> publiée auec vne singuliere
+                    <lb/>diligence , <quote type="other" source="# ...">
+                        <hi rend="I">ils la consignerent, en suite dans les</hi>
+                        <note type="margin">
+                            <ref type="other">
+                                <hi rend="I">Adu. haer lib. 3. c. 1.</hi>
+                            </ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">Escritures , afin qu'elle fust l'appuy, &amp; le fondement
+                            <lb/>de nostre foy</hi>
+                    </quote>. Par où ce grand homme
+                    <lb/>nous a voulu donner à entendre, que comme
+                    <lb/>ce n'a point esté fortuitement,&amp; à l'auanture
+                    <lb/>que les saincts hommes de Dieu, aussi bien du
+                    <lb/>Nouueau que de l'Ancien Testament , ont
+                    <lb/>parlé &amp; publié de viue voix les sacrez enseignemens, <pb n="6"/>
+                    <lb/>dont Dieu les auoit chargez,pour
+                    <lb/>les proposer parmy les hommes, ce n'a non
+                    <lb/>plus esté par hazard ni par le seul choix de
+                    <lb/><choice><sic>leurs</sic><corr resp="#CiM">leur</corr></choice> volonté,qu'il est arriué, qu'ils ont redigé
+                    <lb/>par escrit tant de beaux preceptes , &amp; de
+                    <lb/>recits admirables , qui composent tout le
+                    <lb/>corps des Escritures de la nouuelle alliance:
+                    <lb/>mais qu'il y ont esté annoncez par le Sainct
+                    <lb/>Esprit.Et d'autre part, que comme nostre Seigneur
+                    <lb/>Iesus n'est point Ouy,&amp; Non, ils n'ont
+                    <lb/>point dit d'vne sorte , &amp; escrit de l'autre<surplus reason="mistake">.</surplus>
+                    <lb/>mais nous ont representé dedans leurs escrits
+                    <lb/>la substance des mesmes veritez diuines,qu'ils
+                    <lb/>ont annoncées de viue voix à ceux, où la sage
+                    <lb/>bonté de Dieu les a addressez. Auec quoy
+                    <lb/>M. F. vous deuez considerez , qu'il se trouue
+                    <lb/>mesmes, que la plus part des Epistres des Apostres,
+                    <lb/>&amp; notamment de Sainct Paul,ont esté
+                    <lb/>particulierement destinées à des villes , ou à
+                    <lb/>des peuples, parmy lesquels ils auoyent auparauant
+                    <lb/>euangelizé de bouche les veritez
+                    <lb/>salutaires. Desquelles apres cela neantmoins
+                    <lb/>ils ont bien voulu leur raffraichir la memoire
+                    <lb/>par ces escrits , selon qu'il a pleu à Dieu
+                    <lb/>de leur en faire voir la necessité par son Esprit.
+                    <lb/>Iusques là mesmes que le Seigneur ne
+                    <lb/>s'est pas contenté de faire escrire vne Epistre
+                    <lb/>seulement a quelques vns d'eux. Mais aussi
+                    <lb/>jusque à deux, comme nous en auons de tres
+                    <lb/>euidentes preuues en ces deux Epistres , qui
+                    <lb/>ont esté addressées à l'Eglise de Corinthe , &amp;
+                    <lb/>à ces deux autres aussi, dont l'Esprit de Dieu
+                    <lb/>a voulu que fust honorée celle des Thessaloniciens <fw place="bot-right" type="catch">niciens</fw>
+                    <pb n="7"/>
+                    <lb/>Et c'est à ceste double faueur qu'à
+                    <lb/>pensé l'Apostre en ceste belle exortation
+                    <lb/>qu'il leur addressoit au 2. chapitre de sa 2.
+                    <lb/>Epistre , à ce <quote source="bible1588.xml#_2Thess.2.15">
+                        <hi rend="I">qu'ils fussent fermes , &amp; qu'ils retinssent</hi>
+                        <ref type="bible" target="bibleSegond21.xml#_2Thess.2.15">2.<hi rend="I">Thess.</hi>2.15.</ref>
+                        <lb/>
+                        <hi rend="I">les enseignemens , qu'ils auoyent appris,
+                            <lb/>soit par sa parole,soit par son Epistre</hi>
+                    </quote>,non pour
+                    <lb/>partager la substance des verités , qu'il leur
+                    <lb/>auoit enseignées , outre ce qu'il auoit dit de
+                    <lb/>bouche, &amp; qu'il leur auoit donné par escrit,
+                    <lb/>mais bien pour les animer d'autant plus par
+                    <lb/>la representation du soin de Dieu , qui leur
+                    <lb/>auoit fait entendre sa verité par ceste double
+                    <lb/>façon de dispensation,dont il les auoit gratifiez.
+                    <lb/>Precepte,Mes freres, qu'il est bon que
+                    <lb/>nous considerions encore auiourd'huy comme
+                    <lb/>d'vsage enuers nous, &amp; mesmement puis
+                    <lb/>qu'ils s'agist de traitter de choses, qui sont du
+                    <lb/>corps de ceste belle piece , que Sainct Paul
+                    <lb/>leur auoit auparauant addressée , &amp; qu'il a
+                    <lb/>particulierement designée par cet aduertissement.
+                    <lb/>Piece, qui est celle donc il vous a pleu
+                    <lb/>faire choix , Mes tres-chers, &amp; tres-honorez
+                    <lb/>freres,afin qu'elle fournisse de matiere à des
+                    <lb/>exercices tels que celuy-ci , qui sont Sagement
+                    <lb/>instituez,afin que tour à tour chacun de
+                    <lb/>nous face voir, de quelle sorte il peut trauailler
+                    <lb/>à l'exposition des oracles de la verité celeste.
+                    <lb/>Et c'est pour cela que vous m'auez ordõné,
+                    <lb/>mes treschers compagnons
+                    d'œuure<!--CiM : Cette apostrophe sort de l'ordinaire, tout comme la relation de subordination à ses auditeurs affichée ici par le pasteur. -->,
+                    de
+                    <lb/>m'exercer en cette heure. C'est pour cela
+                    <lb/>qu'ayant accepté cet ordre auec respect , ie
+                    <lb/>me suis mis en quelque deuoir d'ouurir vne
+                    <lb/>si belle carriere,&amp; de frayer le chemin à ceux <pb n="8"/>
+                    <lb/>qui auront à suiure cy apres. Et aussi,Mes
+                    <lb/>freres,i'entame sous la faueur de Dieu cette
+                    <lb/>belle tasche, souhaitant du plus profond de
+                    <lb/>mon cœur,qu'elle se poursuiue à l'auenir sans
+                    <lb/>empeschement. Et pour suiect de cet exercice
+                    <lb/>i'ay pris ces paroles , qui contiennent
+                    <lb/>l'inscription de cette Epistre. Sur lesquelles
+                    <lb/>nous aurõs à cõsiderer premieremẽt,Qui<supplied resp="#CiM" reason="omission"> </supplied>sont
+                    <lb/>ceux de la part desquels elle a esté enuoyée,
+                    <lb/><choice><sic>cest</sic><corr resp="#CiM">c'est</corr></choice> assauoir,Paul,Siluain,&amp; Timothée.Secõdement,
+                    <lb/>la description du suiect auquel elle a
+                    <lb/>esté addressée, &amp; qui est qualifié , l'Eglise des
+                    <lb/>Thessaloniciens , qui est en Dieu le Pere, &amp;
+                    <lb/>au Seigneur Iesus Christ. Et 3°. enfin qu'emporte
+                    <lb/>ce bon souhait fait par cette Eglise là
+                    <lb/>en ces paroles, <quote source="bibleSegond21.xml#_1Cor.1.3">Grace vous soit, &amp; paix de par
+                        <lb/>Dieu nostre Pere, &amp; de par le Seigneur Iesus
+                        <lb/>Christ</quote>,<!--CiM: Division , à partir de Sur lesquelles--> Dont
+                    nous souhaitons icy particulieremẽt
+                    <lb/>pour nous (&amp; ie me persuade que vous
+                    <lb/>le faites aussi, mes freres ) que la grace, &amp; la
+                    <lb/>vertu nous fortifie, afin que nous puissions
+                    <lb/>parler de ces choses assez dignemẽt à la saincte
+                    <lb/>gloire, &amp; à nostre commune edification. </p>
+                <p n="4">
+                    <lb/>Vous sçauez assez, Mes freres , sans qu'il
+                    <lb/>soit besoin qu'on vous le face obseruer auec
+                    <lb/>quelque empressement , que l'ordre , que
+                    <lb/>tient icy nostre Apostre , n'est pas singulier à
+                    <lb/>cette Epistre , puis qu'il est tout clair , qu'il
+                    <lb/>n'en est aucune de celles qui luy sont attribuées,
+                    <lb/>qui ne porte son nom en teste,horsmis
+                    <lb/>celle qu'il addresse aux Hebreux ses compatriotes :
+                    <lb/>ausquels les plus iudicieux Interpretes
+                    <lb/>de l'Escriture veulẽt, qu'il ait teu son nom <fw place="bot-right" type="catch">pour</fw>
+                    <pb n="9"/>
+                    <lb/>de grandes considerations. D'où cependant
+                    <lb/>d'autres ont voulu prendre occasion, de
+                    <lb/>la separer du reste de ses ouurages l'attribuans
+                    <lb/>sans necessité à quelque autre. Et il
+                    <lb/>n'est non plus fort necessaire , que i'insiste
+                    <lb/>à vous persuader,qu'encore que la deduction
+                    <lb/>des veritez,qu'il explique en celle-cy,differe
+                    <lb/>en quelque sorte de la methode qu'il
+                    <lb/>tient dans les autres,neantmoins le fonds de
+                    <lb/>la doctrine ne laisse pas d'estre tressemblable.
+                    <lb/>Bien croy-ie qu'il est à propos,qu'auãt passer
+                    <lb/>outre ie vous represente ce que i'ay peu conceuoir
+                    <lb/>du motif de cette Epistre &amp; des leçons
+                    <lb/>qui y sont données : Ie dy du motif particulier,
+                    <lb/>qui est d'vne recerche plus penible que
+                    <lb/>le general , selon lequel cette piece a esté
+                    <lb/>donnée comme les autres pour memorial
+                    <lb/>des diuines veritez, que les saincts Apostres
+                    <lb/>du Seigneur nous ont enseignées. </p>
+                <p n="5">
+                    <lb/>Mais quant au particulier pour y reüssir
+                    <lb/>d'autant plus heureusement,Mes freres,il est
+                    <lb/>besoin de vous mettre sur les pistes des voyages
+                    <lb/>de l'Apostre , selon qu'ils nous sont representez
+                    <lb/>au liure des Actes : où nous pouuons<ref type="bible" target="bibleSegond21.xml#Acts.13.2">
+                        <hi rend="I">Act.</hi>13.2.</ref>
+                    <lb/>voir , qu'apres ce premier essay qu'il fit
+                    <lb/>auec Barnabas, selon l'ordre exprés du sainct
+                    <lb/>Esprit , pour aller annoncer l'Euangile en
+                    <lb/>plusieurs contrées des Gentils , &amp; apres la
+                    <lb/>vuidange de la difficulté née en Antioche, <ref type="bible" target="bibleSegond21.xml#Acts.15">
+                        <hi rend="I">Act.</hi>15</ref>
+                    <lb/>sur le suiect des ceremonies anciennes , que
+                    <lb/>diuers vouloyent retenir , &amp; confondre auec
+                    <lb/>les Christianisme , &amp; enfin apres qu'il eut
+                    <lb/>auec le mesme Barnabas porté les decisions <pb n="10"/>
+                    <lb/>de l'assemblée de Ierusalẽ alant en cette mesme
+                    <lb/>ville d'Antioche,ayant aussi pour compagnons
+                    <lb/>en cet employ Iudas,&amp; Silas,il luy vint
+                    <lb/>en la pensée,&amp; certes nõ sans l'operation speciale
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.15.36">
+                            <hi rend="I">Act</hi>. 15.36.</ref>
+                    </note>du sainct Esprit , qu'il seroit bon de <quote source="bible1588.xml#Acts.15.36">
+                        <hi rend="I">retourner</hi>
+                    </quote>
+                    <lb/>vers ces freres,ausquels en cette premiere
+                    <lb/>course ils auoyent annoncé la verité
+                    <lb/>salutaire, &amp; que sur le different , qui suruint
+                    <lb/>entre luy &amp; Barnabas , à cause de Iehan surnommé
+                    <lb/>Marc , ayant prins Silas il fit route à
+                    <lb/>part, <quote source="bible1588.xml#Acts.15.41">
+                        <hi rend="I">traversant la Syrie &amp; la Cilicie &amp; confirmant</hi>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Acts.15.41">
+                                <hi rend="I">vers</hi>. 4.</ref>
+                        </note>
+                        <hi rend="I">les Eglises</hi>
+                    </quote>.  Et ce fut alors que passant
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.16.6">
+                            <hi rend="I">Act.</hi> 16. <hi rend="I">vers.</hi>6.</ref>
+                    </note>en Derbeil il s'adioignit Timothée. Puis ils
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.16.9">
+                            <hi rend="I">vers. </hi>9.</ref>
+                    </note>trauerserent aussi la Phrygie,d'ou passans outre
+                    <lb/>enfin par l'auertissement d'vne vision diuine
+                    <lb/>ils s'auancerent tous en Macedone. Et
+                    <lb/>premierement vinrent à Philippes, qui est la
+                    <lb/>premiere ville qui s'offre à ceux là qui viennent
+                    <lb/>du costé de l'Asie en ces pays là. Et là
+                    <lb/>s'accomplirent ces belles choses qui se lisent
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.16.14-15">v.14. 15. <hi rend="I">&amp;c.</hi>
+                        </ref>
+                    </note>au <ref type="bible" target="bibleSegond21.xml#Acts.16">16.chapitre du liure des Actes</ref>.Apres quoy
+                    <lb/>de là ils furent à Thessalonique par Amphipolis,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.17.1">
+                            <hi rend="I">Act.</hi>17.1.</ref>
+                    </note>&amp; par Apollonie. Et comme Sainct
+                    <lb/>Paul y eut annoncé le Seigneur , il s'y forma
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.17.4">
+                            <hi rend="I">vers</hi> 4.</ref>
+                    </note>bien tost vne Eglise , composée <quote source="bible1588.xml#Acts.17.4">
+                        <hi rend="I">de quelques
+                            <lb/>Iuifs , &amp; de multitude de Grecs seruans Dieu,
+                            <lb/>&amp; de femmes de qualité,qui n'estoyent pas en petit
+                            <lb/>nombre</hi>
+                    </quote>. Mais comme le desesperé ennemy
+                    <lb/>des œuvres diuines &amp; du salut des hommes
+                    <lb/>ne pouuoit voir qu'auec vne horrible
+                    <lb/>enuie la naissance de cette Eglise,&amp; de si heureux
+                    <lb/>commencemens , &amp; mesmes en vn tel
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.17.5">
+                            <hi rend="I">vers. </hi>5.</ref>
+                    </note>lieu,il suscita bien tost des Iuifs rebelles , qui <fw place="bot-right" type="catch">trou-</fw>
+                    <pb n="11"/>
+                    <lb/>troublerẽt cet ouurage,&amp; reduisirent la chose
+                    <lb/>à tel point , que nonobstant le grand zele de
+                    <lb/>l'Apostre , &amp; la vehemente ardeur de ceux,
+                    <lb/>qui auoyent embrassé la verité dedans cette
+                    <lb/>ville,il falut que Paul,&amp; ceux de sa suite se retirassent<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.17.10">10.</ref>
+                    </note>
+                    <lb/>à Berée,où la persecution les suiuit:
+                    <lb/>comme quand par vne traisnée de matieres<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.17.17">
+                            <hi rend="I">vers</hi> 17.</ref>
+                    </note>
+                    <lb/>combustibles on void que la flamme se porte
+                    <lb/>iusques à des lieux assez <choice><sic>eslognez</sic><corr resp="#CiM">esloignez</corr></choice> du premier
+                    <lb/>embrasement.Si bien qu'il falut que ce grand
+                    <lb/>Apostre pour euiter par vne prudence Chrestienne
+                    <lb/>la violence des orages,que Satan suscitoit
+                    <lb/>alors contre les effects de son sacré
+                    <lb/>Ministere , penetrast iusques en Athenes, &amp;<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.17.15">
+                            <hi rend="I">vers.</hi> 15.</ref>
+                    </note>
+                    <lb/>de là enfin en Corinthe. D'où apres qu'il eut<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.18.1">
+                            <hi rend="I">cha. </hi>13.1.</ref>
+                    </note>
+                    <lb/>receu Silas &amp; Timothée reuenus de Macedone,
+                    <lb/>il eust bien voulu retourner à Thessalonique,
+                    <lb/>ou la ferueur de son zele luy faisoit
+                    <lb/>à toutes heures porter sa pensée. Mais Satan
+                    <lb/>ne le peut souffrir , &amp; y apporta tout l'empeschement,
+                    <lb/>qui luy fut possible , selon que nostre
+                    <lb/>Apostre nous <choice><sic>la</sic><corr resp="#CiM">l'a</corr></choice> representé au 2. chapitre
+                        <lb/>de cette 1. Epsitre. A cause
+                    dequoy plein d'vne<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Thess.2.13">
+                            <hi rend="I">vers.</hi> 13.</ref>
+                    </note>
+                    <lb/>impatience treslouable , &amp; sainctement
+                    <lb/>animé , il leur enuoya Timothée son frere,
+                    <lb/>comme vn autre luy mesme , pour les affermir,
+                    <lb/>ainsi qu'il le dit au chapitre
+                        suiuant,
+                    afin
+                    <lb/>
+                    <quote source="bible1588.xml#_1Thess.3.3">
+                        <hi rend="I">que nul ne fust troublé</hi>
+                    </quote> : mais qu'au contraire<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Thess.3.3">
+                            <hi rend="I">vers</hi>. 2. 3.</ref>
+                    </note>
+                    <lb/>ce cher Timothée leur rappellant en la memoire
+                    <lb/>ce que l'Apostre leur auoit predit des
+                    <lb/>combats,qu'<choice><sic>il</sic><corr resp="#CiM">ils</corr></choice> auroyent à supporter pour l'Euangile ,
+                    <lb/>ils en fussent d'autant plus fortifiez
+                    <lb/>contre les assauts de <quote source="bible1588.xml#_1Thess.3.5">
+                        <hi rend="I">celuy qui tente</hi>
+                        <!--citation approximative--></quote>: Puis<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Thess.3.5">
+                            <hi rend="I">vers</hi>. 4.5.</ref>
+                    </note>
+                    <pb n="12"/>
+                    <lb/>quand ce bon disciple en fut reuenu pour
+                    <lb/>vne seconde fois , &amp; eut <hi rend="I">resiouï</hi> l'Apostre par
+                    <lb/>les agreables <quote source="bible1588.xml#_1Thess.3.6">
+                        <hi rend="I">nouuelles</hi>,qu'il luy donna, <hi rend="I">de leur
+                            <lb/>foy &amp; de leur charité</hi>
+                        <!--citation approximative-->
+                    </quote>, &amp; particulierement de
+                    <lb/>l'ardente amour qu'ils auoyent pour luy , ce
+                    <lb/>fut alors que remply d'vne ioye non commune
+                    <lb/>il leur enuoya cet autre Messager, cet autre
+                    <lb/>interprete de ses bonnes intentions , qui
+                    <lb/>ne leur deuoit pas estre moins agreable que
+                    <lb/>le precedent. Et c'est mesmes la premiere de
+                    <lb/>toutes les Epistres que nostre grand Apostre
+                    <lb/>a escrites par inspiration diuine , si on s'en
+                    <lb/>veut rapporter à la consideration de ceux qui
+                    <lb/>ont recerché de plus pres en quel temps a peu
+                    <lb/>estre escrite chascune de celles qui luy sõt attribuées
+                    <lb/>dans le Canon du Nouueau Testament.
+                    <lb/>Au reste ie n'entre point icy en question
+                    <lb/>du lieu d'ou elle a esté escrite , ni de
+                    <lb/>ceux ausquels le Sainct Apostre donna charge
+                    <lb/>de la porter à Thessalonique : Mais bien
+                    <lb/>croy ie <choice><sic>deuoit</sic><corr resp="#CiM">deuois</corr></choice>
+                    icy dire quelque chose de plus
+                    <lb/>precis,que ie n'ay peu faire encore touchant
+                    <lb/>le but de l'Apostre,cela mesme ayant vne necessaire
+                    <lb/>liaison auec ce que nous auons deduit
+                    <lb/>de l'occasion,qui l'a particulierement inuité
+                    <lb/>à leur escrire , veu mesmes qu'ainsi que
+                    <lb/>l'a obserué Theodoret il est bien à croire,que
+                    <lb/>ce fut le rapport de Timothée,que Sainct
+                    <lb/>Paul fonde le choix des matieres principales
+                    <lb/>dont il composa le corps de ceste Espitre.
+                    <lb/>Qui fait croire que comme il leur auoit loüé
+                    <lb/>leur constance , &amp; leur fermeté , tant contre
+                    <lb/>les violentes attaques , qui leur auoyent esté <fw place="bot-right" type="catch">liurées,</fw>
+                    <pb n="13"/>
+                    <lb/>liurées,que contre les trompeuses inductions
+                    <lb/>des faux Apostres , il luy auoit aussi descouuert
+                    <lb/>les principaux artifices par lesquels on
+                    <lb/>les auoit voulu surprendre, &amp; quelles vaines
+                    <lb/>questions on auoit semé parmy eux, qui d'ailleurs
+                    <lb/>auoyent besoin d'vn serieux auertissement
+                    <lb/>à tesmoigner plus de moderation,qu'ils
+                    <lb/>n'en obseruoyent en la mort de leurs amys,
+                    <lb/>&amp; de leurs proches. </p>
+                <p n="6">
+                    <lb/>C'est pourquoy, Mes freres , Sainct Paul
+                    <lb/>pour les animer de plus en plus à bien faire
+                    <lb/>loue d'entrée leur resolution &amp; leur courage,
+                    <lb/>&amp; afin que leur cœur ne s'en esleuast
+                    <lb/>point,il les a obligez de considerer , que tout
+                    <lb/>cela ne venoit d'ailleurs que de la grace misericordieuse
+                    <lb/>du Seigneur , qui par là faisoit
+                    <lb/>cognoistre,qu'il les auoit esleus en sont Christ
+                    <lb/>dés auant les siecles:comme dés l'arriuée de
+                    <lb/>sainct Paul au milieu d'eux il l'auoit bien fait
+                    <lb/>remarquer par l'effect de son employ , de la
+                    <lb/>franchise duquel il prend d'ailleurs à tesmoin
+                    <lb/>leurs consciences , les inuitant tacitement à
+                    <lb/>considerer la difference qu'il y auoit entre la
+                    <lb/>façon d'agir &amp; celle des faux Apostres. Et
+                    <lb/>pource qu'encore qu'il les loüe tous en gros,
+                    <lb/>neantmoins ils n'estoyent pas en detail de
+                    <lb/>mesme force , il leur a donné de sommaires
+                    <lb/>auertissemens , pour les animer à la saincteté
+                    <lb/>de vie , &amp; pour y exciter particulierement
+                    <lb/>ceux, qui pouuoyent estre les plus paresseux
+                    <lb/>A quoy il adiouste de belles leçons touchant
+                    <lb/>la resurrection des morts , &amp; l'aduenement
+                    <lb/>dernier de nostre Seigneur Iesus:faisant bien <pb n="14"/>
+                    <lb/>voir que la condition des fideles , qui seront
+                    <lb/>morts auant cette apparition ne sera pas inferieure
+                    <lb/>à celle de ceux , que le Seigneur trouuera
+                    <lb/>viuans en ce temps là. Et apres auoir
+                    <lb/>traitté vn peu diffusément de ces points , il
+                    <lb/>poursuit par la recommandation de plusieurs
+                    <lb/>preceptes assez courts, qu'il donne sur diuerses
+                    <lb/>matieres. Et conclud enfin par vn vœu solennel
+                    <lb/>pour les Thessaloniciens,ausquels cependant
+                    <lb/>il se recommande comme il leur recommande
+                    <lb/>à tous la lecture de cette Epistre,
+                    <lb/>&amp; les recommande tous à la grace du Seigneur ,
+                    <lb/>finissant en singulier combien que
+                    <lb/>d'entrée il en eust nommé deux autres auec
+                    <lb/>luy. </p>
+                <p n="7">
+                    <lb/>A quoy mes chers freres, il nous faut maintenant
+                    <lb/>reuenir , comme à ce qui fait l'entrée
+                    <lb/>de la tasche particuliere que nous auons prise.
+                    <lb/>Il ne se propose donc pas seul escriuant
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#_1Thess.1.1">aux Thessaloniciens</ref> : mais il y adiouste <quote source="bible1588.xml#_1Thess.1.1">&amp;
+                        <lb/>
+                        <hi rend="I">Siluain, &amp; Timothée</hi>
+                    </quote>:&amp; il garde ce mesme ordre
+                    <lb/>en sa seconde, qu'on estime auoir esté escrite
+                    <lb/>bien peu de temps apres la premiere,
+                    <lb/>comme aussi à l'entrée des Epistres, qu'il a escrites
+                    <lb/>aux Philippiens , &amp; aux Colossiens, &amp;
+                    <lb/>en la <ref type="bible" target="bibleSegond21.xml#_2Cor.1.1">2.aux Corinthiens</ref> il s'est adioint <quote source="bible1588.xml#_2Cor.1.1">
+                        <hi rend="I">Timothée</hi>
+                    </quote>,
+                    <lb/>ainsi qu'en la premiere Sosthenes , &amp;
+                    <lb/>mesmes en escriuant <ref type="bible" target="bibleSegond21.xml#Gal.1.2">aux Galates</ref> il les a
+                    expressement
+                    <lb/>saluez <quote source="bible1588.xml#Gal.1.2">
+                        <hi rend="I">au nom de tous les freres,
+                            <lb/>qui estoyent auec luy</hi>
+                    </quote>. Ce qui nous ouure le
+                    <lb/>chemin à vous dire,qu'encore que Siluain &amp;
+                    <lb/>Timothée soyent
+                    icy
+                    nommez , ce n'est pas
+                    <lb/>pourtant qu'ils ayent proprement contribué <fw place="bot-right" type="catch">à la</fw>
+                    <pb n="15"/>
+                    <lb/>à la composition de cette excellente Epistre.
+                    <lb/>Elle est bien sans difficulté toute de l'Apostre,
+                    <lb/>&amp; toute de l'Esprit de Dieu par luy. Mais
+                    <lb/>toutesfois il a bien voulu les faire ses compagnons
+                    <lb/>en la salutation qu'il addresse,&amp; qui
+                    <lb/>plus est,parce qu'ils estoyẽt Ministres de l'Euangile ,
+                    <lb/>qui auoyent mesmes part auec luy
+                    <lb/>au milieu d'eux , &amp; dont l'vn leur auoit esté
+                    <lb/>depuis particulierement enuoyé par luy,
+                    <lb/>comme il les auoit tous alors pour associez à
+                    <lb/>les enseigner de viue voix , il se les adioint
+                    <lb/>icy encore en cette salutation ,
+                    estant question
+                    <lb/>de leur donner par escrit les enseignemens,
+                    <lb/>que l'Esprit de Dieu leur a voulu renouueller
+                    <lb/>par cette voye , ou qu'il a creu deuoir
+                    <lb/>adiouster à ce qu'il leur auoit enseigné
+                    <lb/>auparauant. Et tout Apostre qu'il estoit , il
+                    <lb/>semble qu'il ait fait gloire de leur consentement,
+                    <lb/>bien loin de s'esleuer imperieusement
+                    <lb/>au dessus d'eux. Ce qu'il a bien particulierement
+                    <lb/>tesmoigné au commencement de l'Epistre
+                    <lb/>aux Philippiens , quand il a couché ces
+                    <lb/>mots ainsi, <quote source="bible1588.xml#Phil.1.1">
+                        <hi rend="I">Paul , &amp; Timothée, seruiteurs de
+                            <lb/>Iesus Christ</hi>
+                    </quote>, se contentant de ce tiltre qu'il
+                    <lb/>a affecté en commun à Timothée &amp; à luy, &amp;
+                    <lb/>s'estant au reste tellement adioint ce <choice><sic>disciples</sic><corr resp="#CiM">disciple</corr></choice>
+                    <lb/>en la salutation,qu'en suite il a parlé purement
+                    <lb/>en singulier, iusqu'à leur faire esperer,
+                    <lb/>qu'il leur enuoyeroit bien tost ce mesme
+                    <lb/>Timothée là. </p>
+                <p n="8">
+                    <lb/>Là donc pour tesmoigner son humilité il
+                    <lb/>n'a pris que ce seul tiltre : &amp; icy,mes freres,
+                    <lb/>il semble bien que pour mesme fin il n'en ait <pb n="16"/>
+                    <lb/>du tout point pris. Et combien qu'il leurs il
+                    <lb/>se soit souuent qualifié Apostre , &amp; mesmes à
+                    <lb/>cause de ceux qui luy contestoyent son Apostolat,
+                    <lb/>icy neantmoins quoy que <choice><sic>çait</sic><corr resp="#MAG">ç'ait</corr></choice> esté,
+                    <lb/>comme nous l'auons dit cy deuant ,
+                    la premiere
+                    <lb/>de ses Epistres , &amp; peut estre mesmes à
+                    <lb/>cause de cela,il n'a pas pris cette qualité. Et
+                    <lb/>quoy qu'il en soit d'ailleurs,il faut croire,
+                    <lb/>que l'Esprit de Dieu ne l'a pas iugé à propos,
+                    <lb/>veu mesmes que les Thessaloniciens ne doutoyent
+                    <lb/>pas qu'il ne fust Apostre : autrement
+                    <lb/>sans doute ne s'en fust-il pas abstenu , puis
+                    <lb/>qu'il n'estoit pas moins Apostre dés lors,qu'il
+                    <lb/>le fut depuis. Et de fait,Mes freres,ne sçavez
+                    <lb/>vous pas comment dés <choice><sic>quil</sic><corr resp="#CiM">qu'il</corr></choice> fut touché d'vne
+                    <lb/>façon si merueilleuse , comme il est dit au liure
+                    <lb/>des Actes , pour estre attiré au Christianisme,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.9.12">
+                            <hi rend="I">Act.</hi>9. v.10.</ref>
+                    </note>&amp; qu'<quote source="bible1588.xml#Acts.9.12">
+                        <hi rend="I">Ananias luy fut enuoyé pour luy
+                            <lb/>imposer les mains &amp; le baptizer</hi>
+                        <!--citation approximative-->
+                    </quote>, Dieu l'ordonna
+                    <lb/>
+                    <note type="margin">
+                        <hi rend="I">vers. </hi>15<hi rend="I">.</hi>
+                    </note>
+                    <quote source="bible1588.xml#Acts.9.15">
+                        <hi rend="I">comme un instrument d'eslite pour porter
+                            <lb/>son nom deuant les Gentils , &amp; deuant les Roys,</hi>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Acts.9.15">
+                                <hi rend="I">vers.</hi> 14</ref>
+                        </note>
+                        <hi rend="I">&amp; les enfans d'Israël</hi>
+                    </quote>. Et qu'incontinent apres
+                    <lb/>
+                    <quote source="bible1588.xml#Acts.9.20">
+                        <hi rend="I">il prescha dans les Synagogues , que Iesus estoit
+                            <lb/>le Fils de Dieu</hi>
+                    </quote>. Ce Paul, cet ennemy violent,
+                    <lb/>qui bien peu de temps auparauant faisoit le
+                    <lb/>plus de rauage qu'il pouuoit parmy les Eglises
+                    <lb/>du Seigneur nouuellement establies, selon
+                    <lb/>l'ordre qu'il auoit reçeu du Concile des
+                    <lb/>Iuifs pour authoriser sa violence , Ce Paul,
+                    <lb/>semblable en ce temps <choice><sic>vn à</sic><corr resp="#CiM">à vn</corr></choice> Loup plein d'auidité,
+                    <lb/>qui est en queste continuelle,&amp; qui tasche
+                    <lb/>se fourrer dans les parcs, ou les innocẽtes
+                    <lb/>brebis n'ont point dequoy se defendre de s<supplied resp="#CiM" reason="omission">a</supplied>
+                    <fw place="bot-right" type="catch">fureur</fw>
+                    <pb n="17"/>
+                    <lb/> fureur &amp; de sa rage,Mais Paul cependant deuenu
+                    <lb/>amy par vn changement , qui rauit d'estonnement
+                    <lb/>ceux qui l'auoyent auparauant
+                    <lb/>veu si cruellement acharné à les poursuiure,
+                    <lb/>qui de Loup fut fait Agneau , &amp; de persecuteur
+                    <lb/>des fideles non seulement prescheur de
+                    <lb/>Iesus qu'il persecutoit auparauant en ses
+                    <lb/>membres, Mais aussi Apostre , &amp; qui ne fut
+                    <lb/>rien moindre , que les plus excellens d'entr'eux.
+                    <lb/>Mais Apostre au reste, qui n'a pas pris
+                    <lb/>à tasche de faire parade d'vne telle qualité à
+                    <lb/>tous propos , veu mesmes que vous voyez
+                    <lb/>qu'il s'en taist en vne occasion comme celle
+                    <lb/>cy.Ce que toutesfois il n'est pas si croyable
+                    <lb/>qu'il ait fait pour le suiet qu'en allegue Chrysostome
+                    <lb/>que pource que nous auons dit cy
+                    <lb/>dessus: Et quelle apparence que
+                    ç'ait esté simplement ,
+                    <lb/>pource que les Thessaloniciens
+                    <lb/>estoyent nouuellement instruits en la foy?
+                    <lb/>Et qui ne croiroit plustost, qu'à cet esgard là
+                    <lb/>il eust esté necessaire , que l'Apostre se fust
+                    <lb/>qualifié tel pour leur imprimer d'autant plus
+                    <lb/>de respect pour sa doctrine ? Mais aussi d'autre
+                    <lb/>part ne peut on pas dire , qu'il estoit assez
+                    <lb/>cognu parmy eux , &amp; assez persuadé de cela,
+                    <lb/>sans qu'il eust besoin de se recommander d'auantage.
+                    <lb/>Voila pourquoy nous disons , qu'il
+                    <lb/>vaut beaucoup mieux s'imposer silence sur
+                    <lb/>vne telle chose , puis que l'Escriture mesme
+                    <lb/>s'en taist,que d'en vouloir recercher trop curieusement
+                    <lb/>la raison. </p>
+                <p n="9">
+                    <lb/>Et quant à Siluain , Mes freres, si vous demandez
+                    <lb/>qui c'estoit,comme nous vous auons <pb n="18"/>
+                    <lb/>desia aucunement insinué , que c'estoit ce
+                    <lb/>mesme Silas , que l'Apostre prit pour son
+                    <lb/>compagnon de voyage , alors que Barnabas
+                    <lb/>eut<supplied resp="#CiM" reason="omission"> </supplied>vn assez aigre demeslé auecque luy à cause
+                    <lb/>de Iehan surnommé Marc. Maintenant certes
+                    <lb/>nous posons ouuertement, qu'il n'y a pas
+                    <lb/>d'apparence de soustenir , qu'il ait esté autre
+                    <lb/>que celuy là mesme , pource de fait qu'en
+                    <lb/>conferant l'histoire des Actes auec cette Epistre,
+                    <lb/>il ne se peut trouuer de iuste suiect
+                    <lb/>d'en iuger d'vne autre sorte.Et il est à croire,
+                    <lb/>qu'en voyageant dans la Grece son nom
+                    <lb/>pût receuoir l'addition de <choice><sic>quelque</sic><corr resp="#CiM">quelques</corr></choice> lettres,
+                    <lb/>pour mesmes l'accommoder à l'ordinaire façon
+                    <lb/>de prononcer &amp; des Grecs &amp; des Latins
+                    <lb/>ce qui n'est pas sans exemple. Et c'est ce que
+                    <lb/>nous a esté particulierement Theodoret entre
+                    <lb/>les autres Docteurs de l'Eglise, se fondant
+                    <lb/>sur ce qu'il estime , qu'on ne peut auec raison
+                    <lb/>rapporter à d'autres lieux de l'histoire
+                    <lb/>des Actes desquels il s'agist. Et quant à la
+                    <lb/>charge , qu'il a peu auoir dans l'Eglise du
+                    <lb/>Seigneur , nous ne pouuons vous en dire , sinon
+                    <lb/>qu'il est bien à croire, qu'il a esté de ceux
+                    <lb/>là qu'on appelloit Euangelistes, c'est à dire
+                    <lb/>de ces Ministres de Christ , qui estoyent au
+                    <lb/>dessous de l'Apostolat,&amp; qui auoyent neantmoins
+                    <lb/>cela de commun auec les Apostres,
+                    <lb/>qu'ils estoyent comme leurs conducteurs en
+                    <lb/>leurs courses pour la propagation de l'Euangile.
+                    <lb/>A quoy mesmes peut seruir pour fortifier
+                    <lb/>cette pensée, qu'il est icy nommé deuant
+                    <lb/>Timothée , duquel on demeure bien d'accord, <fw place="bot-right" type="catch">cord,</fw>
+                    <pb n="19"/>
+                    <lb/>qu'il estoit de ce rang là , &amp; tel que S.
+                    <lb/>Paul luy a rendu ce glorieux tesmoignage,
+                    <lb/>
+                    <quote source="bible1588.xml#Phil.2.20">
+                        <hi rend="I">qu'il n'auoit personne, qui fust de pareil courage</hi>
+                    </quote>,
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Phil.2.20">
+                            <hi rend="I">Phillip.</hi>2.20.</ref>
+                    </note>
+                    <lb/>mesmes en faueur des Philippiens. Nonobstant
+                    <lb/>quoy pourtant vous le voyez icy nommé
+                    <lb/>apres Siluain , &amp; peut estre pource qu'il
+                    <lb/>estoit plus ieune,&amp;qu'encore qu'il y eust esgalité
+                    <lb/>de charge entr'eux , cela n'a pas empesché,
+                    <lb/>que pour l'ordre on n'ait eu esgard à
+                    <lb/>quelque consideration comme de l'aage &amp;
+                    <lb/>de l'establissement en cet employ. Ou bien
+                    <lb/>pource que s'ils en faut croire quelques Anciens<note type="margin">
+                        <ref type="other">
+                            <hi rend="I">Chrysost. Theoph.</hi>
+                        </ref>
+                    </note>
+                    <lb/>Docteurs, Timothée en imitant la modestie
+                    <lb/>de son Maistre, a demandé luy mesme,
+                    <lb/>que le nom de Siluain fust couché deuant le
+                    <lb/>sien. Luy duquel il y a encore cecy à dire,
+                    <lb/>qu'au lieu qu'il ne nous est du tout rien dit de
+                    <lb/>l'instruction de Siluain , Au contraire l'histoire
+                    <lb/>saincte nous represente certaines particularitez
+                    <lb/>fort remarquables de celle de Timothée. <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_2Tim.1.5">2.<hi rend="I">Tim.</hi>1.5.</ref> &amp; <ref type="bible" target="bibleSegond21.xml#_2Tim.3.15">3.15.</ref>
+                    </note>
+                    <lb/>Et il est sur tout tres-iuste que l'on
+                    <lb/>obserue cet excellent tesmoignage , que l'Apostre
+                    <lb/>rend à sa Mere &amp; à son Ayeul pour le
+                    <lb/>bon &amp; le pieux soin qu'elles auoyent pris,
+                    <lb/>de l'instruire dés sa petitesse en la pieté. Auec
+                    <lb/>quoy il faut aussi remarquer, qu'il a esté mis
+                    <lb/>en particuliere consideration, parce que le
+                    <lb/>mesme Apostre nous propose <quote source="bible1588.xml#_1Tim.1.18">
+                        <hi rend="I">des Propheties,</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Tim.1.18">1. <hi rend="I">Tim.</hi>1.18.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">qui auoyent esté dites</hi>
+                    </quote> de ce Timothée là. Et
+                    <lb/>voyla Mes freres,pource qui cõcerne ceux au
+                    <lb/>nom desquels la salutation s'est
+                    faite.
+                </p>
+                <p n="10">
+                    <lb/>Maintenant quant à ceux là ausquels cette
+                    <lb/>Epistre a esté
+                    addressée,
+                    il se void aussi en termes <pb n="20"/>
+                    <lb/>bien expres que ça esté l'Eglise des
+                    <lb/>Thessaloniciẽs, <choice><sic>cest</sic><corr resp="#CiM">c'est</corr></choice> à dire,la trouppe de ceux
+                    <lb/>qui auoyent desia esté attirez d'entre les Thessaloniciens
+                    <lb/>à la communion de l'Euangile.
+                    <lb/>Car comme nous l'auons dit cy deuant , dés
+                    <lb/>que l'Apostre eut commencé d'y prescher,
+                    <lb/>l'Euangile y fructifia merueilleusement.
+                    <lb/>Comme quand par la dispensation de la prouidence
+                    <lb/>eternelle la semence se iette si à propos,
+                    <lb/>que bien tost apres elle germe:ou quand
+                    <lb/>vn remede se donne si opportunément , qu'il
+                    <lb/>fait promptement vne tresbelle operation.
+                    <lb/>Et comme ce tresbel effect fut produit sur vn
+                    <lb/>celebre theatre aussi deuint il par cela mesme
+                    <lb/>plus esclatant, &amp; plus admirable. La grandeur
+                    <lb/>du lieu seruit en quelque façon à rehausser
+                    <lb/>son beau lustre , &amp; cet exemple fut
+                    <lb/>cõsideré de plusieurs endroits &amp; de fort loin
+                    <lb/>comme vne chose tresdigne d'estime &amp; d'imitatiõ.
+                    <lb/>Et de fait,Mes freres,qu'estoit.Thessalonique
+                    <lb/>sinon vne tresbelle ville dans la
+                    <lb/>Macedoine &amp; que Theophylade a qualifié la
+                    <lb/>metropolitaine de tout le pays à quoy il semble
+                    <lb/>bien que Theodoret luy a frayé le chemin:
+                    <lb/>comme à present encore elle est la demeure
+                    <lb/>du Saugiac , qui commande pour le
+                    <lb/>grand Seigneur à ce mesme pays la ville qu'on
+                    <lb/>tient auoir esté bastie par Cassandre &amp; appellée
+                    <lb/>Halia, &amp; depuis Thessalonique par Philippes
+                    <lb/>Roy de Macedone , pour memorial
+                    <lb/>d'vne grande defaite des Thessaloniciens en
+                    <lb/>cette contrée là : comme auiourd'huy encore
+                    <lb/>on l'appelle <hi rend="I">Salomichi </hi>au langage du pays ou <fw place="bot-right" type="catch">bien</fw>
+                    <pb n="21"/>
+                    <lb/>bien, comme veulent quelque vns se fut Cassandre<note type="margin">
+                        <ref type="other">
+                            <hi rend="I">Suidas Strab. Epitome</hi>
+                        </ref>
+                    </note>
+                    <lb/>mesme qui l'appella ainsi du nom de
+                    <lb/>sa femme fille de Philippes:ou Philippe mesme
+                    <lb/>qui la bastit, &amp; l'appella de la sorte soit à
+                    <lb/>cause de ce qu'il l'edifia apres auoir subiugé
+                    <lb/>les Thessaloniciens,soit à cause de sa fille. Ce
+                    <lb/>n'est pas pourtãt à toute cette ville propremẽt
+                    <lb/>que l'Apostre a addressé sõ Epistre:Mais à l'Eglise
+                    <lb/>de Thessalonique,qui estoit la troupe pieuse
+                    <lb/>de ceux,qui dans cette ville là, sans rõpre
+                    <lb/>la liaison de la societé politique,auoyẽt fait vn
+                    <lb/>corps de disciples consacrez à Christ, qui les
+                    <lb/><choice><sic>auoyent</sic><corr resp="#CiM">auoit</corr></choice> appellez d'vne vocation saincte &amp;
+                    <lb/>toute gratieuse. Et ceux la sont icy qualifiez
+                    <lb/>du nom d'Eglise comme aussi dans la seconde
+                    <lb/>de ces Epistres , <choice><sic>quil</sic><corr resp="#CiM">qui</corr></choice> leur ont esté addressées
+                    <lb/>par ce qu'ils estoyent tels que nous venons
+                    <lb/>de dire. Ce qui neantmoins n'a pas tousiours
+                    <lb/>esté practiqué de mesme par l'Apostre
+                    <lb/>enuers tous autres de mesme condition.Mais
+                    <lb/>souuent en les addresses il a simplement parlé
+                    <lb/>de saincts , &amp; de fideles. Surquoy bien
+                    <lb/>qu'on puisse dire à iuste tiltre , que l'Esprit
+                    <lb/>de Dieu en a vsé en tout cela selon sa liberté,
+                    <lb/>toutesfois i'<choice><sic>enstime</sic><corr resp="#CiM">estime</corr></choice> pas qu'il y ait rien
+                    <lb/>d'absurd,à suiure la pensée de ceux qui tiennent,
+                    <lb/>que l'Apostre a voulu particulierement<note type="margin">
+                        <ref type="other">
+                            <hi rend="I">Chrysost. &amp; Theophy.</hi>
+                        </ref>
+                    </note>
+                    <lb/>consoler les fideles de Thessalonique en leur
+                    <lb/>donnant ce nom là : pource mesme que peut
+                    <lb/>estre leur troupe n'estoit pas encore des plus
+                    <lb/>grandes. Et neantmoins en quelque nombre
+                    <lb/>qu'ils fussent estans tels qu'il les represente,
+                    <lb/>ils estoyent sans doute vne des Eglises de
+                    <lb/>Christ. Parce que ce n'est pas le grand nombre <pb n="22"/>
+                    <lb/>proprement qui fait l'Eglise , mais la pureté :
+                    <lb/>&amp; là où il y en a deux ou trois assemblez
+                    <lb/>au nom de Christ , parmy lesquels il se
+                    <lb/>trouue , là est aussi bien l'Eglise , qu'en vne
+                    <lb/>plus nombreuse compagnie de gens nommez
+                    <lb/>de mesme sorte: tout ainsi,qu'vn nain est aussi
+                    <lb/>bien homme &amp; en reçoit aussi bien la definition ,
+                    <lb/>que le plus grand geant que l'on
+                    <lb/>puisse dire.Et ainsi quelle que fust cette Eglise
+                    <lb/>de Thessalonique pour le nombre de ceux
+                    <lb/>qui la composoyent , c'estoit neantmoins
+                    <lb/>tousiours vne assemblée consacrée à Christ
+                    <lb/>&amp; à sa gloire.Et vous sçauez assez , Mes chers
+                    <lb/>freres,sãs qu'il vous le faille dire,que le nom
+                    <lb/>d'Eglise s'ẽploye depuis vn long temps à designer
+                    <lb/>particulierement des compagnies de
+                    <lb/>cette sorte. Compagnies qui ne se forment
+                    <lb/>pas a l'auenture : Mais par vne dispẽsation
+                    <lb/>tresparticuliere de la faueur du Ciel , &amp; par
+                    <lb/>vne vocation toute gratieuse , selon que le
+                    <lb/>nom d'Eglise se tire parmy les Grecs d'vn
+                    <lb/>mot qui signifie appeller &amp; pource que ceux,
+                    <lb/>qui sont appellez à croire à l'Euangile,le font
+                    <lb/>d'vne façon toute particuliere , aussi sont-ils
+                    <lb/>quand ils obeïssent , appellez l'Eglise par excellence.
+                    <lb/>Nom duquel les Saincts Apostres
+                    <lb/>ont eu grand'raison de faire choix, tant pour
+                    <lb/>distinguer les assemblées de Chrestiens d'auec
+                    <lb/>les congregations Iudaïques , que pour
+                    <lb/>nous apprendre mesmes par ce nom , à rapporter
+                    <lb/>tousiours à la vocation celeste l'auantage
+                    <lb/>que nous auons d'estre fideles. Et de fait
+                    <lb/>Mes freres,sans cela que ferions nous ? Mais <fw place="bot-right" type="catch">pource</fw>
+                    <pb n="23"/>
+                    <lb/>pource qu'il à pleu à Dieu nous ordonner
+                    <lb/>d'eternité pour estre siens,ainsi nous a t'il <quote source="bible1588.xml#Rom.1.7">
+                        <hi rend="I">appellez
+                            <lb/>à estre Saincts</hi>
+                    </quote>,qui est vne façon de parler
+                    <lb/>dont l'Apostre s'est serui pour dire l'Eglise par
+                    <lb/>periphrase , c'est à dire,en expliquant ce seul
+                    <lb/>mot par plusieurs autres , au commencement
+                    <lb/>de son Epistre aux Romains. Et selon qu'en
+                    <lb/>la <ref type="bible" target="bibleSegond21.xml#_1Cor.1.2">1. aux Corinthiens</ref>, apres auoir parlé de
+                        <quote source="bible1588.xml#_1Cor.1.2">
+                        <hi rend="I">l'Eglise
+                            <lb/>de Dieu en Corinthe</hi>
+                    </quote> , il s'explique en adioustant
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.1.2">
+                        <hi rend="I">aux sanctifiez en Iesus Christ , appelez
+                            <lb/>à estre Saincts , &amp; à tous ceux qui inuoquent
+                            <lb/>le nom de nostre Seigneur Iesus Christ</hi>
+                    </quote>. Tellement
+                    <lb/>qu'Eglise à proprement parler dit vn
+                    <lb/>corps , &amp; vn corps qui est desia formé &amp; en
+                    <lb/>estre.Et l'on ne peut point distinguer ce corps
+                    <lb/>selon ses diuers estas qu'en ces deux parties
+                    <lb/>principales,assauoir, de l'Eglise militante,qui
+                    <lb/>est encore parmy les tracas, &amp; en la voye, &amp;
+                    <lb/>de la triomphante , qui est desia dedans le
+                    <lb/>repos, &amp; en pleine iouïssance de la vie bienheureuse,
+                    <lb/>pour nous donner vn troisieme ordre,
+                    <lb/>assauoir de ceux, qui ne sont point encore
+                    <lb/>au monde ; Mais neantmoins escrits au liure
+                    <lb/>de vie : puis qu'il est certain qu'ils ne
+                    <lb/>peuuent point porter le nom d'Eglise , c'est à
+                    <lb/>dire d'assemblée, d'autant qu'ils n'ont point
+                    <lb/>esté encore appellez, &amp; ne sont pas mesmes
+                    <lb/>en nature. Mais quant à la militante, comme
+                    <lb/>elle se distingue par temps &amp; par aages, aussi
+                    <lb/>se fait-il par lieux. Vn tẽps fut que Dieu n'estoit
+                    <lb/>
+                    <quote source="bible1588.xml#Ps.76.2">
+                        <hi rend="I">cognu qu'en Iudée</hi>
+                    </quote>, pource qu'il n'auoit <quote source="bible1588.xml#Ps.147.19">
+                        <hi rend="I">declaré</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Ps.76.1">
+                                <hi rend="I">Ps.</hi> 76.1<hi rend="I">.</hi>
+                            </ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">ses ordonnãces qu'à Iacob</hi></quote>, &amp; <quote source="bibleSegond21.xml#Eph.4.17">
+                        <hi rend="I">laissoit cheminez</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Ps.147.19">
+                                <hi rend="I">Ps.</hi> 147.19.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">les Gẽtils dãs la vanité de leurs pensées</hi>
+                    </quote>, &amp;<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Eph.4.17">
+                            <hi rend="I">Eph.</hi>4.17.</ref>
+                    </note>
+                    <pb n="24"/>
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Isa.2.3">
+                            <hi rend="I">Es.</hi>2.3.</ref>
+                    </note>dans l'endurcissement de leur cœur. Mais
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.110.2">
+                            <hi rend="I">Ps.</hi> 110. 2.</ref>
+                    </note>enfin <quote source="bible1588.xml#Ps.110.2">
+                        <hi rend="I">la Loy sortit de Sion , &amp; la parole de l'Eternel
+                            <lb/>de Ierusalẽ</hi>
+                    </quote>: Le <quote source="bible1588.xml#Ps.110.2">
+                        <hi rend="I">Sceptre</hi>
+                    </quote> de Christ s'est fait
+                    <lb/>cognoistre , &amp; sentir iusques aux bouts de la
+                    <lb/>terre. Encore iusques à present, nous voyons
+                    <lb/>que la faueur de Dieu continue à recueillir
+                    <lb/>ses esleus , &amp; en comparant les temps de la
+                    <lb/>publication de l'Euangile parmy l'Vnivers
+                    <lb/>on appelle l'Eglise primitiue celle du temps
+                    <lb/>des Apostres &amp; des premiers siecles,afin que
+                    <lb/>par ce tiltre la elle se distingue de celle des
+                    <lb/>siecles plus auancez. Et selon la diuersité des
+                    <lb/>lieux aussi , comme l'Ocean qui n'est qu'vn à
+                    <lb/>proprement parler , s'appelle neantmoins de
+                    <lb/>diuers noms selon les differentes contrées
+                    <lb/>qu'il baigne , &amp; qu'il laue de ses eaux : Ainsi
+                    <lb/>l'Eglise qui n'est proprement qu'vn corps , se
+                    <lb/>partage cependant selon les lieux,&amp; prend le
+                    <lb/>nom des endroits où se forment des Assemblées
+                    <lb/>pour le seruice de Christ. Et ainsi est il
+                    <lb/>aduenu,que celle dont il s'agit icy se trouue
+                    <lb/>appellée Eglise des Thessaloniciens. Eglise
+                    <lb/>qui n'estoit pas seule l'Eglise de Christ, bien
+                    <lb/>quelle fust vrayement Eglise de Christ : parce
+                    <lb/>que comme on parle dans l'eschole elle n'a
+                    <lb/>peu porter le nom d'Eglise que <hi rend="I">participatiuement ,</hi>
+                    <lb/>c'est à dire , comme appartenant au
+                    <lb/>corps de Christ, &amp; non pas <hi rend="I">absolument</hi> , comme
+                    <lb/>si elle eust esté tout ce corps. Et il faut
+                    <lb/>tousiours necessairement recognoistre , que
+                    <lb/>toute Eglise qu'il qualifie d'vn lieu particulier,
+                    <lb/>ne peut estre dite simplement l'Eglise :
+                    <lb/>pource que ce qu'on la qualifie ainsi la limite <pb n="25"/>
+                    <lb/>&amp; la restraint à ce lieu.Qui d'ailleurs,
+                    <lb/>pour si grand , &amp; si noble qu'il puisse estre selon
+                    <lb/>le monde , ne fait pas la gloire principale
+                    <lb/>de l'Eglise qui s'y trouue recueillie , fust ce
+                    <lb/>mesme du lieu que Dieu eust honoré de frequens
+                    <lb/>signes de sa puissance par des œuvres
+                    <lb/>tout à fait miraculeuses : Mais bien ce <quote source="bible1588.xml#_1Thess.1.1">
+                        <hi rend="I">qu'elle
+                            <lb/>est en Dieu le Pere , &amp; au Seigneur Iesus Christ</hi>
+                    </quote>,
+                    <lb/>comme il est icy dit de celle des Thessaloniciens. </p>
+                <p n="11">
+                    <lb/>Et c'est Mes chers freres, où nostre Apostre
+                    <lb/>la distingue auantageusement de toutes autres
+                    <lb/>Assemblées non seulement ciuiles , Mais
+                    <lb/>aussi de Religion , &amp; qui cependant ne sont
+                    <lb/>pas de la bonne marque,&amp; par cela mesme il
+                    <lb/>luy affecte vne condition fort auantageuse.
+                    <lb/>Car quand il la dit estre en Dieu le Pere , &amp; en
+                    <lb/>Iesus Christ,il est tres certain, qu'il en releue
+                    <lb/>l'excellence au delà de tout ce qu'il y a de
+                    <lb/>plus grand &amp; de plus noble au monde. Et il
+                    <lb/>n'est personne qui n'auouë cette verité , s'il
+                    <lb/>veut vn peu s'appliquer à bien comprendre
+                    <lb/>iusques où vont ces expressions de l'Apostre.
+                    <lb/>Pour cet effect il faut obseruer premierement ,
+                    <lb/>qu'estre en Dieu se peut considerer
+                    <lb/>plus ou moins generalement , &amp; que comme
+                    <lb/>la moins commune façon est sans doute la
+                    <lb/>plus excellente , ainsi faut-il l'entendre en ce
+                    <lb/>lieu. Car à dire vray toutes choses sont bien
+                    <lb/>en Dieu : Mais elles n'y sont pas au sens que
+                    <lb/>l'entend l'Apostre , &amp; tout au contraire il
+                    <lb/>y en a bien peu , qui y soyent ainsi. Toutes
+                    <lb/>choses sont en Dieu comme en celuy là , qui <pb n="26"/>
+                    <lb/>est non seulement l'inespuisable source de
+                    <lb/>tous les astres , mais d'ailleurs vn estre infiny,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.17.28">
+                            <hi rend="I">Act.</hi> 17.28.</ref>
+                    </note>hors duquel rien ne peut estre. <quote source="bible1588.xml#Acts.17.28">
+                        <hi rend="I">En luy,</hi> <seg type="interpolation">(dit l'Apostre)</seg>
+                        <lb/>
+                        <hi rend="I">nous auons vie , mouuement , &amp; estre </hi>
+                    </quote>, &amp;
+                    <lb/>ce monde entier est tellement en luy, qu'il
+                    <lb/>n'en est point cependant remply. Car il n'y
+                    <lb/>est pas comme dans vn lieu, Mais comme en
+                    <lb/>Dieu , c'est à dire, dans celuy qui est le principe,
+                    <lb/>de tout qui embrasse tout , &amp; qui soustient
+                    <lb/>toutes choses par sa parole puissante. Luy en
+                    <lb/>comparaison duquel tout ce monde est encore
+                    <lb/>moins qu'vne goutte d'eau au prix de tout
+                    <lb/>l'Ocean. Mais au reste à cet estre la participent
+                    <lb/>generalement toutes Creatures. Et combien
+                    <lb/>que les degrez en soyent differens,
+                    <lb/>neantmoins si ont elles cela de commun
+                    <lb/>qu'elles sont toutes en Dieu comme en leur
+                    <lb/>Createur,&amp; en leur Conseruateur. Au lieu
+                    <lb/>que cet estre en Dieu duquel parle nostre
+                    <lb/>texte se rapporte particulierement à estre en
+                    <lb/>luy comme en nostre restaurateur. A cause de
+                    <lb/>quoy il est parlé non seulement d'estre en
+                    <lb/>Dieu le Pere : mais aussi en nostre Seigneur
+                    <lb/>Iesus, qui est l'estre special de ceux que Dieu
+                    <lb/>a ordonnez à salut &amp; vie , &amp; que comme tels
+                    <lb/>il appelle dés icy bas à sa cognoissance salutaire.
+                    <lb/>Ce qu'il ne suffit pas d'estre en apparence
+                    <lb/>seulement : mais il faut que nous
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Col.2.7">
+                            <hi rend="I">Coloss</hi>. 2. 7.</ref>
+                    </note>soyons <quote source="bible1588.xml#Col.2.7">
+                        <hi rend="I">enracinez &amp; edifiez en luy</hi>
+                    </quote>, comme le
+                    <lb/>disoit l'Apostre aux Colossiens, afin que nous
+                    <lb/>ne soyons pas trouuez de ceux, qui semblent
+                    <lb/>bien estre quelque chose , &amp; qui pour cela ne
+                    <lb/>iouissent pas mieux , parce qu'ils n'ont rien <fw place="bot-right" type="catch">que</fw>
+                    <pb n="27"/>
+                    <lb/>que l'õbre,&amp; non pas la verité.Mais les esleus
+                    <lb/>de Dieu sont bien autrement conditionnez.
+                    <lb/>Ils sont tous en Dieu le Pere comme dans la
+                    <lb/>cause efficiente , &amp; qui gouuerne , &amp; comme
+                    <lb/>au premier principe du salut , &amp; qu'ils sont en
+                    <lb/>Iesus Christ comme en ce Mediateur vnique,
+                    <lb/>qui est l'autheur de ce salut là par son merite ,
+                    <lb/>&amp; sans la cognoissance duquel nul ne
+                    <lb/>peut estre sauué. <quote source="bible1588.xml#John.17.3">
+                        <hi rend="I">Mais c'est la vie eternelle</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#John.17.3">
+                                <hi rend="I">Ieh.</hi> 17. 3.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">de cognoistre le Pere seul vray &amp; celuy qu'il a
+                            <lb/>enuoyé Iesus Christ</hi>
+                    </quote>. Au reste quelcun me demandera,
+                    <lb/>peut estre icy, s'ils ne sont pas aussi
+                    <lb/>au Sainct Esprit. A quoy ie responds qu'il
+                    <lb/>est hors de doute. Mais que ce n'est pas la
+                    <lb/>coustume de l'Escriture de parler ainsi, &amp; que
+                    <lb/>ce qu'il est fait particuliere mentiõ de Christ,
+                    <lb/>c'est pour faire voir la necessité de la foy du
+                    <lb/>Christianisme , laquelle s'engendre en nous
+                    <lb/>par le Sainct Esprit, par lequel aussi le Pere &amp;
+                    <lb/>le Fils habitent en nous , &amp; nous font subsister
+                    <lb/>en eux,&amp; de telle sorte, que comme il est
+                    <lb/>vn mesme Dieu auec eux il faut bien que
+                    <lb/>nous soyons en luy comme en eux , afin que
+                    <lb/>nous soyons vn iour tout à fait consommez
+                    <lb/>en vn. Et combien qu'icy le nom de Dieu
+                    <lb/>semble estre particulierement affecté au Pere,
+                    <lb/>Iesus Christ , estant appellé simplement
+                    <lb/>Seigneur : si est ce qu'il ne faut pas entreprendre
+                    <lb/>de rabbaisser ce Fils au dessous de ce
+                    <lb/>qu'il est d'eternité quant à l'essence , qu'il a
+                    <lb/>commune auec son Pere,sous pretexte de ce
+                    <lb/>que par condescendance , &amp; sans rien perdre
+                    <lb/>de ce qu'il estoit auparauant , il s'est neantmoins <pb n="28"/>
+                    <lb/>aneanty luy mesme par dispensation
+                    <lb/>en se faisant homme, afin que comme nostre
+                    <lb/>Mediateur il fust fait Seigneur &amp; Christ.
+                    <lb/>Nous pourrions encore estendre cecy, Mes
+                    <lb/>freres, s'il estoit fort necessaire:mais i'espere
+                    <lb/>que ce que nous venons de vous dire suffira
+                    <lb/>pour vous iustifier , que par l'eloge de cette
+                    <lb/>Eglise des Thessaloniciens, fait comme nous
+                    <lb/>l'auons veu,l'Apostre la grandement releuée,
+                    <lb/>&amp; en a fort bien touché les auantages en peu
+                    <lb/>de
+                    mots.
+                </p>
+                <p n="12">
+                    <lb/>Reste à parler de la salutation , sur laquelle
+                    <lb/>nous n'insisterons pas grandement , parce
+                    <lb/>qu'aussi bien la matiere est assez aysée, &amp;
+                    <lb/>desia nous nous sentons pressez d'auancer nostre
+                    <lb/>discours à sa
+                    fin.Sur
+                    cela nostre Apostre
+                    <lb/>s'explique en cette sorte. <quote source="bible1588.xml#_1Thess.1.1">
+                        <hi rend="I">Grace</hi> <seg type="interpolation">(dit-il)</seg><hi rend="I">vous
+                            <lb/>soit, &amp; paix de par Dieu</hi></quote>,
+                    &amp;c. Il a donc fait
+                    <lb/>icy selon qu'il estoit ordinaire alors de mettre
+                    <lb/>à l'entrée des lettres quelque bon souhait.
+                    <lb/>Ce qui se faisoit diuersement, selon la qualité
+                    <lb/>des Escriuains , &amp; de ceux ausquels il escriuoyent.
+                    <lb/>Car quelquefois mesmes il y auoit
+                    <lb/>de ces inscriptions , qui sentoyent la reprehension ,
+                    <lb/>comme celle de Philippe Roy de
+                    <lb/>Macedone à ce Medecin Menecrates , qui se
+                    <lb/>qualifioit Iupiter , &amp; auquel ce Prince
+                    <lb/>souhaitoit bon sens plustost que santé , parce
+                    <lb/>qu'en effect il tesmoignoit bien que son esprit
+                    <lb/>estoit desmonté par le vain tiltre qu'il
+                    <lb/>s'attribuoit.Mais icy,Mes freres, nostre Apostre
+                    <lb/>ne tesmoigne que douceur, &amp; cette façon
+                    <lb/>de salutation luy a esté autant particuliere <fw place="bot-right" type="catch">qu'ordi-</fw>
+                    <pb n="29"/>
+                    <lb/>qu'ordinaire , puis qu'il en a tellement vsé
+                    <lb/>comme vous voyez,qu'au reste il s'en est serui
+                    <lb/>parmi toutes les Epistres , hormis en celle
+                    <lb/>qu'il escriuit aux Hebrieux où il ne iuge
+                    <lb/>pas à propos de le pratiquer ainsi. Il se trouue
+                    <lb/>aussi qu'en quelque vnes , c'est assauoir en
+                    <lb/>celles qu'il a escrites à ses deux disciples Timothée
+                    <lb/>&amp; Tite, il a adiousté le nom de misericorde,
+                    <lb/>obseruant tousiours d'aillieurs la
+                    <lb/>mesme forme. Mais les autres Apostres , dont
+                    <lb/>nous auons quelques Epistres,outre celles de
+                    <lb/>Sainct Paul ont conçeu leurs salutations, d'vne
+                    <lb/>autre sorte que luy,auec ceste conformité
+                    <lb/>neanmoins au fonds, qu'elles ont toutes esté
+                    <lb/>gratieuses,&amp; plaines de douceur. Et semble
+                    <lb/>que Sainct Iehan nous ait voulu donner
+                    <lb/>cõme vne paraphrase de toutes les autres en
+                    <lb/>sa troisiesme Epistre qu'il addresse à Gaius
+                    <lb/>
+                    <quote source="bible1588.xml#_3John.1.2">
+                        <hi rend="I">Bien aymé</hi> <seg type="interpolation">(dit-il)</seg><hi rend="I">ie desire que tu prosperes en</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_3John.1.2">
+                                <hi rend="I">vers.</hi>2</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">toutes choses, &amp; que tu sois en santé, selon que
+                            <lb/>ton ame est en prosperité</hi>
+                    </quote>.Par où vous voyez
+                    <lb/>qu'il luy souhaitoit toutes sortes de biẽs.Mais
+                    <lb/>sur tout les spirituels selon l'ordre que tient
+                    <lb/>nostre Apostre. Car comme vous l'auez bien
+                    <lb/>peu desia remarquer,il commence par le souhait
+                    <lb/>de la grace , par où il a entendu l'affermissement ,
+                    <lb/>&amp; l'auancement en la participation
+                    <lb/>de cette faueur pretieuse, par laquelle
+                    <lb/>Dieu auoit misericordieusement preuenu les
+                    <lb/>Thessaloniciẽs. Et par cela mesme il les oblige
+                    <lb/>à se souuenir tousiours , que ce qu'ils
+                    <lb/>
+                    <quote source="bible1588.xml#Eph.2.8">
+                        <hi rend="I">auoyent esté sauuez c'estoit de grace par la foy</hi>
+                    </quote>,
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Eph.2.8">
+                            <hi rend="I">Eph.</hi> 2. 8.</ref>
+                    </note>
+                    <lb/>&amp; que c'estoit par cette mesme grace qu'il <pb n="30"/>
+                    <lb/>faloit qu'ils fussẽt acheminez à la pleine possessiõ
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rom.4.6">
+                            <hi rend="I">Rom</hi>.4.6.</ref>
+                    </note>de la gloire, &amp; de l'immortalité celeste.
+                    <lb/>
+                    <note type="margin">
+                        <ref type="other">
+                            <hi rend="I">Onc. Frid. less. 6.</hi>
+                        </ref>
+                    </note>
+                    <quote source="bible1588.xml#Rom.11.6">
+                        <hi rend="I">Car si c'est par grace</hi>, <seg type="interpolation">dit
+                            l'Apostre ,</seg> <hi rend="I">ce n'est plus
+                            <lb/>par œuure,autrement grace n'est plus grace</hi>
+                    </quote>. Et
+                    <lb/>il ne suffit pas de dire , que cette grace se
+                    <lb/>donne sans aucuns precedens merites , pour
+                    <lb/>adiouster que par elle on doit meriter apres
+                    <lb/>cela <hi rend="I">:</hi> car ce souhait mesme y repugne. Et
+                    <lb/>quant à la paix , ne sçait on pas bien que c'estoit
+                    <lb/>la coustume des Hebrieux , de comprendre
+                    <lb/>sous ce nom toute sorte de prosperité ?
+                    <lb/>Paix qui presuppose grace en toutes manieres ,
+                    <lb/>parce qu'a moins que d'estre bien
+                    <lb/>persuadez de nostre reconciliation par grace ,
+                    <lb/>il ne peut y auoir de vraye paix pour qui
+                    <lb/>que ce soit;&amp; à ceux qui n'ont point cet
+                    <lb/>auantage les plus riches faueurs de cette vie
+                    <lb/>tournent enfin à confusion &amp; à honte , &amp;
+                    <lb/>mesmes à vn opprobre eternel.Mais heureux
+                    <lb/>sont ceux,à qui Dieu fait grace : car quelque
+                    <lb/>guerre que le monde leur face , on ne peut
+                    <lb/>iamais les priuer entierement de leur principale
+                    <lb/>paix. </p>
+                <p n="13">
+                    <lb/>Et comme l'Apostre a dit aux Thessaloniciens ,
+                    <lb/>qu'ils estoyent en Dieu le Pere , &amp;
+                    <lb/>au Seigneur Iesus Christ , c'est aussi de ces
+                    <lb/>deux là qu'il souhaite que la grace &amp; la paix
+                    <lb/>leur vienne , non comme excluant le Sainct
+                    <lb/>Esprit , mais bien comme trauaillant encore
+                    <lb/>à establir particulierement la creance du
+                    <lb/>pouuoir de Christ. A cause de quoy bien
+                    <lb/>qu'il peust sembler qu'il eust suffy de leur
+                    <lb/>souhaiter simplement grace &amp; paix de par <fw place="bot-right" type="catch">Dieu,</fw>
+                    <pb n="31"/>
+                    <lb/>Dieu,qui est l'œuvre de grace , &amp; le remede
+                    <lb/>de vostre paix , neantmoins il a voulu faire
+                    <lb/>voir , qu'il nous faut considerer Iesus Christ
+                    <lb/>comme ayant vn mesme pouuoir que le Pere ,
+                    <lb/>pour nous donner ces grands biens, selon
+                    <lb/>qu'il est vn mesme Dieu &amp; entierement de
+                    <lb/>mesme essence que luy. A cause dequoy
+                    <lb/>Sainct Iehan en sa salutation à la Dame eleuë
+                    <lb/>ne dit pas simplement <quote source="bible1588.xml#_1Thess.1.1">
+                        <hi rend="I">grace , misericorde &amp;</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Thess.1.3">
+                                <hi rend="I">vers.</hi> 3.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">paix de par Dieu le Pere &amp; de par le Seigneur
+                            <lb/>Iesus Christ </hi>
+                    </quote>, mais adiouste , <quote source="bible1588.xml#_1Thess.1.3">
+                        <hi rend="I">Le Fils du Pere</hi>
+                        
+                    </quote>,
+                    <lb/>pource que dés lors il y auoit des ennemis
+                    <lb/>iurez de la Diuinité de Christ , qui luy contestoyent
+                    <lb/>sa generation eternelle. D'autre
+                    <lb/>part aussi nostre Apostre , pour faire conceuoir
+                    <lb/>aux Thessaloniciens quelle esperance ils
+                    <lb/>deuoyent tousiours auoir en la bonté de ce
+                    <lb/>grand Dieu eternel , ne dit plus simplement
+                    <lb/>Dieu le Pere , mais en se mettant en mesme
+                    <lb/>rang auec eux ,<quote source="bible1588.xml#_1Thess.1.1">
+                        <hi rend="I">Grace </hi><seg type="interpolation">(leur dit-il)</seg>
+                        <hi rend="I">&amp; paix vous
+                            <lb/>soit de par Dieu nostre Pere,&amp; de par le Seigneur
+                            <lb/>Iesus Christ</hi>
+                    </quote>.O que ce grãd homme,mes freres,
+                    <lb/>a eu de tendresses &amp; qu'il a bien verifié par
+                    <lb/>ce tesmoignage , &amp; par plusieurs autres de
+                    <lb/>mesme sorte , que <quote source="bible1588.xml#_2Cor.11.28">
+                        <hi rend="I">le soin de toutes les Eglises</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_2Cor.11.28">2.<hi rend="I">Cor.</hi>4.23.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">l'assiegeoit incessamment</hi>
+                    </quote>.Que de douceur dedans
+                    <lb/>ses Epistres &amp; auec cela que d'humilité,
+                    <lb/>de simplicité , de modestie ! Parle t'-il icy de
+                    <lb/>benediction Apostolique, comme se vante de
+                    <lb/>la departir celuy , qui se dit le successeur de
+                    <lb/>Sainct Pierre,&amp; le Vicaire de Christ?Menace
+                    <lb/>t'-il de son indignation , &amp; de son ressentiment
+                    <lb/>ceux , qui ne luy rendroyent pas la <pb n="32"/>
+                    <lb/>deference qu'il pouuoit pretendre? Non non
+                    <lb/>c'est tout vn autre langage. Vous le voyez
+                    <lb/>dés l'entrée ; Et pour maintenant recueillir
+                    <lb/>sommairement les vsages de ce que nous venons
+                    <lb/>de vous dire sur cela , nous vous coniurons ,
+                    <lb/>ames fideles , de retenir
+                    soigneusement.
+                </p>
+                <p n="14">
+                    <lb/>Premierement quelle obligation nous
+                    <lb/>auons à la bonté de Dieu , &amp; combien nous
+                    <lb/>sommes redeuables à ses soins , &amp; à son
+                    <lb/>amour , de ce que pour releuer les Gentils,
+                    <lb/>nos Peres mesmes (car nous sommes originairement
+                    <lb/>pecheurs d'entre les Gentils) de la
+                    <lb/>misere , dans laquelle ils estoyent enueloppez,
+                    <lb/>il a voulu leur tendre la main d'enhaut,
+                    <lb/>&amp; leur a suscité des aydes tres-auantageuses.
+                    <lb/>Il s'est fait cognoistre à eux , il leur a addressé
+                    <lb/>ses seruiteurs à trauers mille perils &amp; mille
+                    <lb/>peines. Et comme il auoit tesmoigné au
+                    <lb/>monde d'vne façon toute incomparable sa
+                    <lb/>bonté tres singuliere , &amp; son immense misericorde
+                    <lb/>en donnant son Fils, &amp; le liurant à la
+                    <lb/>mort pour procurer le salut des hommes:
+                    <lb/>ainsi à t'il continué par la mesme <choice><sic>condescendanec</sic><corr resp="#CiM">condescendance</corr></choice> ,
+                    <lb/>en enuoyant parmy eux en toutes
+                    <lb/>parts les annonciateurs , &amp; les Herautes de
+                    <lb/>ces merueilles. Et vous voyez encore à present ,
+                    <lb/>que comme il fait leuer tous les iours
+                    <lb/>sur nostre horizon le mesme Soleil , dont il
+                    <lb/>s'est serui pour donner la lumiere au monde
+                    <lb/>du temps de nos Peres,&amp; de nos ayeux , il fait
+                    <lb/>encore briller deuant vous le mesme flambeau
+                    <lb/>de sa verité celeste , dont la trespure <fw place="bot-right" type="catch">clarté</fw>
+                    <pb n="33"/>
+                    <lb/>clarté a resiouï autresfois les esprits de ceux,
+                    <lb/>qu'il a attirez à la cognoissance dés les premiers
+                    <lb/>siecles du Christianisme.Sans cela, Mes
+                    <lb/>freres,que seroit-ce helas! de nous,qui nous
+                    <lb/>trouuons naturellement dedans vn estat si
+                    <lb/>deplorable. Mais la main de Dieu nous a
+                    <lb/>sauuez,&amp; son bras puissant nous a retirez de
+                    <lb/>l'abysme. Il nous a viuifiez par sa grace en
+                    <lb/>Iesus Christ,il nous a donné les paroles de vie
+                    <lb/>eternelle : Et nous auons encore à present
+                    <lb/>par le soin de sa prouidence ce thresor tant
+                    <lb/>precieux , la Bible , cette Escriture de l'Ancien
+                    <lb/>&amp; du Nouueau Testament , qui nous
+                    <lb/>fournit encore les addresses necessaires pour
+                    <lb/>nous guider à la vie. Profitons , Mes freres
+                    <lb/>de ces aydes. Profitez aussi de la bonne façon,
+                    <lb/>ames fideles, peuple au cœur duquel est
+                    <lb/>la Loy , des louables soins de ceux , desquels
+                    <lb/>Dieu se sert pour vous porter ce flambeau,
+                    <lb/>&amp; pour vous detailler droitement la bonne
+                    <lb/>&amp; salutaire viande de la verité celeste. Receuez
+                    <lb/>ce qu'ils vous disent auec l'obeïssance
+                    <lb/>requise,quand ils vous font voir que ce n'est
+                    <lb/>pas d'eux mesmes qu'ils parlent <hi rend="I">:</hi> mais selon
+                    <lb/>la pureté de la parole de Dieu. </p>
+                <p n="15">
+                    <lb/>Et icy,mes tres chers , &amp; treshonorez freres ,
+                    <lb/>mes compagnons d'œuvre , ie ne puis
+                    <lb/>m'empescher , que ie n'applaudisse auec vn
+                    <lb/>transport de ioye,qui ne se peut pas desapprouuer
+                    <lb/>auec iustice , à cet auantage que
+                    <lb/>nous tirons , de ce que Dieu nous fait cet
+                    <lb/>honneur de nous employer , &amp; de se seruir de
+                    <lb/>nous pour vn si glorieux Ministere. Nous <pb n="34"/>
+                    <lb/>sommes ses Ambassadeurs , ses dispensateurs,
+                    <lb/>&amp; ses Ministres. Nous sommes de ceux qu'il
+                    <lb/>fait ses organes , pour donner aux peuples ses
+                    <lb/>veritables leçons,&amp; ses enseignemens pleins
+                    <lb/>d'amour. Quel honneur à nous qui ne sommes
+                    <lb/>de nous mesmes que de pauures vaisseaux
+                    <lb/>de terre,que Dieu ait mis dedans nous
+                    <lb/>de si merueilleux thresors ! Car combien que
+                    <lb/>nous ne soyons ni Apostres comme Paul , ni
+                    <lb/>Euangelistes comme Silas,&amp; Timothée, si est
+                    <lb/>ce pourtant que nous sommes Ministres de
+                    <lb/>Christ.Et si nous deuons nous assuiettir nous
+                    <lb/>mesmes aux principes de la verité contenus
+                    <lb/>en l'Escriture diuinement inspirée,nous sommes
+                    <lb/>pourtant de ceux , par lesquels il plaist à
+                    <lb/>Dieu de se communiquer encore à present aux
+                    <lb/>hommes.Benissons, mes freres , l'auantage
+                    <lb/>d'vne telle condition: &amp; d'ailleurs souuenons
+                    <lb/>nous,que si nous ne nous tenõs dans les bornes,
+                    <lb/>qui nous sõt prescrites, nous serõs encore
+                    <lb/>moins supportez que les autres.Que ceux qui
+                    <lb/>sont les plus riches en beaux dons ne s'esleuent
+                    <lb/>point par dessus leurs freres,&amp; que tous
+                    <lb/>ensemble nous demeurions vnis en vn mesme
+                    <lb/>sens,qui est celuy de la verité. Ne voyez
+                    <lb/>vous pas comment Paul , Silas &amp; <choice><sic>Timothee</sic><corr resp="#CiM">Timothée</corr></choice>
+                    <lb/>ont tesmoigné leurs soins d'vn commun accord
+                    <lb/>à ceux de Thessalonique aussi bien par
+                    <lb/>escrit que de viue voix?O l'heureux accord!
+                    <lb/>ô combien est à cherir ceste saincte correspondance!
+                    <lb/>Animons sur cet exemple nostre
+                    <lb/>zele : Imprimons la honte sur le front de <pb n="35"/>
+                    <lb/>ceux,qui nous reprochent quelque fois, qu'à
+                    <lb/>paine s'en trouue-il deux ou trois entre nous
+                    <lb/>bien vnis en mesme sens. Et tousiours , Mes
+                    <lb/>freres, quelque vnion que l'on face que ce
+                    <lb/>soit auec les Saincts Apostres de nostre Seigneur
+                    <lb/>Iesus,&amp; qu'vnis en foy nous le soyons
+                    <lb/>aussi en vne vraye charité, &amp; en tous deuoirs
+                    <lb/>de pieté,pour estre en exemple à tous,&amp; sans
+                    <lb/>achoppement à qui que ce soit. </p>
+                <p n="16">
+                    <lb/>Et vous, Bien aymez fideles membres de
+                    <lb/>Christ , <quote source="bible1588.xml#Jude.1.17">
+                        <hi rend="I">ayez touiours souuenance de ce qui a</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Jude.1.17">
+                                <hi rend="I">Iud.</hi> 17.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">esté autresfois dit par les Apostres de nostre Seigneur
+                            <lb/>Iesus Christ</hi>
+                    </quote> , quoy qu'on puisse faire
+                    <lb/>d'ailleurs. Faites prouision de leurs enseignemens,
+                    <lb/>afin que vous ne soyez pas surpris par
+                    <lb/>aucune doctrine estrangere.Et souuenez-vous
+                    <lb/>sur tout de ce qu'ils vous ont aduertis (afin
+                    <lb/>que ie suiue ce que i'ay desia allegué de Sainct
+                    <lb/>Iude )<quote source="bible1588.xml#Jude.1.17">
+                        <hi rend="I">qu'il y auroit des moqueurs cheminans</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Jude.1.15">
+                                <hi rend="I">v.</hi>15.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">selon leurs conuoitises de meschancetez</hi>
+                    </quote> : &amp; vous
+                    <lb/>representez tousiours, que vous auez esté appellez
+                    <lb/>à estre saints , &amp; que Dieu vous a deliurez
+                    <lb/>de la seruitude du peché , afin que vous
+                    <lb/>luy rendiez vne franche obeissance en droiture
+                    <lb/>&amp; en pureté. Et c'est pour cela,Mes freres,
+                    <lb/>qu'il vous a desia receus à vne ionction fort
+                    <lb/>particuliere , tellement que vous estes en luy,
+                    <lb/>non point simplement comme les autres
+                    <lb/>creatures &amp; mesmes comme les autres hommes,
+                    <lb/>qui n'appartiennent point à la grace salutaire :
+                    <lb/>Mais comme ses chers enfans ; si au
+                    <lb/>moins vous estes de ceux , que Dieu à esleus
+                    <lb/>en Iesus Christ à vie eternelle. Et sur cela, <pb n="36"/>
+                    <lb/>Mes chers freres que ie vous coniure à
+                    <lb/>vous esiouïr , &amp; à tesmoigner la satisfaction
+                    <lb/>que vous auez d'vn tel auantage , si vous le
+                    <lb/>sentez, si l'Esprit de Dieu vous le persuade
+                    <lb/>auec efficace. Sans cela (ie vous supplie) que
+                    <lb/>pourriez vous faire,&amp; à quoy enfin reüssiriez
+                    <lb/>vous ? Ne faut-il pas auoüer , que nostre Seigneur
+                    <lb/>auoit autresfois tres-iuste raison de dire
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#John.15.5">
+                            <hi rend="I">Ieh</hi>.15.</ref>
+                    </note>à ses Apostres , qu'<quote source="bible1588.xml#John.15.5">
+                        <hi rend="I">hors de luy ils ne pouuoyent
+                            <lb/>du tout rien</hi>
+                    </quote> ? Et en effect d'où est nostre
+                    <lb/>vie , &amp; nostre force? Mais en Iesus Christ
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Phil.4.13">
+                            <hi rend="I">Thess</hi> 4.</ref>
+                    </note>de quoy ne sommes nous point capables ? <quote source="bible1588.xml#Phil.4.13">
+                        <hi rend="I">Ie
+                            <lb/>puis tout en Christ qui me fortifie </hi>
+                        
+                    </quote>, a dit autresfois
+                    <lb/>Sainct Paul. Là t'-il dit pour luy seulement ?
+                    <lb/>Non Mes freres , c'est vn exemple
+                    <lb/>pour nous , &amp; vne assurance si nous nous tenons
+                    <lb/>à Christ. Car si nous reclamons sa grace
+                    <lb/>que ne pourrons nous point aussi ? Et cet
+                    <lb/>auantage est aussi bien pour les plus petits,
+                    <lb/>que pour ceux de la plus haute marque, seulement
+                    <lb/>que nous soyons en Christ , &amp; que
+                    <lb/>nous le iustifions en faisant voir , que nous
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_2Cor.5.17">2. <hi rend="I">Cor.</hi> 5</ref>
+                    </note><choice><sic>sommmes</sic><corr resp="#CiM">sommes</corr></choice> de nouuelles creatures , <quote source="bible1588.xml#_2Cor.5.17">
+                        <hi rend="I">Car si
+                            <lb/>quelcun est en Christ </hi>
+                    </quote>, ne faut-il pas qu'il soit
+                    <lb/>tel. </p>
+                <p n="17">
+                    <lb/>Et vous mesmement,fideles,qui composez
+                    <lb/>ce troupeau si vous vous sentez en Iesus
+                    <lb/>Christ faites de cela vostre consolation , &amp;
+                    <lb/>vostre principale ioye. Si vous estes tels,
+                    <lb/>ceste Eglise n'est pas moins à luy &amp; ne luy est
+                    <lb/>pas moins chere, que les plus grandes &amp; les
+                    <lb/>plus nombreuses. Et si vous estes peu en nombre,
+                    <lb/>trauaillez à en attirer d'autres par vos <fw place="bot-right" type="catch">bons</fw>
+                    <pb n="37"/>
+                    <lb/>bons exemples,&amp; vous estudiez à abonder en
+                    <lb/>bons fruits, qui soyent agreables à Dieu par
+                    <lb/>nostre Seigneur Iesus.Vous le deuez , Mes
+                    <lb/>chers freres,&amp; si le Seigneur vous a prevenus
+                    <lb/>par sa saincte grace , c'est à vous, ames Chrestiennes,
+                    <lb/>de vous attacher cordialement à luy
+                    <lb/>par vne syncere amour. Aymez ses enseignemens
+                    <lb/>si fructueux,ses aduis si salutaires , respectez
+                    <lb/>ses ordonnances, tremblez à l'ouye de
+                    <lb/>ses menaces : &amp; embrassez de tout vostre
+                    <lb/>cœur ses gratieuses promesses. Auancez de
+                    <lb/>plus en plus , &amp; receuez encore de nous ce
+                    <lb/>saint accouragemẽt,ouurant vos oreilles à la
+                    <lb/>mesme voix , qui vous a autresfois recommandé
+                    <lb/>ces mesmes deuoirs en ce mesme lieu,
+                    <lb/>dont toute l'enceinte semble resonner pour
+                    <lb/>rendre quelque tesmoignage à ceste verité
+                    <lb/>là. Courage donc , Bien-aymez, car il ne faut
+                    <lb/>pas qu'on s'arreste,iusques ce que nous ayons
+                    <lb/>atteint nostre but. Que si vous rencontrez
+                    <lb/>des obstacles ; si quelque difficulté vous trauerse ;
+                    <lb/>si l'on veut vous glacer l'ame de peur,
+                    <lb/>&amp; vous ietter dans le trouble , pour empescher
+                    <lb/>vostre bon dessein , souuenez-vous de
+                    <lb/>la grace , &amp; de la paix de Dieu : &amp; que vos
+                    <lb/>esprits se representent tousiours , qu'à ceux
+                    <lb/>qui recerchent ceste grace, &amp; ceste paix , il
+                    <lb/>est impossible qu'ils ne reüssissent auec auantage.
+                    <lb/>Et c'est aussi à vous , Mes chers freres,
+                    <lb/>d'en faire tousiours vn particulier souhait. Et
+                    <lb/>pour nous selon que l'Apostre a mis à l'entrée
+                    <lb/>de ceste Epistre ce souhait ardent pour
+                    <lb/>ceux de Thessalonique, desirant que grace, &amp; <pb n="38"/>
+                    <lb/>paix leur fussent departies de par Dieu le Pere ,
+                    <lb/>&amp; de par le Seigneur Iesus Christ , c'est
+                    <lb/>par ou nous finirons ce sainct
+                    exercice<!--CiM : Une dernière indication de régie, pour la fin du discours.-->
+                    , souhaitans
+                    <lb/>que Dieu face sentir les effects de sa
+                    <lb/>saincte grace à ceste Eglise , &amp; qu'il l'espande
+                    <lb/>generalement en toute largesse sur tous ses
+                    <lb/>troupeaux , &amp; qu'il vueille singulierement
+                    <lb/>distribuer de ses dons à l'Assemblée , qui se
+                    <lb/>trouue icy maintenant conuoquée , pour
+                    <lb/>trauailler d'vne façon particuliere au bien de
+                    <lb/>sa saincte maison , &amp; que nous donnant à
+                    <lb/>tous sa paix , il nous face reüssir heureusement
+                    <lb/>à son honneur , &amp; à sa gloire. C'est
+                    <lb/>Mes freres , ce qu'auoit à vous deduire ma
+                    <lb/>foiblesse , &amp; ou ie suis en vous disant auec
+                    <lb/>vn cœur plein de bonne volonté,Grace vous
+                    <lb/>soit &amp; paix de par Dieu nostre Pere , &amp; de
+                    <lb/>par le Seigneur Iesus Christ,ausquels, comme
+                    <lb/>au Sainct Esprit , soit honneur, &amp; gloire à
+                    <lb/>iamais. </p>
+                <p n="18">
+                    <lb/>AMEN. </p>
+                <p n="19">
+                    <lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,2584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1630_Bénédict_Turrettin_CiM"> 
+            <titleStmt> 
+                <title type="sermon">Hébr. XII. vers. 5.</title> 
+                <title type="book">Profit des chastimens ou sept sermons sur l’exhortation contenue 
+                    en l’Epist. aux Hebrieux chap. XII. v. 5. 6. 7. 8. 9. 10. 11. Faits en 
+                    l’Eglise de Geneve, par BENEDICT TURRETTIN Ministre de la parole de Dieu. A 
+                    GENEVE, Chez PIERRE AUBERT, Imprimeur Ordinaire de la Republique &amp; Académie. 
+                    M. DC. XXX.</title> 
+                <author ref="...">Bénédict Turrettin</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="CiM">Cinthia MELI</persName> 
+                        <email>cinthia.meli@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Bénédict Turrettin</author> 
+                        <title>Profit des chastimens ou sept sermons sur l’exhortation contenue en 
+                            l’Epist. aux Hebrieux chap. XII. v. 5. 6. 7. 8. 9. 10. 11. Faits en 
+                            l’Eglise de Geneve</title> 
+                        <imprint> 
+                            <pubPlace>Genève</pubPlace> 
+                            <publisher>PIERRE AUBERT, Imprimeur Ordinaire de la Republique 
+                                &amp; Académie</publisher> 
+                            <date>1630</date>
+                            <date type="sermon"/>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="URI">https://www.e-rara.ch/gep_r/doi/10.3931/e-rara-60334</idno>
+                    <idno type="source">Bibliothèque de Genève, Cote BGE Su 4217 (1)</idno> 
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">homélie</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">7</term>
+                    <term type="typeOfCollection">lectio continua</term>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Heb.12.5</term>
+                    <term type="paratext" subtype="preface">AV LECTEVR</term>
+                    <term type="paratext" subtype="other">TEXTE EXPOSE’</term>
+                    <term type="paratext" subtype="other">ARGVMENT DES SEPT SERMONS.</term>
+                    <term type="paratext" subtype="other">Priere pour ceux qui sont affligés.</term>
+                </keywords> 
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-03-07" who="#LjD">transformation word - XML</change> 
+            <change when="2016-03-07" who="#MAG">Verification, citations</change> 
+            <change when="2016-01-28" who="#CiM">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                 <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>PROFIT DES 
+                    <lb/>CHASTIMENS 
+                    <lb/> 
+                    <hi rend="I">OV</hi> 
+                    <lb/>SEPT SERMONS SUR L'EXHORTATION 
+                    <lb/>contenue en l'Epist. aux Hebrieux 
+                    <lb/>chap. XII. v. 5.6.7.8.9.10.11. 
+                    <lb/> 
+                    <hi rend="I">Faits en l'Eglise de Geneve, par </hi>BENEDICT 
+                    <lb/>TVRRETTIN <hi rend="I">Ministre de la 
+                        <lb/>parole de Dieu.</hi> 
+                </p> 
+                <figure/> 
+                <!-- deux mains tenant un bouquet de roses et un bracelet orné--> 
+                <p n="2"> 
+                    <lb/> 
+                    <hi rend="I">A GENEVE,</hi> 
+                    <lb/>CHEZ PIERRE AVBERT, 
+                    <lb/>Imprimeur Ordinaire de la Republique 
+                    <lb/>&amp; Academie.</p> 
+                <!--ligne horizontale--> 
+                <p n="3"> 
+                    <lb/>M. DC. XXX. 
+                    <lb/> 
+                    <hi rend="I">Avec permission &amp; privilege.</hi> 
+                </p> 
+            </div> 
+        </front> 
+        <body> 
+            <div type="sermon"> 
+                 <pb n="1"/> 
+                <figure/> 
+                <!--en-tête gravé--> 
+                <head type="main"> 
+                    <lb/>PROFIT DES 
+                    <lb/>CHASTIMENS, 
+                    <lb/> 
+                    <hi rend="I">OV</hi> 
+                    <lb/>Sermons sur l'Exhortation conte- 
+                    <lb/>nue en <ref type="bible" target="bibleSegond21.xml#Heb.12.5-11">l'Epist.aux Hebr. XII. 
+                        <lb/>ver.5.6.7.8.9.10.11.</ref> 
+                </head> 
+                <div n="1" type="sub"> 
+                    <head type="sub"> 
+                        <lb/> 
+                        <ref type="bible" target="bibleSegond21.xml#Heb.12.5">Hébr. XII. vers. 5.</ref> 
+                    </head> 
+                    <!--en fait, il s’agit là du titre du sermon, à proprement parler: ce qui précède reprend le titre du recueil tout entier--> 
+                    <p n="1"> 
+                        <lb/> 
+                        <quote source="bible1588.xml#Heb.12.5"> 
+                            <hi rend="I">Vous avez oublié l'exhortation,laquelle 
+                                <lb/>parle à vous comme aux enfans , disant, 
+                                <lb/>Mon enfant , ne mets point à nonchaloir 
+                                <lb/>la discipline du Seigneur,&amp;ne perds point 
+                                <lb/>courage quand tu es reprins de lui</hi> 
+                        </quote>.
+                        <lb/> 
+                        <c type="lettrine">N</c>OVS avons ouy en 
+                        <lb/>l'Evangile , que Iesus 
+                        <lb/>Christ a voulu , pour 
+                        <lb/>nous sauver , prendre à <pb n="2"/> 
+                        <lb/>foy nostre nature , en l'unité de sa 
+                        <lb/>personne,d'une maniere ineffable&amp; 
+                        <lb/>incomprehensible : nous avons veu 
+                        <lb/>és saincts Sacremẽs,que le corps,qui 
+                        <lb/>lui a esté approprié,afin qu'il l'offrist 
+                        <lb/>pour nostre redemption , nous est 
+                        <lb/>donné en viande &amp; nourriture, afin 
+                        <lb/>que nos personnes aussi vnies à la siene, 
+                        <lb/>devienẽt une mesme chair,&amp; un 
+                        <lb/>mesme esprit avec lui. En l'un &amp; en 
+                        <lb/>l'autre paroist sõ infini amour.<!--les deux numéros qui suivent indiquent qu'il s'agit là de la division du sermon-->1.D'avoir 
+                        <lb/>voulu devenir nostre proche 
+                        <lb/>parent,par une naissance terrienne. 
+                        <lb/>2. De s'estre fait nostre allié par un 
+                        <lb/>mariage celeste:Cela fait qu'il nous 
+                        <lb/>appelle ses freres,car estãt devenu os 
+                        <lb/>de nostre os,&amp; chair de nostre chair, 
+                        <lb/>il est de nostre consanguinité, <quote source="bible1588.xml#Heb.2.14"> 
+                            <hi rend="I">comme</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Heb.2.14"> 
+                                    <hi rend="I">Hebr</hi>. 2.14</ref> 
+                            </note> 
+                            <hi rend="I">les enfants participent à la chair &amp; au 
+                                <lb/>sang, lui aussi semblablement a participé 
+                                <lb/>aux mesmes choses,afin que par la mort il 
+                                <lb/>destruisit celui qui avoit l'empire de mort, </hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">c'est</hi> 
+                            </fw> 
+                             <pb n="3"/> 
+                            <lb/> 
+                            <hi rend="I">c'est asçavoir le diable</hi> 
+                        </quote>.Ceci est,afin que 
+                        <lb/>nous estans faits un avec lui,soyons 
+                        <lb/>os de ses os,chair de sa chair,bref un 
+                        <lb/>mesme esprit avec lui.Or l'un &amp; l'autre 
+                        <lb/>poinct tend à ceste fin, que delivrés 
+                        <lb/>de nostre peché&amp;misere,&amp;sortãs 
+                        <lb/>de la maison du premier pere terrien , 
+                        <lb/>nous entrions au droict de 
+                        <lb/>l'adoption celeste, &amp; reputés enfans 
+                        <lb/>de Dieu, portions son Nom, &amp; son 
+                        <lb/>image. Bref,venions en l'entiere cõmunion 
+                        <lb/>de l'heritage.Que comme il 
+                        <lb/>est devenu fils de l'homme selon la 
+                        <lb/>chair,nous soyõs enfans de Dieu selõ 
+                        <lb/>l'Esprit:lui par sa seconde generatiõ, 
+                        <lb/>en laquelle il est né de la S<hi rend="E">te</hi> Vierge, 
+                        <lb/>nous par le don de la regeneratiõ: 
+                        <lb/>lui sans pere en terre , nous n'ayans 
+                        <lb/>qu' ũ seul pere au ciel:lui nostre chef, 
+                        <lb/>nous ses mẽbres,appellions un mesme 
+                        <lb/>Dieu, un mesme Pere avec lui, 
+                        <lb/>&amp; et par un mesme esprit d'amour &amp; <pb n="4"/> 
+                        <lb/>de reverence,servions &amp; glorifions 
+                        <lb/>son Dieu &amp; le nostre,son Pere &amp; nostre 
+                        <lb/>Pere.</p> 
+                    <p n="2"> 
+                        <lb/>Toute l'Escriture saincte tend à 
+                        <lb/>ce but , &amp; l'Esprit de Dieu instruit 
+                        <lb/>l'homme à ce qu'il recognoisse ce 
+                        <lb/>Pere celeste , &amp; lui rende l'honneur 
+                        <lb/>&amp; service qui lui appartient. A quoi 
+                        <lb/>il faut rapporter les paroles,que nous 
+                            <lb/>avons presentement leuës, esquelles 
+                        <lb/>nous voyons les qualitez de Pere &amp; 
+                        <lb/>de Fils s'entrerespondre , avec les actions, 
+                        <lb/>habitudes &amp; procedures qui 
+                        <lb/>en dependent. La solennité de ce 
+                            <lb/>iour a esté destinee en l'Eglise pour 
+                        <lb/>rememorer , en la naissance du Fils 
+                        <lb/>de Dieu, le benefice de nostre spirituelle 
+                        <lb/>filiation, de laquelle mesme le 
+                        <lb/>sainct Sacrement nous a donné des 
+                        <lb/>gages en la communion que nous 
+                            <lb/>avons euë à la table paternelle.</p> 
+                    <p n="3"> 
+                        <lb/>Le miserable siecle,auquel nous <fw place="bot-right" type="catch">vi-</fw> 
+                         <pb n="5"/> 
+                        <lb/>vivons, a besoin de ces enseignemẽs: 
+                        <lb/>car les afflictions de l'Eglise ont en 
+                        <lb/>plusieurs obscurci la conoissance,&amp; 
+                        <lb/>esbranlé la confiance, que nous devons 
+                        <lb/>avoir de l'amour paternel de 
+                        <lb/>Dieu envers nous : comme si lors 
+                        <lb/>qu'il afflige, il avoit oublié qu'il est 
+                        <lb/>Pere, ou si en nous chastiant il despouilloit 
+                        <lb/>son affection. Partant,il est 
+                        <lb/>plus que necessaire, en ces dures saisons, 
+                        <lb/>pour avoir des <choice><sic>lenimens</sic><corr resp="#CiM">linimens</corr></choice> à nos 
+                        <lb/>douleurs &amp; remedes en nos maux, 
+                        <lb/>de biẽ savoir ce qu'importe ce droit 
+                        <lb/>de Pere sur nous,&amp; le devoir de Fils 
+                        <lb/>envers lui: d'où procedent nos plus 
+                        <lb/>douces consolations, &amp; nos plus fidelles 
+                        <lb/>instructions : qui sont deux 
+                        <lb/>poincts,que nous devons tenir inseparablement 
+                        <lb/>conioincts , ayans esgalement 
+                        <lb/>affaire de tous deux , à ce 
+                        <lb/>que nous recueillions de la visitation 
+                        <lb/>de Dieu cest excellent fruict,de <pb n="6"/> 
+                        <lb/>la conformité avec nostre Seigneur 
+                        <lb/>Iesus Christ,à laquelle nous sommes 
+                        <lb/>appelez, voire predestinez.</p> 
+                    <p n="4"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.12.4-5"> 
+                                <hi rend="I">Rom. </hi>8. 28</ref> 
+                        </note>L'Apostre dit auparavant, <quote source="bible1588.xml#Heb.12.4"> 
+                            <hi rend="I">Vous 
+                                <lb/>n'avez pas encor resisté contre le peché, 
+                                <lb/>combattant iusqu'au sang</hi> 
+                        </quote>: maintenant 
+                        <lb/>il leur dit, <quote source="bible1588.xml#Heb.12.5"> 
+                            <hi rend="I">Vous avez oublié l'exhortation, 
+                                <lb/>qui vous parle comme à enfans</hi> 
+                        </quote>. 
+                        <lb/>Dieu les avoit espreuvez:mais ne les 
+                        <lb/>avoit pas encor mis aux grands cõbats, 
+                        <lb/>ni aux lieux les plus dangereux. 
+                        <lb/>Cependant ils trouvoyent estrange 
+                        <lb/>cest exercice,&amp; perdoyent courage 
+                        <lb/>dans l'affliction.S.Paul les rameine à 
+                        <lb/>la consideration de l'esgard paternel 
+                        <lb/>&amp; filial,à la procedure que Dieu 
+                        <lb/>tient comme Pere:au devoir par cõsequẽt, 
+                        <lb/>auquel les enfans sont tenus, 
+                        <lb/>&amp; ce,en leur marquant le defaut,auquel 
+                        <lb/>ils se laissoyent emporter.</p> 
+                    <p n="5"> 
+                        <lb/>Leur defaut(tel que nous voyons 
+                            <lb/>presque par tout 
+                        ) estoit l'oubliance <fw place="bot-right" type="catch">de</fw> 
+                         <pb n="7"/> 
+                        <lb/>de l'exhortation,negligence à recercher 
+                        <lb/>les moyens de s'affermir : mespris 
+                        <lb/>des remonstrances,en la prosperité : 
+                        <lb/>&amp; defaillance de courage, lors 
+                        <lb/>qu'ils sentoyent le chastiment. Ce 
+                        <lb/>que l'Apostre touche, mais avec une 
+                        <lb/>douceur vrayement paternelle,&amp; en 
+                        <lb/>des termes qui sentent une compassion 
+                        <lb/>charitable.</p> 
+                    <p n="6"> 
+                        <lb/>Leur devoir estoit de subir avec 
+                        <lb/>humilité, de souffrir avec patiẽce,de 
+                        <lb/>s'humilier avec obeïssance, obeïr avec 
+                        <lb/>affection, aimer avec reverence, 
+                        <lb/>reverer avec confiance &amp; esperance. 
+                        <lb/>La procedure paternelle est, qu'il aime, 
+                        <lb/>qu'il a soin,visite,chastie,corrige 
+                        <lb/>&amp; ce qui s'ensuit. Tout cela fondé 
+                        <lb/>sur ceste nouvelle qualité de grace, 
+                        <lb/>que nous obtenons en Iesus Christ, 
+                        <lb/>par lequel nous sommes maintenant 
+                        <lb/>censés &amp; estimez enfans , &amp; Dieu 
+                        <lb/>nous regarde comme Pere.</p> 
+                     <pb n="8"/> 
+                    <p n="7"> 
+                        <lb/>S Paul, avons nous dit, parle en 
+                        <lb/>termes tresdoux,mais aussi tresforts. 
+                        <lb/>Car il nous faut considerer son style 
+                        <lb/>&amp; langage,devant que nous entrions 
+                        <lb/>au detail des chefs touchés : il se sert 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Prov.3.11"> 
+                                <hi rend="I">Prov.</hi> 3.11.</ref> 
+                        </note> des termes du sage Salomon , <quote source="bible1588.xml#Prov.3.11"> 
+                            <hi rend="I">Mon 
+                                <lb/>fils ne rebute point l'instruction de l'Eternel, 
+                                <lb/>&amp; ne t'ennuye point de ce qu'il te 
+                                <lb/>redarguë</hi> 
+                        </quote>. Lesquels sont aussi employez 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rev.3.19"> 
+                                <hi rend="I">Apoc</hi>.3.19</ref> 
+                        </note> par nostre Seigneur. <quote source="bible1588.xml#Rev.3.19"> 
+                            <hi rend="I">Ie repren,&amp; 
+                                <lb/>chastie tous ceux que i'aime,pren donc zele 
+                                <lb/>&amp; te repens</hi> 
+                        </quote>. Le mesme avoit esté escrit 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Job.5.17"> 
+                                <hi rend="I">Iob</hi> 5.17.</ref> 
+                        </note> au livre de Iob. <quote source="bible1588.xml#Job.5.17"> 
+                            <hi rend="I">O que bien-heureux 
+                                <lb/>est celui que Dieu chastie , pourtant 
+                                <lb/>ne reiette point le chastiment du Tout- 
+                                <lb/>puissant</hi> 
+                        </quote>. 
+                    </p> 
+                    <p n="8"> 
+                        <lb/>Signe,que ceste doctrine n'est point 
+                        <lb/>nouvelle, mais tres-anciene, qui dés 
+                        <lb/>les premiers siecles de l'Eglise, iusques 
+                        <lb/>aux derniers, a un vsage necessaire ; 
+                        <lb/>non particulier à aucune nation, 
+                        <lb/>mais commun &amp;general à tous <fw place="bot-right" type="catch">ceux</fw> 
+                         <pb n="9"/> 
+                        <lb/>ceux, qui pretendent l'honneur d'estre 
+                        <lb/>en la maison de Dieu.</p> 
+                    <p n="9"> 
+                        <lb/>L'Apostre employe ceste sentence 
+                        <lb/>ja connuë &amp; avouëe, par tous fidelles, 
+                        <lb/>pourtant plus aisément leur faire 
+                        <lb/>connoistre leur devoir. Car il n'y avoit 
+                        <lb/>aucune replique à faire, ni contradiction 
+                        <lb/>à opposer à une verité apprise 
+                        <lb/>&amp; retenuë de tout temps en 
+                        <lb/>l'Eglise. Qui plus est,selon sa bonne 
+                        <lb/>&amp;saincte coustume,il se sert des passages 
+                        <lb/>de l'Escriture saincte, &amp; nous 
+                        <lb/>monstre qu'en ce temps là l'usage en 
+                        <lb/>estoit commun &amp; familier. Ce qui 
+                        <lb/>appert bien en la façon , de laquelle 
+                        <lb/>il parle. <quote source="bible1588.xml#Heb.12.5"> 
+                            <hi rend="I">Vous avez oublié</hi> 
+                             
+                        </quote>, leur reprochant 
+                        <lb/>non l'ignorance, mais l'oubliance : 
+                        <lb/>monstrant bien par là, qu'il 
+                        <lb/>n'y a nulle excuse pour l'ignorance 
+                        <lb/>de l'Escriture saincte:sur tout des enseignemens 
+                        <lb/>generaux, que nous 
+                        <lb/>sommes tous obligez de rememorer, <pb n="10"/> 
+                        <lb/>pour ne les oublier, combiẽ plus 
+                        <lb/>de les apprendre pour les sçavoir.</p> 
+                    <p n="10"> 
+                        <lb/>Faut aussi remarquer que l'Esprit de 
+                        <lb/>Dieu a voulu colloquer dans le corps 
+                        <lb/>des Escritures certaines sentences generales, 
+                        <lb/>&amp; les reïterer si frequẽment, 
+                        <lb/>(cõme feroit un pere de famille, des 
+                        <lb/>meubles dõt l'usage est tous les iours 
+                        <lb/>necessaire, lesquels il met en veuë,&amp; 
+                        <lb/>en lieu où, au besoin, promptemẽt il 
+                        <lb/>les trouve) &amp; c'est à ce que nul ne puisse 
+                        <lb/>pretendre cause aucune d'ignorãce, 
+                        <lb/>s'il n'est, ou estrãger de la maison 
+                        <lb/>de Dieu, ou aveugle dans icelle.</p> 
+                    <p n="11"> 
+                        <lb/>La sapience Divine a particulierement 
+                        <lb/>donné le livre des<supplied resp="#CiM" reason="omission"> </supplied>Proverbes, 
+                        <lb/>pour avoir une fourniture de toutes 
+                        <lb/>sortes de preceptes,en termes courts, 
+                        <lb/>sentencieux &amp; proverbiaux;sous lesquels 
+                        <lb/>il nous represente tout ce que 
+                        <lb/>les loix divines , ou humaines equitables 
+                        <lb/>commãdent; propose les maximes <fw place="bot-right" type="catch">xi-</fw> 
+                         <pb n="11"/> 
+                        <lb/>que la prudẽce civile recueille 
+                        <lb/>par longue experiẽce;&amp; que la sagesse 
+                        <lb/>morale distribue en beaucoup d'ẽseignemens, 
+                        <lb/>&amp;a accoustumé de confermer 
+                        <lb/>par exẽples.Car Dieu n'a pas 
+                        <lb/>seulemẽt voulu nous instruire par les 
+                        <lb/>excellentes histoires de ses œuvres &amp; 
+                        <lb/>des actiõs des hõmes,&amp; par la maiesté 
+                        <lb/>de ses tressaincts cõmãdemens,&amp; 
+                        <lb/>par l'authorité des propheties. Mais 
+                        <lb/>il a voulu en outre,pourtãt plus nous 
+                        <lb/>esmouvoir,que la musique de David 
+                        <lb/>nous representast les mesmes veritez 
+                        <lb/>avec le chant, afin de mieux les insinuer : 
+                        <lb/>&amp; que la sagesse de Salomon, 
+                        <lb/>pour nous aider à facilement les retenir 
+                        <lb/>&amp; appliquer à toutes sortes d'vsages, 
+                        <lb/>en fist des petits sommaires en 
+                        <lb/>graves &amp; moëlleuses sentences.</p> 
+                    <p n="12"> 
+                        <lb/>Or laissant ce qui est de la generalité, 
+                        <lb/>ie viens aux paroles de ceste 
+                        <lb/>exhortatiõ,qui contiẽt une Remonstrance <pb n="12"/> 
+                        <lb/>&amp; une raison tres-pertinente. 
+                        <lb/>La Remonstrance est, <quote source="bible1588.xml#Prov.3.11"> 
+                            <hi rend="I">Mon fils ne 
+                                <lb/>reboute point l'instruction de l'Eternel,&amp; 
+                                <lb/>ne t'ennuye point de ce qu'il te redargue</hi> 
+                        </quote>. 
+                        <lb/>La raison, <quote source="bible1588.xml#Prov.3.12"> 
+                            <hi rend="I">le Seigneur chastie celui qu'il 
+                                <lb/>aime</hi> 
+                        </quote>. Il n'y a comme rien à dire és 
+                        <lb/>termes de Salomon &amp; de S.Paul. Le 
+                        <lb/>sens est le mesme.Et par la conference 
+                        <lb/>des textes &amp; leurs suites,nous cõprenons 
+                        <lb/>pleinement le poids &amp; l'efficace 
+                        <lb/>des paroles. S.Paul y adiouste 
+                        <lb/>un commentaire &amp; illustration tres- 
+                        <lb/>notable,&amp; en deduit les doctrines 
+                        <lb/>que nous orrons ci apres.</p> 
+                    <p n="13"> 
+                        <lb/> 
+                        <note type="margin"><foreign xml:lang="el">πθράκσιν</foreign></note> Il nomme ceste sentence &amp; exhortation 
+                        <lb/>d'un mot qui signifie aussi 
+                        <lb/>consolation,tresbien : car l'affligé a 
+                        <lb/>besoin de l'une &amp; de l'autre:si sa foiblesse 
+                        <lb/>&amp; fascherie meritent pitié &amp; 
+                        <lb/>compassion , elles ne doivent pas 
+                        <lb/>pourtant estre,ni en toutes excuses,ni 
+                        <lb/>flattees par trop de support. <fw place="bot-right" type="catch">Aussi</fw> 
+                    </p> 
+                     <pb n="13"/> 
+                    <p n="14"> 
+                        <lb/>Aussi l'esprit de Dieu,qui est tout 
+                        <lb/>bonté &amp; vérité, n'administre iamais 
+                        <lb/>la consolation, qu'il n'y ioigne l'instruction, 
+                        <lb/>comme il n'y a nulle vraye 
+                        <lb/>bonté sans iustice, nulle paix de 
+                        <lb/>conscience sans amendement, nulle 
+                        <lb/>ioye certaine sans une severe sagesse, 
+                        <lb/>qui la rend solide, &amp; nulle reconciliation 
+                        <lb/>de Dieu à nous,qui ensemble 
+                        <lb/>ne nous reconcilie &amp; convertisse à 
+                        <lb/>luy.</p> 
+                    <p n="15"> 
+                        <lb/>C'est une viande sans sel, &amp; une 
+                        <lb/>douceur fade qui fait mal au cœur, 
+                        <lb/>que les consolations telles que demande 
+                        <lb/>la chair,qui n'osent dire aucune 
+                        <lb/>verité fermement. Ce sont remedes, 
+                        <lb/>qui iamais ne guerissent la 
+                        <lb/>playe , n'y entrans iamais, &amp; ne la 
+                        <lb/>nettoyans point.</p> 
+                    <p n="16"> 
+                        <lb/>Or, quoi que S.Paul entre par une 
+                        <lb/>douce censure des defauts des 
+                        <lb/>Hebrieux,neãtmoins, ayant esgard <note type="margin"> 
+                            <hi rend="I">De qui est l'exhortation</hi> 
+                        </note> 
+                         <pb n="14"/> 
+                        <lb/>à ceste iournée,commençons par la 
+                        <lb/>qualité de Pere &amp; de Fils,&amp;des reciproques 
+                        <lb/>devoirs. Salomon dit,<quote source="bible1588.xml#Prov.3.11"> 
+                            <hi rend="I">Mon</hi> 
+                            <lb/> 
+                            <hi rend="I">fils</hi> 
+                        </quote> : mais si vous regardez,qui parle 
+                        <lb/>par sa bouche , vous trouverez que 
+                        <lb/>ceste douce appellation viẽt de plus 
+                        <lb/>haut.C'est bien un terme ordinaire, 
+                        <lb/>ou de bienveuillãce, ou d'authorité 
+                        <lb/>entre les hommes , que le plus aagé 
+                        <lb/>nomme fils le plus ieune,le plus grãd 
+                        <lb/>par humanité parle ainsi au moindre, 
+                        <lb/>&amp; le Docteur au disciple,comme 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_1Sam.3.6">I. <hi rend="I">Sam.</hi> 3.6.</ref> 
+                        </note>Heli appelle Samuel son fils , S. Iean 
+                        <lb/>ceux ausquels il escrit ses petis enfãs. 
+                        <lb/>Mais il y a ici un autre mouvement: 
+                        <lb/>car la sagesse divine instruit ses disciples: 
+                        <lb/>Et és paroles suivãtes attribue à 
+                        <lb/>Dieu mesme l'affection paternelle&amp; 
+                        <lb/>amour envers ceux qu'il chastie.<quote source="bible1588.xml#Prov.3.12"> 
+                            <hi rend="I">L'Eternel</hi> 
+                            <lb/> 
+                            <hi rend="I">redargue celui qu'il aime,mesme cõme 
+                                <lb/>fait un Pere envers l'<choice><sic>efant</sic><corr resp="#CiM">enfant</corr></choice></hi> 
+                            <hi rend="I">qu'il aime</hi> 
+                        </quote>, 
+                        <lb/>dit Salomon. De sorte que nous pouvons <fw place="bot-right" type="catch">vons</fw> 
+                         <pb n="15"/> 
+                        <lb/>dire avec N. Seigneur: il y a ici 
+                        <lb/>un <hi rend="I">plus grãd que Salomon</hi>;nous avõs un 
+                        <lb/>Pere plus grãd que celui qui a escrit, 
+                        <lb/> 
+                        <quote source="bible1588.xml#Prov.1.8"> 
+                            <hi rend="I">Mon fils,Escoute l'instruction de ton 
+                            pere</hi></quote>. 
+                        <lb/>Car c'est Dieu,qui nous appelle ses enfãs, 
+                        <lb/>selõ les clauses expresses de son alliãce, 
+                        <lb/>&amp; nous parle cõme à<supplied resp="#MAG" reason="omission"> </supplied>tels,&amp;nous 
+                        <lb/>traitte aussi en enfãs. Ce que S.Paul a 
+                        <lb/>biẽ cõsideré,quãd il a dit,<hi rend="I">il parle cõme 
+                            <lb/>à des <choice><sic>enfas</sic><corr resp="#CiM">enfants</corr></choice></hi> 
+                        , nous amenãt par là à ceste 
+                        <lb/>tãt necessaire consideration du droit 
+                        <lb/>divin,&amp;amour paternel de Dieu.</p> 
+                    <p n="17"> 
+                        <lb/>Il est vrai que par la creatiõ, Dieu <note type="margin"> 
+                            <hi rend="I">Dieu est notre Pere non seulement par la creation.</hi> 
+                        </note> 
+                        <lb/>est le souverain Pere, duquel toutes 
+                        <lb/>choses procedent &amp; dependẽt.C'est 
+                        <lb/>lui duquel <quote source="bible1588.xml#Eph.3.15"> 
+                            <hi rend="I">toute parenté est nommée au 
+                                <lb/>ciel &amp; en terre</hi> 
+                        </quote>, dit S.Paul. C'est lui, qui, <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Eph.3.15"> 
+                                <hi rend="I">Ephes. </hi>3.15</ref> 
+                        </note> 
+                        <lb/>comme dit le Prophete, <quote source="bible1588.xml#Isa.66.9"> 
+                            <hi rend="I">donne aux 
+                                <lb/>creatures la vertu d'engendrer &amp; enfanter</hi> 
+                        </quote><hi rend="I">:</hi> 
+                             
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Isa.66.9"> 
+                                <hi rend="I">Esa. </hi>66.9.</ref> 
+                        </note> 
+                        <lb/>qui est en ce premier esgard Dieu 
+                        <lb/>de tous,Pere commun de tous. <quote source="bible1588.xml#Mal.2.10"> 
+                            <hi rend="I">N'avons-nous</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Mal.2.10"> 
+                                    <hi rend="I">Malac.</hi>2.10</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">pas tous un Pere, un seul Dieu 
+                                <lb/>fort,ne nous a-il pas creés</hi> 
+                        </quote>, dit Malachie. <pb n="16"/> 
+                        <lb/>Mais en l'alliãce de grace,ceste qualité 
+                        <lb/>a des particularitez speciales,qui 
+                        <lb/>nous apportent une merveilleuse utilité 
+                        <lb/> 
+                        <note type="margin"> 
+                            <hi rend="I">mais specialement par grace</hi> 
+                        </note> &amp; consolation : car l'homme 
+                        <lb/>par le peché s'estant rendu indigne 
+                        <lb/>de ce nom, qu'il eust eu avec la nature 
+                        <lb/>en la creation, avoit esté chassé 
+                        <lb/>de la maison. Or Dieu rappellant 
+                        <lb/>ceux qui appartienent à sa grace,par 
+                        <lb/>son Evangile , maintenant se nomme 
+                        <lb/>tel proprement en son Eglise. Là 
+                        <lb/>il se declare Pere , qui adopte, &amp; regenere. 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Deut.32.6:15"> 
+                                <hi rend="I">Deut. </hi>32.6.15</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#Deut.32.6"> 
+                            <hi rend="I">N'est-il pas ton Pere qui t'a acquis, 
+                                <lb/>icelui t'a fait &amp; façonné</hi> 
+                        </quote>, et là 
+                        <lb/>mesme dit Moyse, <quote source="bible1588.xml#Deut.32.15"> 
+                            <hi rend="I">Tu as mis en oubli 
+                                <lb/>le Dieu,le Dieu fort qui t'a formé</hi> 
+                        </quote>. 
+                        <hi rend="I"> </hi>Aussi 
+                        <lb/>l'Eglise en Esaye le reconnoist tel. 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Isa.63.16"> 
+                                <hi rend="I">Esa.</hi> 63.16</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#Isa.63.16"> 
+                            <hi rend="I">Certes tu est nostre Pere, encore qu'Abraham 
+                                <lb/>ne nous reconnust point,&amp; qu'Israël 
+                                <lb/>ne nous avoüast point. Eternel c'est toy 
+                                <lb/>qui es nostre Pere, &amp; ton Nom est nostre 
+                                <lb/>Redempteur de tout tẽps</hi> 
+                        </quote>, &amp; <ref type="bible" target="bibleSegond21.xml#Isa.64">au 64</ref>. <quote source="bible1588.xml#Isa.64.8"> 
+                            <hi rend="I">Maintenant,</hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">tenant,</hi> 
+                            </fw> 
+                             <pb n="17"/> 
+                            <lb/> 
+                            <hi rend="I">ô Eternel tu es nostre Pere,&amp; nous</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Isa.64.8"> 
+                                    <hi rend="I">Esa. </hi>64.8. </ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">sommes l'argille,tu es celui qui nous a formez, 
+                                <lb/>&amp; nous sommes l'ouvrage de ta 
+                                <lb/>main</hi> 
+                        </quote>. Aussi en Ieremie, nostre Seigneur 
+                        <lb/>prend ce mesme titre.<quote source="bible1588.xml#Jer.3.4"> 
+                            <hi rend="I">Ne crieras-tu</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Jer.3.4:19"> 
+                                    <hi rend="I">Ier.</hi>3.4.19.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">point desormais vers moi,mon Pere, 
+                                <lb/>tu es le conducteur de ma ieunesse</hi> 
+                        </quote>, &amp; 
+                        <lb/>peu apres, <quote source="bible1588.xml#Jer.3.19"> 
+                            <hi rend="I">comment te mettrai-ie entre 
+                                <lb/>mes fils?</hi> 
+                         
+                            <hi rend="I">Et i'ay dit, Tu me crieras 
+                                <lb/>mon Pere,&amp;ne te destourneras point arriere 
+                                <lb/>de moi</hi></quote>. 
+                         Et ailleurs, <quote source="bible1588.xml#Jer.31.9"> 
+                            <hi rend="I">I'ay esté Pere à </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Jer.31.9:20"> 
+                                    <hi rend="I">Ier</hi>. 31.9. v.20.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">Israël, Ephraim mon premier né</hi> 
+                        </quote> 
+                        <hi rend="I">, </hi> 
+                        <quote source="bible1588.xml#Jer.31.20"> 
+                            <hi rend="I">mes entrailles 
+                                <lb/>se sont esmeuës à cause de lui</hi> 
+                        </quote>. Dequoi 
+                        <lb/>en Malachie , il tire la consequence 
+                        <lb/>du reciproque devoir des 
+                        <lb/>enfans. <quote source="bible1588.xml#Mal.1.6"> 
+                            <hi rend="I">Le fils honore le Pere,&amp;le serviteur</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Mal.1.6"> 
+                                    <hi rend="I">Malach.</hi>1.6.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">son Seigneur. Si donc ie suis Pere, 
+                                <lb/>où est l'honneur qui m'appartient? &amp; si ie 
+                                <lb/>suis Seigneur,où est la crainte</hi></quote><hi rend="I">?</hi> 
+                    </p> 
+                    <p n="18"> 
+                        <lb/>Ces declarations,faites dés le Vieil <note type="margin"> 
+                            <hi rend="I">Je declare tel ouvertemẽt en Iesus Christ</hi>. </note> 
+                        <lb/>Testament ont bien esté plus esclaircies 
+                        <lb/>&amp; accreuës en la revelation du <pb n="18"/> 
+                        <lb/>Nouveau. Car Iesus Christ le <hi rend="I">propre</hi> 
+                        <lb/>Fils, &amp; <hi rend="I">l'unique</hi> du Pere estãt venu au 
+                        <lb/>monde, &amp; s'estant fait nostre frere, 
+                        <lb/>nous avons une ouverture plus grãde 
+                        <lb/>&amp; plus claire. <quote source="bible1588.xml#_1Tim.3.16"> 
+                            <hi rend="I">Dieu mesme s'est manifesté</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_1Tim.3.16">1.<hi rend="I">Tim.</hi>3.16</ref> 
+                            </note> 
+                            <hi rend="I">en chair</hi> 
+                        </quote>, le Pere s'est en lui manifesté 
+                        <lb/>à nous,&amp; en sa face a relui la misericorde 
+                        <lb/>&amp; charité de nostre Dieu: 
+                        <lb/>qui nous parle vrayement en Pere,&amp; 
+                        <lb/>nous traitte en enfans,&amp;se monstre, 
+                        <lb/>non en qualité de Legislateur &amp; de 
+                        <lb/>iuge, mais de Pere misericordieux. 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.14.7-8"> 
+                                <hi rend="I">Ieh.</hi>14.7.8</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#John.14.7-8"> 
+                            <hi rend="I">Qui m'a veu</hi>, <seg type="interpolation">dit le Seigneur,</seg> 
+                            <hi rend="I">à veu 
+                                <lb/>mon Pere. Si vous me cõnoissiez, vous cõnoistriez 
+                                <lb/>aussi mon Pere, &amp; maintenant</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.1.18"> 
+                                    <hi rend="I">Ieh.</hi>1.18</ref> 
+                            </note> 
+                            <hi rend="I">vous le cõnoissez &amp; l'avez veu</hi> 
+                        </quote>: aussi nul 
+                        <lb/>ne <quote source="bible1588.xml#John.1.18"> 
+                            <hi rend="I">pouvoit reveler le Pere, que le Fils qui 
+                                <lb/>est au sein du Pere</hi> 
+                        </quote>. Nul ne nous pouvoit 
+                        <lb/>donner part à l'adoption que 
+                        <lb/>celui qui estoit l'heritier unique. 
+                        <lb/>C'est lui qui nous a enseignez à dire, 
+                        <lb/> 
+                        <hi rend="I">Nostre Pere</hi>, &amp; qui nous asseure, <hi rend="I">que </hi> 
+                         <fw place="bot-right" type="catch"> 
+                            <hi rend="I">tout</hi> 
+                        </fw> 
+                         <pb n="19"/> 
+                        <lb/> 
+                        <hi rend="I">tout ce que nous demanderõs en son Nom, 
+                            <lb/>il le fera,à ce que le Pere soit glorifié par le 
+                            <lb/>Fils. </hi>C'est de lui &amp; par lui que nous 
+                        <lb/>avons l'Esprit du Fils, obtenu de la 
+                        <lb/>grace du Pere, par <hi rend="I">lequel nous crions, 
+                            <lb/>Abba Pere.</hi> C'est lui qui veut, que 
+                        <lb/>nous ne connoissions pour Pere 
+                        <lb/>qu'un seul,qui est Dieu. <quote source="bible1588.xml#Matt.23.9"> 
+                            <hi rend="I">N'appellez 
+                                <lb/>aucun en la terre vostre Pere : Car un seul</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Matt.23.9"> 
+                                    <hi rend="I">Matth.</hi>23.9</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">est vostre Pere, asçavoir Dieu qui est és 
+                                <lb/>cieux</hi> 
+                        </quote>. C'est lui, qui nous propose 
+                        <lb/>son Pere, reigle de toute perfection, 
+                        <lb/>pour exemple,que nous devons imiter 
+                        <lb/>en bonté , saincteté &amp; misericorde. 
+                        <lb/>Bref, c'est lui mesme, qui <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Matt.5.48"> 
+                                <hi rend="I">Matth.</hi>5.48.</ref> 
+                        </note> 
+                        <lb/>nous a monstré par son propre exemple, 
+                        <lb/>qu'il ne falloit cercher la 
+                        <lb/>gloire que de ce Pere , ni attendre 
+                        <lb/>pleine beatitude qu'en ceste maison 
+                        <lb/>de son Pere, <quote source="bible1588.ml#John.14.2"> 
+                            <hi rend="I">en laquelle il y a plusieurs</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.14.2"> 
+                                    <hi rend="I">Iean </hi>14.2.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">demeurances</hi> 
+                        </quote>. Somme, c'est 
+                        <lb/>par Iesus Christ que nous avons <pb n="20"/> 
+                        <lb/>connoissance par revelation, accés 
+                        <lb/>par foi en un mesme Esprit, communion 
+                        <lb/>eternelle en pleine felicité 
+                        <lb/>avec le Pere.</p> 
+                    <p n="19"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <hi rend="I">A les vrayes qualitez de Pere.</hi> 
+                        </note> Pere, qui vrayement est digne de 
+                        <lb/>ce nom par dessus tout ce qui peut 
+                        <lb/>estre nommé &amp; qualifié tel, soit par 
+                        <lb/>generation,soit à cause de l'authorité, 
+                        <lb/>soit pour la conduite, soit eu esgard 
+                        <lb/>à la charité. Au prix d'icelui, 
+                        <lb/>nous qui sommes,<quote source="bible1588.xml#Heb.12.9"> 
+                            <hi rend="I">peres de la chair</hi> 
+                        </quote>, 
+                        <lb/>comme parle S. Paul en ce mesme 
+                            <lb/>passage: &amp; qui, comme dit Iesus 
+                        <lb/>Christ, <hi rend="I">sommes</hi> vrayement <hi rend="I">mauvais,</hi> 
+                        <lb/>ne meritons pas de porter ce tiltre:&amp; 
+                        <lb/>faut que lors qu'il s'agist du rapport 
+                        <lb/>de l'homme à Dieu, qui est si haut, 
+                        <lb/>si grand, &amp; infini, nous reconnoissions, 
+                        <lb/>que les petites differences,qui 
+                        <lb/>sont ça bas , de Pere,de fils , de maistre, 
+                        <lb/>de serviteur,de Seigneur,de subject, 
+                        <lb/>d'ancien,de ieune,de Docteur, <fw place="bot-right" type="catch">de</fw> 
+                         <pb n="21"/> 
+                        <lb/>de disciple , sont presque toutes englouties 
+                        <lb/>&amp; esgales à cest esgard là, 
+                        <lb/>comme la difference des estoiles à la 
+                        <lb/>venue du Soleil. Consideration 
+                        <lb/>tres-importante,toutes &amp; quantesfois 
+                        <lb/>on traitte de religion,pour n'opposer 
+                        <lb/>iamais aucun de ces respects, 
+                        <lb/>ou affections,ni à Dieu, que la conscience 
+                        <lb/>doit reconnoistre pour seul 
+                        <lb/>Pere, ni à son service, qui doit estre 
+                        <lb/>preferé à toutes choses.</p> 
+                    <p n="20"> 
+                        <lb/>Et de faict les hommes, qui ont 
+                        <lb/>l'honneur d'estre peres, ne le sont 
+                        <lb/>que selon la chair,ne le sont que tandis 
+                        <lb/>qu'ils sont au monde, ne peuvent 
+                        <lb/>produire des enfans conformes à 
+                        <lb/>leur volonté , ni faire que bien peu 
+                        <lb/>de ce qu'ils desirent pour le bien des 
+                        <lb/>leurs. Bref, ne peuvent empescher, 
+                        <lb/>que la mort ne les prive de ce qu'ils 
+                        <lb/>ont de plus cher. Mais l'Eternel, qui 
+                        <lb/>nous a engendrez,<quote source="bible1588.xml#_1Pet.1.23"> 
+                            <hi rend="I">d'une semence incorruptible,</hi> 
+                             <pb n="22"/> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_1Pet.1.23">1.<hi rend="I">Pier</hi>.1.23.</ref> 
+                            </note> 
+                            <hi rend="I">qui est la parole de sa verité</hi> 
+                        </quote>, 
+                        <lb/>nous a connus devant que nous fussions, 
+                        <lb/>&amp; nous a <quote source="bible1588.xml#Rom.8.28"> 
+                            <hi rend="I">predestinez pour estre</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Rom.8.28"> 
+                                    <hi rend="I">Rom.</hi>8.28</ref> 
+                            </note> 
+                            <hi rend="I"> conformes à l'image de son Fils</hi> 
+                        </quote>, 
+                        <quote source="bible1588.xml#Jas.1.18"> 
+                            <hi rend="I">nous a de </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Jas.1.18"> 
+                                    <hi rend="I">Iaq</hi>.1.18</ref> 
+                            </note> 
+                            <hi rend="I">sa volonté</hi>, <seg type="interpolation">dit S.Iaques,</seg> 
+                            <hi rend="I">engendrez afin 
+                                <lb/>que nous fussions premices de ses creatures</hi> 
+                        </quote>: 
+                        <lb/>&amp; nous ayant aimé pour nous 
+                        <lb/>former, forme puis apres dedans 
+                        <lb/>nous son image, afin qu'il nous rende 
+                        <lb/>capables de sa communion. Les 
+                        <lb/>Peres aiment ceux qu'ils ont engendrez. 
+                        <lb/>Mais nostre Dieu nous engendre, 
+                        <lb/>pource qu'il nous a aimez. 
+                        <lb/>C'est lui,duquel le nom est invoqué 
+                        <lb/>sur nous, &amp; qui veut que nous portions 
+                        <lb/>sa marque &amp; son enseigne; &amp; 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.11.16"> 
+                                <hi rend="I">Hebr.</hi>1.16.</ref> 
+                        </note> quant à lui, ne <quote source="bible1588.xml#Heb.11.16"> 
+                            <hi rend="I">prend point à honte</hi> 
+                        </quote> &amp; et à 
+                        <lb/>desdain, de se dire <quote source="bible1588.xml#Acts.3.13"> 
+                            <hi rend="I">nostre Dieu, Dieu 
+                                <lb/>d'Abraham,d'Isaac, &amp; de Iacob</hi> 
+                        </quote>. Pere 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.14.18"> 
+                                <hi rend="I">Ieh.</hi>14.18</ref> 
+                        </note> qui ne meurt point , ne <quote source="bible1588.xml#John.14.18"> 
+                            <hi rend="I">laisse iamais 
+                                <lb/>les siens orphelins </hi> 
+                        </quote>, &amp; ne cesse iamais 
+                        <lb/>d'estre Pere. Aussi la mort ne lui <fw place="bot-right" type="catch">peut</fw> 
+                         <pb n="23"/> 
+                        <lb/>peut ravir les enfans, ains les transfere 
+                        <lb/>de la terre au ciel : &amp; les despoüille 
+                        <lb/>de la robbe soüillee du vieil 
+                        <lb/>Adam , pour les revestir des vestemens 
+                        <lb/>de gloire du premier né. Les 
+                        <lb/>Peres terriens ne laissent l'heritage à 
+                        <lb/>leurs enfans, que quand la mort le 
+                        <lb/>leur oste. Mais le Pere celeste, vivant 
+                        <lb/>eternellement , nous donne 
+                        <lb/>pour heritage , communion de sa 
+                        <lb/>vie, &amp; iouyssance d'une gloire eternelle. 
+                        <lb/>C'est bien ce Pere là, <quote source="bible1588.xml#_2Cor.12.14"> 
+                            <hi rend="I">qui thesorize</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Cor.12.14">2.<hi rend="I">Cor.</hi>12.14</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">pour ses enfans</hi> 
+                        </quote> , &amp; n'ayant besoin 
+                        <lb/>de chose aucune pour soi, pourvoit 
+                        <lb/>toutes choses necessaires au salut 
+                        <lb/>des siens. C'est celui duquel 
+                        <lb/>disoit David, <quote source="bible1588.xml#Ps.27.10"> 
+                            <hi rend="I">Quand ie n'auroy pour </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Ps.27.10"> 
+                                    <hi rend="I">Pse.</hi>27.10.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">moi pere ni mere, mon Dieu <unclear resp="#CiM" reason="ambiguous">sera</unclear></hi> 
+                            <hi rend="I"> pour 
+                                <lb/>moy quoi qu'il en soit</hi> 
+                        </quote>. Que vostre 
+                        <lb/>Pere terrien &amp; d'embas, &amp;tous 
+                        <lb/>vos parens vous mes-connoissent, 
+                        <lb/>renient, reiettent, &amp; desdaignent, <pb n="24"/> 
+                        <lb/>pourveu que ce grand &amp; Eternel Pere 
+                        <lb/>vous advouë &amp; reconnoisse, c'est 
+                        <lb/>assez. Que vous ayez tous les adveus, 
+                        <lb/>tous les tiltres,armoiries,noms, 
+                        <lb/>&amp; honneurs des meilleures maisons, 
+                        <lb/>&amp; des plus riches &amp; Nobles Peres du 
+                        <lb/>monde, soyez enfans de Roy, de 
+                        <lb/>Prince,soyez issu d'Abraham,de Iacob, 
+                        <lb/>de David selon la chair, soyez 
+                        <lb/>frere de IesusChrist selon le corps,&amp; 
+                        <lb/>de mere,si cela se pouvoit. Tout cela 
+                        <lb/>ne vous servira de rien, si Dieu ne 
+                        <lb/>vous advouë &amp; ne vous reconnoist 
+                        <lb/>pour siens : voire mesme Abraham 
+                        <lb/>&amp; Moyse desadvoüent du rang de 
+                        <lb/>leur posterité celle que Dieu rejette 
+                        <lb/>&amp; desdaigne.Et nul ne peut se nommer 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Matt.3.9"> 
+                                <hi rend="I">Matth.</hi> 3.9.</ref> 
+                            <ref type="bible" target="bibleSegond21.xml#John.5.45"> 
+                                <hi rend="I">Ieh. </hi>5. 45.</ref> 
+                            <hi rend="I"> </hi> 
+                            <ref type="bible" target="bibleSegond21.xml#John.8.39"> 
+                                <hi rend="I">Ieh. </hi>8. 39 </ref> 
+                            <hi rend="I"> </hi> 
+                            <ref type="bible" target="bibleSegond21.xml#Acts.3.25"> 
+                                <hi rend="I">Act</hi>.3.25</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#Acts.3.25"> 
+                            <hi rend="I">enfant des Prophetes</hi> 
+                        </quote>, ou successeur 
+                        <lb/>des Apostres, si tout premierement 
+                        <lb/>il ne monstre, <quote source="bible1588.xml#John.8.42"> 
+                            <hi rend="I">qu'il est issu de Dieu</hi> 
+                        </quote>.</p> 
+                    <p n="21"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <hi rend="I">Qui sont les vrais enfans</hi> 
+                        </note> Quiconque prend garde aux qualitez 
+                        <lb/>de ce Pere, entend aussi tost &amp; <fw place="bot-right" type="catch">par</fw> 
+                         <pb n="25"/> 
+                        <lb/>par necessaire consequence,ce qui se 
+                        <lb/>doit trouver en ceux qui sont enfans 
+                        <lb/>de Dieu.</p> 
+                    <p n="22"> 
+                        <lb/>Qui <quote source="bible1588.xml#John.1.13"> 
+                            <hi rend="I">ne sont point nés de sang,ni de la </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.1.13"> 
+                                    <hi rend="I">Iean</hi> 1.13</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">volonté de la chair</hi>, ni par ce que plus 
+                            <lb/>elle aime, ni par <hi rend="I">la volonté</hi> &amp; discretion 
+                            <lb/>d'homme,mais <hi rend="I">De Dieu</hi> 
+                            <!--citation approximative--> 
+                        </quote>. Qui ne 
+                        <lb/>se sont point engendrez eux-mesmes, 
+                        <lb/>mais ont receu tout ce qu'ils 
+                        <lb/>ont de nouvelle naissance par la grace 
+                        <lb/>de Dieu; &amp; ne partagent point avec 
+                        <lb/>le Seigneur, pour se dire moitié 
+                        <lb/>de sa grace, moitié de leur volonté: 
+                        <lb/>car ils confessent que s'ils ont <quote source="bibleSegond21.xml#_2Cor.3.5"> 
+                            <hi rend="I">aucune</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Cor.3.5">2.<hi rend="I">Cor.</hi>3.5.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">bonne pensee</hi> 
+                        </quote>, aucune saincte volonté, 
+                        <lb/>c'est Dieu qui la leur a donnee. Et 
+                        <lb/>entre les autres dons,reconnoissent 
+                        <lb/>que la parole de Dieu est la <hi rend="I">semence 
+                            <lb/>de leur nouvelle generation</hi>: &amp; l'Esprit, 
+                        <lb/>la cause puissante , par laquelle ils 
+                        <lb/>sont conceus &amp; formez. Nul ne 
+                        <lb/>peut entrer au royaume des cieux, <pb n="26"/> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.3.5-6"> 
+                                <hi rend="I">Ieh.</hi>3.5.&amp;6.</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#John.3.5-6"> 
+                            <hi rend="I">s'il n'est né de cest esprit,car ce qui est chair,</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Gal.6.8"> 
+                                    <hi rend="I">Gal</hi>.6.8.</ref> 
+                            </note> 
+                            <hi rend="I">est chair</hi> 
+                        </quote> 
+                        <hi rend="I">,&amp; </hi> 
+                        <quote source="bible1588.xml#Gal.6.8"> 
+                            <hi rend="I">de ce qui est semé en la chair, 
+                                <lb/>on recueille corruption</hi></quote>. 
+                    </p> 
+                    <p n="23"> 
+                        <lb/>Or, comme les enfans,en recevant 
+                        <lb/>l'estre naturel de leurs majeurs,en tirent 
+                        <lb/>aussi par la nature quelque ressemblance: 
+                        <lb/>ainsi les enfans de Dieu, 
+                        <lb/>portent en leur cœur l'image de leur 
+                        <lb/>Pere celeste, &amp; la monstrent en leur 
+                        <lb/>vie. Car si nous avons <quote source="bible1588.xml#_1Cor.15.49"> 
+                            <hi rend="I">porté celle du 
+                                <lb/>Terrien, combien plus devons nous celle</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_1Cor.15.49">1.<hi rend="I">Cor.</hi>15.49</ref> 
+                            </note> 
+                            <hi rend="I">du Celeste</hi> 
+                        </quote>. En vain s'appelle Fils celui, 
+                        <lb/>qui n'a ni affection, ni volonté, 
+                        <lb/>ni qualité,ni veine,qui retire ou ressemble 
+                        <lb/>à une si haute origine. C'est 
+                        <lb/>par là que l'on les reconnoist enfans 
+                        <lb/>du Treshaut : la gloire du Seigneur 
+                        <lb/>reluit sur les siens par effects semblables 
+                        <lb/>à la cause ; comme la lumiere se 
+                        <lb/>connoist à sa resplendeur,&amp; le Soleil 
+                        <lb/>à la clarté:ainsi Dieu estant lumiere, 
+                        <lb/>tout ce,qui en procede,la fait,la porte, <fw place="bot-right" type="catch">te,</fw> 
+                         <pb n="27"/> 
+                        <lb/>la monstre:qui peut cacher le feu, 
+                        <lb/>enfermer la lumiere, dissimuler le 
+                        <lb/>iour? Les enfans <quote source="bible1588.xml#Rom.13.12"> 
+                            <hi rend="I">de lumiere sont reuestus</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Rom.13.12"> 
+                                    <hi rend="I">Rom</hi>13.12.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">des armes de lumiere</hi> 
+                        </quote>,&amp; ne peuvent 
+                        <lb/>estre en tenebres.</p> 
+                    <p n="24"> 
+                        <lb/>Bref, comme ceux qui sont enfans, 
+                        <lb/>ont droit en l'heritage paternel, par 
+                        <lb/>le titre d'ẽfant qui precede toute autre 
+                        <lb/>qualité:&amp; ne le veulent pretẽdre, 
+                        <lb/>comme les ouvriers demandent un 
+                        <lb/>salaire,pour estre payés,mais comme 
+                        <lb/>enfans issus du Pere, &amp; domestiques 
+                        <lb/>de la maison.Ainsi les enfans de Dieu 
+                        <lb/>savent,qu'il y a un heritage preparé, 
+                        <lb/>qui suit la nature &amp; conditiõ de leur 
+                        <lb/>extraction &amp; generatiõ,laquelle,cõme 
+                        <lb/>elle est toute de misericorde,aussi 
+                        <lb/>leur esperance est de grace.Iamais 
+                        <lb/>fils ne sçauroit estre si mal advisé de 
+                        <lb/>dire,qu'il a merité la qualité de Fils. 
+                        <lb/>Iamais,s'il est fils d'un Pere,qui a dequoi, 
+                        <lb/>ne pretendra la succession par <pb n="28"/> 
+                        <lb/>autre qualité que celle d'heritier.Iamais, 
+                        <lb/>qui qu'il soit,ne sçauroit par ses 
+                        <lb/>services espuiser la grandeur des obligations, 
+                        <lb/>qu'il a envers sont Pere. 
+                        <lb/>Et que dira l'homme de son obligation 
+                        <lb/>envers Dieu?Et quel plus asseuré 
+                        <lb/>tiltre,que d'enfant,<hi rend="I">heritier de Dieu, 
+                            <lb/>&amp; coheritier de Iesus Christ</hi>?</p> 
+                    <p n="25"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <hi rend="I">Dieu nous parle en Pere</hi> 
+                        </note> 
+                        Mais il est temps,que nous oyons 
+                        <lb/>ce qui est attribué à ce Pere Eternel. 
+                        <lb/>Il parle,&amp; fait. <quote source="bible1588.xml#Heb.12.5"> 
+                            <hi rend="I">Il parle comme à ses enfans</hi> 
+                        </quote>. 
+                        <lb/>Nous ne restreignons pas ceste 
+                        <lb/>observation de l'Apostre à Salomon : 
+                        <lb/>mais la portons plus haut : &amp; 
+                        <lb/>ne la reserrons point seulement en 
+                        <lb/>ceste sentence,qui veritablement est 
+                        <lb/>paternelle:mais l'estendons plus loin 
+                        <lb/>selon la mesme verité Car un des 
+                        <lb/>tesmoignages de la grace Paternelle 
+                        <lb/>de Dieu , est sa Parole envers nous. 
+                        <lb/>Il agit en tout le cours de sa Providence, 
+                        <lb/>&amp; toutes les creatures dependent <fw place="bot-right" type="catch">de</fw> 
+                         <pb n="29"/> 
+                        <lb/>de sa puissance &amp; volonté : mais sa 
+                        <lb/>parole proprement , n'est que pour 
+                        <lb/>ceux qui l'entendent : &amp; ne l'entendent 
+                        <lb/>que ceux,qui ont son image,&amp; 
+                        <lb/>par la reflexion d'icelle se retournent 
+                        <lb/>à lui. Les grandes œuvres de 
+                        <lb/>Dieu en la nature sont communes à 
+                        <lb/>toutes personnes : le Soleil,&amp; la Lune, 
+                        <lb/>&amp; les estoiles, les elemens, les saisons, 
+                        <lb/>&amp; les fruicts de la terre,&amp; autres 
+                        <lb/>tels benefices appartiennent à tous. <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Acts.14.17"> 
+                                <hi rend="I">Act.</hi>14.17</ref> 
+                        </note> 
+                        <lb/>Mais la Parole est le propre fonds de 
+                        <lb/>l'Eglise. <quote source="bible1588.xml#Ps.119.111"> 
+                            <hi rend="I">Ta loy est mienne , &amp; mon 
+                                <lb/>cœur prise l'a, comme un droict fonds &amp; </hi> 
+                            <note type="margin"> 
+                                <hi rend="I">La parole de Dieu est marque de l'Eglise</hi>
+                            </note>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Ps.119.111"> 
+                                    <hi rend="I">Ps.</hi>119.111.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">son propre heritage</hi> 
+                        </quote>. Le Soleil &amp; la 
+                        <lb/>pluye eschauffent &amp; humectent 
+                        <lb/>tous peuples &amp; nations.</p> 
+                    <p n="26"> 
+                        <lb/>Mais la pluye de la doctrine 
+                        <lb/>celeste ne vient que sur la toison 
+                        <lb/>de Gedeon : le doux Soleil de 
+                        <lb/>l'Esprit vivifiant, est pour le champ 
+                        <lb/>du Seigneur. <quote source="bible1588.xml#Ps.147.20"> 
+                            <hi rend="I">Il n'a pas fait ainsi à tous </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Ps.147.20"> 
+                                    <hi rend="I">Ps.</hi>147.20</ref> 
+                            </note> 
+                             <pb n="30"/> 
+                            <lb/> 
+                            <hi rend="I">peuples &amp; nations, &amp; pourtant ne connoissent- 
+                                <lb/>elles point ses ordonnances</hi> 
+                        </quote>. La 
+                        <lb/>communication par la Parole, est la 
+                        <lb/>vraye marque de la presence du Pere. 
+                        <lb/> 
+                        Il parle, donc il est en la maison, 
+                            <lb/>direz-vous:encor que ie ne le voye, 
+                            <lb/>ie le connois à la voix 
+                        . 
+                        Voix qui regit, 
+                        <lb/>conduit, gouverne &amp; ordonne 
+                        <lb/>toutes choses parmi les siens:ostez la 
+                        <lb/>parole,qu'est-ce de l'Eglise,que sont 
+                        <lb/>ce tous les rites,ordres,mysteres? La 
+                        <lb/>superstitiõ a voulu des images muettes, 
+                        <lb/>qui sont ressemblãces de la chair, 
+                        <lb/>qui n'a rien de semblable à Dieu. 
+                        <lb/>Mais la religion regarde à la parole, 
+                        <lb/>image de la vocation, interprete &amp; 
+                        <lb/>organe de l'Esprit. Les sacremens ne 
+                        <lb/>nous <unclear resp="#CiM" reason="ambiguous">sont</unclear> rien, s'ils ne sont considerez 
+                        <lb/>comme paroles visibles, &amp; tesmoignages 
+                        <lb/>de ce que Dieu nous 
+                        <lb/>presente.</p> 
+                    <p n="27"> 
+                        <lb/>Quand la predication est ostee,la <fw place="bot-right" type="catch">lu-</fw> 
+                         <pb n="31"/> 
+                        <lb/>lumiere est eclypsee, <hi rend="I">adonc se fait la 
+                            <lb/>nuict de toutes parts</hi>, Tenebres d'Ignorance, 
+                        <lb/>d'Erreur,de Vices, de Confusions 
+                        <lb/>couvrent la terre. Quand Dieu 
+                        <lb/>ne fait pas ouïr sa voix,helas!quel triste 
+                        <lb/>silence!C'est bien là une des marques 
+                        <lb/>de son ire, quand il ne daigne 
+                        <lb/>plus nous parler, <quote source="bible1588.xml#Prov.29.18"> 
+                            <hi rend="I">le peuple est dissipé</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Prov.29.18"> 
+                                    <hi rend="I">Prov.</hi>29.18.</ref> 
+                            </note>, 
+                            <lb/><seg type="interpolation">dit le Sage,</seg> 
+                            <hi rend="I">lors que la Prophetie cesse</hi> 
+                        </quote>. 
+                        <lb/>Saul cerche Dieu trop tard, &amp; n'en 
+                        <lb/>peut obtenir aucune parole, car il 
+                        <lb/>estoit courroucé. C'est la mesme 
+                        <lb/>menace que Dieu fait par Esaye, &amp; <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Isa.1.15"> 
+                                <hi rend="I">Esa.</hi> 1.15</ref> 
+                        </note> 
+                        <lb/>que la souveraine sapience denonce 
+                        <lb/>aux prophanes contempteurs de 
+                        <lb/>sa vocation, C'est la punition que <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Prov.1.28"> 
+                                <hi rend="I">Prov</hi>.1.28</ref> 
+                        </note> 
+                        <lb/>l'Eglise Chrestienne doit redouter; 
+                        <lb/>non proprement les pertes des villes, 
+                        <lb/>ou le changement d'Estats: 
+                        <lb/>mais que Dieu oste son chandelier, 
+                        <lb/>&amp; transporte son royaume 
+                        <lb/>ailleurs : non les famines &amp; <pb n="32"/> 
+                        <lb/>pestilences corporelles: mais la faim 
+                        <lb/>de la parole de Dieu dont menaçoit 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Amos.8.11"> 
+                                <hi rend="I">Amos</hi> 8.11.</ref> 
+                        </note> Amos, &amp; la miserable mortalité &amp; 
+                        <lb/>destruction des ames, qui s'en ensuit.</p> 
+                    <p n="28"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Prov.29.18"> 
+                                <hi rend="I">Prov.</hi> 29.18.</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#Prov.29.18"> 
+                            <hi rend="I">Bien-heureux au contraire est le peuple</hi> 
+                        </quote>, 
+                        <lb/>que Dieu instruit par sa Parole, 
+                        <lb/>auquel il parle comme à ses enfans. 
+                        <lb/>Nous honorons ces anciens Peres, 
+                        <lb/>qui avoyent souvẽt des apparitions 
+                        <lb/>&amp; communications angeliques: &amp; 
+                        <lb/>qu'est cela, au prix de la voix de 
+                        <lb/>Dieu mesme, &amp; du Pere qui nous 
+                        <lb/>parle en son Fils, comme dit S.Paul 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.1.1"> 
+                                <hi rend="I">Hebr.</hi>1.1.</ref> 
+                        </note>aux Hebrieux? Combien donc devons 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.119.43"> 
+                                <hi rend="I">Ps.</hi>119.43.</ref> 
+                        </note>nous prier avec David, <quote source="bible1588.xml#Ps.119.43"> 
+                            <hi rend="I">N'arrache 
+                                <lb/>point de ma bouche la parole de ta 
+                                <lb/>verité: car ie me suis attendu à tes ordonnances</hi> 
+                        </quote>.</p> 
+                    <p n="29"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <hi rend="I">Il parle en Pere en l'Evangile</hi> 
+                        </note> II. Disant, <quote source="bible1588.xml#Heb.12.5"> 
+                            <hi rend="I">qu'il parle comme à ses 
+                                <lb/>enfans</hi> 
+                        </quote>, vous entendez bien qu'il y a 
+                        <lb/>difference bien sensible entre les paroles <fw place="bot-right" type="catch">roles</fw> 
+                         <pb n="33"/> 
+                        <lb/>qu'il dit, comme Maistre parlant 
+                        <lb/>à ses serviteurs, ou comme Seigneur 
+                        <lb/>à des esclaves, ou Iuge à des 
+                        <lb/>criminels;&amp; celles qui sont,comme 
+                        <lb/>d'un Pere communiquant avec ses 
+                        <lb/>enfans. Lors que le peuple ouyt la 
+                        <lb/>loy,&amp; ce ton maiestueux &amp; terrible, 
+                        <lb/>il dit,  
+                            <quote source="bibleSegond21.xml#Exod.20.19"> 
+                                <hi rend="I">Que Dieu ne parle plus à nous</hi> 
+                                 
+                            </quote> 
+                         
+                        <lb/>Mais lors qu'il a parlé comme à ses 
+                        <lb/>enfans, l'Eglise respond, Seigneur 
+                        <lb/>parle,tes serviteurs escoutent:David 
+                        <lb/>demande, <quote source="bible1588.xml#Ps.143.8"> 
+                            <hi rend="I">Fay moi ouyr ta misericorde </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Ps.143.8"> 
+                                    <hi rend="I">Ps.</hi>143.8.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">dés le matin,d'autant que ie me suis asseuré 
+                                <lb/>en toi</hi></quote>. S.Paul considere bien ceste 
+                        <lb/>grande diversité,ci apres, &amp; pour accourager 
+                        <lb/>les fideles à la perseverance, 
+                        <lb/>&amp; les asseurer, que nonobstant 
+                        <lb/>leurs foiblesses ils peuvent s'approcher 
+                        <lb/>de Dieu, dira,  
+                            <quote source="bible1588.xml#Heb.12.18:22"> 
+                                <hi rend="I">Vous n'estes pas 
+                                    <lb/>venus à la montagne de Sina fumante, 
+                                    <lb/>&amp;c. mais à la Sion, &amp; Hierusalem celeste, 
+                                    <lb/>&amp;c</hi> 
+                            </quote>. 
+                            <!--citation approximative--> 
+                         
+                    </p> 
+                     <pb n="34"/> 
+                    <p n="30"> 
+                        <lb/>C'est le propre ton de l'Evangile, 
+                        <lb/>&amp; l'accent de l'alliance de grace,que 
+                        <lb/>Dieu parle comme à ses enfans : en 
+                        <lb/>les appelant à la participation de sa 
+                        <lb/>lumiere,les conviant par la douceur 
+                        <lb/>de ses promesses : en les informant 
+                        <lb/>doucement de sa volonté, en les reprenant 
+                        <lb/>charitablement de leurs 
+                        <lb/>fautes. Qui n'aime ceste voix, qui 
+                        <lb/>ne peut porter ces admonitions paternelles, 
+                        <lb/>il orra bien un iour une 
+                        <lb/>autre parole,&amp; un langage plus fort 
+                        <lb/>&amp; terrible, quand il dira,  
+                            <quote source="bible1588.xml#Matt.7.23"> 
+                                <hi rend="I">Arriere de 
+                                    <lb/>moi ouvriers d'iniquité</hi> 
+                            </quote> 
+                         
+                        <hi rend="I">.</hi> 
+                    </p> 
+                    <p n="31"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <hi rend="I">Sa parole a l'authorité, suffisance, &amp; clairté requise 
+                                pour nostre salut.</hi> 
+                        </note> III. Ces mots nous fournissent 
+                        <lb/>aussi une non moins utile, que necessaire 
+                        <lb/>consideration. S'il parle 
+                        <lb/>comme à ses enfans. C'est donc en 
+                        <lb/>sorte que les enfans l'entendent : en 
+                        <lb/>façon qu'ils y apperçoivent l'authorité 
+                        <lb/>du Pere:en maniere qu'ils y trouvent 
+                        <lb/>ce qui suffit pour leur declarer <fw place="bot-right" type="catch">la</fw> 
+                         <pb n="35"/> 
+                        <lb/>la volonté Paternelle. Ie vous prie, 
+                        <lb/>est-il pas vrai que Dieu par l'Escriture 
+                        <lb/>saincte en l'Evangile, nous parle 
+                        <lb/>comme à ses enfans. Aussi ceste parole 
+                        <lb/>est appellee <hi rend="I">Testament.</hi> Testament 
+                        <lb/>n'est pas fait pour des Estrangers; 
+                        <lb/>c'est declaration d'une volonté 
+                        <lb/>Paternelle, qui nomme des heritiers, 
+                        <lb/>&amp; ordonne ce qu'il veut qu'ils 
+                        <lb/>facent. Se peut-il faire qu'on s'imagine, 
+                        <lb/>que celui qui parle comme à 
+                        <lb/>ses enfans en sa parole , le face si 
+                        <lb/>obscurement, qu'ils n'y puissent 
+                        <lb/>apprendre ce qui est necessaire à leur 
+                        <lb/>salut:que la lecture leur en soit dangereuse, 
+                        <lb/>&amp; partant,qu'il la faille tenir 
+                        <lb/>suspecte entre des fideles, &amp; la 
+                        <lb/>lire en langue non entendue au peuple. 
+                        <lb/>Est-il possible, que les enfans &amp; heritiers se laissent beffler 
+                         iusques-là, 
+                        <lb/>que de croire, que Dieu ne 
+                        <lb/>se soucie, que ses enfans s'estudient <pb n="36"/> 
+                        <lb/>à connoistre ce qu'il leur dit?ou qu'il 
+                        <lb/>soit necessaire d'emprunter l'authorité 
+                        <lb/>d'autrui, pour s'asseurer, si c'est 
+                        <lb/>bien lui, ou un autre, si c'est notre 
+                        <lb/>Pere,ou un estranger ; Et il y estoit 
+                        <lb/>parlant <quote source="bible1588.xml#Heb.12.5"> 
+                            <hi rend="I">comme à ses enfans</hi> 
+                        </quote>! Peut-il le 
+                        <lb/>faire, sans qu'on y reconnoisse qu'il 
+                        <lb/>est Pere?Et s'il est tel,qu'elle a son authorité, 
+                        <lb/>quoi qu'il l'attrempe avec 
+                        <lb/>douceur; qu'il est superieur &amp; Pere, 
+                        <lb/>&amp;que sa Parole est d'en haut,sa voix 
+                        <lb/>avec vertu,sa verité pleine d'efficace, 
+                        <lb/>digne de toute foy &amp; obeyssance? 
+                        <lb/>Bref, quand un Pere parle à ses enfans 
+                        <lb/>&amp; leur cõmande, il ne leur parle 
+                        <lb/>pas à demi bouche : Et sur tout,lors 
+                        <lb/>que c'est un Testament, il dit tout 
+                        <lb/>ce qui est necessaire à une entiere &amp; 
+                        <lb/>derniere disposition de ses biens, &amp; 
+                        <lb/>declaration de sa volonté, sans qu'il 
+                        <lb/>y faille ou adiouster ou diminuer.</p> 
+                    <p n="32"> 
+                        <lb/>Si nos adversaires pesoyent ces termes <fw place="bot-right" type="catch">mes</fw> 
+                         <pb n="37"/> 
+                        <lb/>de l'Apostre, certes ils n'oseroyent, 
+                        <lb/>ie di ceux qui ont quelque 
+                        <lb/>conscience, disputer de l'authorité 
+                        <lb/>de la Parole de Dieu, douter de sa 
+                        <lb/>suffisance, ou contester contre sa lumiere.</p> 
+                    <p n="33"> 
+                        <lb/>IV Vous me direz que souvent <note type="margin"> 
+                            <hi rend="I">Cette voix ne laisse d'estre paternelle, quoi qu'elle parle 
+                                és afflictions plus severement.</hi> 
+                        </note> 
+                        <lb/>Dieu parle en Legislateur, en Iuge, 
+                        <lb/>en Maistre,&amp;d'un terrible ton:qu'il 
+                        <lb/>y a des paroles dures,des menaces,&amp; 
+                        <lb/>des censures:diriez volontiers, <quote source="bible1588.xml#John.6.60"> 
+                            <hi rend="I">Qui</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.6.60"> 
+                                    <hi rend="I">Iean </hi>6.60.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">peut porter ces paroles</hi> 
+                        </quote> comme les mal 
+                        <lb/>sages Capernaïtes.Ie respon,qu'il y a 
+                        <lb/>des paroles fortes,des menaces griefves. 
+                        <lb/>Et il en faut. Mais, si vous escoutez 
+                        <lb/>tout, si vous considerez les entrees, 
+                        <lb/>&amp; les issues, vous verrez que 
+                        <lb/>c'est en Pere, &amp; comme à des enfans : 
+                        <lb/>mais ausquels il faut souvent 
+                        <lb/>mesler la severité de l'amertume, avec 
+                        <lb/>la douceur de la charité, <quote source="bible1588.xml#Gal.4.1"> 
+                            <hi rend="I">l'heritier</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Gal.4.1"> 
+                                    <hi rend="I">Gal.</hi>4.1.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">estant mineur doit estre traitté quelquesfois</hi> 
+                             <pb n="38"/> 
+                            <lb/> 
+                            <hi rend="I">comme serf</hi> 
+                        </quote>. Est c'est une des charitez 
+                        <lb/>paternelles, que la salutaire reprehension. 
+                        <lb/> 
+                        Ains que nous verrons ci-apres, 
+                        <lb/>que c'est l'effect de sa grande 
+                        <lb/>misericorde, qu'il nous corrige, &amp; 
+                        <lb/>que tousiours,en ces propos,y a des 
+                        <lb/>marques de paternité, nonobstant 
+                        <lb/>qu'il y ait aussi,comme parle S. Paul, 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Gal.4.20"> 
+                                <hi rend="I">Gal.</hi>4.20.</ref> 
+                        </note> quelque necessaire <quote source="bible1588.xml#Gal.4.20"> 
+                            <hi rend="I">changemẽt de voix</hi> 
+                        </quote>, 
+                        <lb/>à cause du changement qui est en 
+                        <lb/>nous mesmes. Les vrais fideles,comme 
+                        <lb/>on voit en David, le reconnoissent 
+                        <lb/>bien, mais les autres ne peuvent 
+                        <lb/>discerner ces choses : semblables à 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Acts.9.7"> 
+                                <hi rend="I">Act.</hi> 9.7.</ref> 
+                        </note> ces compagnons de S.Paul,qui,lors 
+                        <lb/>que Iesus lui parloit du ciel,ouyrent 
+                        <lb/>bien un son, mais non les paroles; 
+                        <lb/>ou à ceste populace, qui ayant ouy 
+                        <lb/>la voix qui parla à Iesus-Christ , disoit 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.12.29"> 
+                                <hi rend="I">Iean </hi>12.29.</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#John.12.29"> 
+                            <hi rend="I">c'est un tonnerre</hi> 
+                        </quote>. Il est expedient 
+                        <lb/>d'avoir les sens exercez pour bien 
+                        <lb/>entendre les differences de ce langage: <fw place="bot-right" type="catch">ge:</fw> 
+                         <pb n="39"/> 
+                        <lb/>&amp; ne s'enfuïr pas,comme au bruit 
+                        <lb/>du tonnerre, lors que Dieu se veut 
+                        <lb/>demonstrer Pere.</p> 
+                    <p n="34"> 
+                        <lb/>Dieu qui <hi rend="I">parle à ses enfans</hi>, <note type="margin"> 
+                            <quote source="bible1588.xml#Heb.12.7"> 
+                                <hi rend="I">Il nous traite außi en enfans</hi> 
+                            </quote>. 
+                        </note> 
+                        <lb/>ne les traitte pas autrement. Ses actions 
+                        <lb/>ne sont pas, comme il advient 
+                        <lb/>parmi les hommes , contraires 
+                        <lb/>à ses paroles. Nous pouvons 
+                        <lb/>conclurre asseurément de Dieu,que 
+                        <lb/>tant son affection , que ses operations 
+                        <lb/>qui en procedent , seront paternelles. 
+                        <lb/>Ce que S.Paul veut que 
+                        <lb/>nous considerions specialement és 
+                        <lb/>chastimens &amp; corrections. Son affection <note type="margin"> 
+                            <hi rend="I">Il nous aime en vrai Pere.</hi> 
+                        </note> 
+                        <lb/>est un vrai amour , non 
+                        <lb/>semblable au nostre : qui plus souvent 
+                        <lb/>est convoitise,qu'amitié, plustost 
+                        <lb/>cupidité que charité , &amp; se 
+                        <lb/>resould tousiours à nostre propre 
+                        <lb/>interest. Mais Dieu aime vrayement 
+                        <lb/>en Pere , &amp; en vray Pere 
+                        <lb/>qui affectionne ses enfans, <pb n="40"/> 
+                        <lb/>&amp; leur desire tout bien. Or pour ne 
+                        <lb/>nous mesprendre , reconnoissons 
+                        <lb/>que, comme il est Dieu, aussi son amour 
+                        <lb/>est divin: que comme il est 
+                        <lb/>sainct &amp; iuste, aussi son amour n'a 
+                        <lb/> 
+                         
+                            <quote source="bible1588.xml#_1Pet.1.17"> 
+                                <hi rend="I">point d'esgard</hi>, <seg type="interpolation">dit S.Pierre,</seg> 
+                                <hi rend="I">à l'apparence 
+                                    <lb/>des personnes</hi> 
+                            </quote> 
+                        , ne peut repugner ni à 
+                        <lb/>sa iustice,ni à sa saincteté. Il aime ses 
+                        <lb/>enfans, mais non d'un amour aveugle, 
+                        <lb/>&amp; d'une passion sans sapience; 
+                        <lb/>comme font beaucoup de peres indulgens, 
+                        <lb/>qui nuisent plus qu'ils n'aident 
+                        <lb/>aux leurs,entant qu'ils les nourrissent 
+                        <lb/>en leurs vices. Or nostre Seigneur 
+                        <lb/>affectionne vrayement les 
+                        <lb/>siens, mais il ne peut aimer le peché: 
+                        <lb/>supporte bien des infirmitez,mais il 
+                        <lb/>hait la malice;autrement il se haïroit 
+                        <lb/>soi mesme,&amp;destruiroit sa bonté.Il 
+                        <lb/>est impossible qu'il approuve ce qui 
+                        <lb/>vient du malin: ains en cela temoigne-il 
+                        <lb/>combien il les cherit,quand il <fw place="bot-right" type="catch">oste</fw> 
+                         <pb n="41"/> 
+                        <lb/>oste de dessus eux, ce qui necessairement 
+                        <lb/>esmouvoit son ire contre 
+                        <lb/>eux.</p> 
+                    <p n="35"> 
+                        <lb/>L'affection d'un Pere souvent est 
+                        <lb/>inutile, à cause de sa foiblesse, ignorance 
+                        <lb/>ou pauvreté.Il voudroit bien, 
+                        <lb/>mais ne sçait &amp; ne peut procurer à 
+                        <lb/>ses enfans ce qu'il leur souhaite:mais 
+                        <lb/>nous avons un Pere celeste, duquel 
+                        <lb/>la sapience est infinie, &amp; la puissance 
+                        <lb/>incomprehensible, duquel les <quote source="bible1588.xml#Ps.33.18"> 
+                            <hi rend="I">yeux</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Ps.33.18"> 
+                                    <hi rend="I">Psal.</hi>33.18.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">veillent à merveille sur ceux qui le reverent</hi> 
+                        </quote>, 
+                        <lb/>connoist ceux qui sont siens,&amp; 
+                        <lb/>ne les perd iamais de veuë. <quote source="bible1588.xml#Ps.37.18"> 
+                            <hi rend="I">Il voit &amp;</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Ps.37.18"> 
+                                    <hi rend="I">Psal</hi>.37.18.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">sçait par un soin paternel,les iours de ceux 
+                                <lb/>qui ont vie innocente</hi> 
+                        </quote>. Le Prophete 
+                        <lb/>Moyse se represente par la similitude 
+                        <lb/>de l'aigle. <quote source="bible1588.xml#Deut.32.11"> 
+                            <hi rend="I">Comme l'aigle esmeut sa </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Deut.32.11"> 
+                                    <hi rend="I">Deut</hi>.32.11.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">nichee,couve ses petits,estend ses aisles,les 
+                                <lb/>accueille,&amp; les porte sur ses aisles</hi> 
+                        </quote>. 
+                        <quote source="bible1588.xml#Matt.7.9-11"> 
+                            <hi rend="I">Si nous </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Matt.7.9-11"> 
+                                    <hi rend="I">Matth.</hi>7.11.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">qui sommes mauvais</hi>, <seg type="interpolation">dit nostre Seigneur,</seg> 
+                            <lb/> 
+                            <hi rend="I">avons soin de nos enfans,pour</hi> 
+                             <pb n="42"/> 
+                            <lb/> 
+                            <hi rend="I">leur donner les choses bonnes, &amp; ne donnons 
+                                <lb/>pas une pierre en lieu de pain, ni un 
+                                <lb/>serpent pour un poisson</hi> 
+                            <!--citation approximative --> 
+                        </quote>, que sera celui 
+                        <lb/>qui est le parfait en bonté? <hi rend="I">qui nous 
+                            <lb/>donne tout ce dont nous avons à faire</hi> 
+                        ,qui 
+                        <lb/>si souvent nous pardonne,nous previent 
+                        <lb/>par sa misericorde, veille pour 
+                        <lb/>nous lors que nous n'y pensons pas, 
+                        <lb/>sçait mieux que nous mesmes ce qui 
+                        <lb/>nous est expedient. Il conduit &amp; dirige 
+                        <lb/>nos voyes, dispose de nostre estat 
+                        <lb/>&amp; de nostre vie,nous rameine de 
+                        <lb/>nos esgaremens,&amp; nous corrige par 
+                        <lb/>ses visitations, afin que nous ne perissions 
+                        <lb/>avec le monde.</p> 
+                    <p n="36"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <hi rend="I">Aime en chastiant.</hi> 
+                        </note> Ce ne sont point choses incompatibles 
+                        <lb/>amour &amp; chastimẽt,la chair 
+                        <lb/>croit que les verges de Dieu sont arguments 
+                        <lb/>de son ire , mais l'esprit en 
+                        <lb/>iuge tout autrement. Car il voit que 
+                        <lb/>Iesus Christ le Fils , le bien-aimé du 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.5.8"> 
+                                <hi rend="I">Hebr.</hi>5.8.</ref> 
+                        </note> Pere, quoi que Fils a appris <quote source="bible1588.xml#Heb.5.8"> 
+                            <hi rend="I">l'obeyssance</hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">san-</hi> 
+                            </fw> 
+                             <pb n="43"/> 
+                            <lb/> 
+                            <hi rend="I">par les choses qu'il a souffertes </hi> 
+                        </quote>, dit 
+                        <lb/>S.Paul:considere qu'il n'y a eu aucun 
+                        <lb/>des enfans de Dieu,qui n'y ait esté 
+                        <lb/>sousmis, &amp; que la tribulation ne 
+                        <lb/>les a point separez ; (or c'est le propre 
+                        <lb/>effect de la haine &amp; de l'ire, d'esloigner 
+                        <lb/>&amp; retrancher) <quote source="bible1588.xml#Rom.8.38"> 
+                            <hi rend="I">ni divisez de l'amour </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Rom.8.38"> 
+                                    <hi rend="I">Rom</hi>.8.38.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">de Dieu</hi> 
+                        </quote>, qui nous est porté en 
+                        <lb/>Iesus Christ : ains au contraire que 
+                        <lb/>ceste discipline, en les separant du 
+                        <lb/>monde, les a d'autant plus approchez 
+                        <lb/>de la communion divine. Ce 
+                        <lb/>qui est le vrai effect de l'amour de 
+                        <lb/>Dieu.</p> 
+                    <p n="37"> 
+                        <lb/>Voilà comme les fideles se consolent, <note type="margin"> 
+                            <hi rend="I">Response aux obiections</hi> 
+                            <hi rend="I"> de la chair.</hi> 
+                        </note> 
+                        <lb/>quand ils sont visitez de la main 
+                        <lb/>de Dieu.Si Dieu nous reiettoit, il ne 
+                        <lb/>nous toucheroit pas de sa main paternelle. 
+                        <lb/>Il abandonne les incorrigibles, 
+                        <lb/>&amp; ceux qu'il ne chastie plus, 
+                        <lb/>sont laissez comme incurables, reservez 
+                        <lb/>à leur derniere perdition, <pb n="44"/> 
+                        <lb/>ne plus ne moins que les medecins 
+                        <lb/>abandonnent ceux,de la santé desquels 
+                        <lb/>ils desesperent. Mais il me refuse 
+                            <lb/>tant de choses que ie desire, diras-tu. 
+                        <lb/>Et donnerois-tu a ton enfant 
+                        <lb/>tout ce qu'il te demande?lui ostes- 
+                        <lb/>tu pas plustost le feu, &amp; le couteau, 
+                        <lb/>afin qu'il ne s'en blesse? Certes les 
+                        <lb/>choses que plus nous aimons, nous 
+                        <lb/>en abusons à nostre ruine. Mais ie 
+                            <lb/>sens une main si aspre,dis-tu, qui me 
+                            <lb/>serre si fort &amp; me donne des estreintes 
+                            <lb/>si rudes. Et quand il faut tirer un 
+                        <lb/>homme du feu, n'y va on pas avec 
+                        <lb/>toute la force?&amp;qui plus aime,court 
+                        <lb/>avec plus de vehemence, &amp; empoigne 
+                        <lb/>avec plus de rudesse. Si tu estois 
+                            <lb/>dans l'eau, en danger de te noyer, 
+                            <lb/>trouverois-tu bon que ton ami, par 
+                            <lb/>un cruel respect, fist difficulté de 
+                            <lb/>t'arracher par les cheveux, ou de te 
+                            <lb/>retirer par un bras, en danger de le <fw place="bot-right" type="catch">tor-</fw> 
+                             <pb n="45"/> 
+                            <lb/>tordre, &amp;, qu'attendant la commodité 
+                            <lb/>de te prendre doucement, il te 
+                            <lb/>laissast perir mal-heureusement?  
+                        <lb/>Qui veut guerir une playe, ou couper 
+                        <lb/>une apostume, il n'y faut pas 
+                        <lb/>touiours des lenitifs, il y faut souvent 
+                        <lb/>le fer,mesme le feu;mais il nous 
+                        <lb/>advient, comme au malade, qui ne 
+                        <lb/>connoissant point encor la grandeur 
+                        <lb/>de son mal, trouve estrange les 
+                        <lb/>necessaires ordonnances d'un sage 
+                        <lb/>medecin, qui n'a plus grande affection 
+                        <lb/>que de rendre la santé au patient. 
+                        <lb/>Il le connoist à la fin,&amp; apres 
+                        <lb/>une belle cure, paye son chirurgien, 
+                        <lb/>qui l'a beaucoup tourmente:&amp;se reconnoist 
+                        <lb/>obligé au medecin, qui a 
+                        <lb/>combattu le mal pour sauver le malade. 
+                        <lb/> 
+                         
+                            <quote source="#..."> 
+                                <hi rend="I">Nous ne sçavons pas ce que Dieu 
+                                    <lb/>fait à present</hi> 
+                            </quote> 
+                        , comme disoit Iesus 
+                        <lb/>Christ à S. Pierre, mais nous le connoistrons 
+                        <lb/>un iour, &amp; lui rendrons <pb n="46"/> 
+                        <lb/>graces de ses chastimens, car il chastie 
+                        <lb/>l'enfant qu'il aime;&amp; ses fleaux 
+                            <lb/>qui nous effrayent &amp; affligent, pestes, 
+                            <lb/>guerres,famines,pauvretez,maladies, 
+                            <lb/>&amp; autres miseres 
+                        ,se <choice><sic>recconnoistront</sic><corr resp="#CiM">reconnoistront</corr></choice>, 
+                        <lb/>comme instruments maniez 
+                        <lb/>pour nostre bien par une main tres-sage, 
+                        <lb/>pleine de misericorde &amp; charité.</p> 
+                    <p n="38"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <hi rend="I">Son amour est eternel.</hi> 
+                        </note> Finalement, cest amour paternel, 
+                        <lb/>qui nous a aimez avant que nous 
+                        <lb/>l'aimassions, &amp; qui par diverses voyes 
+                        <lb/>nous ameine à sa communion, 
+                        <lb/>persevere iusques à la fin, comme il 
+                        <lb/>est dit de nostre Seigneur en S.Iean, 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.13.1"> 
+                                <hi rend="I">Iean</hi> 13.1.</ref> 
+                        </note> 
+                        <hi rend="I"> </hi> 
+                        <quote source="bible1588.xml#John.13.1"> 
+                            <hi rend="I">Comme ainsi fust qu'il eust aimé les siens, 
+                                <lb/>qui estoyent au monde, il les aima iusqu'à 
+                                <lb/>la fin</hi> 
+                        </quote>. 
+                        <hi rend="I"> </hi> 
+                        <quote source="bible1588.xml#Isa.49.15"> 
+                            <hi rend="I">Si la mere oublie son enfant</hi>, 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Isa.49.15"> 
+                                    <hi rend="I">Esa</hi>.49.15</ref> 
+                            </note> <seg type="interpolation">dit Esaye,</seg> 
+                            <hi rend="I">lui pourtant n'oublie iamais 
+                                <lb/>les siens. Ie t'ay pourtraict sur la paulme 
+                                <lb/>de ma main, tes murs sont continuellement 
+                                <lb/>devant moi</hi> 
+                        </quote>, dit à l'Eglise, <fw place="bot-right" type="catch">glise</fw> 
+                         <pb n="47"/> 
+                        <lb/> 
+                        <ref type="bible" target="bibleSegond21.xml#Isa.49">en Esaye, au mesme chapitre</ref>. 
+                        <lb/>Le monde ne peut interrompre le 
+                        <lb/>cours de ceste bienvueillance, &amp; les 
+                        <lb/>persecutions des hommes, &amp; les accusations 
+                        <lb/>de Satan ne sçauroyent en 
+                        <lb/>divertir les effects, &amp; la mort n'en 
+                        <lb/>peut empescher la communication: 
+                        <lb/>car cest <hi rend="I">amour est plus puissant que la 
+                            <lb/>mort, &amp; ceste charité plus forte que le sepulchre.</hi> 
+                    </p> 
+                    <p n="39"> 
+                        <lb/>La dilection , qui est dés les 
+                        <lb/>temps eternels, des devant la fondation 
+                        <lb/>du monde , a une duree 
+                        <lb/>sans fin, de siecle en siecle, &amp; produit 
+                        <lb/>un poids de gloire excellemment 
+                        <lb/>excellente, en ceux, qu'il a 
+                        <lb/>precognus de toute eternité , &amp; 
+                        <lb/>qu'il veut aussi glorifier par devers 
+                        <lb/>soy en l'immortalité bien-heureuse. 
+                        <lb/>Et c'est en suite de la clause du 
+                        <lb/>contract de nostre Seigneur , qui 
+                        <lb/>porte,comme dit Osee. <quote source="bible1588.xml#Hos.2.19"> 
+                            <hi rend="I">Ie t'espouseray</hi> 
+                             <pb n="48"/> 
+                            <lb/> 
+                            <hi rend="I">pour moi à tousiours, voire ie t'espouseray 
+                                <lb/>pour moi en iustice &amp; en iugement.Mesmes 
+                                <lb/>ie t'espouserai en fermeté</hi> 
+                            </quote>.
+                    </p>
+                                <p n="40"> 
+                                    <lb/>C'est vrayement parler &amp; traitter 
+                                    <lb/>en Pere,quand,par le mariage de son 
+                                    <lb/>Fils,il nous embrasse en ses compassions 
+                                    <lb/>infinies. Mais cela paroistra 
+                                    <lb/>bien plus ouvertement quand Iesus 
+                                    <lb/>Christ dira,  
+                                        <quote source="bible1588.xml#Matt.25.34"> 
+                                            <hi rend="I">Venez les benits de mon Pere, 
+                                                <lb/>possedez l'heritage qui vous a esté 
+                                                preparé</hi> 
+                                        </quote> 
+                                    , 
+                                    <lb/>&amp;c.</p> 
+                                <p n="41"> 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <hi rend="I">Reciproque devoir des enfans</hi> 
+                                    </note> La procedure que Dieu tient envers 
+                                    <lb/>nous estant telle, quel sera nostre 
+                                    <lb/>devoir?Il parle,il opere en Pere. 
+                                    <lb/>C'est à nous d'escouter &amp; respondre. 
+                                    <lb/>C'est à nous de nous comporter 
+                                    <lb/>en vrais enfans.</p> 
+                                <p n="42"> 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <hi rend="I">Le cognoistre.</hi> 
+                                    </note> Reconnoissons la grace,qu'il nous 
+                                    <lb/>fait,l'honneur infini,inestimable,indicible, 
+                                    <lb/>de nous avoir appellez ses 
+                                    <lb/>enfans:qui est un Nom glorieux par 
+                                    <lb/>dessus tout Nom.Meilleur que tout <fw place="bot-right" type="catch">ce qui</fw> 
+                                     <pb n="49"/> 
+                                    <lb/>ce qui se nomme au ciel &amp; en terre: 
+                                    <lb/>plus important que nous ne sçaurions 
+                                    <lb/>dire:Le monde n'en connoist 
+                                    <lb/>point l'excellence, <quote source="bible1588.xml#_1John.3.1-2"> 
+                                        <hi rend="I">d'autant qu'il ne l'a </hi> 
+                                        <note type="margin"> 
+                                            <ref type="bible" target="bibleSegond21.xml#_1John.3.1-2">1.<hi rend="I">Iean</hi> 3.2.</ref> 
+                                        </note> 
+                                        <lb/> 
+                                        <hi rend="I">point cognu</hi>, <seg type="interpolation">dit S.Iean:</seg> 
+                                        <hi rend="I">mais ce que nous 
+                                            <lb/><unclear resp="#CiM" reason="ambiguous">serons</unclear></hi> 
+                                        <hi rend="I">, n'est pas encores apparu</hi> 
+                                    </quote>. Connoissõs 
+                                    <lb/>si nous sommes enfans:qui, 
+                                    <lb/>&amp; quel est ce Pere, si bon &amp; si charitable, 
+                                    <lb/>qui nous parle en son Fils, &amp; 
+                                    <lb/>nous vivifie par son Esprit. Et d'autant 
+                                    <lb/>plus le faut-il,que ceste est <quote source="bible1588.xml#John.17.3"> 
+                                        <hi rend="I">la vie </hi> 
+                                        <note type="margin"> 
+                                            <ref type="bible" target="bibleSegond21.xml#John.17.3"> 
+                                                <hi rend="I">Iehan</hi> 17.3.</ref> 
+                                        </note> 
+                                        <lb/> 
+                                        <hi rend="I">eternelle de le cognoistre seul &amp; vrai Dieu 
+                                            <lb/>&amp; celui qu'il a envoyé Iesus Christ</hi> 
+                                    </quote>.</p> 
+                                <p n="43"> 
+                                    <lb/>Discernons sa voix &amp; sa face d'avec <note type="margin"> 
+                                            <hi rend="I">Discerner les faux Peres &amp; faux 
+                                                Pasteurs.</hi> 
+                                    </note> 
+                                    <lb/>l'adultere, qui se veut porter en 
+                                    <lb/>Pere,&amp;pretend dominer sur les consciences, 
+                                    <lb/>&amp; faire du maistre en l'Eglise, 
+                                    <lb/>par usurpatiõ des droicts de Dieu. 
+                                    <lb/>Gardons nous d'estre surprins de ces 
+                                    <lb/>douceurs charmeresses , &amp; ne nous 
+                                    <lb/>laissons point aller aux affectes blãdices 
+                                    <lb/>&amp; aux promesses du monde. <pb n="50"/> 
+                                    <lb/>Et quoi que le Seigneur nous reprenne, 
+                                    <lb/>&amp; tanse,sachons que ses censures 
+                                    <lb/>&amp; corrections nous sont autant 
+                                    <lb/>de bausme, &amp; valent mieux que les 
+                                    <lb/>delices des traistres.</p> 
+                                <p n="44"> 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <hi rend="I">Escouter en docilité, avec obeyssance &amp; 
+                                            imitatiõ cõme doivent enfans.</hi> 
+                                    </note> Ce n'est pas tout d'ouyr la voix 
+                                    <lb/>&amp; dire,  
+                                        <hi rend="I">C'est le Seigneur</hi> 
+                                     
+                                    <hi rend="I">.</hi>Il lui faut prester 
+                                    <lb/>audience, &amp; comme enfans obeyssans, 
+                                    <lb/>escouter en humilité,&amp; recevoir 
+                                    <lb/>en docilité ce qu'il lui plaist 
+                                    <lb/>nous enseigner. Ne faisons pas la 
+                                    <lb/>sourde oreille, &amp; <quote source="bible1588.xml#Heb.4.7"> 
+                                        <hi rend="I">n'endurcissons nos 
+                                            <lb/>cœurs tandis que nous oyons sa voix</hi> 
+                                        <!--citation approximative: ordre de phrases inversé et en vous--> 
+                                    </quote>; 
+                                    <lb/>Ceux qui oyẽt sans en faire estat,ou, 
+                                    <lb/>ayans esté esmeus pour un coup,secouans 
+                                    <lb/>toute crainte, que sa Parole 
+                                    <lb/>leur imprimoit,revienẽt à leur train, 
+                                    <lb/>n'escoutent pas en enfans, mais en 
+                                    <lb/>mocqueurs, ou en hypocrites. Il y 
+                                    <lb/>en a,qui ont un esprit de serviteurs 
+                                    <lb/>&amp; d'esclaves, qui ne croyent qu'à 
+                                    <lb/>mesure qu'ils sentent, et ne portent <fw place="bot-right" type="catch">re-</fw> 
+                                     <pb n="51"/> 
+                                    <lb/>respect que par crainte. Veux tu respondre 
+                                    <lb/>à ceste qualité du langage 
+                                    <lb/>paternel?Que ta foy embrasse la verité. 
+                                    <lb/>Que ton amour s'enracine en la 
+                                    <lb/>charité. Que ton cœur se sousmette 
+                                    <lb/>à ses commandemens. Que ta conscience 
+                                    <lb/>s'ouvre en sa presence. Que 
+                                    <lb/>ton entendement se captive à la verité; 
+                                    <lb/>Que tout ton esprit s'adonne 
+                                    <lb/>&amp; se vouë à son service. Ce sera lors 
+                                    <lb/>ouyr en qualité d'enfant, celui qui 
+                                    <lb/>nous affectionne en Pere. Ce sera 
+                                    <lb/>respondre à ses demandes par obeïssance, 
+                                    <lb/>&amp; correspondre à sa nature, 
+                                    <lb/>par la ressemblance de son image, imitant 
+                                    <lb/>sa verité &amp; charité. Il n'est 
+                                    <lb/>pas raisonnable,que si le Pere est iuste, 
+                                    <lb/>les enfans s'addonnent à meschanceté: 
+                                    <lb/>s'il est sainct, ils aiment la 
+                                    <lb/>prophanité, s'il est misericordieux, 
+                                    <lb/>ils soyent inhumains,s'il est veritable 
+                                    <lb/>qu'ils soyent menteurs.</p> 
+                                 <pb n="52"/> 
+                                <p n="45"> 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <hi rend="I">N'avoir hõte de lui, ains l'honorer.</hi> 
+                                    </note> Sur tout est requis,si nous le confessons 
+                                    <lb/>Pere, que nous n'ayons iamais 
+                                    <lb/>honte de son Nom. Gardons 
+                                    <lb/>bien de fourrer parmi ses enseignes, 
+                                    <lb/>les livres de Satan,&amp; les characteres 
+                                    <lb/>du fils de perdition. Les enfans bien 
+                                    <lb/>nez souffrent plustost la perte de leur 
+                                    <lb/>vie,que de porter opprobre,ou laisser 
+                                    <lb/>une tache au nom de leur maison: 
+                                    <lb/>&amp; faut-il, que pour l'amour de 
+                                    <lb/>nous, le nom de nostre Pere celeste 
+                                    <lb/>soit blasphemé?Nous-nous esmouvons 
+                                    <lb/>pour l'honneur de nos Peres:&amp; 
+                                    <lb/>combiẽ plus le devrions-nous pour 
+                                    <lb/>le zele de la gloire de Dieu, &amp; pour 
+                                    <lb/>le bien de sa maison?Le sang ne peut 
+                                    <lb/>mentir,si l'Esprit de Dieu est dedans 
+                                    <lb/>nous,il n'y peut estre ni dissimulé,ni 
+                                    <lb/>desguisé. En cela serons nous connus 
+                                    <lb/>vrayement enfans, si nous honorons 
+                                    <lb/>son Nom, &amp; preferons sa 
+                                    <lb/>gloire à toutes les choses du monde. <fw place="bot-right" type="catch">En</fw> 
+                                     <pb n="53"/> 
+                                    <lb/>En cela nous mõstrerons nous vrais 
+                                    <lb/>domestiques de Dieu, si nous aimons 
+                                    <lb/>mieux demeurer en sa maison, 
+                                    <lb/>qu'és tabernacles des meschans.</p> 
+                                <p n="46"> 
+                                    <lb/>Quand il lui plaist de nous visiter, <note type="margin"> 
+                                        <hi rend="I">Ne craindre point de le prier, ains se fier en 
+                                            lui. </hi> 
+                                    </note> 
+                                    <lb/>apprenons à ne fremir iamais 
+                                    <lb/>comme bestes farouches, ou murmurer 
+                                    <lb/>contre lui, comme des esclaves, 
+                                    <lb/>grincer les dents de rage comme 
+                                    <lb/>des desesperez : ains que nostre voix 
+                                    <lb/>soit d'enfans, nostre ton de fideles, 
+                                    <lb/>en prieres sainctes, en humbles gemissemens. 
+                                    <lb/>Ne craignons point de 
+                                    <lb/>lui parler. Ne faisons pas difficulté 
+                                    <lb/>de nous adresser à lui , l'invoquans 
+                                    <lb/>de tout nostre coeur,parce, qu'il se 
+                                    <lb/>declare Pere, &amp; veut que nous-nous 
+                                    <lb/>confions en sa grace ; car puis qu'il 
+                                    <lb/>nous parle &amp; nous traitte en enfans, 
+                                    <lb/>c'est bien signe,qu'il veut que nous 
+                                    <lb/>recourions à lui en ceste mesme qualité.</p> 
+                                 <pb n="54"/> 
+                                <p n="47"> 
+                                    <lb/>Ceste doctrine fournit une merveilleuse 
+                                    <lb/>consolation, dans les plus 
+                                    <lb/>rudes angoisses,&amp;cõferme les cœurs 
+                                    <lb/>de tous ceux qui croyent, en vraye 
+                                    <lb/>patience &amp; constance Chrestienne, 
+                                    <lb/>pour attendre le secours infaillible à 
+                                    <lb/>tous ceux qui l'invoquent en verité.</p> 
+                                <p n="48"> 
+                                    <lb/>Mais gardons nous bien,quand il 
+                                    <lb/>nous traitte en enfans,de lui opposer 
+                                    <lb/>des esprits &amp; affections, qui ne sentent 
+                                    <lb/>en rien l'enfant, que Moyse appelle, 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#Deut.32.5"> 
+                                            <hi rend="I">Deut. </hi>32.5.</ref> 
+                                    </note> 
+                                    <quote source="bible1588.xml#Deut.32.5"> 
+                                        <hi rend="I">crimes &amp; taches non d'enfans</hi> 
+                                    </quote>, 
+                                    <lb/>mais d'une generation reprouvee,&amp; 
+                                    <lb/>qui est toute imbue de la malice du 
+                                    <lb/>diable,duquel nostre Seigneur dit, 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#John.8.44"> 
+                                            <hi rend="I">Iean</hi> 8.44.</ref> 
+                                    </note> estre enfans ceux <quote source="bible1588.xml#John.8.44"> 
+                                        <hi rend="I"> qui font ses œuvres</hi> 
+                                    </quote>, 
+                                    <lb/>&amp; suivent ses conseils.</p> 
+                                <p n="49"> 
+                                    <lb/>Et pourtant, afin que nous evitions 
+                                    <lb/>ce dangereux escueil, il nous 
+                                    <lb/>faut examiner nos propres defauts, 
+                                    <lb/>&amp; revoir nos procedures, &amp; nous <fw place="bot-right" type="catch">trou-</fw> 
+                                     <pb n="55"/> 
+                                    <lb/>trouverons, que le reproche que S. 
+                                    <lb/>Paul fait ici, n'est que trop commũ, 
+                                    <lb/>&amp; que les fautes, desquelles le Sage 
+                                    <lb/>nous veut destourner, nous sont 
+                                    <lb/>trop ordinaires. S. Paul accuse les 
+                                    <lb/>Hebrieux d'avoir oublié l'advertissement: 
+                                    <lb/>&amp; le Sage advertissoit, <quote source="bible1588.xml#Heb.12.5"> 
+                                        <hi rend="I">de ne 
+                                            <lb/>negliger point la discipline</hi> 
+                                    </quote> du Seigneur 
+                                    <lb/>d'un costé: d'autre part,à ne perdre 
+                                    <lb/>courage,quand on est visité. Conioignons 
+                                    <lb/>ces choses,&amp;nous verrons, 
+                                    <lb/>comme nos foiblesses nous portent 
+                                    <lb/>d'un mal à l'autre,d'une oubliance, 
+                                    <lb/>qui sembloit au commencement estre 
+                                    <lb/>sans crime,à une nonchalance 
+                                    <lb/>qui n'est pas sans coulpe, car elle est 
+                                    <lb/>avec mespris;&amp;finalement,du rebut 
+                                    <lb/>de la remonstrance, à une pusillanimité 
+                                    <lb/>honteuse &amp; detestable lascheté 
+                                    <lb/>qui nous fait succomber soubs le 
+                                    <lb/>faix.</p> 
+                                <p n="50"> 
+                                    <lb/>C'est chose pitoyable que nous, <note type="margin"> 
+                                        <hi rend="I">Nous sommes oublieux de nostre devoir.</hi> 
+                                    </note> 
+                                     <pb n="56"/> 
+                                    <lb/>qui avons si bonne memoire de ce 
+                                    <lb/>qui touche nostre interest és choses 
+                                    <lb/>du monde, l'ayons si courte en 
+                                    <lb/>ce qui est de nostre bien eternel : une 
+                                    <lb/>conception meschante &amp; ridicule, 
+                                    <lb/>une inspiration,ou de vanité,ou de 
+                                    <lb/>vengeance,ne se peut iamais effacer 
+                                    <lb/>de nostre coeur : mais les admonitions 
+                                    <lb/>de la parole de Dieu s'escoulent 
+                                    <lb/>à l'instant : nous regardons la 
+                                    <lb/>loy,comme un qui contemple sa face 
+                                    <lb/>dans le mirouër,&amp;aussi tost l'oublie. 
+                                    <lb/>Cette ingrate oubliance fait 
+                                    <lb/>que nous mesconnoissons le rocher 
+                                    <lb/>de nostre force, &amp; le Pere qui nous a 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#Deut.32.18"> 
+                                            <hi rend="I">Deut</hi>.32.18.</ref> 
+                                    </note> 
+                                    formez, dit 
+                                    Moyse. Ne fut-ce pas 
+                                    <lb/>une horrible legereté, qu'aussi tost 
+                                    <lb/>que Moyse fut monté à la montagne, 
+                                    <lb/>le peuple ne se souvint plus ne 
+                                    <lb/>du serviteur, ne du maistre, &amp; alla 
+                                    <lb/>cercher d'autres dieux.Combien de 
+                                    <lb/>fois, dit le Pseaume 78. apres avoir <fw place="bot-right" type="catch">esté</fw> 
+                                     <pb n="57"/> 
+                                    <lb/>esté delivrez,retournoyent-ils à leur 
+                                    <lb/>incredulité &amp; irritation? Ce qui 
+                                    <lb/>provoqua l'ire de Dieu contre eux 
+                                    <lb/>pour les exterminer tous dans le desert. 
+                                    <lb/>Dieu vouloit que parmi son 
+                                    <lb/>peuple,&amp;en leurs habits &amp; en leurs 
+                                    <lb/>paroys, il eust des <hi rend="I">memoriaux</hi>, 
+                                    <lb/>qui leur remettoyent en pensee, &amp; 
+                                    <lb/>les graces de Dieu &amp; leur devoir. Es 
+                                    <lb/>sacrifices aussi il y avoit ce qu'on 
+                                    <lb/>appelloit <hi rend="I">le memorial</hi> : &amp; nostre Seigneur 
+                                    <lb/>en la saincte Cene,Sacrement 
+                                    <lb/>de son sacrifice, nous commande 
+                                    <lb/>de la celebrer <hi rend="I">en sa commemoration</hi>; 
+                                    <lb/>mais les aides externes de la memoire 
+                                    <lb/>ne peuvent de rien servir, s'il n'y 
+                                    <lb/>a dedans nostre cœur une forte impression 
+                                    <lb/>de l'amour de Dieu, C'est 
+                                    <lb/>celui-là qui resveille les fideles, 
+                                    <lb/>&amp; les empesche de tomber en 
+                                    <lb/>cette dangereuse oubliance. Il <note type="margin"> 
+                                        <hi rend="I">L'oubliance n'ẽpesche point l'infidelité.</hi> 
+                                    </note> 
+                                    <lb/>semble que l'oubliance excuse <pb n="58"/> 
+                                    <lb/>certaines fautes parmi les hommes, 
+                                    <lb/>mais cela n'a lieu qu'en choses indifferentes 
+                                    <lb/>non necessaires,ausquelles 
+                                    <lb/>tu n'estois point obligé: mais, en 
+                                    <lb/>ce qui concerne ton devoir, ton serment, 
+                                    <lb/>où il va de ta conscience, de 
+                                    <lb/>ton tout;il n'y a ni raison, ni defense, 
+                                    <lb/>ni pretexte, qui puisse absoudre 
+                                    <lb/>telles oubliances. Vn ingrat,qui a receu 
+                                    <lb/>un bienfaict, osera-il couvrir sa 
+                                    <lb/>mesconnoissance, disant, qu'il l'a 
+                                    <lb/>oublié?Les peres ou meres inhumaines, 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#_1Tim.5.8"> 
+                                            <gap resp="#CiM" unit="character" quantity="1" reason="illegible"/> 
+                                            <hi rend="I">Tim</hi>. 5.8.</ref> 
+                                    </note> qui n'ayans soin <quote source="bible1588.xml#_1Tim.5.8"> 
+                                        <hi rend="I">dés leurs sont pires 
+                                            <lb/>qu'infideles</hi> 
+                                    </quote>, oseroyent elles parler 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#Isa.49.15"> 
+                                            <hi rend="I">Esa. </hi>49.15<hi rend="I">.</hi> 
+                                        </ref> 
+                                    </note> d'oubliance, <quote source="bible1588.xml#Isa.49.15"> 
+                                        <hi rend="I">la mere oublieroit-elle son 
+                                            <lb/>enfant</hi> 
+                                    </quote>, dit le Prophete Esaye, un Pasteur 
+                                    <lb/>son troupeau,un Magistrat son 
+                                    <lb/>peuple, un Chef &amp; conducteur la 
+                                    <lb/>compagnie qui lui est commise?Et, 
+                                    <lb/>dequoi nous pourrions-nous couvrir, 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#Ps.103.2"> 
+                                            <hi rend="I">Ps.</hi> 103.2.</ref> 
+                                    </note> si nous <quote source="bible1588.xml#Ps.103.2"> 
+                                        <hi rend="I">oublions tant de benefices 
+                                            <lb/>qu'avons</hi> 
+                                    </quote> receu de Dieu, si nous perdons <fw place="bot-right" type="catch">dons</fw> 
+                                     <pb n="59"/> 
+                                    <lb/>la memoire de tant d'advertissemens 
+                                    <lb/>du Pere celeste , &amp; n'avons 
+                                    <lb/>plus souvenance des clauses de son 
+                                    <lb/>Testament,qui sont le droict de nostre 
+                                    <lb/>heritage?Si nous l'aimons,nous 
+                                    <lb/>en garderons la souvenance: <quote source="bible1588.xml#John.14.15"> 
+                                        <hi rend="I">si vous 
+                                            <lb/>m'aimez</hi>, <seg type="interpolation">dit le Fils de Dieu,</seg> 
+                                        <hi rend="I">vous garderez </hi> 
+                                        <note type="margin"> 
+                                            <ref type="bible" target="bibleSegond21.xml#John.14.15"> 
+                                                <hi rend="I">Iean</hi> 14.15</ref> 
+                                        </note> 
+                                        <lb/> 
+                                        <hi rend="I">mes commandemens</hi> 
+                                    </quote>. Qui aime 
+                                    <lb/>de cœur, n'oublie iamais: ce qu'il 
+                                    <lb/>aime,lui es touiours present:ou lui 
+                                    <lb/>plustost, est plus en la chose qu'il aime, 
+                                    <lb/>qu'en soi-mesme.Advisons dõc 
+                                    <lb/>à ceci,qu'autant que nous oublions 
+                                    <lb/>le devoir envers Dieu,autant nous 
+                                    <lb/>diminuons de l'amour, &amp; nous departons 
+                                    <lb/>de sa communion. Voila 
+                                    <lb/>pourquoi les fideles,pour remedier 
+                                    <lb/>à ce danger,prennent en gré toutes 
+                                    <lb/>les occasions des advertissemens de 
+                                    <lb/>la parole, &amp; de la participation aux 
+                                    <lb/>saincts Sacremens , pour revenir à 
+                                    <lb/>cette bien-heureuse presence &amp; salutaire <pb n="60"/> 
+                                    <lb/>communication.</p> 
+                                <p n="51"> 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <hi rend="I">Nous sommes suiets à deux defauts. L'un venant 
+                                            d'orgueil, l'autre de foiblesse.</hi> 
+                                    </note> Les deux defauts marquez par le 
+                                    <lb/>Sage,qui font perdre tout l'usage de 
+                                    <lb/>l'affliction,sont,l'un <hi rend="I">Mespris</hi> ou <hi rend="I"><choice><sic>Reiection</sic><corr resp="#MAG">Rejection</corr></choice></hi> 
+                                    , 
+                                    <lb/>que S.Paul a nommee d'une 
+                                    <lb/>parole qui signifie <hi rend="I">Negligence</hi>;mais, 
+                                    <lb/>comme d'une chose, de laquelle on 
+                                    <lb/>fait peu d'estat : l'autre, c'est <hi rend="I">Ennuy</hi> 
+                                    <lb/>&amp; <hi rend="I">Tristesse</hi> desmesuree, que S.Paul a 
+                                    <lb/>nommee d'un terme, qui signifie, 
+                                    <lb/>Lascheté, Foiblesse ou Defaillance 
+                                    <lb/>de cœur. Le premier vient d'orgueil, 
+                                    <lb/>le second d'un autre vice opposé 
+                                    <lb/>en l'autre extremité. Et ne se 
+                                    <lb/>faut estonner de cela. Il y a des 
+                                    <lb/>cœurs hautains , qui mesprisent 
+                                    <lb/>tout, il y a des timides qui s'effrayent 
+                                    <lb/>&amp; se desesperent dans l'affliction. 
+                                    <lb/>Ce qui mesmes advient en 
+                                    <lb/>une mesme personne : car, il n'y a 
+                                    <lb/>rien de si vrai , que d'une extremité 
+                                    <lb/>on tombe à l'autre. Celuy <fw place="bot-right" type="catch">qui</fw> 
+                                     <pb n="61"/> 
+                                    <lb/>qui a combattu contre Dieu par 
+                                    <lb/>mespris de sa parole , par desdain 
+                                    <lb/>de ses advertissemens, vous le verrez 
+                                    <lb/>apres cela un iour tomber dans 
+                                    <lb/>la frayeur, tremblement, &amp; desespoir : 
+                                    <lb/>celui qui a esté presomptueux, 
+                                    <lb/>se confiant en son bras 
+                                    <lb/>ou en ses œuvres ; apres avoir essayé 
+                                    <lb/>la fausseté de son esperance, 
+                                    <lb/>tombe mesmes en desfiance de 
+                                    <lb/>Dieu. Ce sont deux escueils,tous 
+                                    <lb/>deux pernicieux. Au chemin de 
+                                    <lb/>salut,il faut abbaisser les costaux eslevez 
+                                    <lb/>d'orgueil, &amp; relever les fondrieres 
+                                    <lb/>de desfiance , afin que tu 
+                                    <lb/>ailles par une voye du milieu , recevant 
+                                    <lb/>sa correction en humilité 
+                                    <lb/>patiente , &amp; en obeyssance filiale, 
+                                    <lb/>comme elle t'est addressee avec 
+                                    <lb/>charité &amp; bien-vueillance paternelle.</p> 
+                                <p n="52"> 
+                                    <lb/>L'esprit orgueilleux commence <note type="margin"> 
+                                        <hi rend="I">Mespris du chastiment.</hi> 
+                                    </note> 
+                                     <pb n="62"/> 
+                                    <lb/>par le mespris, &amp; de la vient au despit 
+                                    <lb/>&amp; irritation: &amp; tout,pource qu'il 
+                                    <lb/>souffre avec tres-grand desplaisir la 
+                                    <lb/>remonstrance, &amp; encore plus les chastimens. 
+                                    <lb/>Au commencement,il fait 
+                                    <lb/>semblant de ne rien entendre, contrefait 
+                                    <lb/>le sourd &amp; l'ignorant,comme 
+                                    <lb/>si on ne lui parloit pas,&amp;monstre au 
+                                    <lb/>dehors un visage asseuré, combien 
+                                    <lb/>qu'il porte dans le sein ce qui le trãsperce. 
+                                    <lb/>Dissimule tant qu'il peut,quoi 
+                                    <lb/>qu'il se sente vivement picqué;&amp;sur 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#Amos.5.10"> 
+                                            <hi rend="I">Amos</hi> 5.10.</ref> 
+                                    </note> toutes choses, <quote source="bible1588.xml#Amos.5.10"> 
+                                        <hi rend="I">hait ceux qui le redarguent 
+                                            <lb/>à la porte</hi> 
+                                    </quote>, dit Amos. Saul prie 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#_1Sam.15.30">1. <hi rend="I">Sam</hi>.15.30.</ref> 
+                                    </note> Samuel, <quote source="bible1588.xml#_1Sam.15.30"> 
+                                        <hi rend="I">qu'il l'honore devant le peuple</hi> 
+                                    </quote>, 
+                                    <lb/>&amp; demande d'estre censuré en particulier; 
+                                    <lb/>lui qui n'avoit fait aucun estat 
+                                    <lb/>de la remonstrance privee,alors 
+                                    <lb/>fremissoit contre la publique.</p> 
+                                <p n="53"> 
+                                    <lb/>En apres,s'il est prins, &amp; qu'il ne 
+                                    <lb/>s'en puisse desdire , ni plus nier que 
+                                    <lb/>on lui parle , ou que Dieu le frappe, <fw place="bot-right" type="catch">alors</fw> 
+                                     <pb n="63"/> 
+                                    <lb/>alors c'est à cercher des subterfuges, 
+                                    <lb/>&amp; à couvrir son iniquité : c'est à se 
+                                    <lb/>iustifier devant les hommes,&amp; à ietter 
+                                    <lb/>la faute sur autrui,pour se maintenir 
+                                    <lb/>le plus innocent, au lieu de cõfesser, 
+                                    <lb/>que ses pechez ont attiré le 
+                                    <lb/>chastiment : &amp; en lieu de regarder 
+                                    <lb/>promptement chez soy, pour oster 
+                                    <lb/>l'interdict de sa maison;au lieu de 
+                                    <lb/>corriger son orgueil &amp; d'amollir son 
+                                    <lb/>cœur,c'est à roidir le col,c'est à quereller 
+                                    <lb/>Dieu mesme, si on pouvoit avec 
+                                    <lb/>Cain, qui dit,  
+                                        <quote source="bible1588.xml#Gen.4.13"> 
+                                            <hi rend="I">Ma peine est plus 
+                                                <lb/>grande que ie puis porter</hi> 
+                                        </quote> 
+                                     : si l'on ne 
+                                    <lb/>peut repousser le bras , &amp; la verge, 
+                                    <lb/>au moins reietter la iustice de la visitatiõ. 
+                                    <lb/>Ce qui attire maux sur maux, 
+                                    <lb/>&amp;rengrege la playe,iusques à ce que 
+                                    <lb/>finalement on apprene à dire, <quote source="bible1588.xml#Ps.119.137"> 
+                                        <hi rend="I">Seigneur 
+                                            <lb/>tu es iuste,&amp;tes chastimens sont fideles</hi> 
+                                    </quote>. 
+                                    <lb/> 
+                                    <quote source="bible1588.xml#Lam.3.42;Lam.5.21"> 
+                                        <hi rend="I">Nous avons forfait,converti-nous </hi> 
+                                        <note type="margin"> 
+                                            <ref type="bible" target="bibleSegond21.xml#Lam.3.42;Lam.5.21"> 
+                                                <hi rend="I">Iere.Lam</hi>.3.5.21.</ref> 
+                                        </note> 
+                                        <lb/> 
+                                        <hi rend="I">à toi &amp; nous serons convertis</hi> 
+                                        <!--citation approximative --> 
+                                    </quote> 
+                                    <hi rend="I">.</hi> Si les fideles <pb n="64"/> 
+                                    <lb/>par fois enyvrez de la prosperité, 
+                                    <lb/>ont esloigné tant qu'ils ont peu, ces 
+                                    <lb/>cuisantes &amp; douloureuses pẽsees du 
+                                    <lb/>chastiment,lors mesme qu'il approchoit, 
+                                    <lb/>&amp; que la verge leur pendoit 
+                                    <lb/>sur le dos ; neantmoins, quand la 
+                                    <lb/>main de Dieu les touche &amp; rameine 
+                                    <lb/>à leur devoir, alors vous n'y voyez 
+                                    <lb/>plus ni mespris,ni rejection;mais humilité, 
+                                    <lb/>confession , repentance &amp; 
+                                    <lb/>conversion.</p> 
+                                <p n="54"> 
+                                    <lb/>Mais : combien y a-il de personnes, 
+                                    <lb/>qui ne veulent prendre garde à 
+                                    <lb/>ce que Dieu fait,visitant leurs familles, 
+                                    <lb/>touchant mesme leur corps : &amp; 
+                                    <lb/>nonobstant qu'il leur tire l'oreille, 
+                                    <lb/>&amp; les tienne par ce qu'ils ont de plus 
+                                    <lb/>chers, sous sa verge, neantmoins ne 
+                                    <lb/>veulent iamais y penser,de peur que 
+                                    <lb/>cette meditation ne les destourne de 
+                                    <lb/>leurs vanitez , &amp; n'empesche leur 
+                                    <lb/>passetemps ; &amp; que ce sentiment ne <fw place="bot-right" type="catch">les</fw> 
+                                     <pb n="65"/> 
+                                    <lb/>les esmeuve à se despoüiller de leurs 
+                                    <lb/>passions, &amp; qu'un bon remords de 
+                                    <lb/>conscience, ne les oblige à deslier les 
+                                    <lb/>liens d'iniquité , &amp; à renoncer aux 
+                                    <lb/>convoitises qui les enlacent. D'où 
+                                    <lb/>advient que le chastiment leur est 
+                                    <lb/>inutile, &amp; qu'ayans <hi rend="I">esté medecinez, ils 
+                                        <lb/>ne sont point gueris</hi> 
+                                    . A quoi s'oppose 
+                                    <lb/>ce que S.Paul dira ci apres, qu'il faut 
+                                    <lb/> 
+                                    <hi rend="I">recevoir la discipline&amp;chastiment</hi>,pour 
+                                    <lb/>suivre le mouvemẽt, auquel la main 
+                                    <lb/>de Dieu encline, &amp; se ranger à sa volonté.</p> 
+                                <p n="55"> 
+                                    <lb/>L'extremité opposite de la pusillanimité <note type="margin"> 
+                                        <hi rend="I">Ennui excessif &amp; defaillãce de 
+                                        cœur</hi>.</note> 
+                                    <lb/>&amp; defaillance de courage, 
+                                    <lb/>abbat non seulement d'autres personnes, 
+                                    <lb/>qui sont timides &amp; langoureuses: 
+                                    <lb/>mais souvent celles-là mesmes, 
+                                    <lb/>qui s'estoyent enflees par orgueil: 
+                                    <lb/>qui s'estãs roidies à un opiniastre 
+                                    <lb/>mespris,succombent à la fin,par 
+                                    <lb/>une miserable desfiãce,au desespoir. <pb n="66"/> 
+                                    <lb/>On remarque bien aux fideles des 
+                                    <lb/>symptomes d'une telle tentation, 
+                                    <lb/>mais qui est en fin surmontee. Car 
+                                    <lb/>quelquesfois l'adversité semble les 
+                                    <lb/>plonger dans l'abysme d'une desolation 
+                                    <lb/>irreparable,comme l'on void 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#Job.2"> 
+                                            <hi rend="I">Iob</hi> 2.</ref> 
+                                        <ref type="bible" target="bibleSegond21.xml#Gen.37.35"> 
+                                            <hi rend="I">Gen.</hi>37.35.</ref> 
+                                        <ref type="bible" target="bibleSegond21.xml#_1Sam.27.1">1.<hi rend="I">Sam.</hi>27.1.</ref> 
+                                    </note> és propos de Iob,és pleurs de Iacob 
+                                    <lb/>sur son fils Ioseph, en la dangereuse 
+                                    <lb/>resolution, que David fait se iettant 
+                                    <lb/>entre les bras des Philistins : mais 
+                                    <lb/>Dieu, qui n'oublie pas les siens au 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#Ps.23.4"> 
+                                            <hi rend="I">Gen</hi>.8.</ref> 
+                                    </note> deluge, &amp; <quote source="bible1588.xml#Ps.23.4"> 
+                                        <hi rend="I">qui en la vallee d'ombre de 
+                                            <lb/>mort</hi> 
+                                    </quote> tend la main aux fideles; ne les 
+                                    <lb/>laisse pas tomber,ains r'allume dans 
+                                    <lb/>eux le don de son Esprit, (comme 
+                                    <lb/>cela paroist clairement és mouvemens 
+                                    <lb/>de l'ame fidele, representez 
+                                    <lb/>naïfvement dans les Pseaumes,) de 
+                                    <lb/>sorte que vous voyez, qu'au lieu de 
+                                    <lb/>defaillir, ils se renforcent en soy, s'exercent 
+                                    <lb/>en invocation, &amp; s'esiouïssent 
+                                    <lb/>en esperance. Tandis que les infideles, <fw place="bot-right" type="catch">fide-</fw> 
+                                     <pb n="67"/> 
+                                    <lb/>ou qui n'ont esté que fideles <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#Matt.13.8"> 
+                                            <hi rend="I">Matth</hi>.13.8</ref> 
+                                    </note> 
+                                    <lb/>à temps , sans aucune vraye racine 
+                                    <lb/>interieure,defaillent comme l'herbe 
+                                    <lb/>qui seiche à l'ardeur du Soleil, ou se 
+                                    <lb/>troublent par horribles espouvantemens, 
+                                    <lb/>dont ils ne se remettent iamais, 
+                                    <lb/>&amp; perissent miserablement. 
+                                    <lb/>Aucuns,en se desrobant de dessous 
+                                    <lb/>le ioug de Dieu par infames revoltes 
+                                    <lb/>&amp; execrables apostasies, confessent, 
+                                    <lb/>qu'ils aiment mieux retourner 
+                                    <lb/>en Egypte,qu'aller avec le peuple de 
+                                    <lb/>Dieu par le desert : preferans leurs 
+                                    <lb/>commoditez &amp; dignitez, à la misere 
+                                    <lb/>&amp; ignominie qui accompagne Iesus 
+                                    <lb/>Christ. Ils pensent estre bien prudens 
+                                    <lb/>de s'accommoder avec les plus 
+                                    <lb/>forts, &amp; d'adorer les bastons, desquels 
+                                    <lb/>Dieu les a frappez,au lieu de se 
+                                    <lb/>convertir à Dieu qui frappoit, faisans 
+                                    <lb/>comme ce meschãt Achaz, qui 
+                                    <lb/>ayant esté battu par ceux de Damas, <pb n="68"/> 
+                                    <lb/>au lieu de recourir à Dieu, qui l'avoit 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#_2Chr.28.23">2.<hi rend="I">Chro</hi>.28.23.</ref> 
+                                    </note> chastié par ses ennemis, <quote source="bible1588.xml#_2Chr.28.23"> 
+                                        <hi rend="I">sacrifia 
+                                            <lb/>aux Dieux de Damas</hi>, et dit, <hi rend="I">Puis que 
+                                            <lb/>les dieux des Rois de Syrie leur sont en 
+                                            <lb/>aide,ie leur sacrifierai,afin qu'ils me soyẽt 
+                                            <lb/>en aide. Mais furent cause de le faire 
+                                            <lb/>trebuscher lui &amp; tout Israël</hi> 
+                                    </quote>. Voilà le 
+                                    <lb/>patron de nos Apostats,qui voyans 
+                                    <lb/>l'Eglise battue en tant d'endroits,l'idolatrie 
+                                    <lb/>eriger ses trophees,se rangẽt 
+                                    <lb/>laschement aupres de l'idole,induits 
+                                    <lb/>par l'argument d'Achaz : cõme si la 
+                                    <lb/>religiõ des vainqueurs estoit vraye, 
+                                    <lb/>pource qu'ils ont vaincu, &amp; la religion 
+                                    <lb/>des vaincus mauvaise, pour ce 
+                                    <lb/>que Dieu les a chastiez. Austres demeurans 
+                                    <lb/>par exterieure profession 
+                                    <lb/>dans l'Eglise,perdent,dés qu'ils sont 
+                                    <lb/>accablez de l'adversité,ou aigris par 
+                                    <lb/>des afflictions,tout courage de bien 
+                                    <lb/>faire, esteignent toute la chaleur de 
+                                    <lb/>pieté qui leur restoit,se relaschent en <fw place="bot-right" type="catch">l'e-</fw> 
+                                     <pb n="69"/> 
+                                    <lb/>l'exercice des bonnes œuvres, se divertissent 
+                                    <lb/>de la charité,s'adonnans à 
+                                    <lb/>leur avarice,ambition, &amp; iniustice, 
+                                    <lb/>qui est le miserable train du monde. 
+                                    <lb/>Et,comme un hõme,de qui les nerfs 
+                                    <lb/>sont surchargez d'abondance d'humeurs, 
+                                    <lb/>perd le mouvement de ses 
+                                    <lb/>membres, &amp; tombe en paralysie: 
+                                    <lb/>ainsi ces miserables, sans foy, sans esperance 
+                                    <lb/>en Dieu, tombent en une 
+                                    <lb/>horrible &amp; noire desfiance, tantost 
+                                    <lb/>de sa misericorde pour leur salut, tãtost 
+                                    <lb/>de sa providence pour leur entretien : 
+                                    <lb/>&amp; sans iamais s'en relever se 
+                                    <lb/>precipitent à moyens &amp; practiques 
+                                    <lb/>deshonnestes, illicites &amp; meschantes; 
+                                    <lb/>comme ayans quitté Dieu, &amp; se 
+                                    <lb/>laissãs mener à l'esprit malin et meurtrier, 
+                                    <lb/>pour se plonger, &amp; finalement 
+                                    <lb/>se noyer en toutes sortes de maux. 
+                                    <lb/>Mais les enfans de Dieu , ausquels 
+                                    <lb/>cette exhortation s'adresse,ne se laissent <pb n="70"/> 
+                                    <lb/>iamais ni renverser par la crainte, 
+                                    <lb/>ni engloutir par la tristesse: d'autant 
+                                    <lb/>qu'ils ont dedans eux la racine 
+                                    <lb/>de vie qui les soustient, &amp; la fontaine 
+                                    <lb/>de salut qui les raffraischit &amp; cõsole. 
+                                    <lb/>C'est à eux,de puiser de ces sources 
+                                    <lb/>de consolations,&amp; tenir ferme le 
+                                    <lb/>fondement de leur esperance, par lequel 
+                                    <lb/>soustenus en l'affliction, ils passent 
+                                    <lb/>les iours mauvais, &amp; obtiennent 
+                                    <lb/>victoire contre toutes tentations.</p> 
+                                <p n="56"> 
+                                    <lb/>Reconnoissons nos grands defauts, 
+                                    <lb/>mes Freres,&amp; combien de fois 
+                                    <lb/>nous tombons en ces dangers , esquels 
+                                    <lb/>nous-nous perdrions, si Dieu 
+                                    <lb/>ne nous relevoit. Combien de fois 
+                                    <lb/>nous advient-il , qu'estans sous la 
+                                    <lb/>main de Dieu, qui tient sa verge sur 
+                                    <lb/>nostre dos, nous levons la teste par 
+                                    <lb/>fierté? et chocquerions,comme avec 
+                                    <lb/>des cornes,le ciel, si nous pouvions? 
+                                    <lb/>Combien de fois aussi nous <fw place="bot-right" type="catch">vo-</fw> 
+                                     <pb n="71"/> 
+                                    <lb/>voyons-nous à la rencontre, ou à 
+                                    <lb/>l'ouye d'un triste accidẽt,ou à quelque 
+                                    <lb/>menace &amp; peur sensible, oublier 
+                                    <lb/>les promesses de Dieu,changer 
+                                    <lb/>de langage,begayer, sans nous souvenir 
+                                    <lb/>plus, ni de nostre vocation, ni 
+                                    <lb/>de la condition des enfans de Dieu? 
+                                    <lb/>Et, apres que nous avons fait des 
+                                    <lb/>geants en ostentation, &amp; obstination, 
+                                    <lb/>nous devenons plus foibles que 
+                                    <lb/>des enfans. Opposons à la mal-heureuse 
+                                    <lb/>coustume, qui s'endurcit aux 
+                                    <lb/>coups,&amp; à la negligẽce qui ne prend 
+                                    <lb/>rien à cœur, la crainte de Dieu tout- 
+                                    <lb/>puissant; l'ire espouvantable,&amp; qui 
+                                    <lb/>se fera bien sentir à nostre dommage.</p> 
+                                <p n="57"> 
+                                    <lb/>Combattons la desfiãce par la certitude 
+                                    <lb/>de la promesse de Dieu: vainquons 
+                                    <lb/>la consternation par la presence 
+                                    <lb/>de son secours, &amp; le tesmoignage 
+                                    <lb/>de son Amour en son fils Iesus. <pb n="72"/> 
+                                    <lb/>A nos laschetez &amp; defaillances, 
+                                    <lb/> 
+                                    <note type="margin"> 
+                                        <ref type="bible" target="bibleSegond21.xml#Rev.2.17"> 
+                                            <hi rend="I">Apoc</hi>.2.17.</ref> 
+                                    </note> opposons, <quote source="bible1588.xml#Rev.2.17"> 
+                                        <hi rend="I">A qui vaincra,ie lui donnerai 
+                                            <lb/>la Manne cachee: Qui perseverera sera 
+                                            <lb/>sauvé</hi> 
+                                    </quote>. La table à laquelle nous avons 
+                                    <lb/>participé,nous oblige à ces devoirs 
+                                    <lb/>&amp; nous aide à les rendre: Elle 
+                                    <lb/>nous est memorial de la mort du Fils 
+                                    <lb/>de Dieu, seau de nostre salut, gage 
+                                    <lb/>bien expres que Dieu se monstre Pere, 
+                                    <lb/>puis qu'il nous a appelez à la cõmunion 
+                                    <lb/>de son Fils : argument evident 
+                                    <lb/>de son amour,puis qu'il nous a 
+                                    <lb/>donné ce qui lui estoit si cher &amp; precieux: 
+                                    <lb/>tesmoignage qu'il se souvient 
+                                    <lb/>de nous,en nous conviant de temps 
+                                    <lb/>en temps à ce banquet : donc nous 
+                                    <lb/>oblige à ne l'oublier iamais, à nous 
+                                    <lb/>comporter comme enfans devant 
+                                    <lb/>sa face, à ne mespriser iamais ses advertissements, 
+                                    <lb/>à ne point negliger ses 
+                                    <lb/>promesses : car puis que nous ne 
+                                    <lb/>nous ennuyons pas d'estre nourris <fw place="bot-right" type="catch">de</fw> 
+                                     <pb n="73"/> 
+                                    <lb/>de ses biẽs,il n'est pas raisõ que nous 
+                                    <lb/>reiettions ses corrections. Il nous 
+                                    <lb/>a presenté le pain de vie, pour nous 
+                                    <lb/>renforcer és combats,qu'il faut soustenir, 
+                                    <lb/>la coupe des delivrances,pour 
+                                    <lb/>nous consoler en nos ennuis, &amp; destremper 
+                                    <lb/>les tristesses des chastimens 
+                                    <lb/>dans les sentimens de sa misericorde: 
+                                    <lb/>afin que en la reconnoissance de 
+                                    <lb/>sa charité paternelle , nous le benissions 
+                                    <lb/>dés ce monde , iusques à ce 
+                                    <lb/>qu'il nous introduise en sa maison 
+                                    <lb/>celeste, où nous connoistrons pleinement 
+                                    <lb/>la grandeur de son amour 
+                                    <lb/>infini,lors que,Iesus Christ nous presentant 
+                                    <lb/>devant sa face, &amp; disant,  
+                                        <quote source="bible1588.xml#Heb.2.13"> 
+                                            <hi rend="I">Me 
+                                                <lb/>voici &amp; ceux que tu m'as donnez</hi> 
+                                        </quote> 
+                                    : il 
+                                    <lb/>nous parlera comme à ses bien-aimes 
+                                    <lb/>enfans, &amp; nous recevra en son 
+                                    <lb/>heritage eternel.</p> 
+                             
+
+                </div> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

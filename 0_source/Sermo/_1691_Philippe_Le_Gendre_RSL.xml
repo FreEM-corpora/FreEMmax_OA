@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1691_Philippe_Le_Gendre_RSL"> 
+            <titleStmt> 
+                <title type="sermon">LA PRIERE DE St. ESTIENNE. ACTES 7. Vers. 60 ...</title> 
+                <title type="book">La Priere de saint Etienne, ou Sermon sur le 7. Ch. des Actes des 
+                    Apôtres v. 60. Prononcé à Amsterdam le I. Juillet 1691. Par Philippe Le Gendre, 
+                    cy devant Ministre à Roüen. A ROTTERDAM Chez PIERRE vander SLAART, CD DC XCI.</title> 
+                <author ref="...">Philippe Le Gendre</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="RSL">Ruth STAWARZ-LUGINBUEHL</persName> 
+                        <email>ruth.luginbuhl@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Philippe Le Gendre</author> 
+                        <title>La Priere de saint Etienne, ou Sermon sur le 7. Ch. des Actes des 
+                            Apôtres v. 60. Prononcé à Amsterdam le I. Juillet 1691.</title> 
+                        <imprint> 
+                            <pubPlace>Rotterdam</pubPlace> 
+                            <publisher>Pierre van der Slaart</publisher> 
+                            <date>1691</date>
+                            <date type="sermon">1691</date>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="source">Bibliothèque publique et universitaire de Neuchâtel, Bibliothèque des Pasteurs, Cote BPUN PA Ca 25</idno> 
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_circonstances</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">isolé</term>   
+                    <term type="numberOfSermons"/>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Acts.7.60</term>
+                    <term type="paratext" subtype="preface">AVERTISSEMENT.</term>
+                    <term type="paratext" subtype="other">Extrait de la Resolution du Consistoire de l’Eglise Walonne de Rotterdam du 5e Aoust 1691.</term>
+                </keywords> 
+            </textClass> 
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-03-04" who="#LjD">transformation word - XML</change> 
+            <change when="2016-03-04" who="#MAG">Verification, citations</change> 
+            <change when="2014-03-17" who="#RSL">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                 <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>LA PRIERE 
+                    <lb/>DE 
+                    <lb/>S. ESTIENNE, 
+                    <lb/> 
+                    <hi rend="I">OU</hi> 
+                    <lb/>SERMON 
+                    <lb/>Sur le 7. Ch. des Actes des 
+                    <lb/>Apôtres v. 60. 
+                    <lb/> 
+                    <hi rend="I">Prononcé à Amsterdam le </hi>I. <hi rend="I">Juillet </hi>1691. 
+                    <lb/>PAR PHILIPPE LE GENDRE, 
+                    <lb/>cy devant Ministre à Roüen.<figure/> 
+                    <lb/> 
+                    <hi rend="I">A ROTTERDAM</hi> 
+                    <lb/>Chez PIERRE vander SLAART, 
+                    <lb/>CD DC XCI.</p> 
+            </div> 
+        </front> 
+        <body> 
+            <div type="sermon"> 
+                 <pb n="9"/> 
+                <head type="main"> 
+                    <lb/>LA PRIERE 
+                    <lb/>DE 
+                    <lb/>S<hi rend="E">t</hi>. ESTIENNE. 
+                    <lb/> 
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Acts.7.60">ACTES 7. Vers. 60</ref> 
+                    <lb/> 
+                    <lb/> 
+                    <quote source="bible1588.xml#Acts.7.60"> 
+                        <hi rend="I">Puis s'étant mis à genoux, il s'écria à haute 
+                            <lb/>voix, Seigneur ne leur impute point ce peché</hi> 
+                    </quote>. 
+                </head> 
+                <p n="1"> 
+                    <lb/> 
+                    <c type="lettrine">C</c>'Etoit un terrible homme que 
+                    <lb/>Lemec : le vray fils de Cain, un 
+                    <lb/>digne heritier de sa cruauté. Il 
+                    <lb/>étoit encore plus emporté que 
+                    <lb/>son Pere. C'étoit une Béte farouche qui ne 
+                    <lb/>respiroit que le sang &amp; le carnage. Je tuerois 
+                    <lb/>un homme, disoit il à ses femmes, pour <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Gen.4.23"> 
+                            <hi rend="I">Gen</hi>. 4. <lb/>23.</ref> 
+                    </note> 
+                    <lb/>une simple blessure, je le mettrois en piéces 
+                    <lb/>pour la moindre contusion. Répandre le 
+                    <lb/>sang humain pour une legere playe ; détruire 
+                    <lb/>le chef d'œuvre du Toutpuissant pour le 
+                    <lb/>moindre coup : quelle brutalité, quelle fureur. 
+                    <lb/>Vit-on jamais personne de si violent ? 
+                    <lb/>Peut-on pousser plus loin son ressentiment, 
+                    <lb/>&amp; outrer davantage la cruauté ?</p> 
+                <p n="2"> 
+                    <lb/>Ho mes Freres, que le caractere <quote source="bible1588.xml#Gen.6.2"> 
+                        <hi rend="I">des enfans</hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Gen.6.2"> 
+                                <hi rend="I">Ibid.</hi> 6. <lb/>2.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">de Dieu</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>est different de celui <quote source="bibleSegond21.xml#Rom.9.8"> 
+                        <hi rend="I">des fils des 
+                            <lb/>hommes</hi> 
+                    </quote>. Ils ne voudroient pas avoir fait 
+                    <lb/>le moindre tort à leurs ennemis, pour vanger 
+                    <lb/>les plus grands outrages ; bien loin de 
+                    <lb/>prendre plaisir à laver dans leur sang la moindre <fw place="bot-right" type="catch">dre</fw> 
+                     <pb n="10"/> 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_1Pet.2.23">I <hi rend="I">Pier.</hi> 2. <lb/>23. </ref> 
+                    </note> insulte. <quote source="bible1588.xml#_1Pet.2.23"> 
+                        <hi rend="I">Quand on leur dit injure</hi>, <hi rend="I">ils n'en 
+                            <lb/>rendent point</hi></quote>. Ils remettent tous leurs intérêts 
+                    <lb/>entre les mains de Dieu qui juge justement. 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_1Cor.13.7">I <hi rend="I">Cor.</hi> <lb/>13.</ref> 
+                    </note> 
+                    <quote source="bible1588.xml#_1Cor.13.7"> 
+                        <hi rend="I">Ils endurent tout</hi>, <hi rend="I">ils suportent 
+                        tout</hi></quote>. 
+                    <lb/>Ils n'opposent qu'une douceur &amp; une patience 
+                    <lb/>invincible à toutes les persecutions 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Ps.44.23"> 
+                            <hi rend="I">Ps</hi>. 44. <lb/>23</ref> 
+                    </note> qu'on leur fait. Ils se laissent tous les jours 
+                    <lb/>mener <quote source="bible1588.xml#Ps.44.23"> 
+                        <hi rend="I">comme des brebis à la tuerie</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>sans ouvrir 
+                    <lb/>la bouche. Ou s'ils l'ouvrent, c'est 
+                    <lb/>pour interceder pour leurs boureaux, &amp; 
+                    <lb/>pour détourner de dessus leurs testes les jugemens 
+                    <lb/>qu'ils y attirent par leur cruauté. 
+                    <lb/>Car non contens de ne point faire de mal 
+                    <lb/>à ceux qui les persecutent avec le plus 
+                    <lb/>de violence, il n'y a rien qu'ils ne facent pour 
+                    <lb/>les reconcilier aveque Dieu. Si leur sang 
+                    <lb/>crie de la terre au Ciel, ils tâchent d'étouffer 
+                    <lb/>sa voix par les prieres ardentes qu'ils font 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.5.20"> 
+                            <hi rend="I">Rom.</hi> 5. <lb/>20.</ref> 
+                    </note> incessamment à Dieu à ce <quote source="bible1588.xml#Rom.5.20"> 
+                        <hi rend="I">qu'il face abonder 
+                            <lb/>sa grace là où le peché abonde</hi> 
+                    </quote> si cruellement. 
+                    <lb/>Nous en avons un illustre exemple dans la 
+                    <lb/>personne de St. Estienne le premier Martyr 
+                    <lb/>de nôtre Seigneur, qui succombant sous 
+                    <lb/>les traits de ses ennemis invoquoit le Seigneur 
+                    <lb/>Jesus, &amp; lui demandoit la grace de 
+                    <lb/>ceux qui le lapidoient. <quote source="bible1588.xml#Acts.7.60"> 
+                        <hi rend="I">Seigneur s'ecria t-il à 
+                            <lb/>haute voix après s'être mis à genoux, ne leur 
+                            <lb/>impute point ce peché</hi> 
+                    </quote>. 
+                    <lb/>Il y a deux choses à considerer dans ces 
+                    <lb/>paroles. La priere de ce saint homme qui demande <fw place="bot-right" type="catch">de-</fw> 
+                     <pb n="11"/> 
+                    <lb/>grace pour ses ennemis. <quote source="bible1588.xml#Acts.7.60"> 
+                        <hi rend="I">Seigneur</hi>, 
+                        <lb/><seg type="interpolation">lui dit-il,</seg> 
+                        <hi rend="I">ne leur impute point ce peché</hi> 
+                    </quote>. La 
+                    <lb/>manière en laquelle il le fait, <hi rend="I">étant à genoux</hi>, 
+                    <lb/>&amp; <hi rend="I">criant à haute voix :</hi> ce qui montre le desir 
+                    <lb/>ardent qu'il a d'être exaucé. Mais nous 
+                    <lb/>nous attacherons particulierement à la 
+                    <lb/>premiere, comme la plus importante ; &amp; ce 
+                    <lb/>sera, moyennant la grace de Dieu, &amp; l'assistance 
+                    <lb/>de son bon Esprit, le principal sujet de notre discours.</p> 
+                <p n="3"> 
+                    <lb/>Le peché dont il demande l'abolition, 
+                    <lb/>c'est celui que les Juifs commettoient en le 
+                    <lb/>lapidant. Il ne s'agissoit pas de quelque legere 
+                    <lb/>injure, qui le privât d'une partie des 
+                    <lb/>douceurs, &amp; des commoditez de la vie : 
+                    <lb/>mais d'une horrible violence qui abregeoit 
+                    <lb/>ses jours, &amp; qui le faisoit descendre de la maniere 
+                    <lb/>du monde la plus cruelle au tombeau. 
+                    <lb/>Ils s'étoient jettés sur ce pauvre homme, qui 
+                    <lb/>s'efforçoit de leur donner les lumiéres, &amp; 
+                    <lb/>les instructions necessaires au salut, comme 
+                    <lb/>des Bêtes furieuses, &amp; l'avoient accablé de 
+                    <lb/>pierres. C'étoit un crime enorme, un 
+                    <lb/>meurtre horriblement criant devant Dieu, 
+                    <lb/>&amp; devant les hommes. Car I. il n'est pas 
+                    <lb/>permis de répandre le sang humain. On 
+                    <lb/>doit ce respect à l'Eternel <hi rend="I">qui </hi> 
+                    <quote source="bible1588.xml#Gen.1.27"> 
+                        <hi rend="I">a créé l'homme </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Gen.1.27"> 
+                                <hi rend="I">Gen.</hi> 1. <lb/>27.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">à son image</hi> 
+                    </quote>, de ne point toucher à son ouvrage ; 
+                    <lb/>&amp; le moindre attentat de cette nature 
+                    <lb/>est un sanglant outrage que l'on fait <fw place="bot-right" type="catch">au</fw> 
+                     <pb n="12"/> 
+                    <lb/>au Createur, qui ne doit pas demeurer impuni. 
+                    <lb/>Aussi voyons nous que Dieu étoit 
+                    <lb/>fort rigoureux aux Meurtriers sous la Loi. 
+                    <lb/>Il n'y avoit point de grace &amp; de misericorde 
+                    <lb/>pour eux. Il faloit que le Meurtrier expiât 
+                    <lb/>dans son sang le crime qu'il avoit commis. 
+                    <lb/>Le Seigneur étoit si severe sur cet article, 
+                    <lb/>qu'un homme qui en avoit tué un autre 
+                    <lb/>par malheur, &amp; sans dessein, ne pouvoit 
+                    <lb/>se mettre à couvert des recherches de la justice, 
+                    <lb/>qu'en se retirant dans une des villes 
+                    <lb/>de Refuge, que Dieu avoit établi en Israel 
+                    <lb/>pour servir d'Asyle à ces malheureux.</p> 
+                <p n="4"> 
+                    <lb/>Quand donc St. Etienne n'auroit point eu 
+                    <lb/>d'autre qualité, que celle d'un homme formé 
+                    <lb/>à l'image de Dieu, les Juifs auroient été 
+                    <lb/>fort criminels de le massacrer. Mais combien 
+                    <lb/>y avoit-il d'autres raisons qui le devoient 
+                    <lb/>garantir de leurs coups ? C'étoit un 
+                    <lb/>homme innocent qui n'avoit rien fait qui 
+                    <lb/>fût digne de mort. Je sçay bien qu'on l'accusoit 
+                    <lb/>d'être un blasphemateur insigne, qui 
+                    <lb/>s'étoit attaqué à Dieu même, qui n'avoit 
+                    <lb/>épargné ni son Temple, ni ses Loix, qui 
+                    <lb/>avoit foulé aux pieds ce qu'il y avoit de plus 
+                    <lb/>saint &amp; de plus inviolable en Israël ; &amp; que 
+                    <lb/>l'on avoit aposté de faux Temoins pour le 
+                    <lb/>persuader au peuple. Mais je sai bien aussy, 
+                    <lb/>que s'il ne faut qu'être accusé pour être 
+                    <lb/>coupable, il n'y a point d'homme au monde <fw place="bot-right" type="catch">de</fw>
+                    <pb n="13"/> 
+                    <lb/>qui puisse faire fonds sur son innocence. 
+                    <lb/>Car où est celui qui se puisse dire à couvert 
+                    <lb/>des traits de la calomnie ? Dequoi les hommes 
+                    <lb/>ne sont ils point capables, quand ils se 
+                    <lb/>laissent une fois emporter à l'iniquité, &amp; à 
+                    <lb/>la violence de leurs passions ? Ils font des 
+                    <lb/>monstres odieux des plus excellens serviteurs 
+                    <lb/>de Dieu. Temoin les Chrysostomes &amp; les 
+                    <lb/>Athanases qui ont succombé plus d'une fois 
+                    <lb/>sous le poids de la calomnie. Le premier ne 
+                    <lb/>s'en put jamais relever, tellement qu'il finit 
+                    <lb/>tristement ses jours dans un douloureux 
+                    <lb/>exil depouillé de ses Dignités. Ils n'épargnent 
+                    <lb/>pas même <quote source="bible1588.xml#Acts.3.14"> 
+                        <hi rend="I">le saint &amp; le juste</hi> 
+                    </quote>, la Justice 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Acts.3.14"> 
+                            <hi rend="I">Act</hi>. 3. <lb/>14.</ref> 
+                    </note> 
+                    <lb/>&amp; la Sainteté même. Avec quelle horrible 
+                    <lb/>indignité ont ils traité le fils eternel 
+                    <lb/>de Dieu ? Ne l'ont ils pas fait passer pour un 
+                    <lb/>scelerat &amp; un impie ? ne l'ont ils pas mis au 
+                    <lb/>rang des iniques ?</p> 
+                <p n="5"> 
+                    <lb/>Les vains prejugés des hommes charnels, 
+                    <lb/>&amp; les mauvaises pratiques qu'ils font tous les 
+                    <lb/>jours pour perdre leurs ennemis, ne font 
+                    <lb/>tort à un accusé que dans l'esprit de leurs 
+                    <lb/>semblables. Ce sont des voiles épais qui 
+                    <lb/>peuvent derober pour un tems son innocence 
+                    <lb/>aux yeux des hommes ; mais qui ne l'alterent 
+                    <lb/>point : à peu prés comme ces nüages 
+                    <lb/>obscurs qui nous ôtent la vüe du Soleil ; mais 
+                    <lb/>qui ne diminuent rien de son éclat &amp; de sa 
+                    <lb/>beauté. St. Etienne étoit accusé, il est <fw place="bot-right" type="catch">vray.</fw>
+                    <pb n="14"/> 
+                    <lb/>vray. Il étoit même condamné par une 
+                    <lb/>populace furieuse qui se fermoit les yeux, 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Acts.7.57"> 
+                            <hi rend="I">Act.</hi> 7. <lb/>57.</ref> 
+                    </note> &amp; <quote source="bible1588.xml#Acts.7.57">se <hi rend="I">bouchoit les oreilles</hi> 
+                    </quote> dans la crainte d'être 
+                    <lb/>forcée par ses raisons à mettre bas les armes 
+                    <lb/>qu'elle avoit prises pour le mettre en 
+                    <lb/>piéces. Il en étoit plus à plaindre. Mais 
+                    <lb/>il n'en étoit pas moins innocent. Les soins 
+                    <lb/>que le Seigneur prit de sa consolation, en se 
+                    <lb/>faisant voir à lui dans toute sa gloire, &amp; l'assurant 
+                    <lb/>de dessus son Throne de sa protection, 
+                    <lb/>&amp; de son amour, parlent hautement en sa faveur, 
+                    <lb/>&amp; sont plus que suffisans pour confondre 
+                    <lb/>l'Enfer, &amp; fermer la bouche à la Synagogue. 
+                    <lb/>Mais y a-t-il rien de plus terrible 
+                    <lb/>que d'oprimer un innocent, pour le 
+                    <lb/>faire perir malheureusement ? Les Payens 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Eph.2.12"> 
+                            <hi rend="I">Eph</hi>.</ref> 
+                    </note> même qui <quote source="bible1588.xml#Eph.2.12"> 
+                        <hi rend="I">étoient sans Dieu au monde</hi> 
+                    </quote> en ont 
+                    <lb/>eu horreur, &amp; ne s'y sont portés qu'avec 
+                    <lb/>la derniere repugnance. Tout le monde 
+                    <lb/>fait les efforts que fit Pilate tout profane 
+                    <lb/>et &amp; tout aveugle qu'il étoit, pour sauver Jesus, 
+                    <lb/>parce qu'il le trouvoit innocent, &amp; les 
+                    <lb/>peines étonnantes qu'il eut à le condamner. 
+                    <lb/>Je suis persuadé qu'il ne l'auroit jamais fait, 
+                    <lb/>s'il n'eût aprehendé pour sa fortune, la 
+                    <lb/>grande Divinité des mondains, à qui il n'y 
+                    <lb/>a rien qu'ils ne sacrifient. Si les moins éclairés 
+                    <lb/>&amp; les plus abandonnés de tous les hommes 
+                    <lb/>ont respecté l'innocence, s'ils ont eu 
+                    <lb/>tant de peine à se declarer contr'elle, ne devoit <fw place="bot-right" type="catch">voit</fw> 
+                     <pb n="15"/> 
+                    <lb/>elle pas être sacrée &amp; inviolable à des 
+                    <lb/>hommes élevés dans l'Ecole du vray Dieu, 
+                    <lb/>&amp; parfaitement instruits par sa Loi dans la 
+                    <lb/>connoissance du bien &amp; du mal ? Il n'y a 
+                    <lb/>point de doute que cette circonstance n'agravât 
+                    <lb/>considerablement leur crime, &amp; ne les 
+                    <lb/>rendist doublement coupables devant Dieu.</p> 
+                <p n="6"> 
+                    <lb/>Ils avoient encore une autre raison d'épargner 
+                    <lb/>son sang, qui regarde les liaisons étroites 
+                    <lb/>qu'ils avoient avec lui. C'étoit leur 
+                    <lb/>Frere, &amp; n'y a-t-il pas sans comparaison plus 
+                    <lb/>de mal a soüiller ses mains du sang de ses freres, 
+                    <lb/>qu'à les tremper dans celuy d'un étranger ? 
+                    <lb/>Je ne doute point que Saül ne se 
+                    <lb/>fust rendu plus criminel, en faisant passer au 
+                    <lb/>fil de l'épée la ville de Nob dont les habitans 
+                    <lb/>étoient Israëlites, qu'en détruisant 
+                    <lb/>les Gabaonites, si le nom de l'Eternel que 
+                    <lb/>Josüé avoit employé dans l'Alliance qu'il 
+                    <lb/>fit avec eux n'eût du les mettre à l'abry 
+                    <lb/>de ses injustices &amp; de ses violences. Il y a 
+                    <lb/>même lieu de croire que cette circonstance 
+                    <lb/>qui agravoit le mal qu'il leur fit, n'empêcha 
+                    <lb/>pas que Dieu ne fût encore plus offensé de la 
+                    <lb/>mort de ses enfans. Car il la punit bien 
+                    <lb/>plus severement. Il s'en vangea &amp; sur sa 
+                    <lb/>personne &amp; sur ses heritiers. Il leur en cousta 
+                    <lb/>&amp; la couronne &amp; la vie. Au lieu qu'il se 
+                    <lb/>contenta de punir l'autre sur les enfans de 
+                    <lb/>ses Concubines. Que les Juifs qui lapiderent <fw place="bot-right" type="catch">rent</fw> 
+                     <pb n="16"/> 
+                    <lb/>St. Etienne le regardassent comme leur 
+                    <lb/>Frere, il n'est pas besoin de le prouver. Car 
+                    <lb/>qui est ce qui ne sait qu'il étoit comme eux 
+                    <lb/>de la race d'Israël, de la famille d'Abraham : 
+                    <lb/>qu'il contoit ces venerables Patriarches entre 
+                    <lb/>ses Ancêtres : qu'il avoit été formé de ce 
+                    <lb/>sang si pretieux &amp; si chery du Ciel, qui couloit 
+                    <lb/>dans les veines de ses ennemis ? Cet attentat 
+                    <lb/>me paroit encore plus noir que celuy 
+                    <lb/>des Freres de Joseph qui eurent l'inhumanité 
+                    <lb/>de le jetter dans une fosse, à dessein 
+                    <lb/>de l'y laisser perir de faim &amp; de froid. Je ne 
+                    <lb/>le trouve pas moindre que celuy de Cain 
+                    <lb/>qui meurtrit si méchamment le juste Abel. 
+                    <lb/>Le sang de ce fidelle Martyr <quote source="bible1588.xml#Heb.12.24"> 
+                        <hi rend="I">ne crie pas de </hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.12.24"> 
+                                <hi rend="I">Heb.</hi> 12. <lb/>24.</ref> 
+                        </note> 
+                        <hi rend="I">meilleures choses</hi> 
+                    </quote>, que celuy de ce Frere infortuné 
+                    <lb/>qui sollicite si hautement la vengeance 
+                    <lb/>du Tout puissant.</p> 
+                <p n="7"> 
+                    <lb/>Encore si ç'avoit été un particulier, mais 
+                    <lb/>c'étoit une personne publique, honorée de 
+                    <lb/>la vocation d'enhaut. C'étoit un homme 
+                    <lb/>que Dieu avoit apellé au service de son Eglise, 
+                    <lb/>un Ministre du Dieu vivant. Ne devoient 
+                    <lb/>ils pas reverer son Caractere ? Ne leur 
+                    <lb/>devoit il pas être sacré ? Les peuples les 
+                    <lb/>plus stupides &amp; les plus barbares ont de 
+                    <lb/>grands égards pour tous ceux qui portent 
+                    <lb/>les livrées de leur Prince, &amp; qui sont chargés 
+                    <lb/>de leur faire savoir sa volonté. Que 
+                    <lb/>dis-je, ils puniroient rigoureusement un <fw place="bot-right" type="catch">homme</fw> 
+                     <pb n="17"/> 
+                    <lb/>homme qui auroit attenté à la vie d'un messager 
+                    <lb/>depesché par leurs Ennemis pour venir 
+                    <lb/>traitter avec eux. Ce sont de ces fautes 
+                    <lb/>publiques condamnées également de tous 
+                    <lb/>les hommes : &amp; qu'ils ne pardonnent point 
+                    <lb/>quand ils sont en état de s'en vanger vous savés 
+                    <lb/>aveque quelle vigueur David tout bon 
+                    <lb/>&amp; tout humain qu'il étoit poursuivit la reparation 
+                    <lb/>de l'affront que l'on avoit fait à ses 
+                    <lb/>Ambassadeurs chés le Roy des Ammonites. 
+                    <lb/>Il ne fit point de difficulté de le laver 
+                    <lb/>dans le sang d'une partie de ses sujets. Et 
+                    <lb/>qu'auroit-il fait si on les avoit meurtris, s'il 
+                    <lb/>avoit été obligé de vanger leur mort, aussi 
+                    <lb/>bien que l'injure qu'ils avoient receuë. Si 
+                    <lb/>c'est une faute si punissable de s'attaquer aux 
+                    <lb/>Ministres d'un Prince terrien' lors même 
+                    <lb/>que nous n'en dependons point, &amp; que nous 
+                    <lb/>sommes en guerre ouverte avec lui : que 
+                    <lb/>pouvoit-il y avoir de moins pardonnable 
+                    <lb/>que le crime des Juifs, qui s'étoient jettés 
+                    <lb/>avec tant de fureur sur un des Serviteurs 
+                    <lb/>de l'Eternel ? Il n'est pas seulement <quote source="bible1588.xml#rev.19.16"> 
+                        <hi rend="I">le Roy 
+                            <lb/>des Roys, &amp; le Seigneur de tous les Seigneurs</hi> </quote>, <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rev.19.16"> 
+                            <hi rend="I">Apoc.</hi> 
+                        </ref> 
+                    </note> 
+                    <lb/>le Souverain Monarque du Ciel &amp; de la 
+                    <lb/>terre. On ne le doit pas seulement regarder 
+                    <lb/>comme le plus grand de tous les Roys ; 
+                    <lb/>comme un Prince plus élevé au dessus des 
+                    <lb/>plus grands Monarques, que le plus puissant 
+                    <lb/>ne l'est au dessus du moindre de ses sujêts. <fw place="bot-right" type="catch">jêts,</fw> 
+                     <pb n="18"/> 
+                    <lb/>Il faut considerer que c'étoit le Dieu 
+                    <lb/>de ce peuple ; qu'il n'y a point de temoignages 
+                    <lb/>qu'il n'eust receu de son affection. La 
+                    <lb/>moindre des obligations qu'il avoit à l'Eternel 
+                    <lb/>suffisoit pour l'engager à avoir en grande 
+                    <lb/>recommandation tout ce qui luy pouvoit 
+                    <lb/>apartenir. Il devoit toute sorte de respect 
+                    <lb/>&amp; de soûmission à ceux qui luy parloient 
+                    <lb/>en son nom. Quoy M. F. Salomon 
+                    <lb/>tout Roy qu'il étoit ne voulut pas toucher 
+                    <lb/>au sacrificateur Abiathar, quoi qu'il le trouvât 
+                    <lb/>engagé dans le parti de ses ennemis, qu'il 
+                    <lb/>fust entré dans la conspiration qu'ils avoient 
+                    <lb/>faite pour le dethroner ; parce qu'il étoit 
+                    <lb/>au service de Dieu. La consideration de son 
+                    <lb/>Maistre luy sauva la vie. Il lui pardonna 
+                    <lb/>parce qu'il avoit porté l'Arche de l'Eternel. 
+                    <lb/>Et les Juifs sevissent contre un innocent revêtu 
+                    <lb/>d'un caractere qui n'étoit pas moins 
+                    <lb/>considerable, dans le tems qu'il travaille 
+                    <lb/>actuellement aux fonctions de son Ministere. 
+                    <lb/>C'étoit s'attaquer à Dieu luy même. Toutes 
+                    <lb/>les injures que l'on fait à ses Serviteurs 
+                    <lb/>retombent sur luy. Tous les coups qu'on 
+                    <lb/>leur porte sont autant de traits que l'on décoche 
+                    <lb/>contre le Ciel. C'étoit un crime de 
+                    <lb/>leze Majesté divine. Il ne pouvoit y avoir 
+                    <lb/>d'attentat plus noir &amp; plus criant.</p> 
+                <p n="8"> 
+                    <lb/>Ce qui acheve de faire voir la grandeur de 
+                    <lb/>ce crime, c'est le but &amp; le dessein de l'envoy <fw place="bot-right" type="catch">voy</fw> 
+                     <pb n="19"/> 
+                    <lb/>de ce fidelle Ministre de J. Ch. Car sa 
+                    <lb/>commission n'étoit pas de la nature de celle 
+                    <lb/>que Dieu donna autrefois à Jonas, quand il 
+                    <lb/>l'envoya à Ninive ; ou celle qu'avoit Nathan 
+                    <lb/>lors qu'il ala trouver le Roi David 
+                    <lb/>pour lui denoncer les Jugemens de Dieu, 
+                    <lb/>ensuite du crime qu'il avoit commis contre 
+                    <lb/>Urie. C'étoit un Ministre de paix, de 
+                    <lb/>reconciliation &amp; de grace, qui ne cherchoit 
+                    <lb/>que leur consolation &amp; leur salut. S'il découvroit 
+                    <lb/>leurs playes, s'il y enfonçoit bien avant 
+                    <lb/>la sonde, ce n'étoit que pour les consolider, 
+                    <lb/>&amp; les guerir. Tout son Ministere ne tendoit 
+                    <lb/>qu'à les obliger à reconnoitre leurs fautes, 
+                    <lb/>pour en demander pardon à Dieu, &amp; 
+                    <lb/>avoir part à sa grace qu'il nous offre misericordieusement 
+                    <lb/>en J. Ch. Que diriés vous 
+                    <lb/>d'un esclave qui se jetteroit sur un homme 
+                    <lb/>qui viendroit pour briser ses fers, s'il entreprenoit 
+                    <lb/>de luy casser la tête de ses chaînes ? 
+                    <lb/>Quel jugement feriés vous d'un criminel 
+                    <lb/>condamné à la mort, qui poignarderoit le 
+                    <lb/>messager qui luy presenteroit des lettres de 
+                    <lb/>grace ? Vous les regarderiés sans doute l'un 
+                    <lb/>&amp; l'autre comme des furieux, comme les 
+                    <lb/>plus méchans &amp; les plus abominables de tous 
+                    <lb/>les hommes. Nest ce pas la précisément le 
+                    <lb/>crime des Juifs pour qui St. Etienne prie si 
+                    <lb/>ardemment ?</p> 
+                <p n="9"> 
+                    <lb/>Et que l'on ne me dise point que c'étoient <fw place="bot-right" type="catch">de</fw> 
+                     <pb n="20"/> 
+                    <lb/>de pauvres gens qui avoient bonne intention ; 
+                    <lb/>qu'ils témoignoient du zele pour la 
+                    <lb/>gloire de Dieu ; &amp; qu'ils s'imaginoient luy 
+                    <lb/>rendre un grand service de deffaire le monde 
+                    <lb/>d'un ennemy de la Synagogue. Car ce 
+                    <lb/>n'est pas assés d'avoir du zele, &amp; d'être bien 
+                    <lb/>intentionné pour justifier des actions condamnées 
+                    <lb/>par les Loix Divines, ou pour en 
+                    <lb/>diminuer l'horreur &amp; les excuser. Hoza n'étoit- 
+                    <lb/>il pas bien intentionné quand il avança 
+                    <lb/>sa main pour soûtenir l'Arche ? Il semble 
+                    <lb/>qu'il n'y avoit rien de plus excusable que son 
+                    <lb/>action qui partoit d'un bon principe, de 
+                    <lb/>l'attachement qu'il avoit au Tabernacle de 
+                    <lb/>son Dieu ; &amp; avec tout cela il ne laissa pas 
+                    <lb/>d'en être puny sur le champ. Il luy en coûta 
+                    <lb/>la vie, parce qu'il avoit touché de ses mains 
+                    <lb/>profanes la chose du monde la plus sainte, 
+                    <lb/>contre la deffense expresse de l'Eternel. Saül 
+                    <lb/>n'allegue-t-il pas aussi ses bonnes intentions, 
+                    <lb/>pour colorer la rebellion &amp; la desobeissance 
+                    <lb/>qu'il avoit fait paroître, en épargnant le bétail 
+                    <lb/>des Amalekites que Dieu lui avoit commandé 
+                    <lb/>de metrre à l'interdit ? Ne disoit il pas 
+                    <lb/>que s'il avoit gardé une partie de leurs 
+                    <lb/>bœufs &amp; de leurs brebis, ce n'étoit pas pour 
+                    <lb/>son interêt, qu'il n'avoit pas eu en veüe de 
+                    <lb/>s'enrichir de leurs depouilles, mais de les sacrifier 
+                    <lb/>à l'Eternel &amp; d'en faire fumer la graisse 
+                    <lb/>sur son Autel ? Dieu se paya-t-il de ces vaines <fw place="bot-right" type="catch">nes</fw> 
+                     <pb n="21"/> 
+                    <lb/>excusés ? Ne le dépouilla-t-il pas de la 
+                    <lb/>Royauté, pour avoir desobei à sa voix : luy 
+                    <lb/>faisant connoître qu'il ne prend point plaisir 
+                    <lb/>aux Holocaustes ; qu'il préfere l'obeissance 
+                    <lb/>&amp; la soumission qu'il nous demande aux 
+                    <lb/>plus excelens sacrifices. <quote source="bible1588.xml#Prov.16.25"> 
+                        <hi rend="I">Les voyes qui paroissent </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Prov.16.25"> 
+                                <hi rend="I">Prov.</hi> 16. <lb/>25.</ref> 
+                        </note> 
+                        <lb/>les plus <hi rend="I">droites à l'homme tendent </hi>souvent 
+                        <lb/> 
+                        <hi rend="I">à la mort</hi>. <hi rend="I">A la Loy &amp; au temoignage</hi> 
+                    </quote>. 
+                    <lb/>Si on ne se tient attaché <hi rend="I">à cette Regle</hi>, si on <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Isa.8.20"> 
+                            <hi rend="I">Esaie</hi> 8.</ref> 
+                    </note> 
+                    <lb/>ne suit le chemin qu'elle nous prescrit, <quote source="bible1588.xml#Isa.8.20"> 
+                        <hi rend="I">il 
+                            <lb/>n'y a point de matin</hi> 
+                    </quote> à attendre, point de salut 
+                    <lb/>à esperer.</p> 
+                <p n="10"> 
+                    <lb/>Leur zele ne doit pas être plus estimé que 
+                    <lb/>leurs intentions. C'est un grand nom que 
+                    <lb/>les hommes les plus corrompus donnent 
+                    <lb/>tous les jours aux actions les plus criminelles : 
+                    <lb/>un beau masque, qui ne sert que trop 
+                    <lb/>souvent à déguiser des passions infames. Qui 
+                    <lb/>est ce qui n'auroit pris le mécontentement 
+                    <lb/>de Judas, qui blâmoit une sainte femme de 
+                    <lb/>quelques liberalités qu'elle avoit fait au Seigneur 
+                    <lb/>Jesus, pour une marque de son zele, 
+                    <lb/>&amp; de l'affection qu'il avoit pour le bien des 
+                    <lb/>pauvres ; si l'Ecriture ne nous avoit apris 
+                    <lb/>que c'étoit l'effet de son avarice, &amp; de son 
+                    <lb/>avidité ? Les Hypocrites &amp; les Superstitieux 
+                    <lb/>n'en font ils pas tous les jours parade, lors 
+                    <lb/>qu'ils se déchaînent le plus violemment contre 
+                    <lb/>les enfans de Dieu ? Et n'est-il pas vray 
+                    <lb/>qu'ils commettent les dernieres horreurs <fw place="bot-right" type="catch">dans</fw> 
+                     <pb n="22"/> 
+                    <lb/>dans l'emportement d'un zele furieux &amp; 
+                    <lb/>aveugle ? Je veux qu'il y eût du feu, &amp; même 
+                    <lb/>beaucoup de feu dans la conduite des 
+                    <lb/>Juifs. Mais ce n'étoit pas ce feu celeste que 
+                    <lb/>l'on trouve sur l'Autel, le seul que 
+                    <lb/>Dieu agrée dans nos sacrifices. C'étoit un feu 
+                    <lb/>impur &amp; charnel montant de l'Abîme, qui 
+                    <lb/>n'est bon que pour les sacrifices des Demons 
+                    <lb/>qui aiment le sang, &amp; ne se repaissent que de 
+                    <lb/>carnage. Le vrai zele ne sçait ce que c'est 
+                    <lb/>de faire la guerre aux serviteurs de Dieu, &amp; 
+                    <lb/>de produire de faux temoins contr'eux 
+                    <lb/>pour les deshonorer &amp; pour les perdre. Il 
+                    <lb/>ne sçait ce que c'est que répandre du sang. 
+                    <lb/>Il ne fait pas même la guerre, au moins sous 
+                    <lb/>l'Evangile, aux personnes les plus ennemies 
+                    <lb/>de Dieu. Il laisse l'épée charnelle aux Princes 
+                    <lb/>&amp; aux Magistrats, à qui Dieu l'a mise en 
+                    <lb/>main pour punir les crimes commis contre 
+                    <lb/>les deux tables de la Loi : &amp; se contente de 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rev"> 
+                            <hi rend="I">Apoc.</hi> 
+                        </ref> 
+                    </note> celle <hi rend="I">de l'Esprit</hi> qui est incomparable pour 
+                    <lb/>renverser les Forteresses de l'idolatrie &amp; du 
+                    <lb/>mensonge. Il se contente de travailler à la 
+                    <lb/>destruction de l'erreur &amp; du vice, sans attenter 
+                    <lb/>à la vie de ceux qui s'y abandonnent. Il 
+                    <lb/>n'y a qu'un faux zele, un zele brutal &amp; aveugle 
+                    <lb/>qui soit capable de ces excés. L'Esprit 
+                    <lb/>qui les animoit n'étoit point l'Esprit de 
+                    <lb/>Christ qui est un Esprit de douceur &amp; de 
+                    <lb/>charité. C'étoit l'Esprit du Demon, qui <fw place="bot-right" type="catch">est</fw> 
+                     <pb n="23"/> 
+                    <lb/>est un Esprit de fureur, un Esprit <quote source="bible1588.xml#John.8.44"> 
+                        <hi rend="I">meurtrier </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.8.44">I. <hi rend="I">Jean</hi>.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">dés le commencement</hi> 
+                    </quote>. C'est celuy qu'ils avoient 
+                    <lb/>montré quand ils s'étoient jettez avec 
+                    <lb/>que tant de fureur sur le Seigneur J. ce 
+                    <lb/>mauvais Esprit qui fut cause de la mort de 
+                    <lb/>nôtre Sauveur, qui attacha le <quote source="bible1588.xml#_1Cor.2.8"> 
+                        <hi rend="I">Seigneur de </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_1Cor.2.8">I. <hi rend="I">Cor.</hi> <lb/>2. 8.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">gloire</hi> 
+                    </quote> à un bois maudit.</p> 
+                <p n="11"> 
+                    <lb/>S'il y a quelque chose qui diminüe tant 
+                    <lb/>soit peu l'horreur d'un pareil emportement, 
+                    <lb/>c'est l'ignorance &amp; l'aveuglement où étoient 
+                    <lb/>les Juifs, quand ils sont tombés dans 
+                    <lb/>ces excés de rage &amp; de cruauté. Et cela empesche 
+                    <lb/>à la verité qu'on ne les confonde avec 
+                    <lb/>ceux qui péchent contre le St. Esprit, qui 
+                    <lb/>est le comble de l'iniquité. C'est dans 
+                    <lb/>cette veüe sans doute que St. Paul leur representoit 
+                    <lb/>qu'ils avoient le zele de Dieu, mais 
+                    <lb/>sans connoissance ; au moins si on peut étendre 
+                    <lb/>son discours jusques à ceux qui avoient 
+                    <lb/>étendu leurs mains sacrileges sur le SAINT 
+                    <lb/>DES SAINTS. Car j'aurois assés de penchant 
+                    <lb/>à croire qu'il ne regarde que ceux des 
+                    <lb/>Juifs que l'amour qu'ils avoient pour les institutions 
+                    <lb/>de Moyse empêchoit d'embrasser 
+                    <lb/>l'Evangile ; mais qui tout attachés qu'ils étoient 
+                    <lb/>à ses ordonnances condamnoient dans 
+                    <lb/>leur cœur les violences que l'on commettoit 
+                    <lb/>pour les deffendre. Si l'Apôtre porte plus 
+                    <lb/>loin sa pensée, il leur represente leur aveuglement, 
+                    <lb/>non pour leur fournir les moyens <fw place="bot-right" type="catch">d'ex-</fw> 
+                     <pb n="24"/> 
+                    <lb/>d'excuser leurs impietés &amp; leurs excés, mais 
+                    <lb/>pour leur faire comprendre que leurs crimes 
+                    <lb/>n'étoient pas de la nature de ceux qui sont 
+                    <lb/>absolument irremissibles, &amp; les engager par 
+                    <lb/>ce moyen à avoir recours à la Misericorde 
+                    <lb/>divine. Cela est si vray qu'il se met lui même 
+                    <lb/>au rang de ces malheureux ; attribüant 
+                    <lb/>toutes les persecutions qu'il avoit fait à l'Eglise 
+                    <lb/>au trouble &amp; â l'agitation d'une passion 
+                    <lb/>aveugle. Et cependant il est si éloigné de 
+                    <lb/>s'excuser, qu'il se considere à cet égard comme 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_1Tim.1.15">I. <hi rend="I">Tim.</hi> <lb/>1. 15.</ref> 
+                    </note> 
+                    <quote source="bible1588.xml#_1Tim.1.15"> 
+                        <hi rend="I">le premier</hi> 
+                    </quote> de tous les pecheurs.</p> 
+                <p n="12"> 
+                    <lb/>Quelque grand que fût le crime des Juifs, 
+                    <lb/>St. Etienne ne desespere point d'en obtenir 
+                    <lb/>le pardon : sans doute parce que, comme 
+                    <lb/>nous l'avons deja touché, ce n'étoit point 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Acts.7.60">I. <hi rend="I">Jean</hi>.</ref> 
+                    </note> encore <quote source="bible1588.xml#Acts.7.60"> 
+                        <hi rend="I">le peché à mort</hi> 
+                    </quote>, pour qui il est inutile 
+                    <lb/>de prier, n'y ayant point de ressource pour 
+                    <lb/>ceux qui en sont coupables. Il le demande 
+                    <lb/>à son bon Maistre. <quote source="bible1588.xml#Acts.7.60"> 
+                        <hi rend="I">Seigneur</hi>, <seg type="interpolation">s'écrie t-il</seg> ne leur 
+                        <lb/>impute point ce peché</quote>. Il s'adresse, comme 
+                    <lb/>vous voyés, au fils de Dieu. Et cela 
+                    <lb/>suffit pour faire voir qu'il le regardoit comme 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.9.5"> 
+                            <hi rend="I">Rom</hi>. <lb/>9. 5.</ref> 
+                    </note> 
+                    <quote source="bible1588.xml#Rom.9.5"> 
+                        <hi rend="I">Dieu benit éternellement</hi> 
+                    </quote> avec le Pere : 
+                    <lb/>car l'invocation tient un rang considerable 
+                    <lb/>entre les honneurs &amp; les hommâges que la 
+                    <lb/>Creature doit à son Createur. C'est une des 
+                    <lb/>principales parties du culte religieux qui n'apartient 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.10.14"> 
+                            <hi rend="I">Ibid.</hi> <lb/>10. 4.</ref> 
+                    </note> qu'a luy. <quote source="bible1588.xml#Rom.10.14"> 
+                        <hi rend="I">Comment invoqueront ils </hi> 
+                        <lb/><seg type="interpolation">disoit St. Paul,</seg> 
+                        <hi rend="I">celuy en qui ils n'ont point cru</hi></quote>. 
+                     <fw place="bot-right" type="catch">Mais</fw> 
+                     <pb n="25"/> 
+                    <lb/>Mais la grace que ce saint homme demande à 
+                    <lb/>J. Ch. pour ses ennemis, justifie de plus en 
+                    <lb/>plus les sentimens qu'il avoit de sa Personne 
+                    <lb/>Divine. Car qui est-ce qui peut faire grace 
+                    <lb/>à un criminel, si ce n'est le Souverain ? 
+                    <lb/> 
+                    <quote source="bible1588.xml#Mark.2.7"> 
+                        <hi rend="I">Qui est ce qui peut pardonner les pechês sinon un </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Mark.2.7"> 
+                                <hi rend="I">Marc.</hi> <lb/>2. 7.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">seul Dieu</hi></quote> <hi rend="I">?</hi> 
+                     disoient autrefois les Juifs. <quote source="bible1588.xml#Isa.43.25"> 
+                        <hi rend="I">C'est 
+                            <lb/>moy, c'est moy, qui efface les forfaits ; &amp; qui </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Isa.43.25"> 
+                                <hi rend="I">Es.</hi> 43. <lb/>25.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">n'auray point souvenance de tes iniquités</hi> 
+                    </quote>, s'écrie 
+                    <lb/>l'Eternel luy même, pour détourner 
+                    <lb/>le peuple d'Israël des vanités, en qui il mettoit 
+                    <lb/>toute sa confiance. Le seul nom de 
+                    <lb/>SEIGNEUR qu'il luy donne met cette 
+                    <lb/>verité dans un grand jour. Car il répond à 
+                    <lb/>celuy de JEHOVA : ce nom prétieux 
+                    <lb/>que Dieu a choisy pour se distinguer particulierement 
+                    <lb/>des Creatures. Il est si grand &amp; 
+                    <lb/>si illustre, que les Princes du monde les plus 
+                    <lb/>fiers ont fait scrupule de s'en servir en diverses 
+                    <lb/>rencontres : le trouvant beaucoup au dessus 
+                    <lb/>des plus grandes dignités qui se voyent 
+                    <lb/>sur la terre.</p> 
+                <p n="13"> 
+                    <lb/>Et ici on s'étonne qu'il sollicite l'abolition 
+                    <lb/>d'un crime dont il semble qu'il devoit 
+                    <lb/>poursuivre ardemment la punition. Ne devoit 
+                    <lb/>il pas demander plûtôt le secours de sa justice, 
+                    <lb/>que d'implorer sa clemence ? N'auroit- 
+                    <lb/>il pas mieux fait de le pousser &amp; de l'animer 
+                    <lb/>à la vengeance, que de travailler à le flechir, 
+                    <lb/>&amp; à desarmer son <choice><sic>courrour</sic><corr resp="#MAG">courroux</corr></choice> ? Ne devoit-il <fw place="bot-right" type="catch">pas</fw> 
+                     <pb n="26"/> 
+                    <lb/>pas avoir un vif ressentiment des injures 
+                    <lb/>qu'on luy faisoit ? Ne luy étoit-il pas permis 
+                    <lb/>de haïr des gens qui le persecutoient avec 
+                    <lb/>tant de rage ? Ne devoit-il pas faire des 
+                    <lb/>vœux pour leur destruction ; bien loin d'en 
+                    <lb/>faire pour leur salut ? Encore si leur haine 
+                    <lb/>s'étoit attachée uniquement à sa personne. 
+                    <lb/>Mais elle s'attachoit principalement à sa Religion. 
+                    <lb/>C'étoient des ennemis de Dieu, &amp; 
+                    <lb/>non les siens en particulier. C'étoit à Dieu 
+                    <lb/>même qu'ils s'attaquoient. Ce n'étoit que 
+                    <lb/>pour obscurcir sa gloire, &amp; pour ruiner son 
+                    <lb/>Empire qu'ils luy faisoient une si dure guerre : 
+                    <lb/>&amp; peut-on haïr trop fortement ceux 
+                    <lb/>qui font la guerre à Dieu, &amp; à ses fidelles ? 
+                    <lb/>Il semble que l'on n'a point de mesures à garder 
+                    <lb/>avec des gens qui font l'œuvre du Demon, 
+                    <lb/>&amp; qui se servent des moyens du monde 
+                    <lb/>les plus injustes pour l'avancer. Je ne 
+                    <lb/>doute point, M. F. que St. Etienne n'eût 
+                    <lb/>senty vivement la pesanteur des coups qui 
+                    <lb/>l'accabloient. Il n'étoit pas de fer, ou de 
+                    <lb/>bronze. Sa chair, qui n'étoit pas d'autre 
+                    <lb/>trempe que la nôtre, en avoit esté violemment 
+                    <lb/>troublée ; &amp; s'il eût suivy ses mouvemens, 
+                    <lb/>il auroit asseurément rendu la pareille 
+                    <lb/>à ses ennemis : il n'auroit rien oublié pour 
+                    <lb/>faire tomber sur eux les foudres du Ciel. 
+                    <lb/>Mais il avoit été nourri dans une trop bonne 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Gal.1.16"> 
+                            <hi rend="I">Gal.</hi> 1.</ref> 
+                    </note> êcole, <hi rend="I">pour </hi> 
+                    <quote source="bible1588.xml#Gal.1.16"> 
+                        <hi rend="I">prendre conseil de la chair &amp; du</hi> 
+                         <fw place="bot-right" type="catch">sang</fw> 
+                         <pb n="27"/> 
+                        <lb/> 
+                        <hi rend="I">sang</hi> 
+                    </quote> dans cette occurrence. Il avoit été élevé 
+                    <lb/>dans le sein d'un Pere <quote source="bible1588.xml#Ezek.18.21"> 
+                        <hi rend="I">qui ne demande </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ezek.18.21"> 
+                                <hi rend="I">Ezech.</hi> <lb/>18.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">point la mort du pecheur, mais sa conversion, 
+                            <lb/>&amp; sa vie</hi><!-- citation approximative --></quote>. Il 
+                    avoit devant les yeux l'exemple 
+                    <lb/>de son Sauveur, qui a souffert la même 
+                    <lb/>contradiction des pecheurs, qui a veu ces 
+                    <lb/>mêmes Juifs qui le lapidoient encore plus 
+                    <lb/>acharnés à sa ruïne, &amp; qui n'a pas laissé d'interceder 
+                    <lb/>pour eux, dans le tems qu'ils faisoient 
+                    <lb/>les derniers efforts pour aneantir les 
+                    <lb/>decrets de Dieu. <hi rend="I">Pere</hi>, s'écria-t-il du haut 
+                    <lb/>de la Croix où ils l'avoient attaché, aprés 
+                    <lb/>l'avoir couvert d'oprobre &amp; d'injures, <quote source="bible1588.xml#Luke.23.34"> 
+                        <hi rend="I">Pere</hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Luke.23.34"> 
+                                <hi rend="I">Luc</hi>. 23. <lb/>34.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">pardonne leur, car ils ne savent ce qu'ils font</hi></quote>. 
+                    <lb/>Ce fidelle Disciple <quote source="bible1588.xml#Acts.7.55"> 
+                        <hi rend="I">plein du même Esprit</hi> 
+                    </quote> 
+                    <hi rend="I">,</hi> sacrifie <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Acts.7.55"> 
+                            <hi rend="I">Act</hi>. 7. <lb/>55.</ref> 
+                    </note> 
+                    <lb/>comme son bon Maistre les passions 
+                    <lb/>les plus justes &amp; les plus innocentes à la charité.</p> 
+                <p n="14"> 
+                    <lb/>C'est ainsi que la plus-part des Martyrs 
+                    <lb/>ont été disposés. On les a souvent entendus 
+                    <lb/>sur les échafauts &amp; sur les buchers, au milieu 
+                    <lb/>des suplices les plus rigoureux, implorer 
+                    <lb/>la misericorde de Dieu pour leurs juges 
+                    <lb/>&amp; pour leurs boureaux. C'est là asseurement 
+                    <lb/>le vray caractere du Chrêtien, une 
+                    <lb/>marque certaine que l'Esprit de Dieu qui ne 
+                    <lb/>respire que la charité, habite en luy. S'il se 
+                    <lb/>trouve des gens qui soient autrement disposés, 
+                    <lb/>ce n'est point l'Esprit de Dieu qui agit 
+                    <lb/>en eux : c'est la chair qui y exerce encore ses <fw place="bot-right" type="catch">pas-</fw> 
+                     <pb n="28"/> 
+                    <lb/>passions &amp; sa tyrannie, cette malheureuse 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Gal.5.17"> 
+                            <hi rend="I">Gal.</hi> 
+                        </ref> 
+                    </note> 
+                    <quote source="bible1588.xml#Gal.5.17"> 
+                        <hi rend="I">chair qui combat contre l'Esprit</hi> 
+                    </quote>, qui resiste 
+                    <lb/>toûjours à ses mouvemens, qui s'y oppose 
+                    <lb/>avec un orgueil, &amp; une fierté inconcevable. 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Gal.5.24"> 
+                            <hi rend="I">Ibid.</hi> 
+                        </ref> 
+                    </note> 
+                    <quote source="bible1588.xml#Gal.5.24"> 
+                        <hi rend="I">Ceux qui sont de Christ ont crucifié la chair 
+                            <lb/>avec ses affections &amp; ses 
+                        convoitises</hi></quote>. N'est- 
+                    <lb/>ce pas ce que le Seigneur répresentoit 
+                    <lb/>à ses Disciples, lors qu'irrités de l'affront 
+                    <lb/>que les Samaritains firent à leur adorable 
+                    <lb/>Maistre, en luy fermant les portes de leur 
+                    <lb/>ville, ils voulurent faire descendre le feu du 
+                    <lb/>Ciel pour les consumer ? <quote source="bible1588.xml#Luke.9.55"> 
+                        <hi rend="I">Vous ne savés</hi>, 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Luke.9.55"> 
+                                <hi rend="I">Luc.</hi> 9. <lb/>55.</ref> 
+                        </note> <seg type="interpolation">leur dit-il,</seg> 
+                        <hi rend="I">de quel Esprit vous étes</hi> 
+                    </quote> 
+                    <hi rend="I"> :</hi> leur 
+                    <lb/>faisant comprendre par la severité de cette 
+                    <lb/>censure, que la passion qui les animoit étoit 
+                    <lb/>une passion terrienne &amp; mondaine, bien éloignée 
+                    <lb/>des sentimens &amp; des inclinations que 
+                    <lb/>l'Esprit de Dieu inspire à ses enfans : <quote source="bible1588.xml#Rom.8.7"> 
+                        <hi rend="I">une </hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.8.7"> 
+                                <hi rend="I">Rom.</hi> 8.</ref> 
+                        </note> 
+                        <hi rend="I">affection de la chair qui est ennemie de Dieu, 
+                            <lb/>qui ne se rend point sujette à sa Loy, &amp; qui 
+                            <lb/>ne sçait ce que c'est de s'y soûmetre</hi> 
+                        </quote>. 
+                </p> 
+                <p n="15"> 
+                    <lb/>Et que l'on ne se mette point icy à l'ombre 
+                    <lb/>des Prophetes, qui ont fait d'horribles 
+                    <lb/>imprecations contre les ennemis de Dieu, &amp; 
+                    <lb/>se sont fait honneur de la haine &amp; de l'aversion 
+                    <lb/>qu'ils ont eu pour eux. Car nous ne 
+                    <lb/>sommes point Prophetes. Nous ne connoissons 
+                    <lb/>point comme eux par Esprit de Prophetie 
+                    <lb/>ceux qui sont l'objet de la reprobation 
+                    <lb/>divine. Nous ne savons point qui sont ceux <fw place="bot-right" type="catch">qu'il</fw> 
+                     <pb n="29"/> 
+                    <lb/>qu'il a devoüés aux flammes éternelles. 
+                    <lb/>Il ne nous a point mis en la bouche, comme à 
+                    <lb/>ses saints hommes, les maledictions qu'il 
+                    <lb/>veut faire tomber sur ses ennemis. Nous 
+                    <lb/>ne sommes point les Ministres de sa Justice, 
+                    <lb/>&amp; les executeurs de ses jugemens, comme 
+                    <lb/>les Prophetes : nous sommes les enfans de sa 
+                    <lb/>grace. Ce n'est point à nous à exercer sa 
+                    <lb/>vengeance contre les pecheurs, mais à attirer 
+                    <lb/>sur eux les graces qu'il nous a communiquées, 
+                    <lb/>à prier pour leur reconciliation 
+                    <lb/>&amp; leur salut. Toute la peine que nous leur 
+                    <lb/>devons souhaiter, c'est la confusion que produit 
+                    <lb/>la reconnoissance du peché, &amp; le deplaisir 
+                    <lb/>que l'on a d'avoir offensé Dieu, fait 
+                    <lb/>la guerre aux saints, &amp; desolé ses Troupeaux ; 
+                    <lb/>une vive <quote source="bible1588.xml#Acts.2.37"> 
+                        <hi rend="I">componction de cœur</hi> 
+                    </quote>, qui <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Acts.2.37"> 
+                            <hi rend="I">Act.</hi> 2. <lb/>37.</ref> 
+                    </note> 
+                    <lb/>leur puisse être salutaire ; une sainte <quote source="bible1588.xml#_2Cor.7.10"> 
+                        <hi rend="I">tristesse 
+                            <lb/>qui produit la vraye repentance, dont on ne se </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_2Cor.7.10">2 <hi rend="I">Cor.</hi> 7. <lb/>10.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">repent jamais</hi> 
+                    </quote>. Tout le reste vient du Malin, 
+                    <lb/>c'est un effet de nôtre impatience, ou 
+                    <lb/>de nôtre orgueil, qui nous porte à <quote source="bible1588.xml#Acts.9.5"> 
+                        <hi rend="I">regimber </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Acts.9.5"> 
+                                <hi rend="I">Act.</hi> 9.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">contre l'éguillon</hi> 
+                     
+                    </quote>. C'est ce qui fait que nous 
+                    <lb/>nous prenons aux causes secondes des maux 
+                    <lb/>dont Dieu nous visite, &amp; qu'il nous dispense 
+                    <lb/>avec uue sagesse infinie, ou pour nous 
+                    <lb/>éprouver, ou pour nous châtier, ou pour 
+                    <lb/>nous tenir en bride : &amp; souvent pour toutes 
+                    <lb/>ces raisons ensemble. Il faut avoir le 
+                    <lb/>cœur d'une bête, &amp; l'ame d'un chien, pour <fw place="bot-right" type="catch">s'arrê-</fw> 
+                     <pb n="30"/> 
+                    <lb/>s'arrêter à mordre la pierre dont on a été 
+                    <lb/>frapé ; au lieu de regarder au bras qui la lance. 
+                    <lb/>Les hommes du monde les plus furieux, 
+                    <lb/>&amp; les plus acharnés à notre ruïne, 
+                    <lb/>ne sont que des instrumens en la main de 
+                    <lb/>Dieu pour faire son œuvre. Il nous le 
+                    <lb/>dit lui même de Nebucadnetsar, un des plus 
+                    <lb/>grands &amp; des plus cruëls ennemis que l'Eglise 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Isa.10.5"> 
+                            <hi rend="I">Esai.</hi> 
+                        </ref> 
+                    </note> ait jamais eu. Il nous declare souvent 
+                    <lb/>qu'il <hi rend="I">n'étoit que </hi> 
+                    <quote source="bible1588.xml#Isa.10.5"> 
+                        <hi rend="I">la verge de son indignation, 
+                            <lb/>&amp; le bâton de sa fureur</hi></quote>. 
+                         
+                    <hi rend="I"> </hi> Il est certain qu'il 
+                    <lb/>n'arrive point mal dedans le monde, ni dans 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Jer."> 
+                            <hi rend="I">Jerem.</hi> 
+                        </ref> 
+                    </note> l'Eglise, que Dieu ne dispense, &amp; qu'il ne 
+                    <lb/>dirige par sa bonne Providence. Et s'il se sert 
+                    <lb/>de la mauvaise disposition des peuples, de 
+                    <lb/>leurs passions, &amp; de leurs violences pour 
+                    <lb/>nous corriger, comme les Magistrats se servoient 
+                    <lb/>autrefois des bêtes feroces pour punir 
+                    <lb/>les crimes, ou les Chirurgiens du fer &amp; du feu 
+                    <lb/>pour guerir les playes inveterées, pour extirper 
+                    <lb/>des membres pourris : qui ne voit qu'au 
+                    <lb/>lieu de s'irriter contre les hommes, on devroit 
+                    <lb/>plûtot <quote source="bible1588.xml#Jas.4.10"> 
+                        <hi rend="I">s'humilier sous la main puissante </hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Jas.4.10:6"> 
+                                <hi rend="I">Jâq.</hi> 
+                            </ref> 
+                        </note> 
+                        <hi rend="I">de Dieu : car il resiste aux orgueilleux, 
+                            <lb/>mais il fait grace aux humbles</hi><!-- citation approximative --></quote>. 
+                         
+                    <hi rend="I"> </hi> N'est-ce- 
+                    <lb/>pas ce que fit David, lorsque Semei insultoit 
+                    <lb/>si insolemment à sa disgrace, qu'il le 
+                    <lb/>poursuivoit avec tant de fierté ? Il remonta 
+                    <lb/>d'abord à la premier cause de tous ses 
+                    <lb/>malheurs. <quote source="bible1588.xml#_2Sam.16.10"> 
+                        <hi rend="I">C'est l'Eternel</hi>, <seg type="interpolation">s'écria-t-il,</seg> 
+                        <hi rend="I">qui</hi> 
+                         <fw place="bot-right" type="catch"> 
+                            <hi rend="I">luy</hi> 
+                        </fw> 
+                         <pb n="31"/> 
+                        <lb/> 
+                        <hi rend="I">luy a dit maudi David</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>: &amp; ne voulut pas <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_2Sam.16.10">2 <hi rend="I">Sam.</hi> <lb/>16, 10.</ref> 
+                    </note> 
+                    <lb/>souffrir qu'on luy fit le moindre mal. 
+                    <lb/>C'étoit un grand Roy qvi se voyoit traité 
+                    <lb/>de la <choice><sic>manięre</sic><corr resp="#MAG">manière</corr></choice> du monde la plus indigne 
+                    <lb/>par <quote source="bible1588.xml#_2Sam.16.9"> 
+                        <hi rend="I">un chien mort</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>; un sujet rebelle qu'il <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#_2Sam.16.9"> 
+                            <hi rend="I">Ibid</hi>, 16. <lb/>9.</ref> 
+                    </note> 
+                    <lb/>n'avoit jamais offensé. Il n'avoit qu'à dire 
+                    <lb/>une parole, pour le faire mettre en pieces. 
+                    <lb/>Il n'étoit pas même necessaire qu'il 
+                    <lb/>s'en meslât. Il n'avoit qu'à laisser faire 
+                    <lb/>ses gens. Mais bien loin de lâcher la bride à 
+                    <lb/>ses serviteurs, il s'oppose à leur ressentiment, 
+                    <lb/>quelque juste, &amp; quelque raisonnable 
+                    <lb/>qu'il fût, &amp; permet qu'il se retire 
+                    <lb/>en paix dans sa maison, sans luy donner la 
+                    <lb/>moindre marque de son indignation. Faut- 
+                    <lb/>il s'étonner si le Seigneur eut pitié de luy, 
+                    <lb/>s'il le rétablit dans ses dignités, &amp; luy 
+                    <lb/>donna une pleine &amp; entiere victoire de 
+                    <lb/>ses ennemis ? <hi rend="I">Car à qui est-ce que l'Eternel 
+                        <lb/>regarderoit, si ce n'est à celuy</hi> 
+                     qui a le<supplied resp="#MAG" reason="omission"> </supplied>coëur 
+                    <lb/>brisé, qui baise la main &amp; respecte la verge 
+                    <lb/>dont il le frape qui adore ses jugemens avec 
+                    <lb/>un profond silence ? Trouverons-nous 
+                    <lb/>étrange que nos maux continuënt, &amp; 
+                    <lb/>qu'ils augmentent de jour en jour, puisque 
+                    <lb/>nous sommes si differens de cet excellent 
+                    <lb/>serviteur de Dieu ?</p> 
+                <p n="16"> 
+                    <lb/>Non seulement on ne doit point rendre 
+                    <lb/>le mal pour le mal à ses ennemis, mais il 
+                    <lb/>faut <quote source="bible1588.xml#Rom.12.21"> 
+                        <hi rend="I">surmonter le mal par le bien</hi> 
+                    </quote>,<hi rend="I"> </hi> en travaillant <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.12.21"> 
+                            <hi rend="I">Rom.</hi> 12. <lb/>21.</ref> 
+                    </note> 
+                     <fw place="bot-right" type="catch">vail-</fw> 
+                     <pb n="32"/> 
+                    <lb/>à leur procurer tous les thresors de la 
+                    <lb/>grace. C'est l'esprit de nôtre Martyr, &amp; 
+                    <lb/>le devoir de tous les Fidelles. L'ecriture nous 
+                    <lb/>engage positivement à ne leur refuser aucun 
+                    <lb/>des bons offices de la charité. <quote source="bible1588.xml#Prov.25.21"> 
+                        <hi rend="I">Si ton ennemi </hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Prov.25.21;Rom.12.20">
+                                <hi rend="I">Prov.</hi> 25.</ref> 
+                        </note> 
+                        <hi rend="I">à faim</hi>,<hi rend="I"> </hi> <seg type="interpolation">nous dit-elle,</seg> 
+                        <hi rend="I">donne luy à manger.</hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.12.20"> 
+                                <hi rend="I">Rom.</hi> 12.</ref> 
+                        </note> 
+                        <hi rend="I">S'il a soif, donne luy à boire</hi> 
+                        
+                    </quote> 
+                    <hi rend="I"> </hi>: paroles qui 
+                    <lb/>sous le nom des choses les plus necessaires à 
+                    <lb/>la vie comprennent tous les autres biens. 
+                    <lb/>Et afin que l'on ne croye pas que ce discours 
+                    <lb/>ne regarde que nos ennemis particuliers, 
+                    <lb/>&amp; qu'il y ait une autre loy pour les 
+                    <lb/>ennemis publics, les Persecuteurs &amp; les 
+                    <lb/>impies qui font la guerre à Dieu &amp; à ses 
+                    <lb/>enfans, qui les haïssent uniquement parce 
+                    <lb/>qu'ils aiment Dieu, &amp; font profession de 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Matt.5.44"> 
+                            <hi rend="I">Mat.</hi> 5.</ref> 
+                    </note> sa verité : écoutés ce que notre Seigneur 
+                    <lb/>nous dit dans son Evangile. <quote source="bible1588.xml#Matt.5.44"> 
+                        <hi rend="I">Aimés vos 
+                            <lb/>ennemis, benissès ceux qui vous maudissent, 
+                            <lb/>priès pour ceux qui vous courent sus, &amp; qui </hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.12.14"> 
+                                <hi rend="I">Rom</hi>. 12.</ref> 
+                        </note> 
+                        <hi rend="I">vous persecutent</hi> 
+                    </quote>. 
+                    <hi rend="I"> </hi> 
+                    <quote source="bible1588.xml#Rom.12.14"> 
+                        <hi rend="I">Benissés les, &amp; ne les maudissés 
+                            <lb/>point</hi> 
+                         
+                    </quote>, dit l'Apôtre des Gentils en 
+                    <lb/>suivant les traces de son grand Maistre. Où 
+                    <lb/>vous voyés que la charité n'a point de bornes, 
+                    <lb/>qu'elle s'étend jusques aux ennemis 
+                    <lb/>de Dieu, à ceux-là même qui persecutent 
+                    <lb/>son Eglise, &amp; qvi sevissent le plus 
+                    <lb/>cruellement contre ses enfans. L'exemple 
+                    <lb/>que nôtre Seigneur allegue pour allumer 
+                    <lb/>ce feu sacré dans nos ames, nous confirme <fw place="bot-right" type="catch">firme</fw> 
+                     <pb n="33"/> 
+                    <lb/>de plus en plus dans cette pensée. 
+                    <lb/>C'est celuy <hi rend="I">du Pere. </hi> 
+                    <quote source="bible1588.xml#Matt.5.45"> 
+                        <hi rend="I">Celeste, qui fait luire 
+                            <lb/>son soleil sur les bons &amp; sur les mauvais ; 
+                            <lb/>qui donne sa pluye</hi> 
+                    </quote> aux uns, &amp; aux autres ; 
+                    <lb/>qui distribuë les benedictions de la terre à 
+                    <lb/>ceux qui font par être le plus d'aversion pour 
+                    <lb/>luy, comme à ceux qui ont un parfait 
+                    <lb/>attachement à son service. Nous en avons 
+                    <lb/>encore un autre qui n'est pas moins pressant 
+                    <lb/>en la personne de J. Ch. <quote source="bible1588.xml#Col.1.21"> 
+                        <hi rend="I">mort pour nous lors </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Col.1.21"> 
+                                <hi rend="I">Col.</hi> 1. <lb/>21.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">que nous étions ses ennemis en pensées &amp; en 
+                            <lb/>mauvaises œuvres</hi></quote>. 
+                    <hi rend="I"> </hi>Il a même répandu son 
+                    <lb/>sang pour ses boureaux. Car combien y a- 
+                    <lb/>t-il eu de Juifs qui étant revenus de leurs égaremens 
+                    <lb/>ont eu part au merite de sa mort, &amp; 
+                    <lb/>éprouvé sa clemence ? <quote source="bible1588.xml#_1Pet.2.21"> 
+                        <hi rend="I">Il nous a laissé ce patron </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_1Pet.2.21"> 
+                                <hi rend="I">Pier.</hi> 
+                            </ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">afin que nous suivions ses 
+                        traces</hi></quote>. 
+                    <hi rend="I"> </hi> Et il 
+                    <lb/>ne faut point s'en éloigner, si nous voulons 
+                    <lb/>que Dieu nous avouë pour ses enfans, &amp; 
+                    <lb/>J. Ch. pour ses Freres.</p> 
+                <p n="17"> 
+                    <lb/>En effet comment Dieu ne désavouëroit- 
+                    <lb/>il point des creatures qui n'auroient point de 
+                    <lb/>charité ? C'est là son Esprit. <quote source="bible1588.xml#_1John.4.8"> 
+                        <hi rend="I">Dieu est charité</hi> 
+                    </quote>. 
+                    <hi rend="I"> </hi> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.8.9">1. <hi rend="I">Jean</hi>. <lb/><hi rend="I">Rom</hi>. 8. 
+                            <lb/>9.</ref> 
+                    </note> 
+                    <lb/> 
+                    <quote source="bible1588.xml#Rom.8.9"> 
+                        <hi rend="I">Or celuy qui n'a point l'Esprit de Dieu, 
+                            <lb/>celuy là n'est point à luy</hi> 
+                    </quote>. Comment <choice><sic>avouëtoit</sic><corr resp="#CiM">avouëroit</corr></choice>- 
+                    <lb/>il des gens qui se trouveroient dans une 
+                    <lb/>perpetuelle opposition avec luy ? Et je vous 
+                    <lb/>prie ne serions-nous pas tous les jours en 
+                    <lb/>contradiction avec Dieu : ne romprions- 
+                    <lb/>nous pas sans cesse les mesures qu'il a pris <fw place="bot-right" type="catch">de</fw> 
+                     <pb n="34"/> 
+                    <lb/>de toute éternité dans son Conseil, s'il étoit 
+                    <lb/>permis de haïr tous ceux qui ont declaré la 
+                    <lb/>guerre à Dieu, &amp; de faire des imprecations 
+                    <lb/>contr'eux, pour les maudire ? Nous maudirions 
+                    <lb/>souvent, par une erreur pire que celle 
+                    <lb/>de Balaam, ceux que l'Eternel veut benir. 
+                    <lb/>Seroit-ce une disposition digne de ses enfans ? 
+                    <lb/>Ne devons-nous pas seconder ses desseins, &amp; 
+                    <lb/>nous conformer à ses inclinations, pour 
+                    <lb/>nous montrer dignes de l'honneur de nôtre 
+                    <lb/>Adoption ? Tel est aujourd'huy un grand 
+                    <lb/>ennemy de Dieu, &amp; des plus acharnés à la 
+                    <lb/>ruïne de ses Troupeaux, qui sera peut-être 
+                    <lb/>demain au rang de ses Confesseurs &amp; de ses 
+                    <lb/>Martyrs. Combien de fois a-t-on veu les 
+                    <lb/>Persecuteurs se convertir dans le plus violent 
+                    <lb/>accés de leur rage ? L'Esprit de Dieu souffle 
+                    <lb/>où il veut. Il vivifie, quand il luy plaît, les 
+                    <lb/>cadavres les plus endurcis, &amp; triomphe 
+                    <lb/>des cœurs les plus endurcis. Que sais-tu, 
+                    <lb/>ô homme qui que tu sois, qui te déchaines 
+                    <lb/>si furieusement contre tes ennemis, si le moment 
+                    <lb/>que tu prens pour les maudire n'est 
+                    <lb/>point celuy que l'Eternel à choisy pour leur 
+                    <lb/>donner les premiers sentimens de son amour, 
+                    <lb/>&amp; commencer à repandre sur eux ses benedictions ? 
+                    <lb/>Et cela posé, ne te trouverois-tu 
+                    <lb/>pas toy même faire la guerre à Dieu ? Ne traverserois- 
+                    <lb/>tu pas au moins ses desseins ? Si 
+                    <lb/>nôtre Saint Martyr eût été animé du même <fw place="bot-right" type="catch">es-</fw> 
+                     <pb n="35"/> 
+                    <lb/>esprit ; qu'il eût maudit tous ceux qui contribuerent 
+                    <lb/>à sa mort, &amp; qui s'interessoient 
+                    <lb/>dans son suplice, il eût proscrit un Saul, que 
+                    <lb/>Dieu regardoit déja d'un œil misericordieux, 
+                    <lb/>&amp; qu'il apella peu de tems aprés 
+                    <lb/>à la communion de son Fils. Il auroit prive 
+                    <lb/>l'Eglise d'un excellent instrument dont 
+                    <lb/>Dieu s'est servy tres utilement pour l'edifier. 
+                    <lb/>Elle auroit perdu ce grand Apôtre, qui à 
+                    <lb/>plus contribüé luy seul que tous ses Compagnons 
+                    <lb/>à l'établissement du Regne de nôtre 
+                    <lb/>Sauveur. Car vous savés qu'il étoit complice 
+                    <lb/>de la mort d'Etienne. Il gardoit les <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Acts.8;Acts.22"> 
+                            <hi rend="I">Act.</hi> 8. <hi rend="I">Ibid.</hi> 22.</ref> 
+                    </note> 
+                    <lb/>habits de ceux qui le lapidoient, &amp; repaissoit 
+                    <lb/>ses yeux avec plaisir d'un si inhumain 
+                    <lb/>spectacle. Mais il pensoit à toute autre 
+                    <lb/>chose, il le benissoit, il prioit pour luy. Et 
+                    <lb/>ce fut peut-être une des raisons qui obligea 
+                    <lb/>le Seigneur à hâter sa conversion. C'est 
+                    <lb/>peut-être à ses soûpirs &amp; à ses prieres que l'Eglise 
+                    <lb/>est redevable des grands services que <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Jas.5.16"> 
+                            <hi rend="I">Jâq.</hi> 
+                        </ref> 
+                    </note> 
+                    <lb/>l'Apôtre luy a rendus. Car si <quote source="bible1588.xml#Jas.5.16"> 
+                        <hi rend="I">la priere 
+                            <lb/>du juste est d'une grande efficace, quand elle est 
+                            <lb/>faite avec foy</hi> 
+                         
+                    </quote> 
+                    <hi rend="I"> </hi>: celles que les Martyrs font 
+                    <lb/>dans le combat doivent avoir encore plus de 
+                    <lb/>force &amp; de vertu. Il n'y a rien qu'elles ne 
+                    <lb/>puissent obtenir de la misericorde de Dieu. 
+                    <lb/>C'est pourquoy l'ancienne Eglise ne manquoit 
+                    <lb/>gueres à leur demander le secours de 
+                    <lb/>leurs prieres dans ses besoins.</p> 
+                 <fw place="bot-right" type="catch">Quoy</fw> 
+                 <pb n="36"/> 
+                <p n="18"> 
+                    <lb/>Quoy qu'il en soit, il faloit que la charité 
+                    <lb/>de ce saïnt homme fût bien extraordinaire, 
+                    <lb/>pour produire de si merveilleux effets. 
+                    <lb/>On admire celle de Moyse, qui souhaitoit 
+                    <lb/>d'être effacé du Livre de vie pour ses 
+                    <lb/>Freres. Mais nôtre Martyr en devoit avoir 
+                    <lb/>pour le moins autant pour ses ennemis, que 
+                    <lb/>le Legislateur d'Israël en temoignoit à ses 
+                    <lb/>Freres, pour travailler à leur salut dans le 
+                    <lb/>moment qu'ils s'employent avec tant de fureur 
+                    <lb/>a sa perte. Il faloit que celle que J. 
+                    <lb/>Ch. à eu pour nous eût fait une profonde 
+                    <lb/>impression dans son ame ; qu'elle en eût 
+                    <lb/>banny toutes les passions de la nature, &amp; 
+                    <lb/>s'en fût renduë absolument la maîtresse ; 
+                    <lb/>qu'elle y regnast avec un empire souverain ; 
+                    <lb/>qu'il fût tout penetré de son feu celeste, 
+                    <lb/>&amp; que la flamme en fût bien violente, 
+                    <lb/>pour fondre toutes les glaces d'un hyver 
+                    <lb/>aussi rude que celuy de la persecution qu'il 
+                    <lb/>essuyoit, &amp; luy faire aimer des personnes si 
+                    <lb/>dignes de l'aversion de Dieu &amp; des hommes.</p> 
+                <p n="19"> 
+                    <lb/>Ce qui releve encore le prix de sa charité, 
+                    <lb/>&amp; acheve d'en justifier la grandeur, ce 
+                    <lb/>sont les dispositions qu'il fait paroître en 
+                    <lb/>priant. Car il ne le fait pas foiblement, du 
+                    <lb/>bout des levres, &amp; par manière d'aquit, 
+                    <lb/>comme la pluspart des hommes. Sa priere 
+                    <lb/>est accompagnée de toute l'humilité &amp; de 
+                    <lb/>toute l'ardeur dont il étoit capable. Son <fw place="bot-right" type="catch">humi-</fw> 
+                     <pb n="37"/> 
+                    <lb/>humilité paroit en ce qu'il se jette par terre, 
+                    <lb/>pour presenter sa requête. <quote source="bible1588.xml#Acts.7.60"> 
+                        <hi rend="I">Il se mit à genoux</hi> 
+                    </quote>,<hi rend="I"> </hi> 
+                    <lb/>dit le saint Historien : son zele &amp; sa 
+                    <lb/>devotion dans les cris qu'il pousse vers le 
+                    <lb/>Ciel. Car il ne parloit pas simplement ; 
+                    <lb/> 
+                    <quote source="bible1588.xml#Acts.7.60"> 
+                        <hi rend="I">il crioit à haute voix</hi> 
+                    </quote>.<hi rend="I"> </hi> Il n'avoit pas pris 
+                    <lb/>toutes ces precautions, lors qu'il avoir prié 
+                    <lb/>pour soy même. Au moins saint Luc ne 
+                    <lb/>nous dit rien de semblable. Et n'en peut- 
+                    <lb/>on pas conclûre qu'il se mettoit moins en 
+                    <lb/>peine de son salut que de celuy de ses prochains ? 
+                    <lb/>C'est le vray caractere d'une charité 
+                    <lb/>heroïque, qui regarde bien moins à ses 
+                    <lb/>intérêts qu'à celuy des autres : le dernier 
+                    <lb/>effort de la vertu, d'aimer son prochain 
+                    <lb/>plus que soy même : le plus haut degré de 
+                    <lb/>la perfection que Dieu exige des hommes 
+                    <lb/>sous l'Evangile, &amp; dont il nous a donné un 
+                    <lb/>modelle incomparable en nôtre Sauveur.</p> 
+                <p n="20"> 
+                    <lb/>Venés à l'école de ce Saint Martyr, vous 
+                    <lb/>qui paroissés si fiers &amp; si impatiens dans vos 
+                    <lb/>maux. Où sont ceux d'entre vous qui ayent 
+                    <lb/>autant souffert que luy ? Il y en a peu qui 
+                    <lb/>ayent <quote source="bible1588.xml#Heb.12.4"> 
+                        <hi rend="I">resisté jusqu'au sang, en combatant </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.12.4"> 
+                                <hi rend="I">Heb.</hi> 12.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">contre le peché</hi></quote>. 
+                    <hi rend="I"> </hi>Et cependant combien y en 
+                    <lb/>a-t-il qui se plaindroient volontiers de ce que 
+                    <lb/>Dieu souffre encore de ses ennemis ? Il ne 
+                    <lb/>tiendroit pas à eux que la terre ne s'ouvrist, 
+                    <lb/>&amp; qu'ils ne descendissent tous vifs dans le 
+                    <lb/>gouffre. <hi rend="I">Considerés</hi>, mes chers Freres considerés <fw place="bot-right" type="catch">fide-</fw> 
+                     <pb n="38"/> 
+                    <lb/>bien <quote source="bible1588.xml#Heb.13.7"> 
+                        <hi rend="I">quelle a été l'issüe de sa conversation</hi> 
+                    </quote>. 
+                    <hi rend="I"> </hi> 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Heb.13.7"> 
+                            <hi rend="I">Ibid</hi>. 13. <lb/>7.</ref> 
+                    </note> Il est mort, comme il avoit vêcu, 
+                    <lb/>avec toutes les marques d'une pieté solide, 
+                    <lb/>d'une foy sincere, &amp; d'une charité non feinde. 
+                    <lb/>Il a glorifié Dieu jusques au dernier 
+                    <lb/>soûpir. Sa vertu ne s'est jamais dementie. 
+                    <lb/>Il a perseveré constamment dans ses voyes 
+                    <lb/>jusques à la mort. Il ne l'a pas seulement 
+                    <lb/>glorifié par ses paroles, mais par ses actions, 
+                    <lb/>par son humilité, sa douceur, sa patience, 
+                    <lb/>&amp; son esperance ferme &amp; inebranlable ; &amp; 
+                    <lb/>sur tout par le soin qu'il a pris de reconcilier 
+                    <lb/>les hommes à Dieu, en faisant leur paix, 
+                    <lb/>&amp; leur procurant la remission de leurs crimes. 
+                    <lb/>On le lapidoit, &amp; il prioit. Il succomboit 
+                    <lb/>sous une gréle de coups, &amp; il 
+                    <lb/>n'ouvroit pas seulement la bouche pour se 
+                    <lb/>plaindre. S'il faisoit entendre sa voix, 
+                    <lb/>c'étoit pour interceder pour ses boureaux. 
+                    <lb/>S'il elevoit ses mains, ce n'étoit que pour 
+                    <lb/>détourner les maledictions du ciel de dessus 
+                    <lb/>leurs testes impies. Il negligeoit le soin 
+                    <lb/>de sa conservation, pour penser à leur salut. 
+                    <lb/>Patience admirable ! charité inoüie ! 
+                    <lb/>Vertus heroïques &amp; celestes ! Vertus vrayment 
+                    <lb/>dignes d'un disciple de l'agnaeu divin, 
+                    <lb/>qui s'est laissé égorger sans ouvrir sa 
+                    <lb/>bouche, &amp; qui a fait l'expiation de nos 
+                    <lb/>pechés par le merite <choice><sic>Inifini</sic><corr resp="#MAG">Infini</corr></choice> du sacrifice 
+                    <lb/>qu'il a offert volontairement pour nous en la croix.</p> 
+                 <fw place="bot-right" type="catch">Mais</fw> 
+                 <pb n="39"/> 
+                <p n="21"> 
+                    <lb/>Mais ce n'est pas assés d'admirer ces vertus : 
+                    <lb/>il faut qu'elles servent à regler nôtre 
+                    <lb/>conduite. Que sa patience mortifie nôtre 
+                    <lb/>orgueil : que sa charité enflamme la nôtre, 
+                    <lb/>&amp; nous porte à demander à Dieu la conversion 
+                    <lb/>de nos ennemis avec autant ou <choice><sic>pl s</sic><corr resp="#MAG">plus</corr></choice> 
+                    <lb/>d'ardeur, que nous en témoignons pour 
+                    <lb/>leur destruction. Sacrifiés aujourd'huy 
+                    <lb/>toutes vos haines, &amp; tous vos ressentimens 
+                    <lb/>à ce grand exemple de debonnaireté que le 
+                    <lb/>Seigneur vous presente, pour ne penser 
+                    <lb/>qu'à prier Dieu qu'il leur pardonne, qu'il 
+                    <lb/>les éclaire, qu'il les sanctifie, &amp; qu'il les 
+                    <lb/>amene à luy. Quelle gloire à l'Eternel, si 
+                    <lb/>le Seigneur exauçant nos voeux, les obligeoit 
+                    <lb/>à se venir prosterner à ses pieds, &amp; à 
+                    <lb/>luy crier comme autrefois Saul, <quote source="bible1588.xml#Acts.9.6"> 
+                        <hi rend="I">Seigneur, 
+                            <lb/>que veux-tu que nous facions</hi></quote> <hi rend="I">?</hi> 
+                         Ne seroit- <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Acts.9.6"> 
+                            <hi rend="I">Act.</hi> 9.</ref> 
+                    </note> 
+                    <lb/>elle pas aussi grande que s'il les mettoit en 
+                    <lb/>poussiere, &amp; qu'il les brisât absolument sous 
+                    <lb/>nos pieds ? Quelle joye pour l'Eglise, qui 
+                    <lb/>se rejoüit sur la terre, aussi bien que les 
+                    <lb/>Anges dans le ciel, de la conversion des pecheurs ? 
+                    <lb/>Nôtre joye ne seroit-elle pas aussi <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Luke.15.10"> 
+                            <hi rend="I">Luc</hi>. 15. <lb/>10.</ref> 
+                    </note> 
+                    <lb/>parfaite que celle qu'eurent les Israëlites, 
+                    <lb/>quand ils virent les corps morts des Ægyptiens 
+                    <lb/>miserablement flotans sur les bords 
+                    <lb/>de la Mer Rouge.</p> 
+                <p n="22"> 
+                    <lb/>Quel que puisse être le succés de nos prieres, 
+                    <lb/>il est certain que c'est le sacrifice le plus <fw place="bot-right" type="catch">agrea-</fw> 
+                     <pb n="40"/> 
+                    <lb/>agreable que nous puissions faire à l'Eternel, 
+                    <lb/>le plus propre à desarmer sa colere, &amp; à 
+                    <lb/>changer le cœur de tous ceux qui vous haïssent. 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Prov.16.7"> 
+                            <hi rend="I">Pr.</hi> 16. <lb/>7.</ref> 
+                    </note> Car <quote source="bible1588.xml#Prov.16.7"> 
+                        <hi rend="I">quand Dieu prend plaisir aux 
+                            <lb/>voyes de l'homme il apaise ses ennemis</hi></quote>. 
+                    <hi rend="I"> </hi> 
+                    <quote source="bible1588.xml#Ps.18.25"> 
+                        <hi rend="I">Il 
+                            <lb/>use de gratuité envers celuy qui use de gratuité.</hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.18.25"> 
+                                <hi rend="I">Ps.</hi> 18.</ref> 
+                        </note> 
+                        <hi rend="I">Il est entier à celuy qui est entier. 
+                            <lb/>Mais il est severe à celuy qui est dur</hi> 
+                        <!-- citation approximative --> 
+                    </quote>. 
+                    <hi rend="I"> </hi> Il 
+                    <lb/>est misericordieux à tous ceux qui usent de 
+                    <lb/>misericorde envers les hommes. Ils ne perdent 
+                    <lb/>point le fruit &amp; le travail de leur charité. 
+                    <lb/>Qui est-ce qui vous feroit du mal, si 
+                    <lb/>vous vous teniés collés au bien ? Les maux 
+                    <lb/>même, s'il se trouvoit encore des gens assés 
+                    <lb/>méchans &amp; assés abandonnés pour vous en 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.8.27"> 
+                            <hi rend="I">Rom.</hi> 8. <lb/>27.</ref> 
+                    </note> faire, vous tourneroient en bien. <quote source="bible1588.xml#Rom.8.27"> 
+                        <hi rend="I">Car toutes 
+                            <lb/>choses aident ensemble au bien de ceux qui 
+                            <lb/>aiment Dieu</hi> 
+                    </quote>, qui s'attachent à luy plaire 
+                    <lb/>&amp; à faire sa volonté.</p> 
+                <p n="23"> 
+                    <lb/>Mais si nons devons prier pour les ennemis 
+                    <lb/>de l'Eglise, pour ses Persecuteurs &amp; 
+                    <lb/>ses Boureaux : à plus forte raison pour ses 
+                    <lb/>Protecteurs, ses nouriciers, &amp; ses apuis ; 
+                    <lb/>pour tous ceux qui s'interessent dans ses 
+                    <lb/>maux, &amp; qui étant vivement touchés de ses 
+                    <lb/>afflictions, travaillent à sa consolation, &amp; 
+                    <lb/>à son salut. Ce sont les premiers objets de 
+                    <lb/>nos soins. Nous devons étre tout de feu 
+                    <lb/>pour leurs intérêts : toûjours prêts à leur 
+                    <lb/>rendre tous les devoirs d'une charité sincere. <fw place="bot-right" type="catch">re.</fw> 
+                     <pb n="41"/> 
+                    <lb/>Nous devons <quote source="bible1588.xml#Rom.12.15"> 
+                        <hi rend="I">étre en joye avec ceux qui </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.12.15"> 
+                                <hi rend="I">Ibid.</hi> <lb/>12, 15.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">sont en joye ; &amp; en pleurs avec ceux qui sont 
+                            <lb/>en pleurs</hi></quote>. 
+                    <hi rend="I"> </hi>Nous devons partager leurs peines 
+                    <lb/>&amp; leurs plaisirs, &amp; n'étre avec eux qu'un 
+                    <lb/>cœur &amp; qu'une ame.</p> 
+                <p n="24"> 
+                    <lb/>Souvenés vous en, M. Ch. F. Souvenés 
+                    <lb/>vous que nous sommes tous membres les uns 
+                    <lb/>des autres ; ou plûtôt que nous sommes les 
+                    <lb/>membres de Ch. qui est la charité même. 
+                    <lb/> 
+                    <quote source="bible1588.xml#Heb.12.12"> 
+                        <hi rend="I">Relevons nos mains qui sont lâches</hi> 
+                    </quote>, &amp; prions <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Heb.12.12"> 
+                            <hi rend="I">Heb.</hi> 12. <lb/>12.</ref> 
+                    </note> 
+                    <lb/>sans cesse pour le bien &amp; pour le salut de tous 
+                    <lb/>nos Freres. I. Pour les Puissances à qui la 
+                    <lb/>bonne Providence nous a soûmis ; afin que 
+                    <lb/>l'Alliance que Dieu a faite avec leur Republique 
+                    <lb/>puisse étre eternelle, &amp; qu'elle comble 
+                    <lb/>&amp; les peuples &amp; leurs Gouverneurs de 
+                    <lb/>toutes les benedictions qu'elle nous promet. 
+                    <lb/>Que l'impieté &amp; le vice soient à jamais bannis 
+                    <lb/>de l'Etat ; qu'il prospere également &amp; 
+                    <lb/>en paix &amp; en guerre ; qu'il soit toûjours heureux 
+                    <lb/>dans ses entreprises : tellement qu'il 
+                    <lb/>n'y ait personne dans l'étendüe de ses Provinces, 
+                    <lb/>qui n'ait de jour en jour de nouveaux 
+                    <lb/>sujets de glorifier Dieu, &amp; de s'attacher 
+                    <lb/>encore plus fortement à son service. 
+                    <lb/>Travaillons en suite à la consolation des autres 
+                    <lb/>enfans de Dieu ; &amp; sur tout à celle de 
+                    <lb/>l'Eglise, qui est le corps sacré dont ils sont 
+                    <lb/>les membres. Vous savés que c'est la Mere 
+                    <lb/>qui nous a engendrés. La <quote source="bible1588.xml#Gal.4.26"> 
+                        <hi rend="I">Jerusalem d'en</hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Gal.4.26"> 
+                                <hi rend="I">Gal.</hi> 
+                            </ref> 
+                        </note> 
+                         <fw place="bot-right" type="catch"> 
+                            <hi rend="I">haut</hi> 
+                        </fw> 
+                         <pb n="42"/> 
+                        <lb/> 
+                        <hi rend="I">haut n'est-elle pas Mere de nous tous</hi></quote> <hi rend="I">?</hi> 
+                     
+                    <hi rend="I"> </hi> Et 
+                    <lb/>pourrions-nous oublier nôtre commune 
+                    <lb/>Mere ? Ne nous en souviendrions-nous pas 
+                    <lb/>sur tout dans le triste &amp; le deplorable état où 
+                    <lb/>elle se trouve reduite en tant de lieux ? <quote source="bible1588.xml#Ps.137.6"> 
+                        <hi rend="I">Que </hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.137.6"> 
+                                <hi rend="I">Ps.</hi> 137.</ref> 
+                        </note> 
+                        <hi rend="I">ma langue s'attache à mon palais, &amp; que 
+                            <lb/>ma droite s'oublie elle-même, si je t'oublie 
+                            <lb/>Jerusalem</hi> 
+                         
+                    </quote> 
+                    <hi rend="I"> </hi>: si je ne fais tous les jours de ma 
+                    <lb/>vie des prieres &amp; des vœux pour ta delivrance. 
+                    <lb/>Nous devons demander incessamment à 
+                    <lb/>Dieu, qu'il ne luy impute point les pechés 
+                    <lb/>qui ont allumé sa colere, qu'il les couvre 
+                    <lb/>tous de sa charité, afin qu'elle puisse éprouver 
+                    <lb/>sa misericorde &amp; sa clemence. Ne craignons 
+                    <lb/>point de redoubler nos cris. N'aprehendons 
+                    <lb/>point de l'importuner par 
+                    <lb/>nos clameurs. Il faut lutter constamment 
+                    <lb/>avec luy, jusques à ce qu'il ait pitié 
+                    <lb/>de sa poudre, qu'il releve ses ruïnes, &amp; repare 
+                    <lb/>toutes ses bréches.</p> 
+                <p n="25"> 
+                    <lb/>Vous ne sauriés marquer trop d'attachement 
+                    <lb/>&amp; pour la Mere &amp; pour ses enfans. 
+                    <lb/>Mais ce n'est rien que vôtre affection paroisse 
+                    <lb/>dans vos paroles, si elle n'éclate principalement 
+                    <lb/>dans vos actions. <quote source="bible1588.xml#_1John.3.18"> 
+                        <hi rend="I">Mes petits 
+                            <lb/>enfans</hi>, <seg type="interpolation">dit St. Jean,</seg> 
+                        <hi rend="I">n'aimés point de langue, 
+                            <lb/>ni de parole, mais d'œuvre &amp; de 
+                        verité</hi></quote>. 
+                    <hi rend="I"> </hi> 
+                    <lb/>Prenés garde à ne leur refuser aucun des 
+                    <lb/>témoignages de vôtre amour. Gardés vous 
+                    <lb/>bien de refuser vos lumieres aux ignorans, <fw place="bot-right" type="catch">vos</fw> 
+                     <pb n="43"/> 
+                    <lb/>vos consolations aux affligés, vos remontrances 
+                    <lb/>aux pecheurs, vos secours aux necessiteux 
+                    <lb/>&amp; aux indigens. Verriés-vous un de 
+                    <lb/>vos Freres dans la necessité &amp; dans la misere, 
+                    <lb/>sans luy tendre la main secourable ? N'auriés- 
+                    <lb/>vous point de pitié des membres de 
+                    <lb/>vôtre Sauveur ? Le moyen d'accorder une 
+                    <lb/>dureté si prodigieuse avec la charité qu'il 
+                    <lb/>nous demande &amp; par sa parole &amp; par son 
+                    <lb/>exemple ? Vous ne sauriés <hi rend="I">communiquer </hi> 
+                    <lb/>trop liberalement <quote source="bible1588.xml#Rom.12.13"> 
+                        <hi rend="I">aux necessités</hi> 
+                        <hi rend="I">des Saints</hi> 
+                    </quote> 
+                    <hi rend="I"> </hi>;<hi rend="I"> </hi> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.12.13"> 
+                            <hi rend="I">Rom.</hi> 12. <lb/>13.</ref> 
+                    </note> 
+                    <lb/>car elles sont grandes, &amp; elles augmentent 
+                    <lb/>de jour en jour. Vous y étes obligés par 
+                    <lb/>le respect que vous devés à vos Magistrats, 
+                    <lb/>qui vous y exhortent aujourd'huy par nôtre 
+                    <lb/>entremise. Mais vous y étes encore engagés 
+                    <lb/>par une plus grande authorité que la 
+                    <lb/>leur, quelque venerable qu'elle vous puisse 
+                    <lb/>étre. C'est celle de nôtre Seigneur, qui 
+                    <lb/>vous en sollicite par le sang pretieux qu'il a 
+                    <lb/>répandu pour vous en la croix. Quelle reconnoissance 
+                    <lb/>ne luy devons-nous point pour 
+                    <lb/>une grace si extraordinaire ? Et quelle autre 
+                    <lb/>marque luy pourriés-vous donner de 
+                    <lb/>vôtre ressentiment pour ses bienfaits ? <quote source="bible1588.xml#Ps.16.2"> 
+                        <hi rend="I">Nôtre </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.16.2"> 
+                                <hi rend="I">Ps</hi>. 16. 2.</ref> 
+                        </note> 
+                        <lb/> 
+                        <hi rend="I">bien ne va point jusques à luy</hi></quote>. Et il est 
+                    <lb/>difficile de rien faire qui luy soit plus agreable, 
+                    <lb/>que de <quote source="bible1588.xml#Phlm.1.7"> 
+                        <hi rend="I">recréer les entrailles des Saints</hi> 
+                    </quote>. 
+                    <hi rend="I"> </hi> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Phlm.1.7"> 
+                            <hi rend="I">Philem.</hi> <lb/>7.</ref> 
+                    </note> 
+                    <lb/>Refuseriés-vous aux membres de J. Ch. le 
+                    <lb/>pain que vous devés même à ses ennemis ? <fw place="bot-right" type="catch">Ne</fw> 
+                     <pb n="44"/> 
+                    <lb/>Ne leur accorderions-nous pas les biens de 
+                    <lb/>la nature, nous qui devons travailler de tout 
+                    <lb/>nôtre pouvoir à procurer les fruits de la grace 
+                    <lb/>infiniment plus exquis aux personnes du 
+                    <lb/>monde les plus éloignées de la Communion 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Gal.6.10"> 
+                            <hi rend="I">Gal.</hi> 6. <lb/>10.</ref> 
+                    </note> de nôtre Sauveur ? <quote source="bible1588.xml#Gal.6.10"> 
+                        <hi rend="I">Faisons du bien à tous, 
+                            <lb/>mais principalement aux Domestiques de la 
+                            <lb/>Foy</hi></quote>. 
+                    <hi rend="I"> </hi> Elargissons-nous en aumônes envers 
+                    <lb/> 
+                    <note type="margin"> 
+                        <ref type="bible" target="bibleSegond21.xml#Heb.13.16"> 
+                            <hi rend="I">Heb.</hi> 13. <lb/>16.</ref> 
+                    </note> les pauvres membres de J. Ch. <quote source="bible1588.xml#Heb.13.16"> 
+                        <hi rend="I">Car Dieu 
+                            <lb/>prend plaisir à ses Sacrifices</hi></quote>. 
+                    <hi rend="I"> </hi> Il en flairera 
+                    <lb/>la bonne odeur. Elle servira à apaiser sa 
+                    <lb/>colere, &amp; à avancer la delivrance de son 
+                    <lb/>pauvre peuple. Et nous jouïrons encore 
+                    <lb/>des benedictions de sa grace sur la terre en la 
+                    <lb/>compagnie des Saints, en attendant qu'il 
+                    <lb/>nous eleve dans le Ciel, pour recevoir la 
+                    <lb/>couronne qu'il a promisé à leur perseverance. 
+                    <lb/>Dieu nous en face la grace. A luy Pere, 
+                    <lb/>Fils &amp; Saint Esprit, un seul Dieu en trois 
+                    <lb/>Personnes divines, soit honneur &amp; gloire, 
+                    <lb/>force &amp; empire à jamais. AMEN.</p> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

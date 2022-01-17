@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1627_Samuel_Durant_MBF"> 
+            <titleStmt> 
+                <title type="sermon">PREMIER SERMON sur l'Histoire de la Tentation de nostre Seigneur.</title> 
+                <title type="book">L'Histoire de la tentation de Nostre Seigneur Iesvs 
+                    Christ. Exposée en XVIII. Sermons, en l'Eglise Reformée de Paris. Par SAMVEL DVRANT MINISTRE de la Parole de Dieu.
+                    A GENEVE, CHEZ PIERRE AVBERT imprimeur ordinaire de la Republique &amp; Academie. M. DC. XXVII. Auec Priuilege.
+                </title> 
+                <author ref="...">Samuel Durant</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l'Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="MBF">Michaela BJUGGFALT-CHÂTEAUX</persName> 
+                        <email>michaela.bjuggfalt@etu.univ-lille3.fr</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l'Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Samuel Durant</author> 
+                        <title>L'Histoire de la tentation de Nostre Seigneur Iesvs 
+                            Christ. Exposée en XVIII. Sermons, en l'Eglise Reformée de Paris.</title> 
+                        <imprint> 
+                            <pubPlace>Genève</pubPlace> 
+                            <publisher>PIERRE AUBERT</publisher> 
+                            <date>1627</date>
+                            <date type="sermon"/>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="URI">https://books.google.ch/books?id=ntw8AAAAcAAJ</idno>
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_thématique</term>
+                    <term type="sermonTheme">sur l'histoire de la tentation de Notre Seigneur</term>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">18</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Matt.4.1-11</term>
+                    <term type="commentedBiblicalText">Mark.1.12-13</term>
+                    <term type="commentedBiblicalText">Luke.4.1-13</term>
+                    <term type="paratext" subtype="epistle">A Tres-haute &amp; Tres-illustre Princesse ANNE DE ROHAN DAME DES BARONNIES DE LA GARNACHE, BEAUVVOIS sur mer, Isles de Mont, &amp;c.</term>
+                </keywords> 
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-03-08" who="#LjD">transformation word - XML</change> 
+            <change when="2016-02-01" who="#MAG">Verification, citations</change> 
+            <change when="2015-10-25" who="#MBF">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                 <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>L'HISTOIRE 
+                    <lb/> 
+                    <hi rend="I">DE LA </hi> 
+                    <lb/>TENTATION 
+                    <lb/> 
+                    <hi rend="I">DE </hi> 
+                    <lb/>NOSTRE SEIGNEVR 
+                    <lb/>IESVS CHRIST.</p> 
+                <p n="2"> 
+                    <lb/> 
+                    <hi rend="I">Exposée en</hi> XVIII. Sermons, <hi rend="I">en l'Eglise 
+                        <lb/>Reformée de Paris</hi>.</p> 
+                <p n="3"> 
+                    <lb/>Par 
+                    <lb/>SAMVEL DVRANT MINISTRE 
+                    <lb/>de la Parole de Dieu.</p> 
+                <figure/> 
+                <p n="4"> 
+                    <lb/>A GENEVE, 
+                    <lb/>CHEZ PIERRE AVBERT 
+                    <lb/>imprimeur ordinaire de la Republique 
+                    <lb/>&amp; Academie.</p> 
+                <p n="5"> 
+                    <lb/>M. DC. XXVII. 
+                    <lb/>Auec Priuilege.</p> 
+            </div> 
+        </front> 
+        <body> 
+            <div type="text"> 
+                 <pb n="1"/> 
+                <figure/> 
+                <!--ligne décoré--> 
+                <head type="main"> 
+                    <lb/>TEXTE DES SERMONS 
+                    <lb/>SVIVANTS, TIRE´ DES TROIS 
+                    <lb/>Euangelistes, &amp; mis en parallele.</head> 
+                <!--texte en deux colonnes avec une ligne au-dessus du texte et une gouttière au milieu--> 
+                <milestone unit="column" n="2"/>
+                <cb/> 
+                <div n="1" type="sub"> 
+                    <head type="sub"> 
+                        <lb/> 
+                        <ref type="bible" target="bibleSegond21.xml#Matt.4.1-4">S. MATTH. ch.4.</ref> 
+                    </head> 
+                     
+                    <p n="1"> 
+                        <lb/> 
+                      
+                            <hi rend="I">V.1. <quote source="bible1588.xml#Matt.4.1">Alors Iesus fut emmené 
+                                <lb/>par l'Esprit au desert, 
+                                <lb/>pour estre tenté par le diable</quote>.</hi> 
+                            </p>
+                    
+                    
+                            <p n="2"> 
+                                <lb/> 
+                                <hi rend="I">2.<quote source="bible1588.xml#Matt.4.2"> Et quand il eut iusné 
+                                    <lb/>quarante iours &amp; quarante 
+                                    <lb/>nuicts,finalement il 
+                                    <lb/>eut faim</quote>.</hi> 
+                            </p> 
+                    
+                    <quote source="bible1588.xml#Matt.4.3">
+                            <p n="3"> 
+                                <lb/> 
+                                <hi rend="I">3. Et le tentateur s'approchant 
+                                    <lb/>de lui, dit, Si tu 
+                                    <lb/>es Fils de Dieu, di que ces 
+                                    <lb/>pierres deuiennent pains.</hi> 
+                            </p> 
+                    </quote>
+                                                <p n="4"> 
+                                <lb/> 
+                                <hi rend="I">4.<quote source="bible1588.xml#Matt.4.4">
+ Mais il respondit,&amp; 
+                                    <lb/>dit, L'hõme ne viura point 
+                                    <lb/>de pain seulement : mais de 
+                                    <lb/>toute parole qui procede de 
+                                    <lb/>la bouche de Dieu</quote>.</hi> 
+                            </p> 
+
+                        
+                        </div>
+                <cb/> 
+                <div n="2" type="sub"> 
+                    <head type="sub"> 
+                        <lb/>S. Lvc, ch. 4.</head> 
+                     
+                        <p n="14"> 
+                            <lb/> 
+                            <hi rend="I">V.1. <quote source="bible1588.xml#Luke.4.1">Or Iesus plein du S. 
+                                <lb/>Esprit s'en retourna de deuers 
+                                <lb/>le Iordain, &amp; fut mené 
+                                <lb/>par la vertu de l'Esprit 
+                                <lb/>au desert</quote>.</hi> 
+                        </p> 
+                        <p n="15"> 
+                            <lb/> 
+                            <hi rend="I">2. <quote source="bible1588.xml#Luke.4.2">Et là fut tenté du diable 
+                                <lb/>par quarante iours, &amp; 
+                                <lb/>ne mangea riẽ du tout durant 
+                                <lb/>ces iours-la : mais apres 
+                                <lb/>qu'ils furent passez,finalement 
+                                <lb/>il eut faim</quote>.</hi> 
+                        </p> 
+                        <p n="16"> 
+                            <lb/> 
+                            <hi rend="I">3. <quote source="bible1588.xml#Luke.4.3">Et le diable lui dit, Si 
+                                <lb/>tu es Fils de Dieu,di à ceste 
+                                <lb/>pierre-ci qu'elle deuienne 
+                                <lb/>pain</quote>.</hi> 
+                        </p> 
+                        <p n="17"> 
+                            <lb/> 
+                            <hi rend="I">4. <quote source="bible1588.xml#Luke.4.4">Et Iesus lui respondit, 
+                                <lb/>disant , Il est escrit que</quote></hi> 
+                         </p> 
+                        
+                    </div>
+                     <pb n="2"/> 
+                <cb/>
+                <div n="1" type="sub"> 
+                    
+                            <p n="5"> 
+                                <lb/> 
+                                <hi rend="I">5. <quote source="bible1588.xml#Matt.4.5">Adonc le diable le 
+                                    <lb/>transporte en la Saincte 
+                                    <lb/>ville, &amp; le met sur les creneaux 
+                                    <lb/>du temple</quote>:</hi> 
+                            </p> 
+                            <p n="6"> 
+                                <lb/> 
+                                <hi rend="I">6. <quote source="bible1588.xml#Matt.4.6">Et lui dit,Si tu es Fils 
+                                    <lb/>de Dieu,iette toi en bas:car 
+                                    <lb/>il est escrit, Qu'il donnera 
+                                    <lb/>charge de toi à ses Anges, 
+                                    <lb/>&amp; ils te porteront en leurs 
+                                    <lb/>mains , de peur que tu ne 
+                                    <lb/>heurtes de ton pied à quelque 
+                                    <lb/>pierre</quote>.</hi> 
+                            </p> 
+                            <p n="7"> 
+                                <lb/> 
+                                <hi rend="I">7. <quote source="bible1588.xml#Matt.4.7">Iesus lui dit , Derechef 
+                                    <lb/>il est escrit, Tu ne tenteras 
+                                    <lb/>point le Seigneur ton 
+                                    <lb/>Dieu</quote>.</hi> 
+                            </p> 
+                            <p n="8"> 
+                                <lb/> 
+                                <hi rend="I">8. <quote source="bible1588.xml#Matt.4.8">Derechef le Diable le 
+                                    <lb/>trãsporte sur vne fort haute 
+                                    <lb/>mõtagne,&amp; lui monstre 
+                                    <lb/>tous les royaumes du monde, 
+                                    <lb/>&amp; leur gloire</quote>:</hi> 
+                            </p> 
+                            <p n="9"> 
+                                <lb/> 
+                                <hi rend="I">9. <quote source="bible1588.xml#Matt.4.9">Et lui dit, Ie te donnerai 
+                                    <lb/>toutes ces choses , si, 
+                                    <lb/>en te prosternant en terre, 
+                                    <lb/>tu m'adores</quote>.</hi> 
+                            </p> 
+                            <p n="10"> 
+                                <lb/> 
+                                <hi rend="I">10. <quote source="bible1588.xml#Matt.4.10">Adonc Iesus lui dit, 
+                                    <lb/>va Satan:car il est escrit, 
+                                    <lb/>Tu adoreras le Seigneur 
+                                    <lb/>ton Dieu , &amp; à lui seul tu 
+                                    <lb/>seruiras</quote>.</hi> 
+                                 <fw place="bot-right" type="catch"> 
+                                    <hi rend="I">11. Alors</hi> 
+                                </fw> 
+                            </p> 
+                    
+                    </div>
+                <cb/>
+                <div n="2" type="sub"> 
+                    
+                        <p n="17"> 
+                            <lb/> 
+                            <hi rend="I"><quote source="bible1588.xml#Luke.4.4">l'homme ne viura point de 
+                                <lb/>seul pain,mais de toute parole 
+                                <lb/>de Dieu</quote>.</hi> 
+                        </p> 
+                        <p n="18"> 
+                            <lb/> 
+                            <hi rend="I">5. <quote source="bible1588.xml#Luke.4.5">Adonc le Diable l'emmena 
+                                <lb/>en vne haute montagne, 
+                                <lb/>&amp; lui monstra en vn 
+                                <lb/>moment de temps tous les 
+                                <lb/>royaumes du monde</quote>.</hi> 
+                        </p> 
+                        <p n="19"> 
+                            <lb/> 
+                            <hi rend="I">6. <quote source="bible1588.xml#Luke.4.6">Et le Diable lui dit,Ie 
+                                <lb/>te dõnerai toute ceste puissance 
+                                <lb/>des royaumes,&amp; leur 
+                                <lb/>gloire:car elle m'est baillee, 
+                                <lb/>&amp; ie la dõne à qui ie vueil</quote>.</hi> 
+                        </p> 
+                        <p n="20"> 
+                            <lb/> 
+                            <hi rend="I">7. <quote source="bible1588.xml#Luke.4.7">Parquoi si tu te veux 
+                                <lb/>prosterner deuant moi,tout 
+                                <lb/>sera tien</quote>.</hi> 
+                        </p> 
+                        <p n="21"> 
+                            <lb/> 
+                            <hi rend="I">8. <quote source="bible1588.xml#Luke.4.8">Mais Iesus respõdant, 
+                                <lb/>lui dit, Va arriere de moi, 
+                                <lb/>Satã,car il est escrit, Tu adoreras 
+                                <lb/>le Seigneur tõ Dieu, 
+                                <lb/>&amp; à lui seul tu seruiras</quote>.</hi> 
+                        </p> 
+                        <p n="22"> 
+                            <lb/> 
+                            <hi rend="I">9. <quote source="bible1588.xml#Luke.4.9">Il le mena aussi en 
+                                <lb/>Ierusalem , &amp; le mit sur 
+                                <lb/>les creneaux du temple, &amp; 
+                                <lb/>lui dit , Si tu es fils de 
+                                <lb/>Dieu,iette toi d'ici en bas</quote>.</hi> 
+                        </p> 
+                        <p n="23"> 
+                            <lb/> 
+                            <hi rend="I">10. <quote source="bible1588.xml#Luke.4.10">Car il est escrit qu'il 
+                                <lb/>donneras charge de toi à ses 
+                                <lb/>Anges, pour te contregarder</quote>.</hi> 
+                        </p> 
+                       
+                    
+                    
+                </div>  
+                <!--ligne horizontale--> 
+              <pb n="3"/> 
+                <cb/>
+                <div n="1" type="sub">
+                    
+                <p n="11"> 
+                    <lb/> 
+                    <hi rend="I">11. <quote source="bible1588.xml#Matt.4.11">Alors le Diable le laisse, 
+                        <lb/>&amp; voici les Anges s'aprocherent, 
+                        <lb/>&amp; le seruoyent</quote>.</hi> 
+                </p> 
+                     
+                </div>
+                <div n="3" type="sub"> 
+                    <head type="sub"> 
+                        <lb/> 
+                        <ref type="bible" target="bibleSegond21.xml#Mark.1.12-13">S. MARC , ch.1.</ref> 
+                    </head> 
+                    
+                    <p n="12"> 
+                        <lb/> 
+                        <hi rend="I">V. 12. <quote source="bible1588.xml#Mark.1.12">Et incontinẽt l'Esprit 
+                            <lb/>le poussa au desert</quote>.</hi> 
+                    </p> 
+                    <p n="13"> 
+                        <lb/> 
+                        <hi rend="I">13. <quote source="bible1588.xml#Mark.1.13">Et fut là au desert 
+                            <lb/>quarante iours, estant tenté 
+                            <lb/>de Satan, &amp; estoit auec 
+                            <lb/>les bestes sauuages , &amp; les 
+                            <lb/>Anges le seruoyent</quote>.</hi> 
+                    </p> 
+                    
+                     
+                </div>
+                        
+                    <cb/>
+                <div n="2" type="sub"> 
+                    
+                        <p n="24"> 
+                            <lb/> 
+                            <hi rend="I">11. <quote source="bible1588.xml#Luke.4.11">Et qu'ils te porteront 
+                                <lb/>en leurs mains , de 
+                                <lb/>peur que tu ne heurtes de 
+                                <lb/>ton pied à quelque pierre</quote>.</hi> 
+                        </p> 
+                        <p n="25"> 
+                            <lb/> 
+                            <hi rend="I">12. <quote source="bible1588.xml#Luke.4.12">Mais Iesus respondant 
+                                <lb/>lui dit , Il a esté dit, 
+                                <lb/>Tu ne tenteras point le Seigneur 
+                                <lb/>ton Dieu</quote>. </hi> 
+                        </p> 
+                        <p n="26"> 
+                            <lb/> 
+                            <hi rend="I">13. <quote source="bible1588.xml#Luke.4.13">Et quand toute la 
+                                <lb/>tentation fut finie,le Diable 
+                                <lb/>se partit de devers lui 
+                                <lb/>iusqu'à vn temps</quote>.</hi> 
+                        </p> 
+                    
+               </div> 
+            </div> 
+            <!--ligne décoré, le sermon commence au milieu de la page --> 
+           
+            <div type="sermon"> 
+                <milestone unit="column" n="1"/>
+                <head type="main"> 
+                    <lb/>PREMIER SERMON 
+                    <lb/>sur l'Histoire de la Tentation 
+                    <lb/>de nostre Seigneur.</head> 
+                <p n="27"> 
+                    <lb/> 
+                     
+                        <c type="lettrine">N</c>ous lisons au <ref type="bible" target="bibleSegond21.xml#_1Sam.17.52">dix-septiéme chap. 
+                            du premier livre de Samuel</ref>, 
+                    <lb/>que Dauid ayant tué en 
+                    <lb/>duel le Geant Goliath , <quote source="bible1588.xml#_1Sam.17.52">ceux 
+                        <lb/>d'Israël &amp; de Iuda se leuerent 
+                        <lb/>&amp; ietterent cris d'esiouïssance</quote>. 
+                    <lb/><ref type="bible" target="bibleSegond21.xml#_1Sam.18.6-7">Et au chapitre suiuant</ref> il est recité,que <quote source="bible1588.xml#_1Sam.18.6-7">comme 
+                        <lb/>ils reuenoyent,Dauid retournant de la desfaite 
+                        <lb/>du Philisthin,il sortit des femmes de toutes <pb n="4"/> 
+                        <lb/>les villes d'Israel, pour chanter , &amp; qu'ensemble 
+                        <lb/>sortirent des danses pour aller au deuant 
+                        <lb/>du Roi Saul auec tabours, auec ioye, &amp; auec 
+                        <lb/>rebecs. Et les femmes qui iouoyent s'entrerespondoyent 
+                        <lb/>&amp; disoient,Saul en a frappé ses 
+                        <lb/>mille,&amp; Dauid ses dix mille</quote>. 
+                </p> 
+                <p n="28"> 
+                    <lb/>Le peuple de Dieu,les Chrestiens,n'ont-ils 
+                    <lb/>point , sans comparaison , plus de suiet de s'éiouïr , 
+                    <lb/>lisans &amp; meditans attentiuement l'Histoire 
+                        <lb/>que nous venons de lire ? En icelle S. 
+                    <lb/>Matthieu nous descrit &amp; le duel &amp; la victoire 
+                    <lb/>que Iesus Christ a euë sur le Diable, vrai Goliath, 
+                    <lb/>vrai geant infernal. En ceste histoire il 
+                    <lb/>n'y a trait aucun qui ne soit capable de nous 
+                    <lb/>instruire,de nous consoler,de nous apporter vne 
+                    <lb/>ioye inenarrable &amp; incomprehensible. Goliath 
+                    <lb/>estoit vn homme mortel: &amp; Satan vn esprit 
+                    <lb/>rusé &amp; puissant, serpent ancien, lion rugissant. 
+                    <lb/>Goliath assuiettissoit aux Philisthins 
+                    <lb/>seulement les corps des Israëlites: mais le Diable 
+                    <lb/>enchaisnoit en ses pieges &amp; les corps &amp; les 
+                    <lb/>ames de tous hommes pecheurs. Goliath n'a 
+                    <lb/>esté redouté que peu de temps, il estoit incognu 
+                    <lb/>es aages precedens: mais Satan auoit subiugué 
+                    <lb/>&amp; le premier homme, &amp; auec lui toute 
+                    <lb/>sa posterité pour iamais. Goliath desfioit les 
+                    <lb/>Israëlites au combat d'vn à vn : Car quelque 
+                    <lb/>puissant qu'il fust, vne compagnie des Israëlites 
+                    <lb/>n'en fust-elle pas bien venue à bout ? Mais 
+                    <lb/>le Diable au premier combat contre Adam  <fw place="bot-right" type="catch">l'a-</fw> 
+                     <pb n="5"/> 
+                    <lb/>l'auoit tellement vaincu , &amp; tellement rendu 
+                    <lb/>esclaue toute sa posterité , que tous les hommes 
+                    <lb/>ensemble n'eussent iamais peu secouër le 
+                    <lb/>ioug de sa tyrannie. Les Philisthins,ayans veu 
+                    <lb/>que leur fort homme estoit mort, s'enfuirent: 
+                    <lb/>Aussi nostre principal accusateur estant vaincu, 
+                    <lb/>n'est-ce point pour mettre en route tous 
+                    <lb/>nos ennemis? Les Israëlites qui durant le deffi 
+                    <lb/>de Goliath eurent fort grand peur , apres la 
+                    <lb/>mort d'icelui se rallient, poursuiuent les Philisthins, 
+                    <lb/>les battent, pillent leurs camps. Aussi 
+                    <lb/>la frayeur que nous donnoit la tyrannie du 
+                    <lb/>Diable sous le peché,n'est-elle point conuertie 
+                    <lb/>en asseurance sous la grace de Iesus Christ? 
+                    <lb/>Maintenant nous poursuiuons Satan. Nous 
+                    <lb/>menons battans, &amp; mettons en desroute tous 
+                    <lb/>ses supposts,tous nos ennemis , voire la mort 
+                    <lb/>mesme. Nous sommes chargés de leurs despouilles.</p> 
+                <p n="29"> 
+                    <lb/>Puis que ces choses sont telles , ne ietterions- 
+                    <lb/>nous point aussi cris d'esiouissance: Dauid 
+                    <lb/>fils d'Isai en a tué dix mille : mais Christ 
+                    <lb/>Fils de Dieu a tué plusieurs millions. Ains nostre 
+                    <lb/>resiouissance est bien mieux fondee. Car 
+                    <lb/>la mort de Goliath &amp; de quelques Philisthins 
+                    <lb/>n'a point exterminé tous les Geans, n'a point 
+                    <lb/>empesché qu'à diuers temps apres les Israëlites 
+                    <lb/>n'ayent eu sur les bras plusieurs puissantes 
+                    <lb/>armees. Mais Christ vne fois pour toutes a 
+                    <lb/>vaincu Satan , &amp; auec lui tous nos ennemis. <pb n="6"/> 
+                    <lb/>Car nostre Seigneur <ref type="bible" target="bibleSegond21.xml#John.16.33">au seiziesme de S. Iean</ref> 
+                    <lb/>nous dit, <quote source="bible1588.xml#John.16.33"> 
+                        <hi rend="I">Ayez bon courage , i'ai vaincu le monde</hi> 
+                    </quote>. 
+                    <lb/>Si le monde,aussi le Prince du monde,lequel 
+                    <lb/>au mesme chapitre il dit estre desia iugé. Il est 
+                    <lb/>vrai que Satan nous liure encor plusieurs assauts : 
+                    <lb/>que iour &amp; nuict il chemine à l'entour 
+                    <lb/>de nous, cerchãt qui il pourra engloutir. Mais 
+                    <lb/>tous cela, comme à sa plus grande confusion, 
+                    <lb/>aussi à la confirmation de nostre salut. Il en est 
+                    <lb/>aux convulsions, il iette les derniers sanglots, 
+                    <lb/>tandis que le bruit qu'il fait nous resveille du 
+                    <lb/>dormir de peché , excerce nostre foi , &amp; nous 
+                    <lb/>retient es bornes d'vne vraye humilité, attendant 
+                    <lb/>que Christ ait aboli tout empire, &amp; notamment 
+                    <lb/>la mort, ennemi qui sera destruit le 
+                    <lb/>dernier,comme l'enseigne l'Apostre au <ref type="bible" target="bibleSegond21.xml#_1Cor.15">15. de 
+                        <lb/>la premiere aux Corinthiens</ref>.</p> 
+                <p n="30"> 
+                    <lb/>Or nous est l'histoire presente vne preuue 
+                    <lb/>asseuree de la victoire que Christ a obtenue 
+                    <lb/>contre le Diable. Histoire grandement digne 
+                    <lb/>de nostre attention. Car elle nous represente 
+                    <lb/>le combat de deux puissans ennemis , du Fils 
+                    <lb/>de Dieu createur &amp; cõducteur de toutes choses 
+                    <lb/>contre le Diable qui est ce fort armé dont 
+                    <lb/>il est parlé en <ref type="bible" target="bibleSegond21.xml#Matt.4;Luke.4;Mark.1.12-13">l'Euangile</ref>. Et pour considerer 
+                    <lb/>sommairement ce qui nous est ici proposé,on 
+                    <lb/>le peut rapporter à deux poincts. Car <ref type="bible" target="bibleSegond21.xml#Matt.4;Luke.4">au premier 
+                        <lb/>l'Euangeliste</ref> nous recite comment Satan 
+                    <lb/>a tenté Iesus Christ,&amp; en ce combat s'est 
+                    <lb/>efforcé<supplied resp="#MAG" reason="omission"> </supplied>de le renuerser. Que fust deuenu nostre  <fw place="bot-right" type="catch">stre</fw> 
+                     <pb n="7"/> 
+                    <lb/>salut, si Satan fust venu à bout de son entreprise ? 
+                    <lb/>Mais il auoit à faire à trop forte partie. 
+                    <lb/>Or le second point de l'Histoire monstrera 
+                    <lb/>en quelle façõ &amp; auec quelles armes Christ 
+                    <lb/>esteignant tous les dards enflammés de ce Malin, 
+                    <lb/>l'a vaincu &amp; chassé au loin.</p> 
+                <p n="31"> 
+                    <lb/>Dés l'entree le mot <hi rend="I">Tenter</hi> dont vse l'Euangeliste 
+                        <lb/>nous donne à entendre que Satan 
+                        <lb/>a dressé des embusches à Iesus Christ. Car se 
+                    <lb/>sentant trop foible pour combattre ouuertement 
+                    <lb/>contre le Fils de Dieu il en vient aux ruses , 
+                    <lb/>il tasche de le circonuenir,il essaye de lui 
+                    <lb/>faire commettre quelque peché. Car il estoit 
+                    <lb/>asseuré que si nostre respondant eust peché, 
+                    <lb/>pour nous eust esté nulle la satisfaction,&amp; il se 
+                    <lb/>fust trouué par trop, voire eternellement,empesché 
+                    <lb/>de satisfaire pour soi-mesme. Mais l'issue 
+                    <lb/>du combat monstre euidẽment que Christ 
+                    <lb/>a participé ouy bien à nos infirmités,mais non 
+                    <lb/>à nos iniquités : qu'<quote source="bible1588.xml#Heb.4.15">il a esté tenté de mesme 
+                        <lb/>comme nous,ouy en toutes choses mais horsmis 
+                        <lb/>peché</quote> 
+                    , comme il est dit au <ref type="bible" target="bibleSegond21.xml#Heb.4.15">4. de l'Epistre 
+                        <lb/>aux Hebrieux</ref>.</p> 
+                <p n="32"> 
+                    <lb/>Or en ceste tentation du costé du Diable 
+                    <lb/>il faut remarquer tant les auantages qu'il a 
+                    <lb/>creu auoir de s'engager au combat , que les 
+                    <lb/>traits qu'il a descochés contre Iesus Christ.</p> 
+                <p n="33"> 
+                    <lb/>Son premier auantage il l'a pris du lieu où 
+                    <lb/>estoit Iesus Christ. Pour lors il estoit <hi rend="I">au desert</hi> , 
+                    <lb/>esloigné des hommes , &amp; parmi <hi rend="I">les bestes</hi> 
+                     <pb n="8"/> 
+                    <lb/> 
+                    <hi rend="I">sauuages</hi>.Satan a creu ceste occasion lui estre fauorable. 
+                    <lb/>Et de fait il n'y a nulle doute que la 
+                    <lb/>solitude ne soit beaucoup plus propre aux embusches 
+                    <lb/>qu'vn lieu fort frequẽté. A quoi peut 
+                    <lb/>estre rapporté ce qui est dit au <ref type="bible" target="bibleSegond21.xml#Eccl.4.10">4. de 
+                        l'Ecclesiaste</ref>: 
+                    <lb/> 
+                    <quote source="bible1588.xml#Eccl.4.10">Malheur à celui qui est seul:d'autant qu'estant 
+                        <lb/>tombé il n'y aura personne d'autre pour 
+                        <lb/>le releuer</quote>. Ceci peut receuoir 
+                    éclaircissement 
+                    <lb/>par exemples.Car il est tres-certain que la solitude 
+                    <lb/>souuent donne occasion à plusieurs personnes 
+                    <lb/>de commettre ce dont ils s'abstiendroyent 
+                    <lb/>s'ils estoyent en compagnie. Au milieu 
+                    <lb/>de Sodome Loth a vescu chastement en sa 
+                    <lb/>maison , mais retiré en vne cauerne ses deux 
+                    <lb/>filles commettent inceste auec lui. En la maison 
+                    <lb/>de leur pere les freres de Ioseph n'eussent 
+                    <lb/>iamais osé mettre la main sur lui : mais le voyans 
+                    <lb/>tout seulet aux champs ils machinent de 
+                    <lb/>le mettre à mort. Nous dirons qu'vne mauuaise 
+                    <lb/>beste la deuoré; Et la solitude fut l'occasion 
+                    <lb/>du mauuais traitement que Ioseph receut 
+                    <lb/>d'eux.</p> 
+                <p n="34"> 
+                    <lb/>Amnon fils de Dauid n'vsa point de force 
+                    <lb/>contre Thamar sa sœur , qu'il n'eust fait retirer 
+                    <lb/>vn chacun arriere de soi.Cain frappa Abel, 
+                    <lb/>non en la maison de leur pere, mais comme ils 
+                    <lb/>estoyent aux champs. Tant est propre la solitude 
+                    <lb/>à l'execution des meschantes conuoitises. 
+                    <lb/>Le Diable donc selon sa coustume a assailli 
+                    <lb/>Iesus Christ,non au milieu de Ierusalem,mais  <fw place="bot-right" type="catch">dans</fw> 
+                     <pb n="9"/> 
+                    <lb/>dans le desert, &amp; a estimé que Christ estant là 
+                    <lb/>tout seul pourroit estre plus facilement seduit. 
+                    <lb/>Mais il s'addressoit à celui qui ne seduit personne, 
+                    <lb/>qui aussi ne peut estre seduit. Il s'adressoit 
+                    <lb/>à celui qui n'est iamais seul. Christ n'estoit 
+                    <lb/>point en la compagnie des hommes. Non. 
+                    <lb/>Mais n'estoit-il pas enuironné de plusieurs legions 
+                    <lb/>d'<quote source="bible1588.xml#Matt.4.11"> 
+                        <hi rend="I">Anges</hi>, lesquels, <seg type="interpolation">comme il est dit en ce 
+                            <lb/>texte</seg> 
+                        <hi rend="I">s'approcherent, &amp; le 
+                        seruoyent</hi></quote>. Et quand il 
+                    <lb/>n'eust-eu aucun Ange auec lui eust-il pourtant 
+                    <lb/>esté tout seul ? Il ne l'a iamais esté, puis 
+                    <lb/>qu'il a tousiours esté au sein du Pere,puis que 
+                    <lb/>dés le commencement ceste parole estoit auec 
+                    <lb/>Dieu, puis qu'en lui de toute eternité le Pere a 
+                    <lb/>pris son bon plaisir. Mais Christ lui mesme en 
+                    <lb/>termes formels &amp; à son auantage sould ceste 
+                    <lb/>question , au <ref type="bible" target="bibleSegond21.xml#John.8.16">8. de S. Iean</ref> , <quote source="bible1588.xml#John.8.16">Ie ne suis point 
+                        <lb/>seul , mais il y a moi &amp; le Pere qui m'a 
+                        enuoyé</quote>. 
+                </p> 
+                <p n="35"> 
+                    <lb/>Cependant, puis que pour nous seduire le 
+                    <lb/>Diable espie la solitude. C'est à nous non à 
+                    <lb/>cercher les deserts, mais à euiter la tentation, 
+                    <lb/>&amp; à demeurer vn chacun és bornes de la vocation 
+                    <lb/>à laquelle Dieu nous a appelés. Christ 
+                    <lb/>s'y est retiré pour les raisons à lui particulieres, 
+                    <lb/>&amp; qui seront marquees en leur lieu. La persecution 
+                    <lb/>y a souuent chassé les fideles obligés à 
+                    <lb/>la conseruation de leur vie. Mais qu'vn homme, 
+                    <lb/>mesme au temps de la prosperité,quitte sa 
+                    <lb/>vocation,fuye toute societé, viue tout seul au <pb n="10"/> 
+                    <lb/>desert , c'est ce que le Diable demande , 
+                    <lb/>pour plus aisément le seduire. Mais à ceste 
+                    <lb/>solitude ont dés long temps remedié les 
+                    <lb/>Moines. Ils en retienent bien le nom. Car 
+                    <lb/>Moine veut autant à dire que solitaire. Et cependant 
+                    <lb/>ils ne viuent rien moins que solitaires , 
+                    <lb/>rien moins que parmi les deserts. Que 
+                    <lb/>s'il aduient quelquefois que nous-nous trouuions 
+                    <lb/>seuls au regard des hommes : souuenons- 
+                    <lb/>nous que Dieu nous void &amp; qu'il est auec 
+                    <lb/>nous. S'il nous void, s'il contemple nos actions, 
+                    <lb/>mais nos cœurs, ne seroit-il point vengeur 
+                    <lb/>de nos iniquitez ? Viuons donc retenus: 
+                    <lb/>viuons autant &amp; plus en crainte deuant lui, 
+                    <lb/>que si tous les hommes nous voyoyent. Si aussi 
+                    <lb/>Dieu est auec nous , qui sera contre nous ? 
+                    <lb/>Quand nos plus proches nous auroyent abandonné , 
+                    <lb/>le Seigneur nous recueillira. Si les 
+                    <lb/>hommes nous reiettent , Dieu nous receura, 
+                    <lb/>&amp; ne permettra point que le Diable nous tente 
+                    <lb/>outre nostre portee.</p> 
+                <p n="36"> 
+                    <lb/>L'autre auantage , que Satan a creu auoir 
+                    <lb/>sur Iesus Christ, c'est que <quote source="bibleSegond21.xml#Matt.4.2"> 
+                        <hi rend="I">Christ ayant iusné</hi> 40. 
+                        <lb/> 
+                        <hi rend="I">iours &amp;</hi> 40. <hi rend="I">nuicts finalement eut 
+                            faim</hi></quote>. Le Diable 
+                    <lb/>a estimé que la faim auroit affoibli Iesus Christ 
+                    <lb/>&amp; rendu moins habile au combat contre lui. 
+                    <lb/>Et certes des soldats alangouris &amp; affamez ne 
+                    <lb/>rendront pas beaucoup de combat, ne feront 
+                    <lb/>pas grand' resistance. Et la faim n'affoiblit  <fw place="bot-right" type="catch">pas</fw> 
+                     <pb n="11"/> 
+                    <lb/>pas seulement le corps,mais aussi le courage: 
+                    <lb/>voire la faim est vne rage qui porte l'homme 
+                    <lb/>au desespoir. Il n'y a aucun mal qu'vn homme 
+                    <lb/>affamé ne face, aucun mal qu'il ne souffre. 
+                    <lb/>Ainsi est le Diable vn fort grand naturaliste. Il 
+                    <lb/>remarque soigneusement la nature &amp; les inclinations 
+                    <lb/>de chaque chose: &amp; selon qu'il croid 
+                    <lb/>en estre bien informé, il assaut vn chacun par 
+                    <lb/>la partie la plus foible , proposant à vn chacun 
+                    <lb/>tels allechemens au mal, qu'il croira propres 
+                    <lb/>pour chatouiller &amp; émouuoir la conuoitise. 
+                    <lb/>Il sçait ce qui peut émouuoir vn larron. Il sçait 
+                    <lb/>ce qui a force sur vn voluptueux. Par artifices 
+                    <lb/>il pousse le meurtrier iusqu'à l'execution. A 
+                    <lb/>ceux qui ont quelque horreur de l'iniquité, il 
+                    <lb/>s'efforcera de pallier le vice, d'extenuer le peché. 
+                    <lb/>A ceux qui apprehendent la vengeance 
+                    <lb/>ou de Dieu ou du Magistrat, il trouue &amp; propose 
+                    <lb/>des apparences de seureté. Que s'il y en a 
+                    <lb/>qui sentent desia le bourreau de la conscience: 
+                    <lb/>il n'oublie rien de tout ce qui les peut pousser 
+                    <lb/>au desespoir. Il noircit leurs taches , il aggraue 
+                    <lb/>leur peché, il amoindrit la misericorde 
+                    <lb/>de Dieu.S'il pouuoit, il leur fermeroit le ciel:il 
+                    <lb/>leur ouuriroit les abysmes.</p> 
+                <p n="37"> 
+                    <lb/>De mesme il a iugé,que puis que Christ auoit 
+                    <lb/>faim,il viendroit plus aisément à bout de 
+                    <lb/>lui pour le porter bon gré mal gré lui à quelque 
+                    <lb/>moyen illegitime , éloigné de son deuoir 
+                    <lb/>&amp; proche de la desfiance. Mais nous verrons <pb n="12"/> 
+                    <lb/>qu'il s'est fort mesconté de son calcul : que 
+                    <lb/>Christ a eu faim au desert, non pour succomber 
+                    <lb/>en ce combat : mais pour faire voir combien 
+                    <lb/>est foible,voire nulle la force des sollicitations 
+                    <lb/>du Diable contre le Fils de Dieu,lors 
+                    <lb/>mesme qu'au iugement d'vn chacun il estoit 
+                    <lb/>en lieu &amp; en estat desavantageux, puis qu'au 
+                    <lb/>desert,puis qu'ayant faim. Car aussi comment 
+                    <lb/>la faim estonneroit-elle celui qui rassasie les 
+                    <lb/>affamez , qui donne à boire aux alterés , qui 
+                    <lb/>nous abruue du fleuue de ses delices, qui est 
+                    <lb/>nostre viande, qui est nostre breuuage? Celui 
+                    <lb/>pecheroit-il par la faim, duquel la principale 
+                    <lb/>viande est de faire la volonté de celui qui l'a 
+                    <lb/>enuoyé &amp; de parfaire son œuure, 
+                    comme il le 
+                    <lb/>tesmoigne au <ref type="bible" target="bibleSegond21.xml#John.4">4. de S. Iean</ref>?</p> 
+                <p n="38"> 
+                    <lb/>A ces deux auantages adioustons la circonstance 
+                    <lb/>du temps qui est marquee en nostre 
+                    <lb/>texte par ce mot <hi rend="I">Alors</hi>. Quand alors ? Incontinent 
+                    <lb/>apres le Baptesme de Iesus Christ. De 
+                    <lb/>Iesus Christ auquel peu auparauant Iean Baptiste 
+                    <lb/>auoit rendu ce tesmoignage, <quote source="bible1588.xml#John.1.29">Voila l'Agneau 
+                        <lb/>de Dieu</quote>, au <ref type="bible" target="bibleSegond21.xml#John.1.29">premier de S. 
+                        Iean</ref> : De Iesus 
+                    <lb/>Christ, duquel le Pere venoit de dire au <ref type="bible" target="bibleSegond21.xml#Matt.3.17">3. 
+                        <lb/>de S. Matthieu</ref>, <quote source="bible1588.xml#Matt.3.17">Cettui-ci est mon Fils 
+                        bien-aimé , 
+                        <lb/>en qui i'ai pris mon bon plaisir</quote>. Bref de 
+                    <lb/>Iesus Christ qui commençoit à exercer publiquement 
+                    <lb/>la charge qui lui auoit esté commise. 
+                    <lb/>Nous ne lisons pas que Satan ait tenté Iesus  <fw place="bot-right" type="catch">Christ,</fw> 
+                     <pb n="13"/> 
+                    <lb/>Christ,tandis qu'il a vescu comme particulier 
+                    <lb/>en la maison de Ioseph &amp; de Marie : mais 
+                    <lb/>maintenant qu'il le void instalé en sa charge, 
+                    <lb/>voire dés le commencement, mesmes en quelque 
+                    <lb/>sorte auant qu'il la commence, le Diable 
+                    <lb/>s'auance pour le faire chopper dés l'entree,afin 
+                    <lb/>que tout le reste de son ministere demeure 
+                    <lb/>infructueux. Ennemi caut &amp; rusé. Il veut obuier 
+                    <lb/>aux commencemens. Il sçait combien 
+                    <lb/>nuist le retardement , que le remede à vn mal 
+                    <lb/>ne peut estre trop tost apporté : que s'il n'étouffe 
+                    <lb/>le regne de Iesus Christ dés sa naissance, 
+                    <lb/>il faudra necessairement que le sien diminue, 
+                    <lb/>qu'à la fin il soit renuersé. Ainsi l'ennemi 
+                    <lb/>de nostre salut n'a rien omis, non pas mesmes 
+                    <lb/>es formalités &amp; circonstances. Ayant à combattre 
+                    <lb/>Iesus Christ il a pris son temps:Croyant 
+                    <lb/>plus facile de le renuerser, que s'il eust attendu 
+                    <lb/>son plein establissement. Mais aussi en ce 
+                    <lb/>poinct s'est abusé le Tentateur. Car le regne 
+                    <lb/>de Iesus Christ n'a point de fin , point aussi de 
+                    <lb/>commencement. Les fondemens de sa domination 
+                    <lb/>sont non en la terre,mais au ciel : ils 
+                    <lb/>n'ont point de temps , ils sont eternels. Et la 
+                    <lb/>nature de ce regne est qu'il croist &amp; s'augmente 
+                    <lb/>par l'opposition de ses ennemis , par leur 
+                    <lb/>contradiction. Plus le Diable machine, plus 
+                    <lb/>il dresse d'embusches à Iesus Christ,plus aussi 
+                    <lb/>paroist la lumiere de l'Euangile,&amp; ce par la sagesse 
+                    <lb/>admirable de celui qui conuertit les tenebres <pb n="14"/> 
+                    <lb/>en lumiere, &amp; qui change les maledictions 
+                    <lb/>des aduersaires en benedictions sur son 
+                    <lb/>peuple. Et de fait ceste circonstance regarde 
+                    <lb/>aussi l'Eglise de Dieu, voire chaque fidele. Vn 
+                    <lb/>Ancien escriuant sur ce passage dit, qu'alors 
+                    <lb/>le Diable fait ses plus grands efforts contre 
+                    <lb/>nous lors que nous sommes sanctifiez. Comme 
+                    <lb/>s'il disoit , qu'alors auec plus d'animosité 
+                    <lb/>il se bande contre nous , quand il void que 
+                    <lb/>Dieu nous a choisis pour ses enfans. Et l'experience 
+                    <lb/>parle pour nous en cet endroit. Auant 
+                    <lb/>que Dieu t'eust appelé à sa cognoissance, 
+                    <lb/>tu iouissois , ce diras-tu, de repos en ta conscience. 
+                    <lb/>Rien ne te molestoit. Tout le monde 
+                    <lb/>t'estoit ami. Mais maintenant que tu as embrassé 
+                    <lb/>la profession de l'Euangile,tu es trauaillé 
+                    <lb/>de tous costez, tu as des tentations à droite 
+                    <lb/>&amp; à gauche, hors de chés toi, en ta maison. 
+                    <lb/>Pren bon courage, &amp; que cela te soit vne marque 
+                    <lb/>de ta vocation &amp; de ta sanctification. Le 
+                    <lb/>Diable tente Iesus Christ lors qu'il te void 
+                    <lb/>commencer ton ministere. Aussi trouuant 
+                    <lb/>mauuais que tu te vouës au seruice de Dieu, 
+                    <lb/>il s'efforce de troubler ton repos , comme il 
+                    <lb/>n'auoit garde de te resveiller pendant que tu 
+                    <lb/>estois endormi en tes vices. Car tel repos, tel 
+                    <lb/>dormir lui est agreable. La mesme consolation 
+                    <lb/>doit estre donnee à plusieurs poures Eglises 
+                    <lb/>qui dés leur naissance experimentent contre 
+                    <lb/>leur establissement la rage &amp; la ruse du diable.  <fw place="bot-right" type="catch">ble.</fw> 
+                     <pb n="15"/> 
+                    <lb/>Tels efforts doiuent estre pris pour vn 
+                    <lb/>tesmoignage asseuré que le Soleil de iustice 
+                    <lb/>luit au milieu de nous. Au fort de l'hyuer ne 
+                    <lb/>paroissent point sur la terre les bestes venimeuses. 
+                    <lb/>Au lieu qu'au printemps lors que 
+                    <lb/>le Soleil a plus de vigueur sortent les serpens 
+                    <lb/>&amp; autres insectes. De mesme on remarque 
+                    <lb/>ceste difference entre les pays esquels 
+                    <lb/>la parole de Dieu est preschee , d'auec ceux 
+                    <lb/>où elle ne l'est point.En ceux où elle est preschee 
+                    <lb/>le Diable écume son ire , &amp; suscite diuerses 
+                    <lb/>tentations contre les auditeurs d'icelle. 
+                    <lb/>Au lieu qu'il laisse les autres qui n'ont 
+                    <lb/>point ouy parler de Iesus Christ ni de sa parole , 
+                    <lb/>il les laisse di-ie sans assaut se plonger 
+                    <lb/>es tenebres de leur erreur &amp; dissolution. 
+                    <lb/>Or Iesus Christ lui a resisté , afin qu'il nous 
+                    <lb/>soustienne aussi &amp; au commencement de nostre 
+                    <lb/>course,&amp; iusques à la fin d'icelle.</p> 
+                <p n="39"> 
+                    <lb/>Et voila les auantages que Satan a pretendu 
+                    <lb/>prendre contre Iesus Christ.</p> 
+                <p n="40"> 
+                    <lb/> 
+                    Suiuent maintenant au texte les traits 
+                        <lb/>qu'il a decochés contre icelui , que nous ne 
+                        <lb/>toucherons que sommairement en l'heure 
+                        <lb/>presente. Satan donc ayant pris son temps, 
+                    <lb/>commence sa tentation. Tentation qui n'est 
+                    <lb/>point d'vne sorte : car il s'efforce ou de corrompre 
+                    <lb/>sa foi, ou de lui faire changer d'obiect. 
+                    <lb/>Pour corrompre la foi de Iesus Christ, <pb n="16"/> 
+                    <lb/>il entreprend de le faire ou tomber en defaut, 
+                    <lb/>ou monter à l'excés. Il tasche de le porter au 
+                    <lb/>defaut, c'est à dire à la desfiance par sa premiere 
+                    <lb/>tentation, quant il lui dit s'approchant de 
+                    <lb/>lui, <quote source="bible1588.xml#Matt.4.3"> 
+                        <hi rend="I">Si tu es Fils de Dieu, di que ces pierres deuienent 
+                            <lb/>pains</hi> 
+                    </quote>, Comme s'il disoit, Ne vois-tu pas bien 
+                    <lb/>que tu es abandonné de Dieu, &amp; desnué de 
+                    <lb/>tout secours? sans doute si tu estois Fils de Dieu 
+                    <lb/>tu ne mourrois pas de faim : plustost, pour te 
+                    <lb/>soustenir, seroyent ces pierres ici conuertis en 
+                    <lb/>pain.Et puis que tel changement n'arriue pas, 
+                    <lb/>tu n'es point Fils de Dieu,&amp; tu periras de faim. 
+                    <lb/>L'intention de Satan est de faire conclurre à 
+                    <lb/>Iesus Christ , que Dieu l'a abandonné puis 
+                    <lb/>que les moyens exterieurs lui defaillent.Donc 
+                    <lb/>rien plus ne lui reste que d'auoir recours à 
+                    <lb/>toutes sortes de moyens, quoi que non legitimes , 
+                    <lb/>comme de commander à des pierres 
+                    <lb/>qu'elles deuienent pain. Ainsi le Diable 
+                    <lb/>prend a tasche d'arracher à l'homme la confiance 
+                    <lb/>qu'il doit auoir en Dieu , pour le conduire 
+                    <lb/>à des pierres , c'est à dire à des moyens 
+                    <lb/>defendus de Dieu.Stratageme &amp; artifice merueilleusement 
+                    <lb/>pernicieux. Ainsi,pour ce que 
+                    <lb/>l'Eternel n'auoit point respondu à Saul ni par 
+                    <lb/>songes, ni par Vrim, ni par les Prophetes, le 
+                    <lb/>Diable,duquel dés long temps il estoit possedé, 
+                    <lb/>l'incite à s'adresser à vne femme qui auoit 
+                    <lb/>l'esprit de Python. Ainsi plusieurs impatiens 
+                    <lb/>en leurs maladies &amp; langueurs se desfient du  <fw place="bot-right" type="catch">se-</fw> 
+                     <pb n="17"/> 
+                    <lb/>secours de Dieu , ont recours aux deuins &amp; 
+                    <lb/>arts magiques. C'est sans, c'est contre le commandement 
+                    <lb/>de Dieu, commander aux pierres 
+                    <lb/>qu'elles deuienent pain. Ainsi le Diable pousse 
+                    <lb/>plusieurs poures au larcin, plusieurs offensez 
+                    <lb/>à la vengeance, plusieurs affligez au desespoir : 
+                    <lb/>sur tout ceux qui sont à l'article de la 
+                    <lb/>mort, si Dieu par sa misericorde ne nous soustient 
+                    <lb/>au milieu des tentations que le malin 
+                    <lb/>nous liure.</p> 
+                <p n="41"> 
+                    <lb/>Ceste premiere tentation n'ayant point 
+                    <lb/>reussi,il passe à la seconde,&amp; n'ayant peu mener 
+                    <lb/>Iesus Christ au defaut,il essaye de le mener 
+                    <lb/>à l'excés. Ainsi Satan extrauague aux extremitez , 
+                    <lb/>à la seule vertu obtient le milieu. Elle 
+                    <lb/>garde mesure tandis que le malin ou défaut à 
+                    <lb/>Dieu,ou excede contre lui. Or le diable transporte 
+                    <lb/>Iesus Christ en la saincte ville &amp; le met 
+                    <lb/>sur les <choice><sic>crencaux</sic><corr resp="#MBF">creneaux</corr></choice> du temple, &amp; lui 
+                    dit, <quote source="bible1588.xml#Matt.4.6"> 
+                        <hi rend="I">Si tu es 
+                            <lb/>Fils de Dieu iette toi en bas, car il est escrit, Qu'il donnera 
+                            <lb/>charge de toi à ses anges, &amp; ils te porteront en 
+                            <lb/>leurs mains, de peur que tu ne heurtes de ton pied à quelque 
+                            <lb/>pierre</hi></quote>. Comme s'il disoit, Puis que 
+                    tu te fies 
+                    <lb/>tant en Dieu , donne-nous vn peu quelque 
+                    <lb/>preuue &amp; tesmoignage extraordinaire. Car si 
+                    <lb/>tu te fies en lui, feras-tu difficulté de te ietter 
+                    <lb/>en bas ? &amp; si tu es son Fils , manquera-il à te 
+                    <lb/>conseruer?Or pour donner couleur à sa tentation 
+                    <lb/>il produit vn passage de l'Escriture , afin 
+                    <lb/>de contrequarrer celui que Christ auoit allegué <pb n="18"/> 
+                    <lb/>en sa premiere responce. Passage fort excellent 
+                    <lb/>pris du <ref type="bible" target="bibleSegond21.xml#Ps.91">Pseaume 91</ref>. Mais en la citation 
+                    <lb/>duquel il commet deux omissions notables. 
+                    <lb/>Il dit vrai en citant le <ref type="bible" target="bibleSegond21.xml#Ps.91.11">verset onziéme</ref>: 
+                    <lb/>mais pourquoi au mesme verset omet-il ce 
+                    <lb/>qui est de principal , <quote source="bible1588.xml#Ps.91.11"> 
+                        <hi rend="I">en toutes tes voyes</hi> 
+                         
+                    </quote>. Il dit 
+                    <lb/>en tes voyes. Non donc hors d'icelles. Or 
+                    <lb/>estoyent-ce les voyes de Christ que le Diable 
+                    <lb/>lui proposoit ? Dieu n'assiste point : il n'ottroye 
+                    <lb/>point aussi la garde de ses Anges à celui 
+                    <lb/>qui se precipite : mais à celui qui chemine 
+                    <lb/>par degrés en sa vocation. L'autre omission 
+                    <lb/>est du <ref type="bible" target="bibleSegond21.xml#Ps.91.13">verset treiziesme du mesme Pseaume</ref>. 
+                    <lb/>Il taist subtilement cela , pource qu'il 
+                    <lb/>faisoit contre lui. Car c'est de lui proprement 
+                    <lb/>qu'il faut entendre ces paroles , <quote source="bible1588.xml#Ps.91.13"> 
+                        <hi rend="I">Tu 
+                            <lb/>marcheras sur le lion, &amp; sur l'aspic, &amp; fouleras le 
+                            <lb/>lionceau &amp; le dragon</hi></quote>. Ainsi le 
+                    Diable , pour 
+                    <lb/>plus aisément persuader aux hommes ce que 
+                    <lb/>bon lui semble , quelques meschans qu'ils 
+                    <lb/>soyent , il les endort par l'Escriture mesme: 
+                    <lb/>soit sur la misericorde de Dieu , soit sur la 
+                    <lb/>legereté de leur peché. Quant aux dissolus 
+                    <lb/>&amp; desbordés , il les enchante par ce que Iesus 
+                    <lb/>Christ dit au <ref type="bible" target="bibleSegond21.xml#Matt.21.31">vingt-vniesme de Sainct 
+                        <lb/>Matthieu.</ref> 
+                    <quote source="bible1588.xml#Matt.21.31">En verité ie vous di que les peagers 
+                        <lb/>&amp; les paillardes vous deuancent au royaume 
+                        <lb/>de Dieu</quote>. Il leur propose cela nuement , 
+                    <lb/>sans y ioindre ce qui est escrit au <ref type="bible" target="bibleSegond21.xml#Ezek.33.11">33.  <fw place="bot-right" type="catch">d'E-</fw> 
+                         <pb n="19"/> 
+                        <lb/>d'Ezechiel</ref> , <quote source="bible1588.xml#Ezek.33.11">Ie suis viuant , dit le 
+                        Seigneur 
+                        <lb/>l'Eternel , que ie ne pren point plaisir à la 
+                        <lb/>mort du meschant , ains plustost que le meschant 
+                        <lb/>se destourne de son train &amp; qu'il viue. 
+                        <lb/>Destournez-vous , destournez-vous de 
+                        <lb/>vostre meschant train, &amp; pourquoi mouriez- 
+                        <lb/>vous ô maison d'Israel </quote>? Ainsi aux 
+                    auaricieux 
+                    <lb/>il propose ce qui est escrit au <ref type="bible" target="bibleSegond21.xml#_1Tim.5.8">cinquiesme 
+                        <lb/>de la premiere à Timothee</ref> , asçavoir , 
+                    <lb/> 
+                    <quote source="bible1588.xml#_1Tim.5.8">Que si quelcun n'a soin des siens, &amp; 
+                        <lb/>principalement de ceux de sa famille , il a 
+                        <lb/>renié la foi , &amp; est pire qu'vn infidele</quote>. Passage 
+                    <lb/>proposé par l'Apostre , non en faveur 
+                    <lb/>des auaricieux, mais contre les prodigues &amp; 
+                    <lb/>faineans. Ainsi il entretiendra les gourmands 
+                    <lb/>&amp; yurongnes sur ce que <ref type="bible" target="bibleSegond21.xml#_1Tim.5.23">Sainct Paul 
+                        <lb/>dit à Timothee au cinquiesme de sa premiere</ref> , 
+                    <lb/> 
+                    <quote source="bible1588.xml#_1Tim.5.23">qu'il ne boiue plus d'eau , mais qu'il vse 
+                        <lb/>de vin</quote>. Comme si cela 
+                    fauorisoit leur dissolution , 
+                    <lb/>puis qu'il dit , <quote source="bible1588.xml#_1Tim.5.23">Vse d'vn peu de 
+                        <lb/>vin. <seg type="interpolation">Adioustant la raison ,</seg> à cause de ton 
+                        estomach , 
+                        <lb/>&amp; à cause des maladies que tu as 
+                        <lb/>souuent</quote>.  En ceste façon le Diable a 
+                    accoustumé 
+                    <lb/>d'abuser de l'Escriture. Que s'il 
+                    <lb/>l'alleguoit entiere il lui seroit impossible d'induire 
+                    <lb/>par icelle l'homme au mal. Comme 
+                    <lb/>en cet endroit , qui ne void que ce seroit vne 
+                    <lb/>temerité enragee de se ietter en bas d'vne 
+                    <lb/>haute tour, puisque Dieu ne promet de 
+                    <lb/>garentir que ceux qui cheminent en leurs <pb n="20"/> 
+                    <lb/>voyes, c'est à dire en vne vocation legitime &amp; 
+                    <lb/>reglee par la parole de Dieu.</p> 
+                <p n="42"> 
+                    <lb/>Ceste seconde tentation s'estant trouuee de 
+                    <lb/>nul effect, le Diable adiouste vn troisiéme &amp; 
+                    <lb/>dernier assaut, pour induire Iesus Christ à lui 
+                    <lb/>rendre l'honneur qu'il deuoit à Dieu seul. Iesus 
+                    <lb/>auoit Dieu seul pour object de son adoration, 
+                    <lb/>&amp; de son inuocation. Et le Diable lui dit 
+                    <lb/>apres l'auoir transporté sur vne fort haute mõtagne, 
+                    <lb/>&amp; lui auoir monstré tous les royaumes 
+                    <lb/>du monde,&amp; leur gloire, <quote source="bible1588.xml#Matt.4.9"> 
+                        <hi rend="I">Ie te donnerai toutes ces 
+                            <lb/>choses, si en te prosternant en terre tu 
+                        m'adores</hi></quote>. Tentation 
+                    <lb/>composee d'imprudence, de mensonge, 
+                    <lb/>&amp; de sacrilege. D'imprudence : Il auoit esté reietté, 
+                    <lb/>repoussé es deux assauts precedens, &amp; il 
+                    <lb/>entreprend encor ce troisiesme. C'est là le naturel 
+                    <lb/>de ce malin esprit.Et il en vse de mesme à 
+                    <lb/>l'endroit des fideles. Il ne se rebute point au 
+                    <lb/>premier refus.Il nous assaut par plusieurs fois, 
+                    <lb/>par plusieurs endroits, par tous endroits. Ses 
+                    <lb/>ruses sont enchaisnees,elles s'entresuiuent. La 
+                    <lb/>fin de la premiere est l'entree à la deuxiéme: 
+                    <lb/>Ceste-ci suiuie d'vne troisiéme, ains d'vn nõbre 
+                    <lb/>infini. Car qui pourroit suffisamment &amp; 
+                    <lb/>sans se lasser reciter les tentations de celui qui 
+                    <lb/>ne se lasse point de tenter,qui à tous momens, 
+                    <lb/>qui à toutes occasions attente au repos de nos 
+                    <lb/>consciences, au salut de nos ames. Celui qu'il 
+                    <lb/>n'a peu seduire en sa ieunesse, il ne tient point 
+                    <lb/>à lui qu'il ne le face trebuscher en la vieillesse.  <fw place="bot-right" type="catch">Ce</fw> 
+                     <pb n="21"/> 
+                    <lb/>Ce qu'il ne peut gagner par la volupté, il l'obtient 
+                    <lb/>par l'ambition. Si l'vne &amp; l'autre est inutile, 
+                    <lb/>il employe l'auarice.Apres cette-ci quelqu'autre. 
+                    <lb/>Auec cette-ci plusieurs autres.Car le 
+                    <lb/>Diable pretend d'enlacer chacun homme,par 
+                    <lb/>tant de pieges &amp; en tant de sortes de liens,que 
+                    <lb/>iamais pas vn ne lui puisse eschapper. Ainsi 
+                    <lb/>veut-il pousser Iesus Christ à la desfiance, à vne 
+                    <lb/>trop grande confiance, à l'auarice, &amp; à l'idolatrie. 
+                    <lb/>Il y a aussi du mensonge tout euident 
+                    <lb/>en ceste tentation. Il promet de donner les 
+                    <lb/>Royaumes du monde &amp; leur gloire. Lui, qui 
+                    <lb/>n'a par droict que du mal, du bien que par vsurpation, 
+                    <lb/>promet ici les Royaumes à celui 
+                    <lb/>qui seul de droit est Roi &amp; iuste possesseur de 
+                    <lb/>toutes choses. Il est vrai qu'au <ref type="bible" target="bibleSegond21.xml#John.12">12. de S. Iean</ref> 
+                    le 
+                    <lb/>Diable est appellé Prince de ce monde. Mais 
+                    <lb/>par le monde il faut entendre les iniques,qui 
+                    <lb/>par leur iniquité volontaire,aussi bien que par 
+                    <lb/>le iuste iugement de Dieu , sont asseruis à la 
+                    <lb/>tyrannie du Diable , lequel ne possede chose 
+                    <lb/>aucune que par perfidie &amp; desloyale vsurpation. 
+                    <lb/>Ce qu'il promet donc ici,c'est ce qu'il ne 
+                    <lb/>veut, ni ne peut tenir. Il ne le veut : car s'en 
+                    <lb/>dessaisiroit-il si cela dependoit de sa puissance. 
+                    <lb/>A-il l'esprit enclin à faire du biẽ à autrui. Ains 
+                    <lb/>lui qui pousse &amp; le corps &amp; l'ame des hommes 
+                    <lb/>en la gehenne, te donneroit-il ses biens? 
+                    <lb/>mais espargneroit-il les tiens ? Est-il veritable 
+                    <lb/>en ses promesses? Ains menteur. Car à qui appartienent <pb n="22"/> 
+                    <lb/>les Royaumes? Et qui les distribue? 
+                    <lb/> 
+                    <quote source="bible1588.xml#Prov.8.15">Par moi regnent les Rois, <seg type="interpolation">dit le Sage au <ref type="bible" target="bibleSegond21.xml#Prov.8.15">8. des 
+                        <lb/>Prouerbes</ref> ,</seg> &amp; les Princes 
+                        decernent iustice</quote>. 
+                    <lb/>Et Iosaphat au <ref type="bible" target="bibleSegond21.xml#_2Chr.19">19. du 2. liure des Chroniques</ref>, 
+                    <lb/>dit aux Iuges , <quote source="bible1588.xml#_2Chr.19.6">Regardez que vous ferez : 
+                        <lb/>car vous n'exercez pas la iudicature de 
+                        <lb/>par vn homme , mais de par l'Eternel, lequel 
+                        <lb/>est parmi vous en iugement</quote>. 
+                    <ref type="bible" target="bibleSegond21.xml#Dan.2.21">Daniel au 2. chapitre</ref> 
+                    <lb/>dit à Nebucadnezar , <quote source="bible1588.xml#Dan.2.21">C'est Dieu qui 
+                        <lb/>change les temps &amp; les saisons , qui oste les 
+                        <lb/>rois,&amp; qui establit les rois: qui donne la sagesse 
+                        <lb/>aux sages,&amp; la congnoissance à ceux qui scauent 
+                        <lb/>que c'est de prudence</quote>. Au <ref type="bible" target="bibleSegond21.xml#John.19.11">19. de S. Iean</ref>, 
+                    <lb/>nous voyons comme Iesus respondit à Pilate. 
+                    <lb/> 
+                    <quote source="bible1588.xml#John.19.11">Tu n'aurois puissance quelconque sur moi, 
+                        <lb/>s'il ne t'estoit donné d'enhaut:pour ceste cause 
+                        <lb/>celui qui m'a liuré à toi a plus grand peché</quote>. 
+                    <lb/>Et <ref type="bible" target="bibleSegond21.xml#Rom.13.1:4">S. Paul au 13. de l'Epistre aux Romains</ref>,<quote source="bible1588.xml#Rom.13.1:4">Que 
+                        <lb/>toute personne, <seg type="interpolation">dit-il ,</seg> soit suiette 
+                        aux puissances 
+                        <lb/>superieures : car il n'y a point de puissance 
+                        <lb/>sinon de par Dieu, &amp; les puissances qui 
+                        <lb/>sont en estat , sont ordonnees de Dieu. Le 
+                        <lb/>Prince est seruiteur de Dieu pour ton bien: 
+                        <lb/>mais si tu fais mal,crain:d'autant qu'il ne porte 
+                        <lb/>point l'espee sans cause : car il est seruiteur 
+                        <lb/>de Dieu, ordonné pour faire iustice en ire, de 
+                        <lb/>celui qui fait 
+                        mal</quote>. Il adiouste 
+                    finalement: 
+                    <lb/> 
+                    <quote source="bible1588.xml#Rom.13.6">Car pour ceste cause aussi payez-vous les tributs , 
+                        <lb/>d'autant qu'iceux sont ministres de 
+                        <lb/>Dieu,s'employans à cela</quote>. Bref, il y a ici 
+                    du sacrilege  <fw place="bot-right" type="catch">cri</fw> 
+                     <pb n="23"/> 
+                    <lb/>tout euidemment, de vouloir rauir à 
+                    <lb/>soi l'adoration deuë à Dieu seul. <quote source="bible1588.xml#Matt.4.9"> 
+                        <hi rend="I">Si en te prosternant 
+                            <lb/>en terre tu m'adores</hi></quote>. Aussi Iesus 
+                    Christ 
+                    <lb/>comme nous le verrons, ne le peut plus ouyr, 
+                    <lb/>ains le chassa. Car aussi que pouuoit-il dire 
+                    <lb/>de plus abominable ? Et que pouuoit requerir 
+                    <lb/>le Diable de plus excellent, &amp; qui lui soit 
+                    <lb/>moins deu , sous vne condition specieuse en 
+                    <lb/>apparence, fausse en effect. Et quand elle seroit 
+                    <lb/>vraye , &amp; que le Diable la pourroit accomplir, 
+                    <lb/>y a-il quelque proportion entre ce 
+                    <lb/>qu'il demande , &amp; ce qu'il offre. Cependant 
+                    <lb/>de tout temps, par ses offres il a fait fleschir 
+                    <lb/>deuant soi le genou à plusieurs sortes de 
+                    <lb/>personnes. C'est ce grand dragon roux duquel 
+                    <lb/>il est dit au <ref type="bible" target="bibleSegond21.xml#Rev.12.3-4">12. de l'Apocalypse</ref> , <quote source="bible1588.xml#Rev.12.3-4">Il apparut 
+                        <lb/>aussi vn autre signe au ciel , &amp; voici vn 
+                        <lb/>grand dragon roux , ayant sept testes &amp; dix 
+                        <lb/>cornes, &amp; sur les testes sept diademes , Et la 
+                        <lb/>queuë d'icelui trainoit la tierce partie des estoiles 
+                        <lb/>du ciel,lesquelles il iette en terre : puis 
+                        <lb/>le dragon s'arresta deuant la femme qui deuoit 
+                        <lb/>enfanter : afin que quand elle auroit enfanté 
+                        <lb/>il deuorast l'enfant d'icelle</quote>. 
+                     
+                    Il enchaisne 
+                    <lb/>les hommes de liens d'or &amp; d'argent. Les 
+                    <lb/>autres il les accable iusqu'aux enfers sous le 
+                    <lb/>fardeau de quelque Royaume , domination, 
+                    <lb/>&amp; possession. O qu'il est difficile 
+                    <lb/>qu'vn riche entre au Royaume des cieux ! <pb n="24"/> 
+                    <lb/>Mais il est impossible à vn auaricieux. Ici a 
+                    <lb/>lieu ce que dit <ref type="bible" target="bibleSegond21.xml#_1Tim.6.9-10">S. Paul au 6. de la premiere à 
+                        <lb/>Timothee</ref>, <quote source="bible1588.xml#_1Tim.6.9-10">Ceux qui veulent deuenir riches, 
+                        <lb/>tombent en tentation &amp; au piege, &amp; en plusieurs 
+                        <lb/>desirs fols &amp; nuisibles, qui plongent les 
+                        <lb/>hommes en destruction &amp; perdition. Car la 
+                        <lb/>racine de tous maux c'est la conuoitise des richesses: 
+                        <lb/>de laquelle quelques vns ayans enuie 
+                        <lb/>se sont desvoyés de la foi, &amp; se sont eux mesmes 
+                        <lb/>enserrez en plusieurs douleurs</quote>. 
+                    Ananias 
+                    <lb/>&amp; Sapphira comme nous le voyons au 5. des 
+                    <lb/>Actes pour auoir par auarice &amp; en mentant à 
+                    <lb/>L'Esprit de Dieu,voulu posseder quelque chose 
+                    <lb/>plus que les autres , perdent la vie , conseruee 
+                    <lb/>aux autres.Iudas l'vn des douze Apostres 
+                    <lb/>par auarice trahit à mort le Sauueur de vie, 
+                    <lb/>puis se precipita soi-mesme. Ainsi fut deserte 
+                    <lb/>son habitation : &amp; sa portion fut auec les iniques.</p> 
+                <p n="43"> 
+                    <lb/>Voila au regard des hommes des tentations 
+                    <lb/>bien fortes, bien pressantes : Mais que Iesus 
+                    <lb/>Christ a iugees fort legeres , qu'il a fort aisément 
+                    <lb/>surmontees. Et voyons-le sommairement. 
+                    <lb/>Car moyennant la grace de Dieu nous 
+                    <lb/>esperons es exhortations suiuãtes exposer ces 
+                    <lb/>choses plus au long, &amp; par le menu. Et ceci 
+                    <lb/>n'est dit que comme vne exposition generale 
+                    <lb/>de toute l'histoire qu'il faudra puis apres examiner 
+                    <lb/>selon toutes ses circonstances &amp; doctrines.</p> 
+ 
+                 <fw place="bot-right" type="catch">Donc</fw> 
+                 <pb n="25"/> 
+                <p n="44"> 
+                    <lb/> Donc à la premiere Tentation, qui le sommoit , 
+                    <lb/>s'il estoit Fils de Dieu,de changer les 
+                    <lb/>pierres en pain, Il respond par vn passage pris 
+                    <lb/>du <ref type="bible" target="bibleSegond21.xml#Deut.8.3">8. du Deuteronome</ref>, Il est escrit,<quote source="bible1588.xml#Deut.8.3">L'homme 
+                        <lb/>ne viura point de pain seulement,mais de toute parole 
+                        <lb/>qui sort de la bouche de Dieu</quote>. Comme 
+                    <lb/>s'il disoit, Encor que ces pierres se soyent 
+                    <lb/>pas chãgees en pain, si ne mourrai-ie pas pourtant. 
+                    <lb/>La Raison. Pource que ce n'est pas seulement 
+                    <lb/>le pain qui a efficace de nourrir l'homme : 
+                    <lb/>mais c'est principalement de la benediction 
+                    <lb/>de Dieu que dépend nostre entretien: 
+                    <lb/>Autrement il s'ensuiuroit que celui ou qui 
+                    <lb/>mange le plus,ou qui a chés soi meilleure prouision, 
+                    <lb/>seroit le plus vigoureux. Et ordinairement 
+                    <lb/>tout le contraire arriue. Et voulons- 
+                    <lb/>nous quelque chose de plus clair que ce que 
+                    <lb/>dit nostre Sauueur au <ref type="bible" target="bibleSegond21.xml#Luke.12.15">12. de S. Luc</ref>, <quote source="bible1588.xml#Luke.12.15">Voyez &amp; 
+                        <lb/>vous gardez d'auarice : car encore que les biẽs 
+                        <lb/>abondent à quelcun , si n'a-il pas vie par ses 
+                        <lb/>biens</quote>. Ezechias n'attribue ce qu'il subsiste, 
+                    ce 
+                    <lb/>qu'il a vie &amp; vigueur, qu'à la parole de Dieu. 
+                    <lb/>Car au <ref type="bible" target="bibleSegond21.xml#Isa.38.16">38. d'Esaie</ref>, apres auoir dit que l'Eternel 
+                    <lb/>a parlé à lui il adiouste , <quote source="bible1588.xml#Isa.38.16">Seigneur par ces 
+                        <lb/>choses là on a la vie , &amp; en tout ce qui est en 
+                        <lb/>ces choses là gist la vie de mon esprit : ainsi tu 
+                        <lb/>me remettras en bon poinct &amp; me feras 
+                        reuiure</quote>. 
+                    <lb/>En quelles choses ? En la parole de Dieu 
+                    <lb/>qui lui auoit redonné sa force. Dauid au <ref type="bible" target="bibleSegond21.xml#Ps.4.6-7">Pseaume 
+                        <lb/>4.</ref> donne vn excellent commandement sur <pb n="26"/> 
+                    <lb/>ceste matiere. Il introduit les mondains,ou le 
+                    <lb/>commun,demandãt à Dieu les choses temporelles. 
+                    <lb/>Et lui il demande à Dieu la clarté de sa 
+                    <lb/>face. Plusieurs disent, <quote source="bible1588.xml#Ps.4.6-7">Qui nous fera iouyr de 
+                        <lb/>biẽs ? leue sur nous la clarté de ta face,Eternel, 
+                        <lb/>Tu as mis plus de liesse en mon cœur , qu'ils 
+                        <lb/>n'ont au temps que leur froment &amp; leur meilleur 
+                        <lb/>vin ont foisonné</quote>.Cõme s'il disoit. Ta 
+                    seule 
+                    <lb/>faueur &amp; benediction me suffit. Auec icelle, 
+                    <lb/>ie suis plus riche que les plus riches: voire sans 
+                    <lb/>icelle toutes choses nous sont inutiles,mesmes 
+                    <lb/>preiudiciables.A ceste occasion Dieu veut que 
+                    <lb/>les plus riches,au milieu de leur plus grande abondance, 
+                    <lb/>demandent à Dieu leur pain quotidien: 
+                    <lb/>pour monstrer,que les moyens &amp; causes 
+                    <lb/>secondes n'ont aucune efficace , sinon entant 
+                    <lb/>que Dieu d'enhaut la leur cõmunique.Quand 
+                    <lb/>donc au milieu de nostre poureté le Diable 
+                    <lb/>nous sollicite à desfiance,respondons,L'homme 
+                    <lb/>ne viura point de pain seulement, mais de 
+                    <lb/>toute parole qui sort de la bouche de Dieu.Disons, 
+                    <lb/>que si Dieu nous afflige pour vn temps, 
+                    <lb/>sa gratuité ne se retirera point pourtant de dessus 
+                    <lb/>nous. Disons, que nous sommes asseurez 
+                    <lb/>qu'en cerchant premieremẽt le regne de Dieu 
+                    <lb/>&amp; sa iustice,toutes choses vous seront baillees 
+                    <lb/>par dessus. Disons, que si Dieu nous a donné le 
+                    <lb/>principal, il ne nous refusera point l'accessoire. 
+                    <lb/>Il nous a donné la vie eternelle:pourquoi non 
+                    <lb/>ce qui nous est necessaire pour nous y conduire ?  <fw place="bot-right" type="catch">re?</fw> 
+                     <pb n="27"/> 
+                    <lb/>si la vie,pourquoi non la nourriture ? si le 
+                    <lb/>corps,pourquoi non le vestemẽt? Iesus Christ 
+                    <lb/>a nourri Moyse &amp; Elie au desert;Ionas au ventre 
+                    <lb/>du poisson : de deux pains plusieurs milliers 
+                    <lb/>de personnes : Il a multiplié la farine du 
+                    <lb/>cophin,&amp; l'huile de la phiole.C'est lui mesme 
+                    <lb/>qui espandra sa benediction sur nostre peu, 
+                    <lb/>voire sur nostre rien , moyennant que nous 
+                    <lb/>nous confiyons en lui. Ainsi faut-il auec Iesus 
+                    <lb/>Christ fermer &amp; la bouche au Diable, 
+                    <lb/>&amp; la porte à la desfiance , comme par exemples 
+                    <lb/>&amp; tesmoignages exprés de l'Escriture.</p> 
+                <p n="45"> 
+                    <lb/>Le mesme en toute autre tentation. Car 
+                    <lb/>il n'y a que la parole de Dieu , qui puisse esteindre 
+                    <lb/>les dards enflammez du malin. S'il 
+                    <lb/>te dit, Il appert bien que tu n'es pas des enfants 
+                    <lb/>de Dieu,puis qu'il ne t'exauce pas. Respon, 
+                    <lb/>qu'il est dit au <ref type="bible" target="bibleSegond21.xml#Heb.5.7-8">cinquiéme de l'Epistre 
+                        <lb/>aux Hebrieux</ref>, que Christ <quote source="bible1588.xml#Heb.5.7-8">es iours de sa 
+                        chair 
+                        <lb/>ayant offert auec grand cri &amp; larmes prieres 
+                        <lb/>&amp; supplications à celui qui le pouuoit sauuer 
+                        <lb/>de mort , &amp; ayant esté exaucé de ce 
+                        <lb/>qu'il craignoit, iaçoit qu'il fust Fils , toutesfois 
+                        <lb/>si a-il appris obeyssance , par les choses 
+                        <lb/>qu'il a souffertes</quote> : A plus forte raison 
+                    <lb/>dois-tu ployer par obeyssance : afin qu'aussi 
+                    <lb/>tu sois exaucé en temps opportun , &amp; par sa 
+                    <lb/>misericorde.</p> 
+                <p n="46"> 
+                    <lb/>S'il te dit , Les autres sont en prosperité, <pb n="28"/> 
+                    <lb/>Toi seul, tu es affligé. Respon par les paroles 
+                    <lb/>de l'Apostre au <ref type="bible" target="bibleSegond21.xml#Heb.12.6">12. De l'Epistre aux Hebrieux</ref>, 
+                    <lb/>que <quote source="bible1588.xml#Heb.12.6">le Seigneur chastie celui qu'il aime , &amp; 
+                        <lb/>Fouëtte tout enfant qu'il avouë</quote>.</p> 
+                <p n="47"> 
+                    <lb/>S'il te dit, Ton affliction dure : Le secours 
+                    <lb/>retarde par trop. Respon ce que nous lisons au 
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Hab.2.3">deuxiéme d'Habacuc</ref> ; <quote source="bible1588.xml#Hab.2.3">S'il 
+                        tarde,atten-le : car 
+                        <lb/>Il ne faudra point de venir , &amp; ne tardera 
+                        <lb/>Point</quote>. 
+                </p> 
+                <p n="48"> 
+                    <lb/>S'il te dit, Es-tu des enfants de Dieu , puis 
+                    <lb/>qu'il est courroucé contre toi : Respon, qu'il 
+                    <lb/>y a bien difference entre la haine &amp; le courroux. 
+                    <lb/>Or Dieu ne nous hait point. Car, comme 
+                    <lb/>dit l'Apostre au <ref type="bible" target="bibleSegond21.xml#Rom.5.8">5. de l'Epistre aux Rommains</ref> , 
+                    <lb/> 
+                    <quote source="bible1588.xml#Rom.5.8">Dieu recommande du tout sa dilection 
+                        <lb/>enuers nous , en ce que lors que nous 
+                        <lb/>n'estions que pecheurs , Christ est mort pour 
+                        <lb/>nous</quote>. 
+                </p> 
+                <p n="49"> 
+                    <lb/>S'il te dit , Comment Dieu t'aimeroit-il, 
+                    <lb/>puis que tu es si grand pecheur ? Respon, Puis 
+                    <lb/>que ie suis desplaisant de mes fautes,à moi appartient 
+                    <lb/>ce qui est escrit au <ref type="bible" target="bibleSegond21.xml#Rom.5.20">5. de l'Epistre aux 
+                        <lb/>Rommains</ref> , <quote source="bible1588.xml#Rom.5.20">Là où le peché a abondé,grace y 
+                        a 
+                        <lb/>abondé par dessus</quote>. 
+                </p> 
+                <p n="50"> 
+                    <lb/>S'il te dit , Puis que tu es attristé , tu n'as 
+                    <lb/>point de part au Royaume de Dieu. Car il est 
+                    <lb/>escrit au <ref type="bible" target="bibleSegond21.xml#Rom.14.17">14. de l'Epistre aux Rommains</ref>, que le 
+                    <lb/>Royaume de Dieu est <quote source="bible1588.xml#Rom.14.17">iustice, paix &amp; ioye par 
+                        <lb/>Le Sainct Esprit</quote>:Respon, Il est escrit au 
+                    <ref type="bible" target="bibleSegond21.xml#Ps.97.11">Pseaume 
+                        <lb/>97.</ref> 
+                    <quote source="bible1588.xml#Ps.97.11">La lumiere est semee pour le iuste, &amp; la  <fw place="bot-right" type="catch">liesse</fw> 
+                         <pb n="29"/> 
+                        
+                            <lb/>liesse pour ceux qui sont droits de cœur</quote>.</p>
+                <p n="51"> Si 
+                        elle 
+                        <lb/>est fermee; Donc aussi en mon cœur. Elle y germera: 
+                        <lb/>Elle y croistra. Et finalement le dueil de 
+                        <lb/>ma repentance sera englouti par la ioye de ma 
+                        <lb/>foi. 
+                        <lb/>S'il te dit , La mort te panche sur la teste: 
+                    <lb/>Respon, ce qui est escrit au <ref type="bible" target="bibleSegond21.xml#Rev.14.13">14. de 
+                            l'Apocalypse</ref>; 
+                        <lb/> 
+                        <quote source="bible1588.xml#Rev.14.13">Bien-heureux sont les morts , qui d'oresenauant 
+                            <lb/>meurent au Seigneur</quote>. Ouy,pour 
+                        certain, 
+                        <lb/>dit l'Esprit: car ils se reposent de leurs trauaux, 
+                        <lb/>&amp; leurs œuvres les suiuent.</p>
+                    <p n="52"> 
+                            <lb/>S'il te dit, Mais peut-etre tu seras condamné: 
+                            <lb/>Alors respon, Va arriere de moi Satan.Car 
+                        <lb/>il est escrit au <ref type="bible" target="bibleSegond21.xml#John.3.18">3. de S. Iean</ref> , que, 
+                                <quote source="bible1588.xml#John.3.18">qui croid au 
+                                <lb/>Fils,ne sera point condamné</quote>. Ie croi : 
+                            Donc ie 
+                            <lb/>ne serai point condamné. Donc i'aurai la vie 
+                            <lb/>eternelle. Ainsi, auec Christ, il ne faut rien 
+                            <lb/>opposer au Diable , que la seule Escriture 
+                            <lb/>Saincte.</p> 
+                        <p n="53"> 
+                            <lb/>Iesus Christ prattique le mesme en se desueloppant 
+                            <lb/>de la seconde tentation. Le Diable 
+                            <lb/>veut qu'il se iette en bas de dessus les creneaux 
+                            <lb/>du temple. Christ respond, par vn passage pris 
+                            <lb/>du <ref type="bible" target="bibleSegond21.xml#Deut.6.16">6. du Deuteronome</ref>, <quote source="bible1588.xml#Deut.6.16">Tu ne tenteras point 
+                                <lb/>le Seigneur ton Dieu</quote>. Or est-ce 
+                            le tenter,que 
+                            <lb/>d'entreprendre quelque chose contre &amp; outre 
+                            <lb/>le commandement de Dieu. Et se precipiter 
+                            <lb/>soi-mesme, n'est-ce point desobeyr à celui qui 
+                            <lb/>a dit, <quote source="bibleSegond21.xml#Exod.20.13">Tu ne tueras 
+                                point</quote> ? Dieu nous donne 
+                            <lb/>la vie , &amp; il nous la conserue par les moyens <pb n="30"/> 
+                            <lb/>qu'il a lui mesme ordonnez. Outrepasser tels 
+                            <lb/>moyens , c'est se priuer volontairement des 
+                            <lb/>benedictions Diuines. Suivant cela, nous appellons 
+                            <lb/>homicide celui qui ne voudroit ni 
+                            <lb/>manger ni boire. Combien plus celui qui se 
+                            <lb/>precipiteroit en vn abysme? C'est donc tẽter 
+                            <lb/>Dieu que ne conseruer point, que de perdre la 
+                            <lb/>vie qu'il nous a donnee.Il a voulu sauuer Noë 
+                            <lb/>du deluge, à la charge, non qu'il se iettast dans 
+                            <lb/>les eaux, mais qu'il entrast dans l'Arche. Il a 
+                            <lb/>voulu sauuer S.Paul du naufrage , &amp; auec lui 
+                            <lb/>les gens d'armes, mais non à condition qu'ils 
+                            <lb/>s'enfuissent , mais qu'ils demeurassent aussi 
+                            <lb/>dans le nauire. Dieu promet nourriture,non à 
+                            <lb/>l'oisiueté, mais à nostre trauail. Dieu promet 
+                            <lb/>la foi, non aux contempteurs &amp; profanes,mais 
+                            <lb/>aux auditeurs , mais aux facteurs de sa parole. 
+                            <lb/>Mespriser donc les moyens ordonnez de 
+                            <lb/>Dieu, c'est le tenter. Se ietter en bas c'est negliger 
+                            <lb/>les moyẽs de nostre conseruation. Donc 
+                            <lb/>se ietter en bas c'estoit tenter Dieu, c'estoit sortir 
+                            <lb/>de ses voyes.Fort à propos dõc Iesus Christ 
+                            <lb/>au commandement du Diable oppose la defense 
+                            <lb/>de l'Eternel, <quote source="bible1588.xml#Deut.6.16"> 
+                                <hi rend="I">Tu ne tenteras point le Seigneur 
+                                    <lb/>ton Dieu</hi></quote>. Le mesme 
+                            faut-il faire contre toute 
+                            <lb/>aultre sollicitation à mal.</p> 
+                        <p n="54"> 
+                            <lb/>Si le Diable t'incite à la volupté:respon que 
+                            <lb/>Dieu a dit, <quote source="bibleSegond21.xml#Exod.20.14">Tu ne paillarderas 
+                                point</quote>. Si à l'auarice : 
+                            <lb/>Respon qu'il a dit, <quote source="bible1588.xml#Matt.6.19-20">Ne vous amassez point 
+                                <lb/>de thresors en la terre,où la tigne &amp; la rouillure  <fw place="bot-right" type="catch">re</fw> 
+                                 <pb n="31"/> 
+                                <lb/>gastent tout : &amp; là où les larrons percent &amp; 
+                                <lb/>desrobent : mais amassez-vous des thresors au 
+                                <lb/>ciel , là où la tigne &amp; la rouillure ne gastera 
+                                <lb/>rien,&amp; là où les larrons ne percent ni ne 
+                                desrobent</quote>. 
+                        </p> 
+                        <p n="55"> 
+                            <lb/>S'il t'incite à la gourmandise, Respon, qu'il 
+                            <lb/>ne faut point tenter Dieu, qui nous dit au <ref type="bible" target="bibleSegond21.xml#Luke.21.34">21. 
+                                <lb/>de S. Luc</ref>, <quote source="bible1588.xml#Luke.21.34">Prenez donc garde à 
+                                vous-mesmes 
+                                <lb/>que d'auenture vos cœurs ne soyent greuez 
+                                <lb/>de gourmandise &amp; d'yurongnerie,&amp; des soucis 
+                                <lb/>de ceste vie ; &amp; que ce iour-la soudain ne 
+                                <lb/>vous surprene</quote>. En vn mot donc,aux 
+                            allechemens 
+                            <lb/>de Satan oppose les defenses de Dieu, 
+                            <lb/>qui seul a autorité &amp; pouuoir tant de nous 
+                            <lb/>commander, que de nous defendre.</p> 
+                        <p n="56"> 
+                            <lb/>Reste la response à la troisiéme tentation. 
+                            <lb/>Le Diable promet à nostre Seigneur Iesus 
+                            <lb/>Christ de lui bailler tous les royaumes du 
+                            <lb/>Monde &amp; leur gloire ; si en se prosternant en 
+                            <lb/>terre il l'adore. A cela Christ respond deux 
+                            <lb/>choses. Premierement , il lui dit , <quote source="bible1588.xml#Matt.4.10"> 
+                                <hi rend="I">Va Satan</hi></quote>. 
+                            <lb/>Comme s'il disoit, Tu ne merites plus de response. 
+                            <lb/>Tu me prouoques à indignation. T'adoreroi- 
+                            <lb/>Ie , toi qui n'es rien moins que Dieu ? 
+                            <lb/>toi qui ne peus produire des poux en Egypte ? 
+                            <lb/>toi qui es maudit eternellement ? 
+                            <lb/>Et toi , me donnerois-tu ce que tu me 
+                            <lb/>promets ? toi , qui es de toutes les creatures 
+                            <lb/>la plus miserable ? toi , qui par ci apres 
+                            <lb/>sans permission ne pourras entrer au <pb n="32"/> 
+                            <lb/>ventre des pourceaux, tu promets ici les Royaumes, 
+                            <lb/>que Dieu seul peut donner &amp; oster. 
+                            <lb/>Par là tu monstres que tu es menteur dés le 
+                            <lb/>commencement, voire le pere de tout mensonge.</p> 
+                        <p n="57"> 
+                            <lb/>L'autre response est derechef vn passage de 
+                            <lb/>l'Escriture pris du <ref type="bible" target="bibleSegond21.xml#Deut.6;Deut.10">6. &amp; 10. du 
+                                Deuteronome</ref>, 
+                            <lb/>&amp; du <ref type="bible" target="bibleSegond21.xml#_1Sam.7">7. du I. liure de Samuel</ref>. <quote source="bibleSegond21.xml#Matt.4.10"> 
+                                <hi rend="I">Tu adoreras le 
+                                    <lb/>Seigneur ton Dieu, &amp; à lui seul tu 
+                                seruiras</hi></quote>. Comme 
+                            <lb/>si en vn mot il disoit , L'honneur que tu me 
+                            <lb/>demandes est deu à Dieu seul. Et ainsi Christ 
+                            <lb/>chasse le Diable. Mais auec raison , couchee 
+                            <lb/>formellement en l'Escriture. Et par là il monstre 
+                            <lb/>puis que Dieu seul doit estre adoré, puis 
+                            <lb/>que mesme deuant lui seul on se doit prosterner; 
+                            <lb/>(car c'est ce que le Diable demande à Iesus 
+                            <lb/>Christ) par là di-ie il monstre combien est 
+                            <lb/>abominable l'idolatrie de ceux qui auiourd'hui 
+                            <lb/>inuoquent les Saincts,ou qui baisent la 
+                            <lb/>pantouffle d'vn homme mortel. Ils espargnent 
+                            <lb/>la verité , s'ils disent que ce n'est qu'vn honneur 
+                            <lb/>politique. Car ils ne lui rendent cet honneur 
+                            <lb/>qu'entant qu'il se dit vicaire de Iesus 
+                            <lb/>Christ,lequel a protesté que son regne n'estoit 
+                            <lb/>point de ce monde. Et dans Rome on purgeroit 
+                            <lb/>par feu le crime de ceux qui se vanteroient 
+                            <lb/>de baiser les pieds de sa Saincteté,sans le considerer 
+                            <lb/>vicaire de Iesus Christ. Mais ceste 
+                            <lb/>matiere sera traittee plus au long à l'autre 
+                            <lb/>temps.</p> 
+                         <fw place="bot-right" type="catch">L'issue</fw> 
+                         <pb n="33"/> 
+                        <p n="58"> 
+                            <lb/>L'issue de ce combat a esté honteuse au 
+                            <lb/>Diable,&amp; auantageuse pour la gloire de Iesus 
+                            <lb/>Christ. Le Diable quitte le champ de bataille 
+                            <lb/>contraint d'obeïr à la voix du Fils de Dieu, de 
+                            <lb/>le laisser, de se retirer. Christ demeure victorieux : 
+                            <lb/>en tesmoignage dequoi les Anges s'approchent 
+                            <lb/>de lui, &amp; le seruent. Telle aussi sera 
+                            <lb/>nostre issue en toutes nos tentations, comme 
+                            <lb/> 
+                            <ref type="bible" target="bibleSegond21.xml#Jas.1.12">S. Iaques l'enseigne au premier chap. de son 
+                                <lb/>Epistre</ref> , <quote source="bible1588.xml#Jas.1.12">Bien-heureux est l'homme 
+                                qui endure 
+                                <lb/>tentation : car quand il aura esté rendu 
+                                <lb/>esprouué , il receura la couronne de vie que 
+                                <lb/>Dieu a promise à ceux qui l'aiment</quote>. 
+                        </p> 
+                        <p n="59"> 
+                            <lb/>O histoire, ô combat , plein d'instruction 
+                            <lb/>pour nous, &amp; de consolation ! Mais le temps 
+                            <lb/>nous arreste : autrement nous aurions à satisfaire 
+                            <lb/>à quelques questions qui se presentent,&amp; 
+                            <lb/>à en recueillir les doctrines ou generales ou 
+                            <lb/>particulieres. Car quant aux <hi rend="I">questions</hi>,on peut 
+                            <lb/>demander ici raison de la diuersité qui est entre 
+                            <lb/>S.Matthieu &amp; S.Luc,sur l'ordre des tentations. 
+                            <lb/>Aussi se peut-on enquerir du nombre 
+                            <lb/>des tentations. Bref, on peut demander si ces 
+                            <lb/>choses sont aduenues reellement, ou simplement 
+                            <lb/>en vision, que le Diable ait transporté 
+                            <lb/>Iesus Christ,&amp; lui ait monstré tous les Royaumes 
+                            <lb/>de la terre. Pour les <hi rend="I">doctrines</hi>, en general 
+                            <lb/>nous verrons que puis que Christ a vaincu 
+                            <lb/>le Diable en ceste tentation, c'est pour nostre 
+                            <lb/>salut &amp; vtilité. Item que les seules armes, par <pb n="34"/> 
+                            <lb/>lesquelles il le faut combattre, c'est l'Escriture 
+                            <lb/>Saincte. Specialement il nous sera monstré 
+                            <lb/>que nulle tentation ne nous arriue que par la 
+                            <lb/>volonté &amp; conduite de Dieu. Nous verrons 
+                            <lb/>quel est l'vsage &amp; l'abus du iusne. Que Dieu 
+                            <lb/>pour nous nourrir &amp; sustanter n'est nullement 
+                            <lb/>attaché aux moyens &amp; causes secondes: Nous 
+                            <lb/>verrons quel est le naturel du Diable:de quels 
+                            <lb/>artifices il vuse pour nous seduire. Combien 
+                            <lb/>soigneusement nous deuons veiller &amp; prier 
+                            <lb/>de peur que nous ne tombions en ses pieges: 
+                            <lb/>Combien Iesus Christ s'est humilié à nostre 
+                            <lb/>occasion : Qu'il ne se faut iamais esloigner 
+                            <lb/>des moyens legitimes ordonnez de Dieu , ni 
+                            <lb/>des bornes de nostre vocation. Que son secours 
+                            <lb/>ne nous est point promis si nous sortons 
+                            <lb/>hors des bornes qu'il nous a prescrites. 
+                            <lb/>Que l'idolatrie est vn crime abominable.Que 
+                            <lb/>l'issue de la tentation est touiours fauorable 
+                            <lb/>aux enfans de Dieu. Que Dieu, pour nostre 
+                            <lb/>conseruation,campe ses Saincts Anges à l'entour 
+                            <lb/>de nous.</p> 
+                        <p n="60"> 
+                            <lb/>Voila quelques vnes des principales doctrines 
+                            <lb/>&amp; consolations qui nous naissent de ce 
+                            <lb/>texte. Afin que desia chacun iuge combien 
+                            <lb/>nous peut estre vtile l'exacte meditation de 
+                            <lb/>ceste histoire.</p> 
+                        <p n="61"> 
+                            <lb/>Mais finissons par les auantages que Satan 
+                            <lb/>a pretendu auoir sur Iesus Christ. Pour 
+                            <lb/>le <hi rend="I">Lieu</hi>, il est dit que le Diable a trouué Iesus 
+                                 <fw place="bot-right" type="catch">Christ</fw> 
+                             <pb n="35"/> 
+                            <lb/>Christ au desert.Et plusieurs d'entre nous cerchent 
+                            <lb/>auiourd'hui le Diable dans les villes , 
+                            <lb/>dans les lieux les plus desbordez &amp; dissolus. 
+                            <lb/>En viuant comme vous faites , vous n'auez 
+                            <lb/>garde que vous ne le trouuiez. Nous ne disons 
+                            <lb/>pas qu'vn fidele doiue renoncer à toute societé 
+                            <lb/>humaine : ains nous sçauons qu'il faut seruir 
+                            <lb/>à Dieu quelque part qu'il nous appelle. Et 
+                            <lb/>seroit à desirer qu'au milieu de la plus grande 
+                            <lb/>corruption du monde se trouuast bon nombre 
+                            <lb/>de fideles desquels reluisist la pieté,la modestie, 
+                            <lb/>la reformation. Mais où viuons-nous 
+                            <lb/>auiourd'hui ? Non au desert : non en nostre 
+                            <lb/>cabinet , pour inuoquer le nom de l'Eternel, 
+                            <lb/>pour lui demander son Esprit à l'encontre des 
+                            <lb/>tentations du Diable. Nous viuons en continuelles 
+                            <lb/>desbauches,&amp; es compagnies les plus 
+                            <lb/>desbordees, &amp; deprauees. Car qu'on change 
+                            <lb/>les choses, &amp; nous changerons les noms. On 
+                            <lb/>void non la foi de ceux qui se disent de la Religion, 
+                            <lb/>car elle est inuisible : se de sa nature, aussi 
+                            <lb/>en leurs œuures. Mais on y void l'impudicité 
+                            <lb/>escrite sur le front, representee par gestes, par 
+                            <lb/>paroles , par habits qui offensent mesme nos 
+                            <lb/>aduersaires. De Chrestiens nous sommes deuenus 
+                            <lb/>baladins. Mais il est à craindre que par 
+                            <lb/>nos<supplied resp="#MAG" reason="omission"> </supplied>balets nous ne baliyons nostre maison d'vne 
+                            <lb/>façon extraordinaire, &amp; que le Diable trouuant 
+                            <lb/>nostre maison si bien baliee &amp; ornee, il 
+                            <lb/>ne viene auec sept esprits pires que lui,comme <pb n="36"/> 
+                            <lb/>il est dit en <ref type="bible" target="bibleSegond21.xml#Luke.11">l'onziéme de S.Luc</ref>.Si l'on 
+                            dit,que 
+                            <lb/>nous parlons bien haut,pour choses indifferẽtes: 
+                            <lb/>Nous respondons, qu'aussi tost nous quitterions 
+                            <lb/>la chaire de verité, que de vous accorder 
+                            <lb/>que ce soit chose indifferente que les Reformez 
+                            <lb/>viuent auiourd'hui indifferemment auec 
+                            <lb/>les difformez &amp; dissolus. Ia n'auiene que 
+                            <lb/>nous disions chose indifferente les cõpagnies 
+                            <lb/>qui se font , non pour l'instruction de l'ame, 
+                            <lb/>mais pour la corruption du corps:Cõpagnies, 
+                            <lb/>desquelles sont bannies la simplicité es habits, 
+                            <lb/>la modestie es gestes , la pudicité es paroles: 
+                            <lb/>Compagnies, esquelles vous offensez par paroles 
+                            <lb/>&amp; actions non Dieu Seulement, non seulement 
+                            <lb/>les vrais fideles, mais ceux d'entre nos 
+                            <lb/>aduersaires,qui ont encor tant soit peu de chasteté 
+                            <lb/>es yeux,es oreilles, au cœur.</p> 
+                        <p n="62"> 
+                            <lb/>Si vous dites, Vous en parlez comme mal 
+                            <lb/>informez, &amp; seulement par ouy dire. Et vous, 
+                            <lb/>vous n'en voyez plus l'enormité : pource que 
+                            <lb/>vous y estes trop accoustumez. Ne vous prendroit- 
+                            <lb/>il point enuie de nous y conuier,pour en 
+                            <lb/>estre spectateurs? Si Iesus Christ,si quelcun des 
+                            <lb/>Apostres se trouuoit au milieu d'vn de vos balets, 
+                            <lb/>vous iugeroit-il disposez ou à escouter la 
+                            <lb/>parole, ou à vous distribuer les Sacremens? 
+                            <lb/>plustost viure tous seuls au desert auec Iesus 
+                            <lb/>Christ, que dans le monde participer à la corruption 
+                            <lb/>qui y regne.</p> 
+                        <p n="63"> 
+                            <lb/>Le Diable a trouué Iesus Christ ayant  <fw place="bot-right" type="catch">faim</fw> 
+                             <pb n="37"/> 
+                            <lb/>faim. En tel estat n'a-il garde de nous trouuer 
+                            <lb/>pour la pluspart. Mais bien greués &amp; creués 
+                            <lb/>de gourmandise, de viande, &amp; de breuuage. 
+                            <lb/>Nos aduersaires sont rauis en admiration, 
+                            <lb/>quand ils oyent dire que nous auons iusné en 
+                            <lb/>public. Mais ils ne le seroyent pas moins si 
+                            <lb/>souuent , si quelquefois ils te voyoyent retiré 
+                            <lb/>en ton particulier,pour vaquer à iusne &amp; oraison. 
+                            <lb/>Au lieu de cela nostre prodigalité &amp; despense 
+                            <lb/>Superflue paroit à vn chacun. Nous dependons 
+                            <lb/>Plus en vn seul festin , que nous ne 
+                            <lb/>Donnons toute nostre vie aux poures. Nous 
+                            <lb/>ne defendons point l'vsage legitime des biens 
+                            <lb/>que le Seigneur nous communique. Mais 
+                            <lb/>quelle pitié est-ce, que nous soyons saouls,&amp; 
+                            <lb/>que les membres de Iesus Christ meurent de 
+                            <lb/>faim ? Où sont ceux qui en leurs festins appellent 
+                            <lb/>non les riches,non ceux qui leur peuuent 
+                            <lb/>rendre la pareille: mais les poures,impotens, 
+                            <lb/>boiteux, aueugles?</p> 
+                        <p n="64"> 
+                            <lb/>Si tu dis que cela ne s'entend pas absolument 
+                            <lb/>à la lettre , Ie le veux : mais accorde moi 
+                            <lb/>aussi , que le sens est,que ta substance , &amp; les 
+                            <lb/>biens que tu possedes, doiuent estre administré 
+                            <lb/>au profit de ceux qui sont vrayement necessiteux. 
+                            <lb/>Si auiourd'hui pour exemple on 
+                            <lb/>porte le bouquet à quelcun, comme on parle, 
+                            <lb/>il l'acceptera, &amp; gayement il s'engagera en vne 
+                            <lb/>despense prodigieusement excessiue &amp; superflue. 
+                            <lb/>Car il dira, n'ai-ie pas aussi bien à despendre <pb n="38"/> 
+                            <lb/>que les autres? Suis-ie moindre maison ? 
+                            <lb/>Ne Paroistrai-ie point autant qu'eux ? 
+                            <lb/>D'auantage ne le faire point, c'est perdre sa reputation, 
+                            <lb/>&amp; peut-estre ruiner ses affaires. Par 
+                            <lb/>là tu vois que ce que tu en fais,c'est afin qu'on 
+                            <lb/>te rende la pareille. Mais si au nom de Dieu &amp; 
+                            <lb/>sous esperance de receuoir la pareille en la resurrection 
+                            <lb/>des morts, on te somme de subuenir 
+                            <lb/>aux necessitez des poures en donnant la diziéme 
+                            <lb/>partie de ce qu'vn seul festin consume, 
+                            <lb/>Plusieurs respondront que le terme vaut bien 
+                            <lb/>l'argent, que nous auons à pouruoir aux nostres, 
+                            <lb/>qu'il y en a de plus riches que nous. Alors 
+                            <lb/>donc ne nous manquent point les excuses. 
+                            <lb/>Et il n'y a pas beaucoup de presse à qui paroistra, 
+                            <lb/>mais à qui sera par effect le plus charitable 
+                            <lb/>en l'Eglise de Dieu. O si souuent comme 
+                            <lb/>Iesus Christ nous-nous assuiettissions au 
+                            <lb/>iusne &amp; à la priere , le Diable n'auroit point 
+                            <lb/>tant de prise de nous ! Et nous-nous rendrions 
+                            <lb/>non proprietaires &amp; vsurpateurs des biens, 
+                            <lb/>de l'administration desquels le Seigneur nous 
+                            <lb/>redemandera vn iour compte.</p> 
+                        <p n="65"> 
+                            <lb/>Bref le Diable a assailli Iesus Christ dés 
+                            <lb/>qu'il l'a veu baptizé &amp; instalé en sa charge. 
+                            <lb/>Et nous auons en quelque sorte experimenté 
+                            <lb/>le mesme en nos Eglises. Dés qu'il a pleu à 
+                            <lb/>Dieu par sa misericorde les faire renaistre : Satan 
+                            <lb/>ne s'est point tenu coy , il a suscité au dehors  <fw place="bot-right" type="catch">hors</fw> 
+                             <pb n="39"/> 
+                            <lb/>plusieurs ennemis : au dedans beaucoup 
+                            <lb/>de deuisions. Et ce n'est point sans beaucoup 
+                            <lb/>de tentations que nous en sommes venus iusqu'ici, 
+                            <lb/>qu'encor auiourd'hui nous subsistons.</p> 
+                        <p n="66"> 
+                            <lb/>Et pleust à ce grand Dieu , que nous y prissions 
+                            <lb/>garde de plus pres. Car plusieurs n'apperçoiuent 
+                            <lb/>point la tentation, qu'ils n'en ayent 
+                            <lb/>esté renuersez. Et nous ne comprenons point 
+                            <lb/>assés combien le Diable nous en veut. Quelle 
+                            <lb/>rage lui apporte &amp; à ses supposts,de voir que 
+                            <lb/>Dieu nous a sanctifiez par sa parole , &amp; qu'il 
+                            <lb/>nous a par tout si paisiblement establis. Satan 
+                            <lb/>ne s'y opposeroit-il point ? Il le fait, &amp; auec 
+                            <lb/>autant d'artifice que iamais: voire auec autant 
+                            <lb/>&amp; plus de danger, que plusieurs ne le sentent 
+                            <lb/>point. Ne lui ouurons point la porte. Resistons- 
+                            <lb/>lui &amp; il s'enfuira de nous. Inuoquons le 
+                            <lb/>nom de Dieu. Ayons sa parole en nostre bouche 
+                            <lb/>&amp; en nostre cœur. Et il aduiendra qu'apres 
+                            <lb/>auoir obtenu victoire ici bas, là haut nous 
+                            <lb/>regnerons eternellement. Dieu nous 
+                            <lb/>en face la grace.</p> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

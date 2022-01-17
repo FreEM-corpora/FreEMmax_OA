@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1558_Jean_Calvin_CiM">
+            <titleStmt>
+                <title type="sermon">SERMON DE LA NATIVITE DE Iesus Christ, fait le iour de Noel, auquel se celebre la saincte Cene du Seigneur.</title>
+                <title type="book">PLVSIEVRS SERMONS DE IEHAN CALuin touchant la Diuinite , humanite &amp; natiuite de nostre Seigneur Iesus Christ : Item touchant sa passion, mort, resurrection,ascension, &amp; dernier aduenement: Puis touchant la
+                    descente du S. Esprit sur les Apostres, &amp; la premiere predication de S. Pierre</title>
+                <author ref="...">Jean Calvin</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="CiM">Cinthia MELI</persName>
+                        <email>cinthia.meli@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Jean Calvin</author>
+                        <title>PLVSIEVRS SERMONS DE IEHAN CALuin touchant la Diuinite , humanite &amp; natiuite de nostre Seigneur Iesus Christ : Item touchant sa passion, mort, resurrection,ascension, &amp; dernier aduenement: Puis touchant la
+                            descente du S. Esprit sur les Apostres, &amp; la premiere predication de S. Pierre</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Conrad Badius</publisher>
+                            <date>1558</date>
+                            <date type="sermon"/>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">http://www.e-rara.ch/doi/10.3931/e-rara-5760</idno>
+                    <idno type="source">Bibliothèque de Genève, Cote BGE Bd 422</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">27</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Luke.11</term>
+                    <term type="paratext" subtype="tableOfContents">L’ordre et nombre des sermons contenus dans ce volume</term>
+                    <term type="paratext" subtype="epistle">AVX FIDELES ESPARS EN DIVERSES CONTREES, Conrad Badius desire grace &amp; benediction par Iesus Christ, nostre Sauueur</term>
+                    <term type="paratext" subtype="other">CONGREGATION, OV PROPOSITION faite par Iehan Caluin sur le commencement de l’Euangile selon s. Iehan</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français préclassique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-10-12" who="#LjD">transformation word - XML</change>
+            <change when="2017-10-12" who="#MAG">Verification, citations</change>
+            <change when="2017-08-28" who="#CiM">Transcription word</change>
+            <change when="2017-11-13" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>PLVSIEVRS SERMONS
+                    <lb/>DE IEHAN CALuin
+                    <lb/>
+                    <hi rend="I">touchant la Diuinite , humanite &amp; natiuite
+                        <lb/>de nostre Seigneur Iesus Christ : Item
+                        <lb/>touchant sa passion, mort, resurrection,ascension,
+                        <lb/>&amp; dernier aduenement: Puis touchant la
+                        <lb/>descente du S. Esprit sur les Apostres, &amp; la premiere
+                        <lb/>predication de S. Pierre:</hi>
+                </p>
+                <p n="2">
+                    <lb/>DESQVELS VOVS TROVerez
+                    <lb/>l'ordre en la page suyuante. </p>
+                <figure/>
+                <p n="3">
+                    <lb/>M. D. LVIII. </p>
+                <p n="4">
+                    <lb/>De l'imprimerie de Conrad Badius. </p>
+                <p n="5">
+                    <lb/>AVEC PRIVILEGE. </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <head type="main">
+                    <lb/>SERMON DE
+                    <lb/>LA NATIVITE DE Iesus
+                    <lb/>Christ, fait le iour de Noel, auquel
+                    <lb/>se celebre la saincte Cene du
+                    <lb/>Seigneur. </head>
+                <p n="1">
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#Luke.2.1-14">LVC CHAP. II. </ref>
+                </p>
+                <p n="2">
+                    <lb/>
+                    1.<quote source="bibleSegond21.xml#Luke.2.1"><!-- pas de source identifiable: il s'agit d'une traduction personnelle--> OR adueĩt en ces iours-la
+                        <lb/>qu'il se fit vn edict de par
+                        <lb/>Cesar Auguste, que tout
+                        <lb/>le monde fust mis par escrit</quote>. 
+                </p>
+                <p n="3">
+                    <lb/>
+                    2 (<quote source="bibleSegond21.xml#Luke.2.2">Ceste premiere description
+                        <lb/>fut faite lors que Cyrenius auoit le
+                        <lb/>gouuernement de Syrie</quote>.) 
+                </p>
+                <p n="4">
+                    <lb/>
+                    3<quote source="bibleSegond21.xml#Luke.2.3"> Et alloyent tous pour estre mis
+                        <lb/>en escrit,vn chacun en sa ville</quote>. 
+                </p>
+                <p n="5">
+                    <lb/>
+                    4<quote source="bibleSegond21.xml#Luke.2.4"> Ioseph aussi monta de Galilee,
+                        <lb/>de la ville de Nazareth en Iudee, en
+                        <lb/>la ville de Dauid, qui est appelee
+                        <lb/>Beth-lehem:a cause qu'il estoit de la
+                        <lb/>maison &amp; parenté de Dauid</quote>, 
+                </p>
+                <p n="6">
+                    <lb/>
+                    5<quote source="bibleSegond21.xml#Luke.2.5"> Pour estre mis en escrit auec Marie
+                        <lb/>qui luy auoit este baillee a femme,
+                        <lb/>laquelle estoit enceinte</quote>. 
+                </p>
+                <pb n="2"/>
+                <p n="7">
+                    <lb/>
+                    6<quote source="bibleSegond21.xml#Luke.2.6"> Or adueint comme ils estoyẽt
+                        <lb/>là, que les iours d'icelle furent accõplis
+                        <lb/>pour enfanter</quote>. 
+                </p>
+                <p n="8">
+                    <lb/>
+                    7<quote source="bibleSegond21.xml#Luke.2.7"> Et enfanta son fils premier
+                        <lb/>nay,&amp; l'enueloppa de bandelettes,&amp;
+                        <lb/>le coucha en vne creche, a cause qu'il
+                        <lb/>n'y auoit point de lieu pour eux en
+                        <lb/>l'hostellerie</quote>. 
+                </p>
+                <p n="9">
+                    <lb/>
+                    8<quote source="bibleSegond21.xml#Luke.2.8"> Or en la mesme contree il y auoit
+                        <lb/>des Pasteurs demourans aux
+                        <lb/>champs, &amp; gardans les veilles de la
+                        <lb/>nuit sur leur troupeau</quote>. 
+                </p>
+                <p n="10">
+                    <lb/>
+                    9<quote source="bibleSegond21.xml#Luke.2.9"> Et voyci l'Ange du Seigneur qui
+                        <lb/>s'arresta aupres d'eux, &amp; la clarte du
+                        <lb/>Seigneur resplendit autour d'eux: &amp;
+                        <lb/>craignirent de grand'crainte</quote>. 
+                </p>
+                <p n="11">
+                    <lb/>
+                    10<quote source="bibleSegond21.xml#Luke.2.10"> Lors l'Ange leur dit, Ne craignez
+                        <lb/>point:car voyci,ie vous annonce
+                        <lb/>grand ioye, laquelle sera a tout le
+                        <lb/>peuple</quote>: 
+                </p>
+                <p n="12">
+                    <lb/>
+                    11<quote source="bibleSegond21.xml#Luke.2.11"> C'est qu'auiourd'huy nous est
+                        <lb/>nay le Sauueur, qui est Christ le Seigneur,
+                        <lb/>en la ville de Dauid</quote>. 
+                </p>
+                <p n="13">
+                    <lb/>
+                    12<quote source="bibleSegond21.xml#Luke.2.12"> Et aurez ce signe , Vous trouuerez
+                        <lb/>l'enfant enueloppé de bandelettes, <fw place="bot-right" type="catch">lettes</fw>
+                        <pb n="3"/>
+                        <lb/>&amp; mis en vne creche</quote>. 
+                </p>
+                <p n="14">
+                    <lb/>
+                    13.<quote source="bibleSegond21.xml#Luke.2.13"> Et incontinẽt auec l'Ange fut
+                        <lb/>vne multitude de cheualerie celeste,
+                        <lb/>louans Dieu, &amp; disans</quote>, 
+                </p>
+                <p n="15">
+                    <lb/>
+                    14<quote source="bibleSegond21.xml#Luke.2.14"> Gloire soit a Dieu és lieux tres
+                        <lb/>hauts,&amp; en terre paix aux hommes:
+                        <lb/>bonne volonte</quote>.
+                </p>
+                <p n="16">
+                    <lb/>
+                    <c type="lettrine">N</c>OVS scauons que tout nostre
+                    <lb/>bien, nostre ioye &amp; repos c'est
+                    <lb/>d'estre conioints auec le Fils de
+                    <lb/>Dieu, cõme il est nostre chef,
+                    <lb/>nous sommes son corps:&amp; c'est aussi de luy
+                    <lb/>que nous tenõs nostre vie &amp; nostre salut,&amp;
+                    <lb/>tout biẽ. Et de faict, nous voyons cõbiẽ nostre
+                    <lb/>condition seroit miserable , sinon que
+                    <lb/>nous eussiõs nostre refuge a luy, pour estre
+                    <lb/>maintenus sous sa garde . Or cependant il
+                    <lb/>n'est pas en no<hi rend="E">9</hi> de pouuoir paruenir si haut
+                    <lb/>(veu qu'a grand'peine pouuõs-nous rãper
+                    <lb/>sur la terre )sinon que de son costé il approchast
+                    <lb/>de no<hi rend="E">9</hi> , &amp; que desia il s'en fust approché
+                    <lb/>en sa naissance, quand il a vestu nostre
+                    <lb/>chair,&amp; qu'il s'est fait nostre frere. No<hi rend="E">9</hi> ne
+                    <lb/>pourriõs dõc maĩtenãt auoir nostre refuge
+                    <lb/>a nostre Seigneur Ies<hi rend="E">9</hi> Christ estãt assis a la
+                    <lb/>dextre de Dieu son Pere, en la gloire des
+                    <lb/>cieux , sinõ ꝗl se fust abbaissé iusques là de
+                    <lb/>se faire hõme mortel,&amp; auoir vne cõdition
+                    <lb/>cõmune avec no<hi rend="E">9</hi>. Et voyla pourquoy aussi <pb n="4"/>
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Tim.2.5">1. <hi rend="I">Tim.</hi>2.a.5.</ref>
+                    </note>quand il est appelé Mediateur entre Dieu
+                    <lb/>&amp; les hommes,ce titre d'homme luy est specialement
+                    <lb/>attribué:cõme aussi par vne mesme
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Isa.7.14">
+                            <hi rend="I">Isa</hi>. 7. c. 14.</ref>
+                    </note>raison il est appelé Emmanuel,c'est a<supplied resp="#CiM" reason="omission"> </supplied>dire
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Matt.1.23">
+                            <hi rend="I">Mat.</hi>1.d.23.</ref>
+                    </note>Dieu auec nous. Ainsi toutes fois &amp; quãtes
+                    <lb/>que nous auons a chercher nostre Seigneur
+                    <lb/>Iesus Christ,pour trouuer en luy allegemẽt
+                    <lb/>de toutes nos miseres, &amp; vne protection
+                    <lb/>seure &amp; infalible , il nous faut commẽcer
+                    <lb/>par sa naissance. Or non seulemẽt il
+                    <lb/>nous est yci recité qu'il a este fait homme
+                    <lb/>semblable a nous, mais qu'il s'est tellemẽt
+                    <lb/>aneanti, qu'a grãd'peine a-il este reputé du
+                    <lb/>rang des hõmes. Il a este cõme bãni de tout
+                    <lb/>logis &amp; compagnie, il n'y a eu sinõ vne estable
+                    <lb/>&amp; vne creche pour le receuoir. Puis
+                    <lb/>qu'ainsi est donc, qu'yci nous cognoissions
+                    <lb/>cõme Dieu a desployé les thresors infinis
+                    <lb/>de sa bõte,quãd il a voulu que son Fils fust
+                    <lb/>ainsi humilié pour nous.Recognoissõs aussi
+                    <lb/>cõme nostre Seigneur Iesus Christ dés sa
+                    <lb/>naissance a tellemẽt souffert pour nous,que
+                    <lb/>toutes fois &amp; quãtes que nous le cherchõs,
+                    <lb/>il ne faut point que nous facions des longs
+                    <lb/>circuits pour le trouuer,ne pour estre vrayement
+                    <lb/>vnis a luy: car pour ceste cause il s'est
+                    <lb/>voulu assuietir a tout opprobre, en sorte
+                    <lb/>qu'il a este cõme reietté du reste des hõmes.
+                    <lb/>Mais cependant apprenons aussi d'estre petis
+                    <lb/>pour estre receus de luy:car c'est biẽ raison
+                    <lb/>pour le moins, qu'il y ait cõformité entre <fw place="bot-right" type="catch">tre le</fw>
+                    <pb n="5"/>
+                    <lb/>le chef &amp; les membres. Il ne faut point
+                    <lb/>que les hommes s'aneãtissent pour estre de
+                    <lb/>nulle valeur:car de nature desia ils trouuerõt tãt
+                    <lb/>de pouretez en eux, qu'ils aurõt biẽ
+                    <lb/>occasion d'estre du tout abbatus. Mais cognoissons-
+                    <lb/>nous tels que nous sommes, afin
+                    <lb/>de no<hi rend="E">9</hi> offrir a nostre Seigneur Iesus Christ
+                    <lb/>en vraye humilite, &amp; qu'il nous recognoisse
+                    <lb/>&amp; aduoue comme siens.Cependant aussi
+                    <lb/>nous auons a noter qu'en l'histoire que recite
+                    <lb/>yci S.Luc, d'vn costé nous apprendrõs
+                    <lb/>cõme le Fils de Dieu s'est du tout aneanti
+                    <lb/>pour nostre salut:&amp; neãtmoins que d'autre
+                    <lb/>part il n'a pas laissé d'auoir certain tesmoignage
+                    <lb/>&amp; infalible qu'il estoit le Redempteur
+                    <lb/>du monde promis de tout temps: mesmes
+                    <lb/>que ce qu'il auoit prins nostre cõditiõ,
+                    <lb/>n'estoit pas qu'il ne peust maintenir sa maieste
+                    <lb/>celeste. Tous les deux donc nous sont
+                    <lb/>yci mõstrez:car nostre Seigneur Ies<hi rend="E">9</hi> Christ
+                    <lb/>est là en vne creche,&amp; il est comme reietté
+                    <lb/>du mõde,il est en pourete extreme sans aucun
+                    <lb/>honneur, sans aucune reputation,cõme
+                    <lb/>suiet a seruitude:toutesfois il est magnifié
+                    <lb/>des Anges de Paradis, lesquels luy font hõmage.
+                    <lb/>Et en premier lieu vn Ange porte le
+                    <lb/>message de sa naissance: mais puis apres cestuy
+                    <lb/>la est accompagné d'vne grande multitude,
+                    <lb/>voire d'vne armee,lesquels assistent
+                    <lb/>tous &amp; cõparoissent comme tesmoins enuoyez
+                    <lb/>de Dieu, pour monstrer que nostre <pb n="6"/>
+                    <lb/>Seigneur Ies<hi rend="E">9</hi> Christ estãt aĩsi abbaissé pour
+                    <lb/>le salut des hommes, ne laisse pas tousiours
+                    <lb/>d'estre le Roy de tout le monde, &amp; d'auoir
+                    <lb/>tout sous sõ empire.Et puis le lieu de Beth-
+                    <lb/>lehem dõne approbatiõ qu'il est celuy qui
+                    <lb/>auoit este promis de tout tẽps. Car le Prophete
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Mic.5.2">
+                            <hi rend="I">Mich.</hi>5. a. 2</ref>
+                    </note>Michee en auoit ainsi parlé : <quote source="bibleSegond21.xml#Mic.5.1">Et toy
+                        <lb/>Beth-lehẽ cõbien que tu sois en grãd mespris,
+                        <lb/>comme vne bourgade qui n'est pas de
+                        <lb/>grãd'monstre,&amp; qui n'est pas fort peuplee,
+                        <lb/>si est ce q͂ de toy me sortira celuy qui doit
+                        <lb/>gouuerner mon peuple: &amp; ses issues seront
+                        <lb/>de toute eternite</quote>. Nous voyõs dõc yci d'vn
+                    <lb/>costé cõment nostre Seigneur Iesus Christ
+                    <lb/>ne s'y est poĩt espargné, afin que nous ayons
+                    <lb/>acces facile a luy,&amp; que no<hi rend="E">9</hi> ne doutiõs pas
+                    <lb/>d'estre receus cõme son corps mesmes,puis
+                    <lb/>que nõ seulemẽt il a voulu estre hõme mortel,
+                    <lb/>vestu de nostre nature: mais comme vn
+                    <lb/>poure ver de terre, desnué de tout bien. Ne
+                    <lb/>doutõs point donc que tousiours, quelques
+                    <lb/>miserables que no<hi rend="E">9</hi> soyons, il nous tiendra
+                    <lb/>pour ses mẽbres. Mais d'autre costé nous le
+                    <lb/>voyõs yci marqué cõme de la maĩ de Dieu,
+                    <lb/>afin qu'il soit receu sans aucune difficulte,
+                    <lb/>cõme celuy duquel il nous faloit attendre
+                    <lb/>salut, &amp; par lequel nous sommes receus au
+                    <lb/>Royaume de Dieu, dont nous estiõs au parauant
+                    <lb/>bãnis. Car nous voyõs qu'il ha en soy
+                    <lb/>vne maieste Diuine, puis que les Anges le
+                    <lb/>recognoissent comme leur superieur &amp; leur
+                    <lb/>Roy souuerain : &amp; ne deuons point douter <pb n="7"/>
+                    <lb/>quãd no<hi rend="E">9</hi> serons sous sa garde, qu'il n'ait de
+                    <lb/>quoy pour nous maintenir. Et cognoissons
+                    <lb/>cepẽdãt q͂ ce ꝗl s'est ainsi abbaissé, cela nee
+                    <lb/>derogue point en nulle façõ a sa vertu Diuine,
+                    <lb/>&amp; n'empesche pas que nous ne soyõs
+                    <lb/>seurement sous sa cõduite. Or maintenant
+                    <lb/>no<hi rend="E">9</hi> voyõs quelle est la sõme de ceste histoire:
+                    <lb/>c'est en premier lieu q͂ no<hi rend="E">9</hi> cognoissions
+                    <lb/>que le Fils de Dieu, voire nostre Mediateur,
+                    <lb/>s'est cõioint a no<hi rend="E">9</hi> d'vn lien tel, qu'il ne faut
+                    <lb/>pas q͂ nous doutions que tousiours nous ne
+                    <lb/>soyons participans &amp; de sa vie &amp; de toutes
+                    <lb/>ses richesses. Et cependãt cognoissons aussi
+                    <lb/>qu'il no<hi rend="E">9</hi> a apporté auec soy tout ce qui estoit
+                    <lb/>requis a nostre salut. Car (cõme desia
+                    <lb/>no<hi rend="E">9</hi> auõs dit) il n'a pas tellemẽt este aneanti,
+                    <lb/>q͂ tousiours il n'ait retenu sa maieste Diuine:
+                    <lb/>&amp; cõbien q͂ deuãt les hõmes il ait este
+                    <lb/>tenu de nulle reputatiõ, si est-ce toutesfois
+                    <lb/>qu'il est demeuré tousiours nõ seulemẽt heritier
+                    <lb/>de ce mõde, (entãt qu'il est le chef de
+                    <lb/>l'Eglise) mais aussi tousiours vray Dieu. Au
+                    <lb/>reste, apprenõs de ceux qui no<hi rend="E">9</hi> sont yci ordõnez
+                    <lb/>pour maistres &amp; cõducteurs,cõme il
+                    <lb/>no<hi rend="E">9</hi> faut venir a nostre Seigneur Ies<hi rend="E">9</hi>
+                    Christ.
+                    <lb/>Vray est q͂ les sages de ce mõde sõt tellemẽt
+                    <lb/>enflez de fierte &amp; de presomptiõ, qu'a grãd
+                    <lb/>peine daignerõt-ils estre escholiers de gẽs
+                    <lb/>idiots,&amp; de poures bergers des chãps:mais
+                    <lb/>c'est toute nostre sagesse neãmoins q͂ nous
+                    <lb/>apprenions de ces bergers ( desquels il est <pb n="8"/>
+                    <lb/>yci parlé) de venir a nostre Seigneur Iesus
+                    <lb/>Christ:car que nous ayons toutes les sciences
+                    <lb/>du monde fourrees en la teste, de quoy
+                    <lb/>nous seruira-il quand la vie nous defaut? asçauoir
+                    <lb/>celuy auquel les thresors de toutes
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Col.2.3">
+                            <hi rend="I">Colos. </hi>2. a. 3</ref>
+                    </note>sagesse sont cachez, comme sainct Paul en
+                    <lb/>parle . Voyla donc par quel bout il nous
+                    <lb/>conuient commencer : c'est qu'il ne nous
+                    <lb/>face point mal de suyure ceux qui nous
+                    <lb/>ont monstré le chemin pour paruenir a
+                    <lb/>nostre Seigneur Iesus Christ. Or Dieu n'a
+                    <lb/>point fait cest honneur aux grans de ce
+                    <lb/>monde, ni aux sages, ni aux riches, ou aux
+                    <lb/>nobles : mais il a choisi des bergers . Puis
+                    <lb/>qu'ainsi est dõc, suyuõs cest ordre-la. Vray
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Matt.2.1">
+                            <hi rend="I">Mat.</hi> 2. a. 1.</ref>
+                    </note>est que les Sages sont venus d'Oriẽt pour
+                    <lb/>rendre l'hommage a nostre Seigneur Iesus
+                    <lb/>Christ:mais il a fallu que les bergers commençassent,
+                    <lb/>afin que toute presomptiõ fust
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Cor.3.18">1. <hi rend="I">Cor. </hi>3. d. 18</ref>
+                    </note>abolie, &amp; que celuy q͂ voudra estre reputé
+                    <lb/>Chrestien, soit cõme fol en ce mõde. Ainsi
+                    <lb/>que nous n'apportions point vne folle outrecuidance
+                    <lb/>pour iuger a nostre fãtasie des
+                    <lb/>secrets admirables de Dieu:mais que nous
+                    <lb/>les adoriõs en toute simplicite.Et au reste,
+                    <lb/>regardons la foy qui a este en ces bergers,
+                    <lb/>&amp; alors nous ne ferons plus difficulté de
+                    <lb/>les suyure. Ils vienent adorer le Redẽpteur
+                    <lb/>du monde: &amp; en quel estat le trouuent-ils?
+                    <lb/>Le voyla couché en vne creche, &amp; enuelopé
+                    <lb/>de quelques petis drapeaux: &amp; c'est le signe <fw place="bot-right" type="catch">qui</fw>
+                    <pb n="9"/>
+                    <lb/>qui leur auoit este donné par l'Ange.Or il
+                    <lb/>sẽbloit bien que cela fust pour les estõner,
+                    <lb/>&amp; mesmes pour leur faire tourner le dos,
+                    <lb/>tellement qu'ils ne recognussent plus Iesus
+                    <lb/>Christ pour leur Sauueur.Car les Scribes
+                    <lb/>&amp; Docteurs des Iuifs pensoyent bien
+                    <lb/>que le Redempteur qui auoit este promis,
+                    <lb/>deust venir en grãd põpe, &amp; qu'il se deust
+                    <lb/>assuietir tout le mõde,en sorte qu'il n'y auroit
+                    <lb/>que prosperite, qu'ils auroyẽt des biẽs
+                    <lb/>a force pour se souler,&amp; amasseroyẽt toutes
+                    <lb/>les richesses du monde. Voyla donc vn scãdale
+                    <lb/>qui pouuoit faire perdre courage a ces
+                    <lb/>poures gens, tellemẽt que iamais ne fussẽt
+                    <lb/>ven<hi rend="E">9</hi> a nostre Seigneur Ies<hi rend="E">9</hi> Christ,mais
+                        pl<hi rend="E">9</hi>tost
+                    <lb/>s'en<supplied resp="#MAG" reason="omission"> </supplied>fussẽt du tout alienez, quãd il leur
+                    <lb/>est dit qu'ils le trouuerõt en vne estable, &amp;
+                    <lb/>enueloppé de lambeaux. Voila le signe q͂
+                    <lb/>leur est donné du Redempteur, c'est qu'il
+                    <lb/>sera mis en vne creche comme s'il estoit retranché
+                    <lb/>du rang des hõmes. Tant y a neãtmoins
+                    <lb/>que cela ne les destourne point. Ils
+                    <lb/>vienent donc le cognoistre cõme Seigneur,
+                    <lb/>confessans comme Dieu a eu pitie d'eux,
+                    <lb/>&amp; qu'en la fin il a voulu accomplir sa promesse
+                    <lb/>qu'il auoit donnee de tout temps, &amp;
+                    <lb/>se conferment en vn tel spectacle. Puis que
+                    <lb/>ainsi est donc que la foy de ces bergers a este
+                    <lb/>si grande,qu'elle a combatu contre tout
+                    <lb/>ce qui les pouuoit destourner de venir a
+                    <lb/>nostre Seigneur Iesus Christ, nous serons <pb n="10"/>
+                    <lb/>coulpables au double &amp; desnuez de toute
+                    <lb/>excuse, sinõ que nous appreniõs en leur<supplied resp="#CiM" reason="omission"> </supplied>eschole:
+                    <lb/>&amp; que la naissãce de nostre<supplied resp="#CiM" reason="omission"> </supplied>Seigneur
+                    <lb/>Iesus Christ (combiẽ qu'il n'y apparoisse
+                    <lb/>aucune dignite, ou pompe, ou noblesse de
+                    <lb/>ce monde) ne soit point vn scandale pour
+                    <lb/>nous arrester , ou pour nous faire diuertir
+                    <lb/>du bon chemin , que nous ne venions nous
+                    <lb/>rẽdre a luy comme a nostre Roy souuerain,
+                    <lb/>&amp; a celuy auquel tout empire est donné &amp;
+                    <lb/>au ciel &amp; en la terre.Et de faict,nous auons
+                    <lb/>besoin d'vne telle admonition:car,comme
+                    <lb/>i'ay desia touché, la doctrine de l'Euangile
+                    <lb/>n'emporte que scãdale a ceux qui sont preoccupez
+                    <lb/>de fierte &amp; folie, &amp; qui se reputẽt
+                    <lb/>sages. Nous voyõs aussi comme beaucoup
+                    <lb/>de phantastiques reiettẽt tout ce qui est cõtraire
+                    <lb/>a leur cerueau. Il y en a d'autre part
+                    <lb/>beaucoup de mocqueurs, qui n'ont iamais
+                    <lb/>este touchez d'aucun sentimẽt de leurs pechez:
+                    <lb/>&amp; pource qu'ils sõt gẽs profanes,qui
+                    <lb/>ne pensent iamais venir a cõte,&amp; ne scauẽt
+                    <lb/>s'il y a vne vie meilleure que celle qu'ils
+                    <lb/>voyent yci bas, ils estimẽt que ce n'est que
+                    <lb/>simplesse de suyure ainsi le Fils de Dieu,&amp;
+                    <lb/>s'accointer a luy. Voyãs donc cela,tãt plus
+                    <lb/>deuõs-nous estre munis de cest aduertissement,
+                    <lb/>c'est ascauoir que le Fils de Dieu ne
+                    <lb/>perde riẽ de sa maiesté &amp; de sa gloire,&amp; que
+                    <lb/>il n'est pas amoindri, en ce qu'il s'est humilié
+                    <lb/>pour nostre salut:mais plustost qu'en cela
+                    <lb/>nous deuons estre rauis, cognoissans sa
+                    <lb/>bõte inestimable &amp; l'amour qu'il no<hi rend="E">9</hi> a portee. <pb n="11"/>
+                    <lb/>Voyla donc comme il nous faut prattiquer
+                    <lb/>ceste doctrine, que nous ne laissions
+                    <lb/>pas de venir a nostre Seigneur Iesus Christ,
+                    <lb/>combien que nous ne trouuions de prime
+                    <lb/>face en luy ce que nostre chair , c'est a dire
+                    <lb/>nostre sens naturel, appete. Mais combien
+                    <lb/>qu'il ait este enueloppé de drapeaux en sa
+                    <lb/>naissance,qu'il ait este ietté là en la creche,
+                    <lb/>scachõs&amp; soyõs resolus qu'il n'a pas laissé
+                    <lb/>toutesfois d'estre Mediateur pour no<hi rend="E">9</hi> attirer
+                    <lb/>a Dieu son Pere,pour nous donner ouuerture
+                    <lb/>au Royaume des cieux,duquel no<hi rend="E">9</hi>
+                    <lb/>estions du tout forclos.Et auiourd'huy encores,
+                    <lb/>combien qu'il ne regne pas en pompe,
+                    <lb/>&amp; que son Eglise soit mesprisée,qu'il y
+                    <lb/>ait vne simplicite en sa Parolle laquelle les
+                    <lb/>grans de ce mõde reiettent:quant a nous ne
+                    <lb/>laissons pas pour cela de tousiours nous tenir
+                    <lb/>a luy, &amp; nous assuiettir a son empire, en
+                    <lb/>vne vraye obeissance de foy.Pour exemple,
+                    <lb/>quand on preschera, ce n'est pas vne chose
+                    <lb/>pour nous attirer beaucoup selon nostre
+                    <lb/>coustume. Nous orrons vn homme parler:
+                    <lb/>&amp; qui est-il?Il ne sera point de grãde dignite
+                    <lb/>&amp; reputatiõ: &amp; puis en sõme il n'y a que
+                    <lb/>la parolle: d'autre costé en ce q͂ est presché
+                    <lb/>par l'Euãgile il y a beaucoup de choses qui
+                    <lb/>nous sembleront cõtre toute raison, quand
+                    <lb/>nous en voudrõs iuger a nostre appetit. Ainsi
+                    <lb/>cognoissons que nous ne pourrions pas
+                    <lb/>nous ranger a ce que Dieu nous monstre
+                    <lb/>&amp; declare , sinon que nous soyons abbatus
+                    <lb/>en premier lieu. Quant est de la confirmation <pb n="12"/>
+                    <lb/>qu'il nous a adioustee a sa Parolle,
+                    <lb/>nous auons les Sacremens . Et vne goutte
+                    <lb/>d'eau nous suffira-elle pour nous asseurer
+                    <lb/>de la remission de nos pechez,&amp; que Dieu
+                    <lb/>nous a adoptez pour ses enfans , &amp; que si
+                    <lb/>nous sommes caduques &amp; fragiles, toutesfois
+                    <lb/>nous serons reuestus de sa gloire celeste,
+                    <lb/>qui iamais ne defaudra?Pourrons-nous
+                    <lb/>prendre vn gage &amp; seureté de choses si
+                    <lb/>grandes &amp; si excellentes en vn peu d'eau?
+                    <lb/>En la saincte Cene vn morceau de pain, &amp;
+                    <lb/>vne goutte de vin suffiront-ils pour nous
+                    <lb/>asseurer que Dieu nous aduouë pour ses enfans,
+                    <lb/>que nous viuons en Iesus Christ , &amp;
+                    <lb/>qu'il n'ha riẽ de separé d'auec no<hi rend="E">9</hi>?Car plustost
+                    <lb/>il sẽble que ce soit chose de neant,que
+                    <lb/>telles ceremonies qui n'ont point de grande
+                    <lb/>pompe. Ainsi dõc nous voyons encores
+                    <lb/>mieux que ce qui est yci recité des Pasteurs
+                    <lb/>nous appartient,&amp; que nous auons auiourd'huy
+                    <lb/>a en faire nostre profit: c'est ascauoir
+                    <lb/>que no<hi rend="E">9</hi> ne laissiõs pas d'approcher de nostre
+                    <lb/>Seigneur Iesus Christ, &amp; d'estre asseurez
+                    <lb/>que c'est luy auquel nous trouuerons
+                    <lb/>tout biẽ, toute resiouissãce &amp; toute gloire,
+                    <lb/>cõbien qu'il sẽble qu'il soit encores cõme
+                    <lb/>en l'estable &amp; en la creche ẽueloppé de drapeaux:
+                    <lb/>c'est à dire qu'il y ait beaucoup de
+                    <lb/>choses q͂ no<hi rend="E">9</hi> pourroyẽt desbaucher,&amp; pour
+                    <lb/>le moins esblouir les yeux pour n'apperceuoir
+                    <lb/>poĩt la gloire celeste q͂ luy a esté dõnee <pb n="13"/>
+                    <lb/>de Dieu sõ Pere: ie di mesme en ceste nature
+                    <lb/>humaine qu'il a prise de nous. Car entãt
+                    <lb/>q͂ l est Dieu,il ha tout de soy mesme,( cõme
+                    <lb/>il en est parlé au <ref type="bible" target="bibleSegond21.xml#John.17">17 chap. de S. Iehan</ref>) mais
+                    <lb/>selõ son humanite il a receu de don gratuit
+                    <lb/>tout ce qu'il nous a apporté, afin que nous
+                    <lb/>puissions de sa plenitude, &amp; que nous trouuions<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#John.1.16">
+                            <hi rend="I">Ieh.</hi>1. b.16</ref>
+                    </note>
+                    <lb/>en luy tout ce qui est desirable, &amp; ayons
+                    <lb/>tout nostre repos &amp; contentement en
+                    <lb/>luy seul. Or au reste notons bien que le S.
+                    <lb/>Esprit nous a aussi voulu asseurer, qu'en ensuyuãt
+                    <lb/>les pasteurs qui nous sont yci ordõnez
+                    <lb/>pour maistres &amp; pour guides,nous ne
+                    <lb/>deuons point craindre de faillir. Car si les
+                    <lb/>pasteurs n'eussent eu autre chose pour signe
+                    <lb/>que l'estable &amp; la creche,no<hi rend="E">9</hi> pourriõs dire,
+                    <lb/>Voila des poures idiots qui se sont fait acroire
+                    <lb/>follement &amp; sans aucune raison,que
+                    <lb/>c'estoit le Redempteur du monde:&amp; cepẽdãt
+                    <lb/>ce seroit vne trop grãde facilite a nous.
+                    <lb/>Nous pourrions donc estre en doute: mais
+                    <lb/>les bergers ont este cõfirmez d'autre part,
+                    <lb/>pour auoir certitude que c'estoit le Fils de
+                    <lb/>Dieu, celuy qui estoit ainsi couché en la creche:
+                    <lb/>c'est a scauoir quãd l'Ange leur est apparu,
+                    <lb/>&amp; puis qu'ils ont ouy ce cãtique que
+                    <lb/>S. Luc adiouste,là où tout le Royaume des
+                    <lb/>cieux rend tesmoignage a nostre Seigneur
+                    <lb/>Ies<hi rend="E">9</hi> Christ, qu'il ha toute puissance sur les
+                    <lb/>creatures tant du ciel cõme de la terre. Apprenons
+                    <lb/>donc de receuoir ( pour estre asseurez
+                    <lb/>en la foy de Iesus Christ ) tout ce qui <pb n="14"/>
+                    <lb/>nous est yci proposé. Car il est certain que
+                    <lb/>Dieu a voulu conuaincre d'ingratitude
+                    <lb/>tous ceux qui auiourd'huy ne daignẽt faire
+                    <lb/>hommage a son Fils vnique, quand il a
+                    <lb/>enuoyé vne telle multitude d'Anges pour
+                    <lb/>declarer qu'il estoit le Redempteur qui auoit
+                    <lb/>este promis.Nous auõs dõc beau nous
+                    <lb/>plaire en nostre incredulite: cõme nous en
+                    <lb/>voyons beaucoup de gens stupides, qui ne
+                    <lb/>tienent conte de tout ce qui est contenu en
+                    <lb/>l'Euangile. Il y a mesme des mocqueurs de
+                    <lb/>Dieu qui s'anonchalissent tellemẽt, que ce
+                    <lb/>leur est tout vn de ce qu'on leur preschera,
+                    <lb/>il n'en tienẽt conte nõ plus que de fables.
+                    <lb/>Or il y a aussi dequoy pour cõuaĩcre d'vne
+                    <lb/>rebelliõ obstinee &amp; diabolique, tous ceux
+                    <lb/>qui ne s'assuietissẽt a nostre Seigneur Iesus
+                    <lb/>Christ, pour luy faire hõmage. Car autant
+                    <lb/>qu'il y a d'incredules, ils auront vne multitude
+                    <lb/>infinie d'Anges de paradis , qui tesmoignera
+                    <lb/>a l'encõtre d'eux: car ce sont les
+                    <lb/>ministres de la verite de Dieu. Ainsi donc
+                    <lb/>que tous meschãs, &amp; tous ceux qui sõt confits
+                    <lb/>en leurs vices &amp; corruptiõs se plaisẽt&amp;
+                    <lb/>s'endurcissẽt tãt qu'ils voudrõt en leur incredulite,
+                    <lb/>ils ont des tesmoins par trop suffisans
+                    <lb/>pour ratifier leur condamnation.Car
+                    <lb/>les Anges de paradis sont apparus afin que
+                    <lb/>il n'y ait plus d'excuse, quãd nous ne <choice><sic>receuerons</sic><corr resp="#CiM">receurons</corr></choice>
+                    <lb/>Iesus Christ pour nostre Roy souuerain,
+                    <lb/>no<hi rend="E">9</hi> humilians sous sa maiesté. Mais cepẽdãt <fw place="bot-right" type="catch">pendant</fw>
+                    <pb n="15"/>
+                    <lb/>notõs de nostre costé que Dieu a procuré
+                    <lb/>nostre salut quand il a enuoyé vne telle
+                    <lb/>multitude d'Anges, afin q͂ nous puissiõs
+                    <lb/>venir a nostre Seigneur Iesus Christ d'vn
+                    <lb/>courage alegre,&amp; que nous ne soyons plus
+                    <lb/>en dispute ni en scrupule:mais que no<hi rend="E">9</hi> soyons
+                    <lb/>plenemẽt resolus, que nous trouuerõs
+                    <lb/>en luy tout ce qui no<hi rend="E">9</hi> fait defaut, &amp; qu'il aura
+                    <lb/>de quoy pour suppleer à toutes nos pouretez
+                    <lb/>&amp; miseres: brief,que c'est celuy par lequel
+                    <lb/>Dieu s'est voulu cõmuniquer a nous.
+                    <lb/>Et voulons-nous chercher nostre vie sinon
+                    <lb/>en Dieu?Or il y a toute plenitude de Diuinite
+                    <lb/>en nostre Seigneur Iesus Christ. Quãd<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Col.2.9">
+                            <hi rend="I">Colos. </hi>2. b.9.</ref>
+                    </note>
+                    <lb/>dõc nous auõs vn tel tesmoignage,c'est autant
+                    <lb/>comme si Dieu estẽdoit ses deux bras
+                    <lb/>pour no<hi rend="E">9</hi> faire sẽtir sa bõte inestimable: &amp;
+                    <lb/>monstrer que seulement, quand nous aurõs
+                    <lb/>la foy en Iesus Christ,( ie di vne foy sãs hypocrisie )
+                    <lb/>nous<supplied resp="#CiM" reason="omission"> </supplied>appuyãs plenement en luy,
+                    <lb/>cognoissãs que c'est de luy qu'il nous faut
+                    <lb/>tout tenir, alors nous serons participans de
+                    <lb/>tous les biẽs lesquels nous defaillẽt, &amp; desquels
+                    <lb/>no<hi rend="E">9</hi> sõmes affamez. Et au reste, cõbiẽ
+                    <lb/>qu'auiourd'huy nous ne voyõs poĩt les Anges
+                    <lb/>q͂ sõt apparus pour vn coup seulemẽt,
+                    <lb/>si est-ce que ce tesmoignage est enregistré,
+                    <lb/>afin d'estre autentique. Car le sainct Esprit
+                    <lb/>a parlé par la bouche de S. Luc. Contentons-nous
+                    <lb/>donc d'auoir vn tel tesmoin de
+                    <lb/>Dieu , qui nous declare que les Anges ont <pb n="16"/>
+                    <lb/>rendu tesmoignage de la naissance de nostre
+                    <lb/>Seigneur Iesus Christ, afin que cognoissans
+                    <lb/>cõme il a este fait homme, voire qu'il
+                    <lb/>s'est aneanti pour nous, nous soyons rauis
+                    <lb/>pour aspirer au Royaume des cieux,afin de
+                    <lb/>adherer a luy en vray vniõ de foy. Or il y
+                    <lb/>a puis apres a cõsiderer le lieu de sa naissance,
+                    <lb/>c'est ascauoir Beth-lehẽ.Et ceci n'est pas
+                    <lb/>vne petit cõfirmation ni legere, quãd no<hi rend="E">9</hi>
+                    <lb/>voyõs que le Fils de Dieu a este nay, cõme
+                    <lb/>si long temps au parauãt le Prophete en auoit
+                    <lb/>fait mẽtion. Si Ioseph &amp; Marie eussẽt
+                    <lb/>eu leur domicile en Beth-lehẽ, &amp; y eussent
+                    <lb/>fait residence, cela n'eust point esté trouué
+                    <lb/>estrãge qu'elle y fust accouchee,&amp; que Ies<hi rend="E">9</hi>
+                    <lb/>Christ y fust nay:mais ce q͂ no<hi rend="E">9</hi> doit auiourd'huy
+                    <lb/>seruir<supplied resp="#CiM" reason="omission"> </supplied>eust este obscurci de beaucoup:
+                    <lb/>car on n'eust poĩt cognu que nõ sans cause
+                    <lb/>le Prophete auoit dit, Toy Beth-lehẽ,combiẽ
+                    <lb/>que tu sois auiourd'huy mesprisee cõme
+                    <lb/>vne petite bourgade,si est-ce que tu produiras
+                    <lb/>celuy q͂ doit estre le chef de mon peuple.
+                    <lb/>Mais quand Ioseph &amp; Marie sont demeurans
+                    <lb/>en Nazareth, &amp; qu'ils vienẽt en la ville
+                    <lb/>de Beth-lehẽ sur le terme qu'elle doit accoucher,
+                    <lb/>&amp; que Iesus Christ est là nay, qui
+                    <lb/>ne verra que Dieu a conduit le tout par sa
+                    <lb/>main?Il faut donc que les hõmes se creuent
+                    <lb/>les yeux a leur esciẽt &amp; d'vne certaine malice,
+                    <lb/>quand ils ne voudrõt yci cognoistre l'ouurage
+                    <lb/>de Dieu,lequel a marqué son Fils vnique, <fw place="bot-right" type="catch">que</fw>
+                    <pb n="17"/>
+                    <lb/>afin qu'on le peust receuoir sãs aucune
+                    <lb/>doute, comme celuy qui auoit este promis.
+                    <lb/>Vray est qu'il y a bien eu occasion de faire
+                    <lb/>venir Ioseph en Beth-lehẽ, c'est ascauoir l'edict
+                    <lb/>publié de la part de l'Empereur Romain:
+                    <lb/>mais d'amener là vne fẽme enceinte
+                    <lb/>&amp; a son terme, il est certain que cela ne s'est
+                    <lb/>point gouuerné par l'homme, &amp; que Dieu
+                    <lb/>y a besongné. Et mesmes nous voyons cõme
+                    <lb/>Dieu vse de façons estranges pour accomplir
+                    <lb/>sa volõte. Car cest esdict de Cesar
+                    <lb/>qu'emportoit-il sinõ vne suietion tyrãnique,
+                    <lb/>qu'il faloit q͂ le peuple des Iuifs fust
+                    <lb/>lors taillé, qu'il y eust tribut sur chacune
+                    <lb/>personne : qui estoit pour leur monstrer
+                    <lb/>qu'il ne faloit plus qu'ils attendissent aucune
+                    <lb/>liberte. Iesus Christ estoit promis
+                    <lb/>pour deliurer les Iuifs &amp; tous fideles de la
+                    <lb/>suietion de Satan , &amp; de toute tyrannie: il
+                    <lb/>semble q͂ cest edict soit pour clorre la porte,
+                    <lb/>que iamais Dieu n'accomplisse ce qu'il
+                    <lb/>auoit promis a son peuple:&amp; toutesfois
+                    <lb/>c'est le moyen de l'accomplir. Car quand
+                    <lb/>Ioseph &amp; Marie vienent comme poures
+                    <lb/>gens asseruis a vn tyran, a vn payen &amp; incredule,
+                    <lb/>voyla comme Iesus Christ est nay
+                    <lb/>en Beth-lehem, la Prophetie se monstre
+                    <lb/>estre veritable. Et Dieu ( comme i'ay dit )
+                    <lb/>baille yci plene certitude a tous les siens,
+                    <lb/>qu'il ne faut pas qu'ils doutent de la naissãce
+                    <lb/>de nostre Seigneur Iesus Christ. Voyla <pb n="18"/>
+                    <lb/>donc comme il nous faut appliquer a nostre
+                    <lb/>vsage &amp; instructiõ les choses qui nous
+                    <lb/>sont yci recitees . Car ce n'a pas esté l'intẽtion
+                    <lb/>de sainct Luc , ou plustost du sainct
+                    <lb/>Esprit qui a parlé par sa bouche, de nous escrire
+                    <lb/>simplement vne histoire de ce qui estoit
+                    <lb/>aduenu: mais il nous a yci exprimé
+                    <lb/>d'vn costé comme le Fils de Dieu ne s'est
+                    <lb/>point espargné pour nous : puis de l'autre
+                    <lb/>commẽt il a apporté tesmoignage infalible
+                    <lb/>qu'il estoit le Redempteur, afin qu'on le
+                    <lb/>reçoyue pour tel. Or cependant auisons
+                    <lb/>de faire nostre profit de ceste histoire, tellement
+                    <lb/>que nous puissions accorder au cãtique
+                    <lb/>des Anges en glorifiant Dieu, &amp; receuoir
+                    <lb/>aussi ce qu'il nous donne yci pour
+                    <lb/>esiouissance de nos ames. En premier lieu
+                    <lb/>l'Ange dit ( a scauoir celuy qui a porté le
+                    <lb/>message aux bergers ) <quote source="bibleSegond21.xml#Luc.2.10">NE CRAIGNEZ
+                        <lb/>POINT, IE VOVS ANNONCE
+                        <lb/>VNE GRANDE IOYE</quote>. Et puis il
+                    <lb/>y a ce tesmoignage commun de toute l'armee
+                    <lb/>que Dieu enuoye, <quote source="bibleSegond21.xml#Luc.2.14">PAIX EN
+                        <lb/>TERRE AVX HOMMES</quote>. Voyla dõc
+                    <lb/>ce que nous auõs a retenir en premier lieu,
+                    <lb/>c'est q͂ nous cherchiõs nostre ioye en Iesus
+                    <lb/>Christ.Car de fait quãd nous auriõs toutes
+                    <lb/>delices &amp; voluptez , il ne seroit question
+                    <lb/>que de nous baigner en tous plaisirs: si est-ce
+                    <lb/>que si nous ne sõmes pas trop endormis,
+                    <lb/>voire stupides du tout,nostre cõsciẽce n'aura
+                    <lb/>iamais repos: nous serons tormẽtez sans <pb n="19"/>
+                    <lb/>fin &amp; sans cesse: ce ver (dont parle l'Escriture)
+                    <lb/>nous rongera, nous serons redarguez
+                    <lb/>de nos pechez, &amp; nous sentirons qu'a bon
+                    <lb/>droict Dieu nous est cõtraire &amp; ennemi.Et
+                    <lb/>ainsi malheur sur toutes les reiouissances
+                    <lb/>du monde, d'autant qu'elles seront cõverties
+                    <lb/>en grincemẽt de dẽts, iusques a ce que
+                    <lb/>les hommes soyent appointez auec Dieu.
+                    <lb/>Maudites dõc soyent toutes resiouissances,
+                    <lb/>tous honneurs,toutes choses desirables,iusques
+                    <lb/>a tant que nous sentiõs que Dieu nous
+                    <lb/>reçoit a merci: &amp; qu'estans ainsi recõciliez
+                    <lb/>auec luy, no<hi rend="E">9</hi> puissiõs no<hi rend="E">9</hi> esiouir:
+                    voire nõ
+                    <lb/>pas d'vne ioye terrestre , mais de celle qui
+                    <lb/>notamment nous est promise au sainct Esprit,
+                    <lb/>afin que nous la cherchiõs en luy. Or
+                    <lb/>ce sõt choses inseparables que la paix &amp; la
+                    <lb/>ioye. Car cõment nous voyãs enuirõnez de
+                    <lb/>tãt de miseres, auõs-nous de quoy nous esiouir?
+                    <lb/>Et puis, voyãs que nous sommes maudits
+                    <lb/>en Adã, que nous sommes enfans d'ire,
+                    <lb/>que Dieu estant nostre iuge est armé de vẽgeance
+                    <lb/>pour nous abysmer, quelle ioye
+                    <lb/>pourrons-nous conceuoir estãs en tel estat?
+                    <lb/>Certes quãd nous y pensons,non seulemẽt
+                    <lb/>il faut que nous soyons accablez d'inquietude:
+                    <lb/>mais en vne gehẽne horrible,&amp; q͂ surmõte
+                    <lb/>toutes les angoisses de ce mõde:voire
+                    <lb/>sinõ que le diable no<hi rend="E">9</hi> ait ensorcelez:cõme
+                    <lb/>nous en voyõs beaucoup qui ne laissẽt pas
+                    <lb/>de s'esgayer, cõbien qu'ils facent la guerre <pb n="20"/>
+                    <lb/>a Dieu.Mais si nous auons vne seule goutte
+                    <lb/>de sentiment en nous, il est certain que
+                    <lb/>nous serons tousiours en torment , iusques
+                    <lb/>a ce que Dieu nous soit declaré propice.
+                    <lb/>Il faut donc que ceste paix precede, que
+                    <lb/>nous scachiõs que Dieu nous aduoue pour
+                    <lb/>ses enfans, voire d'autant qu'il ne nous impute
+                    <lb/>point nos pechez. Or sommes-nous
+                    <lb/>ainsi paisibles auec Dieu? Alors nous auons
+                    <lb/>aussi de quoy nous esiouir:voire auec
+                    <lb/>Dieu,suyuant ce que i'ay desia touché.Car
+                    <lb/>les incredules aurõt bien quelq͂ paix:( c'est
+                    <lb/>à dire, ils sont ellement eslourdis qu'il
+                    <lb/>ne leur chaut du iugement de Dieu , mesmes
+                    <lb/>ils le despitent ) mais ce n'est pas auec
+                    <lb/>Dieu.Car iamais ils n'ont paix ni repos sinon
+                    <lb/>quand ils oublient &amp; Dieu &amp; eux-mesmes,
+                    <lb/>&amp; qu'ils sont abbrutis du tout. Mais
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rom.5.2">
+                            <hi rend="I">Rom </hi>5. a. 2.</ref>
+                    </note>sainct Paul nous exhorte d'auoir paix auec
+                    <lb/>Dieu, c'est à dire de regarder a luy, &amp; cercher
+                    <lb/>comme nous pourriõs estre paisibles:
+                    <lb/>c'est qu'estãs approchez de luy, nous soyõs
+                    <lb/>certains &amp; asseurez de son amour. Et comment
+                    <lb/>cela se fera-il?par la remission de nos
+                    <lb/>pechez , par l'amour gratuite qu'il nous
+                    <lb/>porte en nostre Seigneur Iesus Christ. Or
+                    <lb/>donc notons bien que la paix que preschẽt
+                    <lb/>yci les Anges de Paradis , a apporté ceste
+                    <lb/>ioye , de laquelle le premier Ange auoit
+                    <lb/>fait mẽtion,disant, Ie vo<hi rend="E">9</hi> annõce vne grãde
+                    <lb/>ioye,c'est le salut que vo<hi rend="E">9</hi> auez en Iesus <fw place="bot-right" type="catch">Christ.</fw>
+                    <pb n="21"/>
+                    <lb/>Christ.Il est appelé nostre paix:&amp; ce titre-
+                    <lb/>la declare que nous seriõs alienez du tout
+                    <lb/>de Dieu , sinon qu'il nous receust par le
+                    <lb/>moyen de son Fils vnique. Et puis de là
+                    <lb/>nous auons aussi de quoy nous glorifier,
+                    <lb/>quand Dieu nous aduouë pour ses enfans,
+                    <lb/>qu'il nous donne liberte de le reclamer cõme
+                    <lb/>nostre Pere a plene bouche, de venir
+                    <lb/>franchement à luy , &amp; y auoir nostre refuge.
+                    <lb/>Cependant recueillons de là, que Dieu
+                    <lb/>a tellement ordonné que l'Euãgile se presche
+                    <lb/>par la bouche des hommes,que les Anges
+                    <lb/>ont precedé neantmoins.Auiourd'huy
+                    <lb/>il est vray qu'il faut que l'Eglise soit enseignee
+                    <lb/>par le moyen des creatures mortelles:
+                    <lb/>mais quoy qu'il en soit,nous n'apportons
+                    <lb/>riẽ de nouueau, seulemẽt nous recitõs
+                    <lb/>la predication qui a este faite par les Anges
+                    <lb/>de Paradis: &amp; non pas d'vn petit nombre,
+                    <lb/>mais d'vne multitude infinie,&amp; d'vne grosse
+                    <lb/>armee. Au reste, il ne se peut faire que
+                    <lb/>nous ne soyons enflammez a magnifier nostre
+                    <lb/>Dieu , quand nous serons plenement
+                    <lb/>certifiez de sa bõte.Et voila pourquoy ces
+                    <lb/>deux choses sont coniointes, que les Anges
+                    <lb/>exhortent tout le monde a glorifier
+                    <lb/>Dieu,d'autant qu'il a donné vne telle paix
+                    <lb/>en terre. Nous iouissons donc du bien que
+                    <lb/>Dieu nous a eslargi par le moyen de nostre
+                    <lb/>Seigneur Iesus Christ son Fils vnique. Il
+                    <lb/>a prins la possession de ceste paix, afin que <pb n="22"/>
+                    <lb/>nos louanges montent là haut , &amp; qu'elles
+                    <lb/>percent les nues, &amp; que tout le monde retentisse
+                    <lb/>de ce cantique, c'est a scauoir que
+                    <lb/>Dieu soit benit &amp; magnifié par tout. Or
+                    <lb/>nous auons a recueillir de là,que tousiours
+                    <lb/>nous aurõs la bouche close, &amp; que nous ne
+                    <lb/>pourrõs pas louer Dieu, iusques a ce qu'il
+                    <lb/>nous ait fait sentir sa bonte.Car de fait cõment
+                    <lb/>les poures pecheurs,cependant qu'ils
+                    <lb/>ont des remords &amp; troubles en eux-mesmes,
+                    <lb/>qu'ils ne scauent si Dieu les aime ou
+                    <lb/>les hait,pourront-ils benir son nom?Mais
+                    <lb/>au contraire l'angoisse les tiendra comme
+                    <lb/>enserrez , qu'ils ne pourront pas ouurir
+                    <lb/>nullement la bouche. Il faut donc qu'en
+                    <lb/>premier lieu Dieu nous ait testifié a bon
+                    <lb/>escient l'amour qu'il nous porte,tellemẽt
+                    <lb/>que nous soyõs resolus qu'il nous sera tousiours
+                    <lb/>Pere: &amp; alors no<hi rend="E">9</hi> aurõs aussi de quoy
+                    <lb/>benir son nom. Mais comme nous ne pouuons
+                    <lb/>louer Dieu iusques a ce qu'il nous ait
+                    <lb/>declaré sa bonte, aussi apprenons de n'auoir
+                    <lb/>point vne foy morte ou oisiue : mais
+                    <lb/>que nous soyons incitez a benir le nom de
+                    <lb/>Dieu,quand nous voyons qu'il a ainsi desployé
+                    <lb/>les grans thresors de sa misericorde
+                    <lb/>enuers nous: &amp; que la bouche face son
+                    <lb/>office d'vn costé, &amp; puis que toute nostre
+                    <lb/>vie responde. Car voila le vray cantique,
+                    <lb/>c'est qu'vn chacun se dedie au seruice de <fw place="bot-right" type="catch">Dieu</fw>
+                    <pb n="23"/>
+                    <lb/>Dieu , cognoissant que puis qu'il nous a
+                    <lb/>acquis si cherement , c'est bien raison que
+                    <lb/>toutes nos pensees &amp; nos œuures soyent
+                    <lb/>appliquees a cest vsage-la, que son nom
+                    <lb/>soit benit.Et que quand nous cognoistrons
+                    <lb/>que vrayement nous sommes siens, nous
+                    <lb/>scachions que c'est d'autãt qu'il luy a pleu
+                    <lb/>de nous accepter a soy,&amp; q͂ le tout procede
+                    <lb/>de sa bonte gratuite. Et ainsi non sans cause
+                    <lb/>ce mot est adiousté, que <quote source="bibleSegond21.xml#Luc.2.14">LA PAIX</quote> est
+                    <lb/>donnee aux hommes : non pas pour aucun
+                    <lb/>merite , non pas qu'ils l'ayent acquise,
+                    <lb/>mais par le bon plaisir de Dieu.Car le mot
+                    <lb/>dont vse sainct Luc emporte cela , qu'il ne
+                    <lb/>faut chercher autre raison pourquoy nostre
+                    <lb/>Seigneur Iesus Christ nous est apparu,
+                    <lb/>sinon d'autant que Dieu a eu pitie &amp; compassion
+                    <lb/>de nos miseres. Comme aussi il est
+                    <lb/>dit au <ref type="bible" target="bibleSegond21.xml#John.3.16">troisieme chapitre de sainct Iehan b.
+                        <lb/>16</ref>, que Dieu a tant aimé le monde , qu'il
+                    <lb/>n'a point espargné son propre Fils , mais
+                    <lb/>l'a liuré a la mort pour nous. Apprenons
+                    <lb/>doncques de venir a nostre Seigneur Iesus
+                    <lb/>Christ en telle sorte : c'est a scauoir que le
+                    <lb/>message qui nous est yci publié par les
+                    <lb/>Anges,nous soit comme vne lampe ardente
+                    <lb/>pour nous monstrer le chemin, que la
+                    <lb/>foy nous conduise, &amp; que nous scachions
+                    <lb/>qu'il est maintenant Dieu en nous, d'autãt
+                    <lb/>qu'il est Dieu auec nous.Il s'est declaré <pb n="24"/>
+                    <lb/>nostre Dieu auec nous ( comme i'ay dit)
+                    <lb/>quand il a voulu habiter en nostre nature
+                    <lb/>humaine cõme en son temple : mais maintenant
+                    <lb/>il est Dieu en nous, c'est a dire que
+                    <lb/>nous le sentons conioint a nous en plus
+                    <lb/>grande vertu que quand il s'est monstré &amp;
+                    <lb/>declaré hõme mortel.Mesme il est &amp; Dieu
+                    <lb/>&amp; homme en nous.Car premierement par
+                    <lb/>la vertu de son sainct Esprit il nous viuifie:
+                    <lb/>&amp; puis il est homme en nous,d'autant qu'il
+                    <lb/>nous fait participans du sacrifice qu'il a offert
+                    <lb/>pour nostre salut: &amp; nous declare que
+                    <lb/>non sans cause il a prononcé que sa chair
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#John.6.55">
+                            <hi rend="I">Ieh.</hi> 6.f.55.</ref>
+                    </note>estoit vrayement viande, &amp; son sang estoit
+                    <lb/>vrayement bruuage. Et voyla pourquoy
+                    <lb/>aussi la saincte table no<hi rend="E">9</hi> est apprestee, c'est
+                    <lb/>ascauoir afin que nous cognoissiõs que nostre
+                    <lb/>Seigneur Iesus estant descendu yci bas,
+                    <lb/>&amp; l'estant aneanti du tout, n'est pas pourtant
+                    <lb/>separé d'auec nous, quand il est monté
+                    <lb/>en sa gloire des cieux: mais que plustost
+                    <lb/>c'est a ceste cõdition que nous soyons participãs
+                    <lb/>de son corps&amp; de son sang.Et pourquoy?
+                    <lb/>Car nous scauõs que sa iustice &amp; son
+                    <lb/>obeissance est la satisfaction de nos pechez,
+                    <lb/>&amp; qu'il a appaisé l'ire de Dieu par le
+                    <lb/>sacrifice qu'il a offert de son corps&amp; de son
+                    <lb/>sang en ceste humanite qu'il a prinse de
+                    <lb/>nous. Puis qu'ainsi est donc , que nous ne
+                    <lb/>doutions point quand Iesus Christ nous
+                    <lb/>conuie a ceste table, cõbien que nous n'aperceuiõs <fw place="bot-right" type="catch">perce-</fw>
+                    <pb n="25"/>
+                    <lb/> que du pain &amp; du vin,que vrayement
+                    <lb/>il n'habite en nous, &amp; que nous ne
+                    <lb/>soyõs tellement conioints a luy qu'il n'ha
+                    <lb/>rien de propre qu'il ne nous vueille communiquer.
+                    <lb/>Que nous cognoissions,di-ie,
+                    <lb/>cela,afin de scauoir faire nostre profit de ce
+                    <lb/>Sacrement qui nous a este establi par luy:
+                    <lb/>&amp; que toutes fois &amp; quantes que nous auons
+                    <lb/>a le receuoir,nous scachiõs que Dieu
+                    <lb/>nous eust biẽ deliurez de l'abysme de condamnation
+                    <lb/>auquel nous estions, par vn autre
+                    <lb/>moyen s'il eust voulu : mais qu'il nous
+                    <lb/>a voulu dõner plus d'asseurãce de l'amour
+                    <lb/>qu'il nous porte, quand nous auons Iesus
+                    <lb/>Christ pour gage , afin que nous cerchions
+                    <lb/>tout nostre bien en luy: que nous cognoissions
+                    <lb/>que nous ne pouuons nous esiouir en
+                    <lb/>façon que ce soit , iusques a ce qu'il nous
+                    <lb/>soit donné là comme au milieu , &amp; qu'il
+                    <lb/>soit tellement approché de nous , que par
+                    <lb/>son moyen nous soyons conduits iusques
+                    <lb/>au Royaume des cieux,duquel nous estiõs
+                    <lb/>bannis &amp; priuez a cause de nos pechez.
+                    <lb/>Voila comme il nous<supplied resp="#CiM" reason="omission"> </supplied>faut auoir nostre Seigneur
+                    <lb/>Iesus Christ pour adresse de nostre
+                    <lb/>salut , si nous voulons approcher de Dieu,
+                    <lb/>si nous desirons d'auoir vne vraye ioye spirituelle,
+                    <lb/>vn contentement &amp; repos: si nous
+                    <lb/>desirons aussi d'estre armez contre les tentations
+                    <lb/>que le diable nous pourra susciter.
+                    <lb/>Mais pour estre participãs de ceste saincte <pb n="26"/>
+                    <lb/>table,auisons a nous,&amp; cognoissõs en premier
+                    <lb/>lieu nos miseres,pour nous y desplaire,
+                    <lb/>&amp; pour y estre confus du tout. Et au reste,
+                    <lb/>que nous cognoissions que Dieu a voulu
+                    <lb/>addoucir toutes nos tristesses &amp; angoisses,
+                    <lb/>quãd il s'est ainsi eslargi en son Fils vnique,
+                    <lb/>&amp; qu'il nous y a voulu resiouir plenement.
+                    <lb/>Et combien que nous soyons suiets
+                    <lb/>a beaucoup de pouretez en ce monde,
+                    <lb/>&amp; assiegez d'ennemis,qui sont cõme loups
+                    <lb/>rauissans : que le diable d'vn costé ne cesse
+                    <lb/>de chercher sa proye en nous,&amp; les incredules
+                    <lb/>abbayent comme chiens mastins: combien
+                    <lb/>( di-ie ) que nous soyons agitez de
+                    <lb/>beaucoup de troubles, &amp; menacez de tous
+                    <lb/>costez : combien qu'il nous faille endurer
+                    <lb/>beaucoup de fascheries , tenons-nous certains
+                    <lb/>toutesfois que nous ne laisserons pas
+                    <lb/>d'auoir tousiours la paix a nostre Dieu: &amp;
+                    <lb/>le prions qu'il nous la face sentir par son
+                    <lb/>sainct Esprit , d'autant que c'est vne chose
+                    <lb/>qui surmonte tout sens humain: ( cõme desia
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Phil.4.7">
+                            <hi rend="I">Philip.</hi>4.b.7.</ref>
+                    </note>nous auons touché de S. Paul ) &amp; que
+                    <lb/>nous apprenions de tellement nous contẽter
+                    <lb/>de nostre Seigneur Iesus Christ, &amp; des
+                    <lb/>biens spirituels desquels il nous a fait participans,
+                    <lb/>que nous puissions porter patiemment
+                    <lb/>toutes les miseres &amp; afflictions de ce
+                    <lb/>monde. Qu'il ne nous face point mal d'estre
+                    <lb/>mesprisez , d'estre molestez de toutes
+                    <lb/>parts : brief d'estre exposez a tout opprobre <fw place="bot-right" type="catch">bre</fw>
+                    <pb n="27"/>
+                    <lb/>&amp; ignominie , moyennant que Iesus
+                    <lb/>Christ soit auec nous, &amp; qu'il benie toutes
+                    <lb/>nos miseres &amp; afflictiõs,&amp; que nous en rapportions
+                    <lb/>tel fruit , qu'on cognoisse qu'au
+                    <lb/>milieu de toutes nos pouretez nous ne demandons
+                    <lb/>sinon a glorifier nostre Dieu. Et
+                    <lb/>là où les mondains font leurs triomphes a
+                    <lb/>leur confusion, d'autant qu'ils ne se peuuẽt
+                    <lb/>esiouir sinon en bataillãt contre Dieu, que
+                    <lb/>nostre vraye ioye soit de le seruir en toute
+                    <lb/>crainte &amp; humilite , &amp; nous addonner du
+                    <lb/>tout a son obeissance. Voyla donc comme
+                    <lb/>nous auons a faire nostre profit de ceste doctrine. </p>
+                <p n="17">
+                    <lb/>OR nous nous prosternerons deuant
+                    <lb/>la maieste de nostre bon Dieu en cognoissance
+                    <lb/>de nos fautes , le prians que de plus
+                    <lb/>en plus il nous les face sentir : &amp; que par ce
+                    <lb/>moyen nous soyons apprins de nous ranger
+                    <lb/>a nostre Seigneur Iesus Christ:cognoissans
+                    <lb/>que si nous sommes separez de luy,
+                    <lb/>toute nostre vie &amp; tous les biens que nous
+                    <lb/>receuons de Dieu, nous serons tournez en
+                    <lb/>plus grande condamnation. Et pour sentir
+                    <lb/>que le fruit de sa mort &amp; passion nous est
+                    <lb/>communiqué,qu'il nous adouë pour mẽbres
+                    <lb/>de son corps , afin que les afflictions
+                    <lb/>que nous pourrons endurer en ce monde
+                    <lb/>nous soyent d'autant d'aides a salut. Ainsi
+                    <lb/>nous dirons tous, Dieu tout puissant, Pere
+                    <lb/>celeste, &amp;c. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1594_Pierre_Merlin_RSL"> 
+            <titleStmt> 
+                <title type="sermon">SERMON II. Des banquets qu'a fait Assuerus, depuis le troisieme verset iusques au 10.</title> 
+                <title type="book">Sermons sur le livre d’Ester, par Pierre Merlin Ministre de la 
+                    Parole de Dieu en l’Eglise de Laual. Deuxiesme Edition, augmentée d’vn ample 
+                    argument sur toute l’histoire d’Ester. Et d’vn Indice cõtenant les principales 
+                    doctrines proposées en ces Sermons, A Geneve, Par François Le Preux, M. D. 
+                    XCIIII.</title> 
+                <author ref="...">Pierre Merlin</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="RSL">Ruth STAWARZ-LUGINBUEHL</persName> 
+                        <email>ruth.luginbuhl@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Pierre Merlin</author> 
+                        <title>Sermons sur le livre d’Ester. Deuxiesme Edition, augmentée d’vn ample 
+                            argument sur toute l’histoire d’Ester. Et d’vn Indice cõtenant les 
+                            principales doctrines proposées en ces Sermons</title> 
+                        <imprint> 
+                            <pubPlace>Genève</pubPlace> 
+                            <publisher>François Le Preux</publisher> 
+                            <date>1594</date>
+                            <date type="sermon"/>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="URI">http://doi.org/10.3931/e-rara-9707</idno>
+                    <idno type="source">Bibliothèque cantonale et universitaire de Lausanne</idno>
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">homélie</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">26</term>
+                    <term type="typeOfCollection">lectio continua</term>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Esth.1.1-2</term>
+                    <term type="paratext" subtype="epistle">EPISTRE AV ROY.</term>
+                    <term type="paratext" subtype="other">ARGVMENT SVR LE LIVRE D’ESTER.</term>
+                    <term type="paratext" subtype="other">INDICE OV RECVEIL SOMMAIRE DES PRINCIPALES doctrines contenues es XXVI.Sermons sur les x.chapitres di liure d’Ester.</term>
+                </keywords> 
+            </textClass>
+            <langUsage>
+                <language ident="fr">français préclassique</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-03-04" who="#LjD">transformation word - XML</change> 
+            <change when="2016-03-04" who="#MAG">Verification, citations</change> 
+            <change when="2014-04-30" who="#RSL">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                 <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>SERMONS 
+                    <lb/>SVR LE LIVRE 
+                    <lb/>D'ESTER, 
+                    <lb/> 
+                    <hi rend="I">PAR PIERRE MERLIN 
+                        <lb/>Ministre de la Parole de Dieu 
+                        <lb/>en l'Eglise de Laual. </hi> 
+                    <lb/>Deuxiesme Edition, augmentée d'vn ample argument sur 
+                    <lb/>toute l'histoire d'Ester. Et d'vn Indice cõtenant les principales 
+                    <lb/>doctrines proposées en ces Sermons.<figure/> 
+                    <lb/> 
+                    <hi rend="I">A GENEVE,</hi> 
+                    <lb/>PAR FRANCOIS LE PREVX. 
+                    <lb/>M. D. XCIIII.</p> 
+            </div> 
+        </front> 
+        <body> 
+            <div type="sermon"> 
+                 <pb n="12"/> 
+                <head type="main"> 
+                    <lb/>SERMON II.</head> 
+                <div n="1" type="sub"> 
+                    <head type="sub"> 
+                        <lb/> 
+                        <hi rend="I">Des banquets qu'a fait Assuerus, depuis le troisieme 
+                            <lb/>verset iusques au </hi>10.</head> 
+                    <p n="1"> 
+                        <lb/> 
+                        <quote source="bible1588.xml#Esth.1.3">3 L'an troisieme de son regne, il fit vn 
+                            <lb/>festin à tous les principaux Seigneurs de 
+                            <lb/>ses pais, &amp; à tous ses seruiteurs, tellement 
+                            <lb/>que la puissance de Perse &amp; de Mede, assauoir 
+                            <lb/>les plus grands seigneurs &amp; gouuerneurs 
+                            <lb/>des prouinces estoyent deuant lui</quote>. 
+                    </p> 
+                    <p n="2"> 
+                        <lb/> 
+                        <quote source="bible1588.xml#Ester.1.4">4 Pour monstrer les richesses de la 
+                            <lb/>gloire de son royaume, &amp; la splendeur de 
+                            <lb/>l'excellence de sa grandeur, &amp; ce par plusieurs 
+                            <lb/>iours, assauoir cent quatrevingt 
+                            <lb/>iours</quote>. 
+                    </p> 
+                    <p n="3"> 
+                        <lb/> 
+                        <quote source="bible1588.xml#Ester.1.5">5 Et quand ces iours là furent finis, le 
+                            <lb/>Roy fit vn festin par sept iours au paruis 
+                            <lb/>du iardin du palais Royal, à tout le peuple 
+                            <lb/>qui se trouua en Susan ville capitale, 
+                            <lb/>depuis le plus grãd iusques au plus petit</quote>. 
+                    </p> 
+                    <p n="4"> 
+                        <lb/> 
+                        <quote source="bible1588.xml#Ester.1.6">6 Les tapisseries de blãc, de verd &amp; de <fw place="bot-right" type="catch">pourpre</fw> 
+                             <pb n="13"/> 
+                            <lb/>pourpre tenoyent auec des cordes de fin 
+                            <lb/>lin &amp; d'escarlate à des aneaux d'argent, &amp; 
+                            <lb/>des piliers de marbre : les licts estoyent 
+                            <lb/>d'or &amp; d'argent sur vn pauement de porphyre, 
+                            <lb/>de marbre, d'albastre &amp; de marbre tacheté</quote>.  
+                    </p> 
+                    <p n="5"> 
+                        <lb/> 
+                        <quote source="bible1588.xml#Ester.1.7">7 Et on bailloit à boire en vaisselle 
+                            <lb/>d'or, qui estoit de diuerses façons, &amp; y auoit 
+                            <lb/>du vin Royal en abondance selon la 
+                            <lb/>puissance du Roy</quote>.  
+                    </p> 
+                    <p n="6"> 
+                        <lb/> 
+                        <quote source="bible1588.xml#Ester.1.8">8 Et la façon de boire fut telle qu'on 
+                            <lb/>auoit ordonné, on ne contraignoit personne. 
+                            <lb/>Car le Roy auoit ainsi expressément 
+                            <lb/>commãdé à tous ses maistres d'hostel, 
+                            <lb/>qu'ils fissent selon la volonté d'vn 
+                            <lb/>chacun</quote>.  
+                    </p> 
+                    <p n="7"> 
+                        <lb/> 
+                        <quote source="bible1588.xml#Ester.1.9">9 Pareillement Vasçti la Royne fit le 
+                            <lb/>festin des femmes en la maison1 Royale 
+                            <lb/>qui estoit au Roy Assuerus</quote>.  
+                    </p> 
+                    <p n="8"> 
+                        <lb/>Nous auons ici le recit de tres-somptueux festins, 
+                        <lb/>soit qu'on regarde la personne de celui qui les 
+                        <lb/>fait, soit le nombre des cõuiez, soit du temps qu'ils 
+                        <lb/>durent, soit de tout l'appareil, où il n'y a que magnificence 
+                        <lb/>Royale. La fin de ce recit n'est pas pour 
+                        <lb/>nous amuser à regarder ceste somptuosité &amp; despẽse 
+                        <lb/>excessiue d'vn oisif, mais pour nous mõstrer 
+                        <lb/>l'occasion, par laquelle Vasçti a esté repudiée, 
+                        <lb/>&amp; Ester poure fille captiue mise en sa place, Dieu 
+                        <lb/>se preparant l'instrument duquel il s'est serui, pour 
+                        <lb/>secourir son Eglise deuant qu'elle fust en danger. Il 
+                        <lb/>est parlé de trois sortes de festins. Le premier fait <pb n="14"/> 
+                        <lb/>pour tous les grãds seigneurs de l'empire qui dure 
+                        <lb/>demi an, l'autre où sont aussi conuiez tous les habitans 
+                        <lb/>de Susan, qui dure sept iours, le tiers que faisoit 
+                        <lb/>Vasçti de son costé aux femmes. Surquoi nous 
+                        <lb/>auons en premier lieu à cõsiderer l'appareil, &amp; puis 
+                        <lb/>la fin de toute ceste sumptuosité, &amp; au troisieme 
+                        <lb/>lieu remarquer quelque chose sur chacun de ces 
+                        <lb/>festins.</p> 
+                    <p n="9"> 
+                        <lb/>L'appareil est descrit dés la fin du 5. verset iusques 
+                        <lb/>au 9. Et premierement le lieu où le Roy donnoit 
+                        <lb/>le festin aux seigneurs de tout le royaume &amp; 
+                        <lb/>à tout le peuple de Susan : c'estoit au paruis du iardin 
+                        <lb/>de la maison Royale. Il falloit que ce paruis fust 
+                        <lb/>grand &amp; ample, pour receuoir &amp; festoyer si grande 
+                        <lb/>compagnie. Dont on peut recueillir en quelle saison 
+                        <lb/>de l'année commença le festin, assauoir, à l'entrée 
+                        <lb/>du Printemps, puis qu'on banquetoit dehors, 
+                        <lb/>&amp; c'estoit en l'an troisieme du regne d'Assuerus. 
+                        <lb/>Le paué de ce paruis estoit beau &amp; riche à merueilles 
+                        <lb/>estant fait &amp; bien compassé de marbre, de porphyre, 
+                        <lb/>d'albastre, de marbre tacheté. Porphyre &amp; 
+                        <lb/>albastre sont especes de marbre exquis. La tente &amp; 
+                        <lb/>tapisserie n'estoit moins riche &amp; precieuse, soit 
+                        <lb/>pour l'esgard de la matiere, soit pour l'esgard de diuerses 
+                        <lb/>couleurs de blanc, de vert, de pourpre ou 
+                        <lb/>hyacinte. Car puis que les cordes estoyent de fin 
+                        <lb/>lin, qui estoit plus precieux que nulle soye attachée 
+                        <lb/>à aneaux d'argent és piliers de marbre, il est à presumer 
+                        <lb/>que la matiere des tentes &amp; tapisseries, n'estoit 
+                        <lb/>qu'or &amp; broderie de choses les plus exquises. 
+                        <lb/>Les licts aussi sur lesquels estoyent rangez de ce 
+                        <lb/>temps là les conuiez pour bãqueter n'estoit qu'or, 
+                        <lb/>le vin tresexquis de toutes sortes, en tresgrande abondance, 
+                        <lb/>&amp; vaisseaux d'or à rechange, &amp; de diuerses 
+                        <lb/>façons pour le boire, dont on peut estimer que 
+                        <lb/>la despense n'estoit pas moindre en tous les mets <fw place="bot-right" type="catch">&amp; ser-</fw> 
+                         <pb n="15"/> 
+                        <lb/>&amp; seruices, soit pour l'esgard des viandes delicieuses, 
+                        <lb/>soit pour la vaisselle où elles estoyent seruies. 
+                        <lb/>Toutes lesquelles choses ne sont à blasmer de 
+                        <lb/>leur nature, car ce sont dõs de Dieu &amp; bõnes creatures, 
+                        <lb/>desquelles on peut bien vser, selon ce que dit 
+                        <lb/>S. Paul. Tout ce que Dieu a creé est bon, &amp; riẽ n'est <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_1Tim.4"> 1. <hi rend="I">Tim.</hi> 4.</ref> 
+                        </note> 
+                        <lb/>à reietter qui se prend auec action de graces. C'est 
+                        <lb/>l'excez, l'intemperance, l'orgueil, l'ambition &amp; l'ingratitude 
+                        <lb/>qui corrompt le legitime vsage de ces 
+                        <lb/>bonnes choses, desquelles l'homme fidele vsera en 
+                        <lb/>bonne conscience, rendant graces à Dieu de sa liberalité 
+                        <lb/>&amp; largesse, s'esleuant par la veuë des richesses 
+                        <lb/>&amp; delices terriennes en la cõsideration des 
+                        <lb/>celestes &amp; eternelles, &amp; conclura ainsi en soi-mesme. 
+                        <lb/>Si tels sont les biens que Dieu donne si largement 
+                        <lb/>ici bas, mesmes aux infideles, quelle sera l'abondãce 
+                        <lb/>des biens &amp; delices qu'il appreste au ciel 
+                        <lb/>pour ses esleus ? comme il est dit qu'il y a des torrẽs <note type="margin"> 
+                            <hi rend="I">Pse.</hi> 36. <lb/><hi rend="I">Pse.</hi> 31. </note> 
+                        <lb/>de plaisirs : &amp; que nul ne peut comprendre les biens 
+                        <lb/>que Dieu a preparez à ceux qui le craignent. Et 
+                        <lb/>ainsi les yeux de l'homme fidele, &amp; ses sens ne seront 
+                        <lb/>point esblouis du lustre de ce qu'il voit, touche, 
+                        <lb/>&amp; gouste ici bas, sachant qu'il y a des biẽs trop 
+                        <lb/>plus grands à la iouissance desquels nous sommes 
+                        <lb/>conuiez. Vrai est qu'au milieu de telles delices &amp; 
+                        <lb/>abondance, la temperance est en grand dãger. Car 
+                        <lb/>il est aisé de passer mesure &amp; s'y esgayer par trop. 
+                        <lb/>Pourtant les fideles doiuent plus estre sur leurs 
+                        <lb/>gardes lors qu'ils sont appellez aux grands banquets.</p> 
+                    <p n="10"> 
+                        <lb/>Mais la loi &amp; reiglement que le Roy donne 
+                        <lb/>&amp; fait expres pour le boire, à ce que nul ne 
+                        <lb/>soit contraint de boire qu'à la soif &amp; à son gré est 
+                        <lb/>bien à louër. Car il n'a voulu que sa maison fust 
+                        <lb/>vn eschole d'intemperance, &amp; que par l'excez 
+                        <lb/>qui se fust fait au boire, tout fust rempli de desordre, <pb n="16"/> 
+                        <lb/>insolence &amp; vomissemẽt, qui sont les effects 
+                        <lb/>de l'yurongnerie. Et ce Roy Payen condamnera 
+                        <lb/>ceux qui se disans Chrestiens, n'ont presques autre 
+                        <lb/>exercice, que de forcer soi &amp; les autres a boire &amp; 
+                        <lb/>yurongner iour &amp; nuict, comme cela se fait en Alemagne, 
+                        <lb/>&amp; en plusieurs lieux de la France. Toutesfois 
+                        <lb/>il appert par ceste ordonnance, que ceste mauuaise 
+                        <lb/>coustume estoit desia en vsage entre les Perses, 
+                        <lb/>qui auoyent esté autresfois si sobres &amp; moderez 
+                        <lb/>en leur boire, &amp; en tout leur viure : tant il est aisé 
+                        <lb/>d'apprendre les mœurs vicieux des autres, &amp; se 
+                        <lb/>plonger en intemperance. Voila quant au lieu &amp; 
+                        <lb/>appareil du festin.</p> 
+                    <p n="11"> 
+                        <lb/>La fin pourquoi le Roy vsoit de telle magnificence,
+                        <lb/><note type="margin">„</note> 
+                        est declarée au verset 4. <quote source="bibleSegond21.xml#Esth.1.4">Pour monstrer les
+                            <lb/><note type="margin">„</note> 
+                            richesses de la gloire de son royaume, &amp; la splendeur<lb/><note type="margin">„</note> 
+                            de l'excellence de sa grãdeur</quote>. En quoi se voit 
+                        <lb/>l'orgueil &amp; folle vanité de ce tant puissant monarque, 
+                        <lb/>qui abusoit des dons de Dieu pour son ambition, 
+                        <lb/>sans lui en faire aucun hommage &amp; recognoissance. 
+                        <lb/>Car quelle vanité est-ce, faire monstre des 
+                        <lb/>biẽs que les autres auoyent acquis par leur trauail 
+                        <lb/>&amp; vertu, &amp; qu'il ne prenoit que de la main de ses 
+                        <lb/>suiets ? Ce n'est pas mal-fait aux Roys &amp; aux autres 
+                        <lb/>qui ont des moyens de faire quelque fois de 
+                        <lb/>grands banquets, mais la fin en doit estre autre, 
+                        <lb/>que de faire par ce moyen vne mõstre orgueilleuse 
+                        <lb/>de ses richesses : c'est de tesmoigner sa charité par 
+                        <lb/>vne honneste liberalité, entretenir l'vnion &amp; la 
+                        <lb/>concorde entre plusieurs, attirer par tels bienfaits 
+                        <lb/>l'amitié des hommes, pour mieux s'en seruir, quãd 
+                        <lb/>il sera temps en choses honnestes, &amp; bref pour inciter 
+                        <lb/>les hommes par telle largesse a benir &amp; louer 
+                        <lb/>Dieu, qui est auteur de tous tels biens : &amp; qu'ainsi 
+                        <lb/>nos banquets lui soyent dediez par prieres &amp; actiõs 
+                        <lb/>de graces. C'est poure chose quand vn grand Roy <fw place="bot-right" type="catch"><unclear reason="print" resp="#RSL">n</unclear>e</fw> 
+                         <pb n="17"/> 
+                        <lb/>ne sçait autre moyen de faire voir sa grandeur &amp; 
+                        <lb/>magnificence, qu'en faisant des banquets excessifs. 
+                        <lb/>Car il y a beaucoup d'autres choses, où il la 
+                        <lb/>peut mieux faire voir, &amp; auec plus de fruict, tãt pour 
+                        <lb/>soy que pour ses suiets, sçauoir est, en mettant vn 
+                        <lb/>bõ ordre par tout, faisant regner les loix, establissant 
+                        <lb/>bonne iustice, soulageant son peuple de tailles, imposts 
+                        <lb/>&amp; subsides, reiglant bien les gens de guerre, &amp; 
+                        <lb/>vsant de liberalité Royale a propos enuers ceux qui 
+                        <lb/>le meritent. Ici se faut souuenir de ce que dit nostre <note type="margin"> 
+                            <hi rend="I">Luc</hi> 14.</note> 
+                        <lb/>Seigneur : c'est, que quand on veut faire des bãquets, 
+                        <lb/>qui vienent en conte deuant Dieu, il faut appeler 
+                        <lb/>non les riches, mais les poures, car il y a en cela vne 
+                        <lb/>pure liberalité. Et encores se faut il garder, que quelque 
+                        <lb/>leuain d'hypocrisie des Pharisiens, qui font toutes 
+                        <lb/>leurs œuures pour estre veus, ne s'y mesle. Faut 
+                        <lb/>noter au reste, que quand les Roys ont mis grande 
+                        <lb/>peine à leuer grande somme de deniers sur leurs suiets, 
+                        <lb/>qu'ils ne prennent plaisir qu'à les consumer en 
+                        <lb/>despenses vaines &amp; superflues, se donnant quasi plus 
+                        <lb/>de peine à les dissiper &amp; perdre, qu'il n'y a eu à les 
+                        <lb/>recueillir &amp; amasser. Et voila quant à la fin pour laquelle 
+                        <lb/>Assuerus faisoit ses festins. Il a peu auoir 
+                        <lb/>quelques autres egards, mais l'Escriture se contẽte 
+                        <lb/>de remarquer cestui seul qui luy a esté le principal, 
+                        <lb/>&amp; c'est quant au general tant pour l'appareil des festins, 
+                        <lb/>que pour la fin d'iceux.</p> 
+                    <p n="12"> 
+                        <lb/>Voyons ce qui est à remarquer sur vne chacune 
+                        <lb/>sorte de ces festins. Le premier qui continue cent 
+                        <lb/>quatre vingts iours, c'est à dire vn demi an tout entier, 
+                        <lb/>est fait à tous les principaux seigneurs de son 
+                        <lb/>pays &amp; à tous ses seruiteurs, c'est à dire, officiers de 
+                        <lb/>sa couronne, tellement que la puissance de Perse &amp; 
+                        <lb/>de Mede, assauoir, les plus grands seigneurs &amp; gouuerneurs 
+                        <lb/>des prouinces estoyent deuant luy. Ceci 
+                        <lb/>monstre vne profonde paix qui estoit en tout son <pb n="18"/> 
+                        <lb/>empire, car il n'eust ainsi retiré de toutes les prouinces 
+                        <lb/>ses gouuerneurs pour les festoyer, s'il eust eu 
+                        <lb/>guerre en quelque endroit, ou crainte d'aucũ trouble. 
+                        <lb/>Ils ne sont donc point appellez pour consulter 
+                        <lb/>d'affaires, ou pour vuider des difficultés de l'estat, 
+                        <lb/>mais seulement pour s'esgayer, &amp; faire bonne chere. 
+                        <lb/>Et est à estimer qu'en vn tel loisir, qu'ils n'ont 
+                        <lb/>oublié aucune sorte de passetemps pour se donner 
+                        <lb/>du plaisir, comme musique, ieux, tournois, spectacles, 
+                        <lb/>comme auiourd'huy les grands ont leurs masquarades, 
+                        <lb/>mommeries, farces, artifices de feu, le bal 
+                        <lb/>&amp; la danse. Et n'est pas que parmi cela, il n'y eust 
+                        <lb/>beaucoup de desbauches &amp; dissolutions, &amp; qu'à 
+                        <lb/>l'exemple de la Court, les peuples ne s'esgayassent 
+                        <lb/>par les villes &amp; prouinces. Voila donc vn royaume 
+                        <lb/>plein de ris &amp; de ioye, &amp; presque fondu en ses 
+                        <lb/>delices, tant Dieu remplit à souhait les enfans <note type="margin"> 
+                            <hi rend="I">Pse.</hi> 17.</note> 
+                        <lb/>de ce monde de ses biens plus delicieux cependant 
+                        <lb/>que l'Eglise est tenue en destresse &amp; captiuité, 
+                        <lb/>voila à quoy tournent en fin toutes les conquestes 
+                        <lb/>&amp; victoires des plus grands Roys, &amp; toute 
+                        <lb/>l'industrie de leurs conseillers, c'est à se plonger 
+                        <lb/>en leurs voluptés &amp; plaisirs, mais encore n'estoyent 
+                        <lb/>ils pas si mal-aduisez, que fut Balsazar le 
+                        <lb/>dernier Roy de la monarchie des Babyloniens, lequel 
+                        <lb/>estant assiegé, s'amusoit à faire banquets : &amp; 
+                        <lb/>comme auiourd'hui plusieurs Roys, lesquels ores 
+                        <lb/>qu'ils voyent tout leur estat aller en desordre, &amp; 
+                        <lb/>prest de choir &amp; tomber en pieces, ne font toutesfois 
+                        <lb/>autre chose que de se veautrer en leurs aises 
+                        <lb/>&amp; passetemps. C'estoit aussi vn mauuais exemple 
+                        <lb/>à tous les suiets de voir ainsi le Roy auec tous 
+                        <lb/>ses seigneurs &amp; conseillers, ne faire autre chose vn 
+                        <lb/>demi an, que rire, gaudir &amp; banqueter. Que pouuoyent 
+                        <lb/>faire cependant les prouinces destituées si 
+                        <lb/>longtemps de la conduite de leurs gouuerneurs, qui <fw place="bot-right" type="catch">estoyent</fw> 
+                         <pb n="19"/> 
+                        <lb/>estoyent les chefs de iustice ? Ce n'est sans cause que 
+                        <lb/>le sage dit, <quote source="bibleSegond21.xml#Eccl.10.16">Malheur à toy terre, de laquelle les 
+                            Princes <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Eccl.10.16"> 
+                                    <hi rend="I">Eccl.</hi> 10. <lb/>6. </ref> 
+                            </note> 
+                            <lb/>se leuent au matin pour iouer</quote>. 
+                             Isaie prononce <note type="margin"> 
+                            <hi rend="I">Isai.</hi> 5. </note> 
+                        <lb/>semblable malediction aux principaux de son temps 
+                        <lb/>qui se leuoyent au matin pour boire. Amos reprend <note type="margin"> 
+                            <hi rend="I">Amos </hi>6.</note> 
+                        <lb/>aussi aigrement l'excez des banquets de ceux de Iuda, 
+                        <lb/>banquetans sur licts d'yuoire. Si la Court du 
+                        <lb/>Prince ne donne exemple de sobrieté &amp; modestie, 
+                        <lb/>tout le royaume aisément se desbordera en insolences 
+                        <lb/>&amp; buuries, selon que les suiets ont de coustume 
+                        <lb/>de se patronner à leurs Roys. Et puis les gouuerneurs 
+                        <lb/>retournans apres si longues desbauches 
+                        <lb/>en leurs prouinces, veulẽt continuer à faire les magnifiques 
+                        <lb/>à la façon des Roys, &amp; se confians en la faueur 
+                        <lb/>que leur a fait le Prince, entreprennent plus 
+                        <lb/>aisement de mal-traiter le peuple. C'est aussi merueilles 
+                        <lb/>comme les grands se lassent si tost à manier 
+                        <lb/>affaires d'importance, &amp; consulter pour le bien de 
+                        <lb/>leur estat &amp; de leur suiets, &amp; ne se lassent point tant 
+                        <lb/>de bãqueter &amp; perdre le tẽps. Car il y en a qui ne bãquetent 
+                        <lb/>point seulement auec leurs courtisans, mais 
+                        <lb/>qui y cõsumẽt toute leur vie. Et que font autre chose 
+                        <lb/>plusieurs particuliers, que de rẽplir ainsi leurs vẽtres 
+                        <lb/>tout le tẽps qu'ils viuent &amp; se donner du plaisir ? 
+                        <lb/>comme il est dit qu'en ceste vie ils ont eu passetẽps, <note type="margin"> 
+                            <hi rend="I">Pse</hi>. 49.</note> 
+                        <lb/>&amp; louent ceux qui se donnẽt bon tẽps. Ici faut 
+                        <lb/>appliquer l'histoire du mauuais riche, cõme s'ils ne <note type="margin"> 
+                            <hi rend="I">Luc.</hi> 15.</note> 
+                        <lb/>viuoyẽt que pour manger &amp; boire, comme ainsi soit 
+                        <lb/>qu'il nous faut manger <add resp="#RSL" place="E">pour</add> viure 
+                        &amp; vaquer aux œuures 
+                        <lb/>de nostre vocation ; Et sur tout les Roys &amp; leurs officiers, 
+                        <lb/>qui doyuẽt seruir d'œil &amp; addresse à tous leurs 
+                        <lb/>suiets. Et quel conseil y peut il auoir parmi tãt d'excez 
+                        <lb/>&amp; de desbauches ? mais c'est ainsi que le monde 
+                        <lb/>est gouuerné pour la pluspart, par vne iuste vengeance 
+                        <lb/>de Dieu, le peuple se rẽdant indigne de bons 
+                        <lb/>Roys &amp; sages conducteurs.</p> 
+                     <pb n="20"/> 
+                    <p n="13"> 
+                        <lb/>L'autre festin où est conuié tout le peuple de 
+                        <lb/>Susan depuis le plus grand iusques au plus petit ne 
+                        <lb/>dure que sept iours : mais encore est-ce beaucoup, 
+                        <lb/>d'occuper toute vne ville à ne faire autre chose que 
+                        <lb/>mãger, boire, &amp; rire par l'espace de sept iours. Ainsi 
+                        <lb/>quand les grands ont commencé à faire leurs excez, 
+                        <lb/>ils y continuent de plus en plus voulant gratifier a 
+                        <lb/>tous. Ce conui de tout le peuple monstre auec la 
+                        <lb/>grandeur Royale, vne humanité &amp; douceur bien 
+                        <lb/>seante aux grands Princes. Ce qui est à priser d'autant 
+                        <lb/>plus qu'on voit que la pluspart des Roys d'auiourd'hui, 
+                        <lb/>qui ne sont rien aupres de ce monarque 
+                        <lb/>tiennent moins de conte de leurs suiets que de poures 
+                        <lb/>esclaues, ou chiens, mesmes estimẽt le plus indigne 
+                        <lb/>de les regarder en face, tellemẽt qu'ils ne veulent 
+                        <lb/>estre veus d'icelui que pour se faire adorer. Il 
+                        <lb/>eust peu toutesfois mieux employer sa liberalité. Car 
+                        <lb/>la grace qu'on fait au ventre, ne dure quasi qu'autãt 
+                        <lb/>qu'il est plein, &amp; ce qui est dõné ainsi sans nul choix 
+                        <lb/>à tous n'oblige persõne, &amp; est plustost tenu pour prodigalité 
+                        <lb/>que pour bienfait. Ce n'est toutesfois chose 
+                        <lb/>indecente à vn Roy de faire ainsi quelques fois acte 
+                        <lb/>de largesse enuers tous ses suiets sans en desdaigner 
+                        <lb/>aucun : car ils sont Roys des petits cõme des grands, 
+                        <lb/>&amp; leur doiuẽt plustost faire sentir les effects de leur 
+                        <lb/>humanité &amp; bien-ueillance, ainsi que le soleil fait 
+                        <lb/>luire sa clarté esgallement aussi bien sur petits que 
+                        <lb/>sur grands. Ainsi les saints Roys de Iuda comme 
+                        <lb/>Dauid, Ezechias &amp; Iosias, se sont eslargis és publiques 
+                        <lb/>solennitez enuers tout le peuple, lequel auoit 
+                        <lb/>accoutumé de se resiouir &amp; faire bõne chere par sept <lb/><note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_2Sam.6.19">2. <hi rend="I">Sam.</hi> 6. <lb/>19.</ref> 
+                        </note> 
+                        iours durant la feste des tabernacles, mais leur ioye <lb/><note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_1Chr.16.3">1. <hi rend="I">Chro.</hi> <lb/>16. 3.</ref> 
+                        </note> 
+                        estoit consacrée à Dieu par vne solennelle commemoration 
+                        <lb/>de ses benefices. Ainsi quand Dieu 
+                        <lb/>donne le repos &amp; le moyen, on peut bien banqueter 
+                        <lb/>plusieurs iours, pourueu que l'insolence <pb n="21"/> 
+                        <lb/>n'y regne, ains que Dieu y soit recognu &amp; loué 
+                        <lb/>comme le chef &amp; auteur de la liesse. Si donc ce 
+                        <lb/>Roy d'ailleurs estoit soigneux de faire administrer 
+                        <lb/>iustice, &amp; maintenir toutes choses en bon ordre, 
+                        <lb/>ceste largesse n'estoit que louable. Si autrement 
+                        <lb/>le peuple estoit foulé d'exactions, ou mal traitté, 
+                        <lb/>c'estoit vn moyen pour addoucir ses maux, &amp; le 
+                        <lb/>rendre tant plus serf &amp; traittable à l'aduenir. Les 
+                        <lb/>Roys auiourd'huy se contentent de donner à leurs 
+                        <lb/>peuples quelques belles paroles qu'ils font publier 
+                        <lb/>par escrit, pour leur faire à croire, qu'ils ne 
+                        <lb/>pensent iour &amp; nuict qu'à leur bien &amp; soulagement, 
+                        <lb/>au lieu que tout leur estude n'est pour 
+                        <lb/>la pluspart que d'aduiser aux moyens de succer 
+                        <lb/>leur bien, &amp; en tirer tout le seruice qu'il leur 
+                        <lb/>plaist. Partant bien heureux sont les peuples, ou 
+                        <lb/>qui ont de bons Roys, ou qui sans Roys peuuent 
+                        <lb/>iouyr de leur liberté : sages aussi &amp; heureux 
+                        <lb/>sont les Roys &amp; gouuerneurs, qui sçauent conduire 
+                        <lb/>&amp; gouuerner leurs peuples en toute droicture 
+                        <lb/>&amp; clemence à l'exemple de Dauid, auquel on 
+                        <lb/>void que ce n'est pas assez a vn Roy de faire bonne <note type="margin"> 
+                            <hi rend="I">Pse</hi>. 101.</note> 
+                        <lb/>chere a ses suiets, mais il est requis qu'ils apportent 
+                        <lb/>vne science de iustice &amp; clemence pour les bien 
+                        <lb/>gouuerner. De telles vertus des bons Roys est aussi 
+                        <lb/>parlé bien au long Pseau. 71. Voila quant au <choice><sic>festins</sic><corr resp="#RSL">festin</corr></choice>  
+                        <lb/>que faisoit le Roy.</p> 
+                    <p n="14"> 
+                        <lb/>Reste à voir le festin que la Royne Vasçti faisoit 
+                        <lb/>aux femmes de son costé, &amp; ce dans le palais Royal, 
+                        <lb/>non comme Assuerus au dehors, estant chose 
+                        <lb/>plus sçeante aux femmes d'estre retirées en la 
+                        <lb/>maison, que de faire leur monstre comme en public. 
+                        <lb/>Ceste Vasçti estoit de grande autorité, pource 
+                        <lb/>qu'elle estoit fille de Cyrus premier monarque 
+                        <lb/>de Perse, sœur de Cambyses nommé en l'Escriture 
+                        <lb/>Artaxerxes, qui fut le second, &amp; mesme <pb n="22"/> 
+                        <lb/>femme de <choice><sic>c'est</sic><corr resp="#RSL">cest</corr></choice> Assuerus qui estoit le troisieme. Et 
+                        <lb/>pourtant son mari luy laissoit pareil droict de festoyer 
+                        <lb/>les femmes, qu'il prenoit à festoyer les hommes. 
+                        <lb/>Tout ainsi donc que durant six mois le Roy 
+                        <lb/>festoyoit les seigneurs de sa Court, voire de tout 
+                        <lb/>l'empire, elle aussi festoyoit les Dames qui y estoyẽt 
+                        <lb/>venues de toutes les prouinces auec leurs maris. Et 
+                        <lb/>puis quand par sept iours il festoya les hommes qui 
+                        <lb/>habitoyent en Susan, elle en pareil festoya toutes 
+                        <lb/>les femmes du lieu, ainsi il y auoit pleine ioye de 
+                        <lb/>toutes parts. Car aussi c'eust esté chose qui n'eust 
+                        <lb/>contenté qu'à demi, si en festoyant les hommes, on 
+                        <lb/>n'eust fait conte des femmes. Aussi est-ce chose 
+                        <lb/>peu raisonnable quand les hommes se licentient de 
+                        <lb/>faire grand chere, &amp; se laissent aller à leurs plaisirs, 
+                        <lb/>de requerir que les femmes soyent occupées en trauail 
+                        <lb/>continuel, pour faire l'espargne &amp; le bon mesnage. 
+                        <lb/>Comme donc les hommes ont sceu inuenter 
+                        <lb/>toutes sortes d'esbats pour passer ou plustost perdre 
+                        <lb/>le temps, les femmes aussi n'ont moins este ingenieuses 
+                        <lb/>à cercher ce qui pourroit seruir à les recreer 
+                        <lb/>&amp; contenter, n'estant la femme moins suiette à desirer 
+                        <lb/>son plaisir que l'homme. Mais, dira quelcun, 
+                        <lb/>Pourquoy faisoyẽt elles leur festin à part, veu qu'auiourdhuy 
+                        <lb/>on n'estime aucun festin d'esiouissance, si 
+                        <lb/>les femmes n'y sont conuiées ? &amp; c'est pour leur esgard 
+                        <lb/>bien souuent que le festin se fait, selon que les 
+                        <lb/>mœurs de nostre temps sont plus vicieux &amp; se desbordent 
+                        <lb/>en vne plus grande licence. La response est, 
+                        <lb/>que la coustume de ce temps là estoit plus honneste 
+                        <lb/>&amp; modeste, de sorte qu'és festins publics, les 
+                        <lb/>femmes ne mangeoyent point auec les hommes, &amp; 
+                        <lb/>ce pour euiter beaucoup d'occasions d'impudicité 
+                        <lb/>&amp; paillardise. Car quelle chasteté n'est endommagée 
+                        <lb/>parmi le vin &amp; l'intemperance, parmi les 
+                        <lb/>propos &amp; regards lascifs, &amp; quelque fois attouchemens <fw place="bot-right" type="catch">chemens</fw> 
+                         <pb n="23"/> 
+                        <lb/>peu honnestes ? Pleust à Dieu que ceste 
+                        <lb/>loy eust encores lieu entre les nations qui prennent 
+                        <lb/>tant de licence de boire &amp; manger, danser 
+                        <lb/>&amp; baller auec les femmes. Car quelque honte 
+                        <lb/>est-ce de voir entre quelques peuples les hommes 
+                        <lb/>mener a la tauerne les femmes &amp; filles d'autrui ? 
+                        <lb/>Comment peut és escoles de toute insolence, 
+                        <lb/>comme sont les tauernes, demeurer entiere 
+                        <lb/>la chasteté &amp; pudicité, parmi la licence que chacun 
+                        <lb/>se donne entre le pot &amp; le verre, veu qu'és 
+                        <lb/>lieux les plus saints, plusieurs osent bien ietter 
+                        <lb/>des regards peu chastes aux femmes &amp; filles ? 
+                        <lb/>Et n'est-ce pas le comble du mal, quand apres 
+                        <lb/>estre eschauffez de vin, on vient à la danse, on 
+                        <lb/>n'oit que musique lasciue, on ne voit que mouuemens 
+                        <lb/>attrayans, auec vne licence de dire &amp; 
+                        <lb/>faire quasi tout ce qu'on veut ? Arriere donc toute 
+                        <lb/>telle impudence, apprenons au moins des poures 
+                        <lb/>Payens quelques loix de modestie, sur tout 
+                        <lb/>quand on voit que le mal s'est desbordé sans qu'on 
+                        <lb/>le puisse plus retenir par aucuns liens de remonstrance, 
+                        <lb/>ni reprehension tirée de la parole de Dieu.</p> 
+                    <p n="15"> 
+                        <lb/>Il y a donc des choses louables en ces festins 
+                        <lb/>d'Assuerus, scauoir sa liberalité enuers les grands, 
+                        <lb/>son humanité &amp; douceur enuers tout le peuple 
+                        <lb/>de Susan, la loy qui defendoit de ne presser aucun 
+                        <lb/>de boire outre son gré, &amp; ce que les femmes 
+                        <lb/>par modestie &amp; honnesteté mangoyent ainsi 
+                        <lb/>à part. Mais il y a aussi d'autres choses vicieuses, 
+                        <lb/>comme ceste vaine monstre de sa grandeur 
+                        <lb/>&amp; richesse, trop de temps employé en banquet, 
+                        <lb/>trop de bien ainsi superfluëment <unclear resp="#RSL" reason="print">despenduec u, ale</unclear> 
+                        <lb/>mespris de tous affaires qui pouuoyent suruenir en 
+                        <lb/>ceste demie année en vn si grand empire : &amp; sur tout 
+                        <lb/>ce que le vray Dieu n'est la ni recognu ni inuoqué, 
+                        <lb/>&amp; que toute ceste ioye est prophanée sans aucune <pb n="24"/> 
+                        <lb/>marque de sainteté, qui doit reluire entre les fideles : 
+                        <lb/>au moyen dequoy aussi l'issue en a esté fort triste 
+                        <lb/>comme nous verrons. Parquoy si nous voulons que 
+                        <lb/>nostre ioye nous soit continuée &amp; benite de Dieu, 
+                        <lb/>il nous la faut commencer &amp; poursuiure en son nõ, 
+                        <lb/>voire ordonner toute nostre vie a ce qu'elle serue a 
+                        <lb/>sa gloire. Car pour ceste cause sommes nous creés, 
+                        <lb/>afin que l'ayans serui &amp; glorifié en ce monde, nous 
+                        <lb/>nous esiouissions auec luy en toute eternité. Amen.</p> 
+                </div> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

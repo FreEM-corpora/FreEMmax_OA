@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1697_Jean-Alphonse_Turrettin_ARE">
+            <titleStmt>
+                <title type="sermon">SERMON Sur ces Paroles de la I. Epître de S.Paul aux Corinthiens,Chap. XIII.ꝟ.1.2.3. ...</title>
+                <title type="book">SERMON SVR LA CHARITÉ, Prononcé à Geneve le 29. Novembre 1696. A
+                    GENEVE, Chez les FRERES DE TOURNES. M.DC.XCVII.</title>
+                <author ref="...">Jean-Alphonse Turrettin</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="ARE">Aurélie REUSSER-ELZINGRE</persName>
+                        <email>aurelie.elzingre@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Jean-Alphonse Turrettin</author>
+                        <title>SERMON SVR LA CHARITÉ, Prononcé à Geneve le 29. Novembre 1696.</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Frères de Tournes</publisher>
+                            <date>1697</date>
+                            <date type="sermon">1696</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">https://books.google.ch/books?id=HfE8AAAAcAAJ
+                    </idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_thématique</term>
+                    <term type="sermonType">sermon_circonstances</term>
+                    <term type="sermonTheme">sur la charité</term>
+                    <term type="howPublished">isolé</term>   
+                    <term type="numberOfSermons"/>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">1Cor.13.1-3</term>
+                    <term type="paratext" subtype="epistle">A MESSIEVRS LES PASTEVRS ET LES PROFESSEVRS de l’Eglise &amp; de l’Academie de GENEVE.</term>
+                    <term type="paratext" subtype="other">APPROBATION.</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+                <language ident="la">latin</language>
+                <language ident="el">grec moderne</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-22" who="#LjD">transformation word - XML</change>
+            <change when="2016-08-22" who="#MAG">Verification, citations</change>
+            <change when="2016-08-17" who="#ARE">Transcription word</change>
+            <change when="2016-09-30" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>
+                    <lb/>
+                    <lb/>SERMON
+                    <lb/>
+                    <hi rend="I">SVR LA</hi>
+                    <lb/>CHARITÉ,
+                    <lb/>Prononcé à Geneve le 29.
+                    <lb/>Novembre 1696<hi rend="I">.</hi>
+                    <!--enluminure avec texte : QUOD TIBI FIERI NON VIS ALTERI NEFECERIS-->
+                    <lb/>
+                    <lb/>
+                    <hi rend="I">A GENEVE</hi>,
+                    <lb/>Chez les FRERES DE TOURNES.
+                    <lb/>
+                    <hi rend="I">M.DC.XCVII.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <head type="main">
+                    <lb/>SERMON
+                    <lb/>Sur ces Paroles de la I. Epître
+                    <lb/>de S.Paul aux <ref type="bible" target="bibleSegond21.xml#_1Cor.13.1-3">Corinthiens,
+                        <lb/>Chap. XIII.ꝟ.1.2.3.</ref>
+                    <lb/>
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.13.1-3"><!-- traduction personnelle-->
+                        <hi rend="I">Quand je parlerois les langages de tous
+                            <lb/>les hommes, &amp; des Anges même, si je n'ai
+                            <lb/>pas la Charité, je suis comme l'airain qui
+                            <lb/>resonne, ou comme une cymbale qui retentit.</hi>
+                        <lb/>
+                        <lb/>
+                        <hi rend="I">Et quand j'aurois le Don de Prophétie,&amp;
+                            <lb/>que je connoîtrois tous les Mystéres &amp; toute
+                            <lb/>la science ; Et quand j'aurois toute la foy,
+                            <lb/>jusqu'à pouvoir transporter les montagnes ;
+                            <lb/>si je n'ai pas la Charité, je ne suis rien.</hi>
+                        <lb/>
+                        <lb/>
+                        <hi rend="I">Et quand je distribuerois tout mon bien
+                            <lb/>pour la nourriture des Pauvres, &amp; quand
+                            <lb/>même je livrerois mon corps pour être
+                            <lb/>brûlé, si je n'ai pas la Charité , cela ne me
+                            <lb/>sert de rien</hi>
+                    </quote>.
+                </head>
+                <p n="1">
+                    <lb/>
+                    <c type="lettrine">Q</c>UAND nous lisons l'Histoire
+                    <lb/>du Peuple d'israël , nous y
+                    <lb/>voyons une chose étonnante ; <fw place="bot-right" type="catch">C'est</fw>
+                    <pb n="2"/>
+                    <lb/>C'est que, de toutes les Loix de Dieu,
+                    <lb/>celle qui leur avoit été proposée avec le
+                    <lb/>plus d'évidence , celle qui leur avoit
+                    <lb/>été inculquée de la maniere la plus forte,
+                    <lb/>celle qui avoit été soûtenuë , &amp; par
+                    <lb/>les menaces les plus terribles, &amp; par
+                    <lb/>les promesses les plus excellentes, celle
+                    <lb/>en un mot qu'ils devoient regarder
+                    <lb/>comme la plus importante de toutes,
+                    <lb/>Je veux dire la Loi qui défendoit de
+                    <lb/>tomber dans l'Idolatrie , C'est celle-là
+                    <lb/>néantmoins qu'ils violérent le plus souvent,
+                    <lb/>&amp; de la maniére la plus obstinée. </p>
+                <p n="2">
+                    <lb/>Mes Freres, on peut remarquer quelque
+                    <lb/>chose de semblable dans l'histoire
+                    <lb/>de l'Eglise Chrêtienne. Celle de toutes
+                    <lb/>les Loix de Jésus-Christ qu'il avoit recommandée
+                    <lb/>avec le plus de soin, celle
+                    <lb/>qu'il avoit voulu qu'on regardât comme
+                    <lb/>sa Loi par excellence, celle qu'il
+                    <lb/>avoit donnée pour la marque &amp; la livrée
+                    <lb/>de ses Disciples , celle enfin à laquelle
+                    <lb/>il avoit attaché,d'une façon particuliere ,
+                    <lb/>toutes les promesses de son
+                    <lb/>Evangile , Je veux dire la Loi de la
+                    <lb/>Charité , C'est celle-là cependant,
+                    <lb/>que les Chrêtiens de tous les siécles <fw place="bot-right" type="catch">semblent</fw>
+                    <pb n="3"/>
+                    <lb/>semblent avoir le plus negligée. Il y a
+                    <lb/>eu même ceci dans les Chrêtiens de
+                    <lb/>plus étrange que dans les Juifs , c'est
+                    <lb/>que quand les Juifs étoient Idolatres,
+                    <lb/>on ne voit pas au moins qu'ils se glorifiassent
+                    <lb/>de leur conformité à la Loi
+                    <lb/>de Moyse ; Au lieu que les Chrêtiens
+                    <lb/>qui ont le moins suivi le précepte
+                    <lb/>de la Charité, n'ont pas laissé dans
+                    <lb/>le même tems de se glorifier de leur
+                    <lb/>Christianisme, &amp; souvent même ont
+                    <lb/>fait consister une grande partie de leur
+                    <lb/>Christianisme, dans des sentimens &amp;
+                    <lb/>dans des actions toutes contraires à la
+                    <lb/>Charité. </p>
+                <p n="3">
+                    <lb/>Ce desordre commença bien-tôt.
+                    <lb/>Il se fit remarquer dés le tems des
+                    <lb/>Apôtres. Dés lors, l'envie, la jalousie,
+                    <lb/>les divisions, les partialitez se glissérent
+                    <lb/>entre les Chrêtiens ; Et les Dons même
+                    <lb/>des Miracles , qui n'étoient destinez
+                    <lb/>qu'à fonder l'Eglise, &amp; par conséquent
+                    <lb/>qu'à unir les Fidéles, furent au
+                    <lb/>contraire une des occasions de leurs
+                    <lb/>inimitiez &amp; de leurs disputes. C'est
+                    <lb/>ce qui arriva en particulier dans l'Eglise
+                    <lb/>de Corinthe, &amp; c'est ce qui obligea
+                    <lb/>Saint Paul à leur représenter avec <fw place="bot-right" type="catch">tant</fw>
+                    <pb n="4"/>
+                    <lb/>tant de force l'importance de la Charité ,
+                    <lb/>comme vous voyez qu'il fait dans
+                    <lb/>nôtre texte, &amp; comme il continuë encore
+                    <lb/>dans la suite. </p>
+                <p n="4">
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Cor.12">Chap.<lb/>XII.</ref>
+                    </note>Dans le Chapitre précédent, il leur
+                    <lb/>avoit déjà fait comprendre , que les
+                    <lb/>Dons Miraculeux devoient les unir,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Cor.12.4-6">ꝟ.4.5.6.<lb/>II.</ref>
+                    </note>plutôt que de les diviser ; Soit parce
+                    <lb/>que c'étoit un même Esprit, un même
+                    <lb/>Dieu , un même Seigneur, qui leur
+                    <lb/>distribuoit ces différentes graces , &amp;
+                    <lb/>qui les leur distribuoit,comme il le trouvoit
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Cor.12.7">ꝟ.7.</ref>
+                    </note>à propos ; Soit parce que ces Dons
+                    <lb/>étoient communiquez , uniquement
+                    <lb/>
+                    <hi rend="I"><ref target="#fn_4_1" type="noteAnchor">*</ref>pour le bien </hi>de l'Eglise, &amp; qu'ainsi c'étoit
+                    <lb/>là l'unique but où ils les devoient
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Cor.12.12">ꝟ.I2.<lb/>&amp; suiv.</ref>
+                    </note>rapporter ; Soit enfin parce que l'Eglise
+                    <lb/>doit être semblable au Corps humain,
+                    <lb/>où, quoique les membres ayent
+                    <lb/>divers usages, on ne voit pas pourtant
+                    <lb/>qu'ils se méprisent ou qu'ils se négligent
+                    <lb/>les uns les autres , Au contraire ils se
+                    <lb/>prêtent des secours réciproques, &amp; ils
+                    <lb/>travaillent tous de concert au bien du
+                    <lb/>Corps dont ils font partie ; Qu'ainsi
+                    <lb/>dans l'Eglise, quoi qu'il y ait des dons
+                    <lb/>&amp; des fonctions différentes, cela ne <fw place="bot-right" type="catch">doit</fw>
+                    <note xml:id="fn_4_1" type="foot" n="*">
+                        <foreign xml:lang="el">ὠς
+                            τὸ συμφέρον</foreign></note>
+                    <pb n="5"/>
+                    <lb/>doit point obliger les Fidéles à concevoir
+                    <lb/>du mépris ou de la haine les uns
+                    <lb/>pour les autres , Au contraire ils doivent
+                    <lb/>s'aimer , s'aider , se secourir dans
+                    <lb/>tous leurs besoins, &amp; employer chacun
+                    <lb/>leurs talens à l'édification de l'Eglise
+                    <lb/>même. Enfin aprés toutes ces Réflexions,
+                    <lb/>l'Apôtre veut bien que les Chrêtiens
+                    <lb/>desirent, &amp; desirent même avec
+                    <lb/>ardeur , les Dons les plus excellens ;
+                    <lb/>Mais il ajoûte qu'il va leur indiquer <quote source="bible1588.xml#_1Cor.12.31">
+                        <hi rend="I">un</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Cor.12.30">ꝟ.32.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">chemin qui surpasse de beaucoup</hi>
+                    </quote> tout le
+                    <lb/>reste. Quel est ce chemin ? C'est la
+                    <lb/>Charité, dont il fait l'éloge dans nôtre
+                    <lb/>texte. C'est la Charité , sans laquelle
+                    <lb/>ni le Don des Langues,ni le Don
+                    <lb/>de Prophétie , ni la connoissance de
+                    <lb/>tous les Mystéres , ni le pouvoir de faire
+                    <lb/>des Miracles, ni les Aumônes les
+                    <lb/>plus considerables, ni la Mort la plus
+                    <lb/>illustre, ne servent de rien dans le Christianisme.
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.13.1-3">
+                        <hi rend="I">Quand je parlerois</hi>, <seg type="interpolation">dit-il,</seg>
+                        <hi rend="I">les
+                            <lb/>langages de tous les hommes, &amp; des Anges
+                            <lb/>même, si je n'ai pas la Charité, je
+                            <lb/>suis comme l'airain qui resonne, &amp; comme
+                            <lb/>une cymbale qui retentit. Et quand j'aurois
+                            <lb/>le Don de Prophétie,&amp; que je connoîtrois
+                            <lb/>tous les Mystéres &amp; toute la science;</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">Et</hi>
+                        </fw>
+                        <pb n="6"/>
+                        <lb/>
+                        <hi rend="I">Et quand j'aurois toute la foy, jusqu'à pouvoir
+                            <lb/>transporter les montagnes, si je n'ai
+                            <lb/>pas la Charité , je ne suis rien. Et
+                            <lb/>quand je distribüerois tout mon bien pour
+                            <lb/>la nourriture des Pauvres, &amp; quand même
+                            <lb/>je livrerois mon corps pour être brûlé,
+                            <lb/>si je n'ai pas la Charité, cela ne me sert
+                            <lb/>de rien</hi>
+                    </quote>.
+                </p>
+                <p n="5">
+                    <lb/>Voici donc, Mes Freres, de toutes
+                    <lb/>les Vertus, celle qu'il nous importe
+                    <lb/>le plus de pratiquer. Voici celle qui nous
+                    <lb/>fait proprement Chrêtiens, &amp; sans laquelle
+                    <lb/>on ne peut se vanter d'être Disciple
+                    <lb/>du Seigneur Jesus. Cependant
+                    <lb/>c'est peut-être, comme j'ai déjà dit,
+                    <lb/>une des Vertus les plus négligées , &amp;
+                    <lb/>elle l'est même beaucoup plus aujourd'hui,
+                    <lb/>qu'elle ne l'étoit du tems des Apôtres,
+                    <lb/>comme chacun le peut aisément
+                    <lb/>connoître, pour peu qu'il considére les
+                    <lb/>mœurs &amp; la conduite de la plûpart des
+                    <lb/>Chrêtiens. Ainsi, quoique l'on prêche
+                    <lb/>fort souvent là dessus,nous n'avons pas
+                    <lb/>crû qu'il fût inutile de le faire encore à
+                    <lb/>cette heure, parce que des Devoirs &amp;
+                    <lb/>aussi nécessaires &amp; aussi négligez que le
+                    <lb/>sont ceux-ci, ne sauroient être trop
+                    <lb/>recommandez. Venez donc, Fidéles, <fw place="bot-right" type="catch">méditer</fw>
+                    <pb n="7"/>
+                    <lb/>méditer avec nous , Premiérement,
+                    <lb/>quelle est la Charité, dont Saint Paul
+                    <lb/>fait ici l'éloge,&amp; quelles sont les conditions
+                    <lb/>qu'elle doit renfermer pour être
+                    <lb/>véritable ; en second lieu , combien
+                    <lb/>cette Vertu est excellente en elle-même,&amp;
+                    <lb/>importante dans le Christianisme ;
+                    <lb/>Enfin, combien toutes les autres
+                    <lb/>choses, dont Saint Paul fait l'énumération,
+                    <lb/>savoir, &amp; les Dons des Miracles,
+                    <lb/>&amp; les actions les plus éclatantes, sont
+                    <lb/>inutiles sans la Charité. C'est là le plan
+                    <lb/>que nous allons suivre ; Heureux, si en
+                    <lb/>parlant de la Charité, Dieu nous fait
+                    <lb/>la grace d'en allumer dans vos cœurs les
+                    <lb/>saintes flammes. <hi rend="I">Ainsi soit-il</hi>. </p>
+                <div n="1" type="sub">
+                    <head type="sub">
+                        <lb/>PREMIERE PARTIE.</head>
+                    <p n="6">
+                        <lb/>PAR la <hi rend="I">Charité </hi>dont Saint Paul fait
+                        <lb/>l'éloge, quelques Interpretes veulent
+                        <lb/>qu'on entende , &amp; l'Amour de
+                        <lb/>Dieu, &amp; celui du Prochain ; Mais un
+                        <lb/>Amour pur et desintéressé, &amp; qui d'ailleurs
+                        <lb/>soit le principe &amp; la régle de toutes nos
+                        <lb/>actions. Ainsi, quand il est dit
+                        <lb/>ici entr'autres choses, qu'il ne sert de
+                        <lb/>rien, ni de donner aux pauvres, ni d'exposer
+                        <lb/>son corps à la Mort, à moins <fw place="bot-right" type="catch">qu'on</fw>
+                        <pb n="8"/>
+                        <lb/>qu'on n'ait la Charité, cela veut dire ,
+                        <lb/>selon eux , que les plus belles actions
+                        <lb/>sont inutiles , à moins qu'un Amour
+                        <lb/>desintéressé de Dieu &amp; du Prochain
+                        <lb/>n'en soit le principe , par opposition
+                        <lb/>même à ce qui se fait, ou par la seule
+                        <lb/>crainte de l'Enfer, ou par le seul desir
+                        <lb/>du Paradis. Mais, Mes freres, quoi
+                        <lb/>qu'il soit tres-vrai que l'Amour de Dieu
+                        <lb/>doit être le principe &amp; la régle de toutes
+                        <lb/>nos actions, Quoi qu'il soit vrai aussi
+                        <lb/>que Dieu doit être aimé, non pas par
+                        <lb/>de seules vûës d'intérêt, mais soit à
+                        <lb/>cause de ses Perfections, qui le rendent
+                        <lb/>infiniment aimable , soit aussi par reconnoissance
+                        <lb/>pour les biens qu'on en a
+                        <lb/>reçûs ; Quoi que tout cela, dis-je,
+                        <lb/>soit tres vrai, nous n'estimons pas que
+                        <lb/>ce soit le sens qu'il faut donner à nôtre
+                        <lb/>texte, &amp; par la <hi rend="I">Charité</hi> dont l'Apôtre
+                        <lb/>parle, nous croyons qu'il faut simplement
+                        <lb/>entendre l'Amour que nous devons
+                        <lb/>au Prochain. Car, outre que c'est
+                        <lb/>le sens le plus commun, que le mot de
+                        <lb/>Charité a dans l'Ecriture , l'occasion
+                        <lb/>même de ce Discours, qui étoit prise
+                        <lb/>des divisions de l'Eglise de Corinthe,
+                        <lb/>nous conduit là naturellement ; Et d'ailleurs, <fw place="bot-right" type="catch">leurs</fw>
+                        <pb n="9"/>
+                        <lb/>les effets que Saint Paul attribuë
+                        <lb/>à la Charité aprés nôtre texte, comme
+                        <lb/>quand il dit qu'elle est <hi rend="I">patiente</hi>, qu'elle
+                        <lb/>témoigne de la <hi rend="I">douceur</hi>, qu'elle <hi rend="I">n'est
+                            point
+                            <lb/>envieuse</hi>, &amp; tous les autres qu'il ajoûte
+                        <lb/>en suite, se rapportent tous à l'Amour
+                        <lb/>du Prochain. </p>
+                    <p n="7">
+                        <lb/>Qu'est-ce donc que Saint Paul veut
+                        <lb/>dire, lors qu'il assûre que ni le Don des
+                        <lb/>Langues, ni aucun autre Don extraordinaire,
+                        <lb/>ne sert de rien sans <hi rend="I">la Charité ?</hi>
+                        <lb/>C'est-à-dire qu'ils ne servent de rien, si
+                        <lb/>l'on ne les employe pour le bien de l'Eglise,
+                        <lb/>au lieu de s'en servir, comme plusieurs
+                        <lb/>faisoient, pour y former des partis
+                        <lb/>&amp; des schismes ; si l'on ne les employe à
+                        <lb/>instruire les hommes, &amp; à convertir les
+                        <lb/>ames, au lieu de s'en servir pour sa propre
+                        <lb/>gloire &amp; pour sa propre utilité ; si
+                        <lb/>l'on ne les employe enfin d'une maniére
+                        <lb/>à faire comprendre qu'on est animé
+                        <lb/>d'un amour sincére pour ses Prochains.
+                        <lb/>Que veut-il dire ensuite lors qu'il ajoûte,
+                        <lb/>qu'il ne sert de rien de donner aux
+                        <lb/>pauvres, à moins qu'on n'ait <hi rend="I">la Charité?</hi>
+                        <lb/>C'est-à-dire qu'il n'y a point d'Aumônes,
+                        <lb/>qui puissent être agréables à Dieu,
+                        <lb/>si l'on ne les fait par le principe d'un <fw place="bot-right" type="catch">véritable</fw>
+                        <pb n="10"/>
+                        <lb/>véritable Amour pour ses freres, &amp; si
+                        <lb/>l'on n'a,dans toute sa conduite,cet esprit
+                        <lb/>doux &amp; complaisant, cet esprit de paix
+                        <lb/>&amp; de concorde,qu'on ne manque jamais
+                        <lb/>d'avoir quand on aime. Enfin,que veut-il
+                        <lb/>dire quand il assûre, que c'est en vain
+                        <lb/>qu'on s'expose à la Mort, à moins qu'on
+                        <lb/>n'ait <hi rend="I">la Charité ? </hi>C'est-à-dire, qu'il ne
+                        <lb/>sert de rien d'obeïr à Dieu lors qu'il
+                        <lb/>nous ordonne de maintenir sa vérité, si
+                        <lb/>l'on ne lui obéit aussi quand il commande
+                        <lb/>d'aimer nôtre Prochain comme
+                        <lb/>nous-mêmes, &amp; si l'on ne montre qu'on
+                        <lb/>aime son Prochain, par une conduite
+                        <lb/>pleine de douceur, &amp; par toutes les
+                        <lb/>marques possibles de tendresse. </p>
+                    <p n="8">
+                        <lb/>Voilà en peu de mots quelle est la
+                        <lb/>Charité que Saint Paul recommande
+                        <lb/>aux Corinthiens. Mais, Mes Freres,
+                        <lb/>comme bien des gens se font illusion sur
+                        <lb/>cette matiere, soit en croiant être Charitables,
+                        <lb/>quoi qu'en effet ils ne le soient
+                        <lb/>pas, soi en prétendant au contraire que
+                        <lb/>certaines personnes manquent de Charité,
+                        <lb/>quoi qu'ils n'ayent pas sujet d'avoir
+                        <lb/>cette pensée, il est nécessaire que nous
+                        <lb/>nous fassions une juste idée de cette Vertu,
+                        <lb/>&amp; pour cela il faut considérer six <fw place="bot-right" type="catch">choses.</fw>
+                        <pb n="11"/>
+                        <lb/>choses. Il en faut considérer le <hi rend="I">Principe</hi>.
+                        <lb/>Il en faut considérer le <hi rend="I">Siége</hi>. Il en
+                        <lb/>faut considérer les <hi rend="I">Effets</hi>. Il faut voir
+                        <lb/>quel en doit être l'<hi rend="I">Objet</hi>. Il faut voir
+                        <lb/>quelle en doit être la <hi rend="I">Mesure</hi>. Enfin il
+                        <lb/>faut voir quelle est l'<hi rend="I">Influence</hi> qu'elle
+                        <lb/>doit avoir dans toute la vie. Le principe
+                        <lb/>de la Charité, c'est à dire de l'Amour
+                        <lb/>du Prochain, ce doit être
+                        <lb/>l'Amour de Dieu. Le Siége qu'elle doit
+                        <lb/>avoir, c'est le Cœur. Les Effets qu'elle
+                        <lb/>doit produire , ce sont tous les biens
+                        <lb/>que nous pouvons faire, ou que nous
+                        <lb/>pouvons souhaiter à nos Prochains.
+                        <lb/>L'Objet qu'elle a,ce sont tous les Hommes ,
+                        <lb/>sans excepter nos ennemis. La
+                        <lb/>Mesure qu'on lui doit donner , c'est
+                        <lb/>d'aimer nôtre Prochain comme nous
+                        <lb/>mêmes. Enfin, cette Vertu doit être
+                        <lb/>répanduë dans toute nôtre conduite,&amp;
+                        <lb/>doit animer toutes nos actions. Mais
+                        <lb/>tout cela mérite d'être pesé. </p>
+                    <p n="9">
+                        <lb/>I. Le principe, c'est <hi rend="I">l'Amour de
+                            <lb/>Dieu</hi>. Hors d'ici donc cet amour profane,
+                        <lb/>qui est allumé par la convoitise.
+                        <lb/>Hors d'ici ces affections criminelles,qui
+                        <lb/>ont le vice pour cause, &amp; qui ne tendent
+                        <lb/>qu'à la satisfaction de quelque passion <fw place="bot-right" type="catch">sion</fw>
+                        <pb n="12"/>
+                        <lb/>déréglée. Nous n'entendons pas
+                        <lb/>même ici ces affections,&amp; naturelles, &amp;
+                        <lb/>innocentes, que la proximité du sang,
+                        <lb/>que la conformité d'humeur , que la
+                        <lb/>considération des bienfaits reçûs , ou
+                        <lb/>d'autres causes de cette nature, produisent
+                        <lb/>entre les hommes. Il s'agit
+                        <lb/>d'un sentiment infiniment plus noble
+                        <lb/>&amp; plus pur que tous ceux-là. C'est
+                        <lb/>quand pénétrez de l'amour de Dieu ,
+                        <lb/>sensibles à ses graces , soûmis à ses
+                        <lb/>Loix, nous aimons à cause de lui, ceux
+                        <lb/>qu'il a formez de ses propres mains ,
+                        <lb/>ceux en qui il a imprimé son image,
+                        <lb/>ceux qu'il honore de ses faveurs, ceux
+                        <lb/>enfin qu'il nous a ordonné d'aimer.
+                        <lb/>Quand on aime par ce principe,on peut
+                        <lb/>dire qu'on a la Charité. Et c'est ce que
+                        <lb/>Saint Paul enseigne, quand il dit, que
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Tim.1.5">I. Tim. <lb/>I.5.</ref>
+                        </note>
+                        <quote source="bible1588.xml#_1Tim.1.5">
+                            <hi rend="I">la Charité procéde d'un cœur pur, d'une
+                                <lb/>bonne conscience, &amp; d'une foi non feinte</hi>
+                        </quote>.
+                    </p>
+                    <p n="10">
+                        <lb/>II. Le Siége de la Charité, c'est le
+                        <lb/>
+                        <hi rend="I">Cœur. </hi>Il y a une Vertu commune entre
+                        <lb/>les hommes, qui a tous les dehors
+                        <lb/>de la Charité ; C'est l'Honnêteté Mondaine.
+                        <lb/>La Charité est-elle douce ?
+                        <lb/>L'Honnêteté l'est aussi. La Charité <fw place="bot-right" type="catch">rend-</fw>
+                        <pb n="13"/>
+                        <lb/>rend-elle des services ? L'Honnêteté
+                        <lb/>n'en rend pas moins. La Charité donne-
+                        <lb/>t-elle aux pauvres, console-t-elle les
+                        <lb/>affligez, évite-t-elle de dire des injures,
+                        <lb/>s'abstient-elle de la Médisance ? L'Honnêteté
+                        <lb/>fait tout cela. Il n'est pas même
+                        <lb/>jusqu'au précepte de ne rendre pas injure
+                        <lb/>pour injure, &amp; de faire du bien à
+                        <lb/>nos ennemis, que l'Honnêteté ne suive
+                        <lb/>fort souvent. Où est donc la difference ?
+                        <lb/>C'est que l'Honnêteté est une Vertu
+                        <lb/>toute extérieure. Ses mains agissent,
+                        <lb/>sa bouche parle , mais son cœur n'est
+                        <lb/>point touché. Souvent elle regarde
+                        <lb/>avec indifférence , souvent même elle
+                        <lb/>hait dans le fond du cœur, ceux à qui
+                        <lb/>elle rend le plus de services. Il n'en est
+                        <lb/>pas ainsi de la Charité. Elle est sincére
+                        <lb/>&amp; sans fard. Elle sent tout ce qu'elle
+                        <lb/>témoigne, &amp; plus même qu'elle ne témoigne.
+                        <lb/>En un mot elle a son siége
+                        <lb/>dans le cœur. <quote source="bible1588.xml#Rom.12.9">
+                            <hi rend="I">Que la Charité</hi>, <seg type="interpolation">dit
+                                l'Apôtre,</seg><note type="margin">
+                                    <ref type="bible" target="bibleSegond21.xml#Rom.12.9">Rom.<lb/>XII.9.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">soit sans déguisement</hi></quote>.
+                    </p>
+                    <p n="11">
+                        <lb/>III. Mais si la Charité réside dans
+                        <lb/>le cœur, elle doit aussi parétre au-dehors.
+                        <lb/>Si elle doit aussi parétre au dehors.
+                        <lb/>Si elle doit être sincére, elle doit
+                        <lb/>aussi montrer sa sincérité par ses <hi rend="I">Effets</hi> ;
+                        <lb/>Car dés qu'on aime véritablement, on <fw place="bot-right" type="catch">en</fw>
+                        <pb n="14"/>
+                        <lb/>en donne des marques réelles. Quels
+                        <lb/>en sont donc les Effets , direz-vous ?
+                        <lb/>Premiérement elle ne doit faire aucun
+                        <lb/>mal à son Prochain. Elle ne doit attenter
+                        <lb/>ni à sa vie , ni à ses biens, ni à son
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Rom.13.10">Rom.<lb/>XIII.<lb/>I0.</ref>
+                        </note>honneur, ni à sa réputation. <quote source="bible1588.xml#Rom.13.10">
+                            <hi rend="I">La Charité,</hi>
+                            <lb/><seg type="interpolation">dit Saint Paul,</seg><hi rend="I"> ne fait
+                                point de mal
+                                <lb/>au Prochain</hi>
+                        </quote> ;<hi rend="I"> </hi>Et de là il conclut que la
+                        <lb/>Charité est <quote source="bible1588.xml#Rom.13.10">
+                            <hi rend="I">l'accomplissement de la Loi</hi>
+                        </quote>,
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Rom.13.9">ꝟ.9.</ref>
+                        </note>parce que quand il est dit, <quote source="bible1588.xml#Rom.13.9">
+                            <hi rend="I">Tu ne tueras
+                                <lb/>point, Tu ne déroberas point, Tu ne commettras
+                                <lb/>point d'adultére</hi>, Tout cela <hi rend="I">est
+                                <lb/>compris dans ce seul article, Tu aimeras
+                                <lb/>ton Prochain comme toi-même</hi></quote>.
+                        Mais
+                        <lb/>non seulement la Charité ne doit elle-
+                        <lb/>même faire aucun mal ; Elle ne doit
+                        <lb/>pas non plus, ni se réjouïr du mal, ni
+                        <lb/>envier le bien qui arrive aux autres. <quote source="bible1588.xml#_1Cor.13.4">
+                            <hi rend="I">La
+                                <lb/>Charité n'est point envieuse</hi>, <seg type="interpolation">dit S. Paul
+                                    <lb/>aprés nôtre texte,</seg> &amp; <hi rend="I">elle ne se réjouït
+                                <lb/>point du mal</hi>
+                        </quote>.
+                        <hi rend="I"> </hi>Au contraire, elle doit,
+                        <lb/>comme il dit ailleurs<hi rend="I">, </hi>
+                        <quote source="bible1588.xml#Rom.12.15">
+                            <hi rend="I">se réjouïr avec ceux</hi>
+                            <lb/>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Rom.12.15">Rom.<lb/>XII.I5.</ref>
+                            </note>
+                            <hi rend="I">qui se réjouïssent, &amp; pleurer avec ceux qui
+                                <lb/>pleurent</hi>
+                        </quote> ; Elle doit aussi faire des vœux
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Tim.2.1">I.Tim.<lb/>II.I<hi rend="I">.</hi>
+                            </ref>
+                        </note>ardens, &amp; des prieres sincéres pour ses
+                        <lb/>fréres. Mais enfin , non contente des
+                        <lb/>vœux &amp; des prieres , elle doit leur procurer
+                        <lb/>par ses propres soins, tous les <fw place="bot-right" type="catch">biens</fw>
+                        <pb n="15"/>
+                        <lb/>biens qui dépendent d'elle. Elle doit
+                        <lb/>nourrir celui qui a faim, revêtir celui
+                        <lb/>qui est nud, consoler les affligez, défendre
+                        <lb/>ceux qu'on opprime, instruire
+                        <lb/>les ignorans , ramener ceux qui s'égarent,
+                        <lb/>rendre toute sorte de bons offices,
+                        <lb/>faire tout le bien qui est en son pouvoir.
+                        <lb/>Sur toutes choses, il faut se souvenir
+                        <lb/><supplied xml:id="BGE_Bd_555" resp="#ARE" reason="damage" source="BGE Bd 555">que l'Amour de Dieu étant
+                        <lb/>le principe qui fait naître la Charité, doit
+                        <lb/>étre la régle de toutes ses actions; C'est
+                        <lb/>à dire, d'un côté,que pour faire du bien,
+                        <lb/>elle ne doit commettre aucune injustice ,
+                        <lb/>ni rien faire contre son devoir , &amp;
+                        <lb/>de l'autre, qu'elle doit travailler principalement
+                        <lb/>au salut de ses fréres, &amp; que
+                        <lb/>les autres biens qu'elle leur procure
+                        <lb/>doivent être soûmis à celui-là. Tels
+                            <lb/>sont les Effets de la Charité. <quote source="bible1588.xml#_1John.3.18">
+                            <hi rend="I">Bien-aimez</hi> ,<note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#_1John.3.18">I. Jean <lb/>III.I8.</ref>
+                            </note>
+                            <lb/><seg type="interpolation">dit Saint Jean,</seg>
+                            <hi rend="I">n'aimez point de
+                                <lb/>paroles ni de langue,mais par des œuvres
+                                <lb/>&amp; avec vérité</hi></quote>.</supplied>
+                    </p>
+                    <p n="12"><supplied prev="#BGE_Bd_555" resp="#ARE" reason="damage" source="BGE Bd 555">
+                        <lb/>IV. L'Objet de la Charité , ce
+                        <lb/>sont <hi rend="I">tous les Hommes</hi> , sans aucune limitation.
+                        <lb/>
+                        <quote source="bible1588.xml#Gal.6.10">
+                            <hi rend="I">Faites du bien à tous</hi>
+                        </quote> , dit<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Gal.6.10">Gal. VI. <lb/>I0</ref>
+                        </note>
+                        <lb/>Saint Paul. Le Juif peu tendre bornoit
+                        <lb/>son amitié à ceux qui étoient de
+                        <lb/>sa Nation ; &amp; pour les autres, il leur <fw place="bot-right" type="catch">refu-</fw></supplied>
+                        <pb n="16"/>
+                        <lb/>refusoit <ref target="#fn_16_1" type="noteAnchor">*</ref> les plus communs devoirs
+                        <lb/>de l'Humanité. Mais Jésus-Christ ôte
+                        <lb/>ces distinctions. Il veut que nos Prochains,
+                        <lb/>ce soient tous les Hommes, &amp;
+                        <lb/>qu'ainsi nôtre amour s'étende sur tous.
+                        <lb/>Il n'excepte pas même nos ennemis.
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.5.44">Matt.<lb/>V.44.</ref>
+                        </note>
+                        <supplied resp="#ARE" reason="damage" source="BGE Bd 555"><quote source="bible1588.xml#Matt.5.44">
+                            <hi rend="I">Aimez vos ennemis</hi> , <seg type="interpolation">dit-il à ses Disciples , </seg>
+                            <lb/>
+                            <hi rend="I">benissez ceux qui vous maudissent ,
+                                <lb/>&amp; faites du bien à vos persécuteurs</hi></quote>.
+                        <lb/>Je sai bien qu'il y a des distinctions
+                        <lb/>à faire dans l'exercice de la Charité,
+                        <lb/>&amp; que nous ne pouvons , ni ne
+                        <lb/>devons donner des marques égales
+                        <lb/>d'amour à tous les Hommes. Mais
+                        <lb/>premiérement, nous sommes obligez
+                        <lb/>de n'avoir de haine pour qui que ce
+                        <lb/>soit ; En second lieu, il n'y a personne
+                        <lb/>à qui nous ne devions souhaiter du
+                        <lb/>bien , &amp; à qui nous ne devions être
+                        <lb/>prêts d'en faire, lors que les occasions
+                        <lb/>s'en présentent. Du reste, il est permis,
+                        <lb/>&amp; il est juste même , de faire un
+                        <lb/>choix &amp; une différence dans l'application
+                        <lb/>de la Charité. Ainsi, Saint Paul <fw place="bot-right" type="catch">veut</fw>
+                        <note xml:id="fn_16_1" type="foot" n="*"><quote type="other" source="# ...">
+                            <foreign xml:lang="la"><hi rend="I">Non monstrare vias eadem nisi sacracolenti : 
+                                <lb/>Quesitum
+                                ad fontem solos deducere
+                                <lb/>Verpos</hi></foreign>
+                        </quote>.
+                            
+                            <ref type="other">Juvenal. Sat. XIV.</ref>
+                            <lb/><quote type="other" source="# ...">
+                                <foreign xml:lang="la"><hi rend="I">Apud ipsos fides obstinata, misericordia in 
+                                    <lb/>promptu , sed adversus omnes alios hostile 
+                                    <lb/>odium</hi></foreign></quote>.
+                            <ref type="other">Tacit. Histor. lib. V.</ref>
+                        </note>
+                        </supplied>
+                        <pb n="17"/>
+                        <lb/>veut que l'on préfere ceux avec qui
+                        <lb/>nous sommes unis par le lien d'une
+                        <lb/>même Foi. Faisons du bien à tous, dit-il
+                        <lb/>aux Galates, <quote source="bible1588.xml#Gal.6.10">
+                            <hi rend="I">mais principalement aux</hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Gal.6.10">Gal. VI.<lb/>I</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">domestiques de la Foi</hi></quote>. Ainsi, il est juste
+                        <lb/>de préferer, &amp; nos parens, &amp; nos bienfaiteurs,
+                        <lb/>&amp; nos amis particuliers, &amp; sur
+                        <lb/>tout ceux qui sont distinguez par leur
+                        <lb/>piété &amp; par leur vertu. Mais tout cela
+                        <lb/>encore doit être ménagé avec tant de
+                        <lb/>sagesse &amp; tant de prudence, que les distinctions
+                        <lb/>qu'on fait n'ayent en vûë que
+                        <lb/>de faire par là un plus grand bien , &amp;
+                        <lb/>que du reste, comme j'ai déjà dit, nous
+                        <lb/>ne refusions nôtre amour à personne. </p>
+                    <p n="13">
+                        <lb/>V. Une autre chose que nous avons
+                        <lb/>marquée, c'est la Mesure de la Charité.
+                        <lb/>Jésus-Christ l'a posée, lors qu'il a commandé
+                        <lb/>d'aimer le Prochain <quote source="bible1588.xml#Matt.22.39">c<hi rend="I">omme on</hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Matt.22.39">Matth.<lb/>XXII.<lb/>38.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">s'aime
+                            soi-même</hi></quote>. Je sai
+                        bien qu'on peut
+                        <lb/>entendre par là, qu'il faut sincérement
+                        <lb/>aimer nos Prochains,comme nous nous
+                        <lb/>aimons sincérement nous-mêmes , &amp;
+                        <lb/>qu'il faut que nôtre amour pour eux soit
+                        <lb/>agissant , comme l'est l'amour qu'on a
+                        <lb/>pour soi même. Mais il y a plus ici ;
+                        <lb/>Il y a le degré, jusqu'où doit aller l'amour
+                        <lb/>de nos freres. C'est que leurs <fw place="bot-right" type="catch">intérets</fw>
+                        <pb n="18"/>
+                        <lb/>intérets doivent se confondre avec nos
+                        <lb/>propres intérets. Nous devons regarder
+                        <lb/>leurs maux comme nos maux, &amp;
+                        <lb/>leurs avantages comme les nôtres. En un mot,
+                        <lb/>nous devons en user avec eux,
+                        <lb/>de la même maniere que nous souhaiterions
+                        <lb/>qu'ils en usassent avec nous, posé
+                        <lb/>que nous fussions en leur place. Je sai
+                        <lb/>que l'Amour propre écoute avec peine
+                        <lb/>un précepte comme celui-ci. Cette
+                        <lb/>communion d'intérets lui paroît impraticable ;
+                        <lb/>&amp; il met toûjours une différence
+                        <lb/>presqu'infinie entre soi &amp; les autres.
+                        <lb/>Mais dans le fond, il n'y a rien là,
+                        <lb/>qui ne soit tres-possible &amp; même tres-aisé.
+                        <lb/>En effet, sans parler des Exemples
+                        <lb/>illustres de la Charité qui sont dans
+                        <lb/>l'Ecriture, Qui ne sait combien l'amitié
+                        <lb/>mondaine a de force pour nous
+                        <lb/>unir, &amp; pour confondre nos intérets ?
+                        <lb/>Ainsi, pourquoi la Charité Chrêtienne
+                        <lb/>n'aura-t-elle pas autant d'efficace que
+                        <lb/>les amitiez mondaines en ont ? Qui ne
+                        <lb/>sait même que ce que l'Evangile nous
+                        <lb/>ordonne dans cette occasion , c'est ce
+                        <lb/>qu'une simple honnêteté fait témoigner
+                        <lb/>à tous les gens du Monde ? Ainsi, si
+                        <lb/>le Mondain fait profession d'aimer les <fw place="bot-right" type="catch">autres</fw>
+                        <pb n="19"/>
+                        <lb/>autres hommes comme il s'aime soi-même,
+                        <lb/>s'il fait profession d'être aussi
+                        <lb/>fâché de leurs maux que des siens propres ,
+                        <lb/>Pourquoi le Chrêtien ne sera-t-il
+                        <lb/>pas , d'une maniére sincére &amp; réelle,
+                        <lb/>ce que le Mondain fait profession d'être ? </p>
+                    <p n="14">
+                        <lb/>VI. Enfin, le dernier caractére,
+                        <lb/>que nous avons donné à la Charité,
+                        <lb/>c'est qu'elle doit régler toute nôtre vie,
+                        <lb/>&amp; animer toutes nos actions. <quote source="bible1588.xml#Eph.5.2">
+                            <hi rend="I">Marchez</hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Eph.5.2">Ephes.<lb/>V.2 </ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">dans la Charité</hi>
+                        </quote>, dit Saint Paul, c'est-à-dire,
+                        <lb/>qu'elle soit la régle de toute vôtre
+                        <lb/>conduite ; <quote source="bible1588.xml#_1Cor.16.14">
+                            <hi rend="I">Et que toutes vos actions</hi>,<note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#_1Cor.16.14">I.Cor.<lb/>XVI.I4.</ref>
+                            </note>
+                            <lb/><seg type="interpolation">dit-il ailleurs ,</seg>
+                            <hi rend="I">soïent faites en charité</hi></quote>.
+                        <lb/>Quantité de gens suivent la Charité,
+                        <lb/>dans quelques occasions &amp; à quelques
+                        <lb/>égards ; Mais ils la négligent en d'autres.
+                        <lb/>On en voit qui donnent aux pauvres,
+                        <lb/>mais qui en même tems se laissent
+                        <lb/>aller à la colére ou à la médisance. On
+                        <lb/>en voit, qui, comme Particuliers , se
+                        <lb/>croïent obligez d'être charitables; Mais
+                        <lb/>quand ils sont membres de certains
+                        <lb/>Corps , ils prétendent en être dispensez.
+                        <lb/>Tous ces partages sont condannables.
+                        <lb/>Il faut que la Charité regne sans
+                        <lb/>cesse en nous, &amp; qu'elle soit toûjours <fw place="bot-right" type="catch">sem-</fw>
+                        <pb n="20"/>
+                        <lb/>semblable à elle-même. Il faut qu'elle
+                        <lb/>anime nos actions, qu'elle conduise nos
+                        <lb/>paroles, quelle régle même nos pensées.
+                        <lb/>Il faut qu'elle influë dans tous nos
+                        <lb/>desseins, &amp; dans toutes nos résolutions ;
+                        <lb/>Que le Particulier l'exerce, en qualité
+                        <lb/>de Particulier ; Que l'homme Public
+                        <lb/>l'éxerce dans sa Charge. A moins que
+                        <lb/>de cela, l'on ne peut pas dire qu'on ait
+                        <lb/>une vraïe Charité. </p>
+                    <p n="15">
+                        <lb/>Mais, Mes Freres, en voilà assez sur
+                        <lb/>les Caractéres de cette Vertu. Chacun
+                        <lb/>se peut juger là dessus soi-même. Chacun
+                        <lb/>peur sentir si l'amour qu'il a , ou
+                        <lb/>qu'il se vante d'avoir pour ses freres , a
+                        <lb/>pour principe l'Amour de Dieu. Chacun
+                        <lb/>peut sentir si c'est un amour bien
+                        <lb/>sincére , &amp; bien véritable. Chacun
+                        <lb/>peut sentir s'il en fait les œuvres, soit
+                        <lb/>en ne faisant point de mal au Prochain,
+                        <lb/>soit en lui faisant au contraire tout le
+                        <lb/>bien qui lui est possible. Chacun peut
+                        <lb/>voir aprés cela, si son amour s'étend à
+                        <lb/>tous les Hommes, &amp; même à ses ennemis.
+                        <lb/>Chacun peut voir encore s'il aime
+                        <lb/>ses Prochains de la maniére dont il
+                        <lb/>s'aime soi même, &amp; s'il entre dans leurs
+                        <lb/>intérets, comme dans ses intérets propres. <fw place="bot-right" type="catch">pres.</fw>
+                        <pb n="21"/>
+                        <lb/>Chacun peut voir enfin si ces sentimens-là
+                        <lb/>se répandent dans toute sa
+                        <lb/>conduite, &amp; s'il ne se dément jamais à
+                        <lb/>cet égard. Ce qu'il y a de sûr , c'est
+                        <lb/>que ceux qui n'ont pas ces saintes dispositions,
+                        <lb/>manquent d'une Vertu qui est
+                        <lb/>d'un côté tres-excellente en elle-même,
+                        <lb/>&amp; qui de l'autre est tres-importante
+                        <lb/>&amp; tres-nécessaire dans le Christianisme ;
+                        <lb/>comme nous allons tâcher de le
+                        <lb/>montrer dans nôtre seconde Partie. </p>
+                </div>
+                <div n="2" type="sub">
+                    <head type="sub">
+                        <lb/>SECONDE PARTIE.</head>
+                    <p n="16">
+                        <lb/>JE dis , Mes Fréres , que la
+                        <lb/>Charité est tres-excellente
+                        <lb/>par elle-même ; Et c'est ce qui paroît
+                        <lb/>de quelque maniére qu'on vueille regarder.
+                        <lb/>Déjà , c'est la nature même<note type="margin">I.</note>
+                        <lb/>qui nous l'inspire ; Car, puisque la nature
+                        <lb/>nous a tous faits semblables, puisque
+                        <lb/>la nature nous a tous faits , afin
+                        <lb/>que nous vivions ensemble, puis que
+                        <lb/>la nature aussi nous a faits tels , que
+                        <lb/>nous avons tous besoin du secours &amp;
+                        <lb/>de l'assistance des autres hommes, ne
+                        <lb/>nous dit-elle pas assez clairement que
+                        <lb/>nous nous devons aimer les uns les
+                        <lb/>autres ? D'ailleurs, qui ne sait que nous <fw place="bot-right" type="catch">avons</fw>
+                        <pb n="22"/>
+                        <lb/>avons tous certaines pentes naturelles
+                        <lb/>&amp; invincibles à la Charité ? Qui ne
+                        <lb/>fait , par exemple , que nous avons
+                        <lb/>tous un penchant naturel à la Compassion ,
+                        <lb/>Jusques-là qu'on ne peut, ni voir
+                        <lb/>le mal d'autrui , ni seulement en entendre
+                        <lb/>parler , sans en ressentir une
+                        <lb/>douleur secréte, Jusques-là même qu'il
+                        <lb/>arrive souvent , que des récits tragiques,
+                        <lb/>quoi que faux, ne laissent pas d'arracher
+                        <lb/>des larmes ? Tant il est vrai
+                        <lb/>que nous sommes tous faits naturellement
+                        <lb/>pour nous entr'aimer. Et c'est
+                        <lb/>pour cela, que tous les sentimens , qui
+                        <lb/>ont quelque rapport à la Charité, s'appellent
+                        <lb/>
+                        <hi rend="I">Humanité</hi>
+                         dans le Monde, parce
+                        <lb/>qu'en effet rien n'est plus convenable
+                        <lb/>à la nature de l'Homme , ni
+                        <lb/>plus conforme au penchant de son
+                        <lb/>cœur. </p>
+                    <p n="17">
+                        <lb/>
+                        <note type="margin">II.</note>Que si l'on consulte ensuite la Justice ,
+                        <lb/>qu'y a-t-il de plus juste que la
+                        <lb/>Charité ? Car , puisque chacun souhaite
+                        <lb/>d'être aimé, puisque chacun souhaite
+                        <lb/>qu'on lui fasse du bien, puisque
+                        <lb/>chacun même se plaint des autres,
+                        <lb/>quand ils lui refusent leurs services;
+                        <lb/>Quoi de plus juste que d'en user nous <fw place="bot-right" type="catch">mêmes,</fw>
+                        <pb n="23"/>
+                        <lb/>mêmes, comme nous souhaitons qu'on
+                        <lb/>en use avec nous ? Et c'est ce que Jésus-Christ
+                        <lb/>fait tres-bien sentir dans
+                        <lb/>cette belle Sentence , qui porte avec
+                        <lb/>elle les caractéres &amp; les preuves de son
+                        <lb/>equité, <quote source="bible1588.xml#Matt.7.12">
+                            <hi rend="I">Ce que vous voudrez, </hi><seg type="interpolation">dit-il,</seg>
+                            <hi rend="I">que </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Matt.7.12">Matt. <lb/>VII.12.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">les hommes vous fassent , faites le leur
+                                <lb/>aussi à vôtre tour</hi>
+                        </quote> : Sentence, qui fut si fort
+                        <lb/>approuvée par un <ref target="#fn_23_1" type="noteAnchor">*</ref> Empereur Payen,
+                        <lb/>qu'il la faisoit graver dans son Palais, &amp;
+                        <lb/>sur les Edifices publics , qu'il la faisoit
+                        <lb/>publier par un héraut, quand on punissoit
+                        <lb/>quelque Criminel, &amp; qu'il l'avoit
+                        <lb/>lui-même tres-souvent dans la bouche. </p>
+                    <p n="18">
+                        <lb/>Je demande encore , Est-il rien <note type="margin">III.</note>
+                        <lb/>de si noble que la pratique de la
+                        <lb/>Charité ? En effet, qui sont ceux que
+                        <lb/>nous regardons comme des ames basses
+                        <lb/>&amp; rampantes ? Ne sont-ce pas
+                        <lb/>ceux qui pensent sans cesse à leur profit <fw place="bot-right" type="catch">fit</fw>
+                        <note xml:id="fn_23_1" type="foot" n="*"> Alexandre Severe. <quote type="other" source="# ..."><foreign xml:lang="la">
+                            <hi rend="I">Clamabat Saepïus
+                                <lb/>quod à quibusdam, sive Iudaeis ; sive
+                                Christianis
+                                <lb/>audierat , &amp; tenebat : idque per praeconem, 
+                                <lb/>quum
+                                aliquem emendaret , dici jubebat ,
+                                <lb/></hi> QUOD TIBI NON VIS,
+                            ALTERI 
+                            <lb/>NE FECERIS<hi rend="I">. Quam sententiam usque adeo 
+                                <lb/>dilexit,
+                                ut &amp; in palatio &amp; in publicis operibus 
+                                <lb/>praescribi
+                            </hi>j<hi rend="I">uberet</hi>
+                        </foreign></quote>. <ref type="other"><foreign xml:lang="la">Lampridius in Alexandro Severo.</foreign></ref>
+                        </note>
+                        <pb n="24"/>
+                        <lb/>particulier ? Qui sont au contraire
+                        <lb/>ceux que nous regardons comme des
+                        <lb/>ames grandes &amp; élevées ? Ne sont-ce
+                        <lb/>pas ceux qui sont plus touchez du bien
+                        <lb/>public que de leur bien propre ? Ne
+                        <lb/>sont-ce pas ceux qui sacrifient, &amp; leurs
+                        <lb/>biens, &amp; leurs peines, &amp; leur vie, pour
+                        <lb/>l'utilité des autres Hommes ? C'est-à-dire
+                        <lb/>ceux qui sont animez d'un esprit
+                        <lb/>conforme à la Charité ? Qu'on lise
+                        <lb/>l'histoire de tous les Siécles, &amp; de tous
+                        <lb/>les Peuples du Monde ; Qu'on voye
+                        <lb/>qui sont ceux qu'on a le plus loüez,
+                        <lb/>qu'on a le plus admirez, qu'on a le plus
+                        <lb/>chéris, à qui l'on a le plus dressé de statuës ;
+                        <lb/>Ne sont-ce pas ceux qui se sont distinguez
+                        <lb/>par le bien qu'ils ont fait
+                        <lb/>aux Hommes ? Mais ce qui reléve sur
+                        <lb/>tout la Charité, c'est qu'elle sert plus
+                        <lb/>que toute autre chose à nous rendre
+                        <lb/>semblables à Dieu. Ouï, <quote source="bible1588.xml#_1John.4.8">
+                            <hi rend="I">Dieu est Charité</hi>
+                        </quote>,
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1John.4.8">Jean <lb/>V.8.</ref>
+                        </note> dit l'Apôtre Saint Jean. La Charité
+                        <lb/>n'est pas seulement la plus illustre
+                        <lb/>de ses Perfections, &amp; le plus beau rayon
+                        <lb/>de sa Gloire ; C'est , pour ainsi dire,
+                        <lb/>son Essence même. Toute la Nature
+                        <lb/>prêche hautement l'infinie Charité de
+                        <lb/>Dieu , puisque ce n'est que pour faire <fw place="bot-right" type="catch">du</fw>
+                        <pb n="25"/>
+                        <lb/>du bien, &amp; pour donner des marques
+                        <lb/>de sa Bonté , que Dieu a formé un si
+                        <lb/>grand nombre d'Etres. Toutes les œuvres
+                        <lb/>de la Providence publient aussi la
+                        <lb/>Charité de Dieu , puisque tout , jusqu'aux
+                        <lb/>plus petites choses, a un rapport
+                        <lb/>visible au bien des Hommes. Sur tout,
+                        <lb/>la Charité de Dieu se fait voir dans le
+                        <lb/>support qu'il a pour les mêchans , &amp;
+                        <lb/>dans les biens dont il les comble ;
+                        <lb/>
+                        <quote source="bible1588.xml#Matt.5.45">
+                            <hi rend="I">Car il fait lever son Soleil sur les bons &amp; </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Matt.5.45">Mat. V. <lb/>45.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">sur les mauvais, &amp; il fait tomber sa pluye
+                                <lb/>sur les justes &amp; sur les injustes</hi></quote>. Mais ce
+                        <lb/>qui surpasse encore tout cela, c'est l'incomprehensible
+                        <lb/>Charité de Dieu , qui
+                        <lb/>éclate dans l'Evangile. Qu'est-ce donc,
+                        <lb/>Qu'est-ce donc qui peut le plus servir
+                        <lb/>à nous rendre semblables à cet <choice><sic>E'tre</sic><corr resp="#ARE">Être</corr></choice>
+                        <lb/>Parfait ? N'est-ce pas d'aimer tous les
+                        <lb/>Hommes, comme nous voyons qu'il
+                        <lb/>les aimes ? N'est-ce pas de répandre sur
+                        <lb/>eux nos biens ? N'est-ce pas de leur
+                        <lb/>pardonner leurs fautes ? N'est-ce pas
+                        <lb/>en un mot d'être imitateurs de cette
+                        <lb/>immense Charité de Dieu ? Certes,
+                        <lb/>cette conduite a paru si Divine à toutes
+                        <lb/>les Nations de la Terre , que si la
+                        <lb/>Superstition a élevé des Hommes sur <fw place="bot-right" type="catch">le</fw>
+                        <pb n="26"/>
+                        <lb/>le trône de la Divinité, <ref target="#fn_26_1" type="noteAnchor">*</ref> c'étoyent
+                        <lb/>des Hommes qui avoient rendu des
+                        <lb/>services tres-considerables,ou au Genre
+                        <lb/>humain,ou a leur Patrie. </p>
+                    <p n="19">
+                        <lb/>
+                        <note type="margin">IV.</note> Aprés cela , Mes Freres, que ne
+                        <lb/>peut-on pas dire des usages de la
+                        <lb/>Charité , non seulement à l'égard de
+                        <lb/>ceux à qui elle fait du bien, mais sur
+                        <lb/>tout à l'égard de ceux qui la pratiquent ?
+                        <lb/>Quoi de plus contraire à nôtre
+                        <lb/>repos, Quoi de plus contraire à nôtre
+                        <lb/>bonheur, que tous les sentimens, &amp;
+                        <lb/>de colére, &amp; de haine, &amp; de jalousie, &amp;
+                        <lb/>de vengeance, enfin que toutes les passions
+                        <lb/>qui sont opposées à la Charité ?
+                        <lb/>Quoi au contraire de plus agréable &amp;
+                        <lb/>de plus satisfaisant, que tous les sentimens
+                        <lb/>de douceur, de bien-vueillance,
+                        <lb/>de tendresse, que la Charité nous inspire ?
+                        <lb/>Quel plaisir de pouvoir se regarder
+                        <lb/>soi-même, comme le Pere, comme le
+                        <lb/>Protecteur , de ceux à qui on fait du bien ? <fw place="bot-right" type="catch">bien ?</fw>
+                        <note xml:id="fn_26_1" type="foot" n="*"> <quote type="other" source="# ..."><foreign xml:lang="la">
+                            <hi rend="I">Suscepit vita hominum, consuetudòque 
+                                <lb/>communis, ut
+                                beneficiis excellentes viros in 
+                                <lb/>caelum fama at voluntate
+                                tollerent</hi></foreign></quote>.
+                            <ref type="other"><foreign xml:lang="la">Cicer. 
+                                <lb/>de Nat. Deor. lib. I.</foreign></ref>
+                            <quote type="other" source="# ..."><foreign xml:lang="la">
+                                <hi rend="I">Hic est vetustissimus referendi 
+                                    <lb/>benemerentibus gratiam
+                                    mos,ut tales 
+                                    <lb/>numinibus adscribantur</hi></foreign>
+                            </quote>.
+                            <ref type="other"><foreign xml:lang="la">Plin. nat. hist. lib.2. cap.7.</foreign></ref>
+                            <lb/><quote type="other" source="# ..."><foreign xml:lang="la">
+                                <hi rend="I">Deus est mortali , juvare mortalem</hi>
+                            </foreign></quote>. 
+                            <lb/>ibid.</note>
+                        <pb n="27"/>
+                        <lb/>Non, les Mondains diront ce
+                        <lb/>qu'ils voudront des différens plaisirs
+                        <lb/>dont ils jouïssent ; Nous osons assurer
+                        <lb/>qu'ils n'en ont aucun, qui approche de
+                        <lb/>celui-ci. D'ailleurs , quel moyen plus
+                        <lb/>sûr pour être aimez, pour être servis,
+                        <lb/>pour être secourus dans tous nos besoins
+                        <lb/>par les autres Hommes , que de
+                        <lb/>les aimer nous-mêmes, &amp; que de les
+                        <lb/>servir dans les occasions ? Quoi même
+                        <lb/>de plus propre à toucher le cœur de
+                        <lb/>nos ennemis les plus implacables, &amp; à
+                        <lb/>changer <ref target="#fn_27_1" type="noteAnchor">*</ref> leur haine en amitié ? </p>
+                    <p n="20">
+                        <lb/>Mais enfin , disons que si la Charité <note type="margin">V.</note>
+                        <lb/>est avantageuse à ceux qui la pratiquent ,
+                        <lb/>elle est sur tout infiniment
+                        <lb/>utils à toute la Societé. Car enfin d'où
+                        <lb/>viennent tant de querelles, tant de procés,
+                        <lb/>tant de meurtres, &amp; sur tout tant
+                        <lb/>de guerres sanglantes, qui bouleversent
+                        <lb/>si souvent les Etats, &amp; qui sont si funestes
+                        <lb/>au Genre humain ? N'est-ce pas du
+                        <lb/>defaut de Charité ? N'est-ce pas de ce
+                        <lb/>qu'on cherche à s'élever les uns sur les
+                        <lb/>autres, &amp; de ce qu'on sacrifie tout à sa <fw place="bot-right" type="catch">gloire</fw>
+                        <note xml:id="fn_27_1" type="foot" n="*"> <quote type="other" source="# ..."><foreign xml:lang="la">
+                            <hi rend="I">Irascitur aliquis ? tu contrà beneficiis 
+                                <lb/>provoca. Cadit
+                                statim simultas ab alterâ 
+                                <lb/>parte deserta </hi>;<hi rend="I"> Nisi
+                                    par non pugnat</hi></foreign></quote>.
+                            <ref type="other"><foreign xml:lang="la">Senec.
+                                <lb/><hi rend="I"> de Ira. </hi>lib. 2.cap.
+                                34.</foreign></ref>
+                        </note>
+                        <pb n="28"/>
+                        <lb/>gloire &amp; à son profit ? Mettez au contraire
+                        <lb/>la Charité. Vous verrez d'abord
+                        <lb/>cesser tous ces desordres. On
+                        <lb/>ne fera aucun tort à personne, &amp; l'on
+                        <lb/>n'en recevra aucun. Il n'y aura parmi
+                        <lb/>nous ni envie, ni jalousie ni haine. Nous
+                        <lb/>serons heureux par les avantages des
+                        <lb/>autres , &amp; nous ne penserons tous
+                        <lb/>qu'à nous aider &amp; à nous secourir réciproquement.
+                        <lb/>Ainsi , la Société ne sera,
+                        <lb/>pour ainsi dire, qu'une seule famille, où
+                        <lb/>l'on verra regner une paix, une union,
+                        <lb/>une concorde, que rien de sauroit troubler ;
+                        <lb/>Ou pour mieux dire, la Terre elle-même
+                        <lb/>deviendra un vrai Paradis, où
+                        <lb/>l'on goûtera des douceurs infinies.
+                        <lb/>Concluons donc qu'il n'est rien de
+                        <lb/>plus juste, de plus excellent, ni de plus
+                        <lb/>utile, que la pratique de la Charité, à
+                        <lb/>la regarder en elle-même. Mais j'ai
+                        <lb/>ajouté qu'elle est tres importante,&amp; capitale
+                        <lb/>même dans le Christianisme ; Et
+                        <lb/>c'est ce qu'il est aisé de faire voir. </p>
+                    <p n="21">
+                        <lb/>
+                        <note type="margin">I. </note> II. Effectivement, c'est la Charité,
+                        <lb/>que le Seigneur Jésus recommande
+                        <lb/>le plus, &amp; qu'il fait regarder par
+                        <lb/>tout comme l'essence &amp; comme le but
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#John.15.12">Jean <lb/>XV.12.</ref>
+                        </note> de toute sa Doctrine. <quote source="bible1588.xml#John.15.12">
+                            <hi rend="I">C'est ici</hi>, <seg type="interpolation">dit-il,</seg> <fw place="bot-right" type="catch">
+                                <hi rend="I">mon</hi>
+                            </fw>
+                            <pb n="29"/>
+                            <lb/>
+                            <hi rend="I">mon commandement</hi>, <seg type="interpolation">mon commandement
+                            <lb/>capital, mon commandement par
+                                <lb/>excellence ,</seg>
+                            <hi rend="I">que vous vous aimiez les
+                                <lb/>uns les autres</hi>
+                        </quote>. Il appelle même ce commandement,
+                        <lb/>
+                        <quote source="bible1588.xml#John.13.34">
+                            <hi rend="I">un commandement nouveau</hi>
+                        </quote> ; <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#John.13.34">Jean <lb/>XIII.34.</ref>
+                        </note>
+                        <lb/>Non pas pour dire qu'il étoit inconnu,
+                        <lb/>avant que Jésus fut venu au Monde, car
+                        <lb/>à cet égard Saint Jean reconnoît que
+                        <lb/>c'est <quote source="bible1588.xml#_1John.2.7">
+                            <hi rend="I">un commandement ancien</hi>
+                        </quote> ; Mais il <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1John.2.7">I. Jean <lb/>II.7.</ref>
+                        </note>
+                        <lb/>est <quote source="bible1588.xml#JOhn.13.34">
+                            <hi rend="I">nouveau</hi>
+                        </quote> dans le Christianisme, parce que
+                        <lb/>Jésus lui donne une force toute
+                        <lb/>nouvelle, parce qu'il y insiste beaucoup
+                        <lb/>plus que ne faisoient tous les autres Docteurs ,
+                        <lb/>&amp; qu'il en fait même le but, &amp;
+                        <lb/>le principal point de toute sa Doctrine.
+                        <lb/>
+                        <quote source="bible1588.xml#John.13.35">
+                            <hi rend="I">C'est à ceci</hi>, <seg type="interpolation">dit encore
+                                Jésus-Christ,</seg> <hi rend="I">C'est</hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#John.13.35">Jean XIII.35.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">à ceci que l'on connoîtra que vous étes mes
+                                <lb/>Disciples, si vous vous aimez les uns les
+                                <lb/>autres</hi>
+                        </quote>. Chaque Religion avoit certaines
+                        <lb/>marques, qui la distinguoient des
+                        <lb/>autres Religions. Chaque Secte de
+                        <lb/>Philosophes, chaque Société de Docteurs,
+                        <lb/>avoit, ou certains sentimens, ou
+                        <lb/>certaines coûtumes particulieres, qui la
+                        <lb/>caractérisoient. Voulez-vous savoir la
+                        <lb/>marque que prend Jésus, pour distinguer
+                        <lb/>son Eglise ? C'est l'Amour réciproque
+                        <lb/>de ses Sectateurs. Lisez les Divins <fw place="bot-right" type="catch">vins</fw>
+                        <pb n="30"/>
+                        <lb/>Sermons qu'il faisoit, pendant qu'il
+                        <lb/>étoit sur la terre ; Vous verrez qu'il insiste
+                        <lb/>perpétuellement sur les devoirs de la
+                        <lb/>Charité. Tantôt il déclare qu'on est
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.5.5:7:9">Matt. V. <lb/>5. 7. 9.</ref>
+                        </note> bienheureux, quand on est doux, quand
+                        <lb/>on est pacifique, quand on est plein de
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.5.22">
+                                ꝟ.22</ref>
+                        </note> miséricorde. Tantôt il ordonne de s'abstenir <lb/>de tous les termes
+                        injurieux. Tantôt <lb/>il montre que la colére est aussi criminelle
+                        <lb/>que l'homicide. Tantôt il fait
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.5.23:34">
+                                ꝟ.23.34.</ref>
+                        </note> voir que la Miséricorde doit aller devant
+                        <lb/>tous les sacrifices,&amp; qu'ainsi quand
+                        <lb/>on a quelque différent , il faut plutôt
+                        <lb/>quitter son sacrifice , que de ne se pas
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.5.39-42">
+                                ꝟ.39. 40. 41. 42.</ref>
+                        </note> réconcilier. Tantôt il enseigne qu'il
+                        <lb/>faut renoncer à tout sentiment de vengeance,
+                        <lb/>&amp; qu'il faut être doux &amp; bienfaisant
+                        <lb/>pour ceux qui nous demandent
+                        <lb/>des graces. Tantôt il presse le grand
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.5.44-45">
+                                ꝟ.44.<lb/>45.&amp;c.</ref>
+                        </note> devoir de l'Amour des ennemis, &amp; il
+                        <lb/>montre que c'est sur tout en cela qu'il
+                        <lb/>faut imiter nôtre Pere Céleste. Tantôt
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Luke.16.19">Luc. <lb/>XVI. I9.<lb/>&amp;c.</ref>
+                        </note> sous l'image d'un mauvais Riche, il
+                        <lb/>montre combien on est criminel, quand
+                        <lb/>on ne donne pas de son bien aux Pauvres.
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.18">Matt. <lb/>XVIII.</ref>
+                        </note> Tantôt sous l'image d'un serviteur
+                        <lb/>cruel, qui ne veut rien céder à ses
+                        <lb/>compagnons, quoique son Maître lui ait <fw place="bot-right" type="catch">quitté</fw>
+                        <pb n="31"/>
+                        <lb/>quitté une dette considerable,il fait voir
+                        <lb/>l'injustice de ceux qui prétendent que
+                        <lb/>Dieu leur pardonne leurs péchez,&amp; qui
+                        <lb/>ne veulent rien pardonner à leurs freres.
+                        <lb/>Tantôt enfin, faisant la description <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.25.35">Matt. <lb/>XXV. <lb/>35.&amp;c.</ref>
+                        </note>
+                        <lb/>du Grand Jour du Jugement, il fait voir
+                        <lb/>que les Hommes seront sur tout jugez,
+                        <lb/>suivant l'application qu'ils auront apportée
+                        <lb/>aux œuvres de la Bénéficence.En
+                        <lb/>un mot,il faudroit que nous récitassions
+                        <lb/>d'un bout à l'autre tous les Evangiles,
+                        <lb/>qui voudroit rapporter tout ce que dit
+                        <lb/>Jésus sur l'importance de la Charité. </p>
+                    <p n="22">
+                        <lb/>Mais s'il y insiste si fort dans ses Discours , <note type="margin">II.</note>
+                        <lb/>il n'y insiste pas moins dans
+                        <lb/>ses Actions, &amp; c'est à cet égard sur tout
+                        <lb/>qu'il nous présente un Modéle parfait à
+                        <lb/>imiter. Lisez toute l'Histoire de ce Divin
+                        <lb/>Sauveur , depuis le tems qu'il prit
+                        <lb/>nôtre nature , jusqu'à ce qu'il fut élevé
+                        <lb/>dans le Ciel ; Vous n'y verrez qu'un
+                        <lb/>exercice continuel de Charité. C'est la
+                        <lb/>Charité, qui le fait descendre du Trône
+                        <lb/>de sa Gloire , pour se venir charger de
+                        <lb/>nos foiblesses.C'est elle qui le fait aller de
+                        <lb/>bourgade en bourgade,de ville en ville,
+                        <lb/>pour prêcher les Mystéres du Royaume
+                        <lb/>des Cieux.C'est elle qui lui fait faire tous <fw place="bot-right" type="catch">ses</fw>
+                        <pb n="32"/>
+                        <lb/>ses Miracles, car ils ne tendent tous qu'à
+                        <lb/>l'utilité &amp; au soulagement des Hommes.
+                        <lb/>C'est elle qui le fait vivre dans la
+                        <lb/>bassesse, dans la pauvreté, dans le mépris ,
+                        <lb/>&amp; qui lui fait souffrir une mort
+                        <lb/>pleine de douleurs &amp; d'ignominie. C'est
+                        <lb/>elle enfin qui tire de sa bouche, au milieu
+                        <lb/>même de ses tourmens,une tendre priére
+                        <lb/>pour ses bourreaux : Tel est l'Exemple
+                        <lb/>de Jésus-Christ, &amp; tel est le chemin
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.11.29">Matt. <lb/>XI. 29.</ref>
+                            <ref type="bible" target="bibleSegond21.xml#John.13.15">Jean <lb/>XIII.15.</ref>
+                        </note> où il veut qu'on le suive. <quote source="bible1588.xml#Matt.11.29">
+                            <hi rend="I">Apprenez de
+                                <lb/>moi, </hi><seg type="interpolation">dit-il,</seg><hi rend="I">à être
+                                doux</hi>
+                        </quote>.
+                        <hi rend="I"> </hi>
+                        <quote source="bible1588.xml#John.13.15">
+                            <hi rend="I">Ie vous ai donné ces
+                                <lb/>exemples, afin que vous suiviez mes traces</hi>
+                        </quote>.
+                        <lb/>Et c'est ici mon commandement , que
+                        <lb/>vous vous aimiez l'un l'autre, <quote source="bible1588.xml#John.15.12">
+                            <hi rend="I">comme je</hi>
+                            <lb/>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#John.15.12">Jean <lb/>XV.I2.</ref>
+                            </note>
+                            <hi rend="I">vous ai aimez</hi></quote>.
+                    </p>
+                    <p n="23">
+                        <lb/>
+                        <note type="margin">III.</note> Que si du Maître nous passons
+                        <lb/>aux Disciples , il ne nous feront pas
+                        <lb/>sentir moins fortement l'Importance
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Jas.2.8">Jaq.II.8</ref>
+                            <lb/><ref type="bible" target="bibleSegond21.xml#Jas.1.27">Jaq.I.27 </ref>
+                            <lb/><ref type="bible" target="bibleSegond21.xml#Rom.13.10">Rom. <lb/>XIII.I0</ref>
+                            <lb/><ref type="bible" target="bibleSegond21.xml#_1Tim.1.15">I.Tim.<lb/>I.I5.</ref>
+                        </note> de la Charité. C'est, selon eux, <quote source="bible1588.xml#Jas.2.8">
+                            <hi rend="I">La Loi
+                                <lb/>Royale</hi>
+                        </quote>
+                        <hi rend="I">, </hi>C'est<hi rend="I"> </hi>
+                        <quote source="bible1588.xml#Jas.1.27">
+                            <hi rend="I">la Religion pure &amp; sans
+                                <lb/>tache</hi>
+                        </quote>
+                        <hi rend="I">, </hi>C'est <quote source="bible1588.xml#Rom.13.10">
+                            <hi rend="I">l'accomplissement de la Loi</hi>
+                        </quote>
+                        <hi rend="I">,</hi>
+                        <lb/>C'est<hi rend="I"> </hi>
+                        <quote source="bible1588.xml#_1Tim.1.15">
+                            <hi rend="I">la fin du commandement</hi>
+                        </quote>, c'est-à-dire
+                        <lb/>de tout l'Evangile,<hi rend="I"> </hi>C'est le premier
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Gal.5.22">Gal. V.<lb/>22</ref>
+                            <lb/><ref type="bible" target="bibleSegond21.xml#Col.3.14">Colos.<lb/>III.I4.</ref>
+                        </note> des<hi rend="I"> </hi>
+                        <quote source="bible1588.xml#Gal.5.22">
+                            <hi rend="I">fruits de l'Esprit</hi>
+                        </quote>, C'est <quote source="bible1588.xml#Col.3.14">
+                            <hi rend="I">le lien
+                                <lb/>de la perfection</hi>
+                        </quote>, qui joint &amp; qui couronne
+                        <lb/>toutes les Vertus. C'est elle qu'ils
+                        <lb/>veulent que nous pratiquions, préférablement <fw place="bot-right" type="catch">blement</fw>
+                        <pb n="33"/>
+                        <lb/>à toutes les autres : <quote source="bible1588.xml#_1Pet.4.8">
+                            <hi rend="I">Sur toutes </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#_1Pet.4.8">I. Pier.<lb/>IV.8.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">choses,</hi> <seg type="interpolation">dit S. Pierre,</seg> <hi rend="I">ayez une ardente
+                                <lb/>Charité entre vous</hi>
+                        </quote>. C'est à elle qu'ils
+                        <lb/>rapportent, &amp; tous les Dogmes, &amp; toutes
+                        <lb/>les Pratiques de la Religion Chrêtienne.
+                        <lb/>Parlent-ils de l'Amour incompréhensible,
+                        <lb/>que Dieu a eu pour nous
+                        <lb/>en nous donnant son Fils ? Ils en tirent
+                        <lb/>d'abord cette conséquence , que
+                        <lb/>
+                        <quote source="bible1588.xml#_1John.4.11">
+                            <hi rend="I">puis que Dieu nous a ainsi aimez, nous </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#_1John.4.11">I. Jean.<lb/>IV. II.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">nous devons aussi aimer les uns les autres</hi></quote>.
+                        <lb/>Parlent-ils de l'Amour ineffable du Fils,
+                        <lb/>qui s'est présenté pour nous en sacrifice ?
+                        <lb/>Ils en concluent aussi incontinent,
+                        <lb/>que nous devons <quote source="bible1588.xml#Eph.5.2">
+                            <hi rend="I">marcher en charité, </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Eph.5.2">Ephes. <lb/>V. 2.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">comme Christ nous a aimez, &amp; s'est donné
+                                <lb/>soi-même pour nous</hi></quote>. Parlent-ils de l'Eglise ?
+                        <lb/>Ils la font concevoir, tantôt
+                        <lb/>comme une seule famille, où l'amour
+                        <lb/>fraternel doit toûjours régner, tantôt
+                        <lb/>come un Corps , dont les divers
+                        <lb/>membres doivent être sans cesse unis
+                        <lb/>d'intérets. Parlent-ils du Baptême ?
+                        <lb/>Ils nous font souvenir qu'<quote source="bible1588.xml#_1Cor.12.13">
+                            <hi rend="I">un même </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#_1Cor.12.13">I. Cor. <lb/>XII.I3.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">Esprit nous a tous baptisez, afin que nous
+                                <lb/>formions un même Corps</hi></quote>. Parlent-ils de
+                        <lb/>la Cene ? Ils nous font remarquer, que
+                        <lb/>
+                        <quote source="bible1588.xml#_1Cor.10.17">
+                            <hi rend="I">nous qui sommes plusieurs, nous sommes un </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#_1Cor.10.17">I. Cor. <lb/>X.I7.</ref>
+                            </note>
+                            <fw place="bot-right" type="catch">
+                                <hi rend="I">seul</hi>
+                            </fw>
+                            <pb n="34"/>
+                            <lb/>
+                            <hi rend="I">seul pain &amp; un seul corps , parce que nous
+                                <lb/>avons part au même pain</hi>
+                        </quote>. Quelquefois
+                        <lb/>ils joignent la plûpart de ces choses, &amp;
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Eph.4.3-6">Ephes.<lb/>IV. 3.4.<lb/>5.6.</ref>
+                        </note> afin qu'on conserve <quote source="bible1588.xml#Eph.4.3-6">
+                            <hi rend="I">l'unité de l'Esprit par
+                                <lb/>le lien de la paix, </hi><seg type="interpolation">ils remarquent qu'il y a</seg>
+                            <lb/>
+                            <hi rend="I">un seul Corps , un seul Esprit, une seule
+                                <lb/>Vocation, une même Esperance</hi> ;<hi rend="I"> </hi><seg type="interpolation">Qu'il y a</seg>
+                            <lb/>
+                            <hi rend="I">un seul Seigneur, une seule Foi, un seul
+                                <lb/>Baptême, enfin un seul Dieu &amp; Pere de
+                                <lb/>tous</hi>
+                        </quote>. Mais ce que les Apôtres pressent
+                        <lb/>le plus, c'est que la Charité est si essentielle
+                        <lb/>&amp; si nécessaire dans le Christianisme,
+                        <lb/>que sans elle tout est inutile. Ils
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Gal.5.6">Galat. <lb/>V.6.</ref>
+                        </note> disent qu'<quote source="bible1588.xml#Gal.5.6">
+                            <hi rend="I">en Christ, ni la Circoncision, ni le
+                                <lb/>prépuce ne servent de rien, </hi>ni<hi rend="I"> la Foi
+                            </hi>même,
+                            <lb/>si elle <hi rend="I">n'agit</hi> &amp; ne se montre <hi rend="I">par la
+                                <lb/>Charité</hi></quote>.
+                        <hi rend="I"> </hi>Ils disent que sans la Charité,
+                        <lb/>on ne sauroit être en état de grace.
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1John.3.14">I. Jean <lb/>III.I4.</ref>
+                        </note>
+                        <quote source="bible1588.xml#_1John.3.14">
+                            <hi rend="I">A ceci nous connoissons, </hi><seg type="interpolation">dit S.
+                                Jean,</seg> <hi rend="I">que
+                                <lb/>nous sommes passez de la mort à la vie, savoir
+                                <lb/>si nous aimons nos fréres</hi></quote>. Ils disent
+                        <lb/>qu'il est faux qu'on aime Dieu, à moins
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21xml#_1John.4.20">5. Jean <lb/>IV.20.</ref>
+                        </note> qu'on n'aime ses Prochains ; <quote source="bible1588.xml#_1John.4.20">
+                            <hi rend="I">Si quelcun
+                                <lb/>dit qu'il aime Dieu, &amp; qu'il haïsse ses fréres ,
+                                <lb/>il est menteur</hi></quote>. Ils disent même
+                        <lb/>qu'on ne connoît pas Dieu, c'est-à-dire
+                        <lb/>qu'on ne le connoît pas d'une maniere
+                        <lb/>utile &amp; efficace, quand on n'aime pas ses freres. <fw place="bot-right" type="catch">freres.</fw>
+                        <pb n="35"/>
+                        <lb/>
+                        <quote source="bible1588.xml#_1John.4.8">
+                            <hi rend="I">Celui qui n'aime pas, n'a pas connu </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#_1John.4.8">I. Jean <lb/>IV. 8.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">Dieu, car Dieu est Charité</hi></quote>. Enfin ils
+                        <lb/>élévent la Charité par dessus tous les
+                        <lb/>Dons &amp; toutes les Vertus,comme Saint
+                        <lb/>Paul fait dans nôtre texte, &amp; dans tout
+                        <lb/>le reste de ce Chapitre. </p>
+                    <p n="24">
+                        <lb/>Que dirons-nous de plus ? Voulez-vous <note type="margin">IV.</note>
+                        <lb/>voir l'effet des instructions des
+                        <lb/>Apôtres, dans la conduite des prémiers
+                        <lb/>Chrêtiens ? Vous les verrez aussi qui
+                        <lb/>s'attachent à la Charité plus qu'à toute
+                        <lb/>autre chose, &amp; qui ne se distinguent
+                        <lb/>presque que par là. Témoin les Fidéles
+                        <lb/>de Jérusalem , qui n'étoyent <quote source="bible1588.xml#Acts.4.32">
+                            <hi rend="I">qu'un </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Acts.4.32">Act. IV.<lb/>32.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">cœur &amp; qu'une ame</hi></quote>. Témoin ceux du
+                        <lb/>tems de <ref target="#fn_35_1" type="noteAnchor">†</ref> Tertullien, dont les Payens
+                        <lb/>disoient en les admirant , <quote type="other" source="# ...">
+                            <hi rend="I">Voyez combien
+                                <lb/>ces Chrêtiens s'aiment</hi></quote>. Témoin <ref target="#fn_35_2" type="noteAnchor">*</ref>Lucien ,
+                        <lb/>ce fameux impie, qui dans le
+                        <lb/>tems qu'il raille les Chrêtiens de leur
+                        <lb/>trop grande facilité à faire du bien aux
+                        <lb/>gens sans les connoître, dans le même
+                        <lb/>tems il rend un témoignage authentique
+                        <lb/>à leur Charité. Et l'Empereur Julien,
+                        <lb/>l'un des plus grands ennemis de
+                        <lb/>l'Eglise Chrétienne, ne peut s'empêcher <fw place="bot-right" type="catch">cher</fw>
+                        <note xml:id="fn_35_1" type="foot" n="†"><ref type="other"><foreign xml:lang="la">Tertul. Apolog. cap.39.</foreign></ref>
+                        </note>
+                        <note xml:id="fn_35_2" type="foot" n="*"><ref type="other"><foreign xml:lang="la">Lucian. de Mort.Peregr.</foreign></ref>
+                        </note>
+                        <pb n="36"/>
+                        <lb/>d'alléguer aux Payens la surprenante
+                        <lb/>Charité des Chrêtiens, comme
+                        <lb/>un exemple qui leur faisoit honte. Il
+                        <lb/>témoigne même dans  <ref target="#fn_36_1" type="noteAnchor">†</ref> une lettre qu'il
+                        <lb/>écrivoit à un Prêtre Payen , que les
+                        <lb/>Chrêtiens ne se contentoient pas de
+                        <lb/>soulager ceux de leur Religion , mais
+                        <lb/>qu'ils étendoyent leur bénéficence jusques
+                        <lb/>sur les Payens mêmes, c'est-à dire,
+                        <lb/>sur leurs ennemis. <ref target="#fn_36_2" type="noteAnchor">†</ref> <quote type="other" source="# ...">
+                            <hi rend="I">C'est une honte,</hi>
+                            <lb/><seg type="interpolation">dit-il,</seg> <hi rend="I">que pendant que les
+                                Iuifs ne permettent
+                                <lb/>pas qu'il y ait aucun d'entr'eux
+                                <lb/>qui mendie, &amp; pendant que ces Galiléens
+                                <lb/>impies </hi><seg type="interpolation">( c'est ainsi qu'il appelloit les
+                                    <lb/>Chrêtiens )</seg>
+                            <hi rend="I">ne soulagent pas seulement
+                                <lb/>leurs pauvres, mais même ceux d'entre
+                                <lb/>nous, on nous voye cependant négliger un
+                                <lb/>devoir si nécessaire</hi></quote>. Et que n'aurions-nous
+                        <lb/>point à dire des Chrêtiens, qui se
+                        <lb/>rendoient eux-mêmes miserables, qui
+                        <lb/>quelquefois même vendoient leur liberté,
+                        <lb/>pour pouvoir soulager les autres ?
+                        <lb/>Mais cela peut suffire pour vous faire <fw place="bot-right" type="catch">com-</fw>
+                        <note xml:id="fn_36_1" type="foot" n="†"> Voyez cette lettre de Julien,dans <ref type="other">l'Histoire 
+                            <lb/>Ecclesiastique de Sozoméne, Liv. V.ch.I6.</ref>
+                        </note>
+                        <note xml:id="fn_36_2" type="foot" n="*"><foreign xml:lang="el">άισχρόν γάρ , έι τῶν μχύ ίουδαίων ούδείς
+                            μεταιτεί 
+                            <lb/>, τρέϕουσι δέ οί δυσσεβεῖς γαλιλαίοι ϖρόςτοῖς 
+                            <lb/>έαντῶν , καί
+                            τούς γίμέτέρους , οί δέ γίμέτεροι , τής παρ 
+                            <lb/>γίμῶν έϖιϗουρίας ένδεεῖς
+                            φαίνονται.</foreign> Là-même.</note>
+                        <pb n="37"/>
+                        <lb/>comprendre l'extrême importance de
+                        <lb/>la Charité. Ainsi ce qui nous reste présentement
+                        <lb/>à faire, c'est de la comparer
+                        <lb/>en peu de mots avec les autres choses
+                        <lb/>dont Saint Paul parle, C'est-à-dire, &amp;
+                        <lb/>avec les Dons Miraculeux, &amp; avec les
+                        <lb/>actions les plus éclatantes. Tout cela,
+                        <lb/>au jugement de Saint Paul,ne servoit de
+                        <lb/>rien sans la Charité. <quote source="bible1588.xml#_1Cor.13.1-3">
+                            <hi rend="I">Quand je parlerois,</hi>
+                            <lb/><seg type="interpolation">dit-il,</seg> <hi rend="I">les langages de
+                                tous les hommes,
+                                <lb/>&amp; des Anges même, si je n'ai pas la
+                                <lb/>Charité, je suis comme l'airain qui resonne,
+                                <lb/>ou comme une cymbale qui retentit.
+                                <lb/>Et quand j'aurois le Don de Prophétie, &amp;
+                                <lb/>que je connoîtrois tous les Mystéres &amp; toute
+                                <lb/>la science </hi>;<hi rend="I"> Et quand j'aurois toute la foy,
+                                <lb/>jusqu'à pouvoir transporter les montagnes</hi>,
+                            <lb/>
+                            <hi rend="I">si je n'ai pas la Charité</hi>,<hi rend="I"> je ne suis
+                                rien.
+                                <lb/>Et quand je distribuerois tout mon bien
+                                <lb/>pour la nourriture des Pauvres, &amp; quand
+                                <lb/>même je livrerois mon corps pour être
+                                <lb/>brûlé, si je n'ai pas la Charité, cela ne me
+                                <lb/>sert de rien</hi>
+                        </quote>. </p>
+                </div>
+                <div n="3" type="sub">
+                    <head type="sub">
+                        <lb/><choice><sic>TROISIE'ME</sic><corr resp="#ARE">TROISIÈME</corr></choice>
+                        PARTIE.</head>
+                    <p n="25">
+                        <lb/>
+                        <c type="lettrine">L</c>Es Dons Miraculeux , dont l'Apôtre <note type="margin">I.</note>
+                        <lb/>parle , étoient alors communs
+                        <lb/>dans l'Eglise. Il y a même des <fw place="bot-right" type="catch">gens</fw>
+                        <pb n="38"/>
+                        <lb/>gens qui croient que tous les Fidéles
+                        <lb/>y avoient part, bien qu'avec inegalité, &amp;
+                        <lb/>en des maniéres différentes. Quoi qu'il
+                        <lb/>en soit, Saint Paul en marque plusieurs
+                        <lb/>sortes. ( I ) Il parle d'abord du Don des
+                        <lb/>Langues, qui fut distribué si solennellement
+                        <lb/>le jour de la Pentecôte , &amp; qui
+                        <lb/>étoit si nécessaire pour la manifestation
+                        <lb/>de l'Evangile.Mais quand Saint Paul en
+                        <lb/>parle, il le suppose dans la grande étenduë ;
+                        <lb/>
+                        <quote source="bible1588.xml#_1Cor.13.1">
+                            <hi rend="I">Quand je parlerois, </hi><seg type="interpolation">dit-il, non pas
+                                <lb/>quelques langages , comme on faisoit <lb/>alors, mais</seg>
+                            <hi rend="I">les langages des hommes</hi> , ou <hi rend="I">de
+                                <lb/>tous les hommes</hi>
+                        </quote>. Il va plus avant,&amp; il suppose
+                        <lb/>même qu'il sache la maniére dont
+                        <lb/>les Anges se communiquent entr'eux
+                        <lb/>leurs pensées ; <quote source="bible1588.xml#_1Cor.13.1">Quand je parlerois les
+                            <lb/>langages de tous les hommes , <hi rend="I">&amp; des
+                                <lb/>Anges même</hi></quote>. ( 2 ) Il
+                        parle aprés cela du
+                        <lb/>
+                        <quote source="bible1588.xml#_1Cor.13.1">Don de <hi rend="I">Prophétie</hi>
+                        </quote> ; soit que nous devions
+                        <lb/>entendre par là la connoissance de l'avenir ,
+                        <lb/>dont on voit en effet que quelques
+                        <lb/>personnes étoient favorisées du
+                        <lb/>tems des Apôtres ; soit que cela marque
+                        <lb/>simplement le Don d'entendre les
+                        <lb/>Prophéties, &amp; d'expliquer l'Ecriture.
+                        <lb/>( 3 ) Il pose en troisiéme lieu, <quote source="bible1588.xml#_1Cor.13.2">
+                            <hi rend="I">la connoissance
+                                <lb/>de tous les Mystéres, &amp; de toute</hi>
+                            <fw place="bot-right" type="catch">
+                                <hi rend="I">te</hi>
+                            </fw>
+                            <pb n="39"/>
+                            <lb/>
+                            <hi rend="I">la science</hi>
+                        </quote> ; C'est-à-dire , sur tout, la
+                        <lb/>connoissance de tous les Mystéres de
+                        <lb/>l'Ancien Testament, &amp; de tout ce qu'il
+                        <lb/>y avoit de plus difficile &amp; de plus caché
+                        <lb/>dans le Christianisme. On ne peut
+                        <lb/>pas douter qu'il n'y eut alors des Dons
+                        <lb/>de cette nature, qui aidoient aux Apôtres
+                        <lb/>à découvrir, &amp; le sens des anciens
+                        <lb/>Oracles , &amp; le but des Ceremonies, &amp;
+                        <lb/>d'autres choses de cette nature; Et c'est
+                        <lb/>sans doute ce que Saint Paul appelle
+                        <lb/>dans le Chapitre précédent <quote source="bible1588.xml#_1Cor.12.8">
+                            <hi rend="I">le Don de
+                                <lb/>connoissance &amp; le Don de sagesse</hi>
+                        </quote>. Mais on
+                        <lb/>peut étendre ceci plus loin, &amp; dans la
+                        <lb/>connoissance de tous les Mystéres , on
+                        <lb/>peut comprendre aussi tout ce qu'il y
+                        <lb/>avoit de plus difficile &amp; de plus sublime,
+                        <lb/>soit dans l'Ecole des Docteurs Juifs,
+                        <lb/>soit dans celle des Sages Payens. (4) De-là
+                        <lb/>il passe au Don des Miracles, qui étoit
+                        <lb/>aussi tres-commun alors, &amp; qui consistoit
+                        <lb/>principalement à guerir les malades,
+                        <lb/>à chasser les Démons, &amp; à infliger
+                        <lb/>des peines corporelles , &amp; quelquefois
+                        <lb/>même la mort, à ceux qui étoient rebelles
+                        <lb/>aux Apôtres. Mais quand Saint
+                        <lb/>Paul parle de ce Don-là, il le suppose
+                        <lb/>aussi dans le plus haut degré , jusqu'à <fw place="bot-right" type="catch">pou-</fw>
+                        <pb n="40"/>
+                        <lb/>pouvoir faire ce qu'on regardoit comme
+                        <lb/>une des choses les plus difficiles.
+                        <lb/>
+                        <quote source="bible1588.xml#_1Cor.13.2">
+                            <hi rend="I">Quand j'aurois, </hi><seg type="interpolation">dit-il,</seg> <hi rend="I">toute la foi, </hi><seg type="interpolation">c'est-à-dire ,
+                                    <lb/>la foi des Miracles,</seg>, <hi rend="I">jusqu'à pouvoir
+                                <lb/>transporter les Montagnes</hi>
+                        </quote>.
+                        <hi rend="I"> </hi>(5) Enfin,
+                        <lb/>aprés tous ces Dons merveilleux, l'Apôtre
+                        <lb/>allégue deux actions excellentes,
+                        <lb/>qui, dans les Persécutions qu'on souffroit
+                        <lb/>alors, pouvoient souvent être pratiquées.
+                        <lb/>L'une est, <quote source="bible1588.xml#_1Cor.13.3">
+                            <hi rend="I">de donner tous ses
+                                <lb/>biens , pour la nourriture des pauvres</hi>
+                        </quote>,
+                        <lb/>comme on avoit fait à Jérusalem ; L'autre
+                        <lb/>est, <quote source="bible1588.xml#_1Cor.13.3">
+                            <hi rend="I">d'exposer son propre corps au feu</hi>
+                        </quote>,
+                        <lb/>ce qui n'est pas non plus sans exemple
+                        <lb/>dans l'histoire de l'Eglise Chrêtienne. </p>
+                    <p n="26">
+                        <lb/>
+                        <note type="margin">II.</note>Telles sont les choses dont Saint Paul
+                        <lb/>parle. Toutes choses qui pouvoient
+                        <lb/>tres-souvent être séparées de la Charité.
+                        <lb/>Car ( I ) pour ce qui est des Dons
+                        <lb/>Miraculeux , ils se pouvoient trouver
+                        <lb/>dans des gens corrompus ; Témoin ceux
+                        <lb/>qui diront à Christ au dernier jour,
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.7.22">Matt. <lb/><unclear resp="#MAG" reason="print">II.</unclear>
+                                22.</ref>
+                        </note>
+                        <quote source="bible1588.xml#Matt.7.22">
+                            <hi rend="I">Seigneur, n'avons-nous pas fait des Miracles
+                                <lb/>en ton Nom , n'avons-nous pas Prophétisé
+                                <lb/>en ton Nom , n'avons-nous pas
+                                <lb/>chassé les Diables en ton Nom
+                            </hi></quote>? Mais auxquels
+                        <lb/>il dira pourtant, <quote source="bible1588.xml#Matt.7.23">
+                            <hi rend="I">Ie ne vous connois</hi>
+                            <fw place="bot-right" type="catch">
+                                <hi rend="I">point</hi>,</fw>
+                            <pb n="41"/>
+                            <lb/>
+                            <hi rend="I">point, Retirez-vous de moi, vous qui faites
+                                <lb/>le mestier de l'iniquité</hi></quote>. Mais
+                        que ces
+                        <lb/>Dons là sur tout se trouvassent dans des
+                        <lb/>gens sans Charité , dans des gens qui
+                        <lb/>s'en servissent uniquement pour leur
+                        <lb/>propre gloire, &amp; pour se faire des partisans ,
+                        <lb/>&amp; non pas pour l'utilité &amp; pour
+                        <lb/>l'édification de l'Eglise, c'est ce qui paroît
+                        <lb/>par l'exemple même des Corinthiens
+                        <lb/>à qui Saint Paul écrit. (2) Pour
+                        <lb/>ce qui regarde l'Aumône, il semble d'abord
+                        <lb/>qu'il est difficile de la séparer de
+                        <lb/>la Charité. Mais cependant la chose
+                        <lb/>est tres-possible, &amp; arrive même tres-souvent.
+                        <lb/>En effet, plusieurs ne donnent
+                        <lb/>aux pauvres, que par la simple
+                        <lb/>honte de refuser. Plusieurs donnent
+                        <lb/>pour être vûs des hommes, &amp; par une
+                        <lb/>pure ostentation. Plusieurs donnent
+                        <lb/>afin de reüssir plus aisément dans leurs
+                        <lb/>desseins. Plusieurs même alors donnoient
+                        <lb/>apparemment par la seule crainte
+                        <lb/>des Apôtres , &amp; pour ne s'exposer
+                        <lb/>pas aux mêmes peines qu'Ananias &amp;
+                        <lb/>Saphira. Plusieurs par conséquent donnoient
+                        <lb/>sans Charité, comme plusieurs
+                        <lb/>le font aujourd'hui. (3) Enfin, pour
+                        <lb/>ce qui est d'exposer sa vie, quand ce seroit <fw place="bot-right" type="catch">roit</fw>
+                        <pb n="42"/>
+                        <lb/>même pour la Religion, on le pouvoit
+                        <lb/>faire sans Charité. On le pouvoit faire
+                        <lb/>par vaine gloire,comme plusieurs Philosophes
+                        <lb/>Payens. Et, en supposant même
+                        <lb/>qu'on le fit par un pur amour pour
+                        <lb/>la Religion, on pouvoit d'ailleurs avoir
+                        <lb/>des defauts contraires à la Charité. On
+                        <lb/>pouvoit être sujet à la colére, sujet
+                        <lb/>à la médisance. on pouvoit manquer
+                        <lb/>de support &amp; de condescendance pour
+                        <lb/>ses Prochains : Comme en effet on voit
+                        <lb/>tous les jours des gens qui souffrent
+                        <lb/>pour la Religion, &amp; qui sont néantmoins
+                        <lb/>sujets à tous ces vices. </p>
+                    <p n="27">
+                        <lb/>
+                        <note type="margin">III.</note> Mais que dit l'Apôtre de toutes ces
+                        <lb/>choses, quand elles se trouvent sans la
+                        <lb/>Charité ? Il dit qu'elles sont tout à fait
+                        <lb/>inutiles. <quote source="bible1588.xml#_1Cor.13.1">Quand je parlerois, <seg type="interpolation">dit-il,</seg>
+                            <lb/>toutes les langues , <hi rend="I">si je n'ai point la
+                                <lb/>Charité, je suis comme l'airain qui resonne ,
+                                <lb/>&amp; comme une cymbale qui retentit
+                            </hi></quote>;
+                        <lb/>C'est-à-dire , j'ai bien un talent , qui a
+                        <lb/>quelque éclat dans le Monde, mais je
+                        <lb/>n'ai rien dans le fond de véritablement
+                        <lb/>estimable, ni qui puisse attirer l'approbation
+                        <lb/>de Dieu. <quote source="bible1588.xml#_1Cor.13.1">Quand j'aurois,
+                            <seg type="interpolation">ajoute-t-il,</seg>
+                            <lb/>le Don de Prophétie, avec tous <fw place="bot-right" type="catch">les</fw>
+                            <pb n="43"/>
+                            <lb/>les autres Dons, si je n'ai pas la Charité,
+                            <lb/>
+                            <hi rend="I">je ne suis rien</hi>
+                        </quote>
+                        <hi rend="I">, </hi>C'est-à-dire, je ne
+                        <lb/>suis rien par rapport au Christianisme ;
+                        <lb/>J'ai bien le dehors d'un Chrêtien, mais
+                        <lb/>je n'en ai pas la réalité. <quote source="bible1588.xml#_1Cor.13.1">Et quand je
+                            <lb/>donnerois tout mon bien aux pauvres,
+                            <lb/>&amp; que j'exposerois même mon propre
+                            <lb/>corps au feu , si je n'ai pas la Charité,
+                            <lb/>
+                            <hi rend="I">cela ne me sert de rien</hi>
+                        </quote>, C'est-à-dire, de
+                        <lb/>rien pour être aimé de Dieu , de rien
+                        <lb/>pour être Disciple de Christ , de rien
+                        <lb/>pour avoir part à ses promesses. </p>
+                    <p n="28">
+                        <lb/>Effectivement , à regarder d'abord
+                        <lb/>toutes ces choses ensemble, de quelle
+                        <lb/>utilité peuvent-elles nous être, pendant
+                        <lb/>qu'une Vertu nécessaire nous manque ?
+                        <lb/>
+                        <quote source="bible1588.xml#Jas.2.10">
+                            <hi rend="I">Lors que l'on péche dans un seul point, on </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Jas.2.10">Jaq. II. <lb/>10.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">est coûpable de tous</hi>
+                        </quote>, dit Saint Jaques;C'est-à-dire,
+                        <lb/>qu'il est aussi vrai qu'on est coûpable
+                        <lb/>devant Dieu , qu'il est aussi vrai
+                        <lb/>qu'on a mérité les effets de sa colére,
+                        <lb/>que si toute la Loi étoit violée. Cela
+                        <lb/>étant, dequoi peuvent servir tous les
+                        <lb/>Dons les plus excellens , toutes les
+                        <lb/>actions les plus éclatantes, quand nous
+                        <lb/>manquons à des devoirs aussi essentiels
+                        <lb/>&amp; aussi nécessaires, que le sont ceux de
+                        <lb/>la Charité ? Mais sur tout, y-a-t-il quelque <fw place="bot-right" type="catch">que</fw>
+                        <pb n="44"/>
+                        <lb/>chose au Monde , qui nous puisse
+                        <lb/>servir dans le Christianisme, sans une
+                        <lb/>Vertu dans laquelle l'essence du Christianisme
+                        <lb/>consiste, sans une Vertu que
+                        <lb/>Jésus a donnée pour être la marque de
+                        <lb/>ses Disciples, sans une Vertu que ses
+                        <lb/>Apôtres pressent préférablement à toutes
+                        <lb/>les autres, sans une Vertu enfin, de
+                        <lb/>laquelle le salut dépend, d'une façon
+                        <lb/>particuliére ? Quand donc j'aurois
+                        <lb/>tous les Dons possibles, &amp; que je ferois
+                        <lb/>les plus belles actions, tout <quote source="bible1588.xml#_1Cor.13.2">
+                            <hi rend="I">cela ne me
+                                <lb/>sert de rien</hi>
+                        </quote>
+                        <hi rend="I">,&amp; </hi>
+                        <quote source="bible1588.xml#_1Cor.13.2">
+                            <hi rend="I">je ne suis rien</hi>
+                        </quote> sans la Charité. </p>
+                    <p n="29">
+                        <lb/>Que si vous prenez en particulier
+                        <lb/>les Dons Miraculeux dont l'Apôtre
+                        <lb/>parle, il est aisé de voir qu'ils n'étoient
+                        <lb/>d'aucun prix, quand la Charité en étoit
+                        <lb/>séparée. En effet, pourquoi étoient-ils
+                        <lb/>donnez ? N'étoit-ce pas pour le bien
+                        <lb/>de l'Eglise ? N'étoit-ce pas pour faciliter
+                        <lb/>la manifestation de l'Evangile ? N'étoit-ce
+                        <lb/>pas pour pouvoir amener tous
+                        <lb/>les Peuples au salut ? Ainsi, quand on
+                        <lb/>ne rapportoit pas ces Dons-là à cet usage,
+                        <lb/>quand on s'en servoit au contraire
+                        <lb/>pour un but tout opposé, quand on s'en
+                        <lb/>servoit pour diviser l'Eglise, &amp; pour s'élever <fw place="bot-right" type="catch">lever</fw>
+                        <pb n="45"/>
+                        <lb/>au dessus de ses freres, bien loin de
+                        <lb/>mériter par là quelque loüange, au contraire
+                        <lb/>on étoit d'autant plus blâmable,
+                        <lb/>&amp; d'autant plus coûpable devant Dieu,
+                        <lb/>que les Dons qu'on avoit étoient plus
+                        <lb/>illustres. C'étoient sans doute de fort
+                        <lb/>beaux talens, que de pouvoir parler
+                        <lb/>toutes les langues, que de pouvoir prédire
+                        <lb/>l'avenir, que de pouvoir pénétrer tous
+                        <lb/>les Mystéres, que de pouvoir, par sa
+                        <lb/>seule parole, changer mille choses dans
+                        <lb/>la nature. Mais avoüés pourtant que,
+                        <lb/>si ces talens-là ne produisent pas quelqu'effet
+                        <lb/>utile, ils ont un éclat bien peu
+                        <lb/>estimable. Et aprés tout, que sont ces
+                        <lb/>talens ? Ne sont-ce pas de purs effets
+                        <lb/>de la Liberalité de Dieu ? Ainsi , tout
+                        <lb/>ce qu'on en peut justement conclurre,
+                        <lb/>c'est la bonté de Dieu qui les donne:
+                        <lb/>Mais pour ce qui est de ceux qui les reçoivent,
+                        <lb/>il n'y a que le bon usage qu'ils
+                        <lb/>en font, c'est-à-dire qu'il n'y a que la
+                        <lb/>Charité, qui les rende dignes d'estime.
+                        <lb/>Quand donc je parlerois toute sorte de
+                        <lb/>langues, &amp; que j'aurois tous les autres
+                        <lb/>Dons, <quote source="bible1588.xml#_1Cor.13.1">
+                            <hi rend="I">je ne suis rien sans la
+                            Charité</hi></quote>.
+                    </p>
+                    <p n="30">
+                        <lb/>A l'égard des œuvres de la Bénéficence,
+                        <lb/>il est visible qu'elles tirent aussi <fw place="bot-right" type="catch">tout</fw>
+                        <pb n="46"/>
+                        <lb/>tout leur prix de la Charité. Car enfin,
+                        <lb/>si c'est par des motifs de honte, d'ostentation,
+                        <lb/>d'intérêt, que l'on distribuë<hi rend="I"> </hi>ses
+                        <lb/>biens aux pauvres, il est clair que cette
+                        <lb/>distribution n'est d'aucune valeur dans
+                        <lb/>la Christianisme. Alors on reçoit bien
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.6.2">Matt. <lb/>VI.2.</ref>
+                        </note>
+                        <quote source="bible1588.xml#Matt.6.2">
+                            <hi rend="I">sa recompense</hi>
+                        </quote>,
+                        <lb/>comme dit le Seigneur
+                        <lb/>Jésus, mais on la reçoit seulement du
+                        <lb/>Monde, parce qu'effectivement , c'est
+                        <lb/>le Monde seul que l'on a en vûë. Mais
+                        <lb/>pour ce qui est de la Divinité, elle a un
+                        <lb/>mépris extrême pour ces choses ; Elle
+                        <lb/>les conte pour rien. Quand donc je
+                        <lb/>donnerois tout mon bien aux pauvres,
+                        <lb/>
+                        <quote source="bible1588.xml#_1Cor.13.2">
+                            <hi rend="I">je ne suis rien sans la Charité</hi>
+                        </quote>. </p>
+                    <p n="31">
+                        <lb/>Enfin , il faut faire le même jugement
+                        <lb/>de ceux qui exposent leur corps à
+                        <lb/>la mort. Un phrénétique le pourra faire ;
+                        <lb/>Meritera-t-il par là d'être estimé ?
+                        <lb/>Un <hi rend="I">Calanus</hi>, un <hi rend="I">Peregrinus</hi> l'ont
+                        fait par
+                        <lb/>vanité dans le Paganisme ; Faudra-t-il
+                        <lb/>que Dieu leur en tienne conte ? Mais
+                        <lb/>supposé même qu'on le fasse par un véritable
+                        <lb/>desir de plaire à Dieu, &amp; par zéle
+                        <lb/>pour son service ; C'est , je l'avouë,
+                        <lb/>une belle action, une action noble, une
+                        <lb/>action héroïque : Mais est-ce assez,
+                        <lb/>comme j'ai déjà dit, de s'aquitter de <fw place="bot-right" type="catch">l'un</fw>
+                        <pb n="47"/>
+                        <lb/>l'un de ses Devoirs, pendant que l'on en
+                        <lb/>néglige un autre,absolument nécessaire ?
+                        <lb/>Qu'importe à l'Ennemi de quelque côté
+                        <lb/>qu'il entre dans la Ville qu'il assiége ?
+                        <lb/>Qu'importe au Démon quel que soit le
+                        <lb/>vice qui l'introduise dans nôtre cœur ?
+                        <lb/>S'il n'y entre pas par l'Apostasie , il lui
+                        <lb/>suffit d'y avoir entrée par le defaut de
+                        <lb/>Charité ; Et cette seconde brêche est
+                        <lb/>pour le moins aussi dangereuse que
+                        <lb/>l'autre. Quand donc j'exposerois mon
+                        <lb/>propre corps au feu , fût-ce pour la
+                        <lb/>cause de l'Evangile, si je n'ai pas la Charité,
+                        <lb/>
+                        <quote source="bible1588.xml#_1Cor.13.2">
+                            <hi rend="I">cela ne me sert de rien</hi></quote>. </p>
+                    <p n="32">
+                        <lb/>Ainsi, Mes Freres, vous voyez que
+                        <lb/>S. Paul exécute bien ce qu'il avoit promis.
+                        <lb/>Il avoit promis de marquer quelque <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Cor.12.31">I. Cor. <lb/>XII. 3I.</ref>
+                        </note>
+                        <lb/>chose de beaucoup plus grand que
+                        <lb/>les Dons des Miracles. Et voici la Charité,
+                        <lb/>qui non seulement est plus excellente
+                        <lb/>&amp; plus belle que tous ces Dons-là,
+                        <lb/>mais sans laquelle ils sont tous inutiles,
+                        <lb/>&amp; sans laquelle les actions même
+                        <lb/>les plus éclatantes ne servent de rien.
+                        <lb/>Cela étant ainsi , n'étoit-ce pas là un
+                        <lb/>motif bien fort &amp; bien convainquant
+                        <lb/>pour porter à la paix les Chrêtiens de
+                        <lb/>Corinthe ? Car enfin , quelqu'ardeur <fw place="bot-right" type="catch">qu'ils</fw>
+                        <pb n="48"/>
+                        <lb/>qu'ils <choice><sic>pûslent</sic><corr resp="#ARE">pûssent</corr></choice> avoir pour les Dons Miraculeux ,
+                        <lb/>ils en devoient avoir beaucoup
+                        <lb/>plus encore pour une Vertu beaucoup
+                        <lb/>plus importante &amp; plus utile que
+                        <lb/>tous ces Dons, &amp; par conséquent ils
+                        <lb/>ne devoient rien faire, qui fût contraire
+                        <lb/>à la Charité &amp; à la paix de l'Eglise.Mais
+                        <lb/>sans nous étendre davantage , sur le
+                        <lb/>sens de nôtre texte,par rapport aux Corinthiens,
+                        <lb/>il est tems de nous l'appliquer
+                        <lb/>à nous mêmes,&amp; nous vous demandons
+                        <lb/>encore pour cela quelques momens
+                        <lb/>d'attention. </p>
+                </div>
+                <div n="4" type="sub">
+                    <head type="sub">
+                        <lb/>CONCLUSION.</head>
+                    <p n="33">
+                        <lb/>
+                        <note type="margin">I.</note>
+                        <c type="lettrine">D</c>'ABORD, Mes Fréres, qu'il n<hi rend="I">ous</hi>
+                        <lb/>soit permis d'appliquer en general
+                        <lb/>aux Eglises, ce que S. Paul dit des Particuliers.
+                        <lb/>Vous savez qu'il y a une grande dispute,
+                        <lb/>entre les différentes Societez
+                        <lb/>Chrêtiennes, pour savoir quelle est la
+                        <lb/>véritable Eglise. Les uns apportent certaines
+                        <lb/>marques , par où ils prétendent
+                        <lb/>que l'on en juge ; Et les autres en apportent
+                        <lb/>
+                        <note type="margin">Bellarmin.</note>d'autres. Un Docteur de Rome
+                        <lb/>en pose jusqu'à quinze, entre lesquelles
+                        <lb/>sont ce qu'il appelle la <quote type="other" source="#...">
+                            <hi rend="I">Lumière Prophétique</hi>
+                        </quote>,
+                        <lb/>&amp; ce qu'il appelle<hi rend="I"> </hi>la<hi rend="I"> </hi>
+                        <quote type="other" source="#...">
+                            <hi rend="I">Gloire des Miracles</hi></quote>.
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">cles.</hi>
+                        </fw>
+                        <pb n="49"/>
+                        <lb/>Les Protestans prétendent au contraire,
+                        <lb/>que plusieurs de ces marques ne
+                        <lb/>sont pas justes, &amp; que plusieurs même
+                        <lb/>ne conviennent point à la Communion
+                        <lb/>Romaine. Là-dessus on écrit , on répond,
+                        <lb/>on replique, &amp; l'on pourroit faire
+                        <lb/>une Bibliothéque des seuls volumes
+                        <lb/>qui ont été faits sur les Marques de l'Eglise.
+                        <lb/>Mais voici l'Apôtre S. Paul, qui
+                        <lb/>abrége la dispute. Le voici qui nous indique
+                        <lb/>une Marque , mais une Marque
+                        <lb/>qui est incontestable ; &amp; qui est d'ailleurs
+                        <lb/>aisée à discerner, dans le cas dont
+                        <lb/>il s'agit. Cette Marque, c'est <quote source="bible1588.xml#_1Cor.13.1">
+                            <hi rend="I">la Charité</hi>
+                        </quote>.
+                        <lb/>Car enfin, s'il est vrai que, sans la Charité,
+                        <lb/>on ne sauroit être un vrai Chrêtien,
+                        <lb/>ne doit-on pas dire aussi que, sans
+                        <lb/>elle, il n'y a point de véritable Eglise ?
+                        <lb/>Sur tout quand on pense que c'est la
+                        <lb/>Marque que Jésus-Christ lui-même
+                        <lb/>avoit donnée, pour distinguer ses Disciples.
+                        <lb/>Je prens donc cette Marque, &amp; je
+                        <lb/>tâche de voir si elle se trouve dans l'Eglise
+                        <lb/>Romaine. Mais que vois je, grand
+                        <lb/>Dieu ! dans cet examen ? Je ne trouve
+                        <lb/>par tout que violences , que persécutions ,
+                        <lb/>que cruautez. Là je vois les prisons ,
+                        <lb/>les cachots, les galéres, toutes <fw place="bot-right" type="catch">rem-</fw>
+                        <pb n="50"/>
+                        <lb/>remplies de pauvres Chrêtiens, dont le
+                        <lb/>seul crime est de ne vouloir croire que
+                        <lb/>la pure Parole de Dieu. Ici je vois même
+                        <lb/>des feux allumez, &amp; des potences
+                        <lb/>dressées , pour ceux qui ont eu la hardiesse
+                        <lb/>de se plaindre des usurpations, &amp;
+                        <lb/>des abus de l'Eglise de Rome. Là je
+                        <lb/>vois des Massacres, dont la seule pensée
+                        <lb/>est capable de faire fremir ; je dis des
+                        <lb/>Massacres autorisez &amp; approuvez par
+                        <lb/>la Cour de Rome, comme il paroît, &amp;
+                        <lb/>par les Monumens les plus authentiques
+                        <lb/>de l'Histoire , &amp; même par des  <ref target="#fn_50_1" type="noteAnchor">†</ref>
+                        <lb/>Médailles frappées sur ce sujet. Ici je
+                        <lb/>vois d'autres cruautez, d'autant plus à
+                        <lb/>craindre qu'elles sont plus cachées; Car,
+                        <lb/>à l'exemple d'un Prince <ref target="#fn_50_2" type="noteAnchor">*</ref> Arien,on trouve
+                        <lb/>le secret de persécuter, sans vouloir
+                        <lb/>parétre persécuteur, &amp; sous l'apparence
+                        <lb/>d'une douceur feinte , on ne laisse pas <fw place="bot-right" type="catch">de</fw>
+                        <note xml:id="fn_50_1" type="foot" n="†"> Il y a une Médaille du Pape Gregoire 
+                            <lb/>XIII. qui a pour
+                            revers le Massacre de la Saint-Barthelemi 
+                            <lb/>, avec cette Inscription, <foreign xml:lang="la">UGO-
+                                <lb/>NOTTORUM STRAGES</foreign>. 1572.</note>
+                        <note xml:id="fn_50_2" type="foot" n="*"> <hi rend="I"><foreign xml:lang="la">Sed haec ille pater tuus artifex humanarum
+                            <lb/>mortium docuit , jugulare sine gladio, 
+                            <lb/>persequi sine infamia,
+                            blandiri sine bonitate, 
+                            <lb/>agere quod velis, nec manifestare quod
+                            velis.</foreign></hi>
+                            <lb/><ref type="other"><foreign xml:lang="la">Hilarius Lib. contra Constantium Augustum.</foreign></ref>
+                        </note>
+                        <pb n="51"/>
+                        <lb/>de faire bien du mal. Sur toutes choses,
+                        <lb/>je vois un Tribunal, dont l'injustice
+                        <lb/>&amp; la barbarie égalent tout ce qu'ont fait
+                        <lb/>les plus cruels Tyrans,un Tribunal dressé
+                        <lb/>par les Papes , un Tribunal composé
+                        <lb/>d'Ecclésiastiques , un Tribunal qui seroit
+                        <lb/>établi dans tous les païs de la
+                        <lb/>Chrétienté, si les Papes avoient été les
+                        <lb/>Maîtres. O je m'arrête ici ; je ne veux
+                        <lb/>plus rien voir ; Les seules procédures
+                        <lb/>de ce Tribunal-là , que l'on appelle
+                        <lb/>pourtant <hi rend="I">le Saint Office </hi>, me tiendront
+                        <lb/>lieu desormais de tous les Livres de
+                        <lb/>Controverse. Par cela seul , j'ai droit
+                        <lb/>de conclurre que l'Eglise Romaine est
+                        <lb/>une fausse Eglise , puis qu'elle exerce
+                        <lb/>des cruautez aussi outrées que celles-là,
+                        <lb/>que ces cruautez y sont autorisées par
+                        <lb/>les Conciles &amp; par les Papes, &amp; que ce
+                        <lb/>sont par conséquent des suites nécessaires
+                        <lb/>de ses Principes. Par cela seul, j'ai
+                        <lb/>droit de conclurre que c'est une Eglise
+                        <lb/>Anti-Chrêtienne ; Car la marque de
+                        <lb/>Christ ne peut être autre chose que la
+                        <lb/>cruauté &amp; la barbarie. Pour cela seul, je
+                        <lb/>dois l'abandonner. </p>
+                    <fw place="bot-right" type="catch">Mais,</fw>
+                    <pb n="52"/>
+                    <p n="34">
+                        <lb/>
+                        <note type="margin">II.</note>Mais , Mes Freres , aprés cet
+                        <lb/>usage, qui regarde la fausse Eglise, tirons
+                        <lb/>en d'autres de nôtre sujet, qui nous
+                        <lb/>regardent de plus prés nous-mêmes.
+                        <lb/>Saint Paul, comme vous l'avez vû, nous
+                        <lb/>y a enseigné deux choses ; L'une, ce
+                        <lb/>qui est simplement accessoire, L'autre,
+                        <lb/>ce qui est tout à fait capital, dans la Religion
+                        <lb/>Chrêtienne. Ce qu'il représente
+                        <lb/>comme accessoire , ce sont tous les
+                        <lb/>Dons extraordinaires, ce sont les actions
+                        <lb/>les plus éclatantes ; Tout cela, selon
+                        <lb/>lui, n'est estimable , qu'autant qu'il est
+                        <lb/>joint avec la Charité. Ce qu'il représente
+                        <lb/>comme capital , c'est la Charité
+                        <lb/>elle-même. Pour ce qui est des Dons
+                        <lb/>extraordinaires , comme ils ne subsistent
+                        <lb/>plus aujourd'hui, il n'est pas nécessaire
+                        <lb/>d'en parler d'avantage. Ce qu'il
+                        <lb/>y a , c'est qu'il faut étendre ce qu'en dit
+                        <lb/>ici Saint Paul, à tous les Dons ordinaires
+                        <lb/>que nous pouvons avoir aujourd'hui,
+                        <lb/>à toute la connoissance des Véritez
+                        <lb/>de la Religion, à toute la persuasion
+                        <lb/>des Dogmes de l'Evangile, enfin
+                        <lb/>à toutes les actions, qui sont séparées
+                        <lb/>de la Charité. Effectivement, ( I ) s'il
+                        <lb/>étoit inutile de pouvoir parler toute <fw place="bot-right" type="catch">sorte</fw>
+                        <pb n="53"/>
+                        <lb/>sorte de Langues, à moins qu'on n'eût
+                        <lb/>la Charité , Est-ce que nous devons
+                        <lb/>nous glorifier, quand,à force de travaux
+                        <lb/>&amp; de veilles, nous avons rangé dans nôtre
+                        <lb/>cerveau quelques mots tirez de différentes
+                        <lb/>Langues ? Est-ce qu'on doit aussi
+                        <lb/>s'estimer beaucoup, quand on a aquis
+                        <lb/>quelque facilité à exprimer ses pensées,
+                        <lb/>&amp; à le faire même heureusement ? Certes,
+                        <lb/>ce sont de beaux Dons, il est vrai ;
+                        <lb/>Mais c'est lors qu'on s'en sert pour instruire
+                        <lb/>les Hommes, lors qu'on s'en sert
+                        <lb/>pour les porter au bien, lors qu'on s'en
+                        <lb/>sert enfin à des usages conformes à la
+                        <lb/>Charité. Hors de là,ce n'est que <quote source="bible1588.xml#_1Cor.13.1">
+                            <hi rend="I">de l'airain
+                                <lb/>qui sonne, &amp; qu'une cymbale qui fait
+                                <lb/>du bruit</hi>
+                        </quote>. (2) De même, s'il étoit inutile
+                        <lb/>alors, d'avoir reçû une connoissance miraculeuse
+                        <lb/>de tous les Mystéres, à moins
+                        <lb/>qu'on n'eût la Charité, Est-ce que nous
+                        <lb/>autres , qui aprés quarante &amp; soixante
+                        <lb/>années d'étude , sommes obligez d'avouër
+                        <lb/>franchement que nous ne savons
+                        <lb/>presque rien, Est-ce, dis-je, que nous
+                        <lb/>sommes en droit de nous glorifier de
+                        <lb/>nos connoissances ? Certes, nonobstant
+                        <lb/>toute leur petitesse, elles ne laissent pas
+                        <lb/>d'avoir leur usage ; Mais c'est lors qu'on <fw place="bot-right" type="catch">les</fw>
+                        <pb n="54"/>
+                        <lb/>les rapporte à l'édification de l'Eglise, à
+                        <lb/>la conversion des Hommes, enfin à des
+                        <lb/>œuvres de Charité. Sans cela, <quote source="bible1588.xml#_1Cor.13.2">
+                            <hi rend="I">nous ne
+                                <lb/>sommes
+                                rien</hi><!--citation approximative--></quote>. ( 3
+                        ) De même encore, si
+                        <lb/>la Foi des Miracles, si cette Foi que
+                        <lb/>Dieu accompagnoit d'une efficace si
+                        <lb/>surprenante, si cette Foi qui bouleversoit,
+                        <lb/>s'il faut ainsi dire, toute la Nature,
+                        <lb/>étoit inutile sans la Charité, Est-ce que
+                        <lb/>la simple persuasion des Véritez de l'Evangile,
+                        <lb/>souvent mêlée de tant d'obscuritez ,
+                        <lb/>souvent affoiblie par tant de doutes ,
+                        <lb/>sera elle-même de quelque
+                        <lb/>prix ? Elle est tres-utile, il faut l'avouër ;
+                        <lb/>Mais c'est seulement lors qu'elle est efficace,
+                        <lb/>c'est seulement lors qu'elle se
+                        <lb/>montre par les effets de la Charité. Et
+                        <lb/>quoi, à vôtre avis, est-ce une vraye Foi
+                        <lb/>que celle qui est stérile ? Est-ce être
+                        <lb/>bien persuadé, &amp; de tout ce que Dieu
+                        <lb/>a fait pour nous, &amp; de tout ce que Jésus
+                        <lb/>a souffert, &amp; de tout ce qu'il nous
+                        <lb/>promet, &amp; de tout ce dont il nous menace,
+                        <lb/>enfin de tout ce qu'il nous propose ,
+                        <lb/>pour nous porter à la Charité,
+                        <lb/>que de n'être pas embrasé par là d'un
+                        <lb/>amour ardent pour nos fréres ? D'ailleurs,
+                        <lb/>si les simples lumiéres, si la simple persuasion, <fw place="bot-right" type="catch">persua-</fw>
+                        <pb n="55"/>
+                        <lb/>étoit aussi utile que bien des
+                        <lb/>gens le croient, ne pourroit-on pas dire
+                        <lb/>alors du Démon même, qu'il auroit les
+                        <lb/>qualitez les plus excellentes,&amp; les plus
+                        <lb/>utiles dans le Christianisme ? De plus encore,
+                        <lb/>seroit-ce un Dessein bien digne de
+                        <lb/>la Divinité,que de proposer simplement
+                        <lb/>aux Hommes quelques Dogmes abstraits
+                        <lb/>&amp; stériles, &amp; que de vouloir simplement
+                        <lb/>qu'ils les crûssent, sans être obligez à
+                        <lb/>aucune autre chose ? Ce dessein là meriteroit-il
+                        <lb/>que le Fils de Dieu descendist
+                        <lb/>sur la Terre , qu'il se revêtist de nôtre
+                        <lb/>nature , qu'il souffrist une mort honteuse,
+                        <lb/>qu'il brisât ensuite les portes du sépulchre,
+                        <lb/>&amp; qu'il remontât dans le Ciel,
+                        <lb/>pour nous y préparer des Biens infinis ?
+                        <lb/>Au contraire, n'est-ce pas un Dessein,
+                        <lb/>tres-digne de la Divinité, tres-digne de
+                        <lb/>la grandeur de l'Evangile, que de vouloir
+                        <lb/>inspirer aux Hommes des sentimens
+                        <lb/>dignes de leur nature , que de vouloir
+                        <lb/>établir entr'eux la paix, la tranquillité,
+                        <lb/>la concorde, &amp; par conséquent
+                        <lb/>le bonheur,enfin que de vouloir les unir
+                        <lb/>ensemble par le lien de la Charité ? Concluons
+                        <lb/>donc encore que, quand nous <fw place="bot-right" type="catch">au-</fw>
+                        <pb n="56"/>
+                        <lb/>aurions toute la persuasion possible des
+                        <lb/>Mystéres, si nous n'avons pas la Charité,
+                        <lb/>
+                        <quote source="bible1588.xml#_1Cor.13.3">
+                            <hi rend="I">cela ne nous sert de rien</hi>
+                        </quote>. ( 4 ) Enfin, si
+                        <lb/>Saint Paul dit qu'il étoit inutile, &amp; de
+                        <lb/>donner tous ses biens aux pauvres, &amp; de
+                        <lb/>s'exposer soi-même à la mort, à moins
+                        <lb/>qu'on n'eût la Charité, Avons-nous sujet
+                        <lb/>de nous assûrer sur quelques œuvres
+                        <lb/>extérieures , infiniment moins belles
+                        <lb/>que celles-là ? Avons-nous sujet de
+                        <lb/>conter beaucoup, comme font néantmoins
+                        <lb/>plusieurs d'entre nous, sur ce que
+                        <lb/>nous sommes dans l'Eglise de Dieu, sur
+                        <lb/>ce que nous fréquentons son Temple,sur
+                        <lb/>ce que nous le prions, sur ce que nous
+                        <lb/>chantons ses loüanges, sur ce que nous
+                        <lb/>faisons quelques Aumônes, &amp; quelques
+                        <lb/>autres actes de piété ? Avons-nous même
+                        <lb/>lieu de nous glorifier , &amp; de nous
+                        <lb/>assûrer de nôtre salut , simplement
+                        <lb/>parce que nous souffrons quelque chose
+                        <lb/>pour l'Evangile ? Tout cela, il est
+                        <lb/>vrai, sont de bonnes œuvres, des œuvres
+                        <lb/>dignes de loüange ; Mais tout cela
+                        <lb/>encore est inutile sans une vraïe
+                        <lb/>Charité. </p>
+                    <p n="35">
+                        <lb/>
+                        <note type="margin">III.</note> Qu'est-ce donc, Mes Freres, Qu'est-ce
+                        <lb/>qui est utile, préférablement à toute <fw place="bot-right" type="catch">autre</fw>
+                        <pb n="57"/>
+                        <lb/>autre chose ? Qu'est-ce qui fait l'essence
+                        <lb/>du Christianisme, qui donne du prix
+                        <lb/>à tous nos talens, qui couronne toutes
+                        <lb/>nos bonnes œuvres, enfin qui nous assûre
+                        <lb/>le Ciel ? Sans contredit, c'est <quote source="bible1588.xml#_1Cor.13.1">
+                            <hi rend="I">la Charité</hi>
+                        </quote>,
+                        <lb/>comme S. Paul nous le fait comprendre,
+                        <lb/>&amp; comme nous l'avons prouvé
+                        <lb/>dans ce Discours : Mais une Charité
+                        <lb/>pure ; Mais une Charité sincére ; Mais
+                        <lb/>une Charité vive &amp; agissante ; Mais une
+                        <lb/>Charité qui aime tous les Hommes,sans
+                        <lb/>excepter nos ennemis ; Mais une Charité
+                        <lb/>qui fasse pour les autres tout ce que
+                        <lb/>nous voudrions qu'ils fissent pour nous;
+                        <lb/>Mais une Charité enfin, qui ne se démente
+                        <lb/>jamais, &amp; qui anime toute nôtre
+                        <lb/>vie. Que je tremble , Mes Freres ,
+                        <lb/>quand je fais réflexion sur tous ces Caractéres
+                        <lb/>de la Charité, &amp; quand je considére
+                        <lb/>en suite combien ils sont rares
+                        <lb/>parmi nous ! La Charité, disions-nous,
+                        <lb/>doir être <hi rend="I">pure </hi>, elle doit procéder de
+                        <lb/>l'Amour de Dieu. Mais j'en atteste vos
+                        <lb/>consciences, si ce qui forme toutes nos
+                        <lb/>amitiez, n'est pas, ou l'interêt , ou le
+                        <lb/>plaisir, &amp; tres-souvent même le vice.
+                        <lb/>La Charité, disions-nous encore, doit
+                        <lb/>être <hi rend="I">sincére</hi>, &amp; dans le fond du cœur. <fw place="bot-right" type="catch">Mais</fw>
+                        <pb n="58"/>
+                        <lb/>Mais j'en atteste vos consciences, si ce
+                        <lb/>ne sont pas de pures grimaces, que presque
+                        <lb/>toutes les marques d'amitié, qu'on
+                        <lb/>se donne les uns aux autres. La Charité
+                        <lb/>ne doit <hi rend="I">faire aucun mal </hi>; Elle ne doit attaquer,
+                        <lb/>ni la vie, ni les biens, ni l'honneur
+                        <lb/>de nôtre Prochain. Mais j'en appelle à
+                        <lb/>l'expérience, s'il n'y en a pas plusieurs
+                        <lb/>parmi nous, qui font des actes d'injustice,
+                        <lb/>qui font des actes de violence, &amp;
+                        <lb/>qui ternissent, autant qu'ils peuvent, la
+                        <lb/>réputation de leurs Prochains. La Charité
+                        <lb/>ne doit, ni <hi rend="I">souhaiter le mal</hi>, ni s'en
+                        <lb/>
+                        <hi rend="I">réjouïr</hi> , quand il est arrivé ; Au contraire,
+                        <lb/>elle doit voir avec plaisir les avantages
+                        <lb/>de nos Fréres. Mais j'atteste encore
+                        <lb/>vos consciences, s'il ne regne pas
+                        <lb/>dans la plûpart de nous des sentimens
+                        <lb/>d'envie, de jalousie, de malignité, &amp; si
+                        <lb/>nous ne souhaitons pas avec ardeur l'abbaissement
+                        <lb/>&amp; la ruïne de ceux qui nous
+                        <lb/>font ombrage. Je ne veux pas aller plus
+                        <lb/>avant. Je laisse à vos consciences à vous
+                        <lb/>parler sur les autres articles, &amp; à rendre
+                        <lb/>témoignage, ou à vôtre bonne conduite,
+                        <lb/>ou aux defauts de vôtre Charité. Je
+                        <lb/>ne veux pas même répéter ici toutes les
+                        <lb/>raisons que j'ai alleguées de l'importance <fw place="bot-right" type="catch">ce</fw>
+                        <pb n="59"/>
+                        <lb/>de cette Vertu. Vous en avez pû
+                        <lb/>sentir la force, si vous avez voulu nous
+                        <lb/>écouter. Le seul article qu'il est bon de
+                        <lb/>presser, dans une saison comme celle-ci,
+                        <lb/>&amp; dans un tems où l'on se prépare à
+                        <lb/>faire bien-tôt les Collectes, c'est la nécessité
+                        <lb/>de l'Aumône, soit envers tous
+                        <lb/>les Membres de Jésus-Christ, soit principalement
+                        <lb/>envers ceux de nos fréres,
+                        <lb/>que la Tempête a conduits parmi nous. </p>
+                    <p n="36">
+                        <lb/>Mes Freres, Là dessus il faut rendre <note type="margin">IV.</note>
+                        <lb/>justice à la Charité de plusieurs bonnes
+                        <lb/>Ames, &amp; de plusieurs Familles pieuses,
+                        <lb/>qui ont tres-bien fait leur devoir. Il faut
+                        <lb/>même rendre témoignage, &amp; à la grande
+                        <lb/>piété de nôtre Magistrat, &amp; à la disposition
+                        <lb/>tendre &amp; généreuse de tout le
+                        <lb/>Corps de cette Eglise. Ouï, vos Aumônes,
+                        <lb/>Peuple de GENEVE, sont montées
+                        <lb/>jusques aux Cieux, &amp; j'ose dire
+                        <lb/>même que vôtre exemple a eu une influence
+                        <lb/>toute particuliére sur les autres
+                        <lb/>Etats Protestans, &amp; n'a pas peu servi à
+                        <lb/>l'accueil qu'ils ont fait aux tristes, mais
+                        <lb/>vénérables débris de tant de florissantes
+                        <lb/>Eglises. Mais il ne suffit pas d'avoir bien
+                        <lb/>commencé ; Il faut continuër de la même
+                        <lb/>maniére, &amp; ne se lasser point de faire <fw place="bot-right" type="catch">re</fw>
+                        <pb n="60"/>
+                        <lb/>du bien. J'avouë qu'il y a des incommoditez
+                        <lb/>à souffrir dans cette rencontre.
+                        <lb/>Mais la Charité ne veut-elle pas
+                        <lb/>que l'on se gêne un peu en faveur de ses
+                        <lb/>fréres ? Et d'ailleurs , il faut bien examiner,
+                        <lb/>si c'est la nature qui se plaint en
+                        <lb/>nous, &amp; qui a sujet de se plaindre, ou si
+                        <lb/>ce n'est point nôtre avidité, nôtre avarice,
+                        <lb/>nôtre luxe, qui ne sauroit souffrir
+                        <lb/>qu'on lui retranche rien. J'avouë encore
+                        <lb/>qu'on est porté à dire, Un tel n'a pas
+                        <lb/>fait telle chose, Pourquoi ferois-je plus
+                        <lb/>que lui ? Mais il faut se souvenir que, ni
+                        <lb/>sur l'Aumône, ni sur aucun autre devoir,
+                        <lb/>les exemples ne nous excusent point.
+                        <lb/>Chacun portera son propre fardeau ; Et
+                        <lb/>malheur à ceux qui auront été lâches.
+                        <lb/>Mes Freres, Mettons-nous en la place
+                        <lb/>de ceux qui ont besoin de nôtre assistance.
+                        <lb/>Voyons ce que nous voudrions alors
+                        <lb/>qu'on nous fît, &amp; usons-en de même à
+                        <lb/>l'égard des autres. Helas ! qui sait ce
+                        <lb/>que Dieu nous reserve, &amp; si aprés avoir
+                        <lb/>servi d'asyle, nous ne serons point contraints
+                        <lb/>d'en chercher un ? Moïse disoit
+                        <lb/>au Peuple d'Israël, <quote source="bible1588.xml#Exod.22.21">
+                            <hi rend="I">Vous aurez soin de
+                                <lb/>l'étranger , car vous avez été étrangers en
+                                <lb/>Egypte</hi></quote>. C'est ce que doivent se
+                        dire à <fw place="bot-right" type="catch">elles-</fw>
+                        <pb n="61"/>
+                        <lb/>elles-mêmes plusieurs Familles d'entre
+                        <lb/>nous. Comme elles ont eu le bonheur
+                        <lb/>autrefois d'être favorisées dans cette
+                        <lb/>Ville, elles doivent avoir les mêmes
+                        <lb/>égards, pour ceux qui sont dans un cas
+                        <lb/>semblable. Et quoi ? Mes Fréres,Qu'est-ce
+                        <lb/>que demandent les grandes bénédictions
+                        <lb/>dont Dieu nous favorise,&amp; en particulier
+                        <lb/>l'état florissant où nôtre Commerce
+                        <lb/>se trouve aujourd'hui ? Cela demande-t-il
+                        <lb/>que nous nous relâchions
+                        <lb/>dans l'exercice de la Charité ? N'est-ce
+                        <lb/>pas au contraire un nouveau motif,pour
+                        <lb/>nous la faire augmenter ? Et ne seroit-ce
+                        <lb/>pas une flétrissure éternelle pour cette
+                        <lb/>Eglise, si dans le tems où Dieu nous fait
+                        <lb/>le plus de bien , nous commencions à
+                        <lb/>devenir durs &amp; insensibles à l'égard de
+                        <lb/>nos fréres ? O si l'on donnoit à la Charité
+                        <lb/>la moitié seulement de ce qu'on donne
+                        <lb/>au Luxe , nous n'aurions plus besoin
+                        <lb/>de toucher cet article ; Les pauvres seroient
+                        <lb/>largement partagez ; Et il nous
+                        <lb/>faudroit faire comme Moïse, qui ayant <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Exod.36.6-7">Exod. <lb/>XXXVI.<lb/>6.7.</ref>
+                        </note>
+                        <lb/>déja tout ce qu'il faloit pour construire
+                        <lb/>le Tabernacle, fit cesser les presens des
+                        <lb/>Israëlites. Mais que nous sommes loin
+                        <lb/>de cet heureux état ! Quand il s'agit de <fw place="bot-right" type="catch">parer</fw>
+                        <pb n="62"/>
+                        <lb/>parer nos maisons, Quand il s'agit de
+                        <lb/>nous parer nous-mêmes, on ne sait ce
+                        <lb/>que c'est que de l'esprit d'épargne; C'est
+                        <lb/>au contraire à qui dépensera le plus.
+                        <lb/>Mais dés qu'il s'agit de donner, ou de
+                        <lb/>céder quelque chose aux Membres du
+                        <lb/>Seigneur Jésus, on se plaint, on murmure,
+                        <lb/>on crie, comme si l'on alloit être
+                        <lb/>ruïné. Je ne dis rien à l'égard du Luxe; Il
+                        <lb/>semble que le pli est pris ; Il semble que
+                        <lb/>le mal est presque sans remede : Et tout
+                        <lb/>ce qu'on pourra dire là dessus sera désormais
+                        <lb/>de tres-peu d'usage, à moins qu'on
+                        <lb/>n'augmente considérablement la sévérité
+                        <lb/>des Loix Civiles. Je dirai seulement
+                        <lb/>que ceux qui sont si fixes à se distinguer,
+                        <lb/>&amp; par leurs habits, &amp; par leurs ameublemens ,
+                        <lb/>font voir qu'ils ont une vanité
+                        <lb/>bien puérile &amp; bien mal-entenduë; Car
+                        <lb/>il vaudroit autant que l'on passât sa vie
+                        <lb/>à ajuster des poupées, que de la passer
+                        <lb/>à s'orner soi-même , &amp; à orner des parois.
+                        <lb/>Mais voulez-vous savoir un moyen
+                        <lb/>bien plus sage &amp; bien plus noble, pour
+                        <lb/>vous faire estimer ? Cherchez le dans
+                        <lb/>la Charité ; Car y a-t-il rien de plus estimable,
+                        <lb/>rien de plus noble, rien de plus
+                        <lb/>élevé, que de rendre heureux, que de <fw place="bot-right" type="catch">rendre</fw>
+                        <pb n="63"/>
+                        <lb/>contens autant de gens qu'il
+                        <lb/>nous est possible ? Y a-t-il rien même,
+                        <lb/>comme j'ai déjà dit, qui donne tant de
+                        <lb/>joye à un esprit bien fait, que de penser
+                        <lb/>qu'il rend la vie supportable &amp; douce à
+                        <lb/>des malheureux, qu'il nourrit l'un, qu'il
+                        <lb/>revêt l'autre, qu'il aide l'un de ses conseils ,
+                        <lb/>qu'ils soûtient l'autre par son crédit ?
+                        <lb/>C'est-là assurément de tous les
+                        <lb/>plaisirs, &amp; le plus pur, &amp; le plus sensible.
+                        <lb/>Aprés cela, Mes Freres, tournons un
+                        <lb/>peu la vûë sur ce qui se passe aujourd'hui
+                        <lb/>dans l'Europe. Regardons ce que font
+                        <lb/>tant de Souverains &amp; tant d'Etats Protestans,
+                        <lb/>en faveur de nos Fréres Fugitifs,
+                        <lb/>nonobstant les sommes immenses
+                        <lb/>qu'ils sont obligez d'employer à la
+                        <lb/>Guerre. Considerons même ce qui se
+                        <lb/>passe dans l'Eglise Romaine à l'égard
+                        <lb/>des Aumônes ; Combien on y fait de
+                        <lb/>fondations pieuses, Combien de dons
+                        <lb/>aux Hôpitaux ; Combien on y voit de
+                        <lb/>Gens de qualité aller eux-mêmes visiter
+                        <lb/>les pauvres, &amp; entrer dans tout le
+                        <lb/>détail de leurs souffrances &amp; de leurs
+                        <lb/>besoins. Car, il faut l'avouër, l'Eglise
+                        <lb/>Romaine, qui a d'ailleurs un Esprit si
+                        <lb/>contraire à la véritable Charité, comme <fw place="bot-right" type="catch">me</fw>
+                        <pb n="64"/>
+                        <lb/>nous l'avons montré tout à l'heure,
+                        <lb/>ne laisse pas de nous présenter de
+                        <lb/>beaux exemples à l'égard de l'Aumône.
+                        <lb/>Elle en diminuë , il est vrai, le
+                        <lb/>prix , par le faux mérite qu'elle y attache,
+                        <lb/>&amp; par la crainte d'un Feu imaginaire,
+                        <lb/>qui en est le grand ressort ; Elle
+                        <lb/>en diminuë même le prix, par les
+                        <lb/>vûës purement mondaines, qu'elle se
+                        <lb/>propose souvent en cela ? Mais aprés
+                        <lb/>tout , ce sont de beaux exemples , à
+                        <lb/>n'en regarder que le dehors , &amp; des
+                        <lb/>exemples même qui nous font honte.
+                        <lb/>Mais enfin, pourquoi chercher tant de motifs ?
+                        <lb/>Ceux de l'Evangile ne suffisent-ils pas ?
+                        <lb/>N'est ce pas assez que la
+                        <lb/>paix de l'ame , que la satisfaction intérieure ,
+                        <lb/>que nous en retirerons de la
+                        <lb/>Charité ? N'est-ce pas assez, que l'Amour
+                        <lb/>de Dieu, que son Approbation,
+                        <lb/>que sa Grace ? N'est-ce pas assez que
+                        <lb/>la gloire de dévenir semblables à Dieu,
+                        <lb/>d'être les imitateurs du Seigneur Jésus ,
+                        <lb/>d'être les Temples du Saint Esprit ?
+                        <lb/>N'est-ce pas assez enfin que l'Espérance
+                        <lb/>d'un Bonheur éternel &amp; infini ? </p>
+                    <p n="37">
+                        <lb/>Courage donc, Fidéles, montrons <fw place="bot-right" type="catch">dés</fw>
+                        <pb n="65"/>
+                        <lb/>dés aujourd'hui , &amp; par l'exercice de
+                        <lb/>l'Aumône, &amp; par celui de tous les devoirs
+                        <lb/>que la Charité nous impose, que
+                        <lb/>nous avons <hi rend="I">appris Christ </hi>comme il faut,
+                        <lb/>que nous ne nous contentons pas de
+                        <lb/>connoître son Evangile , que nous ne
+                        <lb/>nous contentons pas d'en faire profession
+                        <lb/>au dehors, que nous ne nous contentons
+                        <lb/>pas d'en faire quelques œuvres
+                        <lb/>extérieures , Mais que Christ regne
+                        <lb/>dans nos cœurs, qu'il en posséde toutes
+                        <lb/>les affections, qu'il en régle toutes les
+                        <lb/>démarches , &amp; sur toutes choses que
+                        <lb/>c'est sa Charité , qui y tient le premier
+                        <lb/>lieu. Alors, pour me servir des termes
+                        <lb/>d'un Prophéte , <quote source="bible1588.xml#Isa.58.8-9">nôtre lumiére sortira <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Isa.58.8-9">Esaïe <lb/>LVIII.<lb/>8.9.</ref>
+                        </note>
+                        <lb/>comme l'Aurore, nôtre justice ira devant
+                        <lb/>nous, &amp; la Gloire de l'Eternel
+                            <lb/>sera nôtre arriére-garde. Alors, si nous
+                        <lb/>invoquons l'Eternel, l'Eternel nous exaucera ;
+                            <lb/>Si nous crions à lui,il dira,Me voici<!--citation approximative--></quote>.
+                        <lb/>Alors, nous aurons un riche trésor, <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Tim.6.19">I. Tim. <lb/>VI. I9.</ref>
+                        </note>
+                        <lb/>un bon fondement dans le Ciel. Alors,
+                        <lb/>enfin, nous serons assurez, que quand Jésus
+                        <lb/>viendra pour juger le Monde, il regardera
+                        <lb/>comme fait à lui-même tout ce
+                        <lb/>que nous aurons fait au moindre de ses <fw place="bot-right" type="catch">Mem-</fw>
+                        <pb n="66"/>
+                        <lb/>Membres, &amp; que pour une misérable
+                        <lb/>
+                        <hi rend="I">pite</hi>, pour un <hi rend="I">verre d'eau </hi>que nous
+                        aurons
+                        <lb/>donné, il nous rendra une vie
+                        <lb/>éternelle. AINSI SOIT-IL.
+                        <lb/>
+                        <hi rend="I">FIN</hi>. </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

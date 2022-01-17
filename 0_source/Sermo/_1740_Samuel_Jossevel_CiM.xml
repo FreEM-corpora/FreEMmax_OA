@@ -1,0 +1,2008 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1740_Samuel_Jossevel_CiM">
+            <titleStmt>
+                <title type="sermon">LE TEMS FAVORABLE DU SALUT: OU SERMON Sur ces paroles du Prophète Isaïe,au chap. LV. vers. 6. ...</title>
+                <title type="book">Deux sermons prononcés les jours de jeune, II. 7bre. 1738. &amp; 10. 7bre. 1739. PAR SAMUEL JOSSEVEL, Pasteur de l'Eglise de Morges 
+                    A GENEVE, Chez Pierre Jaquier. MDCCXL</title>
+                <author ref="...">Samuel Jossevel</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="CiM">Cinthia MELI</persName>
+                        <email>cinthia.meli@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Samuel Jossevel</author>
+                        <title>Deux sermons prononcés les jours de jeune, II. 7bre. 1738. &amp; 10. 7bre. 1739.</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Pierre Jaquier</publisher>
+                            <date>1740</date>
+                            <date type="sermon">1738</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">https://books.google.ch/books?vid=BCULVD1925246
+                    </idno>
+                    <idno type="source">Bibliothèque cantonale et universitaire de Lausanne</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_circonstances</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">2</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Isa.55.6</term>
+                    <term type="paratext" subtype="epistle">AUX NOBLES ET TRES HONORE’S, MESSIEURS LE BANDERET ET LES CONSEILLERS qui composent les Chambres Des Douze &amp; des Vingt-quatre de la Ville de MORGES, SEIGNEURS D’ACLENS &amp; DE ROMANEL.</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-19" who="#LjD">transformation word - XML</change>
+            <change when="2016-08-19" who="#MAG">Verification, citations</change>
+            <change when="2016-07-31 " who="#CiM">Transcription word</change>
+            <change when="2016-09-30" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>DEUX
+                    <lb/>SERMONS
+                    <lb/>PRONONCÉS
+                    <lb/>LES JOURS DE JEUNE,
+                    <lb/>II. 7<hi rend="E">bre.</hi> 1738. &amp; 10. 7<hi rend="E">bre.</hi> 1739.
+                    <lb/>PAR
+                    <lb/>SAMUEL JOSSEVEL,
+                    <lb/>Pasteur de l'Eglise de MORGES </p>
+                <figure/>
+                <p n="2">
+                    <lb/>A GENEVE, </p>
+                <p n="3">
+                    <lb/>Chez PIERRE JAQUIER. </p>
+                <p n="4">
+                    <lb/>MDCCXL </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <head type="main">
+                    <lb/>LE TEMS FAVORABLE
+                    <lb/>DU SALUT:
+                    <lb/>OU SERMON<note type="margin"><choice><sic>Pronon-</sic><corr resp="#CiM">Prononcé</corr></choice><lb/><date>le II. <lb/>7<hi rend="E">bre.</hi> <lb/>1738</date> Jour de <lb/>Jeûne</note>
+                    <lb/>Sur ces paroles du Prophète <ref type="bible" target="bibleSegond21.xml#Isa.55.6">Isaïe,
+                        <lb/>au chap. LV. vers. 6. </ref>
+                    <quote source="bibleOstervald1724.xml#Isa.55.6">
+                        <hi rend="I">Cherchez
+                            <lb/>l'Eternel pendant qu'il se trouve</hi>
+                    </quote>.
+                </head>
+                <p n="1">
+                    <lb/>
+                    <quote source="bibleOstervald1724.xml#Eccl.3.1:2:3:4:7:8">
+                        <c type="lettrine">A</c>
+                        <hi rend="I"> toute chose sa saison, &amp; à</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Eccl.3.1:2:3:4:7:8">Eccl.III. <lb/>vers. 1. <lb/>2. &amp;c.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">toute afaire sous les Cieux
+                            <lb/>son tems </hi>, <seg type="interpolation">dit le Sage dans
+                                <lb/>l'Ecclésiaste.</seg><hi rend="I">Il y a un tems
+                            <lb/>de naître , il y a un tems de mourir ;
+                            <lb/>Un tems de pleurer , &amp; un tems de
+                            <lb/>rire; Un tems de se taire , &amp; un tems de
+                            <lb/>parler; Un tems de guerre, &amp; un tems de
+                            <lb/>paix</hi>
+                        <!--citation approximative-->
+                    </quote>. Nous pouvons dire de même :
+                    <lb/>Il y a un tems de salut , &amp; un tems où
+                    <lb/>il n'y a point de salut. Et de là nous <fw place="bot-right" type="catch">de-</fw>
+                    <pb n="2"/>
+                    <lb/>devons conclure qu'il est de la prudence
+                    <lb/>de savoir prendre son tems dans
+                    <lb/>l'afaire du salut , comme dans toutes
+                    <lb/>les afaires de la vie , &amp; de <quote source="bibleSegond21.xml#Isa.55.6">
+                        <hi rend="I">chercher
+                            <lb/>l'Eternel pendant qu'il se trouve</hi>
+                    </quote>.
+                </p>
+                <p n="2">
+                    <lb/>C'est le sage avertissement que le
+                    <lb/>Prophète donnoit aux Juifs dans mon
+                    <lb/>texte. Heureux ! si nous en savions
+                    <lb/>mieux profiter qu'eux, &amp; y faire servir
+                    <lb/>le jeûne que nous célébrons aujourdui
+                    <lb/>par l'ordre de nos Souverains.
+                    <lb/>Tout nous y engage d'une façon indispensable.
+                    <lb/>Lors que nous réfléchissons
+                    <lb/>sur l'abus que nous faisons des
+                    <lb/>bienfaits de Dieu envers nous , &amp; en
+                    <lb/>particulier de la longue patience avec
+                    <lb/>laquelle il nous suporte &amp; nous atend
+                    <lb/>à la repentance ; Lors que nous considérons
+                    <lb/>les fleaux dont il a frapé divers
+                    <lb/>Peuples autour de nous , &amp; ceux
+                    <lb/>qu'il nous a fait quelquefois sentir à
+                    <lb/>nous-mêmes ; L'irréligion &amp; l'impiété
+                    <lb/>qui régne parmi nous , malgré tous
+                    <lb/>ces atraits de la grace &amp; de la miséricorde
+                    <lb/>de Dieu : Tout cela ne nous
+                    <lb/>donne que trop lieu de craindre que
+                    <lb/>Dieu ne nous cache enfin sa face ,
+                    <lb/>&amp; qu'il ne vienne un tems de ténébres <fw place="bot-right" type="catch">bres</fw>
+                    <pb n="3"/>
+                    <lb/>&amp; de calamité où nous voudrons
+                    <lb/>chercher Dieu , mais où Dieu ne se
+                    <lb/>trouvera plus. C'est pour prévenir ce
+                    <lb/>malheur , que je vai vous adresser
+                    <lb/>cette exhortation si nécessaire : <quote source="bibleOstervald1724.xml#Isa.55.6">
+                        <hi rend="I">Cherchez
+                            <lb/>l'Eternel pendant qu'il se trouve</hi>
+                    </quote>.
+                </p>
+                <p n="3">
+                    <lb/>Pour lui donner toute la force dont<note type="margin">Division<!--CiM : La division devrait être balisée comme telle--></note>
+                    <lb/>je serai capable , je vous montrerai,
+                    <lb/>1. , que nous nous sommes éloignés
+                    <lb/>de Dieu par nos péchez &amp; par nos
+                    <lb/>crimes. 2. Je vous ferai voir ensuite
+                    <lb/>qu'une telle conduite a obligé Dieu à
+                    <lb/>s'éloigner de nous à plusieurs égards,
+                    <lb/>&amp; que nous devons craindre qu'il ne
+                    <lb/>s'en éloigne entiérement. De là je
+                    <lb/>vous ferai sentir , en 3<hi rend="E">e.</hi> lieu , la nécessité
+                    <lb/>qu'il y a de <quote source="bibleOstervald1724.xml#Isa.55.6">
+                        <hi rend="I">chercher l'Eternel</hi>
+                    </quote>.
+                    <lb/>Mais afin de ne laisser point de lieu
+                    <lb/>à la sécurité , je vous montrerai en
+                    <lb/>dernier lieu qu'il est un tems où Dieu
+                    <lb/>se trouve , &amp; un tems où il ne se
+                    <lb/>trouve point ; Ce qui m'engagera à
+                    <lb/>vous exhorter à ne pas laisser écouler
+                    <lb/>le tems auquel Dieu peut se trouver ,
+                    <lb/>mais à <quote source="bibleOstervald1724.xml#Isa.55.6">
+                        <hi rend="I">chercher l'Eternel pendant
+                            <lb/>qu'il se trouve </hi>
+                    </quote>, &amp; qu'il nous
+                    <lb/>ofre encore sa grace. Puisse nôtre
+                    <lb/>foible voix se faire entendre jusques <fw place="bot-right" type="catch">dans</fw>
+                    <pb n="4"/>
+                    <lb/>dans le fond de vos cœurs! Et toi ,
+                    <lb/>Grand Dieu , sois propice à nos vœux !
+                    <lb/>Et fais que te cherchant par tous les
+                    <lb/>mouvemens de la plus vive repentance ,
+                    <lb/>nous te trouvions avec toutes
+                    <lb/>tes graces &amp; tes bénédictions ! Amen. </p>
+                <div n="1" type="sub">
+                    <head type="sub">
+                        <lb/>PREMIERE PARTIE.</head>
+                    <p n="4">
+                        <lb/>
+                        <note type="margin">Voies <lb/>par lesquelles <lb/>nous <lb/>nous <lb/>sommes <lb/>éloignés <lb/>de
+                            Dieu</note>D'abord, MES FRÉRES, considérons
+                        <lb/>nôtre état , &amp; combien nous
+                        <lb/>nous sommes malheureusement éloignés
+                        <lb/>de Dieu. C'est une vérité dont
+                        <lb/>il est nécessaire de nous bien convaincre.
+                        <lb/>Suivez-nous dans les détails où
+                        <lb/>nous allons entrer sur ce sujet , &amp; aportez-y
+                        <lb/>des cœurs vraiment humiliés
+                        <lb/>en la présence de Dieu , dans le
+                        <lb/>sentiment de vos péchez &amp; de vos
+                        <lb/>crimes. </p>
+                    <p n="5">
+                        <lb/>
+                        <note type="margin">L'incrédulité.</note>Nous nous éloignons de Dieu par
+                        <lb/>nôtre incrédulité. Saint Paul dit que
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Heb.11.6">Hebr.XI. <lb/>vers. 6.</ref>
+                        </note>
+                        <quote source="bibleOstervald1724.xml#Heb.11.6">
+                            <hi rend="I"><surplus reason="repeated">que</surplus> pour s'aprocher de Dieu , il faut
+                                <lb/>croire que Dieu est , &amp; qu'il est le
+                                <lb/>rémunerateur de ceux qui le cherchent</hi>
+                        </quote>.
+                        <lb/>Comme la foi , qui nous fait admettre
+                        <lb/>son existence &amp; tout ce qu'il nous révèle,
+                        <lb/>nous aproche de lui &amp; nous unit <fw place="bot-right" type="catch">nit</fw>
+                        <pb n="5"/>
+                        <lb/>à lui , l'incrédulité qui nous fait
+                        <lb/>rejetter ou revoquer en doute ces
+                        <lb/>dogmes , nous éloigne de lui , &amp;
+                        <lb/>fait que nous sommes , comme Saint
+                        <lb/>Paul le disoit des Païens qui ne connoissoient
+                        <lb/>pas Dieu , comme si nous
+                        <lb/>étions <quote source="bibleOstervald1724.xml#Eph.2.12">
+                            <hi rend="I">sans Dieu &amp; sans espérance dans
+                                <lb/>le monde</hi>
+                        </quote>. Or qui ne sait combien
+                        <lb/>l'incrédulité est aujourdhui devenuë
+                        <lb/>commune ? Combien ne voit-on pas
+                        <lb/>de ces hommes vains , qui , soit par
+                        <lb/>un principe de singularité, soit par
+                        <lb/>un principe de libertinage , sapent les
+                        <lb/>vérités fondamentales de la Religion?
+                        <lb/>Rejettent la Révélation , qu'ils ne regardent
+                        <lb/>que comme un système de politique ,
+                        <lb/>fait à plaisir pour retenir les
+                        <lb/>Peuples dans le devoir , malgré les
+                        <lb/>preuves les plus évidentes qui en démontrent
+                        <lb/>la divinité ? Rien n'est plus
+                        <lb/>afligeant que de voir le mépris que
+                        <lb/>l'on fait de la Religion , &amp; la liberté
+                        <lb/>que l'on se donne d'ataquer , tantôt
+                        <lb/>ce dogme , tantôt un autre ; Comme
+                        <lb/>le mystère de nôtre Rédemption par
+                        <lb/>Jésus-Christ , &amp; tout ce qui n'est pas
+                        <lb/>au niveau des foibles lumiéres de nôtre
+                        <lb/>esprit. Cette malheureuse disposition <fw place="bot-right" type="catch">tion</fw>
+                        <pb n="6"/>
+                        <lb/>est sur tout entre tenuë &amp; <choice><sic>fortifié</sic><corr resp="#CiM">fortifiée</corr></choice>
+                        <lb/>par la lecture de certains livres,
+                        <lb/>qu'on ne sauroit assez condamner , &amp;
+                        <lb/>qui semblent avoir été composés exprès
+                        <lb/>pour répandre l'incrédulité dans
+                        <lb/>le monde. On lit ces livres avec avidité.
+                        <lb/>On retient ce qu'ils ont de plus
+                        <lb/>pernicieux , &amp; de plus propre à nous
+                        <lb/>afermir dans nos doutes. On se fait
+                        <lb/>ensuite un plaisir de glisser dans ses
+                        <lb/>discours ce poison dangereux , &amp; de
+                        <lb/>faire de la Religion le sujet de ses fades
+                        <lb/>railleries ; Ce qui produit souvent
+                        <lb/>un éfet funeste dans l'esprit de ceux
+                        <lb/>qui les écoutent. </p>
+                    <p n="6">
+                        <lb/>
+                        <note type="margin">La négligence <lb/>à <lb/>lire la <lb/>Parole <lb/>de Dieu.</note>Nous nous
+                        éloignons de Dieu par
+                        <lb/>la négligence avec laquelle nous lisons
+                        <lb/>sa Parole. Dieu nous parle dans sa
+                        <lb/>Parole. C'est là qu'il nous fait entendre
+                        <lb/>ses Oracles. C'est là que nous
+                        <lb/>nous instruisons de sa volonté , de ce
+                        <lb/>que nous avons à espérer après cette
+                        <lb/>vie , &amp; de ce que nous devons faire
+                        <lb/>pour y parvenir. C'est là que Dieu
+                        <lb/>se communique à nous , &amp; c'est le
+                        <lb/>canal , s'il faut ainsi dire , par lequel
+                        <lb/>nous recevons communément toutes
+                        <lb/>ses graces. Quand donc nous lisons
+                        <lb/>la Parole de Dieu avec de bonnes &amp; <pb n="7"/>
+                        <lb/>de saintes dispositions , nous nous approchons
+                        <lb/>de lui : Quand nous la négligeons ,
+                        <lb/>nous nous en éloignons incontestablement.
+                        <lb/>Mais , helas ! <choice><sic>qu'elle</sic><corr resp="#CiM">quelle</corr></choice>
+                        <lb/>n'est pas nôtre froideur &amp; nôtre indiférence
+                        <lb/>à cet égard ! La Parole de
+                        <lb/>Dieu fut-elle jamais plus négligée qu'elle
+                        <lb/>l'est en nos jours ? Et n'est-ce pas
+                        <lb/>là la cause de l'impiété &amp; de l'irréligion ,
+                        <lb/>qui sont répanduës si généralement
+                        <lb/>dans le monde ? Il en est qui,
+                        <lb/>au lieu de la lire chaque jour , cette
+                        <lb/>Parole de Dieu , ne la <choice><sic>lise</sic><corr resp="#CiM">lisent</corr></choice> pas une
+                        <lb/>seule fois dans tout le cours de la
+                        <lb/>semaine , &amp; à qui le Dimanche n'est
+                        <lb/>pas plus sacré pour ce sujet qu'aucun
+                        <lb/>autre jour ; C'est-à-dire qu'ils ne la lisent
+                        <lb/>presque jamais. Au lieu de prendre
+                        <lb/>plaisir à la lecture de la Parole
+                        <lb/>de Dieu , on s'empresse à lire des livres
+                        <lb/>prophanes , dont la plûpart ne
+                        <lb/>sont propres qu'à réveiller des passions
+                        <lb/>criminelles , ou tout au plus qu'à
+                        <lb/>amuser , &amp; à faire perdre un tems
+                        <lb/>dont tous les momens sont si précieux.
+                        <lb/>Faut-il s'étonner après cela , si
+                        <lb/>l'on n'a point de goût pour la Religion
+                        <lb/>&amp; pour la piété , &amp; si au contraire <fw place="bot-right" type="catch">traire</fw>
+                        <pb n="8"/>
+                        <lb/>l'irreligion &amp; l'impiété sont sur le
+                        <lb/>thrône? Voici ce que dit sur ce sujet
+                        <lb/>un Savant Pére de l'Eglise:   <ref target="#fn_8_1" type="noteAnchor">†</ref> <quote type="other" source="# ...">
+                            <hi rend="I">Tenez
+                                <lb/>pour certain</hi>, <seg type="interpolation">dit-il,</seg> <hi rend="I">que telle qu'est nôtre
+                                <lb/>chair , lors qu'elle ne prend qu'une fois
+                                <lb/>de la nourriture en plusieurs jours ,
+                                <lb/>telle est nôtre ame , quand elle ne se
+                                <lb/>nourrit pas très souvent de la Parole
+                                <lb/>de Dieu : Car comme le défaut de nourriture
+                                <lb/>rend nôtre corps sec &amp; atenué,
+                                <lb/>ainsi l'ame , qui néglige de se fortifier
+                                <lb/>par le pain de la Parole de Dieu ,
+                                <lb/>devient foible &amp; aride , &amp; n'est propre
+                                <lb/>à aucune bonne œuvre</hi>
+                        </quote>.
+                    </p>
+                    <p n="7">
+                        <lb/>
+                        <note type="margin">Le relâchement <lb/>dans la <lb/>pratique <lb/>du service
+                        <lb/>divin.</note>Nous nous éloignons de Dieu par
+                        <lb/>nôtre relâchement dans la pratique de
+                        <lb/>la piété &amp; du service divin , soit public ,
+                        <lb/>soit particulier. Je viens déja
+                        <lb/>de parler de la négligence où l'on
+                        <lb/>tombe à l'égard de la lecture de la
+                        <lb/>Parole de Dieu , qui est une partie
+                        <lb/>essentielle du service particulier que
+                        <lb/>nous devons rendre à Dieu dans nos
+                        <lb/>maisons. A quoi je pourrois ajouter
+                        <lb/>le peu de soin que l'on a de le prier <fw place="bot-right" type="catch">&amp;</fw>
+                        <note xml:id="fn_8_1" type="foot" n="†"><ref type="other">Saint Augustin , dans son Livre de la
+                            véritable <lb/>Religion</ref>.</note>
+                        <pb n="9"/>
+                        <lb/>&amp; de l'invoquer , de la maniére que
+                        <lb/>l'on doit , pour atirer sur nous ses graces ,
+                        <lb/>&amp; pour avoir avec lui ce doux
+                        <lb/>commerce qui fait toute la joie &amp; la
+                        <lb/>consolation des Enfans de Dieu. Je
+                        <lb/>veux parler présentement du service
+                        <lb/>public que nous devons rendre à Dieu
+                        <lb/>dans le Temple , en nous unissant
+                        <lb/>pour lui rendre nos religieux <choice><sic>hommage</sic><corr resp="#CiM">hommages</corr></choice>
+                        <lb/>par l'ouïe de sa Parole , par l'invocation
+                        <lb/>de son saint nom , &amp; par le
+                        <lb/>chant de ses loüanges. C'est dans ces
+                        <lb/>saintes Assemblées que nous nous aprochons
+                        <lb/>de Dieu , &amp; que Dieu se
+                        <lb/>communique à nous d'une façon particuliére ;
+                        <lb/>Car Jésus-Christ nous dit
+                        <lb/>que là <quote source="bibleOstervald1724.xml#Matt.18.20">
+                            <hi rend="I">où deux ou trois seront assemblés</hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Matt.18.20">Matth. <lb/>XVIII. <lb/>vers. 20.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">en son nom , il sera au milieu
+                                <lb/>d'eux</hi>
+                        </quote>. Négliger ce culte &amp; ses Assemblées
+                        <lb/>solemnelles , c'est donc s'éloigner
+                        <lb/>de Dieu ; C'est se priver des graces
+                        <lb/>qu'il nous y communique. Mais peut-
+                        <lb/>on témoigner plus de mépris , que le
+                        <lb/>font la plûpart , pour ce service religieux
+                        <lb/>que Dieu nous recommande
+                        <lb/>avec tant de soin , &amp; qui lui est si
+                        <lb/>agréable ? Parce que ce pain céleste
+                        <lb/>est devenu si commun , on s'en dégoute : <fw place="bot-right" type="catch">goute :</fw>
+                        <pb n="10"/>
+                        <lb/>On dit comme les Israëlites :
+                        <lb/>Toujours de la manne ! toujours de
+                        <lb/>la manne ! Il en est que l'on ne voit
+                        <lb/>presque jamais dans nos Temples. Si
+                        <lb/>le Dimanche , que Dieu s'est spécialement
+                        <lb/>reservé pour son service , étoit
+                        <lb/>au moins religieusement observé !
+                        <lb/>Mais à peine est-il distingué par quelques
+                        <lb/>uns des autres jours de la semaine ;
+                        <lb/>Et si l'on a assisté au service
+                        <lb/>du matin , ce seroit pousser trop loin
+                        <lb/>la dévotion que d'assister à celui du
+                        <lb/>soir. Que dirai-je d'ailleurs de la maniére
+                        <lb/>dont on s'aquite du Culte divin ?
+                        <lb/>C'est avec si peu d'atention ,
+                        <lb/>avec si peu de respect &amp; de dévotion,
+                        <lb/>qu'on peut très justement apliquer aux
+                        <lb/>Chrétiens d'aujourdhui ce que Dieu disoit
+                        <lb/>aux Juifs par la bouche du Prophète
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Isa.29.13">Is. XXIX. <lb/>1. 3.</ref>
+                        </note>Isaïe : <quote source="bibleOstervald1724.xml#Isa.29.13">
+                            <hi rend="I">Ce Peuple s'aproche de
+                                <lb/>moi de sa bouche , &amp; ils m'honorent
+                                <lb/>de leurs lévres , mais leur cœur</hi>
+                            <hi rend="I"> est
+                                <lb/>bien éloigné de moi</hi>
+                        </quote>. En faut-il d'autres
+                        <lb/>preuves que cette irrévérence avec
+                        <lb/>laquelle certaines personnes viennent
+                        <lb/>se présenter devant lui , &amp; étaler
+                        <lb/>à ses yeux tout le luxe &amp; toutes
+                        <lb/>les vanités du monde ? Sur tout en <fw place="bot-right" type="catch">faut-</fw>
+                        <pb n="11"/>
+                        <lb/>faut-il d'autres preuves que le peu de
+                        <lb/>fruit que produit aujourdhui la prédication
+                        <lb/>de la Parole de Dieu ? Comme
+                        <lb/>l'on ne vient point dans la maison
+                        <lb/>de Dieu dans le dessein de s'instruire
+                        <lb/>&amp; d'avancer son salut , mais uniquement
+                        <lb/>pour satisfaire à la coutume,
+                        <lb/>&amp; peut-être quelquefois dans des vuës
+                        <lb/>toutes mondaines ; Comme l'on n'y
+                        <lb/>aporte point l'atention &amp; le respect
+                        <lb/>qui sont dûs à la Parole de Dieu ;
+                        <lb/>On ne l'écoute point , cette Parole
+                        <lb/>de Dieu , avec une docilité convenable ;
+                        <lb/>Et qu'après être sorti de ce
+                        <lb/>saint lieu , l'on ne réfléchit point sur
+                        <lb/>ce qu'on a ouï , &amp; l'on n'y pense
+                        <lb/>plus , si ce n'est pour loüer le Prédicateur ,
+                        <lb/>ou pour le blâmer ; Aussi les
+                        <lb/>prédication deviennent entiérement inutiles ,
+                        <lb/>au moins à l'égard du plus
+                        <lb/>grand nombre ; Nous avons beau
+                        <lb/>prêcher , nous avons beau crier à
+                        <lb/>plein gosier , nous ne faisons que fraper
+                        <lb/>les oreilles du corps , &amp; rien davantage.
+                        <lb/>Peut-on être dans un plus
+                        <lb/>grand assoupissement , &amp; un plus grand
+                        <lb/>éloignement de Dieu? </p>
+                    <fw place="bot-right" type="catch">Nous</fw>
+                    <pb n="12"/>
+                    <p n="8">
+                        <lb/>
+                        <note type="margin">L'atachement <lb/>aux choses <lb/>de la <lb/>terre, &amp; <lb/>la vie
+                            <lb/>mondaine.</note>Nous nous éloignons de Dieu par
+                        <lb/>nôtre atachement excessif aux choses
+                        <lb/>de la terre , &amp; par la vie mondaine
+                        <lb/>que nous menons. L'Apôtre Saint
+                        <lb/>Jean dit que <quote source="bibleOStervald1724.xml#_1John.2.15">
+                            <hi rend="I">si quelcun aime le monde ,
+                                <lb/>l'amour du Pére n'est point en lui</hi>
+                        </quote>.
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1John.2.15">I. Jean <lb/>II. vers. <lb/>15.</ref>
+                        </note>Dieu &amp; le Monde sont deux choses
+                        <lb/>trop oposées , pour que l'on puisse
+                        <lb/>s'atacher également à l'une &amp; à l'autre:
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.6.24">Matth. <lb/>VI. vers. <lb/>24.</ref>
+                        </note>
+                        <quote source="bibleOStervald1724.xml#Matt.6.24">
+                            <hi rend="I">Nul</hi> , <seg type="interpolation">dit Jésus-Christ ,</seg>
+                                <hi rend="I">ne peut
+                                <lb/>servir deux Maitres ; Car , ou il haïra
+                                <lb/>l'un &amp; aimera l'autre, ou , s'il
+                                <lb/>s'atache à l'un il méprisera l'autre ;
+                                <lb/>Vous ne sauriez servir Dieu &amp; Mammon</hi>
+                        </quote>.
+                        <lb/>Aimer le monde , c'est donc
+                        <lb/>avoir son cœur éloigné de Dieu. Eh !
+                        <lb/>que voions nous autre chose que des
+                        <lb/>gens de cet ordre ? Des gens qui ne
+                        <lb/>pensent , qui ne respirent , &amp; qui
+                        <lb/>n'agissent que pour cette vie , sans se
+                        <lb/>mettre en peine de celle qui est à venir ?
+                        <lb/>Des gens qui vivent dans une
+                        <lb/>dissipation continuelle , &amp; dont tous
+                        <lb/>les soins sont pour se procurer de
+                        <lb/>vains amusemens &amp; des plaisirs frivoles ;
+                        <lb/>Qui languissent , s'ils ne sont en
+                        <lb/>compagnie , &amp; s'ils ne se divertissent?
+                        <lb/>Toute leur vie se passe dans cette <fw place="bot-right" type="catch">hon-</fw>
+                        <pb n="13"/>
+                        <lb/>honteuse oisiveté , &amp; il ne leur reste
+                        <lb/>aucun tems pour s'atacher aux fonctions
+                        <lb/>de la vie spirituelle &amp; chrétienne ,
+                        <lb/>dont ils n'ont pas même d'idée,
+                        <lb/>bien loin d'en avoir l'usage &amp; la pratique.
+                        <lb/>Non , jamais la dissipation ,
+                        <lb/>l'oisiveté , l'amour des plaisirs , l'amour
+                        <lb/>du monde , n'ont été portés
+                        <lb/>au point où nous les voions
+                            aujourdhui.
+                        <lb/>C'est que le cœur étant vuide
+                        <lb/>de Dieu , il faut qu'il se remplisse
+                        <lb/>des vanités de la terre : N'étant point
+                        <lb/>ataché à Dieu , il faut qu'il prenne
+                        <lb/>des atachemens pour d'autres objets,
+                        <lb/>quelque incapables qu'ils soient de
+                        <lb/>le satisfaire. </p>
+                    <p n="9">
+                        <lb/>Enfin , nous nous éloignons de<note type="margin">La corruption <lb/>des
+                            <lb/>mœurs.</note>
+                        <lb/>Dieu par les passions &amp; les vices qui
+                        <lb/>souillent nôtre ame, &amp; interrompent
+                        <lb/>tout commerce entre Dieu &amp; nous ,
+                        <lb/>&amp; par le dénûment de ces vertus qui
+                        <lb/>nous rendent semblables à Dieu , &amp;
+                        <lb/>nous font aprocher de la nature divine.
+                        <lb/>Et sur cet article , Grand Dieu!
+                        <lb/>que d'afligeantes idées se présentent à
+                        <lb/>mon esprit , lors que je réfléchis sur
+                        <lb/>nos déréglemens &amp; sur la corruption de
+                        <lb/>nos mœurs ! En général, je vous le demande , <fw place="bot-right" type="catch">mande ,</fw>
+                        <pb n="14"/>
+                        <lb/>MES FRÉRES , peut-on
+                        <lb/>dire que l'on voie régner au milieu de
+                        <lb/><surplus reason="repeated">de</surplus> nous le vrai Christianisme, &amp; que
+                        <lb/>l'on porte les marques des vrais Enfans
+                        <lb/>de Dieu ? N'est-il pas vrai que
+                        <lb/>les passions ont pris sur nous un empire
+                        <lb/>presque absolu , &amp; qu'il n'est rien
+                        <lb/>que l'on ne fasse pour les assouvir ?
+                        <lb/>Les maximes de l'Evangile sont-elles
+                        <lb/>
+                        aujourdhui la régle de nos sentimens
+                        <lb/>&amp; de nôtre conduite ? Non : Ce sont
+                        <lb/>les maximes du monde , l'usage du
+                        <lb/>siécle , que nous suivons ; Ce sont
+                        <lb/>nos intérêts temporels que nous consultons ,
+                        <lb/>&amp; que nous prenons pour
+                        <lb/>règle de nôtre conduite , préférablement
+                        <lb/>à la volonté de Dieu. Nous ne
+                        <lb/>voions point parmi nous cet amour
+                        <lb/>de Dieu , qui doit nous le faire préférer
+                        <lb/>à tout. Nous n'y voions point
+                        <lb/>cet amour du prochain , qui doit nous
+                        <lb/>rendre ses interêts communs avec les
+                        <lb/>nôtres. Nous n'y voions point , à
+                        <lb/>l'égard de soi-même , cette conduite
+                        <lb/>sage &amp; bien réglée , qui fait la gloire
+                        <lb/>du Chrétien. Nous y voions au contraire
+                        <lb/>un manque d'amour &amp; de respect
+                        <lb/>pour <hi rend="I">Dieu </hi>le plus manifeste. <fw place="bot-right" type="catch">Nous</fw>
+                        <pb n="15"/>
+                        <lb/>Nous voions ses Sabats violés &amp;
+                        <lb/>prophanés , par la négligence à se
+                        <lb/>rencontrer dans les Assemblées publiques
+                        <lb/>de l'Eglise , par des promenades ,
+                        <lb/>par des parties de plaisir ,
+                        <lb/>de jeu , de débauche. Nous voions
+                        <lb/>son saint nom outragé &amp; blasphémé
+                        <lb/>par des juremens éxécrables , qui sortent
+                        <lb/>de la bouche de presque tout le
+                        <lb/>monde , sans distinction d'ordre , de
+                        <lb/>sexe , ni de condition ; Quoi que
+                        <lb/>Dieu ait déclaré formellement dans sa
+                        <lb/>Loi , qu'<quote source="bibleSegond21.xml#Exod.20.7">
+                            <hi rend="I">il ne tiendra point pour innocent
+                                <lb/>celui qui prendra son nom en vain</hi>
+                        </quote>.
+                        <lb/>Nous voions que l'on se conduit envers
+                        <lb/>le <hi rend="I">Prochain</hi> , non pas comme
+                        <lb/>envers des Fréres , qui ont la même
+                        <lb/>nature que nous , &amp; qui sont descendus
+                        <lb/>d'un même Pére , mais comme
+                        <lb/>envers des Créatures qui seroient
+                        <lb/>d'une autre espèce que nous ; Comme
+                        <lb/>envers des Enemis , que l'on cherche
+                        <lb/>à humilier , à détruire , soit dans leurs
+                        <lb/>biens , soit dans leur réputation. Il
+                        <lb/>n'y a pas parmi nous cette amitié ,
+                        <lb/>cette union , cette concorde , qui devroient
+                        <lb/>se rencontrer entre les Membres
+                        <lb/>d'une même Communauté ; Et <fw place="bot-right" type="catch">l'on</fw>
+                        <pb n="16"/>
+                        <lb/>l'on voit au contraire régner dans les
+                        <lb/>familles , &amp; entre les proches mêmes ,
+                        <lb/>des haines , des jalousies , des
+                        <lb/>divisions honteuses. Au lieu d'agir
+                        <lb/>sincérement &amp; de bonne foi , chacun
+                        <lb/>avec son prochain , on emploie l'hypocrisie ,
+                        <lb/>la ruse , l'artifice , les détours ,
+                        <lb/>la mauvaise foi , &amp; souvent
+                        <lb/>les injustices les plus marquées. On
+                        <lb/>se déchire les uns les autres par des
+                        <lb/>médisances abominables , &amp; quelquefois
+                        <lb/>par de noires &amp; d'infames calomnies.
+                        <lb/>Et si l'on a reçu , on si l'on
+                        <lb/>croit d'avoir reçu quelque ofense d'une
+                        <lb/>personne , on cherche à s'en venger
+                        <lb/>&amp; à lui nuire dans toute sorte de
+                        <lb/>rencontres , &amp; l'on ne sait ce que
+                        <lb/>c'est que de pardonner. Quelle conduite
+                        <lb/>voions-nous encore que l'on tienne
+                        <lb/>à l'égard de <hi rend="I">soi-même</hi> ? A ce dernier
+                        <lb/>égard nous voions des gens d'une
+                        <lb/>avarice sordide , qui sont esclaves
+                        <lb/>du bien qu'ils possédent , &amp; qui,
+                        <lb/>pour en aquerir davantage , sacrifient
+                        <lb/>leur santé , leur repos , quelques uns
+                        <lb/>leur conscience &amp; leur propre ame.
+                        <lb/>Nous voions des gens qui ont une
+                        <lb/>passion si furieuse pour le jeu , que <fw place="bot-right" type="catch">la</fw>
+                        <pb n="17"/>
+                        <lb/>la sainteté même du Dimanche n'est
+                        <lb/>pas capable de les retenir , &amp; qu'ils
+                        <lb/>portent quelquefois la prophanation
+                        <lb/>jusqu'à y emploier les heures des exercices
+                        <lb/>publics. Nous voions des hommes
+                        <lb/>sensuels , qui donnent dans la
+                        <lb/>gourmandise , dans l'yvrognerie ; d'une
+                        <lb/>façon qui les deshonore , &amp; qui
+                        <lb/>leur doit faire craindre les mêmes jugemens,
+                        <lb/>dont Dieu a souvent frapé
+                        <lb/>leurs semblables. Enfin, nous voions
+                        <lb/>des gens adonnés à l'impureté , qui
+                        <lb/>ne regardent ce péché que comme
+                        <lb/>une foiblesse pardonnable ; Quoi que
+                        <lb/>Dieu le défende si expressément &amp; si
+                        <lb/>fréquemment , &amp; que ce soit ce péché
+                        <lb/>qui a atiré , &amp; sur des Nations
+                        <lb/>entiéres , &amp; sur diverses personnes
+                        <lb/>particuliéres , les châtimens les plus
+                        <lb/>sévères. Ah! que n'avons-nous donc
+                        <lb/>pas à craindre pour nôtre Nation ,
+                        <lb/>où ce péché se manifeste par tout avec
+                        <lb/>tant de licence ? Ce seul péché
+                        <lb/>nous doit faire apréhender les fleaux
+                        <lb/>les plus terribles de la vengeance céleste. </p>
+                    <p n="10">
+                        <lb/>Plusieurs d'entre nous se flateront<note type="margin">Que<supplied resp="#CiM" reason="omission"> </supplied>nous<supplied resp="#CiM" reason="omission"> </supplied><lb/>nous<supplied resp="#CiM" reason="omission"> </supplied>sommes <lb/>tous éloignés <lb/>de Dieu.</note>
+                        <lb/>peut être , &amp; diront qu'ils ne se <fw place="bot-right" type="catch">re-</fw>
+                        <pb n="18"/>
+                        <lb/>reconnoissent pas dans le dénombrement
+                        <lb/>que nous venons de faire de
+                        <lb/>tous ces vices grossiers qui caractérisent
+                        <lb/>diverses personnes , au nombre
+                        <lb/>desquelles il ne peuvent être mis avec
+                        <lb/>justice. Mais nous les prions de
+                        <lb/>suspendre leur jugement , &amp; de ne
+                        <lb/>pas conclure de l'avantage qu'ils peuvent
+                        <lb/>avoir sur d'autres personnes à l'égard
+                        <lb/>des vices que nous avons nommés ,
+                        <lb/>que leur état en soit beaucoup
+                        <lb/>meilleur , &amp; qu'ils ne se soient pas
+                        <lb/>aussi éloignés de Dieu d'une maniére
+                        <lb/>qui les rend , comme elles , les objets
+                        <lb/>de la colère divine. Avoüons-le,
+                        <lb/>avoüons-le, MES CHERS FRÉRES, nous
+                        <lb/>nous sommes tous éloignés de Dieu,
+                        <lb/>les uns d'une façon , &amp; les autres d'une
+                        <lb/>autre. Ceux là mêmes qui sont les
+                        <lb/>plus réglés dans leur conduite ne sont-
+                        <lb/>ils pas sujets , l'un à ce défaut , l'autre
+                        <lb/>à un autre ? Et en persévérant ,
+                        <lb/>comme l'on fait , dans ces défauts ,
+                        <lb/>quelque petits qu'ils paroissent , ne
+                        <lb/>fait-on pas voir que l'on n'a point de
+                        <lb/>véritable piété , ni de véritable crainte
+                        <lb/>de Dieu ? D'ailleurs , quand on
+                        <lb/>s'abstiendroit de tout mal , qui sont <fw place="bot-right" type="catch">ceux</fw>
+                        <pb n="19"/>
+                        <lb/>ceux qui s'apliquent à faire tout le
+                        <lb/>bien auquel ils sont apellez ? Et combien
+                        <lb/>n'y a-t-il pas de ces arbres stériles ,
+                        <lb/>qui ne portent point de fruits ,
+                        <lb/>&amp; qui , s'ils ne font des œuvres convenables
+                        <lb/>à la repentance , seront coupés
+                        <lb/>&amp; retranchés , aussi bien que ceux
+                        <lb/>qui n'en portent que de mauvais. </p>
+                    <p n="11">
+                        <lb/>Après cette description que nous<note type="margin">Qu'on se <lb/>vante
+                            <lb/>faussement <lb/>d'être<supplied resp="#CiM" reason="omission"> </supplied>Chrétiens.</note>
+                        <lb/>venons de faire , MES FRÉRES,
+                        <lb/>de nos égaremens , &amp; de toutes les
+                        <lb/>voies par lesquelles nous nous sommes
+                        <lb/>éloignés de Dieu , où je ne crois
+                        <lb/>pas d'avoir rien éxagéré , que pensez-
+                        <lb/>vous présentement de nôtre état ?
+                        <lb/>Reconnoissez-vous , dans cette conduite
+                        <lb/>que nous tenons les caractères des
+                        <lb/>vrais Enfans de Dieu ? Y voyez-vous
+                        <lb/>ce vrai Christianisme , qui <quote source="bibleOstervald1724.xml#Rom.14.17">
+                            <hi rend="I">ne consiste</hi>, <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Rom.14.17">Rom. <lb/>XIV. <lb/>vers. 17.</ref>
+                            </note>
+                            <lb/><seg type="interpolation">comme dit Saint Paul ,</seg> <hi rend="I">ni
+                                dans le
+                                <lb/>manger , ni dans le boire</hi> , <seg type="interpolation">c'est-à-dire,
+                            <lb/>dans la pratique des devoirs extérieurs
+                                    <lb/>de la Religion ,</seg> <hi rend="I">mais dans
+                                la
+                                <lb/>justice , dans la paix , &amp; dans la joie
+                                        <lb/>que nous avons par le Saint Esprit</hi></quote> <hi rend="I">?</hi>
+                        <lb/>Non , non , je ne crois pas que vous
+                        <lb/>puissiez vous faire illusion jusqu'à ce
+                        <lb/>point. Non , nous ne sommes pas <fw place="bot-right" type="catch">Chré-</fw>
+                        <pb n="20"/>
+                        <lb/>Chrétiens. Comparez la conduite que
+                        <lb/>l'on tient
+                        aujourdhui
+                        avec celle des
+                        <lb/>prémiers Disciples de Jésus-Christ ,
+                        <lb/>&amp; vous verrez combien on s'en est
+                        <lb/>éloigné , &amp; que ce n'est que par abus
+                        <lb/>que nous osons encore nous apeler
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Rom.8.9">Rom. <lb/>VIII. <lb/>vers. 9.</ref>
+                        </note>Chrétiens. Saint Paul dit que <quote source="bibleOstervald1724.xml#Rom.8.9">
+                            <hi rend="I">celui
+                                <lb/>qui n'a pas l'Esprit de Jésus-Christ
+                                <lb/>ne lui apartient pas</hi>
+                        </quote> , ou n'est pas son
+                        <lb/>disciple : Mais avons-nous l'Esprit de
+                        <lb/>Jésus-Christ , puis que c'est l'Esprit du
+                        <lb/>monde &amp; nos passions qui nous gouvernent ,
+                        <lb/>au lieu de nous laisser conduire
+                        <lb/>par l'Esprit de Jésus-Christ ? Or
+                        <lb/>si nous ne sommes pas les Disciples
+                        <lb/>de Jésus-Christ , nous n'avons aucune
+                        <lb/>part avec lui ; Nous sommes hors de
+                        <lb/>sa Communion ; Nous sommes donc
+                        <lb/>des Enfans de colère , qui ne pouvons
+                        <lb/>atendre que les éfets de la colère
+                        <lb/>du Tout-puissant. Parce que nous
+                        <lb/>nous sommes éloignés de Dieu , Dieu
+                        <lb/>s'est éloigné de nous. O funeste éloignement !
+                        <lb/>Quelque terrible que soit
+                        <lb/>cette pensée , arrêtons-y cependant
+                        <lb/>nôtre atention. Plus touché de nos
+                        <lb/>maux que du sentiment de nos crimes ,
+                        <lb/>peut-être serai-je assez heureux <fw place="bot-right" type="catch">pour</fw>
+                        <pb n="21"/>
+                        <lb/>pour vous inspirer une fraïeur salutaire ,
+                        <lb/>&amp; vous porter à rechercher la
+                        <lb/>grace &amp; la faveur de Dieu par vôtre
+                        <lb/>retour vers lui , je veux dire par vôtre
+                        <lb/>conversion &amp; par vôtre repentance. </p>
+                </div>
+                <div n="2" type="sub">
+                    <head type="sub">
+                        <lb/>SECONDE PARTIE</head>
+                    <p n="12">
+                        <lb/>Je ne doute pas , MES FRÉRES, <note type="margin">Que <lb/>Dieu <lb/>s'est
+                            éloigné <lb/>de <lb/>nous à <lb/>plusieurs <lb/>égards.</note>
+                        <lb/>que vous ne regardiez d'abord comme
+                        <lb/>une proposition insoutenable ce
+                        <lb/>que j'avance , que Dieu s'est éloigné
+                        <lb/>de nous. Ne nous donne-t-il pas ,
+                        <lb/>direz-vous , des marques sensibles de
+                        <lb/>sa présence par les soins qu'il prend
+                        <lb/>de nous , soit par raport au temporel ,
+                        <lb/>soit par raport au spirituel ? Au
+                        <lb/>prémier égard Dieu nous fournit abondamment
+                        <lb/>tout ce qui nous est nécessaire
+                        <lb/>pour cette vie : Il nous envoie
+                        <lb/>les pluïes du Ciel , qui rendent nos
+                        <lb/>campagnes fertiles ; Et si quelquefois
+                        <lb/>nous ne faisons pas des recoltes abondantes
+                        <lb/>de certaines denrées , il ne
+                        <lb/>nous laisse cependant jamais manquer
+                        <lb/>du nécessaire , &amp; sur tout de ce qui
+                        <lb/>est le plus nécessaire pour le soutien
+                        <lb/>de la vie. Il nous conserve la paix &amp;
+                        <lb/>la tranquilité dans nôtre Païs , pendant <fw place="bot-right" type="catch">dant</fw>
+                        <pb n="22"/>
+                        <lb/>que d'autres Peuples sont exposés
+                        <lb/>à des troubles &amp; à des guerres
+                        <lb/>très cruëlles ; Et il nous garantit de
+                        <lb/>ces fleaux , qui ravagent bien souvent,
+                        <lb/>comme nous le voions encore
+                            aujourdhui ,
+                        <lb/>des Nations étrangéres. Mais ,
+                        <lb/>ce qui est plus considérable encore ,
+                        <lb/>il nous fait jouïr , par raport au spirituel,
+                        <lb/>d'une entiére liberté de conscience :
+                        <lb/>Il nous fait prêcher sa Parole ,
+                        <lb/>&amp; administrer ses Sacremens : Et nous
+                        <lb/>pouvons lui rendre librement dans nos
+                        <lb/>Temples le service que nous lui devons,
+                        <lb/>pendant que bien d'autres sont privés
+                        <lb/>de ce précieux avantage. </p>
+                    <p n="13">
+                        <lb/>Je conviens de tout cela , MES
+                        <lb/>FRÉRES, &amp; nous ne saurions assez
+                        <lb/>bénir Dieu de ce qu'il nous distingue
+                        <lb/>d'une façon si particuliére de plusieurs
+                        <lb/>autres Peuples. Heureux, si nous en
+                        <lb/>profitons ! Mais le peu de cas &amp; l'abus
+                        <lb/>que nous en faisons ne le portent-ils
+                        <lb/>point à retirer sa bénédiction de toutes
+                        <lb/>ces choses , dont il nous laisse
+                        <lb/>encore jouïr pour nous rendre plus
+                        <lb/>inexcusables ? Malgré la facilité que
+                        <lb/>chacun auroit de vivre commodément
+                        <lb/>&amp; agréablement , s'il savoit bien user <fw place="bot-right" type="catch">des</fw>
+                        <pb n="23"/>
+                        <lb/>des graces de Dieu , ce Païs n'est-il
+                        <lb/>pas reduit à une pauvreté manifeste ,
+                        <lb/>par l'yvrognerie , les procès , le luxe
+                        <lb/>&amp; la vie déréglée de ses Habitans ,
+                        <lb/>ce qui cause la ruïne d'une infinité de
+                        <lb/>gens ? Et pour ce qui est de l'exercice
+                        <lb/>public de nôtre Religion par le
+                        <lb/>Ministère Evangelique , n'est-il pas
+                        <lb/>visible que Dieu , pour nous punir
+                        <lb/>de l'abus que nous en faisons , en a
+                        <lb/>retiré sa bénédiction , en sorte qu'il est
+                        <lb/>devenu comme entiérement inutile ?
+                        <lb/>On vient au Temple , on communie,
+                        <lb/>on jeûne , mais on ne voit aucun
+                        <lb/>fruit de ces exercices de Religion.
+                        <lb/>Quel sujet de gémissement, Bon Dieu!
+                        <lb/>Et qui ne regarderoit cela comme un
+                        <lb/>éfet du juste jugement de Dieu ? Comme
+                        <lb/>une marque qu'il s'est éloigné de
+                        <lb/>nous ? </p>
+                    <p n="14">
+                        <lb/>Cette corruption même si générale
+                        <lb/>qui régne parmi nous , cette violence
+                        <lb/>avec laquelle chacun se livre à ses
+                        <lb/>passions , sans consulter d'autre régle
+                        <lb/>que ses propres intérêts &amp; les mouvemens
+                        <lb/>de son cœur corrompu , n'est-
+                        <lb/>ce pas encore là une preuve que Dieu
+                        <lb/>s'est éloigné de nous ? Après l'avoir <fw place="bot-right" type="catch">assez</fw>
+                        <pb n="24"/>
+                        <lb/>assez long tems méprisé ; &amp; lui avoir
+                        <lb/>fermé la porte de nos cœurs , ce
+                        <lb/>bon Dieu , par l'éfet le plus terrible
+                        <lb/>de ses jugemens , semble enfin s'être
+                        <lb/>retiré de nous , il nous abandonne
+                        <lb/>à nôtre endurcissement &amp; à la malice
+                        <lb/>de nôtre cœur , il nous laisse marcher
+                        <lb/>dans nos voies , jusqu'à ce que la
+                        <lb/>mesure de nos crimes étant comble
+                        <lb/>il fasse tomber sur nous les fleaux
+                        <lb/>redoutables que sa justice nous prépare. </p>
+                    <p n="15">
+                        <lb/>N'avons nous point eû depuis un
+                        <lb/>certain nombre d'années , MES FRÉRES ,
+                        <lb/>d'avant-coureurs de ces terribles
+                        <lb/>fleaux qui nous accableront infailliblement ,
+                        <lb/>si nous ne les prévenons
+                        <lb/>par une prompte repentance , &amp; par
+                        <lb/>où nous pouvons juger que Dieu s'éloigne
+                        <lb/>de nous ? N'avons-nous pas
+                        <lb/>souvent été menacés de guerres de la
+                        <lb/>part de nos voisins ? En n'en avons
+                        <lb/>nous pas même eû à soutenir une l'an
+                        <lb/>1712, dont le souvenir nous remplit
+                        <lb/>encore de fraïeur , par la vuë du danger
+                        <lb/>extrême que nous y courumes ,
+                        <lb/>malgré la victoire &amp; les avantages
+                        <lb/>dont il plut à Dieu de bénir nos armes ? <fw place="bot-right" type="catch">mes ?</fw>
+                        <pb n="25"/>
+                        <lb/>N'avons-nous pas vû des maladies
+                        <lb/>épidémiques parmi les hommes ,
+                        <lb/>la mortalité parmi les bestiaux,
+                        <lb/>faire au milieu de nous de grands
+                        <lb/>ravages , &amp; nous jetter dans la consternation
+                        <lb/>&amp; dans le trouble ? Quels
+                        <lb/>désordres les tempêtes ne causent-elles
+                        <lb/>pas si souvent dans nos Campagnes ,
+                        <lb/>comme nous l'avons encore éprouvé
+                        <lb/>cette année même ? Quels autres
+                        <lb/>maux le dérangement des saisons ne
+                        <lb/>nous cause-t-il pas souvent , soit dans
+                        <lb/>nos propres corps , soit dans les fruits
+                        <lb/>de la terre ? Que de fréquens incendies
+                        <lb/>reduisent quantité de familles à
+                        <lb/>une afreuse désolation ? Que nous dit
+                        <lb/>tout cela , si ce n'est que la main de
+                        <lb/>Dieu est levée contre nous , qu'elle
+                        <lb/>a déjà frapé plusieurs coups , &amp; que,
+                        <lb/>comme Dieu va par degrez dans la
+                        <lb/>dispensation de ses châtimens , nous
+                        <lb/>ne devons pas douter qu'il ne frape
+                        <lb/>enfin sur nous les coups les plus terribles ,
+                        <lb/>si nous ne songeons à l'apaiser
+                        <lb/>par nôtre conversion &amp; par nôtre
+                        <lb/>repentance ? </p>
+                    <p n="16">
+                        <lb/>Quel jugement devons nous faire
+                        <lb/>d'ailleurs des fleaux que Dieu fait <fw place="bot-right" type="catch">tomber</fw>
+                        <pb n="26"/>
+                        <lb/>tomber sur d'autres Peuples , tout autour
+                        <lb/>de nous ? Considérez les ravages
+                        <lb/>que la guerre a fait il n'y a que
+                        <lb/>peu d'années dans l'<hi rend="I">Italie</hi> &amp; dans la
+                        <lb/>
+                        <hi rend="I">Pologne</hi> , &amp; qu'elle fait aujourdui dans
+                        <lb/>des Païs éloignez. <ref target="#fn_26_1" type="noteAnchor">*</ref> Réfléchissez
+                        <lb/>sur la triste &amp; afligeante mortalité ,
+                        <lb/>qui a emporté tant de nos Fréres en
+                        <lb/>divers Païs , &amp; en particulier dans une
+                        <lb/>Ville du Roïaume voisin. <ref target="#fn_26_2" type="noteAnchor">†</ref> Faites
+                        <lb/>une atention particuliére à celle qui
+                        <lb/>se fait aujourdhui sentir dans la <hi rend="I">Hongrie</hi>,
+                        <lb/>la <hi rend="I">Transylvanie</hi> , la <hi rend="I">Moldavie</hi>,
+                        <lb/>la <hi rend="I">Valachie</hi> &amp;c. Et qui nous oblige
+                        <lb/>à prendre des précautions pour nous
+                        <lb/>en garantir ; Mais précautions inutiles ,
+                        <lb/>si le tems auquel le décret de
+                        <lb/>Dieu doit enfanter , pour parler avec
+                        <lb/>un Prophête , est venu. Rapellez encore
+                        <lb/>dans vôtre mémoire ces horribles
+                        <lb/>tremblemens de terre, qui ont
+                        <lb/>quelquefois enseveli des Villes entiéres ,
+                        <lb/>&amp; entr'autres , il n'y a pas bien
+                        <lb/>des années , la Capitale du Roiaume <fw place="bot-right" type="catch">de</fw>
+                        <note xml:id="fn_26_1" type="foot" n="*"> Dans la Hongrie, la Bosnie, la Servie &amp;c.
+                            <lb/>par la guerre entre l'Empereur , l'Imperatrice de <lb/>Russie , &amp; le
+                            Turc.</note>
+                        <note xml:id="fn_26_2" type="foot" n="†"> Marseille.</note>
+                        <pb n="27"/>
+                        <lb/>de Sicile, <ref target="#fn_27_a" type="noteAnchor">(<hi rend="I">a</hi>)</ref> du moins en grande
+                        <lb/>partie. Rapellez cet afreux incendie,
+                        <lb/>qui a consumé presque en son entier,
+                        <lb/>il n'y a que deux ans , une Ville
+                        <lb/>qui est sur les frontiéres de nôtre
+                        <lb/>Païs. <ref target="#fn_27_b" type="noteAnchor">(<hi rend="I">b</hi>)</ref> Le funeste accident , causé
+                        <lb/>par le feu du Ciel , &amp; l'incendie qui
+                        <lb/>le suivit de peu de jours , arrivé l'année
+                        <lb/>derniere dans la Capitale du Canton
+                        <lb/>le plus proche de nous. <ref target="#fn_27_c" type="noteAnchor">(<hi rend="I">c</hi>)</ref>
+                        <lb/>Rapellez cette inondation épouvantable ,
+                        <lb/>qui a ruiné , sur la fin de la
+                        <lb/>même année , une étendue de plus
+                        <lb/>de 60. lieües de païs , <ref target="#fn_27_d" type="noteAnchor">(<hi rend="I">d</hi>)</ref> d'une façon
+                        <lb/>la plus tragique &amp; la plus extraordinaire.
+                        <lb/>Sur tout n'oubliez pas sitôt
+                        <lb/>les troubles arrivés tout recemment
+                        <lb/>chez nos voisins &amp; nos Alliés, <ref target="#fn_27_e" type="noteAnchor">(<hi rend="I">e</hi>)</ref> qui
+                        <lb/>ont mis leur République à deux doigts
+                        <lb/>de sa perte , &amp; dont la ruïne auroit
+                        <lb/>sans doute entrainé la nôtre , si Dieu
+                        <lb/>n'avoit encore suspendu sur elle &amp; sur
+                        <lb/>nous l'éxécution de ses jugemens.
+                        <lb/>Que nous crient tous ces fleaux , qui <fw place="bot-right" type="catch">depuis</fw>
+                        <note xml:id="fn_27_a" type="foot" n="(a)" rend="n(I)"> Palerme.</note>
+                        <note xml:id="fn_27_b" type="foot" n="(b)" rend="n(I)"> Pontarlier.</note>
+                        <note xml:id="fn_27_c" type="foot" n="(c)" rend="n(I)"> Fribourg</note>
+                        <note xml:id="fn_27_d" type="foot" n="(d)" rend="n(I)"> Dans le Golfe de Bengale, en l'Inde, par <lb/>le
+                            débordement du Gange.</note>
+                        <note xml:id="fn_27_e" type="foot" n="(e)" rend="n(I)"> Genève.</note>
+                        <pb n="28"/>
+                        <lb/>depuis plusieurs années se proménent
+                        <lb/>sur toute l'Europe , &amp; qui sont venus
+                        <lb/>si près de nous , si non que 
+                            <hi rend="I">si
+                                <lb/>nous ne nous amandons , nous périrons</hi>
+                        <hi rend="I">,</hi>
+                        <lb/>comme d'autres sont péri , puis que
+                        <lb/>nous n'avons point de privilège particulier
+                        <lb/>qui nous distingue des autres
+                        <lb/>Peuples ? Que Dieu s'est déjà éloigné
+                        <lb/>de nous , comme nous nous sommes
+                        <lb/>éloignés de lui ; Et que, si nous
+                        <lb/>ne le cherchons incessament , il nous
+                        <lb/>cachera entiérement la face : &amp; nous
+                        <lb/>éprouverons combien est misérable le
+                        <lb/>Peuple , &amp; combien sont misérables
+                        <lb/>tous ceux dont l'Eternel n'est plus
+                        <lb/>le Dieu. Le seul moien d'éviter ce
+                        <lb/>malheur , c'est donc de <hi rend="I">chercher </hi>l'Eternel.
+                        <lb/>C'est à quoi j'ai voulu vous
+                        <lb/>amener dans ce discours ; Et je vai
+                        <lb/>redoubler mes éforts , pour vous y
+                        <lb/>engager le plus fortement qu'il me
+                        <lb/>sera
+                        possible.
+                        Redoublez aussi de vôtre
+                        <lb/>côté votre atention : Et touchés de
+                        <lb/>vôtre état &amp; de la situation présente
+                        <lb/>de l'Eglise , tant en général qu'en
+                        <lb/>particulier, excitez vos ames à chercher
+                        <lb/>l'Eternel. <quote source="bibleOStervald1724.xml#Isa.55.6">
+                            <hi rend="I">Cherchez l'Eternel pendant
+                                <lb/>qu'il se trouve</hi>
+                        </quote>.
+                    </p>
+                    <fw place="bot-right" type="catch">TROI-</fw>
+                    <pb n="29"/>
+                </div>
+                <div n="3" type="sub">
+                    <head type="sub">
+                        <lb/>TROISIEME PARTIE.</head>
+                    <p n="17">
+                        <lb/>
+                        <quote source="bibleOStervald1724.xml#Isa.55.6">
+                            <hi rend="I">Chercher l'Eternel</hi>
+                        </quote>, c'est rechercher<note type="margin">Comment <lb/>nous <lb/>devons <lb/>chercher
+                            <lb/>l'Eternel.</note>
+                        <lb/>sa protection , sa grace , sa bienveillance
+                        <lb/>&amp; sa faveur ; C'est chercher à
+                        <lb/>s'aprocher de lui &amp; à s'unir à lui,
+                        <lb/>pour participer à tous les biens qui
+                        <lb/>découlent de sa bienheureuse communion. </p>
+                    <p n="18">
+                        <lb/>Nous devons chercher Dieu par
+                        <lb/>les voies oposées à celles , par lesquelles
+                        <lb/>nous nous en sommes éloignés. </p>
+                    <p n="19">
+                        <lb/>Nous nous sommes éloignés de<note type="margin">Par la <lb/>Foi.</note>
+                        <lb/>Dieu par nôtre incrédulité. Cherchons-
+                        <lb/>le par la foi , en recevant toutes les
+                        <lb/>vérités qu'il nous révéle , quelque
+                        <lb/>incompréhensibles même qu'elles soient:
+                        <lb/>Et sur tout ces vérités fondamentales
+                        <lb/>du Christianisme , dont la créance
+                        <lb/>nous unit à Dieu d'une façon plus
+                        <lb/>particuliére , je veux parler de celles
+                        <lb/>qui se raportent à Jésus-Christ. Reconnoissons
+                        <lb/>pour le Fils de Dieu , le
+                        <lb/>Messie promis par les Prophètes , le
+                        <lb/>Rédempteur des hommes , dont la
+                        <lb/>mort a été le prix de nôtre Rédemption. <fw place="bot-right" type="catch">tion.</fw>
+                        <pb n="30"/>
+                        <lb/>Tenons-nous atachés à lui ,
+                        <lb/>comme à la source de toutes les graces.
+                        <lb/>Et sachant qu'étant éloignés de
+                        <lb/>Dieu , comme nous le sommes , depuis
+                        <lb/>la chute funeste de nos prémiers
+                        <lb/>Parens , nous ne pouvons pas nous
+                        <lb/>en raprocher par nous mêmes , ni nous
+                        <lb/>sauver par nos propres forces , recourons
+                        <lb/>à lui , comme à celui qui est le
+                        <lb/>vrai Médecin de nos ames , &amp; <quote source="bibleOStervald1724.xml#_1Cor.1.30">
+                            <hi rend="I">qui est</hi>
+                            <lb/>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#_1Cor.1.30">I.Cor. I. <lb/>vers. 30.</ref>
+                            </note>
+                            <hi rend="I">devenu par la volonté de Dieu nôtre
+                                <lb/>sagesse , nôtre justice , nôtre sanctification ,
+                                <lb/>&amp; nôtre Rédemption</hi>
+                        </quote>.
+                    </p>
+                    <p n="20">
+                        <lb/>
+                        <note type="margin">Par la <lb/>lecture <lb/>de la Parole <lb/>de <lb/>Dieu.</note>Nous nous
+                        sommes éloignés de Dieu
+                        <lb/>par nôtre négligence à lire sa Parole.
+                        <lb/>Cherchons-le dans cette sacrée Parole.
+                        <lb/>C'est là que nous le trouverons. C'est
+                        <lb/>là qu'il nous instruira ; C'est là qu'il
+                        <lb/>nous consolera ; C'est là qu'il nous
+                        <lb/>proposera des exemples de vertu , les
+                        <lb/>plus propres à nous y entrainer ;
+                        <lb/>C'est là qu'il nous soutiendra par des
+                        <lb/>promesses magnifiques ; C'est là qu'il
+                        <lb/>nous distribuera ce pain céleste , qui
+                        <lb/>nourrira nos ames pour la vie éternelle ;
+                        <lb/>C'est là enfin qu'il se communiquera
+                        <lb/>à nous avec toutes ses graces.
+                        <lb/>Je vous l'ai dit , MES FRÉRES ,
+                        <lb/>j'attribue principalement l'irréligion &amp; <pb n="31"/>
+                        <lb/>l'impiété qui régne dans ce tems au
+                        <lb/>défaut de la lecture de la Parole de
+                        <lb/>Dieu ; Enlevons la cause de cette
+                        <lb/>malheureuse impiété. Au lieu de lire
+                        <lb/>ces livres prophanes , qui nous éloignent
+                        <lb/>toujours plus de Dieu , &amp; nous
+                        <lb/>font perdre le goût des choses divines ,
+                        <lb/>faisons nous une loi de lire chaque
+                        <lb/>jour l'Ecriture Sainte , &amp; que ce
+                        <lb/>soit là le vœu solemnel que nous fassions
+                        <lb/>
+                        en ce jour d'humiliation &amp; de
+                            <lb/>repentance. Ah ! quel plaisir ne goûterons
+                        <lb/>nous pas dans la lecture de ces
+                        <lb/>saints Livres , dès que nous en aurons
+                        <lb/>une fois connu la beauté &amp; senti la
+                        <lb/>vertu ! Quelle force ne nous donneront-
+                        <lb/>ils pas , pour nous faire suporter
+                        <lb/>nos aflictions &amp; nos misères ! Quelle
+                        <lb/>lumiére , pour dissiper nôtre ignorance
+                        <lb/>&amp; nos illusions ! Quel secours , pour
+                        <lb/>nous faire marcher dans le vrai chemin
+                        <lb/>qui conduit à la félicité. </p>
+                    <p n="21">
+                        <lb/>Nous nous sommes éloignés de<note type="margin">Par l'aplication <lb/>au
+                            service <lb/>divin.</note>
+                        <lb/>Dieu par nôtre relâchement dans la
+                        <lb/>pratique du service divin. Cherchons
+                        <lb/>le désormais par nôtre atachement à
+                        <lb/>son culte , soit public , soit particulier.
+                        <lb/>C'est par ce culte que nous nous <fw place="bot-right" type="catch">aprochons</fw>
+                        <pb n="32"/>
+                        <lb/>aprochons de Dieu , &amp; que nous avons
+                        <lb/>un commerce particulier avec Dieu ;
+                        <lb/>C'est encore là que nous le trouvons ,
+                        <lb/>&amp; que nous atirons sur nous ses bénédictions.
+                        <lb/>Qu'on nous voie donc
+                        <lb/>plus assidus dans les saintes Assemblées ,
+                        <lb/>plus empressés à la participation
+                        <lb/>des Sacremens , plus apliqués à la
+                        <lb/>priére. Faisons sur tout de ce dernier
+                        <lb/>moien un usage continuel. C'est sans
+                        <lb/>contredit le plus prompt &amp; le plus
+                        <lb/>éficace que nous puissions emploier
+                        <lb/>pour trouver l'Eternel , &amp; pour obtenir
+                        <lb/>sa grace &amp; sa faveur. C'est ce saint
+                        <lb/>exercice de la priére , qui fortifie de
+                        <lb/>plus en plus dans les Enfans de Dieu
+                        <lb/>l'heureuse union qu'ils ont avec lui
+                        <lb/>C'est une source inépuisable de consolations ,
+                        <lb/>au milieu des diférentes misères
+                        <lb/>qui nous environnent. C'est un
+                        <lb/>azile assuré contre tous les maux &amp; les
+                        <lb/>dangers qui nous menacent , ou auxquels
+                        <lb/>nous sommes exposés. Que ne
+                        <lb/>devons-nous pas sur tout atendre de
+                        <lb/>nos priéres , si , pénétrés de nos miséres
+                        <lb/>communes , nous joignons tous
+                        <lb/>nos cœurs pour faire requête à l'Eternel ,
+                        <lb/>&amp; pour le suplier de revenir <fw place="bot-right" type="catch">vers</fw>
+                        <pb n="33"/>
+                        <lb/>vers nous &amp; de détourner de dessus
+                        <lb/>nous ses jugemens , avec promesses
+                        <lb/>de nous convertir à lui &amp; de ne plus
+                        <lb/>l'outrager par nos crimes ? Adressons
+                        <lb/>lui donc la même priére que Daniel ,
+                        <lb/>jeûnant , fit à ce grand Dieu , pour
+                        <lb/>obtenir la délivrance du Peuple d'Israël
+                        <lb/>de la captivité de Babylone.
+                        <lb/>Disons lui comme ce Prophète , en
+                        <lb/>lui faisant une confession sincère de nos
+                        <lb/>péchez , &amp; en aiant une vive componction
+                        <lb/>de cœur. <quote source="bibleOstervald1724.xml#Dan.9.4-8">
+                            <hi rend="I">Hélas ! Seigneur,</hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Dan.9.4-8">Dan. IX. <lb/>vers.
+                                    4<unclear resp="#CiM" reason="print">0</unclear>.<lb/>19.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">le Dieu Fort , le Grand , le Terrible,
+                                <lb/>qui gardes l'Alliance &amp; la gratuité à
+                                <lb/>ceux qui t'aiment &amp; qui gardent tes
+                                <lb/>commandemens : Nous avons péché ,
+                                <lb/>nous avons commis l'iniquité , nous
+                                <lb/>avons fait de méchantes actions , nous
+                                <lb/>avons été rebelles , &amp; nous nous sommes
+                                <lb/>détournés de tes commandemens.
+                                <lb/>Nous n'avons point obéi aux Prophètes
+                                <lb/>tes Serviteurs , qui ont parlé en
+                                <lb/>ton nom à nos Rois , aux Principaux
+                                <lb/>d'entre nous , à nos Péres , &amp; à tout
+                                <lb/>le Peuple du Païs. O Seigneur ! à toi
+                                <lb/>est la justice , &amp; à nous confusion de
+                                <lb/>face ; A nous , à nos Rois , aux
+                                <lb/>Principaux d'entre nous , &amp; à nos Péres ,</hi>
+                            <fw place="bot-right" type="catch">
+                                <hi rend="I">res </hi>,</fw>
+                            <pb n="34"/>
+                            <lb/>
+                            <hi rend="I">parce que nous avons </hi>tous <hi rend="I">péché
+                                <lb/>contre toi</hi>
+                        </quote>. Oui , Seigneur , nous nous
+                        <lb/>sommes tous rendus coupables en une
+                        <lb/>infinité de maniéres ! Mais <quote source="bibleOstervald1724.xml#Dan.9.9">
+                            <hi rend="I">les miséricordes
+                                <lb/>&amp; les pardons sont du Seigneur
+                                <lb/>nôtre Dieu</hi>
+                        </quote>
+                        <hi rend="I"> :</hi> C'est pourquoi
+                        <lb/>
+                        <quote source="bibleOstervald1724.xml#Dan.9.16-19">
+                            <hi rend="I">nous te prions que ta colère &amp; ton indignation
+                                <lb/>soient détournées </hi>de dessus
+                            <lb/>nous. <hi rend="I">Ecoute la requête de tes Serviteurs ;
+                                <lb/>&amp; fai reluire ta face sur ton
+                                <lb/>Sanctuaire qui est désolé. Nous ne te
+                                <lb/>présentons point nos suplications <choice><sic>fondés</sic><corr resp="#CiM">fondées</corr></choice></hi>
+                            <lb/>
+                            <hi rend="I">sur nos justices , mais sur tes grandes
+                                <lb/>compassions. Seigneur , exauce ; Seigneur ,
+                                <lb/>pardonne ; Seigneur , soit atentif ,
+                                <lb/>&amp; opére : Ne tarde point , à
+                                <lb/>cause de toi-même , ô nôtre Dieu ;
+                                <lb/>Car ton nom a êté invoqué sur ta
+                                <lb/>Ville &amp; sur ton Peuple</hi>
+                            <!--citation approximative-->
+                        </quote>.
+                    </p>
+                    <p n="22">
+                        <lb/>
+                        <note type="margin">Par le <lb/>détachement <lb/>du monde.</note>Mais j'ai dit que
+                        nous devons
+                        <lb/>faire requête à l'Eternel , pour le
+                        <lb/>suplier de revenir vers nous &amp; de détourner
+                        <lb/>de dessus nous ses jugemens ,
+                        <lb/>avec promesses de nous convertir à
+                        <lb/>lui &amp; de ne plus l'outrager par nos
+                        <lb/>crimes. Il n'y a que nôtre conversion
+                        <lb/>qui puisse le rendre sensible à nos larmes
+                        <lb/>&amp; à nos priéres , &amp; nous faire <fw place="bot-right" type="catch">éprouver</fw>
+                        <pb n="35"/>
+                        <lb/>éprouver le retour de sa bienveillance
+                        <lb/>&amp; de sa faveur. Invoquer l'Eternel ,
+                        <lb/>lui confesser ses péchez , lui en demander
+                        <lb/>le pardon , &amp; continuer à
+                        <lb/>l'ofenser , c'est l'insulter , &amp; l'éloigner
+                        <lb/>toujours plus de nous. Je viens donc
+                        <lb/>à une 4<hi rend="E">e</hi>. voie de chercher l'Eternel.
+                        <lb/>Nous nous sommes éloignés de Dieu
+                        <lb/>par nôtre atachement excessif aux
+                        <lb/>choses de la terre , par nôtre vie
+                        <lb/>mondaine , par nos distractions &amp;
+                        <lb/>nos dissipations continuelles. Cherchons
+                        <lb/>le en détachant nôtre cœur du
+                        <lb/>monde , &amp; en le tournant vers lui ,
+                        <lb/>qui a des biens plus solides à nous
+                        <lb/>donner que tout ce que le monde
+                        <lb/>nous offre. Pourquoi courir toujours
+                        <lb/>après des biens qui n'ont que l'aparence ;
+                        <lb/>Des biens passagers ; Des biens
+                        <lb/>qui , après les avoir <choice><sic>recherché</sic><corr resp="#CiM">recherchés</corr></choice> &amp; les
+                        <lb/>avoir même <choice><sic>obtenu</sic><corr resp="#CiM">obtenus</corr></choice> , échapent de nos
+                        <lb/>mains , nous laissent vuides de tout ,
+                        <lb/>&amp; nous font perdre l'unique &amp; le souverain
+                        <lb/>bien ? Cherchons le par nôtre
+                        <lb/>recueillement , &amp; par une vie retirée,
+                        <lb/>qui nous laisse le loisir de penser à
+                        <lb/>Dieu , de réfléchir sur nous mêmes ,
+                        <lb/>de nous apliquer à nos devoirs , &amp; <fw place="bot-right" type="catch">de</fw>
+                        <pb n="36"/>
+                        <lb/>de nous avancer dans la sanctification.
+                        <lb/>N'est-il pas honteux de n'être jamais
+                        <lb/>à soi , s'il faut ainsi dire , &amp; de ne
+                        <lb/>faire aucun usage du tems que Dieu
+                        <lb/>nous donne pour travailler à nôtre
+                        <lb/>salut ? Quel fruit retirez vous de cette
+                        <lb/>vie dissipée , dont vous vous êtes
+                        <lb/>fait une habitude ? Que trouvez vous
+                        <lb/>dans ces compagnies &amp; dans ces <choice><sic>Assembles</sic><corr resp="#CiM">Assemblées</corr></choice>
+                        <lb/>de gens du monde , que des
+                        <lb/>choses vaines , frivoles , qui séduisent
+                        <lb/>vôtre esprit &amp; corrompent vôtre
+                        <lb/>cœur ? Quelle satisfaction éprouvez
+                        <lb/>vous , après vous être séparé de ces
+                        <lb/>assemblées mondaines ? Vôtre cœur
+                        <lb/>ne se trouve-t-il pas alors vuide ? N'éprouve-
+                        <lb/>t-il pas du dégout , &amp; quelquefois
+                        <lb/>de l'ennui , de la tristesse ?
+                        <lb/>Et vôtre esprit encore tout rempli
+                        <lb/>des choses qui vous ont occupé pendant
+                        <lb/>la journée , êtes vous en état
+                        <lb/>de vous aquiter des actes de dévotion
+                        <lb/>à quoi la piété vous engage ? Ou
+                        <lb/>plutôt ne vivez vous pas dans un
+                        <lb/>oubli perpétuel de Dieu , &amp; que faites
+                        <lb/>vous pour son service ? Sur tout,
+                        <lb/>quand vous vous verrez aux aproches
+                        <lb/>de la mort , ne vous trouverez <fw place="bot-right" type="catch">vous</fw>
+                        <pb n="37"/>
+                        <lb/>vous pas alors sans force , sans secours ,
+                        <lb/>sans provision d'huile nécessaire ,
+                        <lb/>je veux dire , de bonnes œuvres ,
+                        <lb/>pour aller au devant de l'Epoux ,
+                        <lb/>&amp; être admis dans la sale des
+                        <lb/>nôces , &amp; la porte ne vous sera-t-elle
+                        <lb/>pas fermée , comme aux Vierges folles
+                        <lb/>de la parabole de l'Evangile ?
+                        <lb/>N'atendez pas ce moment fatal de la
+                        <lb/>venuë du Fils de Dieu , où il ne
+                        <lb/>sera plus tems d'aller chercher de
+                        <lb/>l'huile : Mais , renonçant dès à présent
+                        <lb/>à cette vie oisive &amp; à ces vains
+                        <lb/>amusemens où le monde vous entraine ,
+                        <lb/>formez la résolution de vous apliquer
+                        <lb/>désormais à l'important ouvrage
+                        <lb/>que vous avez à faire ; C'est celui
+                        <lb/>de vôtre salut , qui demande tout
+                        <lb/>vôtre tems &amp; vôtre vie toute entiére. </p>
+                    <p n="23">
+                        <lb/>Enfin , venons à quelque chose de<note type="margin">Par la
+                            <lb/>sainteté.</note>
+                        <lb/>plus général , &amp; indiquons la derniére
+                        <lb/>voie par laquelle nous devons tous
+                        <lb/>chercher l'Eternel , de quelque ordre
+                        <lb/>&amp; de quelque condition que nous
+                        <lb/>soions. Nous nous sommes éloignés
+                        <lb/>de Dieu par nos passions &amp; par nos
+                        <lb/>vices , aussi bien que par nôtre dénûment <fw place="bot-right" type="catch">ment</fw>
+                        <pb n="38"/>
+                        <lb/>des vertus Chrétiennes , qui
+                        <lb/>nous font porter l'image de cet Etre
+                        <lb/>Suprême , &amp; participer en quelque
+                        <lb/>façon à la nature divine. Cherchons
+                        <lb/>le par l'étude d'une véritable sainteté ,
+                        <lb/>qui détruise ces passions &amp; ces
+                        <lb/>vices , &amp; nous fasse aquerir toutes
+                        <lb/>les vertus chrétiennes : C'est par là
+                        <lb/>que nous trouverons Dieu , &amp; que
+                        <lb/>nous aurons une communion intime
+                        <lb/>avec lui. C'est aussi le moïen que le
+                        <lb/>Prophète lui même nous indique ,
+                        <lb/>quand , après avoir dit dans mon
+                        <lb/>texte , <quote source="bibleOstervald1724.xml#Isa.55.6">
+                            <hi rend="I">cherchez l'Eternel pendant qu'il
+                                <lb/>se trouve</hi>
+                        </quote> , il ajoute : <quote source="bibleOStervald1724.xml#Isa.55.7">
+                            <hi rend="I">Que le méchant
+                                <lb/>quitte sa voie , &amp; l'homme outrageux
+                                <lb/>ses pensées , &amp; qu'il retourne à l'Eternel ,
+                                <lb/>&amp; il aura pitié de lui</hi>
+                        </quote>. Que
+                        <lb/>chacun donc aujourdhui recherche ses
+                        <lb/>voies en la présence de l'Eternel , &amp;
+                        <lb/>qu'il se fasse un nouveau plan de vie
+                        <lb/>pour l'avenir. Protestons tous ici devant
+                            <lb/>Dieu que nous voulons banir de
+                        <lb/>chez nous les passions &amp; les vices qui
+                        <lb/>nous ont dominé jusques à présent ,
+                        <lb/>&amp; que nous voulons aquerir les qualités
+                        <lb/>&amp; les vertus qui nous manquent.
+                        <lb/>Que celui qui a manqué ci-devant au <fw place="bot-right" type="catch">respect</fw>
+                        <pb n="39"/>
+                        <lb/>respect qu'il devoit à Dieu , se remplisse
+                        <lb/>vivement de l'idée de sa Grandeur
+                        <lb/>Suprême , &amp; qu'il ne viole plus
+                        <lb/>ses Sabats , qu'il ne jure plus par son
+                        <lb/>nom , ni de quelque façon que ce
+                        <lb/>puisse être. Que celui qui a violé
+                        <lb/>les devoirs de la justice ou de la charité
+                        <lb/>envers les autres hommes , s'engage
+                        <lb/>à les observer à l'avenir avec
+                        <lb/>une éxactitude scrupuleuse , &amp; à réparer
+                        <lb/>tous les torts qu'il peut leur avoir fait.
+                        <lb/>Que l'avare , que l'homme vain , que
+                        <lb/>cet homme , cette femme adonnée
+                        <lb/>au jeu , que l'yvrogne , que l'impur;
+                        <lb/>Que tous ces gens là soient fortement
+                        <lb/>résolus de réprimer des passions
+                        <lb/>qui les deshonorent , &amp; de faire paroitre
+                        <lb/>à tous ces égards une modération
+                        <lb/>&amp; un tempérance vraiment chrétienne.
+                        <lb/>Enfin , que chacun , dans son
+                        <lb/>état , prenne en ce jour le Ciel à
+                        <lb/>témoin de la sincérité de ses intentions ,
+                        <lb/>&amp; des desseins qu'il forme de
+                        <lb/>remplir tous ses devoirs , &amp; d'avancer
+                        <lb/>la gloire de Dieu dans tout ce qui
+                        <lb/>peut dépendre de lui. Que le Magistrat
+                        <lb/>y aporte tous ses soins. Que le Pasteur
+                        <lb/>s'y excite par un zèle toujours <fw place="bot-right" type="catch">plus</fw>
+                        <pb n="40"/>
+                        <lb/>plus fervent. Et que les uns &amp; les
+                        <lb/>autres soient les prémiers à donner
+                        <lb/>de bons &amp; de pieux exemples : Car
+                        <lb/>il faut que la réforme commence par
+                        <lb/>les Chefs &amp; par les Conducteurs , si
+                        <lb/>l'on veut qu'elle s'introduise parmi le
+                        <lb/>Peuple. Que le Marchand , le Négociant ,
+                        <lb/>l'Artisan , &amp; tous les Ordres
+                        <lb/>d'hommes qui sont parmi nous entrent
+                        <lb/>dans les mêmes engagemens , &amp; qu'ils
+                        <lb/>fassent vœu de suivre en toutes choses
+                        <lb/>les mouvemens les plus purs de
+                        <lb/>leur conscience , &amp; de garder les statuts
+                        <lb/>de l'Eternel. </p>
+                    <p n="24">
+                        <lb/>Ah ! MES FRÉRES, si la solemnité
+                        <lb/>de ce jour pouvoit produire au
+                        <lb/>milieu de nous un si heureux changement ,
+                        <lb/>que l'on verroit aussi changer
+                        <lb/>nôtre situation , &amp; que nous en
+                        <lb/>éprouverions de favorables éfets !
+                        <lb/>Bientôt , bientôt Dieu , réconcilié
+                        <lb/>avec nous , n'auroit plus pour nous
+                        <lb/>qu'un visage de Pére , &amp; rien ne
+                        <lb/>pourroit égaler nôtre bonheur. Je vous
+                        <lb/>vois à la vérité pénétrés de ces douces
+                        <lb/>&amp; agréables idées , &amp; je ne doute
+                        <lb/>pas que vous ne formiez des désirs
+                        <lb/>pour un état si glorieux &amp; si avantageux. <fw place="bot-right" type="catch">tageux.</fw>
+                        <pb n="41"/>
+                        <lb/>Il n'est question que de mettre
+                        <lb/>la main à l'œuvre , &amp; de commencer
+                        <lb/>
+                        dès ce jour une réformation
+                        <lb/>si digne de nos souhaits. Ne renvoions
+                        <lb/>pas à un autre tems ce que
+                        <lb/>nous pouvons faire , &amp; ce qu'il nous
+                        <lb/>importe de faire dès cette heure , puis
+                        <lb/>que ce sera peut être inutilement que
+                        <lb/>nous voudrons le faire dans une autre
+                        <lb/>occasion. C'est ce qu'il nous reste à
+                        <lb/>vous faire sentir , pour suivre les idées
+                        <lb/>qui sont renfermées dans mon
+                        <lb/>texte. <quote source="bibleOstervald1724.xml#Isa.55.6">
+                            <hi rend="I">Cherchez</hi>, <seg type="interpolation">dit le Prophète ,</seg>
+                            <lb/>
+                            <hi rend="I">cherchez l'Eternel pendant qu'il se
+                                <lb/>trouve</hi>
+                        </quote>.
+                    </p>
+                </div>
+                <div n="4" type="sub">
+                    <head type="sub">
+                        <lb/>QUATRIEME PARTIE.</head>
+                    <p n="25">
+                        <lb/>
+                        <quote source="bibleOstervald1724.xml#Isa.55.6">
+                            <hi rend="I">Trouver l'Eternel</hi>
+                        </quote> , c'est éprouver
+                        <lb/>sa protection , sa grace &amp; sa faveur ,
+                        <lb/>comme nous avons déja eû occasion
+                        <lb/>de l'insinuer ci devant. </p>
+                    <p n="26">
+                        <lb/>Lors que le Prophète dit , <quote source="bibleOstervald1724.xml#Isa.55.6">
+                            <hi rend="I">cherchez
+                                <lb/>l'Eternel pendant qu'il se trouve</hi>
+                        </quote> , il
+                        <lb/>supose qu'il y a un tems où l'on peut
+                        <lb/>trouver l'Eternel , &amp; un tems où l'on
+                        <lb/>ne le trouve plus ; D'où l'on doit
+                        <lb/>conclure , qu'il faut donc chercher <fw place="bot-right" type="catch">l'Eternel</fw>
+                        <pb n="42"/>
+                        <lb/>l'Eternel pendant qu'il se trouve. </p>
+                    <p n="27">
+                        <lb/>Pour prouver qu'il y a un tems
+                        <lb/>où l'on trouve l'Eternel , &amp; un tems
+                        <lb/>où l'on ne le trouve plus , je considérerai
+                        <lb/>cette vérité à deux égards ;
+                        <lb/>Par raport aux Nations entiéres , &amp;
+                        <lb/>par raport à chaque individu , où à
+                        <lb/>chaque homme en
+                        particulier.
+                    </p>
+                    <p n="28">
+                        <lb/>
+                        <note type="margin">Qu'il est <lb/>un tems <lb/>pour les <lb/>Nations <lb/>où elles <lb/>trouvent
+                            <lb/>l'Eternel <lb/>, &amp; <lb/>un tems <lb/>où elles <lb/>ne le <lb/>trouvent <lb/>plus.</note>A l'égard
+                        des <hi rend="I">Nations</hi> entiéres ,
+                        <lb/>il y a un tems où l'on peut trouver
+                        <lb/>l'Eternel : C'est celui pendant lequel
+                        <lb/>il maintient au milieu d'elle son Culte
+                        <lb/>&amp; sa Religion , &amp; leur donne diverses
+                        <lb/>marques de sa protection &amp; de sa
+                        <lb/>bienveillance. C'est alors qu'on peut
+                        <lb/>le trouver , &amp; se procurer les éfets
+                        <lb/>de sa grace , de ses bénédictions &amp;
+                        <lb/>de ses faveurs , soit temporelles , soit
+                        <lb/>spirituelles ; En faisant un bon usage
+                        <lb/>de l'avantage que nous avons de pouvoir
+                        <lb/>lui rendre le culte que nous lui
+                        <lb/>devons , &amp; de tous les autres biens
+                        <lb/>qu'il nous acorde ; En les faisant servir
+                        <lb/>à sa gloire , à l'avancement de
+                        <lb/>nôtre salut , &amp; en lui témoignant
+                        <lb/>nôtre reconnoissance par nôtre obéïssance
+                        <lb/>&amp; par la sainteté de nôtre vie.
+                        <lb/>Mais lors que nous abusons de ces <fw place="bot-right" type="catch">moïens</fw>
+                        <pb n="43"/>
+                        <lb/>moïens que Dieu nous acorde pour
+                        <lb/>le glorifier &amp; pour le servir ; Lors
+                        <lb/>que nous méprisons sa Parole , son
+                        <lb/>Culte , ses Sacremens , &amp; que nous
+                        <lb/>ne sommes point touchés des bienfaits
+                        <lb/>qu'il nous acorde ; Lors qu'au
+                        <lb/>lieu de faire servir toutes ces choses
+                        <lb/>à nôtre conversion &amp; à nôtre amandement ,
+                        <lb/>nous en prenons plutôt ocasion
+                        <lb/>de nous endurcir &amp; de vivre
+                        <lb/>dans le crime ; Alors Dieu vient nous
+                        <lb/>ôter tous ces priviléges dont nous
+                        <lb/>jouïssons , &amp; au lieu des témoignages
+                        <lb/>de bonté que nous recevions de lui
+                        <lb/>par les biens dont il nous favorisoit,
+                        <lb/>il fait éclater contre nous sa colère ,
+                        <lb/>&amp; il déploie sur nous ses jugemens.
+                        <lb/>Alors l'Eternel ne se trouve plus. Alors
+                        <lb/>on a beau crier &amp; se lamenter,
+                        <lb/>il est sourd à nos cris. <quote source="bibleOstervald1724.xml#Zeph.2.2">
+                            <hi rend="I">Le décret a
+                                <lb/>enfanté</hi>
+                        </quote>. Il faut subir l'arrêt qui est
+                        <lb/>prononcé. C'est ce que Dieu lui même
+                        <lb/>nous déclare positivement , quand il
+                        <lb/>dit dans le prémier chapitre des Proverbes :
+                        <lb/>
+                        <quote source="bibleOstervald1724.xml#Prov.1.24-28">
+                            <hi rend="I">Parce que j'ai crié , &amp; que</hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Prov.1.24-28">Prov. I. <lb/>vers. 24.<lb/>28.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">vous avez refusé d'ouïr , &amp; que j'ai
+                                <lb/>étendu ma main , &amp; qu'il n'y a eû
+                                <lb/>personne qui y prit garde ; Parce que</hi>
+                            <fw place="bot-right" type="catch">
+                                <hi rend="I">vous</hi>
+                            </fw>
+                            <pb n="44"/>
+                            <lb/>
+                            <hi rend="I">vous avez rejetté tout mon conseil , &amp;
+                                <lb/>que vous n'avez point agréé que je
+                                <lb/>vous repriße ; Je me rirai aussi de
+                                <lb/>vôtre calamité , &amp; je me moquerai
+                                <lb/>quand vôtre éfroi surviendra , quand
+                                <lb/>la détresse &amp; l'angoisse viendront sur
+                                <lb/>vous comme un tourbillon: Alors on
+                                <lb/>criera après moi , mais je ne répondrai
+                                <lb/>point ; On me cherchera de grand
+                                <lb/>matin, mais on ne me trouvera point</hi>
+                        </quote>.
+                        <lb/>Voulez vous un exemple , MES FRÉRES,
+                        <lb/>des malheurs qui afligent une
+                        <lb/>Nation qui a laissé écouler le <quote source="bibleOstervald1724.xml#Isa.49.8">
+                            <hi rend="I">tems </hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Isa.49.8">Is. XLIX. <lb/>vers. 8.</ref>
+                            </note>
+                            <lb/>
+                            <hi rend="I">favorable</hi>, le <hi rend="I">jour du salut</hi><!--citation approximative-->
+                        </quote> <hi rend="I">?</hi> Considérez
+                        <lb/>la Nation Juive , cette malheureuse
+                        <lb/>Nation qui n'a pas voulu profiter
+                        <lb/>de l'avertissement que le Prophète
+                        <lb/>lui donnoit dans mon texte , de
+                        <lb/>chercher l'Eternel pendant qu'il se
+                        <lb/>trouvoit au milieu d'elle par sa Loi ,
+                        <lb/>ses Prophètes , ses Oracles , &amp; par
+                        <lb/>toutes les bénédictions dont il la
+                        <lb/>combloit. Voyez quelles ont êté ses
+                        <lb/>désolations , ses captivités , &amp; comment
+                        <lb/>Dieu enfin l'a dispersée par toute
+                        <lb/>la Terre , pour être à tous les Peuples
+                        <lb/>un monument de sa justice , &amp;
+                        <lb/>comme une voix qui leur crie ; <quote source="bibleOstervald1724.xml#Isa.55.6">
+                            <hi rend="I">Cherchez</hi>
+                            <fw place="bot-right" type="catch">
+                                <hi rend="I">chez</hi>
+                            </fw>
+                            <pb n="45"/>
+                            <lb/>
+                            <hi rend="I">chez l'Eternel pendant qu'il se trouve</hi>
+                        </quote>.
+                    </p>
+                    <p n="29">
+                        <lb/>Mais si à l'égard des Nations entiéres<note type="margin">Qu'il est
+                            <lb/>aussi un <lb/>tems <lb/>pour <lb/>chaque <lb/>homme <lb/>en particulier <lb/>où il peut <lb/>trouver
+                            <lb/>l'Eternel <lb/>, &amp; <lb/>un tems <lb/>où il ne le trouve <lb/>plus.</note>
+                        <lb/>il y a un tems où elles peuvent
+                        <lb/>trouver l'Eternel, &amp; un tems où
+                        <lb/>elles ne le trouvent plus , cela n'est
+                        <lb/>pas moins vrai à l'égard de <hi rend="I">chaque
+                            <lb/>homme</hi> en particulier. Le tems où
+                        <lb/>chaque homme peut trouver l'Eternel ,
+                        <lb/>c'est pour l'ordinaire tout le
+                        <lb/>tems de la vie. Pendant que Dieu
+                        <lb/>laisse vivre un homme sur la terre ,
+                        <lb/>quel que soit son état , il ne faut pas
+                        <lb/>desespérer de son salut : Peut-être Dieu
+                        <lb/>lui fera-t-il la grace de se convertir ,
+                        <lb/>non pas à la prémiére , ni à la seconde ,
+                        <lb/>mais à la derniére heure du jour.
+                        <lb/>Mais après que ce tems est passé , si
+                        <lb/>l'on n'a pas profité des moïens que
+                        <lb/>Dieu nous a mis en main pour travailler
+                        <lb/>à nôtre salut , si l'on a êté
+                        <lb/>sourd à sa voix &amp; aux sommations
+                        <lb/>qu'ils nous a faites dans sa Parole ,
+                        <lb/>ou qu'il nous a fait adresser par ses
+                        <lb/>Serviteurs , si l'on n'a êté insensible
+                        <lb/>à ses bienfaits &amp; à ses châtimens , à
+                        <lb/>ses promesses &amp; à ses menaces ; Après
+                        <lb/>cela , dis-je , vient le tems qui suit
+                        <lb/>cette vie , une malheureuse éternité , <fw place="bot-right" type="catch">qui</fw>
+                        <pb n="46"/>
+                        <lb/>qui ne laisse plus de lieu à la repentance ,
+                        <lb/>&amp; où Dieu ne se trouve plus:
+                        <lb/>Il n'est plus question alors que de se
+                        <lb/>livrer aux regrets &amp; aux transports
+                        <lb/>du plus afreux desespoir , précipités
+                        <lb/>dans un abîme de tourmens , qui
+                        <lb/>sont sans remède , sans ressource. </p>
+                    <p n="30">
+                        <lb/>Il n'est pas même seur que toute
+                        <lb/>la vie soit pour nous un tems où
+                        <lb/>nous puissions trouver l'Eternel. Vous
+                        <lb/>vous flatez , pécheurs , qu'en consacrant
+                        <lb/>tout le tems de vôtre jeunesse
+                        <lb/>&amp; de vôtre santé au monde , &amp; en
+                        <lb/>continuant à vivre , l'un dans ce vice,
+                        <lb/>&amp; l'autre dans un autre , vous vous
+                        <lb/>repentirez à la mort , &amp; que dans
+                        <lb/>ce tems là vous pourrez toujours
+                        <lb/>trouver l'Eternel , &amp; que la porte de
+                        <lb/>la miséricorde vous sera ouverte. Mais
+                        <lb/>quelle assurance pouvez-vous en avoir?
+                        <lb/>Serez-vous bien en état de penser à
+                        <lb/>Dieu , &amp; de faire tous les actes d'une
+                        <lb/>vraie repentance, lors qu'acablés de
+                        <lb/>maux &amp; de foiblesse à peine pourrez-
+                        <lb/>vous réfléchir sur quoi que ce soit ,
+                        <lb/>bien loin d'avoir la force de vous élever
+                        <lb/>à Dieu , &amp; d'entrer dans une
+                        <lb/>discution aussi exacte que celle qui <fw place="bot-right" type="catch">seroit</fw>
+                        <pb n="47"/>
+                        <lb/>seroit nécessaire pour vous assurer du
+                        <lb/>pardon de vos péchez ? Que savez
+                        <lb/>vous d'ailleurs si vous ne perdrez pas
+                        <lb/>toute liberté d'esprit , &amp; si vous ne
+                        <lb/>tomberez pas dans une létargie si ordinaire
+                        <lb/>aux mourans , qui , en assoupissant
+                        <lb/>vos sens , offusque aussi toutes
+                        <lb/>les lumiéres de vôtre entendement ?
+                        <lb/>Quand cela n'arriveroit pas , quel
+                        <lb/>fonds pourriez vous faire sur une repentance
+                        <lb/>aussi équivoque que celle que
+                        <lb/>vous pourriez témoigner dans ce tems
+                        <lb/>là , qui ne consisteroit qu'en quelques
+                        <lb/>soupirs , quelques larmes , quelques
+                        <lb/>regrets confus d'avoir péché , mais
+                        <lb/>qui ne seroit suivie d'aucune marque
+                        <lb/>certaine d'une vraie conversion , je
+                        <lb/>veux dire , du changement &amp; de la
+                        <lb/>réformation des mœurs , à quoi seul
+                        <lb/>le pardon des péchez est promis ?
+                        <lb/>Quelle assurance enfin pouvez vous
+                        <lb/>avoir qu'une repentance ainsi diférée
+                        <lb/>jusqu'à la mort puisse vous être salutaire ,
+                        <lb/>&amp; que Dieu l'accepte ; Qu'après
+                        <lb/>l'avoir méprisé pendant toute vôtre
+                        <lb/>vie , il se contentera que vous lui
+                        <lb/>disiez , lors que vous serez sur le
+                        <lb/>point de mourir , je me repens , <fw place="bot-right" type="catch">Seigneur</fw>
+                        <pb n="48"/>
+                        <lb/>Seigneur pardonne moi , fais moi grace
+                        <lb/>pour l'amour de Jésus Christ ?
+                        <lb/>Quelle idée vous faites vous de Dieu,
+                        <lb/>si vous croyez que cela sufise pour le
+                        <lb/>salut ? N'êtes vous pas mieux instruits
+                        <lb/>des conditions sous lesquelles nous
+                        <lb/>pouvons l'obtenir ? Reconnoissons le
+                        <lb/>donc , toute personne qui renvoie
+                        <lb/>sa conversion jusqu'à la mort , renvoie
+                        <lb/>à chercher Dieu jusqu'à un tems
+                        <lb/>où elle ne doit plus espérer de le trouver ,
+                        <lb/>&amp; où la porte de la grace sera
+                        <lb/>fermée pour elle. </p>
+                    <p n="31">
+                        <lb/>Je vai plus loin , &amp; je dis qu'avant
+                        <lb/>le tems même de la mort il vient
+                        <lb/>souvent un tems pour les pécheurs
+                        <lb/>où ils ne trouvent plus l'Eternel. Vous
+                        <lb/>ne voulez pas , dites vous peut-être ,
+                        <lb/>renvoier à vous convertir jusqu'à la
+                        <lb/>mort : Vous vous proposez de le faire
+                        <lb/>plutôt , c'est-à-dire , lors que l'âge
+                        <lb/>destiné aux plaisirs sera passé , &amp; que
+                        <lb/>vous serez plus avancé dans la vieillesse :
+                        <lb/>Vous vous trouvez présentement
+                        <lb/>dans des circonstances qui ne
+                        <lb/>vous permettent pas de rompre certaines
+                        <lb/>liaisons , de quiter certaines
+                        <lb/>habitudes ; Mais vous espérez qu'il <fw place="bot-right" type="catch">viendra</fw>
+                        <pb n="49"/>
+                        <lb/>viendra un tems plus favorable , où
+                        <lb/>vous pourrez travailler à vôtre sanctification ,
+                        <lb/>&amp; vous corriger de vos vices.
+                        <lb/>Mais quand viendra-t-il , ce tems
+                        <lb/>favorable ? Etes-vous assurez que la
+                        <lb/>mort ne vous surprendra pas ? Car
+                        <lb/>qui peut compter sur un seul jour de
+                        <lb/>vie ? D'ailleurs , quand vous pourriez
+                        <lb/>vous assurer de l'avenir , si vous
+                        <lb/>n'êtes pas disposés à vous convertir à
+                        <lb/>présent , le ferez vous mieux dans la
+                        <lb/>fuite ? Au contraire , plus vous renvoierez
+                        <lb/>vôtre conversion , plus elle
+                        <lb/>deviendra dificile , parce qu'alors vos
+                        <lb/>mauvaises habitudes seront toujours
+                        <lb/>plus invéterées , &amp; que vous serez
+                        <lb/>engagés toujours plus avant dans le
+                        <lb/>crime , en sorte qu'à moins que Dieu
+                        <lb/>ne déploie sur vous une grace miraculeuse ,
+                        <lb/>vôtre conversion vous deviendra
+                        <lb/>entiérement impossible. Mais
+                        <lb/>quelle espérance pouvez vous avoir
+                        <lb/>que Dieu vous acordera dans ce tems
+                        <lb/>là la grace de la repentance ? Après
+                        <lb/>que vous l'aurez si longtems méprisé ,
+                        <lb/>que vous vous serez moqué de
+                        <lb/>ses exhortations les plus pressantes ,
+                        <lb/>que vous l'aurez honteusement abandonné , <fw place="bot-right" type="catch">donné ,</fw>
+                        <pb n="50"/>
+                        <lb/>pour suivre constamment
+                        <lb/>tous les désirs de vôtre cœur , vous
+                        <lb/>prétendez que Dieu sera toûjours prêt
+                        <lb/>à faire des miracles en vôtre faveur ,
+                        <lb/>pour vous porter à la conversion &amp;
+                        <lb/>à la repentance ! Non , non , Chrétiens ,
+                        <lb/>c'est une illusion grossiére que
+                        <lb/>vous vous faites ; Et sachez que si
+                        <lb/>vous continuez à vous obstiner dans
+                        <lb/>vos vices , &amp; dans le mépris que
+                        <lb/>vous faites de Dieu &amp; de ses loix ,
+                        <lb/>il vous méprisera à son tour , &amp; qu'après
+                        <lb/>avoir longtems frapé à la porte
+                        <lb/>de vôtre cœur , lassé de vos refus ,
+                        <lb/>il vous abandonnera enfin à vous
+                        <lb/>mêmes , &amp; vous tomberez dans un
+                        <lb/>endurcissement &amp; une impénitence finale :
+                        <lb/>Ce sera alors que Dieu ne se
+                        <lb/>trouvera plus , &amp; que vôtre condition
+                        <lb/>sera desespérée. </p>
+                    <p n="32">
+                        <lb/>
+                        <note type="margin">Qu'il<supplied resp="#CiM" reason="omission"> </supplied>faut <lb/>donc <lb/>chercher <lb/>l'Eternel <lb/>pendant
+                            <lb/>qu'il se <lb/>trouve , <lb/>soit pour <lb/>la surté <lb/>des Nations,<lb/>soit <lb/>pour le
+                            <lb/>salut de <lb/>chaque <lb/>homme.</note>Quelle conséquence devons nous
+                        <lb/>tirer de tout cela , MES FRÉRES ,
+                        <lb/>si ce n'est qu'il faut donc <quote source="bibleOstervald1724.xml#Isa.55.6">
+                            <hi rend="I">chercher
+                                <lb/>l'Eternel pendant qu'il se trouve</hi></quote> <hi rend="I">?</hi>
+                    </p>
+                    <p n="33">
+                        <lb/>Nous avons montré qu'il est un
+                        <lb/>tems pour les Nations où elles trouvent
+                        <lb/>l'Eternel , &amp; un tems où elles
+                        <lb/>ne le trouvent plus. Si nous nous intéressons <fw place="bot-right" type="catch">téressons</fw>
+                        <pb n="51"/>
+                        <lb/> pour nôtre Nation , profitons
+                        <lb/>du tems de la bienveillance auquel
+                        <lb/>Dieu ne s'est pas encore entiérement
+                        <lb/>retiré de nous. Qu'atendrons
+                        <lb/>nous pour nous convertir ? Atendrons
+                        <lb/>nous que Dieu frape les derniers
+                        <lb/>coups sur nous , &amp; qu'il nous envoie
+                        <lb/>ces fleaux exterminateurs qui de
+                        <lb/>tems en tems ont ravagé , &amp; qui
+                        <lb/>ravagent encore d'autres Païs ? Mais
+                        <lb/>alors il sera trop tard de vouloir
+                        <lb/>fléchir l'Eternel par nos larmes &amp; par
+                        <lb/>nos priéres , C'est pendant que Dieu
+                        <lb/>fait entendre ses menaces , qu'il faut
+                        <lb/>désarmer sa colère. Ah ! que deviendrions
+                        <lb/>nous , si , au lieu de la paix
+                        <lb/>dont nous jouïssons à présent , des
+                        <lb/>Armées redoutables , des Soldats insolens ,
+                        <lb/>venoient se jetter dans nos
+                        <lb/>Contrées , désoler nos Campagnes ,
+                        <lb/>enlever nos biens , n'épargner ni femmes
+                        <lb/>ni enfans , &amp; répandre par tout
+                        <lb/>la terreur &amp; la désolation ? Que deviendrions
+                        <lb/>nous , si , au lieu de l'abondance
+                        <lb/>où nous sommes maintenant ,
+                        <lb/>Dieu venoit à nous <hi rend="I">rompre le
+                            <lb/>bâton du pain</hi>
+                        <hi rend="I"> </hi>, &amp; nous reduire aux
+                        <lb/>dures extrêmités où le défaut ou la <fw place="bot-right" type="catch">cher-</fw>
+                        <pb n="52"/>
+                        <lb/>cherté des vivres jettent quelquefois ?
+                        <lb/>Quelle seroit nôtre consternation ,
+                        <lb/>si cette fatale perte , qui a afligé
+                        <lb/>ci devant une Ville qui n'est pas fort
+                        <lb/>éloignée du nous , &amp; qui aflige aujourdhui
+                        <lb/>des Païs plus éloignés à la
+                        <lb/>vérité , mais dont l'éloignement ne
+                        <lb/>peut pas nous délivrer de toute
+                        <lb/>crainte sur ce sujet ; si cette peste ,
+                        <lb/>dis-je , venant à entrer dans nôtre
+                        <lb/>Païs , nous voïons en peu de tems
+                        <lb/>nos maisons &amp; nos ruës remplies de
+                        <lb/>cadavres ; Si nous nous voïons abandonnés
+                        <lb/>par nos proches mêmes , sans
+                        <lb/>pouvoir nous secourir , par la crainte
+                        <lb/>de l'infection , n'entendant de toutes
+                        <lb/>parts que des pleurs &amp; des gémissemens
+                        <lb/>lamentables ? Sur tout , quel
+                        <lb/>malheur ne seroit pas le nôtre , si ,
+                        <lb/>Dieu venant à nous ôter le Chandelier
+                        <lb/>de sa Parole &amp; la pure lumiére
+                        <lb/>de la Réformation , nous voïons introduire
+                        <lb/>chez nous la superstition &amp;
+                        <lb/>l'idolatrie ? Que seroit-ce , si nous
+                        <lb/>nous voïons exposés à la fureur &amp;
+                        <lb/>la persecution d'une Eglise Antichrétienne ,
+                        <lb/>&amp; obligés , comme l'ont
+                        <lb/>êté un si grand nombre de nos Fréres <fw place="bot-right" type="catch">res</fw>
+                        <pb n="53"/>
+                        <lb/>qui sont encore aujourdhui parmi
+                        <lb/>nous , à chercher nôtre salut dans
+                        <lb/>la fuite , à perdre nos biens , à quiter
+                        <lb/>nos parens , &amp; à passer le reste
+                        <lb/>de nos jours dans la pauvreté &amp; dans
+                        <lb/>la misère ? Aucun de ces maux ,
+                        <lb/>par une faveur de Dieu toute particuliére
+                        <lb/>n'est encore venu sur nous :
+                        <lb/>Jusques ici Dieu a arrêté son bras ;
+                        <lb/>Il a suspendu ses coups ; Il s'est contenté
+                        <lb/>de nous menacer , &amp; de nous
+                        <lb/>montrer que ce que nous avons à craindre
+                        <lb/>par les légers châtimens qu'il nous
+                        <lb/>a déjà envoiés , &amp; par les fleaux
+                        <lb/>dont il a frapé d'autres Peuples. Prévenons ,
+                        <lb/>prévenons l'éxécution de ses
+                        <lb/>jugemens , que nous ne pouvons pas
+                        <lb/>éviter , si nous persévérons dans nôtre
+                        <lb/>endurcissement ? <quote source="bibleOstervald1724.xml#Isa.55.6">
+                            <hi rend="I">Cherchons l'Eternel
+                                <lb/>pendant qu'il se trouve</hi>
+                        </quote>.
+                    </p>
+                    <p n="34">
+                        <lb/>Si nous ne voulons pas le faire ,
+                        <lb/>MES FRÉRES , pour l'intérêt que
+                        <lb/>nous devons tous prendre à la conservation
+                        <lb/>de nôtre Païs , &amp; pour la
+                        <lb/>crainte des jugemens temporels , faisons
+                        <lb/>le au moins pour l'interêt que
+                        <lb/>chacun de nous doit prendre à son
+                        <lb/>propre salut , &amp; pour la crainte des <fw place="bot-right" type="catch">juge-</fw>
+                        <pb n="54"/>
+                        <lb/>jugemens éternels , qui sont infaillibles
+                        <lb/>pour les méchans après cette
+                        <lb/>vie. Dieu nous a donné le tems de
+                        <lb/>cette vie , pour travailler à nôtre
+                        <lb/>salut : C'est le tems de la grace &amp;
+                        <lb/>de la miséricorde , où l'on peut trouver
+                        <lb/>l'Eternel ; Après quoi , si l'on
+                        <lb/>n'en profite pas , c'est le tems de la
+                        <lb/>justice &amp; des sévéres vengeances , où
+                        <lb/>Dieu ne se trouve plus. Mais cette
+                        <lb/>vie est courte : Profitons du tems ,
+                        <lb/>pendant qu'elle dure. Nous ne sommes
+                        <lb/>pas même assurés de remplir le
+                        <lb/>cours ordinaire de la vie des hommes ;
+                        <lb/>Une mort subite , une maladie
+                        <lb/>imprévüe , nous le voions tous les
+                        <lb/>jours , vient souvent couper le fil
+                        <lb/>de nos jours , lors que nous nous
+                        <lb/>y atendons le moins : Nous ne pouvons
+                        <lb/>compter que sur chaque moment
+                        <lb/>où nous vivons ; Ne les perdons pas
+                        <lb/>inutilement , mais remplissons nous de
+                        <lb/>fraïeur chaque jour. Sans parler même
+                        <lb/>de l'incertitude de cette vie , plusieurs
+                        <lb/>qui pourront arriver à la derniére
+                        <lb/>vieillesse n'ont-ils pas déja fourni
+                        <lb/>la moitié , les trois quarts de
+                        <lb/>leur carrière , &amp; n'en est-il pas qui <fw place="bot-right" type="catch">touchent</fw>
+                        <pb n="55"/>
+                        <lb/>touchent au terme fatal où ils verront
+                        <lb/>expirer le tems où l'on peut
+                        <lb/>trouver l'Eternel ? Avec quelle ardeur
+                        <lb/>ne s'apliqueront-ils pas à racheter
+                        <lb/>le tems , &amp; à mettre à profit tous
+                        <lb/>les momens qui leur restent ? Ne
+                        <lb/>comptez pas , qui que vous soiez ,
+                        <lb/>sur ce que vous pourrez faire dans
+                        <lb/>vôtre lit de mort : A la mort nous
+                        <lb/>ne sommes plus en état de rien faire
+                        <lb/>pour nôtre salut , &amp; il seroit trop
+                        <lb/>tard , &amp; peut-être inutile , d'y travailler
+                        <lb/>dans ce tems là. Je dis plus,
+                        <lb/>avant la mort même , si nous n'écoutons
+                        <lb/>pas la voix de Dieu , pendant
+                        <lb/>qu'il nous solicite à la repentance ,
+                        <lb/>il se retirera de nous , &amp; de
+                        <lb/>degré en dégré nous parviendrons ,
+                        <lb/>par un éfet de son juste jugement ,
+                        <lb/>au dernier période de l'endurcissement ,
+                        <lb/>où Dieu ne se trouvera plus,
+                        <lb/>&amp; nôtre salut sera entiérement desespéré.
+                        <lb/>Sentez vous toutes ces vérités<lb/> , MES FRÉRES ? Et si vous
+                        <lb/>les sentez , seriez vous si insensés
+                        <lb/>que de ne pourvoir pas à vôtre salut ,
+                        <lb/>pendant que vous le pouvez ?
+                        <lb/>
+                        <quote source="bibleOstervald1724.xml#Heb.4.7">
+                            <hi rend="I">Aujourdhui , aujourdhui que nous entendons</hi>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Heb.4.7">Hébr. IV. <lb/>vers. 7.</ref>
+                            </note>
+                            <pb n="56"/>
+                            <lb/>
+                            <hi rend="I">la voix de Dieu , n'endurcissons
+                                <lb/>point nos cœurs</hi>
+                        </quote>.
+                    </p>
+                    <p n="35">
+                        <lb/>Que ne puis-je pousser plus loin
+                        <lb/>ces réflexions , MES FRÉRES !
+                        <lb/>Que mon discours n'a-t-il une force
+                        <lb/>toute divine , pour briser la dureté
+                        <lb/>de vos cœurs , &amp; les soumettre à
+                        <lb/>l'obéïssance de Jésus Christ ! Que ne
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_2Cor.5.11">2. Cor. V. <lb/>vers. 11.</ref>
+                        </note>puis-je, que ne puis-je , <quote source="bibleOstervald1724.xml#_2Cor.5.11">
+                            <hi rend="I">sachant ce
+                                <lb/>que c'est que la fraieur du Seigneur ,
+                                <lb/>vous porter tous à la foi </hi>
+                        </quote>, &amp; à une
+                        <lb/>sincére conversion ! Alors , alors ,
+                        <lb/>nous pourrions nous assurer que Dieu
+                        <lb/>auroit pour agréable nôtre jeûne ,
+                        <lb/>qu'il jetteroit loin de lui tous nos
+                        <lb/>péchez , &amp; qu'il ne nous donneroit
+                        <lb/>plus à l'avenir que des marques éclatantes
+                        <lb/>de sa bienveillance &amp; de
+                        <lb/>sa faveur. <quote source="bibleOstervald1724.xml#Isa.58.8">
+                            <hi rend="I">Alors</hi>, <seg type="interpolation">pour nous apliquer
+                            <lb/>les magnifiques promesses que
+                            <lb/>nôtre Prophète faisoit aux Juifs ,
+                            <lb/>s'ils jeûnoient de la manière qu'il leur
+                            <lb/>
+                            <note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#Isa.58.8">Is. LVIII. <lb/>vers. 8.</ref>
+                            </note>avoit marquée,</seg> <hi rend="I">Alors
+                                nôtre lumiére
+                                <lb/>brilleroit comme l'aurore , nôtre
+                                <lb/>justice marcheroit devant nous , &amp;
+                                <lb/>la gloire du Seigneur seroit nôtre arriére-
+                                <lb/>garde</hi>
+                        </quote>. Grand Dieu , éxauce <fw place="bot-right" type="catch">nos</fw>
+                        <pb n="57"/>
+                        <lb/>nos vœux ! Nous t'en prions pour
+                        <lb/>l'amour de Jésus Christ , à qui ,
+                        <lb/>comme à toi , Pére , &amp; au Saint
+                        <lb/>Esprit , soit honneur &amp; gloire , dans
+                        <lb/>tous les siécles ! Amen ! </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

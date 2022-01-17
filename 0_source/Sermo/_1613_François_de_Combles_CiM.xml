@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1613_François_de_Combles_CiM">
+            <titleStmt>
+                <title type="sermon">PREMIER SERMON TOVCHANT LA PREPARATION reqvise povr communiquer deuëment &amp; dignement à la Cene de nostre Seigneur.</title>
+                <title type="book">Trois Sermons touchant la preparation requise pour communiquer 
+                    deuëment &amp; dignement à la Cene de nostre Seigneur. Plus vn Dialogue de l'homme fidele auec sa propre 
+                    conscience pour s'esprouuer lors qu'il s'y veut presenter. ITEM DIX AVTRES SERMONS CONTENANS DES EXEMPLES remarquables de repentance, de 
+                    Foy, &amp; de charité : Et vne exhortation à ceux qui sont en quereles, tendante à les amener à vne saincte reconciliation. 
+                    Par François De Combles. Ministre de l'Eglise reformee de Metz, A Geneve. Pour Pierre &amp; Iaques Chouet, M. DC. XIII.</title>
+                <author ref="...">François de Combles</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="CiM">Cinthia MELI</persName>
+                        <email>cinthia.meli@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>François De Combles</author>
+                        <title>TROIS SERMONS TOVCHANT LA PREPARATION REQUISE POVR communiquer
+                            deüment &amp; dignement à la Cene de nostre Seigneur.</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Pierre et Jaques Chouët</publisher>
+                            <date>1613</date>
+                            <date type="sermon">1594</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">
+                        https://books.google.ch/books?id=4d08AAAAcAAJ</idno>
+                    <idno type="source">Bibliothèque cantonale et universitaire de Lausanne</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_thématique</term>
+                    <term type="sermonTheme">auquel il est parlé de la prepentance, et pincipalement du moyen de venir à la cognoissance de nos péchés</term>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">14</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">1Cor.2.28</term>
+                    <term type="paratext" subtype="tableOfContents">MATIERES CONTENVES EN CE LIBRE</term>
+                    <term type="paratext" subtype="epistle">A MESSIEVRS DE L'EGLISE REFORMEE DE METZ</term>
+                    <term type="paratext" subtype="preface">PREFACE AVX LECTEVRS</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français préclassique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-07-11" who="#LjD">transformation word - XML</change>
+            <change when="2017-07-11" who="#MAG">Verification, citations</change>
+            <change when="2017-04-30" who="#CiM">Transcription word</change>
+            <change when="2017-07-13" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>TROIS SERMONS
+                    <lb/>TOVCHANT LA PREPARATION
+                    <lb/>REQVISE POVR
+                    <lb/>communiquer deüement &amp; dignement
+                    <lb/>à la Cene de nostre Seigneur. </p>
+                <p n="2">
+                    <lb/>
+                    <hi rend="I">Plus un Dialogue de l'homme fidele auec sa propre
+                        <lb/>conscience pour s'esprouuer lors qu'il
+                        <lb/>s'y veut presenter.</hi>
+                </p>
+                <p n="3">
+                    <lb/>ITEM DIX AVTRES SERMONS
+                    <lb/>CONTENANS DES EXEMPLES
+                    <lb/>remarquables de repentance,de
+                    <lb/>Foy, &amp; de charité: </p>
+                <p n="4">
+                    <lb/>
+                    <hi rend="I">Et une exhortation à ceux qui sont en quereles,
+                        <lb/>tendante à les amener à une
+                        <lb/>saincte reconciliation.</hi>
+                </p>
+                <p n="5">
+                    <lb/>PAR FRANÇOIS DE COMBLES.
+                    <lb/>Ministre de l'Eglise reformee de Metz. </p>
+                <p n="6">
+                    <lb/>A GENEVE.
+                    <lb/>Pour PIERRE &amp; IAQVES CHOVET.
+                    <lb/>M. DC. XIII. </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <head type="main">
+                    <lb/>PREMIER SERMON
+                    <lb/>TOVCHANT LA PREPARATION
+                    <lb/>reqvise povr
+                    <lb/>communiquer deuëment &amp;
+                    <lb/>dignement à la Cene
+                    <lb/>de nostre Seigneur.</head>
+                <p n="1">
+                    <lb/>
+                    <hi rend="I">Fait en l'Eglise de Metz pour la preparation
+                        <lb/>à la Cene de Pasques en</hi>
+                    <lb/>
+                    <date>
+                        <hi rend="I">l'an 1594.</hi>
+                    </date>
+                </p>
+                <p n="2">
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#_1Cor.11.28-34">1. Corinth. 11. 28. &amp;c.</ref>
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.11.28">
+                        <hi rend="I">Que chascun donc s'esprouue soy-mesme, &amp;
+                            <lb/>ainsi mange de ce pain, &amp; boiue de ceste
+                            <lb/>coupe</hi>
+                        </quote>.
+                    <quote source="bible1588.xml#_1Cor.11.29">
+                            <lb/>Car qui en mange &amp; qui en boit indignemẽt,
+                            <lb/>mange &amp; boit son <choice><sic>iugemement</sic><corr resp="#CiM">iugement</corr></choice>
+                        <hi rend="I"> , ne discernant
+                            <lb/>point le corps du Seigneur</hi>
+                    </quote>.
+                </p>
+                <p n="3">
+                    <lb/>
+                    <c type="lettrine">L</c>A cause pourquoy ie vous ay
+                    <lb/>faict lecture de ce texte , c'est
+                    <lb/>d'autant que comme vous fustes
+                    <lb/>aduertis Dimanche dernier,
+                    <lb/>nous deuons celebrer
+                    <lb/>la saincte Cene en ceste Eglise Dimanche <pb n="2"/>
+                        <lb/>prochain (moyennant la grace de Dieu.) A
+                    <lb/>laquelle il nous importe beaucoup que nous
+                    <lb/>nous preparions deuëment, si nous y voulons
+                    <lb/>communiquer à nostre salut , comme
+                    <lb/>il n'y a personne qui desire d'y communiquer
+                    <lb/>autremẽt. Toutesfois ce n'est pas mon
+                    <lb/>intention de m'arrester sur l'exposition des
+                    <lb/>mots. Mais ce texte ici comme estãt le plus
+                    <lb/>formel &amp; le plus expres de toute l'Escriture
+                    <lb/>saincte à <choice><sic>c'este</sic><corr resp="#CiM">ceste</corr></choice> fin, me seruira seulement de
+                    <lb/>subiect ou argument pour parler en general
+                    <lb/>de la preparation requise en ceux qui
+                    <lb/>veulent s'approcher dignement de la table
+                    <lb/>du Seigneur. </p>
+                <p n="4">
+                    <lb/>Car combiẽ qu'il y ait à profiter par tout
+                    <lb/>en la parole de Dieu , si est-ce qu'il y a des
+                    <lb/>temps esquels vne matiere est plus necessaire
+                    <lb/>ou plus vtile à traicter qu'vne autre. Et
+                    <lb/>que d'autant , que nous sommes souuentesfois
+                    <lb/>escouteurs oublieux, ou que si nous auons
+                    <lb/>bien retenu la substance des sainctes
+                    <lb/>exhortations, nous defaillons cependant en
+                    <lb/>beaucoup de sortes à la pratique d'icelles,il
+                    <lb/>est besoing que les choses bõnes nous soyẽt
+                    <lb/>rememorees plus d'vne fois:&amp; que la tardiueté
+                    <lb/>qui est en nous en matiere de bien faire
+                    <lb/>soit aiguillonnee, &amp; resueillee souuent par
+                    <lb/>diuerses exhortations. </p>
+                <p n="5">
+                    <lb/>Et particulierement en ce qui concerne la
+                    <lb/>reception de la Saincte Cene,comme c'est
+                    <lb/>vostre deuoir de vous y preparer, aussi <fw place="bot-right" type="catch">c'est</fw>
+                    <pb n="3"/>
+                    <lb/>c'est nostre deuoir de vous exorter à ce
+                    <lb/>faire suiuant l'enseignement que nous donne
+                    <lb/>icy l'Apostre : &amp; nous le faisons aussi
+                    <lb/>toutes &amp; quantes-fois que nous vous annonceons
+                    <lb/>la Saincte Cene : Mais d'autant
+                    <lb/>que cela se faict brieuement &amp; en peu de
+                    <lb/>paroles , il est bien à craindre que plusieurs
+                    <lb/>n'entendent pas bien en quoy gist ceste
+                    <lb/>preparation,principalement ceux qui n'ont
+                    <lb/>point encore ouy l'exposition du Cathechisme,
+                    <lb/>soyent ieunes ou vieux, &amp; plusieurs
+                    <lb/>de ceux qui ne sçauent pas lire, &amp; tous ceux
+                    <lb/>en general qui ne sont pas assez diligens à
+                    <lb/>escouter,quand on parle de ces matieres. Il
+                    <lb/>y en aura qui penseront que pour bien communiquer
+                    <lb/>à la Saincte Cene , c'est assez d'estre
+                    <lb/>en paix auec les hommes,&amp; ne considereront
+                    <lb/>pas qu'il faut aussi estre en telle disposition
+                    <lb/>que nous ayons asseurance d'estre
+                    <lb/>en paix auec Dieu. Bref les vns ne sçauent
+                    <lb/>gueres bien comment il se faut disposer:les
+                    <lb/>autres ne le considerent pas bien, ou n'y
+                    <lb/>pensent point assez à bon escient: comme
+                    <lb/>on voit à l' œil en ce qu'apres qu'ils ont cõmuniqué
+                    <lb/>à la saincte Cene , on voit en eux
+                    <lb/>aussi peu d'amendement de vie qu'au parauãt.
+                    <lb/>Et est bien à craindre qu'vne des causes
+                    <lb/>de la demonstration de l'ire de Dieu à l'encontre
+                    <lb/>de nous , qui se fait par diuerses afflictiõs
+                    <lb/>qu'il nous enuoye,ne soit, que nous
+                    <lb/>ne venons pas tous à la Cene du Seigneur, <pb n="4"/>
+                    <lb/>auec telle disposition qu'il est requis. </p>
+                <p n="6">
+                    <lb/>Le but donc de ceste presente exhortation,
+                    <lb/>sera que ceux qui ont bien faict leur
+                    <lb/>deuoir de se preparer à la saincte Cene,cõtinuent
+                    <lb/>&amp; facent de bien en mieux;que ceux
+                    <lb/>qui ne l'ont pas faict soyent induits à le faire,
+                    <lb/>que ceux qui n'ont pas eu toutes les addresses
+                    <lb/>&amp; instructions à ce requises en entendent
+                    <lb/>maintenant ce que le temps pourra
+                    <lb/>permettre de leur en proposer , afin que
+                    <lb/>la practique s'en ensuiue en nous tous, &amp;
+                    <lb/>que personne n'apporte vn cœur prophane
+                    <lb/>à ce banquet sacré : mais que nous y veniõs
+                    <lb/>tous ayans les cœurs bien purifiez : Que s'il
+                    <lb/>y en a, qui foulans orgueilleusement aux
+                    <lb/>pieds les remonstrãces qui leur sont faictes
+                    <lb/>pour leur bien &amp; salut facent le contraire
+                    <lb/>de ce à quoy ils sont exhortez, ie ne soye
+                    <lb/>point enueloppé , faute d'auoir faict deuoir
+                    <lb/>de les aduertir,en la condemnation laquelle
+                    <lb/>ils attirent sur eux. </p>
+                <p n="7">
+                    <lb/>Pour venir dignement à la Table du Seigneur
+                    <lb/>l'Apostre dit,qu'vn chacun se doit
+                    <lb/>esprouuer soy-mesme,&amp; ainsi,c'est à dire apres
+                    <lb/>s'estre esprouué, &amp; auoir trouué par
+                    <lb/>l'espreuue de soy-mesme qu'il y peut venir
+                    <lb/>en bonne conscience , mange de ce pain &amp;
+                    <lb/>boiue de ceste coupe. Sur ceci , il nous faut
+                    <lb/>en premier lieu briefuement remarquer
+                    <lb/>quelques poincts en general: &amp; puis apres,
+                    <lb/>nous declarerons en quoy vn chacun se doit <fw place="bot-right" type="catch">esprouuer</fw>
+                    <pb n="5"/>
+                    <lb/>esprouuer , ou en quoy consiste l'espreuue
+                    <lb/>qu'vn chacun doit faire de soy-mesme. </p>
+                <p n="8">
+                    <lb/>Quant au premier poinct , notons premierement ,
+                    <lb/>que l'Apostre dit que chacun
+                    <lb/>se doit esprouuer soy-mesme: par ce que
+                    <lb/>l'homme ne cognoissant pas le cœur de son
+                    <lb/>prochain ne le peut aussi esprouuer de <choice><sic>c'este</sic><corr resp="#CiM">ceste</corr></choice>
+                    <lb/>espreuue <choice><sic>d'ont</sic><corr resp="#CiM">dont</corr></choice> il est ici question. Il y a
+                    <lb/>vne autre espreuue qui se faict par ceux qui
+                    <lb/>reçoiuent les autres à la Cene, de laquelle
+                    <lb/>l'homme peust biẽ esprouuer son prochain:
+                    <lb/>comme quant à l'instructiõ,quand on range
+                    <lb/>quelqu'vn à l'Eglise on esprouue, on sonde,
+                    <lb/>on examine,par les interrogations qu'on
+                    <lb/>luy faict , s'il a quelque intelligence mediocre
+                    <lb/>des poincts de la doctrine Chrestienne,
+                    <lb/>pour sçauoir que c'est qu'il fait quand il
+                    <lb/>communique à la Cene : Et aussi quand à
+                    <lb/>la conuersation , si quelqu'vn s'est mal conduit ,
+                    <lb/>&amp; qu'on soit quelque temps sans le
+                    <lb/>vouloir admettre à la saincte Cene , &amp; que
+                    <lb/>puis apres on l'y reçoiue voyant sa bonne
+                    <lb/>conduite : ou quand on a veu long temps
+                    <lb/>la bonne vie de quelqu'vn qui n'a point eu
+                    <lb/>de mauuais bruit , on juge qu'il y peut bien
+                    <lb/>estre admis : mais l'Apostre ne parle pas ici
+                    <lb/>de l'espreuue que doiuent faire ceux qui distribuent
+                    <lb/>la Cene , pour ne point ietter les<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Matt.6.7">
+                            <hi rend="I">Matth.</hi> 6. 7.</ref>
+                    </note>
+                    <lb/>perles deuant les pourceaux, ni donner la
+                    <lb/>chose saincte aux chiẽs: mais il parle de l'espreuue
+                    <lb/>que doiuent faire ceux qui veulent <pb n="6"/>
+                    <lb/>receuoir la Cene:Car il ne dit pas que l'hõme
+                    <lb/>espreuue son prochain, &amp; ainsi qu'il luy
+                    <lb/>baille ce pain , mais qu'ils s'espreuue soy-
+                    <lb/>mesme, &amp; ainsi qu'il mange de ce pain. Si
+                    <lb/>vous demandez à quelqu'vn,as tu vraye foy
+                    <lb/>en Dieu ? As tu vraye desplaisance de tes
+                    <lb/>fautes? as tu desir de t'amender ? il respondra
+                    <lb/>qu'ouy : Car il pensera quand il respondroit
+                    <lb/>que non qu'il seroit estimé prophane:
+                    <lb/>mais cependãt il n'y a que Dieu,&amp; luy-mesme
+                    <lb/>qui puisse sçauoir au vray s'il est ainsi:
+                    <lb/>Car comme le cœur de l'homme est peruers
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Jer.17.9">
+                            <hi rend="I">Ierem.</hi> 17.9.</ref>
+                    </note>&amp; deceuable, il s'en trouuera qui vous
+                    <lb/>accorderõt tout ce que vous voudrez, pour
+                    <lb/>estre receus au mariage , ou pour d'autres
+                    <lb/>considerations:&amp; cependant en disant d'vn,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.12">
+                            <hi rend="I">Pseau</hi>. 12.</ref>
+                    </note>leur cœur pense autremẽt. Nous vous pouuons
+                    <lb/>donc bien enseigner comment vous
+                    <lb/>vous deuez esprouuer,mais de vous esprouuer
+                    <lb/>&amp; de crocheter le cabinet de vos consciences,
+                    <lb/>nous ne pouuõs:il faut que ce soyez
+                    <lb/>vous vous-mesmes qui vous esprouuiez,
+                    <lb/>combien que cependant l'vne des espreuues
+                    <lb/>ne doit pas oster l'autre : Notamment
+                    <lb/>pour le regard de ceux qui n'ont point encor
+                    <lb/>communiqué, &amp; de ceux qui se sont rẽdus
+                    <lb/>indignes d'estre receus à la communion
+                    <lb/>par leurs comportemens scandaleux. </p>
+                <p n="9">
+                    <lb/>En second lieu il faut noter cy-dessus,
+                    <lb/>que nous nous deuons esprouuer auant que
+                    <lb/>receuoir la Cene , &amp; non pas seulement <fw place="bot-right" type="catch">apres :</fw>
+                    <pb n="7"/>
+                    <lb/>apres : Car l'Apostre dit que l'homme s'espreuue,
+                    <lb/>&amp; ainsi qu'il mange. Il ne dit pas
+                    <lb/>que l'homme mange, &amp; puis qu'il s'esprouue.
+                    <lb/>L'espreuue donc doit aller deuant , &amp; la
+                    <lb/>reception de la saincte Cene doit suiure apres. </p>
+                <p n="10">
+                    <lb/>En 3. lieu ce n'est pas assez de nous esprouuer
+                    <lb/>vne fois en nostre vie : mais toutes
+                    <lb/>les fois que nous voulons communiquer il
+                    <lb/>nous faut esprouuer de nouueau : tout ainsi
+                    <lb/>que toutes les fois que nous communiquons
+                    <lb/>nous sommes tenus d'annoncer la mort du
+                    <lb/>Seigneur , toutes les fois que nous disnons
+                    <lb/>ou soupons, ou prenons quelque autre repas,
+                    <lb/>il faut prier Dieu qu'il nous sanctifie la
+                    <lb/>viande &amp; le breuuage , afin que nous en vsions
+                    <lb/>en bonne conscience:A plus forte raison<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Tim.4">1. <hi rend="I">Tim.</hi>4.</ref> 
+                    </note>
+                    <lb/>nous faut il preparer &amp; estudier à la sanctification
+                    <lb/>de nous mesmes , toutes les fois
+                    <lb/>qu'il faut receuoir <choice><sic>c'este</sic><corr resp="#CiM">ceste</corr></choice> viande &amp; ce breuuage ,
+                    <lb/>qui sont sanctifiez par l'institution du
+                    <lb/>Seigneur. Ce n'est pas tout vn de se ranger
+                    <lb/>à l'Eglise, &amp; de s'esprouuer soy-mesme: car
+                    <lb/>si on demeure en l'Eglise,où on s'est rangé,
+                    <lb/>on ne s'y rangera qu'vne fois : mais ce n'est
+                    <lb/>point assez de s'esprouuer vne fois: tout
+                    <lb/>ainsi que ce n'est point assez de prendre vne
+                    <lb/>seule medecine pour se descharger de
+                    <lb/>toutes les mauuaises humeurs qui sont en
+                    <lb/>nos corps, &amp; y pourront estre ius-qu'à la fin
+                    <lb/>de nos jours : ny de prier Dieu vne fois <pb n="8"/>
+                    <lb/>pour la sanctification de toutes les viandes
+                    <lb/>que nous deuons prendre en tout le cours
+                    <lb/>de nostre vie. </p>
+                <p n="11">
+                    <lb/>En 4. lieu notons qu'il n'est pas temps
+                    <lb/>de commencer à nous esprouuer , quand
+                    <lb/>nous sommes au presche qui se fait deuant
+                    <lb/>qu'on administre la saincte Cene , ou quand
+                    <lb/>nous oyons lire le formulaire de la celebration
+                    <lb/>d'icelle. Vray est que la memoire
+                    <lb/>de l'examen que nous deuons faire de nous
+                    <lb/>mesmes nous estant rafreschie au formulaire
+                    <lb/>&amp; au presche du iour de la Cene , nous
+                    <lb/>pouuons bien estre exhortez à y penser de
+                    <lb/>pres: Mais tant y a que pour nous bien esprouuer,
+                    <lb/>qu'il ne faut pas attendre ius-qu'à
+                    <lb/>ce temps là,il faut prendre du temps pour ce
+                    <lb/>faire au parauant : Car tandis que l'homme
+                    <lb/>feroit vne recherche exacte de sa vie passee,
+                    <lb/>&amp; penseroit particulierement à ses pechez,
+                    <lb/>faisant comme vne anatomie de son ame,
+                    <lb/>il pourroit laisser eschapper vne grande partie
+                    <lb/>de ce qui se diroit au presche. Il faut
+                    <lb/>donc, pour bien faire,commencer plustost,
+                    <lb/>soit qu'on y employe vne partie du iour qui
+                    <lb/>precede la Cene, ou quelqu'autre iour de
+                    <lb/>deuant : comme ce ne seroit point assez de
+                    <lb/>se preparer à bien mourir , quand il faudroit
+                    <lb/>rendre l'esprit : Mais il y faut penser
+                    <lb/>de bonne heure , notamment des qu'on se
+                    <lb/>sent malade : &amp; comme il ne seroit point
+                    <lb/>temps de s'esprouuer si on pourroit prescher <fw place="bot-right" type="catch">cher</fw>
+                    <pb n="9"/>
+                    <lb/>quand il faudroit monter en chaire,
+                    <lb/>mais il s'y faut preparer &amp; esprouuer de lõgue
+                    <lb/>main : ainsi ne faut il point venir à la
+                    <lb/>Cene de nostre Seigneur à l'estourdie, mais
+                    <lb/>prendre le loisir d'y bien penser au parauãt.
+                    <lb/>Pour ceste cause aussi n'auons nous pas voulu
+                    <lb/>attendre iusqu'à vn iour de Cene à vous
+                    <lb/>exhorter à ceste espreuue, de peur que vous
+                    <lb/>ne dissiez à bon droict qu'il seroit bien tard
+                    <lb/>d'en parler. </p>
+                <p n="12">
+                    <lb/>Mais quelqu'vn dira la dessus,i'entẽ bien
+                    <lb/>qu'il faut que ie m'esprouue moy mesme:
+                    <lb/>car le Ministre ne me peut pas esprouuer de
+                    <lb/>l'espreuue dont parle ici l'Apostre , comme
+                    <lb/>les Prestres penseront esprouuer par leur
+                    <lb/>confession auriculaires ceux qui veulent venir
+                    <lb/>à leur communion, s'accommodans aux
+                    <lb/>aages des personnes , &amp; leur faisans des interrogations
+                    <lb/>selon qu'ils cognoissent qu'vn
+                    <lb/>tel ou vn tel aage est subiect à vn tel ou à vn
+                    <lb/>tel vice. Mais en quoy faut-il que ie m'esprouue?
+                    <lb/>à quelle chose faut il que ie pense
+                    <lb/>pour sçauoir si elles sont en moy où si elles
+                    <lb/><choice><sic>ni</sic><corr resp="#CiM">n'y</corr></choice> sont pas? </p>
+                <p n="13">
+                    <lb/>C'est le deuxiesme poinct que nous auons
+                    <lb/>à traicter.Pour respondre donc à cela , tu te
+                    <lb/>dois esprouuer quant à la science,&amp; quant à
+                    <lb/>la conscience:quant à la doctrine, &amp; quant à
+                    <lb/>la vie. Vray est que quand le Ministre t'a receu
+                    <lb/>la premiere fois , il t'a esprouué quant à
+                    <lb/>la doctrine : mais il faut que tu t'esprouues si <pb n="10"/>
+                    <lb/>tu n'as point oublié ce que tu sçauois alors.
+                    <lb/>Car si tu l'auois oublié , il le faudroit r'apprendre.
+                    <lb/>Si on t'a esprouué quant à la vie, &amp;
+                    <lb/>qu'on t'ait trouué receuable , tu te dois esprouuer
+                    <lb/>toy-mesme , si depuis que tu as esté
+                    <lb/>estimé digne,tu ne <choice><sic>tes</sic><corr resp="#CiM">t'es</corr></choice> point rendu indigne:
+                    <lb/>c'est à dire, que quand nous voulons communiquer ,
+                    <lb/>il nous faut interroguer nous
+                    <lb/>mesmes , pour sçauoir, as tu assez d'intelligence
+                    <lb/>&amp; sçais tu biẽ ce que tu vas faire, quãd
+                    <lb/>tu vas te presẽter à la table du Fils de Dieu?
+                    <lb/>as tu assez bonne cõscience pour y aller sans
+                    <lb/>offenser Dieu ? ne te sens tu point entaché
+                    <lb/>de quelque enorme peché, que tu n'ayes pas
+                    <lb/>encore recogneu deuant Dieu, s'il est caché
+                    <lb/>aux hommes,ou deuãt les hommes, s'il leur
+                    <lb/>est notoire,qui te rende indigne de t'en approcher?
+                    <lb/>Ce n'est pas assez qu'vn chacun demande
+                    <lb/>à soy-mesme,és tu assez bien instruit
+                    <lb/>pour venir à la Cene , mais aussi il doit demander
+                    <lb/>à soy-mesme és tu assez homme de
+                    <lb/>bien pour y communiquer? </p>
+                <p n="14">
+                    <lb/>L'Apostre qui dit ici que nous nous deuons
+                    <lb/>esprouuer n'exprime pas en quoy:mais
+                    <lb/>il l'exprime <ref type="bible" target="bibleSegond21.xml#_2Cor.13">2. Cor.13. </ref> Examinez vous vous
+                    <lb/>mesmes, si vous estes en la foy. Esprouuez
+                    <lb/>vous vous mesmes:ne recognoissez vous
+                    <lb/>point vous mesmes assauoir que Iesus Christ
+                    <lb/>est en vous? Il monstre par cela que nous
+                    <lb/>nous deuons fonder &amp; examiner , pour sçauoir
+                    <lb/>si nous auons la vraye foy par laquelle <fw place="bot-right" type="catch">Iesus</fw>
+                    <pb n="11"/>
+                    <lb/>Iesus Christ habite en nos cœurs, <ref type="bible" target="bibleSegond21.xml#Eph.3">Ephes. 3.</ref>
+                    <lb/>Comme aussi Iesus Christ est en nous,quãd
+                    <lb/>nous auons l'esprit de sanctification:car nostre
+                    <lb/>Seigneur n'habite point en nous,quãt à
+                    <lb/>la substãce de son corps, mais il y habite par
+                    <lb/>l'efficace de son sainct Esprit. Pour exposer
+                    <lb/>cela vn peu familierement, il est dit en
+                    <lb/>nostre Catechisme,que l'homme se doit esprouuer
+                    <lb/>s'il a vraye foy &amp; repentance , s'il
+                    <lb/>aime ses prochains en vraye charité,&amp; n'est
+                    <lb/>point entaché de haine,ne rancune,ne diuision.
+                    <lb/>Et au formulaire de la saincte Cene,
+                    <lb/>qu'vn chacun esprouue &amp; examine sa conscience,
+                    <lb/>pour sçauoir s'il a vraye repentance
+                    <lb/>de ses fautes, &amp; s'y <choice><sic>d'esplaist</sic><corr resp="#CiM">desplaist</corr></choice>, desirant de viure
+                    <lb/><choice><sic>d'oresnauant</sic><corr resp="#CiM">doresnauant</corr></choice> sainctement &amp; selon Dieu:
+                    <lb/>&amp; sur tout s'il a sa fiance en la misericorde
+                    <lb/>de Dieu, &amp; cerche entierement son salut en
+                    <lb/>Iesus Christ : &amp; renonçant à toute inimitié
+                    <lb/>&amp; rancune,a bonne intention &amp; courage de
+                    <lb/>viure en concorde &amp; charité fraternelle auec
+                    <lb/>ses prochains. Et cest cela mesme que
+                    <lb/>nous disons assez souuent qu'il faut que
+                    <lb/>nous nous esprouuions pour sçauoir si nous
+                    <lb/>auons vraye foy,repentance, &amp; charité. Au
+                    <lb/>formulaire des Eglises du Palatinat il est dit,
+                    <lb/>que l'espreuue consiste en ces trois poincts,
+                    <lb/>1. Que nous pensions à nos pechez , &amp; à la
+                    <lb/>malediction que nous meritons par iceux,
+                    <lb/>pour nous desplaire en nous mesmes, &amp;
+                    <lb/>nous humilier deuant Dieu. 2. Que nous <pb n="12"/>
+                    <lb/>nous examinions si nous croyons fermemẽt
+                    <lb/>que nos pechez nous soyent pardonnez en
+                    <lb/>vertu de la seule mort &amp; passion de Iesus
+                    <lb/>Christ , &amp; que sa parfaite iustice nous soit
+                    <lb/>imputee,comme si nous mesmes auiõs faict
+                    <lb/>tout ce qu'il a faict pour nous. 3. Que nous
+                    <lb/>nous examinions assauoir si nous auons vne
+                    <lb/>ferme intention de nous monstrer recongnoissans
+                    <lb/>enuers Dieu tout le temps de nostre
+                    <lb/>vie, &amp; de cheminer droictement deuãt
+                    <lb/>sa face, si nous renonçons à toute inimitié,
+                    <lb/>haine,rancune,&amp; auons ferme intention de
+                    <lb/>viure en vraye charité &amp; vnion auec nostre
+                    <lb/>prochain. </p>
+                <p n="15">
+                    <lb/>Tout cela reuient à vn,&amp; n'y à difference
+                    <lb/>sinon quant aux mots , &amp; se rapporte tousiours
+                    <lb/>à ces 3.poincts,foy,repentance,charité.
+                    <lb/>Or nous ne disputerons pas pour le present,
+                    <lb/>si la foy va deuant la repentance, où la
+                    <lb/>repentance deuant la foy. Il est plus vtile de
+                    <lb/>regarder si nous les auons toutes deux , que
+                    <lb/>de disputer laquelle doit aller deuant.Cepẽdant
+                    <lb/>d'autant qu'il faut que l'homme soit abbatu
+                    <lb/>par la repentance , deuant que d'estre
+                    <lb/>releué par la foy, nous parlerons en premier
+                    <lb/>lieu de la repentance: veu mesme que nostre
+                    <lb/>Seigneur suit <choice><sic>c'est</sic><corr resp="#CiM">cest</corr></choice> ordre, <ref type="bible" target="bibleSegond21.xml#Mark.1.15">Marc 1.</ref>
+                    disant,
+                    <lb/><quote source="bible1588.xml#Mark.1.15">amendez vous &amp; croyez à l'Euangile</quote>. Et si
+                    <lb/>nous parlons puis apres de la foy, &amp; de la
+                    <lb/>charité , ce ne sera qu'en deux mots. Et ne
+                    <lb/>ferons point de difficulté d'en parler maintenant <fw place="bot-right" type="catch">tenant</fw>
+                    <pb n="13"/>
+                    <lb/>tenant encore que nous y soyons souuent
+                    <lb/>exhortez. Car on ne nous y peut exhorter
+                    <lb/>trop souuent,veu le peu de fruicts de repentance
+                    <lb/>qui se voyent en plusieurs , &amp; veu que
+                    <lb/>si les plus parfaicts se veulent examiner sans
+                    <lb/>se flater, &amp; mettre bien auant le doigt dans
+                    <lb/>leur playes pour en faire sortir l'ordure,
+                    <lb/>il faudra que nous confessiõs tous que nous
+                    <lb/>n'y sommes point tant aduancez que nous
+                    <lb/>deurions, veu le temps qu'il y a que nous
+                    <lb/>auons la cognoissance de Dieu,&amp; que le viel
+                    <lb/>Adam a encore trop de vigueur en nous. </p>
+                <p n="16">
+                    <lb/>Pour donc nous bien esprouuer nous mesmes ,
+                    <lb/>il ne nous faut point flater , <choice><sic>n'y</sic><corr resp="#CiM">ni</corr></choice> faire
+                    <lb/>comme les mauuais Chirurgiens , qui laisseront
+                    <lb/>plustost l'ordure en l'apostume que
+                    <lb/>de la presser , de peur de faire mal au patient,
+                    <lb/>mais il faut penser à bon escient à
+                    <lb/>nous , &amp; nous faire nostre proces , afin que
+                    <lb/>Dieu ne le nous face pas : car ce qui suffira
+                    <lb/>deuant les hommes , ne suffira pas deuant
+                    <lb/>Dieu.Deuant les hommes plusieurs se pourront
+                    <lb/>glorifier &amp; dire , quant à moy ie suis
+                    <lb/>homme de bien, ie n'ay iamais esté repris
+                    <lb/>de iustice,on ne me sçauroit que reprocher:
+                    <lb/>ouy par ce que leurs iniquitez ne seront
+                    <lb/>pas congneues aux hommes, ou il n'y aura
+                    <lb/>point eu assez de tesmoignages pour les en
+                    <lb/>conuaincre:mais ceux la mesmes qui se glorifieront
+                    <lb/>deuant les hommes, s'ils se veulent
+                    <lb/>bien esprouuer, il faudra qu'ils soyent confus <pb n="14"/>
+                    <lb/>deuant Dieu , &amp; qu'ils recognoissent
+                    <lb/>qu'ils sont tellement reprehensibles deuant
+                    <lb/>lui,estans considerez en eux mesmes , que si
+                    <lb/>Dieu n'a pitié <choice><sic>deux</sic><corr resp="#MAG">d'eux</corr></choice> en faueur de Iesus
+                    <lb/>Christ,ils ont merité la mort eternelle. </p>
+                <p n="17">
+                    <lb/>Pour auoir vraye repentẽce, il faut,1. Que
+                    <lb/>nous cognoissions nos pechez, 2. Que nous
+                    <lb/>les confessions à Dieu, 3. Que nous delaissions,
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#Prov.28">Prouerb.28.</ref> Celui qui cache ses
+                    <lb/>meffaicts ne prosperera point: mais celui
+                    <lb/>qui les confesse &amp; delaisse obtiendra misericorde:
+                    <lb/>&amp; comment delaisserõs nous nos
+                    <lb/>pechez ? en nous destournant du mal &amp; faisant
+                    <lb/>bien. <ref type="bible" target="bibleSegond21.xml#Ps.34;Ps.37">Pseau.34.&amp;37. </ref>
+                </p>
+                <p n="18">
+                    <lb/>Nous auons dit en premier lieu qu'il faut
+                    <lb/>cognoistre nos pechez: car si nous ne cognoissons
+                    <lb/>la grandeur &amp; grieueté d'iceux,
+                    <lb/>ils ne nous pourrons desplaire assez à bon
+                    <lb/>escient,&amp; nous ne seront point assez esmeus
+                    <lb/>à implorer la misericorde de Dieu , &amp; à
+                    <lb/>no<hi rend="E">9</hi> abstenir à l'aduenir de tels pechez. Cõme
+                    <lb/>celui la ne se souciera pas beaucoup des
+                    <lb/>medecines qui ne pensera point estre malade,
+                    <lb/>où qui ne le pensera guere estre , ne sentant
+                    <lb/>pas la grieueté de son mal : ainsi nous
+                    <lb/>n'aspirerons pas à la misericorde de Dieu, si
+                    <lb/>premierement nous ne sentons combien
+                    <lb/>grieuement nous auons peché , &amp; combien
+                    <lb/>quand besoin nous auõs de sa grace.Et comme
+                    <lb/>celui la qui ne sçaura pas qu'vn chemin
+                    <lb/>est dangereux ne tiendra compte de s'en <fw place="bot-right" type="catch">destourner</fw>
+                    <pb n="15"/>
+                    <lb/>destourner,ainsi nous ne nous destournerõs
+                    <lb/>pas de nos pechez , si nous ne sçauons en
+                    <lb/>quel danger nous nous mettrõs si nous continuons
+                    <lb/>en iceux. </p>
+                <p n="19">
+                    <lb/>Et comment cognoistrons nous nos pechez?
+                    <lb/>par la Loy de Dieu. <quote source="bible1588.xml#Rom.3.20">Car par la Loy est
+                        <lb/>donnée cognoissance du peché</quote>, <ref type="bible" target="bibleSegond21.xml#Rom.3.20">Rom. 3.</ref> la
+                    <lb/>Loy de Dieu c'est le miroir de nos Ames,
+                    <lb/>auquel nous pouuons veoir combien nous
+                    <lb/>sommes ords &amp; sales deuant Dieu : comme
+                    <lb/>on cognoistra en vn miroir combien
+                    <lb/>on est laid de visage , on verra en vn miroir
+                    <lb/>si on est barbouillé au visage, si on est noirci,
+                    <lb/>si on est gasté de terre ou de bourbier, &amp;
+                    <lb/>par cela on sera incité à s'aller lauer pour oster
+                    <lb/>l'ordure qu'on aura veuë : ainsi aussi par
+                    <lb/>la Loy de Dieu nous verrons que nos ames
+                    <lb/>sont tachées d'vne infinité de pechez: &amp;
+                    <lb/>cela nous induira à en aller cercher le lauement
+                    <lb/>au sang precieux de nostre Seigneur
+                    <lb/>Iesus-Christ. Alors tel pensoit estre bien<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1John.1">I. <hi rend="I">Iean 1.</hi><!--rechercher verset-->
+                        </ref>
+                    </note>
+                    <lb/>beau deuant que de se contempler en vn tel<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rev.1">
+                            <hi rend="I">Apoc. </hi>1.</ref>
+                    </note>
+                    <lb/>miroir , qui se trouuera bien laid: tel pensoit
+                    <lb/>n'auoir qu'vne petite tache , qui trouuera
+                    <lb/>qu'il en a des bien grandes: tel haussoit
+                    <lb/>la teste deuant les hommes, qui trouuera
+                    <lb/>qu'il a occasion de la baisser deuant Dieu. </p>
+                <p n="20">
+                    <lb/>Or tout ainsi que celuy qui se veut bien
+                    <lb/>contempler en vn miroir , il faut qu'il l'ait
+                    <lb/>pres de soy, ou qu'il s'en approche biẽ pres,
+                    <lb/>&amp; qu'il y a vne toille ou vne couuerture sur le <pb n="16"/>
+                    <lb/>miroir,il faut qu'il l'oste, autrement il ne se
+                    <lb/>verra pas:Ainsi aussi celui qui veut bien cognoistre
+                    <lb/>ses pechez par la Loy de Dieu , il
+                    <lb/>ne faut pas qu'il s'arreste à la lettre,comme
+                    <lb/>si vn chacun Commandement ne contenoit
+                    <lb/>non plus qu'il exprime: mais il faut penetrer
+                    <lb/>ius-qu'à la moëlle,c'est à dire, il en faut
+                    <lb/>auoir la vraye intelligence. Autrement plusieurs
+                    <lb/>penseront qu'ils sont innocẽs en plusieurs
+                    <lb/>des commandemens de Dieu si seulement
+                    <lb/>ils regardent à la lettre,qui serõt contraints
+                    <lb/>de se recognoistre coulpables , s'ils
+                    <lb/>penetrent iusques à la vraye intelligence
+                    <lb/>d'iceux. Plusieurs diront en general, ie sçay
+                    <lb/>bien que ie suis vn pauure pecheur : mais
+                    <lb/>s'ils ne pensent particulierement à leurs pechez,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Luke.18">
+                            <hi rend="I">Luc</hi> 18.</ref>
+                    </note>ils diront auec le Pharisien : vray est
+                    <lb/>que ie suis pecheur:mais ie ne suis pas semblable
+                    <lb/> à tels &amp; à tels, &amp; ainsi se flateront en
+                    <lb/>eux mesmes,&amp; n'estimerõt point que la repentence
+                    <lb/>leur soit si necessaire <choice><sic>quelle</sic><corr resp="#CiM">qu'elle</corr></choice> est.
+                    <lb/>Mais si nous contemplons bien &amp; diligemment
+                    <lb/>nos pechez au miroir spirituel de la
+                    <lb/>Loy de Dieu , nous trouuerons que nous auons
+                    <lb/>peché, &amp; plus souuent &amp; plus grieuement
+                    <lb/>beaucoup que nous ne pensions. </p>
+                <p n="21">
+                    <lb/>Afin donc de bien cognoistre nos pechez,
+                    <lb/>mettons nous au deuant le sommaire
+                    <lb/>de la Loy de Dieu: Tu aimeras le Seigneur
+                    <lb/>ton Dieu. &amp;c. Et nous cognoistrons que
+                    <lb/>nous sommes fort eslongnez de ceste obeissance <fw place="bot-right" type="catch">sance</fw>
+                    <pb n="17"/>
+                    <lb/>parfaite qui est là requise de nous. Car
+                    <lb/>qui est celui qui puisse dire auec verité,qu'il
+                    <lb/>aime Dieu de tout son cœur, c'est à dire, si
+                    <lb/>parfaictement &amp; sincerement qu'il n'y ait
+                    <lb/>en son esprit nulle pensée qui contreuienne
+                    <lb/>à ceste amour?S'il n'y a personne entre nous
+                    <lb/>qui puisse dire que iamais il n'a eu aucune
+                    <lb/>pensee en son esprit, qui l'ait destourné de
+                    <lb/>l'amour de Dieu , il n'y aura aussi personne
+                    <lb/>qui puisse dire qu'il aime Dieu de tout son
+                    <lb/>cœur , si tu aimes tellement ton argent &amp;
+                    <lb/>ton or,tes biens,ton pays,tes parens,tes enfans,
+                    <lb/>que tu preferes ces choses là au seruice
+                    <lb/>de Dieu, &amp; aimes mieux laisser là le seruice
+                    <lb/>de Dieu,que d'abandonner ces choses là,tu
+                    <lb/>ne peux dire que tu aimes Dieu de tout ton
+                    <lb/>cœur: mais il faut que tu recognoisses qu'il
+                    <lb/>y a quelque chose que tu aimes plus que
+                    <lb/>Dieu. Voire quãd tu aurois tout quitté pour
+                    <lb/>le seruice de Dieu , si ne peux tu dire que tu
+                    <lb/>l'aimes de tout ton cœur:car celui qui aime<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Exod.20">
+                            <hi rend="I">Exod.</hi>20.</ref>
+                    </note>
+                    <lb/>Dieu,il garde ses commandemens, il obserue<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#John.14">
+                            <hi rend="I">Iean</hi> 14.</ref>
+                    </note>
+                    <lb/>sa parole , celui qui aime grandement vn
+                    <lb/>homme, il se donne de garde de l'offenser
+                    <lb/>en tout ce qu'il peut , &amp; tasche de faire ce
+                    <lb/>qui lui est agreable. Veu donc qu'à nostre
+                    <lb/>escient nous offençons Dieu tant de fois,
+                    <lb/>comment pourrions nous dire que nous
+                    <lb/>l'aimerions de tout nostre cœur? Car si
+                    <lb/>ainsi estoit, nous ne l'offenserions iamais
+                    <lb/>à notre escient. D'aimer nostre prochain <pb n="18"/>
+                    <lb/>comme nous mesmes, qui est ce qui
+                    <lb/>le peut faire? Qui est-ce qui n'aime mieux
+                    <lb/>s'il y a du mal,que ce soit pour son prochain
+                    <lb/>que pour luy, &amp; s'il y a du bien que ce soit
+                    <lb/>pour lui que pour son prochain? qui ne soit
+                    <lb/>plus resiouy de son propre bien que du bien
+                    <lb/>de son prochain, &amp; moins triste du mal de
+                    <lb/>son prochain que du sien? Or si nous l'aimons
+                    <lb/>comme nous mesmes,nous aimerions
+                    <lb/>autant qu'il eust du bien que nous, &amp; serions
+                    <lb/>autãt marri de ses aduersitez que des nostres
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Sam.18.1">1.<hi rend="I">Sam.</hi>18.1.</ref>
+                    </note>propres.Que si quelqu'vn dit que Ionatham
+                    <lb/>a aimé Dauid comme son ame, &amp; qu'il y a
+                    <lb/>quelques vns de nos prochains , ausquels
+                    <lb/>nous souhaitons autant de bien qu'à nous,
+                    <lb/>il ne s'ensuit pas que nous aimons nostre
+                    <lb/>prochain comme nous mesmes:car ce n'est
+                    <lb/>pas assez de porter telle amour à vn où à
+                    <lb/>deux,mais il faut aimer tous nos prochains,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Matt.5.43-44">
+                            <hi rend="I">Matth.</hi> 5. 43. 44.</ref>
+                    </note>c'est à dire , indifferemment tous hommes
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rom.12.20">
+                            <hi rend="I">Rom.</hi> 12. 20.</ref>
+                    </note>comme nous mesmes, si nous voulons bien
+                    <lb/>obseruer le sommaire de la Loy de Dieu.
+                    <lb/>Puis apres quand nous faisons tort à nostre
+                    <lb/>prochain,ou que nous lui disons iniures, ne
+                    <lb/>monstrons nous pas que nous ne l'aimons
+                    <lb/>pas tant que nous? Car qui est ce qui se voudroit
+                    <lb/>faire du tort à soy-mesme , veu que
+                    <lb/>nous n'endurerons pas aisément que d'autres
+                    <lb/>nous en facent? <quote source="bible1588.xml#Matt.7.12">Toutes les choses que
+                        <lb/>vous voulez que les hommes vous facent
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.7.12">
+                                <hi rend="I">Matth</hi>.7.12.</ref>
+                        </note>faictes les leur aussi semblablement</quote> dit nostre <pb n="19"/>
+                    <lb/>Seigneur , <choice><sic>d'ont</sic><corr resp="#CiM">dont</corr></choice> s'ensuit à l'opposite, ce
+                    <lb/>que vous ne voulez pas qu'on vous face ne
+                    <lb/>le faites aussi à personne , qui est ce qui obserue
+                    <lb/>cela ? Si donc nous nous proposons
+                    <lb/>le sommaire de la Loy , nous trouuerons
+                    <lb/>que nous auons grieuement peché contre
+                    <lb/>Dieu &amp; le prochain une vne infinité de sortes. </p>
+                <p n="22">
+                    <lb/>Mais si nous mettons deuant nos yeux
+                    <lb/>les dix commandemens de Dieu,nous pourrons
+                    <lb/>encores bien mieux cognoistre nos
+                    <lb/>pechez qu'au parauant , pourueu que nous
+                    <lb/>retenions bien ceci prealablement.En premier
+                    <lb/>lieu qu'en vn chacun commandement
+                    <lb/>le contraire de ce qui est defendu est commandé,
+                    <lb/>&amp; le contraire de ce qui est commandé
+                    <lb/>est defendu. 2. Que l'on peche contre
+                    <lb/>les commandemens de Dieu , non seulement
+                    <lb/>par transgression,mais aussi par obmission,
+                    <lb/>c'est à dire,quand on ne fait pas le
+                    <lb/>bien que Dieu commande,&amp; quand on fait
+                    <lb/>le mal qu'il defend. 3. Que non seulement
+                    <lb/>nous pechons contre les commandemens
+                    <lb/>de Dieu par œuvres, mais aussi par pensees
+                    <lb/>&amp; paroles. </p>
+                <p n="23">
+                    <lb/>Ne trouuez donc pas estrange si nous requerons
+                    <lb/>de ceux que nous receuons en l'Eglise,
+                    <lb/>qu'ils sachent les commandemens de
+                    <lb/>Dieu. Car puis qu'il faut sçauoir si on a repentance
+                    <lb/>pour bien communiquer à la Cene,
+                    <lb/>&amp; que pour auoir vraye repentance,il <pb n="20"/>
+                    <lb/>faut cognoistre nos pechez, &amp; que nous ne
+                    <lb/>les pouuons cognoistre sinon par la Loy,
+                    <lb/>il s'ensuit necessairement que pour dignement
+                    <lb/>participer à la S.Cene, il faut sçauoir
+                    <lb/>les commandemens de Dieu, &amp; les faut
+                    <lb/>bien entendre.Car si nous ne les entendons
+                    <lb/>bien,nous penserons en auoir accompli vne
+                    <lb/>grande partie , au lieu que si nous les entendons
+                    <lb/>bien, nous trouuerons que nous
+                    <lb/>les auons tous transgressez. Vn qui ne sçaura
+                    <lb/>que le texte d'iceux dira, moi, ie n'adore
+                    <lb/>qu'vn seul Dieu, ie ne suis point idolatre, ie
+                    <lb/>ne suis point blasphemateur,ie vai aux presches
+                    <lb/>le dimanche : Ie je fai point de deshonneur
+                    <lb/>à mon pere ni à ma mere , ie n'ai
+                    <lb/>iamais tué personne , ie n'ai iamais violé ni
+                    <lb/>seduit femme ni fille, ie n'ai point percé de
+                    <lb/>maisõ,ni coupé de bourse,ie n'ai point rẽdu
+                    <lb/>de faux tesmoignage en iugement contre
+                    <lb/>mon prochain, &amp; par consequent il ne s'en
+                    <lb/>faut guere que i'e n'aye obserué tous les
+                    <lb/>commandemens de Dieu: mais si nous les
+                    <lb/>entendons bien , nous dirons tout le contraire:
+                    <lb/>sur tout quand nous viendrons au dixieme,
+                    <lb/>Tu ne conuoiteras point,qui est la
+                    <lb/>conclusion des autres. </p>
+                <p n="24">
+                    <lb/>Prenons donc les commandemens l'vn
+                    <lb/>apres l'autre,&amp; disons: au premier commandement,
+                    <lb/>Dieu defend l'idolatrie des Payens,
+                    <lb/>l'inuocation des saincts, la confiance sur les
+                    <lb/>creatures,mortes ou viuantes:il defend aussi <fw place="bot-right" type="catch">l'aua-</fw>
+                    <pb n="21"/>
+                    <lb/>l'auarice, car S.Paul appelle l'auarice idolatrie
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#Eph.5">Eph.5.</ref>&amp; <ref type="bible" target="bibleSegond21.xml#Col.3">Colos.3.</ref> par ce
+                    que l'auaricieux 
+                    <lb/>fait son Dieu de son or &amp; de son argent, il
+                    <lb/>pense que sa vie est la dedans:&amp; s'il n'en a,
+                    <lb/>il ne pense point qu'il y ait de Dieu pour lui:
+                    <lb/>il commande que le recognoissant pour le
+                    <lb/>seul &amp; vray Dieu , nous ayons toute nostre
+                    <lb/>fiance en lui;que nous l'inuoquions ardemment
+                    <lb/>en toutes nos necessitez , que nous
+                    <lb/>soyons zelez , affectionnez &amp; diligens à le
+                    <lb/>seruir &amp; honnorer, que nous recognoissiõs
+                    <lb/>que c'est de lui que vient tout le bien que
+                    <lb/>nous auons. Or interrogue ta conscience
+                    <lb/>cõment tu pratiques cela,tu diras ie n'ai rien
+                    <lb/>de commun auec l'idolatrie des Payens , ie
+                    <lb/>n'inuoque point les saincts: mais aduise si tu
+                    <lb/>n'as iamais eu trop de confiance sur le bras
+                    <lb/>de la chair , si tu es pur &amp; net du vice d'auarice,
+                    <lb/>si tu n'es point agité de desfiance, quãd
+                    <lb/>les moyens humains te defaillent,si tu pries
+                    <lb/>Dieu auec vn tel zele que tu dois, &amp; auec
+                    <lb/>vne telle foy comme il est requis , si tu lui
+                    <lb/>sers aussi diligemment que tu deurois &amp; auec
+                    <lb/>telle affection , si tu n'atribues point
+                    <lb/>quelques-fois à ton industrie ce que tu deurois
+                    <lb/>attribuer à sa bonté: si tu as d'autres
+                    <lb/>choses sur quoi tu te confies,autant qu'il y a
+                    <lb/>d'hommes sur qui tu te fies au lieu de te fier
+                    <lb/>en Dieu , autant que tu as de pieces d'or &amp;
+                    <lb/>d'argent en tes coffres,autant as-tu d'autres
+                    <lb/>dieux. Si tu pers courage en aduersité, comme <pb n="22"/>
+                    <lb/>si Dieu ne te pouuoit ou ne te vouloit
+                    <lb/>pas aider , tu peches contre ce commandemẽt.
+                    <lb/>Veu donc qu'il n'y a celui qui en l'vne
+                    <lb/>ou l'autre de ces sortes ne transgresse le premier
+                    <lb/>Commandement , nous deuons tous
+                    <lb/>passer condemnation, &amp; dire, Dieu defend
+                    <lb/>telle chose, &amp; commande telle chose: mais
+                    <lb/>helas! ie ne l'ai pas obserué, ains i'ai fait le
+                    <lb/>contraire en plusieurs manieres. </p>
+                <p n="25">
+                    <lb/>Au 2. Commandement l'Idolatrie exterieure
+                    <lb/>est defendue : Comme de leuer nos
+                    <lb/>yeux vers les Idoles,de descouurir nos testes
+                    <lb/>deuant icelles, nous agenouiller ou leur faire
+                    <lb/>quelque telle reuerence que les Payens
+                    <lb/>faisoyent à leurs marmousets, &amp; que ceux
+                    <lb/>de l'Eglise Romaine font aux leurs, soit en
+                    <lb/>leurs temples , ou en leurs processions : Au
+                    <lb/>contraire nous est commandé le seruice exterieur
+                    <lb/>qui est deu à vn seul Dieu : Comme
+                    <lb/>l'adoration religieuse, que nous le seruions
+                    <lb/>non seulement par fiance interieure, mais
+                    <lb/>aussi par profession exterieure.Si tu dis, i'ay
+                    <lb/>en horreur toute Idolatrie, regarde si tu
+                    <lb/>rends à Dieu le seruice exterieur tel que tu
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Lam.3">
+                            <hi rend="I">Lam</hi>.3.</ref>
+                    </note>dois: Si tes yeux &amp; tes mains sont eleuez
+                    <lb/>vers Dieu, &amp; tes genoux ployez pour l'inuoquer
+                    <lb/>aussi souuent &amp; soigneusement qu'il
+                    <lb/>seroit requis:Si tu n'as iamais porté de Croix
+                    <lb/>ou fait <choice><sic>qu'elque</sic><corr resp="#CiM">quelque</corr></choice> autre signe pour faire acroire
+                    <lb/>que tu n'estois pas de la religion : Si
+                    <lb/>tu ne <choice><sic>tes</sic><corr resp="#CiM">t'es</corr></choice> iamais trouué es festes <choice><sic>consacreés</sic><corr resp="#CiM">consacrées</corr></choice>
+                    <fw place="bot-right" type="catch">aux</fw>
+                    <pb n="23"/>
+                    <lb/>aux Idoles, ou és banquets qui en dependent:
+                    <lb/>Si tu offres ton corps en sacrifice viuant
+                    <lb/>à Dieu comme il nous est recommandé
+                    <lb/>
+                    <ref type="bible">Rom.12.</ref>Si tu n'as point esté si diligent 
+                    <lb/>au seruice exterieur de Dieu que tu
+                    <lb/>dois: Recognoy aussi que tu n'as pas accompli
+                    <lb/>le 2.Commandement non plus que
+                    <lb/>le premier. </p>
+                <p n="26">
+                    <lb/>Au 3. Commandement Dieu defend l'abus
+                    <lb/>de son nom , qui se commet non seulement
+                    <lb/>en iurant faussement, mais aussi en iurant
+                    <lb/>sans necessité , en vsant de maudissons,
+                    <lb/>ou imprecations , en se mocquant de la Parole
+                    <lb/>de Dieu ou des Sacremens: &amp; au contraire
+                    <lb/>il commande que nous sanctifions
+                    <lb/>son nom de cœur,de bouche,&amp; par œuures,
+                    <lb/>viuans tellement que sa Saincte doctrine
+                    <lb/>soit honoree à nostre occasion,&amp;non point<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Tim.61">1. <hi rend="I">Tim.</hi> 61.</ref> 
+                    </note>
+                    <lb/>blasmee.Qu'vn chacun s'examine comment<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Titus.2.5:10">
+                            <hi rend="I">Tit. </hi>2. 5. &amp; 10.</ref>
+                    </note>
+                    <lb/>il s'en est acquité. Il y à 30. ou 40. ans que
+                    <lb/>quand quelqu'vn ne iuroit point , on disoit,
+                    <lb/>qu'il estoit de la religion : maintenant si on
+                    <lb/>disoit, vn tel iure, il n'est donc pas de la religion,
+                    <lb/>il n'y en auroit gueres qui en fussent.
+                    <lb/>Combien y en à il d'entre nous qui ont
+                    <lb/>plus de foy en leur bouche , que de loyauté
+                    <lb/>en leur cœur? Qui ont incessammẽt le nõ de
+                    <lb/>Dieu en leur bouche pour iurer , qui le deuroyent
+                    <lb/>plustost auoir en leur cœur pour le
+                    <lb/><choice><sic>crainde</sic><corr resp="#CiM">craindre</corr></choice>? On iurera entre nous la mort &amp; le <pb n="24"/>
+                    <lb/>sang, n'est ce pas chose deplorable? Et puis
+                    <lb/>on dira qu'on estoit en cholere.Dieu a bien
+                    <lb/>à faire de nos choleres. Mais il y en aura
+                    <lb/>qui diront,quand à moi ie ne iure point,si ie
+                    <lb/>ne suis deuant le magistrat , ou si la chose
+                    <lb/>n'est de tresgrande importance: mais considere
+                    <lb/>si tu sanctifies le nom de Dieu par œuures
+                    <lb/>comme tu deurois , en sorte que le
+                    <lb/>nom de Dieu soit honnoré à cause de ta
+                    <lb/>bonne vie. Examine toy si tu n'as iamais oui
+                    <lb/>iurer , sans que tu ayes repris les iureurs.
+                    <lb/>Car c'est mal faict non seulement de iurer
+                    <lb/>temerairement , mais aussi de ne point reprendre
+                    <lb/>ceux qu'on oit iurer , comme il est
+                    <lb/>monstré <ref type="bible" target="bibleSegond21.xml#Lev.5">Leuit. 5.</ref> là où il est commandé à 
+                    <lb/>telles personnes qui ont ouy le iurement,&amp;
+                    <lb/>n'ont dit mot , d'offrir vn certain sacrifice,
+                    <lb/>ce qui monstre qu'ils ont participé par leur
+                    <lb/>silence au peché de celuy qui iuroit : pense
+                    <lb/>donc si iamais la crainte des hommes ne t'a
+                    <lb/>gardé de faire vn tel deuoir, ou de defendre
+                    <lb/>&amp; maintenir la verité quand tu l'as oui blasphemer </p>
+                <p n="27">
+                    <lb/>Au 4.commandement, Dieu commande
+                    <lb/>de sanctifier,c'est à dire, applicquer à saincts
+                    <lb/>vsages le iour du repos. Interrogue ta conscience,
+                    <lb/>comment tu t'en es acquité : fort
+                    <lb/>bien,diront quelqu'vns:car ie me suis trouué
+                    <lb/>aux presches les Dimanches: mais examine
+                    <lb/>toy si tu as esté si attentif à escouter comme <fw place="bot-right" type="catch">tu</fw>
+                    <pb n="25"/>
+                    <lb/>tu deuois, si en priant Dieu,ou oyant sa parole,
+                    <lb/>ou chantant ses louanges,ton esprit n'a
+                    <lb/>point pensé ailleurs , s'il n'a point extrauagué:
+                    <lb/>si tu n'as point eu le cœur à ta trafique,
+                    <lb/>tandis que le corps estoit en l'assemblee
+                    <lb/>des fideles, si tu as bien retenu la substance
+                    <lb/>de ce que tu as oui, &amp; bien pratiqué ce que
+                    <lb/>tu as retenu. Si tu n'as point abusé du reste du
+                    <lb/>iour du repos, à iouer pour ruiner ta famille,
+                    <lb/>ou à boire, ou à folastrer, si tu n'as point
+                    <lb/>eu plus de soin de te parer le dimanche, que
+                    <lb/>de seruir à Dieu, &amp; t'occuper à choses sainctes,
+                    <lb/>à l'ouye , lecture, &amp; meditation de sa
+                    <lb/>parole, à l'instruction de tes enfans, &amp; domestiques. </p>
+                <p n="28">
+                    <lb/>Au 5. Dieu commande de rendre honneur
+                    <lb/>&amp; obeissance aux peres &amp; meres &amp; à
+                    <lb/>tous ceux qui sont par dessus nous, tant pour
+                    <lb/>le regard du gouuernement Politicque, que
+                    <lb/>du gouuernement Ecclesiastique : &amp; defend
+                    <lb/>la rebelliõ &amp; le mespris d'iceux.Examine toi
+                    <lb/>comment tu t'es comporté en cest endroict:
+                    <lb/>si tu n'as pas faict beaucoup de fascheries à
+                    <lb/>ceux qui t'ont eleué, non seulement deuant
+                    <lb/>que tu eusses iugement pour cognoistre ton
+                    <lb/>deuoir enuers eux, mais aussi depuis que tu
+                    <lb/>l'as,si tu n'as iamais dit de mauuais propos à
+                    <lb/>ton pere, ou à ta mere, si tu ne les as point
+                    <lb/>contristé en faisant mauuais mesnage , en
+                    <lb/>mal traictant ta femme, en desobeissant à
+                    <lb/>ton mari , en commettant des grands scandales, <pb n="26"/>
+                    <lb/>quel respect &amp; reuerence tu as porté
+                    <lb/>aux admonitions de tes Pasteurs. </p>
+                <p n="29">
+                    <lb/>Au 6. Dieu ne defend pas seulement le
+                    <lb/>meurtre,mais il passe bien plus auant , cõme
+                    <lb/>nostre Seigneur, qui est le meilleur expositeur
+                    <lb/>que nous sçaurions auoir, le monstre
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#Matt.5.21-22">Matth.5.</ref>
+                    <quote source="bible1588.xml#Matt.5.21-22">vous auez entendu qu'il a esté dit
+                        <lb/>aux anciens, Tu ne tueras point:&amp; qui tuera
+                        <lb/>sera digne d'estre puni par iugement : Mais
+                        <lb/>moy ie vous dy,que quiconque se courrouce
+                        <lb/>sans cause à son frere,il sera digne d'estre puni
+                        <lb/>par iugement:&amp; qui dira à son frere,Raca,
+                        <lb/>sera digne d'estre puni par conseil:&amp; qui luy
+                        <lb/>dira fol, sera digne d'estre puni de la gehenne
+                        <lb/>du feu</quote>. Qui est-ce qui pourra dire qu'il ne
+                    <lb/>se soit iamais courroucé sans cause, qu'il n'ait
+                    <lb/>point monstré de gestes de cholere, qu'il
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#John.3.15">1. <hi rend="I">Iean</hi> 3. 15.</ref>
+                    </note>n'ait point dit d'iniures à son prochain?sainct
+                    <lb/>Ieã dit que <quote source="bible1588.xml#John.3.15">celuy qui hait son frere est meurtrier</quote>.
+                    <lb/>Qui est-ce qui pourra dire qu'il n'ait
+                    <lb/>point hay son <choice><sic>procain</sic><corr resp="#CiM">prochain</corr></choice>? Et ceux qui disent
+                    <lb/>des iniures atroces à leurs prochains,&amp; mesmes
+                    <lb/>à leurs enfans,qui souhaitent à leur prochains
+                    <lb/>à leurs enfans,qui souhaitent à leur prochains
+                    <lb/>que le diable les emporte,que la peste
+                    <lb/>les greue, que la mal mort les happe,
+                    <lb/>ou que la fieure quarte leur vienne , doiuent
+                    <lb/>ils pas recognoistre selon <choice><sic>c'este</sic><corr resp="#CiM">ceste</corr></choice> exposition
+                    <lb/>de nostre Seigneur Iesus Christ
+                    <lb/>qu'ils sont trãsgresseurs de ce cõmandemẽt?
+                    <lb/>Que s'ils disent , encore que i'vse de telles
+                    <lb/>maudissons, elles n'aduiennent pas pourtant, <fw place="bot-right" type="catch">tant,</fw>
+                    <pb n="27"/>
+                    <lb/>tant, ce n'est pas à ceux qui les disent qu'il
+                    <lb/>en faut sçauoir gré, mais à la misericorde &amp;
+                    <lb/>bonté de Dieu : car si tu pouuois faire à tes
+                    <lb/>prochains le mal que tu leur souhaites estant
+                    <lb/>en cholere, ne le ferois tu pas?Si ta puissance
+                    <lb/>estoit aussi grande que ta volõté est mauuaise,
+                    <lb/>ne ferois tu pas ce que tu souhaites?
+                    <lb/>ne pense donc pas estre excusé de ce que ta
+                    <lb/>malediction n'arriue pas : car elle retombera
+                    <lb/>sur toy , si tu ne te repens de bonne heure,
+                    <lb/>&amp; en demandes pardon à Dieu. </p>
+                <p n="30">
+                    <lb/>Au 7. Dieu ne defend pas seulement la
+                    <lb/>paillardise mais tout ce qui y peut attirer, &amp;
+                    <lb/>commande la pureté es pensées, es gestes,es
+                    <lb/>paroles, &amp; es faicts. Celuy qui regarde vne
+                    <lb/>femme pour la conuoiter il a desia commis
+                    <lb/>adultere auec elle en son cœur : entendez le<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Matt.5">
+                            <hi rend="I">Matth.</hi> 5</ref>
+                    </note>
+                    <lb/>mesme de la femme qui regarde l'hõme d'vn
+                    <lb/>mauuais œil, d'vn œil impudique,du fils qui
+                    <lb/>regarde la vierge pour la cõuoiter hors mariage.
+                    <lb/>Qu'vn chacun s'esprouue soy-mesme
+                    <lb/>comment il s'est comporté en <choice><sic>c'est</sic><corr resp="#CiM">cest</corr></choice> endroit,
+                    <lb/>s'il n'a point esté addonné à vains regards.
+                    <lb/>Mesmes les petis enfans ont des propos si<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.119">
+                            <hi rend="I">Psea. </hi>119.</ref>
+                    </note>
+                    <lb/>vilains &amp; impudiques en la bouche, que
+                    <lb/>c'est vne chose à deplorer, &amp; puis il y a les
+                    <lb/>danses, les chansons d'amours qui sont autant
+                    <lb/>d'acheminemens à la transgression actuelle
+                    <lb/>de ce commandement, ausquels cependant
+                    <lb/>plusieurs ne sont que trop addonnez. </p>
+                <pb n="28"/>
+                <p n="31">
+                    <lb/>Au 8. Commandement Dieu defend
+                    <lb/>beaucoup de choses qui ne seront pas appellees
+                    <lb/>larrecin entre les hommes, &amp; le seront
+                    <lb/>cependant deuant Dieu , assauoir tous
+                    <lb/>les moyens illicites par lesquels l'homme
+                    <lb/>attire à soy le bien de son prochain. Si tu
+                    <lb/>mãges le pain d'autrui en oisiueté,si tu veux
+                    <lb/>estre bien payé;&amp; sers desloyaument,ou ne
+                    <lb/>fais pas bien la besongne:si tu est vsurier, &amp;
+                    <lb/>succes le sang &amp; la moëlle du pauure peuple ,
+                    <lb/>si tu fais durer les proces pour ta commodité,
+                    <lb/>&amp;pour en tirer plus de gain , si tu
+                    <lb/>es marchand,&amp; que tu ayes faux poids,fausse
+                    <lb/>mesure,tu transgresses ce commandemẽt:
+                    <lb/>&amp; ta consçience mesme t'enseigne commẽt
+                    <lb/>tu le dois appeller. Examine toy aussi si tu
+                    <lb/>n'as iamais rançonné ton hoste durant la
+                    <lb/>guerre, lors que pour prendre seulement à
+                    <lb/>manger &amp; à boire tu eusses esté excusable,
+                    <lb/>si tu n'as iamais raui le biẽ d'autrui par violẽce,
+                    <lb/>ou attiré à toy sous apparẽce de droit. </p>
+                <p n="32">
+                    <lb/>Sur le 9. Commandement considere si tu
+                    <lb/>n'as iamais menti contre ton prochain,si tu
+                    <lb/>n'as iamais vsé de calõnies, si tu n'as iamais
+                    <lb/>esté rapporteur , si la conseruation de la renommee
+                    <lb/>de ton prochain t'a touiours esté
+                    <lb/>en telle recommandation que la conseruation
+                    <lb/>de la tienne,si tu n'as iamais presté l'oreille
+                    <lb/>aux calomniateurs &amp; mesdisans. </p>
+                <p n="33">
+                    <lb/>Sur le 10. Commandement considere si
+                    <lb/>tu n'as iamais conuoité le bien de ton prochain. <pb n="29"/>
+                    <lb/>Si iamais tu n'as desbauché seruiteur
+                    <lb/>ou seruante du seruice de son maistre, pour
+                    <lb/>l'attirer en ta maison. Quand nous serions
+                    <lb/>innocens en tous les autres commandemens,
+                    <lb/>si serons nous coulpables en <choice><sic>c'estui</sic><corr resp="#CiM">cestui</corr></choice>
+                    <lb/>cy. Car la concupiscence est vn vice tellement
+                    <lb/>né auec nous, que nous ne sçaurions
+                    <lb/>pas mesmes que ce fust peché si la Loy ne
+                    <lb/>disoit, <quote source="Bible1588.xml#Rom.7.7">Tu ne conuoiteras point</quote>.
+                    <ref type="bible" target="bibleSegond21.xml#Rom.7">Rom. 7.</ref>
+                    <lb/>Parquoi la conuoitise s'estend à tous les autres
+                    <lb/>commandemens,quand on a eu desir ou
+                    <lb/>en la pensee de faire ou dire ce que Dieu
+                    <lb/>defend. </p>
+                <p n="34">
+                    <lb/>Quand nous aurons faict ainsi vn examen
+                    <lb/>general de nous , prenans les commandemens
+                    <lb/>l'vn apres l'autre, il nous conuient encore
+                    <lb/>faire vn examen particulier selõ la vocation
+                    <lb/>à quoi Dieu nous a appellé : si nous
+                    <lb/>sommes Magistrats,Pasteur,Anciẽs,Peres,
+                    <lb/>Meres,fils, ou filles de famille , il nous faut
+                    <lb/>cõsiderer ce que la parole de Dieu requiert
+                    <lb/>de nous , &amp; combien pauurement en beaucoup
+                    <lb/>de choses nous nous en sommes acquitez
+                    <lb/>( dequoi nous parlerõs vne autre fois
+                    <lb/>s'il plaist à Dieu.) Alors nous ne dirons pas
+                    <lb/>seulement ,ie sçai bien que ie ne suis pas iuste:
+                    <lb/>mais nous dirons,<quote source="bible1588.xml#Rom.7.18">ie sçai qu'en ma chair
+                    <lb/>il n'abite point de
+                        bien</quote>, &amp; que i'ay
+                    vne infinité<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rom.7.18">
+                            <hi rend="I">Rom.</hi> 7.</ref>
+                    </note>
+                    <lb/>de fois merité deuant Dieu les peines
+                    <lb/>des Enfers. </p>
+                <p n="35">
+                    <lb/><choice><sic>C'este</sic><corr resp="#CiM">Ceste</corr></choice> cognoissance de nos pechez nous <pb n="30"/>
+                    <lb/>amenera à les confesser deuant Dieu,au lieu
+                    <lb/>que ceux de l'Eglise Romaine les confessent
+                    <lb/>deuant vn Prestre,&amp; à lui en demãder l'absolution ,
+                    <lb/>mais nous ferons comme Dauid
+                    <lb/>au <ref type="bible" target="bibleSegond21.xml#Ps.51.1">Pseaume 51.</ref> <quote source="bible1588.xml#Ps.51.3">O Dieu aye mercy de moy
+                    <lb/>selon ta clemence, &amp; selon tes grãdes compassions
+                    <lb/>efface mes
+                        transgressions</quote>. Et si
+                    ce
+                    <lb/>sont des pechez qui soyent directemẽt contre
+                    <lb/>nostre prochain , nous lui en demanderons
+                    <lb/>aussi pardon, suiuant ce que nostre Seigneur
+                    <lb/>enseigne <ref type="bible" target="bibleSegond21.xml#Matt.5.23-24">Matth. 5.</ref> <quote source="bible1588.xml#Matt.5.23-24">Si tu apportes ton
+                    <lb/>oblation à l'autel,&amp; là il te souuient que ton
+                    <lb/>frere a quelque chose à l'encontre de toy:
+                    <lb/>laisse là ton oblation deuant l'autel , &amp; t'en
+                    <lb/>va premierement,&amp; appointe à ton frere,&amp;
+                    <lb/>lors vien &amp; offre ton
+                        oblation</quote>. Et prierons
+                    <lb/>Dieu aussi qu'il nous pardonne nos fautes
+                    <lb/>cachées. <ref type="bible" target="bibleSegond21.xml#Ps.19.12">Pseaume 19.</ref>
+                </p>
+                <p n="36">
+                    <lb/>Les ayans ainsi confessé à Dieu nous les
+                    <lb/>delaisserons aussi : nous aurons vn ferme
+                    <lb/>propos de viure mieux à l'aduenir , &amp; le
+                    <lb/>monstrerons par effect, faisans le bien contraire
+                    <lb/>au mal que nous auons faict , si nous
+                    <lb/>avons esté chiches, nous deuiendrons liberaux:
+                    <lb/>si nous auons esté addonnez à l'yurongnerie
+                    <lb/>nous deuiendrons sobres, si nous
+                    <lb/>auons abusé de nos langues pour blasphemer
+                    <lb/>Dieu,nous les employerons à le glorifier.
+                    <lb/>Car le propos n'est pas ferme, si l'effect
+                    <lb/>ne s'en ensuit. Si nous retournons incontinent
+                    <lb/>à nos pechez, ce n'est pas vne vraye <fw place="bot-right" type="catch">repen-</fw>
+                    <pb n="31"/>
+                    <lb/>repẽtãce,mais vne hypocrisie,laquelle Dieu
+                    <lb/>punira,si nous continuons en icelle. </p>
+                <p n="37">
+                    <lb/>Voila donc les choses requises à vne vraye
+                    <lb/>repentance. 1. Cognoistre nos pechez. 2.
+                    <lb/>les confesser. 3. les delaisser, c'est à dire nous
+                    <lb/>amender &amp; viure mieux. </p>
+                <p n="38">
+                    <lb/>Nous auons dict puis apres qu'il nous
+                    <lb/>faut esprouuer si nous auons la foy , c'est à
+                    <lb/>dire, vne certaine &amp; ferme <choice><sic>asseureurance</sic><corr resp="#CiM">asseurance</corr></choice> de
+                    <lb/>la misericorde de Dieu enuers nous par Iesus
+                    <lb/>Christ. Si nous auons ceste asseurance,
+                    <lb/>que croyans en Iesus-Christ nous obtenons
+                    <lb/>de Dieu remission de tous nos pechez : &amp;
+                    <lb/>que la misericorde de Dieu en Iesus Christ
+                    <lb/>est plus grãde &amp; a plus d'efficace pour nous
+                    <lb/>sauuer, que nos pechez pour nous damner:
+                    <lb/>&amp; si nous sentons que Iesus Christ qui nous
+                    <lb/>a transferé du royaume de tenebres en son
+                    <lb/>royaume de lumiere, vit en nous &amp; nous en
+                    <lb/>luy. En 3. lieu il nous faut esprouuer si nous
+                    <lb/>auons vraye charité, s'il nous desplaist de
+                    <lb/>n'auoir pas monstré telle amour <choice><sic>euers</sic><corr resp="#CiM">enuers</corr></choice> Dieu
+                    <lb/>que nous deuions par l'obseruation de sa
+                    <lb/>parole, d'auoir eu des querelles auec nos
+                    <lb/>prochains; si nous voulons pardonner de
+                    <lb/>bon cœur à ceux qui nous ont offensez, &amp;
+                    <lb/>demandons pardon à ceux que nous auons
+                    <lb/>interessez: desquels deux poincts s'il plaist
+                    <lb/>à Dieu nous parlerons vne autre fois plus
+                    <lb/>amplement. </p>
+                <p n="39">
+                    <lb/>Faisons nostre profit de ces choses. Vous <pb n="32"/>
+                    <lb/>auez entendu deux poincts : le 1. a esté touchant
+                    <lb/>quelques obseruatiõs generales, qu'il
+                    <lb/>faut que nous nous esprouuions nous mesmes:
+                    <lb/>qu'il faut que cela se face auant que
+                    <lb/>communiquer , &amp; toutes les fois que nous
+                    <lb/>communiquons , &amp; aussi que nous ne tardions
+                    <lb/>point trop à nous esprouuer. Le 2. a
+                    <lb/>esté en quoy consiste l'espreuue de nous
+                    <lb/>mesmes , assauoir en ce que nous nous esprouuions
+                    <lb/>si nous auons vraye repentance,
+                    <lb/>Foy, &amp; Charité enuers Dieu &amp; le prochain.
+                    <lb/>Que à la repentance sont requis 3.
+                    <lb/>poincts. 1. Que nous cognoissions nos pechez:
+                    <lb/>ce que nous ferons si nous nous examinons
+                    <lb/>1. selon le sommaire de la Loy, 2.
+                    <lb/>selon vn chacun des Commandemens d'icelle,
+                    <lb/>3. Selon les enseignemens qui concernent
+                    <lb/>la vocation d'vn chacun de nous.
+                    <lb/>2. Que nous les confessions à Dieu, 3. Que
+                    <lb/>nous les delaissions. Et pour conclusion si
+                    <lb/>Iesus Christ vit en nous par l'efficace de
+                    <lb/>son S.Esprit, tellement que la Loy de Dieu
+                    <lb/>nous soit agreable. </p>
+                <p n="40">
+                    <lb/>Le Seigneur nostre Dieu nous vueille
+                    <lb/>donner son sainct Esprit, &amp; nous vueille
+                    <lb/>par iceluy tellement gouuerner &amp; conduire,
+                    <lb/>que nous puissions profiter de plus en plus
+                    <lb/>au renoncement de nous-mesmes, &amp;
+                    <lb/>en toutes vertus Chrestiennes, en attendant
+                    <lb/>que nous ayons la pleine &amp; entiere iouyssance
+                    <lb/>des biens qu'il nous a promis. </p>
+                <p n="41">
+                    <lb/>AMEN. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

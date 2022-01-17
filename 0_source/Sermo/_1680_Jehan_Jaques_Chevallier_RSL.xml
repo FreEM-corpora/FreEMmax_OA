@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1680_Jehan_Jaques_Chevallier_RSL"> 
+            <titleStmt> 
+                <title type="sermon">Texte en la premiere de Saint Pierre au chapitre second, verset. 17. Honnorés le Roy.</title> 
+                <title type="book">Presche fait à la Breuine à l’heureuse arriuée de Son Altesse 
+                    Sérenissime Madame la Duchesse De Nemours. Par Jehan Jaques Cheuallier Ministre 
+                    de la ditte Eglise En lan 1680 (ms)</title> 
+                <author ref="...">Jehan Jaques Chevallier</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="RSL">Ruth STAWARZ-LUGINBUEHL</persName> 
+                        <email>ruth.luginbuhl@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Jehan Jaques Chevallier</author> 
+                        <title>Presche fait à la Breuine à l’heureuse arriuée de Son Altesse 
+                            Sérenissime Madame la Duchesse De Nemours. En lan 1680 (ms)</title> 
+                        <imprint> 
+                            <pubPlace/> 
+                            <publisher/> 
+                            <date>1680</date> 
+                            <date type="sermon">1680</date>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="source">Bibliothèque publique et universitaire de Neuchâtel, Bibliothèque des Pasteurs, Cote BPUN PA MSb 1/1</idno> 
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_circonstances</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">isolé</term>   
+                    <term type="numberOfSermons"/>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">1Pet.2.17</term>
+                </keywords> 
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-03-04" who="#LjD">transformation word - XML</change> 
+            <change when="2016-03-04" who="#MAG">Verification, citations</change> 
+            <change when="2014-05-02" who="#RSL">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                 <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>Presche fait à la Breuine<g ref="#pdm"/> 
+                    <lb/>à l'heureuse arriuée de Son<g ref="#pdm"/> 
+                    <lb/>Altesse Sérenissime Madame<g ref="#pdm"/> 
+                    <lb/>la Duchesse De Nemours.<g ref="#pdm"/></p> 
+                <p n="1"> 
+                    <lb/>Par Jehan Jaques Cheuallier Ministre 
+                    <lb/>de la ditte Eglise<g ref="#pdm"/> 
+                    <lb/>En lan 1680</p> 
+            </div> 
+        </front> 
+        <body> 
+            <div type="sermon"> 
+                 <pb n="2"/> 
+                <head type="main"> 
+                    <lb/>Texte en <ref type="bible" target="bibleSegond21.xml#_1Pet.2.17">la premiere de Saint Pierre<g ref="#pdm"/> 
+                        <lb/>au chapitre second, verset. 17.</ref> 
+                    <quote source="bible1588.xml#_1Pet.2.17"> 
+                        <lb/>Honnorés le Roy</quote>.<g ref="#pdm"/></head> 
+            
+                <p n="1"> 
+                    <lb/> 
+                    <note type="margin"><choice><sic>Exord</sic><corr resp="#MAG">Exorde</corr></choice></note> Chers freres, dans l'hom͂e qui est vn microcosme 
+                    cet à dire vn petit monde, 
+                    <lb/>Dieu qui en est le souuerain <choice><sic>architect</sic><corr resp="#MAG">architecte</corr></choice> &amp; le batisseur pour sa conduitte 
+                    &amp; son 
+                    <lb/>gouuernement y à establi vne superiorité &amp; vne inferiorité aussi bien en 
+                    <lb/>son ame qu'en son cors, ie dis premierement en son ame, de la vient qu'on y 
+                    <lb/>remarque des facultés tout affait rauissantes &amp; admirables, dont les vnes 
+                    <lb/>sont superieures assauoir <choice><sic>lintellect</sic><corr resp="#MAG">l'intellect</corr></choice> &amp; la volonté, les autres inferieures 
+                    <lb/>com͂e sont de cette nature toutes celles qui se rapportent à la faculté 
+                    <lb/>concupissible &amp; à l'irassible, ie dis aussi en son cors, de la vient 
+                    qu'il y à 
+                    <lb/>attaché des membres dont les vns sont pour donner &amp; les autres pour 
+                    <lb/>resseuoir, certes mes freres il est bien necessaire qu'il se rencontre en <choice><sic>lhom͂e</sic><corr resp="#MAG">l'hom͂e</corr></choice> 
+                    <lb/>vn ordre de cette nature aussi bien en son cors qu'en son ame pour sa conseruation, 
+                    <lb/>&amp; il est bien constant que autant que l'hom͂e subsiste il est conserué 
+                    <lb/>en son estre, mais <choice><sic>citost</sic><corr resp="#MAG">sitost</corr></choice> qu'il arriue quelque solution de continuité, au 
+                    <lb/>moment les maladies <choice><sic>lassaillent</sic><corr resp="#MAG">l'assaillent</corr></choice>, &amp; enfin il passe par le chemin com͂un 
+                    de toute 
+                    <lb/>la terre qui est la mort, Freres bienaimés ce que ie dis de l'hom͂e ce petit 
+                    <lb/>monde, ie le puis dire en vn bon sens de ce grand monde ce grand &amp; ce 
+                    <lb/>vaste vniuers en effet vous voyés que Dieu y à mis &amp; plassé plusieurs 
+                    <lb/>estats, ou cet qu'il y paroit vne superiorité &amp; vne inferiorité, se qui 
+                    se voit 
+                    <lb/>tout premierement en <choice><sic>lestat</sic><corr resp="#MAG">l'estat</corr></choice> Ecclesiastique, ou cet qu'il à establi des pasteurs 
+                    <lb/>pour la conduitte des peuples, &amp; ou cet que les peuples sont conduits aux 
+                    <lb/>exercices relligieux &amp; de pieté, En aprés en <choice><sic>lestat</sic><corr resp="#MAG">l'estat</corr></choice> oeconomique, on y 
+                    voit des 
+                    <lb/>peres &amp; des meres, qui ont vn soin tout particulier de leurs familles, 
+                    &amp; des domestiques 
+                    <lb/>qui sont les obiects de leurs soins de leur conduitte, Et enfin dans 
+                    <lb/><choice><sic>lestat</sic><corr resp="#MAG">l'estat</corr></choice> politique, on y voit aussi des puissances superieures, &amp; des 
+                    suiets qui 
+                    <lb/>sont obligés de leur rendre obeissance, que toute personne dit l'Apostre soit 
+                    <lb/>suiette aux puissances superieures, car il n'est point de puissance sinon 
+                    de par 
+                    <lb/>Dieu, &amp; les puissances qui sont en estat sont ordonneés de Dieu, 
+                    parquoy qui 
+                    <lb/>resiste à la puissance, resiste à <choice><sic>lordonnance</sic><corr resp="#MAG">l'ordonnance</corr></choice> de Dieu, &amp; ceus qui y resistent 
+                    <lb/>feront venir condannation sur eux mesmes, Chers freres cet la mesme exortation 
+                    <lb/>du bienheureux Saint Pierre, cet le mesme precepte, com͂e vous <pb n="3"/> 
+                    <lb/><choice><sic>lapprenés</sic><corr resp="#MAG">l'apprenés</corr></choice> du texte que iay en main &amp; que iay emprunté pour faire le suiet 
+                    <lb/>de mon action, ou cet que vous <choice><sic>lentendés</sic><corr resp="#MAG">l'entendés</corr></choice> qui <choice><sic>sexprime</sic><corr resp="#MAG">s'exprime</corr></choice> de la sorte &amp; qui tient 
+                    <lb/>ce considerable langage, Honnorés le Roy.<g ref="#pdm"/></p> 
+                <p n="2"> 
+                    <lb/> 
+                    <note type="margin">La Liaison.</note> Dans le verset qui precede ces paroles, 
+                    ie remarque mes freres que ce grand 
+                    <lb/>Apostre auoit desia adressé vne preignante exortation aux fidelles à ce qu'ils 
+                    <lb/>fussent libres, non point com͂e ayant la liberté pour couuerture de malice, mais 
+                    <lb/>com͂e seruiteurs de Dieu, il les auoit puissam͂ent exorté de porter hoñeur à tous 
+                    <lb/><choice><sic>daimer</sic><corr resp="#MAG">d'aimer</corr></choice> fraternité &amp; de craindre Dieu &amp; maintenant pour la liaison 
+                    de son discour 
+                    <lb/>il aiouste enfin cette expression &amp; il <choice><sic>sescrie</sic><corr resp="#MAG">s'escrie</corr></choice>, Honnorés le Roy.<g ref="#pdm"/></p> 
+                <p n="3"> 
+                    <lb/>Vous voyés donc chers freres auec combien de raison ie vous exposerai auiourd'huy 
+                    <lb/>ces belles &amp; rauissantes paroles du bienheureux Saint Pierre, ie le 
+                    feray auec dautant 
+                    <lb/>plus de suiet que <choice><sic>iy</sic><corr resp="#MAG">i'y</corr></choice> suis obligé par l'heureuse venue de leur Altesse Serenissime, 
+                    <lb/>&amp; à vous exorter à mesme tems à la soumission &amp; à <choice><sic>lobeissance</sic><corr resp="#MAG">l'obeissance</corr></choice> que vous 
+                    <lb/>deués à vne si grande &amp; glorieuse Princesse, que Dieu nous à donné en sa 
+                    <lb/>grace &amp; en sa misericorde, escoutés donc ie vous en prie <choice><sic>lexortation</sic><corr resp="#MAG">l'exortation</corr></choice> du bienheureux 
+                    <lb/>Saint Pierre, prattiqués ce salutaire conseil, ensuiués ce precepte 
+                    <lb/>Honnorés le Roy.<g ref="#pdm"/></p> 
+                <p n="4"> 
+                    <lb/> 
+                    <note type="margin">La partitiõ</note> Dans l'exposition de ces paroles chers 
+                    freres pour y proceder auec ordre, i'y 
+                    <lb/>pourrois remarquer tout premierement vn deuoir ou bien vn com͂andement, dans le 
+                    <lb/>deuoir pour <choice><sic>lordre</sic><corr resp="#MAG">l'ordre</corr></choice> i'y pourrois faire voir ces circonstances suiuantes, la premiere 
+                    <lb/>qui est celuy qui est obligé de rendre ce deuoir, la seconde qui est celuy 
+                    auquel il 
+                    <lb/>le doit rendre assauoir l'honneur, la troisiesme qui sont ceus qui le 
+                    doiuent rendre 
+                    <lb/>assauoir tous les hom͂es, &amp; finalement la derniere à qui cet qu'ils sont obligés 
+                    <lb/>de le rendre assauoir au Roy, mais pour vne plus grande lumiere ie me propose 
+                    <lb/>de laisser cet ordre pour ensuiure vn autre, qui vous fera encore mieux comprendre 
+                    <lb/>le dire du bienheureux Saint Pierre, Honnorés le Roy.<g ref="#pdm"/></p> 
+                <p n="5"> 
+                    <lb/> 
+                    <note type="margin">Premieremẽt <lb/>ce qu'il faut <lb/>entendre par <lb/>le mot de <lb/>Roy.</note> 
+                    Et pour cet effet remarqués ie vous en prie qu'elle est sa pensée, ou ce qu'il veut 
+                    <lb/>entendre par cette expression de Roy, assauoir tous ceus qui sont par dessus- 
+                    <lb/>nous, qui sont esleués dans les charges, les honneurs &amp; les dignités 
+                    dans <choice><sic>lestat</sic><corr resp="#MAG">l'estat</corr></choice> 
+                    <lb/>democratique &amp; Aristocratique, il y à com͂e vous le saués plusieurs persoñes 
+                    <lb/>qui sont esleuées sur le trosne, qui president, mais dans <choice><sic>lestat</sic><corr resp="#MAG">l'estat</corr></choice> 
+                    monarchique il 
+                    <lb/>est constant qu'il ny en à qu'un duquel tous les autres releuent, &amp; 
+                    cette personne 
+                    <lb/>à plusieurs noms selon diuers respects, com͂e celuy d'Empereur, de Roy, de Prince, 
+                    <lb/>de Duc, de Conte &amp; autres, icy mes freres <choice><sic>lApostre</sic><corr resp="#MAG">l'Apostre</corr></choice> vous enioint, que 
+                    vous defferiés 
+                    <lb/>l'hoñeur à toutes ces personnes, mais principalement en <choice><sic>lestat</sic><corr resp="#MAG">l'estat</corr></choice> 
+                        monarchique, <pb n="4"/> 
+                    <lb/>il demande que vous honnoriés celuy à qui Dieu à donné <choice><sic>lempire</sic><corr resp="#MAG">l'empire</corr></choice> et la puissance 
+                    <lb/>sur ses suiets, com͂e aussi ceus qui sont ses officiers establis pour 
+                    gouuerner <choice><sic>lestat</sic><corr resp="#MAG">l'estat</corr></choice>, 
+                    <lb/>cet ce qu'il à voulu dire vn peu au parauant les paroles du texte, Rendes vous 
+                    <lb/>donc suiets à tout ordre humain pour lamour de Dieu, soit au Roy com͂e à celuy 
+                    <lb/>qui est par dessus tous les autres, soit aus gouuerneurs, com͂e à ceus qui 
+                    sont enuoyés 
+                    <lb/>de par luy pour exercer vengeance sur les malfaiteurs &amp; à la louange de 
+                    <lb/>ceus qui font bien.<g ref="#pdm"/></p> 
+                <p n="6"> 
+                    <lb/> 
+                    <note type="margin">En aprés par <lb/>le mot hoñorer.</note> Mais mes freres afin que 
+                    ie <choice><sic>mareste</sic><corr resp="#MAG">m'areste</corr></choice> à la personne superieure qui est par dessus 
+                    <lb/>nous, l'Apostre exige de vous que vous l'honnoriés, cet à dire que vous luy rendiés 
+                    <lb/>tous les deuoirs que tous les fidelles suiets sont obligés de rendre aux puissances 
+                    <lb/>superieures, &amp; cet la ce que emporte cette signification de ce mot 
+                    hoñorer duquel 
+                    <lb/>se sert l'Apostre, cependant remarqués que les deuoirs que vous deués à la persoñe 
+                    <lb/>superieure sont plusieurs, mais entre autres les suiuants, lamour, la reuerance, 
+                    <lb/>la subiection, &amp; lobeissãce, le payement des debts, les supplications, 
+                    &amp; les prieres à 
+                    <lb/>Dieu pour la conseruation de son illustrissime persoñe.<g ref="#pdm"/></p> 
+                <p n="7"> 
+                    <lb/> 
+                    <note type="margin">Ce que <choice><sic>lon</sic><corr resp="#MAG">l'on</corr></choice> <lb/>doit au prince <lb/>Premierement <lb/>lamour.</note> Je dis 
+                    mes freres que vous luy deués tout premierement lamour afin que vous l'honoriés 
+                    <lb/>le Roy, &amp; ce à cause du prochain, suiuant ce que vous lenioint la loy, que 
+                    <lb/>vous aimiés vostre prochain com͂e vous mesmes, &amp; en effet si tous les 
+                    hom͂es sont 
+                    <lb/>vos prochains, combien plus ne le seront pas vos princes, qui dans le Saint <choice><sic>diuain</sic><corr resp="#MAG">diuin</corr></choice> 
+                    <lb/>com͂andement sont qualifiés du nom de pere, qu'ainsi vous soyés auertis de vostre 
+                    <lb/>deuoir qui est de les aimer com͂e vos peres, Vous deués com͂e vous le saués aimer 
+                    <lb/><choice><sic>limage</sic><corr resp="#MAG">l'image</corr></choice> de Dieu, lequel image est en tous hom͂es, qui sont creés à son image, 
+                    &amp; com͂ent 
+                    <lb/>donc ne seriés vous pas plus obligés <choice><sic>daimer</sic><corr resp="#MAG">d'aimer</corr></choice> vos princes, qui en 
+                    consideration de 
+                    <lb/><choice><sic>limage</sic><corr resp="#MAG">l'image</corr></choice> com͂un à tous les fils d'Adam en portent vn particulier empreint sur leurs 
+                    <lb/>faces, qui leur fait porter le nom mesme de Dieux, Jay dit <surplus reason="repeated">dit</surplus> le Prophete vous 
+                    <lb/>estes dieux &amp; les enfants du souuerain, Rendés dit le fils de Dieu les 
+                    choses qui 
+                    <lb/>sont à Cesar, &amp; à Dieu celles qui sont à Dieu.<g ref="#pdm"/></p> 
+                <p n="8"> 
+                    <lb/> 
+                    <note type="margin">En aprés la <lb/>reuerãce.</note> Freres bienaimés, cet image ce 
+                    titre si releué de Dieu qu'ils portent, &amp; duquel ils 
+                    <lb/>sont qualifiés, ne vous doit il pas aussi porter à les auoir en reuerance, 
+                    ouy cet 
+                    <lb/>ce que vous deués prattiquer de cœur &amp; <choice><sic>daffection</sic><corr resp="#MAG">d'affection</corr></choice>, cet ce que vous 
+                    deués ensuiure 
+                    <lb/>par paroles &amp; par oeuures, &amp; defait si par malheur vous en veniés 
+                    iusques la que 
+                    <lb/>de les mespriser, ie vous ose bien dire qu'en leurs persoñes vous 
+                    mespriseriés Dieu 
+                    <lb/>mesme, que vous en prendriés à cette souueraine maiesté de Dieu, de la vient 
+                    <lb/>que luy mesme deffend expressement de mesdire de ces persoñes si saccreés, 
+                    <lb/><quote source="bible1588.xml#Exod.22.28">Tu ne mesdiras point <seg type="interpolation">dit il dans <choice><sic>lexode</sic><corr resp="#MAG">l'exode</corr></choice> des iuges,</seg> &amp; ne maudiras point 
+                    le Prince <pb n="5"/> 
+                        <lb/>de ton peuple</quote>, &amp; parce que plusieurs <choice><sic>sabusent</sic><corr resp="#MAG">s'abusent</corr></choice> <choice><sic>simaginants</sic><corr resp="#MAG">s'imaginants</corr></choice> qu'ils en 
+                    peuuent parler 
+                    <lb/>en mal en cachette, sans que ces grands en puissent auoir aucune 
+                    coñoissance, que 
+                    <lb/>fait le sage, il nous auertit de ne nous point flatter dans ce rencontre, 
+                    Ne dis point 
+                    <lb/>mal du Roy dit il, non pas mesme en ta pensée, car les oiseaux des cieux en porteroyẽt 
+                    <lb/>la voix &amp; ce qui vole en porteroit les nouuelles, mais encore que cela 
+                    seroit caché 
+                    <lb/>entre les hom͂es, si estce que Dieu auquel toutes choses sont coñues, ne manqueroit 
+                    <lb/>pas <choice><sic>den</sic><corr resp="#MAG">d'en</corr></choice> prendre vengeance de cette iniure en la persoñe de ces grands Monarques 
+                    <lb/>que <choice><sic>lon</sic><corr resp="#MAG">l'on</corr></choice> doit hoñorer, suiuant ce que <choice><sic>lenioint</sic><corr resp="#MAG">l'enioint</corr></choice> icy le bienheureux Saint Pierre 
+                    <lb/>Honnorés le Roy.<g ref="#pdm"/></p> 
+                <p n="9"> 
+                    <lb/> 
+                    <note type="margin">Pour vn <lb/>troisiesme <lb/>la subiectiõ</note> Que si freres 
+                    bienaimés vous deués ainsi la reuerance au souuerain, à cette Serenissime 
+                    <lb/>Princesse, ne puis ie pas aussi dire que vous luy deués la soumission 
+                    <lb/>&amp; <choice><sic>lobeissance</sic><corr resp="#MAG">l'obeissance</corr></choice>, que cet de vostre legitime deuoir de la luy rendre, 
+                    Saint Paul 
+                    <lb/>aux Romains nous en parle, quand il dit que celuy qui resiste à la puissance 
+                    <lb/>resiste à <choice><sic>lordoñance</sic><corr resp="#MAG">l'ordoñance</corr></choice>, &amp; que ceus qui y resistent feront venir 
+                    condañation sur 
+                    <lb/>eux mesmes cet aussi la lesson que ce mesme Apostre donnoit à son disciple 
+                    <lb/>Tite, quand il luy enioignit <choice><sic>damonester</sic><corr resp="#MAG">d'amonester</corr></choice> le peuple, à ce qu'ils soyent 
+                    suiets aux 
+                    <lb/>principautés &amp; puissances, à ce qu'ils obeissent aux Gouuerneurs, à ce 
+                    qu'ils soyẽt 
+                    <lb/>prets à toute boñe oeuure, Il faut mes freres que la crainte accompagne 
+                    cette soumission 
+                    <lb/>ou subiection, &amp; elle est fondée sur deus raisons fort preignantes, qui sont 
+                    <lb/><choice><sic>dun</sic><corr resp="#MAG">d'un</corr></choice> grand poids qui meritent bien <choice><sic>destre</sic><corr resp="#MAG">d'estre</corr></choice> considereés, assauoir en la 
+                    puissance qu'ont 
+                    <lb/>ces souuerains de Dieu de punir &amp; chastier les rebelles &amp; les 
+                    desobeissants, <quote source="bibleSegond21.xml#Rom.13.4">le Prince 
+                    <lb/><seg type="interpolation">dit l'Apostre</seg> est seruiteur de Dieu pour ton bien, mais si tu fais mal 
+                    crain le dautant 
+                    <lb/>qu'il ne porte point lespée sans cause, car il est seruiteur de Dieu ordoñé pour 
+                        <lb/>faire iustice en ire de celuy qui fait mal</quote>, de plus cette crainte que 
+                    doiuent auoir les 
+                    <lb/>hom͂es de leur souuerain elle est fondée sur le com͂andement de Dieu qui 
+                    demande<del rend="strikethrough" resp="#RSL">nt</del> 
+                    <lb/>qu'ils leur rendent obeissance, &amp; se presentent à eux auec la 
+                    soumission qu'ils sont 
+                    <lb/>obligés, &amp; cet la iudicieuse remarque qu'en fait nostre Apostre en 
+                    cette preignante 
+                    <lb/>exortation,<quote source="bibleSegond21.xml#Jer.27.12"> Rendés vous donc suiets</quote> dit il à tout ordre humain pour lamour de 
+                    <lb/>Dieu, soit au Roy com͂e à celuy qui est par dessus les autres, mais que dis 
+                    ie l'Apostre 
+                    <lb/>aux Romains ne dit il pas que mesme il y faut estre suiets pour la conscience, 
+                    <lb/>sans doutte com͂e <choice><sic>sil</sic><corr resp="#MAG">s'il</corr></choice> vouloit dire, ô hom͂es encore bien que vous puissies 
+                    euiter la 
+                    <lb/>peine du souuerain, les chastiments qu'il inflige, ô si estce que vostre conscience 
+                    <lb/>vous condanne deuant vostre Dieu, elle doit estre capable de vous faire prendre 
+                    <lb/>soigneusement garde <choice><sic>doffencer</sic><corr resp="#MAG">d'offencer</corr></choice> ceus que Dieu à establi vos superieurs, qu'il 
+                    à mis 
+                    <lb/>sur le trosne, &amp; ausquels il à doñé toute puissance.<g ref="#pdm"/></p> 
+                 <pb n="6"/> 
+                <p n="10"> 
+                    <lb/>Chers Freres l'Apostre Saint Pierre donne ce salutaire conseil aux 
+                    seruiteurs, il 
+                    <lb/>les exorte <choice><sic>destre</sic><corr resp="#MAG">d'estre</corr></choice> suiets en toute crainte à leurs maistres, non seulement 
+                    aus bons &amp; 
+                    <lb/>equitables, mais aussi aux facheux, que si ô fidelles cela est iuste &amp; 
+                    <choice><sic>sil</sic><corr resp="#MAG">s'il</corr></choice> à lieu, 
+                    <lb/>hâ combien plus vous deués vous tesmoigner vostre obeissance aux Princes qui 
+                    <lb/>sont pieux, combien plus la deués vous faire paroistre à ceus desquels vous deués 
+                    <lb/>estre les seruiteurs &amp; les suiets, ouy sachés que vous estes obligés de 
+                    leur obeir au 
+                    <lb/>Seigneur, &amp; que autant qu'ils vous prescriront de choses, qui 
+                    <choice><sic>saccordent</sic><corr resp="#MAG">s'accordent</corr></choice> à la volonté 
+                    <lb/>de Dieu, cet de vostre legitime deuoir de les effectuer auec toute la promptitude 
+                    <lb/>possible.<g ref="#pdm"/></p> 
+                <p n="11"> 
+                    <lb/> 
+                    <note type="margin">Pour vn quatriesme <lb/>leur <lb/>rendre ce qui <lb/>leur est d'heu 
+                        !</note> Mais maintenant mes freres, vous ayant 
+                    parlé de ce deuoir que vous deués à 
+                    <lb/>vostre souuerain, ie men vay vous entretenir <choice><sic>dun</sic><corr resp="#MAG">d'un</corr></choice> autre, que vous estes encore 
+                    <lb/>obligés de luy rendre, ce deuoir consiste en ce que vous luy rendiés ce qui 
+                    luy est 
+                    <lb/>d'heu, &amp; en effet cet <surplus reason="repeated">cet</surplus> enseignement que nous donne 
+                    l'Apostre dans le <ref type="bible" target="bibleSegond21.xml#Rom.13">13. des Romains</ref>, quand parlant du 
+                    deuoir des Chrestiens enuers les magistrats il leur tenoit 
+                    <lb/>ce langage, pour cette cause aussj payés vous les tributs, dautant qu'ils 
+                    sont ministres 
+                    <lb/>de Dieu <choice><sic>semployants</sic><corr resp="#MAG">s'employants</corr></choice> à cela, mais quel tesmoignage plus efficacieux pourois 
+                    <lb/>ie mettre en auant, pour prouuer que vous y estes obligés, que celuy du 
+                    fils de 
+                    <lb/>Dieu contenu en cette rauissante responce qu'il donna aux disciples des pharisiens 
+                    <lb/>qui luy demanderent <choice><sic>sil</sic><corr resp="#MAG">s'il</corr></choice> estoit loisible de payer le tribut à Cesar ou non, Rendés 
+                    <lb/>leur dit il à Cesar ce qui est à Cesar, &amp; à Dieu ce qui est à Dieu, 
+                    &amp; mes freres ce que 
+                    <lb/>ce <choice><sic>glorieu</sic><corr resp="#MAG">glorieux</corr></choice> Sauueur à ainsj com͂andé, <choice><sic>nestce</sic><corr resp="#MAG">n'est-ce</corr></choice> pas ce qu'il à bien voulu 
+                    prattiquer luy 
+                    <lb/>mesme, &amp; bien qu'il eut la puissance de <choice><sic>sen</sic><corr resp="#MAG">s'en</corr></choice> exempter estant le fils de 
+                    Dieu, si estce 
+                    <lb/>que pour nestre en scandale aux autres, il la bien voulu payer luy mesme, tesmoin 
+                    <lb/>à cela ce qui en est dit dans <choice><sic>leuangile</sic><corr resp="#MAG">l'euangile</corr></choice> quand voulant euiter le scandale de 
+                    ceus qui 
+                    <lb/>luy demandoyent les dix dragmes, il est dit qu'il dit à Pierre de <choice><sic>sen</sic><corr resp="#MAG">s'en</corr></choice> aller 
+                    à la mer, 
+                    <lb/>de ietter le hameson, de prendre le premier poisson qui monteroit, &amp; 
+                    aprés luy auoir 
+                    <lb/>ouuert la geule, luy ayant treuué vn statere, qu'il le deuoit prendre &amp; 
+                    le leur 
+                    <lb/>bailler pour euidence, Chrestiens cet ce mesme deuoir qu'il à bien voulu rendre 
+                    <lb/>estant mesme encore dans les flancs de la bienheureuse vierge sa mere, 
+                    quand il 
+                    <lb/><choice><sic>sen</sic><corr resp="#MAG">s'en</corr></choice> alla pour estre enrolé auec Marie la fem͂e qui auoit esté fianceé à 
+                    Joseph, qui 
+                    <lb/>estoit enceinte, Et en cela mes freres ce <choice><sic>glorieu</sic><corr resp="#MAG">glorieux</corr></choice> Sauueur ne vous atil pas 
+                    laissé vn 
+                    <lb/>patron pour ensuiure ses trasses, ouy il faut que vous limitiés, &amp; que 
+                    vous rendiés 
+                    <lb/>au souuerain ce que vous luy deués, com͂e leur estant des veritables suiets 
+                    <lb/>qu'ainsi on coñoisse que vous <choice><sic>lhoñorés</sic><corr resp="#MAG">l'hoñorés</corr></choice>, Honnorés le Roy dit Saint 
+                    Pierre.<g ref="#pdm"/></p> 
+                 <pb n="7"/> 
+                <p n="12"> 
+                    <lb/> 
+                    <note type="margin">Pour vn <lb/>cinquiesme <lb/>prier Dieu <lb/>pour eux</note> Enfin mes 
+                    freres ie remarque encore vn dernier deuoir que vous deués au souuerain, 
+                    <lb/>cet de prier pour eux, de faire monter vers le ciel pour eux pour leur 
+                    <lb/>conseruation <choice><sic>lencens</sic><corr resp="#MAG">l'encens</corr></choice> de nos prieres, &amp; le parfun de ce sacrifice 
+                    iusques dans 
+                    <lb/>le sanctuaire, Chrestiens cet <choice><sic>lexortation</sic><corr resp="#MAG">l'exortation</corr></choice> que vous en donne l'Apostre en la 
+                    <lb/>personne de son disciple Timotheé, quand parlant des prieres, il disoit qu'il 
+                    <lb/>amonestoit auant toutes choses, qu'on fit des requettes prieres &amp; supplications 
+                    <lb/>&amp; actions de graces pour tous hom͂es, Vostre deuoir fidelles vous oblige 
+                    de prier 
+                    <lb/>pour tous, hâ combien donc plus pour vos princes &amp; souuerains, 
+                    plusieurs com͂e 
+                    <lb/>vous le saués ont besoin des graces du ciel pour bien regir &amp; 
+                    gouuerner, &amp; qui 
+                    <lb/>peut mieux donner ces graces aux souuerains que Dieu luy mesme puis que 
+                    <lb/>comme dit Saint Jaques, <quote source="bibleSegond21.xml#Jas.1.17">toute bonne doñation &amp; tout don parfait est <choice><sic>denhaut</sic><corr resp="#MAG">d'enhaut</corr></choice> 
+                        <lb/>dessendant du pere des lumieres</quote>, Dauid com͂e vous le saués estoit bien vn puissant 
+                    <lb/>Roy, <choice><sic>sestoit</sic><corr resp="#MAG">c'estoit</corr></choice> vn grand monarque, mais sachant qu'il auoit besoin des prieres 
+                    <lb/>de son peuple, il luy prescriuit luy mesme la priere qu'il deuoit faire à Dieu, 
+                    <lb/>en sa faueur, priere qui est contenue dans le pseaume vintiesme, &amp; si 
+                    mes freres 
+                    <lb/>vous prenés la peine de le lire, vous y verrés com͂e ce peuple fait monter vers 
+                    <lb/>le ciel <choice><sic>lencens</sic><corr resp="#MAG">l'encens</corr></choice> de ses prieres pour la conseruation de ce Roy.<g ref="#pdm"/></p> 
+                <p n="13"> 
+                    <lb/>Et Chrestiens de tous ces deuoirs, qui sont lamour, la reuerance, la 
+                    soumission ce qui est 
+                    <lb/>d'heu &amp; la priere, ne vous <choice><sic>constet</sic><corr resp="#MAG">conste-t</corr></choice> il pas suffisam͂ent que cet de vostre legitime 
+                    <lb/>deuoir de vous employer auec toute la diligence possible à <choice><sic>lhonneur</sic><corr resp="#MAG">l'honneur</corr></choice> que vous 
+                    <lb/>deués à vostre souuerain, à cette grande &amp; glorieuse Princesse, que 
+                    Dieu par vn 
+                    <lb/>effet de son adorable prouidence à conduit en ce lieu auec tout le succez imaginable, 
+                    <lb/>afin de vous faire ressentir les effets de sa douceur de sa bonté &amp; de sa 
+                    <lb/>clemence.<g ref="#pdm"/></p> 
+                <p n="14"> 
+                    <lb/> 
+                    <note type="margin">Applicatiõ <lb/>1</note> Peuple de Dieu aimés la donc cette 
+                    Serenissime Princesse <choice><sic>dune</sic><corr resp="#MAG">d'une</corr></choice> amour qui soit 
+                    <lb/>veritablement dans vostre coeur, mais qui se donne à connoistre par ses effets 
+                    <lb/>au dehors, cet le deuoir des enfants bien nés <choice><sic>daimer</sic><corr resp="#MAG">d'aimer</corr></choice> leurs peres &amp; 
+                    leurs meres, 
+                    <lb/>la nature les à liés auec eux <choice><sic>dun</sic><corr resp="#MAG">d'un</corr></choice> lien qui est fort com͂e la mort, le Prince n'est 
+                    <lb/>il pas vostre pere, &amp; cette Serenissime Princesse n'est elle pas com͂e 
+                    vostre mere, 
+                    <lb/>ouy vne mere qu vous embrasse com͂e ses enfants, qui à pour vous des tendresses 
+                    <lb/>toutes particulieres, vne mere qui vous veut faire experimenter à tous 
+                    <lb/>les effets de son amour, &amp; pourquoy donc ne <choice><sic>laimeriés</sic><corr resp="#MAG">l'aimeriés</corr></choice> vous pas, ô 
+                    fidelles tous 
+                    <lb/><choice><sic>dun</sic><corr resp="#MAG">d'un</corr></choice> com͂un accord, rendés ce tesmoignage à la verité, publiés &amp; preschés 
+                    par tout 
+                    <lb/>le monde, que <choice><sic>lenuoy</sic><corr resp="#MAG">l'enuoy</corr></choice> de cette Serenissime Princesse est vn don de Dieu 
+                    qu'il vous 
+                    <lb/>à fait, dans le liure des Chroniques, vous lisés mes freres que le Roy de 
+                    Thyr disoit 
+                    <lb/>à Salomon, <quote source="bible1588.xml#_2Chr.2.11">pource que <choice><sic>lEternel</sic><corr resp="#MAG">l'Eternel</corr></choice> à aimé son peuple, pource te at il establi 
+                        Roy <pb n="8"/> 
+                        <lb/>sur eux</quote>, à plus forte raison vous peuple de Dieu aués vous suiet de dire, que 
+                    <lb/>parce que Dieu vous à aimés il vous à donné cette grande &amp; glorieuse Princesse 
+                    <lb/>Il est bien constant que quand Dieu veut punir vn peuple à cause de ses 
+                    pechés, qu'il 
+                    <lb/>fait reigner sur luy des hypoccrites desquels parlant le patient Job, il 
+                    dit que 
+                    <lb/>lhom͂e qui se contrefait ne reignera plus à cause des scandales du peuple, <choice><sic>lEternel</sic><corr resp="#MAG">l'Eternel</corr></choice> 
+                    <lb/>luy mesme la voulu dire par la bouche de <choice><sic>loracle</sic><corr resp="#MAG">l'oracle</corr></choice>, quand parlant des extremes 
+                    <lb/>malheurs qui deuoyent arriuer aux malheureux Juifs, il disoit qu'il leur bailleroit 
+                    <lb/>des ieunes gens pour gouuerneurs, &amp; que les enfants domineroyent sur 
+                    eux, par le contre 
+                    <lb/>quand Dieu veut benir vn peuple, &amp; luy faire experimenter les effets de 
+                    son amour, 
+                    <lb/>il leur donne des Princes selon son coeur.<g ref="#pdm"/></p> 
+                <p n="15"> 
+                    <lb/>O que Dieu vous à donc bien benit mes freres de vous auoir donné vne si 
+                    douce et 
+                    <lb/>aimable Princesse, qui est <choice><sic>lamiration</sic><corr resp="#MAG">l'amiration</corr></choice> du Siecle pour ses rares vertus dont 
+                    Dieu luy 
+                    <lb/>mesme la bien voulu hoñorer, ô fidelles, rendés donc à ce souuerain 
+                    bienfaiteur en recoñoissance <choice><sic>dune</sic><corr resp="#MAG">d'une</corr></choice> si grande grace, vos veus, vos sacrifices 
+                    &amp; vos actions de graces, 
+                    <lb/>priés le du plus proffond de vos ames qu'il vous face iouir en longeur de 
+                    iours <choice><sic>dune</sic><corr resp="#MAG">d'une</corr></choice> 
+                    <lb/>si precieuse &amp; salutaire benediction, Cet du deuoir des seruiteurs de 
+                    donner des 
+                    <lb/>tesmoignages &amp; des preuues de leur amour &amp; de leur affection à 
+                    leurs maistres, mais 
+                    <lb/>sur tout lors qu'ils leur font ressentir les effets de leur douceur &amp; 
+                    de leur bonté, vous 
+                    <lb/>fidelles n'estes vous pas seruiteurs suiets de <choice><sic>leurs</sic><corr resp="#RSL">leur</corr></choice> Altesse 
+                    Serenissime cette grande &amp; 
+                    <lb/>glorieuse Princesse qui vous est veritablement com͂e vne maitresse, de 
+                    laquelle vous 
+                    <lb/>ne pouués pas dire auec ce seruiteur duquel il nous est parlé dans 
+                    <choice><sic>leuangile</sic><corr resp="#MAG">l'euangile</corr></choice> qui 
+                    <lb/>disoit au Seigneur, ie connoissois que tu estois vn hom͂e rude, mais vous 
+                    mes freres 
+                    <lb/>vous pouués dire que Dieu vous à donné vne maistresse qui à vne bonté qui 
+                    <lb/>est la merueille du siecle, qui possede toutes les vertus dans le plus haut degré 
+                    <lb/>de perfection &amp; afin que ie le dise en peu de mots à qui Dieu à 
+                    donnê toutes les 
+                    <lb/>vertus qui brillent en son illustre persoñe auec toute la splendeur imaginable, 
+                    <lb/>Vous lisés mes freres dans <ref type="bible" target="bibleSegond21.xml#_1Kgs">le premier des Roys</ref>, 
+                    que les seruiteurs de Benhadad 
+                    <lb/>luy dirent, <quote source="bibleSegond21.xml#_1Kgs.20.31">voicy maintenant nous auons ouy dire, que 
+                        les Roys de la maison d'Israel 
+                        <lb/>sont Roys benins</quote>, vous peuples de Dieu ne pouués vous pas dire 
+                    le mesme de 
+                    <lb/><choice><sic>lillustrissime</sic><corr resp="#MAG">l'illustrissime</corr></choice> maison de leur Altesse Serenissime cette grande &amp; 
+                    glorieuse Princesse 
+                    <lb/>ouy dites que de tout tems vous aués tousiour ouy dire, qu'il en est 
+                    tousiour sorti 
+                    <lb/>des Princes &amp; Princesses les plus benins qui fussent iamais, qui ont 
+                    tousiour eu 
+                    <lb/>vne bonté accompagneé de sagesse, de prudence, de pieté, en vn mot de 
+                    toutes les 
+                    <lb/>vertus, qui rendent les princes les plus aimables, &amp; les plus 
+                    considerables de tout le 
+                    <lb/>monde.<g ref="#pdm"/></p> 
+                 <pb n="9"/> 
+                <p n="16"> 
+                    <lb/>Chrestiens que ces vertus dont Dieu à hoñoré leur Altesse Serenissime cette grãde 
+                    <lb/>&amp; rare Princesse vous soyent vn puissant motif à <choice><sic>laimer</sic><corr resp="#MAG">l'aimer</corr></choice>, à luy faire 
+                    paroistre vostre 
+                    <lb/>soumission, les respects &amp; <choice><sic>lobeissance</sic><corr resp="#MAG">l'obeissance</corr></choice> que vous estes obligés de luy 
+                    rendre, vous deués 
+                    <lb/>aimer ceus que Dieu aime &amp; ausquels il fait paroistre les tesmoignages 
+                    de son 
+                    <lb/>amour par ses <choice><sic>fauueurs</sic><corr resp="#MAG">faueurs</corr></choice> &amp; les influances de ces graces, Dieu aime la 
+                    persoñe de 
+                    <lb/>son Altesse Serenissime cette grande Princesse, il la cherit com͂e la 
+                    prunelle de 
+                    <lb/>son öeil, il luy à distribué des dons tout particuliers de son amour, &amp; 
+                    com͂ent donc 
+                    <lb/>ne seriés vous pas obliges de <choice><sic>laimer</sic><corr resp="#MAG">l'aimer</corr></choice>, de luy faire paroistre vostre 
+                    affection, Vous 
+                    <lb/>deués aimer ceus desquels vous resseués des bienfaits de peur de vous 
+                    rendre coulpables de <choice><sic>lingratitude</sic><corr resp="#MAG">l'ingratitude</corr></choice> la plus noire &amp; la plus criminelle qui fut 
+                    iamais, Et mes freres 
+                    <lb/>les bienfaits de leur Altesse Serenissime enuers vous ne sont ils pas sans nombre, 
+                    <lb/>n'est il pas vray que sous sa haute &amp; douce domination, vous iouissés 
+                    du calme 
+                    <lb/>&amp; de la tranquilité <choice><sic>dune</sic><corr resp="#MAG">d'une</corr></choice> proffonde paix, qu'elle vous conserue le 
+                    chandelier de la 
+                    <lb/>verité au milieu de vous, qu'elle vous conserue dans la verité de la 
+                    relligion dont il 
+                    <lb/>à pleu à Dieu de vous honnorer, n'est il pas vray qu'elle vous aministre 
+                    vne courte 
+                    <lb/>&amp; briefue iustice que les bons sont protegés, &amp; que les meschants 
+                    sont punis, en vn 
+                    <lb/>mot que chascun de vous peut auec asseurance <choice><sic>semployer</sic><corr resp="#MAG">s'employer</corr></choice> à <choice><sic>loeuure</sic><corr resp="#MAG">l'oeuure</corr></choice> de sa vocation 
+                    <lb/>à laquelle il à esté appellé, ô fidelles que cette amour donc de leur Altesse 
+                    <lb/>Serenissime allume le vostre &amp; vous porte puissam͂ent à <choice><sic>laimer</sic><corr resp="#MAG">l'aimer</corr></choice>, ouy 
+                    soyés tout 
+                    <lb/>de feu pour la conseruation de son illustre persoñe, Et com͂e le feu <choice><sic>sallume</sic><corr resp="#MAG">s'allume</corr></choice> de 
+                    <lb/>plus en plus à mesure quon y iette du bois, qu'il en soit ô fidelles de 
+                    vostre amour 
+                    <lb/>à mesme tems que vous gousterés les effets de la bonté <choice><sic>dune</sic><corr resp="#MAG">d'une</corr></choice> si grande &amp; glorieuse 
+                    <lb/>Princesse, mais qui seroit suffisant, qui pourroit racconter toutes les choses 
+                    <lb/>qui vous doiuent porter à cet amour que vous deués auoir <hi rend="ST">q</hi> pour sa persoñe 
+                    <lb/>que Dieu à fait leuer sur vous com͂e vn soleil en sa grace &amp; en sa 
+                    misericorde.</p> 
+                <p n="17"> 
+                    <lb/> 
+                    <note type="margin">2</note> Je vous ay dit mes freres que vostre deuoir vous 
+                    obligeoit <choice><sic>daimer</sic><corr resp="#MAG">d'aimer</corr></choice> leur Altesse Serenissime 
+                    <lb/>cette grande Princesse, mais ie soustien aussj que vous la deués reuerer dans 
+                    <lb/>vous mesmes de coeur &amp; <choice><sic>daffection</sic><corr resp="#MAG">d'affection</corr></choice>, &amp; au dehors par vos paroles 
+                    &amp; par vos oeuures, 
+                    <lb/>&amp; ce qui vous doit porter, cet parce qu'elle est parmi vous com͂e vne 
+                    enuoyée de 
+                    <lb/>Dieu mesme pour vous conduire &amp; gouuerner, de la vient qu'elle emporte 
+                    le titre &amp; la 
+                    <lb/>qualite de Dieu, Jay dit vous estes enfants du souuerain dit le Prophete, 
+                    de plus vous 
+                    <lb/>la deués aussi auoir dans vne souueraine veneration, parce qu'elle porte 
+                    <choice><sic>limage</sic><corr resp="#MAG">l'image</corr></choice> de 
+                    <lb/>Dieu, image qui est ou premierement com͂un, &amp; cet celuy qui 
+                    se voit en tous les hom͂es 
+                    <lb/>que Dieu à creé au com͂encement &amp; à sa semblance, &amp; bien que cet 
+                    image ait esté 
+                    <lb/>effassé dans <choice><sic>lestat</sic><corr resp="#MAG">l'estat</corr></choice> de la corruption à cause du peché de nos premiers 
+                    parents qui <pb n="10"/> 
+                    <lb/>à infecté &amp; qui à empesté tout le genre humain, si estce qu'il y en est demeuré 
+                    <lb/>quelque reste qui nous oblige <choice><sic>dauoir</sic><corr resp="#MAG">d'auoir</corr></choice> du respect pour les hom͂es, mais il y à 
+                    aussi vn 
+                    <lb/>image qu'on peut dire particulier à cause duquel vne persoñe pour <choice><sic>loffice</sic><corr resp="#MAG">l'office</corr></choice> 
+                    qu'il porte 
+                    <lb/>est dit estre porter <choice><sic>limage</sic><corr resp="#MAG">l'image</corr></choice> de Dieu <del rend="strikethrough" resp="#RSL">&amp; defait com͂e Dieu 
+                        com͂ande aux hom͂es</del> Et en 
+                    <lb/>ce sens ie puis dire que les Princes portent <choice><sic>limage</sic><corr resp="#MAG">l'image</corr></choice> de Dieu, &amp; defait 
+                    com͂e Dieu 
+                    <lb/>com͂ande aux hom͂es, qu'il est par dessus eux, &amp; que de luy par luy &amp; 
+                    pour luy sont 
+                    <lb/>toutes choses, de mesme aussi ie puis dire que les Princes sont par dessus 
+                    leurs suiets, 
+                    <lb/>les Princes com͂e vous le saués ne releuent pas de leurs suiets, mais au 
+                    contraire les 
+                    <lb/>suiets releuent de leurs Princes, ce que vous lisés dans <choice><sic>leuangile</sic><corr resp="#MAG">l'euangile</corr></choice> de 
+                    <choice><sic>limage</sic><corr resp="#MAG">l'image</corr></choice> de Cesar, 
+                    <lb/>que selon <choice><sic>lordoñance</sic><corr resp="#MAG">l'ordoñance</corr></choice> du fils de Dieu il la falloit rendre à Cesar, parce 
+                    quelle en 
+                    <lb/>portoit <choice><sic>limage</sic><corr resp="#MAG">l'image</corr></choice>, &amp; Chrestiens ne puis ie pas inferer de la, que vous 
+                    vous deués tout 
+                    <lb/>premierement rendre à Dieu, &amp; puis aprés ensuitte de cela à vos 
+                    princes, &amp; defait puis 
+                    <lb/>en portent <choice><sic>limage</sic><corr resp="#MAG">l'image</corr></choice>, n'est il pas bien iuste que vous vous rendiés à eux en 
+                    Jesu Christ 
+                    <lb/>nostre Seigneur.<g ref="#pdm"/></p> 
+                <p n="18"> 
+                    <lb/> 
+                    <note type="margin">3.</note> Vous deués aussi mes freres vous soumettre à eux 
+                    &amp; leur tesmoigner vostre obeissãce 
+                    <lb/>mais au Seigneur, cet <choice><sic>lexortation</sic><corr resp="#MAG">l'exortation</corr></choice> que vous en donne l'Apostre, que toutes 
+                    persoñes soyent 
+                    <lb/>suiettes aux puissances superieures, car il n'est point de puissance sinon 
+                    de par Dieu, &amp; les 
+                    <lb/>puissances qui sont en estat sont ordonneés de Dieu, pesés mes freres ie 
+                    vous en prie 
+                    <lb/>l'expression de l'Apostre &amp; uoyés qu'elle est sa pensée, vous treuueres 
+                    que ces paroles 
+                    <lb/>renferment sous leur estendue trois <choice><sic>raison</sic><corr resp="#RSL">raisons</corr></choice> les 
+                    plus fortes &amp; les plus preignantes 
+                    <lb/>qu'il se puisse imaginer pour vous porter à cette soumission &amp; à cette obeissance 
+                    <lb/>que vous leur deués, la premiere com͂e il conste est prinse de son autheur 
+                    qui est 
+                    <lb/>le Prince, car dit il il n'y à point de puissance sinon de par Dieu, &amp; 
+                    voicy pour cet 
+                    <lb/>effet le raisoñement de <choice><sic>lApostre</sic><corr resp="#MAG">l'Apostre</corr></choice>, voicy son argument qui conclud fort bien des 
+                    <lb/>antecedents, Nous deuons obeir à ceus qui sont establis sur nous par 
+                    <choice><sic>lordoñance</sic><corr resp="#MAG">l'ordoñance</corr></choice> de 
+                    <lb/>Dieu, car autrement ce seroit resister à Dieu mesme, or est il que cette 
+                    raison doit 
+                    <lb/>suffire, puis qu'il suffit que Dieu com͂ande, donc il sensuit que si nous 
+                    obeissons aux 
+                    <lb/>superieurs, infalliblement nous obeirons à Dieu mesme, &amp; que par le 
+                    contre si nous 
+                    <lb/>somes des obstinés &amp; des desobeissants, nous le luy somes aussi, de la 
+                    vient que <choice><sic>lEternel</sic><corr resp="#MAG">l'Eternel</corr></choice> 
+                    <lb/>luy mesme disoit à Samuel, <quote source="bibleSegond21.xml#_1Sam.8.7">obeis à la voix du peuple, en tout ce qu'ils te 
+                    diront, car ce 
+                    <lb/>n'est pas toy qu'ils ont reietté, mais cet moy, afin que ie ne reigne point 
+                        sur eux</quote>.<g ref="#pdm"/></p> 
+                <p n="19"> 
+                    <lb/>La seconde raison de l'Apostre mes freres, par laquelle il preuue la verité 
+                    de son dire, 
+                    <lb/>elle est prise du mal &amp; du danger, que ceus qui sont rebelles font 
+                    venir sur eux, &amp; 
+                    <lb/>voicy le raisoñement de l'Apostre par lequel il le preuuera auec tant de lumiere 
+                    <lb/>qu'il n'est pas possible <choice><sic>den</sic><corr resp="#MAG">d'en</corr></choice> doutter, <quote source="bibleSegond21.xml#Rom.13.2">Tous ceus qui resistent à la 
+                    puissance superieure 
+                        <lb/>font venir sur eux la condañation</quote>, Si tu y <choice><sic>resiste</sic><corr resp="#RSL">resistes</corr></choice> ô hom͂e, il 
+                    sensuit que donc la 
+                    <lb/>condañation viendra sur toy.<g ref="#pdm"/></p> 
+                 <pb n="11"/> 
+                <p n="20"> 
+                    <lb/>Mais peut estre tu me diras icy ô hom͂e que veut icy entendre <choice><sic>lApostre</sic><corr resp="#MAG">l'Apostre</corr></choice> par cette 
+                    <lb/>condañation, qu'elle est sa penseé sur ce suiet, il m'est bien facile de te 
+                    respondre &amp; de 
+                    <lb/>dire, qu'il <choice><sic>nentend</sic><corr resp="#MAG">n'entend</corr></choice> pas seulement la punition que les iuges infligent aux pecheurs, 
+                    <lb/>mais aussi la vengence de Dieu qu'il prend des pecheurs en cette vie, &amp; 
+                    en celle qui 
+                    <lb/>est à auenir, ô hom͂e considere bien attentiuement cette responce, &amp; tu 
+                    verras quelle 
+                    <lb/><choice><sic>tapprendra</sic><corr resp="#MAG">t'apprendra</corr></choice> qu'elle est cette condañation de laquelle parle l'Apostre.<g ref="#pdm"/></p> 
+                <p n="21"> 
+                    <lb/>Freres bienaimés la troisiesme raison que l'Apostre employe pour prouuer la verité 
+                    <lb/>de son dire, assauoir que nous nous deuons soumettre à la puissance 
+                    superieure, &amp; 
+                    <lb/>luy tesmoigner nostre obeissance, il la prend du proffit &amp; de <choice><sic>lutilité</sic><corr resp="#MAG">l'utilité</corr></choice> 
+                    qui nous reuient 
+                    <lb/>de la puissance superieure, &amp; voicy encore son raisoñement, cet com͂e 
+                    <choice><sic>sil</sic><corr resp="#MAG">s'il</corr></choice> disoit, ô 
+                    <lb/>hom͂e vostre deuoir vous oblige de rendre obeissance à ceus qui vous 
+                    procurent ce 
+                    <lb/>proffit, qui vous apportent des si grands auantages, assauoir que les bons 
+                    sont protegés 
+                    <lb/>&amp; que les meschants sont punis &amp; chastiés, maintenant fesons 
+                    reflection de ces choses 
+                    <lb/>sur la personne Sacreé de Son Altesse Serenissime cette grande &amp; 
+                    glorieuse Princesse, 
+                    <lb/>n'est il pas vray que Dieu la establie par dessus vous, que celuy qui y 
+                    resisteroit feroit 
+                    <lb/>venir sur luy vne iuste condañation, n'est il pas vray qu'il se 
+                    despouilleroit de tous 
+                    <lb/>les auantages qu'il en pourroit perceuoir, Et donc qui <choice><sic>nauouera</sic><corr resp="#MAG">n'auouera</corr></choice> que cette 
+                    conclusion suit 
+                    <lb/>fort bien des antecedents, que donc il luy faut obeir, tesmoigner le 
+                    respect et <choice><sic>lobeissãce</sic><corr resp="#MAG">l'obeissãce</corr></choice> 
+                    <lb/>à cette illustrissime Princesse que Dieu nous à enuoyé en sa grace.<g ref="#pdm"/></p> 
+                <p n="22"> 
+                    <lb/>Peut estre me diras tu icy ô hom͂e, mais luy faut il rendre nostre 
+                    obeissance en toutes 
+                    <lb/>choses, faut il effectuer tous ses com͂andements sans en exepter aucũ, Je te 
+                    respon ô 
+                    <lb/>hom͂e que com͂e cette sage Princesse <choice><sic>na</sic><corr resp="#MAG">n'a</corr></choice> iamais rien com͂andé contre la volonté de 
+                    <lb/>Dieu, qu'aussj elle ne com͂andera iamais rien de contraire à cette diuine volonté, 
+                    <lb/>puis quelle mesme <choice><sic>sy</sic><corr resp="#MAG">s'y</corr></choice> est tousiour soumise, &amp; ainsi pour <choice><sic>mexprimer</sic><corr resp="#MAG">m'exprimer</corr></choice> auec l'Apostre 
+                    <lb/>elle se soumettra tousiour à la volonté de Dieu bonne, plaisante &amp; 
+                    parfaite, ô <choice><sic>quil</sic><corr resp="#MAG">qu'il</corr></choice> 
+                    <lb/>conste donc ô hom͂e que ta demande est innutile, qu'elle à plus de curiosité 
+                    que de 
+                    <lb/>solidité.<g ref="#pdm"/></p> 
+                <p n="23"> 
+                    <lb/>Pour vous mes freres que rien ne soit iamais capable de vous empescher de rendre 
+                    <lb/>vostre obeissance &amp; vos respects que vous luy deués, ouy quand mesme il 
+                    vous faudroit 
+                    <lb/>employer vos vies, vos cors, tous vos biens pour leur conseruation, si 
+                    estce que 
+                    <lb/>vous le deués faire auec <choice><sic>halegresse</sic><corr resp="#MAG">alegresse</corr></choice>, sachés que cet le com͂andement de Dieu 
+                    <lb/>mesme qui vous lenioint, que vous leur payés les tributs, dautant qu'ils 
+                    sont ministres 
+                    <lb/>de Dieu <choice><sic>semployants</sic><corr resp="#MAG">s'employants</corr></choice> à cela &amp; puis qu'il conste que cet la volonté de Dieu 
+                    <lb/>qui vous <choice><sic>lenioint</sic><corr resp="#MAG">l'enioint</corr></choice> &amp; le com͂ande, n'est il pas bien iuste que vous 
+                    <choice><sic>leffectuiyés</sic><corr resp="#MAG">l'effectuiés</corr></choice>, que 
+                    <lb/>vous vous y portiés auec tous les soins imaginables.<g ref="#pdm"/></p> 
+                <p n="24"> 
+                    <lb/>Mais mes freres afin que vous rendiés à cette illustre Princesse l'honneur 
+                    &amp; l'homage 
+                    <lb/>qui luy est d'heu, demandés par vos prieres continuelles à Dieu vostre souuerain 
+                    <lb/>createur, qu'il esloigne de sa persoñe tous les maux, tous les accidents 
+                    ausquels les <pb n="12"/> 
+                    <lb/>hom͂es sont naturellement assuiettis demandés luy qu'il aiouste vn bon nombre 
+                    <lb/><choice><sic>danneés</sic><corr resp="#MAG">d'anneés</corr></choice> à sa vie, com͂e il fit autresfois à celle <choice><sic>dun</sic><corr resp="#MAG">d'un</corr></choice> Ezechias, qu'il luy 
+                    doñe vne vie 
+                    <lb/>heureuse, vne parfaite santé, vne ioye accomplie, ouy dites au Seigneur fay 
+                    la fleurir 
+                    <lb/>cette illustre Princesse en toutes benedictions, conserue la com͂e vn 
+                    <choice><sic>precieu</sic><corr resp="#MAG">precieux</corr></choice> ioyau entre 
+                    <lb/>tes mains, mets la com͂e vn cachet sur ton bras, que sa domination soit accompagneé 
+                    <lb/><choice><sic>dun</sic><corr resp="#MAG">d'un</corr></choice> grand nombre <choice><sic>danneés</sic><corr resp="#MAG">d'anneés</corr></choice>, à la consolation des bons &amp; fidelles &amp; à 
+                    la confusion des mal 
+                    <lb/>intentioñés <choice><sic>sil</sic><corr resp="#MAG">s'il</corr></choice> y en à, donne luy des officiers fidelles selon son coeur, 
+                    qui nous conduisent 
+                    <lb/>conformement à la volonté de Dieu qui est celle 
+                    <choice><sic>deur</sic><corr resp="#RSL">de</corr></choice> leur Altesse Serenissime 
+                    <lb/>cette grande &amp; glorieuse Princesse, afin Seigneur que sous vne 
+                    domination si douce, 
+                    <lb/>si iuste, &amp; si equitable, nous en manquions iamais de nostre costé de 
+                    te glorifier, 
+                    <lb/>de rendre à cette glorieuse Princesse <choice><sic>lhonneur</sic><corr resp="#MAG">l'honneur</corr></choice>, <choice><sic>lobeissance</sic><corr resp="#MAG">l'obeissance</corr></choice> que des 
+                    fidelles suiets sont 
+                    <lb/>obligés de rendre à leur souuerain.<g ref="#pdm"/></p> 
+                <p n="25"> 
+                    <lb/>Et com͂e mes freres ie vien de vous representer vostre deuoir à cet egard, 
+                    soyés ie vous 
+                    <lb/>en prie tout ardents en prieres publiques &amp; en particulieres pour sa 
+                    conseruation, faites 
+                    <lb/>paroistre vostre Zele &amp; vostre pieté, &amp; soyés persuadés que cet 
+                    encens de vos prieres, 
+                    <lb/>sera vn parfun qui montera iusques dans le sanctuaire celeste, qu'il sera 
+                    deuant Dieu 
+                    <lb/>en odeur de boñe senteur, Saint Jaques dit que la priere du iuste faite 
+                    auec <del rend="strikethrough" resp="#RSL">efficace</del> 
+                    <lb/>vehemence est de grande efficace, ce qu'il preuue par la priere <choice><sic>dun</sic><corr resp="#MAG">d'un</corr></choice> Elie, 
+                    qui par ses 
+                    <lb/>prieres ouurit les cieux, &amp; fit dessendre la pluye sur la terre pour 
+                    produire ses fruits 
+                    <lb/>Chrestiens prattiqués vous ces choses, que arriverat il, cet que de moment 
+                    en moment 
+                    <lb/>vous ferés dessendre par vos prieres &amp; vos supplications, la 
+                    benediction du ciel 
+                    <lb/>sur leur Altesse Serenissime cette grande Princesse, &amp; les influances 
+                    des graces du ciel 
+                    <lb/>sur son illustrissime persoñe.<g ref="#pdm"/></p> 
+                <p n="26"> 
+                    <lb/>Hâ mes freres rendes donc à Dieu des sacrifices des veus et des actions de 
+                    graces, qui 
+                    <lb/>vous à tant fauorisé de voir auiourd'huy la Princesse la plus accomplie qui fut 
+                    <lb/>iamais, qui pour ses rares vertus est <choice><sic>lamiration</sic><corr resp="#MAG">l'amiration</corr></choice> du siecle, ouy peuple de 
+                    Dieu que 
+                    <lb/>vous estes heureux <choice><sic>destre</sic><corr resp="#MAG">d'estre</corr></choice> sous sa domination, de releuer de ses ordres 
+                    &amp; <choice><sic>destre</sic><corr resp="#MAG">d'estre</corr></choice> assuiettis 
+                    <lb/>à ses loys, qu'elle gloire, quel auantage ne possedés vous pas, <choice><sic>sil</sic><corr resp="#MAG">s'il</corr></choice> y à 
+                    iamais eu vn 
+                    <lb/>peuple sous la chappe du ciel qui soit obligé de remersier Dieu pour ses <choice><sic>fauueurs</sic><corr resp="#MAG">faueurs</corr></choice> 
+                    <lb/>&amp; ses graces, ie puis dire que vous estes le premier, Dieu vous à 
+                    tousiour doñé pour 
+                    <lb/>vostre conduitte des Princes benins, tout remplis de bonté, de douceur, et <choice><sic>daffection</sic><corr resp="#MAG">d'affection</corr></choice> 
+                    <lb/>à vostre esgard, auiourd'huy il vous continue la mesme grace, que pouués 
+                    vous faire 
+                    <lb/>mes freres pour vous porter recoñoissants de tant de bienfaits, sinon vous escrier 
+                    <lb/>auec le Prophete, Seigneur tous tes bienfaits sont sur moy, cet que ie prendrai 
+                    <lb/>la coupe des deliurances, &amp; ie inuoqueraj à iamais le nom de <choice><sic>lEternel</sic><corr resp="#MAG">l'Eternel</corr></choice>, 
+                    ouy vous 
+                    <lb/>deués vous escrier auec luy, Mon ame beni <choice><sic>lEternel</sic><corr resp="#MAG">l'Eternel</corr></choice>, tout ce qui est en 
+                        moy <pb n="13"/> 
+                    <lb/>beni le nom de sa sainteté, mon ame beni <choice><sic>lEternel</sic><corr resp="#MAG">l'Eternel</corr></choice>, &amp; com͂e nous le 
+                    chantons a 
+                    <lb/>la fin de nos actions, Toutes gens loués le Seigneur, touts peuples chantés son 
+                    <lb/>hoñeur car son vouloir benin &amp; doux est multiplié dessus nous, &amp; sa tresferme 
+                    <lb/>verité demeurera à perpetuité.<g ref="#pdm"/></p> 
+                <p n="27"> 
+                    <lb/>Ouy mes freres ouurants ainsi vos bouches en cantiques, glorifiés le icy 
+                    bas en terre 
+                    <lb/>puis qu'il vous à creés pour sa gloire, attendant le tems que vous le 
+                    glorifiés dans le 
+                    <lb/>magnifique palais de sa sainteté auec toute <choice><sic>larmée</sic><corr resp="#MAG">l'armée</corr></choice> triomphante, auec tous les 
+                    <lb/>miliers <choice><sic>danges</sic><corr resp="#MAG">d'anges</corr></choice> qui assistent continuellement deuant son trosne, &amp; que 
+                    <choice><sic>dun</sic><corr resp="#MAG">d'un</corr></choice> com͂un 
+                    <lb/>accord vous vous escriés en cantique doxologique, Gloire soit à Dieu es lieux 
+                    <lb/>tres hauts, en terre paix enuers les hom͂es boñe 
+                    volonté, Amen ainsi soit il.</p> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1750_Isaac_Jacquelot_ARE"> 
+            <titleStmt> 
+                <title type="sermon">DE L'UTILITÉ DES AFFLICTIONS, Ou Sermon sur Rom. 8. vers. 27.</title> 
+                <title type="book">SERMONS SUR DIVERS TEXTES DE L’ECRITURE SAINTE, Prononcés devant SA MAJESTÉ le Roi de Prusse, par feu M. JACQUELOT, 
+                    MINISTRE DU ST. EVANGILE. TOME PREMIER. A GENEVE, Chez Emanuel du Villard. M.DCC.L.</title> 
+                <author ref="...">Isaac Jacquelot</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="ARE">Aurélie REUSSER-ELZINGRE</persName> 
+                        <email>aurelie.elzingre@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Isaac Jacquelot</author> 
+                        <title>SERMONS SUR DIVERS TEXTES DE L’ECRITURE SAINTE, Prononcés devant SA MAJESTÉ le Roi de Prusse, par feu M. JACQUELOT, 
+                            MINISTRE DU ST. EVANGILE. 
+                            TOME PREMIER.</title> 
+                        <imprint> 
+                            <pubPlace>Genève</pubPlace> 
+                            <publisher>Emanuel du Villard</publisher> 
+                            <date>1750</date>
+                            <date type="sermon"/>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="URI">https://books.google.ch/books?vid=BCUL1099103339</idno> 
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_thématique</term>
+                    <term type="sermonTheme">de l'utlité des afflictions</term>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">24</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Rom.8.27</term>
+                    <term type="paratext" subtype="epistle">AU ROI.</term>
+                    <term type="paratext" subtype="tableOfContents">TABLE DES SERMONS Contenus dans ce premier Tome.</term>
+                </keywords> 
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-04-13" who="#LjD">transformation word - XML</change> 
+            <change when="2016-04-13" who="#MAG">Verification, citations</change> 
+            <change when="2016-03-15" who="#ARE">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                 <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>SERMONS 
+                    <lb/>SUR DIVERS TEXTES 
+                    <lb/>DE 
+                    <lb/>L'ECRITURE SAINTE, 
+                    <lb/>Prononcés devant SA MAJESTÉ 
+                    <lb/>le Roi de Prusse, 
+                    <lb/>par feu M. 
+                    <lb/>JACQUELOT, 
+                    <lb/>MINISTRE DU ST. EVANGILE. 
+                    <lb/>TOME PREMIER.<figure/> 
+                    <lb/>A GENEVE, 
+                    <lb/>Chez Emanuel du Villard.<!--ligne horizontale--> 
+                    <lb/>M.DCC.L.</p> 
+                <!--Edition posthume. Epitre de l'épouse du défunt pasteur, Mme A.M.R. Jaquelot. Ces sermons sont ceux qui avaient été prêchés devant le roi de Prusse par Isaac Jacquelot. Il serait intéressant de savoir si c’est le pasteur Jacquelot lui-même qui a eu le temps de revoir sa copie ou si c’est son épouse qui a repris ses notes de culte.--> 
+            </div> 
+        </front> 
+        <body> 
+            <div type="sermon"> 
+                 <pb n="1"/> 
+                <!--ligne horizontale décorée--> 
+                <head type="main"> 
+                    <lb/> 
+                    <hi rend="I">DE</hi> 
+                    <lb/>L'UTILITÉ 
+                    <lb/> 
+                    <hi rend="I">DES</hi> 
+                    <lb/>AFFLICTIONS, 
+                    <lb/>Ou Sermon sur <ref type="bible" target="bibleSegond21.xml#Rom.8.27">Rom. 8. vers. 
+                        27.</ref> 
+                </head> 
+                <p n="1"> 
+                    <lb/> 
+                    <quote source="bibleOstervald1724.xml#Rom.8.27"> 
+                        <hi rend="I">Or nous savons aussi que toutes choses aident 
+                            <lb/>ensemble en bien à ceux qui aiment 
+                            <lb/>Dieu</hi> 
+                    </quote>. 
+                </p> 
+                <p n="2"> 
+                    <lb/> 
+                    <hi rend="I">SIRE</hi> 
+                    <!--Le pasteur Jacquelot s’adresse au roi de Prusse, Frédéric II--> 
+                </p> 
+                <p n="3"> 
+                    <lb/> 
+                    <c type="lettrine">D</c>ANS l'Histoire des Saints, de 
+                    <lb/>qui le St. Esprit nous a apris la 
+                    <lb/>conduite &amp; la vie, on ne trouve 
+                    <lb/>rien de plus singulier, que la 
+                    <lb/>maniére dont Jacob enleva à 
+                    <lb/>son Pére la bénédiction qu'il destinoit à 
+                    <lb/>Esaü son Fils aîné. On y voit une sainte 
+                    <lb/>Femme enseigner la ruse &amp; la supercherie, <pb n="2"/> 
+                    <lb/>&amp; se charger des suites d'une malédiction 
+                    <lb/>formidable. On y voit Jacob, non 
+                    <lb/>pas petit enfant, mais à l'âge de 60. ans 
+                    <lb/>pour le moins, imposer, par une dissimulation 
+                    <lb/>continuée, aux yeux affoiblis de son Pére. 
+                    <lb/>Et nonobstant toutes ces irrégularités, 
+                    <lb/>on le voit remporter la prééminence 
+                    <lb/>de la bénédiction de Dieu, &amp; d'une bénédiction 
+                    <lb/>irrévocable.</p> 
+                <p n="4"> 
+                    <lb/>Ce grand &amp; rare événement, M.F., 
+                    <lb/>est une espèce de croix &amp; de torture aux 
+                    <lb/>Théologiens anciens &amp; modernes. Les 
+                    <lb/>uns ont dit sans façon qu'il y avoit du 
+                    <lb/>mensonge &amp; du péché. Cet aveu sincère 
+                    <lb/>augmente la difficulté : Dieu auroit-il 
+                    <lb/>voulu récompenser des crimes ? D'autres 
+                    <lb/>ont cru qu'il n'y avoit point de mensonge, 
+                    <lb/>&amp; qu'en effet Esaü avoit substitué 
+                    <lb/>Jacob à sa place par le transport qu'il lui 
+                    <lb/>fit de son droit d'aînesse. Cette raison 
+                    <lb/>pourroit passer, si Jacob s'étoit contenté 
+                    <lb/>de dire qu'il étoit le Fils aîné : mais le 
+                    <lb/>déguisement de son habit &amp; son discours 
+                    <lb/>vont à mon avis trop loin, pour pouvoir 
+                    <lb/>justifier par cette seule raison toute sa conduite. 
+                    <lb/>D'autres enfin ont voulu mettre 
+                    <lb/>tout à couvert sous l'ombre des Allégories 
+                    <lb/>&amp; des Types. Mais si cette méthode étoit 
+                    <lb/>suffisante &amp; recevable, quel crime ne 
+                    <lb/>pourroit-on pas excuser avec le secours 
+                    <lb/>des figures &amp; des mystères ? <pb n="3"/> 
+                    <lb/>Quel parti prendre ? Arrêtons-nous à 
+                    <lb/>ce qu'il y a de clair &amp; d'incontestable. 
+                    <lb/>On y trouve un amour &amp; une ardeur 
+                    <lb/>sans bornes pour ravir les bénédictions 
+                    <lb/>de Dieu ; cela est bon : Esaü avoit méprisé 
+                    <lb/>son droit d'aînesse, il en perdit les 
+                    <lb/>prérogatives, malgré l'inclination de son 
+                    <lb/>Pére, fondée peut-être sur des raisons 
+                    <lb/>humaines &amp; frivoles. Pour la conduite 
+                    <lb/>de Dieu, elle a ses profondeurs que nous 
+                    <lb/>ne saurions sonder. Nous y apercevons 
+                    <lb/>un excès de miséricorde au delà des régles 
+                    <lb/>ordinaires, si j'ose m'exprimer ainsi, 
+                    <lb/>sur quoi nous ne devons pas compter, puisque 
+                    <lb/>c'est une maxime invariable de l'Evangile, 
+                    <lb/><ref target="#fn_3_1" type="noteAnchor">(I)</ref> <quote source="bibleOstervald1724.xml#Rom.3.8"> 
+                        <hi rend="I">qu'il ne faut pas mal faire afin 
+                            <lb/>qu'il en arrive du bien</hi></quote>. 
+                    Disons donc que 
+                    <lb/>cette Histoire a ses clartés &amp; ses ténèbres. 
+                    <lb/>Ne considérons les ombres de ce tableau 
+                    <lb/>que pour en rehausser l'éclat &amp; 
+                    <lb/>la lumiére. Peu s'en faut que je n'aplique 
+                    <lb/>à la Mére du Patriarche , ce qui est 
+                    <lb/>écrit de la Pénitente dans l'Evangile, <ref target="#fn_3_2" type="noteAnchor">(2)</ref>  
+                    <lb/> 
+                    <quote source="bibleSegond21.xml#Luc.7.47"> 
+                        <hi rend="I">elle a beaucoup aimé , c'est pourquoi ses 
+                            <lb/>péchés lui sont pardonnés</hi></quote>. Mais j'aime 
+                    <lb/>mieux , sans garantir d'irrégularité toutes 
+                    <lb/>les circonstances de cette histoire, me 
+                    <lb/>contenter de vous la proposer comme 
+                    <lb/>le corps d'un emblême, dont les paroles 
+                    <lb/>que je vous ai lues seront la devise
+                    <note xml:id="fn_3_1" type="foot" n="(I)"> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.3">Rom. chap. III.</ref> 
+                    </note>
+                    <note xml:id="fn_3_2" type="foot" n="(2)"><ref type="bible" target="bibleSegond21.xml#Luc.7">Luc. chap. VII.</ref> 
+                    </note>
+                     <pb n="4"/> 
+                    <lb/>&amp; le mot ; <quote source="bibleOstervald1724.xml#Rom.8.27"> 
+                        <hi rend="I">Toutes choses aident ensemble 
+                            <lb/>en bien à ceux qui aiment Dieu</hi> 
+                    </quote>. 
+                </p> 
+                <p n="5"> 
+                    <lb/>Pour entrer dans la pensée de S. Paul, 
+                    <lb/>&amp; connoître au juste l'usage qu'il fait de 
+                    <lb/>ces paroles , vous pouvez facilement remarquer 
+                    <lb/>de vous-mêmes, que dès le <ref type="bible" target="bibleSegond21.xml#Rom.8.17">Ꝟ. 
+                        <lb/>17. de ce Chap.</ref>  l'Apôtre parle des afflictions 
+                    <lb/>au sujet de la conformité que nous 
+                    <lb/>devons avoir avec Jesus-Christ. Il employe 
+                    <lb/>deux puissantes raisons pour consoler 
+                    <lb/>les Chrétiens, &amp; pour les animer 
+                    <lb/>à faire leur devoir au milieu de leurs 
+                    <lb/>souffrances &amp; des tentations de ce monde. 
+                    <lb/>L'une est, que dans ces momens 
+                    <lb/>d'angoisses, qui troublent nos ames, <quote source="bibleOstervald1724.xml#Rom.8.25"> 
+                        <hi rend="I">l'Esprit 
+                            <lb/>prie pour nous par des soupirs qui ne 
+                            <lb/>se peuvent exprimer</hi> 
+                    </quote> 
+                    <hi rend="I">; </hi>L'autre que <quote source="bibleOstervald1724.xml#Rom.8.27"> 
+                        <hi rend="I">toutes 
+                            <lb/>choses concourent au salut de ceux qui 
+                            <lb/>aiment Dieu</hi> 
+                    </quote>. Heureuse vérité, qui seule 
+                    <lb/>peut faire ici bas la joye de nos cœurs ! 
+                    <lb/>Pour la méditer avec ordre, il faut vous 
+                    <lb/>dire quelque chose de la Providence , &amp; 
+                    <lb/>vous parler ensuite du soin qu'elle prend 
+                    <lb/>de ceux qui aiment Dieu , dans la direction 
+                    <lb/>des événemens ; Dieu veuille faire 
+                    <lb/>servir cette Méditation à imprimer 
+                    <lb/>son amour dans nos cœurs , afin que 
+                    <lb/>nous puissions nous assurer que tous les 
+                    <lb/>accidens de la vie serviront à notre salut , 
+                    <lb/>Amen. <pb n="5"/> 
+                </p> 
+                <div n="1" type="sub"> 
+                    <head type="sub"> 
+                        <lb/>I. PARTIE.</head> 
+                    <p n="6"> 
+                        <lb/>La Providence est sans contredit une 
+                        <lb/>vérité qui frape les sens, &amp; qui n'exige 
+                        <lb/>de l'homme aucun effort de crédulité 
+                        <lb/>pour la recevoir. Quoi qu'on puisse dire 
+                        <lb/>des loix du mouvement, &amp; d'un systême 
+                        <lb/>de méchanique , pour peu qu'on 
+                        <lb/>apporte d'attention à l'examen de l'Univers 
+                        <lb/>&amp; des créatures qui le composent , 
+                        <lb/>le bon sens se trouve porté à reconnoître 
+                        <lb/>un souverain Directeur de la machine 
+                        <lb/>du monde, &amp; contraint d'admirer sa 
+                        <lb/>sagesse &amp; son pouvoir. Le Psalmiste dit, 
+                        <lb/><ref target="#fn_5_I" type="noteAnchor">(I)</ref>  que Dieu a posé les fondemens de 
+                        <lb/>cette sagesse &amp; de ses loüanges dans la bouche 
+                        <lb/>des petites enfans. En effet, comme 
+                        <lb/>il ne faut pas être Philosophe pour conclure 
+                        <lb/>à la vue d'un édifice, que les escaliers 
+                        <lb/>sont faits pour monter aux appartemens, 
+                        <lb/>les portes pour entrer dans les 
+                        <lb/>chambres, les fenêtres pour y admettre 
+                        <lb/>la clarté du jour : il ne faut pas aussi 
+                        <lb/>plus d'effort pour appercevoir dans la 
+                        <lb/>structure du corps d'un animal l'usage de 
+                        <lb/>ses organes, pour reconnoître que l'œil a 
+                        <lb/>été fait pour voir , les oreilles pour ouïr 
+                        <lb/>&amp; les pieds pour marcher. Tout est égal : 
+                        <lb/>&amp; je ne comprens pas comment ceux 
+                        <lb/>qui reconnoissent dans les commodités
+                        <note xml:id="fn_5_I" type="foot" n="(I)"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.8">Pseaume VIII.</ref> 
+                        </note>
+                         <pb n="6"/> 
+                        <lb/>d'une maison l'esprit &amp; l'intention de 
+                        <lb/>l'Architecte, osent se retrancher dans une 
+                        <lb/>ignorance affectée lorsqu'il s'agit de ce 
+                        <lb/>monde, plutôt que d'admettre un premier 
+                        <lb/>Être sage &amp; intelligent, un Créateur 
+                        <lb/>&amp; un Maître de l'Univers, qui s'est 
+                        <lb/>proposé un dessein dans la formation des 
+                        <lb/>créatures, comme l'a reconnu l'Auteur 
+                        <lb/>du Pseaume CIV. qui contient l'éloge 
+                        <lb/>de la Providence. Examinons encore cette 
+                        <lb/>comparaison : une porte s'ouvre, parce 
+                        <lb/>qu'elle est posée sur ses gonds, nôtre 
+                        <lb/>œil tourne de tous côtés, parce qu'il 
+                        <lb/>est attaché à des muscles qui le font mouvoir ; 
+                        <lb/>voilà ce que la méchanique peut 
+                        <lb/>dire. Mais comme une porte ne s'ouvre 
+                        <lb/>que pour donner entrée dans la maison 
+                        <lb/>selon le dessein de l'Architecte, de 
+                        <lb/>même aussi toute la structure de l'œil n'a 
+                        <lb/>été faite manifestement que pour nous 
+                        <lb/>faire appercevoir les objets qui le frappent, 
+                        <lb/>suivant l'intention du Créateur. 
+                        <lb/>Vouloir révoquer en doute le dessein de 
+                        <lb/>celui qui a formé l'œil, c'est tomber dans 
+                        <lb/>la même extravagance d'un homme, 
+                        <lb/>qui voudroit douter de l'intention d'un 
+                        <lb/>Architecte , dans la construction d'un 
+                        <lb/>Palais. Insensés, dit le St. Esprit, <ref target="#fn_6_I" type="noteAnchor">(I)</ref> 
+                        <lb/>celui qui a formé l'œil &amp; l'oreille ne 
+                        <lb/>verroit-il point &amp; n'entendroit-il pas ?
+                        <note xml:id="fn_6_I" type="foot" n="(I)"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.94">Pseaume XCIV.</ref> 
+                        </note>  
+                         <pb n="7"/> 
+                        <lb/>Ces deux mots terrassent l'impiété. Ne 
+                        <lb/>soyons donc pas surpris d'ouïr S. Paul <ref target="#fn_7_I" type="noteAnchor">(I)</ref>  
+                        <lb/>nous dire , que nous avons en Dieu <quote source="bibleSegond21.xml#Acts.17"> 
+                            <hi rend="I">l'être , 
+                                <lb/>la vie , &amp; le mouvement</hi> 
+                        </quote> 
+                        <hi rend="I">;</hi> puisque 
+                        <lb/>sans parler de notre ame formée à l'image 
+                        <lb/>de Dieu, toute la machine de notre 
+                        <lb/>corps, composée pour divers usages qui 
+                        <lb/>lui sont propres , nous crie que nous 
+                        <lb/>sommes l'ouvrage d'un puissant &amp; sage 
+                        <lb/>Créateur.</p> 
+                    <p n="7"> 
+                        <lb/>C'est en vain que le libertin attaque 
+                        <lb/>la Providence par des questions curieuses ; 
+                        <lb/>pourquoi tant d'astres dans les Cieux ? 
+                        <lb/>Pourquoi tant d'insectes inutiles sur la 
+                        <lb/>terre ? A quoi bon faire tomber les foudres 
+                        <lb/>&amp; les pluyes sur les rochers &amp; sur 
+                        <lb/>l'Océan ? Est-ce donc que nous sommes 
+                        <lb/>entrés dans le conseil secret de Dieu, 
+                        <lb/>lorsqu'il formoit le plan des créatures , 
+                        <lb/>pour être obligés de rendre raison de 
+                        <lb/>tous ses ouvrages ? Sans quoi on se croit 
+                        <lb/>en droit de tirer de notre ignorance , 
+                        <lb/>des conclusions injurieuses à la sagesse 
+                        <lb/>du Tout-puissant.</p> 
+                    <p n="8"> 
+                        <lb/>Quoi donc ? parce que Dieu ne fait 
+                        <lb/>point de miracles, ne renverse pas les loix 
+                        <lb/>de la nature pour empêcher les foudres &amp; 
+                        <lb/>pluyes de tomber inutilement dans l'Océan 
+                        <lb/>ou dans les déserts, ou parce que nous 
+                        <lb/>ne connoissons pas l'usage de cette variété
+                        <note xml:id="fn_7_I" type="foot" n="(I)"> 
+                            <ref type="bible" target="bibleSegond21.xml#Acts.17">Act. Chap. XVII.</ref> 
+                        </note>
+                         <pb n="8"/> 
+                        <lb/>infinie de créatures, dont les moindres 
+                        <lb/>suffisent pour occuper notre méditation, 
+                        <lb/>faudra-t-il s'imaginer que cette vaste &amp; 
+                        <lb/>incompréhensible étendue de l'Univers, 
+                        <lb/>n'ait qu'un aveugle hazard pour règle 
+                        <lb/>de sa conduite, lorsque la considération 
+                        <lb/>de notre propre corps &amp; le sentiment de 
+                        <lb/>nous mêmes, contraint le bon sens de reconnoître 
+                        <lb/>la sagesse de celui qui nous a 
+                        <lb/>formés ? N'est-il pas beaucoup plus raisonnable 
+                        <lb/>de conclure, que les organes du 
+                        <lb/>corps humain étant nécessairement figurés 
+                        <lb/>de la maniere qu'il faut, pour exercer 
+                        <lb/>les diverses fonctions de la vie, le 
+                        <lb/>premier Architecte de ce corps a eu ses 
+                        <lb/>vues &amp; ses desseins ? Cela nous suffit ; 
+                        <lb/>car si l'intelligence du premier principe se 
+                        <lb/>fait remarquer si sensiblement dans la 
+                        <lb/>construction du corps humain, il y a de 
+                        <lb/>toute nécessité de la sagesse, de la connoissance 
+                        <lb/>&amp; de l'intention, dans l'Auteur 
+                        <lb/>Souverain de l'Univers.</p> 
+                    <p n="9"> 
+                        <lb/>Joignons la Providence par cet argument 
+                        <lb/>démonstratif : Si le Créateur de 
+                        <lb/>l'Univers a formé le monde suivant ses 
+                        <lb/>vues &amp; ses desseins, il faut nécessairement 
+                        <lb/>qu'il l'entretienne pour l'accomplissement 
+                        <lb/>de la fin qu'il s'est proposée : Et voilà 
+                        <lb/>la Providence que la Religion enseigne, 
+                        <lb/>à la considerer dans une vue générale 
+                        <lb/>qui s'étend à toutes les Créatures. <pb n="9"/> 
+                        <lb/>Mais puisque l'homme, préférablement 
+                        <lb/>à tous les êtres corporels, a reçu du Créateur 
+                        <lb/>un Esprit pour le connoître, pour 
+                        <lb/>l'adorer &amp; pour le servir , on ne sauroit 
+                        <lb/>douter que la Providence n'ait des vues 
+                        <lb/>particulieres à l'égard de ces créatures 
+                        <lb/>libres &amp; raisonnables : Et comme nous 
+                        <lb/>ne voulons pas nous dissiper dans le lieu 
+                        <lb/>commun de la Providence, nous suivrons 
+                        <lb/>de près nôtre Apôtre, &amp; nous examinerons 
+                        <lb/>la direction des événemens par rapport 
+                        <lb/>à ceux qui aiment Dieu. <quote source="bibleOstervald1724.xml#Rom.8.27"> 
+                            <hi rend="I">Toutes 
+                                <lb/>choses</hi>, <seg type="interpolation">dit-il,</seg><hi rend="I"> 
+                                aident ensemble en bien à 
+                                <lb/>ceux qui aiment Dieu</hi> 
+                        </quote>. 
+                    </p> 
+                    <p n="10"> 
+                        <lb/>Pour bien comprendre sa pensée, il 
+                        <lb/>faut raporter ici la Thése générale de cette 
+                        <lb/>Epître , que l'Apôtre pose en termes 
+                        <lb/>formels au <ref type="bible" target="bibleSegond21.xml#Rom.8.27">vers. 27. de ce Chapitre</ref> ; 
+                        <lb/>c'est qu'<quote source="bibleOstervald1724.xml#Rom.8.17"> 
+                            <hi rend="I">étant les Enfans de Dieu, nous 
+                                <lb/>sommes </hi>par conséquent<hi rend="I"> héritiers de ses 
+                                <lb/>biens &amp; cohéritiers de Christ, lors même 
+                                <lb/>que nous souffrons avec lui ; parce que si 
+                                <lb/>nous souffrons à cause de l'Evangile</hi> 
+                        </quote>, c'est 
+                        <lb/>afin qu'après avoir été ici bas conformes 
+                        <lb/>à Jesus-Christ dans les afflictions, nous 
+                        <lb/>soyons aussi rendus participans de sa gloire ; 
+                        <lb/>de sorte que <quote source="bibleOstervald1724.xml#Rom.8.18"> 
+                            <hi rend="I">tout bien compté</hi>, tout 
+                            <lb/>bien examiné,<!--citation approximative--> 
+                            <hi rend="I">j'estime, </hi><seg type="interpolation">dit cet Apôtre,</seg> 
+                            <lb/> 
+                            <hi rend="I">que les souffrances du tems présent ne sauroient 
+                                <lb/>balancer ni contrepeser la gloire à 
+                                <lb/>venir, qui doit être révélée en 
+                            nous</hi></quote>. 
+                         <pb n="10"/> 
+                        <lb/>Cette Thése étoit directement opposée 
+                        <lb/>à la Théologie des Juifs, qui prenant 
+                        <lb/>un peu trop à la lettre les promesses de 
+                        <lb/>la Loi de Moïse , s'imaginoient qu'un 
+                        <lb/>homme justifié, &amp; dans l'état de Grace , 
+                        <lb/>devoit jouir d'une vie heureuse &amp; 
+                        <lb/>paisible, dans la possession des biens de 
+                        <lb/>la terre, &amp; ils tiroient de fâcheuses conséquences 
+                        <lb/>contre l'Evangile, à cause qu'elle 
+                        <lb/>exposoit aux afflictions ses Sectateurs. 
+                        <lb/>Cette difficulté étoit considérable &amp; méritoit 
+                        <lb/>d'être examinée à fond, ce que 
+                        <lb/>St. Paul entreprit dans cette belle &amp; divine 
+                        <lb/>Epître. Le Juif prétendoit être justifié 
+                        <lb/>par les cérémonies de la Loi, il 
+                        <lb/>cherchoit le pardon de ses péchés dans la 
+                        <lb/>repentance, je ne voudrois pas le nier, 
+                        <lb/>mais principalement dans les sacrifices , 
+                        <lb/>&amp; sur-tout dans ce grand sacrifice qu'ils 
+                        <lb/>célébroient le dixiéme jour du septiéme 
+                        <lb/>mois, le jour de l'Expiation, auquel S. Paul 
+                        <lb/>a principalement égard dans son 
+                        <lb/>Epître aux Hébreux. Comment l'Apôtre 
+                        <lb/>traite-t-il ce sujet dans notre Epître ? 
+                        <lb/>Il prouve que la Loi Morale, gravée 
+                        <lb/>naturellement dans le cœur des hommes, 
+                        <lb/>ayant été violée par les Juifs comme 
+                        <lb/>par les Gentils , il étoit nécessaire 
+                        <lb/>que les péchés des uns &amp; des autres 
+                        <lb/>fussent expiés par quelque sacrifice : &amp; 
+                        <lb/>comme le Sang des Taureaux &amp; des <pb n="11"/> 
+                        <lb/>Boucs n'étoit pas capable d'effacer le péché, 
+                        <lb/><ref target="#fn_11_I" type="noteAnchor">(I)</ref><hi rend="I"> </hi> 
+                        <quote source="bibleOstervald1724.xml#Rom.3.24"> 
+                            <hi rend="I">Dieu avoit ordonné de tout tems 
+                                <lb/>le Sang de Jesus-Christ pour être notre 
+                                <lb/>propiciatoire par la foi en son nom</hi> 
+                        </quote> : De 
+                        <lb/>sorte que nous sommes justifiés gratuitement 
+                        <lb/>par sa grace, par la rédemption 
+                        <lb/>qui est en lui. Après quoi il traite des 
+                        <lb/>avantages de cette justification par la foi, 
+                        <lb/>plus grands infiniment que tous les biens 
+                        <lb/>de la Canaan. C'est qu'étant <quote source="bibleOstervald1724.xml#Rom.5.1"> 
+                            <hi rend="I">justifiés 
+                                <lb/>par la foi, </hi><ref target="#fn_11_2" type="noteAnchor">(2)</ref><hi rend="I"> nous avons la paix avec 
+                                <lb/>Dieu par notre Seigneur 
+                            Jesus-Christ</hi></quote>. Il 
+                        <lb/>montre ensuite qu'on ne devoit pas abuser 
+                        <lb/>de cette doctrine de la Grace, comme 
+                        <lb/>prétendoient les Ennemis de l'Evangile, 
+                        <lb/>qui disoient, <ref target="#fn_11_3" type="noteAnchor">(3)</ref> <quote source="bibleOstervald1724.xml#Rom.6.1"> 
+                            <hi rend="I">péchons pour faire 
+                                <lb/>que la grace abonde</hi></quote>. L'Apôtre montre 
+                        <lb/>au contraire, que la foi qui nous justifie 
+                        <lb/>nous fait mourir &amp; renoncer au péché, 
+                        <lb/>afin de vivre dans la justice. Enfin après 
+                        <lb/>avoir établi cette doctrine Evangelique, 
+                        <lb/>Saint Paul met en opposition le méchant 
+                        <lb/>sous la servitude du Péché, quelque douce 
+                        <lb/>&amp; heureuse que sa condition paroisse 
+                        <lb/>aux yeux du monde, avec un homme 
+                        <lb/>justifié par la foi, quelque triste que son 
+                        <lb/>état paroisse aux yeux de la chair, à 
+                        <lb/>cause des afflictions qui l'environnent, 
+                        <lb/>afin de montrer les vrais avantages de la 
+                        <note xml:id="fn_11_I" type="foot" n="(I)"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.3">Rom. Chap. III.</ref> 
+                        </note>
+                        <note xml:id="fn_11_2" type="foot" n="(2)"><ref type="bible" target="bibleSegond21.xml#Rom.5">Là même Chap. V.</ref> 
+                        </note> 
+                        <note xml:id="fn_11_3" type="foot" n="(3)"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.6">Chap. VI.</ref> 
+                        </note>
+                         <pb n="12"/> 
+                        <lb/>justification, que le Juif recherchoit mal 
+                        <lb/>à propos dans une prosperité temporelle. 
+                        <lb/>Ces deux tableaux se trouvent dans les 
+                        <lb/> 
+                        <ref type="bible" target="bibleSegond21.xml#Rom.7;Rom.8">Chap. 7. &amp; 8.</ref> de <hi rend="I">cette 
+                            Epître</hi>. Faire 
+                        <lb/>toujours le mal contre sa propre conscience, 
+                        <lb/>ne pouvoir suivre le bien qu'on 
+                        <lb/>aprouve, &amp; qu'on desire, être vendu au 
+                        <lb/>péché, vivre dans l'esclavage sous ce dur 
+                        <lb/>joug, porter toujours dans l'intérieur de 
+                        <lb/>ses pensées un jugement contre soi-même, 
+                        <lb/>vivre sous le poids accablant d'une 
+                        <lb/>secrete condamnation ; toutes les fois 
+                        <lb/>que la conscience se reveille, quelle 
+                        <lb/>mort ! <quote source="bibleOstervald1724.xml#Rom.8.10"> 
+                            <hi rend="I">Quel corps de mort</hi></quote> <hi rend="I">!</hi> 
+                         pour parler 
+                        <lb/>avec l'Apôtre ; à quoi néanmoins les Juifs 
+                        <lb/>faisoient peu d'attention, contens des 
+                        <lb/>biens de la terre promise. C'étoit là un 
+                        <lb/>état véritablement malheureux, incompatible 
+                        <lb/>qu'il étoit avec la paix de l'ame , 
+                        <lb/>avec la paix de Dieu. C'étoient des afflictions 
+                        <lb/>trop réelles, qui répandoient 
+                        <lb/>leur amertume, &amp; sur la vie présente, 
+                        <lb/>&amp; sur la vie à venir.</p> 
+                    <p n="11"> 
+                        <lb/>Mais être délivré par la foi en Jesus-Christ 
+                        <lb/>de ce joug accablant de condamnation, 
+                        <lb/>sentir la paix de Dieu dans son 
+                        <lb/>cœur, suivre la Loi de l'esprit de vie , 
+                        <lb/>être affranchi de la Loi du péché &amp; de 
+                        <lb/>la mort, posséder son ame par sa patience, 
+                        <lb/>goûter les douceurs de l'espérance 
+                        <lb/>d'une immortalité bien-heureuse, <pb n="13"/> 
+                        <lb/>voilà les avantages de l'Evangile, que 
+                        <lb/>les Juifs trouvoient peut-être trop spirituels 
+                        <lb/>&amp; trop imperceptibles. L'Apôtre 
+                        <lb/>attaque ensuite la difficulté dans les formes, 
+                        <lb/>&amp; montre que si le fidéle justifié 
+                        <lb/>est encore exposé aux tristes suites de la 
+                        <lb/>mortalité, &amp; aux afflictions, qui accompagnent 
+                        <lb/>souvent la profession de l'Evangile , 
+                        <lb/>bien loin que ces afflictions soient 
+                        <lb/>incompatibles avec la condition d'un 
+                        <lb/>homme justifié, comme prétendoient les 
+                        <lb/>Juifs , qu'au contraire ce sont des marques 
+                        <lb/>de notre conformité avec Jesus-Christ, 
+                        <lb/>&amp; des moyens puissans sous la 
+                        <lb/>direction de la Grace pour nous conduire 
+                        <lb/>au salut. Nous avons voulu reprendre 
+                        <lb/>le raisonnement de l'Apôtre dès son 
+                        <lb/>commencement, ce qui nous a obligé 
+                        <lb/>de vous donner en peu de mots l'idée 
+                        <lb/>de sa Théologie dans l'Analyse de cette 
+                        <lb/>Epître, afin de vous convaincre pleinement, 
+                        <lb/>que par <quote source="bibleOstervald1724.xml#Rom.8.27"> 
+                            <hi rend="I">toutes ces choses</hi> 
+                        </quote>, que la 
+                        <lb/>Providence fait concourir au salut de ceux 
+                        <lb/>qui aiment Dieu, il faut entendre les 
+                        <lb/>différens états de prospérité ou d'adversité , 
+                        <lb/>mais sur-tout d'adversité ; c'étoit 
+                        <lb/>l'état de la question ; c'est aussi la réfléxion 
+                        <lb/>dominante dans ce beau Chapitre. 
+                        <lb/>Tantôt il parle <quote source="bibleOstervald1724.xml#Rom.8.20"> 
+                            <hi rend="I">de la vanité sous le joug 
+                                <lb/>de laquelle les Créatures soupirent</hi> 
+                        </quote>, tantôt 
+                        <lb/>il fait mention <quote source="bibleOstervald1724.xml#Rom.8.34"> 
+                            <hi rend="I">d'angoisse, de persécution</hi>, <pb n="14"/> 
+                            <lb/> 
+                            <hi rend="I">de famine, de nudité, de péril &amp; 
+                            d'épée</hi></quote>. 
+                        <lb/>Enfin il conclut, que <quote source="bibleSegond21.xml#Rom.8.38"> 
+                            <hi rend="I">ni les choses présentes, 
+                                <lb/>ni les accidens à venir , ne pourront 
+                                <lb/>nous séparer de la dilection de Dieu</hi>, parce que 
+                            <lb/> 
+                            <hi rend="I">toutes ces choses concourent au bien 
+                                <lb/>&amp; au salut de ceux qui le craignent</hi> 
+                            <!--citation approximative--> 
+                        </quote>. 
+                    </p> 
+                </div> 
+                <div n="2" type="sub"> 
+                    <head type="sub"> 
+                        <lb/>II. PARTIE.</head> 
+                    <p n="12"> 
+                        <lb/>La conséquence paroîtra juste &amp; légitime, 
+                        <lb/>sitôt que nous nous serons formés 
+                        <lb/>quelque idée de l'amour que nous devons 
+                        <lb/>avoir pour Dieu, &amp; de la véritable nature 
+                        <lb/>de cet amour. Si nous considérons 
+                        <lb/>Dieu comme l'Etre tout parfait, comme 
+                        <lb/>le Créateur de l'Univers, cette idée se 
+                        <lb/>saisit d'abord de toutes nos pensées. Elle 
+                        <lb/>remplit également nos esprits d'estime &amp; 
+                        <lb/>d'admiration &amp; nos cœurs de respect &amp; 
+                        <lb/>d'amour, autant que nous en sommes capables. 
+                        <lb/>Si nous le regardons comme l'Auteur 
+                        <lb/>&amp; le conservateur de notre vie, puisque 
+                        <lb/>c'est <quote source="bibleOstervald1724.xml#Rom.14.8"> 
+                            <hi rend="I">par lui que nous vivons, c'est 
+                                <lb/>aussi pour lui que nous devons vivre</hi> 
+                        </quote> pour 
+                        <lb/>servir à sa gloire : heureux que nous 
+                        <lb/>sommes de travailler en même tems à 
+                        <lb/>notre salut. Si nous méditons l'excès de 
+                        <lb/>la miséricorde, dont il a usé envers nous 
+                        <lb/>dans notre rédemption, nos coeurs transportés 
+                        <lb/>des mouvemens d'amour &amp; de reconnoissance , 
+                        <lb/>s'écrieront avec un grand <pb n="15"/> 
+                        <lb/>Roi dans le sentiment des faveurs de son 
+                        <lb/>Dieu, <quote source="bibleOstervald1724.xml#Ps.116.12"> 
+                            <hi rend="I">que rendrons-nous à l'Eternel ;</hi> <ref target="#fn_15_I" type="noteAnchor">(I)</ref>
+                            <lb/> 
+                            <hi rend="I">tous ses bienfaits sont sur 
+                            nous</hi></quote>. Je me 
+                        <lb/>contente, M. Fr., de vous indiquer ces 
+                        <lb/>sources d'amour &amp; de reconnoissance envers 
+                        <lb/>Dieu, persuadé que je veux être, 
+                        <lb/>qu'il suffit de vous les proposer pour 
+                        <lb/>vous faire connoître &amp; sentir vos 
+                        obligations<supplied resp="#MAG" reason="omission">.</supplied></p> 
+                    <p n="13"> 
+                        <lb/>Pour la nature de cet amour, il seroit 
+                        <lb/>inutile, M. Fr., de vous dire qu'il doit 
+                        <lb/>être sincere, nous le savons tous. Mais 
+                        <lb/>il est nécessaire de nous représenter souvent 
+                        <lb/>que cet amour doit être unique en 
+                        <lb/>son espece, qu'il doit remplir tout nostre 
+                        <lb/>cœur sans partage &amp; sans reserve , 
+                        <lb/>parce que nous <quote source="bibleOstervald1724.xml#Deut.10.12"> 
+                            <hi rend="I">devons aimer Dieu de tout 
+                                <lb/>notre cœur, &amp; de toutes nos forces</hi> 
+                        </quote>, selon 
+                        <lb/>le Commandement de la Loi : Nous 
+                        <lb/>nous plaisons à donner à ce précepte un 
+                        <lb/>sens de rigueur , avec une exactitude 
+                        <lb/>métaphysique, afin de conclure que son 
+                        <lb/>observation est impossible dans cette vie , 
+                        <lb/>non pour reconnoître nos infirmités , 
+                        <lb/>mais plutôt pour nous y abandonner indolemment, 
+                        <lb/>&amp; pour ne pas conserver d'une 
+                        <lb/>Loi si nécessaire &amp; si indispensable, que 
+                        <lb/>l'idée &amp; la spéculation. Je consens qu'on 
+                        <lb/>avoue, comme il est très-certain, qu'aimer 
+                        <lb/>Dieu sans défaut ne soit pas le partage
+                        <note xml:id="fn_15_I" type="foot" n="(I)"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.116">Ps. CXVI.</ref> 
+                        </note> 
+                         <pb n="16"/> 
+                        <lb/>des saints sur la terre. Mais je sai 
+                        <lb/>aussi que nous devons tous être convaincus, 
+                        <lb/>qu'il faut aimer Dieu plus que le 
+                        <lb/>monde , ni que toutes les choses du 
+                        <lb/>monde , parce qu'il est notre Dieu,notre 
+                        <lb/>Créateur &amp; notre Rédempteur , &amp; 
+                        <lb/>qu'ayant donné son Fils pour nous, il 
+                        <lb/>nous a en même tems donné le droit 
+                        <lb/>d'aspirer à la possession de sa gloire. 
+                        <lb/>S'il y avoit de l'embarras à choisir entre 
+                        <lb/>les biens de l'ame &amp; les biens du 
+                        <lb/>corps, entre le tems présent &amp; l'éternité, 
+                        <lb/>entre cette vie, traversée de peines, 
+                        <lb/>de soins importuns , toujours occupée 
+                        <lb/>de l'inconstance de son état, de 
+                        <lb/>l'incertitude de sa durée, &amp; une immortalité, 
+                        <lb/>comblée de gloire &amp; de tranquilité ; 
+                        <lb/>il ne faudroit pas trouver étrange 
+                        <lb/>que nos cœurs fussent partagés, entre 
+                        <lb/>des objets, sur le prix &amp; sur la préférence 
+                        <lb/>desquels il seroit difficile de se déterminer. 
+                        <lb/>Mais comme le monde &amp; tous 
+                        <lb/>ses biens ne peuvent contrepeser cette 
+                        <lb/>gloire, ce poids de gloire qui est à venir 
+                        <lb/>&amp; que nous espérons, il s'ensuit manifestement, 
+                        <lb/>que l'amour de Dieu doit occuper 
+                        <lb/>la premiere place dans nos ames, de 
+                        <lb/>même que l'espérance des biens qui nous 
+                        <lb/>sont promis, doit remplir la vaste capacité 
+                        <lb/>de nos desirs.</p> 
+                    <p n="14"> 
+                        <lb/>Poussons ce raisonnement ; nous connoîtrons <pb n="17"/> 
+                        <lb/>sans peine, quel doit être cet 
+                        <lb/>amour, que la souveraine perfection de 
+                        <lb/>la Divinité, &amp; l'excellence de ses promesses 
+                        <lb/>exige de nous. Puisque nous devons 
+                        <lb/>aimer Dieu plus que le monde, il 
+                        <lb/>s'ensuit nécessairement, que l'amour du 
+                        <lb/>monde &amp; de ses biens, doit être entiérement 
+                        <lb/>subordonné &amp; soumis à l'amour 
+                        <lb/>que nous devons à Dieu , autant que 
+                        <lb/>l'esprit juge qu'une éternité de bonheur 
+                        <lb/>&amp; de gloire est préferable aux biens passagers 
+                        <lb/>&amp; à la gloire fugitive de ce monde. 
+                        <lb/>Si nous raisonnons juste, nous desirerons 
+                        <lb/>infiniment davantage d'être éternellement 
+                        <lb/>heureux dans le Paradis de 
+                        <lb/>Dieu, plutôt que de hazarder la perte de 
+                        <lb/>ces biens infinis, pour la possession d'une 
+                        <lb/>béatitude incertaine &amp; trompeuse, dont 
+                        <lb/>le monde repaît nos desirs. Point de 
+                        <lb/>milieu, M. Fr., point de partage ; ou il 
+                        <lb/>faut renoncer à l'espérance d'une éternité 
+                        <lb/>bien-heureuse, &amp; en effacer les idées, 
+                        <lb/>ou elle doit être le principal attrait de 
+                        <lb/>nos desirs, comme le premier ressort de 
+                        <lb/>notre conduite &amp; de nos mouvemens ; 
+                        <lb/>c'est-à-dire, l'amour du monde doit ceder 
+                        <lb/>à l'amour de Dieu, toutes les fois 
+                        <lb/>qu'ils se trouvent en opposition. Cette 
+                        <lb/>vérité est de la derniere évidence, &amp; 
+                        <lb/>d'une certitude indubitable.</p> 
+                    <p n="15"> 
+                        <lb/>Néanmoins parlons franchement, le <pb n="18"/> 
+                        <lb/>monde nous séduit &amp; nous enchante, sa 
+                        <lb/>gloire toujours présente à nos yeux nous 
+                        <lb/>éblouit, ses biens à portée de nos sens 
+                        <lb/>font de fortes impressions sur nous ; contens 
+                        <lb/>du bonheur dont nous jouissons, 
+                        <lb/>nous ne pensons guéres à l'avenir : De 
+                        <lb/>sorte que le monde s'empare insensiblement, 
+                        <lb/>ou de vive force, de nos cœurs, 
+                        <lb/>sans que nous y fassions réfléxion. Comment 
+                        <lb/>vit-on ordinairement dans le monde ? 
+                        <lb/>Il seroit difficile de l'ignorer. On y 
+                        <lb/>vit pénétrés &amp; tout occupés de ses biens 
+                        <lb/>&amp; de ses plaisirs ; l'un se travaille uniquement 
+                        <lb/>pour amasser des richesses, un 
+                        <lb/>autre les dissipe dans une molle oisiveté, 
+                        <lb/>dans de vains amusemens, ou dans des 
+                        <lb/>plaisirs criminels. On laisse floter à toute 
+                        <lb/>aventure, &amp; au gré des Passions, l'espérance 
+                        <lb/>d'une vie éternelle sur la superficie 
+                        <lb/>de nos ames, sans la fixer pas la méditation, 
+                        <lb/>par de fréquentes réfléxions, afin 
+                        <lb/>qu'elle y produise une persuasion solide, 
+                        <lb/>constante &amp; efficace. Quelques actes exterieurs 
+                        <lb/>de piété &amp; de charité suffisent 
+                        <lb/>pour nous endormir, &amp; pour nous répondre 
+                        <lb/>à nous-mêmes de la miséricorde 
+                        <lb/>de Dieu &amp; du salut qu'il nous a promis. 
+                        <lb/>Par conséquent le principal devoir, la 
+                        <lb/>grande affaire du Chrétien, c'est de veiller 
+                        <lb/>avec soin sur son propre cœur, afin de 
+                        <lb/>soumettre l'amour du monde à l'amour <pb n="19"/> 
+                        <lb/>de Dieu, en telle sorte que la piété &amp; 
+                        <lb/>la charité tiennent le premier lieu dans 
+                        <lb/>nos ames. C'étoit la pensée de Jesus- 
+                        <lb/>Christ, quand il nous dit, qu'on <quote source="bibleOstervald1724.xml#Luke.16.13"> 
+                            <hi rend="I">ne sauroit</hi> 
+                            <lb/> 
+                            <hi rend="I">servir Dieu &amp; Mammon</hi> 
+                        </quote>. Dieu seul est 
+                        <lb/>celui à qui nous sommes engagés par le 
+                        <lb/>premier serment de fidelité. Nous sommes 
+                        <lb/>à lui avant que d'être à nous-mêmes. 
+                        <lb/>Nous sommes les créatures de sa bonté 
+                        <lb/>&amp; les enfans de sa grace. Tout ce qu'il 
+                        <lb/>a fait pour nous , tout ce qu'il nous 
+                        <lb/>promet, demande de nous notre cœur 
+                        <lb/>&amp; notre amour. C'étoit la pensée de S. Jean 
+                        <lb/>quand il disoit, <ref target="#fn_19_I" type="noteAnchor">(I)</ref> <quote source="bibleOstervald1724.xml#_1John.2.15"> 
+                            <hi rend="I">n'aimez point le 
+                                <lb/>monde ni les choses qui sont au monde : si 
+                                <lb/>quelqu'un aime le monde, l'amour du Pére 
+                                <lb/>n'est pas en lui</hi> 
+                        </quote>.</p> 
+                    <p n="16"> 
+                        <lb/>Enfin S. Paul explique sa pensée plus 
+                        <lb/>clairement , pour aprendre à tous les 
+                        <lb/>hommes ce qu'ils doivent à Dieu, dans 
+                        <lb/>quelque rang où il ait plû à Dieu de les 
+                        <lb/>élever, <quote source="bibleOStervald1724.xml#_1Cor.7.30"> 
+                            <hi rend="I">possedez</hi>, <seg type="interpolation">dit-il, <ref target="#fn_19_2" type="noteAnchor">(2)</ref>  </seg> 
+                            <hi rend="I">les choses du 
+                                <lb/>monde comme ne les possedant pas</hi> 
+                        </quote> 
+                        <hi rend="I">;</hi> pour 
+                        <lb/>nous aprendre qu'il faut user des choses 
+                        <lb/>du monde, non comme d'un bien que 
+                        <lb/>nous ne dûssions jamais quitter : la mort 
+                        <lb/>seule, sans parler de mille autres accidens, 
+                        <lb/>ne souffre pas que nous nous flattions 
+                        <lb/>d'en être les propriétaires à si haut 
+                        <lb/>tître. Nous n'en sommes que les œconomes 
+                        <note xml:id="fn_19_I" type="foot" n="(I)"> 
+                            <ref type="bible" target="bibleSegond21.xml#_1Cor.2">I. Epit. Ch. II.</ref> 
+                        </note> 
+                        <note xml:id="fn_19_2" type="foot" n="(2)"> <ref type="bible" target="bibleSegond21.xml#_1Cor.7">I. Cor. Ch. VII.</ref> 
+                        </note>
+                         <pb n="20"/> 
+                        <lb/>&amp; les dispensateurs, autant qu'il 
+                        <lb/>plait à Dieu de nous en laisser l'usage , 
+                        <lb/>certains que nous devons être de lui rendre 
+                        <lb/>compte de notre administration.</p> 
+                    <p n="17"> 
+                        <lb/>Telle doit être, M. Fr., la disposition 
+                        <lb/>d'un cœur qui aime Dieu, d'un cœur 
+                        <lb/>véritablement Chrétien. L'Amour qu'on 
+                        <lb/>doit à Dieu y doit triompher de l'amour 
+                        <lb/>du monde. Et pour cet effet, la Providence 
+                        <lb/>dirige de telle sorte les évenemens 
+                        <lb/>en faveur de ceux qui l'aiment, que <quote source="bibleOstervald1724.xml#Rom.8.27"> 
+                            <hi rend="I">toutes 
+                                <lb/>choses concourent à leur salut</hi></quote>. 
+                    </p> 
+                </div> 
+                <div n="3" type="sub"> 
+                    <head type="sub"> 
+                        <lb/>III PARTIE.</head> 
+                    <p n="18"> 
+                        <lb/>L'Evangile ni la piété ne permettent 
+                        <lb/>pas qu'on renferme le crime &amp; le péché 
+                        <lb/>dans le nombre de ces choses que l'Apôtre 
+                        <lb/>avoit en vue , quelque générale 
+                        <lb/>que soit son expression. Chacun fait 
+                        <lb/>au contraire que le vice éteint l'amour 
+                        <lb/>de Dieu dans nos ames, &amp; qu'il interrompt 
+                        <lb/>le cours de la grace &amp; des bénédictions 
+                        <lb/>célestes. Aussi l'Apôtre ne félicite-t-il 
+                        <lb/>du soin favorable de la Providence, 
+                        <lb/>que ceux là seuls qui aiment Dieu. 
+                        <lb/>Et quoiqu'il soit vrai de dire quelquefois 
+                        <lb/>que la chûte d'un homme qui craint 
+                        <lb/>Dieu sert à l'humilier, par une répentance 
+                        <lb/>vive &amp; profonde, &amp; à la rendre 
+                        <lb/>plus circonspect dans l'exercice de la piété ; <pb n="21"/> 
+                        <lb/>néanmoins on ne sauroit faire entrer 
+                        <lb/>le péché dans le raisonnement de S. Paul 
+                        <lb/>sans outrer sa pensée. Il a principalement 
+                        <lb/>en vue les afflictions &amp; la persécution , 
+                        <lb/>comme nous vous l'avons démontré. 
+                        <lb/>Si je ne craignois d'être long, je 
+                        <lb/>pourrois vous entretenir des utilités des 
+                        <lb/>afflictions, soit qu'elles soient naturelles, 
+                        <lb/>soit qu'elles soient suscitées par la profession 
+                        <lb/>de l'Evangile. C'est assez de savoir 
+                        <lb/>qu'il s'agit de bannir de nos cœurs 
+                        <lb/>l'amour du monde, pour les remplir de 
+                        <lb/>l'amour de Dieu. Qu'y a-t-il en effet de 
+                        <lb/>plus efficace que les afflictions, qui arrachent 
+                        <lb/>nos cœurs de ce monde ? Qu'y 
+                        <lb/>a-t-il de plus utile ? jugez-en vous-mêmes. 
+                        <lb/>Qu'y a-t-il de plus salutaire à un 
+                        <lb/>homme qui abuse de sa santé , que le 
+                        <lb/>châtiment d'une maladie qui le dompte, 
+                        <lb/>&amp; qui le contraint de reconnoître, qu'il 
+                        <lb/>faut peu de chose pour troubler les plaisirs 
+                        <lb/>de cette vie qui l'enchantent, &amp; ne 
+                        <lb/>lui donnent que du mépris &amp; du dégoût 
+                        <lb/>pour les douceurs de la piété ?</p> 
+                    <p n="19"> 
+                        <lb/>Ha ! que si les hommes prévoyoient 
+                        <lb/>les tentations qui environnent une prospérité 
+                        <lb/>mondaine &amp; criminelle, &amp; les 
+                        <lb/>précipices où elle les conduit, ils beniroient 
+                        <lb/>souvent la main de Dieu, quand 
+                        <lb/>elle leur ravit ces biens trompeurs qui 
+                        <lb/>leur faisoient perdre de vue la véritable <pb n="22"/> 
+                        <lb/>béatitude ; ils diroient avec un grand 
+                        <lb/>Saint, <quote source="bibleOstervald1724.xml#Rom.5.3"> 
+                            <hi rend="I">les afflictions m'ont été favorables</hi> 
+                        </quote> ; 
+                        <lb/>elles m'ont retiré de l'assoupissement &amp; 
+                        <lb/>de l'égarement dans lequel la prosperité 
+                        <lb/>m'avoit fait tomber. Abrégeons ces 
+                        <lb/>réfléxions. Rien, sans contredit, n'est 
+                        <lb/>plus propre, que les traverses de la vie, 
+                        <lb/>que les idées de la mort réveillées par 
+                        <lb/>les afflictions, pour mediter avec succès 
+                        <lb/>sur l'instabilité de cette vie, sur la vanité 
+                        <lb/>du monde, &amp; sur le Siécle à venir, où 
+                        <lb/>le tems nous entraîne avec rapidité. 
+                        <lb/>Enfin, selon notre Apôtre, la persécution 
+                        <lb/>concourt au salut de ceux qui craignent 
+                        <lb/>Dieu, parce qu'elle est une glorieuse 
+                        <lb/>épreuve de leur foi, un affermissement 
+                        <lb/>de leur espérance, un illustre témoignage , 
+                        <lb/>qu'ils rendent par leur fidélité à la 
+                        <lb/>gloire du nom de Dieu, à l'honneur de 
+                        <lb/>sa vérité. Peut-être ne dirois-je rien de 
+                        <lb/>trop, si je disois que la gloire de Dieu 
+                        <lb/>brille avec plus d'éclat dans les souffrances 
+                        <lb/>&amp; dans la patience de ses Enfans, au 
+                        <lb/>milieu de la persécution , qu'en aucun 
+                        <lb/>endroit de l'Univers. On n'est pas surpris 
+                        <lb/>de savoir que les Anges, confirmés 
+                        <lb/>dans la grace, &amp; dans la vision bienheureuse 
+                        <lb/>de Dieu, le louent &amp; le benissent 
+                        <lb/>sans interruption, toujours appliqués 
+                        <lb/>à l'éxécution de ses ordres : Mais 
+                        <lb/>on ne sauroit penser sans étonnement &amp; <pb n="23"/> 
+                        <lb/>sans admiration, qu'un homme foible &amp; 
+                        <lb/>mortel, environné de tentations, animé 
+                        <lb/>de sa foi seule, &amp; soutenu de son espérance, 
+                        <lb/>demeure inébranlable dans la 
+                        <lb/>fidélité qu'il doit à son Dieu, à la vue 
+                        <lb/>de la mort la plus terrible &amp; des tourmens 
+                        <lb/>les plus cruels. Il faut bien croire 
+                        <lb/>que <quote source="bibleOstervald1724.xml#_2Cor.12.9"> 
+                            <hi rend="I">la vertu de Dieu s'accomplit alors 
+                                <lb/>dans ses infirmités</hi> 
+                        </quote> , &amp; que la Providence 
+                        <lb/>dirige les événemens les plus tragiques , 
+                        <lb/>&amp; les plus funestes en aparence , 
+                        <lb/>pour son bien &amp; pour son salut. Cela 
+                        <lb/>suffit pour l'explication des paroles que 
+                        <lb/>nous avons lues, &amp; pour la confirmation 
+                        <lb/>de la vérité consolante qu'elles nous 
+                        <lb/>aprennent. Faisons-y encore pour finir 
+                        <lb/>quelques autres réfléxions.</p> 
+                </div> 
+                <div n="4" type="sub"> 
+                    <head type="sub"> 
+                        <lb/>APLICATION.</head> 
+                    <p n="20"> 
+                        <lb/>Mes Freres, il ne reste plus qu'une 
+                        <lb/>preuve à considerer pour l'établissement de 
+                        <lb/>cette importante vérité ; mais une preuve 
+                        <lb/><surplus reason="mistake">ve</surplus> convaincante &amp; sans replique , qui 
+                        <lb/>est fondée sur l'expérience &amp; sur le sentiment 
+                        <lb/>que nous en devons avoir. <quote source="bibleOstervald1724.xml#Rom.8.27"> 
+                            <hi rend="I">Nous 
+                                <lb/>savons</hi>, <seg type="interpolation">dit l'Apôtre,</seg><hi rend="I"> que toutes choses aident 
+                                <lb/>ensemble en bien à ceux qui aiment 
+                                <lb/>Dieu</hi> 
+                        </quote>. Nous savons ; comment le savoit-il ? 
+                        <lb/>Jesus-Christ l'avoit enseigné , 
+                        <lb/>quand il avoit averti ceux qui croyoient <pb n="24"/> 
+                        <lb/>en lui, qu'il avoit aporté le feu &amp; l'épée 
+                        <lb/>sur la terre , à cause de la malice des 
+                        <lb/>hommes &amp; de la corruption de leurs 
+                        <lb/>cœurs, toujours oposés à la reforme de 
+                        <lb/>la vie , à la sanctification ; &amp; quand il 
+                        <lb/>les avoit exhortés à mettre leur confiance 
+                        <lb/>en Dieu, sans perdre courage au milieu 
+                        <lb/>des afflictions &amp; de la persécution. 
+                        <lb/>Notre Apôtre avoit apris encore dans le 
+                        <lb/>Ciel où il fut ravi, que ceux que Dieu 
+                        <lb/>avoit prédestinés, devoient être premiérement 
+                        <lb/>rendus conformes au Fils de 
+                        <lb/>Dieu, par les afflictions, <ref target="#fn_24_I" type="noteAnchor">(I)</ref> <quote source="bibleOstervald1724.xml#Heb.2.10"> 
+                            <hi rend="I">parce qu'il 
+                                <lb/>étoit convenable que celui, par qui sont 
+                                <lb/>toutes choses, &amp; pour qui sont toutes choses, 
+                                <lb/>puisqu'il amenoit plusieurs Enfans à 
+                                <lb/>la gloire, consacrât le Prince de leur salut 
+                                <lb/>par les afflictions</hi> 
+                        </quote>. Mais il connoissoit principalement 
+                        <lb/>cette vérité par sa propre 
+                        <lb/>expérience. Quel Apôtre, je vous prie, 
+                        <lb/>avoit plus souffert pour l'Evangile que 
+                        <lb/>S. Paul ? Qu'il sied bien à un homme exposé 
+                        <lb/>à de continuels dangers &amp; sur la 
+                        <lb/>terre &amp; sur la mer , tantôt lapidé, &amp; toujours 
+                        <lb/>persécuté, de nous dire<hi rend="I">, </hi> 
+                        <quote source="bibleOstervald1724.xml#Rom.8.27"> 
+                            <hi rend="I">nous savons 
+                                <lb/>que toutes choses concourent au salut 
+                                <lb/>de ceux qui craignent Dieu</hi> 
+                        </quote> : ses souffrances 
+                        <lb/>parlent plus haut que sa voix. 
+                        <lb/>Que nous sommes heureux, Mes Chers 
+                        <note xml:id="fn_24_I" type="foot" n="(I)"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.2">Hebr. Chap. II.</ref> 
+                        </note>
+                         <fw place="bot-right" type="catch">Fréres,</fw> 
+                         <pb n="25"/> 
+                        <lb/>Fréres, si notre propre expérience ne 
+                        <lb/>dément pas celle de ce grand Saint ! Il 
+                        <lb/>faut vous dire présentement le dessein 
+                        <lb/>que j'ai eu dans le choix d'un Texte qui 
+                        <lb/>m'a obligé de vous entretenir de l'utilité 
+                        <lb/>des afflictions ; c'est afin que par la raison 
+                        <lb/>des contraires, je vous laissasse méditer 
+                        <lb/>vous-mêmes sur les dangereux piéges 
+                        <lb/>de la prospérité, &amp; sur la nécessité 
+                        <lb/>qu'il y a de veiller, &amp; d'être toujours en 
+                        <lb/>garde sur soi-même pour n'y pas tomber. 
+                        <lb/>Nous avons vu que les afflictions les 
+                        <lb/>plus terribles, la mort même la plus cruelle, 
+                        <lb/>dirigée par la Providence, ne put 
+                        <lb/>ébranler la foi ni l'espérance des premiers 
+                        <lb/>Chrétiens, parce qu'ils voyoient la promesse 
+                        <lb/>de la résurrection, confirmée par 
+                        <lb/>les miracles qui se faisoient au nom de 
+                        <lb/>Jesus-Christ ressuscité : la démonstration 
+                        <lb/>étoit sans replique. Nous avons vu la 
+                        <lb/>Providence établie par les lumiéres de la 
+                        <lb/>Raison, par la connoissance du dessein de 
+                        <lb/>Dieu dans la formation de nous-mêmes. 
+                        <lb/>Quoi donc ? y a-t-il tant de profit dans 
+                        <lb/>le libertinage, pour s'y abandonner, contre 
+                        <lb/>le bon sens, &amp; au hazard d'une damnation éternelle ?</p> 
+                    <p n="21"> 
+                        <lb/>Si je parlois à des personnes qui eussent 
+                        <lb/>passé par le feu de la persécution , je 
+                        <lb/>les prendrois à témoin de cette joye intérieure, 
+                        <lb/>que produit dans une Ame fidéle <pb n="26"/> 
+                        <lb/>une foi éprouvée, une espérance 
+                        <lb/>qu'on n'a pu ébranler , une conscience 
+                        <lb/>que ni les promesses ni les menaces du 
+                        <lb/>monde n'ont pu séduire. Ha ! que ce 
+                        <lb/>témoignage d'une bonne conscience est 
+                        <lb/>doux &amp; avantageux pour le repos de la 
+                        <lb/>vie ! que c'est une puissante consolation 
+                        <lb/>contre les frayeurs de la mort !</p> 
+                    <p n="22"> 
+                        <lb/>Mais puisque je parle à un grand Roi, 
+                        <lb/>&amp; à des sujets honorés de ses bienfaits, 
+                        <lb/>ou couverts de sa protection, il faut chercher 
+                        <lb/>les combats de l'Eglise par un autre 
+                        <lb/>endroit que par les assauts de la persécution. 
+                        <lb/>Dans le langage du monde qui dit 
+                        <lb/> 
+                        <hi rend="I">affliction</hi>, parle de miséres, de pauvreté, 
+                        <lb/>de douleurs, de maladies, &amp; de mille autres 
+                        <lb/>accidens qui traversent cette vie, &amp; 
+                        <lb/>nous tiennent toujours dans l'inquiétude 
+                        <lb/>&amp; dans la crainte.</p> 
+                    <p n="23"> 
+                        <lb/>Nous avons trouvé dans les paroles 
+                        <lb/>évangéliques, que nous vous avons expliquées, 
+                        <lb/>le remède à tous ces maux pour 
+                        <lb/>une ame fidéle, pour un cœur véritablement 
+                        <lb/>Chrétien. Mais dans le langage de 
+                        <lb/>la Religion, qui s'exprime toujours avec 
+                        <lb/>justesse, &amp; parle des choses comme elles 
+                        <lb/>sont en elles-mêmes, si par le mot d'<hi rend="I">affliction</hi> 
+                        <lb/>on veut entendre, comme on le 
+                        <lb/>doit, un état malheureux par rapport à 
+                        <lb/>Dieu &amp; à notre salut, nous n'en connoîtrons 
+                        <lb/>point d'autres que les vices &amp; les <pb n="27"/> 
+                        <lb/>péchés qui croupissent dans nos cœurs. 
+                        <lb/>Ecoutez S. Paul dans <ref type="bible" target="bibleSegond21.xml#Rom.1">le premier Chapitre 
+                            <lb/>de l'Epître aux Romains</ref>, il parle de 
+                        <lb/>la colére qui s'est répandue du Ciel sur les 
+                        <lb/>hommes, à cause de leur monstrueus idolâtrie. 
+                        <lb/>Quelle en fut la peine ? Ce ne fut 
+                        <lb/>ni la pauvreté ni la misére. Ces Assyriens, 
+                        <lb/>ces Grecs &amp; ces Romains, idolâtres jusqu'à 
+                        <lb/>un excès ridicule &amp; affreux, possédérent 
+                        <lb/>néanmoins les Empires de la terre, 
+                        <lb/>&amp; toute la gloire de ce monde. Mais ils 
+                        <lb/>furent abandonnés à eux-mêmes &amp; à leur 
+                        <lb/>sens reprouvé, &amp; se plongérent dans toutes 
+                        <lb/>sortes d'impuretés, de déréglemens &amp; 
+                        <lb/>d'abominations. Ha ! voilà sans contredit 
+                        <lb/>de terribles afflictions : Ne pouvoir jamais 
+                        <lb/>faire le bien qu'on voudroit, faire 
+                        <lb/>toujours le mal qu'on ne voudroit pas 
+                        <lb/>faire ; regarder la piété comme une vertu 
+                        <lb/>également inutile &amp; incommode, parler 
+                        <lb/>des péchés &amp; des crimes, comme de plaisirs 
+                        <lb/>&amp; de divertissemens, se rendre par sa 
+                        <lb/>conduite Dieu irrité, l'éternité terrible , 
+                        <lb/>&amp; la mort pleine de frayeurs. Voilà, M. 
+                        <lb/>Fr., un état d'affliction si épouvantable, 
+                        <lb/>que S. Paul, pour nous en donner une 
+                        <lb/>horreur convenable, le nomme <quote source="bibleOstervald1724.xml#Rom.8.10"> 
+                            <hi rend="I">un corps 
+                                <lb/>de mort</hi> 
+                        </quote>, expression à faire frémir s'il en 
+                        <lb/>fût jamais. Oui, M. Fr., le péché répand 
+                        <lb/>son venin sur tout ce qu'il touche, &amp; 
+                        <lb/>corrompt la prospérité, les dignités les <pb n="28"/> 
+                        <lb/>mieux établies. Plût à Dieu que cette 
+                        <lb/>vérité imprimât dans nos cœurs la crainte 
+                        <lb/>&amp; l'aversion qu'elle y devroit produire ! 
+                        <lb/>Le fait-elle ? jugez-en vous-mêmes ; une 
+                        <lb/>seule réfléxion nous en convaincra. N'est-il 
+                        <lb/>pas vrai qu'il est facile d'apercevoir la 
+                        <lb/>tristesse &amp; l'abattement, peints dans les 
+                        <lb/>yeux d'un homme de qui la fortune est 
+                        <lb/>ébranlée ou renversée, &amp; qu'on ne se méprend 
+                        <lb/>guéres à rechercher la cause d'une 
+                        <lb/>humeur triste &amp; chagrine, dans la perte 
+                        <lb/>de quelque bien, de quelque dignité, de 
+                        <lb/>quelque ami, de quelque enfant, de 
+                        <lb/>quelque protecteur, ou dans l'altération 
+                        <lb/>de la santé ? Mais pour connoître si quelqu'un 
+                        <lb/>est tombé par ses crimes dans la 
+                        <lb/>disgrace du Ciel, dans la privation de 
+                        <lb/>ses bénédictions, sans ressentir la paix de 
+                        <lb/>son ame, ni les douceurs de la justification 
+                        <lb/>&amp; de l'espérance de son salut ; voilà 
+                        <lb/>certainement la plus grande de toutes 
+                        <lb/>les afflictions. Néanmoins il faudroit être 
+                        <lb/>bon physionomiste pour découvrir à l'air 
+                        <lb/>du visage ce malheureux état, ce poids 
+                        <lb/>de condamnation : tant il est vrai que l'on 
+                        <lb/>connoît peu les véritables afflictions, qui 
+                        <lb/>doivent nous abattre &amp; nous faire gémir, 
+                        <lb/>&amp; que nous sommes uniquement sensibles, 
+                        <lb/>&amp; par trop sensibles, à ces accidens 
+                        <lb/>de la vie, quoique Dieu nous promette 
+                        <lb/>de les faire servir à notre salut, si nous <pb n="29"/> 
+                        <lb/>vivons dans sa crainte. Craignons donc 
+                        <lb/>Dieu, M. Fr., faisons notre devoir ; le 
+                        <lb/>reste dépend de la Providence, qui veille 
+                        <lb/>pour notre bien. Craignons Dieu, de 
+                        <lb/>peur que la prospérité &amp; les biens de ce 
+                        <lb/>monde n'opérent notre condamnation.</p> 
+                    <p n="24"> 
+                        <lb/>Permettez moi, SIRE, d'assurer Votre 
+                        <lb/>Majesté, que j'ai le sentiment que je dois 
+                        <lb/>avoir, de l'honneur qu'elle m'a fait de 
+                        <lb/>m'apeller à son service. Mais que pourrois-je 
+                        <lb/>faire pour n'être pas un serviteur 
+                        <lb/>inutile, si ce n'est d'entretenir dans l'ame 
+                        <lb/>de Votre Majesté les idées de la Piété 
+                        <lb/>Chrétienne, que vos Sujets y remarquent 
+                        <lb/>avec plaisir &amp; avec édification ? On a dit 
+                        <lb/>il y a long-tems, que la Cour des grands 
+                        <lb/>Princes est un lieu où le vice se retire 
+                        <lb/>comme dans un asyle, où il se cache sous 
+                        <lb/>un état brillant &amp; pompeux, où l'amour 
+                        <lb/>du monde entre à pleines voiles pour y 
+                        <lb/>jetter l'ancre comme dans son port. C'est 
+                        <lb/>là, dit-on, que la vie est toujours dans le 
+                        <lb/>tumulte, la conscience dans l'agitation, 
+                        <lb/>l'espérance de l'éternité dans le doute &amp; 
+                        <lb/>dans la contradiction, &amp; le salut en danger. 
+                        <lb/>J'ose me promettre de la piété de 
+                        <lb/>Votre Majesté, qu'Elle ne trouvera pas 
+                        <lb/>mauvais, qu'avec une liberté respectueuse, 
+                        <lb/>mais chrétienne, nous y soutenions 
+                        <lb/>les droits de Dieu, l'excellence &amp; la nécessité 
+                        <lb/>de la sanctification, &amp; la préférence <pb n="30"/> 
+                        <lb/>qu'on doit donner à l'amour de Dieu, 
+                        <lb/>sur ce dangereux amour du monde, qui 
+                        <lb/>endort &amp; séduit ceux qui lui laissent l'entrée 
+                        <lb/>libre dans leurs cœurs.</p> 
+                    <p n="25"> 
+                        <lb/>Alors, SIRE, la Courronne que Dieu 
+                        <lb/>a mise sur la Tête de V.M. se trouvera 
+                        <lb/>toujours en bonne union &amp; en conjonction 
+                        <lb/>avec la Courone immortelle des 
+                        <lb/>Cieux. Alors la gloire &amp; la prospérité , 
+                        <lb/>qui vous environne, ne pourra alterer ni 
+                        <lb/>corrompre dans votre Ame le doux sentiment 
+                        <lb/>de la paix de Dieu. Puisse ce grand 
+                        <lb/>Dieu bénir vos justes desseins, &amp; nous 
+                        <lb/>faire voir tous les événemens de votre 
+                        <lb/>Règne dirigés par la main de la Providence, 
+                        <lb/>pour sa gloire, pour votre bien, 
+                        <lb/>pour le repos de vos peuples, pour le 
+                        <lb/>soutiens de l'Eglise, &amp; pour le salut commun 
+                        <lb/>de nous tous ! Dieu nous en fasse la 
+                        <lb/>grace, &amp; dans cette espérance à ce grand 
+                        <lb/>Dieu P. F. &amp; Saint Esprit, un seul Dieu 
+                        <lb/>béni éternellement, soit honneur &amp; gloire 
+                        <lb/>de siécles en siécles. Amen.</p> 
+                </div> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

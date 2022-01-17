@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1593_Théodore_de_Bèze_RSL"> 
+            <titleStmt> 
+                <title type="sermon">Sermon devxieme.</title> 
+                <title type="book">Sermons sur l’histoire de la resurrection de nostre Seigneur 
+                    Iesus Christ. Par Theodore de Beze, A Geneve, Par Iean Le Preux, M. D. 
+                    XCIII.</title> 
+                <author ref="...">Théodore de Bèze</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="RSL">Ruth STAWARZ-LUGINBUEHL</persName> 
+                        <email>ruth.luginbuhl@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Théodore de Bèze</author> 
+                        <title>Sermons sur l’histoire de la resurrection de nostre Seigneur Iesus 
+                            Christ.</title> 
+                        <imprint> 
+                            <pubPlace>Genève</pubPlace> 
+                            <publisher>Jean Le Preux</publisher> 
+                            <date>1593</date>
+                            <date type="sermon"/>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="URI">http://dx.doi.org/10.3931/e-rara-6702</idno>
+                    <idno type="source">Bibliothèque de Genève</idno>
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">homélie</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">20</term>
+                    <term type="typeOfCollection">lectio continua</term>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Matt.28.1-4</term>
+                    <term type="paratext" subtype="epistle">AVX ILLVSTRES &amp; Chrestiens Estats des prouinces de Hollande , Zelande, VV estphrise , Gueldres , Zuphen , Vtrech, &amp;c. Grace &amp; paix de par Dieu nostre pere, &amp; de par son Fils Iesus Christ nostre seul Sauveur.</term>
+                    <term type="paratext" subtype="other">INDICE DES PRINCIPALES matieres contenues es Sermons sur l’histoire de la Resurrection de nostre Seigneur Iesus Christ.</term>
+                </keywords> 
+            </textClass>
+            <langUsage>
+                <language ident="fr">français préclassique</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-03-04" who="#LjD">transformation word - XML</change> 
+            <change when="2016-03-04" who="#MAG">Verification, citations</change> 
+            <change when="2014-04-30" who="#RSL">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>SERMONS  
+                    <lb/>SVR L'HISTOIRE  
+                    <lb/>DE LA RESVRRE- 
+                    <lb/>ction de nostre Sei- 
+                    <lb/>gneur Iesus  
+                    <lb/>Christ. 
+                    <lb/> 
+                    <hi rend="I">PAR THEODORE  
+                        <lb/>de Beze.</hi>  
+                    <lb/>A GENEVE,  
+                    <lb/>PAR IEAN LE PREVX.  
+                    <lb/>M. D. XCIII.</p> 
+            </div> 
+        </front> 
+        <body> 
+            <div type="sermon"> 
+                <pb n="30"/> 
+                <head type="main"> 
+                    <lb/>SERMON DEVXIEME.</head> 
+                <p n="1"> 
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Matt.28.1-4"> 
+                        <hi rend="I">Matth. </hi>28.</ref> 
+                    <lb/> 
+                    <quote source="bible1588.xml#Matt.28.1">1. <hi rend="I">Or</hi> [estant venu] 
+                        <hi rend="I">le soir du Sabbat</hi>, (c'est  
+                        <lb/>à dire, estant acheué le Sabbat) <hi rend="I">cõme il se faisoit  
+                            <lb/>iour pour le premier de la sepmaine, Marie  
+                            <lb/>Magdaleine s'achemina, &amp; l'autre Marie,  
+                            <lb/>pour considerer le sepulchre</hi></quote>.   
+                        <quote source="bible1588.xml#Matt.28.2"><lb/>2. <hi rend="I">Et voici il se fit un grand tremblement de  
+                            <lb/>terre. Car l'Ange du Seigneur descendu du ciel,  
+                            <lb/>s'estant approché, roula la pierre arriere de  
+                            <lb/>l'huis du sepulchre, &amp; s'aßit dessus</hi></quote>.   
+                            <quote source="bible1588.xml#Matt.28.3"><lb/>3. <hi rend="I">Et son regard estoit comme un esclair, &amp;  
+                            <lb/>son habillement comme neige</hi></quote>.   
+                                <quote source="bible1588.xml#Matt.28.4"><lb/>4. <hi rend="I">Et les gardes pour la peur qu'ils eurent  
+                            <lb/>furent effrayés, &amp; deuindrent comme morts</hi></quote>.  
+                     
+                </p> 
+                <p n="2"> 
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Mark.16.9"> 
+                        <hi rend="I">Marc</hi>. 16.</ref>  
+                    <lb/> 
+                    <quote source="bible1588.xml#Mark.16.9">9. <hi rend="I">Or estant Iesus ressuscité au matin au  
+                            <lb/>premier iour de la sepmaine, il apparut premierement  
+                            <lb/>à Marie Magdeleine</hi></quote>. 
+                     
+                </p> 
+                <p n="3"> 
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#John.20.1"> 
+                        <hi rend="I">Ieh.</hi> 20.</ref>  
+                    <lb/> 
+                    <quote source="bible1588.xml#John.20.1">1. <hi rend="I">Or le premier iour de la sepmaine Marie  
+                            <lb/>Magdeleine vint le matin au sepulchre comme  
+                            <lb/>il faisoit encores obscur</hi></quote>. 
+                      
+                     <fw place="bot-right" type="catch">ICI</fw> 
+                </p> 
+                <pb n="31"/> 
+                <p n="4"> 
+                    <lb/> 
+                    <c type="lettrine">I</c>CI nous est recité, premierement  
+                    <note type="margin"> 
+                        <quote source="bibleSegond21.xml#Matt.28.1"> 
+                            <hi rend="I">Le Seigneur  
+                                <lb/>est ressuscité  
+                                <lb/>sur la fin de  
+                                <lb/>la nuict,  
+                                <lb/>qui auoit cõmencé  
+                                <lb/>à la  
+                                <lb/>façon des  
+                                <lb/>Hebrieux,  
+                                <lb/>le premier  
+                                <lb/>iour de la  
+                                <lb/>sepmaine  
+                                <lb/>suiuante la  
+                                <lb/>mort d'icelui,  
+                                <lb/>&amp; que  
+                                <lb/>nous appellons  
+                                <lb/>le Dimanche</hi></quote>. 
+                         
+                    </note> 
+                    <lb/>par S. Marc, à quelle  
+                    <lb/>heure ressuscita le Seigneur, à  
+                    <lb/>sauoir le matin du troisieme  
+                    <lb/>iour : ce qui nous est encores  
+                    <lb/>plus expressément specifié par S. Iehan, à sauoir,  
+                    <lb/>que ce fut des la premiere poincte de  
+                    <lb/>ce iour-là. Car puis que Marie Magdeleine,  
+                    <lb/>estant arriuee au sepulchre quand il faisoit  
+                    <lb/>encores obscur, trouua desia le sepulchre  
+                    <lb/>ouuert, qui estoit signe que le corps de Iesus  
+                    <lb/>Christ n'y estoit plus, il s'ensuit ce que i'ay  
+                    <lb/>dit, sauoir est, qu'il ressuscita des la premiere  
+                    <lb/>apparẽce de la fin de la nuict, qui cõmençoit  
+                    <lb/>le troisieme iour, à sauoir le Dimãche,  
+                    <lb/>que nous appellons, par le soir precedent,  
+                    <lb/>à la façon des Iuifs, &amp; lors que les autres femmes  
+                    <lb/>estoyent en chemin. A cest instant dõc,  
+                    <lb/>qui finissoit le dernier &amp; septieme iour de  
+                    <lb/>la sepmaine precedente, &amp; qui commençoit  
+                    <lb/>la sepmaine suiuante, comme parle S.  
+                    <lb/>Matthieu, (ne specifiant pas la Resurrection  
+                    <lb/>du Seigneur, n'y le temps d'icelle, comme  
+                    <lb/>S. Marc, mais la presupposant, par ce qu'il  
+                    <lb/>recite de ce tremblement de terre, auec le  
+                    <lb/>roulement de la pierre par l'Ange, &amp; le  
+                    <lb/>grand effroy des Gardes du sepulchre) le  
+                    <lb/>Seigneur ressuscita, hors la presence de tous  
+                    <lb/>hommes.</p> 
+                <p n="5"> 
+                    <lb/>Et n'est pas sans tresiuste cause, que ce tẽps  
+                    <note type="margin"> 
+                        <hi rend="I">La prouidence  
+                            </hi> 
+                    </note> 
+                    <pb n="32"/> 
+                    <lb/><note type="margin"> 
+                        <hi rend="I">
+                            <lb/> de  
+                            <lb/>Dieu ne  
+                            <lb/>peut estre  
+                            <lb/>empeschee  
+                            <lb/>ni mesmes  
+                            <lb/>retardee, ni  
+                            <lb/>quant à l'euenement,  
+                            <lb/>ni quant  
+                            <lb/>au temps et  
+                            <lb/>moyens, doctrine  
+                            <lb/>dont  
+                            <lb/>l'vsage est  
+                            <lb/>tresgrãd, &amp;  
+                            <lb/>l'ignorance  
+                            <lb/>trespernicieuse.</hi> 
+                    </note> 
+                    nous est specifié. Car premierement le Seigneur  
+                    <lb/>a verifié ce qu'il auoit souuentesfois  
+                    <lb/>predit, à sauoir, qu'il ressusciteroit au troisieme  
+                    <lb/>iour : ce qu'il pouuoit bien faire aussi  
+                    <lb/>à midi, ou au soir du mesme iour : mais il a  
+                    <lb/>voulu choisir le tẽps auquel les Gardes pouuoyent  
+                    <lb/>estre moins endormies, ou moins lassés  
+                    <lb/>de la Garde, ayans peu reposer par interualles  
+                    <lb/>de la nuict, distinguee ordinairemẽt,  
+                    <lb/>sur tout entre ce peuple, en plusieurs veilles,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Luke.12.38">Luc. 12. 38.</ref> pour monstrer tant mieux sa  
+                    <lb/>puissance : contre laquelle, tant s'en faut que  
+                    <lb/>la subtilité ou la force de ses ennemis ait  
+                    <lb/>eu pouuoir d'empescher l'effect de sa parole,  
+                    <lb/>par eux tresbien entẽdue, <ref type="bible" target="bibleSegond21.xml#Matt.27.63">Matt. 27. 63.</ref> que  
+                    <lb/>mesmes ils ne l'ont peu reculer d'vn seul  
+                    <lb/>poinct. Qui plus est, leurs gardes &amp; leurs  
+                    <lb/>seaux ont grandement serui à les conuaincre  
+                    <lb/>de la verité de la Resurrection du Seigneur.  
+                    <lb/>Et d'ici nous faut il recueillir vne  
+                    <lb/>tresexcellente &amp; tresnecessaire doctrine,  
+                    <lb/>pour combattre, voire surmõter, toute desfiance,  
+                    <lb/>en luy opposant ce bouclier de la  
+                    <lb/>foy, duquel, auant toutes autres armes, l'Apostre  
+                    <lb/>equippe le cheualier Chrestien, <ref type="bible" target="bibleSegond21.xml#_1Thess.5.8"> 1.  
+                        <lb/>Thess. 5. 8.</ref> &amp; <ref type="bible" target="bibleSegond21.xml#Eph.6.16">Ephes. 6. 16.</ref> Car  
+                    la vraye foy ne  
+                    <lb/>croit pas seulement, &amp; comme de gros en  
+                    <lb/>gros, que Dieu peut &amp; veut executer ce que  
+                    <lb/>il a promis : mais croit aussi que ce sera au  
+                    <lb/>temps infalliblement prefix, &amp; par tels  <fw place="bot-right" type="catch">moyens</fw> 
+                    <pb n="33"/> 
+                    <lb/>moyens qu'il luy plaira, nonobstant toutes  
+                    <lb/>les difficultés &amp; les empeschemẽs qui se presentent,  
+                    <lb/>pour l'empescher ou retarder. C'est  
+                    <lb/>ainsi que les Israelites sortirent d'Egypte la  
+                    <lb/>mesme nuict que les quatre cent &amp; trente  
+                    <lb/>ans acheuerent, <ref type="bible" target="bibleSegond21.xml#Exod.12.41">Exod. 12. 41.</ref> desquels Abraham  
+                    <lb/>auoit esté expressément aduerti, <ref type="bible" target="bibleSegond21.xml#Gen.15.13">Gen.  
+                        <lb/>15. 13.</ref> estant à presumer, que si Moyse eust  
+                    <lb/>bien entendu ou calculé ce temps, il ne se  
+                    <lb/>fust pas tant auancé, comme en parle sainct  
+                    <lb/>Estienne, <ref type="bible" target="bibleSegond21.xml#Acts.7.25">Act. 7. 25.</ref> Et, peut estre, qu'il en  
+                    <lb/>porta la peine de quarante ans de bannissement  
+                    <lb/>en Madian : pouruoyant cependant le  
+                    <lb/>Seigneur, par cest interualle, tant à Moyse,  
+                    <lb/>qui deuoit estre preparé &amp; façonné par vn  
+                    <lb/>tel exercice à toute patience (dont il a eu tãt  
+                    <lb/>de besoin puis apres en la conduicte du peuple)  
+                    <lb/>qu'au peuple mesmes, encores trop aise  
+                    <lb/>&amp; trop gras : &amp; pour rendre aussi tant plus  
+                    <lb/>apperceuables ses iustes iugemens sur l'ingratitude  
+                    <lb/>des Egyptiens, ayans si tost oublié  
+                    <lb/>Ioseph. C'est ainsi aussi qu'il a falu que les  
+                    <lb/>septante ans de la captiuité, ayent esté iustement  
+                    <lb/>accomplis : ce que Daniel a patiemment  
+                    <lb/>attendu, deuant que faire ceste belle  
+                    <lb/>&amp; expresse priere, contenue au 9. chapitre  
+                    <lb/>de son histoire. Et si les Scribes, qui ont bien  
+                    <lb/>sceu respondre à Herodes, que le Messias  
+                    <lb/>deuoit naistre en Bethlehem, <ref type="bible" target="bibleSegond21.xml#Matt.2.5">Matth. 2. 5.</ref> eussent  
+                    <lb/>aussi bien calculé les septante sepmaines <pb n="34"/> 
+                    <lb/> reuelees à Daniel, ils eussent recognu à  
+                    <lb/>salut celuy qu'ils ont reietté, à leur destruction.  
+                    <lb/>Mais encores est plus recommandable  
+                    <lb/>la foy &amp; perseuerance de ceux qui se  
+                    <lb/>contentans de la simple promesse du Seigneur,  
+                    <lb/>sans que le temps de l'issue leur fust  
+                    <lb/>declaré, ont perseueré iusques au bout, au  
+                    <lb/>trauers de toutes tentations. Et nous auons  
+                    <lb/>de cela vn singulier exemple en Dauid, lequel  
+                    <lb/>ne dit pas à fausses enseignes, <ref type="bible" target="bibleSegond21.xml#Ps.40.1">Pseau. 40.  
+                        <lb/>1.</ref>  
+                    <quote source="bible1588.xml#Ps.40.1">I'ay attendu en attendant, &amp; Dieu s'est  
+                        <lb/>tourné de mon costé</quote> : Ce qui ne se fait pas  
+                    <lb/>sans vn merueilleux combat, non seulemẽt  
+                    <lb/>contre les difficultés qui se presentent pour  
+                    <lb/>nous persuader l'impossibilité de voir l'effect  
+                    <lb/>de ce qui nous est promis, mais aussi  
+                    <lb/>contre nostre impatiente curiosité, tesmoin  
+                    <lb/>l'exemple des Apostres, lesquels ne doutans  
+                    <lb/>point de la venue du Messias &amp; de la restauration  
+                    <lb/>du peuple de Dieu : desiroyent cependant,  
+                    <lb/>de sauoir si cela se feroit tout incontinent :  
+                    <lb/>&amp; au mesme instãt qu'ils le voyoyent  
+                    <lb/>ressuscité, <ref type="bible" target="bibleSegond21.xml#Acts.1.6">Act. 1. 6.</ref> Mais le Maistre leur baille  
+                    <lb/>la response, laquelle seule nous doit resoudre  
+                    <lb/>contre toute impatience, à sauoir,  
+                    <lb/>qu'il faut remettre tout cela, à celui lequel  
+                    <lb/>seul a les temps &amp; les momens en sa propre  
+                    <lb/>puissance. C'est aussi ceste impatience, qui  
+                    <lb/>rend les hommes d'impatiens incredules, &amp;  
+                    <lb/>d'incredules, finalement les rend moqueurs,  <fw place="bot-right" type="catch">des-</fw> 
+                    <pb n="35"/> 
+                    <lb/>desquels parle S. Pierre, <ref type="bible" target="bibleSegond21.xml#_2Pet.3.4">2 Pier. 3. 4.</ref> 
+                </p> 
+                <p n="6"> 
+                    <lb/>Et sur cela, nous auons à nous garder de  
+                    <note type="margin"> 
+                        <hi rend="I">C'est une  
+                            <lb/>chose tres- 
+                            <lb/>dangereuse  
+                            <lb/>de vouloir  
+                            <lb/>s'enquerir  
+                            <lb/>des tẽps &amp;  
+                            <lb/>des moyens  
+                            <lb/>qu'il nous a  
+                            <lb/>cachés.</hi> 
+                    </note> 
+                    <lb/>vne autre ruse de Satan, lequel, s'il ne peut  
+                    <lb/>nous amener à ceste incredulité du premier  
+                    <lb/>coup, prend vn autre chemin tẽdant à mesme  
+                    <lb/>but. Car sous couleur que le Seigneur  
+                    <lb/>souuentesfois, s'accommodant à l'infirmité  
+                    <lb/>de l'ancien peuple, l'a consolé par ses Prophetes,  
+                    <lb/>luy specifiant par eux les temps &amp;  
+                    <lb/>les moyens de leurs deliurances, il suscite  
+                    <lb/>des faux Prophetes, pour contrefaire les veritables,  
+                    <lb/>comme vn Sedechias du temps de  
+                    <lb/>Iosaphat, <ref type="bible" target="bibleSegond21.xml#_1Kgs.22.24">1. Rois, 22. 24.</ref> &amp; Ananias du temps  
+                    <lb/>de Ieremie, <ref type="bible" target="bibleSegond21.xml#Jer.28">Ierem. 28.</ref> &amp; comme il en print  
+                    <lb/>à ce miserable peuple, apres auoir reietté le  
+                    <lb/>vray Messias, comme les histoires le tesmoignent,  
+                    <lb/>&amp; comme il en est parlé mesmes,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Acts.5.36">Act. 5. 36. &amp; 21. 38.</ref> combien que le Seigneur  
+                    <lb/>les en eust si soigneusement aduertis, <ref type="bible" target="bibleSegond21.xml#Matt.24.23">Matt.  
+                        <lb/>24. 23.</ref>  
+                    <ref type="bible" target="bibleSegond21.xml#Mark.3.17">Marc. 3. 17.</ref>  
+                    <ref type="bible" target="bibleSegond21.xml#Luke.17.23">Luc. 17. 23.</ref> dont l'issue est  
+                    <lb/>telle finalement, que les hommes experimentans  
+                    <lb/>telles predictions estre fausses, adioustent   
+                    <lb/>puis apres aussi peu de foy à la parole  
+                    <lb/>mesme de Dieu. C'est ainsi que Satan  
+                    <lb/>a besongné pieça en l'Eglise Chrestiene,  
+                    <lb/>touchant le second aduenement du Seigneur  
+                    <lb/>dés le temps des Apostres, <ref type="bible" target="bibleSegond21.xml#_1Thess.5.1">1. Thess. 5. 1.</ref>  
+                    <lb/>&amp; <ref type="bible" target="bibleSegond21.xml#_2Thess.2.2">2. Thess. 2. 2.</ref> s'estant mesmes serui Satan  
+                    <lb/>long temps y a, de quelques bons &amp; sauans  
+                    <lb/>personnages au demourant, mais qui se sont <pb n="36"/> 
+                    <lb/>laissés trop aisément tromper en cest endroict,  
+                    <lb/>au calcul des temps que le Seigneur  
+                    <lb/>nous a cachés, ou nous a tellement declarés  
+                    <lb/>en l'Apocalypse de son fidele seruiteur, que  
+                    <lb/>l'experience a suffisamment monstré, que la  
+                    <lb/>seule issue en donnera certaine cognoissance :  
+                    <lb/>s'abstenans les plus sages d'en parler si  
+                    <lb/>auant, mais plustost se preparans à n'estre  
+                    <lb/>trouués endormis en ce iour du Seigneur,  
+                    <lb/>qui viendra quand il sera le moins attendu,  
+                    <lb/>qu'à calculer les temps de son second aduenement,  
+                    <lb/>que le Seigneur a caché mesmes  
+                    <lb/>aux Anges, <ref type="bible" target="bibleSegond21.xml#Matt.24.36">Matth. 24. 36.</ref> voire à son Fils,  
+                    <lb/>estant consideré distinctement en son humanité,  
+                    <lb/>&amp; à ce qu'elle peut sauoir de soy- 
+                    <lb/>mesmes, &amp; sans reuelation. Et que sera-ce  
+                    <lb/>donc de ces abuseurs, tant pronostiqueurs,  
+                    <lb/>que bastisseurs de supputations de temps à  
+                    <lb/>leur appetit, dont le monde est auiourd'huy  
+                    <lb/>farci ? Au lieu dõc de s'arrester à ces resueurs  
+                    <lb/>&amp; calculeurs des temps, que Dieu nous a cachés,  
+                    <lb/>contentons nous d'embrasser les promesses  
+                    <lb/>du Seigneur, nous asseurans de la verité,  
+                    <lb/>tant de ses menaces sur les incredules  
+                    <lb/>&amp; meschans, (quoy que selon nostre temps  
+                    <lb/>elles tardent,) que de ses promesses faictes  
+                    <lb/>aux croyans &amp; repentans, nonobstant les  
+                    <lb/>difficultés ou l'apparẽce des impossibilités,  
+                    <lb/>qui se presentent pour nous esbranler. Et  
+                    <lb/>quant aux temps &amp; aux moyens, il est bien  <fw place="bot-right" type="catch">vray</fw> 
+                    <pb n="37"/> 
+                    <lb/>vray, que plus nous voyons que le monde  
+                    <lb/>est au comble de toute desesperee rebellion,  
+                    <lb/>&amp; plus nous apperceuons de ces signes  
+                    <lb/>comme palpables au ciel &amp; en terre, que le  
+                    <lb/>Seigneur a predit : plus s'approche sa derniere  
+                    <lb/>venue, nous auons à nous garder de  
+                    <lb/>faire comme ceux du temps de Noé, qui ont  
+                    <lb/>esté surpris du deluge : mais d'autre part laissans  
+                    <lb/>à Dieu ce qu'il nous a caché, leuons nos  
+                    <lb/>cœurs à luy, possedans nos ames en silence  
+                    <lb/>&amp; patience, &amp; veillons, pour n'estre point  
+                    <lb/>surpris endormis.</p> 
+                <p n="7"> 
+                    <lb/>Pour reuenir à nostre histoire, de laquelle  
+        <note type="margin"> 
+                        <hi rend="I">Admirable  
+                            <lb/>conuenance  
+                            <lb/>entre  
+                            <lb/>la creation  
+                            <lb/>de la lumiere,  
+                            <lb/>lors que  
+                            <lb/>ce mõde fut  
+                            <lb/>creé, &amp; la  
+                            <lb/>Resurrectiõ  
+                            <lb/>du Seigneur, la  
+                            <lb/>vraye lumiere  
+                            <lb/>du  
+                            <lb/>siecle à venir.</hi> 
+                    </note> 
+                    <lb/>me suis vn peu destourné, pour la necessité  
+                    <lb/>que nous auons auiourd'huy de ceste  
+                    <lb/>doctrine, en ceste si longue &amp; dure espreuue,  
+                    <lb/>en laquelle nous sommes auec toute l'Eglise  
+                    <lb/>du Seigneur : ie di qu'il ne faut legerement  
+                    <lb/>passer ceste circonstance du temps auquel  
+                    <lb/>le Seigneur a voulu ressusciter, à sauoir  
+                    <lb/>des la premiere poincte de la clarté de ce  
+                    <lb/>iour, qui est ici appellé le premier, nõ point  
+                    <lb/>particulieremẽt de ceste sepmaine-là, comme  
+                    <lb/>si les Iuifs eussent forgé quelque nouueau  
+                    <lb/>calcul des sepmaines : mais d'autant  
+                    <lb/>que la creation du monde en sept iours cõmença  
+                    <lb/>par pareil iour, reuenant tousiours à  
+                    <lb/>son tour. Car ceste circonstance nous represente  
+                    <lb/>vne tresbelle &amp; admirable conuenance  
+                    <lb/>qu'il y a entre la creation de ce present <pb n="38"/> 
+                    <lb/>monde, assuietti à corruption par le peché  
+                    <lb/>du premier Adam, &amp; le renouuellement  
+                    <lb/>d'icelui en perpetuelle eternité, par la vertu  
+                    <lb/>du second Adam : n'estant pas sans tresiuste  
+                    <lb/>raison, que les Prophetes font mention de  
+                    <lb/>nouueaux cieux &amp; de nouuelle terre, à la  
+                    <lb/>venue de ce Sauueur : estant aussi appellé par  
+                    <lb/>l'Apostre <quote source="bibleSegond21.xml#Heb.2.5">le mõde à venir</quote>, <ref type="bible" target="bibleSegond21.xml#Heb.2.5">Heb. 2. 5.</ref> Ie di dõc  
+                    <lb/>qu'ainsi que la creation de ceste lumiere corporelle  
+                    <lb/>cõmença le premier iour de ce monde  
+                    <lb/>corruptible, esclairant ceste grosse masse  
+                    <lb/>de la terre &amp; du gouffre des eaux, qui la couuroit  
+                    <lb/>de toutes parts, de laquelle lumiere le  
+                    <lb/>gouuernemẽt fut baillé puis apres aux deux  
+                    <lb/>luminaires : ainsi la Resurrection du Seigneur,  
+                    <lb/>commençant la premiere aube du  
+                    <lb/>premier iour de ce nouueau monde spirituel  
+                    <lb/>&amp; eternel, a esté le premier rayon de  
+                    <lb/>ceste vraye lumiere spirituelle, dechassant  
+                    <lb/>ces tant espesses tenebres des entendemens  
+                    <lb/>&amp; des cœurs : tant de ce poure peuple,  
+                    <lb/>gisant en l'ombre de la mort, <ref type="bible" target="bibleSegond21.xml#Isa.9.1">Esa. 9. vers. 1.</ref>  
+                    <lb/>que de toutes les autres nations, <ref type="bible" target="bibleSegond21.xml#Isa.49.6">Esa. 49. 6.</ref>  
+                    <lb/>que le Seigneur par tãt de siecles auoit laissees  
+                    <lb/>cheminer comme poures aueugles en  
+                    <lb/>leurs voyes, <ref type="bible" target="bibleSegond21.xml#Acts.14.16">Act. 14. 16.</ref> Car combien que le  
+                    <lb/>Seigneur, sous l'ancienne alliance, eust enuoyé  
+                    <lb/>la lumiere de sa cognoissance à ses esleus,  
+                    <lb/>à sauoir premierement aux Patriarches,  
+                    <lb/>puis à ce peuple issu d'Abraham, n'ayãt  <fw place="bot-right" type="catch">pas</fw> 
+                    <pb n="39"/> 
+                    <lb/>pas fait ainsi à toute nation, <ref type="bible" target="bibleSegond21.xml#Deut.4.6">Deut. 4. 6.</ref> 
+                    <ref type="bible" target="bibleSegond21.xml#Ps.76.2">Pse.  
+                        <lb/>76. 2.</ref> si est-ce que ceste clarté estoit plustost  
+                    <lb/>vne splendeur de Lune, esclaircissant aucunement  
+                    <lb/>la nuict en croissant &amp; diminuant,  
+                    <lb/>qu'vne splendeur du Soleil, vray porte-lumiere :  
+                    <lb/>&amp; combien que ceste vraye lumiere,  
+                    <lb/>qui est nostre Seigneur Iesus, <ref type="bible" target="bibleSegond21.xml#John.1.9">Ieh. 1. 9. &amp;  
+                        11.</ref> se  
+                    <lb/>fust desia manifestee aux siens par sa presence  
+                    <lb/>en chair, &amp; par la predication de salut,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#John.8.12">Ieh. 8. 12.</ref> &amp; <ref type="bible" target="bibleSegond21.xml#John.12.35">12. 35.</ref> si est-ce que le voile de sa  
+                    <lb/>chair, en son infirmité, obscurcissoit merueilleusement  
+                    <lb/>ceste manifestation, tesmoin  
+                    <lb/>l'incredulité de ses plus chers &amp; familiers  
+                    <lb/>disciples, ne leur ayant pas dit sans cause,  
+                    <lb/>qu'il estoit expedient qu'il montast en haut  
+                    <lb/>à Dieu son Pere, pour se faire mieux cognoistre  
+                    <lb/>par son Esprit, <ref type="bible" target="bibleSegond21.xml#John.16.7">Ieh. 16. 7.</ref> Et quant à  
+                    <lb/>nous poures Gentils, combien que Dieu ne  
+                    <lb/>se fust iamais laissé sans tesmoignage de sa  
+                    <lb/>diuinité, engraués au ciel &amp; en la terre, &amp; au  
+                    <lb/>gouuernement de ce monde visible, <ref type="bible" target="bibleSegond21.xml#Acts.14.17">Act. 14.  
+                        <lb/>17.</ref> toutesfois ceste lumiere n'estoit qu'vn esclair,  
+                    <lb/>s'esuanouissant tantost, &amp; se tournant  
+                    <lb/>en plus espaisses tenebres, <ref type="bible" target="bibleSegond21.xml#Rom.1.19-21">Rom. 1. 19. 20. &amp;  
+                    <lb/>21</ref>. Et pourtant n'ay-ie pas dit sans cause,  
+                    <lb/>que la Resurrection du Seigneur, en la premiere  
+                    <lb/>poincte de ce premier iour de la sepmaine,  
+                    <lb/>ayant commencé à mettre fin tant à  
+                    <lb/>ceste ombrageuse cognoissance donnee à  
+                    <lb/>l'ancien peuple, sous les figures de la Loy, <pb n="40"/> 
+                    <lb/>qu'aux tresespesses tenebres du reste du  
+                    <lb/>monde : &amp; mesmes à ceste manifestation, encores  
+                    <lb/>obscure de sa personne, voilee de l'infirmité  
+                    <lb/>de sa chair, a esté vrayement comme  
+                    <lb/>le premier, trespur &amp; clair poinct du  
+                    <lb/>iour, commençant ce nouueau monde spirituel  
+                    <lb/>&amp; eternel. Mais comme le premier  
+                    <lb/>poinct du iour ne chasse les tenebres de la  
+                    <lb/>nuict que peu à peu, &amp; par succession de tẽps  
+                    <lb/>en ce monde visible : ainsi la leuee de ce  
+                    <lb/>vray Soleil a peu à peu esclairé le monde,  
+                    <lb/>qui ne pouuant autrement estre rẽdu capable  
+                    <lb/>à receuoir vne si grande clarté : de laquelle  
+                    <lb/>fut premierement illuminee Ierusalem,  
+                    <lb/>au iour de la Pentecoste, &amp; finalement  
+                    <lb/>les nations prophanes, quand ce Soleil commença  
+                    <lb/>de ietter ses rayons, par la dispersion  
+                    <lb/>de l'Eglise, apres la mort de S. Estienne, <ref type="bible" target="bibleSegond21.xml#Acts.8.4">Act.  
+                        <lb/>8. 4.</ref> suyuant ce qui auoit esté promis, <ref type="bible" target="bibleSegond21.xml#Isa.60">Esa. au  
+                        <lb/>60. chapitre</ref>, &amp; comme, apres Zacharie comparãt  
+                    <lb/>Iesus Christ à l'Orient d'enhaut, <ref type="bible" target="bibleSegond21.xml#Luke.1.78">Luc.  
+                        <lb/>1. 78.</ref> Simeon en auoit declaré l'accomplissement,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Luke.2.32">Luc. 2. 32.</ref> 
+                </p> 
+                <p n="8"> 
+                    <lb/><note type="margin"> 
+                        <hi rend="I">Autre admirable  
+                            <lb/>rapport  
+                            <lb/>qui se  
+                            <lb/>trouue entre  
+                            <lb/>la creation  
+                            <lb/>du premier  
+                            <lb/>Adã  
+                            <lb/>à deux fois,  
+                            <lb/>&amp; les deux  
+                            <lb/>diuerses &amp;  
+                            <lb/>succeßiues</hi> 
+                    </note>Voila donc le rapport admirable &amp; plein  
+                    <lb/>de consolation, qui se trouue entre ceste  
+                    <lb/>circonstance du premier poinct du iour,  
+                    <lb/>par lequel le Seigneur ressuscita, commençant  
+                    <lb/>le nouueau monde eternel, &amp; entre la  
+                    <lb/>creation de la lumiere, qui commença le  
+                    <lb/>premier iour du premier monde corruptible.  <fw place="bot-right" type="catch">ble</fw> 
+                    <pb n="41"/> 
+                    <lb/>A cela aussi peut estre adioustee vne autre  
+                    <note type="margin"> 
+                        <hi rend="I">conditions  
+                            <lb/>du second  
+                            <lb/>Adam, qui  
+                            <lb/>est Iesus  
+                            <lb/>Christ selon  
+                            <lb/>la chair,  
+                            <lb/>tant en luy  
+                            <lb/>qu'en ses  
+                            <lb/>membres.</hi> 
+                    </note> 
+                    <lb/>conuenance non moins admirable en  
+                    <lb/>ce qu'ainsi que le premier homme, source  
+                    <lb/>du genre humain en ce monde, par generation  
+                    <lb/>charnelle &amp; animale, <ref type="bible" target="bibleSegond21.xml#Gen.1.28">Genes. 1. 28.</ref> a esté  
+                    <lb/>fait comme à deux fois, <ref type="bible" target="bibleSegond21.xml#Gen.2.7">Genes. 2. 7.</ref> à sauoir  
+                    <lb/>premierement, quant à son corps materiel,  
+                    <lb/>formé du limon de la terre, &amp; subiect à ceste  
+                    <lb/>vie animale, &amp; tantost apres par le peché, à  
+                    <lb/>tant d'infirmités, &amp; finalement à retourner  
+                    <lb/>en poudre : &amp; secondement en son ame, de  
+                    <lb/>nature spirituelle &amp; immortelle en son essence,  
+                    <lb/>tost apres aussi assuiettie à peché &amp; à  
+                    <lb/>la mort seconde : ainsi le second Adam, source  
+                    <lb/>de tous les hommes, qui par generation  
+                    <lb/>spirituelle ont esté, sont, &amp; seront habitans  
+                    <lb/>du nouueau monde perpetuel, a esté aussi  
+                    <lb/>creé comme à deux fois, non pas quant à  
+                    <lb/>l'essence de son ame, ni de son corps, mais à  
+                    <lb/>l'esgard de ces deux diuerses, voire contraires  
+                    <lb/>qualités : à sauoir, premierement en son  
+                    <lb/>estat d'infirmité en tout &amp; partout semblable  
+                    <lb/>à nous, horsmis peché, commençant ceste  
+                    <lb/>condition par sa conception au ventre  
+                    <lb/>de la Vierge, &amp; finissant par sa sepulture : &amp;  
+                    <lb/>secondement en cest estat de gloire, commençant  
+                    <lb/>par sa Resurrection, quoy qu'il  
+                    <lb/>ait encores tenue ceste maiesté comme à  
+                    <lb/>demi cachee par l'espace de quarante iours,  
+                    <lb/>à sauoir, iusques à son ascension, &amp; assiete à <pb n="42"/> 
+                    <lb/>la dextre du Pere, laquelle gloire est, &amp; sera  
+                    <lb/>permanente à iamais. Telle est aussi la generation  
+                    <lb/>spirituelle des enfans de Dieu, qui  
+                    <lb/>se conforment à leur Chef, à deux fois : à sauoir,  
+                    <lb/>premierement par cest estat tant infirme,  
+                    <lb/>appellé par l'Apostre le corps de mort,  
+                    <lb/>à l'esgard duquel il s'appelle miserable, &amp;  
+                    <lb/>desire d'en estre plenement deliuré, <ref type="bible" target="bibleSegond21.xml#Rom.7.24">Rom. 7. 
+                        <lb/>24.</ref>  
+                    <ref type="bible" target="bibleSegond21.xml#_2Cor.5.4">2. Cor. 5. 4.</ref> &amp; <ref type="bible" target="bibleSegond21.xml#Phil.1.23">Philip. 1. 
+                        23.</ref> &amp; secondement  
+                    <lb/>en cest estat de gloire &amp; d'incorruption, laquelle  
+                    <lb/>derechef, ainsi que Iesus Christ a encores  
+                    <lb/>seiourné quarante iours ici bas, deuãt  
+                    <lb/>qu'entrer plenement en la pleine iouissance  
+                    <lb/>de son regne, ne se paracheue aussi es enfans  
+                    <lb/>de Dieu qu'à deux fois, à sauoir, premierement  
+                    <lb/>en l'ame receue auec Iesus Christ,  
+                    <lb/>quand elle est separee de son corps, <ref type="bible" target="bibleSegond21.xml#Luke.23.43">Luc. 23. 
+                        <lb/>43.</ref>  
+                    <ref type="bible" target="bibleSegond21.xml#Acts.7.59">Act. 7. 59.</ref> &amp; secondement en corps &amp; en  
+                    <lb/>ame au dernier iour, en ceste immortalité  
+                    <lb/>tresglorieuse. Mais en cela se retrouue encores  
+                    <lb/>vne admirable correspondance, mais  
+                    <lb/>bien fort inegale, entre le premier &amp; le second  
+                    <lb/>Adam, en ce que le premier Adam fut  
+                    <lb/>colloqué en ce beau parc de plaisance, dont  
+                    <lb/>il se bannit puis apres par son peché, pour  
+                    <lb/>estre logé en ceste poure &amp; infecte demeure  
+                    <lb/>terriene : mais ce second Adam s'estant logé  
+                    <lb/>en ce mesme monde terrien, en y estant mesmes  
+                    <lb/>entré par vne estable, &amp; couché dans  
+                    <lb/>vne creche, <ref type="bible" target="bibleSegond21.xml#Luke.2.7">Luc. 2. 7.</ref> sans estre toutesfois  
+                        aucunement  <fw place="bot-right" type="catch">cune-</fw> 
+                    <pb n="43"/> 
+                    <lb/>pollué des infections d'icelle,  
+                    <lb/>quoy qu'il fust chargé de toutes nos miseres,  
+                    <lb/>horsmis peché, est puis apres monté par  
+                    <lb/>dessus tous les cieux, <ref type="bible" target="bibleSegond21.xml#Eph.4.10">Eph. 4. 10.</ref> pour y attirer  
+                    <lb/>les siens, <ref type="bible" target="bibleSegond21.xml#Song.1.4">Cant. 1. 4.</ref> &amp; <ref type="bible" target="bibleSegond21.xml#John.12.32">Ieh. 12. 32.</ref> en felicité eternelle,  
+                    <lb/>&amp; y viure du vray arbre de vie, <ref type="bible" target="bibleSegond21.xml#Rev.2.7">Apoc.  
+                        <lb/>2. 7.</ref> estant pour ceste cause, l'vn de ces  
+                    <lb/>deux lieux comme figure de l'autre, à  
+                    <lb/>sauoir ce parc terrestre, &amp; qui a esté degasté  
+                    <lb/>auec le reste de la terre au deluge, &amp; cest  
+                    <lb/>autre seiour celeste &amp; perpetuel, appellés  
+                    <lb/>du mesme nom de Paradis, à sauoir le premier,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Gen.2.8">Gen. 2. 8.</ref> &amp; le second, <ref type="bible" target="bibleSegond21.xml#Luke.23.43">Luc. 
+                        23. 43.</ref>  
+                    <ref type="bible" target="bibleSegond21.xml#_2Cor.12.4">2. Cor. 
+                        <lb/>12. 4.</ref> &amp; <ref type="bible" target="bibleSegond21.xml#Rev.2.7">Apoc. 2. 7.</ref> lesquelles  
+                    similitudes sont  
+                    <lb/>amplement declarees, <ref type="bible" target="bibleSegond21.xml#Rom.5">Rom. 5. chapitre</ref>, &amp; 
+                    <ref type="bible" target="bibleSegond21.xml#_1Cor.1.15">1. 
+                        <lb/>Cor. 15.</ref> 
+                </p> 
+                <p n="9"> 
+                    <lb/>Finalement il nous faut encores noter,  
+                     <note type="margin"> 
+                        <hi rend="I">Le premier  
+                            <lb/>monde a esté  
+                            <lb/>creé, &amp;  
+                            <lb/>se maintiẽt  
+                            <lb/>par nombre  
+                            <lb/>&amp; cõtinuatiõ  
+                            <lb/>de iours :  
+                            <lb/>mais le second  
+                            <lb/>mõde  
+                            <lb/>est vn iour  
+                            <lb/>perpetuel,  
+                            <lb/>qui a commencé  
+                            <lb/>par  
+                            <lb/>la Resurrectiõ  
+                            <lb/>du Seigneur, combien  
+                            <lb/>qu'il  
+                            <lb/>ne luise par  
+                            <lb/>tout en mesme mesure  
+                            <lb/>de lumiere.</hi> 
+                    </note> 
+                    <lb/>qu'il est bien vray que ce premier iour de la  
+                    <lb/>sepmaine, au premier poinct de la clarté  
+                    <lb/>du iour auquel il pleut au Seigneur de ressusciter,  
+                    <lb/>nous represente le cõmencemẽt de la  
+                    <lb/>lumiere du siecle à venir, comme il a esté  
+                    <lb/>dit : mais sachons cepẽdant qu'il n'en prend  
+                    <lb/>pas de la creation de l'vn, comme de l'autre,  
+                    <lb/>d'autant que le premier monde a esté creé  
+                    <lb/>par l'espace de six iours naturels de vingt  
+                    <lb/>quatre heures, composés des tenebres de la  
+                    <lb/>nuict, &amp; de la clarté du iour ciuil, qu'on appelle,  
+                    <lb/>s'entresuyuans &amp; gouuernés en vne  
+                    <lb/>continuelle reuolution de sepmaines, moys <pb n="44"/> 
+                    <lb/>&amp; annees, par le circuit du Soleil &amp; de la  
+                    <lb/>Lune, se leuans &amp; se couchans, auec infinis  
+                    <lb/>changemens en ce monde inferieur. Mais en  
+                    <lb/>ce nouueau monde spirituel, il n'y a qu'vn  
+                    <lb/>iour de perpetuelle duree, n'ayant besoin  
+                    <lb/>de luminaires corporels, &amp; où il n'y a rien  
+                    <lb/>de caduc &amp; transitoire, comme les Prophetes  
+                    <lb/>le nous figurent, <ref type="bible" target="bibleSegond21.xml#Isa.19">Esa. 19.</ref>  
+                    <ref type="bible" target="bibleSegond21.xml#Dan.12.3">Dan. 12. 3.</ref>  
+                    <ref type="bible" target="bibleSegond21.xml#Matt.13.43">Matth. 
+                        <lb/>13. 43.</ref> 
+                    <ref type="bible" target="bibleSegond21.xml#Rev.21.23">Apocal. 21. 23.</ref> &amp; <ref type="bible" target="bibleSegond21.xml#Rev.22.5">22. 5.</ref> C'est aussi à quoy  
+                    <lb/>regarde ce beau tiltre d'enfans de lumiere,  
+                    <lb/>par laquelle ceux qui dormoyent sont resueillés,  
+                    <lb/>pour ne communiquer plus aux  
+                    <lb/>œuures de tenebres, <ref type="bible" target="bibleSegond21.xml#Eph.5.14">Ephes. 5. 14.</ref> mais aller à  
+                    <lb/>la rencontre de l'espoux auec leurs lampes  
+                    <lb/>ardentes, à fin d'entrer auec luy aux  
+                    <lb/>nopces, <ref type="bible" target="bibleSegond21.xml#Matt.25.10">Matth. 25. 10.</ref> &amp; y demeurer à iamais,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#_1Thess.4.17">1. Thessal. 4. 17.</ref> Il est bien vray, toutesfois,  
+                    <lb/>que ceste continuelle clarté de ce beau  
+                    <lb/>iour perpetuel, commençant par ceste resurrection  
+                    <lb/>du Seigneur, comme nous auons  
+                    <lb/>dit, ne s'apperçoit es enfans de lumiere que  
+                    <lb/>peu à peu, tant qu'ils sont en ce monde : &amp;  
+                    <lb/>que mesmes au gouuernement de l'Eglise  
+                    <lb/>conduite par ceste lumiere, il se trouue d'estranges  
+                    <lb/>reuolutions, voire comme des eclipses  
+                    <lb/>bien tenebreuses en la plus grand part  
+                    <lb/>de ceste Eglise, comme il se voit mesmes de  
+                    <lb/>nostre temps : de sorte, qu'il semble que ceste  
+                    <lb/>clarté se soit cõme du tout enfuye du mõde,  
+                    <lb/>suiuant ce que le Seigneur en a aduerti expressément  <fw place="bot-right" type="catch">pressé-</fw> 
+                    <pb n="45"/> 
+                    <lb/>son Eglise, disant, qu'à son dernier  
+                    <lb/>aduenement, à grand peine trouuera-il  
+                    <lb/>quelque foy en terre, <ref type="bible" target="bibleSegond21.xml#Luke.18.8">Luc. 18. 8.</ref> mais cõme,   
+                    <lb/>nonobstant que les brouillars plus espés, &amp;  
+                    <lb/>s'esleuans plus haut, &amp; s'espẽdans plus loin  
+                    <lb/>vne fois que l'autre, rendẽt la clarté du iour  
+                    <lb/>obscure à nos yeux : si est-ce, que la clarté du  
+                    <lb/>Soleil n'en est en soy diminuee en rien, iettant  
+                    <lb/>sa clarté es regions d'enhaut : &amp; mesmes  
+                    <lb/>il y a tousiours difference entre les tenebres  
+                    <lb/>de la nuict, &amp; le iour, quelque obscurci  
+                    <lb/>qu'il soit, par telles vapeurs : ainsi ce  
+                    <lb/>iour spirituel &amp; perpetuel du Seigneur est  
+                    <lb/>tousiours de mesmes en soy, &amp; en haut, en  
+                    <lb/>ceux, les esprits desquels y sont desia recueillis :  
+                    <lb/>&amp; quant à ceux qui restent encor ici bas,  
+                    <lb/>combien que ces brouillars facent que ce  
+                    <lb/>iour n'est tousiours apperceu en mesme mesure,  
+                    <lb/>si est-ce que ceste clarté spirituelle &amp;  
+                    <lb/>eternelle y luit tousjours és cœurs des enfans  
+                    <lb/>de lumiere, sans iamais les en destituer  
+                    <lb/>du tout. Qui plus est, quand ces brouillars  
+                    <lb/>semblent à ceux n'ont que les yeux de la  
+                    <lb/>chair, auoir du tout dechassé ceste clarté,  
+                    <lb/>comme du temps des plus cruelles  
+                    <lb/>persecutions : c'est à lors que les enfans  
+                    <lb/>de lumiere, esclairés de ce Soleil, en plus  
+                    <lb/>grande force &amp; vertu, reluisent plus clairement,  
+                    <lb/>redarguant les enfans du monde  
+                    <lb/>de leurs tenebres, ainsi que la terre de <pb n="46"/> 
+                    <lb/>Gosen resplendissoit lors que tout le reste  
+                    <lb/>de l'Egypte estoit en tenebres plus espesses.  
+                    <lb/>Mais, quoy qu'il en soit, finalement  
+                    <lb/>viendra ce beau iour tant resplendissant  
+                    <lb/>pour les enfans de lumiere, &amp; fera  
+                    <lb/>esuanouir pour vn coup, &amp; à iamais,  
+                    <lb/>tous ces brouillars, renuoyant aux tenebres  
+                    <lb/>infernales &amp; perpetuelles le Prince de tenebres,  
+                    <lb/>auec ceux qui auront opiniastrement  
+                    <lb/>refusé la clarté.</p> 
+                <p n="10"> 
+                    <lb/><note type="margin"> 
+                        <hi rend="I">La terre  
+                            <lb/>tremblante  
+                            <lb/>sous les  
+                            <lb/>pieds de Iesus  
+                            <lb/>Christ  
+                            <lb/>ressuscitant,  
+                            <lb/>luy fait foy  
+                            <lb/>&amp; hommage  
+                            <lb/>comme à  
+                            <lb/>son createur  
+                            <lb/>et Seigneur,  
+                            <lb/>conuiant les hõmes  
+                            <lb/>à faire  
+                            <lb/>de mesmes.</hi> 
+                    </note>  Venons maintenant à ce qui s'est fait extraordinairement  
+                     <lb/>&amp; supernaturellement en  
+                    <lb/>ceste Resurrection, pour la rendre tant plus  
+                    <lb/>glorieuse, &amp; pleine de Maiesté diuine. Il est  
+                    <lb/>donc dit, qu'ainsi que ces femmes s'estoyent  
+                    <lb/>mises en chemin, il se fit vn grand tremblement  
+                    <lb/>de terre, vers le sepulchre. Voila donc  
+                    <lb/>desia vn tesmoignage, que ce ressuscité n'auoit  
+                    <lb/>rien perdu par la mort, mais qu'au contraire,  
+                    <lb/>au lieu qu'au parauant il n'auoit pas  
+                    <lb/>en terre pour reposer son chef, <ref type="bible" target="bibleSegond21.xml#Luke.9.58">Luc. 9. 58.</ref> il  
+                    <lb/>entroit en sortant du sepulchre en l'empire  
+                    <lb/>&amp; domination de toute la terre, pour la remuer  
+                    <lb/>mesmes à son plaisir : comme de faict,  
+                    <lb/>par le tonnerre de la predication de l'Euangile,  
+                    <lb/>tout le monde a esté esmeu, comme si  
+                    <lb/>ses fondemens eussent esté esbranlés, selon  
+                    <lb/>qu'il auoit esté predit, <ref type="bible" target="bibleSegond21.xml#Hag.2.7">Aggee 2. 7.</ref> Ainsi donc  
+                    <lb/>que la terre, tandis que son Seigneur estoit  
+                    <lb/>ainsi abbaissé en la croix, auoit tremblé de  <fw place="bot-right" type="catch">l'hor-</fw> 
+                    <pb n="47"/> 
+                    <lb/>l'horreur d'vne telle ingratitude, ou plustost  
+                    <lb/>de l'impieté des hommes si detestables, &amp;  
+                    <lb/>par maniere de dire, s'estoit monstree d'estre  
+                    <lb/>preste de fondre es abysme, au lieu de  
+                    <lb/>supporter plus long temps ce fardeau de la  
+                    <lb/>croix, ou pendoit son Createur &amp; Seigneur :  
+                    <lb/>aussi maintenant elle luy fait foy &amp; hommage  
+                    <lb/>en la Resurrection d'icelui, la Mort  
+                    <lb/>aduoüant, par mesme moyen, qu'elle n'auoit  
+                    <lb/>aucune force pour retenir ce mort, ni  
+                    <lb/>mesmes les autres, desquels les sepulchres furent  
+                    <lb/>ouuerts, &amp; qui se sentirent de ceste resurrection :  
+                    <lb/>pour monstrer deslors, que ressuscitãt  
+                    <lb/>le Chef, ouuroit la porte à ses membres,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Matt.27.52">Matth. 27. 52.</ref> se confessant la Mort estre  
+                    <lb/>vaincue, pour ne l'auoir peu mesmes entamer  
+                    <lb/>d'aucune corruption. Or si la terre, qui  
+                    <lb/>est vne creature insensible, a toutesfois recognu  
+                    <lb/>la gloire &amp; la maiesté de ce Ressuscité,  
+                    <lb/>en tremblant deuant icelle, que doyuent  
+                    <lb/>faire ceux pour le salut desquels il est ressuscité ?  
+                    <lb/>Et si celui en qui nous esperons a le  
+                    <lb/>pouuoir d'esbranler ainsi la terre mesmes,  
+                    <lb/>comment se trouueront debout ceux qui  
+                    <lb/>s'adressent contre luy ? soit directement contre  
+                    <lb/>le Chef mesmes, soit qu'ils assaillent ses  
+                    <lb/>membres esquels il se dit estre persecuté,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Acts.9.4">Act. 9. 4.</ref> ? C'est donc ici ce Fils qu'il nous faut  
+                    <lb/>baiser : c'est celui qu'il faut seruir en toute  
+                    <lb/>reuerence deüe à sa maiesté, &amp; asseurance <pb n="48"/> 
+                    <lb/>despendente de sa bonté, comme nous sommes 
+                    <lb/>enseignés, <ref type="bible" target="bibleSegond21.xml#Ps.2.11">Psal. 2 11.</ref> 
+                </p> 
+                <p n="11"> 
+                    <lb/><note type="margin"> 
+                        <hi rend="I">Les Anges  
+                            <lb/>seruans de  
+                            <lb/>messagers  
+                            <lb/>de ceste Resurrection,  
+                            <lb/>tesmoignẽt  
+                            <lb/>que l'empire  
+                            <lb/>d'icelui s'estend  
+                            <lb/>iusques par  
+                            <lb/>dessus les  
+                            <lb/>cieux : en 
+                            <lb/>quoy außi  
+                            <lb/>ses membres  
+                            <lb/>ont  
+                            <lb/>leur part.</hi> 
+                    </note>  L'histoire adiouste qu'vn Ange au mesme  
+                    <lb/>instant, monstrant ce qu'il estoit par son  
+                    <lb/>regard flamboyant, &amp; par la splendeur de  
+                    <lb/>son vestement, descendit du ciel visiblemẽt,  
+                    <lb/>&amp; roula ceste grosse pierre arriere de l'huis  
+                    <lb/>du sepulchre : ce qui nous enseigne, que la  
+                    <lb/>domination de ce Ressuscité n'est pas mesmes  
+                    <lb/>bornee du pourpris de la terre, mais s'estend  
+                    <lb/>iusques outre &amp; par-dessus les cieux,  
+                    <lb/>voire mesmes selon la chair d'icelui : ayant  
+                    <lb/>mesmes les Anges recognu ceste domination  
+                    <lb/>en luy, des lors mesmes qu'il estoit petit  
+                    <lb/>enfant, &amp; couché dans vne creche, pour  
+                    <lb/>estre ses postes &amp; messagers, <ref type="bible" target="bibleSegond21.xml#Luke.2.9">Luc. 2. 9.</ref> Mais  
+                    <lb/>adioustons à cela, que ce Souuerain est si liberal  
+                    <lb/>&amp; amateur des siens, qu'ainsi qu'il est  
+                    <lb/>assis à la dextre du Pere, il veut aussi que ses  
+                    <lb/>esleus soyent assis à la siene, <ref type="bible" target="bibleSegond21.xml#Matt.25.14">Matth. 25. 14.</ref> disant,  
+                    <lb/> 
+                    <quote source="bibleSegond21.xml#Luke.22.29">Ie vous dispose le Royaume comme  
+                        <lb/>mon Pere me l'a disposé</quote>, <ref type="bible" target="bibleSegond21.xml#Luke.22.29">Luc. 22. 29.</ref> comme  
+                    <lb/>à ses coheritiers, <ref type="bible" target="bibleSegond21.xml#Rom.8.17">Rom. 8. 17.</ref> ce qui apparoistra  
+                    <lb/>plenemẽt, lors qu'il prononcera ce dernier  
+                    <lb/>arrest, <quote source="bible1588.xml#Matth.25.34">Venez les benis de mon Pere,  
+                        <lb/>posseder le Royaume, qui vous a esté appresté  
+                        <lb/>des la fondation du monde</quote>. O combien  
+                    <lb/>donc est grand &amp; precieux ce surnom de  
+                    <lb/>Chrestien, par lequel ce grand Seigneur &amp;  
+                    <lb/>maistre des armees celestes nous aduouë  <fw place="bot-right" type="catch">pour</fw> 
+                    <pb n="49"/> 
+                    <lb/>pour ses freres, quoy que le monde abruti  
+                    <lb/>n'estime rien plus contemptible &amp; ignominieux ?  
+                    <lb/>Et quoy que soyons assaillis de tant  
+                    <lb/>de parts, &amp; par tant de sortes d'ennemis, dirons  
+                    <lb/>nous pas toutesfois auec Dauid, au lieu  
+                    <lb/>d'estre espouuantés, <quote source="bibleSegond21.xml#Ps.3.7">Ie ne craindray point  
+                        <lb/>plusieurs milliers de peuples se rengeans  
+                        <lb/>contre moy tout à l'entour</quote> ? <ref type="bible" target="bibleSegond21.xml#Ps.3.7">Pseaum. 3. 
+                        7.</ref> Et  
+                    <lb/>derechef, <quote source="bible1588.xml#Ps.27.1">l'Eternel est ma lumiere <seg type="interpolation">(voire l'Eternel  
+                        <lb/>mort &amp; ressuscité pour moy)</seg> de qui  
+                        <lb/>auray-ie peur ? l'Eternel est la force de ma  
+                        <lb/>vie, de qui auray-ie frayeur </quote>?  Car si vn seul  
+                    <lb/>Ange a frappé tous les premiers nés d'Egypte  
+                    <lb/>en vne nuict, <ref type="bible" target="bibleSegond21.xml#Exod.12.29">Exod. 12. 29.</ref> &amp; si vn autre  
+                    <lb/>Ange tua cent quatre vingt &amp; cinq mille  
+                    <lb/>hõmes au camp des Assyriens, en vne nuict :  
+                    <lb/>&amp; celuy qui est nostre Roy &amp; protecteur a  
+                    <lb/>tant de millions d'Anges, tous arrẽgés pour  
+                    <lb/>la protection des siens, pour les porter en  
+                    <lb/>leurs mains, de peur que leur pied ne heurte  
+                    <lb/>contre la pierre, <ref type="bible" target="bibleSegond21.xml#Ps.91.11">Pse. 91. 11.</ref> qui deuons nous  
+                    <lb/>craindre en haut ni en bas, si ce ressuscité est  
+                    <lb/>pour nous, <ref type="bible" target="bibleSegond21.xml#Rom.8.30">Rom. 8. 30</ref> ? Seulement donc portons  
+                    <lb/>nous comme ses vrais &amp; loyaux subiects :  
+                    <lb/>&amp; s'il est question de se renger du costé  
+                    <lb/>des plus forts, que cestui-ci, qui a vrayemẽt  
+                    <lb/>toute puissance souueraine au ciel &amp; en terre,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Matt.28.18">Matth. 28. 18</ref> seigneuriant mesmes au milieu  
+                    <lb/>de ses ennemis, <ref type="bible" target="bibleSegond21.xml#Ps.110.2">Ps. 110 2.</ref> &amp; sous les pieds  
+                    <lb/>duquel il faut que toutes choses, sans exception, <pb n="50"/> 
+                    <lb/>soyent assuiettis, <ref type="bible" target="bibleSegond21.xml#_1Cor.15.27">1. Corin. 15. 27.</ref> soit  
+                    <lb/>nostre seul refuge &amp; adresse, quittãt le monde  
+                    <lb/>insensé, &amp; plus vain que la vanité mesmes :  
+                    <lb/>&amp; ce faisant, ne craignons aucun ennemi  
+                    <lb/>en haut ni en bas, puis qu'outre ce que  
+                    <lb/>ce Ressuscité, est vray Dieu auec son Pere,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#John.5.20">Ieh. 5. ver. 20.</ref> il faut mesmes, entant qu'il est  
+                    <lb/>nostre frere aisné, <ref type="bible" target="bibleSegond21.xml#Rom.8.29">Rom. 8. 29.</ref> que toute creature  
+                    <lb/>haute, moyenne, &amp; basse, luy face hommage,  
+                    <lb/> 
+                    <note type="margin"> 
+                        <hi rend="I">Comme les Anges roulãs  
+                            <lb/>la pierre  
+                            <lb/>arriere  
+                            <lb/>du sepulchre  
+                            <lb/>ont  
+                            <lb/>rompu les  
+                            <lb/>desseins de  
+                            <lb/>ceux, qui  
+                            <lb/>vouloyent  
+                            <lb/>tenir Iesus  
+                            <lb/>Christ enserré :  
+                            <lb/>ainsi en  
+                            <lb/>a fait de nostre  
+                            <lb/>temps  
+                            <lb/>le Seigneur  
+                            <lb/>par les messagers  
+                            <lb/>de  
+                            <lb/>sa verité.</hi>  
+                    </note> <ref type="bible" target="bibleSegond21.xml#Phil.2.10">Philip. 2. 10.</ref> Bref, pour cognoistre la  
+                    <lb/>vraye vertu de ce Crucifié en ceste circonstance  
+                    <lb/>de ceste histoire, n'est-ce pas de nostre  
+                    <lb/>temps, que ceux qui sont assis au siege du  
+                    <lb/>gouuernement de l'Eglise Chrestiene, en  
+                    <lb/>aussi bonne cõscience que Caiphe &amp; sa suite,  
+                    <lb/>apres auoir condamné &amp; crucifié derechef  
+                    <lb/>Iesus Christ en ses poures membres, &amp;  
+                    <lb/>comme rengé la verité de Dieu dans vn sepulchre,  
+                    <lb/>pour n'apparoir iamais au monde,  
+                    <lb/>ont empesché &amp; empeschent, tant par leurs  
+                    <lb/>bulles fulminatoires, qui representent les  
+                    <lb/>seaux, dont il est ici parlé, que par toutes les  
+                    <lb/>forces qu'ils ont obtenues &amp; obtienent de  
+                    <lb/>leurs Herodes &amp; Pilates, que ceste verité  
+                    <lb/>n'apparoisse ? Mais au poinct du iour ordonné  
+                    <lb/>de Dieu, n'est-il point venu plustost des  
+                    <lb/>Anges du ciel, que des hommes, manians ce  
+                    <lb/>glaiue flamboyãt de la parole du Seigneur,  
+                    <lb/>&amp; reuestus de la pure splendeur de la verité  
+                    <lb/>de l'Euangile, qui ont roulé tous ces empeschemens  <fw place="bot-right" type="catch">pesche-</fw> 
+                    <pb n="51"/> 
+                    <lb/>d'idolatrie &amp; sophisterie, pour  
+                    <lb/>la faire derechef apparoir au monde, illuminant  
+                    <lb/>les enfans de Dieu, &amp; redoublant  
+                    <lb/>les tenebres des aueugles ? Que ceux-là dõc,  
+                    <lb/>quoy qu'ils resistent tant qu'ils peuuẽt, succedans  
+                    <lb/>les vns aux autres, sachent qu'il leur  
+                    <lb/>en prendra comme à ceux qu'ils ensuyuent  
+                    <lb/>en telle desesperee rebellion : &amp; que ceste verité,  
+                    <lb/>en despit d'eux, esclairera de plus en  
+                    <lb/>plus la maison de Dieu, iusques à ce que la  
+                    <lb/>pleine clarté perpetuelle apparoisse au retour  
+                    <lb/>de ce Ressuscité, pour les enfans de lumiere  
+                    <lb/>perpetuelle, a la confusion du Prince  
+                    <lb/>de tenebres, &amp; des siens.</p> 
+                <p n="12"> 
+                    <lb/> <note type="margin"> 
+                        <hi rend="I">Il ne se  
+                            <lb/>peut recueillir  
+                            <lb/>de ceste  
+                            <lb/>histoire, que  
+                            <lb/>Iesus Christ  
+                            <lb/>soit sorti du  
+                            <lb/>sepulchre deuant  
+                            <lb/>que la  
+                            <lb/>pierre fust  
+                            <lb/>roulee. Et  
+                            <lb/>quãd ainsi  
+                            <lb/>seroit, cela  
+                            <lb/>n'aideroit  
+                            <lb/>en rien la  
+                            <lb/>fausse doctrine  
+                            <lb/>de la presence essencielle  
+                            <lb/>du  
+                            <lb/>corps du  
+                            <lb/>Seigneur en  
+                            <lb/>la Cene, ni  
+                            <lb/>pour l'vbiquité  
+                            <lb/>d'icelui.</hi> 
+                    </note>  Au reste, on demande sur ce texte si Iesus  
+                   <lb/>Christ ressuscita le sepulchre estant encores  
+                    <lb/>clos, passant au trauers de la pierre : ou s'il  
+                    <lb/>sortit en se faisant ouuerture par le ministere   
+                    <lb/>de son Ange. Et la premiere de ces deux  
+                    <lb/>opinions est receuë de long temps par plusieurs  
+                    <lb/>Anciens, ce que font sonner auiourd'huy  
+                    <lb/>tant qu'ils peuuent, ceux qui se persuadent,  
+                    <lb/>&amp; aux autres tant qu'ils peuuent, la  
+                    <lb/>presence corporelle &amp; reelle du corps &amp; du  
+                    <lb/>sang de Iesus Christ, soit en leur Messe,  
+                    <lb/>&amp; Sacrement de l'autel, comme parlent  
+                    <lb/>ceux qui s'appellent auiourd'huy Catholiques  
+                    <lb/>Romains, soit au pain &amp; au vin de la  
+                    <lb/>saincte Cene du Seigneur, soit par tout au  
+                    <lb/>ciel &amp; en terre, comme enseignent auiourd'huy <pb n="52"/> 
+                    <lb/>les nouueaux Eutychiens Vbiquitaires,  
+                    <lb/>ausquels quand on oppose, qu'outre ce  
+                    <lb/>que ceste maniere de presence non seulement  
+                    <lb/>n'est nullement correspondante à la  
+                    <lb/>maniere spirituelle de la conionction de  
+                    <lb/>Iesus Christ &amp; de ses membres, de laquelle  
+                    <lb/>ce Sacrement est le seau : mais aussi que cela  
+                    <lb/>est directement contradictoire aux articles  
+                    <lb/>de la vraye incarnation, resurrection, &amp; ascension  
+                    <lb/>du Seigneur de la terre aux cieux, &amp;  
+                    <lb/>du retour d'icelui, que nous esperons : ils repliquẽt  
+                    <lb/>sur cela que Iesus Christ n'a pas laissé  
+                    <lb/>d'auoir vn vray corps en naissant de la  
+                    <lb/>Vierge sans ouuerture de la matrice : &amp; ressuscitant,  
+                    <lb/>quoy que le sepulchre demourast  
+                    <lb/>clos &amp; seellé : &amp; apres sa resurrection, estant  
+                    <lb/>entré vers ses disciples, les portes estans fermees :  
+                    <lb/>Mais quand tout cela leur auroit esté  
+                    <lb/>accordé, si ne concluroit-il rien toutesfois  
+                    <lb/>de ce qu'ils pretendent. Car il y <add resp="#RSL" place="NE">a</add> 
+                     grande difference  
+                    <lb/>entre ce qui est par dessus l'ordre de  
+                    <lb/>nature, &amp; ce qui renuerse l'essence d'vne  
+                    <lb/>chose, c'est à dire, ce par quoy elle est ce que  
+                    <lb/>elle est, &amp; non pas quelque autre chose.  
+                    <lb/>Comme pour exemple, les eaux qui de leur  
+                    <lb/>nature sont liquides, &amp; coulent contre bas,  
+                    <lb/>se sont arrestees supernaturellement par la  
+                    <lb/>vertu diuine &amp; extraordinaire, au passage  
+                    <lb/>de la mer rouge, <ref type="bible" target="bibleSegond21.xml#Exod.14.22">Exod. 14. 22.</ref> &amp; du Iordain,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Josh.3.16">Ios. 3. 16.</ref> se tenans debout comme vne muraille  <fw place="bot-right" type="catch">raille</fw> 
+                    <pb n="53"/> 
+                    <lb/>Elles demeurerent aussi fermes &amp; solides  
+                    <lb/>sous les pieds de Iesus Christ, &amp; mesmes  
+                    <lb/>de S. Pierre marchãt sur les eaux, <ref type="bible" target="bibleSegond21.xml#Matt.14.25">Matth.  
+                        <lb/>14. 25.</ref> <ref type="bible" target="bibleSegond21.xml#Matt.14.29"> &amp; 29.</ref> Si est-ce que pour cela elles ne  
+                    <lb/>perdirent ni chãgerent pas l'essencielle proprieté  
+                    <lb/>de l'element de l'eau, comme quand  
+                    <lb/>elles furent tournees en vray sang, <ref type="bible" target="bibleSegond21.xml#Exod.7.19">Exod. 7.  
+                        <lb/>19.</ref> &amp; en vin, <ref type="bible" target="bibleSegond21.xml#John.2.9">Ieh. 2. 9.</ref> &amp; ce 
+                    d'autant qu'estre   
+                    <lb/>de nature liquide &amp; coulante n'est pas l'essence  
+                    <lb/>de l'eau, tesmoin qu'elle ne laisse pas  
+                    <lb/>d'estre eau, encores qu'elles soit glacee &amp;  
+                    <lb/>si dure, qu'il la faut quelque fois rompre  
+                    <lb/>auec tresgrande force. Semblablement la  
+                    <lb/>coignee des Prophetes reuenant sur l'eau,  
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#_2Kgs.6.6">2. Rois, 6. 6.</ref> par vne façon supernaturelle, demoura  
+                    <lb/>en son essence vray fer, d'autant que  
+                    <lb/>la pesanteur n'est pas l'essence du fer. Estant  
+                    <lb/>donc question de la verité essencielle d'vn  
+                    <lb/>corps, Estre petit ou grand, dur ou mol, pesant  
+                    <lb/>ou leger, gros ou menu, d'vne telle ou  
+                    <lb/>telle couleur, &amp; de tels ou tels lineaments, &amp;  
+                    <lb/>autres telles choses, ne sont pas de l'essence  
+                    <lb/>du corps. Mais Estre materiel, &amp; borné de  
+                    <lb/>trois dimensions, à sauoir, hauteur, largeur,  
+                    <lb/>&amp; longeur, selon sa definition essencielle, &amp;  
+                    <lb/>par consequent estre visible, &amp; en quelque  
+                    <lb/>lieu qu'il soit, estre contenu &amp; compris en  
+                    <lb/>certains espaces, sont proprietés accompagnans  
+                    <lb/>necessairement vn vray corps. Ayant  
+                    <lb/>donc le Seigneur pris à soy vn vray corps <pb n="54"/> 
+                    <lb/>humain, pourtant ne peut il estre en  
+                    <lb/>plus d'vn lieu en vne fois, ni estre dit inuisible  
+                    <lb/>&amp; non palpable en soy, qu'il ne soit  
+                    <lb/>quand &amp; quand despouillé de la verité de  
+                    <lb/>son corps, ce qui renuerseroit tout nostre  
+                    <lb/>salut. Et ne faut point ici auoir recours à  
+                    <lb/>cest eschapatoire d'vn glorifié. Car si  
+                    <lb/>la glorification s'estendoit iusques-là, elle  
+                    <lb/>ne seroit pas vn ornement, mais au contraire,  
+                    <lb/>vne abolition &amp; destruction de ce corps.  
+                    <lb/>Ioinct que le Seigneur luy <choice><sic>mesmes</sic><corr resp="#RSL">mesme</corr></choice> en <choice><sic>propre</sic><corr resp="#RSL">propres</corr></choice>  
+                    <lb/>termes , apparoissant apres sa resurrection  
+                    <lb/>à ses disciples, &amp; leur disant, venez,  
+                    <lb/>voyez, &amp; tastez, pour monstrer que la resurrection  
+                    <lb/>n'auoit despouillé son corps que  
+                    <lb/>des infirmités de ceste vie animale, &amp; non  
+                    <lb/>pas de la verité essencielle d'icelui : monstre  
+                    <lb/>que ceste distinction entre le corps de Iesus  
+                    <lb/>Christ, non glorifié &amp; glorifié, est du tout  
+                    <lb/>vaine &amp; friuole en cest endroit. Quoy plus ?  
+                    <lb/>ce qu'il est visiblement departi &amp; monté de  
+                    <lb/>la terre par dessus tous les cieux, cõme l'histoire  
+                    <lb/>de l'ascension le porte tout clairemẽt :  
+                    <lb/>&amp; ce que S. Pierre tesmoigne, qu'<quote source="bibleSegond21.xml#Acts.3.21">il faut que  
+                        <lb/>les cieux<seg type="interpolation">, par dessus lesquels il est  
+                            monté,</seg> le  
+                        <lb/>contienent, iusques au temps de restablissement  
+                        <lb/>de toutes choses</quote>, <ref type="bible" target="bibleSegond21.xml#Acts.3.21">Act. 3. 21.</ref> &amp;  
+                    ce que les  
+                    <lb/>Anges declarent qu'on le contemplera reuenant  
+                    <lb/>pour iuger les viuans &amp; les morts,  
+                    <lb/>comme on l'a veu allant au ciel, ne nous  <fw place="bot-right" type="catch">laissent</fw> 
+                    <pb n="55"/> 
+                    <lb/>laissent aucunement douter, ni de la verité,  
+                    <lb/>ni de la demeure de son corps, maintenant  
+                    <lb/>par dessus tous les cieux, &amp; nõ point en terre :  
+                    <lb/>non plus que nous ne doutons point que  
+                    <lb/>son humanité, estant en terre auec ses disciples,  
+                    <lb/>n'estoit point au ciel : l'Ange aussi ne  
+                    <lb/>ayant point menti, quand il a dit haut &amp;  
+                    <lb/>clair, qu'estãt sorti du sepulchre, il n'y estoit  
+                    <lb/>plus : non plus qu'estãt en la croix, il n'estoit  
+                    <lb/>pas au sepulchre : ni en Ierusalem, quand il  
+                    <lb/>estoit en Capernaum. Autrement que sera- 
+                    <lb/>ce de l'ascension du Seigneur qu'vne disparition ?  
+                    <lb/>&amp; de son retour qu'vne apparition ?  
+                    <lb/>ce qui n'a iamais esté enseigné ni creu en  
+                    <lb/>l'Eglise Chrestiene, mais bien entre les Marcionites  
+                    <lb/>detestables. Voire quand tout cela  
+                    <lb/>n'auroit point de lieu, à quel propos peut- 
+                    <lb/>on mettre en auant ceste glorification, veu  
+                    <lb/>que la saincte Cene a esté instituee par le  
+                    <lb/>Seigneur, au temps de sa plus grande infirmité :  
+                    <lb/>et qu'il faut, que tant les Catholiques  
+                    <lb/>Romains, que les Vbiquitaires, Transsubstantiateurs,  
+                    <lb/>&amp; Consubstantiateurs, recognoissent  
+                    <lb/>que ces paroles, <quote source="bibleSegond21.xml#Matt.26.26">Ceci est mon  
+                        <lb/>corps</quote>, &amp; <quote source="bibleSegond21.xml#Matt.26.28">ceci est mon sang</quote>, 
+                    ne sont autrement  
+                    <lb/>veritables en l'administration &amp; celebration,  
+                    <lb/>soit de la Messe, telle qu'ils l'imaginent,  
+                    <lb/>soit de la saincte Cene, qu'elles ont  
+                    <lb/>esté au temps de la premiere institution de  
+                    <lb/>ce Sacrement ? Et ceste absence reelle &amp; essencielle <pb n="56"/> 
+                    <lb/>du corps de Iesus Christ en terre,  
+                    <lb/>iusques à son dernier retour, que nous attendons,  
+                    <lb/>ne repugne en rien à la verité &amp; à  
+                    <lb/>l'effect de la presence sacramentelle, par laquelle  
+                    <lb/>non seulement l'humanité de Iesus  
+                    <lb/>Christ, (qui est maintenant essenciellement  
+                    <lb/>au ciel &amp; non ailleurs) mais aussi sa mort &amp;  
+                    <lb/>passion, voire tout ce qu'il a fait &amp; enduré  
+                    <lb/>pour nous (quoy que ce soyent choses passees  
+                    <lb/>quant à elles) nous sont representees,  
+                    <lb/>non point comme estans reellement ici bas  
+                    <lb/>ou nous sommes, &amp; non ailleurs, ni aussi par  
+                    <lb/>resuerie ou quelque vaine imaginatiõ, mais  
+                    <lb/>en nostre entendement illuminé par la foy,  
+                    <lb/>contemplant &amp; receuant spirituellement  
+                    <lb/>toutes ces choses à salut : entant qu'il les  
+                    <lb/>voit et contẽple en ce qui est signifié &amp; presenté  
+                    <lb/>à la foy des croyans, tant en la parole  
+                    <lb/>Sacramentelle, qu'aux signes qui y sont adioustés.  
+                    <lb/>Voila donc ce que la parole de Dieu  
+                    <lb/>a tousiours enseigné &amp; enseigne en la vraye  
+                    <lb/>Eglise, contre les erreurs susdits. Et si on demande  
+                    <lb/>plus outre, comment donc est aduenue  
+                    <lb/>ceste penetration reelle du corps du  
+                    <lb/>Seigneur, sans aucune ouuerture, ni en la  
+                    <lb/>Vierge, ni de la pierre du sepulchre, ni des  
+                    <lb/>portes fermees, ie remettray cela au lieu où  
+                    <lb/>il est parlé de ces portes, &amp; diray seulemẽt en  
+                    <lb/>cest endroit (quoy qu'ayent estimé plusieurs  
+                    <lb/>anciens) qu'on ne sauroit aucunement tirer  <fw place="bot-right" type="catch">de</fw> 
+                    <pb n="57"/> 
+                    <lb/>de ce passage, ni d'autre quelcõque des sainctes 
+                    <lb/>Escritures, que Iesus Christ soit sorti du 
+                    <lb/>sepulchre deuant que la pierre en fust roulee : 
+                    <lb/>estant plustost vray semblable, que le 
+                    <lb/>Seigneur s'est serui du ministere de l'Ange 
+                    <lb/>en ce faict, non pas qu'il ne peust faire cela 
+                    <lb/>luy-mesmes, &amp; de soy-mesmes (comme il a 
+                    <lb/>bien fait choses plus grandes) soit par sa diuinité 
+                    <lb/>toute puissante, soit par l'instrument 
+                    <lb/>&amp; commandement mesmes de son humanité : 
+                    <lb/>mais pour monstrer sa gloire, comme de 
+                    <lb/>celuy auquel les Anges mesmes seruent par 
+                    <lb/>tout deuoir.</p> 
+                <p n="13"> 
+                    <lb/>Reste maintenant à exposer en nostre histoire 
+                   <note type="margin"> 
+                        <hi rend="I">Pourquoy 
+                            <lb/>le Seigneur 
+                            <lb/>a voulu que 
+                            <lb/>la pierre 
+                            <lb/>fust roulee, 
+                            <lb/>et les seaux 
+                            <lb/>brisés par 
+                            <lb/>vn Ange, 
+                            <lb/>au veu &amp; 
+                            <lb/>au sceu des 
+                            <lb/>Gardes.</hi> 
+                    </note> 
+                    <lb/>ce qui aduint à ces gensdarmes, qui 
+                    <lb/>estoyent là campés, pour faire trouuer Dieu 
+                    <lb/>&amp; Iesus Christ menteurs. Car encores que 
+                    <lb/>leur intention ne passast pas si auant, entant 
+                    <lb/>que ne tenãs Iesus Christ que pour vn homme 
+                    <lb/>mort, ils ne pensoyent auoir à faire qu'à 
+                    <lb/>ses disciples, <ref type="bible" target="bibleSegond21.xml#Matt.27.64">Matth. 27. 64.</ref> ce neantmoins, 
+                    <lb/>s'ils fussent venus à bout de leur dessein, il 
+                    <lb/>eust falu que Dieu, ayant predit par ses Prophetes 
+                    <lb/>ceste resurrection, &amp; ce que Iesus 
+                    <lb/>Christ en auoit si souuent &amp; si expressément 
+                    <lb/>declaré, fust trouué mensonger. Mais il faut 
+                    <lb/>au contraire, que Dieu se trouue tousiours 
+                    <lb/>veritable, &amp; les hommes trompés en leur 
+                    <lb/>vanité. Qui a donc fait perdre cœur à ses 
+                    <lb/>vaillans gensdarmes ? qui leur a engourdi les<pb n="58"/> 
+                    <lb/>mains ? qui les a renuersés par terre comme 
+                    <lb/>morts ? Ce n'a pas esté les disciples, qui ne 
+                    <lb/>pensoyent à rien moins qu'à cela. Pierre aussi 
+                    <lb/>ayant esté si estonné de la voix d'vne 
+                    <lb/>chambriere, n'auoit garde alors de mettre 
+                    <lb/>la main à l'espee, estant plustost larmoyant 
+                    <lb/>pour sa grande faute. Ce n'a point esté aussi 
+                    <lb/>ni Ioseph, ni Nicodeme : mais ç'a esté celuy 
+                    <lb/>contre lequel ne peut rien ni cautelle ni 
+                    <lb/>violence, &amp; qui s'est serui en cest endroict 
+                    <lb/>tant du tremblement de terre, que de la descente 
+                    <lb/>d'vn Ange venant du ciel, auec ses 
+                    <lb/>yeux flamboyans, &amp; roulant la pierre auec 
+                    <lb/>vn impetueux brisement des seaux apposés 
+                    <lb/>par les bons maistres de ces gensdarmes. Ce 
+                    <lb/>faict donc a bien esté plus admirable, que si 
+                    <lb/>Dieu y eust employé les hommes : &amp; toutesfois 
+                    <lb/>le Seigneur en pouuoit bien faire autant, 
+                    <lb/>voire les abysmer du tout, par sa seule 
+                    <lb/>voix, comme il auoit fait lors qu'ils l'estoyent 
+                    <lb/>venu saisir, <ref type="bible" target="bibleSegond21.xml#John.18.6">Ieh. 18. 6.</ref> (mais ils estoyẽt 
+                    <lb/>indignés de le voir ni de l'ouir parler ressuscité :) 
+                    <lb/>ou bien par tel moyen non apperceuable 
+                    <lb/>qu'il luy eust pleu. Mais le Seigneur 
+                    <lb/>par sa prouidence tresadmirable a voulu 
+                    <lb/>que ces malheureux demourassent cõuaincus 
+                    <lb/>par tesmoignages sensibles &amp; irrefragables, 
+                    <lb/>&amp; eussent dequoy faire vn rapport à 
+                    <lb/>leurs maistres, qui rendist &amp; les maistres &amp; 
+                    <lb/>les valets du tout conueincus de l'innocence  <fw place="bot-right" type="catch">ce &amp;</fw>  
+                    <pb n="59"/>  
+                    <lb/>&amp; de la puissance de celuy qu'ils auoyent   
+                    <lb/>crucifié : &amp; inexcusables en ce complot duquel  
+                    <lb/>il sera parlé ci apres.</p> 
+                <p n="14"> 
+                    <lb/>Apprenons donc ici en premier lieu, que 
+                    <note type="margin"> 
+                        <hi rend="I">Conformité 
+                            <lb/>entre la 
+                            <lb/>mort, sepulture, 
+                            <lb/>&amp; resurrection du 
+                            <lb/>Seigneur, et 
+                            <lb/>tant de diuerses 
+                            <lb/>oppreßions et 
+                            <lb/>deliurances 
+                            <lb/>de son 
+                            <lb/>Eglise, par 
+                            <lb/>des moyens 
+                            <lb/>plus que 
+                            <lb/>humains et 
+                            <lb/>vrayement 
+                            <lb/>celestes.</hi> 
+                    </note> 
+                    <lb/>si le Seigneur trouuant, par maniere de dire, 
+                    <lb/>si souuent sa poure Eglise, cõme desia enseuelie, 
+                    <lb/>ne besongne à nostre appetit pour sa 
+                    <lb/>deliurance, ce n'est par faute ni de pouuoir 
+                    <lb/>ni de vouloir, mais d'autant qu'il veut rendre 
+                    <lb/>son assistence tant plus remarquable, 
+                    <lb/>quand il luy plaist choisir &amp; employer des 
+                    <lb/>moyens ni preueus ni attendus, comme non 
+                    <lb/>seulement ceste histoire, mais vne infinité 
+                    <lb/>d'autres le nous tesmoignent. Et sans aller 
+                    <lb/>plus loin, ce que nous en auõs veu, &amp; voyõs 
+                    <lb/>encores de nostre tẽps, le nous doit bien apprendre. 
+                    <lb/>Dieu donc nous face la grace d'estre 
+                    <lb/>bons disciples en ceste escole, &amp; de posseder 
+                    <lb/>nos ames en tout silence &amp; patience. 
+                    <lb/>Car, quoy qu'il en soit, (comme nous l'auõs 
+                    <lb/>dit ci dessus, meritant bien ce poinct d'estre 
+                    <lb/>dit &amp; medité plus d'vne fois) aussi peu ont 
+                    <lb/>profité &amp; profiterõt tous ceux qui ont voulu, 
+                    <lb/>veulent ou voudront empescher, soit par 
+                    <lb/>force, soit par artifice, que la deliurance de 
+                    <lb/>l'Eglise du Seigneur, hors de ce sepulchre &amp; 
+                    <lb/>cauerne de l'idolatrie &amp; superstition où elle 
+                    <lb/>a esté gisante si long temps, ne se paracheue 
+                    <lb/>trespuissamment &amp; tresmagnifiquement, 
+                    <lb/>que ceux-ci ont profité auec leurs seaux, &amp;<pb n="60"/> 
+                    <lb/>&amp; leur grosse pierre, &amp; leurs gardes, pour 
+                    <lb/>empescher ou retarder la resurrection du 
+                    <lb/>corps du Seigneur, à poinct nommé.</p> 
+                <p n="15"> 
+                    <lb/><note type="margin"> 
+                        <hi rend="I">Les ennemis 
+                            <lb/>de Iesus Christ, 
+                            <lb/>sont ceux 
+                            <lb/>qui ont à 
+                            <lb/>craindre 
+                            <lb/>toutes choses, 
+                            <lb/>&amp; sont 
+                            <lb/>ruinés par eux-mesmes.</hi> 
+                    </note>  Finalement, comme ce tremblement de 
+                    <lb/>terre, &amp; ce ministere de l'Ange nous doiuent 
+                    <lb/>appuyer en tous perils &amp; dangers sur 
+                    <lb/>la force de ce Ressuscité pour nous, ainsi 
+                    <lb/>que nous l'auons monstré ci dessus : aussi auons 
+                    <lb/>nous ici à considerer tout au rebours, à 
+                    <lb/>qui c'est à craindre, estant tresueritable ce 
+                    <lb/>dire d'vn bõ Ancien, Veux-tu ne rien craindre, 
+                    <lb/>crain le Seigneur, &amp; te voila tout asseuré : 
+                    <lb/>mais si tu ne le crains, crain hardiment 
+                    <lb/>toutes choses, voire iusques aux plus petites, 
+                    <lb/>tesmoins les grenouilles, les mousches, 
+                    <lb/>&amp; les poux, vangeresses de l'Eglise de Dieu 
+                    <lb/>contre Pharaon : &amp; ces grandes armees des 
+                    <lb/>sauterelles, des chenilles &amp; des hanetons, 
+                    <lb/>dont il est parlé <ref type="bible" target="bibleSegond21.xml#Joel.2.25">Ioel, 2. 25.</ref> &amp; ailleurs. Car 
+                    <lb/>qui ne tremblera quand le lyon de la forest 
+                    <lb/>rugira ? <ref type="bible" target="bibleSegond21.xml#Amos.3.8">Amos, 3. 8.</ref> Apprenons donc de reuerer 
+                    <lb/>nostre Dieu &amp; Sauueur, nous tenans clos 
+                    <lb/>sous l'ombre de ses ailes : &amp; le supplions que 
+                    <lb/>formant nos cœurs à ceste obeissance qui 
+                    <lb/>luy est deüe, il nous enuironne de plus en 
+                    <lb/>plus de sa saincte protection, confondant 
+                    <lb/>tous les ennemis de sa verité par leurs propres 
+                    <lb/>entreprises, à son honneur &amp; gloire, &amp; 
+                    <lb/>à tel repos de ses poures enfans, qu'il sait 
+                    <lb/>leur estre expedient.</p> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

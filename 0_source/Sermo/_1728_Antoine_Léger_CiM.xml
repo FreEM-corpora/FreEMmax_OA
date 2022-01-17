@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1728_Antoine_Léger_CiM">
+            <titleStmt>
+                <title type="sermon">[I] L'AMOUR DES RICHESSES. SERMON SUR I. Tim. Chap. VI. ꝟ. 9. 10.</title>
+                <title type="book">NOUVEAUX Sermons SUR DIVERS TEXTES de L'ECRiture sainte, PAR ANTOINE LEGER Pasteur &amp; Professeur en Theologie. TOME PREMIER.
+                 A GENEVE, Chez Fabri &amp; Barrillot. M. DCC. XXVIII.</title>
+                <author ref="...">Antoine Léger</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="CiM">Cinthia MELI</persName>
+                        <email>cinthia.meli@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Antoine Léger</author>
+                        <title>NOUVEAUX Sermons SUR DIVERS TEXTES de L'ECRiture sainte. TOME PREMIER.</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Fabri &amp; Barrillot</publisher>
+                            <date>1728</date>
+                            <date type="sermon"/>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">https://books.google.ch/books?id=qt4_AAAAcAAJ</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_thématique</term>
+                    <term type="sermonTheme">L'amour des richesses</term>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">11</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">1Tim.6.9-10</term>
+                    <term type="paratext" subtype="tableOfContents">TABLE DES SERMONS Contenus en ce Premier Volume.</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-06-17" who="#LjD">transformation word - XML</change>
+            <change when="2016-06-17" who="#MAG">Verification, citations</change>
+            <change when="2016-06-08 " who="#CiM">Transcription word</change>
+            <change when="2016-08-30" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>
+                    <hi rend="I">NOUVEAUX</hi>
+                    <lb/>SERMONS
+                    <lb/>SUR
+                    <lb/>DIVERS TEXTES
+                    <lb/>DE
+                    <lb/>L'ECRITURE SAINTE,
+                    <lb/>PAR
+                    <lb/>
+                    <hi rend="I">ANTOINE LEGER
+                        <lb/>Pasteur &amp; Professeur en Theologie.</hi>
+                    <lb/>TOME PREMIER. <figure/>
+                    <!--l'image comporte une notice: "LEGENT HAEC NOSTRA NEPOTES"-->
+                    <lb/>
+                    <lb/>A GENEVE,
+                    <lb/>Chez FABRI &amp; BARRILLOT..
+                    <lb/>M. DCC. XXVIII. </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <head type="main">
+                    <lb/>[I]
+                    <lb/>L'AMOUR
+                    <lb/>DES
+                    <lb/>RICHESSES.
+                    <lb/>SERMON
+                    <lb/>SUR
+                    <lb/>
+                    <ref type="bible" target="bibleSegond21.xml#_1Tim.6.9-10">I. Tim. Chap. VI. ꝟ. 9. 10.</ref>
+                </head>
+                <p n="1">
+                    <lb/>
+                    <quote source="bibleOstervald1724.xml#_1Tim.6.9-10"><!--traduction personnelle-->
+                        <hi rend="I">Ceux qui se veulent enrichir , tombent
+                            <lb/>dans la tentation , dans le piége,
+                            <lb/>&amp; dans un grand nombre de desirs
+                            <lb/>insensez &amp; pernicieux , qui plongent
+                            <lb/>les hommes dans la ruïne &amp;
+                            <lb/>dans la perdition: car l'amour des
+                            <lb/>Richesses est la racine de toute sorte
+                            <lb/>de maux ; &amp; quelques-uns en étant
+                            <lb/>possedez , se sont écartez de la foi ,
+                            <lb/>&amp; se sont jettez dans bien des embarras
+                            <lb/>&amp; des chagrins</hi>
+                    </quote>.
+                </p>
+                <p n="2">
+                    <lb/>
+                    <c type="lettrine">L</c>'APÔTRE SAINT PAUL dit
+                    <lb/>que <ref target="#mn_1_1" type="noteAnchor">*</ref> <quote source="bibleOstervald1724.xml#_1Cor.2.14">
+                        <hi rend="I">l'homme animal ne comprend</hi>
+                        <note xml:id="mn_1_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#_1Cor.2.14">
+                                <hi rend="I">I. Cor. <lb/>II. </hi>14<hi rend="I">.</hi>
+                            </ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">point les choses qui sont de l'Esprit </hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">prit</hi>
+                        </fw>
+                        <pb n="2"/>
+                        <lb/>
+                        <hi rend="I">de Dieu </hi>:<hi rend="I"> elles lui paroissent une
+                            <lb/>folie</hi>
+                    </quote>. De là naissent les railleries
+                    <lb/>des Libertins sur la conduite des
+                    <lb/>gens de bien , &amp; sur leurs espérances ,
+                    <lb/>&amp; le mépris que le monde a
+                    <lb/>pour la pieté. Si les hommes du
+                    <lb/>monde se donnent la liberté de juger
+                    <lb/>ainsi de la manière d'agir des
+                    <lb/>Fidéles, &amp; des vuës qu'ils ont pour
+                    <lb/>une autre vie, les hommes de Dieu,
+                    <lb/>d'un autre côté , jugent que la conduite
+                    <lb/>des hommes du monde est
+                    <lb/>aussi une folie , &amp; que rien n'est plus
+                    <lb/>chimérique que leurs espérances &amp;
+                    <lb/>leurs desseins. Ils se regardent
+                    <lb/>réciproquement comme des fous &amp;
+                    <lb/>des insensez. Cette dispute durera
+                    <lb/>autant que le monde , &amp; ne sera
+                    <lb/>décidée qu'à la venuë du juste Juge
+                    <lb/>de cet Univers , qui aprouvera
+                    <lb/>la conduite des uns , condamnera
+                    <lb/>celle des autres , &amp; convaincra toutes
+                    <lb/>les Créatures de la justice de sa
+                    <lb/>décision. </p>
+                <p n="3">
+                    <lb/>Pour nous, MES FRERES, qui
+                    <lb/>faisons profession d'être les Disciples <fw place="bot-right" type="catch">de</fw>
+                    <pb n="3"/>
+                    <lb/>de ce Docteur celeste , nous pouvons
+                    <lb/>prendre parti dès à present ,
+                    <lb/>puis qu'il nous a déclaré par ses Serviteurs ,
+                    <lb/>ses sentimens , &amp; les principes ,
+                    <lb/>sur lesquels il fondera son Jugement ,
+                    <lb/>au dernier jour : Et , aujourd'hui
+                    <lb/>son Apôtre nous instruit sur
+                    <lb/>une des matières les plus contestées,
+                    <lb/>savoir , sur le desir des Richesses ,
+                    <lb/>qui est regardé par les hommes de
+                    <lb/>ce Siecle, comme une souveraine prudence ,
+                    <lb/>qui les conduit à une véritable
+                    <lb/>felicité; &amp; par le Saint Esprit,
+                    <lb/>comme une pure folie , qui <quote source="bibleSegond21.xml#_1Tim.6.9">
+                        <hi rend="I">plonge
+                            <lb/>dans la ruïne &amp; dans la perdition</hi>
+                    </quote>.
+                </p>
+                <p n="4">
+                    <lb/>St. Paul ne peut pas parler d'une
+                    <lb/>maniére plus décisive qu'il le fait
+                    <lb/>dans nôtre Texte. <quote source="bibleOstervald1724.xml#_1Tim.6.9-10">
+                        <hi rend="I">Ceux qui se veulent
+                            <lb/>enrichir tombent dans la tentation,
+                            <lb/>dans le piége, &amp; dans un grand
+                            <lb/>nombre de desirs insensez &amp; pernicieux,
+                            <lb/>qui plongent les hommes dans
+                            <lb/>la ruïne &amp; dans la perdition ; car
+                            <lb/>l'amour des Richesses est la racine de
+                            <lb/>toute sorte de maux , &amp; quelques-
+                            <lb/>uns en étant poßédez se sont écartez</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">de</hi>
+                        </fw>
+                        <pb n="4"/>
+                        <lb/>
+                        <hi rend="I">de la foi , &amp; se sont jettez dans bien
+                            <lb/>des embarras &amp; des chagrins</hi>
+                    </quote>.
+                </p>
+                <p n="5">
+                    <lb/>Il adressoit cette exhortation à
+                    <lb/>un jeune Ministre de l'Evangile , savoir ,
+                    <lb/>à Timothée , qu'il munissoit
+                    <lb/>contre les tentations &amp; les piéges
+                    <lb/>du Diable , &amp; qu'il vouloit former
+                    <lb/>sur le modelle de JESUS-CHRIST.
+                    <lb/>Le desir des Richesses est sur tout indigne
+                    <lb/>d'un Ministre de JESUS-
+                    <lb/>CHRIST, qui connoit les espérances
+                    <lb/>glorieuses que son Maitre lui
+                    <lb/>fait annoncer aux hommes : Mais ,
+                    <lb/>il est aussi indigne de tous les Chrêtiens,
+                    <lb/>qui adorent leur Sauveur dans
+                    <lb/>le Ciel , &amp; qui savent qu'il leur est
+                    <lb/>allé préparer lieu dans ce séjour de
+                    <lb/>la felicité. La leçon de l'Apôtre
+                    <lb/>est donc propre pour tous , &amp; pour
+                    <lb/>les Ministres du Seigneur &amp; pour les
+                    <lb/>simples Chrêtiens , &amp; pour les Pasteurs
+                    <lb/>&amp; pour les Brebis ; mais d'autant
+                    <lb/>plus propre , qu'il semble que
+                    <lb/>nous devons tous passer condamnation,
+                    <lb/>&amp; que si nous examinons bien
+                    <lb/>nos pensées &amp; nos inclinations secretes, <fw place="bot-right" type="catch">tes,</fw>
+                    <pb n="5"/>
+                    <lb/>&amp; que nous en fassions comparaison
+                    <lb/>avec les Maximes de l'Evangile ,
+                    <lb/>nous trouverons que nous
+                    <lb/>sommes encore en partie animaux
+                    <lb/>à cet égard ; que nous avons tous
+                    <lb/>quelque reste de cette folie , dont
+                    <lb/>l'Apôtre nous parle ; les uns plus,
+                    <lb/>les autres moins. C'est donc pour
+                    <lb/>nous détromper les uns &amp; les autres
+                    <lb/>sur cette matiére, que j'ai choisi
+                    <lb/>le Texte que je vous ai lu. Les
+                    <lb/>uns y aprendront qu'ils sont entiérement
+                    <lb/>fous ; les autres qu'ils ne
+                    <lb/>sont pas entiérement sages. Et si
+                    <lb/>nous voulons tous agir avec prudence,
+                    <lb/>nous abandonnerons absolument
+                    <lb/>ce desir ridicule des Richesses. </p>
+                <p n="6">
+                    <lb/>L'Apôtre avoit déja jetté les fondemens
+                    <lb/>des maximes , qu'il établit
+                    <lb/>dans nôtre Texte , en
+                    montrant le
+                    <lb/>peu de nécessité &amp; le peu d'utilité
+                    <lb/>des Richesses. <quote source="bibleOstervald1724.xml#_1Tim.6.7-8">
+                        <hi rend="I">Nous n'avons rien
+                            <lb/>aporté dans ce monde , &amp; il est évident
+                            <lb/>que nous n'en pourrons rien emporter ;
+                            <lb/>&amp; pourvû que nous ayons dequoi</hi>
+                        <lb/>
+                        <hi rend="I">nous nourrir &amp; dequoi</hi>
+                        <hi rend="I"> nous vêtir ,</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">tir ,</hi>
+                        </fw>
+                        <pb n="6"/>
+                        <lb/>
+                        <hi rend="I">cela nous suffit</hi>
+                    </quote>. Les Richesses,
+                    <lb/>dit - il , ne servent de rien pour une
+                    <lb/>autre vie ; &amp; pour celle - ci , nous
+                    <lb/>pouvons nous en passer aisément.
+                    <lb/>Toutes nos nécessitez se raportent
+                    <lb/>à nôtre nourriture &amp; à nos vêtemens;
+                    <lb/>&amp; nous pouvons avoir l'un
+                    <lb/>&amp; l'autre sans être riches. Pourquoi
+                    <lb/>donc nous tourmenter à aquerir les
+                    <lb/>Richesses ? </p>
+                <p n="7">
+                    <lb/>Après avoir montré leur inutilité ,
+                    <lb/>il montre combien le desir de
+                    <lb/>les posseder est préjudiciable : C'est
+                    <lb/>pour cela qu'il ajoûte : <quote source="bibleOstervald1724.xml#_1Tim.6.9-10">
+                        <hi rend="I">Mais ceux
+                            <lb/>qui se veulent enrichir tombent dans
+                            <lb/>la tentation , dans le piége , &amp; dans
+                            <lb/>un grand nombre de desirs insensez
+                            <lb/>&amp; pernicieux , qui plongent les hommes
+                            <lb/>dans la ruïne &amp; dans la perdition :
+                            <lb/>car l'amour des Richeßes est la
+                            <lb/>racine de toute sorte de maux ; &amp;
+                            <lb/>quelques-uns en étant possedez se sont
+                            <lb/>écartez de la foi , &amp; se sont jettez
+                            <lb/>dans bien des embarras &amp; des chagrins</hi>
+                    </quote>.
+                </p>
+                <p n="8">
+                    <lb/>L'Apôtre nous parle 1°. de ceux <fw place="bot-right" type="catch">
+                        <hi rend="I">qui</hi>
+                    </fw>
+                    <pb n="7"/>
+                    <lb/>
+                    <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">qui veulent s'enrichir</hi>
+                    </quote>. 2°. Il nous
+                    <lb/>en dit deux choses en general. La
+                    <lb/>premiére, qu'<quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">ils tombent dans des desirs
+                            <lb/>fous</hi>
+                    </quote>. La seconde qu'<quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">ils tombent
+                            <lb/>dans la tentation , dans le piége</hi>
+                    </quote>, &amp;
+                    <lb/>se livrent à des désirs nuisibles, dont
+                    <lb/>il fait une espèce de détail. Considérons
+                    <lb/>aussi ces matiéres sous cet
+                    <lb/>ordre
+                    là.
+                </p>
+                <p n="9">
+                    <lb/>Par <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">ceux qui se veulent enrichir</hi>
+                    </quote>,
+                    <lb/>on ne peut douter que l'Apôtre
+                    <lb/>n'entende , 1°. ceux qui désirent
+                    <lb/>avec plus d'ardeur les Richesses
+                    <lb/>que le Régne de Dieu ; c'est-à-
+                    <lb/>dire , que la pieté , par laquelle
+                    <lb/>Dieu régne en nous : car JESUS-
+                    <lb/>CHRIST nous dit <ref target="#mn_7_1" type="noteAnchor">*</ref><quote source="bibleOstervald1724.xml#Matt.6.33">
+                        <hi rend="I">Cherchez premiérement</hi>
+                        <note xml:id="mn_7_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#Matt.6.33">
+                                <hi rend="I">Matth. <lb/>VI. </hi>33<hi rend="I">.</hi>
+                            </ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">le Royaume de Dieu &amp; sa
+                            <lb/>Justice, &amp; toutes ces choses vous seront
+                            <lb/>données par deßus</hi>
+                    </quote>. La conduite de ces
+                    <lb/>gens-là est donc blâmable, puis qu'elle
+                    <lb/>est contraire au Commandement du
+                    <lb/>Seigneur, &amp; cependant ils sont déja
+                    <lb/>en grand nombre, quoi que personne
+                    <lb/>ne s'imagine d'être de ce nombre
+                    <lb/>là. Une seule choses les convaincra <fw place="bot-right" type="catch">cra</fw>
+                    <pb n="8"/>
+                    <lb/>qu'ils se trompent. Il n'y a qu'à
+                    <lb/>les obliger d'interroger leur Conscience,
+                    <lb/>&amp; à se demander ce qui
+                    <lb/>leur donne plus de plaisir, ou quand
+                    <lb/>ils ont fait une bonne action , ou
+                    <lb/>quand ils ont fait quelque profit dans
+                    <lb/>leurs affaires ? Dequoi ils sont plus
+                    <lb/>fâchez , ou d'avoir commis un péché ,
+                    <lb/>ou d'avoir fait quelque perte?
+                    <lb/>Si , par exemple , ils aiment mieux
+                    <lb/>laisser échaper un profit considerable
+                    <lb/>que de dire un mensonge ? Car toute
+                    <lb/>personne , qui se réjouït plus de
+                    <lb/>l'aquisition des Richesses que de
+                    <lb/>l'augmentation de sa vertu , qui s'aflige
+                    <lb/>plus de la perte de ses biens que
+                    <lb/>de la perte de sa pieté, &amp; qui est prête
+                    <lb/>à commettre un péché, comme le
+                    <lb/>mensonge , pour faire un profit considérable,
+                    <lb/>elle aime plus les Richesses
+                    <lb/>que le Royaume de Dieu: car où
+                    <lb/>le péché régne, Dieu ne régne plus. </p>
+                <p n="10">
+                    <lb/>En second lieu , par <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">ceux qui se
+                            <lb/>veulent enrichir</hi>
+                    </quote> , &amp; qui le veulent
+                    <lb/>d'une maniére condamnable, on doit
+                    <lb/>entendre ceux qui , sans mettre leur <fw place="bot-right" type="catch">con-</fw>
+                    <pb n="9"/>
+                    <lb/>confiance en la bonté de Dieu, desirent
+                    <lb/>les biens du monde avec inquietude,
+                    <lb/>avec des soucis rongeans,
+                    <lb/>avec crainte pour l'avenir : Car ,
+                    <lb/>bien loin qu'il soit permis de rechercher
+                    <lb/>la superfluité des Richesses avec
+                    <lb/>ces soucis de défiance: il n'est pas même
+                    <lb/>permis de rechercher de cette
+                    <lb/>maniére les choses absolument nécessaires
+                    <lb/>pour nôtre conservation. C'est
+                    <lb/>pour cela que JESUS-CHRIST nous
+                    <lb/>dit, <ref target="#mn_9_1" type="noteAnchor">*</ref> <quote source="bibleOstervald1724.xml#Matt.6.31-32">
+                        <hi rend="I">Ne vous inquietez donc point,</hi>
+                        <note xml:id="mn_9_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#Matt.6.31-32">
+                                <hi rend="I">Matth. <lb/>VI. </hi>31. <lb/>32<hi rend="I">.</hi>
+                            </ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">&amp; ne dites point , où trouverons-nous
+                            <lb/>dequoi</hi>
+                        <hi rend="I"> manger &amp; boire , &amp; dequoi</hi>
+                        <lb/>
+                        <hi rend="I">nous habiller? car se sont les Payens,
+                            <lb/>qui recherchent toutes ces choses , &amp;
+                            <lb/>vôtre Pere celeste</hi>, <seg type="interpolation">qui vous a donné
+                                <lb/>la vie &amp; le corps, </seg>
+                        <hi rend="I">sait que vous
+                            <lb/>en avez besoin</hi>
+                    </quote>.
+                </p>
+                <p n="11">
+                    <lb/>Enfin , <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">ceux qui se veulent enrichir</hi>
+                    </quote>
+                    <lb/>sont des personnes, qui estiment
+                    <lb/>malheureux ceux qui ne jouïssent
+                    <lb/>que du nécessaire : qui en conséquence
+                    <lb/>ne veulent pas s'en contenter,
+                    <lb/>mais cherchent ce qui peut les
+                    <lb/>mettre dans l'aise &amp; dans l'abondance ; <fw place="bot-right" type="catch">dan-</fw>
+                    <pb n="10"/>
+                    <lb/>qui travaillent &amp; qui s'empressent
+                    <lb/>pour faire réüssir le dessein
+                    <lb/>qu'ils ont formé. Ainsi, St. Paul ,
+                    <lb/>dans nôtre Texte , ne parle pas de
+                    <lb/>ceux qui estiment simplement les Richesses ,
+                    <lb/>qui souhaiteroient d'en
+                    <lb/>avoir , &amp; qui en demeurent là, sans
+                    <lb/>que ce ce desir ait de l'influence sur
+                    <lb/>leurs desseins &amp; sur le Plan general
+                    <lb/>de leur vie. Ce n'est pas que le
+                    <lb/>simple desir des Richesses, soit un desir
+                    <lb/>sage , car elles ont si peu de rapport
+                    <lb/>avec nôtre vocation , &amp; elles
+                    <lb/>sont si propres à nous faire perdre le
+                    <lb/>Salut , qu'il n'y a pas de prudence
+                    <lb/>à les desirer. Aussi l'Esprit de Dieu
+                    <lb/>nous a conservé comme une Priere
+                    <lb/>
+                    <note xml:id="mn_10_1 " type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#Prov.30.8">
+                            <hi rend="I">Prov. <lb/>XXX.</hi> 8</ref>
+                    </note>sage celle d'Agur, qui disoit, <ref target="#mn_10_1" type="noteAnchor">*</ref><quote source="bibleOstervald1724.xml#Prov.30.8">
+                        <hi rend="I">Ne
+                            <lb/>me donne ni Pauvreté, ni Richesses,
+                            <lb/>mais nourri-moi du pain de mon ordinaire ,
+                            <lb/>de peur qu'étant rassasié, je
+                            <lb/>ne te renie , &amp; que je ne dise , Qui est
+                            <lb/>l'Eternel! De peur aussi qu'étant apauvri
+                            <lb/>je ne dérobe , &amp; que je ne prenne
+                            <lb/>en vain le nom de mon Dieu</hi>
+                    </quote>.Mais,
+                    <lb/>quoi que le simple desir des Richesses <fw place="bot-right" type="catch">ses</fw>
+                    <pb n="11"/>
+                    <lb/>ne soit pas sage , ce n'est pas celui
+                    <lb/>que St. Paul condamne dans nôtre
+                        <lb/>Texte ; il n'y condamne que
+                    celui
+                    <lb/>qui tient le cœur attaché au dessein
+                    <lb/>de s'enrichir , &amp; qui engage à
+                    <lb/>travailler pour l'éxécuter. </p>
+                <p n="12">
+                    <lb/>On dira, sans doute, que le dessein
+                    <lb/>de s'enrichir , &amp; les soins que l'on
+                    <lb/>se donne pour cela , ne sauroient
+                    <lb/>être blâmables , puis que Dieu ne
+                    <lb/>veut pas que nous vivions dans l'oisivité ,
+                    <lb/>&amp; que l'Apôtre lui-même
+                    <lb/>nous dit , que <ref target="#mn_11_1" type="noteAnchor">*</ref><quote source="bibleOstervald1724.xml#_2Cor.12.14">
+                        <hi rend="I">les peres doivent</hi>
+                        <note xml:id="mn_11_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#_2Cor.12.14">
+                                <hi rend="I">II. Cor. <lb/>XII.</hi> 14<hi rend="I">.</hi>
+                            </ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">amaßer du bien pour leurs enfans</hi>
+                    </quote>.
+                </p>
+                <p n="13">
+                    <lb/>Mes Freres, autre chose est de
+                    <lb/>travailler pour avoir dequoi vivre,
+                    <lb/>&amp; dequoi laisser à ses enfans, afin
+                    <lb/>qu'ils ne soient point exposez aux
+                    <lb/>incommoditez &amp; aux tentations de
+                    <lb/>la pauvreté; &amp; autre chose n'être
+                    <lb/>point content d'un bien médiocre ,
+                    <lb/>&amp; se regarder comme malheureux,
+                    <lb/>jusques à ce que l'on soit riche. L'Apôtre
+                    <lb/>commande la premiere de ces
+                    <lb/>choses , mais il blâme la derniere.
+                    <lb/>D'ailleurs, si quelcun en s'occupant <fw place="bot-right" type="catch">à</fw>
+                    <pb n="12"/>
+                    <lb/>à un travail legitime, aquiert des Richesses
+                    <lb/>considerables, il ne fait point
+                    <lb/>de mal en cela, il ne doit pas même
+                    <lb/>se défaire de ses Richesses , comme
+                    <lb/>en ont usé d'anciens Philosophes;
+                    <lb/>seulement il doit se souvenir qu'il
+                    <lb/>est exposé à une plus grande tentation,
+                    <lb/>qu'il n'étoit auparavant: il doit
+                    <lb/>se tenir extrêmement sur ses gardes ,
+                    <lb/>veiller &amp; prier, &amp; prendre la
+                    <lb/>résolution de faire de grandes aumônes,
+                    <lb/>qui doivent être le but du
+                    <lb/>travail que nous entreprenons pour
+                    <lb/>aquerir du bien , comme St. Paul
+                    <lb/>
+                    <note xml:id="mn_12_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#Eph.4.28">
+                            <hi rend="I">Ephes. <lb/>IV. </hi>28<hi rend="I">.</hi>
+                        </ref>
+                    </note>le dit expressément<ref target="#mn_12_1" type="noteAnchor">*</ref>, <quote source="bibleOstervald1724.xml#Eph.4.28">
+                        <hi rend="I">Que chacun
+                            <lb/>s'occupe, en travaillant de ses mains
+                            <lb/>à quelque chose de bon, pour avoir dequoi</hi>
+                        <lb/>
+                        <hi rend="I">donner à celui qui est dans le
+                            <lb/>besoin</hi>
+                    </quote>.
+                </p>
+                <p n="14">
+                    <lb/>Ce que nous venons de dire explique,
+                    <lb/>ce me semble , suffisamment
+                    <lb/>qui sont <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">ceux qui se veulent enrichir</hi>
+                    </quote>.
+                    <lb/>Voions maintenant ce que l'Apôtre en
+                    <lb/>dit. Il dit qu'ils <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">tombent dans la tentation,
+                            <lb/>dans le piége &amp; dans plusieurs
+                            <lb/>desirs insensez &amp; pernicieux, qui</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">plon-</hi>
+                        </fw>
+                        <pb n="13"/>
+                        <lb/>
+                        <hi rend="I">plongent les hommes dans la ruïne &amp;
+                            <lb/>dans la perdition</hi>
+                    </quote>. Commençons par
+                    <lb/>ce qu'il dit de la folie. </p>
+                <p n="15">
+                    <lb/>
+                    <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">Ils tombent dans plusieurs desirs
+                            <lb/>insensez</hi>
+                    </quote> ; c'est à dire , que les desirs,
+                    <lb/>qu'ils ont à cet egard, sont insensez ,
+                    <lb/>&amp; les engagent à une conduite
+                    <lb/>fole. </p>
+                <p n="16">
+                    <lb/>1°. On doit croire qu'une conduite
+                    <lb/>est fole, quand elle est contraire
+                    <lb/>aux maximes des personnes, qui sont
+                    <lb/>reconnuës incontestablement pour sages.
+                    <lb/>Or prenez tous les Sages , reconnus
+                    <lb/>pour tels, par l'Esprit de Dieu
+                    <lb/>dans sa Parole , nous n'en trouverez
+                    <lb/>pas un entêté du desir de s'enrichir.
+                    <lb/>Ils se regardent au contraire tous
+                    <lb/>comme <ref target="#mn_13_1" type="noteAnchor">*</ref><quote source="bibleOstervald1724.xml#Heb.11.13">
+                        <hi rend="I">des étrangers &amp; des voiageurs</hi>
+                        <note xml:id="mn_13_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#Heb.11.13">
+                                <hi rend="I">Hebr. <lb/>XI. </hi>13<hi rend="I">.</hi>
+                            </ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">sur la terre</hi>
+                    </quote>. Ils sont tous occupez
+                    <lb/><ref target="#mn_13_2" type="noteAnchor">†</ref><quote source="bibleOstervald1724.xml#Heb.11.16">
+                        <hi rend="I">du desir d'une autre Patrie</hi>
+                    </quote>,
+                    <note xml:id="mn_13_2" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Heb.11.16">
+                            <hi rend="I">Hebr. <lb/>XI. </hi>16<hi rend="I">.</hi>
+                        </ref>
+                    </note>
+                    <lb/>&amp; <ref target="#mn_13_3" type="noteAnchor">‡</ref><quote source="bibleOstervald1724.xml#Heb.11.10">
+                        <hi rend="I">de l'espérance de la Cité , qui a</hi>
+                        <note xml:id="mn_13_3" type="margin" n="‡"><ref type="bible" target="bibleSegond21.xml#Heb.11.10">
+                                <hi rend="I">Hebr. <lb/>XI. </hi>10.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">un fondement </hi>solide, <hi rend="I">dont Dieu est
+                            <lb/>l'Architecte &amp; le Fondateur</hi>
+                    </quote>. Nous
+                    <lb/>avons vû qu'Agur , bien loin de s'empresser
+                    <lb/>pour posseder des Richesses,
+                    <lb/>demande positivement à Dieu qu'il <fw place="bot-right" type="catch">ne</fw>
+                    <pb n="14"/>
+                    <lb/>ne lui donne point , qu'il ne
+                    <lb/>lui donne que le pain de son ordinaire,
+                    <lb/>Et quand Dieu permit à
+                    <lb/>Salomon de lui demander tout ce
+                    <lb/>qu'il voudroit , ce sage Prince se
+                    <lb/>garda bien de lui demander des Richesses. </p>
+                <p n="17">
+                    <lb/>2°. Une conduite est fole, quand
+                    <lb/>elle est contraire aux conseils des
+                    <lb/>gens sages. Or, non seulement les
+                    <lb/>Sages parmi les Païens , non seulement
+                    <lb/>les Prophêtes &amp; les Apôtres
+                    <lb/>nous donnent beaucoup de mépris
+                    <lb/>pour les Richesses ; mais JESUS-
+                    <lb/>CHRIST lui même , la Sagesse de
+                    <lb/>Dieu, la Sagesse éternelle, nous défend
+                    <lb/>très souvent de desirer les Richesses,
+                    <lb/>&amp; d'y mettre nôtre cœur.
+                    <lb/>Il décrit, en divers endroits , les
+                    <lb/>mauvais effets qu'elles produisent.
+                    <lb/>Il nous ordonne de demander à Dieu
+                    <lb/>nôtre pain quotidien ; c'est à dire ,
+                    <lb/>tout ce qui nous est nécessaire pour
+                    <lb/>passer nôtre vie avec douceur , &amp;
+                    <lb/>rien plus. Et il nous défend positivement
+                    <lb/>
+                    <note xml:id="mn_14_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Matt.6.19">
+                            <hi rend="I">Matth. <lb/>VI. </hi>19.</ref>
+                    </note>de nous <ref target="#mn_14_1" type="noteAnchor">†</ref> <quote source="bibleOstervald1724.xml#Matt.6.19">
+                        <hi rend="I">amasser des Trésors
+                            <lb/>sur la terre</hi>
+                    </quote>.
+                    <fw place="bot-right" type="catch">3°. C'est</fw>
+                    <pb n="15"/>
+                    <lb/>3°. C'est une conduite fole, que
+                    <lb/>d'avoir beaucoup d'empressement
+                    <lb/>pour une chose de petite consequence,
+                    <lb/>quand on en peut avoir d'incomparablement
+                    <lb/>plus considerables.
+                    <lb/>C'est ainsi qu'on estimeroit fou un
+                    <lb/>homme, dans un âge avancé, qui
+                    <lb/>s'empresseroit pour avoir les Joüets
+                    <lb/>d'un enfant. Et c'est là précisément
+                    <lb/>ce que font les Chrêtiens , qui veulent
+                    <lb/>s'enrichir sur la terre. Ils ont
+                    <lb/>la Parole de Dieu , qui est infiniment
+                    <lb/>plus précieuse que tout l'or
+                    <lb/>du monde ; les promesses de sa
+                    <lb/>Grace ; celles de la Vie éternelle ;
+                    <lb/>Ils peuvent être riches en foi &amp; en
+                    <lb/>bonnes œuvres ; Avec cela ils peuvent
+                    <lb/>être contens &amp; dans la vie, &amp;
+                    <lb/>dans la mort; ce qui a obligé l'Apôtre
+                    <lb/>à opposer ci-dessus le gain de
+                    <lb/>la pieté à tous les gains du monde. <ref target="#mn_15_1" type="noteAnchor">*</ref><note xml:id="mn_15_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#_1Tim.6.6">I. <hi rend="I">Tim. <lb/>VI. </hi>6.</ref>
+                    </note>
+                    <lb/>
+                    <quote source="bibleOstervald1724.xml# _1Tim.6.6">
+                        <hi rend="I">La pieté, avec un esprit content de
+                            <lb/>ce qu'on a , est un grand gain</hi>
+                    </quote>.Ils
+                    <lb/>peuvent gagner JESUS-CHRIST ,
+                    <lb/>qui leur <ref target="#mn_15_2" type="noteAnchor">†</ref> <quote source="bibleOstervald1724.xml#Phil.1.21">
+                        <hi rend="I">est gain, soit dans la vie,</hi>
+                        <note xml:id="mn_15_2" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Phil.1.21">
+                                <hi rend="I">Philip. <lb/>I.</hi> 21.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">soit dans la mort</hi>
+                    </quote>. Ils peuvent gagner <fw place="bot-right" type="catch">gner</fw>
+                    <pb n="16"/>
+                    <lb/>la Perle de grand prix, les Richesses
+                    <lb/>incomparables du Royaume
+                    <lb/>des Cieux , les Couronnes &amp; les
+                    <lb/>Trônes de la nouvelle Jérusalem. Ils
+                    <lb/>peuvent, par maniére de dire, déja
+                    <lb/>étendre la main sur ces choses. Il
+                    <lb/>n'y a que la très - courte durée de
+                    <lb/>cette vie, qui les en tienne éloignez.
+                    <lb/>Châque jour qu'ils vivent les en aproche:
+                    <lb/>Ils en peuvent même dès ici-
+                    <lb/>bas avoir les arrhes , les prémices ,
+                    <lb/>les avant-gouts. Et avec tous ces
+                    <lb/>avantages , ils tournent encore les
+                    <lb/>yeux sur la terre ; ils y mettent encore
+                    <lb/>leur cœur ; ils y cherchent encore
+                    <lb/>leur félicité. N'est-ce pas entiérement
+                    <lb/>oublier leur vocation, &amp;
+                    <lb/>prendre de vaines aparences pour
+                    <lb/>des biens solides? JESUS-CHRIST,
+                    <lb/>en parlant des choses nécessaires à
+                    <lb/>
+                    <note xml:id="mn_16_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#Matt.6.31-32">
+                            <hi rend="I">Matt. <lb/>VI. </hi>31. <lb/>32.</ref>
+                    </note>la vie , disoit à ses Disciples; <ref target="#mn_16_1" type="noteAnchor">*</ref><quote source="bibleOstervald1724.xml#Matt.6.31-32">
+                        <hi rend="I">Ne
+                            <lb/>vous inquietez point , &amp; ne dites
+                            <lb/>point, ou trouverons-nous dequoi manger
+                            <lb/>&amp; boire, &amp; dequoi nous habiller?
+                            <lb/>Car ce sont les Payens , qui recherchent
+                            <lb/>toutes ces choses</hi>
+                    </quote> , pour montrer <fw place="bot-right" type="catch">trer</fw>
+                    <pb n="17"/>
+                    <lb/>que pendant qu'un Chrêtien estime
+                    <lb/>les choses du monde, comme
+                    <lb/>les autres hommes les estiment , il
+                    <lb/>abandonne ses principes ; il oublie
+                    <lb/>sa grandeur &amp; agit comme une personne
+                    <lb/>fole. </p>
+                <p n="18">
+                    <lb/>4°. Qui pourroit, après cela, representer
+                    <lb/>la bisarrerie de cette passion ?
+                    <lb/>Elle remplit l'Avare de mille
+                    <lb/>desseins ridicules , de mille imaginations
+                    <lb/>grotesques. Un jour elle
+                    <lb/>lui fait entreprendre le dessein de
+                    <lb/>s'enrichir, &amp; le lendemain elle l'oblige
+                    <lb/>à l'abandonner. Il fait un pas,
+                    <lb/>&amp; puis il recule en arriere. Il veut,
+                    <lb/>&amp; il ne veut pas en même tems,
+                    <lb/>selon qu'il a des craintes ou des
+                    <lb/>espérances. Et il est quelque fois
+                    <lb/>si aveuglé, qu'il s'attache à des choses
+                    <lb/>impossibles, telle qu'est la transmutation
+                    <lb/>des Metaux , à laquelle
+                    <lb/>des gens consument &amp; leurs biens
+                    <lb/>&amp; leur vie; semblables à ce chien
+                    <lb/>de la Fable, qui quitta le morceau
+                    <lb/>qu'il portoit , pour courir après
+                    <lb/>l'ombre qu'il voioit dans la riviere. <fw place="bot-right" type="catch">Il</fw>
+                    <pb n="18"/>
+                    <lb/>Il a un pied dans la fosse &amp; il amasse
+                    <lb/>des biens, comme s'il avoit à vivre
+                    <lb/>plusieurs Siecles. Ce ne sont
+                    <lb/>pas ses enfans qu'il a en vûë; C'est
+                    <lb/>lui-même, car ceux qui n'ont point
+                    <lb/>d'enfans, sont autant ou plus avides
+                    <lb/>à aquerir du bien, sur la fin de leur
+                    <lb/>vie, que les autres. Il passe quelquefois
+                    <lb/>au - delà de cette vie, &amp; se
+                    <lb/>represente l'honneur qu'il aura à la
+                    <lb/>lecture de son Testament, d'avoir sû
+                    <lb/>bien épargner &amp; aquerir. Il s'aplaudit
+                    <lb/>aussi quand il considere l'éclat, avec
+                    <lb/>lequel sa famille vivra après sa
+                    <lb/>mort, comme s'il devoit avoir quelque
+                    <lb/>part à ces choses, &amp; comme
+                    <lb/>si la poussiere de son Tombeau devoit
+                    <lb/>se ranimer pour voir ce qui se
+                    <lb/>passe dans ce monde , ou comme
+                    <lb/>s'il étoit sur qu'il transmettra ses
+                    <lb/>biens à ses enfans , &amp; qu'ils ne les
+                    <lb/>dissiperont pas en peu de tems. </p>
+                <p n="19">
+                    <lb/>5°. Mais le plus dangereux accez
+                    <lb/>de sa folie, est la persuasion où
+                    <lb/>il est qu'il trouvera la félicité dans
+                    <lb/>la possession de ses Richesses. C'est <fw place="bot-right" type="catch">cette</fw>
+                    <pb n="19"/>
+                    <lb/>cette félicité qui l'attache. C'est cette
+                    <lb/>félicité qui l'entraîne. C'est cette
+                    <lb/>félicité qui nous éblouït presque tous.
+                    <lb/>C'est donc ce qui a le plus besoin
+                    <lb/>d'examen : Car après tout, si les Richesses
+                    <lb/>nous rendent heureux , on
+                    <lb/>n'en peut pas condamner le desir ;
+                    <lb/>mais si elles ne donnent point ce
+                    <lb/>qu'elles promettent, on est pris pour
+                    <lb/>dupe , quand on les recherche avec
+                    <lb/>ardeur, &amp; on ne peut plus être mis
+                    <lb/>au nombre des Sages. </p>
+                <p n="20">
+                    <lb/>Pour être heureux , 1°. Il ne
+                    <lb/>faut rien desirer: car rien ne marque
+                    <lb/>plus un état d'indigence &amp; de
+                    <lb/>misere que de desirer. C'est une
+                    <lb/>preuve que l'on ne se trouve pas
+                    <lb/>bien dans l'état où l'on est. 2°. Il faut
+                    <lb/>être delivré des maux réels. 3°. Il
+                    <lb/>faut en general avoir du plaisir. 4°.
+                    <lb/>Il faut que ce plaisir ait une durée
+                    <lb/>certaine, autrement la crainte de le
+                    <lb/>perdre le corromproit entierement.
+                    <lb/>Enfin il faut avoir du mérite , autrement
+                    <lb/>on a du chagrin toutes les
+                    <lb/>fois qu'on tourne les yeux sur soi-
+                    <lb/>même. </p>
+                <fw place="bot-right" type="catch">Exa-</fw>
+                <pb n="20"/>
+                <p n="21">
+                    <lb/>Examinons sur ce pied la félicité
+                    <lb/>que les Richesses procurent. 1°. Pour
+                    <lb/>ce qui est des desirs des Avares,
+                    <lb/>quand les voit - on cesser? L'expérience
+                    <lb/>de tous les Siecles fait voir
+                    <lb/>que l'envie d'avoir de l'argent, croit
+                    <lb/>à mesure qu'on en aquiert: C'est ce
+                    <lb/>que nous veut enseigner le Sage:
+                    <lb/>
+                    <note xml:id="mn_20_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Prov.27.20">
+                            <hi rend="I">Prov. </hi><lb/>XXVII. <lb/>20.</ref>
+                    </note><ref target="#mn_20_1" type="noteAnchor">†</ref> <quote source="bibleOstervald1724.xml#Prov.27.20">
+                        <hi rend="I">Le sepulcre &amp; le goufre ne
+                            <lb/>sont jamais rassasiez ; aussi les yeux
+                            <lb/>des hommes ne sont jamais rassasiez</hi>
+                    </quote>.
+                    <lb/>Plus on jette de bois dans le feu ,
+                    <lb/>plus il s'augmente ; Plus un Avare
+                    <lb/>amasse des Richesses, plus son desir
+                    <lb/>s'enflamme. C'est un hydropique, qui
+                    <lb/>ne sauroit étancher sa soif. Venons
+                    <lb/>au fait. Je l'ai vû travailler vingt &amp;
+                    <lb/>trente ans ; mais il travaille encore
+                    <lb/>avec la même aplication; D'où vient
+                    <lb/>cette aplication, si ses desirs sont éteints?
+                    <lb/>Il travaille, direz-vous, pour
+                    <lb/>son plaisir , c'est pour se desennuier.
+                    <lb/>C'est une erreur que cela. Où est
+                    <lb/>le plaisir d'attendre des acheteurs,
+                    <lb/>devant une boutique , pendant les
+                    <lb/>rigueurs du froid? Où est le plaisir <fw place="bot-right" type="catch">d'être</fw>
+                    <pb n="21"/>
+                    <lb/>d'être dans un Comptoir, à faire des
+                    <lb/>supputations embarassées, &amp; à écrire
+                    <lb/>des lettres de tous côtez ? Où
+                    <lb/>est le plaisir de débrouiller des papiers
+                    <lb/>noircis par le cours de plusieurs
+                    <lb/>génerations ? Où est le plaisir
+                    <lb/>de s'exposer aux risques &amp; aux fatigues
+                    <lb/>des voiages , &amp; de ne mettre
+                    <lb/>souvent entre sa vie &amp; sa mort
+                    <lb/>que l'épaisseur d'une planche ? On
+                    <lb/>fait tout cela pour son plaisir ; Cela
+                    <lb/>est-il vraisemblable ? Il en est comme
+                    <lb/>des Joüeurs ; ils joüent, disent-
+                    <lb/>ils, pour se divertir ; cela n'est pas
+                    <lb/>vrai non plus ; ils joüent pour gagner :
+                    <lb/>car vous ne les feriez pas
+                    <lb/>joüer une heure, s'ils ne joüoient
+                    <lb/>rien. Il en est de même du travail
+                    <lb/>de ceux qui aiment les Richesses ,
+                    <lb/>ils s'en passeroient très volontiers,
+                    <lb/>s'ils n'y gagnoient rien ; &amp; après
+                    <lb/>tout, je ne sai s'il y auroit de plus
+                    <lb/>grande folie que de croire qu'un
+                    <lb/>semblable travail nous rende heureux.
+                    <lb/>Mais, direz-vous, ils ne font
+                    <lb/>pas mal de travailler jusques à la <fw place="bot-right" type="catch">fin</fw>
+                    <pb n="22"/>
+                    <lb/>fin de leur vie. Je ne dis pas qu'ils
+                    <lb/>fassent mal, mais je dis qu'ils desirent
+                    <lb/>encore, &amp; que par consequent
+                    <lb/>l'aquisition de leurs Richesses,
+                    <lb/>ne les a pas encore rendu heureux. </p>
+                <p n="22">
+                    <lb/>2°. Si nous regardons les maux
+                    <lb/>réels, il y a en a du corps &amp; de l'esprit.
+                    <lb/>Ceux qui affectent le corps,
+                    <lb/>sont les douleurs &amp; la mort; Mais
+                    <lb/>les Richesses ne délivrent d'aucun de
+                    <lb/>ces maux-là , ni ne les adoucissent.
+                    <lb/>Croyez - vous qu'un homme riche
+                    <lb/>sente moins vivement les douleurs
+                    <lb/>de la goute &amp; de la pierre, que
+                    <lb/>celui qui est dans une fortune médiocre ?
+                    <lb/>Et jusqu'ici a-t-on vû que
+                    <lb/>les Richesses ayent été capables de
+                    <lb/>suspendre pour un seul moment
+                    <lb/>l'heure de la mort de quelque Riche
+                    <lb/>
+                    <note xml:id="mn_22_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Ps.49.7-10">
+                            <hi rend="I">Psau. <lb/>XLIX.</hi> 7. <lb/>8. 9. 10.</ref>
+                    </note>que ce fut. <ref target="#mn_22_1" type="noteAnchor">†</ref><quote source="bibleOstervald1724.xml#Ps.49.7-10">
+                        <hi rend="I">Il y en a</hi>, <seg type="interpolation">dit
+                            <lb/>le Prophête,</seg><hi rend="I">qui se fient en
+                            leurs
+                            <lb/>biens, &amp; qui se glorifient en l'abondance
+                            <lb/>de leurs Richesses ; personne
+                            <lb/>n'en pourra aucunement racheter son
+                            <lb/>frere , ni donner à Dieu sa rançon:
+                            <lb/>car le rachat de leur ame est trop</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">cher</hi>
+                        </fw>
+                        <pb n="23"/>
+                        <lb/>
+                        <hi rend="I">cher , &amp; il ne se fera jamais , pour
+                            <lb/>faire qu'il vive encore à jamais , &amp;
+                            <lb/>qu'il ne voye point la fosse</hi>
+                    </quote>.
+                </p>
+                <p n="23">
+                    <lb/>Mais au moins, dira - t - on, ils
+                    <lb/>jouïssent de grands plaisirs. 1°. C'est
+                    <lb/>un grand plaisir d'être delivré des
+                    <lb/>incommoditez de la pauvreté. 2°.
+                    <lb/>C'est un grand plaisir de n'avoir
+                    <lb/>pas d'inquietude pour l'avenir, &amp;
+                    <lb/>d'avoir devant soi un fond abondant
+                    <lb/>pour soi &amp; pour sa postérité.
+                    <lb/>3°. C'est un plaisir de manger délicieusement.
+                    <lb/>4°. C'est un plaisir d'être
+                    <lb/>bien logé &amp; d'être bien vêtu d'habits
+                    <lb/>magnifiques. 5°. C'est un plaisir de
+                    <lb/>se trouver dans un état, qui mette
+                    <lb/>de la distinction entre vous &amp; les autres
+                    <lb/>hommes. 6°. C'est un plaisir
+                    <lb/>d'être estimé &amp; caressé de tout le
+                    <lb/>monde. 7°. C'est un plaisir d'avoir
+                    <lb/>un chemin aisé &amp; comme sur de
+                    <lb/>s'élever aux Honneurs. 8°. C'est un
+                    <lb/>plaisir de goûter plusieurs voluptez,
+                    <lb/>qu'on ne sauroit goûter sans Richesses.
+                    <lb/>9°. Enfin, c'est un plaisir de
+                    <lb/>pouvoir faire du bien à tout le <fw place="bot-right" type="catch">mon-</fw>
+                    <pb n="24"/>
+                    <lb/>monde. Après cela est-on fou de
+                    <lb/>desirer les Richesses? </p>
+                <p n="24">
+                    <lb/>Je l'ai dit, que cet amas de plaisirs,
+                    <lb/>est ce qui apuioit le plus la folie
+                    <lb/>des Avares: Mais entrons un peu
+                    <lb/>au dedans de ce grand amas de
+                    <lb/>plaisirs. 1°. Je ne fai point difficulté
+                    <lb/>d'avoüer qu'il y a en general plus
+                    <lb/>de plaisir à être riche qu'à être pauvre ;
+                    <lb/>
+                    <note xml:id="mn_24_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Acts.20.35">
+                            <hi rend="I">Actes</hi> <lb/>XX. 35.</ref>
+                    </note><ref target="#mn_24_1" type="noteAnchor">†</ref> JESUS-CHRIST l'a dit :
+                    <lb/>
+                    <quote source="bibleOstervald1724.xml#Acts.20.35">
+                        <hi rend="I">Il y a plus de bonheur à donner qu'à
+                            <lb/>recevoir</hi>
+                    </quote> : Mais cela ne prouve en
+                    <lb/>aucune maniere la félicité que procurent
+                    <lb/>des Richesses, sur tout par
+                    <lb/>opposition à une personne qui, étant
+                    <lb/>dans une fortune médiocre , est délivrée
+                    <lb/>des incommoditez de la pauvreté.
+                    <lb/>Le Riche à cet égard n'a
+                    <lb/>rien de singulier. </p>
+                <p n="25">
+                    <lb/>2°. Les Richesses délivrent, dit-on,
+                    <lb/>de beaucoup d'inquiétudes pour l'avenir,
+                    <lb/>soit par raport à soi-même, soit
+                    <lb/>par raport à ses enfans. Mais, si les Riches
+                    <lb/>paroissent persuadez que rien ne
+                    <lb/>peut les priver de leurs Richesses , ils
+                    <lb/>sentent cependant bien le contraire , <fw place="bot-right" type="catch">&amp;</fw>
+                    <pb n="25"/>
+                    <lb/>&amp; ils le sentent mieux que personne.
+                    <lb/>C'est pour cela qu'ils se munissent de
+                    <lb/>Coffres forts, de bonnes Portes, d'excellentes
+                    <lb/>Serrures, pour se garantir de
+                    <lb/>l'adresse des Larrons. La seule pensée
+                    <lb/>qu'ils peuvent être volez , les trouble ;
+                    <lb/>elle les réveille ; &amp; le moindre
+                    <lb/>bruit, pendant les ténebres,
+                    <lb/>leur glace le cœur. Et l'on sait que
+                    <lb/>leurs inquiétudes sont telles qu'elles
+                    <lb/>donnent souvent une matiere abondante
+                    <lb/>aux Comedies du Siecle. </p>
+                <p n="26">
+                    <lb/>Mais, pour en parler plus sérieusement,
+                    <lb/>disons que les Richesses coûtent
+                    <lb/>infiniment à conserver, comme
+                    <lb/>le savent très bien dire ceux
+                    <lb/>qui les aiment, &amp; que ce sont, à
+                    <lb/>cet égard, des épines très dures &amp;
+                    <lb/>très piquantes. Que s'il arrive à
+                    <lb/>l'Avare de les perdre, on ne sauroit
+                    <lb/>representer la grandeur de son désespoir ;
+                    <lb/>C'est pour cela que Saint
+                    <lb/>Jaques <choice><sic>dix</sic><corr resp="#CiM">dit</corr></choice> aux Riches, <ref target="#mn_25_1" type="noteAnchor">†</ref> <quote source="bibleOstervald1724.xml#Jas.5.1-3">
+                        <hi rend="I">Pleurez,</hi>
+                        <note xml:id="mn_25_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Jas.5.1-3">
+                                <hi rend="I">Jaques</hi>
+                                <lb/><hi rend="I">V</hi>. 1. 2. <lb/>3.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">&amp; vous lamentez, à cause des malheurs
+                            <lb/>qui sont prêts à tomber sur
+                            <lb/>vous , la pourriture a consumé vos</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">Ri-</hi>
+                        </fw>
+                        <pb n="26"/>
+                        <lb/>
+                        <hi rend="I">Richesses ; les vers ont mangé vos
+                            <lb/>habits ; vôtre or &amp; vôtre argent se
+                            <lb/>sont rouillez, &amp; leur rouille s'élevera
+                            <lb/>en témoignage contre vous , &amp; dévorera
+                            <lb/>votre chair comme un feu ;
+                            <lb/>c'est là un Trésor que vous vous êtes
+                            <lb/>amassé pour les derniers jours.</hi>
+                        <hi rend="I"> Quelle</hi>
+                        <lb/>
+                        <note xml:id="mn_26_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Ecclq.41.1">
+                                <hi rend="I">Ecclesiastiq. <lb/>XLI</hi>.
+                                1.</ref>
+                        </note>
+                        <hi rend="I">agitation à la pensée de la mort</hi></quote><hi rend="I">!</hi>
+                    <ref target="#mn_26_1" type="noteAnchor">†</ref>
+                    <lb/>
+                    <quote source="bibleSegond21.xml#Ecclq.41.1">
+                        <hi rend="I">O! mort, que ton souvenir est triste
+                            <lb/>à celui qui vit tranquillement au
+                            <lb/>milieu de ses biens</hi>
+                    </quote>.
+                </p>
+                <p n="27">
+                    <lb/>Opposez à cela l'état d'un homme
+                    <lb/>de bien, qui travaille avec confiance
+                    <lb/>&amp; avec résignation à la volonté
+                    <lb/>de Dieu, qui a beaucoup d'indifference
+                    <lb/>pour les biens qu'il possede,
+                    <lb/>qui est tout pénétré de l'espérance
+                    <lb/>de la félicité céleste, qui ne
+                    <lb/>craint point la mort , qui la voit
+                    <lb/>venir avec joye. Lequel est le plus
+                    <lb/>heureux ou lui, ou l'Avare? </p>
+                <p n="28">
+                    <lb/>3°. Compterons-nous pour un
+                    <lb/>plaisir raisonnable celui de manger
+                    <lb/>délicieusement ? Les Païens , ces
+                    <lb/>Païens , pour qui JESUS-CHRIST
+                    <lb/>nous a fait sentir que nous devions <fw place="bot-right" type="catch">avoir</fw>
+                    <pb n="27"/>
+                    <lb/>avoir tant de mépris , ne l'ont-ils
+                    <lb/>pas blâmé très souvent, &amp; décrié
+                    <lb/>comme indigne de l'atachement d'un
+                    <lb/>honnête homme ? Mais, si on le
+                    <lb/>trouve si grand ; remarquons que
+                    <lb/>ce qui le donne, n'est pas le choix
+                    <lb/>des viandes , mais l'apetit ; apetit
+                    <lb/>qui se trouve plus souvent dans un
+                    <lb/>pauvre ou dans un homme médiocrement
+                    <lb/>pourvû des biens de la fortune,
+                    <lb/>que dans un Riche , ou dégouté
+                    <lb/>par une bonne chere continuelle ,
+                    <lb/>ou tellement occupé de ses affaires,
+                    <lb/>qu'il ne pense pas à ce qu'il mange;
+                    <lb/>ou si fort attaché à son argent, qu'il a
+                    <lb/>de la peine à se voir manger, qui ne
+                    <lb/>peut soufrir la moindre diminution
+                    <lb/>à son bien. D'ailleurs combien de
+                    <lb/>maladies ne traine pas après soi une
+                    <lb/>vie délicieuse? </p>
+                <p n="29">
+                    <lb/>4°. Le plaisir d'être logé magnifiquement
+                    <lb/>&amp; de porter de riches
+                    <lb/>habits , est quelque chose par raport
+                    <lb/>à l'imagination ; Mais, par raport
+                    <lb/>au plaisir réel qu'il fait sur les
+                    <lb/>sens, il est nul au prix de celui que
+                    <lb/>l'on peut trouver à voir le magnifique <pb n="28"/>
+                    <lb/>Bâtiment de ce Monde, &amp; les
+                    <lb/>differentes beautez que la Nature
+                    <lb/>nous présente , dès que nous jettons
+                    <lb/>les yeux sur elles. Et se peut-
+                    <lb/>il qu'on ait l'esprit assez bas pour se
+                    <lb/>trouver heureux d'avoir de certains
+                    <lb/>habits? Qui est-ce qui auroit le front
+                    <lb/>de dire , je suis fort heureux , parce
+                    <lb/>que je suis bien habillé. Le bonheur
+                    <lb/>du Paon, la gloire d'une fleur,
+                    <lb/>n'est-elle pas à cet égard infiniment
+                    <lb/>au dessus de toutes ces parures, que
+                    <lb/>l'art a inventées , &amp; de la gloire
+                    <lb/>qu'on en retire ? </p>
+                <p n="30">
+                    <lb/>5°. Ce qui nous flate le plus,
+                    <lb/>dans toutes ces choses, est la distinction
+                    <lb/>où nos Richesses nous mettent,
+                    <lb/>&amp; il est vrai qu'elles nous attirent
+                    <lb/>quelque consideration ; Mais , ne
+                    <lb/>nous flatons pas , si nous n'avons
+                    <lb/>que des Richesses &amp; point de mérite ,
+                    <lb/>ce qu'il y a de plus honnêtes
+                    <lb/>gens se moquent de nous, &amp; en
+                    <lb/>font des railleries piquantes. On
+                    <lb/>a beau emploier son bien pour les
+                    <lb/>régaler &amp; pour les divertir , on <fw place="bot-right" type="catch">n'é-</fw>
+                    <pb n="29"/>
+                    <lb/>n'échape point à leur mépris &amp; aux
+                    <lb/>traits de leur langue : Ainsi le peu
+                    <lb/>de fumée, que les autres nous vendent ,
+                    <lb/>vaut-il la peine que nous y
+                    <lb/>fassions la moindre attention ?
+                    <lb/>6°. On me caresse pourtant , direz-
+                    <lb/>vous: On vous caresse , mais
+                    <lb/>ce n'est pas vous qu'on caresse ,
+                    <lb/>c'est vôtre or &amp; vôtre argent , &amp;
+                    <lb/>si vous le gardez , comme l'amour
+                    <lb/>que vous avez pour lui , vous porte
+                    <lb/>à le garder , on vous tourne le
+                    <lb/>dos, &amp; on vous abondonne. </p>
+                <p n="31">
+                    <lb/>7°. On voit pourtant , direz-
+                        <lb/>vous encore , les Honneurs &amp; les
+                        <lb/>Emplois se joindre aux Richesses. Je
+                    <lb/>l'avouë , parce qu'on trouve des
+                    <lb/>gens lâches &amp; injustes, qui vendent
+                    <lb/>leurs suffrages. D'ailleurs, que font
+                    <lb/>les honneurs du monde, qu'un peu
+                    <lb/>de vent ? qu'un éclat , qui s'évanouït,
+                    <lb/>ou plutôt très souvent qu'un
+                    <lb/>Theatre élevé , où vous ne faites
+                    <lb/>qu'étaler vos imperfections &amp; vôtre
+                    <lb/>peu de mérite. </p>
+                <p n="32">
+                    <lb/>8°. A l'égard des voluptez , il <fw place="bot-right" type="catch">n'y</fw>
+                    <pb n="30"/>
+                    <lb/>n'y en a point de raisonnable qu'on
+                    <lb/>ne goûte dans une fortune mediocre.
+                    <lb/>Et pour ce qui est des criminelles,
+                    <lb/>je tombe d'accord qu'il faut
+                    <lb/>souvent des Richesses pour en jouir:
+                    <lb/>Mais, est-ce être heureux que de se
+                    <lb/>souiller par des crimes , &amp; que
+                    <lb/>
+                    <note xml:id="mn_30_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#Rom.2.5">
+                            <hi rend="I">Rom.</hi> <lb/>II. 5.</ref>
+                    </note>d'assembler pour sa Conscience <ref target="#mn_30_1" type="noteAnchor">*</ref>
+                    <lb/>
+                    <quote source="bibleSegond21.xml#Rom.2.5">
+                        <hi rend="I">un Trésor</hi> de remords très cuisans,<!--citation approximative-->
+                        <lb/>
+                        <hi rend="I">&amp; de colere pour le jour de la colere</hi>
+                    </quote>.
+                </p>
+                <p n="33">
+                    <lb/>9°. Mais , qui niera au moins ,
+                    <lb/>que le plaisir de faire du bien, ne
+                    <lb/>soit un grand plaisir? Sur tout quand
+                    <lb/>on pense que par là on se rend agreable
+                    <lb/>à la Divinité. Et c'est là
+                    <lb/>un plaisir qui dépend des Richesses.
+                    <lb/>Je l'avouë; mais il faut remarquer
+                    <lb/>1°. Que pour se rendre agreable à
+                    <lb/>Dieu, en donnant, on en peut venir
+                    <lb/>beaucoup plus aisément à bout
+                    <lb/>dans une fortune mediocre, que
+                    <lb/>quand on est riche. Il faut donner
+                    <lb/>selon la proportion que JESUS-
+                    <lb/>CHRIST indique, quand il dit,
+                    <lb/>
+                    <note xml:id="mn_30_2" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Luke.21.3">
+                            <hi rend="I">Luc <lb/>XXI. </hi>3<hi rend="I">.</hi>
+                        </ref>
+                    </note>que <ref target="#mn_30_2" type="noteAnchor">†</ref> <quote source="bibleOstervald1724.xml#Luke.21.3">
+                        <hi rend="I">la Veuve , qui donne deux
+                            <lb/>petites pieces de monnoie , donne plus</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">que</hi>
+                        </fw>
+                        <pb n="31"/>
+                        <lb/>
+                        <hi rend="I">que les Riches qui aportent, des sommes
+                            <lb/>considerables</hi>
+                    </quote>. Or il est incomparablement
+                    <lb/>plus aisé à une personne,
+                    <lb/>qui possede un bien mediocre ,
+                    <lb/>de donner peu, qu'à un Riche
+                    <lb/>de donner beaucoup. L'expérience
+                    <lb/>de tous les jours le prouve. Mais
+                        <lb/>je donnerai, selon l'intention du Seigneur,
+                        <lb/>dans toute l'abondance qu'il
+                        <lb/>demande.  Si cela est , vous avez
+                    <lb/>trouvé du bonheur dans les Richesses.
+                    <lb/>Mais vous n'êtes plus du nombre
+                    <lb/>de ceux , dont parle nôtre Apôtre,
+                    <lb/>du nombre de ceux qui aiment les
+                    <lb/>Richesses pour elles mêmes qui ne
+                    <lb/>les aquierent pas pour les autres. </p>
+                <p n="34">
+                    <lb/>Mes Freres, à mesure que nous manions
+                    <lb/>cette éclatante félicité des Richesses,
+                    <lb/>elle nous paroit toujours plus
+                    <lb/>mince, &amp; nous découvre que ceux
+                    <lb/>qui s'y attachent sont possedez d'une
+                    <lb/>véritable folie. Ils prennent une aparence
+                    <lb/>pour une réalité, &amp; de méchans
+                    <lb/>bijoux pour des pierres précieuses.
+                    <lb/>Mais leur folie paroitra dans tout son
+                    <lb/>jour, si nous considerons 
+                        <hi rend="I">l'incertitude</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">&amp;</hi>
+                        </fw>
+                        <pb n="32"/>
+                        <lb/>
+                        <hi rend="I">&amp; l'inconstance</hi>
+                     de cette félicité : car
+                    <lb/>
+                    <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">ceux qui veulent s'enrichir</hi>
+                    </quote> croient
+                    <lb/>qu'ils seront heureux quand ils seront
+                    <lb/>riches ; Mais quelle preuve ont - ils
+                    <lb/>qu'ils atteindront leur but ? Combien
+                    <lb/>de personnes , qui durant toute leur
+                    <lb/>vie se donnent à cet égard des peines
+                    <lb/>inutiles. 2°. Quand ils les ont acquises,
+                    <lb/>souvent ces Richesses prennent des
+                    <lb/>ailes &amp; s'envolent. 3°. Et, après tout,
+                    <lb/>il les faut quitter à la mort, &amp; souvent
+                    <lb/>lors qu'on y pense le moins. C'est
+                    <lb/>ce qui arriva à ce Riche, dont parle
+                    <lb/>JESUS-CHRIST. Il avoit amassé
+                    <lb/>beaucoup de biens , &amp; il disoit à son
+                    <lb/>
+                    <note xml:id="mn_32_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Luke.12.19-20">
+                            <hi rend="I">Luc <lb/>XII. </hi>19. <lb/>20.</ref>
+                    </note>ame : <ref target="#mn_32_1" type="noteAnchor">†</ref><quote source="bibleOstervald1724.xml#Luke.12.19-20">
+                        <hi rend="I">Mon ame, tu as beaucoup de
+                            <lb/>biens en reserve, pour plusieurs années,
+                            <lb/>repose-toi, mange , boi , &amp; te rejouï;
+                            <lb/>mais Dieu lui dit; Insensé, cette nuit
+                            <lb/>même ton ame te sera redemandée ,
+                            <lb/>&amp; ce que tu as amassé , pour qui sera-
+                            <lb/>t-il</hi></quote><hi rend="I">?</hi>
+                     Il étoit fou d'avoir cherché
+                    <lb/>son bonheur dans une chose qui alloit
+                    <lb/>lui être enlevée. Enfin la quatrieme
+                    <lb/>condition de la felicité, c'est
+                    <lb/>d'avoir du mérite &amp; de la vertu; <fw place="bot-right" type="catch">Mais</fw>
+                    <pb n="33"/>
+                    <lb/>Mais quelle perfection nous donnent
+                    <lb/>les Richesses? En procurent - elles
+                    <lb/>quelqu'une à nôtre Corps , ou à
+                    <lb/>nôtre Ame ? Où est l'homme , qui
+                    <lb/>par ses Richesses se soit procuré de
+                    <lb/>la beauté , de la force , de l'agilité ,
+                    <lb/>de la santé, un genie heureux,
+                    <lb/>un esprit pénétrant, un cœur généreux ,
+                    <lb/>toutes ces heureuses qualitez
+                    <lb/>qui vous rendent agréables aux
+                    <lb/>hommes , &amp; qui vous font ressembler
+                    <lb/>à Dieu ? Encore seroit - ce peu
+                    <lb/>de chose , si la vanité des Richesses
+                    <lb/>ne consistoit qu'à ne nous rien donner
+                    <lb/>d'excellent ; Mais , outre cela ,
+                    <lb/>elles sont ordinairement accompagnées
+                    <lb/>de plusieurs desavantages que
+                    <lb/>l'Apôtre indique , lors qu'il ajoûte ,
+                    <lb/>que <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">ceux qui veulent s'enrichir tombent
+                            <lb/>dans un grand nombre de desirs
+                            <lb/>pernicieux</hi>
+                    </quote>.
+                </p>
+                <p n="35">
+                    <lb/>Mais la plus grande folie est de
+                    <lb/>se perdre , &amp; de se perdre pour
+                    <lb/>toûjours. Et c'est ce que font ceux
+                    <lb/>qui veulent s'enrichir ; <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">Ils tombent
+                            <lb/>dans la tentation &amp; dans le piége,</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">&amp;</hi>
+                        </fw>
+                        <pb n="34"/>
+                        <lb/>
+                        <hi rend="I">&amp; se plongent dans la ruïne &amp; dans
+                            <lb/>la perdition</hi>
+                    </quote>.
+                </p>
+                <p n="36">
+                    <lb/>
+                    <note type="margin">APPLICATION.</note>On ne veut pas croire que le desir
+                    <lb/>ardent des Richesses soit condamnable,
+                    <lb/>&amp; je suis persuadé , qu'après
+                    <lb/>tout ce que nous avons dit , plusieurs
+                    <lb/>de ceux qui nous écoutent
+                    <lb/>n'en croient rien : Cependant ils ne
+                    <lb/>sauroient rendre d'autre raison de
+                    <lb/>leur incredulité , si ce n'est qu'ils ne
+                    <lb/>veulent pas le croire : Car quelle explication
+                    <lb/>peuvent-ils donner à nôtre
+                    <lb/>Texte, si ce n'est celle que nous y
+                    <lb/>avons donnée ? Quand l'Apôtre dit
+                    <lb/>que <quote source="bibleOstervald1724.xml#_1Tim.6.9">
+                        <hi rend="I">ceux qui veulent s'enrichir sont
+                            <lb/>insensez</hi>
+                    </quote> , cela signifie-t-il qu'ils sont
+                    <lb/>sages? Lors que JESUS-CHRIST
+                    <lb/>
+                    <note xml:id="mn_34_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#Matt.6.19-20">
+                            <hi rend="I">Matth. <lb/>VI. </hi>19. <lb/>20.</ref>
+                    </note>nous dit, <ref target="#mn_34_1" type="noteAnchor">*</ref><quote source="bibleOstervald1724#Matt.6.19-20">
+                        <hi rend="I">Ne vous amassez pas
+                            <lb/>des Trésors sur la terre; mais amaßez-
+                            <lb/>vous des Trésors dans le Ciel</hi>
+                    </quote> , prétend-
+                    <lb/>il nous enseigner le contraire ,
+                    <lb/>ou nous donner un Conseil peu
+                    <lb/>sage , peu conforme à la nature
+                    <lb/>des choses &amp; à nôtre véritable felicité? </p>
+                <fw place="bot-right" type="catch">si</fw>
+                <pb n="35"/>
+                <p n="37">
+                    <lb/>Si nous voulions un peu méditer
+                    <lb/>la-dessus &amp; examiner l'experience
+                    <lb/>de tous les jours , nous nous détromperions
+                    <lb/>aisément; Mais nous suivons
+                    <lb/>nos passions, comme des Animaux ,
+                    <lb/>sans aucune reflexion ; nous
+                    <lb/>n'écoutons point la voix de la sagesse
+                    <lb/>&amp; de la prudence, qui exige que nous
+                    <lb/>examinions avec soin la nature des
+                    <lb/>choses qui se présentent à nous, avant
+                    <lb/>que de leur accorder nôtre estime &amp;
+                    <lb/>nôtre amour: Car si les hommes avoient
+                    <lb/>compris quelle est la nature &amp; la
+                    <lb/>vanité des Richesses , les verroit-on
+                    <lb/>courir apres elles avec fureur , comme
+                    <lb/>ils le font? Si les Chrêtiens, sur
+                    <lb/>tout croioient que JESUS-CHRIST
+                    <lb/>a parlé avec vérité , ou s'ils vouloient
+                    <lb/>faire attention à ce qu'il a enseigné ,
+                    <lb/>les veroit-on avoir pour les
+                    <lb/>Richesses le même amour qu'ont eu
+                    <lb/>les Payens. JESUS-CHRIST disoit
+                    <lb/>à l'égard des choses nécessaires
+                    <lb/>à la vie; <ref target="#mn_35_1" type="noteAnchor">†</ref> <quote source="bibleOstervald1724.xml#Matt.6.31">
+                        <hi rend="I">Ne vous inquiétez point,</hi>
+                        <note xml:id="mn_35_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Matt.6.31">
+                                <hi rend="I">Matt. <lb/>VI</hi>. 31.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">&amp; ne dites point , où trouverons nous
+                            <lb/>de quoi manger &amp; boire, &amp; de quoi</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">nous</hi>
+                        </fw>
+                        <pb n="36"/>
+                        <lb/>
+                        <hi rend="I">nous habiller? Car ce sont les Païens,
+                            <lb/>qui recherchent toutes ces choses</hi>
+                    </quote>.
+                    <lb/>Que devons-nous donc penser par
+                    <lb/>raport aux biens superflus? N'est-ce
+                    <lb/>pas être Païen que de les estimer
+                    <lb/>beaucoup? N'est-ce pas oublier la
+                    <lb/>grandeur de nôtre vocation , qui
+                    <lb/>nous doit rappeller sans cesse, que
+                    <lb/>nous ne sommes pas faits pour la terre,
+                    <lb/>mais pour le Ciel ; que c'est au
+                    <lb/>Ciel que nous avons droit de bourgeoisie,
+                    <lb/>
+                    <note xml:id="mn_36_1" type="margin" n="‡"><ref type="bible" target="bibleSegond21.xml#Col.3.1">
+                            <hi rend="I">Col</hi>. <hi rend="I"><lb/>III. </hi>1.</ref>
+                    </note><ref target="#mn_36_1" type="noteAnchor">‡</ref>qu'<quote source="bibleOstervald1724.xml#Col.3.1">
+                        <hi rend="I">étant ressuscitez avec</hi>
+                        <lb/>JESUS-CHRIST , nous ne devons
+                        <lb/>plus <!-- citation approximative--><hi rend="I">chercher les choses de la Terre,
+                            <lb/>mais celles qui sont en haut, où </hi>JESUS-
+                        <lb/>CHRIST<hi rend="I"> est</hi>
+                    </quote>, &amp; d'où il viendra
+                    <lb/>
+                    <note xml:id="mn_36_2" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#Phil.3.21">
+                            <hi rend="I">Phil. <lb/>III. </hi>21.</ref>
+                    </note>pour <ref target="#mn_36_2" type="noteAnchor">*</ref> <quote source="bibleOstervald1724.xml#Phil.3.21">
+                        <hi rend="I">transformer nôtre Corps
+                            <lb/>vil, &amp; le rendre conforme à son Corps
+                            <lb/>glorieux</hi>
+                    </quote>.
+                </p>
+                <p n="38">
+                    <lb/>Nous ne sommes pas, il est vrai,
+                    <lb/>d'une nature à nous pouvoir passer
+                    <lb/>des biens de la terre , pendant nôtre
+                    <lb/>voiage; Mais soyons contens,
+                    <lb/>pourvû que nous ayons nôtre pain
+                    <lb/>quotidien , &amp; que nous ayons dequoi
+                    <lb/>être nourris, &amp; dequoi être <fw place="bot-right" type="catch">vê-</fw>
+                    <pb n="37"/>
+                    <lb/>vêtus. Cherchons après cela les
+                    <lb/>véritables Richesses, qui nous sont
+                    <lb/>présentées , la Verité , la Sainteté,
+                    <lb/>la joie de l'esprit , la consolation de
+                    <lb/>nos cœurs , l'espérance d'une meilleure
+                    <lb/>vie , l'heritage de Dieu, les
+                    <lb/>Richesses incomprehensibles qu'il distribuë
+                    <lb/>dans son Royaume <ref target="#mn_37_1" type="noteAnchor">†</ref> <quote source="bibleOstervald1724.xml#Matt.6.20">
+                        <hi rend="I">où les</hi>
+                        <note xml:id="mn_37_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Matt.6.20">
+                                <hi rend="I">Matt. <lb/>VI. </hi>20.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">vers, &amp; la rouïlle ne gâtent rien ,
+                            <lb/>&amp; où les larrons ne percent , ni ne
+                            <lb/>dérobent</hi>
+                    </quote>.
+                </p>
+                <p n="39">
+                    <lb/>D'où vient donc que nous ne sentons
+                    <lb/>point la vanité des Richesses ,
+                    <lb/>&amp; que nous les désirons avec tant
+                    <lb/>de passion ? C'est parce que nous
+                    <lb/>ne nous connoissons pas bien ; que
+                    <lb/>nous ne nous demandons jamais à
+                    <lb/>quoi nous sommes déstinez ; que
+                    <lb/>nous ne pensons point à l'éternité, &amp;
+                    <lb/>que nous ne nous disons pas assez qu'il
+                    <lb/>n'y a de véritables biens que ceux
+                    <lb/>qui peuvent être utiles pour l'avenir. </p>
+                <p n="40">
+                    <lb/>D'ailleurs, nous craignons beaucoup
+                    <lb/>la misére , &amp; sur tout le mépris
+                    <lb/>des hommes. On est au desespoir ,
+                    <lb/>quand on pense qu'on sera méprisé <fw place="bot-right" type="catch">pri-</fw>
+                    <pb n="38"/>
+                    <lb/>&amp; qu'on sera dans la dépendance
+                    <lb/>d'autrui ; Mais n'avons-nous
+                    <lb/>pas dequoi nous consoler ? Si nous
+                    <lb/>sommes pauvres des biens de ce monde,
+                    <lb/>
+                    <note xml:id="mn_38_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#Luke.12.21">
+                            <hi rend="I">Luc <lb/>XII</hi>. 21.</ref>
+                    </note>nous pouvons <ref target="#mn_38_1" type="noteAnchor">†</ref> <quote source="bibleOstervald1724.xml#Luke.12.21">
+                        <hi rend="I">être Riches pour
+                            <lb/>Dieu</hi>
+                    </quote>, comme parle JESUS-CHRIST,
+                    <lb/>par la pieté , par la vertu , par l'humilité ,
+                    <lb/>&amp; par tant d'autres Vertus,
+                    <lb/>qui nous rendent agréables à ses
+                    <lb/>yeux. Voilà les Richesses solides ,
+                    <lb/>les Richesses permanentes , les Richesses
+                    <lb/>qui ne nous peuvent étre
+                    <lb/>ravies. </p>
+                <p n="41">
+                    <lb/>Une autre cause , qui nous rend
+                    <lb/>Avares ; c'est que nous n'avons point
+                    <lb/>de confiance en Dieu ; car une personne ,
+                    <lb/>qui a de la confiance en
+                    <lb/>
+                    <note xml:id="mn_38_2" type="margin" n="‡"><ref type="bible" target="bibleSegond21.xml#Heb.13.5">
+                            <hi rend="I">Hebr.</hi>
+                            <lb/><hi rend="I">XIII. </hi>5.</ref>
+                    </note>Dieu, n'est point Avare. <ref target="#mn_38_2" type="noteAnchor">‡</ref> <quote source="bibleOstervald1724.xml#Heb.13.5">
+                        <hi rend="I">Que vos
+                            <lb/>mœurs</hi>
+                        <hi rend="I">soient sans avarice</hi> , <seg type="interpolation">dit
+                            l'Apôtre ,</seg>
+                        <lb/>
+                        <hi rend="I">&amp; soyez contens de ce que
+                            <lb/>vous avez, parce que Dieu dit , je
+                            <lb/>ne te laisserai point, &amp; je ne t'abandonnerai
+                            <lb/>point</hi>
+                    </quote>. Et nous n'avons pas
+                    <lb/>de confiance en Dieu , parce que
+                    <lb/>nous n'avons point de commerce
+                    <lb/>avec lui par la Pieté: Car comment <fw place="bot-right" type="catch">nous</fw>
+                    <pb n="39"/>
+                    <lb/>nous confierions nous en celui que
+                    <lb/>nous n'aimons pas , &amp; qui ne nous
+                    <lb/>peut pas aimer ? Cela prouve qu'un
+                    <lb/>homme de bien n'est jamais avare ,
+                    <lb/>&amp; qu'un Avare n'est jamais homme
+                    <lb/>de bien. </p>
+                <p n="42">
+                    <lb/>Commençons donc par la crainte
+                    <lb/>de Dieu , qui nous rendra les Disciples
+                    <lb/>de la Sagesse éternelle. </p>
+                <p n="43">
+                    <lb/>Instruits dans cette Ecole celeste,
+                    <lb/>nous aprendrons sans cesse à penser
+                    <lb/>à la brieveté de cette vie ; nous découvrirons
+                    <lb/>que nous ne sommes
+                    <lb/>pas dans ce monde pour être heureux ,
+                    <lb/>&amp; que, quand cela seroit ,
+                    <lb/>les Richesses ne sauroient nous donner
+                    <lb/>des plaisirs solides. Nous y
+                    <lb/>aprendrons à ne craindre que le mépris
+                    <lb/>des gens sages , vertueux , qui
+                    <lb/>jugent sainement des choses, &amp; à ne
+                    <lb/>rechercher que l'aprobation de Dieu,
+                    <lb/>celle de JESUS-CHRIST &amp; des
+                    <lb/>Saints. Nous y aprendrons à ne donner
+                    <lb/>du prix , qu'aux Richesses qui peuvent
+                    <lb/>perfectionner nôtre ame, la
+                    <lb/>consoler, la réjouïr , la rendre participante <fw place="bot-right" type="catch">ti-</fw>
+                    <pb n="40"/>
+                    <lb/>de la Nature Divine. Nous
+                    <lb/>abandonnerons ces soucis rongeans,
+                    <lb/>ces soins accompagnez d'inquiétude,
+                    <lb/>que nous prenons, pour laisser à nos
+                    <lb/>enfans des Richesses qui leur sont
+                    <lb/>ordinairement inutiles , &amp; que le
+                    <lb/>plus souvent ils dissipent &amp; emploient
+                    <lb/>à des choses , qui les rendent vicieux ,
+                    <lb/>orgueilleux , &amp; les plongent
+                    <lb/>dans une éternelle misère ; &amp;
+                    <lb/>nous leur laisserons une bonne éducation ,
+                    <lb/>qui les conduira à des Richesses
+                    <lb/>éternelles. </p>
+                <p n="44">
+                    <lb/>Enfin, nous y aprendrons à mettre
+                    <lb/>toute nôtre confiance en Dieu , à
+                    <lb/>être content de l'état où la Providence
+                    <lb/>
+                    <note xml:id="mn_40_1" type="margin" n="*"><ref type="bible" target="bibleSegond21.xml#Phil.4.11">
+                            <hi rend="I">Phil. <lb/>IV. </hi>11.</ref>
+                    </note>nous aura mis; <ref target="#mn_40_1" type="noteAnchor">*</ref><quote source="bibleOstervald1724.xml#Phil.4.11">
+                        <hi rend="I">Nous saurons
+                            <lb/>vivre dans la pauvreté &amp; dans l'abondance</hi>
+                    </quote>.
+                </p>
+                <p n="45">
+                    <lb/>Si nous sommes pauvres , nous
+                    <lb/>nous consolerons par la jouïssance
+                    <lb/>des Richesses que la pieté nous
+                    <lb/>distribuera. Si nous sommes Riches,
+                    <lb/>nous aprendrons à donner de la solidité
+                    <lb/>à la vanité de nos Richesses,
+                    <lb/>par l'usage que nous en ferons, conformément <fw place="bot-right" type="catch">for-</fw>
+                    <pb n="41"/>
+                    <lb/>à l'exhortation de l'Apôtre
+                    <lb/>qui disoit à Timothée; <ref target="#mn_41_1" type="noteAnchor">†</ref> <quote source="bibleOstervald1724.xml#_1Tim.6.17-19">
+                        <hi rend="I">Recommandez</hi>
+                        <note xml:id="mn_41_1" type="margin" n="†"><ref type="bible" target="bibleSegond21.xml#_1Tim.6.17-19">
+                                <hi rend="I">I. Tim. <lb/>VI. </hi>17. <lb/>18 . 19.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">aux Riches de ce monde , de n'être
+                            <lb/>point orgueilleux , &amp; de ne
+                            <lb/>point mettre leur confiance en des Richesses
+                            <lb/>périssables , mais dans le Dieu
+                            <lb/>vivant , qui nous fournit abondamment
+                            <lb/>toutes choses, pour en jouir, recommandez-
+                            <lb/>leur encore de faire du
+                            <lb/>bien, d'être Riches en bonnes œuvres</hi>,
+                        <lb/>
+                        <hi rend="I">prompts à donner &amp; liberaux, &amp; de
+                            <lb/>s'amasser ainsi pour l'avenir un Trésor
+                            <lb/>placé sur un bon fond , afin d'obtenir
+                            <lb/>la Vie eternelle</hi>
+                    </quote>. Amen. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

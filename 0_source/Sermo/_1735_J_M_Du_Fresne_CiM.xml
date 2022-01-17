@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="_1735_Jean_Melchior_Du_Fresne_CiM">
+      <titleStmt>
+        <title type="sermon">Une simple Profession Extérieure de la véritable Religion, ne suffit pas pour être sauvé. I. SERMON Sur ces Paroles de Jeremie Ch. VII. ꝟ. 4. 5. ...</title>
+        <title type="book">Deux sermons SUR LA REFORMATION DE LA VILLE ET REPUBLIQUE DE GENEVE : et
+          un iiime Prononcé le 8e. 7bre Jour de Jeune
+          PAR J. M. DUFRESNE, Pasteur des Eglises DE ROLLE ET de MONT-LE-GRAND. A GENEVE, Chez PERACHON &amp; CRAMER. MDCCXXXV. 
+        </title>
+        <author ref="...">Jean-Melchior Du Fresne</author>
+        <editor>
+          <name>SERMO</name>
+          <orgName>Université de Neuchâtel</orgName>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Transcription électronique</edition>
+        <respStmt>
+          <resp>Responsable du projet</resp>
+          <name>
+            <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+            <email>carine.skupien-dekens@unine.ch</email>
+            <affiliation xml:id="ILCF">
+              <name>Institut de langue et civilisation françaises</name>
+              <orgName>Université de Neuchâtel</orgName>
+              <address>
+                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                <addrLine>CH-2000 Neuchâtel</addrLine>
+              </address>
+            </affiliation>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription word</resp>
+          <name>
+            <persName xml:id="CiM">Cinthia MELI</persName>
+            <email>cinthia.meli@unine.ch</email>
+            <affiliation>
+              <orgName>Université de Neuchâtel</orgName>
+            </affiliation>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage XML TEI</resp>
+          <name>
+            <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+            <email>ljiljana.dolamic@unine.ch</email>
+            <affiliation>
+              <orgName>Université de Neuchâtel</orgName>
+            </affiliation>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>
+            <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+            <email>magdalena.augustyn@unine.ch</email>
+            <affiliation>
+              <orgName>Université de Neuchâtel</orgName>
+            </affiliation>
+          </name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>
+          <name type="projet">Projet SERMO</name>
+          <address>
+            <addrLine>Institut de langue et civilisation françaises</addrLine>
+            <addrLine>Université de Neuchâtel</addrLine>
+            <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+            <addrLine>CH-2000 Neuchâtel</addrLine>
+            <addrLine>http:\\sermo.unine.ch</addrLine>
+          </address>
+        </distributor>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Jean-Melchior Du Fresne</author>
+            <title>Deux sermons SUR LA REFORMATION DE LA VILLE ET REPUBLIQUE DE GENEVE : et un iiime
+              Prononcé le 8e. 7bre Jour de Jeune</title>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+              <publisher>PERACHON &amp; CRAMER</publisher>
+              <date>1735</date>
+              <date type="sermon"/>
+            </imprint>
+          </monogr>
+          <idno type="URI">https://books.google.ch/books?vid=BCUL1092374013</idno>
+          <idno type="source">Bibliothèque cantonale et universitaire de Lausanne</idno>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term type="genre">sermon</term> 
+          <term type="sermonType">sermon_thématique</term>
+          <term type="sermonTheme">Une simple profession extérieure de la véritable religion ne suffit pas pour être sauvé</term>
+          <term type="howPublished">recueil</term>   
+          <term type="numberOfSermons">3</term>
+          <term type="typeOfCollection"/>
+          <term type="themeOfCollection"/>
+          <term type="commentedBiblicalText">Jer.7.4-5</term>
+          <term type="paratext" subtype="preface">PREFACE.</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fr">français classique</language>
+        <language ident="la">latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2016-09-05" who="#LjD">transformation word - XML</change>
+      <change when="2016-09-05" who="#MAG">Verification, citations</change>
+      <change when="2016-08-31 " who="#CiM">Transcription word</change>
+      <change when="2016-09-30" who="#MAG">Annotation_1</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="book">
+        <pb n="titre"/>
+        <p n="1">
+          <lb/>DEUX
+          <lb/>SERMONS
+          <lb/>SUR
+          <lb/>LA REFORMATION
+          <lb/>DE
+          <lb/>LA VILLE ET REPUBLIQUE
+          <lb/>DE GENEVE:
+          <lb/>ET UN III<hi rend="E">me</hi>
+          <lb/>
+          <hi rend="I">Prononcé le </hi>8<hi rend="E">e</hi>. 7<hi rend="E">bre</hi> JOUR DE JEUNE.
+          <lb/>PAR
+          <lb/>J. M. DUFRESNE,
+          <lb/>
+          <hi rend="I">Pasteur des Eglises</hi>
+          <lb/>DE
+          <lb/>ROLLE ET de MONT-LE-GRAND. </p>
+        <figure/>
+        <p n="2">
+          <lb/>A GENEVE,
+          <lb/>Chez PERACHON &amp; CRAMER.
+          <lb/>MDCCXXXV. </p>
+      </div>
+    </front>
+    <body>
+      <div type="sermon">
+        <pb n="1"/>
+        <head type="main">
+          <lb/>UNE SIMPLE PROFESSION
+          <lb/>Extérieure de la véritable Religion,
+          <lb/>ne suffit pas pour être sauvé.
+          <lb/>I. SERMON
+          <lb/>Sur ces Paroles de <ref type="bible" target="bibleSegond21.xml#Jer.7.4-5">JEREMIE
+            <lb/>Ch. VII. ꝟ. 4. 5. </ref>
+          <lb/>
+          <quote source="bibleSegond21.xml#Jer.7.4-5"><!--traduction personnelle, ni 1588, ni 1724-->
+            <hi rend="I">Ne vous reposez point sur des paroles
+              <lb/>trompeuses , en disant : C'est ici le
+              <lb/>Temple de l'Eternel , le Temple de l'Eternel ,
+              <lb/>le Temple de l'Eternel : Mais
+              <lb/><ref target="#mn_1_1" type="noteAnchor">*</ref> réformez vos mœurs</hi>
+            <hi rend="I">&amp; changez de</hi>
+            <note xml:id="mn_1_1" type="margin" n="*"> L'Original <lb/>porte: <hi rend="I">faites <lb/>bonnes vos <lb/>voyes, &amp; vos
+                <lb/>actions.</hi>
+            </note>
+            <lb/>conduite</quote>.
+        </head>
+        <p n="1">
+          <lb/>
+          <c type="lettrine">L</c>ES Juifs , contemporains du<note type="margin">EXORDE. <lb/>Illusion
+            des <lb/>Juifs.</note>
+          <lb/>Prophéte Jeremie,étoient tombez
+          <lb/>dans une illusion fort
+          <lb/>dangereuse. Ils s'imaginoient
+          <lb/>qu'en conséquence de l'Alliance
+          <lb/>que Dieu avoit traitée avec leurs Péres, <pb n="2"/>
+          <lb/>&amp; du Culte qu'ils lui rendoient
+          <lb/>publiquement dans son Temple , rien
+          <lb/>ne pouvoit être capable d'engager le
+          <lb/>Seigneur à les rejetter. Malgré tous les
+          <lb/>désordres dans lesquels ils vivoient , ils
+          <lb/>étoient fort tranquiles. Le Prophéte les
+          <lb/>leur reproche ces desordres , quelques
+          <lb/>Versets plus bas que mon Texte , en ces
+          <lb/>
+          <note type="margin">
+            <ref type="bible" target="bibleSegond21.xml#Jer.7.9"> ꝟ. 9.</ref>
+          </note>termes : <quote source="bibleOstervald1724.xml#Jer.7.9">
+            <hi rend="I">Ne dérobez-vous pas ? Ne tuez-
+              <lb/>vous pas ? Ne commettez-vous pas adultére ?
+              <lb/>Ne jurez-vous pas faussement ? Ne
+              <lb/>faites-vous pas des encensemens à Bahal?
+              <lb/>N'allez-vous pas après les Dieux étrangers
+              <lb/>que vous ne connoissez point</hi></quote> <hi rend="I">?</hi> Il les
+          <lb/>menace ensuite de tout ce que les jugemens
+          <lb/>de Dieu peuvent avoir de plus sévére.
+          <lb/>Et afin de couper le mal par la
+          <lb/>racine , il sape les fondemens de la funeste
+          <lb/>sécurité dans laquelle ils étoient
+          <lb/>tombez , en s'imaginant , que pourvû
+          <lb/>qu'ils servissent Dieu dans son Temple,
+          <lb/>ils n'avoient rien à craindre. <quote source="bibleOstervald1724.xml#Jer.7.4">
+            <hi rend="I">Ne vous
+              <lb/>reposez point sur des paroles trompeuses ,
+              <lb/>disant , C'est ici le Temple de l'Eternel,</hi>
+            <lb/>etc</quote>.
+        </p>
+        <p n="2">
+          <lb/>Ce n'est point par raport aux Juifs
+          <lb/>que j'ai dessein de considérer ces paroles.
+          <lb/>Après vous avoir montré à quelle <fw place="bot-right" type="catch">ocasion</fw>
+          <pb n="3"/>
+          <lb/>ocasion JEREMIE les prononça , je crois
+          <lb/>qu'il nous importe de voir si on ne seroit
+          <lb/>pas fondé à nous les apliquer. Il
+          <lb/>seroit bien à souhaiter que les Chrétiens
+          <lb/>raisonnassent mieux que la postérité<note type="margin">Illusion des
+            <lb/>Chrétiens.</note>
+          <lb/>de Juda : Mais on n'en voit que trop
+          <lb/>qui se font la même illusion. Ils s'imaginent,
+          <lb/>que pourvû qu'ils fassent une
+          <lb/>profession extérieure de la Religion
+          <lb/>Chrétienne , qu'ils soient membres de
+          <lb/>l'Eglise visible , ils auront infailliblement
+          <lb/>part aux promesses de l'Evangile , de
+          <lb/>quelque maniére qu'ils vivent d'ailleurs.
+          <lb/>N'est pas là <quote source="bibleOstervald1724.xml#Jer.7.4">
+            <hi rend="I">se reposer sur des paroles
+              <lb/>trompeuses</hi></quote> <hi rend="I">?</hi> N'est-ce pas dire , <quote source="bibleOstervald1724.xml#Jer.7.4">
+            <hi rend="I">le Temple
+              <lb/>de l'Eternel , le Temple de l'Eternel</hi></quote> <hi rend="I">?</hi>
+          <lb/>Si nous voulons nous rendre dignes des
+          <lb/>biens qu'il nous fait espérer, nous devons
+          <lb/>reformer nos mœurs , &amp; nôtre conduite. </p>
+        <p n="3">
+          <lb/><ref target="#mn_3_1" type="noteAnchor">*</ref> Il y a un peu plus de sept ans<note xml:id="mn_3_1" type="margin">Ce qui a <lb/>donné lieu <lb/>au choix de
+            <lb/>ce Texte. <lb/><label>*</label> le 7<hi rend="E">e</hi> Janvier <lb/>1728.</note>
+          <lb/>que nous célébrames un Jubilé à l'occasion
+          <lb/>de la Réformation de la Capitale
+          <lb/>de ce Canton , &amp; nous vous parlames
+          <lb/>alors de ce qui avoit donné lieu
+          <lb/>à ce grand événement , &amp; de ses heureux
+          <lb/>effets. Dans peu , les GENEVOIS,
+          <lb/>nos chers Voisins , Amis , &amp; Alliez,
+          <lb/>doivent en célébrer un semblable à l'ocasion <fw place="bot-right" type="catch">casion</fw>
+          <pb n="4"/>
+          <lb/>de la Réformation de leur Ville.
+          <lb/>C'est ce qui m'a fait naitre la pensée de
+          <lb/>vous expliquer le Texte que j'ai lû. Ce
+          <lb/>n'est pas que je me propose de vous
+          <lb/>parler des commencemens , des progrès,
+          <lb/>ni de la consommation de cet important
+          <lb/>Ouvrage dans une République qui,
+          <lb/>pour être d'une petite étendüe , n'a pas
+          <lb/>laissé de se faire un grand Nom dans
+          <lb/>le Monde. Et puisse-t'elle le conserver
+          <lb/>jusqu'à la fin des Siécles ! On l'a veuë
+          <lb/>depuis long-temps , &amp; on la voit encore,
+          <lb/>l'objet particulier des soins de la Providence :
+          <lb/>Que ce bonheur inestimable
+          <lb/>se perpétue de génération en génération !
+          <lb/>Et Dieu veuille éloigner tout ce
+          <lb/>
+          <note type="margin">La Dévise <lb/>des Genevois <lb/>est : <hi rend="I"><foreign xml:lang="la">Post Tenebras <lb/>Lux</foreign></hi>
+            ; <lb/>Après les ténébres <lb/>la lumiére.</note>qui pourroit y donner atteinte ! Non
+          ,
+          <lb/>je ne me propose pas de vous dire de
+          <lb/>quelle maniére LA LUMIERE Y A
+          <lb/>SUCCEDE AUX TENEBRES.
+          <lb/>C'est une tâche que les Excellens Pasteurs ,
+          <lb/>qui font un des principaux ornemens
+          <lb/>de cette Ville Célébre , rempliront
+          <lb/>incomparablement mieux que je
+          <lb/>ne saurois le faire. Voici donc quelles
+          <lb/>sont mes vües. Comme nôtre devoir
+          <lb/>
+          <note type="margin">
+            <ref type="bible" target="bibleSegond21.xml#_2Tim.4.2">2. Tim. <lb/>IV. 2.</ref>
+          </note>nous engage <quote source="bibleOstervald1724.xml#_2Tim.4.2">
+            <hi rend="I">à prêcher la parole de
+              <lb/>Dieu , à reprendre,à censurer , à exhorter</hi>
+            <fw place="bot-right" type="catch">
+              <hi rend="I">sans</hi>
+            </fw>
+            <pb n="5"/>
+            <lb/>
+            <hi rend="I">sans nous lasser jamais d'instruire ; à insister
+              <lb/>soit que l'ocasion se présente , soit
+              <lb/>qu'elle ne se présente pas</hi>
+          </quote> ,j'ai crû devoir
+          <lb/>profiter de celle-ci pour combattre une
+          <lb/>des plus fâcheuses illusions dans lesquelles
+          <lb/>les Chrétiens puissent tomber.
+          <lb/>Nous faisons sonner fort haut nôtre
+          <lb/>nom de Réformez , &amp; nous aurions
+          <lb/>assurément raison de nous en glorifier
+          <lb/>si nous vivions d'une maniére
+          <lb/>qui répondit à ce beau Tître ; mais
+          <lb/>il est bien à craindre qu'il ne serve qu'à
+          <lb/>agraver la condamnation de plusieurs
+          <lb/>de ceux qui le portent. Une foi pure
+          <lb/>est infiniment estimable , &amp; l'on ne sauroit
+          <lb/>travailler , avec trop de soin , à l'aquerir :
+          <lb/>Mais nous devrions savoir que
+          <lb/>c'est principalement la pureté des mœurs
+          <lb/>que Dieu demande. Ainsi j'ai dessein
+          <lb/>de faire deux choses. </p>
+        <p n="4">
+          <lb/>Je travaillerai d'abord à combattre<note type="margin">DIVISION.</note>
+          <lb/>l'erreur de ceux qui peuvent penser ,
+          <lb/>ou qui vivent comme s'ils pensoient ,
+          <lb/>qu'une simple profession extérieure de
+          <lb/>la véritable Religion suffit pour être
+          <lb/>agréable à Dieu. Tel étoit le cas des
+          <lb/>Juifs vicieux qui disoient , avec beaucoup
+          <lb/>de confiance : <quote source="bibleOstervald1724.xml#Jer.7.4">
+            <hi rend="I">Le Temple de l'Eternel ,</hi>
+            <fw place="bot-right" type="catch">
+              <hi rend="I">ternel ,</hi>
+            </fw>
+            <pb n="6"/>
+            <lb/>
+            <hi rend="I">le Temple de l'Eternel</hi>
+          </quote>. Et tel est
+          <lb/>le cas de tant de Chrétiens qui disent :
+          <lb/>
+          
+            <hi rend="I">l'Eglise de Dieu , l'Eglise de Jesus-Christ,
+              <lb/>la véritable Eglise</hi>
+           , sans s'embarrasser
+          <lb/>d'ailleurs d'avoir une conduite réguliére. </p>
+        <p n="5">
+          <lb/>Après cela , je ne négligerai rien de
+          <lb/>ce qui peut dépendre de moi , pour
+          <lb/>vous convaincre bien de la nécessité
+          <lb/>qu'il y a de s'atacher principalement à
+          <lb/>la Sainteté , si l'on veut plaire au Seigneur.
+          <lb/>C'est à quoi nous conduit l'exhortation
+          <lb/>de Jeremie: <quote source="bibleOstervald1724.xml#Jer.7.5">
+            <hi rend="I">Réformez vos
+              <lb/>mœurs</hi>
+            <hi rend="I">&amp; changez de conduite</hi>
+          </quote>. Voilà
+          <lb/>l'essentiel de toute Religion raisonnable,
+          <lb/>&amp; sur tout du Christianisme. Quelques
+          <lb/>erreurs de simple spéculation ne sont
+          <lb/>pas , à beaucoup près , aussi dangereuses
+          <lb/>que l'habitude de quelque péché
+          <lb/>que ce soit. Il seroit bien à souhaiter
+          <lb/>que tout le monde en fût persuadé , &amp;
+          <lb/>que l'on agit conséquemment. <quote source="bibleOstervald1724.xml#Jer.7.4-5">
+            <hi rend="I">Ne nous
+              <lb/>laissons donc plus abuser par des paroles
+              <lb/>trompeuses , en disant : Le Temple de l'Eternel,
+              <lb/>Le Temple de l'Eternel ; mais
+              <lb/>reformons nos mœurs</hi> , <hi rend="I">&amp; changeons de
+              <lb/>conduite</hi>
+           </quote>.
+        </p>
+        <fw place="bot-right" type="catch">PREMIERE</fw>
+        <pb n="7"/>
+        <div n="1" type="sub">
+          <head type="sub">
+            <lb/>PREMIERE PARTIE.</head>
+          <p n="6">
+            <lb/>
+            <c type="lettrine">L</c>ES Chrétiens qui se reposent sur
+            <lb/>des paroles trompeuses , c'est-à-dire,
+            <lb/>qui tombent dans l'illusion des Juifs,
+            <lb/>dont nous avons parlé , sont en très
+            <lb/>grand nombre. Mais pour éviter la confusion,
+            <lb/>il me semble que l'on peut commodément
+            <lb/>les ranger sous quatre Classes
+            <lb/>générales. </p>
+          <p n="7">
+            <lb/>La prémiére renfermera tant de Réformez<note type="margin">4. Classes <lb/>de Chrétiens
+              <lb/>à qui l'on <lb/>peut apliquer <lb/>l'exhortation <lb/>de Jeremie.</note>
+            <lb/>qui ne sont tels que par le préjugé
+            <lb/>de l'Education , &amp; sans connoissance
+            <lb/>de cause ; qui vivent , par raport à
+            <lb/>la Religion , dans une très grande ignorance,
+            <lb/>&amp; dans une ignorance d'autant
+            <lb/>plus funeste , qu'elle influë malheureusement
+            <lb/>sur leur conduite. </p>
+          <p n="8">
+            <lb/>Nous mettrons dans la seconde ceux
+            <lb/>qui ont assez de lumiéres , mais qui ne
+            <lb/>vivent pas conséquemment ; qui sont
+            <lb/>Réformez pour la Théorie , mais qui
+            <lb/>ne le sont pas dans la Pratique , du moins
+            <lb/>autant qu'ils devroient l'étre ; qui connoissant
+            <lb/>la Religion , ne laissent pas que
+            <lb/>de vivre d'une manière opposée à ses
+            <lb/>maximes. </p>
+          <fw place="bot-right" type="catch">La</fw>
+          <pb n="8"/>
+          <p n="9">
+            <lb/>La troisiéme Classe sera composée de
+            <lb/>ces demi-Chrétiens qui voudroient associer
+            <lb/>les Loix de l'Evangile avec les
+            <lb/>usages du Monde ; qui remplissent assez
+            <lb/>exactement quelques uns de <choice><sic>leur</sic><corr resp="#CiM">leurs</corr></choice>
+            <lb/>devoirs ; mais qui , sans aucun scrupule ,
+            <lb/>en négligent d'autres , qui peuvent
+            <lb/>être plus essentiels que ceux qu'ils pratiquent.
+            <lb/>L'Eglise est remplie de ces
+            <lb/>gens qui font consister presque toute
+            <lb/>la Religion à s'aquiter de ses devoirs
+            <lb/>
+            <note type="margin">
+              <ref type="bible" target="bibleSegond21.xml#Matt.23.23">Matth. <lb/>XXIII. <unclear resp="#CiM" reason="print">27</unclear>.</ref>
+            </note>extérieurs , &amp; <quote source="bibleOstervald1724.xml#Matt.23.23">
+              <hi rend="I">qui négligent ce qu'il y a
+                <lb/>de plus important dans la loi , la justice,
+                <lb/>la miséricorde , la fidélité</hi>
+            </quote>.
+          </p>
+          <p n="10">
+            <lb/>Enfin , on peut faire une quatriéme
+            <lb/>Classe de ces Réformez qui ont été persecutez
+            <lb/>pour la Religion , qui ont peut-
+            <lb/>être beaucoup souffert , plûtot que d'agir ,
+            <lb/>à cet égard , contre les lumiéres
+            <lb/>de leur conscience ; &amp; qui s'imaginent
+            <lb/>que c'est là un titre incontestable pour
+            <lb/>prétendre au Salut , quoi que leur conduite
+            <lb/>ne soit pas telle qu'elle devroit être.
+            <lb/>Tous ces gens là <quote source="bibleOstervald1724.xml#Jer.7.4">
+              <hi rend="I">se reposent sur des
+                <lb/>paroles trompeuses</hi>
+            </quote>. C'est ce qu'il s'agit
+            <lb/>de montrer , en dévelopant un peu
+            <lb/>mieux leur Caractére , &amp; en combattant
+            <lb/>les illusions qu'ils se font. </p>
+          <fw place="bot-right" type="catch">Nous</fw>
+          <pb n="9"/>
+          <p n="11">
+            <lb/>Nous avons mis dans la prémiére<note type="margin">1. Classe. <lb/>Les Ignorans
+              <lb/>volontaires.</note>
+            <lb/>Classe tous ces Chrétiens qui croupissent
+            <lb/>dans une extréme ignorance , &amp;
+            <lb/>qui ne laissent pas de se faire un mérite
+            <lb/>de vivre dans la Communion des
+            <lb/>Réformez. Croit-on que tous ceux qui
+            <lb/>portent ce glorieux titre soient instruits
+            <lb/>comme ils devroient l'être ? On se tromperoit
+            <lb/>fort. Il n'est que trop vrai ; une
+            <lb/>infinité de personnes ne sont membres
+            <lb/>de nôtre Eglise que parce qu'ils
+            <lb/>sont nez de Parens qui y étoient avant
+            <lb/>eux. Pour s'en convaincre , il ne faudroit
+            <lb/>que les engager à rendre raison
+            <lb/>de leur foi ; les interroger sur les principaux
+            <lb/>articles , &amp; sur les fondemens
+            <lb/>de nôtre Créance ; On en trouveroit
+            <lb/>un très grand nombre qui seroient fort
+            <lb/>embarrassez à répondre aux questions
+            <lb/>les plus simples ; ou qui n'y répondroient
+            <lb/>que par mémoire , sans que le
+            <lb/>jugement y eût aucune part. Combien
+            <lb/>ne connoit-on pas de Chrétiens qui ignorent
+            <lb/>jusqu'aux prémiers élemens du
+            <lb/>Christianisme ? On est né au milieu
+            <lb/>d'un peuple qui fait profession de croire
+            <lb/>qu'il y a un Dieu ; on l'a souvent
+            <lb/>ouï dire ; on le croit comme les autres , <fw place="bot-right" type="catch">tres
+              ,</fw>
+            <pb n="10"/>
+            <lb/>mais sans savoir pourquoi. Les
+            <lb/>personnes avec qui l'on vit, font de certaines
+            <lb/>démarches qu'elles regardent
+            <lb/>comme agréables à la Divinité : On
+            <lb/>les imite sans s'embarrasser d'examiner
+            <lb/>les principes de leur conduite. Que les
+            <lb/>ideés que les autres se font de l'Etre Suprême
+            <lb/>soient justes , ou qu'elles ne le
+            <lb/>soient pas : Que le Culte qu'on lui
+            <lb/>rend , soit conforme ou contraire à sa
+            <lb/>volonté , c'est de quoi on ne se met
+            <lb/>point en peine. C'est ainsi que croyent
+            <lb/>les autres ; c'est ainsi qu'ils agissent ; On
+            <lb/>croit comme eux ; On agit comme
+            <lb/>eux , sans examen ; On suit aveuglément
+            <lb/>le prémier chemin que l'on trouve battu
+            <lb/>devant ses yeux ; On se plait , s'il
+            <lb/>m'est permis de parler ainsi , à marcher
+            <lb/>de compagnie , avec les prémiéres personnes
+            <lb/>que l'on rencontre. Voilà , la
+            <lb/>chose est certaine, tout le fondement de
+            <lb/>la Religion de la plûpart des hommes.
+            <lb/>C'est en suivant ce funeste préjugé que
+            <lb/>le Payen , au milieu de ses ténébres ,
+            <lb/>rend ses hommages à un grand nombre
+            <lb/>de fausses Divinitez , &amp; qu'il donne,
+            <lb/>tête baissée , dans tout ce que le Culte,
+            <lb/>par lequel , on les honore , peut avoir <fw place="bot-right" type="catch">de</fw>
+            <pb n="11"/>
+            <lb/>de déraisonnable , de ridicule , &amp; d'impie.
+            <lb/>C'est en conséquence du même
+            <lb/>préjugé, que le Mahometan suit les dogmes
+            <lb/>&amp; les maximes de son faux Prophéte.
+            <lb/>C'est par là que le Juif ne sauroit
+            <lb/>se resoudre à abandonner la Loi de
+            <lb/>ses Péres , pour embrasser l'Evangile.
+            <lb/>Enfin , c'est par le même endroit que
+            <lb/>tant de Chrétiens vivent dans la Communion
+            <lb/>qui les a vûs naître , sans se
+            <lb/>mettre en peine d'examiner si la Religion
+            <lb/>qu'ils professent , est la plus pure. </p>
+          <p n="12">
+            <lb/>Est-il naturel de penser qu'un homme
+            <lb/>qui n'est , que comme par hazard , dans
+            <lb/>l'Eglise de Jesus-Christ , doive être, pour
+            <lb/>cela seul , agréable à Dieu ? J'avouë que
+            <lb/>je ne comprens par sur quel fondement
+            <lb/>on pourroit le prétendre. Il me semble
+            <lb/>au contraire que cette espéce d'indolence
+            <lb/>ne peut que déplaire au Seigneur.
+            <lb/>Car enfin, quel est le but qu'il
+            <lb/>s'est proposé en nous revélant sa volonté
+            <lb/>par son Fils ? Il est certain , &amp; la chose
+            <lb/>parle d'elle même , que Dieu ne s'est
+            <lb/>manifesté si clairement aux hommes ,
+            <lb/>par l'Evangile , qu'afin qu'ils sçussent
+            <lb/>à quoi <choice><sic>sen</sic><corr resp="#CiM">s'en</corr></choice> tenir , en matiére de Réligion ;
+            <lb/>qu'afin qu'ils connussent exactement <fw place="bot-right" type="catch">ment</fw>
+            <pb n="12"/>
+            <lb/>&amp; les Véritez qu'ils doivent croire ,
+            <lb/>&amp; les Loix qu'ils sont obligez de
+            <lb/>suivre , &amp; le Culte qui peut seul lui
+            <lb/>plaire. Par conséquent , quiconque néglige
+            <lb/>de s'instruire de tout cela , aussi
+            <lb/>bien qu'il le peut , à proportion de l'état
+            <lb/>où il se trouve , &amp; des secours qu'il
+            <lb/>peut avoir , témoigne par là qu'il fait
+            <lb/>peu de cas de la lumiére spirituelle que
+            <lb/>Dieu a la bonté de faire briller à nos
+            <lb/>yeux. Et ce mépris n'est-il pas souverainement
+            <lb/>condamnable? </p>
+          <p n="13">
+            <lb/>Ceci nous regarde de plus près que
+            <lb/>nous ne pensons. Que des gens qui vivent
+            <lb/>dans des païs où le Papisme est
+            <lb/>dominant , croupissent dans d'épaisses
+            <lb/>ténébres,c'est ce qui ne surprend point ,
+            <lb/>quand on fait attention à la constitution
+            <lb/>de cette Eglise , &amp; à l'état dans lequel elle
+            <lb/>se trouve. Il suffit de croire ce qu'elle
+            <lb/>croit , sans savoir bien ni quoi , ni
+            <lb/>pourquoi. Mais par quel endroit un
+            <lb/>Réformé , qui peut <quote source="bibleOstervald1724.xml#_2Tim.3.15">
+              <hi rend="I">aprendre les Saintes
+                <lb/>Lettres dès son enfance</hi>
+            </quote> , à qui l'on permet ,
+            <lb/>que dis-je ? que l'on exhorte sans
+            <lb/>
+            <note type="margin">
+              <ref type="bible" target="bibleSegond21.xml#_2Tim.3.15-16">2. Tim. <lb/>III.
+                15. 16.</ref>
+            </note>cesse à lire l'Ecriture , <quote source="bibleOstervald1724.xml#_2Tim.3.15-16">
+              <hi rend="I">qui peut le rendre
+                <lb/>Savant dans les choses du Salut , qui
+                <lb/>est utile à enseigner , à convaincre , à </hi>
+              <fw place="bot-right" type="catch">
+                <hi rend="I">corriger ,</hi>
+              </fw>
+              <pb n="13"/>
+              <lb/>
+              <hi rend="I">corriger , &amp; à instruire des devoirs de
+                <lb/>la justice</hi>
+            </quote> : Un Réformé, à qui l'on donne
+            <lb/>des Maîtres sur la Religion dès qu'il
+            <lb/>est en âge de connoissance , par quel
+            <lb/>endroit un Réformé qui a tous ces secours ,
+            <lb/>pourroit-il excuser l'ignorance
+            <lb/>dans laquelle il vit ? Des gens qui sont
+            <lb/>dans ce cas , se voyent non seulement
+            <lb/>exposez à être <quote source="bibleOstervald1724.xml#Eph.4.14">
+              <hi rend="I">comme des enfans flottans
+                <lb/>&amp; emportez par le vent de toutes sortes</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Eph.4.14">Eph. IV. <lb/>14.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">de doctrines , &amp; à succomber à la finesse
+                <lb/>de ceux qui veulent les engager artificieusement
+                <lb/>dans l'erreur</hi>
+            </quote> ; Mais ce qu'il y
+            <lb/>a de plus fâcheux , c'est que leur ignorance
+            <lb/>influë ordinairement sur leurs
+            <lb/>mœurs. Elle est une des principales sources
+            <lb/>des desordres auxquels il s'abandonnent.
+            <lb/>S. Paul dit expressément en
+            <lb/>parlant des Gentils <quote source="bibleOstervald1724.xml#Eph.4.18">
+              <hi rend="I">qui ont leur esprit
+                <lb/>plein de ténébres , qu'ils sont éloignez de
+                <lb/>la vie de Dieu , à cause de l'ignorance où</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Eph.4.18">Eph. IV. <lb/>18.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">ils sont par l'endurcissement de leur Cœur</hi>
+            </quote>.
+            <lb/>En effet , comment voudroit-on que des
+            <lb/>gens qui ne connoissent par leurs devoirs,
+            <lb/>fussent disposez à les remplir? Cela n'est
+            <lb/>pas possible. D'où vient que , sans s'en
+            <lb/>faire aucune peine , on s'abandonne à
+            <lb/>des actions expressément deffendues , si <fw place="bot-right" type="catch">ce</fw>
+            <pb n="14"/>
+            <lb/>ce n'est parce qu'on ne les regarde pas
+            <lb/>comme mauvaises ? Parmi un grand nombre
+            <lb/>de Chrétiens , par exemple ,
+            <lb/>regarde-t'-on comme un mal le faste , le
+            <lb/>luxe , l'oisiveté , une vie molle , ou qui
+            <lb/>se passe presque toute dans la dissipation?
+            <lb/>Tout cela est pourtant condamnable.
+            <lb/>Il faudroit n'avoir jamais lû l'Ecriture
+            <lb/>pour en douter. Combien de
+            <lb/>funestes habitudes encore ne contracte-
+            <lb/>t'-on pas , sans en craindre les suites ?
+            <lb/>Voit-on que des gens qui se laissent aller
+            <lb/>à des emportemens excessifs &amp; à tout
+            <lb/>ce qui les accompagne, pour l'ordinaire;
+            <lb/>que des gens qui ont contracté l'habitude
+            <lb/>de jurer , de mentir , de tromper ,
+            <lb/>de médire , soient en peine de leur Salut ?
+            <lb/>Ils n'en sont pas plus en peine que
+            <lb/>s'ils en étoient déja en possession. D'où
+            <lb/>naît cette funeste sécurité ? De l'ignorance ,
+            <lb/>du moins en grande partie. On
+            <lb/>ne connoit point la Religion, comme on
+            <lb/>devroit la connoître. On est content,
+            <lb/>pourvû que l'on puisse dire : <quote source="bibleOstervald1724.xml#Jer.7.4">
+              <hi rend="I">Le Temple
+                <lb/>de l'Eternel , le Temple de l'Eternel , le
+                <lb/>Temple de l'Eternel</hi>
+            </quote>.
+          </p>
+          <p n="14">
+            <lb/>Tous les Chrétiens ne sont pas dans
+            <lb/>le cas que nous venons d'examiner ; on <fw place="bot-right" type="catch">doit</fw>
+            <pb n="15"/>
+            <lb/>en convenir. Il s'en trouve qui ont
+            <lb/>aquis des lumiéres ; qui font profession
+            <lb/>de la véritable Religion par connoissance
+            <lb/>de cause , &amp; qui ne seroient point
+            <lb/>embarrassez à rendre raison de leur foi ,
+            <lb/>mais dont la conduite n'est pas réguliére ,
+            <lb/>comme elle devroit l'être : C'est la<note type="margin">2. Classe. Les <lb/>Chrétiens
+              <lb/>qui ne le sont <lb/>que pour la <lb/>théorie , &amp; <lb/>qui ne le <lb/>sont pas dans <lb/>la pratique.</note>
+            <lb/>seconde Classe de personnes qui se glorifient
+            <lb/>en vain de la pureté de leur
+            <lb/>Christianisme. Il ne consiste qu'en simple
+            <lb/>spéculation , qui n'influë point sur
+            <lb/>la conduite. La Religion de telles gens
+            <lb/>est vaine. </p>
+          <p n="15">
+            <lb/>Si les lumiéres de l'Esprit produisoient
+            <lb/>toûjours dans le cœur , les bons
+            <lb/>sentimens qu'elles devroient y produire,
+            <lb/>on ne trouveroit qui que ce soit du
+            <lb/>caractére que je viens de représenter;
+            <lb/>mais qui ne sait que ce ne sont pas toûjours
+            <lb/>ceux qui ont le plus de lumiéres
+            <lb/>qui vivent mieux que les autres ? Combien
+            <lb/>n'en voit-on pas qui sont Docteurs
+            <lb/>&amp; Maîtres pour la théorie , &amp; qui restent
+            <lb/>fort en arriére dans la pratique?
+            <lb/>Ils connoissent la Loi de Dieu , <quote source="bibleOstervald1724.xml#Rom.7.22-23">
+              <hi rend="I">Ils y
+                <lb/>prennent plaisir selon l'homme intérieur ,</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Rom.7.22-23">Rom. VII. <lb/>22. 23.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">mais ils voient une autre Loi dans leurs
+                <lb/>membres , qui combat contre la Loi de</hi>
+              <fw place="bot-right" type="catch">
+                <hi rend="I">leur</hi>
+              </fw>
+              <pb n="16"/>
+              <lb/>
+              <hi rend="I">leur Esprit , &amp; qui les rend captifs de
+                <lb/>la Loi du péché , laquelle est dans leurs
+                <lb/>membres</hi>
+            </quote>. Ne seroit-on pas fondé à le
+            <lb/>leur dire , comme S. Paul le disoit aux
+            <lb/>
+            <note type="margin" xml:id="mn_16_1" n="">
+              <ref type="bible" target="bibleSegond21.xml#Rom.2.1">Rom. II. 1.</ref>
+            </note>Juifs : <quote source="bibleOstervald1724.xml#Rom.2.1">
+              <hi rend="I">Vous qui condamnez les autres ,
+                <lb/>vous êtes inexcusables ; car en les condamnant ,
+                <lb/>vous vous condamnez vous-même</hi>
+              <hi rend="I"> ,
+                <lb/>puisque vous faites les mêmes choses
+                <lb/>que vous condamnez</hi>
+            </quote>.<ref target="#mn_16_1" type="noteAnchor"/>
+            <hi rend="I"> </hi>
+            <quote source="bibleOstervald1724.xml#Rom.2.18-23">
+              <hi rend="I">Vous qui vous reposez</hi>
+              <lb/>
+              <note xml:id="mn_16_2" type="margin" n="*"> Sur la <lb/>Loi. <ref type="bible" target="bibleSegond21.xml#Rom.2.18-23"> <lb/>ꝟ. 18-23.</ref>
+              </note><ref target="#mn_16_2" type="noteAnchor">*</ref> sur l'Evangile ,<hi rend="I"> &amp; qui faites
+                <lb/>gloire d'être à Dieu , qui connoissez sa volonté ,
+                <lb/>&amp; qui savez discerner ce qui est
+                <lb/>contraire , étant instruit par la Loi ;
+                <lb/>Vous qui vous flattez d'être le conducteur
+                <lb/>des aveugles , la lumiére de ceux qui
+                <lb/>sont dans les ténébres , le Docteur des
+                <lb/>ignorans , &amp; le maître des simples...
+                <lb/>Vous , dis-je , qui enseignez les autres ,
+                <lb/>vous ne vous enseignez pas vous-même?
+                <lb/>Vous qui prêchez qu'on ne doit pas dérober ,
+                <lb/>vous dérobez ? Vous qui dites
+                <lb/>qu'on ne doit pas commettre adultére ,
+                <lb/>vous commettez adultére ? Ne voyez-
+                <lb/>vous pas que vous deshonorez Dieu en
+                <lb/>foulant aux pieds les Loix</hi>
+            </quote> d'une Religion
+            <lb/>que vous vous piquez de connoître
+            <lb/>mieux que les autres ? Ce n'est point
+            <lb/>une chose rare de voir des gens qui se <fw place="bot-right" type="catch">vantent</fw>
+            <pb n="17"/>
+            <lb/>vantent d'avoir bien étudié la Religion ,
+            <lb/>d'être en état de la deffendre contre tous
+            <lb/>ceux qui en attaquent les Dogmes,de triompher
+            <lb/>des plus grands efforts de leurs
+            <lb/>adversaires , de les reduire au silence ,
+            <lb/>&amp; qui sont en même tems mondains ,
+            <lb/>sensuels , vindicatifs , injustes , ou esclaves
+            <lb/>de quelque autre <choice><sic>péche</sic><corr resp="#CiM">péché</corr></choice>. </p>
+          <p n="16">
+            <lb/>Pour moi , je vous l'avouë , je n'ai
+            <lb/>pas encore compris sur quel fondement
+            <lb/>on pouvoit se flater d'être agréable à
+            <lb/>Dieu , sans vivre comme il l'ordonne ,
+            <lb/>quelque bien instruit que l'on puisse
+            <lb/>être d'ailleurs de sa volonté ; quelque
+            <lb/>attachement que l'on ait pour la Religion
+            <lb/>que l'on croit la meilleure. N'a-
+            <lb/>t'-on jamais réfléchi sur cette déclaration
+            <lb/>de Jesus-Christ, qui me paroit si propre
+            <lb/>à dissiper l'illusion que nous combatons :
+            <lb/>
+            <quote source="bibleOstervald1724.xml#Matt.7.21">
+              <hi rend="I">Ceux qui me disent Seigneur , Seigneur ,</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Matt.7.21">Matth. VII. <lb/>21</ref>
+              </note>
+              <lb/>
+              <hi rend="I">n'entreront pas tous dans le Royaume
+                <lb/>du Ciel , mais ceux-là seulement qui
+                <lb/>font la volonté de mon Pére qui est au
+                <lb/>Ciel</hi>
+            </quote> : Bien loin que la connoissance
+            <lb/>sans la pratique , produise des effets salutaires ,
+            <lb/>qu'elle ne sert qu'à rendre plus
+            <lb/>condamnable. <quote source="bibleOstervald1724.xml#Luke.12.47-48">
+              <hi rend="I">Le Serviteur qui aura</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Luke.12.47-48">Luc XII. <lb/>47. 48.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">sçu la volonté de son Maitre , &amp; qui ne</hi>
+              <fw place="bot-right" type="catch">
+                <hi rend="I">l'aura</hi>
+              </fw>
+              <pb n="18"/>
+              <lb/>
+              <hi rend="I">l'aura pas exécutée , recevra un grand
+                <lb/>nombre de coups... On exigera beaucoup
+                <lb/>de celui à qui on a beaucoup donné ; &amp;
+                <lb/>plus on aura confié à quelqu'un , plus on</hi>
+              <lb/>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Rom.2.13">Rom. II. 13.</ref>
+              </note>
+              <hi rend="I">lui redemandera</hi>
+            </quote>.
+            <hi rend="I"> </hi>
+            <quote source="bibleOstervald1724.xml#Rom.2.13">
+              <hi rend="I">Ce ne sont pas ceux qui
+                <lb/>écoutent la Loi</hi>, <seg type="interpolation">qui connoissent bien la
+                  <lb/>Religion ,</seg><hi rend="I"> qui sont justes devant Dieu ;
+                <lb/>mais ce sont ceux qui observent la Loi,
+                <lb/>qui seront justifiez</hi>
+            </quote>.
+          </p>
+          <p n="17">
+            <lb/>Il est surprenant qu'un homme à qui
+            <lb/>Dieu veut se faire connoître dans sa
+            <lb/>parole , ne daigne point écouter sa voix,
+            <lb/>&amp; qu'il préfére les ténébres à la lumiére ;
+            <lb/>mais que des gens qui se glorifient
+            <lb/>de connoître la Divinité ; qui savent
+            <lb/>que l'Etre Souverain , que nous adorons ,
+            <lb/>est très-saint &amp; très-juste : Que
+            <lb/>des gens qui veulent qu'on les croye
+            <lb/>bien instruits des devoirs de la Religion,
+            <lb/>s'arrêtent à ses Dogmes , sans s'embarrasser
+            <lb/>beaucoup de sa Morale ; qu'ils
+            <lb/>vivent dans le péché , qu'ils prennent
+            <lb/>leurs passions pour guides , sans en craindre
+            <lb/>les suites , c'est ce qui est plus surprenant
+            <lb/>encore : C'est ce que l'on auroit
+            <lb/>
+            <note type="margin">3e. Classe. <lb/>Les Chrétiens <lb/>qui se <lb/>partagent <lb/>entre Dieu <lb/>&amp; le
+              Monde.</note>de la peine à comprendre , si l'on
+            <lb/>n'en voyoit pas tant d'exemples. </p>
+          <p n="18">
+            <lb/>Nous avons fait une troisiéme Classe
+            <lb/>de ceux à qui l'on peut apliquer l'exhortation <fw place="bot-right" type="catch">tation</fw>
+            <pb n="19"/>
+            <lb/>de nôtre Prophéte , tous ces Chrétiens
+            <lb/>qui remplissent assez exactement
+            <lb/>les devoirs extérieurs de la Religion, &amp;
+            <lb/>qui font consister en cela toute leur justice,
+            <lb/>sans se mettre en peine de vivre
+            <lb/>dans toute la pureté qu'exige l'Evangile,
+            <lb/>&amp; de se conformer à ses maximes les
+            <lb/>plus essentielles. Si l'on y prend garde ,
+            <lb/>on verra que l'Eglise est pleine de
+            <lb/>gens de ce Caractére. L'ignorance &amp;
+            <lb/>la corruption se donnent ici reciproquement
+            <lb/>la main. On ne connoit pas assez
+            <lb/>bien l'esprit de la Religion Chrétienne ;
+            <lb/>&amp; on n'a pas assez de goût
+            <lb/>pour la vertu , pour la véritable piété.
+            <lb/>Pourvû que l'on ne vive pas en Athée,
+            <lb/>en libertin de profession ; pourvû que
+            <lb/>l'on n'ait à se reprocher aucun vice d'éclat ;
+            <lb/>pourvû que l'on fréquente les
+            <lb/>Saintes Assemblées , qu'on recite dans
+            <lb/>sa maison quelques priéres , qu'on lise
+            <lb/>de tems en tems la parole de Dieu ,
+            <lb/>ou d'autres bons livres , que l'on participe
+            <lb/>au Sacrement de la Sainte Céne
+            <lb/>avec quelque apparence de dévotion ,
+            <lb/>on est très - content de soi-même. En
+            <lb/>voilà pour le moins autant qu'il en faut.
+            <lb/>Qu'on n'en demande pas d'avantage. <fw place="bot-right" type="catch">Si</fw>
+            <pb n="20"/>
+            <lb/>Si vous prêchez à ces demi-Chrétiens
+            <lb/>le renoncement au monde &amp; à ses convoitises ,
+            <lb/>une humilité , une modestie
+            <lb/>qui régne dans le cœur , &amp; qui se répande
+            <lb/>sur toute la conduite : Si vous
+            <lb/>les exhortez à un parfait désinteressement ,
+            <lb/>à se remplir des sentimens d'une
+            <lb/>charité vive , sincére , &amp; agissante :
+            <lb/>Si vous voulez les porter à aimer Dieu
+            <lb/>de cet amour qui consiste à chercher
+            <lb/>son souverain bien en lui seul , à observer
+            <lb/>ses commandemens , &amp; tous ses commandemens ;
+            <lb/>On vous accusera d'outrer
+            <lb/>les choses. Vôtre morale sera trop
+            <lb/>rigide. On ne sauroit la goûter. </p>
+          <p n="19">
+            <lb/>A quoi bon se faire illusion ? C'est
+            <lb/>pourtant là la Morale de l'Evangile. En
+            <lb/>
+            <note type="margin">
+              <ref type="bible" target="bibleSegond21.xml#Matt.22.37-40">Matth. <lb/>XXII. 37. <lb/>40.</ref>
+            </note>voici l'Abregé : <quote source="bibleOstervald1724.xml#Matt.22.37-40">
+              <hi rend="I">Vous aimerez le Seigneur
+                <lb/>vôtre Dieu , de tout vôtre cœur</hi> , <hi rend="I">de toute
+                <lb/>vôtre ame , &amp; de tout vôtre esprit. C'est-là
+                <lb/>le prémier &amp; le plus grand commandement.
+                <lb/>Le second qui lui est semblable est : Vous
+                  <lb/>aimerez vôtre prochain comme vous-même.
+                <lb/>Toute la Loi &amp; les Prophétes se réduisent
+                <lb/>à ces deux commandemens</hi>
+            </quote>. Ignore-t'on
+            <lb/>que Dieu ne veut point de partage? Non;
+            <lb/>
+            <quote source="bibleOstervald1724.xml#Matt.6.24">
+              <hi rend="I">Nul ne peut servir deux Maîtres ; car, ou</hi>
+              <lb/>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Matt.6.24">Matth. VI. <lb/>24.</ref>
+              </note>
+              <hi rend="I">il aimera l'un &amp; haïra l'autre : ou , s'il</hi>
+              <fw place="bot-right" type="catch">
+                <hi rend="I">s'at-</hi>
+              </fw>
+              <pb n="21"/>
+              <lb/>
+              <hi rend="I">s'attache à l'un , il méprisera l'autre</hi>
+            </quote>.
+            <hi rend="I"> </hi>
+            <quote source="bibleOstervald1724.xml#Jas.4.4">
+              <hi rend="I">Ne</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Jas.4.4">Jaq. IV. 4.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">savez-vous pas qu'être ami du monde ,
+                <lb/>c'est être ennemi de Dieu ? Qui veut donc
+                <lb/>être ami du monde,se rend ennemi de Dieu</hi>
+            </quote>.
+            <lb/>Il faut opter. Ou remplissez les devoirs
+            <lb/>du Christianisme dans toute leur étenduë:
+            <lb/>Ou cessez de compter sur les avantages
+            <lb/>que la Religion procure,tant que vous ne
+            <lb/>voudrez vous attacher qu'à son écorce. </p>
+          <p n="20">
+            <lb/>Enfin ,il ne nous reste plus à parler<note type="margin">4e. Classe. <lb/>Ceux qui
+              <choice><sic>on</sic><corr resp="#CiM">ont</corr></choice> <lb/>souffert la <lb/>persécution.</note>
+            <lb/>que de l'illusion que peuvent se faire
+            <lb/>ceux d'entre les Chrétiens Réformez, qui
+            <lb/>ont été persécutez pour leur Religion ,
+            <lb/>sans vouloir l'abandonner , &amp; qui fondent
+            <lb/>sur ces persécutions leur droit à
+            <lb/>la vie éternelle ; bien que d'ailleurs
+            <lb/>leur conduite ne réponde pas à leur
+            <lb/>espérance. C'est assurément <quote source="bibleOstervald1724.xml#Jer.7.4">
+              <hi rend="I">se reposer
+                <lb/>sur des paroles trompeuses</hi>
+            </quote>.
+          </p>
+          <p n="21">
+            <lb/>Je n'ignore pas les promesses que l'Evangile
+            <lb/>fait <quote source="bibleOstervald1724.xml#Rom.10.9">
+              <hi rend="I">à ceux qui confessent de bouche</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Rom.10.9">Rom. X. 9.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">le Seigneur Jesus</hi>
+            </quote>.
+            <hi rend="I"> </hi>
+            <quote source="bibleOstervald1724.xml#Matt.5.10">
+              <hi rend="I">Heureux , </hi><seg type="interpolation">dit-il ,
+                <lb/>lui-même ,</seg> <hi rend="I">heureux ceux qui sont
+                persécutez</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Matt.5.10">Matth. V. <lb/>10.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">pour la justice : car le Royaume
+                <lb/>du Ciel leur apartient</hi>
+            </quote>.
+            <hi rend="I"> </hi>
+            <quote source="bibleOstervald1724.xml#Luke.18.29-30">
+              <hi rend="I">Je vous dis en
+                <lb/>vérité , que personne n'aura quitté pour
+                <lb/>le Royaume de Dieu , ou sa Maison , ou son
+                <lb/>Pére &amp; sa Mére , ou ses fréres , ou sa</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Luke.18.29-30">Luc. XVIII. <lb/>29. 30.</ref>
+              </note>
+              <fw place="bot-right" type="catch">
+                <hi rend="I">femme,</hi>
+              </fw>
+              <pb n="22"/>
+              <lb/>
+              <hi rend="I">femme , ou ses enfans , qui ne reçoive
+                <lb/>beaucoup plus dans ce Siécle-ci , &amp; dans
+                <lb/>le Siécle à venir la vie éternelle</hi>
+            </quote>.
+            Nous
+              <lb/>sommes précisément dans le cas , diront
+              <lb/>sans doute plusieurs de ceux qui portent ,
+              <lb/>parmi nous , &amp; ailleurs , le glorieux
+              <lb/>titre de <hi rend="I">Réfugiez.</hi> On nous a persécutez
+              <lb/>pour la Religion dans nôtre Patrie.
+              <lb/>On nous a enfin forcez à l'abandonner
+              <lb/>au milieu de mille dangers.
+              <lb/>Nous avons quitté nos biens , nos Emplois ,
+              <lb/>nos amis, nos Parens. Nous nous
+              <lb/>sommes vûs reduits à la nécessité de
+              <lb/>chercher une retraite dans les Païs étrangers ,
+              <lb/>&amp; de souffrir bien des incommoditez ,
+              <lb/>bien des traverses , beaucoup
+              <lb/>d'épreuves. C'est donc à nous que les
+              <lb/>promesses sont faites. <surplus reason="repeated">.</surplus>Pourquoi nous
+              <lb/>refuseroit-on la consolation de nous les
+              <lb/>apliquer ? 
+          </p>
+          <p n="22">
+            <lb/>Nous aurions plusieurs réflexions à
+            <lb/>faire là-dessus , si le tems nous le permettoit.
+            <lb/>Contentons-nous, pour le coup,
+            <lb/>de ces deux. Prémiérement il ne faut
+            <lb/>pas croire que tous ceux qui ont souffert
+            <lb/>à l'ocasion de la Religion , ayent
+            <lb/>souffert par un principe d'amour pour
+            <lb/>Dieu , &amp; pour la Religion. Leur conduite <fw place="bot-right" type="catch">duite</fw>
+            <pb n="23"/>
+            <lb/>dans les païs étrangers est une
+            <lb/>preuve du contraire. Dira-t-on que l'on
+            <lb/>aime Dieu dans le tems qu'on ne se fait
+            <lb/>aucune peine de l'offenser ? Se vantera-
+            <lb/>t-on d'avoir un sincére attachement
+            <lb/>pour la Religion , pendant que l'on en
+            <lb/>foule aux pieds les maximes les plus
+            <lb/>essentielles ; pendant que l'on est esclave
+            <lb/>de ses passions , de l'avarice , par
+            <lb/>exemple , de l'orgueil , de la sensualité ?
+            <lb/>
+            On a souffert pour la Religion ,
+            <lb/>dit-on : Hélas ! Plusieurs de ceux qui
+            <lb/>s'en vantent, ne la connoissoient pas &amp; ne
+            <lb/>la connoissent pas encore. Il faut bien que
+            <lb/>cela soit , puis qu'ils la pratiquent si mal ;
+            <lb/>ou bien qu'ils se reduisent à avouër qu'ils
+            <lb/>agissent contre les lumiéres de leur conscience.
+            <lb/>Encore une fois,dira-t-on que ceux
+            <lb/>qui sont dans le cas ont souffert par amour
+            <lb/>pour Dieu , &amp; pour la Religion?
+            <lb/>Non. Il est plus naturel de penser qu'ils
+            <lb/>ont souffert par un principe tiré de
+            <lb/>l'honneur du monde , par entêtement ,
+            <lb/>par préjugé , par esprit de parti. Ceux
+            <lb/>qui se sont apliquez à connoître le
+            <lb/>cœur de l'homme , &amp; les divers ressorts
+            <lb/>qui le remuent , n'auront aucune peine
+            <lb/>à entrer dans ma pensée. On pourroit <fw place="bot-right" type="catch">aisé-</fw>
+            <pb n="24"/>
+            <lb/>aisément la mettre dans un plus grand
+            <lb/>jour , si l'on vouloit s'attacher à la déveloper.
+            <lb/>Mais sans nous arrêter à cela,
+            <lb/>passons à nôtre seconde considération,
+            <lb/>qui servira à apuyer la prémiére , &amp; qui
+            <lb/>n'en est que comme une confirmation. </p>
+          <p n="23">
+            <lb/>On nous cite des passages de l'Ecriture
+            <lb/>pour fonder le droit que l'on prétend
+            <lb/>avoir à la vie éternelle ; Nous allons
+            <lb/>montrer par d'autres passages,que
+            <lb/>ce droit n'est incontestable qu'à l'égard
+            <lb/>de ceux qui comptants sur les promesses
+            <lb/>
+            <note type="margin">
+              <ref type="bible" target="bibleSegond21.xml#_1John.3.3">I. Jean <lb/>III. 3.</ref>
+            </note>de Jesus-Christ , <quote source="bibleOstervald1724.xml#_1John.3.3">
+              <hi rend="I">travaillent à se purifier,
+                <lb/>comme lui aussi est pur</hi>
+            </quote>. Il ne faut
+            <lb/>point faire tomber ce divin Sauveur en
+            <lb/>contradiction avec lui-même. Or il se
+            <lb/>contrediroit s'il promettoit le Ciel à
+            <lb/>ceux qui se moquent de sa Morale ,
+            <lb/>sous prétexte seulement qu'ils auront
+            <lb/>perséveré , au milieu des persécutions ,
+            <lb/>dans la profession des véritez qu'il a
+            <lb/>enseignées. Vous l'avez déja ouï dans
+            <lb/>un passage que nous avons cité plus
+            <lb/>
+            <note type="margin">
+              <ref type="bible" target="bibleSegond21.xml#Matt.7.21">Matth. VII. <lb/>21. &amp;c</ref>
+            </note>haut : <quote source="bibleOstervald1724.xml#Matt.7.21">
+              <hi rend="I">Ceux qui me disent Seigneur , Seigneur ,
+                <lb/>n'entreront pas tous dans le Royaume
+                <lb/>du Ciel</hi>
+            </quote>. Qui sont donc ceux qui
+            <lb/>jouïront de ce précieux avantage ? <quote source="bibleOstervald1724.xml#Matt.7.21-23">
+              <hi rend="I">Ceux-
+                <lb/>là seulement qui font la volonté de mon</hi>
+              <fw place="bot-right" type="catch">
+                <hi rend="I">Pére</hi>
+              </fw>
+              <pb n="25"/>
+              <lb/>
+              <hi rend="I">Pére qui est au Ciel. Plusieurs me diront
+                <lb/>en ce jour-là : Seigneur , n'avons-
+                <lb/>nous pas prophétisé en vôtre nom ? N'avons-
+                <lb/>nous pas chassé les Démons en vôtre
+                <lb/>nom ? Et n'avons-nous pas fait plusieurs
+                <lb/>miracles en vôtre nom ? Alors je
+                <lb/>leur dirai ouvertement : Je ne vous ai
+                <lb/>jamais connus : Eloignez-vous de moi , vous
+                <lb/>qui faites les œuvres d'iniquité</hi>
+            </quote>. Dût-on
+            <lb/>avoir souffert pour Jesus-Christ plus
+            <lb/>que l'on ne se vante d'avoir souffert :
+            <lb/>Dût-on lui avoir fait un sacrifice de
+            <lb/>tous ses biens , &amp; même de sa propre
+            <lb/>vie , si seulement on n'a pas pour le
+            <lb/>prochain l'amour sincére qui est la livrée
+            <lb/>du Christianisme , si l'on est esclave
+            <lb/>de la médisance , par exemple , si
+            <lb/>l'on est injuste , si l'on fait tort aux autres
+            <lb/>hommes , si on ne leur rend pas
+            <lb/>les bons offices que l'on peut &amp; que
+            <lb/>l'on doit leur rendre ; si on ne les aime
+            <lb/>pas , en un mot , les titres que l'on
+            <lb/>fonde sur ces sacrifices , que l'on fait tant
+            <lb/>valoir , seront déclarez nuls. <quote source="bibleOstervald1724.xml#_1Cor.13.3">
+              <hi rend="I">Quand je</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#_1Cor.13.3">I. Cor. <lb/>XIII. 3.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">distribuerois tous mes biens pour la nourriture
+                <lb/>des pauvres , &amp; que je livrerois
+                <lb/>mon corps pour être brûlé , si je n'ai point
+                <lb/>la charité,cela ne me sert de rien</hi>
+            </quote>. C'est St. <fw place="bot-right" type="catch">Paul</fw>
+            <pb n="26"/>
+            <lb/>Paul qui le dit. Que l'on vienne , après
+            <lb/>cela, se glorifier de ce que l'on a souffert
+            <lb/>pour l'Evangile , pendant que l'on
+            <lb/>viole ses loix sans scrupule. </p>
+          <p n="24">
+            <lb/>J'ai donc prouvé, ce me semble , qu'il
+            <lb/>est inutile aux personnes dont nous venons
+            <lb/>d'examiner le caractére , d'être
+            <lb/>membres de la véritable Eglise. Pour
+            <lb/>être sauvé, il faut quelque chose de plus
+            <lb/>que cela. Il faut se conformer aux
+            <lb/>maximes de l'Evangile. Il ne suffit pas
+            <lb/>de dire , <quote source="bibleOstervald1724.xml#Jer.7.4">
+              <hi rend="I">le Temple de l'Eternel , le Temple
+                <lb/>de l'Eternel</hi>
+            </quote> ; On doit être Reformé
+            <lb/>pour les mœurs , pour le moins autant
+            <lb/>que pour la doctrine. Cette vérité est
+            <lb/>trop importante pour être examinée superficiellement :
+            <lb/>nous en ferons le sujet
+            <lb/>d'un autre discours, s'il plait au Seigneur. </p>
+        </div>
+        <div n="2" type="sub">
+          <head type="sub">
+            <lb/>APPLICATION</head>
+          <p n="25">
+            <lb/>
+            <c type="lettrine">M</c>ES FRERES , nous sommes tous
+            <lb/>Chrétiens , par la grace de Dieu;
+            <lb/>Et par raport aux Dogmes nous faisons
+            <lb/>profession de nous en tenir à ce que
+            <lb/>le Seigneur , qui est seul infaillible ,
+            <lb/>nous a révélé dans sa Parole. Nous avons <fw place="bot-right" type="catch">vons</fw>
+            <pb n="27"/>
+            <lb/>eu le bonheur de renoncer aux
+            <lb/>erreurs , aux superstitions , à l'idolatrie
+            <lb/>de l'Eglise Romaine. Nos Péres, après
+            <lb/>avoir secoüé le joug tirannique qu'ils
+            <lb/>ne pouvoient plus porter , ont transmis
+            <lb/>à leur postérité la précieuse liberté qu'ils
+            <lb/>aquirent pour eux-mêmes. Graces en
+            <lb/>soient rendues à Dieu <quote source="bibleOstervald1724.xml#Col.1.13">
+              <hi rend="I">qui nous a fait
+                <lb/>ainsi passer des ténebres à la lumiére</hi>
+            </quote> !
+            <lb/>Nous avons été introduits , par le bâtême,
+            <lb/>dans la véritable Eglise de Jésus-
+            <lb/>Christ. Nous venons entendre sa parole,
+            <lb/>&amp; nous pouvons la consulter librement
+            <lb/>dans nos maisons. Nous participons ,
+            <lb/>dans les tems marquez pour cela,
+            <lb/>au Sacrement de son Corps &amp; de
+            <lb/>son Sang , de la maniére qu'il l'a lui
+            <lb/>même institué , &amp; conformément à l'usage ,
+            <lb/>&amp; à la pratique des prémiers Chrétiens.
+            <lb/>On ne suit point , parmi nous ,
+            <lb/>
+            <quote source="bibleOstevald1724.xml#Matt.15.6">
+              <hi rend="I">ces traditions par lesquelles on rend les
+                <lb/>commandemens de Dieu inutiles</hi>
+            </quote>. Nôtre
+            <lb/>Religion est toute fondée sur sa parole,
+            <lb/>ou du moins elle doit l'être , suivant
+            <lb/>nos principes. Voilà bien de grands
+            <lb/>avantages. Voilà d'excellentes prérogatives ,
+            <lb/>on ne sauroit le nier : Mais
+            <lb/>quel fruit en retirerons nous de ces avantages ? <fw place="bot-right" type="catch">vantages?</fw>
+            <pb n="28"/>
+            <lb/>A quoi nous serviront ces
+            <lb/>glorieuses prérogatives , si , dans la pratique ,
+            <lb/>nous ne sommes pas meilleurs
+            <lb/>Chrétiens que ceux à qui nous reprochons
+            <lb/>des erreurs grossières , &amp; capitales ?
+            <lb/>Hélas ! En faisant bouclier de nôtre
+            <lb/>Réformation , nous nous reposerons
+            <lb/>sur des paroles trompeuses. Ceci vaudroit
+            <lb/>bien la peine d'être examiné d'un peu
+            <lb/>près. Ceux qui m'écoutent aujourd'hui,
+            <lb/>ne sont-ils tombez dans aucune des illusions
+            <lb/>que nous avons marquées ? Ne
+            <lb/>s'est-on point reconnu aux portraits que
+            <lb/>nous avons faits ? Que l'on s'y soit reconnu
+            <lb/>ou non, il n'y a que trop de personnes
+            <lb/>qui pourroient s'apliquer ce
+            <lb/>que nous avons dit , si elles vouloient
+            <lb/>réfléchir sérieusement sur leur état , &amp;
+            <lb/>se rendre ensuite justice à elles-mêmes.
+            <lb/>Combien n'en connoit-on pas qui ne
+            <lb/>sont point , par connoissance de cause,
+            <lb/>de la Religion dont ils font profession ?
+            <lb/>Combien ne pourroit-on pas en nommer
+            <lb/>
+            <quote source="bibleOstervald1724.xml#Heb.5.12">
+              <hi rend="I">qui , au lieu que depuis si long-tems</hi>
+              <lb/>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Heb.5.12">Heb. V. 12.</ref>
+              </note>
+              <hi rend="I">ils devroient être en état d'enseigner les
+                <lb/>autres , auroient encore besoin qu'on leur
+                <lb/>enseignât les prémiers fondemens de la
+                <lb/>parole de Dieu</hi></quote> <hi rend="I">?</hi> Je voudrois savoir <fw place="bot-right" type="catch">quelles</fw>
+            <pb n="29"/>
+            <lb/>quelles idées ces gens-là se font du
+            <lb/>Seigneur , &amp; du Culte qu'on doit lui
+            <lb/>rendre ? Il faut qu'ils s'en fassent des
+            <lb/>idées bien fausses , s'ils s'imaginent que
+            <lb/>l'ignorance volontaire , dans laquelle ils
+            <lb/>vivent , ne les expose à aucun danger ,
+            <lb/>&amp; que quelques actes de Religion,
+            <lb/>dans lesquels le cœur &amp; l'esprit n'ont
+            <lb/>que très peu de part , suffisent pour donner
+            <lb/>droit de prétendre à la possession
+            <lb/>du Royaume des Cieux. N'a-t-on jamais
+            <lb/>pensé , n'a-t-on jamais ouï dire que
+            <lb/>
+            <quote source="bibleOstervald1724.xml#John.4.24">
+              <hi rend="I">Dieu est un Esprit , &amp; qu'il faut que</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#John.4.24">Jean IV. <lb/>24.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">ceux qui l'adorent , l'adorent en esprit ,
+                <lb/>&amp; en vérité </hi>
+            </quote>? En vain les Chrétiens, qui
+            <lb/>ne sont Chrétiens que de nom , qui ne
+            <lb/>connoissent pas la doctrine de leur Maître ,
+            <lb/>du moins jusqu'à un point proportionné
+            <lb/>à leur état , &amp; aux secours
+            <lb/>qu'ils peuvent avoir pour s'instruire ,
+            <lb/>
+            <quote source="bibleOstervald1724.xml#John.3.19">
+              <hi rend="I">qui , bien que la lumiére soit venuë dans</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#John.3.19">Jean III. 19.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">le monde, aiment mieux les ténébres que
+                <lb/>la lumiére</hi>
+            </quote> , ouï , c'est en vain que ces
+            <lb/>gens là se glorifient de leur Christianisme
+            <lb/>prétendu ; il ne leur donne aucun
+            <lb/>droit à la vie éternelle. </p>
+          <p n="26">
+            <lb/>
+            Nous ne sommes pas de ce nombre,
+              <lb/>diront peut-être quelques uns de ceux <fw place="bot-right" type="catch">qui</fw>
+              <pb n="30"/>
+              <lb/>qui m'écoutent. Passablement instruits
+              <lb/>dès nôtre bas âge , loin de nous relacher ,
+              <lb/>nous avons au contraire travaillé,
+              <lb/>&amp; nous travaillons encore tous les jours
+              <lb/>à conserver , &amp; à perfectionner nos lumiéres.
+              <lb/>C'est dans ce dessein que nous
+              <lb/>lisons réguliérement l'Ecriture , &amp; d'autres
+              <lb/>bons livres. Nous ne négligeons
+              <lb/>point les Saintes Assemblées , où nous
+              <lb/>écoutons avec beaucoup d'attention la
+              <lb/>parole de Dieu. Cela est fort bien.
+            <lb/>Mais , qui que vous soyez qui vous rendez
+            <lb/>ce témoignage à vous-mêmes, me
+            <lb/>permettrez-vous de vous faire une question ?
+            <lb/>Vôtre sainteté est-elle proportionnée
+            <lb/>à vos connoissances ? Vivez-vous
+            <lb/>mieux ? Etes-vous plus gens de bien que
+            <lb/>ceux qui ne sont pas instruits comme
+            <lb/>vous pouvez l'être ? Si cela est , je vous
+            <lb/>en félicite. Continuez , continuez à faire
+            <lb/>des progrès dans la science du salut,
+            <lb/>&amp; dans <choice><sic>le</sic><corr resp="#CiM">la</corr></choice> piété. Aprochez-vous de
+            <lb/>la perfection. Mais aussi , vous devez
+            <lb/>le savoir , quand vous seriez encore
+            <lb/>mieux instruits que vous ne l'êtes , si
+            <lb/>vos connoissances n'influent pas sur vôtre
+            <lb/>conduite , elle ne serviroient qu'à
+            <lb/>vous rendre plus condamnables. </p>
+          <fw place="bot-right" type="catch">Hélas!</fw>
+          <pb n="31"/>
+          <p n="27">
+            <lb/>Hélas! Tel croit être suffisamment
+            <lb/>instruit qui est encore bien éloigné de
+            <lb/>connoître la nature &amp; le génie de la
+            <lb/>Religion Chrétienne. Oh! que si on la
+            <lb/>connoissoit bien cette sainte Religion ;
+            <lb/>on n'auroit garde de se permettre tant
+            <lb/>de choses que l'on se permet , &amp; dont
+            <lb/>on ne fait pas le moindre scrupule !
+            <lb/>On n'associerait plus , comme on prétend
+            <lb/>les associer , les maximes du monde
+            <lb/>avec les maximes de Jesus-Christ.
+            <lb/>
+            <hi rend="I">On ne clocheroit plus des deux côtez.</hi> On
+            <lb/>se donneroit à Dieu sans partage. On
+            <lb/>ne suivroit point d'autres Loix que les
+            <lb/>siennes. </p>
+          <p n="28">
+            <lb/>Enfin , nous dirons encore un mot,
+            <lb/>avant que de finir , à ceux qui comptent
+            <lb/>sur le salut , par ce qu'ils ont soûtenu ,
+            <lb/>qu'ils ont deffendu les interêts de nôtre
+            <lb/>sainte Religion au milieu de l'orage. Ouï,
+            <lb/>MES FRERES , vous avez fortement
+            <lb/>disputé contre ceux qui vouloient vous
+            <lb/>engager dans l'erreur. En plus d'une
+            <lb/>ocasion vous leur avez fermé la bouche ,
+            <lb/>par des raisons très solides. Vous
+            <lb/>avez plus fait que cela encore : Vous
+            <lb/>avez fait à Jesus - Christ un sacrifice de
+            <lb/>vos biens , de vôtre liberté, de vos <fw place="bot-right" type="catch">Emplois,</fw>
+            <pb n="32"/>
+            <lb/>Emplois , de vos amis , de vos Parens.
+            <lb/>Vous vous êtes exposez à toutes les incommoditez
+            <lb/>de l'exil. Peut-être même
+            <lb/>vous êtes-vous trouvez plus d'une fois en
+            <lb/>danger de perdre la vie. Si vous avez agi
+            <lb/>par un bon motif,cela est assurément fort
+            <lb/>beau. On ne sauroit , sans injustice ,
+            <lb/>vous priver de la loüange qui vous est
+            <lb/>deuë. Mais est-ce bien pour vôtre Sauveur,
+            <lb/>&amp; par un principe de Religion
+            <lb/>que vous avez fait tout cela ? La question
+            <lb/>n'est pas difficile à décider. Vous
+            <lb/>n'avez qu'à voir de quelle maniére vous
+            <lb/>vous conduisez dans les païs étrangers.
+            <lb/>Heureux ceux d'entre vous , &amp; nous
+            <lb/>avons la satisfaction d'en connoître plusieurs
+            <lb/>de ce caractére , qui montrent
+            <lb/>par une piété réelle , par une conduite
+            <lb/>toute Chrétienne , que c'est véritablement
+            <lb/>pour leur divin Maître qu'ils ont
+            <lb/>souffert ! Mais par raport à ceux qui ne
+            <lb/>soûtiennent point le glorieux titre de
+            <lb/>Réfugié , qui le deshonorent par leurs
+            <lb/>mauvaises actions , qui sont esclaves de
+            <lb/>quelques passions vicieuses, comme, par
+            <lb/>exemple , de l'orgueil , de l'avarice , de
+            <lb/>la sensualité , ou qui foulent aux pieds
+            <lb/>les loix de la charité , &amp; de la justice; <fw place="bot-right" type="catch">non,</fw>
+            <pb n="33"/>
+            <lb/>non, ces gens là ne seroient point fondez
+            <lb/>à compter sur leur Réfuge. <quote source="bibleOstervald1724.xml#Jer.7.4">
+              <hi rend="I">Ils se reposent
+                <lb/>sur des paroles trompeuses</hi>
+            </quote>. Ils seront
+            <lb/>du nombre de ceux à qui le Grand
+            <lb/>Juge dira : <quote source="bibleOstervald1724.xml#Matt.7.23">
+              <hi rend="I">Je ne vous ai jamais connus</hi>
+            </quote>.
+          </p>
+          <p n="29">
+            <lb/>Nous prenons le titre de Chrétiens
+            <lb/>Réformez : vivons donc enfin comme
+            <lb/>tels : sans cela , ce sera avec raison ;
+            <lb/>du moins à de certains égards , que les
+            <lb/>Catholiques Romains nous appelleront,
+            <lb/>comme ils le font , <hi rend="I">les Prétendus Réformez.</hi>
+            <lb/>Pour effacer ce que ce nom peut
+            <lb/>avoir de flétrissant ; pour nous mettre
+            <lb/>à couvert de leurs reproches ; pour
+            <lb/>prouver que nôtre Réformation est
+            <lb/>bien réelle , travaillons à nous instruire
+            <lb/>de la Religion Chrétienne , de telle façon
+            <lb/>que nous puissions en deffendre
+            <lb/>les véritez , &amp; combattre solidement
+            <lb/>les erreurs opposées. Qu'il est beau,
+            <lb/>qu'il est digne de l'homme d'avoir une
+            <lb/>foi éclairée ; une foi pure , une foi dont
+            <lb/>on puisse rendre raison ! Qu'il convient
+            <lb/>à un Chrétien de savoir ce qu'il croit ,
+            <lb/>&amp; pourquoi il le croit ! </p>
+          <p n="30">
+            <lb/>Mais allons plus loin. Ne nous contentons
+            <lb/>pas de nous distinguer par la <fw place="bot-right" type="catch">pureté</fw>
+            <pb n="34"/>
+            <lb/>pureté de nôtre foi , distinguons nous
+            <lb/>sur tout par la pratique de toutes sortes
+            <lb/>de vertus. <quote source="bibleOstervald1724.xml#_2Pet.1.5">
+              <hi rend="I">Employons à cela tout</hi>
+              <lb/>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#_2Pet.1.5">2. Pier. I. <lb/>5. &amp;c.</ref>
+              </note>
+              <hi rend="I">nos soins , &amp; joignons à nôtre foi la vertu ;
+                <lb/>à la vertu , la science ; à la science,
+                <lb/>la temperance ; à la temperance , la patience ;
+                <lb/>à la patience , la pieté ; à la
+                <lb/>pieté , l'amour de nos fréres ; &amp; à l'amour
+                <lb/>de nos fréres , la charité. Car si
+                <lb/>ces vertus se trouvent en nous , &amp; qu'elles
+                <lb/>y soient dans un haut degré , elles ne
+                <lb/>laisseront pas oisive &amp; infructueuse la
+                <lb/>connoissance que nous avons de nôtre Seigneur
+                <lb/>Jesus-Christ : Mais celui en qui ces
+                <lb/>vertus ne sont point , voit à peine ce qui
+                <lb/>est près de lui ; c'est un aveugle ; il a
+                <lb/>oublié la purification de ses péchez précedens</hi>
+            </quote>.
+            <lb/>Qu'il sera édifiant de nous voir
+            <lb/>agir comme les enfans de Dieu , comme
+            <lb/>les bourgeois du Ciel ! En apellant
+            <lb/>Jesus - Christ <hi rend="I">nôtre Seigneur , &amp; nôtre
+              <lb/>Maître</hi> , aimons le comme tel. Respectons
+            <lb/>ses ordres ; Marchons sur ses pas.
+            <lb/>Voilà , voilà une Réformation telle que
+            <lb/>je la voudrois voir établie au milieu de
+            <lb/>nous. Voilà l'endroit par lequel nous
+            <lb/>fermerions la bouche à nos Adversaires.
+            <lb/>Ils n'oseroient plus nous apeller <hi rend="I">Prétendus</hi>
+            <fw place="bot-right" type="catch">
+              <hi rend="I">Réformez.</hi>
+            </fw>
+            <pb n="35"/>
+            <lb/>
+            <hi rend="I">Réformez.</hi> Ou en tout-cas, nous saurions
+            <lb/>à quoi nous en tenir. La pureté
+            <lb/>de nôtre doctrine, &amp; la sainteté de nos
+            <lb/>mœurs , seroient un bouclier impénétrable ,
+            <lb/>si propre à repousser tous leurs
+            <lb/>traits. Si nous pouvons nous resoudre
+            <lb/>à prendre un parti si sage , glorifions
+            <lb/>nous , nous le pourrons , réjouïssons
+            <lb/>nous de nôtre Réformation. Disons
+            <lb/>hardiment , le Temple de l'Eternel ;
+            <lb/>l'Eglise de Dieu , la véritable Religion.
+            <lb/>Jesus-Christ nous reconnoîtra pour ses
+            <lb/>disciples. <quote source="bibleOstervald1724.xml#John.15.14">
+              <hi rend="I">Nous serons ses amis , parce que</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#John.15.14">Jean XV. <lb/>14.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">nous ferons tout ce qu'il nous commande</hi>
+            </quote>.
+            <lb/>
+            <quote source="bibleOStervald1724.xml#Matt.25.31">
+              <hi rend="I">Il nous placera à sa droite , quand il</hi>
+              <note type="margin">
+                <ref type="bible" target="bibleSegond21.xml#Matt.25.31">Matth. XXV. <lb/>31.</ref>
+              </note>
+              <lb/>
+              <hi rend="I">viendra , dans sa gloire , accompagné de
+                <lb/>tous les saints Anges</hi>
+            </quote>, pour juger le monde ;
+            <lb/>&amp; il nous fera régner avec lui aux
+            <lb/>Siécles des Siécles : AMEN. <figure/>
+            <lb/>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1720_Ezechiel_Gallatin_ARE"> 
+            <titleStmt> 
+                <title type="sermon">LES TRIOMPHES DE SAINT PAUL. SERMON Sur ces Paroles de la II. aux Corinth. Ch. II. v. I4. ...</title> 
+                <title type="book">SERMONS SUR DIVERS TEXTES DE L’ECRITURE SAINTE, PAR EZECHIEL GALLATIN Pasteur de l'Eglise de GENEVE. A GENEVE 
+                    Chez FABRI &amp; BARRILLOT. M. DCCXX.</title> 
+                <author ref="...">Ezechiel Gallatin</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="ARE">Aurélie REUSSER-ELZINGRE</persName> 
+                        <email>aurelie.elzingre@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Ezechiel Gallatin</author> 
+                        <title>SERMONS SUR DIVERS TEXTES DE L’ECRITURE SAINTE</title> 
+                        <imprint> 
+                            <pubPlace>Genève</pubPlace> 
+                            <publisher>Fabri &amp; Barrillot</publisher> 
+                            <date>1720</date>
+                            <date type="sermon"/>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="URI">https://books.google.ch/books?id=geA8AAAAcAAJ</idno> 
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_thématique</term>
+                    <term type="sermonTheme">Les Triomphes de saint Paul</term>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">10</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">2Cor.2.14</term>
+                    <term type="paratext" subtype="epistle">A SON EXCELLENCE MYLORD COMTE DE STAIR, VICOMTE D’ALRMPLE , BARON DE GLENLUCE, ET DE STRANRAERT , &amp;C. &amp;C.</term>
+                    <term type="paratext" subtype="preface">PREFACE.</term>
+                    <term type="paratext" subtype="tableOfContents">TABLE DES SERMONS ET DES PRINCIPALES MATIERES Contenues en ce Volume.</term>
+                </keywords> 
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+                <language ident="arc">araméen d'empire</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-03-10" who="#LjD">transformation word - XML</change> 
+            <change when="2016-03-10" who="#MAG">Verification, citations</change> 
+            <change when="2016-01-30" who="#ARE">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                 <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>SERMONS 
+                    <lb/>SUR 
+                    <lb/>DIVERS TEXTES 
+                    <lb/>DE L'ECRITURE SAINTE, 
+                    <lb/>PAR 
+                    <lb/> 
+                    <hi rend="I">EZECHIEL GALLATIN 
+                        <lb/>Pasteur de l'Eglise de GENEVE.</hi> 
+                    <figure/> 
+                    <!--légende : LEGENT HAEC NOSTRA NEPOTES--> 
+                    <lb/>A GENEVE 
+                    <lb/>Chez FABRI &amp; BARRILLOT.<!--ligne horizontale--> 
+                    <lb/>M. DCCXX.</p> 
+            </div> 
+        </front> 
+        <body> 
+            <div type="sermon"> 
+                 <pb n="1"/> 
+                <!--ligne horizontale décorée--> 
+                <head type="main"> 
+                    <lb/>LES TRIOMPHES 
+                    <lb/>DE 
+                    <lb/>SAINT PAUL. 
+                    <lb/>SERMON Sur ces Paroles de <ref type="bible" target="bibleSegond21.xml#_2Cor.2.14">la II. aux 
+                        <lb/>Corinth. Ch. II. v. I4.</ref> 
+                    <lb/> 
+                    <lb/> 
+                    <quote source="bible1588.xml#_2Cor.2.14"> 
+                        <hi rend="I">Graces à DIEU, qui nous fait toûjours 
+                            <lb/>triompher en JESUS-CHRIST</hi> 
+                    </quote>. 
+                </head> 
+                <p n="1"> 
+                    <lb/> 
+                    <c type="lettrine">L</c>Es Triomphes des premiers <note type="margin">EXORDE.</note> 
+                    <lb/>Prédicateurs de 
+                    <lb/>l'Evangile , sont interessans 
+                    <lb/>pour tous les 
+                    <lb/>Chrêtiens ; il est bien 
+                    <lb/>digne de nôtre attention de considerer 
+                    <lb/>leurs combats, leurs travaux, le 
+                    <lb/>succès de leur Ministere. Par -là 
+                    <lb/>nous apprenons l'idée que nous devons 
+                    <lb/>nous former de leur zèle &amp; de <fw place="bot-right" type="catch">leur</fw> 
+                     <pb n="2"/> 
+                    <lb/>leur vertu : Par-là nous voyons quels 
+                    <lb/>modeles il faut imiter : Par-là, surtout , 
+                    <lb/>nous voyons ce que la Providence 
+                    <lb/>divine a fait pour eux, &amp; pour 
+                    <lb/>nous , &amp; les graces que nous avons 
+                    <lb/> 
+                    <note type="margin">DIVISION.</note> à lui rendre. Considerons donc aujourd'hui 
+                    <lb/>les Triomphes glorieux de 
+                    <lb/>Saint Paul, en JESUS-CHRIST ; ce 
+                    <lb/>sera nôtre premier Point : Faisons voir 
+                    <lb/>ensuite combien il avoit de sujets d'en 
+                    <lb/>rendre graces à Dieu ; c'est nôtre second 
+                    <lb/>Point<hi rend="I">. </hi> 
+                    <quote source="bible1588.xml#_2Cor.2.14"> 
+                        <hi rend="I">Graces à Dieu</hi>, <seg type="interpolation">dit-il,</seg> 
+                        <lb/> 
+                        <hi rend="I">qui nous fait toûjours triompher en 
+                            <lb/>JESUS-CHRIST</hi> 
+                    </quote>. 
+                </p> 
+                <p n="2"> 
+                    <lb/>Les Triomphes de St. Paul, les Sentimens 
+                    <lb/>de gratitude qu'il en exprime, 
+                    <lb/>sont donc tout le plan de ce Discours, 
+                    <lb/>&amp; le sujet de vôtre attention.</p> 
+                <div n="1" type="sub"> 
+                    <head type="sub"> 
+                        <lb/> 
+                        <hi rend="I">PREMIER POINT.</hi> 
+                    </head> 
+                    <p n="3"> 
+                        <lb/> 
+                        <note type="margin">Ennemis <lb/>de Saint <lb/>Paul.</note> CHRIST est venu pour détruire 
+                        <lb/>les œuvres du Diable : Ces œuvres, 
+                        <lb/>ce sont les ténébres qu'il avoit répanduës 
+                        <lb/>dans les Esprits : L'ignorance &amp; 
+                        <lb/>la <choice><sic>superstion</sic><corr resp="#ARE">superstition</corr></choice> dans lesquelles les hommes 
+                        <lb/>étoient enveloppez : Ce sont encore 
+                        <lb/>les vices dans lesquels il les avoit 
+                        <lb/>engagez par sa seduction puissante : <fw place="bot-right" type="catch">Ce</fw> 
+                         <pb n="3"/> 
+                        <lb/>Ce sont les miseres de la vie, la crainte 
+                        <lb/>des souffrances &amp; de la mort, qui 
+                        <lb/>retenoient les hommes assujettis à la 
+                        <lb/>servitude. Enfin c'est le trouble, l'agitation 
+                        <lb/>de la conscience, une juste 
+                        <lb/>frayeur des jugemens d'une Divinité 
+                        <lb/>irritée. C'étoient là les ennemis que 
+                        <lb/>JESUS avoit eu à combattre &amp; à 
+                        <lb/>vaincre ; c'étoient encore les ennemis 
+                        <lb/>de St. Paul : C'est d'eux qu'il a triomphé 
+                        <lb/>en JESUS-CHRIST.</p> 
+                    <p n="4"> 
+                        <lb/>Avec quelles armes St. Paul détruisoit-il <note type="margin">Les armes 
+                            <lb/>de St. Paul.</note> 
+                        <lb/>des ennemis si redoutables ? 
+                        <lb/>Par quel moyen cet Apôtre en a-t-il 
+                        <lb/>pû triompher ? <quote source="bible1588.xml#_2Cor.10.4-5"> 
+                            <hi rend="I">Ces armes n'étoient point</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Cor.10.4-5"> 
+                                    <hi rend="I">II. Cor. ch.</hi> <lb/>X. 
+                                    ꝟ. 4-5.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">charnelles ; mais c'étoient les armes de 
+                                <lb/>DIEU, propres à vaincre les malices spirituelles 
+                                <lb/>dans les lieux celestes, puissantes 
+                                <lb/>pour renverser toute hauteur &amp; toute 
+                                <lb/>forteresse</hi> 
+                        </quote> 
+                        <hi rend="I">:</hi> Ces armes, en un mot, 
+                        <lb/>c'étoit la doctrine de son Maître : 
+                        <lb/>c'étoit les miracles qu'il operoit : c'étoit 
+                        <lb/>ses travaux inouïs &amp; infatigables; 
+                        <lb/>c'étoit son intrepide patience dans les 
+                        <lb/>afflictions ; c'étoit l'exemple de foy &amp; 
+                        <lb/>de vertu qu'il produisoit en tous lieux. 
+                        <lb/>Voilà avec quoi, il fait descendre l'erreur 
+                        <lb/>de dessus le trône, il donne la 
+                        <lb/>mort au peché, il chasse le Demon <fw place="bot-right" type="catch">jus-</fw> 
+                         <pb n="4"/> 
+                        <lb/>jusques dans l'abyme ; c'est par-là 
+                        <lb/>qu'<quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">il triomphe en JESUS-CHRIST</hi> 
+                        </quote>.</p> 
+                    <p n="5"> 
+                        <lb/> 
+                        <note type="margin">Il triomphe <lb/>par sa <lb/>doctrine.</note> Par la doctrine 
+                        qu'il prêche, il détruit 
+                        <lb/>toutes les œuvres du Diable : 
+                        <lb/>A cette lumiere cedent sans peine les 
+                        <lb/>ténébres du Paganisme , les erreurs 
+                        <lb/>dangereuses des Docteurs Juifs : Ces 
+                        <lb/>divins preceptes changent les cœurs , 
+                        <lb/>en arrachent le peché, y rétablissent 
+                        <lb/>le regne de la vertu : <quote source="bible1588.xml#_1Cor.15.55"> 
+                            <hi rend="I">Cette Loi de grace 
+                                <lb/>brise l'éguillon du Sepulchre, &amp; affranchit 
+                                <lb/>les ames de la mort</hi> 
+                        </quote> 
+                        <hi rend="I"> : </hi>Enfin, cette 
+                        <lb/>doctrine de paix éleve la misericorde 
+                        <lb/>par <quote source="bibleSegond21.xml#_2Cor.3.9"> 
+                            <hi rend="I">dessus la condamnation</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>; nous montre 
+                        <lb/>la face de DIEU apaisée, la foudre 
+                        <lb/>qui tombe de ses mains, &amp; le 
+                        <lb/>pardon accordé à tous les mortels. 
+                        <lb/>Armé de cette lumiere, de ces leçons 
+                        <lb/>&amp; de ces promesses, St. Paul peut vaincre 
+                        <lb/>ses ennemis &amp; en triompher glorieusement.</p> 
+                    <p n="6"> 
+                        <lb/> 
+                        <note type="margin">Par les miracles.</note> Les miracles de St. Paul sont aussi 
+                        <lb/>des armes auxquelles on ne pouvoit 
+                        <lb/>résister. Quand on le voyoit guerir 
+                        <lb/>des maladies , chasser les Demons , 
+                        <lb/>surmonter le venin des Serpens, resusciter 
+                        <lb/>les morts, pouvoit-on douter 
+                        <lb/>de l'excellence de son caractere, 
+                        <lb/>de l'importance de sa mission, de la <fw place="bot-right" type="catch">divi-</fw> 
+                         <pb n="5"/> 
+                        <lb/>divinité de sa doctrine ? Le pouvoir 
+                        <lb/>étonnant dont cet Apôtre étoit revêtu 
+                        <lb/>attiroit l'admiration de tous les 
+                        <lb/>spectateurs, prévenoit tous les Esprits, 
+                        <lb/>&amp; l'on ne pouvoit refuser de croire, 
+                        <lb/>ce que prononçoit une bouche, dont 
+                        <lb/>la seule parole disposoit de toute la 
+                        <lb/>nature. C'est là ce qui donnoit du 
+                        <lb/>poids aux véritez, aux préceptes, aux 
+                        <lb/>promesses de la Religion qu'il annonce. 
+                        <lb/>Ecoutez-le lui-même comme il 
+                        <lb/>en parle : <quote source="bible1588.xml#Rom.15.18-19"> 
+                            <hi rend="I">Je n'oserois rien dire que </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Rom.15.18-19"> 
+                                    <hi rend="I">Rom. ch. <lb/>XV. </hi>ꝟ. 
+                                    I8. <lb/>I9.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">CHRIST n'ait fait par moi par paroles, 
+                                <lb/>par œuvres, pour amener les Gentils 
+                                <lb/>à l'obeïssance , avec la vertu des signes 
+                                <lb/>&amp; des miracles, &amp; par la puissance de 
+                                <lb/>l'Esprit de DIEU ; tellement que depuis 
+                                <lb/>Jerusalem &amp; les lieux circonvoisins jusques 
+                                <lb/>en l'Illyrie, j'ai fait abonder l'Evangile 
+                                <lb/>du Seigneur</hi> 
+                        </quote>. C'est ainsi que 
+                        <lb/>cet Apôtre Triomphoit de toutes choses 
+                        <lb/>en JESUS-CHRIST.</p> 
+                    <p n="7"> 
+                        <lb/>Disons aussi que le principal instrument <note type="margin">Par ses 
+                            <lb/>travaux <lb/>inouïs.</note> 
+                        <lb/>de son triomphe , c'étoient les 
+                        <lb/>travaux qu'il soutenoit pour la cause 
+                        <lb/>de l'Evangile. A cet égard il ne se 
+                        <lb/>donnoit aucun relâche : Il travailloit 
+                        <lb/>jour &amp; nuit pour faire <quote source="bible1588.xml#Rom.6.18"> 
+                            <hi rend="I">des esclaves de 
+                                <lb/>la Justice , des captifs de JESUS-CHRIST</hi> 
+                        </quote> 
+                        <hi rend="I">:</hi> 
+                         <fw place="bot-right" type="catch">Il</fw> 
+                         <pb n="6"/> 
+                        <lb/>Il alloit de lieu en lieu, prêchant, enseignant, 
+                        <lb/>éxhortant, portant par tout 
+                        <lb/>le flambeau de l'Evangile ; afin d'éclairer 
+                        <lb/>tout le monde. Dès qu'il a formé 
+                        <lb/>dans une Ville une Pépiniere de 
+                        <lb/>Chrêtiens, il la quitte aussi-tôt pour 
+                        <lb/>aller prêcher dans une autre. Persuadé 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Matt.13.32"> 
+                                <hi rend="I">Matth. ch. <lb/>XIII</hi>. ꝟ. 
+                                <lb/>32.</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#Matt.13.32"> 
+                            <hi rend="I">que ce petit grain germé produiroit 
+                                <lb/>bien-tôt un grand arbre : Que cette divine</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Luke.8.12"> 
+                                    <hi rend="I">Luc ch. <lb/>VIII</hi>.ꝟ. 
+                                    12.</ref> 
+                            </note> 
+                            <hi rend="I">semence produiroit le soixante &amp; le 
+                                <lb/>cent pour un</hi> 
+                        </quote>, il se contentoit de jetter 
+                        <lb/>le premier fondement de l'édifice, 
+                        <lb/>&amp; abandonnoit le soin de la construction 
+                        <lb/>aux autres Ouvriers. <quote source="bible1588.xml#Rom.15.20-21"> 
+                            <hi rend="I">Je me</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Rom.15.20-21"> 
+                                    <hi rend="I">Rom. ch. <lb/>XV</hi>. ꝟ. 
+                                    20</ref> 
+                            </note> 
+                            <hi rend="I">suis</hi>, <seg type="interpolation">dit-il,</seg> 
+                            <hi rend="I">attaché avec affection à 
+                                <lb/>annoncer l'Evangile, là où CHRIST n'avoit 
+                                <lb/>pas été encore prêché ; afin que je 
+                                <lb/>n'édifie pas sur un fondement qu'un autre 
+                                <lb/>auroit posé ; mais selon qu'il est écrit; 
+                                <lb/>Ceux à qui il n'a point été annoncé le 
+                                <lb/>verront, &amp; ceux qui n'en ont point ouï 
+                                <lb/>parler l'entendront</hi> 
+                        </quote>.<hi rend="I"> </hi>On ne sçauroit 
+                        <lb/>mieux marquer tous les travaux de 
+                        <lb/>St. Paul qu'il les exprime lui-même. 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_2Cor.11.23-29"> 
+                                <hi rend="I">11. Cor. ch. <lb/>II. </hi>ꝟ. 
+                                26. <lb/>&amp;<hi rend="I">c</hi>.</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#_2Cor.2.23-29"> 
+                            <hi rend="I">J'ai souffert plus de travaux que</hi> 
+                            <hi rend="I">tous </hi>; 
+                            <lb/> 
+                            <hi rend="I">j'ai reçu beaucoup plus de coups ; j'ai été 
+                                <lb/>plus souvent en prison ; j'ai été plus exposé 
+                                <lb/>à la mort ; j'ai reçû des Juifs cinq 
+                                <lb/>fois <choice><sic>tente</sic><corr resp="#ARE">trente</corr></choice>-neuf</hi> 
+                            <hi rend="I">coups de fouët : J'ai été</hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">battu</hi> 
+                            </fw> 
+                             <pb n="7"/> 
+                            <lb/> 
+                            <hi rend="I">battu de verges par trois fois </hi>; <hi rend="I">j'ai été 
+                                <lb/>lapidé une fois </hi>; <hi rend="I">j'ai fait trois fois 
+                                naufrage </hi>; 
+                            <lb/> 
+                            <hi rend="I">j'ai passé un jour &amp; une nuit 
+                                <lb/>dans la Mer : Dans mes voyages, j'ai été 
+                                <lb/>souvent exposé à des perils de rivieres , 
+                                <lb/>à des perils de voleurs, à des perils de 
+                                <lb/>la part des Juifs &amp; des Gentils, à des 
+                                <lb/>perils dans les Villes, dans les Deserts, &amp; 
+                                <lb/>du côté des faux freres : J'ai souffert des 
+                                <lb/>travaux &amp; de grandes peines ; j'ai passé 
+                                <lb/>les nuits sans dormir </hi>;<hi rend="I"> j'ai été dans 
+                                <lb/>la faim &amp; dans la soif </hi>;<hi rend="I"> j'ai souvent 
+                                <lb/>jeuné </hi>;<hi rend="I"> j'ai été exposé au froid, faute 
+                                <lb/>d'habits : Outre ce qui me vient du dehors, 
+                                <lb/>je suis assailli tous les jours du soin 
+                                <lb/>de toutes les Eglises : Laquelle d'entr'elles 
+                                <lb/>est affligée sans que je sois aussi affligé ? 
+                                <lb/>Laquelle vient à tomber sans que je sois 
+                                    <lb/>moi-même brûlé</hi></quote> <hi rend="I">?</hi> 
+                    </p> 
+                    <p n="8"> 
+                        <lb/>Tels sont les mouvemens que St. 
+                        <lb/>Paul se donne : Tels les travaux qu'il 
+                        <lb/>soutient pour la cause de JESUS- 
+                        <lb/>CHRIST. Quand on combat avec 
+                        <lb/>cette ardeur , ce courage , cette vigilance , 
+                        <lb/>rien ne sçauroit resister. C'est 
+                        <lb/>ainsi qu'il triomphoit en toutes choses 
+                        <lb/>en JESUS-CHRIST.<surplus reason="repeated">.</surplus></p> 
+                    <p n="9"> 
+                        <lb/>Ce n'étoit pas seulement par ses travaux <note type="margin">Par sa 
+                            patience <lb/>dans les afflictions.</note> 
+                        <lb/>infatigables que St. Paul triomphoit, <fw place="bot-right" type="catch">phoit,</fw> 
+                         <pb n="8"/> 
+                        <lb/>c'est encore par son intrepide 
+                        <lb/>patience dans les afflictions. Pouvoit-on 
+                        <lb/>voir ce Hérault de l'Evangile persecuté, 
+                        <lb/>chargé de chaines, prêt d'être 
+                        <lb/>repandu en sacrifice, &amp; cependant toûjours 
+                        <lb/>ferme &amp; inébranlable dans la vérité, 
+                        <lb/>sans admiration, &amp; sans respect ? 
+                        <lb/>La même patience qui triomphe des 
+                        <lb/>maux de la vie, triomphe aussi des 
+                        <lb/>erreurs &amp; de la corruption du cœur 
+                        <lb/>humain. Aussi l'effet surprenant de 
+                        <lb/>ses chaines les a renduës renommées 
+                        <lb/>&amp; désirables. Ecoutez à cet égard 
+                        <lb/>les sentimens de St. Chrysostome. <quote type="other" source="# ..."> 
+                            <hi rend="I">Si</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="other"> 
+                                    <hi rend="I">St. Chrysostome, <lb/>Hom. <lb/>8</hi> 
+                                    <hi rend="I"> sur l'Epit. <lb/>aux Eph</hi>.</ref> 
+                            </note> 
+                            <hi rend="I">quelcun</hi> 
+                            <hi rend="I">me laissoit le choix ou d'être élevé 
+                                <lb/>dans le Ciel avec les Anges, ou d'être 
+                                <lb/>le Compagnon de St. Paul dans ses 
+                                <lb/>chaines, je choisirois de bon cœur ses chaines 
+                                <lb/>&amp; sa prison. Ce sont ces chaines 
+                                <lb/>que les Demons regardent avec crainte 
+                                <lb/>&amp; tremblement, &amp; que les Anges considerent 
+                                <lb/>avec respect. Je n'estime pas St. Paul 
+                                <lb/>si heureux pour avoir été élevé dans 
+                                <lb/>le Paradis, que pour avoir été mis en 
+                                <lb/>prison. Je ne l'estime pas si heureux pour 
+                                <lb/>y avoir ouï des paroles inénarrables, que 
+                                <lb/>pour avoir été chargé de chaines</hi> 
+                        </quote>.<hi rend="I"> </hi> C'étoient 
+                        <lb/>aussi là les idées que St. Paul 
+                        <lb/>avoit sur ses souffrances. <quote source="bible1588.xml#_2Cor.12.9-10"> 
+                            <hi rend="I">Je me glorifierai</hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">rifierai</hi> 
+                            </fw> 
+                             <pb n="9"/> 
+                            <lb/> 
+                            <hi rend="I">plus volontiers, </hi><seg type="interpolation">dit-il,</seg><hi rend="I"> dans mes </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Cor.12.9-10"> 
+                                    <hi rend="I">II. Cor. ch. </hi><lb/>12. 
+                                    ꝟ. 9-<lb/>10.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">afflictions ; afin que la puissance de JESUS-CHRIST 
+                                <lb/>demeure en moi. C'est 
+                                <lb/>pour cela que je me plais dans les souffrances , 
+                                <lb/>dans les affronts , dans les miseres , 
+                                <lb/>dans les persecutions pour CHRIST</hi>; 
+                            <lb/> 
+                            <hi rend="I">parce que quand je suis foible , c'est alors 
+                                <lb/>que je suis fort</hi></quote>. 
+                        <hi rend="I"> </hi>C'est ici un Soldat 
+                        <lb/>tout extraordinaire : On l'accable de 
+                        <lb/>blessures, on le charge de chaines, &amp; 
+                        <lb/>par là on assure sa victoire ; il est lié ; 
+                        <lb/>mais la parole du Seigneur a un cours 
+                        <lb/> 
+                        <quote source="bible1588.xml#_2Thess.3.1"> 
+                            <hi rend="I">libre &amp; rapide</hi> 
+                        </quote> : Elle se déborde comme 
+                        <lb/>un Torrent impetueux, arrêté par 
+                        <lb/>une foible digue. C'est en vain qu'on 
+                        <lb/>prétend opprimer cette parole par la 
+                        <lb/>violence des tourmens, on lui fournit 
+                        <lb/>au contraire de nouvelles armes 
+                        <lb/>pour triompher. Semez les cendres 
+                        <lb/>des Martyrs ; il en naîtra un peuple 
+                        <lb/>de Chrêtiens, qui couvrira toute la 
+                        <lb/>Terre. <quote source="bible1588.xml#Phil.1.13-14"> 
+                            <hi rend="I">Les souffrances qui me sont arrivées,</hi> 
+                            <lb/><seg type="interpolation">dit St-Paul,</seg><hi rend="I"> ont été pour 
+                                un </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Phil.1.13-14"> 
+                                    <hi rend="I">Ph. ch. I. </hi><lb/>ꝟ. 
+                                        13.14<hi rend="I">.</hi> 
+                                </ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">plus grand avancement de l'Evangile</hi>: 
+                            <lb/> 
+                            <hi rend="I">Mes liens en JESUS-CHRIST sont devenus 
+                                <lb/>célebres dans tout le Prétoire, &amp; 
+                                <lb/>par tous les autres lieux ; en sorte que 
+                                <lb/>plusieurs rassurez par mes chaines parlent 
+                                <lb/>avec plus de hardiesse de la parole</hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">role</hi> 
+                            </fw> 
+                             <pb n="10"/> 
+                            <lb/> 
+                            <hi rend="I">du Seigneur</hi> 
+                        </quote>. Tel est l'effet de 
+                        <lb/>la patience de St. Paul : Telle est la 
+                        <lb/>maniere dont il triomphe en JESUS-CHRIST.</p> 
+                    <p n="10"> 
+                        <lb/> 
+                        <note type="margin">Par le bon <lb/>exemple <lb/>qu'il fournissoit <lb/>aux <lb/>hommes.</note> 
+                        Enfin, disons que St. Paul triomphoit 
+                        <lb/>par son exemple. Il étoit l'imitateur 
+                        <lb/>de son Maître : Même zèle 
+                        <lb/>pour la verité : Même charité pour les 
+                        <lb/>hommes : Même patience dans les afflictions. 
+                        <lb/>Par-tout il faisoit paroître 
+                        <lb/>sa foi, son amour pour CHRIST : 
+                        <lb/>Il aimoit ses freres jusqu'à vouloir être 
+                        <lb/> 
+                        <quote source="bible1588.xml#_1Cor.16.22"> 
+                            <hi rend="I">anathême pour eux</hi> 
+                        </quote>. Son cœur s'étendoit 
+                        <lb/>pour loger toutes les Eglises. Sa 
+                        <lb/>pureté, son humilité devoit charmer 
+                        <lb/>tous ceux qui le voyoient , ou qui en 
+                        <lb/>entendoient parler. Comment resister 
+                        <lb/>à tant de vertus ? Aussi à sa seule présence 
+                        <lb/>les Demons abandonnent la place :</p> 
+                    <p n="11"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.68.1"> 
+                                <hi rend="I">Ps.LXVIII</hi>. <lb/>ꝟ 
+                                I.</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#Ps.68.1"> 
+                            <hi rend="I">Le camp des ennemis épars , 
+                                <lb/>Epouvantez de toutes parts , 
+                                <lb/>Fuyent devant sa face</hi> 
+                        </quote>.</p> 
+                    <p n="12"> 
+                        <lb/>Il étoit comme le Temple de DIEU, 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other"> 
+                                <hi rend="I">St. Chrysost. <lb/>Hom</hi>. 8.</ref> 
+                        </note> 
+                        <quote type="other" source="#..."> 
+                            <hi rend="I">la bouche de JESUS-CHRIST</hi>, <hi rend="I">la Lyre</hi> 
+                            <hi rend="I">du 
+                                <lb/>St. Esprit. Il arrachoit par son exemple 
+                                <lb/>les épines du peché, &amp; fortifioit les 
+                                <lb/>semences de la Pieté par toute la Terre</hi> 
+                        </quote>. 
+                        <lb/>C'est ainsi que cet Apôtre triomphoit. <fw place="bot-right" type="catch">C'est</fw> 
+                         <pb n="11"/> 
+                        <lb/>C'est en JESUS-CHRIST que St. Paul <note type="margin">St. Paul 
+                            <lb/>triomphe <lb/>en JESUS-CHRIST : <lb/>c'est-à-dire, <lb/>que son <lb/>triomphe <lb/>est spirituel, 
+                            &amp; regarde <lb/>l'Evangile.</note> 
+                        <lb/>triomphoit. Par-là il nous marque 
+                        <lb/>la nature de son combat, &amp; de 
+                        <lb/>son triomphe. Ce n'étoit point une 
+                        <lb/>guerre selon le monde ; mais elle étoit 
+                        <lb/>selon DIEU : <quote source="bibleSegond21.xml#John18.36"> 
+                            <hi rend="I">Le regne de JESUS-CHRIST 
+                                <lb/>étant spirituel &amp; celeste, il n'a point de 
+                                <lb/>Soldats charnels &amp; terrestres</hi> ;<hi rend="I"> ses ennemis 
+                                <lb/>sont les malices spirituelles</hi> 
+                        </quote>. Ce sont 
+                        <lb/>des combats de cette nature qu'on a 
+                        <lb/>à soûtenir contr'eux. Que le mensonge 
+                        <lb/>se serve du fer &amp; du feu pour 
+                        <lb/>s'établir, à la bonne heure ; mais la 
+                        <lb/>verité méprise ces indignes secours. 
+                        <lb/>St. Paul n'a point de forces mondaines, 
+                        <lb/>point d'armées à sa solde pour 
+                        <lb/>le soûtenir ; lui-même il est foible <surplus reason="mistake">¦</surplus><!--ligne verticale-->&amp; 
+                        <lb/>méprisable en apparence : <quote> 
+                            <hi rend="I">Son homme </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_Cor.5.23"> 
+                                    <hi rend="I">II. Cor. ch. <lb/>V</hi>. 
+                                    ꝟ. 23.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">extérieur tombe par pièces : La mort se 
+                                <lb/>déploye en son corps </hi>:<hi rend="I"> Il est pauvre : mais 
+                                <lb/>il enrichit plusieurs : Il est foible ; mais 
+                                <lb/>il fortifie tout le monde</hi> 
+                        </quote> 
+                        <hi rend="I">: </hi>Il est dans les 
+                        <lb/>souffrances ; mais il console &amp; rejouït : 
+                        <lb/>Il est la proye de la mort ; mais il 
+                        <lb/>donne la vie éternelle : Hors de JESUS-CHRIST, 
+                        <lb/>c'est un vil &amp; méprisable 
+                        <lb/>artisan ; mais en JESUS-CHRIST, 
+                        <lb/>c'est un homme qui a une sorte de 
+                        <lb/>toute-puissance, que rien n'arrête, qui <fw place="bot-right" type="catch">est</fw> 
+                         <pb n="12"/> 
+                        <lb/>est invulnerable, invincible ; il triomphe 
+                        <lb/>toûjours en JESUS-CHRIST.</p> 
+                    <p n="13"> 
+                        <lb/> 
+                        <note type="margin">Il triomphe <lb/>en <lb/>JESUS-CHRIST : <lb/>c'est-à-dire <lb/>par le 
+                            <lb/>secours de JESUS-CHRIST.</note> Disons sur-tout, que cette expression, 
+                        <lb/>en JESUS-CHRIST signifie, que 
+                        <lb/>c'est par le secours de ce divin Sauveur 
+                        <lb/>que St. Paul a remporté toutes 
+                        <lb/>ses victoires. C'est en effet de JESUS 
+                        <lb/>qu'il tient cette excellente doctrine, 
+                        <lb/>si propre à éclairer les esprits &amp; à 
+                        <lb/>changer les cœurs. C'est de lui qu'il 
+                        <lb/>a reçû le pouvoir de faire des miracles ; 
+                        <lb/>privilège si glorieux, &amp; si efficace 
+                        <lb/>pour la conversion des hommes : 
+                        <lb/>C'est de lui qu'il a reçû ce courage 
+                        <lb/>dans les fatigues de son Ministere , 
+                        <lb/>cette constance dans les afflictions : 
+                        <lb/>C'est de son exemple enfin , qu'il a 
+                        <lb/>apris toutes les vertus qui le rendent 
+                        <lb/>aprouvé de DIEU &amp; des hommes. 
+                        <lb/>Sans JESUS-CHRIST il ne pouvoit 
+                        <lb/>rien ; <quote source="bibleSegond21.xml#Phil.4.13;Ps.2.9,Rom.16.20"> 
+                            <hi rend="I">Mais il peut toutes choses en 
+                                <lb/>CHRIST qui le fortifie. C'est JESUS 
+                                <lb/>qui domte ses ennemis avec un Sceptre 
+                                <lb/>de fer, qui lie Satan sous ses pieds</hi> 
+                        </quote> ; 
+                        <lb/>qui du haut du Ciel l'excite &amp; l'encourage, 
+                        <lb/>qui bénit, qui fait succeder 
+                        <lb/>tous ses travaux ; Il est donc vrai 
+                        <lb/>qu'<quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">il triomphe par JESUS-CHRIST</hi> 
+                        </quote>.</p> 
+                    <p n="14"> 
+                        <lb/> 
+                        <note type="margin">St. Paul triomphe</note> Le triomphe de St. Paul est 
+                        perpetuel : <fw place="bot-right" type="catch">tuel :</fw> 
+                         <pb n="13"/> 
+                        <lb/>Ce n'est pas dans un seul combat , <note type="margin">toûjours, 
+                            <lb/>c'est-à-dire, <lb/>qu'il ne <lb/>cessoit de remporter <lb/>des victoires.</note> 
+                        <lb/>qu'il surmonte ses ennemis, il 
+                        <lb/>triomphe toûjours , comme il le dit 
+                        <lb/>dans nôtre Texte ; Et ici permettez- 
+                        <lb/>moi de citer un beau passage de St. 
+                        <lb/>Chrysostome, le grand admirateur de <note type="margin"> 
+                            <ref type="other"> 
+                                <hi rend="I">St. Chrysostome, <lb/>Hom. 21. Sur la <lb/>II. aux 
+                                Cor</hi>.</ref> 
+                        </note> 
+                        <lb/>S. Paul. Après <choice><sic>avoit</sic><corr resp="#ARE">avoir</corr></choice> dit que <quote type="other" source="#Saint Jean Chrisostome"> 
+                            <hi rend="I">cet Apôtre 
+                                <lb/>avoit plus de puissance que les Rois , plus 
+                                <lb/>d'or &amp; d'argent que les personnes les plus 
+                                <lb/>riches , plus d'éloquence que les Orateurs : 
+                                <lb/>Que n'ayant rien il possedoit toutes choses , 
+                                <lb/>que son ombre garentissoit de la mort, 
+                                <lb/>que ses vêtemens bannissoient les maladies , 
+                                <lb/>&amp; qu'il a élevé des trophées glorieux 
+                                <lb/>jusques dans la Mer</hi> 
+                        </quote> ; Voici comme 
+                        <lb/>il parle de ses travaux, &amp; de ses 
+                        <lb/>triomphes continuels : <quote type="other" source="#Saint Jean Chrisostome"> 
+                            <hi rend="I">En qualité de 
+                                <lb/>très-excellent Medecin, de Pere commun, 
+                                <lb/>de deffenseur de tous les hommes, S. Paul 
+                                <lb/>faisoit toutes les choses imaginables. Il 
+                                <lb/>prenoit un soin universel de toutes sortes 
+                                <lb/>de personnes , ôtant tous les obstacles de 
+                                <lb/>leur salut , reprimant ceux qui étoient 
+                                <lb/>corrompus par la contagion des vices, &amp; 
+                                <lb/>courant de toutes parts. Car ce n'étoit 
+                                <lb/>point en combattant qu'il terminoit un 
+                                <lb/>si grand nombre d'affaires ; mais comme 
+                                <lb/>s'il eût toûjours eu la victoire entre les 
+                                <lb/>mains, il élevoit des trophées , ruïnoit ,</hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">démo</hi>.</fw> 
+                             <pb n="14"/> 
+                            <lb/> 
+                            <hi rend="I">démolissoit, &amp; renversoit toutes les machines 
+                                <lb/>&amp; les forteresses du Demon, &amp; 
+                                <lb/>faisoit entrer tous les hommes dans le 
+                                <lb/>Camp de JESUS-CHRIST : Ne se 
+                                <lb/>donnant aucun relâche, ni aucun moment 
+                                <lb/>de tems pour respirer , il n'y avoit 
+                                <lb/>aucun jour , ou pour mieux dire aucune 
+                                <lb/>heure dans le jour, où cet invincible General 
+                                <lb/>d'armée ne remportât quelque glorieuse 
+                                <lb/>victoire. Dès qu'il avoit ouvert 
+                                <lb/>la bouche, ses paroles entroient dans l'ame 
+                                <lb/>de ses adversaires avec plus de vehemence, 
+                                <lb/>&amp; plus d'ardeur que les flammes 
+                                <lb/>les plus actives : Et en chassant les 
+                                <lb/>Demons il faisoit revenir à lui ceux qui 
+                                <lb/>en étoient possedez. Ce grand Apôtre, 
+                                <lb/>qui avoit la conduite de tout le Monde, 
+                                <lb/>comme si ce n'eût été qu'une seule armée, 
+                                <lb/>ne se reposoit nulle part, &amp; agissoit 
+                                <lb/>avec autant de promptitude que s'il 
+                                <lb/>eût des ailes. Tantôt il guerissoit un 
+                                <lb/>boiteux, tantôt il ressuscitoit un mort. 
+                                <lb/>Lors-qu'il est enfermé dans une prison. 
+                                <lb/>il ne se relâche pas de son activité ordinaire, 
+                                <lb/>&amp; c'est là qu'il attire le Geolier 
+                                <lb/>même à son parti &amp; qu'il se fait 
+                                <lb/>l'Auteur d'une captivité glorieuse. Il 
+                                <lb/>étoit affligé en chaque membre de l'Eglise, 
+                                <lb/>comme s'il eut été lui seul toute</hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">l'Eglise</hi> 
+                            </fw> 
+                             <pb n="15"/> 
+                            <lb/> 
+                            <hi rend="I">l'Eglise universelle, &amp; il en a plus engendré 
+                                <lb/>à DIEU que pas un des autres 
+                                <lb/>Apôtres</hi> 
+                        </quote>. Après cela n'a-t-il pas raison 
+                        <lb/>de dire ; <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Nous triomphons toûjours 
+                                <lb/>en JESUS-CHRIST</hi> 
+                             
+                        </quote> 
+                        <hi rend="I"> ?</hi> 
+                    </p> 
+                    <p n="15"> 
+                        <lb/>Enfin, disons que St. Paul triomphe <note type="margin">Il triomphe 
+                            toûjours, <lb/>c'est-à-dire, qu'il triomphe <lb/>encore <lb/>après sa <lb/>mort &amp; 
+                            triomphera <lb/>jusques <lb/>à la fin des <lb/>siecles.</note> 
+                        <lb/>toûjours ; non seulement à cause 
+                        <lb/>des victoires continuelles qu'il a remportées 
+                        <lb/>pendant sa vie ; mais aussi à 
+                        <lb/>cause qu'il triomphe encore après sa 
+                        <lb/>mort, &amp; qu'il triomphera jusques à 
+                        <lb/>la fin des siecles. Les quatorze Epîtres 
+                        <lb/>que nous avons de lui renferment 
+                        <lb/>encore toutes ces armes victorieuses. 
+                        <lb/>Nous ne nous en servons pas à la 
+                        <lb/>verité, avec la même adresse, &amp; le 
+                        <lb/>même succès ; mais si nous triomphons, 
+                        <lb/>c'est toûjours par leur Ministère. Toutes 
+                        <lb/>les Eglises qui ont lû, respecté, 
+                        <lb/>suivi les leçons de ces divines lettres, 
+                        <lb/>sont autant de trophées à St. Paul. 
+                        <lb/>Tant que l'Eglise Chrêtienne subsistera, 
+                        <lb/>ce sera une matiere de triomphe 
+                        <lb/>pour cet Apôtre ; &amp; comme on n'en 
+                        <lb/>verra jamais l'entiere destruction, il 
+                        <lb/>a raison de dire : <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Nous triomphons 
+                                <lb/>toûjours en JESUS-CHRIST</hi> 
+                        </quote>. 
+                    </p> 
+                    <p n="16"> 
+                        <lb/>Tant de succès accordez au Ministère 
+                        <lb/>de St. Paul ; tant de sujets de <fw place="bot-right" type="catch">gloi-</fw> 
+                         <pb n="16"/> 
+                        <lb/>gloire &amp; de triomphe meritent bien 
+                        <lb/>d'immortelles actions de graces. Aussi 
+                        <lb/>St. Paul ne peut-il retenir ses transports 
+                        <lb/>&amp; les mouvemens de sa reconnoissance : 
+                        <lb/>Le voici qui s'écrie dans 
+                        <lb/>nôtre Texte : <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Or graces à DIEU qui 
+                                <lb/>nous fait toûjours triompher en JESUS- 
+                                <lb/>CHRIST</hi> 
+                            
+                        </quote>.</p> 
+                </div> 
+                <div n="2" type="sub"> 
+                    <head type="sub"> 
+                        <lb/> 
+                        <hi rend="I">SECOND POINT</hi>.</head> 
+                    <p n="17"> 
+                        <lb/>Saint Paul exprime ici les sentimens 
+                        <lb/>de reconnoissance qu'il a des triomphes 
+                        <lb/>continuels qu'il remporte. Il 
+                        <lb/>semble d'abord que c'est à JESUS- 
+                        <lb/>CHRIST qu'il devroit les témoigner; 
+                        <lb/>puis-que c'est en lui &amp; par lui qu'il 
+                        <lb/>triomphe : Cependant c'est à Dieu 
+                        <lb/>qu'il s'adresse : <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Graces à Dieu</hi>, <seg type="interpolation">dit-il,</seg> 
+                            <lb/> 
+                            <hi rend="I">qui nous fait toûjours triompher en JESUS- 
+                                <lb/>CHRIST</hi> 
+                            
+                        </quote>.</p> 
+                    <p n="18"> 
+                        <lb/> 
+                        <note type="margin">St.Paul adresse <lb/>ses <lb/>actions de <lb/>grace à <lb/>DIEU, plûtôt <lb/>qu'à 
+                            JESUS-CHRIST, <lb/>&amp; pourquoi.</note> La raison de cela est, que DIEU 
+                        <lb/>&amp; JESUS-CHRIST ont les mêmes 
+                        <lb/>vûës, les mêmes sentimens, &amp; la même 
+                        <lb/>volonté pour ce qui regarde l'établissement 
+                        <lb/>&amp; la protection de l'Eglise : 
+                        <lb/>Ici ils agissent toûjours de concert. 
+                        <lb/> 
+                        <quote source="bible1588.xml#John.5.19"> 
+                            <hi rend="I">Le Fils</hi> 
+                            <hi rend="I">ne fait rien qu'il ne le</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.5.19"> 
+                                    <hi rend="I">S. Jean ch</hi>. <lb/>X. 
+                                    ꝟ. II.</ref> 
+                            </note> 
+                            <hi rend="I">voye faire au Pere</hi></quote>,<quote source="bible1588.xml#John.5.20"><hi rend="I"> &amp; le Pere lui montre</hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">tre</hi> 
+                            </fw> 
+                             <pb n="17"/> 
+                            <lb/> 
+                            <hi rend="I">toutes ses œuvres</hi></quote>. 
+                            <quote source="bible1588.xml#John.10.11"><hi rend="I"> Il donne la vie 
+                                <lb/>à ses brebis</hi></quote> 
+                            <hi rend="I"> : Personne ne les enleve </hi>; 
+                            <lb/> 
+                                <hi rend="I">parce que le pere &amp; lui ne sont qu'un</hi> .
+                            <!--citation approximative--> 
+                        <lb/>Ainsi l'on peut dire, que c'est par le 
+                        <lb/>secours de Dieu que St. Paul triomphe : 
+                        <lb/>Et il a raison de lui en rendre 
+                        <lb/>graces. D'ailleurs dans l'œconomie du 
+                        <lb/>salut , le Pere est regardé comme la 
+                        <lb/>source &amp; l'Auteur de tous les biens. 
+                        <lb/> 
+                        <quote source="bible1588.xml#John.12.49"> 
+                            <hi rend="I">Quand le Fils laisse sa vie pour les </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.12.49"> 
+                                    <hi rend="I">S. Jean ch</hi>.<lb/> XII. 
+                                    ꝟ. 49.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">hommes</hi>, c'est qu'<hi rend="I">il a reçû ce commandement 
+                                <lb/>de son Pere</hi> 
+                        </quote>. Il proteste hautement 
+                        <lb/>à cet égard que le Pere est 
+                        <lb/>plus grand que lui. Il lui rend lui-même <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Luke.2.28"> 
+                                <hi rend="I">Luc ch. II. </hi><lb/>ꝟ. 
+                                28.</ref> 
+                        </note> 
+                        <lb/>des actions de graces. S. Paul 
+                        <lb/>n'a-t-il pas raison de se conformer à 
+                        <lb/>cet exemple ? C'est pour cela qu'il dit 
+                        <lb/>dans nôtre Texte : <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Or graces à DIEU, 
+                                <lb/>qui nous fait toûjours triompher en JESUS- 
+                                <lb/>CHRIST</hi> 
+                        </quote>.</p> 
+                    <p n="19"> 
+                        <lb/>Rien n'est plus juste que cette reconnoissance : <note type="margin">Justice de <lb/>cette reconnoissance.</note> 
+                        <lb/>Nôtre propre cœur nous 
+                        <lb/>dicte l'équité de ce devoir : Il est établi 
+                        <lb/>sur des raisons invincibles, qui 
+                        <lb/>sont trop connuës pour entreprendre 
+                        <lb/>de les détailler. Marquons plûtôt celles 
+                        <lb/>qui peuvent rendre S. Paul si sensible 
+                        <lb/>à la gloire de ses Triomphes, &amp; 
+                        <lb/>qui le portent à s'écrier : <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Graces à</hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">DIEU</hi> 
+                            </fw> 
+                             <pb n="18"/> 
+                            <lb/> 
+                            <hi rend="I">DIEU qui nous fait toûjours triompher 
+                                <lb/>en JESUS-CHRIST</hi> 
+                        </quote> 
+                        <hi rend="I">.</hi> 
+                    </p> 
+                    <p n="20"> 
+                        <lb/> 
+                        <note type="margin">L'on doit <lb/>rendre grace <lb/>quand <lb/>on réüssit <lb/>dans un <lb/>dessein 
+                            important.</note> Qu'y a-t-il, en premier lieu, de plus 
+                        <lb/>naturel que d'être charmé de l'heureux 
+                        <lb/>succès d'une entreprise ? Quand nous 
+                        <lb/>avons formé quelque dessein, nous ne 
+                        <lb/>le voyons point traverser sans peine, 
+                        <lb/>échoüer sans affliction ; sur-tout si cette 
+                        <lb/>entreprise est juste , raisonnable , 
+                        <lb/>&amp; avantageuse. Alors le succès en est 
+                        <lb/>toûjours agréable &amp; glorieux. Telle est 
+                        <lb/>l'entreprise de S. Paul. Il s'agit 
+                        <lb/>de perfectionner les hommes, de les 
+                        <lb/>rendre heureux dans cette vie &amp; dans 
+                        <lb/>l'Eternité : Peut-il voir le succès de 
+                        <lb/>ses discours, de ses travaux, de sa 
+                        <lb/>patience sans une extrême joye, sans 
+                        <lb/>une tendre reconnoissance pour ce 
+                        <lb/> 
+                        <quote source="bible1588.xml#Phil.2.13"> 
+                            <hi rend="I">DIEU qui donne le vouloir , le parfaire, 
+                                <lb/>&amp; l'accroissement</hi> 
+                        </quote> ? Il a donc raison de 
+                        <lb/>dire dans nôtre Texte : <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Graces à DIEU 
+                                <lb/>qui nous fait toûjours triompher en 
+                            JESUS-CHRIST</hi></quote>. 
+                    </p> 
+                    <p n="21"> 
+                        <lb/>Mais s'il n'y avoit que la simple satisfaction 
+                        <lb/>de réüssir, ce seroit peu de chose 
+                        <lb/>pour S. Paul : Sa reconnoissance 
+                        <lb/>est fondée sur de plus nobles idées. 
+                        <lb/>Le zèle pour la gloire de DIEU, l'amour 
+                        <lb/>pour JESUS-CHRIST, la charité <fw place="bot-right" type="catch">rité</fw> 
+                         <pb n="19"/> 
+                        <lb/>pour les hommes, la gloire qu'il 
+                        <lb/>en retire lui-même, c'est là ce qui 
+                        <lb/>le rend sensible à ses Triomphes. C'est 
+                        <lb/>ce qui l'oblige à en rendre de publiques 
+                        <lb/>actions de graces.</p> 
+                    <p n="22"> 
+                        <lb/>En effet, la gloire de DIEU étoit <note type="margin">Le zèle <lb/>pour la 
+                            <lb/>gloire de <lb/>DIEU anime <lb/>la reconnoissance <lb/>de S. Paul</note> 
+                        <lb/>très-interessée aux Triomphes de S. Paul. 
+                        <lb/>On peut dire qu'elle étoit deshonorée 
+                        <lb/>par les fausses idées que les 
+                        <lb/>hommes avoient de sa nature, de ses 
+                        <lb/>perfections ; Par le culte insensé qu'ils 
+                        <lb/>lui rendoient, &amp; sur-tout par les vices 
+                        <lb/>honteux dont-ils s'étoient rendus 
+                        <lb/>coupables : Ainsi rectifier ces idées, 
+                        <lb/>apprendre à connoître Dieu, &amp; à le 
+                        <lb/>servir selon sa volonté , retracer son 
+                        <lb/>image dans les cœurs, c'étoit travailler 
+                        <lb/>pour sa gloire. Aussi J. CHRIST 
+                        <lb/>disoit-il à ses Disciples : <quote source="bible1588.xml#John.15.8"> 
+                            <hi rend="I">En ceci mon </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.15.9"> 
+                                    <hi rend="I">S. Jean ch</hi>. <lb/><hi rend="I">XV</hi>. 
+                                    ꝟ. 9.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">Père est glorifié, que vous portiez beaucoup 
+                                <lb/>de fruit</hi> 
+                        </quote> 
+                        <hi rend="I">:</hi> Et JESUS sur la fin de 
+                        <lb/>ses travaux disoit : <quote source="bible1588.xml#John.17.4"> 
+                            <hi rend="I">Pere je t'ai glorifié </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.17.4"> 
+                                    <hi rend="I">S. Jean ch</hi>. <lb/>XVII 
+                                    ꝟ. <unclear resp="#ARE" reason="illegible">2</unclear>.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">sur la terre</hi></quote>. St. Paul se 
+                        trouve dans 
+                        <lb/>le même cas : Sensible aux interêts de 
+                        <lb/>la gloire de ce grand Dieu, travaillant 
+                        <lb/>à l'avancer de tout son pouvoir, 
+                        <lb/>il ne sçauroit remarquer le succès de 
+                        <lb/>son entreprise sans plaisir &amp; sans une 
+                        <lb/>vive reconnoissance ; c'est pour cela <fw place="bot-right" type="catch">qu'il</fw> 
+                         <pb n="20"/> 
+                        <lb/>qu'il s'écrie : <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Graces à DIEU qui nous 
+                                <lb/>fait toûjours triompher en J. CHRIST</hi> 
+                        </quote>. 
+                    </p> 
+                    <p n="23"> 
+                        <lb/> 
+                        <note type="margin">L'amour <lb/>qu'il a pour <lb/>J. CHRIST <lb/>est un autre motif <lb/>à sa 
+                            reconnoissance</note> Je dis ensuite que c'est l'amour qu'il 
+                        <lb/>portoit à JESUS-CHRIST qui le rend 
+                        <lb/>si sensible à ses Triomphes. En effet, 
+                        <lb/>S. Paul aimoit ce divin Sauveur avec 
+                        <lb/>toute la tendresse imaginable : Travaux, 
+                        <lb/>fatigues, périls, souffrances, 
+                        <lb/>supplices, tout lui étoit doux, quand 
+                        <lb/>c'étoit pour JESUS-CHRIST : <quote source="bible1588.xml#_1Cor.16.22"> 
+                            <hi rend="I">Quiconque</hi>, 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_1Cor.16.22"> 
+                                    <hi rend="I">Gal. ch. V</hi>. <lb/>ꝟ. 
+                                    19.</ref> 
+                            </note> <seg type="interpolation">dit-il,</seg> 
+                            <hi rend="I">n'aimera pas le Seigneur 
+                                <lb/>JESUS , qu'il soit Anathême, 
+                            <foreign xml:lang="arc">Maranata</foreign></hi></quote>. 
+                        <lb/>Aussi dit-il,<quote source="bible1588.xml#Gal.6.14"> 
+                            <hi rend="I">qu'il ne veut se glorifier 
+                                <lb/>qu'en la Croix de CHRIST</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>; <quote source="bible1588.xml#Phil.3.8"> 
+                            <hi rend="I">qu'il regarde 
+                                <lb/>toutes choses comme du fumier au prix 
+                                <lb/>de l'excellence de sa connoissance</hi> 
+                        </quote> 
+                        <hi rend="I"> : </hi> 
+                        <quote source="bible1588.xml#Phil.3.8"> 
+                            <hi rend="I">Qu'il</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Phil.3.8">ꝟ. 8.</ref> 
+                            </note> 
+                            <hi rend="I">est crucifié avec CHRIST, &amp; qu'il ne vit 
+                                <lb/>plus lui, mais CHRIST qui est en lui, 
+                                <lb/>&amp; que rien au monde ne peut le separer 
+                                <lb/>de son amour</hi> 
+                        </quote> 
+                        <hi rend="I">. </hi>Avec de tels sentimens, 
+                        <lb/>quelle joye n'a-t-il point quand 
+                        <lb/>il étend les limites de son regne ; quand 
+                        <lb/>il <quote source="bibleSegond21.xml#_2Cor.10.5"> 
+                            <hi rend="I">amène les ames captives</hi> 
+                        </quote> ; quand 
+                        <lb/>il lui approprie <quote source="bibleSegond21.xml#_2Cor.11.2"> 
+                            <hi rend="I">une épouse chaste &amp; fidelle</hi> 
+                        </quote> , 
+                        <lb/>qui doit faire ses délices &amp; sa 
+                        <lb/>Couronne ? Il ne peut voir ses Triomphes 
+                        <lb/>sans actions de graces ; <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Graces à 
+                                <lb/>DIEU qui nous fait toûjours triompher 
+                                <lb/>en JESUS-CHRIST</hi> 
+                        </quote> 
+                        <hi rend="I">.</hi> 
+                         <fw place="bot-right" type="catch">Disons</fw> 
+                         <pb n="21"/> 
+                        <lb/>Disons encore que la charité qu'il <note type="margin">La charité 
+                            <lb/>qu'il<supplied resp="#ARE" reason="omission"> </supplied>a pour <lb/>les hommes , <lb/>autre motif de sa 
+                            <lb/>reconnoissance.</note> 
+                        <lb/>a pour les hommes, l'interesse vivement 
+                        <lb/>au succès de ses travaux. Cet 
+                        <lb/>Apôtre aimoit ses freres d'une maniere 
+                        <lb/>tendre &amp; empressée ; s'ils s'égarent, 
+                        <lb/>il en conçoit une tristesse mortelle ; 
+                        <lb/> 
+                        <quote source="bible1588.xml#Phil.3.18"> 
+                            <hi rend="I">il ne peut parler qu'en pleurant de ceux </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Gal.4.7"> 
+                                    <hi rend="I">Gal. ch. IV. </hi><lb/>ꝟ. 
+                                    7.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">qui sont ennemis de la Croix de Christ</hi> 
+                        </quote>. 
+                        <lb/>Voyez avec quelle tendresse il écrivoit 
+                        <lb/>aux Fidelles de Corinthe : <quote source="bible1588.xml#_2Cor.6.11-12"> 
+                            <hi rend="I">O Corinthiens, </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Cor.6.11-12"> 
+                                    <hi rend="I">II. Cor. ch. <lb/>V</hi>. 
+                                    ꝟ. 27.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">nôtre bouche s'est ouverte envers 
+                                <lb/>vous ; nôtre cœur s'est élargi </hi>;<hi rend="I"> vous n'êtes 
+                                <lb/>point à l'étroit dans nos 
+                            entrailles</hi></quote>. 
+                        <lb/>Voyez ce qu'il écrit aux Galates : 
+                        <lb/> 
+                        <quote source="bible1588.xml#Gal.4.19-20"> 
+                            <hi rend="I">Mes petits enfans, pour qui je sens de 
+                                <lb/>nouveau les douleurs de l'enfantement, 
+                                <lb/>jusqu'à ce que CHRIST soit formé en vous</hi>; 
+                            <lb/> 
+                            <hi rend="I">je voudrois bien être present chez vous 
+                                <lb/>&amp; que nous nous entretinssions ensemble</hi>; 
+                            <lb/> 
+                            <hi rend="I">parce que je suis en peine pour 
+                            vous</hi></quote>. Et 
+                        <lb/>pour tout dire en un mot, <quote source="#..."> 
+                            <hi rend="I">il auroit 
+                                <lb/>voulu étre répandu en sacrifice pour eux</hi> 
+                        </quote>; 
+                        <lb/>semblable à ce bon Berger qui met 
+                        <lb/>sa vie pour ses brebis. Avec de tels 
+                        <lb/>sentimens, peut-il voir avec indifference 
+                        <lb/>le succès de son Ministere, les avantages 
+                        <lb/>precieux qu'il procure aux hommes , 
+                        <lb/>la lumiere , la vertu, le consolation, 
+                        <lb/>l'esperance qu'il répand dans <fw place="bot-right" type="catch">tous</fw> 
+                         <pb n="22"/> 
+                        <lb/>tous les cœurs ? Sa charité lui fait sentir 
+                        <lb/>le prix de ses triomphes, &amp; l'oblige 
+                        <lb/>à s'écrier dans nôtre Texte : <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Graces 
+                                <lb/>à Dieu</hi></quote> <hi rend="I">!</hi> 
+  
+                    </p> 
+                    <p n="24"> 
+                        <lb/> 
+                        <note type="margin">La gloire <lb/>qu'il en retire <lb/>est un <lb/>nouveau <lb/>fondement <lb/>de sa 
+                            gratitude.</note> Enfin, disons que ce qui le rendoit 
+                        <lb/>si sensible à ses Triomphes, c'est 
+                        <lb/>la gloire qui lui en revenoit à lui-même. 
+                        <lb/>Nous sommes faits pour la gloire ; 
+                        <lb/>un amour raisonnable d'<choice><sic>un</sic><corr resp="#ARE">une</corr></choice> estime 
+                        <lb/>bien fondée, est le plus sage, &amp; 
+                        <lb/>le plus efficace motif de la vertu. Or 
+                        <lb/>quelle gloire S. Paul ne retiroit-il pas 
+                        <lb/>de ses travaux &amp; de ses triomphes ? 
+                        <lb/>Combien de privileges n'étoient point 
+                        <lb/>attachez à l'Apostolat ? L'étendüe des 
+                        <lb/>connoissances, la frequence des Revelations 
+                        <lb/>divines, le pouvoir des miracles , 
+                        <lb/>la gloire des afflictions ; <quote source="bible1588.xml#_1Pet.4.14"> 
+                            <hi rend="I">Car 
+                                <lb/>alors l'Esprit de Gloire &amp; de DIEU 
+                                <lb/>reposoit sur eux</hi> 
+                        </quote>, comme le dit S. Pierre. 
+                        <lb/>Nôtre Apôtre pouvoit-il être insensible 
+                        <lb/>à l'honneur d'une dignité si 
+                        <lb/>éminente, aux precieuses faveurs qui 
+                        <lb/>en étoient inséparables ?</p> 
+                    <p n="25"> 
+                        <lb/> 
+                        <note type="margin">Réputation <lb/>&amp; <lb/>gloire inconcevable <lb/>de S. <lb/>Paul.</note> 
+                        Mais sur-tout ce qui le frappe le 
+                        <lb/>plus, c'est la renommée qu'il s'aquiert 
+                        <lb/>par toute la terre : Son Triomphe étoit 
+                        <lb/>public &amp; manifeste, plus glorieux mille 
+                        <lb/>fois que les Triomphes les plus <fw place="bot-right" type="catch">écla-</fw> 
+                         <pb n="23"/> 
+                        <lb/>éclatans des Generaux Romains. En 
+                        <lb/>effet, ce qui rendoit les triomphes glorieux 
+                        <lb/>parmi ce premier peuple du Monde, 
+                        <lb/>c'étoit la difficulté des combats 
+                        <lb/>qu'ils avoient soutenus, la défaite de 
+                        <lb/>leurs Ennemis, &amp; le grand nombre 
+                        <lb/>d'Esclaves attachez au Char du Vainqueur , 
+                        <lb/>les applaudissemens de tout le 
+                        <lb/>peuple, les Couronnes dont-ils étoient 
+                        <lb/>honorez. Mais à tous ces égards le 
+                        <lb/>Triomphe de S. Paul est infiniment 
+                        <lb/>préferable : Ses Ennemis étoient plus 
+                        <lb/>nombreux, &amp; plus redoutables : Ce 
+                        <lb/>n'étoit pas quelques Peuples barbares 
+                        <lb/>&amp; désarmez, qui trembloient à la seule 
+                        <lb/>vûë des Legions Romaines, c'étoit 
+                        <lb/>le Demon avec toute sa puissance , 
+                        <lb/>tous les Monstres sortis de l'Abîme , 
+                        <lb/>tous les fleaux du genre-humain, l'erreur, 
+                        <lb/>l'idolatrie, les passions, qui comme 
+                        <lb/>des Reines orgueilleuses dominoient 
+                        <lb/>sur tous les cœurs devenus leurs esclaves, 
+                        <lb/>&amp; y avoient établi depuis longtems 
+                        <lb/>un Empire assuré. Cependant, 
+                        <lb/> 
+                        <quote type="other" source="# ..."> 
+                            <hi rend="I">il domte tous ces ennemis formidables , 
+                                <lb/>&amp; il en a triomphé. Il a soûmis au joug </hi> 
+                            <note type="margin"> 
+                                <ref type="other"> 
+                                    <hi rend="I">S. Gregoire</hi>.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">de la vérité dans moins de trente ans ,</hi> 
+                            <lb/><seg type="interpolation">( ce sont les paroles d'un Pere )</seg> 
+                            <hi rend="I">les Perses , 
+                                <lb/>les Indiens , les Scythes , les Ethiopiens,</hi> 
+                             <fw place="bot-right" type="catch"> 
+                                <hi rend="I">piens</hi>,</fw> 
+                             <pb n="24"/> 
+                            <lb/> 
+                            <hi rend="I">les Sarmates, les Medes, les Romains 
+                                <lb/>eux-mêmes, &amp; generalement tous 
+                                <lb/>les hommes</hi> 
+                        </quote>. A la presence de S. Paul 
+                        <lb/>on voyoit l'erreur s'écarter, &amp; la vérité 
+                        <lb/>prendre sa place : La fumée des 
+                        <lb/>sacrifices profanes se dissipoit : l'yvrognerie, 
+                        <lb/>les festins d'intemperance, la 
+                        <lb/>fornication, l'adultere &amp; toutes les autres 
+                        <lb/>abominations des idoles s'évanouissoient. 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.1.4;Ps.68.3"> 
+                                <hi rend="I">Ps. I. </hi>ꝟ. 8.</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#Ps.1.4;Ps.68.3"> 
+                            <hi rend="I">Comme la cire fond au feu, &amp; 
+                                <lb/>comme la paille est chassée par le vent</hi> 
+                        </quote>, 
+                        <lb/>la <choice><sic>supertition</sic><corr resp="#ARE">superstition</corr></choice>, le vice, ces deux <choice><sic>montres</sic><corr resp="#ARE">monstres</corr></choice> 
+                        <lb/>ennemis de nôtre bonheur , qui 
+                        <lb/>ont de si nombreuses armées à leur 
+                        <lb/>suite, ont été enchainez par S. Paul. 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Phil.2.4"> 
+                                <hi rend="I">Phil. ch. II</hi>. <lb/>ꝟ. 
+                                4</ref> 
+                            <lb/><ref type="bible" target="bibleSegond21.xml#Col.2.15"> 
+                                <hi rend="I">Col. ch. III</hi>. <lb/>ꝟ. 
+                                II.</ref> 
+                        </note> Comme son Maître, <quote source="bible1588.xml#Col.2.15"> 
+                            <hi rend="I">il a mené captive, 
+                                <lb/>la Captivité : Il a triomphé des principautez 
+                                <lb/>&amp; des Puissances, &amp; les a exposées 
+                                <lb/>publiquement en montre</hi></quote>. Qu'y 
+                        <lb/>avoit-il de plus glorieux pour S. Paul 
+                        <lb/>que de venir à bout d'une entreprise si 
+                        <lb/>difficile; que de sortir vainqueur d'un combat 
+                        <lb/>aussi perilleux ? Aussi toute la 
+                        <lb/>Terre avoit les yeux attachez sur lui. 
+                        <lb/>Un seul peuple applaudissoit au Triomphe 
+                        <lb/>d'un Consul Romain, mais de toutes 
+                        <lb/>parts on couroit en foule pour le 
+                        <lb/>voir porter la Croix du Sauveur, de 
+                        <lb/>même qu'on sort de la maison pour <fw place="bot-right" type="catch">voir</fw> 
+                         <pb n="25"/> 
+                        <lb/>voir ceux qui portent l'Etendart du 
+                        <lb/>Prince. <quote source="bible1588.xml#Heb.12.1"> 
+                            <hi rend="I">Il étoit environné d'une grande </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Heb.12.1"> 
+                                    <hi rend="I">Heb. ch. <lb/>XII.</hi> 
+                                    ꝟ. I.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">nuée de témoins , qui le voyoient achever 
+                                <lb/>constamment la course qu'il s'étoit 
+                                <lb/>proposée. Il étoit en spectacle aux hommes 
+                                <lb/>&amp; aux Anges</hi> 
+                        </quote>, comme il le dit lui-même. 
+                        <lb/>En effet, comme dit un célebre 
+                        <lb/>Docteur Chrêtien ; <quote type="other" source="# ..."> 
+                            <hi rend="I">Il n'a pas seulement </hi> 
+                            <note type="margin"> 
+                                <ref type="other"> 
+                                    <hi rend="I">S. Augus<surplus reason="mistake">.</surplus>tin</hi>.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">réjouï les hommes, mais par ses 
+                                <lb/>travaux, il a fait naître une joye extraordinaire 
+                                <lb/>au milieu des Anges mêmes. 
+                                <lb/>Car si le Ciel se réjouït quand un seul 
+                                <lb/>Pécheur fait penitence, seroit-il possible 
+                                <lb/>que S. Paul ayant converti tant de personnes 
+                                <lb/>par sa prédication, il n'eut pas 
+                                <lb/>ravi de joye toutes les Puissances celestes ? 
+                                <lb/>Certes je n'en dis pas encore assez</hi> 
+                        </quote> : Il 
+                        <lb/>suffisoit que S. Paul ouvrit la bouche 
+                        <lb/>pour faire tressaillir les Cieux d'une 
+                        <lb/>extrême allegresse : Car si lors que les 
+                        <lb/>Israëlites sortirent d'Egypte, les <quote source="bible1588.xml#Ps.114.4"> 
+                            <hi rend="I">Montagnes 
+                                <lb/>sauterent comme des Beliers, quel 
+                                <lb/>sujet de réjouïssance n'y eut-il pas lors-que 
+                                <lb/>les hommes furent transportez de la terre 
+                                <lb/>au Ciel</hi> 
+                        </quote>. 
+                    </p> 
+                    <p n="26"> 
+                        <lb/>Enfin, S. Paul s'assuroit une recompense <note type="margin">Recompense 
+                            <lb/>des <lb/>Triomphes <lb/>de S. Paul, <lb/>dernier &amp; <lb/>puissant  
+                             </note> 
+                        <lb/>magnifique ; les Generaux d'Armées 
+                        <lb/>étoient couronnez de Lauriers, 
+                        <lb/>dont l'immortelle verdure marquoit la <fw place="bot-right" type="catch">per-</fw> 
+                         <pb n="26"/> 
+                        <lb/><note type="margin">
+                            motif de sa <lb/>reconnoissance.</note>perpétuïté de leur gloire ; Mais ce 
+                        <lb/>n'étoit là pourtant qu'une couronne 
+                        <lb/>qui périssoit. Celle de S. Paul étoit 
+                        <lb/>une couronne incorruptible, plus éclatante 
+                        <lb/>que les Diamans, plus brillante 
+                        <lb/>que les étoiles du Ciel : A son départ 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.24.7"> 
+                                <hi rend="I">Ps. XXIV</hi>.</ref> 
+                        </note> de la terre, <quote source="bible1588.xml#Ps.24.7"> 
+                            <hi rend="I">les portes de l'Eternité s'ouvrent, 
+                                <lb/>elles élevent leurs lintaux, &amp; il <lb/>s'assied sur le trône du 
+                                Roy de gloire</hi> 
+                        </quote>, suivant 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rev.3.21"> 
+                                <hi rend="I">Apoc. ch. <lb/>III.</hi> 
+                            </ref> 
+                        </note> cette infaillible promesse : <quote source="bible1588.xml#Rev.3.21"> 
+                            <hi rend="I">A celui 
+                                <lb/>qui vaincra je le ferai asseoir sur mon 
+                                <lb/>Trône ; comme aussi j'ai vaincu &amp; je suis 
+                                <lb/>assis sur le Trône de mon 
+                            Pere</hi></quote>. S. Paul 
+                        <lb/>avoit le cœur rempli de toutes ces idées, 
+                        <lb/>il sentoit l'importance de son 
+                        <lb/>Triomphe, la renommée qu'il s'aqueroit, 
+                        <lb/>la gloire dont il alloit être en 
+                        <lb/>possession dans le Ciel : Plein de reconnoissance 
+                        <lb/>pour toutes ces faveurs, 
+                        <lb/>il s'écrie : <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Graces à DIEU</hi></quote> <hi rend="I">!</hi> 
+                    </p> 
+                </div> 
+                <div n="3" type="sub"> 
+                    <head type="sub"> 
+                        <lb/> 
+                        <hi rend="I">APPLICATION.</hi> 
+                    </head> 
+                    <p n="27"> 
+                        <lb/> 
+                        <note type="margin">Combien <lb/>est juste le <lb/>Panégyrique <lb/>de S. <lb/>Paul.</note> Voilà 
+                        donc, Mes Freres, le Panégyrique 
+                        <lb/>de S. Paul. C'est une matiere 
+                        <lb/>bien digne d'exercer l'éloquence 
+                        <lb/>des Orateurs Chrêtiens, bien digne 
+                        <lb/>aussi de toute l'attention des fidelles : 
+                        <lb/>Sujet bien different de tous ces <fw place="bot-right" type="catch">Pané-</fw> 
+                         <pb n="27"/> 
+                        <lb/>Panégyriques qui se sont faits dans 
+                        <lb/>l'Eglise Romaine, de ces éloges insipides 
+                        <lb/>que l'on donne à des Saints de 
+                        <lb/>nouvelle datte, ou qui ne sont connus 
+                        <lb/>dans l'Eglise que par les fables ridicules 
+                        <lb/>dont les Legendes sont remplies. 
+                        <lb/>Ici nous avons un véritable Héros, 
+                        <lb/>fort au-dessus de tout ce qu'on 
+                        <lb/>peut dire à sa gloire ; dont on ne peut 
+                        <lb/>assez admirer les combats, &amp; les Triomphes ; 
+                        <lb/>&amp; qu'on ne doit jamais se lasser 
+                        <lb/>de proposer pour modele aux Chrêtiens. 
+                        <lb/>En effet, le seul dessein de S. Paul <note type="margin">L'excellence 
+                            <lb/>du dessein de <lb/>S. Paul , <lb/>preuve de <lb/>la divinité <lb/>de la Religion <lb/>qu'il 
+                            prêche.</note> 
+                        <lb/>est digne de toutes nos louanges. Qu'un 
+                        <lb/>homme se mette dans l'esprit d'éclairer 
+                        <lb/>tous les autres ; de les faire revenir 
+                        <lb/>de leurs égaremens, de leurs funestes 
+                        <lb/>erreurs ; de remplir leurs esprits de 
+                        <lb/>justes &amp; de grandes idées ; de changer 
+                        <lb/>leur cœur ; d'en bannir les passions 
+                        <lb/>les plus cheres ; de les captiver 
+                        <lb/>à l'obeïssance de l'Evangile : Que cet 
+                        <lb/>homme consacre à ce dessein, ses soins, 
+                        <lb/>ses travaux, sa vie même ; que la misere, 
+                        <lb/>les fatigues, les souffrances, les 
+                        <lb/>tourmens, ne soient pas des obstacles 
+                        <lb/>suffisans pour l'en détourner ; c'est là 
+                        <lb/>ce qui merite une admiration universelle : <fw place="bot-right" type="catch">selle :</fw> 
+                         <pb n="28"/> 
+                        <lb/>Je n'en dis pas assez ; ce seul 
+                        <lb/>dessein est une preuve de la divinité 
+                        <lb/>de la Religion de S. Paul : A peine les 
+                        <lb/>hommes songent-ils à s'éclairer &amp; à 
+                        <lb/>se corriger eux-mêmes : Il est donc 
+                        <lb/>surnaturel d'entreprendre de changer 
+                        <lb/>l'esprit &amp; le cœur de tous les hommes 
+                        <lb/>de la terre ? Un dessein si noble, si 
+                        <lb/>sublime vient sans doute de DIEU lui-même, 
+                        <lb/>qui l'a inspiré à S. Paul, &amp; qui 
+                        <lb/>lui a donné le courage de l'executer : 
+                        <lb/>Il a bien raison de lui en rendre graces ; 
+                        <lb/> 
+                        <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Graces à DIEU</hi></quote> <hi rend="I">!</hi> 
+                    </p> 
+                    <p n="28"> 
+                        <lb/> 
+                        <note type="margin">Le succès <lb/>de ce dessein , <lb/>autre <lb/>preuve de <lb/>la divinité <lb/>de 
+                            la Religion <lb/>qu'il <lb/>annonce.</note> Si le seul dessein de S. Paul est une 
+                        <lb/>preuve de la vérité de sa doctrine ; que 
+                        <lb/>dirons-nous du succez de ce dessein ; des 
+                        <lb/>Triomphes continuels qu'il remporte ? 
+                        <lb/>Le doigt de DIEU ne paroit-il pas manifestement 
+                        <lb/>dans ses victoires &amp; dans ses Trophées ? 
+                        <lb/>Toutes les puissances du Demon, 
+                        <lb/>la subtilité des Philosophes, l'ignorance 
+                        <lb/>des Payens, les préjugez des 
+                        <lb/>Juifs, l'extrême corruption des uns 
+                        <lb/>&amp; des autres, n'ont pû resister aux 
+                        <lb/>attaques d'un homme foible, pauvre, 
+                        <lb/>méprisable en apparence. A son approche 
+                        <lb/>le Polytheïsme est aboli ; les 
+                        <lb/>Prêtres confondus ; l'Idolatrie détruite ; 
+                        <lb/>l'hypocrisie d'un culte exterieur <fw place="bot-right" type="catch">dé-</fw> 
+                         <pb n="29"/> 
+                        <lb/>démasquée ; toute la terre prend une 
+                        <lb/>nouvelle face : la lumiere s'établit dans 
+                        <lb/>les lieux où étoient les tenebres ; la liberté 
+                        <lb/>succede à l'esclavage : la sainteté 
+                        <lb/>à la corruption ; l'esperance &amp; la 
+                        <lb/>joye, au trouble &amp; aux frayeurs mortelles. 
+                        <lb/>Ne dirons-nous point, frapez 
+                        <lb/>de ces surprenans Triomphes ; <quote source="bible1588.xml#_2Cor.4.7"> 
+                            <hi rend="I">L'excellence </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Cor.4.7"> 
+                                    <hi rend="I">II. Cor. ch. <lb/>V</hi>. 
+                                    ꝟ. 7.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">de cette force vient de DIEU &amp; 
+                                <lb/>non pas de nous</hi> 
+                        </quote> ; Ne dirons-nous point 
+                        <lb/>avec S. Paul penétré de reconnoissance : 
+                        <lb/> 
+                        <quote source="bible1588.xml#_2Cor.2.14"> 
+                            <hi rend="I">Graces à DIEU</hi></quote> <hi rend="I">!</hi> 
+                    </p> 
+                    <p n="29"> 
+                        <lb/>Mais si nous nous réjouïssons des <note type="margin">Difference 
+                            <lb/>affligeante <lb/>des triomphes <lb/>de S. Paul &amp; de <lb/>ceux des <lb/>Ministres <lb/>de 
+                            l'Evangile.</note> 
+                        <lb/>Triomphes de S. Paul, ne serons-nous 
+                        <lb/>point affligez de voir triompher en tant 
+                        <lb/>de lieux l'Erreur &amp; le Vice : &amp; que 
+                        <lb/>l'Eglise de JESUS-CHRIST ait tant 
+                        <lb/>perdu de son lustre &amp; de sa beauté ? 
+                        <lb/>Les Prédicateurs de l'Evangile n'ont 
+                        <lb/>pas le même bonheur, les mêmes succès 
+                        <lb/>que S. Paul : Il y en a peu qui 
+                        <lb/>comme lui puissent se glorifier de leurs 
+                        <lb/>Triomphes ; non que je 
+                        croye<!--implication personnelle du prédicateur, qui se plaint de ce que les pasteurs actuels ne font pas autant bien que St. Paul--> 
+                        que l'établissement du Saint Ministere, les 
+                        <lb/>exhortations fréquentes qui vous sont 
+                        <lb/>addressées , soient inutiles &amp; infructueuses : 
+                        <lb/>Je sçais qu'elles repriment les 
+                        <lb/>scandales ; qu'elles empêchent les progrez 
+                        <lb/>de l'Impieté : Et que s'il y a dans <fw place="bot-right" type="catch">cette</fw> 
+                         <pb n="30"/> 
+                        <lb/>cette Ville plus de lumieres, plus de 
+                        <lb/>sagesse, &amp; plus de vertu que dans aucune 
+                        <lb/>Ville du monde, comme j'en 
+                        <lb/>suis persuadé, on ne le doive en partie 
+                        <lb/>aux soins de ceux qui prêchent la 
+                        <lb/>Religion 
+                        : Mais disons-le Mes Freres 
+                        <lb/>nous reglons l'Exterieur &amp; l'apparence ; 
+                        <lb/>mais nous avons peu de pouvoir sur 
+                        <lb/>les cœurs ; nous corrigeons les passions 
+                        <lb/>dont on commence à se dégoûter, &amp; 
+                        <lb/>qui ne sont pas soûtenuës par la Mode ; 
+                        <lb/>mais les habitudes favorites, fortifiées 
+                        <lb/>par un exemple general, nous 
+                        <lb/>les attaquons en vain ; le torrent de 
+                        <lb/>la coûtume, prévaut sur le torrent de 
+                        <lb/>nos Discours. Si nous nous élevons 
+                        <lb/>contre le Luxe qu'une funeste contagion 
+                        <lb/>a introduit au milieu de nous, &amp; 
+                        <lb/>qui va toûjours en croissant, toutes 
+                        <lb/>les loix, toutes les exhortations ne 
+                        <lb/>font que blanchir : Nous n'attendons 
+                        <lb/>plus rien à cet égard, si ce n'est peut-être 
+                        <lb/>de la necessité &amp; de la misere 
+                        <lb/>qui suivent toûjours les foles dépenses. 
+                        <lb/>Si nous voulons prévenir la dangereuse 
+                        <lb/>habitude du jeu, la fureur naissante 
+                        <lb/>de cette fole passion ; la mode 
+                        <lb/>prévaut encore sur les loix &amp; les exhortations, 
+                        <lb/>&amp; nous trouvons <choice><sic>par-to<gap resp="#ARE" unit="character" quantity="1" reason="print"/> 
+                            t</sic><corr resp="#ARE">par-tout</corr></choice> <fw place="bot-right" type="catch">des</fw> 
+                         <pb n="31"/> 
+                        <lb/>des esprits indociles &amp; des cœurs qu'on 
+                        <lb/>ne peut toucher.</p> 
+                    <p n="30"> 
+                        <lb/>D'où vient que nos Triomphes sont <note type="margin">Le peu de <lb/>succès 
+                            des <lb/>prédications, <lb/>procede de <lb/>l'endurcissement des <lb/>Chrêtiens.</note> 
+                        <lb/>ainsi diminuez ? Nous n'avons pas , 
+                        <lb/>je l'avouë , les lumieres aussi vives , 
+                        <lb/>aussi étenduës, que S. Paul ; nos paroles 
+                        <lb/>ne sont pas comme des foudres; 
+                        <lb/>nos soins ne sont pas si actifs ; nôtre 
+                        <lb/>constance si poussée ; nôtre exemple 
+                        <lb/>si digne d'être imité ; Mais n'avons- 
+                        <lb/>nous pas encore toutes les armes de 
+                        <lb/>cet Apôtre ? Ne pouvons-nous pas 
+                        <lb/>puiser dans le Vieux &amp; dans le Nouveau 
+                        <lb/>Testament , toutes les leçons , 
+                        <lb/>tous les motifs, tous les exemples des 
+                        <lb/>Saints, pour faire impression dans les 
+                        <lb/>cœurs ? Disons-le à nôtre honte, Mes 
+                        <lb/>Freres, peut-être sommes-nous plus obstinez, 
+                        <lb/>plus incorrigibles qu'on ne 
+                        <lb/>l'étoit du tems de S. 
+                        Paul.<!--ci-dessus, l’avis personnel du pasteur qui regrette que son public ne soit pas aussi attentif et convaincu que ne l’était celui de S. Paul dans l’Antiquité.--></p> 
+                    <p n="31"> 
+                        <lb/>Faisons cesser ces justes &amp; honteux <note type="margin">Exhortation 
+                            <lb/>à profiter <lb/>des <lb/>Sermons,<lb/>&amp; à faire <lb/>triompher <lb/>dans les <lb/>cœurs la 
+                            <lb/>doctrine <lb/>Chrêtienne.</note> 
+                        <lb/>reproches : Aportons des oreilles attentives, 
+                        <lb/>des cœurs dociles aux leçons 
+                        <lb/>de JESUS-CHRIST : Faisons les triompher 
+                        <lb/>par le sacrifice de nos passions , 
+                        <lb/>par une bonne &amp; sainte vie. Faites 
+                        <lb/>ainsi triompher les Ministres de JESUS- 
+                        <lb/>CHRIST, &amp; qu'ils n'ayent point à se 
+                        <lb/>plaindre de l'inutilité de leurs discours <fw place="bot-right" type="catch">&amp;</fw> 
+                         <pb n="32"/> 
+                        <lb/>&amp; de leurs travaux. C'est peu que 
+                        <lb/>de leur donner des éloges ; c'est peu 
+                        <lb/>de loüer leur esprit, leur éloquence, 
+                        <lb/>leurs lumieres ; une conduite Antichrêtienne 
+                        <lb/>détruit tout d'un coup les louanges 
+                        <lb/>les plus unanimes. S'ils s'aimoient 
+                        <lb/>uniquement eux-mêmes , ils seroient 
+                        <lb/>contens d'être admirez ; mais s'ils vous 
+                        <lb/>aiment, comme vous n'en pouvez douter , 
+                        <lb/>ils veulent d'autres matieres de 
+                        <lb/>triomphes. C'est une gloire solide 
+                        <lb/>pour eux, si l'on peut dire ; Leurs 
+                        <lb/>discours ont obligé cet homme injuste 
+                        <lb/>à restituer ce qu'il avoit ravi à 
+                        <lb/>son prochain : Ce Sermon a fait rompre 
+                        <lb/>à cet impudique le honteux commerce 
+                        <lb/>qu'il entretenoit depuis longtems : 
+                        <lb/>Leurs exhortations ont gueri 
+                        <lb/>cet autre de la funeste passion qu'il 
+                        <lb/>avoit au jeu, &amp; l'ont porté à des occupations 
+                        <lb/>plus utiles, plus importantes. 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Phil.2.3-4"> 
+                                <hi rend="I">Ph. ch. II.</hi> <lb/>ꝟ. 3. 
+                                4.</ref> 
+                        </note> O alors, <quote source="bible1588.xml#Phil.2.3-4"> 
+                            <hi rend="I">vous feriez nôtre joye &amp; nôtre 
+                                <lb/>Couronne , vous feriez nôtre Epître 
+                                <lb/>de recommandation écrite dans vos cœurs : 
+                                <lb/>Si donc il y a quelque consolation en 
+                                <lb/>CHRIST, s'il y a quelque soulagement 
+                                <lb/>de charité , rendez nôtre joye accomplie</hi> 
+                        </quote> ; 
+                        <lb/>qu'il ne soit pas dit que<hi rend="I"> </hi> 
+                        <quote source="bible1588.xml#_2Cor.6.1"> 
+                            <hi rend="I">vous ayez reçû 
+                                <lb/>la grace de DIEU en vain</hi> 
+                        </quote>, &amp; qu'au <fw place="bot-right" type="catch">milieu</fw> 
+                         <pb n="33"/> 
+                        <lb/>milieu de tant de lumieres , vous marchiez 
+                        <lb/>comme des enfans de ténébres. 
+                        <lb/>Plûtôt, prêtez-nous la main dans ces 
+                        <lb/>combats ; joignez vous à nous pour 
+                        <lb/>livrer une guerre immortelle à l'erreur 
+                        <lb/>&amp; au peché ; contraignons ces Monstres 
+                        <lb/>ennemis , à retourner dans l'abyme. 
+                        <lb/>Que l'innocence &amp; la vérité prennent 
+                        <lb/>leur place ; qu'elles paroissent dans 
+                        <lb/>nos discours &amp; dans nos actions. Ne craignons 
+                        <lb/>point de succomber dans 
+                        <lb/>cette guerre : C'est pour JESUS-CHRIST 
+                        <lb/>que nous combattons : Il a applani le 
+                        <lb/>chemin de la victoire ; il a désarmé 
+                        <lb/>nos ennemis ; <quote source="bible1588.xml#Rom.16.20"> 
+                            <hi rend="I">Et bien-tôt le DIEU de paix 
+                                <lb/>brisera Satan sous nos pieds. Bien-tôt 
+                                <lb/>nous aurons ensemble relâche</hi> 
+                        </quote> : Bien-tôt 
+                        <lb/>nous pourrons dire ; <quote source="bible1588.xml#_2Tim.4.7-8"> 
+                            <hi rend="I">J'ai combattu le </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Tim.4.7-8"> 
+                                    <hi rend="I">II. Tim. ch. <lb/>IV</hi>. 
+                                    ꝟ. 7.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">bon combat ; j'ai achevé ma course ; quant 
+                                <lb/>au reste, la Couronne de justice m'est reservée, 
+                                <lb/>que le Seigneur donnera à tous 
+                                <lb/>ceux qui ont aimé son apparition</hi> 
+                        </quote>. 
+                    </p> 
+                    <p n="32"> 
+                        <lb/>AMEN.</p> 
+                </div> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

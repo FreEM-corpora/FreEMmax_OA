@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1598_Nicolas_Séguier_RSL"> 
+            <titleStmt> 
+                <title type="sermon">SECONDE HOMELIE sur le cinquantetroisiesme chap. de la prophetie d'Esaye, vers. 1. ...</title> 
+                <title type="book">Vintquatre Homelies, ou, Sermons familiers, sur le LIII. Chap. 
+                    du Livre des Revelations du prophete Esaïe : Composees par N. Seguier, Parisien, 
+                    Ministre de la parole de Dieu en la ville de Lausanne, [Genève], Pour Iacques 
+                    Chouët, M. D. XCVIII.</title> 
+                <author ref="...">Nicolas Séguier</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="RSL">Ruth STAWARZ-LUGINBUEHL</persName> 
+                        <email>ruth.luginbuhl@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Nicolas Séguier</author> 
+                        <title>Vintquatre Homelies, ou, Sermons familiers, sur le LIII. Chap. du 
+                            Livre des Revelations du prophete Esaïe</title> 
+                        <imprint> 
+                            <pubPlace>Genève</pubPlace> 
+                            <publisher>Jacques Chouët</publisher> 
+                            <date>1598</date>
+                            <date type="sermon"/>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="URI">http://doi.org/10.3931/e-rara-6865</idno>
+                    <idno type="source">Bibliothèque de Genève</idno>
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">homélie</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">24</term>
+                    <term type="typeOfCollection">lectio continua</term>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Isa.53.1</term>
+                    <term type="paratext" subtype="epistle">A TRESMAGNIFIQVES, Puissans, &amp; souuerains Seigneurs de la ville &amp; Canton de Berne</term>
+                    <term type="paratext" subtype="preface">AV LECTEVR Chrestien</term>
+                    <term type="paratext" subtype="other">Sonnet de l'autheur</term>
+                </keywords> 
+            </textClass>
+            <langUsage>
+                <language ident="fr">français préclassique</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-03-04" who="#LjD">transformation word - XML</change> 
+            <change when="2016-03-04" who="#MAG">Verification, citations</change> 
+            <change when="2014-04-30" who="#RSL">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                 <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>VINTQVATRE 
+                    <lb/>HOMELIES, 
+                    <lb/>OV, 
+                    <lb/>SERMONS FAMILIERS, 
+                    <lb/>SVR LE LIII. CHAP. DV LIVRE 
+                    <lb/>DES REVELATIONS DV 
+                    <lb/>PROPHETE ESAÏE : 
+                    <lb/> 
+                    <hi rend="I">Composees </hi>PAR N. SEGVIER, <hi rend="I">Parisien</hi>, 
+                    <lb/> 
+                    <hi rend="I">Ministre de la parole de Dieu en la 
+                        <lb/>ville de Lausanne</hi>.<figure/> 
+                    <lb/>Pour Iaques Chouët. 
+                    <lb/>M. D. XCVIII.</p> 
+            </div> 
+        </front> 
+        <body> 
+            <div type="sermon"> 
+                 <pb n="18"/> 
+                <head type="main"> 
+                    <lb/>SECONDE HOMELIE 
+                    <lb/>sur <ref type="bible" target="bibleSegond21.xml#Isa.53.1">le cinquantetroisiesme chap. de la prophetie 
+                        <lb/>d'Esaye, vers. 1.</ref> 
+                    <lb/> 
+                    <lb/> 
+                    <quote source="bibleOlivetan.xml#Isa.53.1B"> 
+                        <hi rend="I">Et à qui est-ce que le bras du Seigneur est reuelé 
+                        </hi></quote>? 
+                </head> 
+                <p n="1"> 
+                    <lb/><c type="letterine">L</c>'Apostre S. Paul, au 3. chap. de la seconde aux Corin.
+                    <lb/>vers. 6. parlant du ministere de la parole de Dieu, le 
+                    <lb/>nous propose double, assauoir, vn de letre, &amp; l'autre d'Esprit : 
+                    <lb/>comme aussi au 2. de la premiere vers. 4. il dit, Que 
+                    <lb/>sa predication n'a point esté en paroles &amp; sapience humaine, 
+                    <lb/>mais en euidence d'Esprit &amp; de puissance : nous 
+                    <lb/>monstrant par cela, qu'outre le ministere &amp; la predication 
+                    <lb/>exterieure, il y a vne force &amp; puissance du S. Esprit, 
+                    <lb/>laquelle Dieu besongne en nos cœurs : voire, sans 
+                    <lb/>laquelle le ministere de letre nous tue. Voila pourquoi, 
+                    <lb/>quand Dieu voulut enuoyer le Prophete, il lui fit ceste 
+                    <lb/>promesse, comme il est escrit au <ref type="bible" target="bibleSegond21.xml#Isa.59.21">59. de sa prophetie 
+                        <lb/>vers. 21</ref>, <quote source="bibleSegond21.xml#Isa.59.21">Mon Esprit qui est en toi, &amp; 
+                        mes paroles que 
+                        <lb/>i'ai mises en ta bouche, ne bougeront point de ta bouche, 
+                        <lb/>ne de la bouche de ta semence, ne de la bouche de 
+                        <lb/>la semence de ta semence</quote>. Et c'est ce que 
+                    nostre mesme 
+                    <lb/>Prophete adiouste au propos precedent ; ou, se complaignant 
+                    <lb/>de l'incredulité du peuple, &amp; aduertissant, 
+                    <lb/>que ceste incredulité continueroit au monde, il auoit 
+                    <lb/>demandé, <quote source="bibleSegond21.xml#Isa.53.1">Qui est-ce qui a creu à nostre predication</quote>, 
+                    <lb/>&amp; qui est-ce qui y croira par ci apres ? Et maintenant il 
+                    <lb/>demande, <quote source="bibleSegond21.xml#Isa.53.1">Et à qui est-ce que le bras du Seigneur est 
+                        reuelé</quote>, 
+                    <lb/>ou sera reuelé ? monstrant par cela, que non seulement 
+                    <lb/>les hommes se boucheront les oreilles, pour ne 
+                    <lb/>point ouir la predication exterieure, mais aussi s'endurciront 
+                    <lb/>les cœurs, pour ne point accepter &amp; receuoir 
+                    <lb/>ceste puissance &amp; bras interieur qui est proposé auec la 
+                    <lb/>parole. C'est vne chose toute notoire en l'Escriture 
+                    <lb/>saincte, que quand il est fait mention du Bras de Dieu, 
+                    <lb/>le mot de, Bras, est pris pour sa puissance ; comme nous <fw place="bot-right" type="catch">voy</fw> 
+                     <pb n="19"/> 
+                    <lb/>voyons que Dauid dit au Pseaum. 118. que la dextre du 
+                    <lb/>Seigneur est haut esleuee, &amp; qu'elle a fait vertu. Et en 
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Exod.6.6">Exod. 6. chap. vers. 6.</ref> le Seigneur promet a son peuple 
+                    <lb/>qu'il le garentira en bras estendu, &amp; en grands iugemens. 
+                    <lb/>Il ne faut donc pas que nous pensions, comme 
+                    <lb/>les Antropomorphites, que Dieu ait des bras, des pieds, 
+                    <lb/>ou des mains : car c'est vne Essence spirituelle : mais 
+                    <lb/>quand l'Escriture nous veut parler de sa puissance &amp; 
+                    <lb/>de sa force, elle vse de ce mot de, Bras ; pour ce que les 
+                    <lb/>hommes monstrent ordinairement les exploits de leur 
+                    <lb/>force par le bras. Au reste nous pouuons recognoistre 
+                    <lb/>double bras de Dieu : ou, plustost, son bras se monstre en 
+                    <lb/>deux sortes. La premiere, est generale, non seulement 
+                    <lb/>en la creation de toutes choses, mais aussi en la conduicte 
+                    <lb/>&amp; conseruation d'icelles. Car tout ainsi que par sa 
+                    <lb/>force &amp; par sa vertu, il a donné estre aux creatures ; voire 
+                    <lb/>mesmes, que deuant qu'elles fussent, cest Esprit &amp; 
+                    <lb/>ceste Vertu reposoit sur les eaues : aussi par ceste mesme 
+                    <lb/>Vertu il nourrit, conserue, entretient, &amp; conduict toutes 
+                    <lb/>les creatures. Et c'est ce que dit Dauid au <ref type="bible" target="bibleSegond21.xml#Ps.104.27">Pseau. 104 
+                        <lb/>vers. 27</ref>, &amp; <ref type="bible" target="bibleSegond21.xml#Ps.141.15-16">au Pseaum. 141. vers. 15. 
+                            &amp; 16.</ref><quote source="bibleSegond21.xml#Ps.145.15">Les yeux de tous 
+                    <lb/>s'arrestent sur toi, afin que tu leur donnes viande à chacun 
+                                <lb/>en son temps </quote>! <quote source="bibleSegond21.xml#Ps.145.16">Tu ouures ta main, &amp; rassasies à souhait 
+                                <lb/>toute creature viuante</quote>. Le mesme Prophete, au 
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Ps.104.30">Pseau. 104. vers. 30.</ref> appelle ceste Main, &amp; ce 
+                    Bras, Esprit, 
+                    <lb/>comme Moyse fait aussi, <quote source="bibleSegond21.xml#Ps.104.29-30">Quand tu retires ton Esprit 
+                    <lb/>des creatures, elles defaillent, mais si derechef du remets 
+                        <lb/>ton Esprit en elles, elles viuent</quote>. Ceste Vertu donc 
+                    <lb/>interieure, laquelle est aux creatures, &amp; par laquelle elles 
+                    <lb/>sont conseruees en estre, soyent hommes, animaux, 
+                    <lb/>plantes, ou herbes, c'est ce bras general de Dieu. Il y a 
+                    <lb/>par apres le Bras particulier, lequel Dieu monstre en 
+                    <lb/>la defence, &amp; protection de ses enfans ; duquel parle 
+                    <lb/>Dauid au <ref type="bible" target="bibleSegond21.xml#Ps.44">Pseau. 44</ref>, disant, que Dieu auoit conquesté 
+                    <lb/>la terre promise, &amp; auoit planté son peuple par son 
+                    <lb/>bras : &amp; au <ref type="bible" target="bibleSegond21.xml#Ps.77.16">77. vers. 16.</ref> 
+                    <quote source="bibleSegond21.xml#Ps.77.16">Tu as recoux ton peuple par ton 
+                        <lb/>bras</quote>. Or, ces deux bras, ou, plustost, ces deux sortes de la <pb n="20"/> 
+                    <lb/>declaration, &amp; manifestation du bras, &amp; de la puissance 
+                    <lb/>de Dieu, se voyent, &amp; monstrent en ses œuures, &amp; aux 
+                    <lb/>creatures. Mais il y a vn autre bras de Dieu lequel se 
+                    <lb/>manifeste, &amp; declare en sa parole, qui est, ceste Vertu &amp; 
+                    <lb/>puissance du S. Esprit, besoignant à vie es enfans de 
+                    <lb/>Dieu, &amp; fideles, &amp; à mort es enfans d'incredulité, &amp; de 
+                    <lb/>rebellion. Or est-il certain, que le Prophete, par la complainte 
+                    <lb/>qu'il fait, <quote source="bibleSegond21.xml#Isa.53.1">A qui est-ce que le bras du Seigneur 
+                        <lb/>a esté reuelé</quote>, veut comprendre en general 
+                    toute ceste 
+                    <lb/>puissance de Dieu, soit en ses œuures, soit en sa parole, 
+                    <lb/>laquelle tous hommes aussi en general, ne considerent 
+                    <lb/>pas, &amp; ne recognoissent pas comme ils doiuent : mais 
+                    <lb/>estans abrutis en la terre, s'arrestent aux creatures, &amp; 
+                    <lb/>aux choses basses, &amp; exterieures, par lesquelles elles 
+                    <lb/>sont engendrees, &amp; conseruees. Et de faict, combien y 
+                    <lb/>en a-il au monde, ausquels ceste vertu, &amp; puissance de 
+                    <lb/>Dieu soit reuelee ? A grand peine s'en trouuera il vn entre 
+                    <lb/>cent qui y pense. Les vns sont tellement stupides, 
+                    <lb/>qu'ils voyent naistre, grandir, &amp; continuer les choses 
+                    <lb/>sans y penser, ni sçauoir comment elles naissent, ni comment 
+                    <lb/>elles sont conseruees : &amp; passent leur vie vsant des 
+                    <lb/>creatures comme bestes ; &amp; font comme les pourceaux, 
+                    <lb/>qui mangent le gland, lequel tombe de dessus les chesnes, 
+                    <lb/>sans leuer la teste en haut, pour considerer d'ou il 
+                    <lb/>tombe. Les autres, se voulans vn peu plus curieusement 
+                    <lb/>enquerir, demeureront attachés à ie ne sçai quelle 
+                    <lb/>nature, ou à vne certaine puissance qui est aux creatures, 
+                    <lb/>ou à vne influence par laquelle elles sont conduictes, 
+                    <lb/>&amp; gouuernees. Les autres qui passeront plus outre, 
+                    <lb/>&amp; qui cognoistront, &amp; confesseront vn bras, &amp; vne puissance 
+                    <lb/>de Dieu, s'attacheront, &amp; appuyeront toutesfois 
+                    <lb/>sur leur bras, mettant toute leur fiance en leur force, &amp; 
+                    <lb/>en leurs richesses, &amp; sacrifieront, comme dit <ref type="bible" target="bibleSegond21.xml#Hab.1.16">Habacuc 
+                        <lb/>au 1. chap. vers. 16.</ref> a leur rets, &amp; à leur filé : tellement que 
+                    <lb/>on n'en voit gueres ausquels ce bras du Seigneur general, 
+                    <lb/>qui se manifeste en ses œuures, soit reuelé. Et n'est 
+                    <lb/>pas sans cause que le Prophete fait ceste exclamation, <fw place="bot-right" type="catch">pour</fw> 
+                     <pb n="21"/> 
+                    <lb/>pour taxer en general, la maudite incredulité, &amp; stupidité 
+                    <lb/>des hommes. Ce n'est pas à dire pourtant, que ce 
+                    <lb/>bras vniuersel de Dieu ne se monstre clairement. Car 
+                    <lb/>qui est celui, lequel, au ciel, en l'air, en la terre, &amp; es 
+                    <lb/>eaues, ne voit reluire ceste puissance, &amp; ceste force ? <quote source="bibleSegond21.xml#Ps.19.2">Les 
+                        <lb/>cieux<seg type="interpolation">, dit Dauid au <ref type="bible" target="bibleSegond21.xml#Ps.19">Pseaum. 
+                            19</ref>,</seg> annoncent la gloire de 
+                        <lb/>Dieu</quote>. S. Paul au <ref type="bible" target="bibleSegond21.xml#Rom.1.20">1. des Rom. vers. 
+                        20.</ref> dit, Que les cieux, 
+                    <lb/>&amp; la terre, sont les images visibles, de la puissance, &amp; diuinité 
+                    <lb/>de Dieu. Et ce pendant, le monde est tellement aueuglé 
+                    <lb/>qu'il n'y voit goute. Or s'il ne voit goute en ce 
+                    <lb/>liure, lequel, comme Dieu dit par son Prophete, est escrit 
+                    <lb/>en si grosses letres, nous esmerueillons-nous s'il est 
+                    <lb/>du tout aueugle en cest autre liure de la parole, &amp; predication, 
+                    <lb/>auquel se monstre le bras, &amp; la puissance de 
+                    <lb/>Dieu en salut aux croyans, &amp; à mort aux infideles ? Et 
+                    <lb/>c'est de ce bras duquel le Prophete fait principalement 
+                    <lb/>sa cõplainte, <quote source="bibleSegond21.xml#Isa.53.1">A qui est-ce que le bras du Seigneur 
+                        est reuelé </quote>? 
+                    <lb/>Comme s'il vouloit dire, Il ne se faut pas estonner 
+                    <lb/>si on ne croit pas, &amp; si on ne croira point à nostre predication, 
+                    <lb/>c'est dautant que le bras du Seigneur n'est pas 
+                    <lb/>reuelé : Car il n'y a que ceux, ausquels ceste puissance 
+                    <lb/>du Seigneur est reuelee, qui embrassent ceste parole, selon 
+                    <lb/>qu'il fut dit à S. Pierre par nostre Seigneur Iesus, apres 
+                    <lb/>ceste excellente confession par lui faite, <quote source="bibleSegond21.xml#Matt.16.17">La chair, 
+                        <lb/>&amp; le sang ne te l'ont pas reuelé, mais l'Esprit de mon 
+                        <lb/>Père</quote>, comme il est escrit au <ref type="bible" target="bibleSegond21.xml#Matt.16.17">16. chap. de S. 
+                        Matth. vers. 17.</ref> 
+                    <lb/>Or, ce bras du Seigneur qui se manifeste en sa parole, 
+                    <lb/>regarde, premierement, la promesse excellente de salut, 
+                    <lb/>par laquelle Dieu promet à ses enfans d'estre leur Dieu, 
+                    <lb/>&amp; de les sauuer, tant de la mort eternelle, qu'aussi de 
+                    <lb/>toutes les autres afflictions, esquelles ils seront enserrez. 
+                    <lb/>Et c'est dequoi se complaint le Prophete, que combien 
+                    <lb/>que Dieu ait fait ceste promesse, il y en a neantmoins 
+                    <lb/>bien peu qui la reçoiuent, &amp; embrassent : &amp; que 
+                    <lb/>cela ne procede d'ailleurs sinon que ceste vertu, &amp; puissance 
+                    <lb/>de Dieu, ne leur est pas persuadee. Des le commencement 
+                    <lb/>du monde Dieu a fait ceste promesse de <pb n="22"/> 
+                    <lb/>vie, disant, Que la semence de la femme biseroit la testre 
+                    <lb/>du serpent : combien y en a-il qui y ayent creu ? Cela 
+                    <lb/>se peut voir par l'estat auquel estoit le monde lorsque 
+                    <lb/>Dieu vint refaire ceste alliance auec Abraham auquel, 
+                    <lb/>&amp; à sa posterité, ceste premiere promesse estant proposee, 
+                    <lb/>combien y en a-il de ses enfans lesquels l'ayent receu ? 
+                    <lb/>Moyse est enuoyé par apres pour la reiterer : lequel 
+                    <lb/>mesmes par signes &amp; miracles, monstre &amp; fait voir deuant 
+                    <lb/>les yeux du peuple ce bras fort &amp; ceste main estendue 
+                    <lb/>de Dieu : &amp;, ce pendant, le peuple ne le peut aprehender, 
+                    <lb/>mais cerche son secours aux dieux estranges &amp; 
+                    <lb/>au bras de la chair : ce bras n'est point reuelé, &amp;, pour 
+                    <lb/>ceste occasion, ceste promesse n'est point receue. Le Seigneur 
+                    <lb/>par apres fait les promesses particulieres d'assistance 
+                    <lb/>&amp; deliurance des afflictions, &amp;, neantmoins, l'infidelité 
+                    <lb/>les reiette, pour ce que ce bras n'est point reuelé. 
+                    <lb/>Or en cela voit-on qu'il n'est pas reuelé, que les 
+                    <lb/>hommes ne se fient pas aux promesses de Dieu. Christ 
+                    <lb/>est venu. Les Apostres sont venus, &amp; ont tous proposé 
+                    <lb/>ceste promesse, mais dautant que le monde n'aprehende 
+                    <lb/>pas ceste vertu &amp; puissance de Dieu, il n'y peut croire 
+                    <lb/>comme il doit : car, si ceste vertu &amp; puissance de Dieu 
+                    <lb/>leur estoit reuelee, il ne faut point douter qu'ils ne 
+                    <lb/>creussent : comme nous voyons que l'Apostre dit au 
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Heb.11.19">chap. 11. des Hebr. vers. 19</ref>, qu'Abraham a creu quand il 
+                    <lb/>lui fut commandé d'immoler Isaac, pour ce qu'il a estimé 
+                    <lb/>que Dieu le pouuoit resusciter des morts : l'asseurance 
+                    <lb/>aussi qu'Isaac a eu de ceste puissance a fait qu'il a 
+                    <lb/>donné benediction à Iacob de choses à venir, comme il 
+                    <lb/>est dit au mesme chap. vers. 20. Moyse, estant grand, a 
+                    <lb/>refusé d'estre nommé fils de la fille de Pharao, &amp; a plustost 
+                    <lb/>esleu d'estre affligé auec le peuple de Dieu, estimant 
+                    <lb/>l'oprobre de Christ plus grandes richesses que 
+                    <lb/>les thresors qui estoyent en Egypte, pour ce que le bras 
+                    <lb/>de Dieu lui a esté reuelé : Cela aussi a fait passer la mer 
+                    <lb/>rouge au peuple. D'ou vient qu'André, Philippe, Pierre, 
+                    <lb/>&amp; les autres Apostres, aussi tost qu'ils sont appellez à <fw place="bot-right" type="catch">Christ</fw> 
+                     <pb n="23"/> 
+                    <lb/>Christ, quittent incontinent tout, &amp; le suiuent ? D'ou 
+                    <lb/>vient que S. Paul, oyant Christ du ciel, est incontinent 
+                    <lb/>changé, &amp; obeit, combien qu'auparauant, ayant oui 
+                    <lb/>S. Estienne, il fust demeuré en son incredulité ? D'ou 
+                    <lb/>vient que plusieurs milliers de Iuifs, lesquels, ayans ouy 
+                    <lb/>Christ, n'auoyent point creu à sa parole, sont conuertis 
+                    <lb/>par vne seule predication de S. Pierre ? cela vient de ce 
+                    <lb/>que ce bras de Dieu qui ne leur auoit point esté reuelé, 
+                    <lb/>l'est. D'ou vient qu'Herodes, Ponce Pilate, les Scribes 
+                    <lb/>&amp; Pharisiens, &amp; la plus grande partie du peuple, ne se 
+                    <lb/>conuertissent point par la parole, ni par les miracles de 
+                    <lb/>Christ ? C'est dautant que ce bras ne leur est pas reuelé. 
+                    <lb/>Il y en a, donc, plusieurs au monde, lesquels en oyant 
+                    <lb/>n'oyent point, &amp; quelque parole qui retentisse en leurs 
+                    <lb/>oreilles, n'en deuiennent point meilleurs. Il y en a plusieurs, 
+                    <lb/>lesquels liront, mais, comme dit le Prophete au 
+                    <lb/>29. chap. 12. vers. ils diront qu'on leur ouure le liure : &amp; 
+                    <lb/>comme dit S. Paul en la <ref type="bible" target="bibleSegond21.xml#_2Tim.3.7">2. à Timoth. 3. chap. 7. 
+                        vers.</ref> en 
+                    <lb/>apprenant ils ne prouffitent rien : &amp; c'est, pour ce que 
+                    <lb/>ceste vertu du S. Esprit ne frappe point leurs cœurs, 
+                    <lb/>tellement qu'ils ne voyent que des letres &amp; du papier. 
+                    <lb/>Cela aussi est cause que toute la sapience du monde se 
+                    <lb/>moque des choses, lesquelles nous sont proposees en 
+                    <lb/>l'Euangile, touchant Christ &amp; le salut que nous obtenons 
+                    <lb/>de lui : qu'elles sont scandale aux Iuifs, &amp; folie aux 
+                    <lb/>Grecs. Comme, au contraire, ceux ausquels ce bras est 
+                    <lb/>reuelé, croyent que par les souffrances &amp; mort de 
+                    <lb/>Christ, nous sommes deliurez de la mort : que nos iniquitez 
+                    <lb/>sont lauees en son sang : que par sa resurrection 
+                    <lb/>nous sommes faits participans de iustice &amp; d'immortalité : 
+                    <lb/>&amp;, que, comme il est resuscité, nous resusciterons 
+                    <lb/>aussi, pour estre faits conformes au corps glorieux auquel 
+                    <lb/>il est resuscité. Voila pourquoi Christ disoit en ceste 
+                    <lb/>saincte priere qui est au <ref type="bible" target="bibleSegond21.xml#John.17">17. chap. de S. Iean</ref>, 
+                    <quote source="bibleSegond21.xml#Matt.11.25;Luc.10.21">Pere, ie te 
+                        <lb/>ren graces, de ce que tu as caché ces choses aux grands, 
+                        <lb/>&amp; les as reuelé aux 
+                        petis</quote>. Le monde ne cognoist point, 
+                    <lb/>&amp; ne peut apprehender ceste puissance de Dieu. Et <pb n="24"/> 
+                    <lb/>tout ainsi qu'il ne l'apprehende point en ce qui concerne 
+                    <lb/>son salut, &amp; que par ce moyen il demeure enuelopé 
+                    <lb/>en ignorance, &amp; en la mort : aussi voyons nous qu'il ne 
+                    <lb/>l'aprehende point en ce qui cõcerne la regeneration, &amp; 
+                    <lb/>la victoire que Christ a obtenu sur le diable, la mort, &amp; 
+                    <lb/>le peché. Cela ne monstre il pas clairement que ce bras 
+                    <lb/>de Dieu n'est pas reuelé, quand on voit que le diable, &amp; 
+                    <lb/>le peché ont encore leur regne aux hommes ? Car le 
+                    <lb/>bras de Dieu, n'est-ce pas ceste puissance, &amp; ce regne 
+                    <lb/>qu'il doit auoir en nous, &amp; par lequel il doit auoir vaincu, 
+                    <lb/>&amp; subiugué ses ennemis, &amp; les nostres, en nous, afin 
+                    <lb/>que, combien qu'ils soyent encores en nous, ils ne soyent 
+                    <lb/>pas toutesfois les maistres ? Et ceux lesquels ils 
+                    <lb/>maistrisent, &amp; dominent, ne monstrent ils pas clairement, 
+                    <lb/>que ce bras n'est pas encore reuelé en eux ? Quand 
+                    <lb/>aussi nous obeissons à nos concupiscences, &amp; volontez 
+                    <lb/>plustost qu'à Dieu, ne monstrons nous pas euidemment 
+                    <lb/>que ce bras de Dieu n'est pas encore reuelé en nous ? 
+                    <lb/>S'il y estoit reuelé Dieu ne nous gouuerneroit il pas ? 
+                    <lb/>Ne nous rangerions nous pas à sa volonté ? Ne renoncerions 
+                    <lb/>nous pas à nous mesmes, &amp; ne verroit on pas la 
+                    <lb/>puissance qu'il auroit sur nous, en nous maniant, &amp; 
+                    <lb/>conduisant selon son vouloir ? Et, ce pendant, ou est-ce 
+                    <lb/>qu'on voit cela auiourdhui ? Ou apperçoit on ceste obeissance ? 
+                    <lb/>Ne voit-on point plustost vne desobeissance, 
+                    <lb/>&amp; rebellion ? tellement, que tout ainsi qu'en ce qui concerne 
+                    <lb/>la foy, &amp; le salut des hõmes, on ne voit que crainte, 
+                    <lb/>defiance, pusilanimité, &amp; reuolte : nous tremblons au 
+                    <lb/>son de la feuille, &amp; la moindre tentation qui se propose 
+                    <lb/>nous abat par terre : aussi en ce qui concerne la vertu 
+                    <lb/>interieure de cest Esprit de Dieu, par lequel il besoigne 
+                    <lb/>en nostre nature, la mortifiant, &amp; nous regenerant, &amp; 
+                    <lb/>viuifiant, on n'en voit que bien peu, &amp; en peu de personnes, 
+                    <lb/>d'apperceuance : &amp; pour ceste occasion, il semble 
+                    <lb/>que ceste parole soit comme vn son mort, &amp; vain : 
+                    <lb/>comme aussi certes elle est en ceux esquels le bras de 
+                    <lb/>Dieu ne se voit point. Et voila pourquoi le Prophete, <fw place="bot-right" type="catch">voy</fw> 
+                     <pb n="25"/> 
+                    <lb/>voyant tant d'incredulité de son temps, tant de defiance, 
+                    <lb/>tant de corruption, &amp; rebellion contre Dieu, demande, 
+                    <lb/>à qui est-ce que ce bras est reuelé ? Et si le Prophete 
+                    <lb/>l'a crié de son temps, helas ! quelle occasion auons 
+                    <lb/>nous maintenant de le crier, ou nous voyons les 
+                    <lb/>choses estre empirees, qu'il semble qu'elles 
+                    <lb/>soyent venues a leur comble ! Ie ne di pas si nous considerons 
+                    <lb/>les Payens, &amp; Ethniques, ni mesmes ceux qui se 
+                    <lb/>vantent de Chrestienté, esquels neantmoins, non seulement 
+                    <lb/>l'infidelité, mais aussi la rage contre la parole de 
+                    <lb/>Dieu, &amp; la cruauté qu'ils exercent contre ses enfans se 
+                    <lb/>voit, auec vn desbordement, &amp; deluge de toutes sortes 
+                    <lb/>de meschancetez : mais aussi si nous nous considerons 
+                    <lb/>nous mesmes, qui nous vantons de reformation, comment 
+                    <lb/>est-ce que ce bras de Dieu est reuelé au milieu de 
+                    <lb/>nous ? Il est veritablement reuelé en ce qui concerne la 
+                    <lb/>religion, &amp; la doctrine ; car, le Seigneur ayant par sa misericorde 
+                    <lb/>chassé du milieu de nous les superstitions, &amp; 
+                    <lb/>fauce religion, y a planté le sceptre de sa parole : a touché 
+                    <lb/>le cœur des Princes pour y mettre la reformation, 
+                    <lb/>&amp; de doctrine, &amp; de vie : a aussi entretenu, &amp; conserué 
+                    <lb/>son Eglise, nonobstant la rage, &amp; cruauté de ses ennemis : 
+                    <lb/>mais si on iette les yeux sur nous, si on considere nostre 
+                    <lb/>zele, nostre foy, &amp; nostre vie, ou est ce que ce bras 
+                    <lb/>de Dieu se monstre ? ou est ceste ferme fiance, &amp; asseurance 
+                    <lb/>que nous deuons auoir en nos afflictions ? ou est ceste 
+                    <lb/>ardeur qu'on deuroit voir en nous au seruice de nostre 
+                    <lb/>Dieu, &amp; à escouter sa parole ? ou est ceste reformation 
+                    <lb/>de vie ? Les yurongnes laissent ils d'yurongner, les paillards 
+                    <lb/>de paillarder, les blasphemateurs, &amp; iureurs de iurer ? 
+                    <lb/>Les querelles, debats, &amp; noises cessent-elles ? y a il vne 
+                    <lb/>telle charité, &amp; amitié entre nous comme elle deuroit ? 
+                    <lb/>Voila, voila le bras de Dieu qui se deuroit monstrer : 
+                    <lb/>&amp; ce pendant, à qui est-ce, ou, par qui est-ce qu'il 
+                    <lb/>est reuelé ? Les pasteurs le declarent assez, &amp; monstrent 
+                    <lb/>assez quelle est la vertu, &amp; puissance de Dieu en sa parole ; 
+                    <lb/>&amp;, ce pendant, cela ne prent aucune racine aux <pb n="26"/> 
+                    <lb/>cœurs : tellement, qu'il semble que ceste poure parole 
+                    <lb/>n'ait aucune vertu : si en a elle vne : &amp; puisque nous ne 
+                    <lb/>monstrons pas ce bras de Dieu en ceste façon, il se fera 
+                    <lb/>voir en vne autre, assauoir, en ses iustes iugemens &amp; vengeances, 
+                    <lb/>qu'il exercera à l'encontre de nostre infidelité. 
+                    <lb/>Voila comment il a fait à l'endroit du peuple contre lequel 
+                    <lb/>Esaye crie, <quote source="bibleSegond21.xml#Isa.53.1">A qui est-ce que le bras du Seigneur 
+                        <lb/>est reuelé </quote>? Car, dautant qu'ils n'ont point 
+                    voulu monstrer 
+                    <lb/>ceste puissance de Dieu, qui accompagne sa parole, 
+                    <lb/>tant en foy, qu'en obeyssance, ce bras s'est desployé, &amp; 
+                    <lb/>a frappé sur eux par vne infinité de maux, desquels ils 
+                    <lb/>ont esté batus, &amp; transportez en captiuité, tantost en 
+                    <lb/>vn lieu, &amp; tantost en vn autre. Il eust bien mieux valu 
+                    <lb/>pour eux, qu'ils eussent monstré, que ceste puissance de 
+                    <lb/>Dieu en salut, qui accompagne sa parole, leur auoit esté 
+                    <lb/>reuelee, &amp; qu'ils l'auoyent senti. Aussi faut-il que nous 
+                    <lb/>n'en attendions pas moins, si nous n'aduisons de receuoir 
+                    <lb/>ceste vertu &amp; ce bras, &amp; monstrer que vrayement 
+                    <lb/>il nous est reuelé. Pensons nous que ce soit assez d'ouir 
+                    <lb/>la parole, &amp; de faire quelque profession de religion, 
+                    <lb/>pour dire que nous soyons Chrestiens ? Ce peuple, contre 
+                    <lb/>lequel crie Esaye, ne l'a il point ouye ? N'ont ils 
+                    <lb/>point esté au temple ? Et ce pendant, que leur a serui cela, 
+                    <lb/>sinon d'vn plus grand iugement ? pour ce qu'ils ont 
+                    <lb/>foulé aux pieds ceste vertu excellente de Dieu, qui se 
+                    <lb/>presentoit à eux auec la predication. Et de faict, d'ou 
+                    <lb/>pensons nous que vient nostre salut &amp; nostre regeneration ? 
+                    <lb/>Il est vrai que le Seigneur a institué la predication 
+                    <lb/>&amp; le ministere exterieur : mais ce pendant, est-ce en cela 
+                    <lb/>que gist nostre asseurance ? Les letres &amp; la voix d'vn 
+                    <lb/>homme nous peuuent-elles sauuer ? Si le bras de Dieu 
+                    <lb/>n'accompagne la parole, pensons nous qu'elle puisse 
+                    <lb/>former la foy en nous, ou, qu'elle puisse regenerer ? Et 
+                    <lb/>quand Dieu attribue quelque fois cela à ses seruiteurs, 
+                    <lb/>c'est par concession, en leur accordant &amp; attribuant ce 
+                    <lb/>que neantmoins il fait par sa vertu ; pour monstrer que 
+                    <lb/>le ministere de sa parole n'est poin vain, cõme S. Iehan <fw place="bot-right" type="catch">Bapt</fw> 
+                     <pb n="27"/> 
+                    <lb/>Baptiste declare, au <ref type="bible" target="bibleSegond21.xml#John.1.26">1. chap. de l'Euangile selon S. Iehan 
+                        <lb/>vers. 26</ref>, <quote source="bibleSegond21.xml#John.1.26:27:33">I'ai baptizé d'eaue, mais il en 
+                        vient vn apres 
+                        <lb/>moi, qui est à preferer à moi, icelui vous baptizera au 
+                        <lb/>S. Esprit<!-- cita approximative --></quote>. 
+                    Et si ce bras &amp; ceste vertu ne se reuele, tous 
+                    <lb/>ceux ausquels il n'est pas reuelé, encor qu'ils oyent la 
+                    <lb/>parole, cela ne leur prouffite de rien. Que si la dessus 
+                    <lb/>quelcun replique, puisque ie ne peux croire si ce bras 
+                    <lb/>de Dieu &amp; ceste vertu de son Esprit ne besongne en 
+                    <lb/>moi, &amp; qu'il ne me soit point reuelé, pourquoi mon incredulité 
+                    <lb/>m'est elle imputee. &amp; pourquoi 
+                    suis ie condamné ? 
+                    <lb/>Si le Seigneur vouloit besongner en moi, ie 
+                    <lb/>croiroi aussi bien que les autres. Nous respondons par 
+                    <lb/>les paroles de l'Apostre S. Paul, <ref type="bible" target="bibleSegond21.xml#Rom.9">au 9. des Rom.</ref> 
+                    <quote source="bibleSegond21.xml#Rom.9.20">O homme 
+                        <lb/>qui es tu qui repliques contre Dieu </quote>? Toutes 
+                    les nations 
+                    <lb/>lesquelles n'ont point ce priuilege que d'auoir 
+                    <lb/>ouy la parole, se pourront-elles excuser la dessus, &amp; se 
+                    <lb/>garentir par ce moyen contre le iugement de Dieu ? 
+                    <lb/>Combien y a il eu de personnes particulieres en la terre, 
+                    <lb/>&amp; combien y en a il encores, esquelles elle n'est iamais 
+                    <lb/>paruenue ? Si les Iuifs fussent demeurez fermes en 
+                    <lb/>l'alliance, &amp; ne l'eussent point violee, tous les Gentils, 
+                    <lb/>qui en estoyent forclos, qui n'auoyent point de part 
+                    <lb/>aux promesses, &amp; lesquels, comme dit l'Apostre aux <ref type="bible" target="bibleSegond21.xml#Eph.2.12">Ephes. 
+                        <lb/>2. chap. 12. vers.</ref> estoyent sans Dieu, se pouuoyent 
+                    <lb/>ils excuser &amp; defendre contre Dieu ? L'Apostre, au commencement 
+                    <lb/>de l'epistre aux Rom. ne les rend il pas inexcusables 
+                    <lb/>deuant le iugement de Dieu ? Si toutes les 
+                    <lb/>nations du monde qui n'auoyent pas les promesses, ne 
+                    <lb/>laissoyent d'estre iustement condamnees deuant Dieu, 
+                    <lb/>à cause de leur incredulité, pource que le bras general, 
+                    <lb/>c'estadire, ceste vertu &amp; puissance, que Dieu a des la 
+                    <lb/>creation du monde manifesté en ses creatures, leur ayant 
+                    <lb/>esté reuelé, ils ne l'ont point cogneu, &amp; n'ont pas adoré 
+                    <lb/>Dieu ni serui comme ils deuoient, mais ont transformé 
+                    <lb/>sa gloire &amp; sa verité en mensonge, comment est- 
+                    <lb/>ce que ceux de ces temps &amp; de ces siecles se pourront 
+                    <lb/>excuser, &amp; dequoi leur seruira ceste replique, de dire <pb n="28"/> 
+                    <lb/>que la parole n'est pas paruenue iusques à eux, &amp; qu'ils 
+                    <lb/>ne l'ont point ouy prescher ? Qui si ceux qui ne l'ont 
+                    <lb/>point ouy prescher, ne peuuent estre absous pour ceste 
+                    <lb/>occasion, comment le seront ceux qui l'ont ouye, &amp; dequoi 
+                    <lb/>leur seruira de dire que le bras de Dieu ; c'estadire, 
+                    <lb/>la force &amp; la vertu qui accompagne sa parole, ne leur 
+                    <lb/>a pas esté reuelee ? Il y en a beaucoup plus de ceux qui 
+                    <lb/>ont ouy la parole, &amp; ausquels le bras d'icelle n'a pas esté 
+                    <lb/>reuelé, que de ceux ausquels il l'a esté, comme Iesus 
+                    <lb/>Christ enseigne en <ref type="bible" target="bibleSegond21.xml#Matt.20.16">S. Matthieu 20. chapitre 16. 
+                        verset</ref>, 
+                    <lb/>par ceste sentence, <quote source="bibleSegond21.xml#Matt.20.16">Plusieurs sont appellez mais peu 
+                        <lb/>d'esleus</quote> : Et comme les sentences, tãt des Prophetes, que 
+                    <lb/>de l'Apostre, qui parlent des restes &amp; reliques des Iuifs, 
+                    <lb/>monstrent &amp; tesmoignent euidemment. Et c'est dequoi 
+                    <lb/>mesmes nostre Prophete se complaint. Ceux, donc, ausquels 
+                    <lb/>ce bras n'a point esté reuelé seront-ils excusez 
+                    <lb/>pour cela ? Or afin de respondre, &amp; entendre mieux les 
+                    <lb/>choses, il nous faut representer le proces entre Dieu &amp; 
+                    <lb/>l'homme, &amp; nous cognoistrons qui a meilleure cause : 
+                    <lb/>comme cela nous est quelquefois proposé en l'Escriture, 
+                    <lb/>que Dieu emprunte la maniere de faire de ceux qui 
+                    <lb/>ont quelque debat ensemble, &amp; se met en lice, semondant, 
+                    <lb/>&amp; appellant ses aduersaires pour defendre leur 
+                    <lb/>cause. Cela se voit au <ref type="bible" target="bibleSegond21.xml#Isa.41.1">41. chap. de nostre Prophete, vers. 
+                        <lb/>1.</ref> ou Dieu dit aux Idolatres, <quote source="bibleSegond21.xml#Isa.41.21">Produisez 
+                        vostre cause,  
+                            <lb/>&amp; annoncez vos fortes raisons<!-- citation approximative --> 
+                        </quote> : Et au 
+                    <ref type="bible" target="bibleSegond21.xml#Isa.43.26">43. chap. vers. 26</ref>, 
+                    <lb/>parlant a son peuple, il dit, <quote source="bibleSegond21.xml#Isa.43.26">fay moi souuenir, &amp; qu'ensemble 
+                        <lb/>nous soyons iugez : raconte-toi, afin que tu sois 
+                        <lb/>absous</quote>. Et en plusieurs autres passages : Dieu est l'acteur, 
+                    <lb/>&amp; accuse l'infidelité &amp; desobeissance de l'homme, disant, 
+                    <lb/>qu'estant sa creature, &amp; l'ayant formé à son image, 
+                    <lb/>l'ayant nourri &amp; entretenu, &amp; lui ayant donné tous les 
+                    <lb/>biens qu'il a, au lieu de le seruir, de l'honorer, &amp; de lui 
+                    <lb/>obeir, il s'est bandé contre lui, &amp; s'est ligué auec le diable, 
+                    <lb/>&amp; lui fait la guerre, &amp; le deshonore par ses pechez 
+                    <lb/>&amp; par ses iniquitez : Qu'il lui est infidele, desloyal, &amp; 
+                    <lb/>trahistre : &amp; qu'au lieu d'obeir au premier commandement <fw place="bot-right" type="catch">ment</fw> 
+                     <pb n="29"/> 
+                    <lb/>qu'il lui auoit fait, il a mieux aimé obeir à la parole 
+                    <lb/>du diable. Il adiouste dauantage, que continuant 
+                    <lb/>en sa rebellion, il amasse peché sur peché : Qu'il le 
+                    <lb/>quitte pour seruir aux faux dieux, &amp; a sa concupiscence, 
+                    <lb/>suiuant ses meschantes &amp; deprauees affections, &amp; 
+                    <lb/>volontez. Et partant, il demande qu'il soit condamné 
+                    <lb/>a mort, comme infidele, trahistre, &amp; desloyal à son 
+                    <lb/>Createur &amp; a son Dieu. Voila l'accusation. Oyons 
+                    <lb/>maintenant les defences de l'homme. Tu ne m'as point 
+                    <lb/>fait ouir ta parole, ou si tu me l'as fait ouir, tu n'as point 
+                    <lb/>touché mon cœur de la vertu interieure de ton Esprit, 
+                    <lb/>pour la pouuoir receuoir. Si c'est Adam nostre premier 
+                    <lb/>pere qui parle ainsi, il est menteur : car Dieu lui a fait 
+                    <lb/>ouir sa parole, &amp; lui auoit aussi reuelé ce bras qui l'accompagne : 
+                    <lb/>car il lui auoit donné vne puissance &amp; vertu 
+                    <lb/>pour la receuoir, &amp; mesmes pour l'accomplir : mais de 
+                    <lb/>sa propre volonté il l'a quittee, &amp; en la quittant, a perdu 
+                    <lb/>ceste vertu &amp; puissance qui estoit en ceste parole : 
+                    <lb/>tellement, que par son infidelité, &amp; par sa desobeissance, 
+                    <lb/>il a tiré tous hommes en condemnation, comme dit 
+                    <lb/>S. Paul <ref type="bible" target="bibleSegond21.xml#Rom.5.18">au 5. chap. des Rom. vers. 18.</ref> Et, estant incredule, 
+                    <lb/>a par apres engendré des enfans semblables a soi, &amp; de 
+                    <lb/>son naturel, c'estadire, pecheurs, incredules, &amp; impuissans 
+                    <lb/>de faire ce que Dieu commande : voire, il les a engendrez 
+                    <lb/>tous enfans d'ire &amp; de mort : Non pas qu'ils soyent 
+                    <lb/>damnez simplement pour le peché d'Adam, mais 
+                    <lb/>c'est pource que naissans pecheurs, ils pechent, &amp; suiuent 
+                    <lb/>sa rebellion, &amp; son incredulité. Quand donc ils 
+                    <lb/>oyent ceste parole, &amp; n'y croyent point ; quand elle n'a 
+                    <lb/>aucune vertu ni efficace en eux, est-ce qu'elle soit vaine, 
+                    <lb/>&amp; destituee de force en elle mesmes ? Il est certain 
+                    <lb/>que non : car d'elle, &amp; en elle, elle est tousiours semblable : 
+                    <lb/>comme quand le Soleil luit es yeux d'vn aueugle, &amp; 
+                    <lb/>que l'aueugle ne voit goutte, est-ce adire que le Soleil a 
+                    <lb/>perdu sa clarté ? Non : mais ce vice est en l'aueugle, &amp; 
+                    <lb/>non pas au Soleil : aussi quand vn homme qui a les oreilles 
+                    <lb/>de l'esprit &amp; de l'entendement bouchees par le <pb n="30"/> 
+                    <lb/>peché, ne peut comprendre &amp; receuoir la parole qui est 
+                    <lb/>preschee, cela vient de la surdité qui est en lui. Voila 
+                    <lb/>pourquoi l'Apostre faisoit requeste a Dieu pour les Ephesiens, 
+                    <lb/>que les yeux de leurs entendemens fussent illuminez, 
+                    <lb/>comme il est escrit au <ref type="bible" target="bibleSegond21.xml#Eph.1.18">1. chap. de l'epist. qu'il 
+                        <lb/>leur escrit, vers. 18.</ref> Non pas que la parole ne soit assez 
+                    <lb/>claire d'elle-mesme. Quand aussi elle ne peut prendre 
+                    <lb/>racine au cœur de celui qui l'oyt, &amp; que par ce moyen 
+                    <lb/>elle n'a aucune vigueur en lui, cela procede de la dureté 
+                    <lb/>du cœur de celui a qui elle est proposee : cõme Christ 
+                    <lb/>enseigne par la similitude du semeur, &amp; de la semence, 
+                    <lb/>qui est au <ref type="bible" target="bibleSegond21.xml#Matt.13.3">13. chap. de S. Matth. vers. 3.</ref> Au 
+                    reste, d'ou vient 
+                    <lb/>ceste surdité, cest aueuglissement &amp; endurcissement, 
+                    <lb/>qui causent l'infidelité &amp; la rebellion ? Viennent elles 
+                    <lb/>de Dieu ? Ia n'aduienne : cela vient de l'homme. Et 
+                    <lb/>partant que l'homme s'accuse soi-mesme sans s'attaquer 
+                    <lb/>à Dieu. Ouy mais, dira l'homme, pourquoi est-ce 
+                    <lb/>que Dieu ne perce mes oreilles ? pourquoi n'ouure-il 
+                    <lb/>mes yeux, &amp; pourquoi n'amolist-il mon cœur, afin que 
+                    <lb/>sa parole ait sa vertu &amp; son efficace en moi ? Dieu y est 
+                    <lb/>il tenu ? Monstre moy, poure creature &amp; ver de terre, par 
+                    <lb/>quelle loy, &amp; par quel droit il est obligé de ce faire. Est 
+                    <lb/>ce à cause de l'amitié que tu lui portes ? Tu es son ennemi 
+                    <lb/>mortel. Est-ce à cause de l'honneur que tu lui fais, &amp; 
+                    <lb/>du seruice que tu lui rends ? Tu le deshonores par toute 
+                    <lb/>ta vie, &amp; sers au diable &amp; au peché, au lieu de le seruir. 
+                    <lb/>Est-ce à cause de ton obeissance ? Tu lui desobeis, pour 
+                    <lb/>obeir à tes concupiscences, &amp; meschantes volontez. Si 
+                    <lb/>tu repliques que c'est à cause qu'il est ton Createur : &amp; 
+                    <lb/>dautant es-tu plus meschant, &amp; digne d'vne plus grande 
+                    <lb/>condemnation, de ce qu'estant tel, tu le mescognois, 
+                    <lb/>mesprises &amp; reiettes. Si Dieu mesmes vouloit traiter 
+                    <lb/>l'homme en sa iustice, qui est celui auquel il feroit quelque 
+                    <lb/>grace ? Ne les abysmeroit il point tous au fond d'enfer, 
+                    <lb/>comme ils ont bien merité ? Il les peut tous iustement 
+                    <lb/>condamner, car ils ont tous merité la mort. C'est 
+                    <lb/>donc vne grande grace qu'il fait, &amp; vn tesmoignage d'vne <fw place="bot-right" type="catch">ne</fw> 
+                     <pb n="31"/> 
+                    <lb/>misericorde infinie, de ce qu'il en daigne retirer quelques 
+                    <lb/>vns de ceste damnation en laquelle ils sont tombez 
+                    <lb/>par leur peché. Que si tu demandes, pourquoi il le 
+                    <lb/>fait plustost à vn autre qu'à toi ? il te respondra, pour ce 
+                    <lb/>qu'il lui plaist. Si les subiects de quelque Prince ont 
+                    <lb/>tous merité d'estre pendus, &amp; qu'il plaise au Prince de 
+                    <lb/>faire grace à quelqu'vn, les autres pourront-ils accuser 
+                    <lb/>le Prince, de ce qu'il les fait pendre ? Et s'ils lui demandent 
+                    <lb/>raison de son execution, ne leur respondra-il 
+                    <lb/>point, pour ce qu'ils l'ont merité : &amp; alors ne faudra-il 
+                    <lb/>pas qu'ils ayent la bouche fermee ? Aussi, dautant que 
+                    <lb/>la perdition vient de l'homme, comme Dieu dit par son 
+                    <lb/>prophete <ref type="bible" target="bibleSegond21.xml#Hos.13.9">Osee au 13. chap. vers. 9.</ref> 
+                    <quote source="bibleSegond21.xml#Hos.13.9">Ta perdition est de 
+                        <lb/>toi, ô Israel</quote>. il faudra, finalement, comme dit Dauid au 
+                    <lb/> 
+                    <ref type="bible" target="bibleSegond21.xml#Ps.51.6">Pseaum. 51. vers. 6.</ref> que le Seigneur soit iustifié en ses 
+                    <lb/>paroles, &amp; soit victorieux quand il sera iugé. Qui 
+                    <lb/>est-ce donc qui pourra accuser Dieu, quand il n'auroit 
+                    <lb/>point fait ouir sa parole, &amp; n'auroit point reuelé 
+                    <lb/>son bras à pas vn des peuples &amp; nations qui sont 
+                    <lb/>sur la terre, veu qu'il n'y est pas tenu ? Les paroles du 
+                    <lb/>ciel &amp; de la terre, comme dit Dauid au Pseau. 19. ne racontent- 
+                    <lb/>elles pas la gloire de Dieu ? Le firmament n'annonce- 
+                    <lb/>il pas l'ouurage de ses mains ? Le iour ne desgorge- 
+                    <lb/>il pas propos a l'autre iour ? La nuict ne declare-elle 
+                    <lb/>pas science à l'autre nuict ? Leur propos, comme dit 
+                    <lb/>S. Paul au 10. des Rom. n'est-il point allé iusques au 
+                    <lb/>bout du monde ? D'ou vient que les hommes n'oyent 
+                    <lb/>point ceste parole &amp; ce son ? N'est-ce point l'homme, 
+                    <lb/>lequel se bouche lui mesmes les yeux &amp; estouppe les oreilles ? 
+                    <lb/>Dauantage, ceste conscience, &amp; ces pensees accusantes 
+                    <lb/>&amp; excusantes, desquelles parle l'Apostre au 2. 
+                    <lb/>chap. des Rom. ne parlent-elles point ? S'il faut mesmes 
+                    <lb/>venir à la parole &amp; à la Loy, y a-il gueres peuple &amp; nation 
+                    <lb/>en la terre, auiourdhui, ou l'Euangile n'ait esté 
+                    <lb/>presché autrefois ? C'est donc vne pure folie à l'homme, 
+                    <lb/>de se vouloir excuser de ce qu'il est sourd, aueugle, &amp; 
+                    <lb/>endurci, veu que Dieu ne l'a pas creé tel, mais qu'il est <pb n="32"/> 
+                    <lb/>deuenu tel par son peché, lequel a ainsi depraué &amp; corrompu 
+                    <lb/>sa nature &amp; ceste image excellente, en laquelle 
+                    <lb/>Dieu l'auoit premierement creé. Et Dieu laisse en leur 
+                    <lb/>naturel ceux ausquels il ne veut pas faire misericorde, 
+                    <lb/>&amp; les condamnera aussi selon leur naturel : mais il change 
+                    <lb/>&amp; renouuelle ceux ausquels il fait grace. Et ceci 
+                    <lb/>nous sert pour remedier au scandale, lequel autrement 
+                    <lb/>se pourroit engendrer, de ce qu'on voit si peu de personnes 
+                    <lb/>à qui ce bras de Dieu soit reuelé, c'estassauoir, 
+                    <lb/>que cela vient de la corruption &amp; peruersité de l'homme ; 
+                    <lb/>laquelle, pour ceste occasion, le Prophete redargue 
+                    <lb/>&amp; reprend ici si asprement : afin que nous ne trouuions 
+                    <lb/>pas estrange, si cest aueuglissement &amp; endurcissement se 
+                    <lb/>voit encore auiourd'hui au monde. Le Prophete par sa 
+                    <lb/>complainte l'a signifié : car il n'a pas seulement parlé de 
+                    <lb/>son temps ; mais, par l'Esprit de Christ, a prophetizé 
+                    <lb/>quelle authorité ce bras de Dieu, c'estadire, ce salut arresté 
+                    <lb/>de tout temps au conseil de Dieu, &amp; manifesté en 
+                    <lb/>la plenitude des temps ; lequel deuoit estre executé par 
+                    <lb/>Christ, &amp; offert aux hommes par la predication de l'Euangile, 
+                    <lb/>auroit au monde. Dauid, &amp; les autres Prophetes 
+                    <lb/>l'ont aussi tous predit d'vne mesme voix, appellant 
+                    <lb/>Christ, qui est le vrai bras de Dieu, le seul Sauueur, &amp; le 
+                    <lb/>seul Salut ; tantost la pierre reiettee, &amp; tantost la pierre 
+                    <lb/>de scandale : &amp; ce pendant, quand Dieu a enuoyé Christ 
+                    <lb/>au monde, c'est alors ou ce grand bras s'est reuelé. Il 
+                    <lb/>s'estoit au parauant monstré en la deliurance d'Egipte, 
+                    <lb/>en celle de Babylone &amp; plusieurs autres particulieres ; 
+                    <lb/>mais tout cela, n'estoit rien au pris du bras qui s'est 
+                    <lb/>manifesté à la venue de Christ. Car, le premier bras n'auoit 
+                    <lb/>combatu que des Egyptiens, Babyloniens &amp; autres 
+                    <lb/>hommes : mais ce bras de Dieu, Christ, a combatu les 
+                    <lb/>diables, l'Enfer, la Mort, le Peché, &amp; le Monde. Voila 
+                    <lb/>pourquoi le prophete Dauid, au <ref type="bible" target="bibleSegond21.xml#Ps.118">Pse. 118.</ref> sous la figure de 
+                    <lb/>ses deliurances, parlant de ceste grande qui deuoit estre 
+                    <lb/>faite par Christ, repete par plusieurs fois, <quote source="bibleSegond21.xml#Ps.118.16">La dextre du 
+                        <lb/>Seigneur est hautaine, la dextre du Seigneur a fait vertu</quote> : <fw place="bot-right" type="catch">Ceste</fw> 
+                     <pb n="33"/> 
+                    <lb/>Ceste chose est faite par le Seigneur, &amp; est merueilleuse 
+                    <lb/>deuant nos yeux. Il a chassé les diables hors des corps : il 
+                    <lb/>a commandé a la Mer &amp; aux Vents : il a commandé aux 
+                    <lb/>maladies de sortir, &amp; de laisser ceux qu'elles detenoyent : 
+                    <lb/>il a fait ouurir les sepulchres, &amp; a rompu les chesnes 
+                    <lb/>de la mort : bref il a commandé au ciel &amp; à la terre : &amp; en 
+                    <lb/>departant de ce monde il a dit, que toute puissance lui 
+                    <lb/>estoit donnee. Les Iuifs ont veu ce bras, &amp; en ont esté estonnez : 
+                    <lb/>iusques a dire, que iamais on n'auoit veu vne 
+                    <lb/>telle puissance ; &amp; neantmoins, a qui est-ce d'eux à qui 
+                    <lb/>il est reuelé ? a douze poures pescheurs, &amp; a quelques 
+                    <lb/>petites femmellettes. En sa resurrection mesmes, en laquelle 
+                    <lb/>s'est veu comme vn des plus grands <choice><sic>effort</sic><corr resp="#RSL">efforts</corr></choice> de ce 
+                    <lb/>bras, de poures &amp; simples femmes en sont les premiers 
+                    <lb/>tesmoins. Christ est monté au ciel, &amp; estant assis à la 
+                    <lb/>dextre du Pere a monstré la grande force de ce bras, 
+                    <lb/>enuoyant son S. Esprit sur les Apostres, les faisant parler 
+                    <lb/>toutes sortes de langues en la presence de tout le 
+                    <lb/>peuple : qui est-ce qui recognoist ce bras ? Au contraire, 
+                    <lb/>le peuple dit, que les Apostres sont yures : tout ainsi que 
+                    <lb/>ils auoyent dit, quand Christ auoit chassé les diables 
+                    <lb/>hors des corps, que c'estoit en la puissãce de Beelzebub. 
+                    <lb/>Il leur a donné puissance de faire miracles, de guerir les 
+                    <lb/>malades, chasser les diables, &amp; resusciter les morts : Et ce 
+                    <lb/>bras de Dieu s'est encore plus puissamment monstré apres 
+                    <lb/>son Ascension au ciel qu'il n'auoit fait au parauant, 
+                    <lb/>à cause qu'il s'est espandu par toute la terre, &amp; a 
+                    <lb/>on-veu le changemẽt merueilleux qui a esté fait, quand 
+                    <lb/>par la predication de l'Euangile, les hommes ont esté 
+                    <lb/>retirez de leur aueuglissement &amp; idolatries, pour estre 
+                    <lb/>conuertis au vray Dieu ; &amp; que ce que Ioel, &amp; les autres 
+                    <lb/>Prophetes auoyent predit de l'exaltation de ce bras, a 
+                    <lb/>esté accompli ; mais ce pendant, si on considere le nombre 
+                    <lb/>de ceux ausquels il a esté reuelé pour en faire comparaison 
+                    <lb/>auec le reste du monde, ne peut-on point dire, 
+                    <lb/>a qui est-ce qu'il a esté reuelé ? Neantmoins, il y auoit 
+                    <lb/>vn merueilleux changement : Le loup habitoit auec la <pb n="34"/> 
+                    <lb/>brebis : le Leopard &amp; le cheureau couchoyent ensemble, 
+                    <lb/>le Veau, &amp; le Lyonceau &amp; autre bestail estoyent ensemble, 
+                    <lb/>&amp; vn enfant les conduisoit, &amp; le monde ne voyoit 
+                    <lb/>point cela : comme encores auiourdhui il ne voit 
+                    <lb/>point les mesmes effects, &amp; efforts de ce bras. Or, tout 
+                    <lb/>ainsi que nous auons occasion auec le Prophete de nous 
+                    <lb/>escrier par vn estonnement merueilleux, aussi auons 
+                    <lb/>nous besoin de prier Dieu, qu'il lui plaise nous ouurir 
+                    <lb/>les yeux de l'entendement, pour voir les merueilles que 
+                    <lb/>fait ce bras, qui se manifeste par la predication de l'Euangile, 
+                    <lb/>au salut, &amp; en la protection des fideles, &amp; en la 
+                    <lb/>ruine, &amp; destruction des meschans. Car Dieu le monstre 
+                    <lb/>auiourdhui si iamais il le monstra : Et combien que les 
+                    <lb/>meschans s'en endurcissent, faisons en nostre proffit, afin 
+                    <lb/>que recognoissans ceste vertu &amp; puissance, laquelle 
+                    <lb/>Dieu desploye, cela nous asseure de plus en plus de nostre 
+                    <lb/>deliurance, &amp; de la ruine des meschans ; comme finalement 
+                    <lb/>nous verrons, &amp; l'vn &amp; l'autre, en son parfait, 
+                    <lb/>&amp; entier accomplissement, quand ce grand bras, &amp; ceste 
+                    <lb/>grande puissance de Dieu, se manifestera pour la derniere 
+                    <lb/>fois, enuoyant les meschans en enfer, &amp; nous retirans 
+                    <lb/>au ciel, pour viure &amp; regner eternellement auec 
+                    <lb/>lui. Amen.</p> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

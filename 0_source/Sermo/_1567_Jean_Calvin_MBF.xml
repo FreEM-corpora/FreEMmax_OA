@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc xml:id="_1567_Jean_Calvin_MBF">
+   <titleStmt>
+    <title type="sermon">SERMONS DE M. IEAN Caluin sur le cinquieme liure de Moyse dit Deuteronome</title>
+    <title type="book">Sermons de M. Jean Calvin sur le v. livre de Moyse nommé Deuteronome :
+     Recueillis fidelement de mot à mot, selon qu'il les preschoit publiquement. Avec une preface
+     des Ministres de l'Eglise de Geneve, &amp; un advertissement fait par les Diacres. Il y a aussi
+     deux tables : l’une des matieres principales, l’autre des passages de la Bible alleguez par
+     l’autheur en ces Sermons.
+     A GENEVE. De l'imprimerie de Thomas Courteau. M. D. LXVII.
+    </title>
+    <author ref="...">Jean Calvin</author>
+    <editor>
+     <name>SERMO</name>
+     <orgName>Université de Neuchâtel</orgName>
+    </editor>
+   </titleStmt>
+   <editionStmt>
+    <edition>Transcription électronique</edition>
+    <respStmt>
+     <resp>Responsable du projet</resp>
+     <name>
+      <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+      <email>carine.skupien-dekens@unine.ch</email>
+      <affiliation xml:id="ILCF">
+       <name>Institut de langue et civilisation françaises</name>
+       <orgName>Université de Neuchâtel</orgName>
+       <address>
+        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+        <addrLine>CH-2000 Neuchâtel</addrLine>
+       </address>
+      </affiliation>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>Transcription word</resp>
+     <name>
+      <persName xml:id="MBF">Michaela BJUGGFALT-CHÂTEAUX</persName>
+      <email>michaela.bjuggfalt@etu.univ-lille3.fr</email>
+      <affiliation>
+       <orgName>Université de Neuchâtel</orgName>
+      </affiliation>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>Encodage XML TEI</resp>
+     <name>
+      <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+      <email>ljiljana.dolamic@unine.ch</email>
+      <affiliation>
+       <orgName>Université de Neuchâtel</orgName>
+      </affiliation>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>Annotation</resp>
+     <name>
+      <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+      <email>magdalena.augustyn@unine.ch</email>
+      <affiliation>
+       <orgName>Université de Neuchâtel</orgName>
+      </affiliation>
+     </name>
+    </respStmt>
+   </editionStmt>
+   <publicationStmt>
+    <distributor>
+     <name type="projet">Projet SERMO</name>
+     <address>
+      <addrLine>Institut de langue et civilisation françaises</addrLine>
+      <addrLine>Université de Neuchâtel</addrLine>
+      <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+      <addrLine>CH-2000 Neuchâtel</addrLine>
+      <addrLine>http:\\sermo.unine.ch</addrLine>
+     </address>
+    </distributor>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <author>Jean Calvin</author>
+      <title>Sermons de M. Jean Calvin sur le v. livre de Moyse nommé Deuteronome : Recueillis
+       fidelement de mot à mot, selon qu'il les preschoit publiquement. Avec une preface des
+       Ministres de l'Eglise de Geneve, &amp; un advertissement fait par les Diacres. Il y a aussi
+       deux tables : l’une des matieres principales, l’autre des passages de la Bible alleguez par
+       l’autheur en ces Sermons.</title>
+      <imprint>
+       <pubPlace>Genève</pubPlace>
+       <publisher>Thomas Courteau</publisher>
+       <date>1567</date>
+       <date type="sermon">1555</date>
+      </imprint>
+     </monogr>
+     <idno type="URI">http://dx.doi.org/10.3931/e-rara-1057</idno>
+     <idno type="source">Bibliothèque de Genève, Cote BGE A 5140</idno>    
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <textClass>
+    <keywords>
+     <term type="genre">sermon</term> 
+     <term type="sermonType">homélie</term>
+     <term type="sermonTheme"/>
+     <term type="howPublished">recueil</term>   
+     <term type="numberOfSermons">200</term>
+     <term type="typeOfCollection">lectio continua</term>
+     <term type="themeOfCollection"/>
+     <term type="commentedBiblicalText">Deut.1.1-3</term>
+     <term type="paratext" subtype="epistle">A TOVS FIDELES TENANS LA SAINCTE FOY DE LA VRAYE EGLISE CATHOLIQVE, ET GEneralement à tous lecteurs debonnaires , Salut en Iesus Christ nostre Seigneur &amp; nostre Dieu. Amen.</term>
+     <term type="paratext" subtype="preface">LES DIACRES ET ADMINISTRATEVRS DES BIENS AVMOSNEZ AVX POVRES ESTRANGERS qui se sont retirez en ceste ville de Geneue pour la parolle de Dieu,à tous fidelles &amp; vrays Chrestiẽs,Salut &amp; paix de par nostre Seigneur Iesus Christ.</term>
+     <term type="paratext" subtype="other">PREMIER INDICE DES MOTS, MATIERES, SENTENCES, ET argumens des Sermons de Iean Caluin sur le Deuteronome,monstrez par les nombres des pages.</term>
+     <term type="paratext" subtype="other">AVTRE INDICE DES PASSAGES DV VIEIL ET NOVVEAV TEstamẽt alleguez &amp; propremẽt appliquez &amp; exposez par Iean Caluin en ses Sermons sur le Deuteronome : auquel les premiers nombres marquent les chapitres,&amp; les secõds les versets des liures de la Bible,d’où ils sont prins,&amp; les troisiesmes nombres denotent les pages de ce liure.</term>
+    </keywords>
+   </textClass>
+   <langUsage>
+    <language ident="fr">français préclassique</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2016-03-07" who="#LjD">transformation word - XML</change>
+   <change when="2016-03-07" who="#MAG">Verification, citations</change>
+   <change when=" 2015-12-11" who="#MBF">Transcription word</change>
+   <change when="2016-04-30" who="#MAG">Annotation_1</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="book">
+    <pb n="titre"/>
+    <p n="1">
+     <lb/>SERMONS
+     <lb/>DE M. IEAN CALUIN
+     <lb/>sur le v. liure de Moyse
+     <lb/>nommé Deuteronome :
+     <lb/>RECVEILLIS FIDELEMENT DE MOT
+     <lb/>à mot,selon qu'il les preschoit publiquement.
+     <lb/>Avec une preface des Ministres de l'Eglise de Geneve, &amp; un advertissement
+     <lb/>fait par les Diacres.</p>
+    <p n="2">
+     <lb/>Il y a aussi deux tables : l'vne des matieres principales , l'autre des passages de la
+     Bible alleguez par l'autheur en ces Sermons.<figure/>
+     <!--à côté de l’image un tampon de la Bibliothèque Ariana, n° 5140 -->
+     <lb/>A GENEVE.
+     <lb/>De l'imprimerie de Thomas Courteau.
+     <lb/>M. D. LXVII.</p>
+   </div>
+  </front>
+  <body>
+   <div type="sermon">
+    <pb n="1"/>
+    <head type="main">
+     <lb/>SERMONS DE M. IEAN
+     <lb/>Caluin sur le cinquieme liure de Moyse
+     <lb/>dit Deuteronome</head>
+    <p n="1">
+     <lb/>
+     <date>
+      <hi rend="I">Du Mercredi vingtieme de Mars, 1555</hi>.</date>
+    </p>
+    <div n="1" type="sub">
+     <head type="sub">
+      <lb/>SERMON PREMIER SVR LE CHAP. I.</head>
+     <p n="2">
+      <lb/>
+      <quote><c type="lettrine">S</c>'Ensuyuent les parolles que Moyse dit à tout
+      <lb/>Israel outre le Iordain au desert en la plaine cõtre
+      <lb/>la mer rouge,entre Pharan &amp; Tophel,&amp; Laban,
+      <lb/>&amp; Hazerot, &amp; Dizahab.
+      <lb/>2 Onze iournees y a de Horeb par la voye du
+      <lb/>Mont de Seir iusqu'à Cades-barné.
+      <lb/>3 Et aduint en la quarantieme annee, au premier
+      <lb/>iour de l'onzieme mois,que Moyse parla aux enfans d'Israel,
+       <lb/>selon tout ce que le Seigneur luy auoit commandé de leur dire</quote>.</p>
+     <milestone unit="column" n="2"/>
+     <cb/>
+     <p n="3">
+      <lb/>
+      <c type="lettrine">Q</c>Vand Dieu feit publier sa Loy en la mõtagne
+      <lb/>d'Horeb , apres auoir retiré le peuple
+      <lb/>de la captiuité d'Egypte,il mõstroit par cela à quelle
+      <lb/>fin &amp; intention il auoit eu pitié de son peuple
+      <lb/>pour le deliurer : c'est à ce qu'il en fust glorifié:
+      <lb/>comme aussi il nous faut rapporter toutes les graces
+      <lb/>que Dieu nous eslargit , à ce but-la. Zacharie
+      <lb/>pere de sainct Iean Baptiste,parlant de la grande
+      <lb/>&amp; souueraine deliurance qui a este faite en la personne
+      <lb/>de nostre Seigneur Iesus Christ, dit, que
+      <lb/>Dieu nous a retirez de la main &amp;tyrannie de nos
+      <lb/>
+      <note type="margin">
+       <ref type="bible" target="bibleSegond21.xml#Luke.1.74">Luc I.<lb/>74.</ref>
+      </note> ennemis: afin que nous le seruions tout le tẽps de
+      <lb/>nostre vie en sainctete &amp; iustice. Et c'est vne doctrine
+      <lb/>assez commune en toute l'Escriture saincte.
+      <lb/>Et voila pourquoy aussi il est dit par le Prophete
+      <lb/>Isaie , que Dieu a creé vn peuple lequel racontera
+      <lb/>
+      <note type="margin">
+       <ref type="bible" target="bibleSegond21.xml#Isa.43.31">Isa.<lb/>43.31.</ref>
+      </note> sa louange. Puis qu'ainsi est donc , que la
+      <lb/>Loy fut donnee au peuple , afin de luy faire sentir
+      <lb/>pourquoy il auoit este deliuré de la seruitude
+      <lb/>d'Egypte, c'estoit bien raison qu'il se dediast du
+      <lb/>tout à l'obeissance de Dieu,qui s'estoit ainsi monstre
+      <lb/>Redempteur . Mais le peuple se fasche, &amp; ne
+      <lb/>se peut rendre docile pour escouter ce qu'on luy
+      <lb/>propose au Nom de son Dieu.Neantmoins si est-
+      <lb/>ce qu'il le deuoit bien faire , apres auoir senti vn
+      <lb/>tel bien,&amp; si inestimable:car Dieu auoit desployé
+      <lb/>son bras robuste, quand le peuple fut deliuré. Il
+      <lb/>deuoit donc cognoistre , Voici nostre Dieu qui
+      <lb/>s'est magnifié d'vne façon admirable enuers nous,
+      <lb/>nous auons eu comme vne presence visible de sa
+      <lb/>maiesté : si les cieux se fussent ouuerts , &amp; que
+      <lb/>Dieu se fust mõstre à l'œil en personne,nous n'eussions
+      <lb/>pas eu tesmoignage plus ample ne plus indubitable
+      <lb/>qu'il nous estoit prochain , qu'il estoit
+      <lb/>nostre conducteur. Or puis que Dieu est ainsi descendu
+      <lb/>à nous,qu'il luy a pleu de nous communiquer <cb/>
+      <lb/>ainsi sa bonté : n'est ce pas raison que nous
+      <lb/>soyons du tout siens? Et d'autant qu'il nous a tendu
+      <lb/>la main pour nous racheter, ne faut-il pas que
+      <lb/>nous soyons son heritage, quand il nous a acquis
+      <lb/>par sa vertu? Le peuple donc s'il eust eu vn grain
+      <lb/>de prudence , deuoit bien se ranger en toute humilité
+      <lb/>pour receuoir la doctrine qui luy estoit
+      <lb/>preschee par Moyse. Et mesme quelle authorite
+      <lb/>meritoit la Loy , qui estoit ainsi approuuee par
+      <lb/>tant de miracles?Car Dieu ne commande pas simplement
+      <lb/>à Moyse de parler, apres l'auoir choisi
+      <lb/>pour son prophete:mais il le tire en la montagne,
+      <lb/>il le separe de la compagnie des hommes,afin que
+      <lb/>quand il viendra mettre en auant la Loy,qu'on le
+      <lb/>tienne comme vn Ange,&amp; non point comme vne
+      <lb/>creature mortelle. Il a este là quarante iours sans
+      <lb/>boire ne sans manger : pour monstrer qu'il a este
+      <lb/>exempté du rang commun des hommes , &amp; que
+      <lb/>Dieu l'auoit recueilli comme en sa gloire celeste.
+      <lb/>Moyse vient-il? il y a en sa face vne clarté si grãde,
+      <lb/>qu'il semble que ce soit vn soleil.Au lieu qu'on
+      <lb/>luy attribue des cornes, il est dit,qu'il y auoit des
+      <lb/>rayons de soleil tout à l'entour , c'est à dire , vne
+      <lb/>telle splendeur qu'il falloit qu'il meist vn voile deuant
+      <lb/>sa face.Et à quoy seruoit cela,sinon pour ratifier
+      <lb/>&amp; approuuer la Loy que Dieu luy auoit dõnee ,
+      <lb/>&amp; qui luy estoit cõmise &amp; qu'on cogneust
+      <lb/>que ce n'est pas vne doctrine forgee d'vn homme
+      <lb/>caduque?Et au reste,voila les tõnerres &amp; esclairs,
+      <lb/>les trompettes qui sonnẽt:qu'il semble que tout le
+      <lb/><surplus reason="repeated">le</surplus> monde doiue estre comme abysmé, il n'y a lieu
+      <lb/>ne haut ne bas qui n'en soit esmeu,&amp; qui ne trẽble
+      <lb/>quand il est question que Dieu prononce sa voix.
+      <lb/>Quãd dõc la Loy est si biẽ seellee, &amp; auec vne telle
+      <lb/>maieste, ne faut-il pas que le peuple soit plus
+      <lb/>que stupide , de n'escouter point son Dieu parlant <pb n="2"/>
+      <cb/>
+      <lb/>auec vne telle force? Or tant y a que la Loy
+      <lb/>est mesprisee:&amp; mesmes cependant que Dieu prepare
+      <lb/>son seruiteur Moyse pour la publier , voila
+      <lb/>le peuple qui n'a point patience que la volõte de
+      <lb/>Dieu luy soit apportee: mais il se forge le veau
+      <lb/>d'or , il n'est question que de bastir des superstitions
+      <lb/>nouuelles: voire despitant le Dieu , duquel
+      <lb/>il auoit tant experimenté la vertu &amp; la grace. Au
+      <lb/>reste,encores que la Loy soit donnee,tant y a que
+      <lb/>pour vn peu de temps le peuple tremble &amp; fremit,
+      <lb/>mesmes il est cõtraint de dire , Si Dieu parle
+      <lb/>à nous , c'est faict , nous sommes tous peris : &amp;
+      <lb/>se tient loin de la montagne ( comme aussi il luy
+      <lb/>est cõmandé). Il y a dõc quelque reuerẽce, ce semble:
+      <lb/>mais l'issue monstre qu'il n'y a qu'hypocrisie,
+      <lb/>&amp; cognoist-on bien qu'ils n'estoyent point touchez
+      <lb/>droitement en leur cœur , qu'ils n'auoyent
+      <lb/>point prins vne racine viue pour profiter en la doctrine
+      <lb/>Nous voyons donc en somme,quand Dieu
+      <lb/>a publié sa Loy pour le premier coup,qu'elle a eu
+      <lb/>vne poure audience &amp; bien maigre, &amp; que le peuple
+      <lb/>n'estoit pas encores disposé à se laisser ranger
+      <lb/>comme il appartenoit.Or pour ceste cause il a
+      <lb/>falu que Dieu y retournast, combien que le peuple
+      <lb/>ne fust pas digne que Dieu feist encores seruir
+      <lb/>Moyse en cest office. Car n'estoit-ce pas raison
+      <lb/>que ceux qui avoyent ainsi mesprisé le Dieu
+      <lb/>viuant,fussent là destituez de toute verite que le
+      <lb/>diable en prinst possession: qu'il les aveuglast du
+      <lb/>tour,&amp; qu'ils fussent affamez de la pasture de vie:
+      <lb/>qu'ils fussent empoisonnez de toutes les faussetez
+      <lb/>&amp; erreurs de Sathan? Il est vrai que le peuple estoit
+      <lb/>digne d'vn tel salaire: mais Dieu n'a point
+      <lb/>eu esgard à ce que ces pPoures gens auoyent merité :
+      <lb/>car il a surmonté leurs pechez par sa bonté
+      <lb/>infinie,&amp; a cõtinué mesmes à les enseigner, combien
+      <lb/>qu'ils se fussent monstrez tant farrouches &amp;
+      <lb/>rebelles , &amp; qu'il y eust eu de l'ingratitude auec
+      <lb/>l'obstination , telle qu'il sembloit qu'il n'y eust
+      <lb/>nul moyen ni approche pour profiter: si est-ce
+      <lb/>qu'encores Dieu vsant de sa misericorde,a voulu
+      <lb/>essayer si le peuple ne le laisseroit point reduire.
+      <lb/>Et voila pourquoy Moyse non seulement a publié
+      <lb/>la Loy en Horeb:mais voyant la legereté &amp;
+      <lb/>inconstance du peuple , a vsé quant &amp; quant d'exhortations
+      <lb/>vehementes,&amp; a mis peine,&amp; s'est efforcé
+      <lb/>en toutes façons de le reduire à Dieu.Or en
+      <lb/>la fin , Dieu encores a voulu qu'il y eust vn sommaire
+      <lb/>final de la Loy, &amp; qu'elle fust confermee,
+      <lb/>comme il est contenu en ce Liure. Et voila pourquoy
+      <lb/>il est intitulé Deuteronome, qui signifie autant
+      <lb/>que la Loy reiteree. Non point que Dieu ait
+      <lb/>ici rien amené de nouueau: mais il a redargué le
+      <lb/>peuple de ceste malice que nous auons dit: monstrant
+      <lb/>que sa doctrine auoit este mal obseruee.
+      <lb/>Comme quand des enfans auront mal profité à
+      <lb/>l'escolle , qu'ils seront de gros asniers,apres que
+      <lb/>ils auront este vn an sans aduancer , il les faut retourner
+      <lb/>à l'A B C. Pourquoy? Ayans ouy le maistre,
+      <lb/>les voila ignorans comme deuant: qu'au lieu
+      <lb/>d'auoir comprins quelque chose , on voit qu'ils
+      <lb/>sont demeurez tels qu'ils estoyent auparavant.
+      <lb/>Ainsi donc nostre Seigneur reproche au peuple
+      <lb/>d'Israel vne stupidité brutalle,en luy declarant la <cb/>
+      <lb/>Loy pour le second coup.Cõme s'il disoit , Vous
+      <lb/>estes biẽ mauuais escoliers:car ie vous auoye enseigné
+      <lb/>suffisamment en ma Loy:la doctrine qui estoit
+      <lb/>contenue aux dix parolles, cõtient toute perfection
+      <lb/>de sagesse. Or cela ne vous a point suffi,
+      <lb/>d'autant que vous n'auez point eu les aureilles,
+      <lb/>ou vous les auez eu trop longues,cependant rien
+      <lb/>ne vous est entré au cœur,mesmes vous n'auez riẽ
+      <lb/>entendu à ce que ie vous disoye , il faut donc que
+      <lb/>vous retourniez à vostre premiere leçon ,&amp; à vostre
+      <lb/>A B C, que ie vous declare ma Loy, &amp; que ie
+      <lb/>vous la masche , afin que vous la puissiez mieux
+      <lb/>digerer.Et d'autãt que vous estes ainsi dures à l'esperõ,
+      <lb/>il faut que ie vous picque: que i'vse de plus
+      <lb/>grande vehemẽce pour vous resueiller,&amp; que ceste
+      <lb/>durté que ie voy en vous soit corrigee.Maintenant
+      <lb/>donc nous voyons en somme quel est l'argument
+      <lb/>de ce liure:c'est assauoir, que Dieu ayant
+      <lb/>desia auparauãt donné sa Loy au peuple d'Israel,
+      <lb/>l'ayant approuuee autant qu'il estoit requis à cause
+      <lb/>de la durté &amp; rebellion du peuple,a voulu encores
+      <lb/>donner plus ample declaration de la Loy
+      <lb/>que Moyse auoit desia reduite par escrit. Et
+      <lb/>non seulement il a declaré la Loy: mais quant
+      <lb/>&amp; quãt il a sollicité le peuple à l'obseruer mieux
+      <lb/>qu'auparauant: &amp; luy a reproché sa villenie, de
+      <lb/>ce qu'il auoit este si sauuage , &amp; de son Redempteur.
+      <lb/>Or tout ce que nous voyons en ce peuple-
+      <lb/>la,nous appartient. Et pleust à Dieu que nous
+      <lb/>ne ressemblissions en rien aux Iuifs , ie di quant à
+      <lb/>cest endroit:mais s'il y a eu de ce tẽps-la trop de
+      <lb/>durté ,auiourd'huy cõbiẽ en trouuera-on en no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>?
+      <lb/>Car nostre Seigneur n'a point seulement parlé
+      <lb/>vn iour pour nous enseigner.Si la Loy a bien este
+      <lb/>ratifiee en la main de Moyse,l'Euãgile a-il auiour
+      <lb/>d'huy moins d'approbation? Si la terre a este esmeuë,
+      <lb/>si les trompettes ont sonné,que les esclairs
+      <lb/>ayent volé , que les tonnerres ayent este ouis,l'Euangile
+      <lb/>a esmeu le ciel &amp; la terre ( comme il est
+      <lb/>dit par le Prophete Aggee ) &amp; que l'Apostre l'allegue <note type="margin">
+       <ref type="bible" target="bibleSegond21.xml#Hag.2.7">Agg.<lb/> 2.7</ref><lb/>
+       <ref type="bible" target="bibleSegond21.xml#Heb.12.26">Heb. <lb/>12.26.</ref><lb/>
+       <ref type="bible" target="bibleSegond21.xml#_2Cor.3.7">2. Cor.<lb/> 3-7.</ref>
+      </note>
+      <lb/>en l'Epistre aux Hebrieux.Et nous oyons aussi
+      <lb/>ce qu'en traitte S. Paul au <ref type="bible" target="bibleSegond21.xml#_2Cor.3.7">3. de la seconde aux
+       <lb/>Corinthiens</ref>. Qu'il faut bien(dit-il) que ce message
+      <lb/>de vie &amp; de salut , qui est contenu en l'Euangile,
+      <lb/>soit glorifié autant ou plus que la doctrine
+      <lb/>de la Loy , qui estoit mortelle de soy , &amp; qui ne
+      <lb/>pouuoit viuifier les hommes. Puis qu'ainsi est
+      <lb/>donc que Dieu a declaré vne si grande maieste en
+      <lb/>l'Euangile, &amp; que ce n'a point este pour vn iour
+      <lb/>qu'il nous est annoncé , mais nous en auons les
+      <lb/>aureilles batues tous les iours:regardons si nous
+      <lb/>sommes bons disciples , si nous retenons ce qui
+      <lb/>nous est monstré, tellement que Dieu soit honoré
+      <lb/>de nous.Sommes-nous conioints à luy? Helas! il
+      <lb/>s'en faut beaucoup. Car quelque chose que Dieu
+      <lb/>persiste à nous proposer sa doctrine,là où nous
+      <lb/>voyons comme son cœur desployé enuers nous,
+      <lb/>tant y a que nous sommes serrez de nostre costé,
+      <lb/>&amp; ne luy donnons nulle ouuerture : ou bien
+      <lb/>nous sommes volages , &amp; pleins de vanité , qu'il
+      <lb/>s'en faut beaucoup q̃ la doctrine nous touche , q̃
+      <lb/>nous la receuions pour nous y retenir du tout, &amp; <fw place="bot-right" type="catch">pour</fw>
+      <pb n="3"/>
+      <cb/>
+      <lb/>pour y auoir nos sens enclos, &amp; cõfermez en vne
+      <lb/>droite obeissance.On verra plustost l'opposite.Et
+      <lb/>ainsi cognoissons que le peuple des Iuifs nous est
+      <lb/>comme vn miroir auquel nous pouuons contempler
+      <lb/>nostre rudesse , nostre malice , nostre ingratitude,
+      <lb/>nostre rebellion obstinee à l'encontre de
+      <lb/>Dieu.Au reste,nous sommes plus coulpables que
+      <lb/>les Iuifs,pource que nous donnons vne si poure
+      <lb/>audience à nostre Dieu. Car nous auons desia dit,
+      <lb/>que le peuple ancien, apres auoir este deliuré de
+      <lb/>la seruitude d'Egypte , se deuoit sentir obligé à
+      <lb/>Dieu pour s'addõner &amp; dedier pleinement à son
+      <lb/>seruice. Et d'où est-ce que maintenant Dieu nous
+      <lb/>a retirez? a-ce este de la tyrannie d'vn homme
+      <lb/>mortel , ou d'vn peuple terrien? Mais nous sauons
+      <lb/>qu'il nous a rachetez des liens de peché &amp;
+      <lb/>du diable: il nous a retirez du gouffre de mort:
+      <lb/>il nous a deliurez des abysmes d'enfer,&amp; ne nous
+      <lb/>a point promis seulement la terre de Chanaan
+      <lb/>pour heritage , mais les cieux nous ont este ouuerts
+      <lb/>en la personne de nostre Seigneur Iesus
+      <lb/>Christ,il en a prins possession pour nous,afin que
+      <lb/>nous soyons asseurez que là nous auons nostre
+      <lb/>siege appresté,&amp; nostre repos permanent. Quand
+      <lb/>donc Dieu nous a ainsi obligez à soy , nostre ingratitude
+      <lb/>n'est-elle pas plus vilaine au double,
+      <lb/>voire cent fois plus que celle du peuple ancien?
+      <lb/>Au reste, puis qu'ainsi est que Dieu a bien daigné
+      <lb/>continuer l'office de Maistre &amp; Docteur enuers
+      <lb/>ce peuple-la qui estoit tant rude &amp; rebelle , cognoissons
+      <lb/>qu'auiourd'huy il fait le semblable en
+      <lb/>nous. Et aussi il nous est besoin , comme i'ay desia
+      <lb/>dit,autrement que seroit-ce? Mais voyant vne
+      <lb/>telle grace , c'est que Dieu ne se fasche point de
+      <lb/>nous enseigner , encores qu'il ne profite gueres
+      <lb/>du premier iour , ne du premier an , sachons que
+      <lb/>s'il nous traitte ainsi de iour en iour, q̃ cela n'est
+      <lb/>point superflu. Et c'est vn poinct bien à obseruer:
+      <lb/>car les hommes ont les aureilles chatouilleuses,
+      <lb/>&amp; ne demandent sinon qu'on leur apporte quelque
+      <lb/>nouueaute : &amp; quand la doctrine de Dieu
+      <lb/>leur sera preschee &amp; proposee chacun iour , ils
+      <lb/>s'en faschent, &amp; en sont ennuyez. Car il leur semble
+      <lb/>que c'est assez de leur auoir dit vn coup ou
+      <lb/>deux, &amp; ne regardent pas comme ils mettent en
+      <lb/>oubli ce qu'ils deuoyent auoir entẽdu. Ainsi dõc
+      <lb/>afin que la doctrine qu'on nous presche ne nous
+      <lb/>soit point fascheuse, notons qu'il est besoin que
+      <lb/>Dieu nous ramentoyue ce que desia il nous auoit
+      <lb/>enseigné : car nous auons courte memoire enuers
+      <lb/>luy. Et pensons bien toutes fois &amp; quantes
+      <lb/>qu'on nous met au deuant , qu'il y a vn Dieu , auquel
+      <lb/>nous sommes : &amp; que non seulement il nous
+      <lb/>est createur , mais qu'il nous est pere,nous ayant
+      <lb/>adopté pour ses enfans,&amp; puis, apres nous auoir
+      <lb/>rachetez par le sang de son Fils , qu'il nous a
+      <lb/>attirez à soy d'vn lien plus estroit. Quand cela
+      <lb/>nous est ramentu,si nous l'auons desia ouy auparauant,
+      <lb/>ne disons point, Et cela nous auoit esté
+      <lb/>presché: mais que chacun entre en soy , qu'on
+      <lb/>s'examine,&amp; qu'on cognoisse si ce que nous auõs
+      <lb/>ouy est bien imprimé en nos cœurs. Entrons
+      <lb/>donc en ce conte. Et pourquoy? Car si nous auions
+      <lb/>bonne memoire,que nous sommes mis en ce <cb/>
+      <lb/>monde afin de glorifier nostre Dieu : n'aurions
+      <lb/>nous pas autre affection de nous acquitter enuers
+      <lb/>luy?Si nous pensions à la douceur paternelle de
+      <lb/>laquelle il vse quand il nous appelle pour ses enfans,
+      <lb/>&amp; laquelle il nous a desia monstree vn coup,
+      <lb/>quãd il nous a adoptez en la personne de son<supplied resp="#MAG" reason="omission"> </supplied>Fils:
+      <lb/>si nous regardions combien nous auons cousté à
+      <lb/>nostre Seigneur Iesus Christ,quãd il nous a affrãchis
+      <lb/>de la mort eternelle:ne seriõs-nous poĩt affectionnez
+      <lb/>à nous dedier du tout à nostre Dieu ? ne
+      <lb/>seriõs-nous point esmeus à luy porter autre reuerence
+      <lb/>que nous ne faisons pas? Ainsi donc quand
+      <lb/>nous sommes sauuages, que le monde nous transporte,
+      <lb/>que nous sommes enuelopez de nos cupiditez
+      <lb/>&amp; affections terrestres, cognoissons que c'est
+      <lb/>d'autant que nous n'auons point bien escouté
+      <lb/>nostre Dieu quand il parloit à nous, s'il nous aduertit
+      <lb/>de nostre deuoir,nous n'y regardõs point.
+      <lb/>Et ainsi il est bon que la memoire nous en soit refreschie,
+      <lb/>&amp; que Dieu reuiẽne à nous,&amp; qu'il nous
+      <lb/>declare, Poures gens,qu'est-ce que ceci veut dire?
+      <lb/>quand ie vous ay enseignez, vous deuiez estre
+      <lb/>tout cõfits en la doctrine qui est cõtenue en ma parolle :
+      <lb/>&amp; cependãt vous estes encores comme des
+      <lb/>petis enfans. Voila ( di-ie ) ce que nous auons à
+      <lb/>faire,voire afin de prendre goust à la parole de
+      <lb/>Dieu, &amp; pour en estre nourris comme de nostre
+      <lb/>pasture ordinaire. Que nous sachions que ce
+      <lb/>n'est point en vain que cest ordre a este constitué,
+      <lb/>que tout le temps de nostre vie on nous presche,
+      <lb/>que nous ayõs les aureilles batues de ce que nous
+      <lb/>deurions auoir compris en vn mois,ou en deux.
+      <lb/>Au reste,si nous n'en faisons ainsi, c'est que tout
+      <lb/>le temps de nostre vie nous ne soyons appriuoisez
+      <lb/>à escouter nostre Dieu , &amp; que nous ne souffrions
+      <lb/>d'estre enseignez de luy : craignons qu'il
+      <lb/>n'execute sur nous ceste vengeance,de laquelle il
+      <lb/>a vne fois menacé le peuple d'Israel par son Prophete<note type="margin">
+       <ref type="bible" target="bibleSegond21.xml#Isa.29.11">Isa.<lb/>29.11.</ref>
+      </note>
+      <lb/>Isaie,disant,<quote source="bibleSegond21.xml#Isa.29.11">Que sa Loy sera comme vn liure
+       <lb/>clos &amp; cacheté<!--citation approximative--></quote> : &amp; que si on le presente
+      aux
+      <lb/>gens sauans,ils diront, Ce ne sont pas lettres ouuertes,
+      <lb/>il y a vn cachet dessus , ie ne puis pas dire
+      <lb/>ce qui est là dedãs. Si on la presentoit à des idiots
+      <lb/>&amp; gẽs non lettrez,ils dirõt, Nous ne sommes pas
+      <lb/>clercs, &amp; n'auons point este à l'escole , nous ne
+      <lb/>saurions lire.Voila comme Dieu punit tous ceux
+      <lb/>qui cheminent en leur brutalité,&amp; ne se veulent
+      <lb/>iamais ranger à luy. Il est vray que pour vn temps
+      <lb/>il nous supporte , &amp; ( comme desia i'ay dit ) encores
+      <lb/>que nous soyons dignes d'estre retranchez
+      <lb/>de sa maison , d'estre priuez de sa verite , qu'il
+      <lb/>nous deuroit bailler entre les mains de Sathan,
+      <lb/>afin qu'il nous aueuglast de mensonges , &amp; que
+      <lb/>nous en fussions empoisonnez: tant y a que nostre
+      <lb/>Dieu ayant pitié de nous,encores essaye s'il
+      <lb/>nous pourra gagner à soy. Mais si à la longue
+      <lb/>nous persistons tousiours à reietter la bonne doctrine ,
+      <lb/>&amp; que nous ne profitions non plus au
+      <lb/>bout de l'an q̃ le premier iour,il faudra que ceste
+      <lb/>menace s'accõplisse sur nous,c'est, Que nous preniõs
+      <lb/>l'Escriture saincte entre les mains,&amp; qu'elle
+      <lb/>no<hi rend="I"><choice><abbr>9</abbr><expan>us</expan></choice></hi> soit preschee,touteffois q̃ nous n'y entẽdrõs
+      <lb/>riẽ,encores que nous soyõs biẽ subtils.Et quãd les
+      <lb/>gens idiots diront,Ie ne say que c'est,q̃ les plus sauans <pb n="4"/>
+      <cb/>
+      <lb/>&amp; plus aigus ayent cela cõme des lettres closes
+      <lb/>&amp; cachettees.Craignons donc vne telle menace ,
+      <lb/>&amp; que la clarte ne nous soit conuertie
+      <lb/>en tenebres , &amp; retenons ceste opportunité que
+      <lb/>Dieu auiourd'huy nous presente, que nous puissions
+      <lb/>faire nostre profit d'vn tel biẽ quand il continue
+      <lb/>ainsi de parler à nous. Or il est vray que ce
+      <lb/>qui est ici contenu,a este dit au peuple d'Israel,&amp;
+      <lb/>luy a peu profiter pour son temps : mais auiourd'huy
+      <lb/>il nous appartient , &amp; ce nous est vn thresor
+      <lb/>commun duquel Dieu veut que nous soyons
+      <lb/>participans. Car (comme nous verrons ) la Loy
+      <lb/>n'a pas este seulement donnee comme vne reigle
+      <lb/>de bien viure: mais elle est fondee sur l'alliance
+      <lb/>que Dieu auoit faite auec Abraham, &amp; auec son
+      <lb/>lignage.Et en vertu de ceste alliance-la, nous sommes
+      <lb/>
+      <note type="margin">
+       <ref type="bible" target="bibleSegond21.xml#Gal.3.29">Gal. 3.<lb/>29</ref>
+      </note>heritiers du royaume celeste, comme S.Paul
+      <lb/>le monstre. Et pour cercher nostre salut il nous
+      <lb/>faut venir à ceste promesse qui a este dõnee à nostre
+      <lb/>pere Abrahã: &amp; q̃ nous soyõs son lignage spirituel,
+      <lb/>pour estre domestiques de l'Eglise de Dieu,
+      <lb/>pour estre membres de nostre Seigneur Iesus
+      <lb/>Christ. Par cela donc nous voyons, que ceste doctrine
+      <lb/>n'a pas serui seulement iusques à la venue
+      <lb/>du Fils de Dieu : mais qu'elle nous est vtile, &amp; sera
+      <lb/>iusques à la fin du monde. Car c'est vn bastiment
+      <lb/>qui est fondé sur ceste alliance eternelle,
+      <lb/>de laquelle ( comme i'ay dit) nostre salut procede,
+      <lb/>comme de sa vraye source. Au reste notons,
+      <lb/>quand Dieu parlera d'oresenauant aux Iuifs, que
+      <lb/>cela s'adresse à nous: voire, &amp; qu'il nous le
+      <lb/>faut receuoir en telle sorte , que nous cognoissions
+      <lb/>que Dieu a estendu sa grace par tout le monde
+      <lb/>à la venue de son Fils vnique , &amp; qu'il a basti
+      <lb/>Ierusalem celeste, afin que nous soyons tous associez
+      <lb/>en vne fraternité saincte , pour l'inuoquer
+      <lb/>d'vne bouche nostre pere. Puis qu'ainsi est
+      <lb/>donc , cognoissons que c'est bien raison que
+      <lb/>nous soyons addonnez à luy , &amp; qu'il nous tienne
+      <lb/>comme en bride, &amp; qu'il iouisse de nous , &amp;
+      <lb/>que cõme il luy a pleu se donner à nous,que nous
+      <lb/>soyons siens de nostre costé , que nous luy rendions
+      <lb/>le deuoir qu'ont les enfans à leur pere:&amp;
+      <lb/>si nous sommes lasches &amp; tardifs à cela , que
+      <lb/>pour le moins nous soyons esmeus des exhortations
+      <lb/>qui sont contenues en ce liure. Et voyant
+      <lb/>que Dieu vse de vehemence , que nous ne facions
+      <lb/>point l'aureille sourde: mais que chacun s'esueille,
+      <lb/>&amp; que chacun se redargue. Et mesmes (si nous
+      <lb/>estiõs bien sages) nous ne devriõs point attendre
+      <lb/>que Dieu nous sollicitast si asprement, nous deurions
+      <lb/>plustost anticiper: mais c'est pour le moins
+      <lb/>quand Dieu vse de corrections,&amp; qu'il tonne, &amp;
+      <lb/>qu'il nous menace , &amp; qu'il nous reproche nos
+      <lb/>pechez,que nous soyons esmeus, afin d'auoir honte
+      <lb/>de nostre turpitude , afin de retourner à luy.
+      <lb/>Voila en somme ce que nous auons à obseruer en
+      <lb/>ce liure en general.Or venons maintenant au texte
+      <lb/>que nous auons recité. 
+      <hi rend="I">Ce sont les parolles que
+       <lb/>Moyse prononça au peuple au desert, en la planure</hi>
+      (ou au lieu
+      <lb/>champestre)<hi rend="I">outre le Iourdain , voire depuis Horeb</hi>
+       iusques
+      <lb/>aux lieux qui sont ici recitez. En ceci nous auõs à
+      <lb/>noter que Dieu vouloit redarguer le peuple de
+      <lb/>ce qu'il n'auoit pas retenu la Loy , qui non seulement <cb/>
+      <lb/>luy estoit preschee de bouche, mais aussi
+      <lb/>couchee par escrit. Comme si on faisoit vn instrument
+      <lb/>authentique de quelque contract, &amp; de
+      <lb/>quelque conuenance entre deux parties . Et
+      <lb/>Dieu mesme auoit voulu engrauer sa Loy , au
+      <lb/>moins les dix paroles , dedans deux tables , afin
+      <lb/>que la memoire en fust plus grande. Car le peuple
+      <lb/>n'auoit point receu la doctrine,combiẽ qu'elle
+      <lb/>fust assez claire de soy , &amp; que Dieu eust proueu
+      <lb/>afin qu'on ne la mist pas en oubli. Il reproche
+      <lb/>donc maintenant à ce peuple-la , comme quand il
+      <lb/>nous seroit dit, Voici l'Euangile de nostre Seigneur
+      <lb/>Iesus Christ qui a este laissé par escrit , apres
+      <lb/>auoir este publié en vne telle vertu &amp; maieste.
+      <lb/>Nous auons l'Euangile qu'on nous presche
+      <lb/>desia de long temps,l'Euangile<supplied resp="#MAG" reason="omission"> </supplied>qui nous est exposé
+      <lb/>par liures. Nous sommes donc inexcusables tant
+      <lb/>à plus, si nous ne sauons ce que Dieu veut ici
+      <lb/>dire.Quand on parlera ainsi,c'est pour nous accuser
+      <lb/>de nostre bestise. Et puis quand on dira, qu'estans
+      <lb/>baptisez au Nom du Fils de Dieu dés nostre
+      <lb/>enfance, nous ne l'auons point cogneu: qu'estans
+      <lb/>paruenus en aage d'homme , nous auons este si
+      <lb/>brutaux, qu'ayans escouté tãt de fois la verite de
+      <lb/>Dieu , nous y sommes tant nouueaux , &amp; que
+      <lb/>nous ne sauons à grand'peine que c'est , pour le
+      <lb/>moins que nous n'y auons prins gueres de goust.
+      <lb/>Voila nostre proces qui est formé, quand on parlera
+      <lb/>ainsi de l'Euangile , comme de long temps il
+      <lb/>nous est presenté,voire en plusieurs façons. Ainsi
+      <lb/>maintenant Moyse, pour faire vne protestation
+      <lb/>que le peuple s'estoit monstré par trop ingrat à
+      <lb/>Dieu , dit notamment , Voici les parolles que
+      <lb/>i'ay publié, &amp; que i'ay presché derechef,non seulement
+      <lb/>pour vn iour,mais depuis que la Loy fut
+      <lb/>publiee en la montagne d'Horeb. Et pource que
+      <lb/>le peuple s'estoit monstré si mal disposé, ie n'ay
+      <lb/>cessé de luy refreschir la memoire des choses
+      <lb/>qu'il auoit desia entendues. Or par cela apprenons
+      <lb/>d'estre mieux incitez , quand nous voyons
+      <lb/>que nostre Dieu dés le commencement du monde
+      <lb/>a voulu que sa verite eust certain tesmoignage
+      <lb/>entre les hommes , a qu'il n'a cessé de <choice><sic>lap roduire</sic><corr resp="#MAG">la produire</corr></choice>
+      <lb/>en auant,&amp; quand les hommes l'ont voulu enseuelir
+      <lb/>par leur malice , qu'il l'a cõme ressuscitee:
+      <lb/>cognoissons en cela sa bonte admirable , &amp;
+      <lb/>soyõs esmeus à receuoir ce qu'il no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> sera dit. Voila
+      <lb/>pour vn item. Mais afin que nous soyons mieux
+      <lb/>affectionnez,il nous faut aussi poiser ce mot que
+      <lb/>Moyse adiouste, <quote source="#...">
+       <hi rend="I">Voire selon tout ce qui luy estoit commandé
+        <lb/>de Dieu</hi>
+             </quote>. Or par ceste preface il declare , qu'il n'a
+      <lb/>rien apporté du sien , qu'il n'a point voulu assuiettir
+      <lb/>le peuple à ses resueries , ni mesmes
+      <lb/>à ce qu'il auoit peu inuenter par bonne raison
+      <lb/>à prudence quant aux hommes , que simplement
+      <lb/>il a obey à Dieu,&amp; qu'il a este vn messager fidele
+      <lb/>&amp; loyal sans decliner ni à dextre ni à fenestre.
+      <lb/>Or si Moyse,qui a eu vn tesmoignage si excellent, <note type="margin">
+       <ref type="bible" target="bibleSegond21.xml#Deut.34.10">Deut.<lb/>34.10.</ref>
+      </note>
+      <lb/>comme nous voyons que iamais Dieu n'a suscité
+      <lb/>vn prophete pareil ni egal à luy. Si donc Moyse
+      <lb/>qui a este le prince des prophetes , apres Iesus
+      <lb/>Christ,mais sous la Loy ancienne il est le principal,
+      <lb/>s'il a protesté touteffois qu'il n'aduançoit
+      <lb/>rien de son propre,ie vous prie, que sera-ce des <fw place="bot-right" type="catch">autres?</fw>
+      <pb n="5"/>
+      <cb/>
+      <lb/>autres?se pourront-ils accomparer à luy?Mais prenons
+      <lb/>le cas qu'ils soyent aussi haut esleuez &amp;
+      <lb/>iuchez,si est-ce neantmoins que voila le degré où
+      <lb/>il faut qu'ils demeurent , c'est qu'ils anoncent ce
+      <lb/>que Dieu leur a commandé. Et ainsi apprenons
+      <lb/>que la porte est ici fermee à toutes doctrines humaines.
+      <lb/>Et par cela voit-on comme le Pape a depraué
+      <lb/>&amp; corrompu tout l'ordre de l'Eglise,quand
+      <lb/>il s'est constitué legislateur , qu'il a inuenté &amp; imposé
+      <lb/>des loix à son plaisir, qu'il a forgé &amp; controuué
+      <lb/>des articles de foy , qu'il a voulu que ce
+      <lb/>qu'il auoit imaginé fust receu comme Escriture
+      <lb/>saincte : n'est-ce point tout peruertir? Car iamais
+      <lb/>Dieu n'a voulu que ceste licence dominast en son
+      <lb/>Eglise , que les hommes proposassent rien de
+      <lb/>leurs inuentions : mais il a voulu estre escouté
+      <lb/>luy seul. Voila pour vn item. Mais encores y a-
+      <lb/>il plus: car il n'est pas seulement dit , que Moyse
+      <lb/>a parlé selon la charge qui luy estoit donnee,
+      <lb/>mais 
+      <hi rend="I">selon tout ce que Dieu luy auoit commandé</hi>. Il monstre
+      <lb/>donc qu'il n'a point fait comme vn meslinge,
+      <lb/>qu'il n'a point cerché en façon que ce fust d'apporter
+      <lb/>ce que bon lui sembloit , pour se separer
+      <lb/>de la parolle de Dieu:mais qu'il a suyui de poinct
+      <lb/>en poinct iusques au bout ce que Dieu vouloit.
+      <lb/>Voila donc vne grande simplicité qui a esté en
+      <lb/>Moyse , c'est qu'il n'a point seulement anoncé ce
+      <lb/>qu'il tenoit de Dieu:mais qu'il a demeuré du tout
+      <lb/>en ceste simplicite-la , qu'il n'a point passé sa mesure,
+      <lb/>qu'il n'a point voltigé pour dire , Ceci est
+      <lb/>bon , i'ay vne telle opinion de ceci : non, mais
+      <lb/>en tout &amp; par tout il s'est reiglé à la charge de
+      <lb/>son office , que selon qu'il auoit ouy Dieu parler,
+      <lb/>il a annoncé le message.voila pour le second.
+      <lb/>Or cependant nous sommes admonnestez de receuoir
+      <lb/>la doctrine ici contenue,non point comme
+      <lb/>venante d'vn homme mortel. Moyse a parlé,protestant
+      <lb/>qu'il n'est pas le maistre , quand il nous
+      <lb/>recordera nostre leçon: mais il y aura tousiours
+      <lb/>Dieu &amp; son sainct Esprit , il y aura mesmes nostre
+      <lb/>Seigneur Iesus Christ , en la main duquel la
+      <lb/>
+      <note type="margin">
+       <ref type="bible" target="bibleSegond21.xml#Gal.3.19">Gal.3.<lb/>19</ref>
+      </note>Loy a este donnee , comme sainct Paul en parle.
+      <lb/>Car il a este Gouuerneur de l'Eglise de tous
+      <lb/>temps. Voila donc ce que nous auons ici à retenir,
+      <lb/>voire pour receuoir en toute reuerence &amp;
+      <lb/>sollicitude ce qui nous a este donné par la main
+      <lb/>de Moyse.Non point que nous estimions que rien
+      <lb/>soit procedé de luy : mais que Dieu l'a enuoyé,
+      <lb/>qu'il l'a constitué son organe, tellement que
+      <lb/>quand nous receuons ce qui est dit par Moyse,
+      <lb/>nous pouuons estre asseurez que Dieu nous conduit
+      <lb/>&amp; gouuerne par sa pure verite, &amp; que nostre
+      <lb/>foy n'est point appuyee sur les hommes , ne sur
+      <lb/>aucune creature caduque: mais que le Dieu viuant
+      <lb/>en est l'autheur , &amp; en sera aussi le garent.
+      <lb/>Or apres auoir parlé ainsi , il dit , 
+      <hi rend="I">Qu'il a recité
+       <lb/>toutes ces choses l'annee quarantieme , en l'onzieme mois , &amp; au
+       <lb/>premier iour du mois</hi>. Comme s'il estoit dit, Quand le
+      <lb/>peuple a approché, &amp; qu'il deuoit entrer en la
+      <lb/>terre promise , alors il a recapitulé la Loy de
+      <lb/>Dieu,il en a fait vn sommaire , il a fait vn recueil
+      <lb/>de toutes les remonstrances &amp; exhortations dont
+      <lb/>il auoit vsé auparauant. Non pas que Moyse se
+      <lb/>fust teu depuis Horeb , &amp; qu'il eust fait silence: <cb/>
+      <lb/>car (comme nous auons dit) il n'a cessé de crier
+      <lb/>tousiours apres ce peuple , le voyant ainsi dur
+      <lb/>&amp; reuesche,le voyant d'vn col dur à plier. Mais
+      <lb/>en la fin , pource qu'il approchoit de son but,
+      <lb/>qu'il auoit acheué sa course ( comme nous verrons
+      <lb/>son trespas en la fin du Liure ) pource donc
+      <lb/>qu'il falloit qu'il fust retiré de ce monde:il a fait
+      <lb/>vn recueil de toute la doctrine qu'il auoit preschee
+      <lb/>pas l'espace de quarante ans , &amp; l'a voulu
+      <lb/>ratifier tellement au peuple, qu'apres son trespas
+      <lb/>ses successeurs en fussent edifiez , &amp; qu'encores
+      <lb/>auiourd'huy l'vtilité en vienne iusques
+      <lb/>à nous , &amp; que nous soyons endoctrinez de toutes
+      <lb/>les admonitions qui sont ici contenues. Tant
+      <lb/>y a que nous voyons , que desia le peuple deuoit
+      <lb/>bien estre matté pour se renger mieux à Dieu que
+      <lb/>il n'auoit point fait. Car c'est vn bon terme de
+      <lb/>quarante ans , pour disposer vn homme à bien,
+      <lb/>s'il le doit estre. Quand on verra qu'vn homme
+      <lb/>ne veut escouter nul conseil ne raison , &amp; bien si
+      <lb/>on le laisse ronger son frain par l'espace de quarante
+      <lb/>ans , lors il est temps ou iamais , qu'il pense
+      <lb/>à soy : &amp; si on luy remonstre qu'il a failli , qu'il
+      <lb/>soit mieux disposé &amp; meuri qu'il n'estoit. Dieu
+      <lb/>donc voyant que son peuple luy estoit si sauuage,
+      <lb/>luy a donné terme &amp; loisir de s'appriuoiser, &amp; l'a
+      <lb/>pourmené par l'espace de quarante ans: &amp; il l'a
+      <lb/>fait pour leur rebellion , comme nous verrons cy
+      <lb/>apres.Mais pour le present il nous faut noter,que
+      <lb/>quand Moyse parloit à ce peuple,c'estoit approchant
+      <lb/>de son but,pource que Dieu le deuoit retirer
+      <lb/>du monde,&amp; aussi que le peuple deuoit estre
+      <lb/>alors comme renouuelé : car il fut dit à ceux qui
+      <lb/>auoyent refusé d'entrer en la terre, Vos charongnes
+      <lb/>pourriront ici au desert : vous n'estes pas
+      <lb/>dignes de posseder l'heritage que vostre Dieu auoit
+      <lb/>promis à son seruiteur Abraham.Voila donc
+      <lb/>le peuple qui auoit este cõme renouuelé au bout
+      <lb/>de quarante ans, &amp; c'est alors que Moyse met en
+      <lb/>auant la Loy , &amp; qu'il parle selon le commandement
+      <lb/>de Dieu. Or il nous faut aussi bien appliquer
+      <lb/>ceci à nostre instruction: c'est que quand
+      <lb/>nous auons este si mal aduisez de ne point profiter
+      <lb/>en l'escole de Dieu,que nous soyons tousiours demeurez
+      <lb/>asniers, ou bien que nous ayons seulemẽt
+      <lb/>fleureté sur la doctrine , sans qu'elle ait prins vne
+      <lb/>droite viuacite en nous: si Dieu nous donte,&amp;
+      <lb/>que par succession de tẽps il nous prepare mieux
+      <lb/>à l'escouter , que nous aduisions de faire nostre
+      <lb/>profit de cela, &amp; que nous ne soyons pas incorrigibles.
+      <lb/>Car que gagnerons-nous en la fin quand
+      <lb/>nous aurons este tousiours sauuages, &amp; que Dieu
+      <lb/>ne pourra cheuir de nous:ne sera-ce point à nostre
+      <lb/>confusion?Ainsi donc tant en publique qu'en
+      <lb/>particulier,aduisons de faire nostre profit de cest
+      <lb/>aduertissement,&amp; si nous auons mal receu la doctrine
+      <lb/>qui no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> a este preschee desia lõguemẽt:que
+      <lb/>nous sachions,puisque Dieu encores ne nous<supplied resp="#MAG" reason="omission"> </supplied>veut
+      <lb/>point quitter,&amp; qu'il vse d'vne telle misericorde
+      <lb/>enuers nous,qu'encores demande-il de nous attirer
+      <lb/>à soy:que nous soyons preparez , que nous ne
+      <lb/>soyons point ainsi reuesches. Mais apprenons de
+      <lb/>nous appriuoiser,&amp; que la doctrine ait son entree
+      <lb/>&amp; en nos esprits,&amp; en nos cœurs. Voila comme <pb n="6"/>
+      <cb/>
+      <lb/>il nous en faut faire. Et au reste,quand Dieu nous
+      <lb/>aura visité , qu'il nous aura enuoyé quelques corrections
+      <lb/>pour nous humilier,&amp; pour abbatre en
+      <lb/>nous ceste ingratitude &amp; malice qui est trop
+      <lb/>grande:que nous aduisions de nous reduire , &amp;
+      <lb/>de retourner à luy.Et quand nous aurons fait cela
+      <lb/>en general pour tout le corps de l'Eglise,qu'vn
+      <lb/>chacun aussi en son priué face le semblable.Que
+      <lb/>vn homme qui aura esté esgaré , &amp; qui n'aura iamais
+      <lb/>bien cogneu que c'est de Dieu,qui ne se sera
+      <lb/>point assuietti pleinement à la bonne doctrine,si
+      <lb/>Dieu le visite par maladie , par poureté, ou comment
+      <lb/>que ce soit : qu'il regarde, Helas! l'Euangile
+      <lb/>m'auoit esté annõcé:mais cependant comment
+      <lb/>est-ce que ie l'ay receu? Ie ne sauoye que c'estoit
+      <lb/>de mon Dieu, &amp; combien que j'aye fait professiõ
+      <lb/>d'estre des siens,touteffois cela ne m'a point touché
+      <lb/>le cœur : qu'est-il de faire donc maintenant?
+      <lb/>puis que Dieu me veut auoir pour son escolier,
+      <lb/>c'est bien raison que ie me baille du tout à luy, &amp;
+      <lb/>que ie luy porte telle reuerence comme ie doy <cb/>
+      <lb/>à mon maistre &amp; souuerain docteur. Voila de
+      <lb/>quoy nous sommes admonnestez en ce passage,
+      <lb/>quand nous voyons que nostre Seigneur par tous
+      <lb/>moyens nous veut reduire , &amp; qu'il nous abbat
+      <lb/>ceste rebellion qui est en nous , qu'il nous argue
+      <lb/>de nos vices,&amp; que voyant que nous sommes ainsi
+      <lb/>esgarez , il nous recueille à soy , afin de sauoir
+      <lb/>cheuir de nous , que nous ne regimbions point
+      <lb/>contre l'esperon, ainsi que i'ay dit ; mais plustost
+      <lb/>qu'auec vn esprit debonnaire nous demandions
+      <lb/>d'estre gouuernez par luy , &amp; de profiter de plus
+      <lb/>en plus en sa parolle.</p>
+     <p n="4">
+      <lb/>
+      <hi rend="pI">Or nous nous prosternerons deuant la face de nostre bon
+       <lb/>Dieu, en cognoissance des fautes innumerables que nous ne cessons
+       <lb/>de commettre iournellement à l'encontre de sa Maiesté : le prians
+       <lb/>qu'il luy plaise de les effacer par sa bonté gratuite , &amp; cependant
+       <lb/>qu'il nous reduise à soy, &amp; qu'il besogne tellement en nous par
+       <lb/>son sainct Esprit,que vos consciences soyẽt mortifiees de tout au iour
+       <lb/>iusques à ce que nous soyons despouillez de toutes les corruptions
+       <lb/>de nostre chair pour estre reuestus de sa iustice. Ainsi nous dirons
+       <lb/>tous, Dieu tout puissant, Pere celeste,&amp;c.</hi>
+     </p>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

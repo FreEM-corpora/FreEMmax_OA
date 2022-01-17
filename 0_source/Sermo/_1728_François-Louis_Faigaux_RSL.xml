@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1728_François-Louis_Faigaux_RSL">
+            <titleStmt>
+                <title type="sermon">LE TRIOMPHE De Jesus-Christ ET De ses Ministres ; Ou Sermon sur ce Texte ...</title>
+                <title type="book">Le Triomphe de Jésus-Christ, et de ses ministres. Ou Sermon sur
+                    ce Texte : Graces à Dieu qui nous fait toûjours triompher en JEsus-Christ. 2.
+                    Cor. II. 14. Prononcé à Neufchâtel le 11. Avril 1728. Par François Louïs Faigaux
+                    Ministre du Saint Evangile &amp; Pasteur des Eglises d’Orvin &amp; de Vauffelin,
+                    sous la très douce &amp; très heureuse Domination de Son Altesse Monseigneur
+                    l’Evêque de Basle, Imprimé à Berne, Chez Jean Bondeli, MDCCXXVIII.</title>
+                <author ref="...">François-Louis Faigaux</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="RSL">Ruth STAWARZ-LUGINBUEHL</persName>
+                        <email>ruth.luginbuhl@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>François-Louis Faigaux</author>
+                        <title>Le Triomphe de Jésus-Christ, et de ses ministres. Ou Sermon sur ce
+                            Texte : Graces à Dieu qui nous fait toûjours triompher en JEsus-Christ.
+                            2. Cor. II. 14. Prononcé à Neufchâtel le 11. Avril 1728.</title>
+                        <imprint>
+                            <pubPlace>Berne</pubPlace>
+                            <publisher>Jean Bondeli</publisher>
+                            <date>1728</date>
+                            <date type="sermon">1728</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="source">Bibliothèque publique et universitaire de Neuchâtel, Bibliothèque des Pasteurs, Cote BPUN PA Ca 56</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_thématique</term>
+                    <term type="sermonTheme">Le Triomphe de Jésus-Christ et de ses ministres</term>
+                    <term type="howPublished">isolé</term>   
+                    <term type="numberOfSermons"/>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">2Cor.2.14</term>
+                    <term type="paratext" subtype="epistle">AUX VENERABLES, DOCTES, ET PIEUX MESSIEURS, MESSIEURS, LES DOYEN &amp; PASTEURS Qui composent la Vénerable Classe de Neufchâtel.</term>
+                    <term type="paratext" subtype="tableOfContents">Tables des Sermons contenus dans ce volume (manuscrit)</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-03-04" who="#LjD">transformation word - XML</change>
+            <change when="2016-03-04" who="#MAG">Verification, citations</change>
+            <change when="2014-05-22" who="#RSL">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>LE 
+                    <lb/>TRIOMPHE 
+                    <lb/>DE 
+                    <lb/>JESUS-CHRIST, 
+                    <lb/>
+                    <hi rend="I">ET DE SES </hi> 
+                    <lb/>MINISTRES. 
+                    <lb/>OU 
+                    <lb/>Sermon sur ce Texte : 
+                    <lb/>
+                    <hi rend="I">Graces à Dieu qui nous fait toûjours 
+                        <lb/>triompher en JEsus-Christ. </hi> 
+                    <lb/>2. Cor. II. 14. 
+                    <lb/>Prononcé à Neufchâtel le 11. 
+                    <lb/>Avril 1728. 
+                    <lb/>Par François Louïs Faigaux Ministre 
+                    <lb/>du Saint Evangile &amp; Pasteur 
+                    <lb/>des Eglises d'Orvin &amp; de Vauffelin, 
+                    <lb/>sous la très douce &amp; très heureuse Domination 
+                    <lb/>de SON ALTESSE Monseigneur  
+                    <lb/>l'Evêque de Basle. 
+                    <lb/>
+                    <hi rend="I">Imprimé à BERNE, </hi> 
+                    <lb/>Chez Jean Bondeli MDCCXXVIII.</p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="9"/>
+                <head type="main">
+                    <lb/>LE 
+                    <lb/>TRIOMPHE 
+                    <lb/>De Jesus-Christ 
+                    <lb/>
+                    <hi rend="I">ET </hi> 
+                    <lb/>De ses Ministres ; 
+                    <lb/>
+                    <hi rend="I">Ou </hi> 
+                    <lb/>Sermon sur ce Texte : 
+                    <lb/>
+                    <quote source="bibleOstervald1724#_2Cor.2.14">
+                        <hi rend="I">Graces à Dieu qui nous fait toûjours triompher 
+                            <lb/>en JEsus-Christ</hi></quote>.
+                    <ref type="bible" target="bibleSegond21.xml#_2Cor.2.14">2. Cor. II. v. 14</ref>
+                </head>
+                <p n="1">
+                    <lb/>MES FRERES !</p>
+                <p n="2">
+                    <lb/>
+                    <c type="lettrine">C</c>E n'est pas sans raison que 
+                    <lb/>l'Apôtre St. Paul dit qu'il n'a 
+                    <lb/>été <hi rend="I">en rien moins excellent que 
+                        <lb/>les autres Apôtres</hi>. Les travaux de ce 
+                    <lb/>saint homme êtoient extraordinaires, 
+                    <lb/>&amp; Dieu les accompagnoit d'une efficace 
+                    <lb/>merveilleuse. Dans le tems qu'il écrivoit <fw place="bot-right" type="catch">voit</fw>
+                    <pb n="10"/>
+                    <lb/>à son troupeau de Corinthe, l'Epître 
+                    <lb/>d'où nôtre Texte est tiré, il êtoit 
+                    <lb/>en Macedonie où il prêchoit l'Evangile. 
+                    <lb/>Le même ésprit, la même grace qui 
+                    <lb/>l'avoient accompagné ailleurs, l'assistoient 
+                    <lb/>puissamment ici pour captiver 
+                    <lb/>les Ames à JEsus. A la vue de ses nouvelles 
+                    <lb/>conquêtes &amp; dans le sentiment 
+                    <lb/>de ses heureux succès, il ne peut retenir 
+                    <lb/>ses transports d'alégresse. <hi rend="I">Graces à 
+                        <lb/>Dieu</hi>, dit-il, <quote source="bibleOstervald1724#_2Cor.2.14">
+                        <hi rend="I">Graces à Dieu qui nous fait 
+                            <lb/>toûjours triompher en
+                        Jésus-Christ</hi></quote>.
+                </p>
+                <p n="3">
+                    <lb/>Nous n'avons pas fait dessein, mes 
+                    <lb/>Fréres, d'expliquer ce Texte uniquement 
+                    <lb/>par rapport à l'Apôtre S. Paul. 
+                    <lb/>Rien n'empêche, qu'à cette occasion 
+                    <lb/>nous vous entretenions de tous les triomphes 
+                    <lb/>de JEsus-Christ &amp; de ses Serviteurs. 
+                    <lb/>Nous ne voulons pas non 
+                    <lb/>plus attacher à l'explication des <hi rend="I">termes </hi>; 
+                    <lb/>Ils sont assés clairs d'eux mêmes. Mais 
+                    <lb/>nous allons déveloper la matiere en étalant 
+                    <lb/>à vos yeux les victoires glorieuses 
+                    <lb/>de l'Evangile. Il a triomphé des <hi rend="I">Ténebres</hi>, 
+                    <lb/>il a triomphé de la <hi rend="I">Corruption</hi>, 
+                    <lb/>ou pour parler autrement, il a triomphé <fw place="bot-right" type="catch">des</fw>
+                    <pb n="11"/>
+                    <lb/>des <hi rend="I">Esprits </hi>&amp; des <hi rend="I">Cœurs</hi>. C'est-là tout 
+                    <lb/>le plan de mon Discours ; Et Dieu 
+                    <lb/>veuille nous diriger par son saint Esprit, 
+                    <lb/>Amen.</p>
+                <p n="4">
+                    <lb/>J'ay donc dit en <hi rend="I">prémier</hi> lieu que l'Evangile 
+                    <lb/>avoit triomphé des <hi rend="I">Ténebres </hi>: Il 
+                    <lb/>faut entendre cette proposition.</p>
+                <p n="5">
+                    <lb/>Dès que Dieu eut laissé errer les nations 
+                    <lb/>dans leurs voyes ; A la reserve de 
+                    <lb/>quelques lumiéres qui brilloient de 
+                    <lb/>tems en tems chez le peuple des Hebreux <hi rend="I">;</hi> 
+                    <lb/>Toute la <choice><sic>terré</sic><corr resp="#RSL">terre</corr></choice> étoit ensevelie 
+                    <lb/>dans les tenébres de l'ignorance, de la 
+                    <lb/>superstition &amp; de l'idolatrie. Les Sabiens 
+                    <lb/>&amp; les Mages, deux Sectes qui partagerent 
+                    <lb/>pendant nombres de siécles 
+                    <lb/>tout le genre humain en matiére de 
+                    <lb/>Religion, les Poëtes &amp; les Philosophes, 
+                    <lb/>les Grands &amp; le Vulgaire, tous suivoient 
+                    <lb/>des opinions plus ou moins monstrueuses, 
+                    <lb/>mais toûjours confuses &amp; ténebreuses ; 
+                    <lb/>C'étoit alors le Regne, ou 
+                    <lb/>si l'on veut la puissance des ténébres.</p> 
+                <fw place="bot-right" type="catch">Jésus-</fw>
+                <pb n="12"/>
+                <p n="6">
+                    <lb/>JEsus-Christ le Fils de Dieu le Soleil 
+                    <lb/>de Justice étoit promis aux hommes. Il 
+                    <lb/>vient &amp; prend nôtre nature dans l'accomplissement 
+                    <lb/>des tems. Il paroit dans 
+                    <lb/>la Judée &amp; il déclare ce qu'il est : <quote source="bibleOstervald1724.xml#John.8.12">
+                        <hi rend="I">Je 
+                            <lb/>suis</hi><seg type="interpolation">, dit-il,</seg> 
+                        <hi rend="I">la lumiére du monde, celui qui 
+                            <lb/>me suit ne marchera pas dans les tenébres, 
+                            <lb/>mais aura la lumiere de la vie</hi>
+                    </quote>.
+                    <hi rend="I"> Et il confirme 
+                        <lb/>par des Miracles inouis le </hi>témoignage 
+                    <lb/>qu'il se rendoit à lui même. <ref type="bible" target="bibleSegond21.xml#John.8.12">Jean 
+                        <lb/>VIII. 12.</ref>
+                </p>
+                <p n="7">
+                    <lb/>Pour mettre en lumiére la vie &amp; l'immortalité 
+                    <lb/>par l'Evangile, JEsus-Christ 
+                    <lb/>ouvrit pour ainsi dire les Cieux mêmes 
+                    <lb/>aux yeux des hommes. Il leur montra 
+                    <lb/>le Dieu unique en trois personnes, Créateur 
+                    <lb/>du monde &amp; seul digne des hommages 
+                    <lb/>du genre humain.</p>
+                <p n="8">
+                    <lb/>Il leur apprit l'état saint &amp; heureux 
+                    <lb/>auquel ils avoient été créés, &amp; leur 
+                    <lb/>decouvrit l'effroyable misére dans laquelle 
+                    <lb/>ils se sont précipités par leur faute 
+                    <lb/>&amp; par leur <choice><sic>desordres</sic><corr resp="#RSL">desordre</corr></choice>. Il leur expliqua 
+                    <lb/>toute la volonté &amp; le conseil de son 
+                    <lb/>Pére. Il leur dit ce qu'il alloit faire pour <fw place="bot-right" type="catch">eux</fw>
+                    <pb n="13"/>
+                    <lb/>eux en souffrant la mort &amp;c. Enfin il les 
+                    <lb/>exhorta à la répentance &amp; il leur promit 
+                    <lb/>le salut s'ils se convertissoient de 
+                    <lb/>tout leur cœur.</p>
+                <p n="9">
+                    <lb/>Ces sublimes, ces interressantes verités 
+                    <lb/>que le monde n'avoit pû connoître, 
+                    <lb/>expliquées au long, repetées &amp; inculquées 
+                    <lb/>en diverses manieres, confirmées 
+                    <lb/>par des miracles &amp; par les évenemens, 
+                    <lb/>annoncées par le Sauveur même 
+                    <lb/>&amp; préchées ensuite par les Apôtres 
+                    <lb/>devant &amp; après l'Ascension de JEsus-
+                    <lb/>Christ porterent la lumiére dans l'Ame 
+                    <lb/>d'une infinité de personnes &amp; firent 
+                    <lb/>tomber de dessus leurs yeux les tenébres 
+                    <lb/>qui les couvroient. Ils reconnurent 
+                    <lb/>les Idoles &amp; tout leur Culte, comme 
+                    <lb/>autant d'abominations, &amp; se régarderent 
+                    <lb/>comme des criminels condamnés 
+                    <lb/>à des supplices éternels. Ils reconnurent 
+                    <lb/>le Dieu Créateur, le Pére de nôtre 
+                    <lb/>Seigneur JEsus-Christ comme le 
+                    <lb/>seul digne de leurs adorations, ils comprirent 
+                    <lb/>qu'il n'y avoit pas d'autre moyen 
+                    <lb/>d'être sauvé que JEsus-Christ &amp; 
+                    <lb/>que pour fuir l'ire qui est à venir il faloit <fw place="bot-right" type="catch">loit</fw>
+                    <pb n="14"/>
+                    <lb/>faire des fruits convenables à la répentance.</p>
+                <p n="10">
+                    <lb/>Alors la terre commença petit à petit 
+                    <lb/>à reprendre en mille endroits &amp; après 
+                    <lb/>quelques siécles presque par tout une 
+                    <lb/>nouvelle face. Les tenébres firent place 
+                    <lb/>à la lumiére, &amp; ni les plus formidables 
+                    <lb/>Puissances, ni les Philosophes les plus 
+                    <lb/>habiles ne purent garentir l'ignorance, 
+                    <lb/>l'erreur, la superstition, <supplied resp="#RSL" reason="omission">l</supplied>'Idolatrie, de la 
+                    <lb/>honteuse fuïte où la verité &amp; la lumiére 
+                    <lb/>de l'Evangile les contraignoit. Et 
+                    <lb/>dès lors par tout où les hommes n'ont 
+                    <lb/>pas mieux aimé les tenébres que la lumiére, 
+                    <lb/>cet Evangile qui est la puissance 
+                    <lb/>de Dieu en salut à tout croyant, s'est 
+                    <lb/>fait jour dans les Esprits, s'est assujetti 
+                    <lb/>les entendemens.</p>
+                <p n="11">
+                    <lb/>Dans cette effusion des connoissances 
+                    <lb/>Dieu reveloit aux hommes dans cet épanchement 
+                    <lb/>de lumiéres qui se fit d'abord 
+                    <lb/>par la prédication de Jésus-Christ 
+                    <lb/>&amp; de ses Apôtres &amp; qui s'est ensuite 
+                    <lb/>perpetué par ceux que nous appellons 
+                    <lb/>les Ministres de JEsus-Christ.</p> 
+                <fw place="bot-right" type="catch">Dans</fw>
+                <pb n="15"/>
+                <p n="12">
+                    <lb/>Dans la vuë &amp; dans la conviction de 
+                    <lb/>toutes ces divines verités, &amp; dans le mépris 
+                    <lb/>où ceux qui les ont reçues ne peuvent 
+                    <lb/>de moins que d'entrer pour tout 
+                    <lb/>ce qui y est opposé, l'on peut dire que 
+                    <lb/>JEsus-Christ &amp; ses Serviteurs <hi rend="I">triomphent</hi>, 
+                    <lb/>à peu près au même sens, pour 
+                    <lb/>me servir d'une similitude que le Soleil 
+                    <lb/>triomphe des Tenébres, lors qu'il s'éleve 
+                    <lb/>sur l'hemisphére &amp; que le jour succéde 
+                    <lb/>heureusement à la nuit. C'est 
+                    <lb/>pourquoi l'Ecriture nous représente 
+                    <lb/>les personnes que Dieu a illuminées par 
+                    <lb/>sa grace, comme <quote source="bibleOstervald1724.xml#_2Pet.2.9">
+                        <hi rend="I">amenans leurs pensées 
+                            <lb/>prisonnieres &amp; captives à l'obeïssance de Jésus-
+                            <lb/>Christ &amp; comme transportées du Royaume 
+                            <lb/>des tenébres, au Royaume de la merveilleuse 
+                            <lb/>lumiere de Dieu</hi>
+                        <!-- citation approximative -->
+                    </quote>.
+                    <ref type="bible" target="bibleSegond21.xml#_2Pet.2.9">1. Pier. II. 9.</ref> 
+                </p>
+                <p n="13">
+                    <lb/>D'ailleurs comme c'étoit à la faveur 
+                    <lb/>de l'ignorance &amp; des tenébres que le 
+                    <lb/>Diable regnoit &amp; regne encore avec 
+                    <lb/>efficace sur les enfans de rebellion, à 
+                    <lb/>cause de quoi le Regne des tenébres &amp; 
+                    <lb/>le Regne de Satan sont souvent mis l'un 
+                    <lb/>pour l'autre dans l'Ecriture, il est certain 
+                    <lb/>aussi que c'est par la Prédication <fw place="bot-right" type="catch">&amp;</fw>
+                    <pb n="16"/>
+                    <lb/>&amp; par la lumiére de l'Evangile que 
+                    <lb/>Dieu vient à regner pleinement sur les 
+                    <lb/>hommes &amp; qu'il triomphe de ses Ennemis. 
+                    <lb/>La Foi vient de la Parole prêchée 
+                    <lb/>&amp; reçue &amp; c'est par la Foi que Dieu 
+                    <lb/>habite dans les Cœurs. Donc on peut 
+                    <lb/>dire que Dieu <hi rend="I">triomphe</hi> quand son Evangile 
+                    <lb/>est prêché &amp; que cette Divine Prédication 
+                    <lb/>est en quelque sorte le Trône 
+                    <lb/>éclatant de cet être tout parfait, comme 
+                    <lb/>tout juste, tout saint, tout bon, 
+                    <lb/>tout aimable, aux pieds duquel se 
+                    <lb/>viennent ranger en foule tous ceux qui 
+                    <lb/>sont travaillés &amp; chargés de leurs péchés, 
+                    <lb/>tous ceux qui ont faim &amp; soif de 
+                    <lb/>Justice.</p>
+                <p n="14">
+                    <lb/>J'ay dit en <hi rend="I">deuxiéme</hi> lieu dans mon  
+                    <lb/>partage que JEsus-Christ &amp; ses Ministres  
+                    <lb/>ont triomphé de la <hi rend="I">Corruption</hi> &amp; 
+                    <lb/>remporté la victoire sur les <hi rend="I">Cœurs </hi>de 
+                    <lb/>ceux à qui l'Evangile a été prêché. 
+                    <lb/>C'est encore une proposition qu'il faut 
+                    <lb/>prouver.</p>
+                <p n="15">
+                    <lb/>Si l'ignorance étoit profonde quand 
+                    <lb/>le Sauveur vint au Monde, la Corruption <fw place="bot-right" type="catch">tion</fw>
+                    <pb n="17"/>
+                    <lb/>ne l'étoit pas moins. Le vice s'étoit 
+                    <lb/>repandu dans toute la conduite des 
+                    <lb/>hommes, l'impieté, l'amour du monde, 
+                    <lb/>l'avarice, l'orgueil, la sensualité dominoient 
+                    <lb/>sur les cœurs, le crime étoit sur 
+                    <lb/>le Thrône ; Le pêché, le Diable triomphoit.</p>
+                <p n="16">
+                    <lb/>Pour detruire ce funeste Empire, cette 
+                    <lb/>fatale tyrannie que le Démon exerçoit 
+                    <lb/>sur les hommes par le moyen des 
+                    <lb/>déreglemens de leurs cœurs &amp; des désordres 
+                    <lb/>de leur conduite, JEsus-Christ 
+                    <lb/>venu au monde déclara la guerre au 
+                    <lb/>vice, proposa sa morale &amp; insista de la 
+                    <lb/>maniere du monde la plus forte sur la 
+                    <lb/>nécessité de corriger ses moeurs &amp; de s'amender, 
+                    <lb/>Il fit sentir que tout le service 
+                    <lb/>exterieur, tout le Culte que l'on 
+                    <lb/>rendoit à Dieu, lui deplaisoit pendant 
+                    <lb/>que l'on vivoit dans le crime, que même 
+                    <lb/>il est inutile de bien regler son exterieur 
+                    <lb/>&amp; toute sa conduite aux yeux des 
+                    <lb/>hommes si les sentimens du cœur n'y 
+                    <lb/>repondent pas. Les Apôtres de JESUS-
+                    <lb/>Christ prêchérent la même Doctrine &amp; 
+                    <lb/>consacrerent tous leurs soins à la destruction <fw place="bot-right" type="catch">struction</fw>
+                    <pb n="18"/>
+                    <lb/>du vice. Animés du Saint Esprit 
+                    <lb/>ils inculquerent avec un zéle extraordinaire 
+                    <lb/>les préceptes qu'ils avoient 
+                    <lb/>appris dans l'Ecôle de leur Divin Maître.</p>
+                <p n="17">
+                    <lb/>Ces pieuses Leçons proposées avec 
+                    <lb/>des manieres pressantes, pleines d'onction 
+                    <lb/>&amp; d'attraits, accompagnées de 
+                    <lb/>l'efficace de la grace du St. Esprit, convertirent 
+                    <lb/>heureusement un très grand 
+                    <lb/>nombre de ceux à qui elles furent adressées, 
+                    <lb/>l'on <choice><sic>abandoña</sic><corr resp="#MAG">abandonna</corr></choice> ses inclinations mauvaises, 
+                    <lb/>l'on renonça au monde, &amp; l'on 
+                    <lb/>consacra son cœur &amp; ses affections à 
+                    <lb/>Dieu, pour regler ensuite sur sa Divine 
+                    <lb/>Loi, toutes les actions de sa vie. 
+                    <lb/>C'est ainsi que JEsus-Christ &amp; ses Serviteurs 
+                    <lb/>triompherent glorieusement des 
+                    <lb/>cœurs &amp; de la Corruption dont les 
+                    <lb/>hommes étoient remplis. Je pourrois 
+                    <lb/>vous citter pour exemples &amp; pour preuves, 
+                    <lb/>trois mille personnes qui se convertirent 
+                    <lb/>d'abord à la prédication de St. 
+                    <lb/>Pierre le jour de la Pentecôte. Act. II. 
+                    <lb/>La conversion de St. Paul luy-même
+                    <lb/>qui de <choice><sic>Persecuteurs</sic><corr resp="#RSL">Persecuteur</corr></choice> devient Apôtre, 
+                    <lb/>Act. IX. Celle du Geolier de Paul &amp; <fw place="bot-right" type="catch">de</fw>
+                    <pb n="19"/>
+                    <lb/>de Silas, celle de Lydie dont Dieu ouvrit 
+                    <lb/>le Cœur, celle de Damaris, celle 
+                    <lb/>de Denys l'areopagite, &amp;c. Mais vous 
+                    <lb/>pouvés voir tout cela au long dans le 
+                    <lb/>Livre des Actes.</p>
+                <p n="18">
+                    <lb/>Pour ce qui est des autres qui ne se 
+                    <lb/>convertirent pas véritablement, il y a 
+                    <lb/>deux choses à remarquer, la prémiere 
+                    <lb/>est que cependant ils respectoient le 
+                    <lb/>pouvoir de JEsus-Christ, ils sentoient 
+                    <lb/>le poids de son authorité, &amp; s'ils ne se 
+                    <lb/>livroient pas tout entiers à son Empire 
+                    <lb/>pour dependre uniquement de lui, 
+                    <lb/>ils s'y soumettoient du moins à certains 
+                    <lb/>égards. Il y a de fortes exhortations 
+                    <lb/>dans les Epîtres des Apôtres, il y a des 
+                    <lb/>sevéres corrections, parce que plusieurs 
+                    <lb/>en avoient besoin, mais on y lit peu 
+                    <lb/>d'excommunications, parce qu'il se trouvoit 
+                    <lb/>peu de Chrêtiens qui ne portassent 
+                    <lb/>quelque portion du joug de leur Maître. 
+                    <lb/>La deuxiéme chose qu'il faut observer 
+                    <lb/>là dessus, c'est qu'à la verité cela 
+                    <lb/>ne suffisoit pas pour les sauver, parce 
+                    <lb/>qu'ils désobéïssoient d'ailleurs, mais 
+                    <lb/>cela servoit toûjours pour la gloire de <fw place="bot-right" type="catch">Dieu</fw>
+                    <pb n="20"/>
+                    <lb/>Dieu, devant qu'ils étoient obligés de 
+                    <lb/>ployer, &amp; pour la confusion de ses ennemis. 
+                    <lb/>De sorte qu'à l'égard même de 
+                    <lb/>ceux qui ne se convertirent pas salutairement 
+                    <lb/>à la Prédication de JEsus-Christ 
+                    <lb/>&amp; de ses Apôtres ; Le Seigneur a triomphé, 
+                    <lb/>il a été victorieux. Et voilà 
+                    <lb/>tout ce que javois à dire sur ces Paroles, 
+                    <lb/>
+                    <quote source="bibleOstervald1724.xml#_2Cor.2.14">
+                        <hi rend="I">Graces à Dieu qui nous fait toûjours 
+                            <lb/>triompher en JEsus-Christ</hi>
+                    </quote>. 
+                </p>
+                <p n="19">
+                    <lb/>Si le Titre de Successeurs des Apôtres 
+                    <lb/>peut convenir aux Ministres de l'Evangile, 
+                    <lb/>c'est sans doute par rapport aux 
+                    <lb/>Combats qu'ils sont obligés de soutenir. 
+                    <lb/>Ils ont les mêmes ennemis, ils 
+                    <lb/>remportent les mêmes victoires. Arrêtons 
+                    <lb/>nous encore un moment là dessus.</p>
+                <p n="20">
+                    <lb/>J'avoue que parmy les Chrêtiens 
+                    <lb/>d'aujourd'hui <hi rend="I">l'ignorance</hi> n'est pas aussi 
+                    <lb/>grossiére que celle qui regnoit lors que 
+                    <lb/>JEsus-Christ vint au monde. La lumiére 
+                    <lb/>Evangelique est heureusement 
+                    <lb/>répandue, la Parole de Dieu peut être 
+                    <lb/>lue de chacun, &amp; les verités du salut <fw place="bot-right" type="catch">sont</fw>
+                    <pb n="21"/>
+                    <lb/>sont annonçées clairement par la bouche 
+                    <lb/>des Ministres.</p>
+                <p n="21">
+                    <lb/>Il y a même de certains endroits, &amp; 
+                    <lb/>je pourrois citter pour exemple l'Eglise 
+                    <lb/>à laquelle j'ay l'honneur de prêcher 
+                    <lb/>maintenant, où l'on voit briller de très 
+                    <lb/>belles connoissances &amp; qui se distinguent 
+                    <lb/>par là de tant d'autres peuples 
+                    <lb/>où l'on ne remarque point la même instruction. 
+                    <lb/>Cela vient mes très chers 
+                    <lb/>Fréres de ce que Dieu dans ses tendresses 
+                    <lb/>vous à donné par sa providence liberale, 
+                    <lb/>des Pasteurs éclairés &amp; habiles, 
+                    <lb/>dévots &amp; vigilans, zelés pour l'avancement 
+                    <lb/>du Regne de JEsus-Christ &amp; 
+                    <lb/>de vôtre propre salut ; Et vous étes si 
+                    <lb/>heureusement partagés à cet égard que 
+                    <lb/>vous aves sujet d'en loüer sans cesse le 
+                    <lb/>Seigneur. <ref target="#fn_21_a" type="noteAnchor">(a)</ref></p>
+                <p n="22">
+                    <lb/>Mais helas ! Que le nombre est petit <fw place="bot-right" type="catch">de</fw>
+                </p>
+                <note xml:id="fn_21_a" type="foot" n="(a)">
+                    <hi rend="I">Messieurs les Pasteurs qui composent la Venerable
+                        <lb/>Classe de Neufchâtel sont certainement d'excellens hommes.
+                        <lb/>Ils brillent par l'étendue de leurs connoissances, par leur
+                        <lb/>profond savoir &amp; par leur grande pieté, &amp; c'est avec raison
+                        <lb/>que le <choice><sic>puplic</sic><corr resp="#MAG">public</corr></choice></hi>
+                    <hi rend="I">leur a donné toute son estime &amp; son admiration.</hi>
+                </note>
+                <pb n="22"/>
+                <p n="23">
+                    <lb/>de ceux qui connoissent veritablement 
+                    <lb/>le Seigneur, ses desseins, ses œuvres, &amp; 
+                    <lb/>ses voyes envers nous que le nombre 
+                    <lb/>est petit de ceux qui connoissent l'alliance 
+                    <lb/>de grace, sa vertu &amp; leur devoir ! 
+                    <lb/>Que le nombre est petit de ceux qui 
+                    <lb/>sont en état de répondre à chacun qui 
+                    <lb/>leur demande raison de l'ésperance qui 
+                    <lb/>est en eux !</p>
+                <p n="24">
+                    <lb/>C'est pour cela que les Ministres de 
+                    <lb/>l'Evangile doivent travailler continuellement 
+                    <lb/>à dissiper les tenébres &amp; à éclairer 
+                    <lb/>les hommes. C'est pour cela que 
+                    <lb/>vos Pasteurs ne négligent, ni soins ni 
+                    <lb/>peines, ni travail ni application, pour 
+                    <lb/>vous faciliter l'intelligence des mystéres  
+                    <lb/>de vôtre salut, pour vous montrer 
+                    <lb/>le chemin du Ciel &amp; pour vous y conduire. 
+                    <lb/><ref target="#fn_22_a" type="noteAnchor">(a)</ref></p>
+                <p n="25">
+                    <lb/>Lors que le succés est heureux, 
+                    <lb/>quand les Pasteurs s'apperçoivent qu'il <fw place="bot-right" type="catch">s'est</fw>
+                </p>
+                <note xml:id="fn_22_a" type="foot" n="(a)">
+                    <hi rend="I">Messieurs les Pasteurs des Eglises de Neufchâtel
+                        <lb/>donnent tous les jours de nouvelles preuves de leur Zéle
+                        <lb/>pour la Gloire de Dieu, par les soins qu'ils prennent de
+                        <lb/>leurs Eglises &amp; par l'aplication continuelle qu'ils se donnent à
+                        <lb/>procurer l'édification de leurs troupeaux.</hi>
+                </note>
+                <pb n="23"/>
+                <p n="26">
+                    <lb/>s'est trouvé quelques bonnes Ames, 
+                    <lb/>quelques ésprits dociles, &amp; qu'ils voient 
+                    <lb/>paroître la Lumiére ensuite de leurs <choice><sic>instruction</sic><corr resp="#RSL">instructions</corr></choice>, 
+                    <lb/>ne doutés pas, mes Fréres, 
+                    <lb/>que leur satisfaction ne soit extrême ; 
+                    <lb/>Ils triomphent, &amp; dans les transports 
+                    <lb/>de leur joye, ils rendent à Dieu les plus 
+                    <lb/>ferventes actions de graces.</p>
+                <p n="27">
+                    <lb/>Quand à ceux qui ne profitent pas 
+                    <lb/>de la lumiére qui leur est offerte, il est 
+                    <lb/>vray qu'ils sont un sujet de douleurs 
+                    <lb/>pour les Serviteurs de JEsus. Cependant 
+                    <lb/>j'ose dire que les Ministres en 
+                    <lb/>triomphent parce qu'ils les rendent inexcusables 
+                    <lb/>&amp; qu'ainsi ils <choice><sic>amménent</sic><corr resp="#MAG">aménent</corr></choice> sur 
+                    <lb/>eux la Condannation que leur obstination 
+                    <lb/>merite. Et cette victoire quoi 
+                    <lb/>que triste est toûjours glorieuse pour 
+                    <lb/>nôtre divin Maître, de sorte que nous 
+                    <lb/>pouvons dire : <quote source="bibleOstervald1724.xml#_2Cor.2.14">
+                        <hi rend="I">Graces à Dieu qui nous 
+                            <lb/>fait toûjours triompher en JEsus-Christ</hi>
+                    </quote>.
+                </p>
+                <p n="28">
+                    <lb/>Ce n'est pas seulement a l'ignorance 
+                    <lb/>que les Ministres de JEsus-Christ s'opposent, 
+                    <lb/>c'est encore à la <hi rend="I">Corruption</hi> du 
+                    <lb/>Siecle. C'est icy qu'ils ont à combattre : <fw place="bot-right" type="catch">tre :</fw>
+                    <pb n="24"/>
+                    <lb/>Chaque vice est un <choice><sic>ennemis</sic><corr resp="#RSL">ennemi</corr></choice>, &amp; 
+                    <lb/>quel nombre, bon Dieu ! Quel nombre 
+                    <lb/>n'y en a-t-il pas ? Pour quelques 
+                    <lb/>personnes pieuses que l'on trouvera, 
+                    <lb/>combien d'autres qui marchent suivant 
+                    <lb/>les inclinations de leur nature corrompue ? 
+                    <lb/>Ce seroit un détail bien affligant 
+                    <lb/>que celuy qu'on en pouroit faire. 
+                    <lb/>Un Prédicateur n'y entre pas volontiers, 
+                    <lb/>passons outre, amenons tout 
+                    <lb/>ceci à la victoire de JEsus-Christ &amp; 
+                    <lb/>de ses Ministres. Quand il se trouve 
+                    <lb/>de ces cœurs bien disposés où la parole 
+                    <lb/>cette Divine semence est reçue comme 
+                    <lb/>dans une bonne terre, &amp; qu'on en voit 
+                    <lb/>porter des fruits convenables à la répentance, 
+                    <lb/>c'est alors que les Pasteurs 
+                    <lb/>disent de bon cœur : <quote source="bibleOstervald1724.xml#_2Cor.2.14">
+                        <hi rend="I">Graces à Dieu qui 
+                            <lb/>nous fait triompher en JEsus-Christ</hi>
+                    </quote>. 
+                </p>
+                <p n="29">
+                    <lb/>Si la Conduite &amp; les moeurs d'une 
+                    <lb/>multitude de ceux qui se disent les Disciples 
+                    <lb/>de l'Evangile &amp; les enfans du Royaume 
+                    <lb/>ne repondent pas à la supernelle 
+                    <lb/>vocation dont ils sont honnorés, le 
+                    <lb/>Seigneur ne laisse pas de triompher 
+                    <lb/>d'eux en bien des maniéres.</p>
+                <fw place="bot-right" type="catch">Il</fw>
+                <pb n="25"/>
+                <p n="30">
+                    <lb/>Il triomphe d'eux par la honte insurmontable, 
+                    <lb/>dont il les couvre ou de laquelle 
+                    <lb/>ils se <choice><sic>sentient</sic><corr resp="#RSL">sentent</corr></choice> emûs, dès qu'il 
+                    <lb/><choice><sic>leurs</sic><corr resp="#RSL">leur</corr></choice> arrive de penser, de parler, ou 
+                    <lb/>d'agir contre les Lumiéres que Dieu repand 
+                    <lb/>parmy les hommes. Ils portent 
+                    <lb/>avec eux leur supplice &amp; tous les autres 
+                    <lb/>deviennent leurs Bourreaux par la confusion 
+                    <lb/>dont leur rencontre les <choice><sic>accables</sic><corr resp="#RSL">accable</corr></choice>.</p>
+                <p n="31">
+                    <lb/>Le Seigneur triomphe d'eux par les 
+                    <lb/>remors dont-il remplit leur conscience, 
+                    <lb/>ou pour se venger ou pour les ramener 
+                    <lb/>à luy. Un pêcheur qui ne rougit 
+                    <lb/>pas de ses crimes est un monstre, mais 
+                    <lb/>un autre qui n'en sent point de remors 
+                    <lb/>est quelque chose de plus rare encore.</p>
+                <p n="32">
+                    <lb/>Enfin le Seigneur triomphe d'eux par 
+                    <lb/>la frayeur, par la crainte des peines. Je 
+                    <lb/>veux dire par la juste aprehension de 
+                    <lb/>l'éternité malheureuse, contre laquelle 
+                    <lb/>il est plus certain qu'on ne sauroit le 
+                    <lb/>dire ; Qu'aucune ame coupable ne sauroit 
+                    <lb/>se tranquilliser.</p>
+                <fw place="bot-right" type="catch">De</fw>
+                <pb n="26"/>
+                <p n="33">
+                    <lb/>De sorte que JEsus-Christ &amp; ses Ministres 
+                    <lb/>sont toûjours les vainqueurs, 
+                    <lb/>comme dit nôtre Texte : <quote source="bibleOstervald1724.xml#_2Cor.2.14">
+                        <hi rend="I">Graces à Dieu 
+                            <lb/>qui nous fait toûjours triompher en JEsus-
+                            <lb/>Christ</hi>
+                    </quote>.
+                </p>
+                <p n="34">
+                    <lb/>Je sçay bien que les Pasteurs sont 
+                    <lb/>environnés de chagrins au milieu des 
+                    <lb/>victoires dont nous venons de vous 
+                    <lb/>parler. Cette qualité porte avec soy 
+                    <lb/>bien des afflictions. L'on a des ennemis 
+                    <lb/>civils &amp; même personnels, que l'on 
+                    <lb/>n'auroit point si l'on n'étoit pas revêtu 
+                    <lb/>du Caractére de Ministre. Caractére 
+                    <lb/>glorieux, mais que l'on cherche à abaisser, 
+                    <lb/>&amp; avilier. L'on voudroit reduire 
+                    <lb/>ceux qui le possedent dans un état 
+                    <lb/>bas, ignominieux, méprisable &amp; 
+                    <lb/>l'on tache de parvenir à ce criminel 
+                    <lb/>but par differentes voyes. Mais Dieu 
+                    <lb/>qui tint en sa main les rênes de cet univers, 
+                    <lb/>sait bien quand il le veut, confondre 
+                    <lb/>ces téméraires desseins, susciter 
+                    <lb/>de puissantes protections, changer tout 
+                    <lb/>à coup la face des choses, &amp; donner la 
+                    <lb/>victoire à ses Enfans. Après tout quand 
+                    <lb/>même ils seroient les vaincûs icy bas <fw place="bot-right" type="catch">sur</fw>
+                    <pb n="27"/>
+                    <lb/>sur la terre, la Couronne de Vie leur 
+                    <lb/>est reservée dans le Ciel, &amp; c'est là 
+                    <lb/>qu'ils s'écrieront dans la Compagnie des 
+                    <lb/>Anges <quote source="bibleOstervald1724.xml#_2Cor.2.14">
+                        <hi rend="I">Graces à Dieu qui nous fait toûjours 
+                            <lb/>triompher en </hi>J<hi rend="I">Esus-Christ</hi>
+                    </quote>.
+                </p>
+                <p n="35">
+                    <lb/>De tout ceci je tire deux <hi rend="I">conclusions </hi>; 
+                    <lb/>L'une regarde les Ministres, &amp; l'autre 
+                    <lb/>s'adresse aux Peuples.</p>
+                <p n="36">
+                    <lb/>C'est un Employ bien glorieux que 
+                    <lb/>de combattre pour JEsus-Christ, c'est 
+                    <lb/>un succèss bien désirable de remporter 
+                    <lb/>pour lui la victoire. Cela nous doit encourager 
+                    <lb/>à redoubler nos efforts, mais 
+                    <lb/>souvenons nous toûjours que ce n'est 
+                    <lb/>pas par nos propres forces. Tous 
+                    <lb/>nos artifices sont vains lors que la grace 
+                    <lb/>Divine ne les accompagne pas. Si 
+                    <lb/>donc nous reussissons, rapportons-en la 
+                    <lb/>gloire à Dieu seul &amp; disons : <quote source="bibleOstervald1724.xml#_2Cor.2.14">
+                        <hi rend="I">Graces à
+                            <lb/>Dieu qui nous fait triompher en JEsus-
+                            <lb/>Christ</hi></quote>.
+                </p>
+                <p n="37">
+                    <lb/>Et vous Brebis du Troupeau de Jesus-
+                    <lb/>Christ, vôtre devoir est d'aider de 
+                    <lb/>vôtre part aux Ministres à remporter la <fw place="bot-right" type="catch">victoire</fw>
+                    <pb n="28"/>
+                    <lb/>victoire sur l'ignorance &amp; sur le pêché. 
+                    <lb/>Mais comment en profitant de leurs instructions, 
+                    <lb/>en suivant leurs exhortations, 
+                    <lb/>en priant Dieu pour eux. Vous 
+                    <lb/>avés bien des graces, mais il en faut 
+                    <lb/>profiter, &amp; quelle ne seroit pas vôtre 
+                    <lb/>confusion au grand &amp; dernier jour, si 
+                    <lb/>Dieu luy même, si Jésus Christ, si ses 
+                    <lb/>Ministres, pouvoient vous reprocher 
+                    <lb/>que vous avés été nonchalans &amp; paresseux 
+                    <lb/>à vous prévaloir de ces faveurs 
+                    <lb/>dont Dieu vous a comblés. Ces Pasteurs 
+                    <lb/>que vous regardés présentement 
+                    <lb/>avec admiration, vous deviendroient 
+                    <lb/>des objets de frayeur, de crainte, &amp; 
+                    <lb/>d'effroy. Ah ! plûtôt, mes Fréres ! 
+                    <lb/>Renoncés à vos ténébres, abandonnez 
+                    <lb/>vôtre corruption. Alors vous serez 
+                    <lb/>vous mêmes les vainqueurs des 
+                    <lb/>ennemis de vôtre Salut ; Et vous partagerez 
+                    <lb/>avec vos Pasteurs la recompense 
+                    <lb/>qui les attend au Ciel. C'est 
+                    <lb/>là s'il plait au Seigneur que nous dirons 
+                    <lb/>tous ensemble : <quote source="bibleOstervald1724.xml#_2Cor.2.14">
+                        <hi rend="I">Graces à Dieu qui 
+                            <lb/>nous a fait triompher en
+                        JEsus-Christ</hi></quote>. 
+                    <lb/>Amen, oui Amen.</p>
+                <p n="38">
+                    <lb/>FIN.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

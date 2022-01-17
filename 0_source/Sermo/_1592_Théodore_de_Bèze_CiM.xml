@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1592_Théodore_de_Bèze_CiM">
+            <titleStmt>
+                <title type="sermon">SERMONS SVR L'HISTOIRE DE LA Passion &amp; sepulture de nostre Seigneur Iesus Christ,descrite par les quatre Euangelistes. Sermon premier
+                </title>
+                <title type="book">Sermons svr l’histoire de la passion et Sepulture de nostre
+                    Seigneur Iesus Christ, descrite par les quatre Euangelistes PAR THEODORE de Besze. De l'Imprimerie de Iean le Preux. M. D. XCII.</title>
+                <author ref="...">Théodore de Bèze</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="CiM">Cinthia MELI</persName>
+                        <email>cinthia.meli@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Théodore de Bèze</author>
+                        <title>Sermons svr l’histoire de la passion et Sepulture de nostre Seigneur
+                            Iesus Christ, descrite par les quatre Euangelistes</title>
+                        <imprint>
+                            <pubPlace>Genève<!-- cette information n'apparaît pas sur la page de garde mais dans la notice détaillée sur e-rara--></pubPlace>
+                            <publisher>Jean le Preux</publisher>
+                            <date>1592</date>
+                            <date type="sermon"/>
+                        </imprint>
+                    </monogr>
+                    <idno type="...">http://dx.doi.org/10.3931/e-rara-6670</idno>
+                    <idno type="...">Bibliothèque de Genève, Cote BGE Bd 440</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">37</term>
+                    <term type="typeOfCollection">thématique</term>
+                    <term type="themeOfCollection">sur l'histoire de la passion et sépulture de Notre Seigneur</term>
+                    <term type="commentedBiblicalText"/>
+                    <term type="paratext" subtype="epistle">A MESSIEVRS ET treshonorés freres les pasteurs Diacres &amp; Anciens des Eglises reformees au Royaume de France , grace &amp; paix de par Dieu le Père &amp; nostre Seigneur Iesus Christ.</term>
+                    <term type="paratext" subtype="other">INDICE DES PRINCIPALES matieres contenues es Sermons sur l’histoire de la mort &amp; passion de notre Seigneur Iesus Christ.</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français préclassique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-04-21" who="#LjD">transformation word - XML</change>
+            <change when="2016-04-21" who="#MAG">Verification, citations</change>
+            <change when="2016-04-06" who="#CiM">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>SERMONS
+                    <lb/>SVR L'HISTOIRE
+                    <lb/>DE LA PASSION ET
+                    <lb/>Sepulture de nostre Seigneur
+                    <lb/>Iesus Christ,descrite
+                    <lb/>par les quatre
+                    <lb/>Euangelistes. </p>
+                <p n="2">
+                    <lb/>
+                    <hi rend="I">PAR THEODORE
+                        <lb/>de Besze.</hi>
+                    <figure/>
+                    <lb/>
+                    <lb/>De l'Imprimerie de Iean le Preux.
+                    <lb/>M. D. XCII. </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <lb/>
+                <figure/>
+                <lb/>
+                <head type="main">
+                    <lb/>
+                    <hi rend="I">SERMONS SVR
+                        <lb/>L'HISTOIRE DE LA
+                        <lb/>Passion &amp; sepulture de nostre Seigneur Iesus
+                        <lb/>Christ,descrite par les quatre Euangelistes.</hi>
+                </head>
+                <div n="1" type="sub">
+                    <head type="sub">
+                        <lb/>SERMON PREMIER</head>
+                    <p n="1">
+                        <lb/>
+                        <c type="lettrine">C</c>OMBIEN que toute la<note type="margin">
+                            <hi rend="I">La satisfaction pour nos pechez, ne doit pas estre
+                                restrainte à la mort de Christ.</hi>
+                        </note>
+                        <lb/>vie de nostre Seigneur
+                        <lb/>Iesus Christ, c'est à dire,
+                        <lb/>cõme parle S. Luc <ref type="bible" target="bibleSegond21.xml#Acts.1.1">Act.
+                            <lb/>1.1.</ref> tout ce qu'il a fait &amp;
+                        <lb/>enseigné , à commencer
+                        <lb/>dés lors qu'il estoit au
+                        <lb/>vẽtre de la vierge Marie sa mere,ait esté vne
+                        <lb/>perpetuelle souffrance , &amp; satisfaction pour
+                        <lb/>nos pechés:ce neantmoins sa mort ayãt esté
+                        <lb/>le plus rude combat qu'il ait soustenu , &amp; la
+                        <lb/>closture de son obeissance , comme cela est
+                        <lb/>expressément noté par l'Apostre <ref type="bible" target="bibleSegond21.xml#Phil.2.8">Philipp.2.8</ref>
+                        <lb/>&amp; <ref type="bible" target="bibleSegond21.xml#Col.2.14-15">Colos.2.14&amp;15.</ref>&amp; ailleurs en
+                        tant de passages ,
+                        <lb/>que nous renuoyent specialement au
+                        <lb/>sang d'icelui respandu pour nous : il s'ensuit
+                        <lb/>qu'entre toutes les histoires Euãgeliques ceste- <pb n="2"/>
+                        <lb/>ci nous est la plus necessaire,cõme aussi
+                        <lb/>le sainct Esprit a voulu qu'elle ait este tres-
+                        <lb/>amplement enregistree par tous les quatre
+                        <lb/>Euangelistes, comme celle qui doit estre entendue
+                        <lb/>&amp; meditee iour &amp; nuict,voire et tous
+                        <lb/>moments,par les vrais Chrestiens. </p>
+                    <p n="2">
+                        <lb/>
+                        <note type="margin">
+                            <hi rend="I">L'vsage &amp; l'abus des ieusnes de deuãt Pasques. Comment
+                                &amp; pourquoy on a osté ceste coustume.</hi>
+                        </note>Voila pourquoy en l'Eglise Chrestienne de
+                        <lb/>toute ancienneté ce temps mesme de l'annee
+                        <lb/>auquel nous sommes, a esté cõme dedié
+                        <lb/>à la declaration d'icelle,&amp; mesmes s'y preparoit-
+                        <lb/>on par quelques ieusnes &amp; autres exercices
+                        <lb/>de pieté,dont sont venus ces mots de
+                        <lb/>Septuagesime , Sexagesime , Quinquagesime,
+                        <lb/>&amp; de Caresme, selon que les vns s'y addonnoyent
+                        <lb/>de meilleure heure &amp; plus longtemps
+                        <lb/>que les autres,cõme l'histoire ancienne
+                        <lb/>Ecclesiastique nous mõstre. Mais les consciences
+                        <lb/>estoyent libres en cela,&amp; le tout estoit
+                        <lb/>conioinct auec la doctrine pure, &amp; sans
+                        <lb/>superstition,iusques à ce que Satan , nonobstant
+                        <lb/>l'aduertissemẽt expres de l'Apostre <ref type="bible" target="bibleSegond21.xml#Col.2.18">Coloss.
+                            <lb/>2.18&amp;</ref><ref type="bible" target="bibleSegond21.xml#Col.2.23">23.</ref> se seruant en partie de l'ambition,
+                        <lb/>en partie de l'ignorance de quelques Euesques ,
+                        <lb/>qui sont tantost entrés en l'Eglise
+                        <lb/>apres le deces des Apostres, comme l'auoit
+                        <lb/>tant expressément predit Sainct Paul, <ref type="bible" target="bibleSegond21.xml#Acts.20.29-30">Actes
+                            <lb/>20.29. &amp;30.</ref>&amp; ont finalemẽt abusé de la simplicité
+                        <lb/>du pauure peuple destitué de vraye
+                        <lb/>pasture,a chãgé tout ce qu'il y auoit de bien:
+                        <lb/>premieremẽt en quelques abus,&amp; finalemẽt <fw place="bot-right" type="catch">en vne</fw>
+                        <lb/>
+                        <pb n="3"/>
+                        <lb/>en superstition , voire impieté, entant que
+                        <lb/>toute la vraye doctrine de la Penitẽce y est
+                        <lb/>entieremẽt renuersee,&amp; le fruict de la mort
+                        <lb/>&amp; passion du Seigneur du tout aneanti,auec
+                        <lb/>vne superstition plus que Pharisaïque. C'est
+                        <lb/>donc à bon droit que ces grãds personnages
+                        <lb/>&amp; hõmes de Dieu, suscités de nostre temps
+                        <lb/>suyuant l'exemple d'Ezechias en ce qu'il fit
+                        <lb/>du serpẽt d'airain, quoy qu'il eust esté dressé
+                        <lb/>&amp; conserué auec edification lõg temps par
+                        <lb/>le vouloir de Dieu, cõme il est escrit au <ref type="bible" target="bibleSegond21.xml#_2Kgs.18.4">2.des
+                            <lb/>Rois. 18. 4.</ref> ont raclé tout cela , redressans ,
+                        <lb/>au lieu de ceste adstriction des consciences à
+                        <lb/>certains nombres de iours, &amp; à distinctiõ,de
+                        <lb/>viandes, la doctrine de la penitence Chrestienne,
+                        <lb/>la sobrieté,le vray ieusne, &amp; sur tout
+                        <lb/>les fruicts &amp; effects de la mort &amp; passion du
+                        <lb/>Seigneur. I'ay donc choisi volontiers ceste
+                        <lb/>histoire à exposer à la maniere accoustumee
+                        <lb/>de ceste Eglise : mais vn peu plus tost que de
+                        <lb/>coustume,a fin d'auoir tãt plus de loisir de la
+                        <lb/>considerer &amp; exposer par le menu:nous estãt
+                        <lb/>cela plus necessaire que iamais,pour estre fortifiés
+                        <lb/>&amp; soustenus en ceste tant rude espreuue
+                            <lb/>de guerre , source d'infinies miseres &amp; calamités,
+                        <lb/>desquelles il plaist à Dieu nous visiter
+                        <lb/>par ses paternels iugemens,à nostre grãd
+                        <lb/>auancement , si nous en sauons faire nostre
+                        <lb/>profit, selon l'intention du Seigneur,en tous
+                        <lb/>ses chastimens paternels:mais au contraire à <pb n="4"/>
+                        <lb/>nostre ruïne, &amp; desolation entiere, si nous ne
+                        <lb/>pensons de plus pres à nous humilier sous sa
+                        <lb/>main puissante, au lieu d'abuser d'vne si longue
+                        <lb/>&amp; plus que tres-patiente patience , accompagnée
+                        <lb/>de tant de miraculeuses assistances
+                        <lb/>qui nous a faites depuis vn an, auec
+                        <lb/>l'<choice><sic>estannement</sic><corr resp="#CiM">estonnement</corr></choice> , mesmes de ses ennemis &amp;
+                        <lb/>les nostres. </p>
+                    <p n="3">
+                        <lb/>
+                        <note type="margin">
+                            <hi rend="I">Comment il nous faut appliquer ceste histoire</hi>
+                        </note>Or n'est-ce pas tout de faire mention de
+                        <lb/>la mort &amp; passion du Seigneur,ni de l'appeller
+                        <lb/>Sauueur &amp; Redempteur:amis il faut que
+                        <lb/>cela se face cõme il appartiẽt,auec vne intelligence
+                        <lb/>de ce tres-haut mystere , autant que
+                        <lb/>Dieu le nous a declaré , penetrant en crainte
+                        <lb/>&amp; toute reuerence iusques au fond de ce secret
+                        <lb/>pour en bien sauourer tant l'amertume,
+                        <lb/>quant à celui qui a souffert ces choses, que
+                        <lb/>l'innumerable douceur que nous en deuons
+                        <lb/>tirer pour nous viuifier à iamais. Et di cela expressémẽt,
+                        <lb/>à fin que nous sachions qu'il nous
+                        <lb/>faut apporter à la lecture &amp; declaration de
+                        <lb/>ceste histoire , non par vne simple cõpassion
+                        <lb/>humaine , de voir le iuste des iustes si cruellement
+                        <lb/>traitté:ni vne simple detestatiõ des
+                        <lb/>meschãs pour se colerer cõtre les Iuifs , contre
+                        <lb/>Iudas , contre Caiphe &amp; Pilate:combien
+                        <lb/>que ceste histoire ne puisse estre leuë sans
+                        <lb/>qu'on n'en soit iustement passionné:mais vn
+                        <lb/>cœur touché iusques au vif du sentiment de
+                        <lb/>nos fautes que le Seigneur a portees sur le <fw place="bot-right" type="catch">bois</fw>
+                        <lb/>
+                        <pb n="5"/>
+                        <lb/>bois auec telles angoisses:vne vraye detestation
+                        <lb/>&amp; recognoissance de sa vie passee : vn
+                        <lb/>vray desir d'amendement:vne apprehension
+                        <lb/>tres-ardente de la hauteur , largeur , &amp; profondeur
+                        <lb/>de ceste incomprenable dilection de
+                        <lb/>Dieu , ayant donné son Fils vnique pour nos
+                        <lb/>pechés.pour vne rãçon si precieuse:&amp; de ceste
+                        <lb/>incomprehensible bonté du Fils de Dieu,
+                        <lb/>ayant plus aimé ses ennemis que soy-mesmes ,
+                        <lb/>iusques à la mort , voire la mort de la
+                        <lb/>croix: &amp; finalement ce vray &amp; ferme appaisement
+                        <lb/>de nos consciences , en ayant trouué
+                        <lb/>nostre paradis au profond mesme des enfers,
+                        <lb/>iusques ausquels ce grand &amp; seul Sauueur
+                        <lb/>des hommes s'est abbaissé,pour nous
+                        <lb/>esleuer auec soy iusques par dessus les cieux. </p>
+                    <p n="4">
+                        <lb/>Et pour paruenir à cela,deuant que d'entrer<note type="margin">
+                            <hi rend="I">Cinq poincts prealables ausquels il faut rapporter ceste
+                                histoire.</hi>
+                        </note>
+                        <lb/>au fil de l'histoire,nous traitterons prealablement
+                        <lb/>par ordre certains poincts,ausquels
+                        <lb/>il faut rapporter toute ceste exposition,
+                        <lb/>à sçauoir:Qui est celui qui souffre : Les
+                        <lb/>causes qui ont esmeu le Seigneur à nous sauuer
+                        <lb/>par ce moyen : En quel esgard il est dict
+                        <lb/>qu'il a souffert : Ce qu'il a souffert pour nous:
+                        <lb/>&amp; finalement les diuerses fins , qu'il en faut
+                        <lb/>recueillir. </p>
+                    <p n="5">
+                        <lb/>Quant au premier poinct donq , qui est<note type="margin">
+                            <hi rend="I">Iesus Christ est l'unique vray fils de Dieu</hi>
+                        </note>
+                        <lb/>le fondement sur lequel il nous faut bastir
+                        <lb/>tout le reste , suyuãt le dire du Seigneur, <ref type="bible" target="bibleSegond21.xml#John.17">Iehan.
+                            <lb/>17.</ref>à sçauoir que la vie eternelle gist en <pb n="6"/>
+                        <lb/>la cognoissance du Pere, qui est le seul vray
+                        <lb/>Dieu , &amp; de celui qu'il a enuoyé,à sçauoir Iesus
+                        <lb/>Christ , &amp; de ce que dit l'Apostre <ref type="bible" target="bibleSegond21.xml#_2Cor.1.20">2.Corinthiens
+                            <lb/>1.20.</ref>à sçauoir que toutes les promesses
+                        <lb/>de Dieu sont verifiees &amp; fermes en
+                        <lb/>Iesus Christ:le sõmaire en est que celui,dõt il
+                        <lb/>est questiõ en toute ceste histoire de ses souffrãces ,
+                        <lb/>est l'vnique Fils de Dieu , nõmé Iesus
+                        <lb/>Christ,comme nous le cõfessons au sommaire
+                        <lb/>de nostre foy, qui s'appelle le Symbole Apostolique. </p>
+                    <p n="6">
+                        <lb/>
+                        <note type="margin">
+                            <hi rend="I">Ceste verité a esté combatue pieça par quatre
+                                blasphemes.</hi>
+                        </note>Mais ce poinct doit estre d'autãt mieux &amp;
+                        <lb/>plus clairement exposé qu'estãt de tres-grande
+                        <lb/>consequence,il a esté de tout temps combatu
+                        <lb/>par Satan &amp; diuers heretiques , dés le
+                        <lb/>temps mesmes des Apostres. D'autant donc
+                        <lb/>que la Deïté est vne essence du tout spirituelle ,
+                        <lb/>inuisible,bref,du tout infinie,les vns
+                        <lb/>ne pouuans accorder ce mystere auec leur
+                        <lb/>entendement humain , &amp; voyans que quelquefois
+                        <lb/>les Anges,les Magistrats,voire mesmes
+                        <lb/>les fideles sont appelés enfans de Dieu,
+                        <lb/>&amp; mesmes qu'Israël est appelé , le Fils aisné
+                        <lb/>de Dieu , <ref type="bible" target="bibleSegond21.xml#Exod.4.22">Exod.4.22.</ref> ont enseigné que Iesus
+                        <lb/>Christ estoit appelé Dieu , non pas qu'il fust
+                        <lb/>Dieu par ceste Deïté essentielle, mais à cause
+                        <lb/>de son excellence par dessus toutes les autres
+                        <lb/>creatures. Les autres n'estans en non moindre
+                        <lb/>erreur , mais se fouruoyans par vn autre
+                        <lb/>destour,ont dit que Iesus Christ estoit bien <fw place="bot-right" type="catch">vray</fw>
+                        <lb/>
+                        <pb n="7"/>
+                        <lb/>vray Dieu essentiellement,mais qu'ainsi que
+                        <lb/>Dieu &amp; les Anges sont souuent apparus en
+                        <lb/>diuerses formes,ainsi le Fils de Dieu s'estoit
+                        <lb/>monstré comme homme en apparence,pour
+                        <lb/>se rendre plus familier , &amp; non pas qu'il eust
+                        <lb/>vne nature vrayement &amp; essentiellement
+                        <lb/>humaine. Et ces deux heresies estant redarguees
+                        <lb/>par presqu'infinis passages expres tant
+                        <lb/>du viel que du nouueau Testament , ont esté
+                        <lb/>pieça condamnees,non pas cõme simples erreurs,
+                        <lb/>mais cõme renuersantes le fondement
+                        <lb/>de la foy &amp; de l'esperãce de nostre salut,comme
+                        <lb/>nous dirons ci apres. Mais Satan ayant esté
+                        <lb/>dechassé de ces deux costés , n'a pas laissé
+                        <lb/>d'assaillir ceste verité par deux autres endroits,
+                        <lb/>ayant suscité ceux qui ont bien confessé
+                        <lb/>la Deïté &amp; l'Humanité essentielles de
+                        <lb/>Iesus Christ, mais iointes &amp; vnies ensemble
+                        <lb/>par vne meslinge,tant des deux essences que
+                        <lb/>de leurs proprietés naturelles : &amp; d'abondant
+                        <lb/>ceux qui au lieu de les mesler , les ont
+                        <lb/>des-vnies,enseignans que la Deïté , sur tout
+                        <lb/>depuis le Baptesme de Iesus Christ, a assisté
+                        <lb/>à Iesus Christ hõme, ainsi qu'aux Prophetes
+                        <lb/>&amp; autres excellentes personnes , mais d'vne
+                        <lb/>vertu speciale &amp; tres-excellente : à raison
+                        <lb/>dequoy ce surnom de Dieu lui a esté donné:
+                        <lb/>lesquelles heresies ont esté pieça conuaincues,
+                        <lb/>&amp; anathematisees es Conciles generaux,
+                        <lb/>&amp; vrayement Chrestiens,par la pure
+                        <lb/>parole de Dieu. </p>
+                    <pb n="8"/>
+                    <p n="7">
+                        <lb/>
+                        <note type="margin">
+                            <hi rend="I">Response au premier blaspheme.</hi>
+                        </note>Et de faict,l'vn de ces blasphemes estant
+                        <lb/>posé , le fondemẽt de nostre salut est renuersé
+                        <lb/>de fond en comble.Car quant à la premiere
+                        <lb/>de ces heresies blasphematoires &amp; vrayement
+                        <lb/>enragees , si Iesus Christ n'est autre
+                        <lb/>chose qu'vne creature , quelque excellente
+                        <lb/>&amp; diuine qu'on la face,ceux-là seroyent idolatres
+                        <lb/>qui mettent leur esperance en lui,&amp;
+                        <lb/>qui l'inuoquent: &amp; ne nous pourroit ni pardonner
+                        <lb/>nos pechez, ni ressusciter nos corps,
+                        <lb/>ni nous donner la vie eternelle,estant toutes
+                        <lb/>ces choses incommunicablement propres à
+                        <lb/>l'essẽce diuine.Et comment serions-nous baptisés
+                        <lb/>en son nom aussi biẽ que du Pere &amp; du
+                        <lb/>sainct Esprit? comment seroit-il appelé Fils
+                        <lb/>vnique de <surplus reason="repeated">de</surplus> Dieu? comment auroit-il esté
+                        <lb/>dict qu'il estoit desia quand toutes creatures
+                        <lb/>eurent commencement , <ref type="bible" target="bibleSegond21.xml#John.1.1">Ieh. 1.1</ref>? comment
+                        <lb/>auroit-il fait toutes choses qui ont esté faites,
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#John.1.3">Ieh.1.3</ref>? cõmẽt,s'il n'estoit que creature,
+                        <lb/>auroit-il peu porter la fureur de Dieu son
+                        <lb/>Createur sans en estre englouti? comment se
+                        <lb/>seroit-il ressuscité soy-mesmes? bref, comment
+                        <lb/>seroit-il nostre Iesus , c'est à dire,Sauueur? </p>
+                    <p n="8">
+                        <lb/>
+                        <note type="margin">
+                            <hi rend="I">Respõse au second.</hi>
+                        </note>Et quãt à la seconde heresie , s'il n'a vestu
+                        <lb/>nostre nature humaine qu'en apparẽce, nous
+                        <lb/>sommes donc encore redeuables à la malediction
+                        <lb/>de Dieu,&amp; toutes ses souffrances
+                        <lb/>n'auront esté qu'illusions, &amp; par consequent <fw place="bot-right" type="catch">nostre</fw>
+                        <lb/>
+                        <pb n="9"/>
+                        <lb/>nostre redemption sera toute phantastique
+                        <lb/>&amp; imaginaire. </p>
+                    <p n="9">
+                        <lb/>Il en faut conclurre autant du troisieme<note type="margin">
+                            <hi rend="I">Respõce au troisiesme</hi>
+                        </note>
+                        <lb/>blaspheme , par lequel la Deïté est rendue
+                        <lb/>muable &amp; chãgée &amp; diminuée en soy-mesmes:
+                        <lb/>&amp; nostre nature humaine est esleuee outre
+                        <lb/>vne qualité, qui la trãs-formeroit en Deïté,
+                        <lb/>dont s'ensuyuroit que Iesus Christ ne seroit
+                        <lb/>ni vray Dieu, ni vray homme,mais vne
+                        <lb/>tierce essence , composée de la meslinge des
+                        <lb/>deux.Chose qui le nous rendroit du tout inutile 
+                        <lb/>, comme aussi elle est si monstrueuse &amp;
+                        <lb/>detestable,qu'elle ne merite pas mesmes d'estre
+                        <lb/>refutée , quoy qu'elle ait abusé infinies
+                        <lb/>personnes,ensorcelés par vn mal-heureux
+                        <lb/>Moine. </p>
+                    <p n="10">
+                        <lb/>Et quant à la quatrieme, si elle estoit veritable<note type="margin">
+                            <hi rend="I">Respõse au quatrieme.</hi>
+                        </note>
+                        <lb/>il y auroit deux Fils , à sçauoir , vn Fils
+                        <lb/>de Dieu à part , &amp; vn fils de la vierge Marie à
+                        <lb/>part,dõt ni l'vn ni l'autre ne nous seroit Sauueur
+                        <lb/>à part : au lieu que la Deïté ne nous sauue
+                        <lb/>que moyennant la satisfaction de l'humanité:
+                        <lb/>&amp; les souffrances de l'humanité ne peuuẽt
+                        <lb/>auoir la force de nous estre viuifiãtes que
+                        <lb/>par la Deïté, non point separée, mais coniointe
+                        <lb/>&amp; vnie de la façon que nous dirons
+                        <lb/>tantost. </p>
+                    <p n="11">
+                        <lb/>Il faut dõc opposer à toutes ces faussetés<note type="margin">
+                            <hi rend="I">Sommaire de la verité opposee aux precedents
+                                blasphemes.</hi>
+                        </note>
+                        <lb/>ceste seule &amp; pure verité:Que le seul &amp; vnique
+                        <lb/>Fils de Dieu coeternel &amp; coessẽtiel auec <pb n="10"/>
+                        <lb/>le Pere &amp; le sainct Esprit , &amp; la seconde personne
+                        <lb/>entre les trois personnes (qui sont vn
+                        <lb/>seul &amp; mesme Dieu , non pas diuisées en essence ,
+                        <lb/>mais distinctes par leurs proprietés
+                        <lb/>personnelles) ceste vnique personne , di-
+                        <lb/>ie , du fils de Dieu , selon la volonté de
+                        <lb/>Dieu son Pere , &amp; par l'operation du sainct
+                        <lb/>Esprit,au temps ordõné diuinemẽt,&amp; predit
+                        <lb/>par les Prophetes , s'est vni à nostre nature
+                        <lb/>humaine, composée d'vn vray corps , formé
+                        <lb/>de la substance de la vierge Marie, &amp; d'vne
+                        <lb/>tres pure &amp; tres-saincte ame humaine , tellemẽt
+                        <lb/>&amp; de si pres, que chacune nature retirãt
+                        <lb/>son essence &amp; ses proprietés essentielles,
+                        <lb/>sans aucun meslinge,il est vray Dieu, comme
+                        <lb/>il estoit,&amp; auec cela vray homme en tout &amp;
+                        <lb/>par tout semblable à nous horsmis peché:
+                        <lb/>comme estãt selon le corps tiré &amp; formé de
+                        <lb/>la substance de la saincte Vierge, &amp; par consequent
+                        <lb/>vray Dieu &amp; vray homme en vnité
+                        <lb/>de personne , comme nous en verrons tres-
+                        <lb/>expres tesmoignages en ceste histoire plus
+                        <lb/>qu'en nulle autre : pour nous estre fait sapience ,
+                        <lb/>iustice , sanctification &amp; redẽption,
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#_1Cor.1.30">1.Corinthiens 1.30.</ref>Pour reuenir dõc à nostre
+                        <lb/>question , c'est ce seul Fils de Dieu, à qui appartiennent
+                        <lb/>ces souffrances , comme à celui
+                        <lb/>qui a pris nostre chair pour estre nostre pleige
+                        <lb/>enuers Dieu son Pere,&amp; nostre rançon entiere
+                        <lb/>en corps et en ame.Et qui sera l'esprit, <fw place="bot-right" type="catch">voire</fw>
+                        <lb/>
+                        <pb n="11"/>
+                        <lb/>voire mesme Angelique,qui puisse comprendre,
+                        <lb/>ni la langue,qui puisse exposer ceste vniõ
+                        <lb/>personnelle de celui , qui estant en forme de
+                        <lb/>Dieu sans rapine, c'est à dire vray Dieu essentiel,
+                        <lb/>se soit ainsi vni à la forme de seruiteur,
+                        <lb/>c'est à dire,à nostre vrayement &amp; essentiellement
+                        <lb/>humaine nature, abbaissee iusques à la
+                        <lb/>mort, voire à la mort de la croix?qui pourra,
+                        <lb/>di-ie , comprendre comme l'Eternel Fils de
+                        <lb/>Dieu a voulu se faire en vnité de personne,
+                        <lb/>fils d'Adam conçeu au ventre d'vne Vierge,
+                        <lb/>n'y ayant pas encore seize cents ans que l'infini
+                        <lb/>Createur se fit ainsi vni a la creature:l'inuisible
+                        <lb/>auec le visible : le Tout-puissant auec
+                        <lb/>le plus infirme de tous les hõmes:bref la vie
+                        <lb/>à la mort:mystere plus qu'esmerueillable aux
+                        <lb/>Anges mesmes &amp; plus que tres-grand,comme
+                        <lb/>specialement l'appelle l'Apostre <ref type="bible" target="bibleSegond21.xml#_1Tim.3.16">1. Timot.
+                            <lb/>3.16.</ref> &amp; <ref type="bible" target="bibleSegond21.xml#Eph.3.18">Ephes.3.18.</ref> que la
+                        chair &amp; le sang
+                        <lb/>ne nous reuele point, mais le Pere, <ref type="bible" target="bibleSegond21.xml#Matt.16.17">Matth.16.
+                            <lb/>17.</ref> par le Fils qui est au sein du Pere, <ref type="bible" target="bibleSegond21.xml#John.1.18">Ieh.1.18.</ref>
+                        <lb/>&amp; dont il est venu pour nous annoncer en
+                        <lb/>personne ce secret <ref type="bible" target="bibleSegond21.xml#Rom.16.25">Rom.16.25.</ref>comme il auoit
+                        <lb/>promis par la bouche de ses Prophetes dés
+                        <lb/>le commencement, <ref type="bible" target="bibleSegond21.xml#Luke.1.70">Luc.1.70.</ref>&amp;<ref type="bible" target="bibleSegond21.xml#_1Pet.1.11">1.Pier.1.11.</ref>&amp;
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#_2Pet.1.21">2.Pier.1.21.</ref>
+                    </p>
+                    <p n="12">
+                        <lb/>Ie vien maintenant au second poinct mis<note type="margin">
+                            <hi rend="I">Les causes qui ont esmeu Dieu à nous sauuer par ce
+                                moyẽ</hi>
+                            <hi rend="I">&amp; comme</hi>
+                        </note>
+                        <lb/>en auãt par moy, à sçauoir aux causes qui ont
+                        <lb/>esmeu le Pere à nous donner son Fils , le Fils
+                        <lb/>à mettre iusques à sa propre personne pour <pb n="12"/>
+                        <lb/>
+                        <note type="margin">
+                            <hi rend="I">ils les faut mediter pour nostre salut.</hi>
+                        </note>nous , le sainct Esprit tant à l'operation de ceste incarnation ,
+                        qu'à nous faire entendre
+                        <lb/>ceste tant pretieuse verité.Et que puis-ie,ou
+                        <lb/>doy-ie dire sur cela,sinon que c'est luy-mesmes,
+                        <lb/>c'est sa sapience incomprehensible, c'est
+                        <lb/>sa bonté inestimable , c'est l'abysme de ses
+                        <lb/>misericordes qui a induit le Pere à no<hi rend="E">9</hi> donner
+                        <lb/>tel decret , le Fils &amp; le sainct Esprit ,s'y
+                        <lb/>rengeãs de ceste mesme volonté , comme ils
+                        <lb/>font vne mesme essence , &amp; inseparables en
+                        <lb/>leurs operations. Car qu'y auoit-il en l'homme
+                        <lb/>ni dedans ni dehors,qui peust obliger le
+                        <lb/>Createur à sa creature , quand mesmes elle
+                        <lb/>fust demouree en son integrité , attendu que
+                        <lb/>la conformité qui se trouuoit lors entre Dieu
+                        <lb/>&amp; son image qui rendoit l'homme agreable à
+                        <lb/>son Createur entre toutes les creatures d'ici
+                        <lb/>bas, ne procedoit que de la mesme seule gratuité
+                        <lb/>qui l'auoit esmeu à le creer &amp; façonner
+                        <lb/>à son image? Mais l'homme,par sa seule
+                        <lb/>ingratitude volõtaire,s'estãt tellement desfiguré
+                        <lb/>qu'au lieu que le Createur ne voyoit
+                        <lb/>rien en luy qui ne luy fust agreable,n'y a rien
+                        <lb/>peu voir depuis ce temps la qui ne l'offensast:
+                        <lb/>qui pourra dire, sans mẽtir,que Dieu ait rien
+                        <lb/>veu ni preueu en ceste pauure &amp; miserable
+                        <lb/>creature,qui le deust esmouuoir en sorte
+                        <lb/>quelconques à luy vouloir bien? ou plustost
+                        <lb/>qui ne le deust esmouuoir à l'exterminer du
+                        <lb/>tout?&amp; cõment les tenebres de l'entẽdemẽt <fw place="bot-right" type="catch">de l'hom-</fw>
+                        <lb/>
+                        <pb n="13"/>
+                        <lb/>de l'hõme,la peruersité de sa volõté,l'ordure
+                        <lb/>de ce pauure corps pourroyẽt ils auoir induit
+                        <lb/>la Lumiere , la Bonté , la Pureté à aimer vne
+                        <lb/>creature si corrõpue? voire à l'aimer iusques-
+                        <lb/>là de l'adiondre a soy de si pres, qu'en la personne
+                        <lb/>de son Fils , par le moyen de ceste tant
+                        <lb/>admirable vnion dont nous auõs parlé , ceste
+                        <lb/>humaine nature n'est pas seulement refaite
+                        <lb/>à l'image de son Createur en toute perfectiõ:
+                        <lb/>mais il se peut &amp; doit dire que cest homme-
+                        <lb/>là est deuenu le vray,seul,coessentiel,&amp; coeternel
+                        <lb/>Fils de Dieu son Pere : &amp; ce non pas
+                        <lb/>afin que nostre nature en cest homme-là
+                        <lb/>seul fust esleuée en ceste gloire par dessus
+                        <lb/>les Anges mesmes,iusques à sa dextre,<ref type="bible" target="bibleSegond21.xml#Phil.2.9">Philip.
+                            <lb/>2.9.</ref> mais aussi à fin que tous ceux qui seroyẽt
+                        <lb/>incorporés en icelui pour estre ce corps mystique,
+                        <lb/>qui s'appelle l'Eglise,dont cestui-là est
+                        <lb/>le Chef , soyent faits ses coheritiers selon
+                        <lb/>leur mesure en gloire eternelle, <ref type="bible" target="bibleSegond21.xml#Eph.4.16">eph.4.16.</ref> &amp;
+                        <lb/><ref type="bible" target="bibleSegond21.xml#Eph.5.30">5.30.</ref>suyuãt la requeste que luy-mesmes en a
+                        <lb/>faite, <ref type="bible" target="bibleSegond21.xml#John.17.24">Ieh.17.24.</ref> &amp; que l'arrest en sera
+                        pronõcé
+                        <lb/>au dernier iour: <ref type="bible" target="bibleSegond21.xml#Matt.25.34">Matth.25.34.</ref> estant mesmes
+                        <lb/>pour cela Iesus Christ appelé par l'apostre,le
+                        <lb/>Fils aisné entre plusieurs freres, <ref type="bible" target="bibleSegond21.xml#Rom.8.28">Rom.8.28.</ref>estãs
+                        <lb/>assis desia par esperãce es lieux celestes auec
+                        <lb/>luy, <ref type="bible" target="bibleSegond21.xml#Eph.2.6">Eph. 2. 6.</ref> en attendant que ce que
+                        <lb/>nous sommes soit du tout apparent. <ref type="bible" target="bibleSegond21.xml#_1John.3.2">1. Ieh.3.
+                            <lb/>2.</ref>Que dirons-nous donc ici sur cela,mes freres,
+                        <lb/>sinon que c'est ici le secret des secrets de <pb n="14"/>
+                        <lb/>Dieu? ici est ouuerte la plus que tres-haute
+                        <lb/>hautesse de sa bonté , laquelle seule celui qui
+                        <lb/>est specialement &amp; à si bon titre appelé le
+                        <lb/>gardiẽ des hommes,<ref type="bible" target="bibleSegond21.xml#Job.7.20">Iob.7.20.</ref>
+                        <ref type="bible" target="bibleSegond21.xml#_1Tim.4.2">1.Timoth.4.
+                            <lb/>2.</ref> à trouuee en soy-mesmes pour tant aimer
+                        <lb/>ses ennemis , <ref type="bible" target="bibleSegond21.xml#Rom.6.8">Rom.6.8.</ref> qu'il n'a pas mesme
+                        <lb/>espargné son propre Fils pour leur salut,
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#Rom.8.32">Rom.8.32.</ref>
+                        <ref type="bible" target="bibleSegond21.xml#John.3.16">Ieh.3.16.</ref> voire mesmes iusques à
+                        <lb/>s'embraser de sa plus ardente &amp; terrible fureur,
+                        <lb/>en prenant nostre cause contre nos ennemis,
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#Isa.37.32">Isa.37.32.</ref> &amp; <ref type="bible" target="bibleSegond21.xml#Zech.8.2">Zach.8.2.</ref> oubliant nos
+                        <lb/>pechés, &amp; se souuenãt de son alliance, <ref type="bible" target="bibleSegond21.xml#Luke.1.72">Luc.
+                            <lb/>1.72.</ref> par la teneur de laquelle il est dit qu'il
+                        <lb/>benira ceux qui beniront la saincte race de
+                        <lb/>Abraham,&amp; maudira ceux qui la maudiront.
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#Gen.12.3">Gen.12.3.</ref>Et qui a induit l'vnique Fils de Dieu
+                        <lb/>de vouloir le mesmes pour s'aneãtir, en prenant
+                        <lb/>forme de seruiteur <ref type="bible" target="bibleSegond21.xml#Phil.2.7">Philip. 2.7.</ref> pour estre
+                        <lb/>mesprisé &amp; desbouté d'entre les hõmes,
+                        <lb/>nauré pour nos forfaicts,froissé pour nos iniquités,
+                        <lb/>&amp; faire venir sur soy l'iniquité de
+                        <lb/>nous tous, <ref type="bible" target="bibleSegond21.xml#Isa.53.3">Esa.53.3. &amp; versets suyuans</ref>?
+                        qui l'a,
+                        <lb/>di-ie,fait s'abbaisser iusques à estre en ceste
+                        <lb/>chair qu'il a prise pour nous , plustost vn ver
+                        <lb/>qu'vn homme, <ref type="bible" target="bibleSegond21.xml#Ps.22.7">Psea.22.7</ref>? voire iusques à estre
+                        <lb/>fait malediction pour nous <ref type="bible" target="bibleSegond21.xml#Gal.3.12">Galat.3.12.</ref>sinon
+                        <lb/>la mesme volonté de Dieu son Pere , &amp; ceste
+                        <lb/>inenarrable dilection enuers ceux là mesmes
+                        <lb/>qui le crucifioyent<choice><sic>?</sic><corr resp="#CiM">,</corr></choice> <ref type="bible" target="bibleSegond21.xml#Luke.23.3">Luc.23.3</ref>? qui la esmeu à
+                        <lb/>si grãde compassion sur le pauure peuple destitué <fw place="bot-right" type="catch">stitué</fw>
+                        <lb/>
+                        <pb n="15"/>
+                        <lb/>de Pasteur,<ref type="bible" target="bibleSegond21.xml#Matt.9.36">Matt.9.36.</ref>&amp; sur la ville de
+                        <lb/>Ierusalem,ne recognoissant le temps de sa visitation
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#Luke.19.44">Luc.19.44</ref>? Et quelle autre cause
+                        <lb/>aussi peut auoir induit le sainct Esprit,par lequel
+                        <lb/>le Pere &amp; le Fils comme par leur coëssencielle
+                        <lb/>&amp; coëternelle puissance ont executé
+                        <lb/>ce secret , à estre nostre regenerateur <ref type="bible" target="bibleSegond21.xml#John.3.6">Ieh.
+                            <lb/>3.6.</ref> nostre docteur <ref type="bible" target="bibleSegond21.xml#John.16.13">Ieh.16.13.</ref>
+                        &amp; consolateur
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#John.14;John.15;John.16">Ieh.14.&amp;15.&amp;16.</ref> iusques à nous mettre au
+                        <lb/>cœur ce qu'il nous faut demander par souspirs
+                        <lb/>inenarrables, <ref type="bible" target="bibleSegond21.xml#Rom.8.25">Rom.8.25.</ref> &amp; à nous faire
+                        <lb/>crier à plene bouche,Abba,c'est à dire Pere.
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#Gal.4.6">Galat.4.6</ref>? C'est donc en somme la seule infinie
+                        <lb/>gratuité de Dieu,dõt est procedée nostre
+                        <lb/>redemption.Mais quel en a esté l'obiect?nostre
+                        <lb/>misere ayant esmeu sa misericorde. Et
+                        <lb/>comment cela, veu que toute nostre misere
+                        <lb/>procede du peché, qui est l'obiect de la iuste
+                        <lb/>fureur de Dieu? C'a esté d'autant qu'il luy a
+                        <lb/>pleu,monstrant en cela vne plus qu'incomprehẽsible
+                        <lb/>sapience, de considerer en nous
+                        <lb/>nostre plus que pauure &amp; miserable estat, &amp;
+                        <lb/>non point la cause d'iceluy, à sçauoir nos pechés
+                        <lb/>&amp; nos iniquités,lesquelles il a voulu en
+                        <lb/>toute rigueur &amp; seuerité chastier en nostre
+                        <lb/>pleige &amp; respondant,lequel seul s'est trouué
+                        <lb/>assez fort pour porter ce fardeau , sans demourer
+                        <lb/>sous le faix,cõme estãt non seulemẽt
+                        <lb/>homme , mais aussi vray Dieu &amp; tout-puissant.
+                        <lb/>A parler donc propremẽt,mes freres,ce <pb n="16"/>
+                        <lb/>n'a point tant esté ni Satan,ni Iudas, ni Caïphe,
+                        <lb/>ni les Iuifs, ni Pilate, ni les bourreaux,
+                        <lb/>qui ont crucifié celuy qui de vengeur s'est
+                        <lb/>fait Sauueur : mais ce sommes nous , nous,
+                            <lb/>di-ie,mes
+                            freres
+                        qui l'auons apres tant d'autres
+                        <lb/>souffrances fait lier &amp; garrotter , condamner
+                        <lb/>pour blasphemateur , &amp; coulpable
+                        <lb/>de lese maiesté diuine &amp; humaine,mocquer,
+                        <lb/>souffletter,foitter,crucifier , percer , entrer
+                        <lb/>en la mort , la plus cruelle &amp; ignominieuse,
+                        <lb/>&amp; mesmes maudite de Dieu en la Loy, <ref type="bible" target="bibleSegond21.xml#Deut.21.23">Deut.
+                            <lb/>21.23.</ref> &amp; <ref type="bible" target="bibleSegond21.xml#Gal.3.13">Galat.3.13.</ref> voire
+                        poussé iusques en la
+                        <lb/>cauerne du sepulchre. Nous condamnõs bien
+                        <lb/>donc Satan,&amp; tous ceux desquels il s'est serui
+                        <lb/>en vne si execrable meschanceté , dont ils
+                        <lb/>porteront le cõble de la peine,quand ils verront
+                        <lb/>sur son throne de gloire celuy qu'ils ont
+                        <lb/>percé,<ref type="bible" target="bibleSegond21.xml#Zech.12.10">Zach.12.10.</ref>&amp;<ref type="bible" target="bibleSegond21.xml#John.19.37">Ieh.19.37.</ref>Mais c'est contre
+                        <lb/>nous que nous-nous deuons despiter:sont
+                        <lb/>nos pechés &amp; nos iniquités que nous deuõs
+                        <lb/>detester : c'est nostre ingratitude , rebellion
+                        <lb/>&amp; endurcissement que nous deuons apprendre
+                        <lb/>à cognoistre telles qu'elles sont,pour no<hi rend="E">9</hi>
+                        <lb/>abbaisser iusques aux enfers , en ayant honte
+                        <lb/>de nous-mesmes, en nous contemplant en
+                        <lb/>ce crucifié , &amp; non pas en ce faux masque de
+                        <lb/>tresfaux plaisir , duquel le peché nous abuse
+                        <lb/>&amp; ensorcelle.Et s'il y a auiourd'huy peuple
+                        <lb/>au monde qui ait besoin de ceste doctrine
+                        <lb/>&amp; de penser à soy de pres,gemir &amp; souspirer <fw place="bot-right" type="catch">&amp; de-</fw>
+                        <lb/>
+                        <pb n="17"/>
+                        <lb/>&amp; demander à Dieu maintenant ou iamais
+                        <lb/>ce cœur brisé &amp; froissé , qui est le premier
+                        <lb/>poinct de vraye repentance , <ref type="bible" target="bibleSegond21.xml#Ps.51.19">Psea.51.19</ref>:
+                        c'est
+                        <lb/>à nous, à nous, di-ie, peuple de Geneue, d'y
+                        <lb/>penser tres-viuement. Car à qui pourroit
+                        <lb/>mieux appartenir qu'à nous ceste tant lamentable
+                        <lb/>complainte du Seigneur par son
+                        <lb/>Prophete <ref type="bible" target="bibleSegond21.xml#Mic.6.3">Mich.6.3</ref>? <quote source="bibleSegond21.xml#Mic.6.3">Mon peuple , que t'ay-ie
+                        <lb/>fait,&amp; en quoy t'ay-ie trauaillé? respon-moy</quote>.
+                        <lb/>Car de quelle seruitude d'Egypte, auõs-nous
+                        <lb/>esté deliurés? quels Moyses &amp; quels Aarons
+                        <lb/>nous ont esté enuoyés de Dieu ? de quelle
+                        <lb/>paillardise d'Egypte sommes-nous sortis?
+                        <lb/>quelle mer rouge de persecutions auõs-nous
+                        <lb/>passée?nous,di-ie,qui auõs esté tirés &amp; conduits
+                        <lb/>par la main de Dieu, des bordeaux de
+                        <lb/>tant de nations,non point en vn desert, mais
+                        <lb/>tout droit en vne terre de Gosen , affluente
+                        <lb/>de ses vrayes delices , &amp; là où mesmes nous
+                        <lb/>auons esté &amp; sommes corporellement nourris
+                        <lb/>par trop delicatement? Et cependant que
+                        <lb/>peut trouuer le Seigneur en ceste vigne tant
+                        <lb/>bien cultiuee,sinon des lãbrusches,&amp; fruicts
+                        <lb/>tresamers , maintenant que le Seigneur , apres
+                        <lb/>auoir tant attendu nous fait bien entendre,
+                        <lb/>si nous auons des aureilles,qu'il y est
+                        <lb/>venu vendanger , non point si nous ne pensons
+                        <lb/>à nous de plus pres auec le serpillon,qui
+                        <lb/>cueille les bons raisins, pour en faire de bon
+                        <lb/>vin , mais auec l'espee , laquelle tenant en sa <pb n="18"/>
+                        <lb/>main flamboyante , &amp; la nous faisant voir,
+                        <lb/>non point de loin, comme par ci deuant,
+                        <lb/>mais iusques deuant nos murailles , sommes
+                        <lb/>nous si sourds que nous ne l'oyons point encores
+                        <lb/>prononcer ce qu'il a predit,&amp; finalemẽt
+                        <lb/>executé en sa ville ancienne, disant, <ref type="bible" target="bibleSegond21.xml#Isa.5.3-6">Isa.
+                            <lb/>5.3. &amp; vers. suyuans</ref>,<quote source="bibleSegond21.xml#Isa.5.3-6">Habitans de Ierusalem,&amp;
+                        <lb/>vous hõmes de Iuda,iugez,ie vous prie,entre
+                        <lb/>moy &amp; ma vigne.Qui auoit-il plus à faire à
+                        <lb/>ma vigne , que ie ne luy aye fait ? pourquoy
+                        <lb/>ay-ie attendu qu'elle produisist des
+                        <lb/>raisins , &amp; qu'elle a produit des grappes sauuages ?
+                        <lb/>
+                        maintenant donc que ie vous face entendre,
+                        <lb/>ie vous prie , ce que ie m'en vay faire
+                        <lb/>à ma vigne. I'osteray sa closture &amp; elle sera
+                        <lb/>broutee:ie despeceray sa cloison , &amp; elle sera
+                        <lb/>foulée,&amp; la reduiray en desert,tellement
+                        <lb/>qu'elle ne sera plus taillée,ni foussoyée,&amp; les
+                        <lb/>rõces &amp; espines y monteront , &amp; commanderay
+                        <lb/>aux nuées qu'elles ne facent plus tomber
+                        <lb/>de pluye sur elle</quote>.Confessons donc, mes
+                        <lb/>freres , confessons que les sangliers sont entrés
+                        <lb/>par nostre faute en ceste vigne, <ref type="bible" target="bibleSegond21.xml#Ps.80.14">Pse.80.
+                            <lb/>14.</ref>&amp; disons,<quote source="bibleSegond21.xml#Ps.80.15">O Dieu des armees retourne,ie
+                        <lb/>te prie,regarde des cieux,&amp; voy,&amp; visite ceste
+                                <lb/>vigne</quote>. Et quels sont ses sangliers? l'auarice,
+                        <lb/>la desfiance,la gourmandise , la paillardise,
+                        <lb/>la desloyauté, l'iniustice , la fierté , le
+                        <lb/>meurtre , bref,tous les fruicts de la chair,qui
+                        <lb/>sont recités, <ref type="bible" target="bibleSegond21.xml#Gal.5.19">Galat.5.19.&amp;vers.suyuans</ref>.
+                        quoy <fw place="bot-right" type="catch">que</fw>
+                        <lb/>
+                        <pb n="19"/>
+                        <lb/>que le Seigneur admoneste , crie, chastie , &amp;
+                        <lb/>toutesfois en telle douceur,iusques ici que la
+                        <lb/>misericorde , voire miraculeuse , a surmonté
+                        <lb/>le iugement. Quand auons nous donc assez
+                        <lb/>crucifié nostre Seigneur Iesus Christ? quand
+                        <lb/>considererõs-nous que dira de nous vne grãde
+                        <lb/>partie du monde, que ie puis dire auoir sa
+                        <lb/>veuë iettée sur vne ville de Geneue? &amp; si les
+                        <lb/>hommes , &amp; nostre propre cœur nous condãnent,
+                        <lb/>que fera celuy qui est assis sur le throne,
+                        <lb/>&amp; trop plus grand que nostre cœur , <ref type="bible" target="bibleSegond21.xml#_1John.3.20">1.
+                            <lb/>Ieh.3.20.</ref>&amp; qui a desia comme ouuert a bouche
+                        <lb/>pour donner son arrest , n'ayant pas
+                        <lb/>seulement attendu trois ou quatre ans a receuoir
+                        <lb/>le fruict de ce figuier, <ref type="bible" target="bibleSegond21.xml#Luke.13.7">Luc.13.7</ref>? quand,
+                        <lb/>di-ie , aurons-nous honte &amp; pitié de nous-
+                        <lb/>mesmes? quand honorerons-nous celuy qui
+                        <lb/>nous a tant aimés , &amp; reuerons-nous celuy
+                        <lb/>deuant la Maiesté duquel les Anges mesmes
+                        <lb/>couurent leur face? Dieu vueille , mes
+                        <lb/>freres, que ce soit dés maintenant , sans attendre
+                        <lb/>que l'huis nous estant clos, comme
+                        <lb/>nous fermons les aureilles aux remonstrances
+                        <lb/>de nostre Dieu , quoy que tant de miracles
+                        <lb/>ayent esté faits parmi nous , il ne nous
+                        <lb/>soit respondu comme il est escrit <ref type="bible" target="bibleSegond21.xml#Matt.7.23">Matth.7.23.</ref>
+                        <lb/>Ie ne vous cognoy point, despartez vous de
+                        <lb/>moy,vous qui faites le mestier d'iniquité.
+                        <lb/>Le Seigneur Dieu nous en vueille garder par
+                        <lb/>sa tresgrande, voire infinie misericorde , &amp; <pb n="20"/>
+                        <lb/>nous face plustost la grace par le moyẽ , d'vn
+                        <lb/>bon &amp; vray amendement , de voir l'obligation
+                        <lb/>de nos pechés , rayee &amp; bissee en la
+                        <lb/>croix du Seigneur , &amp; l'ẽtiere quittance d'iceux
+                        <lb/>escrite de son propre sang, à la gloire
+                        <lb/>de son sainct Nom , &amp; consolation de tous
+                        <lb/>ses pauures enfans. </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

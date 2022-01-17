@@ -1,0 +1,2255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc xml:id="_1624_Gilbert_Primerose_RSL"> 
+            <titleStmt> 
+                <title type="sermon">SERMON SECOND. De la plenitude de Jesus-Christ, qui nous a merité le salut.</title> 
+                <title type="book">Six Sermons de la reconciliation de l'homme avec Dieu. Preschez 
+                    par Gilbert Primerose, Ministre du sainct Euangile, A Sedan, M. DC. 
+                    XXIV.</title> 
+                <author ref="...">Gilbert Primerose</author> 
+                <editor> 
+                    <name>SERMO</name> 
+                    <orgName>Université de Neuchâtel</orgName> 
+                </editor> 
+            </titleStmt> 
+            <editionStmt> 
+                <edition>Transcription électronique</edition> 
+                <respStmt> 
+                    <resp>Responsable du projet</resp> 
+                    <name> 
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName> 
+                        <email>carine.skupien-dekens@unine.ch</email> 
+                        <affiliation xml:id="ILCF"> 
+                            <name>Institut de langue et civilisation françaises</name> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                            <address> 
+                                <addrLine>Fbg de l'Hôpital 61-63</addrLine> 
+                                <addrLine>CH-2000 Neuchâtel</addrLine> 
+                            </address> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Transcription word</resp> 
+                    <name> 
+                        <persName xml:id="RSL">Ruth STAWARZ-LUGINBUEHL</persName> 
+                        <email>ruth.luginbuhl@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Encodage XML TEI</resp> 
+                    <name> 
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName> 
+                        <email>ljiljana.dolamic@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+                <respStmt> 
+                    <resp>Annotation</resp> 
+                    <name> 
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName> 
+                        <email>magdalena.augustyn@unine.ch</email> 
+                        <affiliation> 
+                            <orgName>Université de Neuchâtel</orgName> 
+                        </affiliation> 
+                    </name> 
+                </respStmt> 
+            </editionStmt> 
+            <publicationStmt> 
+                <distributor> 
+                    <name type="projet">Projet SERMO</name> 
+                    <address> 
+                        <addrLine>Institut de langue et civilisation françaises</addrLine> 
+                        <addrLine>Université de Neuchâtel</addrLine> 
+                        <addrLine>Fbg de l'Hôpital 61-63</addrLine> 
+                        <addrLine>CH-2000 Neuchâtel</addrLine> 
+                        <addrLine>http:\sermo.unine.ch</addrLine> 
+                    </address> 
+                </distributor> 
+            </publicationStmt> 
+            <sourceDesc> 
+                <biblStruct> 
+                    <monogr> 
+                        <author>Gilbert Primerose</author> 
+                        <title>Six Sermons de la reconciliation de l'homme avec Dieu.</title> 
+                        <imprint> 
+                            <pubPlace>Sedan</pubPlace> 
+                            <publisher/><!-- pas d'information sur l'éditeur --> 
+                            <date>1624</date>
+                            <date type="sermon"/>
+                        </imprint> 
+                    </monogr> 
+                    <idno type="source">Bibliothèque publique et universitaire de Neuchâtel, Bibliothèque des Pasteurs, Cote BPUN PA Ca 33</idno> 
+                </biblStruct> 
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc> 
+            <textClass> 
+                <keywords> 
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_thématique</term>
+                    <term type="sermonTheme">de la plénitude de Jésus-Christ, qui nous a mérité le salut</term>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">6</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText"/>
+                    <term type="paratext" subtype="epistle">A TRES-HAVT ET PVISSANT SEIGNEVR MESSIRE GEORGE DE VILLIERS, GRAND ADMIRAL,  ET GRAND Escuyer d’Angleterre, Duc de Bouquingam.</term>
+                </keywords> 
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+                <language ident="la">latin</language>
+                <language ident="gr">grec ancien</language>
+            </langUsage>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2016-02-10" who="#LjD">transformation word - XML</change> 
+            <change when="2016-02-10" who="#MAG">Verification, citations</change> 
+            <change when="2014-04-28" who="#RSL">Transcription word</change>
+            <change when="2016-03-31" who="#MAG">Annotation_1</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text> 
+        <front> 
+            <div type="book"> 
+                 <pb n="titre"/> 
+                <p n="1"> 
+                    <lb/>SIX 
+                    <lb/>SERMONS 
+                    <lb/>DE LA 
+                    <lb/>RECONCILIATION 
+                    <lb/>DE L'HOMME AVEC DIEV. 
+                    <lb/> 
+                    <hi rend="I">PRESCHEZ </hi> 
+                    <lb/>P<hi rend="I">ar </hi>GILBERT PRIMEROSE, 
+                    <lb/> 
+                    <hi rend="I">Ministre du sainct Euangile.</hi> 
+                    <figure/> 
+                    <lb/>A SEDAN. 
+                    <lb/>M. DC. XXIV.</p> 
+            </div> 
+        </front> 
+            <body> 
+            <div type="sermon"> 
+                 <pb n="20"/> 
+                <head type="main"> 
+                    <lb/>SERMON SECOND.</head> 
+                <div n="1" type="sub"> 
+                    <head type="sub"> 
+                        <lb/> 
+                        <hi rend="I">De la plenitude de Jesus-Christ, qui 
+                            <lb/>nous a merité le salut.</hi> 
+                    </head> 
+                    <milestone unit="column" n="2"/>
+                    <cb/> 
+                    <p n="1"> 
+                        <lb/>1. Le Pere pouuoit punir 
+                        <lb/>le peché sans le pardonner, 
+                        <lb/>mais ne pouuoit pardonner 
+                        <lb/>sans satisfaction.</p> 
+                    <p n="2"> 
+                        <lb/>2. A cause dequoy ç'a 
+                        <lb/>esté son bon plaisir de nous 
+                        <lb/>donner son Fils pour mediateur,<cb/> 
+                        <lb/>&amp; de luy donner 
+                        <lb/>pour ceste fin toute plenitude.</p> 
+                    <p n="3"> 
+                        <lb/>3. Difference entre la plenitude 
+                        <lb/>de Christ, &amp; celle des 
+                        <lb/>saincts Anges, &amp; d'Adam deuant 
+                        <lb/>sa cheute.</p> 
+                     <pb n="21"/> 
+                    <cb/> 
+                    <p n="4"> 
+                        <lb/>4. Et premierement, il y 
+                        <lb/>a en luy toute plenitude de 
+                        <lb/>Deïté corporellement.</p> 
+                    <p n="5"> 
+                        <lb/>5. Secondement, en luy 
+                        <lb/>il y a toute plenitude d'humanité, 
+                        <lb/>comme estant vray 
+                        <lb/>homme de nostre nature, 
+                        <lb/>mais sans peché.</p> 
+                    <p n="6"> 
+                        <lb/>6. Ce qu'il a esté sans 
+                        <lb/>peché, n'est point venu de 
+                        <lb/>la pureté de sa mere, mais de 
+                        <lb/>l'operation du S. Esprit.</p> 
+                    <p n="7"> 
+                        <lb/>7. Tiercement, il y a eu 
+                        <lb/>en luy toute plenitude de 
+                        <lb/>graces.</p> 
+                    <p n="8"> 
+                        <lb/>8. La nature Diuine &amp; 
+                        <lb/>humaine du Seigneur sont 
+                        <lb/>vnies en vne personne.</p> 
+                    <p n="9"> 
+                        <lb/>9. Ceste vnion bien 
+                        <lb/>qu'incomprehensible est representee 
+                        <lb/>par deux similitudes.</p> 
+                    <p n="10"> 
+                        <lb/>10. Trois vnions merueilleuses.</p> 
+                    <p n="11"> 
+                        <lb/>11. Pourquoy il a falu 
+                        <lb/>que nostre plege fut Dieu.</p> 
+                    <p n="12"> 
+                        <lb/>12. Et Fils de Dieu.</p> 
+                    <p n="13"> 
+                        <lb/>13. Pourquoy il a falu 
+                        <lb/>qu'il fut homme de nostre 
+                        <lb/>nature.</p> 
+                    <p n="14"> 
+                        <lb/>14. Pourquoy il a falu 
+                        <lb/>qu'il fut Dieu &amp; homme 
+                        <lb/>sans peché en vne personne.</p> 
+                    <p n="15"> 
+                        <lb/>15. De l'vnion personnelle 
+                        <lb/>vient la communication 
+                        <lb/>des idiomes, par laquelle<cb/> 
+                        <lb/>plusieurs choses sont dites 
+                        <lb/>de Christ au regard des 
+                        <lb/>deux natures ensemble.</p> 
+                    <p n="16"> 
+                        <lb/>16 D'autres sont dites 
+                        <lb/>de luy, qui ne luy competẽt 
+                        <lb/>qu'au regard de sa Diuinité.</p> 
+                    <p n="17"> 
+                        <lb/>17. Et d'autres, qui ne 
+                        <lb/>luy appartiẽnent qu'au regard 
+                        <lb/>de sa nature humaine.</p> 
+                    <p n="18"> 
+                        <lb/>18. Quelquesfois aussi ce 
+                        <lb/>qui est propre à l'vne des 
+                        <lb/>natures est attribué à l'autre.</p> 
+                    <p n="19"> 
+                        <lb/>19. De ce que Iesus-Christ 
+                        <lb/>n'eust peu satisfaire à Dieu 
+                        <lb/>s'il n'eust esté Dieu, il s'ensuit 
+                        <lb/>que nulle creature simplement 
+                        <lb/>telle, ne peut meriter 
+                        <lb/>de Dieu.</p> 
+                    <p n="20"> 
+                        <lb/>20. Iesus-Christ est nostre 
+                        <lb/>Mediateur par la vocation 
+                        <lb/>&amp; don de Dieu.</p> 
+                    <p n="21"> 
+                        <lb/>21. D'où il s'ensuit que 
+                        <lb/>les Anges &amp; Saincts ne peuuent 
+                        <lb/>estre nos Mediateurs 
+                        <lb/>ni en tout, ni en partie.</p> 
+                    <p n="22"> 
+                        <lb/>22. Grand amour de 
+                        <lb/>Dieu en l'enuoy de son Fils 
+                        <lb/>au monde.</p> 
+                    <p n="23"> 
+                        <lb/>23. Grande grace de Dieu 
+                        <lb/>en l'vnion de nostre nature 
+                        <lb/>auec celle de Dieu : D'où 
+                        <lb/>il s'ensuit que nostre salut est 
+                        <lb/>purement gratuit.</p> 
+                    <p n="24"> 
+                        <lb/>24 Nostre deuoir enuers 
+                        <lb/>Dieu pour son amour &amp; 
+                        <lb/>pour sa grace.</p> 
+                    <milestone unit="column" n="1"/>
+                    <p n="25"> 
+                        <lb/> 
+                        <ref type="bible" target="bibleSegond21.xml#Col.1.19">COLOSSIENS I. 
+                            <lb/>19.</ref> 
+                        <quote source="bible1588.xml#Col.1.19"> 
+                            <hi rend="I">Car le bon plaisir du Pere a esté que 
+                                <lb/>toute plenitude habitast en luy</hi></quote>. 
+                         
+                    </p> 
+                     <pb n="22"/> 
+                    <p n="26"> 
+                        <lb/>I. <c type="lettrine">L</c>E PERE eust peu, s'il eust voulu, 
+                        <lb/>ne pardonner point le peché à 
+                        <lb/>aucun des hommes, ains nous abismer tous iusques aux manoirs 
+                        <lb/>tenebreux des enfers, comme il a fait les 
+                        <lb/>Diables : En quoy il n'eust rien fait que ce qui 
+                        <lb/>est iuste, &amp; nous n'eussions rien souffert que ce 
+                        <lb/>que nous auions merité.</p> 
+                    <p n="27"> 
+                        <lb/>Mais puis que ç'a esté son bon plaisir de nous 
+                        <lb/>pardonner le peché, &amp; de nous deliurer de la 
+                        <lb/>peine d'iceluy, ie dy, qu'il ne l'a peu faire sans 
+                        <lb/>qu'au prealable sa iustice fut pleinemẽt &amp; entierement 
+                        <lb/>satisfaite. Car sa iustice est vne volonté 
+                        <lb/>cõstante, immuable eternelle de recõpenser les 
+                        <lb/>bons, &amp; punir les pecheurs ; Elle luy est si naturelle 
+                        <lb/>&amp; essentielle qu'elle est ce qu'il est : Et il la 
+                        <lb/>pourra relascher, quand il se pourra renier soy- 
+                        <lb/>mesme, &amp; cesser d'estre Dieu, comme ie diray 
+                        <lb/>plus amplement cy apres.</p> 
+                    <p n="28"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other"> 
+                                <hi rend="I">Sous serm.</hi> 3. <lb/><hi rend="I">sect.</hi> 11. <hi rend="I">&amp;</hi> <lb/>12.</ref> 
+                        </note> Il n'exige point ceste satisfaction pour sa 
+                        <lb/>commodité &amp; interest particulier, comme font 
+                        <lb/>ceux qui sergentent leurs debiteurs : Ni par haine 
+                        <lb/>&amp; desir de vengeance, comme font les hommes 
+                        <lb/>mauuais, qui ne peuuent s'appaiser, iusqu'à 
+                        <lb/>ce qu'ils ayent sacrifié à la cruauté de leur passiõ 
+                        <lb/>la vie de leurs ennemis, mais par l'amour qu'il 
+                        <lb/>porte à sa iustice, &amp; à la manutẽtion de ses loix, 
+                        <lb/>lesquelles il a données aux hommes, pource 
+                        <lb/>qu'elles sont en elles-mesmes tressainctes &amp; 
+                        <lb/>tres-iustes, &amp; viues images de la iustice qui est 
+                        <lb/>en luy.</p> 
+                    <p n="29"> 
+                        <lb/>II. Qui doute que l'homme qui auoit peché 
+                        <lb/>ne deust luy-mesme faire ceste satisfaction à 
+                        <lb/>Dieu ? Mais autre chose est ce qu'il deuoit, autre <pb n="23"/> 
+                        <lb/>chose ce qu'il pouuoit. Il ne pouuoit satisfaire 
+                        <lb/>à Dieu que par vne nouuelle &amp; tres parfaicte 
+                        <lb/>obeïssance ou en portant la peine de sa 
+                        <lb/>desobeïssance : l'vn &amp; l'autre luy estoit egalement 
+                        <lb/>impossible.</p> 
+                    <p n="30"> 
+                        <lb/>Car quand il eust peu par amandement de 
+                        <lb/>vie recommencer vne nouuelle course, &amp; se 
+                        <lb/>comporter en sorte qu'il gardast parfaitement 
+                        <lb/>les commandemens de son Dieu sans retomber 
+                        <lb/>en transgression, qu'eust il fait à quoy il ne fust 
+                        <lb/>tenu lors qu'il le feroit, non pour expier ses fautes 
+                        <lb/>passees, mais pour acquitter ses nouuelles 
+                        <lb/>debtes. Tu ne peux faire auiourd'huy aucun 
+                        <lb/>seruice à Dieu, auquel tu ne sois tenu auiourd'huy. 
+                        <lb/>Comment cuides-tu en payant auiourd'huy 
+                        <lb/>ce que tu dois à Dieu auiourd'huy, &amp; ne 
+                        <lb/>pouuant payer autre chose, canceler tant de 
+                        <lb/>sommes que tu as par le passé entassees les vnes 
+                        <lb/>sur les autres ? Tout ce que tu peux faire pour 
+                        <lb/>Dieu, &amp; qu'il demãde de toy, est que tu l'aimes 
+                        <lb/>de tout ton cœur, &amp; ton prochain comme toy- 
+                        <lb/>mesme : Trouue-moy, nomme-moy, si tu peux, 
+                        <lb/>vn iour auquel tu ne dois point cela à Dieu, &amp; 
+                        <lb/>ie diray que pour les œuures de ce iour là, tu as 
+                        <lb/>satisfait pour les iours precedẽs. Mais si chasque 
+                        <lb/>iour adiouste vn nouueau &amp; vn grãd <hi rend="I">item</hi> à ton 
+                        <lb/>obligation, &amp; si le soir du present iour est venu 
+                        <lb/>deuant que tu ayes acheué de payer la debte 
+                        <lb/>qu'il porte auec soy, di-moy Papiste, qui crois 
+                        <lb/>tant de choses estranges &amp; ridicules des satisfactions, 
+                        <lb/>di-moy comment tu peux par le payement 
+                        <lb/>de la debte presente, rayer &amp; biffer tant 
+                        <lb/>de debtes passees.</p> 
+                    <p n="31"> 
+                        <lb/>Mais tant s'en faut que nous payons nos debtes <pb n="24"/> 
+                        <lb/>d'hier &amp; de deuant hier, que nous en laissons 
+                        <lb/>courre les arrerages, &amp; accumulons de iour à 
+                        <lb/>autre les nouuelles debtes, pour lesquelles nous 
+                        <lb/>crions tous les iours au Ciel, <hi rend="I">Quitte nous noz 
+                            <lb/>debtes</hi>. Et donc ce ne sera point nostre obeyssance 
+                        <lb/>presente, qui satisfera à Dieu pour nostre 
+                        <lb/>des-obeïssance passée.</p> 
+                    <p n="32"> 
+                        <lb/>Nous verrons au troisiesme Sermon qu'aussi 
+                        <lb/>peu luy pourrons-nous satisfaire en portant la 
+                        <lb/>peine de nos rebellions. Car 1. puis que c'est 
+                        <lb/>Dieu qui est eternel en essence, &amp; infiny en majesté 
+                        <lb/>qui en est offensé, il faut que la peine en 
+                        <lb/>soit infinie &amp; eternelle, sinon en temps, au 
+                        <lb/>moins en grandeur &amp; en prix. 2. Il est necessaire 
+                        <lb/>que celuy qui prendra ceste peine sur soy les 
+                        <lb/>surmonte par vne victoire glorieuse, &amp; ainsi retourne 
+                        <lb/>en grace auec Dieu, &amp; se remette au 
+                        <lb/>mesme estat auquel il estoit deuant sa transgression. 
+                        <lb/>L'hõme qui est pecheur, foible, &amp; fini, entreprendra- 
+                        <lb/>il de mettre ses espaules tant foibles 
+                        <lb/>sous vn fardeau tant pesant ? &amp; quand il 
+                        <lb/>l'entreprendroit n'en seroit-il point accablé ? 
+                        <lb/>Certes les Anges de Paradis bien que puissans 
+                        <lb/>en vertu, quand ils voudroyent prendre ceste 
+                        <lb/>place, &amp; entreprendre de nous pleiger, ne seroient 
+                        <lb/>que paille &amp; chaume deuant ce feu consumant.</p> 
+                    <p n="33"> 
+                        <lb/>Et c'est pourquoy Dieu ne trouuãt ni au Ciel, ni 
+                        <lb/>en la terre aucune creature qui fust à l'espreuue 
+                        <lb/>de son indignation, a cerché &amp; trouué en soy- 
+                        <lb/>mesme celuy qui pouuoit commencer &amp; mener 
+                        <lb/>à chef ceste œuure tãt necessaire &amp; importante, 
+                        <lb/>&amp; a tiré de son sein propre le Redẽpteur, 
+                        <lb/>qui en portant nostre peine, &amp; non pas nostre <fw place="bot-right" type="catch">coulpe,</fw> 
+                         <pb n="25"/> 
+                        <lb/>coulpe, nous a affranchis &amp; de la peine &amp; de la 
+                        <lb/>coulpe. Ce Redempteur est son Fils bien-aimé, 
+                        <lb/>lequel il a enuoyé au monde, &amp; rendu capable 
+                        <lb/>de faire tant &amp; de si grandes choses pour nous.</p> 
+                    <p n="34"> 
+                        <lb/>III. <quote source="bible1588.xml#Col.1.19"> 
+                            <hi rend="I">Car son bon plaisir a esté que toute plenitude 
+                                <lb/>habitast en luy</hi></quote>. L'Apostre ne se contente pas de 
+                        <lb/>dire, qu'il y a <hi rend="I">plenitude</hi> en Christ, mais pour le tirer 
+                        <lb/>du pair, &amp; l'esleuer au dessus de toutes les 
+                        <lb/>creatures les plus excellẽtes, il dit qu'il y a TOVTE 
+                        <lb/>plenitude en luy. Il y a plenitude és Saincts 
+                        <lb/>Anges, mais leur plenitude peut croistre. Car 
+                        <lb/>S. Pierre parlant des hauts &amp; incomprehensibles 
+                        <lb/>mysteres de nostre redemption, dit qu'<quote source="bible1588.xml#_1Pet.1.12"> 
+                            <hi rend="I">ils </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_1Pet.1.12">1. <hi rend="I">Pier.</hi> 1. v. 12</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">desirent regarder en ces choses iusqu'au fonds</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: Il y a 
+                        <lb/>plenitude de grace &amp; de gloire és esprits des 
+                        <lb/>saincts iustifiés, &amp; recueillis au Ciel. Car ils voyent 
+                        <lb/>la face de Dieu, &amp; <hi rend="I">sa </hi> 
+                        <quote source="bible1588.xml#Ps.16.11"> 
+                            <hi rend="I">face est vn rassasiement</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Ps.16.11"> 
+                                    <hi rend="I">Pseau.</hi> 6. v. <lb/>11.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">de ioye</hi> 
+                        </quote>. Mais ceste plenitude n'est pas comble, 
+                        <lb/>ains receura vn grand accroissement en la resurrection, 
+                        <lb/>de laquelle Dauid disoit, <quote source="bible1588.xml#Ps.17.15"> 
+                            <hi rend="I">Mais moy</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Ps.17.15"> 
+                                    <hi rend="I">Pseau.</hi> 17. v. 15</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">ie verray ta face en iustice, &amp; seray rassasié de ta 
+                                <lb/>ressemblance quand ie seray resueillé</hi></quote>. Et lors encore 
+                        <lb/>nostre plenitude sera dependante de celle du 
+                        <lb/>Sauueur, &amp; ne sera que comme vn petit ruisseau 
+                        <lb/>deriué de ce grand fleuue, ou comme la 
+                        <lb/>plenitude d'vn petit vaisseau qui se remplira lors 
+                        <lb/>dans ce grand Ocean. Car <quote source="bible1588.xml#John.1.16"> 
+                            <hi rend="I">de la plenitude d'iceluy</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.1.16">1. <hi rend="I">Iea.</hi> 1. v. 16</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">nous auons tous receu, &amp; grace pour grace</hi></quote>. Nous 
+                        <lb/>n'auons point receu sa plenitude, mais de sa plenitude. 
+                        <lb/>L'Apostre dit encore, que le bon 
+                        <lb/>plaisir du Pere a esté que toute plenitude <hi rend="I">habitast</hi> 
+                        <lb/>en luy, c'est à dire, demeurast en luy 
+                        <lb/>sans separation, sans diminution, sans alteration. 
+                        <lb/>Car en l'Escriture <hi rend="I">habiter </hi>signifie <pb n="26"/> 
+                        <lb/>vne demeure ordinaire &amp; perpetuelle ; comme 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_1Tim.6.16">1. <hi rend="I">Timo.</hi> 6. <lb/>v. 16.</ref> 
+                        </note> 
+                        <hi rend="I"> seiourner</hi> signifie vne demeure à temps. <quote source="bible1588.xml#_1Tim.6.16"> 
+                            <hi rend="I">Dieu 
+                                <lb/>habite en vne lumiere inacceßible, Iesus-Christ habite </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Eph.3.17"> 
+                                    <hi rend="I">Eph. </hi>3. v. 17.</ref> 
+                            </note> 
+                            <hi rend="I">en nos cœurs par foy</hi> 
+                        </quote>, Dieu dit qu'<quote source="bible1588.xml#_2Cor.6.16"> 
+                            <hi rend="I">il</hi> 
+                            <hi rend="I">habitera au </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Cor.6.16">2. <hi rend="I">Cor. </hi>6. v. <lb/>16.</ref> 
+                            </note> 
+                            <hi rend="I">milieu de nous</hi> 
+                        </quote>, qui est en substance ce qu'il dit 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Deut.31.8"> 
+                                <hi rend="I">Deut.</hi> 31. v. 8</ref> 
+                        </note> ailleurs, <quote source="bible1588.xml#Deut.31.8"> 
+                            <hi rend="I">Ie ne te delaisseray point, ni ne t'abandonneray </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Heb.13.5"> 
+                                    <hi rend="I">Heb.</hi> 13. v. 5.</ref> 
+                            </note> 
+                            <hi rend="I">point</hi> 
+                        </quote>. Les exemples sont infinis à ce propos.</p> 
+                    <p n="35"> 
+                        <lb/>Il y auoit plenitude de cognoissance, iustice, 
+                        <lb/>&amp; vraye saincteté en <hi rend="I">Adam </hi>: Mais elle n'habitoit 
+                        <lb/>point en luy, puis qu'il la perdit. Il y auoit 
+                        <lb/>aussi plenitude de lumiere és saincts Anges, laquelle 
+                        <lb/>n'habitoit point en eux par nature, puis 
+                        <lb/>que quelques vns d'eux se sont precipités de la 
+                        <lb/>lumiere en tenebres, des cieux en enfer, de la vie 
+                        <lb/>en la mort. C'est l'aduantage, cest le priuilege, 
+                        <lb/>c'est la prerogatiue de nostre Seigneur Iesus- 
+                        <lb/>Christ, qu'en luy seul a tousiours habité toute 
+                        <lb/>plenitude, que c'est luy, &amp; nõ aucun autre que 
+                        <lb/>luy, qui est la fontaine qui ne tarit iamais, de laquelle 
+                        <lb/>nous puisons grace &amp; gloire.</p> 
+                    <p n="36"> 
+                        <lb/>IV. Et premierement, <quote source="bible1588.xml#Col.2.9"> 
+                            <hi rend="I">en luy habite corporellement </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Col.2.9"> 
+                                    <hi rend="I">Col. </hi>2. v. 9.</ref> 
+                            </note> 
+                            <hi rend="I">toute plenitude de Deité</hi> 
+                        </quote> 
+                        <hi rend="I">.</hi> Tous les fideles 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_2Pet.1.4">2. <hi rend="I">Pier.</hi> 1. v. 4</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#_2Pet.1.4"> 
+                            <hi rend="I">sont faits participans de la nature diuine</hi> 
+                        </quote>, c'est à sçauoir 
+                        <lb/>de toutes bonnes &amp; sainctes qualités, lesquelles 
+                        <lb/>descendent d'enhaut du Pere des lumieres, 
+                        <lb/>comme de leur source &amp; origine : Mais 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Eph.4.7"> 
+                                <hi rend="I">Eph.</hi> 4. v. 7.</ref> 
+                        </note> S. Pierre dit que c'est <quote source="bibleSegond21.xml#_2Pet.1.4"> 
+                            <hi rend="I">par participation</hi> 
+                        </quote>, &amp; S. Paul, 
+                        <lb/>que <hi rend="I">c'est </hi> 
+                        <quote source="bible1588.xml#Eph.4.7"> 
+                            <hi rend="I">selon la mesure du don de Christ</hi> 
+                        </quote>. Nostre 
+                        <lb/>pleige a non seulement à soy la nature diuine, 
+                        <lb/>ou des qualitez celestes &amp; diuines, mais la Deité 
+                        <lb/>mesme. Non aucune partie de la Deité, mais 
+                        <lb/>la plenitude de Deité : La Deité parfaite. Non 
+                        <lb/>vne plenitude telle quelle ; mais TOVTE <hi rend="I">plenitude</hi> 
+                        <lb/>de Deité : La mesme plenitude qui est au Pere <pb n="27"/> 
+                        <lb/>est en luy : Toute plenitude de Deité est au Pere : 
+                        <lb/>Toute plenitude de Deité est aussi en luy. 
+                        <lb/>Plenitude qui ne se peut separer de luy : car elle 
+                        <lb/>habite en luy : Non par grace, non par assistance 
+                        <lb/>seulement, comme le sainct Esprit habite en 
+                        <lb/><surplus reason="repeated">en</surplus> nous : Non aussi typiquement, comme <quote source="bible1588.xml#_2Sam.6.2"> 
+                            <hi rend="I">il habitoit</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Sam.6.2">2. <hi rend="I">Sam.</hi> 6 <lb/>v. 2.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">entre les Cherubins</hi> 
+                        </quote> au Temple fait de main : 
+                        <lb/>mais <hi rend="I">corporellement</hi>, c'est à dire, vrayement suyuant 
+                        <lb/>que l'Apostre parlant de toutes les ceremonies 
+                        <lb/>de l'ancien Testament, dit qu'<quote source="bible1588.xml#Col.2.17"> 
+                            <hi rend="I">elles sont </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Col.2.17"> 
+                                    <hi rend="I">Coloss.</hi> 2. v. <lb/>17.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">ombres de celles qui estoyent à venir, mais le corps en 
+                                <lb/>est en Christ</hi> 
+                        </quote>. Où il appelle Christ le corps des 
+                        <lb/>ombres, d'autãt qu'en luy sont accomplies toutes 
+                        <lb/>les choses figurées par icelles, &amp; qu'il en est 
+                        <lb/>la verité mesme : Il est donc, non en ombre, mais 
+                        <lb/>en verité <quote source="bible1588.xml#Rom.9.5"> 
+                            <hi rend="I">Dieu sur toutes choses benit eternellement</hi> 
+                        </quote>, <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.9.5"> 
+                                <hi rend="I">Rom.</hi> 9. v. 5.</ref> 
+                        </note> 
+                        <lb/>puis que <quote source="bible1588.xml#Rom.8.31"> 
+                            <hi rend="I">Fils propre, &amp; vnique du Pere</hi> 
+                        </quote>, eternel, <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.8.31"> 
+                                <hi rend="I">Rom.</hi> 8. v. 31.</ref> 
+                        </note> 
+                        <lb/>immuable, tout-puissant, scrutateur des cœurs, <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.1.14"> 
+                                <hi rend="I">Iean</hi> 1. v. 14.</ref> 
+                        </note> 
+                        <lb/>par qui toutes choses ont esté faites, qui les soustient 
+                        <lb/>toutes, qui particulierement nous pardonne 
+                        <lb/>nos pechés, illumine nos yeux, nous sanctifie 
+                        <lb/>par son Esprit, &amp; nous donne la vie eternelle : 
+                        <lb/>Dont aussi il est commandé à tous les Anges <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.1.6"> 
+                                <hi rend="I">Heb.</hi> 1. v. 6.</ref> 
+                        </note> 
+                        <lb/>de Dieu de l'adorer, disons donc, celuy qui 
+                        <lb/>a en soy toutes les proprietez de Dieu, qui fait 
+                        <lb/>tout ce que Dieu fait, à qui les Anges deferent 
+                        <lb/>par commandement le mesme honneur &amp; adoration 
+                        <lb/>qui est deu à Dieu, que peut-il estre autre 
+                        <lb/>chose que Dieu, Dieu sans rapine egal à Dieu, <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Phil.2.6"> 
+                                <hi rend="I">Phil.</hi> 2. v. 6.</ref> 
+                        </note> 
+                        <lb/>&amp; comme Ieremie l'appelle, <quote source="bible1588.xml#Jer.23.6"> 
+                            <hi rend="I">l'Eternel nostre iustice</hi> 
+                        </quote> 
+                        <hi rend="I">,</hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Jer.23.6"> 
+                                <hi rend="I">Iere.</hi> 23. v. 6.</ref> 
+                        </note> 
+                        <lb/>&amp; S. Iean, <quote source="bible1588.xml#Rev.1.11"> 
+                            <hi rend="I">Alpha &amp; Omega, le premier &amp; le </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Rev.1.11"> 
+                                    <hi rend="I">Iean</hi>. 1. v. 11.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">Dernier</hi> 
+                        </quote>, en qui habite toute plenitude de Deité ?</p> 
+                    <p n="37"> 
+                        <lb/>V. Secondement, en luy habite aussi toute 
+                        <lb/>plenitude d'humanité. Car quand le temps fut <pb n="28"/> 
+                        <lb/>venu pour reueler sous le nouueau Testament 
+                        <lb/>la grace qui estoit couuerte &amp; comme cachée 
+                        <lb/>sous les ombres de l'Ancien, le Fils de Dieu est 
+                        <lb/>descendu du Ciel, lequel il n'a iamais delaissé, 
+                        <lb/>&amp; par œconomie &amp; dispensation temporelle 
+                        <lb/>s'est fait homme, non par aucun changement 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other"> 
+                                <foreign xml:lang="la"><hi rend="I">August. de <lb/><choice><sic>Eclces.</sic><corr resp="#RSL">Eccles.</corr></choice></hi> 
+                                <hi rend="I">dogmatib. <lb/>cap. </hi>2.</foreign></ref> 
+                        </note> de la Diuinité en l'humanité, cõme disoit <hi rend="I">Apollinaris </hi>: 
+                        <lb/>Non aussi par le meslinge des deux natures 
+                        <lb/>en vne, comme Dogmatizoit <hi rend="I">Entyc<unclear reason="illegible" resp="#RSL">h</unclear>e</hi> 
+                        <hi rend="I"> </hi>; mais 
+                        <lb/>par l'assumption de la nature humaine : &amp; ce 
+                        <lb/>non en apparence seulement, qui fut la resuerie 
+                        <lb/>phantastique de <hi rend="I">Valentin </hi>; mais en verité : Non 
+                        <lb/>venuë du Ciel, comme affirmoit l'heretique 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Gen.3.15"> 
+                                <hi rend="I">Gene.</hi> 3. v. 15</ref> 
+                        </note> 
+                        <hi rend="I">Marcion </hi>: mais faite en la terre de <quote source="bible1588.xml#Gen.3.15"> 
+                            <hi rend="I">la semence de </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Matt.1.1"> 
+                                    <hi rend="I">Math.</hi> 1. v. 1.</ref> 
+                            </note> 
+                            <hi rend="I">la femme, d'Abraham, &amp; de Dauid selon la chair</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.1.3"> 
+                                <hi rend="I">Rom</hi>. 1. v. 3.</ref> 
+                        </note> Et toutesfois non en corps seulement sans 
+                        <lb/>ame, &amp; n'ayant pour ame que la Diuinité qui 
+                        <lb/>inspiroit le corps, ainsi qu'enseignoit <hi rend="I">Eunomius </hi>: 
+                        <lb/>mais en corps &amp; en ame ensemble : En ame, dy- 
+                        <lb/>ie, vraye ame, &amp; en ame, non seulement vegetante, 
+                        <lb/>mais aussi ayant sentiment &amp; raison, &amp; 
+                        <lb/>toute telle que sont les ames des autres hommes, 
+                        <lb/>afin qu'il peust estre <hi rend="I">Fils de l'homme</hi>, ainsi 
+                        <lb/>qu'il s'appelloit souuent. Et partãt vray homme. 
+                        <lb/>Non toutesfois par vn homme, non par la 
+                        <lb/>couche de l'homme auec la femme, cõme osoit 
+                        <lb/>maintenir le detestable <hi rend="I">Ebion</hi>, mais par l'operation 
+                        <lb/>miraculeuse du S. Esprit, duquel pourtant 
+                        <lb/>il n'est point le Fils, afin qu'aucun ne pense qu'il 
+                        <lb/>y ait deux Peres en la Trinité : Et ce d'autant 
+                        <lb/>que le S. Esprit ne l'a point engendré de sa substance, 
+                        <lb/>mais l'a formé &amp; façonné de la substance 
+                        <lb/>de la Vierge Marie, suiuant qu'il est escrit <hi rend="I">qu'</hi> 
+                        <quote source="bible1588.xml#Gal.4.4"> 
+                            <hi rend="I">il </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Gal.4.4"> 
+                                    <hi rend="I">Gal.</hi> 4. v. 4.</ref> 
+                            </note> 
+                            <hi rend="I">a esté fait de femme</hi> 
+                        </quote>. Et estoit ceste femme descenduë <pb n="29"/> 
+                        <lb/>de <hi rend="I">Dauid</hi>, &amp; Dauid <hi rend="I">d'Abraham</hi>, 
+                        &amp; Abraham 
+                        <lb/>de <hi rend="I">Sem</hi>, &amp; Sem de <hi rend="I">Seth</hi>, &amp; 
+                        Seth <hi rend="I">d'Adam</hi>, pere 
+                        <lb/>de nous tous, auquel S. Luc monte en la description 
+                        <lb/>de la Genealogie du Sauueur, afin que 
+                        <lb/>nous sçachions qu'il est homme de mesme 
+                        <lb/>nature que nous. <quote source="bible1588.xml#Heb.2.17"> 
+                            <hi rend="I">Semblable à ses freres</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Heb.2.17"> 
+                                    <hi rend="I">Heb. </hi>2. <hi rend="I">v</hi>. 17.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">en toutes choses</hi> 
+                        </quote>, &amp; subject tant en son corps, 
+                        <lb/>qu'en son ame en toutes nos infirmitez, 
+                        <lb/><ref target="#mn_1_1" type="noteAnchor">*</ref><hi rend="I">qui ne sont point vicieuses</hi>, &amp; qui sont 
+                        naturelles <note xml:id="mn_29_1" type="margin" n="*">* <foreign xml:lang="el">άδιάϐλητα 
+                            <lb/>παθήματα</foreign><hi rend="I">.</hi> 
+                        </note> 
+                        <lb/>&amp; communes à tous : Pour exemple, <hi rend="I">en son 
+                            <lb/>corps</hi> il a souffert faim, soif, chaleur, froid, lassitude, 
+                        <lb/>bannissement, persecutiõ, toutes sortes d'opprobres 
+                        <lb/>&amp; de tourmens, &amp; finalement la mort 
+                        <lb/>sanglante &amp; ignominieuse de la Croix : <hi rend="I">En son 
+                            <lb/>ame</hi> il a esté <hi rend="I">angoißé, &amp; si fort 
+                            contristé</hi>, qu'il a dit, <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Matt.26.37-38"> 
+                                    <hi rend="I">Math.</hi> 26. v. <lb/>37. 38.</ref> 
+                        </note> 
+                        <lb/> 
+                        <quote source="bible1588.xml#Matt.26.37-38"> 
+                            <hi rend="I">Mon ame est saisie de toutes parts de tristesse iusqu'à 
+                                <lb/>la mort</hi></quote>. Bref pour ce regard, <quote source="bible1588.xml#Heb.4.15"> 
+                            <hi rend="I">il a esté tenté de mesme </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Heb.4.15"> 
+                                    <hi rend="I">Heb.</hi> 4. v. 15.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">que nous en toutes choses, hormis peché</hi> 
+                        </quote>. Car quant 
+                        <lb/>aux infirmitez qui sont personnelles, qui, di-ie, 
+                        <lb/>viennent du temperament &amp; indisposition de 
+                        <lb/>la personne, plustost que de la condition de la 
+                        <lb/>nature, comme d'estre subject à la pierre, à la 
+                        <lb/>goutte, à la colique, à telle, ou à telle maladie, il 
+                        <lb/>ne les a point prises à soy, d'autãt qu'il n'a point 
+                        <lb/>pris à soy la personne d'aucun homme, ains seulemẽt 
+                        <lb/>la nature humaine. C'est pourquoy nous 
+                        <lb/>ne lisons point qu'il ait esté malade : Car les maladies 
+                        <lb/>sont infirmitez personnelles, &amp; fort diuerses, 
+                        <lb/>selon la diuerse constitution, temperament, 
+                        <lb/>&amp; conformation des corps. Mais il n'y a 
+                        <lb/>rien propre à l'homme, entant qu'homme, dont 
+                        <lb/>le Seigneur ait esté exẽpt, le peché seul excepté. 
+                        <lb/>Car <quote source="bible1588.xml#_2Cor.5.21"> 
+                            <hi rend="I">il n'a point cognu peché, &amp; fraude aucune n'a </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Cor.5.21">2. <hi rend="I">Cor</hi> 5. v. 21</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">esté trouuée en sa bouche</hi> 
+                        </quote> 
+                        <hi rend="I">. </hi> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Isa.53.9"> 
+                                <hi rend="I">Esa. </hi>53. v. 9.</ref> 
+                        </note> 
+                    </p> 
+                     <pb n="30"/> 
+                    <p n="38"> 
+                        <lb/>VI. Ce qu'il a esté sans peché, n'est point aduenu 
+                        <lb/>de la pureté de sa Mere, comme enseignẽt 
+                        <lb/>les Docteurs de l'Eglise Romaine, disans qu'il 
+                        <lb/>faloit que le vaisseau qui deuoit porter le Redempteur 
+                        <lb/>fut net, afin qu'il ne fust soüillé de la 
+                        <lb/>contagion d'iceluy. Sur quoy <hi rend="I">le Concile de Trente</hi> 
+                        <lb/>a declaré, que la saincte Vierge a esté conceuë 
+                        <lb/>sans peché, &amp; a approuué la Feste que l'Eglise 
+                        <lb/>Romaine celebre à la Conception d'icelle.</p> 
+                    <p n="39"> 
+                        <lb/>Ce qu'estant autant vray comme il est tres- 
+                        <lb/>faux, il s'ensuiuroit que le Pere &amp; la Mere de la 
+                        <lb/>Vierge deuoient estre sans peché, afin que la generation 
+                        <lb/>&amp; conception d'icelle fut sans tache ; 
+                        <lb/>que semblablement leurs ancestres deuoient 
+                        <lb/>estre sans vice, afin que leurs enfans peussent 
+                        <lb/>naistre semblables à eux. Ainsi en montant iusques 
+                        <lb/>à <hi rend="I">Adam</hi>, il se trouueroit qu'aucun homme 
+                        <lb/>n'auroit iamais peché.</p> 
+                    <p n="40"> 
+                        <lb/>Mais ces gens font semblant d'ignorer que le 
+                        <lb/>peché est transfus en nous par la generation, 
+                        <lb/>ainsi que l'Apostre le donne à entendre quand 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.5.12"> 
+                                <hi rend="I">Rom.</hi> 5. v 12.</ref> 
+                        </note> il dit, que <quote source="bible1588.xml#Rom.5.12"> 
+                            <hi rend="I">par vn seul homme le peché est entré au 
+                                <lb/>au monde</hi> 
+                        </quote> 
+                         : D'où il est aduenu que la Vierge pour auoir 
+                        <lb/>esté de l'homme par l'homme, a esté pecheresse. 
+                        <lb/>Il n'est pas ainsi de Christ, qui a esté voirement 
+                        <lb/>de l'homme, &amp; pourtant est vray homme : 
+                        <lb/>mais n'a point esté par l'homme, c'est à dire 
+                        <lb/>par la generation charnelle vsitée entre les 
+                        <lb/>hommes, mais par l'operation miraculeuse du 
+                        <lb/>S. Esprit, duquel l'Ange dit à la Vierge, <quote source="bible1588.xml#Luke.1.35"> 
+                            <hi rend="I">le sainct 
+                                <lb/>Esprit suruiendra en toy, &amp; la vertu du Souuerain </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Luke.1.35"> 
+                                    <hi rend="I">Luc</hi> 1. v 35.</ref> 
+                            </note> 
+                            <hi rend="I">t'enombrera</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: Et à Ioseph, <quote source="bible1588.xml#Matt.1.20"> 
+                            <hi rend="I">Ne crain point de receuoir </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Matt.1.20"> 
+                                    <hi rend="I">Matth.</hi> 1. v. <lb/>20.</ref> 
+                            </note> 
+                            <hi rend="I">Marie pour ta femme : car ce qui est engendré 
+                                <lb/>d'elle est du S. Esprit</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: Conformément à quoy <pb n="31"/> 
+                        <lb/>nous disons au Symbole, 
+                            <hi rend="I">qu'il a esté conceu du S. 
+                                <lb/>Esprit, &amp; né de la Vierge Marie</hi> 
+                        . Ce qu'il ne faut 
+                        <lb/>pas entendre charnellement, mais spirituellement, 
+                        <lb/>de l'operation extraordinaire &amp; incomprehensible 
+                        <lb/>de l'Esprit sanctifiant de nostre 
+                        <lb/>Dieu, lequel ayant purifié la substance de la 
+                        <lb/>saincte Vierge, fit d'icelle le corps de nostre Sauueur, 
+                        <lb/>&amp; y adiousta vne tres-pure &amp; tres-saincte 
+                        <lb/>ame reuestuë &amp; ornée de toutes bonnes &amp; 
+                        <lb/>sainctes qualitez pardessus toute perfection qui 
+                        <lb/>ait iamais esté en homme, ou en Ange, soit en 
+                        <lb/>nombre, soit en mesure.</p> 
+                    <p n="41"> 
+                        <lb/>VII. Qui est la troisiesme maniere, selon 
+                        <lb/>laquelle nous disons que <quote source="bible1588.xml#Col.1.19"> 
+                            <hi rend="I">toutes plenitude habite en 
+                                <lb/>luy</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: Car c'est de luy que Dauid disoit, <quote source="bible1588.xml#Ps.45.8"> 
+                            <hi rend="I">O Dieu, ton </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Ps.45.8"> 
+                                    <hi rend="I">Psea.</hi> 45. v. 8</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">Dieu t'a oinct d'huile de liesse par dessus tes 
+                                compagnons</hi> 
+                        </quote>,<hi rend="I"> </hi> 
+                        <lb/>entendant par l'huille les graces du sainct 
+                        <lb/>Esprit, lequel en l'Escriture est appellé <hi rend="I">l'Onction</hi>. 
+                        <lb/>Car <quote source="bible1588.xml#Acts.10.38"> 
+                            <hi rend="I">Dieu l'a oinct du S. Esprit &amp; de vertu</hi> 
+                        </quote>, &amp; ce <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Acts.10.38"> 
+                                <hi rend="I">Act.</hi> 10. v. 38</ref> 
+                        </note> 
+                        <lb/>non en petit nombre de graces, mais abondamment : 
+                        <lb/>non en nombre égal à ses consors, mais 
+                        <lb/> 
+                        <hi rend="I">par dessus ses compagnons</hi>, pardessus tous les Anges, 
+                        <lb/>&amp; tous les hommes saincts qui ont esté, qui 
+                        <lb/>sont, ou qui seront. Non aussi en petite mesure, 
+                        <lb/>ou en mesure égale à ses compagnons, mais outre 
+                        <lb/>&amp; pardessus toute mesure. <quote source="bibleSegond21.xml#John.3.34">C<hi rend="I">ar 
+                                Dieu ne luy a </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.3.34"> 
+                                    <hi rend="I">Ieh.</hi> 3. v. 34</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">point donné l'Esprit par mesure</hi> 
+                        </quote>, comme aux Anges, 
+                        <lb/>&amp; aux fideles, mais en toute la perfection, 
+                        <lb/>dont la nature creée peut estre capable. En sa 
+                        <lb/>conception il receut l'Esprit, afin qu'il fust dés 
+                        <lb/>le Ventre <hi rend="I">separé des pecheurs </hi>: <!--citation : Heb.7.26 et en renvoyant à bible1588.xml-->Il le receut derechef 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Heb.7.26"> 
+                                <hi rend="I">Heb.</hi> 7. v. 26</ref> 
+                        </note> 
+                        <lb/>en son Baptesme, auquel <quote source="bible1588.xml#Matt.3.16"> 
+                            <hi rend="I">le S. Esprit vint sur </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Matt.3.16"> 
+                                    <hi rend="I">Matth.</hi> 3. v. <lb/>16</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">luy comme vne colombe</hi> 
+                        </quote>, &amp; l'oignit de toutes les 
+                        <lb/>graces necessaires à l'accomplissement de la <pb n="32"/> 
+                        <lb/>charge de Moyenneur, le faisant, ainsi que dit S. 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Acts.3.36"> 
+                                <hi rend="I">Act.</hi> 3. v. 36</ref> 
+                        </note> Pierre, <hi rend="I">Seigneur &amp; Christ</hi>. Si que nostre 
+                        nature a 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.1.14"> 
+                                <hi rend="I">Iehã.</hi> 1. v. 14</ref> 
+                        </note> esté en luy <quote source="bible1588.xml#John.1.14"> 
+                            <hi rend="I">pleine de grace &amp; de verité</hi> 
+                        </quote> 
+                        <hi rend="I">, </hi>&amp; <quote source="bible1588.xml#Col.2.3"> 
+                            <hi rend="I">en luy sont</hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Col.2.3"> 
+                                    <hi rend="I">Coloss.</hi> 2. v. 3</ref> 
+                            </note> 
+                            <hi rend="I">cachez tous les thresors de sapience &amp; 
+                                d'intelligence</hi></quote>. 
+                    </p> 
+                    <p n="42"> 
+                        <lb/>VIII. Cest homme estant ainsi creé, la seconde 
+                        <lb/>personne de la Trinité le print à soy en 
+                        <lb/>vnion personnelle &amp; eternelle, sans aucune cõfusion 
+                        <lb/>des deux natures, ou de leurs proprietez. 
+                        <lb/>Si que lors Christ demeurant ce qu'il estoit, deuint 
+                        <lb/>ce qu'il n'estoit pas, demeurant Dieu, il deuint 
+                        <lb/>homme : Et est maintenant l'vn &amp; l'autre 
+                        <lb/>ensemble, assauoir vray Dieu eternel deuant 
+                        <lb/>tous les siecles, &amp; vray homme ayant commencement 
+                        <lb/>d'estre &amp; de vie au siecle. Comme en la 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other">S. Bernard <lb/>serm. 3. <foreign xml:lang="la">Vigilis <lb/>Natalis</foreign></ref> 
+                        </note> diuinité qui est singuliere, il y a Trinité és personnes, 
+                        <lb/>&amp; vnité en la substance : Ainsi en ceste 
+                        <lb/>vnion speciale par vne contrarieté fort conuenable, 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other">Idẽ lib. 5. de <lb/>consideratione.</ref> 
+                        </note> il y a Trinité és substances, &amp; vnité en la 
+                        <lb/>personne. Il y a, di-ie, trois substances, &amp; 
+                        <lb/>vne personne. Et comme là les personnes 
+                        <lb/> 
+                        <note type="margin"><foreign xml:lang="la">August. de <lb/>Ecclesiast. dogmatib. <lb/>cap. 2</foreign></note> ne font 
+                        point de diuision en l'vnité, &amp; l'vnité 
+                        <lb/>ne fait aucune diminution en la Trinité. 
+                        <lb/>De mesme icy la personne ne confond 
+                        <lb/>point les substances, &amp; les substãces ne destruisent 
+                        <lb/>point l'vnité de la personne. La parole, &amp; 
+                        <lb/>l'ame, &amp; la chair se sont vnies en vne personne, 
+                        <lb/>&amp; ces trois font vn, &amp; cest vn est trois : nõ par 
+                        <lb/>la confusion des substances, non aussi par le 
+                        <lb/>changement de l'vne en l'autre, mais en l'vnion 
+                        <lb/>inseparable de la personne, qui est telle, que cet 
+                        <lb/>homme composé de corps &amp; d'ame n'a point 
+                        <lb/>de subsistence particuliere, comme vn chacun 
+                        <lb/>de nous a la sienne, mais subsiste en la diuinité.</p> 
+                    <p n="43"> 
+                        <lb/>IX. Ne me demandez pas comment cela <fw place="bot-right" type="catch">s'est</fw> 
+                         <pb n="33"/> 
+                        <lb/>s'est fait : Mais croyez ce qui a esté fait. Que si 
+                        <lb/>vous me demandez raison de ceste œuure, &amp; 
+                        <lb/>differez de la croire, pource que vous ne la pouuez 
+                        <lb/>comprendre, ie vous prieray de me dire 
+                        <lb/>comment vous croyez tant d'autres choses, desquelles 
+                        <lb/>il n'y a iamais eu homme au monde qui 
+                        <lb/>en ait sceu rendre la raison. Toutes les œuures 
+                        <lb/>visibles de Dieu ne seroient-elles pas autant de 
+                        <lb/>miracles, si par l'accoustumance elles n'estoient 
+                        <lb/>deuenuës viles &amp; contemptibles ? Combien de 
+                        <lb/>choses foulons-nous aux pieds, pource qu'elles <note type="margin"> 
+                            <ref type="other">Augustin. <lb/>Epist. 3. ad <lb/>Volusianũ. <foreign xml:lang="la">Quam multa <lb/>vsitata 
+                                calcantur, <lb/>quae considerata <lb/>stupentur</foreign>.</ref> 
+                        </note> 
+                        <lb/>sont vsitées &amp; communes parmy nous, lesquelles 
+                        <lb/>nous rauiroient en admiration, si nous arrestions 
+                        <lb/>nos esprits à les considerer ? Qu'y a-il de 
+                        <lb/>plus commun que <hi rend="I">le Visc</hi>, que vous appellez <hi rend="I">le 
+                            <lb/>Guy </hi>? C'est vn vray arbre, lequel ne se peut ny 
+                        <lb/>planter, ny semer, ny croistre en terre : Mais les 
+                        <lb/>griues esmẽtissent la graine d'iceluy, de laquelle 
+                        <lb/>elles sont fort friandes, sur quelque arbre, 
+                        <lb/>cõme sur le chesne, rouure, yeuse, chastaignier, 
+                        <lb/>pommier, poirier, ou quelqu'autre, laquelle venant 
+                        <lb/>à se prendre là, y croist, &amp; deuient vn vray 
+                        <lb/>arbre, n'ayant aucune subsistence en soy, mais 
+                        <lb/>subsistant en l'arbre qui le porte, duquel il n'est 
+                        <lb/>pas produit. Si ceste similitude ne vous contente 
+                        <lb/>pas, entrez en vous mesmes, &amp; rendez raison 
+                        <lb/>de ce qui s'est fait en vous mesmes, &amp; qui se fait 
+                        <lb/>tous les iours ? Qui est celuy qui puisse declarer 
+                        <lb/>commẽt l'ame est vnie auec le corps, pour faire 
+                        <lb/>vne personne de l'homme ? Ie dy donc que tout 
+                        <lb/>ainsi que l'ame se sert du corps en l'vnité de la 
+                        <lb/>personne, afin qu'elle soit homme, ainsi en l'vnité 
+                        <lb/>de la personne Dieu se sert de l'homme, 
+                        <lb/>afin qu'il soit Christ. En ceste personne là, il y a <pb n="34"/> 
+                        <lb/>l'vnion de l'ame &amp; du corps : En ceste personne 
+                        <lb/>cy, il y a vnion de Dieu &amp; de l'homme. La 
+                        <lb/>personne de l'homme est l'vnion, ou plustost 
+                        <lb/>procede de l'vnion de l'ame auec le corps, sans 
+                        <lb/>meslinge, sans confusion de leurs substances, ou 
+                        <lb/>de leurs proprietez. La personne de Christ est 
+                        <lb/>l'vnion, ou pour parler plus proprement, procede 
+                        <lb/>de l'vnion de Dieu &amp; de l'homme ; &amp; en 
+                        <lb/>ceste vnion il n'y a point de confusion, Dieu 
+                        <lb/>demeure Dieu, &amp; l'homme demeure homme : 
+                        <lb/>Comme quand le Soleil est leué sur nostre horison, 
+                        <lb/>la lumiere se mesle parmy l'air sans se corrompre, 
+                        <lb/>&amp; sans souffrir aucun changement, ou 
+                        <lb/>tant soit peu d'alteration.</p> 
+                    <p n="44"> 
+                        <lb/>De plus, ceste vnion de la nature humaine auec 
+                        <lb/>la diuine est si estroite, qu'elle a demeuré inseparable, 
+                        <lb/>lors mesme que par la mort l'ame du 
+                        <lb/>Seigneur fust separée de son corps. Car ce que 
+                        <lb/>la parole a vne fois prins à soy, elle ne l'a iamais 
+                        <lb/>quitté. Si bien que lors que le corps estoit au 
+                        <lb/>sepulchre, &amp; l'ame en Paradis, la parole, l'ame, 
+                        <lb/>&amp; la chair estoient vne personne, &amp; vn Christ.</p> 
+                    <p n="45"> 
+                        <lb/>X. O merueille des merueilles de Dieu ! le 
+                        <lb/>Pere dit de luy deuant qu'il vint au monde, 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ps.2.7"> 
+                                <hi rend="I">Pseau.</hi> 2. <hi rend="I">v.</hi> 7</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#Ps.2.7"> 
+                            <hi rend="I">C'est toy qui es mon Fils, ie t'ay auiourd'huy 
+                                engendré</hi></quote>. 
+                        <lb/>Voila qui est admirable. Car quel cœur 
+                        <lb/>peut comprendre, quelle langue peut dire comment 
+                        <lb/>celuy qui a esté tousiours au Pere, qui ne 
+                        <lb/>s'est iamais retiré du Pere, ait peu estre engendré 
+                        <lb/>de luy ? Estant au monde, &amp; conuersant en 
+                        <lb/>chair entre les hommes, le Pere luy rendit tesmoignage 
+                        <lb/>du Ciel, disant, <quote source="bible1588.xml#Matt.3.17"> 
+                            <hi rend="I">Cestuy-cy est mon Fils </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Matt.3.17"> 
+                                    <hi rend="I">Matth.</hi> 3. <hi rend="I">v.</hi> <lb/>17.</ref> 
+                            </note> 
+                            <hi rend="I">bien aymé, en qui i'ay prins mon bon plaisir </hi> 
+                        </quote> 
+                        <hi rend="I">:</hi> Appellant 
+                        <lb/>cest homme que Iean baptisoit <hi rend="I">son Fils</hi>, <pb n="35"/> 
+                        <lb/>non <hi rend="I">pour la saincteté de la creation</hi>, pour laquelle 
+                        <lb/>les Anges qui ont gardé leur origine sont appellez 
+                        <lb/> 
+                        <hi rend="I">Fils de Dieu </hi>: non pour la grace d'adoption, <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Job.1.6"> 
+                                <hi rend="I">Iob</hi> 1. v. 6</ref> 
+                        </note> 
+                        <lb/>pour laquelle tous les fideles, qui de nature <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Eph.2.3"> 
+                                <hi rend="I">Eph.</hi> 2. v. 3</ref> 
+                        </note> 
+                        <lb/>sont enfans <hi rend="I">d'ire</hi>, sont en luy adoptez, &amp; par 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Eph.1.5"> 
+                                <hi rend="I">Eph.</hi> 1. v. 5</ref> 
+                        </note> 
+                        <lb/>grace &amp; faueur speciale faits <hi rend="I">enfans de Dieu </hi>: 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Rom.8.16"> 
+                                <hi rend="I">Rom</hi>. 8. v. 16</ref> 
+                        </note> 
+                        <lb/>mais en vertu de l'vnion personnelle, laquelle 
+                        <lb/>est si estroite, que <hi rend="I">le Fils de Dieu</hi> prenant à soy 
+                        <lb/>nostre chair, est deuenu <hi rend="I">Fils de l'homme</hi>, &amp; par 
+                        <lb/>consequent Dieu le Pere est deuenu Pere de cest 
+                        <lb/>homme : &amp; reciproquement ce <hi rend="I">Fils de l'homme</hi> 
+                        <lb/>est en la personne du Fils, <hi rend="I">Fils de Dieu</hi>, &amp; par 
+                        <lb/>consequent sa Mere à l'instant que par foy elle 
+                        <lb/>le conceut au ventre est deuenuë <hi rend="I">Mere de Dieu</hi>. 
+                        <lb/>Voila qui est admirable en toutes manieres. 
+                        <lb/>Que le Fils naturel de Dieu soit le Fils naturel 
+                        <lb/>d'vne femme : Que Dieu soit le Pere d'vn homme : 
+                        <lb/>Qu'vne femme soit la Mere de Dieu : Que 
+                        <lb/>Dieu ayt esté vny à un homme, &amp; en cest homme 
+                        <lb/>ait souffert toutes sortes d'opprobres, &amp; la 
+                        <lb/>mort ignominieuse de la Croix en la terre : Que 
+                        <lb/>l'homme soit vny à Dieu, &amp; en luy iouïsse d'vne 
+                        <lb/>gloire infinie, diuine, &amp; propre au ciel. C'est la 
+                        <lb/>gloire de la foy Chrestienne, de croire ces choses. 
+                        <lb/>La foy ne croit que des merueilles : Toutes 
+                        <lb/>les œuures de Dieu sont autant de merueilles : 
+                        <lb/>Mais la generation du Fils deuant les siecles, l'incarnation 
+                        <lb/>du Fils au siecle est la merueille des 
+                        <lb/>merueilles de Dieu, pour laquelle le Fils est à 
+                        <lb/>bon droict appellé <hi rend="I">l'Admirable</hi>. <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Isa.9.5"> 
+                                <hi rend="I">Esa.</hi> 9. v. 5</ref> 
+                        </note> 
+                    </p> 
+                    <p n="46"> 
+                        <lb/>Vous y pouuez adiouster deux autres merueilles : 
+                        <lb/>Car la Majesté toutepuissante, ce dit vn bon 
+                        <lb/>Pere, a fait trois meslinges (disons plustost trois <note type="margin"> 
+                            <ref type="other">Bernard. <lb/>serm. 10</ref> 
+                        </note> 
+                        <lb/>vnions) en l'assumption de nostre chair, si merueilleusement 
+                        <lb/>singulieres, &amp; singulieremẽt merueilleuses, <pb n="36"/> 
+                        <lb/>que telles choses n'ont iamais esté faites 
+                        <lb/>auparauant, &amp; ne se feront iamais plus sur la 
+                        <lb/>terre : Car Dieu &amp; l'hõme, la Mere &amp; la Vierge, 
+                        <lb/>la foy &amp; le cœur humain se sont ioints ensẽble. 
+                        <lb/>La parole, &amp; l'ame, &amp; la chair se sont assemblez 
+                        <lb/>en vne personne : Et ces trois sont vn, &amp; cest vn 
+                        <lb/>est trois, non en la confusion des substãces, mais 
+                        <lb/>en l'vnité de la personne. Ceste-cy est la premiere 
+                        <lb/>vnion, &amp; celle qui surpasse les autres deux en 
+                        <lb/>excellence. La seconde est la Mere &amp; la Vierge, 
+                        <lb/>laquelle aussi est en toutes façons admirable &amp; 
+                        <lb/>singuliere. On n'a iamais ouy dire, que celle qui 
+                        <lb/>a enfanté fust Vierge lors qu'elle enfantoit, &amp; 
+                        <lb/>que celle-là ait esté mere, qui a demeuré vierge. 
+                        <lb/> 
+                        <note type="margin"><foreign xml:lang="la">August. de <lb/>Ciuitate Dei <lb/>lib. 10. c. 29 <lb/>Mirabilis 
+                            mirabiliter <lb/>natus est. </foreign></note> Certes <hi rend="I">l'admirable est né 
+                            d'vne façon admirable</hi>. La 
+                        <lb/>troisiesme est la foy &amp; le cœur de l'homme : Inferieure 
+                        <lb/>voirement aux autres deux, mais parauenture 
+                        <lb/>non moins forte : Car il y a dequoy s'esbahir 
+                        <lb/>comment le cœur de l'hõme a peu adiouster 
+                        <lb/>foy à ces deux choses, que Dieu est homme : 
+                        <lb/>Et que celle qui a enfanté en enfantãt fust Vierge. 
+                        <lb/>C'est toutefois ce en la creãce dequoy nostre 
+                        <lb/>foy triomphe, detestant &amp; combatant la foy du 
+                        <lb/>Iuif, du Turc, de tous les Payens &amp; Heretiques.</p> 
+                    <p n="47"> 
+                        <lb/>XI. Or iaçoit que ces choses surpassent toutes 
+                        <lb/>merueilles, si ne sont-elles pas dites afin que no<hi rend="E">9</hi> 
+                        <lb/>arrestions nos esprits à les admirer seulement, 
+                        <lb/>ains plustost pour les époinçõner à recercher les 
+                        <lb/>causes pourquoy Dieu a fait tant de merueilles : 
+                        <lb/>Car puisqu'il ne fait riẽ en vain, ce n'est pas pour 
+                        <lb/>neant qu'il a voulu que nostre Moyenneur fust 
+                        <lb/>Dieu, qu'il fust homme sans peché, qu'il fust 
+                        <lb/>l'vn &amp; l'autre en vne personne.</p> 
+                    <p n="48"> 
+                        <lb/>Et premierement il faloit qu'il fust Dieu. Il <pb n="37"/> 
+                        <lb/>deuoit pardonner les pechez, <quote source="bible1588.xml#Mark.2.7"> 
+                            <hi rend="I">Et qui est-ce qui</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Mark.2.7"> 
+                                    <hi rend="I">Marc.</hi> 2. v. 7</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">peut pardonner les pechez, sinon vn seul 
+                            Dieu </hi></quote>? Il 
+                        <lb/>deuoit en sa mort souffrir pour nous vne peine 
+                        <lb/>infinie, &amp; la surmonter. Qui eust peu venir à 
+                        <lb/>bout d'vne telle peine que l'infini ? Il deuoit dõner 
+                        <lb/>le sainct Esprit qui est l'Esprit de Dieu, pour 
+                        <lb/>creer en nous au lieu de ceste vie animale, vne 
+                        <lb/>vie du tout spirituelle : Et qui peut donner l'Esprit 
+                        <lb/>de Dieu, que Dieu ? Il deuoit deliurer l'Eglise 
+                        <lb/>de la main de tous ses ennemis, &amp; briser Satan 
+                        <lb/>sous les pieds d'icelle. A cela il faloit vne 
+                        <lb/>puissance diuine. Bref, il deuoit couronner l'Eglise 
+                        <lb/>de gloire &amp; d'honneur, &amp; luy donner la 
+                        <lb/>vie eternelle : y a-il Ange, Archange, Cherubin, 
+                        <lb/>Seraphin, Throne, Domination, Principauté, 
+                        <lb/>ou puissance capable de mener à chef vn tel 
+                        <lb/>exploict, lequel est l'œuure de la Diuinité, &amp; 
+                        <lb/>d'icelle seule ? Comme il a dit, c'est moy, 
+                        <lb/> 
+                        <quote source="bible1588.xml#Isa.43.11"> 
+                            <hi rend="I">c'est moy qui suis l'Eternel, &amp; n'y a point de Sauueur </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Isa.43.11"> 
+                                    <hi rend="I">Esa.</hi> 43. v. 11</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">fors que moy</hi></quote>. Dont S. Iean dit de luy, <quote source="bible1588.xml#John.5.20"> 
+                            <hi rend="I">Iceluy est</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.5.20">1. <hi rend="I">Iea.</hi> 5. v. 20</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">le vray Dieu, &amp; la vie eternelle</hi></quote>. 
+                    </p> 
+                    <p n="49"> 
+                        <lb/>XII. Or cõme ainsi soit que la Diuinité soit, 
+                        <lb/>nõ diuisée, mais distinguée en trois personnes, 
+                        <lb/>la seconde personne, qui est le Fils, est celle qui 
+                        <lb/>s'est reuestuë de nostre chair, &amp; en icelle nous 
+                        <lb/>a reconciliés au Pere. Celuy par qui le Pere a 
+                        <lb/>fait l'homme, est celuy par qui il l'a voulu refaire : 
+                        <lb/>Et estoit fort conuenable que celuy qui est 
+                        <lb/> 
+                        <quote source="bible1588.xml#Col.1.15"> 
+                            <hi rend="I">l'image de Dieu inuisible</hi> 
+                        </quote>, l'image, di-ie, substancielle <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Col.1.15"> 
+                                <hi rend="I">Col.</hi> 1. v. 15.</ref> 
+                        </note> 
+                        <lb/>&amp; increée, reparast en nous l'image de 
+                        <lb/>Dieu accidentale &amp; creée. Adjoustez, que celuy 
+                        <lb/>qui de nature est Fils de Dieu a esté misericordieusement 
+                        <lb/>fait Fils de l'hõme, afin que nous 
+                        <lb/>qui de nature sommes fils des hõmes, fussions <pb n="38"/> 
+                        <lb/>par grace faits Fils de Dieu. Qui aussi nous pouuoit 
+                        <lb/>mieux enseigner les choses qui sõt de Dieu, 
+                        <lb/>que celuy qui est la Parole &amp; la Sapiẽce de Dieu ? 
+                        <lb/>Et qui estoit plus propre pour nous defendre 
+                        <lb/>cõtre les principautés &amp; puissãces ennemies de 
+                        <lb/>Dieu, que celuy qui est la puissance de Dieu ?</p> 
+                    <p n="50"> 
+                        <lb/>Certes le Pere ne pouuoit s'vnir à nostre nature. 
+                        <lb/>Car il faloit estre enuoyé pour cela : Et le 
+                        <lb/>Pere qui ne procede d'aucun, mais est de par soy 
+                        <lb/>mesme ne pouuoit estre enuoyé par aucũ. Ioint 
+                        <lb/>que de l'incarnation du Pere s'en fust ensuiuie 
+                        <lb/>vne tres grãde absurdité. Car il eust esté Pere de 
+                        <lb/>celuy qui est Dieu de nature, &amp; Fils d'vne creature 
+                        <lb/>mortelle,<surplus reason="repeated">,</surplus> assauoir d'vne femme.</p> 
+                    <p n="51"> 
+                        <lb/>Semblablement le sainct Esprit ne pouuoit 
+                        <lb/>estre fait homme sans vn pareil inconuenient : 
+                        <lb/>Car si cela fust aduenu, il y eust eu deux Fils en 
+                        <lb/>la Trinité : Assauoir la Parole, qui est le Fils eternel 
+                        <lb/>du Pere eternel : Et le sainct Esprit Fils de 
+                        <lb/>Marie. Mais en ce grand &amp; admirable mystere 
+                        <lb/>de l'incarnation du Fils, il n'y a rien qui repugne 
+                        <lb/>à la nature de Dieu, rien qui soit 
+                        <lb/>absurd à la raison sãctifiée de l'hõme Chrestien.</p> 
+                    <p n="52"> 
+                        <lb/>XIII. Il a aussi falu que nostre Redempteur 
+                        <lb/>fust homme de nostre nature, <hi rend="I">pour la gloire de la 
+                            <lb/>Justice, &amp; de la Verité de Dieu</hi>. Car <hi rend="I">la 
+                            iustice de Dieu</hi> 
+                        <lb/>requeroit que la nature qui auoit peché portast 
+                        <lb/>la peine du peché qu'elle auoit fait. Ce fut nostre 
+                        <lb/>nature qui auoit peché en Adam ; C'est aussi 
+                        <lb/>nostre nature qui a souffert la peine de ce peché 
+                        <lb/>au second Adam, afin que la iustice de 
+                        <lb/>Dieu demeurast contente &amp; satisfaite. La 
+                        <lb/>peine que la Iustice de Dieu auoit decernee 
+                        <lb/>pour l'expiation de nostre peché, estoit la <pb n="39"/> 
+                        <lb/>mort, laquelle Dieu denonça à Adam, luy 
+                        <lb/>disant que dés le iour qu'il mangeroit de 
+                        <lb/>l'arbre deffendu, <quote source="bible1588.xml#Gen.2.17"> 
+                            <hi rend="I">il mourroit de mort</hi> 
+                            <!-- citation approximative --> 
+                        </quote> 
+                        <hi rend="I"> </hi>: Et <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Gen.2.17"> 
+                                <hi rend="I">Genes.</hi> 2. <lb/><hi rend="I">v.</hi> 17.</ref> 
+                        </note> 
+                        <lb/>les fideles qui dés le commencement espandoyent 
+                        <lb/>le sang des bestes qu'ils offroyẽt à Dieu 
+                        <lb/>en sacrifice typique, auoyent appris que ceste 
+                        <lb/>mort deuoit estre sanglante. C<hi rend="I">ar </hi> 
+                        <quote source="bible1588.xml#Heb.9.22"> 
+                            <hi rend="I">sans effusion de </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Heb.9.22"> 
+                                    <hi rend="I">Heb.</hi> 9. <hi rend="I">v.</hi> <lb/>22.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">sang ne se fait point de remißion</hi> 
+                        </quote>. Or Dieu est vn 
+                        <lb/>esprit eternel, &amp; ne peut mourir : A raison dequoy 
+                        <lb/>il s'est fait homme, afin qu'estant mortel 
+                        <lb/>en nostre nature, il souffrist pour nous la mort 
+                        <lb/>laquelle nous deuions souffrir. Il y en a entre 
+                        <lb/>les Docteurs Papistes qui enseignent que Iesus- <note type="margin"> 
+                            <ref type="other">Suarez in 3. <lb/>Thomas <lb/>quaest. 1. art. 1. dist. 4. <lb/>sect. 
+                                2.</ref> 
+                        </note> 
+                        <lb/>Christ pouuoit prendre la nature Angelique, 
+                        <lb/>&amp; nous racheter parfaitement par icelle, en satisfaisant 
+                        <lb/>a la iustice de Dieu par quelques actes 
+                        <lb/>internes &amp; spirituels, iaçoit qu'il ne peut mourir. 
+                        <lb/>Ce qui est dit par eux <hi rend="I">&amp; inutilement, </hi>&amp; <hi rend="I">faussement </hi>: 
+                        <lb/>Car à quel propos nous discourent-ils 
+                        <lb/>de ce que Christ a peu faire autrement qu'il ne 
+                        <lb/>l'a fait, quand il nous conste de ce qu'il a fait ? 
+                        <lb/>Et pourquoy aneantissent-ils la justice &amp; 
+                        <lb/>la verité de Dieu ? Car la iustice de Dieu ne 
+                        <lb/>pouuoit permettre qu'vne autre nature que 
+                        <lb/>celle qui auoit peché luy satisfit, &amp; qu'elle luy 
+                        <lb/>satisfit autrement qu'en mourant : Car <quote source="bible1588.xml#Rom.1.32"> 
+                            <hi rend="I">c'est ici </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Rom.1.32"> 
+                                    <hi rend="I">Rom.</hi> 1. <hi rend="I">v.</hi> <lb/>32.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">le droit de Dieu, que ceux qui commettent telles choses 
+                                <lb/>sont dignes de mort</hi></quote>. Et pourtãt c'est sa iustice qui 
+                        <lb/>l'a porté à denoncer la mort aux pecheurs, &amp; 
+                        <lb/>c'est par iustice <choice><sic>qui</sic><corr resp="#RSL">qu'il</corr></choice> les punit de mort. A raison 
+                        <lb/>de quoy Christ luy-mesme dit, qu'<quote source="bible1588.xml#Luke.24.26"> 
+                            <hi rend="I">il faloit que le </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Luke.24.26"> 
+                                    <hi rend="I">Luc</hi> 24. <hi rend="I">v. </hi><lb/>26</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">Christ souffrit ces choses</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: C'est ce que l'Apostre 
+                        <lb/>nous a voulu donner à entendre quand il dit, <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.2.14-16"> 
+                                <hi rend="I">Heb.</hi> 2. <hi rend="I">v.</hi> <lb/>14. 15. 16.</ref> 
+                        </note> 
+                        <lb/>que <quote source="bible1588.xml#Heb.2.14-15"> 
+                            <hi rend="I">depuis que les enfans participent à la chair &amp;</hi> 
+                             <pb n="40"/> 
+                            <lb/> 
+                            <hi rend="I">au sang luy außi semblablemẽt a participé aux mesmes 
+                                <lb/>choses, afin que par la mort il detruisist celuy qui 
+                                <lb/>auoit l'empire de la mort, c'est assauoir le Diable, &amp; 
+                                <lb/>qu'il en deliurast tous ceux qui pour crainte de mort 
+                                <lb/>estoyent toute leur vie assuiettis à seruitude</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: c'est à 
+                        <lb/>dire, que depuis que ceux que Dieu a predestinez 
+                        <lb/>en Iesus-Christ pour les faire ses enfans, 
+                        <lb/>sont hommes ayans chair &amp; sang ; luy aussi s'est 
+                        <lb/>fait homme, afin que mourant pour eux, il detruisist 
+                        <lb/>le Diable, &amp; les deliurast de la mort. <quote source="bible1588.xml#Heb.2.16">C<hi rend="I">ar 
+                                <lb/>certes il n'a nullement prins les Anges, mais a prins 
+                                <lb/>la semence d'Abraham</hi></quote>. S'il eust vestu la nature 
+                        <lb/>Angelique, il n'eust souffert que pour les Anges, 
+                        <lb/>&amp; sa mort ne seruiroit que pour les Diables : 
+                        <lb/>Mais n'ayant point prins les Anges, nous 
+                        <lb/>sçauons qu'il n'est point mort pour eux : &amp; <surplus reason="mistake">a.</surplus> 
+                        <lb/>ayant prins la semence d'Abraham, descendu 
+                        <lb/>d'Adam, nous sçauons qu'il a expié les pechez 
+                        <lb/>des enfans d'Adam, &amp; est mort pour nous.</p> 
+                    <p n="53"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other">August. lib. <lb/>10 : Confession. <lb/>ca. 42.</ref> 
+                        </note> XIV. Ioinct qu'il a falu, ainsi que dit quelque 
+                        <lb/>Pere, que le Mediateur entre Dieu &amp; les 
+                        <lb/>hommes eust quelque chose semblable à 
+                        <lb/>Dieu, &amp; quelque chose semblable aux hommes, 
+                        <lb/>afin qu'en ce qu'il auoit semblable aux 
+                        <lb/>hommes, il peust mourir pour les hommes : Et 
+                        <lb/>parce qu'il auoit semblable à Dieu, appaiser 
+                        <lb/>Dieu, &amp; rendre sa mort meritoire. Car s'il eust 
+                        <lb/>esté en toutes choses semblable aux hommes, il 
+                        <lb/>eust esté loin de Dieu &amp; n'eust peu l'appaiser 
+                        <lb/>enuers l'homme : &amp; s'il eust esté en toutes choses 
+                        <lb/>semblables à Dieu, il eust esté loin des hommes, 
+                        <lb/>&amp; ne les eust peu ramener vers Dieu. Ainsi 
+                        <lb/>il n'eust peu estre Moyenneur entre Dieu &amp; 
+                        <lb/>nous. Selon cela l'Eglise a tousiours creu &amp; enseigné, <fw place="bot-right" type="catch">seigné,</fw> 
+                         <pb n="41"/> 
+                        <lb/>que la Diuinité sans l'humanité n'est <note type="margin">Idem de 
+                            <lb/>Ouibus. ca. <lb/>12.</note> 
+                        <lb/>point mediatrice, qu'aussi l'humanité sans la Diuinité 
+                        <lb/>n'est point mediatrice : mais entre la Diuinité 
+                        <lb/>seule &amp; l'humanité seule, est mediatrice <note type="margin"> 
+                            <ref type="other">Chrysost. <lb/>in 1. Timo. <lb/>ca. 2. Hom. <lb/>7.</ref> 
+                        </note> 
+                        <lb/>la Diuine humanité, &amp; l'humaine Diuinité de 
+                        <lb/>Christ, ou pour parler plus clairement, Christ 
+                        <lb/>Homme-Dieu &amp; Dieu-Homme est Mediateur 
+                        <lb/>entre Dieu &amp; l'hõme. Dieu pour parler à Dieu : 
+                        <lb/>Homme pour estre receu des hommes. Ou cõme 
+                        <lb/>a dit vn autre Pere, Homme pour estre tenté. <note type="margin"> 
+                            <ref type="other">Irenæ. lib. 3 <lb/>cap. 20.<!-- Irenaeus --></ref> 
+                        </note> 
+                        <lb/>Dieu <choice><sic>ponr</sic><corr resp="#RSL">pour</corr></choice> estre glorifié. La parole se reposoit, 
+                        <lb/>afin que l'homme peut estre tenté, deshonnoré, 
+                        <lb/>crucifié &amp; mourir : La parole derechef 
+                        <lb/>monstroit en luy sa vertu, en ce qu'il 
+                        <lb/>a soustenu &amp; vaincu la mort, est ressuscité, est 
+                        <lb/>monté au Ciel, &amp; s'est assis à la dextre de Dieu. 
+                        <lb/>Si l'homme n'eust vaincu l'ennemy de l'homme, 
+                        <lb/>il n'eust pas esté iustement vaincu : Et si 
+                        <lb/>Dieu n'eust dõné le salut, il ne nous seroit point 
+                        <lb/>ferme &amp; asseuré. C'est ainsi que les Docteurs 
+                        <lb/>anciẽs ont descrit les causes pour lesquelles il a 
+                        <lb/>falu que le Moyenneur fust Dieu &amp; Homme 
+                        <lb/>en vnité de personne. H<hi rend="I">omme</hi>, pour faire l'œuure 
+                        <lb/>qui deuoit appaiser Dieu, &amp; meriter le salut. 
+                        <lb/> 
+                        <hi rend="I">Dieu</hi>, pour rendre l'œuure meritoire. Car 
+                        <lb/>nul ne peut meriter de Dieu, c'est à dire, faire 
+                        <lb/>vne œuure d'vne vertu &amp; dignité infinie, que 
+                        <lb/>celuy qui est infini. Et qui est tel que Dieu. 
+                        <lb/>Voila pourquoy on dit és escoles, que <hi rend="I">l'œuure 
+                            <lb/>qui a merité est de l'humanité du Seigneur, mais le 
+                            <lb/>merite de l'œuure est de sa Diuinité</hi>.</p> 
+                    <p n="54"> 
+                        <lb/>Pour ceste mesme raison il a falu que cest hõme 
+                        <lb/>fust sans peché, &amp; vni personnellement à la 
+                        <lb/>Diuinité. Car il ne se pouuoit faire que le Fils de <pb n="42"/> 
+                        <lb/>Dieu &amp; la nature polluë fussẽt accouplés ensẽble : 
+                        <lb/>Et faloit que celuy qui deuoit souffrir &amp; 
+                        <lb/>payer pour les pecheurs, &amp; satisfaire à la iustice 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.7.26"> 
+                                <hi rend="I">Heb.</hi> 7. <hi rend="I">v.</hi> 26</ref> 
+                        </note> vengeresse de Dieu pour eux fust <quote source="bible1588.xml#Heb.7.26"> 
+                            <hi rend="I">sainct, innocent, 
+                                <lb/>sans macule, separé des pecheurs, &amp; exalté par dessus 
+                                <lb/>tous les Cieux</hi> 
+                        </quote>. Homme sans peché, &amp; vray Dieu.</p> 
+                    <p n="55"> 
+                        <lb/>Et ce en vne personne, à fin que tout 
+                        <lb/>l'œuure procedast d'vn, &amp; que le merite d'iceluy 
+                        <lb/>decoulast immediatement de la personne 
+                        <lb/>qui l'auoit fait. Car si vne personne eust fait 
+                        <lb/>l'œuure, &amp; vne autre eust donné merite à l'œuure, 
+                        <lb/>nous n'aurions point en vn la reparation 
+                        <lb/>de la faute qui a esté faicte par vn, &amp; le restablissement 
+                        <lb/>du salut qui a esté perdu par vn. Ce 
+                        <lb/>que <hi rend="I">Nestorius</hi> n'ayant sceu considerer, il diuisa 
+                        <lb/>Christ, &amp; d'vn Christ vray <quote source="bible1588.xml#Matt.1.23"> 
+                            <hi rend="I">Emmanuel, Dieu auec </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Matt.1.23"> 
+                                    <hi rend="I">Matth.</hi> 1. <hi rend="I">v.</hi> <lb/>23.</ref> 
+                            </note> 
+                            <hi rend="I">nous</hi> 
+                            <!-- citation approximative --> 
+                        </quote>, vrayement Dieu-Homme, ou Homme- 
+                        <lb/>Dieu en vne personne, fit deux Christs.</p> 
+                    <p n="56"> 
+                        <lb/>XV. Ceste vnion des deux natures en 
+                        <lb/>Christ est si estroite, qu'à cause d'icelle l'Escriture 
+                        <lb/>attribue à tout Christ ce qui est propre à 
+                        <lb/>l'vne des natures en luy, &amp; quelquesfois approprie 
+                        <lb/>à l'vne des natures ce qui est propre à 
+                        <lb/>l'autre, quelquesfois aussi dit des choses de luy 
+                        <lb/>qui ne luy peuuent competer qu'au regard 
+                        <lb/>des deux natures ensemble : Et ce par des manieres 
+                        <lb/>de parler que les anciens Docteurs ont appellees 
+                        <lb/> 
+                        <hi rend="I">La communication des idiomes</hi>.</p> 
+                    <p n="57"> 
+                        <lb/>Pour commencer par la derniere, apprenez &amp; 
+                        <lb/>retenez que toutes &amp; quantesfois que l'Escriture 
+                        <lb/>parlant de Christ luy attribuë les titres qui 
+                        <lb/>designent ces offices, comme <hi rend="I">qu'il est Roy, Sacrificateur, 
+                            <lb/>&amp; Prophete, le Plege de la nouuelle alliance, 
+                            <lb/>Moyenneur entre Dieu &amp; les hommes </hi>: ou les benefices 
+                        <lb/>qu'il nous en a acquis, tels que sont, qu'il <pb n="43"/> 
+                        <lb/>est nostre Iesus, nostre Sapience, Iustice, Sanctification, 
+                        <lb/>&amp; Redemption, &amp;c. Ces choses 
+                        <lb/>competent à toute sa personne au regard des 
+                        <lb/>deux natures vnies en icelle. Car tout ainsi que 
+                        <lb/>ie vous enseigne maintenant, non comme 
+                        <lb/>ayãt vne ame seulement, pource que l'ame ne 
+                        <lb/>parle point à la façon que ie parle maintenant 
+                        <lb/>à vous, non aussi comme ayant vn corps seulement, 
+                        <lb/>pource qu'vn corps n'a que les instrumẽs 
+                        <lb/>de la parole &amp; du discours, lequel il ne sçauroit 
+                        <lb/>former de soy, mais cõme estant vne personne 
+                        <lb/>cõposee de corps &amp; d'ame : Cõme, di-ie, 
+                        <lb/>ce n'est ni mon ame, ni mon corps qui vous instruit 
+                        <lb/>maintenant, mais c'est moy qui vous instruit, 
+                        <lb/>&amp; comme à la production de cest œuvre 
+                        <lb/>ces substances concurrent en moy, &amp; s'vnissent 
+                        <lb/>ensemble : Tout de mesme Christ est 
+                        <lb/>appellé &amp; est nostre Roy, nostre Redempteur, 
+                        <lb/>Moyenneur entre Dieu &amp; nous. Il nous a merité 
+                        <lb/>le pardon de nos pechez, &amp; nous sauue, nõ 
+                        <lb/>comme Dieu seulemẽt, pource que Dieu n'eust 
+                        <lb/>peu souffrir ; non comme homme seulement, 
+                        <lb/>pource que l'homme n'eust peu meriter, mais 
+                        <lb/>comme Dieu Homme, &amp; Homme-Dieu en 
+                        <lb/>vnité de personne. Pourtant quand l'Apostre 
+                        <lb/>dit, qu'<quote source="bible1588.xml#_1Tim.2.5"> 
+                            <hi rend="I">il y a vn seul Dieu, &amp; y a vn seul Moyenneur</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_1Tim.2.5">1. <hi rend="I">Tim.</hi> 2. v. 5</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">entre Dieu &amp; les hommes Jesus-Christ homme</hi> 
+                        </quote>, ne 
+                        <lb/>vous laissez point seduire aux Docteurs Papistes 
+                        <lb/>qui inferent de ces paroles que Christ est 
+                        <lb/>Mediateur entant qu'Homme seulement. Croyez 
+                        <lb/>plustost à vn Docteur ancien, qui les exposãt <note type="margin"> 
+                            <ref type="other">Chryso. ibi <lb/>Homil. 7.</ref> 
+                        </note> 
+                        <lb/>escrit, qu'il estoit impossible qu'vn homme 
+                        <lb/>pur &amp; simplement tel, &amp; n'ayant rien de 
+                        <lb/>cõmun auec Dieu, fust Mediateur entre Dieu <pb n="44"/> 
+                        <lb/>&amp; l'homme. Et tenez pour certain que cest hõme 
+                        <lb/>est Mediateur, entant qu'il est <choice><sic>partipant</sic><corr resp="#RSL">participant</corr></choice> de 
+                        <lb/>l'vne &amp; de l'<choice><sic>autte</sic><corr resp="#RSL">autre</corr></choice> nature. C'est ainsi que nostre 
+                        <lb/>Apostre dit en nostre texte, que <quote source="bible1588.xml#Col.1.19-20"> 
+                            <hi rend="I">le bon plaisir du </hi> 
+                            <lb/>P<hi rend="I">ere a esté que toute plenitude habitast en luy, &amp; de 
+                                <lb/>reconcilier par luy toutes choses à soy</hi> 
+                        </quote>. Car cela conuient 
+                        <lb/>à toute sa personne au regard des deux natures 
+                        <lb/>coniointement.</p> 
+                    <p n="58"> 
+                        <lb/>XVI. Semblablement vous voyez que plusieurs 
+                        <lb/>choses sont dites vrayement de tout 
+                        <lb/>l'homme, c'est assauoir de la personne de l'homme, 
+                        <lb/>qui ne sont pas dites vrayement de tout ce 
+                        <lb/>qui est de l'homme : ains doiuent estre considerees 
+                        <lb/>distinctement, ou au regard de son corps, 
+                        <lb/>ou au regard de son ame. Vous parlez proprement 
+                        <lb/>&amp; clairement quand vous dites 
+                        <lb/>que l'homme est mortel, &amp; aussi que l'homme 
+                        <lb/>est immortel ; combien qu'il ne soit mortel 
+                        <lb/>qu'au regard de son corps, &amp; ne soit immortel 
+                        <lb/>qu'en son ame. En ceste maniere l'Escriture 
+                        <lb/>attribuë plusieurs choses à tout Christ, 
+                        <lb/>qui ne conuiennent pas à tout ce qui est de 
+                        <lb/>Christ, mais doiuent estre restreintes à l'vne ou 
+                        <lb/>à l'autre de ses natures distinctement. Pour 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.10.30"> 
+                                <hi rend="I"><choice><sic>Ian</sic><corr resp="#RSL">Iean</corr></choice></hi>. 10. v. 30</ref> 
+                        </note> exemple, Christ dit de soy fort veritablement, 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.14.10"> 
+                                <hi rend="I">Iean</hi> 14. v. <lb/>10.</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#John.10.30"> 
+                            <hi rend="I">Moy &amp; le Pere sommes vn : Philippe celuy qui m'a 
+                                <lb/>veu, il a veu mon </hi>P<hi rend="I">ere, ie suis au Pere, 
+                                &amp; le Pere en </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.9.58"> 
+                                    <hi rend="I">Iean</hi> 9. v. 58.</ref> 
+                            </note> 
+                            <hi rend="I">moy : deuant qu'Abraham fust ie suis : Voici ie suis </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Matt.28.20"> 
+                                    <hi rend="I">Matth.</hi> 28. <hi rend="I">v.</hi> <lb/>20.</ref> 
+                            </note> 
+                            <hi rend="I">touiours auec vous iusques à la fin du monde</hi> 
+                        </quote>. Tous 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.2.3"> 
+                                <hi rend="I">Heb.</hi> 2. v. 3.</ref> 
+                        </note> lesquels passages, &amp; autres semblables doiuent 
+                        <lb/>estre exposez de luy, entant qu'il est <quote source="bible1588.xml#Heb.2.3"> 
+                            <hi rend="I">la resplẽdeur 
+                                <lb/>de la gloire, &amp; la marque engrauee de la personne du 
+                                <lb/>Pere</hi> 
+                        </quote>, c'est assauoir vray Dieu. Les Papistes à faute 
+                        <lb/>d'auoir apprins ceci, sont tõbés en vn erreur <pb n="45"/> 
+                        <lb/>fort grossier. Car pource que Iesus-Christ a 
+                        <lb/>dit, <quote source="bible1588.xml#Matt.28.20"> 
+                            <hi rend="I">Voicy ie suis auec vous tousiours iusques à la fin 
+                                <lb/>du monde</hi> 
+                        </quote>, ils croyent que son corps glorifié est 
+                        <lb/>en autant de lieux qu'est le pain enchanté de la 
+                        <lb/>Messe, ne considerans pas que le Seigneur parle 
+                        <lb/>en cest endroit de la presence de son esprit. Car 
+                        <lb/>il leur auoit dit auparauant ; <quote source="bible1588.xml#John.16.7"> 
+                            <hi rend="I">Il vous est expedient</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.16.7"> 
+                                    <hi rend="I">Iean.</hi> 16. v. 7.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">que ie m'en aille : Car si ie ne m'en vay, le Consolateur 
+                                <lb/>ne viendra point à vous. Et si ie m'en vay, ie le vous 
+                                <lb/>enuoyeray</hi> 
+                        </quote>. Or <hi rend="I">il s'en est allé</hi> en portant son corps <note type="margin">Corpus contulit <lb/>Coelo, <lb/>Maiestatem <lb/>non abstulit 
+                            <lb/>solo.</note> 
+                        <lb/>dans le Ciel : Car la Diuinité qui est infinie, ne 
+                        <lb/>va ni vient. Et <hi rend="I">il a demeuré auec eux</hi>, d'autant qu'il 
+                        <lb/>n'a point osté sa Majesté de la terre. Pourtant 
+                        <lb/>S. Pierre dit de luy, qu'<quote source="bible1588.xml#Acts.3.21"> 
+                            <hi rend="I">il faut que le Ciel le contiene </hi> 
+                            <note type="margin"> 
+                                <hi rend="I">Act.</hi> 3. v. 21.</note> 
+                            <lb/> 
+                            <hi rend="I">iusques au temps du restablissement de toutes les choses 
+                                <lb/>que Dieu a prononcees par la bouche de tous ses 
+                                <lb/>Prophetes dés le commencement du monde</hi> 
+                        </quote>. Ce qui 
+                        <lb/>ne luy peut competer au regard de sa Diuinité 
+                        <lb/>qui est par tout, mais luy conuient tresbien, 
+                        <lb/>eu esgard à son humanité, 
+                            <hi rend="I">à laquelle la </hi> 
+                            <note type="margin"> 
+                                <ref type="other"><foreign xml:lang="la">August. de <lb/>præsentia <lb/>Dei ad Dardanum. <lb/>Epi. <lb/>57. 
+                                    cui profecto <lb/>immortalitatẽ <lb/>dedit gloria <lb/>naturam nõ <lb/>abstulit, 
+                                    &amp;c.</foreign></ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">gloire</hi><seg type="interpolation">, dont elle est reuestuë,</seg> 
+                            <hi rend="I">a donné l'immortalité, 
+                                <lb/>mais ne luy a point osté sa nature en laquelle 
+                                <lb/>il n'est point diffus, &amp; n'est point par tout. Et 
+                                <lb/>se faut bien donner garde de maintenir tellement 
+                                <lb/>la Diuinité de l'homme, que nous luy 
+                                <lb/>ostions la verité du corps : Et ne s'ensuit pas 
+                                <lb/>que ce qui est en Dieu est par tout, comme 
+                                <lb/>Dieu est partout. Car l'Escriture laquelle est 
+                                <lb/>tres-veritable dit de nous, </hi><quote source="bibleSegond21.xml#Acts.17.28"><hi rend="I"> Qu'en luy nous </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Acts.17.28"><hi rend="I">Act.</hi> 17. v. <lb/>28.</ref></note> 
+                            <lb/> 
+                            <hi rend="I">viuons &amp; mouuons, &amp; sommes : Et toutesfois 
+                                <lb/>nous ne sommes point par tout comme luy</hi></quote><hi rend="I">. 
+                                <lb/>Vray est que cest homme-là est autrement en 
+                                <lb/>Dieu que nous, pource que Dieu est autrement 
+                                <lb/>en luy qu'en nous, c'est assauoir en vne 
+                                    <lb/>maniere propre &amp; singuliere.</hi> 
+                         
+                    </p> 
+                     <pb n="46"/> 
+                    <p n="59"> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.14.28"> 
+                                <hi rend="I">Ieã</hi> 14 <hi rend="I">v.</hi> 28</ref> 
+                        </note> XVII. Derechef le Seigneur dit, <quote source="bible1588.xml#John.14.28"> 
+                            <hi rend="I">le Pere est </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.6.28"> 
+                                    <hi rend="I">Ieã </hi>6 v. 28</ref> 
+                            </note> 
+                            <hi rend="I">plus grand que moy</hi> 
+                        </quote>. 
+                             
+                        <hi rend="I"> </hi> 
+                        <quote source="bible1588.xml#John.6.28"> 
+                            <hi rend="I">Je delaisse le monde, &amp; m'en </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.12.8"> 
+                                    <hi rend="I">Ieã</hi> 12 <hi rend="I">v.</hi> 8</ref> 
+                            </note> 
+                            <hi rend="I">vay au Pere</hi> 
+                        </quote> 
+                        <hi rend="I"> : </hi> 
+                        <quote source="bible1588.xml#John.12.8"> 
+                            <hi rend="I">Vous aurez tousiours les pauures auec </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.10.7"> 
+                                    <hi rend="I">Ieã </hi>10. <hi rend="I">v.</hi> 7</ref> 
+                            </note> 
+                            <hi rend="I">vous, mais vous ne m'aurez point tousiours</hi></quote>. 
+                         
+                        <hi rend="I"> : </hi> 
+                        <quote source="bible1588.xml#John.10.7"> 
+                            <hi rend="I">Il vous 
+                                <lb/>est expedient que ie m'en aille</hi> 
+                        </quote>, &amp; autres choses 
+                        <lb/>semblables, lesquelles se disent vrayement de 
+                        <lb/>luy entant qu'il a prins à soy nostre chair.</p> 
+                    <p n="60"> 
+                        <lb/>Ce que le meschant <hi rend="I">Arrius</hi> a peu, mais n'a 
+                        <lb/>point voulu apprendre, ne pouuant estre induit 
+                        <lb/>à confesser qu'il y a deux choses en Christ, l'vne 
+                        <lb/>par laquelle il est égal au Pere : L'autre par laquelle 
+                        <lb/>il est moindre que le Pere. Celle-là est la 
+                        <lb/>Parole : Celle-cy est la Chair : Celle-là est Dieu : 
+                        <lb/>Celle-cy est vn homme. Mais l'vne &amp; l'autre est 
+                        <lb/>vn Christ, Dieu &amp; Homme, lequel mesmes est 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other">August. de <lb/>Trinit. lib. <lb/>1. cap. 7.<!-- De Trinitate --></ref> 
+                        </note> moindre que soy-mesme. Car comment n'auroit 
+                        <lb/>esté fait moindre que soy-mesme celuy qui 
+                        <lb/>s'est aneanty soy-mesme, ayant prins forme de 
+                        <lb/>seruiteur ? Aneanty, dy-ie, non en quittant la 
+                        <lb/>forme de Dieu, en laquelle il estoit égal au Pere, 
+                        <lb/>mais en prenant à soy la forme abjecte de seruiteur, 
+                        <lb/>en laquelle il estoit non seulement moindre 
+                        <lb/>que le Pere, mais aussi moindre que soy- 
+                        <lb/>mesme. Gardez bien ceste distinction de la Diuinité 
+                        <lb/>&amp; de la Chair : Vn mesme Fils de Dieu 
+                        <lb/>parle en l'vne &amp; l'autre, pource qu'en luy est 
+                        <lb/>l'vne &amp; l'autre nature. Mais encore que ce soit 
+                        <lb/>vn mesme qui parle, il ne parle pas en mesme 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other"><foreign xml:lang="la">Ambros lib <lb/>2. de fide <lb/>cap. 4.</foreign></ref> 
+                        </note> maniere. Considerez en luy maintenant la gloire 
+                        <lb/>de Dieu, maintenant les passions de l'homme. 
+                        <lb/>Escoutez-le parlant tantost comme Dieu 
+                        <lb/>des choses qui sont Diuines, pource qu'il est la 
+                        <lb/>parole : tantost aussi comme homme parlant des 
+                        <lb/>choses qui sont humaines, pource qu'il parloit <pb n="47"/> 
+                        <lb/>en la substance de l'homme.</p> 
+                    <p n="61"> 
+                        <lb/>XVIII. Escoutez-le aussi, attribuant tantost 
+                        <lb/>à la nature humaine ce qui est propre à la nature 
+                        <lb/>diuine : Et reciproquement rapportant à la 
+                        <lb/>nature diuine ce qui ne conuient qu'à la nature 
+                        <lb/>humaine. Estant en terre il disoit à Nicodeme, 
+                        <lb/> 
+                        <quote source="bible188.xml#John.3.13"> 
+                            <hi rend="I">personne n'est monté au ciel, sinon celuy qui est 
+                                descendu</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#John.3.13"> 
+                                    <hi rend="I">Ieã</hi> 3. v. 13</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">du ciel, à sçauoir le Fils de l'homme qui est au 
+                                <lb/>ciel</hi> 
+                        </quote>, attribuãt au Fils de l'homme ce qui est propre 
+                        <lb/>au Fils de Dieu : pource que le Fils de Dieu 
+                        <lb/>qui est descendu du ciel, &amp; n'en a iamais bougé, 
+                        <lb/>est aussi Fils de l'homme. Semblablement 
+                        <lb/>l'Apostre escrit que <quote source="bible1588.xml#Acts.20.28"> 
+                            <hi rend="I">Dieu a acquis l'Eglise par son </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Acts.20.28"> 
+                                    <hi rend="I">Act</hi>. 20 v. 28</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">sang</hi> 
+                        </quote>, &amp; que les Iuifs ont <quote source="bible1588.xml#1_Cor.2.8"> 
+                            <hi rend="I">crucifié le Seigneur de gloire</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#_1Cor.2.8">1. <hi rend="I">Cor.</hi> 2. v. 8</ref> 
+                        </note> 
+                        <lb/>Et toute l'Eglise confesse au Symbole, que le 
+                        <lb/>Fils de Dieu est né de la Vierge Marie, qu'il a 
+                        <lb/>esté crucifié, mort, enseuely, est descendu aux 
+                        <lb/>enfers, &amp;c. pource que le Fils de l'homme à qui 
+                        <lb/>toutes ces choses sont aduenuës, est aussi Fils de 
+                        <lb/>Dieu, &amp; vray Dieu.</p> 
+                    <p n="62"> 
+                        <lb/>L'Escriture vous enseigne à faire ces distinctions 
+                        <lb/>touchant Christ : Parle-elle des proprietez 
+                        <lb/>d'iceluy ? Donne-elle à l'humanité celles de 
+                        <lb/>la diuinité, ou à la diuinité celles de l'humanité ? 
+                        <lb/>dites qu'elle ne parle ainsi qu'à cause de l'vnion 
+                        <lb/>personnelle : Car ailleurs elle s'expose fort clairement, 
+                        <lb/>rendant à chaque nature sa proprieté, 
+                        <lb/>&amp; disant que Christ a esté fait de la semence de 
+                        <lb/>Dauid <quote source="bible1588.xml#Rom.1.3"> 
+                            <hi rend="I">selon la chair</hi> 
+                        </quote>, &amp; a esté declaré Fils de <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Rom.1.3-4"> 
+                                <hi rend="I">Rom</hi>. 1. v. 3. 4</ref> 
+                        </note> 
+                        <lb/>Dieu en puissance <quote source="bible1588.xml#Rom.1.4"> 
+                            <hi rend="I">selon l'Esprit de sanctification</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: 
+                        <lb/>Item, <quote source="bible1588.xml#_1Pet.3.18"> 
+                            <hi rend="I">qu'il a esté mortifié en chair, mais viuifié par </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_1Pet.3.18">1. <hi rend="I">Pier.</hi> 3. v. 18</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">l'Esprit</hi> 
+                        </quote>, c'est à dire, qu'il est mort entant qu'hõme, 
+                        <lb/>&amp; s'est ressuscité par sa vertu diuine.</p> 
+                    <p n="63"> 
+                        <lb/>Voila la merueille de l'vnion personnelle, selon <pb n="48"/> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other">August. de <lb/>fide ad Petrum <lb/>c. 17</ref> 
+                        </note> laquelle le Fils ayant vny à la personne eternelle 
+                        <lb/>de sa diuinité la substance temporelle de la 
+                        <lb/>chair, n'a point perdu ce qu'il estoit, mais a commencé 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other">Idem de <lb/>Tempore <lb/>serm. 125</ref> 
+                        </note> d'estre ce qu'il n'estoit pas, afin qu'il soit 
+                        <lb/>parfait en ce qui est sien, &amp; vray en ce qui est du 
+                        <lb/>nostre. Car celuy qui estoit Dieu a esté fait homme, 
+                        <lb/>&amp; celuy qui est né homme, œuure comme 
+                        <lb/>Dieu : &amp; celuy qui œuure comme Dieu, est mort 
+                        <lb/>comme homme : &amp; celuy qui est mort comme 
+                        <lb/>homme, s'est ressuscité comme Dieu. Mais c'est 
+                        <lb/>comme Dieu &amp; homme ensemble, qu'il nous a 
+                        <lb/>merité grace &amp; gloire. Comme tel, il nous donne 
+                        <lb/>icy l'vne, &amp; nous donnera l'autre au ciel en 
+                        <lb/>son temps.</p> 
+                    <p n="64"> 
+                        <lb/>XIX. Ceste doctrine a diuers vsages, tant 
+                        <lb/>pour la refutation des erreurs de ce temps, que 
+                        <lb/>pour nostre instruction &amp; consolation. Et premierement 
+                        <lb/>elle est formelle contre les Docteurs 
+                        <lb/>des merites des hommes pecheurs, qui enseignent 
+                        <lb/>que Iesus-Christ nous a sauuez, entant 
+                        <lb/>qu'il a merité par sa mort que chacũ peust meriter 
+                        <lb/>à soy-mesme le salut par ses propres œuures : 
+                        <lb/>Ainsi à ce conte il ne seroit point nostre 
+                        <lb/>Iesus &amp; nostre Sauueur en soy-mesme, &amp; par 
+                        <lb/>soy-mesme, mais en nous &amp; par nous : Et le Pere 
+                        <lb/>n'auroit point <quote source="bible1588.xml#Col.1.20"> 
+                            <hi rend="I">reconcilié toutes choses à soy, ayãt 
+                                <lb/>fait la paix par le sang de la Croix d'iceluy</hi> 
+   
+                        </quote>, ainsi 
+                        <lb/>que nous verrons és exhortations suiuantes ; 
+                        <lb/>ains seulement l'auroit donné, afin qu'il nous 
+                        <lb/>donnast dequoy nous reconcilier nous mesmes, 
+                        <lb/>&amp; faire nostre propre paix. Ce qui renuerse tous 
+                        <lb/>les fondemens de la Religion Chrestienne : Car 
+                        <lb/>il n'estoit point necessaire qu'il se fist homme, 
+                        <lb/>qu'il fust mis sur la croix, que sur icelle il espandit <fw place="bot-right" type="catch">dit son</fw> 
+                         <pb n="49"/> 
+                        <lb/>son sang, &amp; subit la mort, à ce qu'il meritast 
+                        <lb/>pour nous que nous fussions nos propres Sauueurs, 
+                        <lb/>pouuant sans bouger du ciel nous donner 
+                        <lb/>la grace &amp; la vertu, par laquelle ces Docteurs 
+                        <lb/>enseignent que nos œuures sont renduës meritoires.</p> 
+                    <p n="65"> 
+                        <lb/>Au lieu que l'Escriture nous enseigne qu'il 
+                        <lb/>deuoit satisfaire pour nous à la Iustice de Dieu, 
+                        <lb/>comme <hi rend="I">plege de la nouuelle alliance</hi>, que pour ces 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Heb.7.22"> 
+                                <hi rend="I">Heb</hi>. 7. v. 22</ref> 
+                        </note> 
+                        <lb/>fins il faloit qu'il se fist homme de nostre nature, 
+                        <lb/>&amp; en nostre nature souffrist la mort : Qu'il faloit, 
+                        <lb/>dy-ie, que la vie mourust, afin que sa mort 
+                        <lb/>fust la mort de la mort, &amp; meritast la vie aux 
+                        <lb/>mourans. C'est pourquoy l'Escriture dit, <quote source="bible1588.xml#Heb.1.3"> 
+                            <hi rend="I">qu'il a fait </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Heb.1.3"> 
+                                    <hi rend="I">Heb.</hi> 1. v. 3.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">par soy-mesme la purgation de nos pechez</hi> 
+                        </quote>, &amp; non 
+                        <lb/>pas par nous : <quote source="bible1588.xml#Rom.6.23"> 
+                            <hi rend="I">Que le don de Dieu, c'est la vie </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Rom.6.23"> 
+                                    <hi rend="I">Rom.</hi> 6. v. 23</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">eternelle par Jesus-Christ nostre Seigneur</hi>, que, dy- 
+                            <lb/>ie, <hi rend="I">la vie eternelle est le don de Dieu</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: Doncques 
+                        <lb/>n'est pas le salaire de nos merites : Que ce don 
+                        <lb/>nous aduient <hi rend="I">par Iesus-Christ</hi>, &amp; non par nous. 
+                        <lb/>Et pource que les manieres de parler negatiues 
+                        <lb/>sont fort expresses, S. Pierre dit, <quote source="bible1588.xml#Acts.4.12"> 
+                            <hi rend="I">qu'il n'y a point</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Acts.4.12"> 
+                                    <hi rend="I">Act.</hi> 4. v. 12</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">de salut en aucun autre</hi> 
+                        </quote> qu'en Christ : d'où il 
+                        <lb/>s'ensuit qu'il n'y a point de salut en nous. Dequoy 
+                        <lb/>la raison est en la personne du Sauueur, 
+                        <lb/>qui seul a esté homme pour seruir, Dieu pour 
+                        <lb/>meriter : Homme pour combattre, &amp; Dieu pour 
+                        <lb/>vaincre : Homme pour mourir, &amp; Dieu pour 
+                        <lb/>donner la vie à ceux qui sont morts.</p> 
+                    <p n="66"> 
+                        <lb/>Que si le Fils de l'homme iuste &amp; sainct 
+                        <lb/>qu'il estoit, n'eust peu estre nostre Sauueur, s'il 
+                        <lb/>n'eust esté aussi Fils de Dieu, comment eust-il 
+                        <lb/>peu meriter que ceux qui ne sont que Fils des <pb n="50"/> 
+                        <lb/>hommes, tous pecheurs comme leurs peres, <hi rend="I">&amp;</hi> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#John.3.6"> 
+                                <hi rend="I">Iean</hi> 3. v. 6</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#John.3.6"> 
+                            <hi rend="I">chair de chair</hi> 
+                        </quote>, soient leurs propres Sauueurs ? 
+                        <lb/>Il a falu que le Sauueur, pour faire des œuures 
+                        <lb/>meritoires, fust Dieu, Autrement il n'eust peu 
+                        <lb/>estre Sauueur. Et donc ceux qui sont sauuez, 
+                        <lb/>ceux qui ne sont que creatures mortelles, ceux 
+                        <lb/>qui ne sont &amp; ne peuuent estre Dieux, peuuent- 
+                        <lb/>ils auoir d'autres merites que ceux de 
+                        <lb/>Dieu qui est leur Sauueur, qui seul a peu faire 
+                        <lb/>des œuures dignes de soy-mesme, &amp; d'vn prix 
+                        <lb/>infiny &amp; inestimable ? Parquoy que les idolatres 
+                        <lb/>se glorifient en eux-mesmes, &amp; sacrifient à 
+                        <lb/>leur propre filé, nous offrirons sacrifice de 
+                        <lb/>loüange à Dieu, &amp; chanterons auec celle qui 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Luke.1.46-47"> 
+                                <hi rend="I">Luc</hi> 1 <hi rend="I">v.</hi> 46 <lb/>47.</ref> 
+                        </note> est beniste entre les femmes, <quote source="bible1588.xml#Luke.1.46-47"> 
+                            <hi rend="I">Mon ame magnifie 
+                                <lb/>le Seigneur, &amp; mon esprit s'est esgayé en Dieu qui 
+                                <lb/>est mon Sauueur</hi> 
+                        </quote>.</p> 
+                    <p n="67"> 
+                        <lb/>XX. Secondement, à quiconque veut faire 
+                        <lb/>vne charge, deux choses sont necessairement 
+                        <lb/>requises, <hi rend="I">capacité &amp; authorité </hi>: car s'il a <hi rend="I">authorité</hi> 
+                        <lb/>sans <hi rend="I">capacité</hi>, il sera vne nourrice à la poictrine 
+                        <lb/>ridée sans laict. S'il <hi rend="I">a capacité </hi>sans <hi rend="I">authorité</hi>, il sera 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Gen.16.12"> 
+                                <hi rend="I">Gen.</hi> 16. v. 12.</ref> 
+                        </note> comme <quote source="bible1588.xml#Gen.16.12"> 
+                            <hi rend="I">Ismaël, homme asne sauuage </hi>: <hi rend="I">La main 
+                                <lb/>d'iceluy sera contre vn chacun : &amp; les mains d'vn 
+                                <lb/>chacun seront contre luy</hi></quote>. C'est pourquoy nostre 
+                        <lb/>Seigneur &amp; Sauueur Iesus-Christ a eu ces deux 
+                        <lb/>choses en soy. <hi rend="I">La capacité</hi>, pource que <hi rend="I">toute plenitude</hi> 
+                        <lb/>a habité en luy : <hi rend="I">L'authorité</hi>, pource que 
+                        <lb/> 
+                        <hi rend="I">le bon plaisir du Pere</hi> a esté de reconcilier par luy 
+                        <lb/>toutes choses à soy. Car tout ainsi que durant 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.5.4-5"> 
+                                <hi rend="I">Heb</hi>. 5. v. 4. 5</ref> 
+                        </note> la Sacrificature charnelle, <quote source="bible1588.xml#Heb.5.4-5"> 
+                            <hi rend="I">Nul ne s'attribuoit cet 
+                                <lb/>honneur, ains celuy en iouyssoit qui estoit appellé de 
+                                <lb/>Dieu, comme Aaron : </hi>P<hi rend="I">areillement außi</hi><seg type="interpolation">, 
+                                    dit l'Apostre,</seg> 
+                            <lb/> 
+                            <hi rend="I">Christ ne s'est point glorifié soy-mesme pour </hi> 
+                             <pb n="51"/> 
+                            <lb/> 
+                            <hi rend="I">estre fait souuerain Sacrificateur, mais celuy l'a glorifié, 
+                                <lb/>qui luy a dit, C'est toy qui es mon Fils, auiourd'huy 
+                                <lb/>ie t'ay engendré</hi> 
+                        </quote> 
+                        <hi rend="I"> </hi>: Ce qui estoit necessaire, 
+                        <lb/>tant à cause de luy, qu'à cause de nous : <hi rend="I">A cause 
+                            <lb/>de luy</hi>, afin qu'il peust faire la charge pour laquelle 
+                        <lb/>il estoit venu en bonne conscience, &amp; 
+                        <lb/>s'attendre à la benediction de Dieu sur son labeur, 
+                        <lb/>sçachant qu'il ne l'entreprenoit pas d'authorité 
+                        <lb/>priuée, mais par la volonté &amp; ordonnance 
+                        <lb/>de son Pere. <hi rend="I">A cause de nous</hi>, afin que recourans 
+                        <lb/>à luy pour cercher par luy paix auec 
+                        <lb/>Dieu, nous soyons asseurez que nous ne serons 
+                        <lb/>point frustrez de nostre esperance, ains trouuerons 
+                        <lb/>ce que nous cerchons, puis que 
+                            <hi rend="I">luy seul est 
+                                <lb/>entreuenu entre les pecheurs mortels, &amp; le iuste 
+                                immortel ;</hi> 
+                            <note type="margin"> 
+                                <ref type="other">Augustin. <lb/>Confession. <lb/>lib. 10. cap. <lb/>43.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">&amp; a esté mortel auec les hommes &amp; pour eux, 
+                                <lb/>&amp; iuste auec Dieu</hi>. Puis aussi que c'est luy 
+                        seul auquel 
+                        <lb/>ceste parole a esté adressée, <quote source="bible1588.xml#Isa.49.6"> 
+                            <hi rend="I">Je t'ay donné </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Isa.49.6"> 
+                                    <hi rend="I">Esa.</hi> 49. v. 6</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">pour lumiere aux nations, afin que tu sois mon salut 
+                                <lb/>iusques au bout de la terre</hi> 
+                        </quote> 
+                        <hi rend="I"> :</hi> Est seul appellé, &amp; 
+                        <lb/>seul est <quote source="bible1588.xml#Luke.2.30-31"> 
+                            <hi rend="I">salut de Dieu</hi>, le salut <hi rend="I">que Dieu a 
+                                preparé </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Luke.2.30-31"> 
+                                    <hi rend="I">Luc</hi> 2. <hi rend="I">v. </hi>30. <lb/>31.</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">deuant la face de tous les peuples</hi> 
+                            <!-- citation approximative--> 
+                        </quote> 
+                        <hi rend="I"> :</hi> Le salut qui 
+                        <lb/>a apporté le salut à tous peuples.</p> 
+                    <p n="68"> 
+                        <lb/>XXI. Que donc le Pape de Rome, ses Cardinaux, 
+                        <lb/>&amp; son Clergé confessent qu'ils ont temerairement 
+                        <lb/>&amp; sacrilegieusement leué le seau 
+                        <lb/>dont le grand Dieu a approuué son Fils, pour 
+                        <lb/>estre nostre seul &amp; vnique Sauueur, pour en 
+                        <lb/>seeller les Anges &amp; les hommes morts, afin d'en 
+                        <lb/>faire nos Mediateurs &amp; nos Sauueurs enuers 
+                        <lb/>Dieu : Comme ainsi soit qu'ils n'ont ny vocation 
+                        <lb/>de Dieu pour entreprendre vne si grande 
+                        <lb/>charge, ny capacité pour la faire : Les Anges, la 
+                        <lb/>Vierge Marie, les Apostres, les Martyrs, les <pb n="52"/> 
+                        <lb/>Saincts du Calendrier Romain sont-ils Dieux ? 
+                        <lb/> 
+                        <hi rend="I">La Vierge Marie</hi>, laquelle ils appellent <hi rend="I">la Porte 
+                            <lb/>de Paradis, le Port du salut, la Mere des misericordes, 
+                            <lb/>leur Esperance, leur Mediatrice</hi>, &amp; quoy non ? 
+                        <lb/>Et à laquelle ils adressent toutes les prieres que 
+                        <lb/>Dauid adresse à Dieu en ses Pseaumes, est-elle 
+                        <lb/>Dieu ? Posez le cas qu'estant au monde elle ait 
+                        <lb/>esté <hi rend="I">pleine de grace</hi>, comme ils la saluent en leur 
+                        <lb/> 
+                        <hi rend="I">Aué</hi>, au lieu que l'Ange luy dit, qu'elle auoit esté 
+                        <lb/> 
+                        <hi rend="I">receüe en grace </hi>: Cela ne suffit pas à ceste charge, 
+                        <lb/>laquelle ne compete qu'à Dieu. Les Apostres &amp; 
+                        <lb/>autres Saincts par les merites desquels ils inuoquent 
+                        <lb/>Dieu, ont-ils esté Dieux ? Tous tout autant 
+                        <lb/>qu'ils sont, n'ont-ils pas esté pecheurs, 
+                        <lb/>n'ont-ils pas esté sauuez par les merites du Fils 
+                        <lb/>de Dieu ? Car pour sauuer les hommes, non seulement 
+                        <lb/>il faut estre sans peché, comme sont les 
+                        <lb/>Anges esleuz, &amp; ce qu'homme quelconque n'a 
+                        <lb/>iamais esté, hormis vn seul : mais aussi il faut 
+                        <lb/>estre Dieu. Car il n'y a rien de si petit au salut, 
+                        <lb/>qui ne requiere vne vertu infinie, &amp; ne soit vne 
+                        <lb/>œuure diuine. Que si ceux-là qui ont esté esleuez 
+                        <lb/>en saincteté pardessus le reste des mortels, 
+                        <lb/>n'ont rien contribué, ny peu contribuer au merite 
+                        <lb/>du salut, comment nous persuaderont ces 
+                        <lb/>pauures abusez, qu'ils peuuent meriter le salut 
+                        <lb/>par leurs propres œuures ?</p> 
+                    <p n="69"> 
+                        <lb/>Mais quand bien il y auroit de la suffisance 
+                        <lb/>és Anges, és Saincts recueillis auec Dieu, 
+                        <lb/>és hommes combattans contre le peché &amp; 
+                        <lb/>les malices spirituelles au monde, pour meriter 
+                        <lb/>le salut, ie dy qu'ils ne pourroient entreprendre 
+                        <lb/>ceste charge sans vocation, sans mission, 
+                        <lb/>sans commission de la part de Dieu. Es <pb n="53"/> 
+                        <lb/>choses du monde nul n'entreprend aucune 
+                        <lb/>charge sans y estre appellé : Nul ne peut plaider 
+                        <lb/>deuant les Parlemens, les Presidiaux, les 
+                        <lb/>Senechaux, &amp; autres Iuges inferieurs, sans 
+                        <lb/>estre receu Aduocat, ou Postulant. Apres le 
+                        <lb/>retour de la captiuité de Babylone, ceux qui <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Ezra.2.61-62"> 
+                                <hi rend="I">Esdr.</hi> 2 <hi rend="I">v.</hi> 61. <lb/>62</ref> 
+                        </note> 
+                        <lb/>ne pouuoient monstrer leur genealogie escrite 
+                        <lb/>au registre, furent deboutez de la Sacrificature : 
+                        <lb/>Les Roys n'ont point d'Officiers, que 
+                        <lb/>ceux qu'ils ont eux-mesmes installez : Et nul 
+                        <lb/>ne iouït des priuileges de la bourgeoisie d'vne 
+                        <lb/>ville, que ceux qui sont enrollez en la 
+                        <lb/>matricule des bourgeois : Et encor auec quelle 
+                        <lb/>difficulté paruient-on à telles charges ? Et 
+                        <lb/>combien faut-il de ceremonies deuant que d'y 
+                        <lb/>estre admis ?</p> 
+                    <p n="70"> 
+                        <lb/>Y-a-il ordre és choses des hommes, n'y en 
+                        <lb/>aura-il point en celles de Dieu ? L'Apostre voulant 
+                        <lb/>prouuer l'excellence de Iesus-Christ par- 
+                        <lb/>dessus les Anges, argumente ainsi, <quote source="bible1588.xml#Heb.1.5"> 
+                            <hi rend="I">auquel des</hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Heb.1.5"> 
+                                    <hi rend="I">Heb</hi>. 1. <hi rend="I">v.</hi> 5</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">Anges Dieu a-il oncques dit, C'est toy qui es mon 
+                                <lb/>Fils, ie t'ay auiourd'huy engendré </hi></quote>? Remarquez 
+                        <lb/>La force de l'argument : Dieu n'a point dit 
+                        <lb/>aux Anges, <hi rend="I">Tu es mon Fils </hi>: Doncques pas 
+                        <lb/>vn d'eux n'est le Fils de Dieu : Il l'a dit à 
+                        <lb/>Christ : Doncques il l'est. Si cet argument est 
+                        <lb/>bon en vne chose importante à salut, il est 
+                        <lb/>bon en toutes : Et partant ceste raison est inexpugnable 
+                        <lb/>&amp; sans replique, Dieu n'a point dit 
+                        <lb/>aux Anges, ny aux Saincts, qu'ils sont nos 
+                        <lb/>Moyenneurs &amp; nos Sauueurs : doncques ils 
+                        <lb/>ne le sont point : Il a dit tout cela a Christ &amp; 
+                        <lb/>de Christ : doncques il l'est. <hi rend="I">S. Pierre</hi>, le Chef 
+                        <lb/>pretendu de l'Eglise Romaine argumente ainsi : <pb n="54"/> 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Acts.4.12"> 
+                                <hi rend="I">Act</hi>. 4. v. 12.</ref> 
+                        </note> 
+                        <quote source="bible1588.xml#Acts.4.12"> 
+                            <hi rend="I">Il n'y point</hi><seg type="interpolation">, dit-il,</seg> 
+                            <hi rend="I">de salut en aucun autre : Car außi 
+                                <lb/>n'y a-il point d'autre Nom sous le Ciel qui soit donné 
+                                <lb/>aux hommes, par lequel il vous faille estre 
+                            sauuez</hi></quote>. 
+                        <lb/>Pesez ces paroles : Il y a salut au Nom de Christ : 
+                        <lb/>Et pourquoy ? Pource que Dieu l'a dõné pour 
+                        <lb/>sauuer. Il n'y a point de salut en aucun autre 
+                        <lb/>Nom, pource que Dieu n'a point donné aucun 
+                        <lb/>autre Nom pour sauuer. Retenez ceste doctrine, 
+                        <lb/>vous qui croupissez dans les ordures de la 
+                        <lb/>Papauté, &amp; bannissez desormais de vos cœurs, 
+                        <lb/>de vos affectiõs, de votre creance ; bãnissez de 
+                        <lb/>vos bouches, de vos Letanies, de vos Liturgies, 
+                        <lb/>de vos prieres priuees les noms des Anges, des 
+                        <lb/>Martyrs, de tous autres saincts : Et puisque vous 
+                        <lb/>vous dites Chrestiẽs auec nous, retournez auec 
+                        <lb/>nous à Iesus-Christ, &amp; adherez à luy seul, asseurés 
+                        <lb/>de trouuer en luy le salut entier &amp; parfait, 
+                        <lb/>puis que Dieu l'a proposé &amp; appareillé en luy.</p> 
+                    <p n="71"> 
+                        <lb/>XXII. Et vous, mes tres-chers &amp; bien-aimés 
+                        <lb/>auditeurs, ramenteuez vous les choses que 
+                        <lb/>i'ay dites de la personne de nostre Iesus, en qui 
+                        <lb/>selon le bon plaisir du Pere toute plenitude a 
+                        <lb/>habité, &amp; habitera és siecles des siecles. Considerez 
+                        <lb/>quel rang l'homme tient entre toutes les 
+                        <lb/>creatures de Dieu. Les Anges sont excellens : 
+                        <lb/>Mais l'homme l'est encore plus. Car l'homme 
+                        <lb/>a esté si estroitement vni auec Dieu, que maintenant 
+                        <lb/>Dieu &amp; l'homme ne font qu'vne personne. 
+                        <lb/>Les Anges admirent ceste gloire en nostre 
+                        <lb/>nature : Et suiuant que Dieu en l'introduisant 
+                        <lb/>au monde auoit dit, <quote source="bible1588.xml#Heb.1.6"> 
+                            <hi rend="I">Et que tous les Anges de </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Ps.97.7"> 
+                                    <hi rend="I">Pseau</hi>. 97. v. <lb/>7.</ref> 
+                            </note> 
+                            <hi rend="I">Dieu l'adorent</hi> 
+                        </quote>, les Cherubins, les Seraphins, les 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Heb.1.6"> 
+                                <hi rend="I">Heb</hi>. 1. v. 6.</ref> 
+                        </note> Principautez, les Puissances, les Thrones, les 
+                        <lb/>Dominations adorent cest homme.</p> 
+                     <pb n="55"/> 
+                    <p n="72"> 
+                        <lb/>O amour admirable de Dieu enuers les hõmes ! 
+                        <lb/>l'homme auoit offensé Dieu, &amp; s'estoit 
+                        <lb/>esloigné de luy : Dieu s'est approché de l'homme, 
+                        <lb/>&amp; l'a fait vn auec soy : l'homme viuoit icy 
+                        <lb/>bas parmy l'ordure &amp; la pourriture en infirmité 
+                        <lb/>&amp; foiblesse, &amp; maintenant il est assis en haut à 
+                        <lb/>la dextre de Dieu en gloire &amp; en force. L'homme 
+                        <lb/>estoit mesprisé des hommes, tourmenté par 
+                        <lb/>les Diables, exposé aux iniures de toutes les creatures : 
+                        <lb/>Maintenãt il est adoré des Anges, craint 
+                        <lb/>des Diables, recognu &amp; serui de toutes creatures, 
+                        <lb/>qui ployent le genoil deuant luy, comme à 
+                        <lb/>leur maistre &amp; Seigneur. Pouuons-nous penser 
+                        <lb/>à ces choses tant merueilleuses, sans en estre 
+                        <lb/>rauis en admiration, sans recognoistre, sans confesser 
+                        <lb/>que c'est à bon droit que Dieu s'est appellé 
+                        <lb/> 
+                        <hi rend="I">Amateur des hommes </hi>? Car tout l'amour qu'il <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Titus.3.4"> 
+                                <hi rend="I">Tit</hi>. 3. v 4.</ref> 
+                        </note> 
+                        <lb/>porte aux autres creatures, celuy mesme duquel 
+                        <lb/>il embrasse les Anges esleus n'est rien en 
+                        <lb/>comparaison de cest amour.</p> 
+                    <p n="73"> 
+                        <lb/>XXIII. D'où pouuoit venir vn amour si ineffable ? 
+                        <lb/>D'où que <hi rend="I">de son bon plaisir </hi>? D'où que 
+                        <lb/>de sa pure grace ? L'homme pouuoit-il meriter 
+                        <lb/>d'estre vni à Dieu d'vn lien si estroit, qu'il a 
+                        <lb/>esté aussi tost Dieu qu'homme ? C'est par grace 
+                        <lb/>que le sainct Esprit l'a conceu, afin qu'il fust <hi rend="I">le 
+                            <lb/>Sainct des Saincts</hi>, ou plustost comme Daniel <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Dan.9.24"> 
+                                <hi rend="I">Dan</hi>. 9. v. <lb/>24.</ref> 
+                        </note> 
+                        <lb/>l'appelle, <hi rend="I">la Saincteté des Sainctetés</hi>. C'est par 
+                        <lb/>plus grande grace que Dieu a vni ce sainct à 
+                        <lb/>soy, &amp; l'a fait vne personne auec soy-mesme. 
+                        <lb/>Papistes, oserez-vous nier ceste grace ? Ne confesserez- 
+                        <lb/>vous point auec nous qu'elle est esmerueillable ?</p> 
+                    <p n="74"> 
+                        <lb/>Confessons donc aussi tout autant que nous <pb n="56"/> 
+                        <lb/>sommes, que le commencement, le milieu, la 
+                        <lb/><choice><sic>cõsommatiou</sic><corr resp="#RSL">cõsommation</corr></choice> de nostre salut, n'est autre chose 
+                        <lb/>qu'amour &amp; grace. Quel amour est cestuy-cy, 
+                        <lb/>que l'immortel soit venu aux mortels, l'immuable 
+                        <lb/>aux muables, le iuste aux meschans, le bien- 
+                        <lb/>heureux aux miserables, Dieu luy-mesme aux 
+                        <lb/>hommes ? Quelle grace est ceste-cy, que le Fils 
+                        <lb/>de l'homme a esté fait Fils de Dieu, le serf a esté 
+                        <lb/>fait Seigneur, le mortel a esté fait immortel, le 
+                        <lb/>fini <choice><sic>iufini</sic><corr resp="#RSL">infini</corr></choice> ? Tout cela luy est-il aduenu pour 
+                        <lb/>luy ? Tout le fruict, tout l'vsage n'en est-il pas 
+                        <lb/>nostre ? Le Seigneur a esté fait serf, afin que 
+                        <lb/>nous qui sommes serfs soyons faits Seigneurs : 
+                        <lb/>La vie a subi la mort, afin que nous qui auons 
+                        <lb/>merité la mort eussions la vie. Et, comme a dit 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="other">August. En<surplus reason="mistake">.</surplus>chirid. <lb/>16.</ref> 
+                        </note> vn Pere, Christ a esté fait homme sans peché 
+                        <lb/>par grace, afin que nous sçachions que c'est par 
+                        <lb/>grace que nous sommes iustifiés de nos pechés. 
+                        <lb/>Si tout ce qui est en Christ homme est grace, 
+                        <lb/>nous qui ne sõmes que pauures &amp; chetifs vermisseaux 
+                        <lb/>pouuons-nous auoir aucun aduantage, 
+                        <lb/>aucune gloire qui soit autre chose que grace ? 
+                        <lb/> 
+                        <note type="margin"> 
+                            <ref type="bible" target="bibleSegond21.xml#Eph.2.8"> 
+                                <hi rend="I">Eph.</hi> 2. v. 8.</ref> 
+                        </note> Arriere Papistes auec vos merites : <quote source="bible1588.xml#Eph.2.8"> 
+                            <hi rend="I">Car nous 
+                                <lb/>sommes sauuez par grace</hi></quote>. 
+                    </p> 
+                    <p n="75"> 
+                        <lb/>XXIV. Adorons &amp; aimons cest amour 
+                        <lb/>d'vn cœur si entier, d'vn amour si vray &amp; cordial, 
+                        <lb/>que nous puissions sentir en nos cœurs, 
+                        <lb/>protester de nos bouches auec S. Paul, que <quote source="bible1588.xml#_2Cor.5.14"> 
+                            <hi rend="I">la </hi> 
+                            <lb/> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#_2Cor.5.14">2. <hi rend="I">Cor</hi>. 5. v. <lb/>14.</ref> 
+                            </note> 
+                            <hi rend="I">charité de Christ nous estreint</hi></quote>. Rendons de cœur 
+                        <lb/>&amp; de bouche graces au Pere, qui par grace a 
+                        <lb/>voulu que son Fils fust faict homme, &amp; que 
+                        <lb/>toute plenitude habitast en luy ; au Fils qui a daigné 
+                        <lb/>par vne grace incomprehensible prendre 
+                        <lb/>cest homme, &amp; l'a reuestu de tant de graces : Et <fw place="bot-right" type="catch">encore</fw> 
+                         <pb n="57"/> 
+                        <lb/>encore benissons le Pere qui par le Fils nous a 
+                        <lb/>fait vne si grãde grace, qu'il l'a fait homme pour 
+                        <lb/>nous. Le Fils qui s'est vni à nous pour nous acquerir 
+                        <lb/>la grace de son Pere. Le sainct Esprit qui 
+                        <lb/>est la dilection du Pere &amp; du Fils, &amp; qui espand 
+                        <lb/>la dilection du Pere &amp; du Fils, &amp; seelle ceste 
+                        <lb/>grace inestimable en nos cœurs. Que cest 
+                        <lb/>amour, que ceste grace soit nostre meditation 
+                        <lb/>en nos cabinets, nostre discours en nos maisons, 
+                        <lb/>en la ville, aux champs ; nostre ioye en nos passetemps, 
+                        <lb/>nostre appuy en nos tentations, nostre argument 
+                        <lb/>en nos prieres, le sujet &amp; la matiere de 
+                        <lb/>toutes nos actions de graces. Nous auons commencé 
+                        <lb/>&amp; poursuiui ce discours par la descriptiõ 
+                        <lb/>des admirables effects de cest amour, de ceste 
+                        <lb/>grace admirable<supplied resp="#RSL" reason="omission">.</supplied> Et pource qu'il n'y a lãgue des 
+                        <lb/>Anges, non plus que des hommes qui le puisse 
+                        <lb/>acheuer, rompons le à l'exemple de l'Apostre, 
+                        <lb/>en esleuant nos voix au Ciel, &amp; crians tous ensemble 
+                        <lb/>&amp; chacun à part soy d'vn mesme cœur, 
+                        <lb/>&amp; comme si nous n'estions qu'vne bouche, <quote source="bible1588.xml#Rom.7.25"> 
+                            <hi rend="I">Ie </hi> 
+                            <note type="margin"> 
+                                <ref type="bible" target="bibleSegond21.xml#Rom.7.25"> 
+                                    <hi rend="I">Rom</hi>. 7. v. 25</ref> 
+                            </note> 
+                            <lb/> 
+                            <hi rend="I">ren graces à Dieu par Jesus-Christ nostre Seigneur. 
+                                <lb/>Amen</hi></quote>. 
+                         
+                    </p> 
+                </div> 
+            </div> 
+        </body> 
+    </text> 
+</TEI>

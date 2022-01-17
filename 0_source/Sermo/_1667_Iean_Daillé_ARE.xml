@@ -1,0 +1,1896 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1667_Iean_Daillé_ARE">
+            <titleStmt>
+                <title type="sermon">SERMON PREMIER. I. COR. X. 1.2.3.4.5.</title>
+                <title type="book">XXI SERMONS DE IEAN DAILLE, SVR Le X Chapitre de la I EPITRË de
+                    S. PAVL aux Corinthiens. Prononcez à CHARENTON, l’an 1664, 1665, 1666. A GENEVE,
+                    Pour Iean Ant. &amp; Samuel De Tournes. M. DC. LXVII.</title>
+                <author ref="...">Jean Daillé</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="ARE">Aurélie REUSSER-ELZINGRE</persName>
+                        <email>aurelie.elzingre@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Jean Daillé</author>
+                        <title>XXI SERMONS DE IEAN DAILLE, SVR Le X Chapitre de la I EPITRË de S.
+                            PAVL aux Corinthiens. Prononcez à CHARENTON, l’an 1664, 1665, 1666.</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Jean Ant. &amp; Samuel de Tournes</publisher>
+                            <date>1667</date>
+                            <date type="sermon">1664</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">https://books.google.ch/books?id=zOQUAAAAQAAJ</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">21</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">1Cor.10.1-5</term>
+                    <term type="paratext" subtype="epistle">A MADAME LA MARQVISE DE LA MOVSSAYE.</term>
+                    <term type="paratext" subtype="other">Errata.</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+                <language ident="el">grec moderne</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-06-30" who="#LjD">transformation word - XML</change>
+            <change when="2016-06-30" who="#MAG">Verification, citations</change>
+            <change when="2016-06-09" who="#ARE">Transcription word</change>
+            <change when="2016-08-30" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>XXI
+                    <lb/>SERMONS
+                    <lb/>
+                    <hi rend="I">DE</hi>
+                    <lb/>IEAN DAILLE,
+                    <lb/>
+                    <hi rend="I">SVR</hi>
+                    <lb/>LE X Chapitre de la I EPITRË de
+                    <lb/>S. PAVL aux Corinthiens.
+                    <lb/>
+                    <hi rend="I">Prononcez à</hi> CHARENTON, <hi rend="I">l'an
+                        <lb/>1664, 1665, 1666.</hi>
+                    <figure/>
+                    <lb/>
+                    <lb/>A GENEVE,
+                    <lb/>Pour Iean Ant. &amp; Samuel de Tournes. <!--ligne horizontale-->
+                    <lb/>
+                    <lb/>M.DC.LXVII. </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <!--ligne horizontale décorée-->
+                <head type="main">
+                    <lb/>
+                    <hi rend="I">SERMON PREMIER<ref target="#mn_1_1" type="noteAnchor">*</ref></hi>
+                    <note xml:id="mn_1_1" type="margin" n="*"><hi rend="I">Prononcé <lb/>le <lb/>Dimanche <lb/>3. <lb/>jour <lb/>d'Aoust <lb/>1664. a
+                            <lb/>Charenton.</hi>
+                    </note>
+                    <lb/>I. COR. X. 1.2.3.4.5.</head>
+                <p n="1">
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.1">I. <hi rend="I">Or Freres, je ne veux pas que vous
+                            <lb/>ignoriez, que nos Peres ont tous été sous la
+                            <lb/>nuée, &amp; ont tous passé par la mer</hi>
+                    </quote>,
+                </p>
+                <p n="2">
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.2">2. <hi rend="I">Et ont tous été battisez</hi>
+                        <hi rend="I"> en Moïse en la
+                            <lb/>nuée &amp; en la mer</hi>
+                    </quote>,
+                </p>
+                <p n="3">
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.3">3. <hi rend="I">Et ont tous mangé d'une mesme viande
+                            <lb/>spirituelle</hi>
+                    </quote>.
+                </p>
+                <p n="4">
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.4">4. <hi rend="I">Et ont tous beu d'un mesme breuvage
+                            <lb/>spirituel </hi>;<hi rend="I"> Car ils beuvoyent de la pierre
+                            spirituelle,
+                            <lb/>qui les suivoit &amp; la pierre étoit
+                            <lb/>Christ</hi>
+                    </quote>.
+                </p>
+                <p n="5">
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.5">5. <hi rend="I">Mais Dieu n'a point pris plaisir en
+                            plusieurs
+                        <lb/>d'entr'eux. Car ils ont été accablez<ref target="#mn_1_2" type="noteAnchor">*</ref> </hi>
+                        <note xml:id="mn_1_2" type="margin" n="*">abbatus</note>
+                        <lb/>
+                        <hi rend="I">dans le desert</hi>
+                    </quote>.
+                </p>
+                <p n="6">
+                    <lb/>
+                    <c type="lettrine">C</c>HERS FRERES ;
+                    <lb/>Nous lisons dans l'Evangile qu'vn <fw place="bot-right" type="catch">jeu-</fw>
+                    <pb n="2"/>
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Matt.19.21-22">
+                            <hi rend="I">Math. <lb/>19.21.22.</hi>
+                        </ref>
+                    </note>jeune homme ayant entendu le
+                    <lb/>commandement, que luy fit le Seigneur de
+                    <lb/>vendre tous ses biens &amp; de les distribuer
+                    <lb/>aux pauvres, &amp; de le suivre pour
+                    <lb/>avoir la vie eternelle, s'en alla tout triste ;
+                    <lb/>parce dit l'Ecriture, qu'il avoit de
+                    <lb/>grands biens. Son aveuglement fut extréme
+                    <lb/>d'avoir preferé la joüissance temporelle
+                    <lb/>d'une chose caduque &amp; perissable
+                    <lb/>a la compagnie du Fils de Dieu &amp; a la
+                    <lb/>vie eternelle. Mais il eut pourtant
+                    <lb/>assez de jugement pour reconnoistre,
+                    <lb/>qu'il ne faut rien attendre de Iesus
+                    <lb/>Christ, si l'on n'obeït a ses ordres, &amp;
+                    <lb/>si l'on ne se conforme à sa discipline.
+                    <lb/>C'est pourquoy il se retira ; triste de ne
+                    <lb/>pouvoir estre riche &amp; Chrétien tout
+                    <lb/>ensemble ; mais aprés tout aymant
+                    <lb/>mieux avoir ses biens sans le salut, que
+                    <lb/>le salut sans ses biens. Nous condamnons
+                    <lb/>tous la foiblesse &amp; la lascheté de
+                    <lb/>ce jeune homme, &amp; nous avons raison ;
+                    <lb/>Et cependant je ne sçay si l'on ne peut
+                    <lb/>pas dire avecque verité, que nous sommes
+                    <lb/>la pluspart dans vne erreur aussi
+                    <lb/>pernicieuse, mais beaucoup plus impudente,
+                    <lb/>que n'estoit la sienne. Iesus Christ
+                    <lb/>nous commande si nous voulons vivre <fw place="bot-right" type="catch">avec-</fw>
+                    <pb n="3"/>
+                    <lb/>avecque luy de nous défaire de nos vices,
+                    <lb/>a l'vn de son animosité &amp; de sa haine ;
+                    <lb/>a l'autre de sa vanité &amp; de son luxe,
+                    <lb/>a l'vn de ses larcins &amp; de ses rapines ; a
+                    <lb/>l'autre de sa médisance , a l'vn de son
+                    <lb/>yvrognerie, &amp; a l'autre de ses sales &amp; illegitimes
+                    <lb/>plaisirs. Combien peu y en
+                    <lb/>a-t-il qui obeïssent a cette parole du
+                    <lb/>Seigneur ? qui ne retiennent la passion
+                    <lb/>qu'il leur defend ? Iusques là nôtre faute
+                    <lb/>est égale a celle de ce jeune homme.
+                    <lb/>Ny luy ny nous ne faisons pas ce que le
+                    <lb/>Seigneur nous ordonne ; Mais il me
+                    <lb/>semble que pour le reste, sa faute fut
+                    <lb/>moindre que n'est pas la nôtre : Car au
+                    <lb/>lieu qu'il se retira, &amp; eut assez de modestie
+                    <lb/>pour ne pas s'attacher à vn Maistre,
+                    <lb/>a qui il ne pouvoit se resoudre d'obeïr,
+                    <lb/>nous avons si peu de pudeur, que nous
+                    <lb/>nous vantons de suivre Iesus Christ &amp;
+                    <lb/>de demeurer en sa compagnie,en faisant
+                    <lb/>sous ses yeux &amp; dans sa maison tout le
+                    <lb/>contraire de ce qu'il nous commande.
+                    <lb/>Il vaudroit mieux &amp; pour sa gloire &amp;
+                    <lb/>pour nôtre interest, que nous pechassions
+                    <lb/>hors de sa communion ; parce que
+                    <lb/>la profession que nous faisons,deshonore
+                    <lb/>son nom, &amp; aggravera nos peines. <fw place="bot-right" type="catch">Mais</fw>
+                    <pb n="4"/>
+                    <lb/>Mais comme la passion que nous avons
+                    <lb/>pour nos vices, est ingenieuse a nôtre
+                    <lb/>malheur, elle nous flatte d'une vaine esperance
+                    <lb/>d'impunité ; nous inspirant cette
+                    <lb/>fausse pensée , que le Seigneur est
+                    <lb/>trop bon pour perdre des personnes,
+                    <lb/>qui quelque desordre qu'il y ayt dans
+                    <lb/>leur vie, portent néantmoins avecque
+                    <lb/>tout cela les livrées de sa maison &amp; les
+                    <lb/>marques de son alliance, &amp; ont receu
+                    <lb/>en leur personne le seau de la plus grande
+                    <lb/>grace,qu'il ayt jamais faite aux hommes.
+                    <lb/>C'est cette trompeuse imagination,
+                    <lb/>que l'Apôtre combat dans le texte, que
+                    <lb/>nous venons de vous lire. Dans la fin du
+                    <lb/>chapitre précedent, il avoit montré aux
+                    <lb/>Corinthiens par son exemple la diligence
+                    <lb/>&amp; la solicitude, dont il nous faut vser
+                    <lb/>dans la conduite de nôtre vie pour obtenir
+                    <lb/>du Seigneur la couronne, a laquelle
+                    <lb/>nous aspirons ; avec quelle force &amp;
+                    <lb/>quelle constance il faut renoncer a nos
+                    <lb/>inclinations, a nos commoditez &amp; a
+                    <lb/>nos plaisirs pour garder religieusement
+                    <lb/>la discipline de l'Evangile, sans jamais
+                    <lb/>manquer pour quelque raison que ce
+                    <lb/>soit, a aucun des legitimes devoirs de la
+                    <lb/>sainteté, qu'elle nous prescrit. Maintenant <fw place="bot-right" type="catch">nant</fw>
+                    <pb n="5"/>
+                    <lb/>pour arracher du cœur de ces
+                    <lb/>Chrétiens tous les vains pretextes, que
+                    <lb/>la chair pourroit leur suggerer pour
+                    <lb/>relascher en eux l'étude de cette réelle
+                    <lb/>&amp; evangelique sanctification , il leur
+                    <lb/>montre, que rien ne les en peut dispenser,
+                    <lb/>Et parce qu'ils avoyent embrassé le
+                    <lb/>Christianisme avecque joye, la doctrine
+                    <lb/>du Seigneur se preschant &amp; ses Sacremens
+                    <lb/>s'administrant au milieu d'eux,
+                    <lb/>&amp; la connoissance de ses mysteres y
+                    <lb/>fleurissant , accompagnée de diverses
+                    <lb/>graces extraordinaires ; afin que ces signes
+                    <lb/>&amp; ces ornemens exterieurs ne leur
+                    <lb/>donnassent de la presomption , leur
+                    <lb/>faisant negliger le principal, il leur presente
+                    <lb/>dés l'entrée l'exemple des anciens
+                    <lb/>Israëlites, qui ayant aussi receu de precieux
+                    <lb/>&amp; illustres témoignages de l'amour
+                    <lb/>de Dieu ne laisserent pas avecque
+                    <lb/>tout cela d'éprouver la juste rigueur de
+                    <lb/>ses jugemens, pour avoir abusé de ses faveurs
+                    <lb/>par vne extréme ingratitude.Cét
+                    <lb/>exemple doit avoir d'autant plus de force
+                    <lb/>sur nous, que l'alliance faite avec cét
+                    <lb/>ancien peuple étoit la figure de la nouvelle,
+                    <lb/>sous laquelle nous vivons,comme
+                    <lb/>l'Apôtre nous l'a dit expressement.Dieu <fw place="bot-right" type="catch">y avoit</fw>
+                    <pb n="6"/>
+                    <lb/>y avoit representé, de bonne heure le
+                    <lb/>dessein, la condition &amp; les qualitez de
+                    <lb/>Iesus Christ &amp; de son Eglise ; si bien
+                    <lb/>que nous en devons regarder l'histoire,
+                    <lb/>comme vne chose, qui nous appartient ;
+                    <lb/>&amp; fait état que c'est pour nous qu'elle a
+                    <lb/>été écrite &amp; conservée jusques a nous.
+                    <lb/>L'Apôtre donc nous met premierement
+                    <lb/>devant les yeux, dans les quatre premiers
+                    <lb/>versets quelques vns des principaux
+                    <lb/>&amp; plus illustres avantages , dont
+                    <lb/>Dieu avoit autresfois favorisé les Israëlites ;
+                    <lb/>leur baptesme en Moïse dans la
+                    <lb/>mer rouge, &amp; sous la nuë, &amp; leur nourriture
+                    <lb/>dans le desert par le moyen de la
+                    <lb/>manne, qui leur pleuvoit du Ciel, &amp; de
+                    <lb/>l'eau dont vn rocher ouvert par la verge
+                    <lb/>de Moïse, consoloit les secheresses de
+                    <lb/>ces lieux vastes &amp; solitaires,où ils voyageoyent.
+                    <lb/>Puis il nous represente dans
+                    <lb/>le verset cinquiesme que nonobstant
+                    <lb/>toutes ces grandes &amp; admirables prerogatives ,
+                    <lb/>Dieu n'eut point de complaisance
+                    <lb/>pour laisser impunis ceux d'entr'eux,
+                    <lb/>qui méconnurent ses bontez, &amp;
+                    <lb/>violerent son alliance ; <quote source="bible1588.xml#_1Cor.10.5">
+                        <hi rend="I">Mais Dieu </hi><seg type="interpolation">( dit<hi rend="I"> </hi>
+                            <lb/>l'Apôtre <hi rend="I">)</hi></seg>
+                        <hi rend="I"> n'a point pris plaisir en plusieurs
+                            <lb/>d'entr'eux</hi>
+                        .<hi rend="I"> Car ils ont été abbatus ou accablez</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">blez</hi>
+                        </fw>
+                        <pb n="7"/>
+                        <lb/>
+                        <hi rend="I">dans le desert</hi></quote>. Nous traiterons s'il
+                    <lb/>plaist au Seigneur, le plus clairement &amp;
+                    <lb/>le plus briévement, qu'il nous sera possible,
+                    <lb/>ces deux parties dans nôtre action,
+                    <lb/>les avantages des anciens Israëlites ;
+                    <lb/>puis la colere &amp; la vangeance de Dieu
+                    <lb/>sur ceux d'entr'eux, qui abuserent de ses
+                    <lb/>graces. Pour la premiere partie, l'Apôtre
+                    <lb/>la commence ainsi, <quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">Freres</hi>, <seg type="interpolation">dit-il,</seg>
+                        <hi rend="I">je
+                            <lb/>ne veux pas, que vous ignoriez que nos Peres
+                            <lb/>ont tous été sous la nuée, &amp; ont tous passé
+                            <lb/>par la mer</hi></quote>. Il entend, qu'ils doivent se
+                    <lb/>ressouvenir de cette histoire ; la remarquer,
+                    <lb/>&amp; y faire les reflexions qu'il leur
+                    <lb/>va representer. Car elle est si connuë
+                    <lb/>dans l'Eglise, qu'il y a peu d'apparence
+                    <lb/>qu'aucũ des fideles de Corinthe l'ignorast. 
+                    <lb/>Mais l'Apôtre prend quelque fois
+                    <lb/>le mot de <hi rend="I">sçavoir</hi>, pour dire se remettre
+                    <lb/>dans l'esprit ce que l'on sçait desja, le
+                    <lb/>considerer pour en vser, &amp; pour en tirer
+                    <lb/>quelque fruit spirituel a nôtre edification ;
+                    <lb/>comme quand il dit aux Romains,
+                    <lb/>
+                    <quote source="bible1588.xml#Rom.6.3">
+                        <hi rend="I">Ne sçavez vous pas , que , nous tous, qui avons </hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Rom.6.3">
+                                <hi rend="I">Rom. </hi>6. 3.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">été baptisez en Iesus Christ, avons été
+                            <lb/>baptisez en sa mort</hi></quote> <hi rend="I">?</hi>
+                     Il veut dire, que de
+                    <lb/>ce principe , qu'ils sçavoyent, ils devoyent,
+                    <lb/>conclure ce qui s'en ensuit <fw place="bot-right" type="catch">evi-</fw>
+                    <pb n="8"/>
+                    <lb/>evidemment que par le baptesme nous
+                    <lb/>sommes morts au vice, &amp; a ses convoitises,
+                    <lb/>pour cheminer desormais en nouveauté
+                    <lb/>de vie ; bien loin de nous imaginer,
+                    <lb/>comme faisoyent quelques profanes,
+                    <lb/>que nous devions demeurer dans le
+                    <lb/>peché. Icy pareillement, il ne veut pas
+                    <lb/>que les Corinthiens ignorent ; il veut
+                    <lb/>qu'ils sçachent, &amp; qu'ils meditent cette
+                    <lb/>histoire de l'ancien peuple ; pour en tirer
+                    <lb/>la leçon, qu'il leur va donner, que
+                    <lb/>toutes les faveurs &amp; gratifications qu'ils
+                    <lb/>ont receuës de Dieu, ne pourront s'ils
+                    <lb/>en abusent, les exempter de sa juste colere,
+                    <lb/>&amp; des peines que merite un si grand
+                    <lb/>crime. D'où vous voyez, pour vous le
+                    <lb/>dire en passant, combien sont éloignez
+                    <lb/>de l'esprit de S. Paul , premierement
+                    <lb/>certains heretiques anciens, qui rejettoyent
+                    <lb/>toute l'Ecriture du vieux Testament ;
+                    <lb/>&amp; secondement ceux qui defendent
+                    <lb/>au peuple Chrétien la lecture des
+                    <lb/>livres divins, L'Apôtre tout au contraire,
+                    <lb/>bien loin de nous arracher des mains
+                    <lb/>les Ecritures du nouveau Testament,ne
+                    <lb/>veut pas que nous ignorions celles de
+                    <lb/>l'ancien ; Il veut que nous les considerions
+                    <lb/>exactement, &amp; comme nôtre Seigneur <fw place="bot-right" type="catch">gneur</fw>
+                    <pb n="9"/>
+                    <lb/>nous l'avoit expressément commandé,
+                    <lb/>que <quote source="bibleSegond21.xml#John.5.39">
+                        <hi rend="I">nous les sondions</hi>
+                    </quote>, pour y découvrir
+                    <lb/>les salutaires leçons , que le S. Esprit
+                    <lb/>y a semées ; ce qui ne se peut faire
+                    <lb/>sans les lire &amp; relire plusieurs fois
+                    <lb/>avec soin. Pour nous recommander ce
+                    <lb/>devoir, il appelle les anciens Israëlites
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">nos Peres</hi>
+                    </quote> ; parce que les enfans sont naturellement
+                    <lb/>curieux de sçavoir l'histoire
+                    <lb/>de leurs ancestres, &amp; d'étudier avec
+                    <lb/>affection &amp; avecque plaisir les écrits qui
+                    <lb/>la racontent. Mais j'estime, qu'il leur
+                    <lb/>a aussi donné ce nom pour fortifier la
+                    <lb/>raison qu'il employe icy, nous avertissant
+                    <lb/>par ce mot,qu'il l'a tirée d'un exemple
+                    <lb/>non étranger , mais domestique.
+                    <lb/>Car je ne puis gouter l'exposition de
+                    <lb/>ceux,qui rapportent ce nom a la personne
+                    <lb/>de Saint Paul &amp; a celles de quelque <note type="margin">
+                        <ref type="other">
+                            <hi rend="I">Estius</hi>
+                        </ref>
+                        <lb/><hi rend="I"> sur ce <lb/>lieu</hi>
+                    </note>
+                    <lb/>peu de Iuifs , qui pouvoyent selon leur
+                    <lb/>conjecture se treuver meslez dans l'Eglise
+                    <lb/>de Corinthe. Si l'Apôtre eust eu
+                    <lb/>cette pensée, qui l'empeschoit de l'exprimer
+                    <lb/>nettement,en disant simplement
+                    <lb/> <hi rend="I">les Peres des Ebreux</hi>
+                     , ou les 
+                        <hi rend="I">anciens Israëlites</hi>
+                       ,
+                    <lb/>ou mes Peres,ou quelque autre chose
+                    <lb/>semblable ? Et quant aux Iuifs de
+                    <lb/>Corinthe à l'égard desquels on pretend, <fw place="bot-right" type="catch">que</fw>
+                    <pb n="10"/>
+                    <lb/>que S. Paul les ayt appellez <quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">nos Peres</hi>
+                    </quote>
+                    <lb/>&amp; non 
+                        <hi rend="I">mes Peres</hi>
+                      simplement, I'avouë
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.18.8">
+                            <hi rend="I">Act.</hi> I8. <lb/>8.</ref>
+                    </note> qu'il y a grand' apparence par les choses
+                    <lb/>que S. Luc raconte dans le livre des
+                    <lb/>Actes, que des Iuifs qui habitoyent a
+                    <lb/>Corinthe &amp; qui y avoyent mesme vne
+                    <lb/>Synagogue, quelques vns se fussent convertis
+                    <lb/>a Iesus Christ , aussi bien que
+                    <lb/>Crispe, le principal d'entr'eux ; Mais
+                    <lb/>asseurement le nombre en étoit fort
+                    <lb/>petit, comme il paroist par la furieuse
+                    <lb/>resistance, que leur corps entier y fit
+                    <lb/>a la predication de S. Paul, comme S. Luc
+                    <lb/>le décrit dans le mesme lieu. Ainsi
+                    <lb/>l'Eglise de Corinthe, qui estoit grosse &amp;
+                    <lb/>populeuse, consistoit toute en familles
+                    <lb/>&amp; en personnes Payennes de naissance.
+                    <lb/>L'Apôtre parlant donc a eux tous,comme
+                    <lb/>il fait, &amp; non a ce peu de Iuifs seulement,
+                    <lb/>qui étoyent clair semez dans cette
+                    <lb/>grande multitude de Gentils convertis
+                    <lb/>a la foy, il me semble qu'il n'y a point
+                    <lb/>de raison de s'imaginer , qu'en disant
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">nos Peres</hi>
+                    </quote>, il entende que les Israëlites
+                    <lb/>dont il parle soyent les 
+                        <hi rend="I">Peres</hi>
+                    , non de
+                    <lb/>tous les fideles a qui il addresse son discours
+                    <lb/>mais de sept ou huit d'entr'eux
+                    <lb/>seulement, &amp; je ne pense pas qu'en tous <fw place="bot-right" type="catch">les</fw>
+                    <pb n="11"/>
+                    <lb/>les écrits divins &amp; humains, il se puisse
+                    <lb/>treuver,dans vne rencontre pareille,vne
+                    <lb/>expression comme celle-cy, employée
+                    <lb/>au sens que l'on attribue a ces paroles
+                    <lb/>de l'Apôtre. Confessons donc, qu'il entend
+                    <lb/>que ces anciens Israëlites, dont il
+                    <lb/>rapporte icy l'histoire, étoyent les Peres,
+                    <lb/>non de ceux de sa nation seulement,
+                    <lb/>mais de tous les fideles de Corinthe,
+                    <lb/>de quelque naissance qu'ils fussent selon
+                    <lb/>la chair ; &amp; non seulement d'eux, mais
+                    <lb/>encore generalement de tous les Chrétiens,
+                    <lb/>en quelque lieu &amp; en quelque siecle,
+                    <lb/>qu'ils vivent. Souvenez vous de l'olivier
+                    <lb/>franc , dans lequel S. Paul nous
+                    <lb/>enseigne ailleurs, que nous avons été
+                    <lb/>entez par la foy de l'Evangile de Iesus <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rom.2.17">
+                            <hi rend="I">Rom. II</hi>. <lb/>17.</ref>
+                    </note>
+                    <lb/>Christ, &amp; il vous sera aisé de comprendre,
+                    <lb/>que de quelque peuple que nous
+                    <lb/>soyons venus &amp; de quelque terroir, que
+                    <lb/>nous ayons été tirez , nous sommes tous
+                    <lb/>enfans d'Abraham,&amp; des autres Patriarches,
+                    <lb/>&amp; en un mot d'Israel,où la semence
+                    <lb/>de la foy d'Abraham se conserva.
+                    <lb/>Car cet olivier mystique n'est autre
+                    <lb/>chose, que l'ancien Israël. S'il en a été
+                    <lb/>coupé quelques branches,ou autresfois,
+                    <lb/>ou depuis en la plenitude des temps, <fw place="bot-right" type="catch">tant</fw>
+                    <pb n="12"/>
+                    <lb/>tant y a que c'est comme dit l'Apôtre,
+                    <lb/>la racine, &amp; la tige de cet arbre, qui
+                    <lb/>nous porte. La racine &amp; la tige dans
+                    <lb/>vn arbre est la mesme chose que dans
+                    <lb/>vne genealogie les Patriarches , &amp; le
+                    <lb/>corps de la famille ou de la nation , qui
+                    <lb/>en sort. Puis qu'Abraham est nôtre
+                    <lb/>racine, &amp; que le peuple descendu de
+                    <lb/>luy est nôtre tige, asseurement ils sont
+                    <lb/>nos Peres , &amp; nous sommes leurs enfans.
+                    <lb/>Leur Abraham est le Pere de tous
+                    <lb/>ceux qui croyent, soit dans la circoncision,
+                    <lb/>soit dans le prepuce;&amp; leur Sion est
+                    <lb/>nôtre mere , &amp; nous mesmes portons
+                    <lb/>tous leur nom,étãt appellez dans l'Ecriture
+                    <lb/>
+                    <quote source="bible1588.xml#Gal.6.16">
+                        <hi rend="I">L'Israël de Dieu</hi>
+                    </quote>
+                    <hi rend="I">,</hi> &amp;<hi rend="I"> </hi>
+                    <quote source="bible1588.xml#Rom.2.29">
+                        <hi rend="I">les Iuifs dont la</hi>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Gal.6.16">
+                                <hi rend="I">Gal</hi>.6. <lb/>I6.</ref>
+                            <ref type="bible" target="bibleSegond21.xml#Rom.2.29">
+                                <hi rend="I">Rom</hi>. 2. <lb/>29</ref>
+                        </note>
+                        <hi rend="I"> louange est de Dieu, &amp; non des
+                        hommes</hi></quote>.
+                    <lb/>C'est donc en ce sens, selon 
+                        <hi rend="I">l'esprit</hi>
+                    , &amp;
+                    <lb/>non selon la 
+                        <hi rend="I">chair</hi>
+                    , que l'Apôtre donne
+                    <lb/>icy le nom de <quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">nos Peres</hi>
+                    </quote> a ces anciens
+                    <lb/>Israëlites, qui <quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">furent tous sous la nuée, &amp;
+                            <lb/>qui passerent tous par la mer</hi>
+                    </quote>. Mais l'on
+                    <lb/>dit , qu'il ne semble pas raisonnable,
+                    <lb/>que ces vieux Iuifs charnels &amp; rebelles,
+                    <lb/>soyent nommez <quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">Peres</hi>
+                    </quote> des Chrétiens
+                    <lb/>croyans &amp; obeïssans. Ie l'avouë, mais
+                    <lb/>je répons que ny S. Paul, ny nous apres
+                    <lb/>luy ne l'avons jamais entendu ainsi. A <fw place="bot-right" type="catch">Dieu</fw>
+                    <pb n="13"/>
+                    <lb/>Dieu ne plaise. Car pour ceux-là bien
+                    <lb/>loin d'estre nos Peres, Ils n'ont pas été
+                    <lb/>eux mesmes enfans d'Abraham. Vn de
+                    <lb/>leurs Prophetes leur dit, que <quote source="bible1588.xml#Ezek.16.3">
+                        <hi rend="I">leur pere</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Ezek.16.3">
+                                <hi rend="I">Ez</hi>. I6. <lb/>3</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">estoit Amorrhéen &amp; leur mere Ethienne</hi>
+                    </quote>.
+                    <lb/>Leur incredulité les a retranchez de la
+                    <lb/>tige, où nous avons été entez, par foy.
+                    <lb/>Nous n'avons, &amp; Dieu veüille que nous
+                    <lb/>n'ayons jamais a l'avenir rien de commun
+                    <lb/>avec eux. Mais quelque grand
+                    <lb/>qu'ayt été dans le desert le nombre de
+                    <lb/>ces Israëlites bâtards, tant y a que Dieu
+                    <lb/>se conservoit au milieu d'eux vn Moïse,
+                    <lb/>vn Phinées, vn Iosué, vn Caleb, &amp; plusieurs
+                    <lb/>autres, qui faisoyent sinon la plus
+                    <lb/>grande, au moins la meilleure partie
+                    <lb/>de ce peuple; &amp; c'est à l'égard, de ceux-cy
+                    <lb/>&amp; non des autres, que l'Apôtre honore
+                    <lb/>icy les anciens Israëlites du nom
+                    <lb/>de <quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">nos Peres</hi>
+                    </quote>. Voyons maintenant ce
+                    <lb/>qu'il nous en dit. Il touche premierement
+                    <lb/>la merveille de la nuë , que Dieu
+                    <lb/>étendit sur eux pour les couvrir contre
+                    <lb/>les ardeurs du jour, pour les éclairer durant
+                    <lb/>les tenebres de la nuit, pour les
+                    <lb/>guider dans leurs marches, pour cacher
+                    <lb/>leur camp aux ennemis &amp; pour marquer
+                    <lb/>la pavillon de la Majesté Divine au milieu <fw place="bot-right" type="catch">lieu</fw>
+                    <pb n="14"/>
+                    <lb/>d'eux, se tenant suspendue au dessus
+                    <lb/>autant de temps que leur armée demeuroit
+                    <lb/>campée en quelque lieu : &amp; cela
+                    <lb/>continua quarante ans entiers depuis
+                    <lb/>leur sortie de l'Egypte jusques a leur
+                    <lb/>entrée en Canaan.C'est cette nuë qu'entend
+                    <lb/>l'Apôtre, quand il dit qu'<quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">ils furent
+                            <lb/>tous sous la nuée</hi>
+                    </quote> ; parce qu'ils l'avoyent
+                    <lb/>continuellement au dessus d'eux,quand
+                    <lb/>ils campoyent , &amp; élevée au devant
+                    <lb/>d'eux , quand ils marchoyent. C'est le
+                    <lb/>premier avantage des Peres, que S. Paul
+                    <lb/>nous represente ; grand, &amp; surnaturel,
+                    <lb/>&amp; non jamais veu ny ouï dans aucune
+                    <lb/>autre nation. D'où vient aussi que Moïse
+                    <lb/>touchant les merveilles de son Israël
+                    <lb/>qui avoyent étonné les Egyptiens &amp; les
+                    <lb/>peuples de Canaan, ne manque pas de
+                    <lb/>faire mention de celle-cy, <quote source="bible1588.xml#Num.14.14">
+                        <hi rend="I">Ils ont</hi> <seg type="interpolation">(dit-il)</seg>
+                        <lb/>
+                        <hi rend="I">entendu, que ta nuée s'arreste sur nous, </hi>&amp;
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Num.14.14">
+                                <hi rend="I">Nombr</hi>. <lb/>I4. I4.</ref>
+                        </note>
+                        <hi rend="I">que tu chemines devant nous de jour en vne
+                            <lb/>colonne de nuée &amp; de nuit en vne colonne
+                            <lb/>de feu</hi></quote>. L'autre avantage des Peres icy
+                    <lb/>raporté par l'Apôtre est leur miraculeux
+                    <lb/>passage par la mer ; lors qu'étant
+                    <lb/>sortis d'Egypte, &amp; poursuivis par l'armée
+                    <lb/>de Pharao, la mer rouge sur le rivage
+                    <lb/>de laquelle ils étoyent arrivez,se fendit <fw place="bot-right" type="catch">dit</fw>
+                    <pb n="15"/>
+                    <lb/>en deux, &amp; leur laissa entre ses eaux
+                    <lb/>le passage libre pour gagner son autre
+                    <lb/>bord, comme ils firent sous la conduite
+                    <lb/>de Moïse, avec autant de facilité, que
+                    <lb/>s'ils eussent marché dans un grand chemin
+                    <lb/>sur la terre. C'est ce qu'entend &amp;
+                    <lb/>a quoy regarde l'Apôtre, quand il dit,
+                    <lb/>qu'<quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">ils passerent tous par la mer</hi></quote>. Le troisiéme
+                    <lb/>de leurs avantages touchez par S. Paul,
+                    <lb/>est qu'ils mangerent tous d'une <quote source="bible1588.xml#_1Cor.10.3">
+                        <hi rend="I">mesme
+                            <lb/>viande spirituelle</hi>
+                    </quote>. Il est clair, que
+                    <lb/>c'est la manne qu'il entend , que Dieu
+                    <lb/>leur envoyoit tous les matins du ciel,
+                    <lb/>&amp; dont ils furent nourris durant les quarante
+                    <lb/>ans, qu'ils vesquirent dans le desert ;
+                    <lb/>miracle tant de fois celebré dans
+                    <lb/>les Ecritures,non par Moïse seulement,
+                    <lb/>qui en décrit exactement l'histoire, mais
+                    <lb/>aussi plusieurs siecles depuis par David
+                    <lb/>dans ses Pseaumes , comme l'vne des
+                    <lb/>plus rares &amp; des plus divines faveurs
+                    <lb/>que ce peuple ayt receues du Seigneur.
+                    <lb/>Leur quatriéme &amp; dernier avantage
+                    <lb/>est, <quote source="bible1588.xml#Exod.17.5-6">
+                        <hi rend="I">qu'ils beurent tous d'vn mesme breuvage
+                            <lb/>spirituel de la pierre ou du rocher qui les</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Exod.17.5-6">
+                                <hi rend="I">Exod</hi>. I7. <lb/>5. 6.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">suivoit</hi>
+                    </quote>. Vous voyez bien qu'il veut dire
+                    <lb/>l'eau miraculeuse, qui sortit du rocher
+                    <lb/>d'Horeb frappé de la verge de Moïse <fw place="bot-right" type="catch">se-</fw>
+                    <pb n="16"/>
+                    <lb/>selon l'ordre du Seigneur, pour abbreuver
+                    <lb/>le peuple dans le desert.On demande
+                    <lb/>ce qu'entend l'Apôtre, en disant que
+                    <lb/>
+                    <quote source="bible1588.xml#Exod.17.5-6">
+                        <hi rend="I">cette pierre les suivoit</hi>
+                    </quote>. Car nous ne lisons
+                    <lb/>point dans l'Ecriture , que ce rocher
+                    <lb/>d'Horeb ayt changé de place, ny qu'il
+                    <lb/>se soit arraché du lieu, où il étoit , &amp; où
+                    <lb/>il est encore aujourd'huy,pour accompagner
+                    <lb/>le camp d'Israël; &amp; ce seroit a mon
+                    <lb/>avis , une extravagance de s'imaginer
+                    <lb/>rien de semblable. Vn ancien auteur
+                    <lb/>Grec, l'un des plus scavans &amp; des plus
+                    <lb/>
+                    <note type="margin">
+                        <ref type="other">P<hi rend="I">hotius <lb/>dans <lb/>Oecumenius</hi>
+                        </ref>
+                    </note> déliez esprits de son siecle, &amp; de sa nation ,
+                    <lb/>considerant que l'original de ce
+                    <lb/>texte porte simplement, que les Peres
+                    <lb/>
+                    <quote source="bible1588.xml#Exod.17.5-6">
+                        <hi rend="I">beuvoyent tous de la pierre, qui suivoit</hi>
+                    </quote>, &amp;
+                    <lb/>non comme nos Interpretes l'ont suppleé,
+                    <lb/>qui <quote source="bible1588.xml#Exod.17.5-6">
+                        <hi rend="I">les suivoit</hi>
+                    </quote> ; prend icy le mot
+                    <lb/>de <quote source="bible1588.xml#Exod.17.5-6">
+                        <hi rend="I">suivre</hi>
+                    </quote> pour dire <hi rend="I">obeïr</hi> &amp; seconder le
+                    <lb/>mandement , ou la volonté d'autruy ;
+                    <lb/>
+                    <quote source="bible1588.xml#Exod.17.5-6">
+                        <hi rend="I">La pierre qui suivoit</hi>
+                    </quote>, c'est a dire qui obeïssant
+                    <lb/>au commandement de Dieu,
+                    <lb/>suivant l'intention de Moïse, s'ouvrit &amp;
+                    <lb/>luy donna en abondance les eaux qu'il
+                    <lb/>luy demandoit pour le breuvage de son
+                    <lb/>peuple. Il est certain que le mot de <hi rend="I">suivre</hi>
+                    <lb/>se prend souvent ainsi, dans le langage
+                    <lb/>Grec ; &amp; l'on ne peut nier que <fw place="bot-right" type="catch">cette</fw>
+                    <pb n="17"/>
+                    <lb/>cette interpretation ne soit belle &amp; ingenieuse ;
+                    <lb/>Mais parce qu'elle semble
+                    <lb/>vn peu subtile &amp; venue de l'esprit de
+                    <lb/>cet interprete, plûtost que de la pensée
+                    <lb/>de l'Apôtre, il vaut mieux s'arrester a la
+                    <lb/>solution commune. Avouant donc que
+                    <lb/>c'est aux Peres que se rapporte le mot
+                    <lb/>de <quote source="bible1588.xml#Exod.17.5-6">
+                        <hi rend="I">suivre</hi>
+                    </quote> &amp; lisant avecque nos Bibles
+                    <lb/>
+                    <quote source="bible1588.xml#Exod.17.5-6">
+                        <hi rend="I">la pierre </hi>qui <hi rend="I">les suivoit</hi>
+                    </quote>
+                    <hi rend="I"> </hi>; je répons qu'en
+                    <lb/>parlant ainsi l'Apôtre entend, non que
+                    <lb/>la substance mesme du rocher dure &amp;
+                    <lb/>pesante &amp; immobile comme elle est naturellement ,
+                    <lb/>se soit remuée de son lieu
+                    <lb/>pour marcher &amp; s'arrester selon les
+                    <lb/>traittes des Israëlites ; mais que les eaux
+                    <lb/>qui en sortoyent , faisoyent des ruisseaux,
+                    <lb/>qui courant çà &amp; là dans le desert
+                    <lb/>y accompagnoyent Israël , luy fournissant
+                    <lb/>son breuvage, selon ce que chante
+                    <lb/>le Prophete dans <ref type="bible" target="bibleSegond21.xml#Ps.78">le Pseaume soixante &amp;
+                        <lb/>dixhuitiesme</ref> , où celebrant ce grand
+                    <lb/>miracle de Dieu <quote source="bible1588.xml#Ps.78.16">
+                        <hi rend="I">Il a </hi><seg type="interpolation">(dit-il)</seg>
+                        <hi rend="I">fait sortir des</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Ps.78.16">P<hi rend="I">s</hi>.78.I6.</ref>
+                            <ref type="bible" target="bibleSegond21.xml#Ps.105.41">P<hi rend="I">se</hi>. I05. <lb/>41.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">ruisseaux d'vn Rocher,&amp; en a fait découler des
+                            <lb/>eaux,comme des rivieres</hi></quote>. Et ailleurs
+                    encore,
+                    <lb/>
+                    <quote source="bible1588.xml#Ps.105.41">
+                        <hi rend="I">Les eaux coururent en rivieres,ou comme
+                            <lb/>des rivieres par les lieux secs</hi>
+                        
+                    </quote>. C'est ainsi
+                    <lb/>que le Rocher suivoit, ou accompagnoit
+                    <lb/>les Israëlites,non en la masse mesme <fw place="bot-right" type="catch">me</fw>
+                    <pb n="18"/>
+                    <lb/>de sa pierre ce qui leur eust été inutile ,
+                    <lb/>mais dans les courans de ses eaux,
+                    <lb/>qui conduits par la providence divine
+                    <lb/>tournoyent dans les lieux, où leur camp
+                    <lb/>marchoit &amp; où il s'arrestoit, ce qui leur
+                    <lb/>étoit necessaire, dans un desert aride,
+                    <lb/>&amp; naturellement destitué de sources,de
+                    <lb/>fontaines &amp; de ruisseaux. Ce sont là
+                    <lb/>chers freres, les quatre faveurs de Dieu
+                    <lb/>envers les anciens Israëlites, que l'Apôtre
+                    <lb/>a icy touchées. La seule veuë
+                    <lb/>des choses, &amp; l'vsage naturel qu'ils en
+                    <lb/>tiroyent pour la commodité &amp; la necessité
+                    <lb/>de leur vie, en découvre assez
+                    <lb/>l'excellence &amp; la merveille ; de la nuë,
+                    <lb/>pour le refraischissement , &amp; pour la
+                    <lb/>protection, qu'elle leur procuroit ; de
+                    <lb/>la mer, par la delivrance qu'elle leur
+                    <lb/>donna , s'ouvrant a eux , pour les sauver
+                    <lb/>des mains d'vne armée ennemie ; de la
+                    <lb/>manne &amp; de l'eau du rocher , pour le
+                    <lb/>soûtien de leur vie, qui sans ce secours
+                    <lb/>fust bien tost defaillie en des deserts où
+                    <lb/>ils ne trouvoyent le plus souvent ny
+                    <lb/>viande, ny fruits, ny breuvage. La lettre
+                    <lb/>mesme de cette histoire est magnifique;
+                    <lb/>C'est un riche fond, capable de fournir
+                    <lb/>a ceux qui s'arresteront a la considerer <fw place="bot-right" type="catch">di-</fw>
+                    <pb n="19"/>
+                    <lb/>divers sujets d'admiration pour la puissance,
+                    <lb/>bonté &amp; sagesse de Dieu en toute
+                    <lb/>cette conduite, &amp; d'instruction &amp; de
+                    <lb/>consolation pour nos ames. Mais ce
+                    <lb/>n'est pas icy le lieu de nous étendre sur
+                    <lb/>ce sujet. Il nous faut suivre l'Apôtre &amp;
+                    <lb/>nous attacher a ce qu'il y a remarqué.
+                    <lb/>Car laissant là le reste , il touche seulement
+                    <lb/>icy l'vsage &amp; le dessein moral &amp;
+                    <lb/>spirituel de ces merveilleuses graces de
+                    <lb/>Dieu ; &amp; des quatre qu'il nous a representées,
+                    <lb/>il les reduit a deux couples, joignant
+                    <lb/>ensemble premierement le nuë
+                    <lb/>&amp; la mer ; &amp; puis en second lieu pareillement
+                    <lb/>la manne &amp; l'eau du rocher.
+                    <lb/>Des deux premieres, il dit que les Peres
+                    <lb/>furent <quote source="bible1588#_1Cor.10.2">
+                        <hi rend="I">tous baptisez en Moïse en la nuée &amp;
+                            <lb/>en la mer</hi>
+                    </quote> ; &amp; des deux secondes, que la
+                    <lb/>manne &amp; l'eau de la pierre <quote source="bible1588#_1Cor.10.3">
+                        <hi rend="I">étoit vne viãde
+                            <lb/>&amp; vn breuvage spirituel</hi>
+                        <!--citation approximative-->
+                    </quote>,&amp; que la<hi rend="I"> </hi>
+                    <quote source="bible1588.xml#Exod.17.5-6">
+                        <hi rend="I">pierre </hi>
+                        <lb/><seg type="interpolation">d'où sortoit l'eau</seg><hi rend="I">,</hi>
+                        <hi rend="I"> étoit Christ</hi></quote>. Examinons
+                    <lb/>maintenant chacune de ces deux
+                    <lb/>choses en son ordre. La premiere regarde
+                    <lb/>Moïse ; &amp; la seconde Iesus Christ.
+                    <lb/>Pour le premier l'Apôtre dit qu'en la
+                    <lb/>nuée &amp; la mer (c'est a dire selon le stile
+                    <lb/>de l'Ecriture, <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">par la nuée &amp; par la mer),
+                            <lb/>les Peres furent battisez</hi>
+                        <hi rend="I"> en Moïse</hi>
+                    </quote> ; Cela <fw place="bot-right" type="catch">don-</fw>
+                    <pb n="20"/>
+                    <lb/>donne de la peine aux Interpretes; Premierement
+                    <lb/>parce qu'il semble rude de
+                    <lb/>dire, que le peuple de Dieu soit battizé
+                    <lb/>en vn homme ; Secondement parce
+                    <lb/>qu'encore que les Israëlites ayant été
+                    <lb/>sous la nuée, &amp; qu'ils ayent passé par la
+                    <lb/>mer, qu'ils n'en ont pas été moüillez,comme
+                    <lb/>sont ceux que l'on battise. Pour resoudre
+                    <lb/>la premiere difficulté, plusieurs
+                    <lb/>prennent ce que dit l'Apôtre, que <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">les
+                            <lb/>Peres furent battisez</hi>
+                        <hi rend="I">en Moïse</hi>
+                    </quote>, pour signifier
+                    <lb/>simplement, qu'ils furent battisez
+                    <lb/>par Moïse, c'est a dire par le ministere
+                    <lb/>de Moïse ; tout de mesme que nous
+                    <lb/>venons de dire qu'<quote source="bible1588.xml#_1Cor.10.1">
+                        <hi rend="I">en la nuée &amp; en la mer</hi>
+                    </quote>,
+                    <lb/>signifie par la nuée &amp; par la mer. Mais
+                    <lb/>cette glosse ne peut subsister. Car la
+                    <lb/>
+                    <note xml:id="mn_20_1" type="margin" n="*"> <foreign xml:lang="el">εις </foreign></note> particule icy employée, <ref target="#mn_20_1" type="noteAnchor">*</ref> quand
+                    l'Apôtre
+                    <lb/>dit <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">en Moïse</hi>
+                    </quote>, est toute autre,que celle,
+                    <lb/>dont il se sert, quand il dit <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">en la mer</hi>
+                        <lb/>
+                        <note xml:id="mn_20_2" type="margin" n="†"> <foreign xml:lang="el">εν </foreign></note>
+                        <hi rend="I">&amp; en la nuée</hi>
+                    </quote>, <ref target="#mn_20_2" type="noteAnchor">†</ref> encore que la disette de
+                    <lb/>nôtre
+                    langue<!--un point de vue intéressant sur la langue française, encore considérée comme inférieure aux langues savantes. Vaugelas n’est pas encore arrivé à Genève-->
+                    nous ayt contraints d'vser
+                    <lb/>d'vn mesme mot pour l'exprimer l'vne
+                    <lb/>&amp; l'autre. Dans l'vsage de l'Ecriture la
+                    <lb/>seconde se prend pour dire <hi rend="I">par</hi> dans
+                    <lb/>vne infinité de lieux, comme tout le
+                    <lb/>monde en est d'accord ; au lieu que la <fw place="bot-right" type="catch">pre-</fw>
+                    <pb n="21"/>
+                    <lb/>premiere , ne s'y treuve jamais employée
+                    <lb/>en ce sens ; au moins qu'il me
+                    <lb/>souvienne ; &amp; si elle s'y treuve
+                    quelque
+                    <lb/>fois, c'est si rarement, que l'on n'en
+                    <lb/>peut tirer aucune consequence pour ce
+                    <lb/>passage. Et la maniere dont ces particules
+                    <lb/>sont rangées &amp; construites , comme
+                    <lb/>parlent les Grammairiens,est pareillement
+                    <lb/>differente , la premiere avec
+                    <lb/>vne forme de nom, &amp; la seconde avec
+                    <lb/>vne autre, ce qui induit encore de la
+                    <lb/>difference en leurs sens. En effet s'il se
+                    <lb/>pouvoit dire, que les Israëlites ont <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">été
+                            <lb/>battisez</hi>
+                        <hi rend="I"> en Moïse</hi>
+                    </quote>, pour signifier simplement
+                    <lb/>qu'ils l'ont été par luy &amp; par son
+                    <lb/>ministere ; rien n'empescheroit non
+                    <lb/>plus, que l'on ne dist pareillement, que
+                    <lb/>les Samaritains furent battisez en S.Phillipe,
+                    <lb/>&amp; Stephanas en S. Paul, &amp; chacun
+                    <lb/>des fideles en celuy des ministres duquel
+                    <lb/>il ont receu le battesme. Et néantmoins
+                    <lb/>c'est vn langage inouï dans l'Ecriture
+                    <lb/>&amp; dans l'Eglise, &amp; dont S. Paul
+                    <lb/>nous témoigne assez qu'il auroit horreur ,
+                    <lb/>quand il demande aux Corinthiens ,
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.1.13">
+                        <hi rend="I">Avez vous été battisez</hi>
+                        <hi rend="I"> au nom
+                            <lb/>de Paul</hi></quote> <hi rend="I">?</hi>
+                     &amp; quand il rend graces a Dieu
+                    <lb/>de ce qu'il ne luy est arrivé de battiser, <fw place="bot-right" type="catch">que</fw>
+                    <pb n="22"/>
+                    <lb/>que fort peu de personnes, <quote source="bible1588.xml#_1Cor.1.15">
+                        <hi rend="I">afin </hi><seg type="interpolation">(dit-il)</seg>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Cor.1.15">I. <hi rend="I">Cor</hi> I. <lb/>13. 15.</ref>
+                        </note>
+                        <hi rend="I">que quelcun ne die que j'aye battizé en mon
+                            <lb/>nom</hi>
+                    </quote>. Car <hi rend="I">estre battisé en quelcun</hi>, ou <hi rend="I">au
+                        <lb/>nom de quelcun</hi>
+                    , veut dire
+                    une mesme
+                    <lb/>chose, autant que nous le pouvons remarquer
+                    <lb/>dans l'Ecriture. Enfin quand il
+                    <lb/>en seroit autrement , toûjours seroit-il
+                    <lb/>difficile de justifier que ce battesme de
+                    <lb/>la nuë, ayt été donné aux Peres par le
+                    <lb/>ministere de Moïse. Pour celuy de la
+                    <lb/>mer, Moïse y eut part, puis que ce fut sa
+                    <lb/>main, qui fendit les eaux de la mer , &amp;
+                    <lb/>que ce fut luy encore qui y conduisit
+                    <lb/>les Israëlites , marchant le premier a la
+                    <lb/>teste du peuple dans les abysmes ; Mais
+                    <lb/>pour la nuë , nous ne lisons point, que
+                    <lb/>Moïse y ayt agy, ny qu'il ayt prété ny sa
+                    <lb/>main ny sa verge , ny mesme sa voix
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Exod.14.19-20">
+                            <hi rend="I">Exod</hi>. 14. <lb/>19. 20.</ref>
+                    </note> pour élever cette nuë en faveur d'Israël,
+                    <lb/>ny la premiere fois qu'elle se mit entre
+                    <lb/>le camp de ce peuple &amp; l'armée des Egyptiens,
+                    <lb/>ny depuis. I'estime donc que
+                    <lb/>laissant ces mots <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">en Moïse</hi>
+                    </quote> dans leur sens
+                    <lb/>ordinaire, pour resoudre la difficulté il
+                    <lb/>faut s'addresser au mot de <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">battiser</hi>
+                    </quote> , &amp;
+                    <lb/>en éclaircir le sens. Car il est assez evident ,
+                    <lb/>qu'a prendre ce mot dans la rigueur
+                    <lb/>de son sens ordinaire &amp; legitime <fw place="bot-right" type="catch">ny</fw>
+                    <pb n="23"/>
+                    <lb/>ny le passage d'Israël par la mer, ny son
+                    <lb/>état sous la nuë ne fut pas proprement
+                    <lb/>un battesme ; cette parole grecque signifiant
+                    <lb/>proprement ou plonger dans
+                    <lb/>l'eau, ou du moins en arroser celuy que
+                    <lb/>l'on battize ; choses qui n'ont point eu
+                    <lb/>de lieu ny dans l'une ny dans l'autre de
+                    <lb/>ces deux rencontres. Qu'est-ce donc
+                    <lb/>que veut dire l'Apôtre par le mot de
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">battiser</hi>
+                    </quote> ? Chers Freres, pour le bien entendre,
+                    <lb/>il faut se souvenir , que c'étoit
+                    <lb/>anciennement vne coûtume ordinaire
+                    <lb/>non seulement entre les Iuifs,mais aussi
+                    <lb/>entre plusieurs peuples Payens d'employer
+                    <lb/>le battesme , c'est a dire ou le
+                    <lb/>plongement dans de l'eau, ou l'aspersion
+                    <lb/>simple de l'eau, pour recevoir les personnes
+                    <lb/>en la profession de leur religion,
+                    <lb/>&amp; dans le corps de leurs societez religieuses.
+                    <lb/>Pour les Iuifs , ceux qui sont
+                    <lb/>tant soit peu versez dans leurs antiquitez
+                    <lb/>sçavent, que pour faire leurs proselytes
+                    <lb/>de la loy, c'est a dire pour les consacrer
+                    <lb/>au Iudaïsme, &amp; de Payens qu'ils
+                    <lb/>étoyent les admettre en leur corps, ils
+                    <lb/>employoyẽt trois ceremonies,la circoncision,
+                    <lb/>le battesme &amp; l'oblation. Pour
+                    <lb/>les Payens, les scavans ont remarqué <fw place="bot-right" type="catch">dans</fw>
+                    <pb n="24"/>
+                    <lb/>dans leurs livres, que c'étoit aussi leur
+                    <lb/>coûtume en plusieurs villes &amp; nations
+                    <lb/>pour recevoir les personnes dans la confrairie
+                    <lb/>de leurs pretendus mysteres, ce
+                    <lb/>qu'ils appelloyent leur <hi rend="I">initiation</hi>, de les
+                    <lb/>baigner dans de l'eau vive, ou de les en
+                    <lb/>laver, ou de les en arroser. Vous sçavez
+                    <lb/>que le Precurseur de Iesus Christ battisoit
+                    <lb/>ceux, qui vouloyent faire profession
+                    <lb/>de sa discipline, &amp; que le Seigneur luy
+                    <lb/>mesme a aussi institué, que ses disciples
+                    <lb/>soyent dediez &amp; consacrez a sa communion
+                    <lb/>par le battesme. Le battesme étant
+                    <lb/>donc presque par tout, mais particulierement
+                    <lb/>&amp; nommément entre les Chrétiens
+                    <lb/>vne dedication &amp; consecration
+                    <lb/>des personnes a vne certaine loy &amp; religion ;
+                    <lb/>j'estime que l'Apôtre regardant
+                    <lb/>a cet vsage si vniversel, a icy employé le
+                    <lb/>mot de <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">battiser</hi>
+                    </quote> en ce sens general,pour
+                    <lb/>dire dedier &amp; consacrer quelcun a vne
+                    <lb/>discipline religieuse ; si bien, qu'en disant ,
+                    <lb/>que les Peres furent <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">battisez en
+                            <lb/>Moïse par la nuë &amp; par la mer</hi>
+                    </quote>,il n'entend
+                    <lb/>autre chose a mon avis sinon, qu'ils furent
+                    <lb/>alors consacrez, &amp; dediez,&amp; comme
+                    <lb/>parloyent les Grecs &amp; les Latins
+                    <lb/>apres eux, <hi rend="I">initiez</hi> en la loy &amp; discipline <fw place="bot-right" type="catch">de</fw>
+                    <pb n="25"/>
+                    <lb/>de Moïse, pour le reconnoistre pour
+                    <lb/>leur chef, leur liberateur &amp; leur conducteur,
+                    <lb/>pour l'interprete de la volonté
+                    <lb/>de Dieu, &amp; leur Legislateur, &amp; mesme
+                    <lb/>en quelque fasson leur Mediateur,comme
+                    <lb/>il est appellé par l'Apôtre dans l'Epitre
+                    <lb/>aux Galates ; s'obligeant par cette <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Gal.3.19">
+                            <hi rend="I">Gal</hi>. 3. <lb/>19.</ref>
+                    </note>
+                    <lb/>profession qu'ils faisoyent en le suivant
+                    <lb/>dans la mer, de se mettre sous sa conduite
+                    <lb/>&amp; de recevoir la foy &amp; le service,
+                    <lb/>qu'il leur declareroit, comme vne doctrine
+                    <lb/>&amp; religion venuë &amp; ordonnée
+                    <lb/>de Dieu , ainsi qu'elle l'étoit en effet.
+                    <lb/>I'avouë, que tous les autres miracles témoignoyent
+                    <lb/>les mesmes veritez aux
+                    <lb/>Israëlites assavoir,que Moïse étoit le serviteur
+                    <lb/>de Dieu, &amp; envoyé par luy pour
+                    <lb/>faire cette grande œuvre, pour les tirer
+                    <lb/>de la servitude de l'Egypte, &amp; pour les
+                    <lb/>conduire dans l'heritage promis a leurs
+                    <lb/>peres, &amp; pour leur publier ses ordonnances.
+                    <lb/>Mais il n'y en a point qui l'ayt
+                    <lb/>declaré plus magnifiquement &amp; d'vne
+                    <lb/>maniere plus éclatante, que cette divine
+                    <lb/>nuë, qui se mettant entre l'armée des
+                    <lb/>Egyptiens, &amp; le camp d'Israël, fut une
+                    <lb/>tenebreuse &amp; impenetrable obscurité
+                    <lb/>aux premiers, &amp; vne claire lumiere aux <fw place="bot-right" type="catch">der-</fw>
+                    <pb n="26"/>
+                    <lb/>derniers ; &amp; ce miraculeux passage de la
+                    <lb/>mer rouge qui sauva Israël, &amp; qui engloutit
+                    <lb/>tous ses ennemis devant ses
+                    <lb/>yeux. Il n'étoit pas possible de donner
+                    <lb/>aux Peres des signes ou des argumens
+                    <lb/>de la faveur de Dieu, &amp; de la vocation
+                    <lb/>de Moïse plus convainquans, que ceux-là.
+                    <lb/>Aussi voyez vous, que c'est justement
+                    <lb/>en cet endroit, apres le passage de
+                    <lb/>le mer rouge, que l'Ecriture remarque
+                    <lb/>expressement, qu'Israël ayant veu cette
+                    <lb/>grand'puissance de Dieu déployée d'vne
+                    <lb/>maniere si terrible contre les Egyptiens,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Exod.14.19">
+                            <hi rend="I">Exod</hi>. 14. <lb/>19.</ref>
+                    </note>
+                    <quote source="bible1588.xml#Exod.14.31">
+                        <hi rend="I">creut a l'Eternel &amp; a Moïse son serviteur</hi></quote>.
+                    <lb/>C'est le plus haut de tous les effets
+                    <lb/>de cette faveur de Dieu. C'étoit beaucoup
+                    <lb/>qu'elle les eust delivrez d'une mort
+                    <lb/>toute asseurée ; Mais c'étoit bien plus,
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">qu'elle les battisast en Moïse</hi>
+                    </quote>, c'est a dire
+                    <lb/>qu'elle les consacrast a estre le peuple
+                    <lb/>de Dieu, seuls de toutes les nations du
+                    <lb/>monde; leur envoyant un serviteur pour
+                    <lb/>leur declarer sa volonté ; &amp; traitter avec
+                    <lb/>eux vne alliance particuliere en son
+                    <lb/>nom, &amp; de sa part. C'est la raison pourquoy
+                    <lb/>l'Apôtre a particulierement mis
+                    <lb/>en avant cette nuë &amp; cette mer, &amp; le
+                    <lb/>battesme, dont elle battisa les Israëlites; <fw place="bot-right" type="catch">com-</fw>
+                    <pb n="27"/>
+                    <lb/>comme la plus grand' &amp; la plus precieuse
+                    <lb/>faveur, qu'il leur ayt faite. Cela ainsi
+                    <lb/>éclaircy l'autre difficulté tombe d'elle
+                    <lb/>mesme ; chacun voyant desormais qu'au
+                    <lb/>sens que l'Apôtre prend icy le mot de
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">battiser</hi>
+                    </quote>, pour pouvoir dire que les Peres
+                    <lb/>furent battisez en la nuë &amp; en la mer,
+                    <lb/>il n'a pas été besoin qu'ils fussent ny
+                    <lb/>plongez dans les flots de la mer, ny arrosez
+                    <lb/>de la pluye ou de l'aspersion des
+                    <lb/>nuës. C'est assez, que l'vne &amp; l'autre
+                    <lb/>merveille étoyent des signes , qui les
+                    <lb/>dédioyent a la discipline de Moïse. Et
+                    <lb/>cette metaphore est d'autant plus propre
+                    <lb/>&amp; plus elegante, qu'encore que cette
+                    <lb/>consecration ne les ayt ny plongez dans
+                    <lb/>la mer, ny arrosez de l'eau des nuës,elle
+                    <lb/>s'est pourtant faite avecque de l'eau.
+                    <lb/>Car la mer par où ils passerent est de
+                    <lb/>l'eau,&amp; la nuée qui les couvrit, étoit un
+                    <lb/>reservoir où se gardoit, ou du moins où
+                    <lb/>se formoit de l'eau ; Si bien que ce qui
+                    <lb/>se passa alors, outre la fin &amp; l'effet d'un
+                    <lb/>battesme, qui y étoit tout entier, approchoit
+                    <lb/>encore de fort pres de sa forme ;
+                    <lb/>puis qu'étant sous la nuée, ils avoyent
+                    <lb/>de l'eau sur leurs testes, &amp; qu'en traversant
+                    <lb/>la mer, ils en avoyent a leurs côtez; <fw place="bot-right" type="catch">com-</fw>
+                    <pb n="28"/>
+                    <lb/>comme les personnes,qui reçoivent le
+                    <lb/>battesme ainsi proprement nommé ;
+                    <lb/>sur tout en la maniere, qu'il se donnoit
+                    <lb/>solemnellement &amp; le plus souvent dans
+                    <lb/>l'Eglise ancienne , en plongeant les
+                    <lb/>croyans dans l'eau.Mais quelque grande
+                    <lb/>que fust la faveur de Dieu, que la nuë
+                    <lb/>&amp; la mer où les Israëlites passerent, leur
+                    <lb/>signifioit &amp; leur communiquoit en les
+                    <lb/>battisant en Moïse, il faut avouer pourtant,
+                    <lb/>que ce n'est pas le plus haut point
+                    <lb/>de la declaration de l'amour de Dieu,
+                    <lb/>que faisoyent ces symboles mystiques,
+                    <lb/>Moise étoit le Mediateur d'une alliance
+                    <lb/>de Dieu ; &amp; c'est la raison pourquoy l'Apôtre
+                    <lb/>n'a point feint de dire, que les
+                    <lb/>Israëlites furent battisez en luy, &amp; il n'y
+                    <lb/>a jamais eu aucun autre homme, simplement
+                    <lb/>homme, que luy seul qui ayt été
+                    <lb/>Mediateur d'aucune des alliances de
+                    <lb/>Dieu avecque les hommes ; &amp; c'est la
+                    <lb/>raison pourquoy il n'est dit d'aucun autre
+                    <lb/>homme simplement homme,que les
+                    <lb/>hommes ayent été <quote source="bible1588.xml#_1Cor.10.2">
+                        <hi rend="I">battisez en luy</hi>
+                    </quote>. Mais
+                    <lb/>de quelle alliance Moïse a-t-il été Mediateur ?
+                    <lb/>Certainement il ne l'a été que
+                    <lb/>d'vne alliance charnelle , terrestre &amp;
+                    <lb/>temporelle ; qui delivroit de la servitude <fw place="bot-right" type="catch">de</fw>
+                    <pb n="29"/>
+                    <lb/> de Pharao, tyran mortel &amp; charnel ;
+                    <lb/>qui conduisoit dans l'heritage terrestre
+                    <lb/>de Canaan, qui sanctifioit la chair, qui
+                    <lb/>rétablissoit l'homme dans le commerce
+                    <lb/>d'un sanctuaire mondain, qui contenoit
+                    <lb/>les ombres , &amp; non le corps mesme du
+                    <lb/>secret de Dieu ; qui n'étoit faite que
+                    <lb/>pour vn temps,afin d'ẽtretenir l'enfance
+                    <lb/>de l'Eglise sous les exercices de sa pedagogie,
+                    <lb/>&amp; qui devoit prẽdre fin apres cela ;
+                    <lb/>&amp; qui en vn mot étoit incapable d'amener
+                    <lb/>ny les choses, ny les hommes a leur
+                    <lb/>perfection. Ainsi quelque avantage que
+                    <lb/>la nuë &amp; la mer donnast aux Peres en
+                    <lb/>les battisant en Moïse, il faut avouër,
+                    <lb/>que si ces symboles mystiques ne signifioyent
+                    <lb/>autre chose, ils ne les élevoyent
+                    <lb/>pas dans la participation du bonheur,
+                    <lb/>que nous cherchons en la Religion.
+                    <lb/>C'est pourquoy l'Apôtre apres nous avoir
+                    <lb/>representé cette premiere partie
+                    <lb/>de la signification de ces symboles,nous
+                    <lb/>propose l'autre bien plus sublime dans
+                    <lb/>les deux autres signes qu'il ajoûte, assavoir
+                    <lb/>la manne &amp; l'eau du rocher. Car il
+                    <lb/>dit, premierement de la manne,que c'étoit
+                    <lb/>vne <quote source="bible1588.xml#_1Cor.10.3">
+                        <hi rend="I">viande spirituelle</hi>
+                    </quote>, &amp; de l'eau du
+                    <lb/>rocher pareillement , que c'étoit <quote source="bible1588.xml#_1Cor.10.4">
+                        <hi rend="I">vn </hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">breu-</hi>
+                        </fw>
+                        <pb n="30"/>
+                        <lb/>
+                        <hi rend="I">breuvage spirituel</hi>
+                    </quote>. Il n'entend pas, que
+                    <lb/>ce fussent des choses d'une nature incorporelle
+                    <lb/>&amp; immaterielle. Car la veuë
+                    <lb/>&amp; les autres sens, montroyent assez le
+                    <lb/>contraire ; &amp; plus encore l'vsage pour
+                    <lb/>lequel on les prenoit, qui étoit de nourrir
+                    <lb/>le corps, ce qui ne se peut faire que
+                    <lb/>par le moyen d'vne substance materielle,
+                    <lb/>&amp; d'vne pasture semblable a celle de
+                    <lb/>nos corps. Mais il appelle <hi rend="I">la manne &amp;
+                        <lb/>l'eau </hi>
+                    <quote source="bible1588.xml#_1Cor.10.3">
+                        <hi rend="I">vne viande spirituelle</hi>
+                    </quote>
+                    <hi rend="I"> &amp; </hi>
+                    <quote source="bible1588.xml#_1Cor.10.4">
+                        <hi rend="I">vn breuvage
+                            <lb/>spirituel</hi>
+                    </quote> ; a cause de leur signification
+                    <lb/>mystique &amp; spirituelle. C'étoyent des
+                    <lb/>sujets <hi rend="I">spirituels</hi>
+                     non en eux mesmes, mais
+                    <lb/>dans les choses qu'ils signifioyent. C'est
+                    <lb/>ainsi que S. Iean dit de la grand' Cité,
+                    <lb/>qu'elle est appellée Sodome &amp; Egypte
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rev.11.8">
+                            <hi rend="I">Apoc</hi>. II. <lb/>8.</ref>
+                    </note>
+                    <quote source="bible1588.xml#Rev.11.8">
+                        <hi rend="I">spirituellement</hi>
+                    </quote>, c'est a dire mystiquement.
+                    <lb/>Mais l'Apôtre pour nous le faire mieux
+                    <lb/>entendre touche icy brievement le
+                    <lb/>mystere de ces choses , lors qu'ayant
+                    <lb/>nommé <quote source="bible1588.xml#_1Cor.10.3">
+                        <hi rend="I">spirituel</hi>
+                    </quote>, le breuvage, que les
+                    <lb/>Peres beuvoyent de la pierre, il ajoûte,
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.4">
+                        <hi rend="I">&amp; la pierre étoit Christ</hi>
+                    </quote> ; nous expliquant
+                    <lb/>clairement, que nôtre Seigneur Iesus
+                    <lb/>Christ est ce que signifioit le rocher,
+                    <lb/>versant les eaux dont furent abbreuvez
+                    <lb/>les Israëlites dans le desert. Car comme <fw place="bot-right" type="catch">me</fw>
+                    <pb n="31"/>
+                    <lb/>le rocher frappé du baston de Moïse,
+                    <lb/>jetta une grande abondance d'eaux,
+                    <lb/>claires &amp; saines, qui garentirent ce pauvre
+                    <lb/>peuple de la plus cruelle de toutes
+                    <lb/>les morts, qui sans cela leur étoit inévitable ;
+                    <lb/>de mesme aussi le Fils de Dieu
+                    <lb/>fait homme pour nous, le vray Rocher
+                    <lb/>de l'Eglise, ayant receu sur sa personne
+                    <lb/>tres-sainte le coup mortel de la loy,
+                    <lb/>c'est a dire la malediction , dont elle <note xml:id="mn_30_1" type="margin" n="*"> <ref type="other">
+                            <hi rend="I">Aug. <lb/>ep</hi>. I02.</ref>
+                        <ref type="other">
+                            <lb/><hi rend="I">ad Evod. <lb/>L.Locut.</hi>
+                        </ref>
+                       
+                        <ref type="other">
+                            <lb/><hi rend="I">de Gen. Locut.</hi>
+                        </ref>
+                        
+                        <ref type="other">
+                            <lb/><hi rend="I">I43. <lb/>Quaest. <lb/>in Pentat.</hi>
+                        </ref>
+                       
+                        <ref type="other">
+                           <lb/> <hi rend="I">Q. 57. in <lb/>Lev.</hi>
+                        </ref>
+                       
+                        <ref type="other">
+                            <hi rend="I">L.2. <lb/>Quaest. <lb/>ad Simpl. <lb/>Q. 3 .</hi>
+                            <!-- De diversis quaestionibus ad Simplicianum --></ref>
+                        
+                        <ref type="other">
+                            <hi rend="I">L. 18. de <lb/>Civ. D.c. <lb/>48.</hi>
+                            <!-- De Civitate Dei contra Paganos --></ref>
+                        
+                        <ref type="other">
+                            <hi rend="I">L. 2. <lb/>contr. <lb/>Adv. leg. <lb/>c. 6.</hi>
+                            <!-- Contra Adversarium Legis et Prophetarum --></ref>
+                        
+                        <ref type="other">
+                           <lb/> <hi rend="I">Tract. <lb/>63. in <lb/>Ioann.</hi>
+                        </ref>
+                        
+                        <ref type="other">
+                            <lb/><hi rend="I">Serm. <lb/>44</hi>
+                        </ref>
+                       
+                        <ref type="other">
+                            <hi rend="I">de <lb/>divers.<lb/>6.2I</hi>. </ref>
+                    </note> <lb/>menace les pecheurs, a répandu dans
+                    <lb/>ce desert où nous languissons, la justice,
+                    <lb/>la sagesse, la sanctification &amp; la redemption,
+                    <lb/>les divines &amp; salutaires eaux,
+                    <lb/>sans lesquelles nous ne pouvions eviter
+                    <lb/>de perir eternellement. A cause de ce
+                    <lb/>rapport de la pierre du desert avecque
+                    <lb/>le Seigneur, S. Paul n'a point feint de
+                    <lb/>dire, que <quote source="bible1588.xml#_1Cor.10.4">
+                        <hi rend="I">la pierre étoit Christ</hi>
+                    </quote>, selon le stile
+                    <lb/>de l'Ecriture, tant de fois remarqué
+                    <lb/>par S. Augustin, <ref target="#mn_1_1" type="noteAnchor">*</ref> &amp; par plusieurs autres
+                    <lb/>Theologiens anciens &amp; modernes,
+                    <lb/>de donner aux signes &amp; aux sacremens
+                    <lb/>les noms des choses mesmes qu'ils signifient.
+                    <lb/>Ie ne m'arresteray pas icy a
+                    <lb/>refuter l'erreur de ceux, qui contre l'intention
+                    <lb/>toute evidente de l'Apôtre, qui
+                    <lb/>est de nous parler du rocher d'Oreb, <fw place="bot-right" type="catch">ren-</fw>
+                    <pb n="32"/>
+                    <lb/>renversent l'ordre mesme de ses paroles
+                    <lb/>sans aucune necessité, &amp; luy font dire,
+                    <lb/>que <quote source="bible1588.xml#_1Cor.10.4">
+                        <hi rend="I">Christ étoit la pierre</hi>
+                    </quote>, au lieu de ce
+                    <lb/>qu'il a écrit, que <quote source="bible1588.xml#_1Cor.10.4">
+                        <hi rend="I">la pierre étoit Christ</hi>
+                    </quote>. Vne
+                    <lb/>bonne partie des Interpretes mesme de
+                    <lb/>la communion Romaine, abandonnent
+                    <lb/>cette interpretation , &amp; prennent les
+                    <lb/>paroles de S. Paul, comme nous avons
+                    <lb/>fait ; quelques vns des plus estimez reconnoissant
+                    <lb/>mesme de bonne foy en ce
+                    <lb/>
+                    <note type="margin">
+                        <ref type="other">
+                            <hi rend="I">Estius</hi>
+                        </ref>
+                        <lb/><hi rend="I"> sur ce <lb/>lieu.</hi>
+                    </note> lieu, que quand le nom d'vn sujet est attribué
+                    <lb/>a vn autre de differente nature,
+                    <lb/>comme en ce lieu, il faut de necessité
+                    <lb/>entendre l'vn des deux figurément &amp;
+                    <lb/>improprement. Et quant a ce qu'ils
+                    <lb/>ajoûtent, que pour bien resoudre ces
+                    <lb/>paroles de S. Paul, il les faut expliquer,
+                    <lb/>non que la pierre signifioit Christ, mais
+                    <lb/>
+                    <quote source="bible1588.xml#_1Cor.10.4">
+                        <hi rend="I">que la chose signifiée par la pierre étoit
+                            <lb/>Christ</hi>
+                    </quote>, cela dis-je n'est de nulle importance ,
+                    <lb/>ne voyant pas qu'il y ayt au fond
+                    <lb/>aucune diference entre ces deux interpretations.
+                    <lb/>Il nous suffit, qu'ils avouënt,
+                    <lb/>que cette proposition &amp; les autres semblables
+                    <lb/>se doivent prendre figurément
+                    <lb/>&amp; non proprement ; en quelque maniere,
+                    <lb/>que l'on veuïlle en resoudre la figure,
+                    <lb/>&amp; en quelque partie de l'oraison qu'on <fw place="bot-right" type="catch">la</fw>
+                    <pb n="33"/>
+                    <lb/>la mette. Au reste ce que l'Apôtre n'applique
+                    <lb/>icy la signification mystique de
+                    <lb/>Iesus Christ, qu'a la pierre seulement,
+                    <lb/>ne l'exclut pas des autres symboles qu'il
+                    <lb/>a nommez ; Au contraire en nous ouvrant
+                    <lb/>le sens de cette <quote source="bible1588.xml#_1Cor.10.4">
+                        <hi rend="I">pierre spirituelle</hi>
+                    </quote>,
+                    <lb/>il nous apprend a entendre les autres,
+                    <lb/>tout de mesme , puis que la nature en
+                    <lb/>est toute semblable. Comme la viande
+                    <lb/>des Peres par exemple, c'est a dire la
+                    <lb/>manne, qu'il a aussi nommée <quote source="bible1588.xml#_1Cor.10.4">
+                        <hi rend="I">spirituelle</hi>
+                    </quote>.
+                    <lb/>Cette ancienne manne <quote source="bible1588.xml#_1Cor.10.4">
+                        <hi rend="I">étoit aussi Christ</hi>
+                    </quote>
+                    <lb/>sans doute , le pain descendu du ciel
+                    <lb/>dans nôtre desert pour donner la vie eternelle
+                    <lb/>aux hommes, comme le Seigneur
+                    <lb/>nous le montre au long dans le sixiesme
+                    <lb/>chapitre de S. Iean.Et selon cette
+                    <lb/>analogie, il faut dire le mesme de la
+                    <lb/>nuë &amp; de la mer en laquelle les Israëlites
+                    <lb/>furent battisez.Cette nuë étoit aussi
+                    <lb/>
+                    <hi rend="I">Christ</hi>
+                    , l'vnique rafraischissement &amp; l'vnique
+                    <lb/>protection du vray Israël ; la vraye
+                    <lb/>nuë, qui l'éclaire dans ses adversitez, qui
+                    <lb/>le conduit dans ses voyages, qui ne l'abandonnera
+                    <lb/>jamais jusques a ce qu'il soit
+                    <lb/>entré dans sa Canaan mystique. Enfin la
+                    <lb/>mer rouge des anciens étoit aussi nôtre
+                    <lb/>Christ, qui a sauvé les fideles &amp; abysmé <fw place="bot-right" type="catch">leurs</fw>
+                    <pb n="34"/>
+                    <lb/>leurs ennemis dans vn mesme sang, celuy
+                    <lb/>qu'il répandit sur la croix. Ainsi
+                    <lb/>vous voyez chers Freres, que Dieu par
+                    <lb/>vne admirable sagesse a tellement formé
+                    <lb/>les gages de son amour donnez aux
+                    <lb/>Israëlites, que si d'vne part ils les battisoyent
+                    <lb/>en Moïse confirmant la verité de
+                    <lb/>sa vocation, afin qu'ils receussent l'alliance
+                    <lb/>charnelle qu'il alloit traiter avec
+                    <lb/>eux ; de l'autre ils contenoyent de beaux
+                    <lb/>&amp; excellens crayons de Iesus Christ, &amp;
+                    <lb/>de sa nouvelle alliance spirituelle &amp; éternelle.
+                    <lb/>Mais delà mesme paroist, que
+                    <lb/>si l'Eglise Iudaïque a cause de son enfance
+                    <lb/>étoit encore sujette a la pedagogie
+                    <lb/>de la Loy, elle ne laissoit pas pour
+                    <lb/>cela d'estre heritiere des vrays biens de
+                    <lb/>Dieu, &amp; d'avoir part en Iesus Christ,
+                    <lb/>qui nous les a acquis en son temps. Car
+                    <lb/>l'Apôtre nous enseigne icy clairement,
+                    <lb/>que leurs sacremens étoyent aussi en
+                    <lb/>quelque sorte les sacremens de Iesus
+                    <lb/>Christ ; puis qu'il dit, que la pierre d'où
+                    <lb/>ils beuvoyent, étoit Christ. Dieu est fidele.
+                    <lb/>Il ne represente rien en vain a son
+                    <lb/>peuple, &amp; ne manque jamais de tenir
+                    <lb/>&amp; d'accomplir ce qu'il promet, ou qu'il
+                    <lb/>declare, soit par sa parole, soit par ses signes, <fw place="bot-right" type="catch">gnes,</fw>
+                    <pb n="35"/>
+                    <lb/>a ceux qui les reçoivent avecque
+                    <lb/>la foy &amp; la reverence, qu'il leur demande.
+                    <lb/>Il ne faut donc point douter, que
+                    <lb/>ceux des Israëlites, qui rendirent alors
+                    <lb/>au Seigneur la foy , l'amour, le respect
+                    <lb/>&amp; l'obeïssance, que meritoyent ces admirables
+                    <lb/>témoignages qu'il leur donnoit
+                    <lb/>de sa grace , ne receussent le pardon
+                    <lb/>de leurs pechez, la paix de la conscience,
+                    <lb/>la joye &amp; la consolation de
+                    <lb/>l'Esprit, avecque le droit de la vie celeste,
+                    <lb/>que la mort de Iesus Christ nous a
+                    <lb/>meritée ; le tout dans vne mesure proportionnée
+                    <lb/>a la bassesse de l'age où étoit
+                    <lb/>alors l'Eglise. I'avouë qu'ils n'avoyent,
+                    <lb/>qu'vne connoissance fort generale &amp;
+                    <lb/>fort confuse de Christ. Mais pourveu
+                    <lb/>qu'ils s'acquittassent sincerement des
+                    <lb/>devoirs,que Dieu leur demandoit alors,
+                    <lb/>l'imperfection de leur connoissance
+                    <lb/>étant involontaire &amp; innocente, ne les
+                    <lb/>empeschoit pas de toucher ce qu'il leur
+                    <lb/>falloit des biens de Christ. Et puis qu'il
+                    <lb/>est l'<quote source="bible1588.xml#Rev.13.8">
+                        <hi rend="I">Agneau immolé dés la fondation du </hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Rev.13.8">
+                                <hi rend="I">Apoc</hi>. I3. <lb/>8.</ref>
+                            <ref type="bible" target="bibleSegond21.xml#Heb.13.8">
+                                <hi rend="I">Hebr</hi>. I3. <lb/>8.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">monde</hi>
+                    </quote>
+                    <hi rend="I"> , </hi>
+                    <quote source="bible1588.xml#Heb.13.8">
+                        <hi rend="I">mesme hier &amp; aujourd huy</hi> &amp; eternellement</quote>,
+                    <lb/>l'vnique principe &amp; l'vnique
+                    <lb/>source de tous les biens spirituels, qui
+                    <lb/>ont jamais esté communiquez aux pecheurs ; <fw place="bot-right" type="catch">cheurs;</fw>
+                    <pb n="36"/>
+                    <lb/>il est clair qu'il faut ou nier
+                    <lb/>contre l'expresse &amp; evidente lumiere
+                    <lb/>des Ecritures , que les Peres ayent eu
+                    <lb/>part a la vie eternelle , &amp; aux biens spirituels,
+                    <lb/>qui nous y conduisent, ou confesser
+                    <lb/>que c'est par la grace de Christ,
+                    <lb/>qu'ils y ont eu part. D'où il s'ensuit
+                    <lb/>qu'ayant receu des graces acquises au
+                    <lb/>prix du sang de Christ,on peut fort bien
+                    <lb/>dire en ce sens, qu'<quote source="bibleSegond21.xml#John.6.53">
+                        <hi rend="I">ils ont beu le sang
+                            <lb/>de Christ</hi>
+                    </quote> ; Comme David autresfois disoit
+                    <lb/>de l'eau, que trois de ses gens-d'armes
+                    <lb/>avoyent puisée au grand peril de leur
+                    <lb/>vie dans vne citerne de l'ennemy, que
+                    <lb/>c'étoit <quote source="bible1588.xml#_2Sam.23.17">
+                        <hi rend="I">leur sang ; Boiray-je,
+                        </hi><seg type="interpolation">disoit-il,</seg> <hi rend="I">le </hi>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_2Sam.23.17">2. <hi rend="I">Sam</hi>. <lb/>23.I7.</ref>
+                        </note>
+                        <hi rend="I"> sang de ces hommes là</hi></quote> <hi rend="I">?</hi>
+                     Et néantmoins
+                    <lb/>ces gens là n'y avoyent perdu aucune
+                    <lb/>goute de leur sang ; Ils s'étoyent seulement
+                    <lb/>mis en danger de le perdre. Combien
+                    <lb/>plus fortement pouvons nous dire
+                    <lb/>de chacune des graces de Iesus Christ,
+                    <lb/>que c'est <hi rend="I">son sang</hi>, &amp; des ames , qui les
+                    <lb/>reçoivent &amp; les goûtent pour leur rafraischissement
+                    <lb/>spirituel ; qu'<hi rend="I">elles boivent
+                        <lb/>son sang</hi>
+                    , puis que ces graces luy coûtent
+                    <lb/>en effet tout son sang , qu'il a répandu
+                    <lb/>sur la croix, pour les acquerir par ce
+                    <lb/>grand prix ? Le dessein de l'Apôtre <fw place="bot-right" type="catch">nous</fw>
+                    <pb n="37"/>
+                    <lb/>nous oblige a prendre ainsi ses paroles.
+                    <lb/>Car de cet exemple des Peres,
+                    <lb/>qui pour avoir receu des signes si excellens
+                    <lb/>de l'amour de Dieu, n'ont pas laissé
+                    <lb/>d'estre severement punis, quand ils en
+                    <lb/>ont abusé, il veut conclurre, que sous
+                    <lb/>ombre que nous avons reçeu les sacremens
+                    <lb/>de Iesus Christ, nous ne devons
+                    <lb/>pas presumer, que si nous en abusons
+                    <lb/>nôtre ingratitude doive demeurer impunie.
+                    <lb/>Or l'induction ne sera pas bonne ,
+                    <lb/>si vous ne supposez, que les Peres
+                    <lb/>avoyent leur part aux sacremens de
+                    <lb/>Christ, &amp; a ses biens. Et en effet vous
+                    <lb/>voyez que l'Apôtre pour le montrer, a
+                    <lb/>expressement choisy d'entre les symboles
+                    <lb/>des Peres ceux qui ont le plus de
+                    <lb/>rapport a nos sacremens ; <quote source="bibleSegond21.xml#Exod.13.21;Exod.14.22">
+                        <hi rend="I">la nuë &amp;
+                            <lb/>la mer</hi>
+                    </quote>, avec nôtre battesme ; la manne &amp;
+                    <lb/>la liqueur du Rocher,avecque le pain &amp;
+                    <lb/>la coupe de sa sainte Cene ; comparant
+                    <lb/>ainsi ensemble les declarations de l'amour
+                    <lb/>de Dieu, qu'il a données a l'vn &amp;
+                    <lb/>a l'autre peuple. Ayant donc representé
+                    <lb/>les admirables témoignages dont
+                    <lb/>Dieu avoit tous battisez en Moïse par la nuë
+                    <lb/>&amp; par la mer, qu'il avoit tous nourris de <fw place="bot-right" type="catch">sa</fw>
+                    <pb n="38"/>
+                    <lb/>sa manne, &amp; abbreuvez de l'eau de son
+                    <lb/>Rocher , symboles &amp; figures de son
+                    <lb/>Christ ; il ajoûte enfin dans la seconde
+                    <lb/>partie de nôtre texte, qu'avec tout cela,
+                    <lb/>il en avoit rejetté &amp; puny vn grand
+                    <lb/>nombre. <quote source="bible158..xml#_1Cor.10.5">
+                        <hi rend="I">Mais </hi><seg type="interpolation">(dit-il)</seg>
+                        <hi rend="I">Dieu n'a point pris
+                            <lb/>plaisir en plusieurs d'entr'eux. Car ils ont
+                            <lb/>été accablez dans le desert</hi>
+                    </quote>.
+                    <hi rend="I"> </hi>
+                    <quote source="bible158..xml#_1Cor.10.5">
+                        <hi rend="I">Il n'a point pris
+                            <lb/>plaisir en eux</hi>
+                    </quote> ; c'est a dire qu'il ne les
+                    <lb/>eut pas agreables , mais que tout au
+                    <lb/>contraire ils luy dépleurent grandement ;
+                    <lb/>ce qu'il montre par la punition
+                    <lb/>qu'il en fit ; <quote source="bible158..xml#_1Cor.10.5">
+                        <hi rend="I">Car ils furent </hi><seg type="interpolation">(dit-il)</seg>
+                        <hi rend="I">accablez
+                            <lb/>dans le desert</hi>
+                    </quote>. C'est justement la peine,
+                    <lb/>que Dieu leur denonce expressement
+                    <lb/>dans le livre des Nombres. <quote source="bible1588.xml#Num.14.29">
+                        <hi rend="I">Vos corps</hi>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Num.14.29">
+                                <hi rend="I">Nomb</hi>. <lb/>I4. 29.</ref>
+                        </note> <seg type="interpolation">(leur dit-il)</seg>
+                        <hi rend="I">tomberont dans ce desert</hi>
+                    </quote> , Ils
+                    <lb/>furent exclus du pays de Canaan. L'Apôtre
+                    <lb/>nous laisse a sous-entendre ce que
+                    <lb/>l'histoire sainte nous apprend, que ces
+                    <lb/>miserables avoyent allumé contre eux
+                    <lb/>cette colere du Seigneur , &amp; attiré ce
+                    <lb/>juste jugement sur eux par leur ingratitude
+                    <lb/>&amp; incredulité épouvantable, ayant
+                    <lb/>aprés tant de tesmoignages qu'il leur
+                    <lb/>avoit donnez de sa faveur, murmuré diverses
+                    <lb/>fois contre luy &amp; contre ses serviteurs,
+                    <lb/>&amp; commis vne infinité d'autres <fw place="bot-right" type="catch">cri-</fw>
+                    <pb n="39"/>
+                    <lb/>crimes avec vne opiniastreté &amp; vne dureté
+                    <lb/>de cœur incroyable ; <quote source="bible1588.xml#Num.14.22">
+                        <hi rend="I">Ils ont veu ma</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Num.14.22">
+                                <hi rend="I">Nombr</hi>. <lb/>I4. 22.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">gloire </hi><seg type="interpolation">(dit le Seigneur,en leur faisant leur
+                            <lb/>procez)</seg>
+                        <hi rend="I">&amp; les signes que j'ay faits en Egypte,
+                            <lb/>&amp; dans le desert, &amp; apres cela ils m'ont desja
+                            <lb/>tenté par dix fois, &amp; n'ont point obey a ma
+                            <lb/>voix</hi>
+                    </quote>. Voyla leur crime , &amp; en voicy la
+                    <lb/>peine ; <quote source="bible1588.xml#Num.14.23">
+                        <hi rend="I">Ils ne verront jamais </hi><seg type="interpolation">(dit-il)</seg>
+                        <hi rend="I">le
+                            <lb/>pays, que j'ay juré a leurs Peres de leur donner.
+                            <lb/>Pas vn de ceux, qui m'ont irrité par
+                            <lb/>mépris, ne le verra</hi></quote>. Ce jugement
+                    fut punctuellement
+                    <lb/>executé , comme il avoit
+                    <lb/>été prononcé. Le grand nombre de ces
+                    <lb/>criminels est aussi vn argument de la juste
+                    <lb/>severité de Dieu ; &amp; c'est la raison
+                    <lb/>pourquoy l'Apôtre l'a expressement
+                    <lb/>touché, disant que <quote source="bible1588.xml#_1Cor.10.5">
+                        <hi rend="I">Dieu ne prit point plaisir
+                            <lb/>en plusieurs, ou en la pluspart d'entr'eux</hi>
+                    </quote>.
+                    <note xml:id="mn_39_1" type="margin" n="*"> <foreign xml:lang="el">Έν <lb/>ϖλείοσιν
+                        <lb/>αίτων</foreign>
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#Num.14.29">
+                            <hi rend="I">Nombr</hi>.
+                            <lb/>I4. 29.
+                            <lb/>30.</ref>
+                    </note>
+                    <lb/>Car l'histoire sainte nous raconte, que
+                    <lb/>de tous ceux qui étoyent sortis d'Egypte,
+                    <lb/>a l'age de vingt ans &amp; au dessus, qui
+                    <lb/>faisoyent sans doute vne grande multitude,
+                    <lb/>il n'y eut que deux hommes, sçavoir
+                    <lb/>Iosué &amp; Caleb, qui ne demeurassent
+                    <lb/>enveloppez dans ce jugement. Voyla
+                    <lb/>le tableau de la grande bonté de Dieu
+                    <lb/>envers nos Peres, &amp; de sa juste severité
+                    <lb/>contre ceux, qui abusant de ses faveurs <fw place="bot-right" type="catch">veurs,</fw>
+                    <pb n="40"/>
+                    <lb/>l'offensent en méprisant ses loix
+                    <lb/>&amp; s'abandonnant aux folles &amp; injustes
+                    <lb/>passions de leur chair. Au nom de Dieu,
+                    <lb/>Freres bien aymez faisons en nôtre
+                    <lb/>profit. Ne nous fions point a cette exterieure
+                    <lb/>profession, que nous faisons de
+                    <lb/>son service, ny a la part que nous avons
+                    <lb/>a l'ouïe de sa parole, &amp; aux sacremens
+                    <lb/>sensibles de sa grace. Tout cela ne nous
+                    <lb/>servira de rien ; il nous nuira mesme
+                    <lb/>beaucoup, si le cœur &amp; le dedans de nôtre
+                    <lb/>vie n'y répond : C'est une vieille erreur,
+                    <lb/>presque commune a tous les siecles
+                    <lb/>&amp; a tous les climats du genre humain ,
+                    <lb/>de s'imaginer qu'il suffit pour ne
+                    <lb/>perir point, de porter les marques de la
+                    <lb/>religion, &amp; d'en avoir receu les symboles
+                    <lb/>exterieurs. Ie laisse là les erreurs des
+                    <lb/>Iuifs en cét endroit , qui sont si souvent
+                    <lb/>notez &amp; censurez par les Prophetes.
+                    <lb/>Mais qui se seroit imaginé, que dans l'Eglise
+                    <lb/>Chrétienne, qui a reduit toute l'adoration
+                    <lb/>de Dieu a l'esprit &amp; a la verité,
+                    <lb/>&amp; qui abolissant les ceremonies, &amp; les
+                    <lb/>cultes charnels du premier peuple, ne
+                    <lb/>nous a chargez d'autre service, que d'vne
+                    <lb/>pure &amp; sincere sanctification de
+                    <lb/>corps &amp; d'esprit, vn abus si grossier peust <fw place="bot-right" type="catch">en-</fw>
+                    <pb n="41"/>
+                    <lb/>encore treuver ce lieu ? Et néantmoins
+                    <lb/>la verité est , qu'il s'y fourra bien tost.
+                    <lb/>S. Augustin nous témoigne que de son
+                    <lb/>temps il y avoit des gens, qu'il reconnoist <note type="margin">
+                        <ref type="other">
+                            <hi rend="I">Aug.de <lb/>Civ.D. L</hi>. <lb/>21.<hi rend="I">c</hi>.I9.</ref>
+                    </note>
+                    <lb/>ailleurs pour estre de la communion
+                    <lb/>de l'Eglise Catholique, qui abusant
+                    <lb/>du nom de ces deux sacremens si purs &amp;
+                    <lb/>si simples, que le Seigneur nous a instituez,
+                    <lb/>promettoyent la vie eternelle a
+                    <lb/>quiconque en a été une fois participant ;
+                    <lb/>en quelque secte , heresie, ou impieté
+                    <lb/>qu'ils vivent sur la terre. Qu'il y en avoit <note type="margin">
+                        <ref type="other">
+                            <hi rend="I">ibid</hi>. <hi rend="I">c</hi>. 20.</ref>
+                    </note>
+                    <lb/>d'autres qui resserroyent vn peu
+                    <lb/>leur indulgence , ne donnant le salut,
+                    <lb/>qu'a ceux qui auront receu les sacremens
+                    <lb/>dans l'Eglise orthodoxe &amp; Catholique,
+                    <lb/>&amp; non chez les heretiques ; Que
+                    <lb/>d'autres demandoyent encore qu'vn
+                    <lb/>homme pour estre sauvé demeurast jusques
+                    <lb/>a la fin dans la communion de l'Eglise , <note type="margin">
+                        <ref type="other">
+                            <hi rend="I">ibid</hi>. <hi rend="I">c</hi>. 2I.</ref>
+                    </note>
+                    <lb/>quelque mal qu'il vesquist quant
+                    <lb/>au reste ; seulement disoyent ils qu'avant
+                    <lb/>que d'entrer , dans l'heritage celeste,
+                    <lb/>il luy faudroit souffrir pour quelque
+                    <lb/>temps les tourmens des damnez ; &amp; <note type="margin">
+                        <ref type="other">
+                            <hi rend="I">ibid</hi>. <hi rend="I">c</hi>. 23.</ref>
+                        <hi rend="I">Voyez <lb/>aussi </hi>
+                        <ref type="other">
+                            <hi rend="I">Enchir. <lb/>c 67.</hi>
+                        </ref>
+                    </note>
+                    <lb/>d'autres enfin, qui flattoyent d'une pareille
+                    <lb/>esperance ceux,qui donnent l'aumosne
+                    <lb/>quelque meschantes &amp; corrompuës, <fw place="bot-right" type="catch">puës,</fw>
+                    <pb n="42"/>
+                    <lb/>que soyent leurs mœurs ; Et ne
+                    <lb/>croyez pas qu'il n'y eust que quelques
+                    <lb/>ignorans du menu peuple , qui eussent
+                    <lb/>ces fantaisies si étranges. Il en paroit des
+                    <lb/>traces bien claires dans quelques vns
+                    <lb/>mesmes des Docteurs, dont les écrits
+                    <lb/> <note xml:id="mn_42_1" type="margin" n="*"><ref type="other">
+                            <hi rend="I">Hier. a <lb/>la fin de <lb/>son comment. <lb/>sur Esaïe.</hi>
+                        </ref>
+                        <hi rend="I"> Et </hi>
+                        <ref type="other">
+                            <lb/><hi rend="I">L. I. cõtr. <lb/>Pelag. <lb/>T.2.p.97. <lb/>med.</hi>
+                        </ref>
+                        <hi rend="I"> &amp; <lb/>dans </hi>
+                        <ref type="other">
+                            <hi rend="I">S.<lb/> Ambr. le <lb/>commẽt. <lb/>sur I. Cor. <lb/>3.I5. &amp; <lb/>2.
+                                Tim.2.<lb/>26.</hi>
+                        </ref>
+                        <hi rend="I"> &amp; dãs </hi>
+                        <ref type="other">
+                            <lb/><hi rend="I">S. Aug. <lb/>les <lb/>Quaest. sur le V. <lb/>Test. Q. <lb/>III. I26.</hi>
+                        </ref>
+                       
+                        <ref type="other">
+                            <hi rend="I">Le Cõc.6. <lb/>de Paris <lb/>rapporte <lb/>&amp; refute <lb/>cette erreur.
+                                <lb/>L.2.<lb/>c.9.T.2. <lb/>des Conc. <lb/>des Gaul.</hi>
+                        </ref>
+                    </note>
+                    sont venus jusques a nous. <ref target="#mn_42_1" type="noteAnchor">*</ref>Et il y a grand
+                    <lb/>apparence, que de la troisiesme &amp; quatriesme
+                    <lb/>erreur, s'est peu a peu formée
+                    <lb/>entre les Latins l'opinion du Purgatoire,
+                    <lb/>en les ramenant vn peu des extremitez
+                    <lb/>où elles s'emportoyent , &amp; resserrant
+                    <lb/>les excés de leur indulgence. Au
+                    <lb/>moins est il bien certain, par les choses
+                    <lb/>que S. Augustin rapporte que les vns
+                    <lb/>&amp; les autres bâtissent leurs doctrines sur
+                    <lb/>les mesmes fondemens &amp; abusent des
+                    <lb/>mesmes passages pour les soûtenir. Mais
+                    <lb/>S. Paul refute icy clairement ces opiniõs
+                    <lb/>&amp; les vaines esperances dont se flattent
+                    <lb/>les Chrétiens charnels. Il établit par l'exemple
+                    <lb/>de ces anciens Israëlites, qu'en
+                    <lb/>quelque lieu, &amp; en quelque communion,
+                    <lb/>que nous ayons receu les declarations
+                    <lb/>de la grace de Dieu en Iesus Christ, c'est
+                    <lb/>a dire sa parole &amp; ses Sacremens, nous
+                    <lb/>n'entrerõs pas pour cela dans son royaume,
+                    <lb/>si nous n'en avons fait nôtre profit, <fw place="bot-right" type="catch">vi-</fw>
+                    <pb n="43"/>
+                    <lb/>vivant sincerement &amp; constamment
+                    <lb/>dans la foy de sa verité &amp; dans l'obeïssance
+                    <lb/>de sa discipline. Car comme le
+                    <lb/>desert des peres étoit la figure de cette
+                    <lb/>terre où nous vivons, ainsi le pays de
+                    <lb/>Canaan où ils alloyent, étoit le type du
+                    <lb/>royaume celeste auquel nous aspirons.
+                    <lb/>Comme donc ceux des Israëlites , qui
+                    <lb/>après avoir veu &amp; receu les anciens sacremens
+                    <lb/>de Moïse, tenterent Dieu &amp;
+                    <lb/>murmurerent contre luy, &amp; desobeïrent
+                    <lb/>a sa voix, furent exclus pour jamais du
+                    <lb/>pays promis a leurs peres ; Pas vn d'eux
+                    <lb/>ne le vit, ny avec Iosué &amp; Caleb, ny depuis ;
+                    <lb/>il faut tenir pour certain &amp; indubitable,
+                    <lb/>que tout de mesme maintenant
+                    <lb/>des Chrétiens charnels, qui aprés avoir
+                    <lb/>participé aux sacremens de la nouvelle
+                    <lb/>alliance menent vne vie mondaine &amp;
+                    <lb/>scandaleuse, pas vn n'entrera dans le
+                    <lb/>royaume celeste, ny au sortir de ce siecle
+                    <lb/>ny en l'autre. Ce n'est pas icy seulement
+                    <lb/>que l'Apôtre explique ainsi cette
+                    <lb/>ancienne figure ; Il l'entend tout de
+                    <lb/>mesme dans le troisiesme chapitre de
+                    <lb/>l'epitre aux Ebreux ; Concluant de l'exemple <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Heb.3.4">
+                            <hi rend="I">Hebr.</hi> 3. <lb/>&amp; 4.</ref>
+                    </note>
+                    <lb/>des incredules &amp; murmurateurs
+                    <lb/>d'Israël exclus du repos de Dieu en Canaan, <fw place="bot-right" type="catch">naan,</fw>
+                    <pb n="44"/>
+                    <lb/>que ceux des Chrétiens qui se seront
+                    <lb/>endurcis par la seduction du peché,
+                    <lb/>seront pareillement privez pour jamais
+                    <lb/>du grand &amp; bien - heureux repos , que
+                    <lb/>nous attendons dans le royaume de Iesus
+                    <lb/>Christ. S. Iude nous represente
+                    <lb/>semblablement ce vieux exemple avecque
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Jude.1.5">
+                            <hi rend="I">Iud</hi>.4.5.</ref>
+                    </note> le mesme dessein, <quote source="bible1588.xml#Jude.1.5">
+                        <hi rend="I">Vous sçavez </hi><seg type="interpolation">(dit-il) </seg>
+                        <lb/>
+                        <hi rend="I">que le Seigneur ayant delivré le peuple
+                            <lb/>du Pays d'Egypte, detruisit puis apres ceux
+                            <lb/>qui n'avoyent point creu</hi>
+                    </quote>
+                    <hi rend="I"> </hi>, pour nous apprendre,
+                    <lb/>que tous ceux, qui dans la profession
+                    <lb/>du Christianisme, auront vescu
+                    <lb/>sans pieté &amp; changé la grace de Dieu en
+                    <lb/>dissolution, tomberont inevitablement
+                    <lb/>dans vne semblable destruction &amp; dannation.
+                    <lb/>Mais le Sauveur du monde prononce
+                    <lb/>encore plus clairement, que pour
+                    <lb/>entrer en son royaume, il ne sert de rien
+                    <lb/>de luy dire, <quote source="bible1588.xml#Matt.7.21">
+                        <hi rend="I">Seigneur, Seigneur</hi>
+                    </quote>, c'est a dire
+                    <lb/>de faire profession de la bouche de le
+                    <lb/>reconnoistre pour nôtre Maistre si <quote source="bible1588.xml#Matt.7.21">
+                        <hi rend="I">avec
+                            <lb/>cela nous ne faisons la volonté de son Pere
+                            <lb/>celeste</hi>
+                    </quote>, qui est nôtre sanctification que
+                    <lb/>nous vivions saintement &amp; innocemment :
+                    <lb/>sans cela nos sacremens nos discours,
+                    <lb/>nos sciences, nos miracles mesmes,
+                    <lb/>quand nous en ferions autant que <fw place="bot-right" type="catch">ses</fw>
+                    <pb n="45"/>
+                    <lb/>ses Apôtres, ne nous serviront de rien.
+                    <lb/>A ceux qui luy allegueront simplement,
+                    <lb/>qu'ils ont receu son battesme &amp; participé
+                    <lb/>a sa table sacrée,&amp; écouté son Evangile
+                    <lb/>dans les assemblées de son peuple,
+                    <lb/>mais ce qui est bien plus encore, qu'ils
+                    <lb/>ont mesmes prophetisé, jetté hors les <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Matt.7.21-23">
+                            <hi rend="I">Math</hi>. 7. <lb/>21.22.23</ref>
+                    </note>
+                    <lb/>diables &amp; fait plusieurs vertus en son nom,
+                    <lb/>il répondra, comme il nous le dit
+                    <lb/>dans le mesme lieu ; <quote source="bible1588.xml#Matt.7.21-23">
+                        <hi rend="I">Ie ne vous ay jamais
+                            <lb/>connus, Departez vous de moy, ouvriers d'iniquité</hi>
+                    </quote>.
+                    <lb/>Prenons donc garde a nous Freres
+                    <lb/>bien aymez , &amp; faisant état selon
+                    <lb/>cette doctrine divine , que personne
+                    <lb/>sans la sanctification ne verra Dieu &amp;
+                    <lb/>le royaume de son Fils, cheminons devant
+                    <lb/>luy avec reverence &amp; nous employons
+                    <lb/>a nôtre salut avec crainte &amp;
+                    <lb/>tremblement ; renonçant a l'impieté &amp;
+                    <lb/>aux convoitises mondaines, &amp; purifiant
+                    <lb/>nos ames &amp; nôtre conversation entiere
+                    <lb/>de toutes les ordures du vice, afin que
+                    <lb/>nôtre Sauveur nous avouë &amp; reconnoisse
+                    <lb/>pour ses vrays Israëlites a qui il donnera
+                    <lb/>sa paix, sa vie &amp; sa gloire. <hi rend="I">Amen</hi>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

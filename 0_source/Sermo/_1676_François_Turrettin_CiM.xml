@@ -1,0 +1,2790 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1676_François_Turrettin_CiM">
+            <titleStmt>
+                <title type="sermon">LE BONHEVR DV PEVPLE DE DIEV, OV SERMON SUR CES Paroles du Ps. XXXII. verset 12. ...</title>
+                <title type="book">SERMONS SUR DIVERS PASSAGES DE L’ECRITVRE SAINTE, 
+                    Par FRANCOIS TVRRETTIN Ministre du Saint Evangile, &amp; Professeur en Theologie. A GENEVE, Chez Samvel De Tovrnes. M. DC. LXXVI.
+                </title>
+                <author ref="...">François Turrettin</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="CiM">Cinthia MELI</persName>
+                        <email>cinthia.meli@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>François Turrettin</author>
+                        <title>SERMONS SUR DIVERS PASSAGES DE L’ECRITVRE SAINTE</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Samuel de Tournes</publisher>
+                            <date>1676</date>
+                            <date type="sermon"/>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">http://doc.rero.ch/record/12383</idno>
+                    <idno type="source">Bibliothèque de Genève, Cote BGE CPs 704</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">sermon_thématique</term>
+                    <term type="sermonTheme">le bonheur du peuple de Dieu</term>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">10</term>
+                    <term type="typeOfCollection"/>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">Ps.32.12</term>
+                    <term type="paratext" subtype="epistle">A MADAME LA MARESCHALE DE SCHOMBERG.</term>
+                    <term type="paratext" subtype="tableOfContents">TABLE DES SERMONS contenus en ce LIVRE.</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français classique</language>
+                <language ident="he">hébreu</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-06-24" who="#LjD">transformation word - XML</change>
+            <change when="2016-06-24" who="#MAG">Verification, citations</change>
+            <change when="2016-05-31 " who="#CiM">Transcription word</change>
+            <change when="2016-08-30" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>SERMONS
+                    <lb/>
+                    <hi rend="I">SVR</hi>
+                    <lb/>DIVERS PASSAGES
+                    <lb/>
+                    <hi rend="I">DE</hi>
+                    <lb/>L'ECRITVRE SAINTE,
+                    <lb/>
+                    <hi rend="I">Par</hi>
+                    <lb/>FRANCOIS TVRRETTIN
+                    <lb/>MINISTRE du Saint EVANGILE, &amp;
+                    <lb/>Professeur en Theologie. <figure/>
+                    <lb/>
+                    <lb/>
+                    <hi rend="I">A GENEVE,</hi>
+                    <lb/>Chez SAMVEL DE TOVRNES.
+                    <lb/>
+                    <hi rend="I">M. DC. LXXVI.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <head type="main">
+                    <lb/>LE BONHEVR<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>
+                    <hi rend="I">DV</hi>
+                    <lb/>PEVPLE DE DIEV,
+                    <lb/>
+                    <hi rend="I">OV</hi>
+                    <lb/>SERMON SUR CES
+                    <lb/>Paroles du <ref type="bible" target="bibleSegond21.xml#Ps.33.12">Ps. XXXII.
+                        <lb/>verset 12.</ref>
+                    <lb/>
+                    <lb/>
+                    <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">O que bienheureuse est la Nation de laquelle
+                            <lb/>l'Eternel est le Dieu, &amp; le Peuple qu'il
+                            <lb/>s'est choisi pour heritage</hi></quote><hi rend="I">!</hi>
+                </head>
+                <p n="1">
+                    <lb/>
+                    <c type="lettrine">L</c>'HISTOIRE Sainte
+                    <lb/>nous apprend , que la
+                    <lb/>Reine de Sçeba ayant
+                    <lb/>ouï parler de la gloire
+                    <lb/>de Salomon , eut la curiosité
+                    <lb/>de le voir, &amp; qu'étant
+                    <lb/>venuë à Ierusalem , elle fut bien <fw place="bot-right" type="catch">surprise</fw>
+                    <pb n="2"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>surprise de trouver , que la Renommée,
+                    <lb/>qui, pour l'ordinaire, exaggere les choses
+                    <lb/>au delà de ce qu'elles sont , ne luy avoit
+                    <lb/>pas dit la moitié de ce qu'il y avoit en effet.
+                    <lb/>Elle eut tant de plaisir d'entendre
+                    <lb/>les discours judicieux de ce sage Prince,
+                    <lb/>&amp; de voir la magnificence de sa Cour,
+                    <lb/>les services de sa table , &amp; l'ordre merveilleux
+                    <lb/>de ses Officiers , qu'elle ne pût
+                    <lb/>s'empêcher de s'écrier toute ravie en admiration ;
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Kgs.10.8">I. <hi rend="I">Rois</hi> <lb/>10. 8.</ref>
+                    </note>
+                    <quote source="bible1588.xml#_1Kgs.10.8">
+                        
+                        <hi rend="I">O que bienheureux sont tes gens,
+                            <lb/>que bienheureux sont ces tiens Serviteurs,
+                            <lb/>qui aßistent continuellement devant toi
+                            <lb/>oyant ta sapience</hi></quote> <hi rend="I">! </hi>
+                     Mes Freres, si cette
+                    <lb/>Auguste Reine avoit quelque raison de
+                    <lb/>tenir ce langage des serviteurs de Salomon,
+                    <lb/>qui n'estoit qu'un homme mortel,&amp;
+                    <lb/>qu'un Prince de la terre;Que ne devons
+                    <lb/>nous dire des fideles qui sont dans le Regne
+                    <lb/>de la Grace,de ceux que le Dieu du
+                    <lb/>Ciel &amp; de la terre reçoit dans sa Maison,
+                    <lb/>&amp; à qui il fait l'honneur de les choisir,
+                    <lb/>non seulement pour ses serviteurs &amp; ses
+                    <lb/>domestiques, qui assistent continuellement
+                    <lb/>devant luy;mais afin de les élever à
+                    <lb/>la dignité de ses enfans , pour être avec
+                    <lb/>luy assis à sa table &amp; pour avoir part à
+                    <lb/>toutes ses graces ? Certainement il faut <fw place="bot-right" type="catch">avouër</fw>
+                    <pb n="3"/>
+                    <lb/>avouër qu'il y a icy plus que<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>Salomon, &amp; que tout ce qu'on voyoit là
+                    <lb/>de plus glorieux &amp; de plus éclattant,
+                    <lb/>n'est qu'une ombre fort obscure &amp; fort
+                    <lb/>imparfaite de la merveille de ce bonheur.
+                    <lb/>Car quelque avantage qu'on pût
+                    <lb/>avoir dans la Cour de ce grand Prince ;
+                    <lb/>il est vray qu'on n'y pouvoit point
+                    <lb/>trouver de solide felicité ; &amp; les tristes
+                    <lb/>marques qu'il a données de son déreglement,
+                    <lb/>n'ont que trop fait voir sa foiblesse.
+                    <lb/>Mais il en est bien autrement de Dieu
+                    <lb/>que nous adorons , qui est le Roy des
+                    <lb/>Rois &amp; le Seigneur des Seigneurs:Comme
+                    <lb/>il est tout-puissant &amp; tout sage &amp; la
+                    <lb/>source inépuisable de tout bien ; il n'est
+                    <lb/>pas possible d'entrer dans son alliance,
+                    <lb/>&amp; d'estre receu dans sa communion, sans
+                    <lb/>estre parfaitemẽt heureux. Et au lieu qu'õ
+                    <lb/>ne peut chercher le bonheur que vainement
+                    <lb/>dans les Creatures,parce qu'elles ne
+                    <lb/>sont que vanité &amp; rongement d'esprit ;
+                    <lb/>on ne manque jamais de trouver dans sa
+                    <lb/>possession tout ce qu'on peut souhaiter
+                    <lb/>de contentement &amp; de joye ; parce qu'il
+                    <lb/>n'y a que luy seul,qui estant un Estre éternel
+                    <lb/>&amp; infini, puisse remplir la vaste capacité
+                    <lb/>de nos desirs &amp; nous mettre dans <fw place="bot-right" type="catch">la</fw>
+                    <pb n="4"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>la jouïssance du souverain bien. Aussi
+                    <lb/>l'ame fidele ne l'a pas si tôt rencontré,
+                    <lb/>qu'elle s'y arrête uniquement;&amp; en étant
+                    <lb/>parfaitement satisfaite, elle ne peut s'empêcher
+                    <lb/>de s'écrier avec un saint transport
+                    <lb/>de joye, <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">O que bienheureuse est la nation,
+                            <lb/>de laquelle l'Eternel est le Dieu, &amp; le peuple
+                            <lb/>qu'il s'est choisi pour heritage</hi>
+                    </quote>. C'est l'Oracle
+                    <lb/>que vous venez d'entendre , Mes
+                    <lb/>Freres , de la bouche d'un grand Roy &amp;
+                    <lb/>d'un excellent Prophete, qui justifie clairement
+                    <lb/>ce que nous venons de vous dire
+                    <lb/>du bonheur de ceux que Dieu a pris pour
+                    <lb/>son peuple , &amp; de l'avantage merveilleux
+                    <lb/>que les fideles rencontrent dans la
+                    <lb/>communion de ce bienheureux Seigneur ;
+                    <lb/>Et c'est ce qui fait sans doute le
+                    <lb/>principal sujet de ce saint Cantique ; car
+                    <lb/>quoy que le Psalmiste ait bien pour but
+                    <lb/>d'exhorter les fideles à benir Dieu pour
+                    <lb/>les merveilles qu'il a faites dans le monde
+                    <lb/>par la Creation , &amp; pour celles qu'il y
+                    <lb/>déploye tous les jours dans la conduite
+                    <lb/>de sa Providence , comme il en a parlé
+                    <lb/>dans les versets precedens ; Il est certain
+                    <lb/>pourtant que le principal motif qu'il en
+                    <lb/>prend est tiré de l'œuvre admirable de la
+                    <lb/>Redemption , &amp; du privilege glorieux <fw place="bot-right" type="catch">qu'il</fw>
+                    <pb n="5"/>
+                    <lb/>qu'il donne à son Eglise,la recevant dans<note type="margin">Sermon
+                       <lb/> I.</note>
+                    <lb/>son alliance. C'est pourquoy aprés avoir
+                    <lb/>parlé dans le verset precedent de l'immuable
+                    <lb/>fermeté du conseil de Dieu,&amp; <quote source="bible1588.xml#Ps.33.11">
+                        <hi rend="I">de
+                            <lb/>ses desseins qui durent d'âge en âge</hi>
+                    </quote>;il en tire
+                    <lb/>l'assurãce infaillible de nôtre bonheur;&amp;
+                    <lb/>pour faire voir qu'il n'y a rien qui le touche
+                    <lb/>si sensiblement , ny qu'il medite avec
+                    <lb/>plus de joye ; il ne s'en exprime qu'en
+                    <lb/>termes d'admiration. <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">O que bienheureuse
+                            <lb/>est la nation de laquelle l'Eternel est le Dieu,
+                            <lb/>&amp; le peuple qu'il s'est choisi pour heritage</hi></quote><hi rend="I">!</hi>
+                    <lb/>Nous avons crû, que puis que la Providence
+                    <lb/>de Dieu nous appelloit aujourd'huy
+                    <lb/>à vous porter la Parole d'exhortation;
+                    <lb/>nous ne pouvions vous entretenir
+                    <lb/>d'aucune doctrine plus importante ny
+                    <lb/>plus necessaire, que de l'Alliance bienheureuse
+                    <lb/>que Dieu a daigné traitter avec
+                    <lb/>nous , &amp; des grands avantages qu'elle
+                    <lb/>nous procure. Et quoy que la devotion
+                    <lb/>&amp; le zele que vous avez accoûtumé de
+                    <lb/>faire paroître dans ces saints exercices,
+                    <lb/>nous persuade assez que vous estes déjà
+                    <lb/>tout disposez à écouter ce que ce Saint
+                    <lb/>Prophete nous veut apprendre ; Nous
+                    <lb/>ne laissons pas de vous demander encore,
+                    <lb/>Mes Freres , vôtre religieuse attention <fw place="bot-right" type="catch">pour</fw>
+                    <pb n="6"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>pour profiter de ces salutaires veritez;
+                    <lb/>&amp; sur tout le secours de vos prieres,
+                    <lb/>pour implorer avec nous la grace du
+                    <lb/>S. Esprit ; afin que ce grand Docteur de
+                    <lb/>verité adresse tellement les pensées de
+                    <lb/>nos cœurs &amp; les paroles de nôtre bouche ,
+                    <lb/>que nous n'avancions rien sur une
+                    <lb/>matiere si importante , qui ne soit à la
+                    <lb/>gloire de Dieu , &amp; à vôtre edification.
+                    <lb/>Pour nous, si le Seigneur nous en fait la
+                    <lb/>grace , nous tâcherons de vous montrer
+                    <lb/>le sens &amp; la verité de cet Oracle , dans
+                    <lb/>l'examen des deux principales parties
+                    <lb/>qu'il renferme ; Dans l'une nous verrons
+                    <lb/>la nature de cette divine Alliance , &amp; ce
+                    <lb/>qu'emporte cet admirable privilege que
+                    <lb/>
+                    <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">Dieu est nôtre Dieu, &amp; qu'il nous choisit
+                            <lb/>pour son heritage</hi>
+                    </quote>; Dans l'autre nous considererons
+                    <lb/>le bonheur de ceux ausquels
+                    <lb/>ce privilege est accordé , &amp; pourquoy on
+                    <lb/>en doit faire le jugement que fait le
+                    Psalmiste.<!--CiM : Il s'agit là de la division du sermon, qu'il faudrait baliser comme telle.-->
+                </p>
+                <p n="2">
+                    <lb/>Quoy que Dieu ait donné de tout
+                    <lb/>tems à son Eglise un grand nombre de
+                    <lb/>belles &amp; de riches promesses pour sa consolation ;
+                    <lb/>il faut avouër pourtant , Mes
+                    <lb/>Freres, qu'il n'y en a point de plus grande
+                    <lb/>ny de plus glorieuse que celle,par laquelle <fw place="bot-right" type="catch">il</fw>
+                    <pb n="7"/>
+                    <lb/>il l'assure qu'il veut estre son Dieu , &amp;<note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>qu'il l'a prise pour son heritage. C'est le
+                    <lb/>centre où toutes les autres vienent
+                    <lb/>aboutir ; C'est l'appuy inébranlable de
+                    <lb/>nôtre foy &amp; de nôtre esperance ; C'est la
+                    <lb/>source de toutes les benedictions que
+                    <lb/>Dieu nous donne dans la grace , &amp; que
+                    <lb/>nous attendons dans la gloire ; En un
+                    <lb/>mot , c'est l'ame de l'alliance , &amp; de la
+                    <lb/>mouëlle de tout l'Evangile : Et si nôtre
+                    <lb/>Seigneur, en parlant de l'amour de Dieu,
+                    <lb/>dit que c'est le premier &amp; le plus grand commandement ;
+                    <lb/>nous pouvons bien dire
+                    <lb/>de cette promesse , que c'est la grande
+                    <lb/>promesse de Dieu, qui est le fondement
+                    <lb/>&amp; l'abregé de toutes les autres. Aussi il
+                    <lb/>n'y en a point qui soit si souvent reïterée
+                    <lb/>en l'Ecriture , tant de l'Ancien que du N.
+                    <lb/>Testamẽt, devant la Loy,sous la Loy,sous
+                    <lb/>la Grace,&amp; qui s'étend méme jusqu'à la
+                    <lb/>Gloire. Ce sont les termes de l'Alliance
+                    <lb/>que Dieu traitta au commencement avec
+                    <lb/>Abraham; <quote source="bible1588.xml#Gen.17.7">
+                        <hi rend="I">I'établiray mon alliance,
+                        </hi><seg type="interpolation">dit-il,</seg>
+                        <lb/>
+                        <hi rend="I">entre moy &amp; toy &amp; entre ta posterité aprés</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Gen.17.7">
+                                <hi rend="I">Gen. </hi>15. <lb/>7.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">toy, afin que je te sois Dieu , &amp; à ta posterité
+                            <lb/>aprés toy</hi>
+                    </quote> ; d'où vient qu'il s'appelle si souvent
+                    <lb/>le Dieu d'Abraham , d'Isaac &amp; de
+                    <lb/>Iacob. C'est ce qu'il confirme au peuple <fw place="bot-right" type="catch">d'Israël</fw>
+                    <pb n="8"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>d'Israël par Moyse en donnant sa Loy;
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Exod.20.2">
+                            <hi rend="I">Exode <lb/>20 . 2</hi>
+                        </ref>
+                        <hi rend="I"> &amp; </hi>
+                        <lb/><ref type="bible" target="bibleSegond21.xml#Exod.29.45">
+                            <hi rend="I">29. 45</hi>
+                        </ref>
+                    </note>
+                    <quote source="bible1588.xml#Exod.20.2">
+                        <hi rend="I">Ecoute Israël , je suis l'Eternel ton Dieu</hi>
+                    </quote> ; &amp;
+                    <lb/>ailleurs ; <quote source="bible1588.xml#Exod.29.45">
+                        <hi rend="I">I'habiteray au milieu des enfans
+                            <lb/>d'Israël, &amp; je leur seray Dieu</hi>
+                    </quote> : Ieremie en
+                    <lb/>parlant de la nouvelle alliance que Dieu
+                    <lb/>devoit faire avec son Eglise au tems du
+                    <lb/>Messie , l'exprime de la même sorte ;
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Jer.31.33">
+                            <hi rend="I">Ier.</hi> 31.33.</ref>
+                    </note>
+                    <quote source="bible1588.xml#Jer.31.33">
+                        <hi rend="I">C'est icy l'Alliance que je traitteray avec la
+                            <lb/>maison d'Israël aprés ces jours-là, dit l'Eternel;
+                            <lb/>Ie mettray ma Loy au dedans d'eux, &amp;
+                            <lb/>je l'écriray en leurs cœurs ; Ie leur seray Dieu
+                            <lb/>&amp; ils me seront peuple</hi>
+                    </quote>. Et S. Paul faisant
+                    <lb/>voir l'accomplissement de cette promesse
+                    <lb/>dans le Nouveau Testament reïtére
+                    <lb/>la même verité dans son epître aux
+                    <lb/>Hebreux &amp; dans la seconde aux Corinthiens ;
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_2Cor.6.16">2. <hi rend="I">Cor. </hi>6. <lb/>16</ref>
+                    </note>
+                    <quote source="bible1588.xml#_2Cor.6.16">
+                        <hi rend="I">C'est ce que Dieu a dit , I'habiteray
+                            <lb/>au milieu d'eux, &amp; y chemineray , je leur
+                            <lb/>seray Dieu , &amp; il me seront peuple</hi>
+                    </quote>. Et pour
+                    <lb/>nous assurer qu'elle ne s'arrête pas en
+                    <lb/>cette vie , mais qu'elle passe jusques dans
+                    <lb/>l'éternité , S. Iean nous en declare l'accomplissement
+                    <lb/>dans l'Eglise triomphante:
+                    <lb/>Car aprés avoir representé la gloire de la
+                    <lb/>Ierusalem celeste , il dit au <ref type="bible" target="bibleSegond21.xml#Rev.21">chap. 21 de
+                        <lb/>l'Apocalypse</ref> qu'il ouït une voix du ciel
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rev.21.3">
+                            <hi rend="I">Apoc</hi>. 21. <lb/>3</ref>
+                    </note>disant ; <quote source="bible1588.xml#Rev.21.3">
+                        <hi rend="I">Voici le tabernacle de Dieu avec les 
+                            <lb/>hommes, &amp; il habitera
+                            avec eux &amp; ils seront</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">son</hi>
+                        </fw>
+                        <pb n="9"/>
+                        <lb/>
+                        <hi rend="I">son peuple, &amp; Dieu luy mesme sera leur Dieu</hi>
+                        <note type="margin">Sermon <lb/>I.</note>
+                        <lb/>
+                        <hi rend="I">avec eux</hi>
+                    </quote> : d'où il n'est pas malaisé de juger
+                    <lb/>déja de l'importance de cette promesse :
+                    <lb/>mais nous la comprendrons
+                    <lb/>mieux , quand nous en aurons examiné
+                    <lb/>de plus prés le sens. Ie say bien
+                    <lb/>qu'on peut dire en general , que Dieu
+                    <lb/>est le dieu de tous les hommes du
+                    <lb/>monde , parce qu'il les a creés , &amp; qu'il
+                    <lb/>les conserve par sa puissance , &amp; parce
+                    <lb/>qu'il leur donne tous les jours divers
+                    <lb/>témoignages de sa bonté. Mais comme
+                    <lb/>le Prophete nous represente sous ces
+                    <lb/>termes quelque privilege particulier à
+                    <lb/>une nation , qui n'a pas lieu à l'égard des
+                    <lb/>autres ; ce n'est pas en ce sens qu'il le
+                    <lb/>faut entendre ; à cet égard Dieu n'est
+                    <lb/>pas le Dieu de quelque nation seulement ,
+                    <lb/>mais de tout autant qu'il y en a
+                    <lb/>sur la terre ; il l'est des Gentils aussi
+                    <lb/>bien que des Iuifs ; &amp; des reprouvez &amp;
+                    <lb/>des infideles, de même que des Fideles
+                    <lb/>&amp; des Elûs ; &amp; ces benedictions temporelles
+                    <lb/>qu'il répand sur la foule des hommes
+                    <lb/>n'empêchent pas qu'il ne les regarde
+                    <lb/>avec indignation &amp; qu'il ne les
+                    <lb/>poursuive en sa colere, pour les punir de
+                    <lb/>leurs crimes. I'avouë encore qu'on le <fw place="bot-right" type="catch">pourroit</fw>
+                    <pb n="10"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>pourroit bien rapporter en quelque
+                    <lb/>sorte au privilege que Dieu avoit donné
+                    <lb/>autrefois à Israël, &amp; à la protection dont
+                    <lb/>il se favorisoit à l'exclusion de tous les autres
+                    <lb/>peuples de la terre : Vous savez que
+                    <lb/>c'est luy qu'il avoit choisi particulierement
+                    <lb/>pour luy étre un peuple peculier &amp;
+                    <lb/>une nation sainte ; que c'est à luy qu'il
+                    <lb/>avoit donné ses statuts &amp; ses ordonnances ,
+                    <lb/>&amp; que c'est sur luy qu'il avoit déployé
+                    <lb/>les plus merveilleux effets de sa bonté
+                    <lb/>toute<supplied resp="#CiM" reason="omission"> </supplied>puissante ; c'est pour cela
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Deut.32.9">
+                            <hi rend="I">Deut.</hi> 32.<lb/>9.</ref>
+                    </note> qu'il s'appelle le <quote source="bible1588.xml#Deut.32.9">
+                        <hi rend="I">Dieu d'Israël</hi>
+                    </quote>, &amp; qu'il declare
+                    <lb/>qu'il l'a choisi pour son heritage &amp;
+                    <lb/>pour son plus precieux joyau , quoy que
+                    <lb/>toute la terre luy appartienne. Mais ce
+                    <lb/>n'est pas pourtant là que nous devons
+                    <lb/>nous arrêter pour trouver la verité de
+                    <lb/>l'Oracle du Prophete : quelque faveur
+                    <lb/>que Dieu luy eut fait dans cette dispensation
+                    <lb/>par dessus tous les peuples de la
+                    <lb/>terre ; il n'a pas laissé d'étre l'objet de sa
+                    <lb/>severe justice, quand il est venu à en abuser
+                    <lb/>par son ingratitude. Ie say bien qu'à
+                    <lb/>considerer les avantages que Dieu luy
+                    <lb/>avoit donnés, &amp; à regarder les merveilles
+                    <lb/>qu'il avoit faites en sa faveur , il ne se
+                    <lb/>pouvoit rien dire de plus heureux ; &amp; <fw place="bot-right" type="catch">Moyse</fw>
+                    <pb n="11"/>
+                    <lb/>Moyse avoit bien sujet de s'écrier. <quote source="bible1588.xml#Deut.33.29">
+                        <hi rend="I">O que</hi>
+                        <note type="margin">Sermon <lb/>I.</note>
+                        <lb/>
+                        <hi rend="I">tu es bienheureux Israël! qui est le peuple</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Deut.33.29">
+                                <hi rend="I">Deut. </hi> 33. <lb/>29.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">semblable à toy</hi></quote> <hi rend="I">?</hi>
+                     Ouï veritablement heureux
+                    <lb/>peuple, s'il eut été fidele à son Dieu,
+                    <lb/>&amp; s'il eut reconnu par son obeïssance ce
+                    <lb/>qu'il devoit à son bienfaiteur : il eut
+                    <lb/>été les delices du Ciel , &amp; l'admiration
+                    <lb/>de la Terre. Mais dez qu'il a oublié ce
+                    <lb/>qu'il devoit à son Dieu, &amp; qu'il s'est rebellé
+                    <lb/>contre luy, n'est-il pas devenu le
+                    <lb/>plus malheureux peuple de la terre , persecuté
+                    <lb/>des hommes,abandonné de Dieu,
+                    <lb/>&amp; reduit dans la plus lamentable condition
+                    <lb/>qui fût jamais ; de sorte que l'on ne
+                    <lb/>voit plus que des restes déplorables de
+                    <lb/>cette ingrate nation dispersée par toute
+                    <lb/>la terre, qui sont un horrible spectacle de
+                    <lb/>la vengeance &amp; de la malediction de
+                    <lb/>Dieu. Ce n'est donc pas encore à cet
+                    <lb/>égard qu'il faut entendre cet Oracle ; Si
+                    <lb/>nous en voulons trouver l'accomplissement ;
+                    <lb/>il faut que nous passions plus
+                    <lb/>avant , &amp; que nous le rapportions à un
+                    <lb/>sens tout Evangelique ; je veux dire pour
+                    <lb/>nous marquer l'Alliance de la Grace que
+                    <lb/>Dieu a voulu contracter dez le commencement
+                    <lb/>avec son Eglise en son Fils, pour
+                    <lb/>la delivrer de sa misere , &amp; pour l'élever <fw place="bot-right" type="catch">à la</fw>
+                    <pb n="12"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>à la possession de l'éternelle felicité. Car
+                    <lb/>c'est alors qu'étant entré dans une sainte
+                    <lb/>confederation avec ses fideles, au lieu de
+                    <lb/>la triste separation que le peché avoit fait
+                    <lb/>entre luy &amp; nous, il les a voulu unir à soy-
+                    <lb/>même &amp; se donner à eux ; non pas seulement
+                    <lb/>en qualité de Createur comme
+                    <lb/>dans la Nature,ou de Legislateur comme
+                    <lb/>sous la Loy ; mais de Redempteur &amp; de
+                    <lb/>Pere , qui aprés les avoir delivré de leurs
+                    <lb/>pechez &amp; de leurs miseres , ne manquera
+                    <lb/>pas de les amener à la jouïssance de sa
+                    <lb/>gloire. C'est en ce sens qu'il est appellé
+                    <lb/>proprement le Dieu de son peuple , non
+                    <lb/>pas seulement à l'égard du soin general
+                    <lb/>qu'il en a par sa providence, mais principalement
+                    <lb/>par l'amour special qu'il luy
+                    <lb/>témoigne par sa grace ; non pas pour
+                    <lb/>les biens temporels &amp; terriens , qu'il luy
+                    <lb/>communique de même qu'au reste des
+                    <lb/>hommes ; mais sur tout pour les biens
+                    <lb/>spirituels &amp; celestes , dont il le fait participant
+                    <lb/>à l'exclusion de tous les autres. Il
+                    <lb/>n'y a point de graces ny de benedictions
+                    <lb/>salutaires , que cette expression ne renferme.
+                    <lb/>Quand vous direz que Dieu est
+                    <lb/>nôtre lumiere , &amp; nôtre vie , nôtre bouclier
+                    <lb/>&amp; nôtre force,nôtre Redempteur &amp; <fw place="bot-right" type="catch">nôtre</fw>
+                    <pb n="13"/>
+                    <lb/>nôtre Pere ; vous aurez dit beaucoup<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>sans doute : mais vous n'aurez rien dit
+                    <lb/>pourtant qui ne soit tout compris dans
+                    <lb/>ce seul mot , que Dieu est nôtre Dieu ;
+                    <lb/>Car si cela est , il n'y a rien en Dieu
+                    <lb/>qui ne soit à nous ; tout ce qu'il est
+                    <lb/>dans sa nature &amp; dans ses incomprehensibles
+                    <lb/>vertus nous appartient ; nous
+                    <lb/>jouïssons de tous ses biens ; &amp; il ne déploye
+                    <lb/>aucune merveille dans la nature ou
+                    <lb/>dans la grace , qui ne contribuë à nôtre
+                    <lb/>bonheur. Et si vous voulez en considerer
+                    <lb/>plus distinctement l'êtenduë,faites reflexion
+                    <lb/>sur ces trois incomparables avantages
+                    <lb/>qui nous y sont representez, <hi rend="I">l'Vnion
+                        <lb/>avec Dieu, la Communion à ses graces,
+                        <lb/>&amp; la Conformité à ses vertus </hi>; Car s'il est
+                    <lb/>nôtre Dieu nous ne devons pas douter
+                    <lb/>qu'il ne veuille s'unir à nous , pour nous
+                    <lb/>faire part de toutes ses graces, &amp; pour
+                    <lb/>nous rendre semblables à luy. Ie dis premierement
+                    <lb/>que cette promesse emporte
+                    <lb/>necessairement nôtre <hi rend="I">Vnion</hi> &amp; nôtre reconciliation
+                    <lb/>avec Dieu : Car, tandis qu'il
+                    <lb/>est separé de nous , &amp; que nous sommes
+                    <lb/>éloignez de luy ; que nous le considerons
+                    <lb/>comme un Iuge irrité , &amp; qu'il nous regarde
+                    <lb/>comme ses ennemis ; Nous ne <fw place="bot-right" type="catch">pouvons</fw>
+                    <pb n="14"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>pouvons pas dire qu'il soit nôtre Dieu,
+                    &amp;
+                    <lb/>que nous soyons son peuple ; mais dez
+                    <lb/>qu'il est appaisé &amp; reconcilié envers nous
+                    <lb/>en Iesus Christ , dez qu'il nous regarde
+                    <lb/>comme ses enfans , &amp; que nous le pouvons
+                    <lb/>contempler comme nôtre Pere ;
+                    <lb/>nous pouvons nous glorifier de luy appartenir
+                    <lb/>&amp; de le posseder. Et s'il est vray
+                    <lb/>que dans le mariage qui est la societé la
+                    <lb/>plus étroite qui se voye dans le monde,le
+                    <lb/>mari se donne à sa femme, &amp; que la femme
+                    <lb/>se donne à son mari ; pouvons-nous
+                    <lb/>douter que dans cette alliance bienheureuse
+                    <lb/>que Dieu fait avec nous , que l'Ecriture
+                    <lb/>represente souvent sous le symbole
+                    <lb/>de mariage , Dieu ne se donne tout
+                    <lb/>à nous , &amp; que nous ne devions aussi nous
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Song.2.16">
+                            <hi rend="I">Cant. </hi>2. <lb/>16.</ref>
+                    </note>donner tous entiers à luy ? <quote source="bible1588.xml#Song.2.16">
+                        <hi rend="I">Ie suis à mon
+                            <lb/>Bien-aimé</hi> <seg type="interpolation">dit l'Epouse au Cantique des
+                                <lb/>Cantiques ,</seg> <hi rend="I">&amp; mon Bien-aimé
+                            est à moy</hi>
+                    </quote>. 
+                    <lb/>Dieu nous regardant comme siens en
+                    <lb/>vertu du double droit qu'il a sur nous , &amp;
+                    <lb/>de la Creation &amp; de la <choice><sic>Redemtion</sic><corr resp="#CiM">Redemption</corr></choice>,&amp; par
+                    <lb/>la qualité de Pere &amp; de Mari qu'il a voulu
+                    <lb/>prendre ; nous le considerons aussi
+                    <lb/>comme nôtre en vertu de l'alliance qu'il
+                    <lb/>a daigné faire avec nous , par laquelle il
+                    <lb/>nous unit si étroitement à luy , que nous <fw place="bot-right" type="catch">pouvons</fw>
+                    <pb n="15"/>
+                    <lb/>pouvons dire en quelque sorte , que tout<note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>ce qu'il a est à nous , comme tout ce que
+                    <lb/>nous avons est à luy. Et cette union merveilleuse
+                    <lb/>n'a pas lieu seulement à l'égard
+                    <lb/>de la Divinité en general ; mais aussi de
+                    <lb/>chaque personne de la sainte Trinité en
+                    <lb/>particulier , avec qui nous avons une<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#John.1.3">I. <hi rend="I">Iean</hi> <lb/>1. 3.</ref>
+                    </note>
+                    <lb/>communion si intime , que comme nous-
+                    <lb/>nous glorifions de leur appartenir , nous
+                    <lb/>pouvons aussi nous assurer qu'elles nous
+                    <lb/>appartienne : C'est pour cela que
+                    <lb/>le Battême,qui est le seau de cette alliance,
+                    <lb/>nous est administré au Nom du Pere,
+                    <lb/>du Fils &amp; du S. Esprit,pour nous apprendre ,
+                    <lb/>que comme nous sommes engagez
+                    <lb/>par ce Sacrement au service de ces trois
+                    <lb/>Personnes Divines ausquelles nous sommes
+                    <lb/>consacrez ; elles nous promettent
+                    <lb/>aussi leur benediction &amp; leur grace , &amp;
+                    <lb/>s'engagent, s'il faut ainsi dire,à travailler
+                    <lb/>toutes trois à l'accomplissement de nôtre
+                    <lb/>salut. En effet elles s'y employent toutes
+                    <lb/>selon la diverse maniere d'agir qui leur
+                    <lb/>est attribuée ; Le Pere par sa grace , le
+                    <lb/>Fils par son merite , &amp; le S. Esprit par son
+                    <lb/>efficace ; Le Pere nous élit dans son Conseil ,
+                    <lb/>le Fils nous rachete sur la Croix, &amp;
+                    <lb/>le S. Esprit nous sanctifie dans nos cœurs ; <fw place="bot-right" type="catch">Le</fw>
+                    <pb n="16"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>Le Pere nous donne ses promesses,le Fils
+                    <lb/>les signe de son sang , &amp; le S. Esprit les
+                    <lb/>scelle de son seau;Le Pere nous destine le
+                    <lb/>salut, le Fils nous l'aquiert, &amp; le S. Esprit
+                    <lb/>nous l'applique ; Le Pere nous adopte
+                    <lb/>pour étre ses enfans , le Fils nous rachete
+                    <lb/>pour étre ses membres , &amp; le Saint Esprit
+                    <lb/>nous regenere pour étre ses Temples.
+                    <lb/>Ainsi nous devenons les objets de l'amour
+                    <lb/>de ces trois adorables Personnes;
+                    <lb/>&amp; comme le Pere prend un soin particulier
+                    <lb/>de nous comme de ses enfans , le
+                    <lb/>Fils &amp; le S. Esprit se donnent à nous avec
+                    <lb/>toutes leurs graces : Iesus Christ se fait
+                    <lb/>nôtre dans tous ses offices ; il est nôtre
+                    <lb/>Pleige pour satisfaire pour nous ; nôtre
+                    <lb/>Chef pour nous vivifier ; nôtre Prophete
+                    <lb/>pour nous promettre le salut dans sa parole ;
+                    <lb/>nôtre Sacrificateur pour nous le
+                    <lb/>meriter par son sang ; &amp; nôtre Roy pour
+                    <lb/>nous l'appliquer par sa vertu. Le S. Esprit
+                    <lb/>est nôtre avec tous ses dons ; il est nôtre
+                    <lb/>Docteur pour nous enseigner dans nôtre
+                    <lb/>ignorance ; nôtre Consolateur pour nous
+                    <lb/>réjouïr dans nos afflictions ; nôtre Sanctificateur
+                    <lb/>pour nous enseigner dans nôtre
+                    <lb/>ignorance ; nôtre Consolateur pour nous
+                    <lb/>réjouïr dans nos afflictions ; nôtre Sanctificateur
+                    <lb/>pour nous nettoyer de nous souïllures,
+                    <lb/>&amp; nôtre Vie pour nous delivrer de
+                    <lb/>nôtre mort ; En un mot , nous ne <fw place="bot-right" type="catch">trouvons</fw>
+                    <pb n="17"/>
+                    <lb/>trouvons rien dans la S. Trinité qui ne<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>soit nôtre, &amp; qui ne s'employe pour nôtre
+                    <lb/>bonheur. Mais cela n'est pas moins
+                    <lb/>vrai à l'égard des Proprietés de Dieu:
+                    <lb/>Car s'il est nôtre Dieu , nous pouvons
+                    <lb/>dire assurément que ses vertus sont à
+                    <lb/>nous, &amp; qu'il n'y en a point qui ne serve
+                    <lb/>à notre salut. Par exemple , si Dieu est
+                    <lb/>tout bon , c'est pour nous bien-faire ;
+                    <lb/>s'il est tout sage, c'est pour nous conduire ;
+                    <lb/>s'il est tout puissant , c'est pour nous
+                    <lb/>défendre ; s'il est juste, c'est pour se vanger
+                    <lb/>de nos ennemis ; s'il est misericordieux,
+                    <lb/>c'est pour nous pardonner nos crimes ;
+                    <lb/>s'il est fidele , c'est pour nous donner
+                    <lb/>l'accomplissement de ses promesses;
+                    <lb/>Enfin, pour ne nous arrêter pas à la consideration
+                    <lb/>de tant d'autres excellentes
+                    <lb/>Vertus , qui ravissent en admiration &amp;
+                    <lb/>les hommes &amp; les Anges ; s'il est tout
+                    <lb/>parfait &amp; suffisant à soy-même,c'est pour
+                    <lb/>nous assurer qu'il le sera aussi pour nous,
+                    <lb/>&amp; que nous ne saurions rien desirer, que
+                    <lb/>nous ne trouvions dans cette source inépuisable
+                    <lb/>de biens. C'est là dessus que
+                    <lb/>sont fondées tant de promesses excellentes
+                    <lb/>que Dieu nous donne en sa Parole,
+                    <lb/>dont il n'y en a point qui ne se rapporte <fw place="bot-right" type="catch">à quel-</fw>
+                    <pb n="18"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>à quelques unes de ces glorieuses
+                    proprietés,
+                    <lb/>que Dieu veut déployer en nôtre
+                    <lb/>faveur, &amp; qui nous doivent servir d'autant
+                    <lb/>d'appuis inébranlables de nôtre foy,
+                    <lb/>&amp; de nôtre espérance. C'est à quoy
+                    <lb/>l'Ecriture regarde,quand elle dit que Dieu
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.27.1">
+                            <hi rend="I">Ps</hi>. 27. 1.</ref> <lb/>&amp; <ref type="bible" target="bibleSegond21.xml#Ps.18.2">18.
+                                2.</ref> <lb/>&amp; <ref type="bible" target="bibleSegond21.xml#Ps.36.10">36.10.</ref>
+                    </note>est nôtre lumiere, &amp; nôtre force, nôtre
+                    <lb/>rocher,&amp; nôtre forteresse, nôtre salut,&amp;
+                    <lb/>nôtre vie , &amp; comme parle excellement
+                    <lb/>le Prophete,pour comprendre tous
+                    <lb/>les effets de sa protection &amp; de sa grace,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.84.11-12">
+                            <hi rend="I">Ps.</hi> 84. <lb/>12.</ref>
+                    </note>
+                    <quote source="bible1588.xml#Ps.84.11-12">
+                        <hi rend="I">nôtre Soleil &amp; nôtre Bouclier</hi>
+                    </quote>. Soleil de benediction ,
+                    <lb/>Bouclier d'assurance ; Soleil
+                    <lb/>pour nous enrichir , Bouclier pour nous
+                    <lb/>défendre ; Soleil pour nous donner la
+                    <lb/>vie, &amp; Bouclier pour nous la conserver.
+                    <lb/>Ainsi nous pouvons dire que nous avons,
+                    <lb/>s'il faut parler de la sorte , une ligue
+                    <lb/>offensive &amp; défensive avec Dieu ; comme
+                    <lb/>nous sommes obligez en vertu de
+                    <lb/>cette alliance de prendre en main la
+                    <lb/>cause de Dieu , &amp; de combattre pour sa
+                    <lb/>querelle ; Dieu nous promet aussi reciproquement
+                    <lb/>de nous maintenir contre
+                    <lb/>les efforts de nos Adversaires ; il se déclare
+                    <lb/>hautement en nôtre faveur ;il s'interesse
+                    <lb/>autant dans nos miseres , que si
+                    <lb/>elles le regardoyent luy-même; si nous <fw place="bot-right" type="catch">sommes</fw>
+                    <pb n="19"/>
+                    <lb/>sommes en angoisse , il est en angoisse<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>avec nous ; si on nous touche , il dit
+                    <lb/>qu'on <quote source="bible1588.xml#Zech.2.8">
+                        <hi rend="I">touche la prunelle de son œüil</hi>
+                    </quote> , c'est<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Zech.2.8">
+                            <hi rend="I">Zach</hi>. 2. <lb/>8.</ref>
+                    </note>
+                    <lb/>à dire la partie la plus chere &amp; la plus
+                    <lb/>sensible ; &amp; si on maltraite les disciples <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Acts.9.4">
+                            <hi rend="I">Act.</hi> 9. 4. </ref>
+                    </note>
+                    <lb/>du Seigneur , il crie du ciel que c'est luy
+                    <lb/>même qu'on persecute. O que cette
+                    <lb/>consolation est douce , Mes Freres , &amp;
+                    <lb/>qu'elle est puissante pour dissiper tout ce
+                    <lb/>que nous avons de craintes &amp; d'inquietudes
+                    <lb/>dans le monde : Car s'il est vray
+                    <lb/>que toutes les vertus de Dieu sont
+                    <lb/>à nous,qu'est-ce que nous pourrions craindre
+                    <lb/>desormais , ou que ne devons nous
+                    <lb/>esperer ; puis que nous y trouvons le remede
+                    <lb/>de tous les maux qui nous peuvent
+                    <lb/>travailler , &amp; la source de tous les
+                    <lb/>biens que nous pouvons souhaiter ? Et
+                    <lb/>c'est ce qui nous conduit à la seconde
+                    <lb/>reflexion que nous avons à faire sur cette
+                    <lb/>promesse , pour vous faire voir que
+                    <lb/>toutes choses sont à nous , &amp; qu'il n'y a
+                    <lb/>rien dans le Ciel , ni dans la Terre, sur
+                    <lb/>quoy nous n'avons droit , &amp; dont nous
+                    <lb/>ne puissions disposer ; puis que nous sommes
+                    <lb/>à celuy qui est le Maître du monde,
+                    <lb/>&amp; à qui toutes choses appartiennent
+                    <lb/>pour en disposer à sa volonté ; il est indubitable <fw place="bot-right" type="catch">bitable</fw>
+                    <pb n="20"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>qu'en le possedant nous possedons
+                    <lb/>tout , comme sans luy nous n'avons
+                    <lb/>rien : C'est ce qui fait dire à l'Apôtre
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Cor.3.21-23">1. <hi rend="I">Cor.</hi> 3. <lb/>21. 22.</ref>
+                    </note>
+                    <quote source="bible1588.xml#_1Cor.3.21-22">
+                        <hi rend="I">Que toutes choses sont à nous, soit Paul, soit
+                            <lb/>Apollos , soit Cephas , soit le monde , soit
+                            <lb/>la mort , soit les choses presentes , ou les choses
+                            <lb/>à venir,toutes choses sont à nous, &amp; nous
+                            <lb/>à Christ ; &amp; Christ à Dieu</hi>
+                    </quote>. Car comme
+                    <lb/>dez que l'homme se rebella contre
+                    <lb/>Dieu, toutes les Creatures se rebellerent
+                    <lb/>contre luy, &amp; furent autant de ministres
+                    <lb/>de Dieu pour executer sa vengeance :
+                    <lb/>ainsi dez que nous sommes reconciliez à
+                    <lb/>luy , &amp; qu'il le fait nôtre , nous entrons
+                    <lb/>dans la possession de tous ses biens. Toutes
+                    <lb/>les Creatures nous favorisent &amp; sont
+                    <lb/>prestes à nous servir. Les Anges ne sont
+                    <lb/>plus à la porte du Paradis avec une épée
+                    <lb/>flamboyante , pour nous en empêcher
+                    <lb/>l'entrée ; mais ce sont des Esprits administrateurs,
+                    <lb/>qui sont envoyez pour servir
+                    <lb/>à ceux qui doivent recevoir l'heritage
+                    <lb/>de salut. Le Ciel n'est plus l'arsenal des
+                    <lb/>foudres &amp; des maledictions de Dieu,
+                    <lb/>mais le thresor de ses benedictions &amp; de
+                    <lb/>ses graces. La Terre n'est plus maudite à
+                    <lb/>cause de nous, mais elle nous donne ses
+                    <lb/>fruits en sa saison , autant qu'il est expedient <fw place="bot-right" type="catch">dient</fw>
+                    <pb n="21"/>
+                    <lb/>pour notre necessité. En un mot, <note type="margin">Sermon <lb/>I.</note>
+                    <lb/>comme il n'y a point de Creature qui ne
+                    <lb/>soit dans la main de Dieu pour dépendre
+                    <lb/>absolument de ses ordres ; il n'y en a
+                    <lb/>point aussi qui ne contribue à nôtre salut:
+                    <lb/>C'est pour cela que le Seigneur nous assure
+                    <lb/>par son Prophete Osée, <quote source="bible1588.xml#Hos.2.18">
+                        <hi rend="I">qu'il vouloit</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Hos.2.18">
+                                <hi rend="I">Osée </hi>2. <lb/>18.19.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">traitter alliance avec les bêtes des champs,
+                            <lb/>&amp; avec les oiseaux du ciel, &amp; avec les reptiles
+                            <lb/>de la terre</hi>
+                    </quote> , afin que l'Eglise , qu'il
+                    <lb/>épouseroit à toûjours en justice, en jugement
+                    <lb/>&amp; en compassions, y trouvât non
+                    <lb/>seulement sa paix &amp; sa seureté,mais aussi
+                    <lb/>sa prosperité &amp; son avantage. <quote source="bible1588.xml#Hos.2.21-22">
+                        <hi rend="I">Ie repondray</hi>,
+                        <lb/><seg type="interpolation">dit-il,</seg>
+                        <hi rend="I">aux cieux, &amp; les cieux répondront
+                            <lb/>à la terre, &amp; la terre répondra au froment
+                            <lb/>&amp; à l'huile , &amp; eux répondront à
+                            <lb/>Iizrehel</hi>
+                    </quote>. Iugez donc par là, Mes Freres,
+                    <lb/>de la grandeur de cet avantage &amp; de la
+                    <lb/>merveille de nôtre bonheur ; Que nous
+                    <lb/>puissions avoir droit sur tous les biens de
+                    <lb/>Dieu, &amp; nous servir de toutes ses Creatures!
+                    <lb/>Iugez quelle amour &amp; quelle charité
+                    <lb/>il faut qu'il nous ait porté, pour nous
+                    <lb/>faire part d'une faveur si considerable !
+                    <lb/>Si Dieu avoit fait une grande grace à
+                    <lb/>nôtre premier Pere de luy avoir donné
+                    <lb/>en partage toutes les Creatures pour en <fw place="bot-right" type="catch">estre</fw>
+                    <pb n="22"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>estre comme le Seigneur &amp; le Maître ;
+                    <lb/>qu'est-ce je vous prie de cet avantage,au
+                    <lb/>prix de celuy qu'il nous accorde en cette
+                    <lb/>nouvelle alliance , où il ne nous donne
+                    <lb/>pas seulement le monde avec toutes ses
+                    <lb/>Creatures ; mais il se donne soy-même
+                    <lb/>à nous avec toutes ses graces? C'est ici
+                    <lb/>veritablement où nous devons admirer
+                    <lb/>la hauteur,la largeur &amp; la profondeur de
+                    <lb/>cet amour, qui surpasse toute connoissance,
+                    <lb/>&amp; nous écrier au bord de cet abyme ;
+                    <lb/>
+                    <quote source="bible1588.xml#Rom.11.33">
+                        <hi rend="I">O profondeur des richesses de la Sagesse
+                            <lb/>&amp; de la Misericorde de Dieu</hi></quote> <hi rend="I">!</hi>
+                     Mais
+                    <lb/>quoy que ces avantages soient sans doute
+                    <lb/>bien considerables,ce n'est pas encore
+                    <lb/>tout ce qu'emporte cette admirable
+                    <lb/>promesse. Voici le plus grand bien que
+                    <lb/>nous en recevons : C'est qu'en vertu de
+                    <lb/>cette alliance,Dieu se communique tellement
+                    <lb/>à nous , qu'il nous transforme en
+                    <lb/>son image,par l'impression de ses vertus.
+                    <lb/>Il ne se contente pas de nous donner les
+                    <lb/>effets de ses proprietés par les graces
+                    <lb/>qu'il épand sur nous ; mais il en veut graver
+                    <lb/>au dedans de nous la conformité &amp;
+                    <lb/>la ressemblance ; Et c'est ce qui fait dire
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_2Pet.1.4">2 <hi rend="I">Pier. </hi>1. <lb/>4.</ref>
+                    </note>à S. Pierre , <quote source="bible1588.xml#_2Pet.1.4">
+                        <hi rend="I">Que nous sommes faits participans
+                            <lb/>de la Nature Divine</hi>
+                    </quote> , parce que <fw place="bot-right" type="catch">nous</fw>
+                    <pb n="23"/>
+                    <lb/>nous en portons les traits &amp; les caracteres;<note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>&amp; à S. Paul <quote source="bible1588.xml#_2Cor.3.18">
+                        <hi rend="I">que contemplans comme en</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_2Cor.3.18">2. <hi rend="I">Cor. </hi>3. <lb/>18.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">un miroir la gloire du Seigneur à face découverte ,
+                            <lb/>nous sommes transformez en la
+                            <lb/>méme image de gloire en gloire , comme par
+                            <lb/>l'Esprit du Seigneur</hi>
+                    </quote>. Ie sai bien que ce ne
+                    <lb/>sera proprement que dans le Ciel que
+                    <lb/>nous pourrons avoir cette parfaite conformité
+                    <lb/>avec Dieu , lors que le contemplant
+                    <lb/>face à face, nous seront rassasiez de
+                    <lb/>sa ressemblance : mais cela n'empêche
+                    <lb/>pas pourtant que nous ne commencions
+                    <lb/>à en avoir quelques traits sur la terre ,
+                    <lb/>quand il nous reçoit dans sa communion.
+                    <lb/>Voyez donc ici , Fideles, jusques où s'étend
+                    <lb/>la bonté de Dieu envers vous,
+                    <lb/>quand il veut étre vôtre Dieu &amp; qu'il
+                    <lb/>vous choisit pour son peuple ; Ce n'est
+                    <lb/>pas seulement pour vous dire, que tout
+                    <lb/>ce qu'il est, &amp; tout ce qu'il a , vous appartient ;
+                    <lb/>mais c'est pour vous assurer,
+                    <lb/>qu'il vous veut rendre semblables à luy,
+                    <lb/>afin que vous soyez en quelque maniere
+                    <lb/>ce qu'il est , autant qu'une nature finie
+                    <lb/>comme la vôtre le peut porter ; c'est à
+                    <lb/>dire, qu'il imprimera dans vos ames les
+                    <lb/>rayons de sa lumiere &amp; de sa charité, de
+                    <lb/>sa sainteté &amp; de sa justice, de sa patience <fw place="bot-right" type="catch">&amp; de</fw>
+                    <pb n="24"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>&amp; de sa douceur , de sa felicité &amp;
+                    de sa
+                    <lb/>gloire. Or qu'il faille pousser jusques-là
+                    <lb/>le sens de cette excellente promesse , il
+                    <lb/>n'est pas malaisé de le justifier par le beau
+                    <lb/>passage que nôtre Seigneur employe en
+                    <lb/>S. Matthieu pour prouver l'immortalité
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Matt.22.32">
+                            <hi rend="I">Matth. </hi><lb/>22. 32.</ref>
+                    </note>de l'ame,&amp; la resurrection du corps contre 
+                    <lb/>les Sadducéens ; parce que
+                        <quote source="bible1588.xml#Matt.22.32">
+                        <hi rend="I">Dieu s'appelle
+                            <lb/>le Dieu d'Abrahã</hi>
+                        <hi rend="I">,d'Isaac &amp; de Iacob,
+                            <lb/>&amp; qu'il n'est pas le Dieu des morts,mais des
+                            <lb/>vivans</hi>
+                    </quote> ; où il presuppose manifestement,
+                    <lb/>que cette Alliance tire aprés soy la communion
+                    <lb/>de la vie &amp; de la gloire de Dieu,
+                    <lb/>non seulement dans une partie de l'homme,
+                    <lb/>mais en toute sa personne ; de sorte
+                    <lb/>que Dieu s'appellant le Dieu d'Abraham
+                    <lb/>apres sa mort , il estoit necessaire,
+                    <lb/>&amp; que son âme fût immortelle , &amp; que
+                    <lb/>son corps resuscitât un jour , pour jouïr
+                    <lb/>l'un &amp; l'autre de la même felicité. C'est
+                    <lb/>sur ce fondement que l'Eglise s'appuye,
+                    <lb/>quand de l'éternité de Dieu elle tire l'éternité
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.102.28-29">
+                            <hi rend="I">Ps.</hi> 102. <lb/>28. 29.</ref>
+                    </note> de la vie des fideles. <quote source="bible1588.xml#Ps.102.28-29">
+                        <hi rend="I">Mais toy, tu
+                            <lb/>es toûjours le même , &amp; tes ans ne seront jamais
+                            <lb/>achevez : Les enfans de tes serviteurs
+                            <lb/>habiteront près de toy , &amp; leur race sera établie</hi>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Hab.1.12">
+                                <hi rend="I">Hab</hi>. 1. 12.</ref>
+                        </note>
+                        <hi rend="I">devant toy</hi>
+                    </quote>. Et le Prophete Habacuc;
+                    <lb/>
+                    <quote source="bible1588.xml#Hab.1.12">
+                        <hi rend="I">N'est-tu pas dés jadis, O Eternel mon Dieu,</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">mon</hi>
+                        </fw>
+                        <pb n="25"/>
+                        <lb/>
+                        <hi rend="I">mon Saint ; nous ne mourrons point</hi>
+                    </quote> , pour<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>dire qu'il est impossible que les fideles
+                    <lb/>qui sont unis à Dieu qui est immortel &amp;
+                    <lb/>vivant aux siecles des siecles , puissent
+                    <lb/>jamais perir ; parce qu'étant avec celuy
+                    <lb/>qui est la source de la vie , il ne se peut
+                    <lb/>faire qu'ils demeurent dans la mort ; la
+                    <lb/>communion que nous avons avec luy tirant
+                    <lb/>aprés soy infailliblement cette bienheureuse
+                    <lb/>conformité , comme S. Iean le
+                    <lb/>remarque expressement dans sa premiere
+                    <lb/>Epître , <quote source="bible1588.xml#_1John.1.5-7">
+                        <hi rend="I">Dieu est la lumiere , &amp; en luy il</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1John.1.5-7">I. <hi rend="I">Iean</hi> 1. <lb/>5. 6. 7.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">n'y aucunes tenebres , si nous disons que
+                            <lb/>nous avons communion avec luy, &amp; nous
+                            <lb/>cheminons en tenebres , nous mentons , &amp;
+                            <lb/>verité n'est point en nous ; mais si nous cheminons
+                            <lb/>en lumiere ; comme luy est en lumiere ,
+                            <lb/>nous avons communion l'un avec
+                            <lb/>l'autre</hi>
+                    </quote>. Il en est à peu prés comme
+                    <lb/>d'un cristal , qui estant opposé au Soleil,
+                    <lb/>n'en reçoit pas seulement la lumiere ,
+                    <lb/>mais en devient tout lumineux pour en
+                    <lb/>renvoyer les rayons sur les objets qui se
+                    <lb/>presentent : Ainsi dez que le Soleil de
+                    <lb/>justice nous regarde en sa grace , il nous
+                    <lb/>donne des impressions si fortes de sa divine
+                    <lb/>lumiere,que nous en devenons nous
+                    <lb/>mêmes tout resplendissans , comme <fw place="bot-right" type="catch">autant</fw>
+                    <pb n="26"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>autant de petits Soleils dans le Ciel de
+                    <lb/>l'Eglise , qui doivent jetter par tout l'éclat
+                    <lb/>de leur foy &amp; de leur pieté , par laquelle
+                    <lb/>ils portent l'image de leur Redempteur.
+                    <lb/>Qui n'admirera donc , Mes
+                    <lb/>Freres, ce grand &amp; incomparable avantage.
+                    <lb/>Comme si ce n'estoit pas assez à
+                    <lb/>Dieu de nous donner son Ciel &amp; son Paradis ;
+                    <lb/>Il s'est voulu donner soy-mesme
+                    <lb/>à nous, &amp; pour comble de bonheur , il
+                    <lb/>a voulu que nous fussions transformez
+                    <lb/>en luy. Autrefois le Démon , pour porter
+                    <lb/>l'homme au peché , le flatta de cette
+                    <lb/>esperance , que s'il mangeoit du fruit
+                    <lb/>defendu , il seroit comme Dieu ; &amp; nôtre
+                    <lb/>miserable pere s'étant laissé surprendre
+                    <lb/>à cette trompeuse promesse,en voulant
+                    <lb/>étre comme Dieu , il devint semblable
+                    <lb/>au Démon. Mais ce que cet Esprit
+                    <lb/>de mensonge n'avançoit que faussement ,
+                    <lb/>c'est ce que Dieu nous promet
+                    <lb/>&amp; qu'il nous donne effectivement dans
+                    <lb/>sa communion ; Dez qu'il s'est fait nôtre
+                    <lb/>Dieu , &amp; que nous sommes son peuple ,
+                    <lb/>nous pouvons dire sans blaspheme,
+                    <lb/>que nous participons à sa nature , &amp; que
+                    <lb/>nous devenons les enfans du Souverain.
+                    <lb/>Avoüons donc avec le Prophete , <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">Que</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">bien</hi>
+                        </fw>
+                        <pb n="27"/>
+                        <lb/>
+                        <hi rend="I">bienheureuse est la Nation de laquelle l'Eternel</hi>
+                        <note type="margin">Sermon <lb/>I.</note>
+                        <lb/>
+                        <hi rend="I">est le Dieu,&amp; le peuple qu'il s'est choisi
+                            <lb/>pour heritage</hi>
+                    </quote>.
+                </p>
+                <p n="3">
+                    <lb/>Le Psalmiste ne se contente pas d'avoir
+                    <lb/>dit que Dieu est nôtre Dieu, il ajoûte
+                    <lb/>qu'il se <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">choisit un peuple pour heritage</hi>
+                    </quote> ;
+                    <lb/>non seulement pour confirmer plus expressement
+                    <lb/>ce qu'il venoit de dire, comme
+                    <lb/>c'est souvent la coûtume dans les
+                    <lb/>Pseaumes d'expliquer en d'autres termes
+                    <lb/>dans la seconde partie du verset ce
+                    <lb/>qui a été dit dans la premiere ; mais
+                    <lb/>principalement pour découvrir le principe
+                    <lb/>&amp; la source de tout ce mystere.
+                    <lb/>Puis que tous les hommes sont naturellement
+                    <lb/>dans la même masse de corruption
+                    <lb/>&amp; de misere,sans qu'ils en puissent
+                    <lb/>sortir d'eux mêmes , ny qu'ils soyent capables
+                    <lb/>d'en avoir seulement la volonté;
+                    <lb/>comment pourroyent ils devenir le peuple
+                    <lb/>de Dieu, si nôtre Seigneur ne leur en
+                    <lb/>faisoit la grace , &amp; s'il ne les prevenoit
+                    <lb/>par sa misericorde ? C'est donc à ce souverain
+                    <lb/>bon plaisir qu'il faut remonter
+                    <lb/>comme à la source de toutes ces graces;
+                    <lb/>c'est-là où il nous faut arrêter uniquement ,
+                    <lb/>si nous voulons trouver la cause
+                    <lb/>de cette salutaire dispensation. Car Dieu <fw place="bot-right" type="catch">voyant</fw>
+                    <pb n="28"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>voyant tous les hommes tombez en
+                    <lb/>Adam &amp; coûpables de la mort , en a
+                    <lb/>voulu de toute éternité choisir un certain
+                    <lb/>nombre de son pur bon plaisir,quoy
+                    <lb/>qu'ils ne fussent en rien meilleurs ny plus
+                    <lb/>considerables que les autres , pour les
+                    <lb/>sauver par Iesus Christ : Et c'est pour
+                    <lb/>cela que dans l'accomplissement des
+                    <lb/>tems il a envoyé son Fils au monde pour
+                    <lb/>les racheter par sa mort ; c'est pour cela
+                    <lb/>encore qu'il leur donne son Esprit,&amp;
+                    <lb/>qu'il les appelle par une vocation efficace,
+                    <lb/>afin que comme il les a élûs dez l'éternité,
+                    <lb/>pour estre son peuple, il les choisisse
+                    <lb/>aussi &amp; les separe dans le tems pour
+                    <lb/>estre son heritage. Car c'est en ces deux
+                    <lb/>manieres que Dieu choisit son peuple ;
+                    <lb/>par l'Election qu'il en fait dez devant
+                    <lb/>les siecles ; &amp; par la Vocation
+                    <lb/>qu'il leur adresse dans le tems ; L'une est
+                    <lb/>la cause, &amp; l'autre l'effet ; L'une marque
+                    <lb/>le conseil de Dieu, &amp; l'autre nous represente
+                    <lb/>son execution ; Par celle-là il a resolu
+                    <lb/>de nous separer du monde , &amp; par
+                    <lb/>celle-cy il nous en separe en effet : Mais
+                    <lb/>il fait l'un &amp; l'autre par un pur motif de
+                    <lb/>sa misericorde , sans que nous luy en
+                    <lb/>ayons donné aucun sujet ; Comme <fw place="bot-right" type="catch">ancien</fw>
+                    <pb n="29"/>
+                    <lb/>anciennement ce ne fut ny la justice,ny<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>la grandeur d'Israël qui porta le Seigneur
+                    <lb/>à le choisir sur toutes les nations
+                    <lb/>de la terre,pour l'honorer de son alliance
+                    <lb/>&amp; pour luy faire part de ses graces ; Ce
+                    <lb/>fut son seul bon plaisir &amp; son amour. <quote source="bible1588.xml#Deut.7.7-8">
+                        <hi rend="I">Ce
+                            <lb/>n'est pas</hi>, <seg type="interpolation">dit Moyse,</seg>
+                        <hi rend="I">que vous fußiés plus</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Deut.7.7-8">
+                                <hi rend="I">Deut. 7. 5. </hi>
+                            </ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">grands que les autres peuples , que l'Eternel
+                            <lb/>vous a élûs , car vous estiés un des plus petits
+                            <lb/>de tous ; mais parce qu'il vous a aimez</hi>
+                    </quote>. Il
+                    <lb/>en est de même de l'Israël mystique,
+                    <lb/>Dieu le prend pour son heritage , non
+                    <lb/>pas qu'il ait rien veu en luy qui l'y ait pû
+                    <lb/>obliger,mais parce qu'il luy plait de faire
+                    <lb/>ce choix ; car nous n'avons rien que
+                    <lb/>nous n'ayons receu , &amp; toutes les choses
+                    <lb/>qui nous discernent d'avec d'autres,sont
+                    <lb/>des presents de sa grace , &amp; non pas des
+                    <lb/>fruits de nôtre nature : <quote source="bible1588.xml#Rom.9.16:18:23">
+                        <hi rend="I">Ce n'est point</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Rom.9.16:18:23">
+                                <hi rend="I">Rom</hi>. 9. <lb/>16.18.23</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">ny du voulant ny du courant, mais de Dieu
+                            <lb/>qui fait misericorde. C'est luy qui fait merci
+                            <lb/>à qui il veut , &amp; qui endurcit qui il veut</hi>
+                        <!--citation approximative -->
+                    </quote>.
+                    <lb/>Il appelle son peuple celuy qui n'estoit
+                    <lb/>point son peuple , &amp; sa bienaimée celle
+                    <lb/>qui n'estoit point sa bienaimée , comme
+                    <lb/>le Prophete Osée l'a remarqué il y a long
+                    <lb/>tems. <quote source="bible1588.xml#Hos.2.23">
+                        <hi rend="I">Ie diray à Lohammi , Tu es mon peuple ,</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Hos.2.23">
+                                <hi rend="I">Osée</hi> 2. <lb/>23.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">&amp; il me dira mon Dieu</hi>
+                    </quote> , pour nous <fw place="bot-right" type="catch">assurer</fw>
+                    <pb n="30"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>assurer, que si nous sommes le peuple de
+                    <lb/>Dieu , ce n'est pas que nous l'ayons élû,
+                    <lb/>comme Iesus Christ disoit aux Apôtres,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#John.15.16">
+                            <hi rend="I">Iean</hi> 15. <lb/>16.</ref>
+                    </note>
+                    <quote source="bible1588.xml#John.15.16">
+                        <hi rend="I">mais c'est luy qui nous a élû , </hi>&amp; qui nous
+                        <lb/>
+                        <hi rend="I">a choisi pour estre son heritage</hi>
+                    </quote>. Remarquez
+                    <lb/>bien cette vérité, Mes Freres, pour
+                    <lb/>l'opposer à l'erreur de ces miserables Pelagiens
+                    <lb/>&amp; Demipelagiens anciens et
+                    modernes<!-- CiM :Turrettin fait référence ici aux adversaires de la Réforme, qui forment une sorte de tiers exclu qu'il faudrait baliser comme tel.-->,
+                    <lb/>qui pour élever les forces de la
+                    <lb/>nature , abbatent tant qu'ils peuvent la
+                    <lb/>merveille de la grace , &amp; qui , sous pretexte
+                    <lb/>de faire les hommes libres,les rendent
+                    <lb/>sacrileges, ravissant à Dieu la gloire
+                    <lb/>qui n'appartient qu'à luy seul , d'estre l'unique
+                    <lb/>cause de nôtre salut ; comme si
+                    <lb/>l'election que Dieu fait de nous dans l'éternité ,
+                    <lb/>étoit fondée sur la prevision de
+                    <lb/>nos œuvres ou de nôtre foy , &amp; si le
+                    <lb/>choix qu'il en fait dans le tems,presupposoit
+                    <lb/>toûjours quelque bonne disposition
+                    <lb/>en nous , qui l'y puisse determiner.
+                    <lb/>Ie ne veux pas alleguer maintenant beaucoup
+                    <lb/>de raisons qui renversent cette
+                    <lb/>fausse doctrine, ni m'arrêter à vous montrer ,
+                    <lb/>comme elle combat directement
+                    <lb/>la gloire de Dieu , &amp; la consolation de
+                    <lb/>l'homme. Mais quand nous n'aurions
+                    <lb/>que le seul passage que nous avons en <fw place="bot-right" type="catch">main,</fw>
+                        <pb n="31"/>
+                        <lb/>main , suffiroit-il pas pour la confondre? <note type="margin">Sermon <lb/>I.</note>
+                    <lb/>Car s'il est vray que Dieu ne nous élit
+                    <lb/>que sous la prevision de nos œuvres ou
+                    <lb/>de nôtre foy;Ce n'est plus Dieu qui nous
+                    <lb/>choisira , mais c'est nous qui le choisirons ;
+                    <lb/>Ce n'est plus luy qui nous aimera<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#John.4.10">1. <hi rend="I">Iean</hi> <lb/>4.10.</ref>
+                    </note>
+                    <lb/>le premier , comme S. Iean le remarque,
+                    <lb/>mais c'est nous qui l'aimerons devant
+                    <lb/>qu'il nous ait aimez ; Ce n'est plus luy
+                    <lb/>qui se fera trouver à ceux qui ne le
+                    <lb/>cherchoyent point, mais c'est nous qui le
+                    <lb/>previendrons par nos desirs,devant qu'il
+                    <lb/>pense à nous. Iugez, Mes Freres, si cette
+                    <lb/>doctrine est bien cõforme au langage de
+                    <lb/>l'Ecriture , &amp; à l'estat auquel nous étions
+                    <lb/>lors que Dieu nous a choisis: Qu'y avoit-
+                    <lb/>il en des chetives creatures toutes chargées
+                    <lb/>de crimes qui pût les rendre agréables
+                    <lb/>à Dieu ? Quelle disposition pouvoyent
+                    <lb/>avoir à chercher Dieu , ceux qui
+                    <lb/>étoyent ses ennemis en pensées &amp; en
+                    <lb/>mauvaises œuvres ? Et que pouvoit-il
+                    <lb/>voir de bon &amp; de saint dans ceux qui
+                    <lb/>n'étoient tout entiers qu'ordure &amp; que
+                    <lb/>malice ? S'il y voyoit quelque chose , ce n'étoit
+                    <lb/>que de la rebellion &amp; de la desobeïssance,
+                    <lb/>qui au lieu de l'attirer à nous
+                    <lb/>aimer , nous rendoit les objets de son <fw place="bot-right" type="catch">indigna-</fw>
+                    <pb n="32"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>indignation &amp; de sa colere. Pourquoy
+                    <lb/>demanderions-nous donc, Fideles, d'où
+                    <lb/>vient qu'il a choisi les uns plûtôt que les
+                    <lb/>autres ? Ce sont des secrets incomprehensibles
+                    <lb/>de sa sagesse, dont nous ne saurions
+                    <lb/>rendre autre raison que celle de sa
+                    <lb/>volonté ; car quant aux hommes , ils
+                    <lb/>étoyent tous également pecheurs, &amp; par
+                    <lb/>consequent également coupables, &amp; qui
+                    <lb/>meritoyent tous d'estre abandonnez
+                    <lb/>éternellement ; Ce qu'il choisit donc
+                    <lb/>les uns , tandis qu'il rejette les autres ,
+                    <lb/>est un effet de sa grace envers ceux-là,
+                    <lb/>&amp; de sa liberté envers ceux-cy ; dont les
+                    <lb/>uns n'ont poins de sujet de se plaindre,
+                    <lb/>puis qu'ils ont bien merité la peine qu'ils
+                    <lb/>souffrent , &amp; que Dieu ne leur estoit en
+                    <lb/>rien obligé ; mais les autres ont grand
+                    <lb/>sujet de le remercier , puis qu'il les a favorisé
+                    <lb/>par dessus les autres d'une grace,
+                    <lb/>dont ils étoyent tout à fait indignes ; Ils
+                    <lb/>étoient la proye des Démons &amp; les victimes
+                    <lb/>de l'Enfer , &amp; il les a choisis , pour
+                    <lb/>estre , non seulement les heritiers du
+                    <lb/>Ciel , mais l'heritage de Dieu méme,
+                    <lb/>
+                    <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">le peuple qu'il s'est choisi pour heritage</hi>
+                    </quote>.
+                    <lb/>Il est bien clair, que par ces termes le
+                    <lb/>Psalmiste n'a voulu marquer autre chose <fw place="bot-right" type="catch">que</fw>
+                    <pb n="33"/>
+                    <lb/>que le choix qu'il fait de quelque peuple, <note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>&amp; le soin qu'il en prend : Mais parce
+                    <lb/>que l'expression qu'il employe est merveilleusement
+                    <lb/>belle , il faut en examiner
+                    <lb/>de plus prés la force. Ie say bien que l'Escriture
+                    <lb/>se sert fort souvent du mot <hi rend="I">d'heritage,</hi>
+                    <lb/>pour marquer le bonheur que Dieu
+                    <lb/>nous prepare dans le Ciel, afin de nous
+                    <lb/>apprendre , que nous ne pouvons pas le
+                    <lb/>meriter par nos œuvres, &amp; que nous ne
+                    <lb/>le recevons,que comme un don gratuit
+                    <lb/>du Pere celeste , qu'il nous donnera en
+                    <lb/>vertu de l'adoption dont il nous a honoré.
+                    <lb/>Mais ce n'est pas à cet égard qu'il
+                    <lb/>est icy parlé de l'heritage: car dans ce
+                    <lb/>premier sens il est attribué aux choses
+                    <lb/>que nous devons posseder ; au lieu qu'en
+                    <lb/>cet endroit , aussi bien qu'ailleurs, il est
+                    <lb/>dit des personnes ; mais ce n'est pas toûjours
+                    <lb/>au même égard;Quelquefois le S.
+                    <lb/>Esprit l'attribuë à Dieu , &amp; d'autrefois
+                    <lb/>aux hommes ; à Dieu quand il dit qu'il
+                    <lb/>est nôtre heritage ; <quote source="bible1588.xml#Ps.16.5">
+                        <hi rend="I">Le Seigneur</hi>, <seg type="interpolation">dit le<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Ps.16.5">
+                                <hi rend="I">Ps.</hi> 16.5.</ref>
+                        </note>
+                            <lb/>Psalmiste,</seg>
+                        <hi rend="I">est la part de mon heritage, &amp;
+                            <lb/>de mon breuvage</hi>
+                    </quote> : aux hommes; quand
+                    <lb/>il est dit que nous sommes l'heritage de
+                    <lb/>Dieu ; <quote source="bible1588.xml#Ps.74.2">
+                        <hi rend="I">Aye souvenance de ton assemblée,</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Ps.74.2">
+                                <hi rend="I">Ps.</hi> 74.2.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">que tu t'es aquise d'ancienneté, &amp; que tu as</hi>
+                        <fw place="bot-right" type="catch">
+                            <hi rend="I">prise</hi>
+                        </fw>
+                        <pb n="34"/>
+                        <lb/>
+                        <note type="margin">Sermon <lb/>I.</note>
+                        <hi rend="I">prise pour estre la portion de ton heritage</hi>
+                    </quote>.
+                    <lb/>Et quoy que la chose revienne au fonds
+                    <lb/>à un mesme sens,qui va à nous representer
+                    <lb/>le fruict merveilleux de l'alliance
+                    <lb/>qu'il fait avec nous ; neanmoins on y
+                    <lb/>peut remarquer cette difference , que
+                    <lb/>l'une de ces expressions nous découvre
+                    <lb/>plus particulierement la communion
+                    <lb/>que nous avons avec Dieu, &amp; l'autre celle
+                    <lb/>que Dieu a avec nous. Dieu est nôtre
+                    <lb/>heritage , parce qu'il se donne à nous ;
+                    <lb/>Nous sommes l'heritage de Dieu , parce
+                    <lb/>qu'il nous prend à soy, &amp; qu'il veut que
+                    <lb/>nous nous donnions à luy. Il est nôtre
+                    <lb/>heritage,parce que nous prenons plaisir
+                    <lb/>en luy, comme dans la chose la plus precieuse
+                    <lb/>que nous ayons au monde, &amp; qui
+                    <lb/>fait nôtre souverain bien ; Nous sommes
+                    <lb/>l'heritage de Dieu,parce qu'il prend
+                    <lb/>plaisir en nous, &amp; qu'il nous regarde
+                    <lb/>comme l'objet de son amour,&amp; son precieux
+                    <lb/>joyau. Ie say bien que comme
+                    <lb/>toute la terre avec ce qu'elle contient
+                    <lb/>est à luy, il n'y a point de peuple qu'on
+                    <lb/>ne puisse appeller en quelque sorte son
+                    <lb/>heritage ; Tout autant qu'il y a de nations
+                    <lb/>sous le Soleil, relevent de son empire,
+                    <lb/>&amp; sont l'objet des soins de sa providence : <fw place="bot-right" type="catch">dence</fw>
+                    <pb n="35"/>
+                    <lb/>Neanmoins comme l'Apôtre<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>nous assure qu'encore que Dieu soit le
+                    <lb/>conservateur de tous les hommes , il
+                    <lb/>l'est d'une façon particuliere des fideles; <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Tim.4.10">1. Tim. 4. <lb/>10.</ref>
+                    </note>
+                    <lb/>ainsi nous sommes obligez de reconnoître,
+                    <lb/>que dans l'Empire general qu'il a sur
+                    <lb/>tous les hommes; il a une possession particuliere
+                    <lb/>qu'il regarde comme son heritage,
+                    <lb/>&amp; qu'il cherit par dessus toutes les
+                    <lb/>autres choses du monde ; C'est l'Eglise
+                    <lb/>qui a ce glorieux privilege,comme Moyse
+                    <lb/>le declare en son Cantique ; <quote source="bible1588.xml#Deut.32.9">
+                        <hi rend="I">la portion</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Deut.32.9">
+                                <hi rend="I">Deut. </hi>32.<lb/>9.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">de l'Eternel c'est son peuple, &amp; Iacob est le
+                            <lb/>lot de son heritage</hi>
+                    </quote> ; Et c'est au même
+                    <lb/>sens que l'Apôtre parlant des fideles du
+                    <lb/>Nouveau Testament dit que nous sommes
+                    <lb/>faits en Christ <quote source="bible1588.xml#Eph.1.11">
+                        <hi rend="I">l'heritage de Dieu</hi>
+                    </quote>.
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Eph.1.11">
+                            <hi rend="I">Eph. </hi>1.11.</ref>
+                    </note>
+                    <lb/>Aussi y avoit-il peu de termes qui fussent
+                    <lb/>plus propres pour nous montrer tout ensemble ,
+                    <lb/>&amp; le droit absolu que Dieu a
+                    <lb/>sur nous , &amp; le soin particulier qu'il en
+                    <lb/>veut prendre. Vous savez qu'il n'y a rien
+                    <lb/>qui nous appartiene plus legitimement
+                    <lb/>que l'heritage que nous avons de nos
+                    <lb/>Peres,puis que c'est la nature même qui
+                    <lb/>nous le donne ; &amp; vous n'ignorez pas
+                    <lb/>qu'il n'y a rien qui nous soit plus cher ;
+                    <lb/>témoin ce que Naboth répondit au Roy <fw place="bot-right" type="catch">Achab</fw>
+                    <pb n="36"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>Achab, qui le vouloit obliger à vendre
+                    <lb/>sa vigne, <quote source="bible1588.xml#_1Kgs.21.3">
+                        <hi rend="I">Ia ne m'avienne, </hi><seg type="interpolation">dit-il<hi rend="I">,</hi></seg>
+                        <hi rend="I"> que je</hi>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Kgs.21.3">1. <hi rend="I">Rois </hi>21.<lb/>3.</ref>
+                        </note>
+                        <hi rend="I">vende l'heritage de mes Peres</hi>
+                    </quote>. C'étoit une
+                    <lb/>des choses que les Iuifs conservoient
+                    <lb/>avec le plus de soin, comme un bien inalienable ,
+                    <lb/>parce qu'ils la consideroient
+                    <lb/>comme un gage precieux de la benediction
+                    <lb/>de Dieu, &amp; une marque bien expresse
+                    <lb/>de son amour. C'est pour cela
+                    <lb/>qu'ils ont donné dans leur langue le nom
+                    <lb/>
+                    <hi rend="I">d'heritage</hi> aux choses qui leur étoient
+                    <lb/>les plus cheres, &amp; pour lesquelles ils
+                    <lb/>avoient une estime particulière , comme
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.119.111">
+                            <hi rend="I">Ps.</hi>119.<lb/>111.</ref>
+                    </note>quand le Psalmiste appelle <quote source="bible1588.xml#Ps.119.111">
+                        <hi rend="I">la Loy son heritage</hi></quote>,<lb/> c'est à dire, comme il s'en explique
+                    <lb/>ailleurs, ce qui fait tout son bonheur
+                    <lb/>&amp; toutes sa consolation, &amp; qu'il prefere
+                    <lb/>volontiers à tout ce qu'il y a de plus excellent
+                    <lb/>au monde. Afin donc de nous
+                    <lb/>assurer que Dieu regarde son Eglise ,
+                    <lb/>comme la chose la plus chere qu'il ait
+                    <lb/>sur la terre , il dit que Dieu la choisit
+                    <lb/>pour son heritage. Et nous ne pouvons
+                    <lb/>pas en douter, puis que nous savons,que
+                    <lb/>c'est elle qu'il a élûe d'ẽtre tous les hommes,
+                    <lb/>pour luy être un peuple peculier
+                    <lb/>adonné à bonnes œuvres; C'est elle qu'il
+                    <lb/>cherit &amp; qu'il garde comme la prunelle <fw place="bot-right" type="catch">de</fw>
+                    <pb n="37"/>
+                    <lb/>de son œüil;&amp; c'est elle qu'il cultive toûjours<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>avec un soin extraordinaire ; S'il
+                    <lb/>déploye sur le reste des hommes des
+                    <lb/>marques de bonté &amp; de faveur; c'est sur
+                    <lb/>elle qu'il verse les thresors de sa misericorde;
+                    <lb/>s'il est le Createur &amp; le Conservateur
+                    <lb/>de tous les hommes , il est en particulier
+                    <lb/>le Sauveur des fideles ; les uns
+                    <lb/>sont ses sujets, qu'il gouverne avec une
+                    <lb/>autorité de Seigneur &amp; de Maître ; les
+                    <lb/>autres sont ses enfans qu'il traitte avec
+                    <lb/>une tendresse de Pere ; Ceux-là sont
+                    <lb/>comme des terres steriles &amp; infructueuses,
+                    <lb/>qui sont laissées en friche , &amp; dont la
+                    <lb/>fin ne tend qu'à estre brûlées ; Ceux-cy
+                    <lb/>sont comme son Paradis &amp; son jardin de
+                    <lb/>delices,qu'il prend plaisir de cultiver ;
+                    <lb/>C'est sur eux qu'il fait lever son Soleil de
+                    <lb/>justice pour les éclairer, &amp; qu'il fait tomber
+                    <lb/>la pluye de sa grace pour les arrôser ;
+                    <lb/>C'est à l'entour d'eux qu'il pose la haye
+                    <lb/>de sa providence pour les garentir ; Enfin
+                    <lb/>c'est en eux qu'il travaille continuellement
+                    <lb/>par l'efficace de son Esprit,pour
+                    <lb/>les rendre fertiles en bonnes œuvres, &amp;
+                    <lb/>pour leur porter des fruits de justice
+                    <lb/>dignes de son Royaume &amp; de leur vocation.
+                    <lb/>C'est la grace qu'il promettoit <fw place="bot-right" type="catch">autre-</fw>
+                    <pb n="38"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>autrefois à son peuple par la bouche de
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Exod.19.5">
+                            <hi rend="I">Exod.</hi> <lb/>19.5.</ref>
+                    </note>Moyse ; <quote source="bible1588.xml#Exod.19.5">
+                        <hi rend="I">Si vous obeïssez à bon escient à
+                            <lb/>ma voix ; Vous me serez une nation sainte,
+                            <lb/>un Royaume de Sacrificateurs , &amp; mon plus
+                            <lb/>precieux joyau,bien que toute la Terre m'appartienne</hi>
+                    </quote>;
+                    <lb/>c'est à dire,encore que je sois le
+                    <lb/>Maître de tout le monde , je vous choisiray
+                    <lb/>par dessus tous les autres pour mettre
+                    <lb/>mon affection en vous, &amp; pour vous
+                    <lb/>faire part de toutes mes graces. Et c'est
+                    <lb/>à cet égard que Salomon dans la belle
+                    <lb/>priere qu'il fait pour la dedicace du
+                    <lb/>Temple , dit en parlant de ce peuple,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#_1Kgs.8.53">1. <hi rend="I">Rois</hi> 8. <lb/>53.</ref>
+                    </note>
+                    <quote source="bible1588.xml#_1Kgs.8.53">
+                        <hi rend="I">Tu l'as mis à part pour toy d'entre tous les
+                            <lb/>peuples de la Terre , afin qu'ils fussent ton
+                            <lb/>heritage</hi>
+                    </quote>. Mais quoy que cet excellent
+                    <lb/>avantage pût bien appartenir en quelque
+                    <lb/>sorte à ce peuple , quant à la dispensation
+                    <lb/>exterieure , puis qu'il jouïssoit
+                    <lb/>de divers fruits de cette alliance ; Il faut
+                    <lb/>avouër pourtant, que ce n'est que dans
+                    <lb/>l'Israël selon l'esprit, qu'on en voit l'accomplissement ;
+                    <lb/>puis qu'il n'y a que luy
+                    <lb/>seul,qui possede la verité de ces merveilleuses
+                    <lb/>promesses. C'est pour cela que
+                    <lb/>S. Pierre applique aux fideles du Nouveau
+                    <lb/>Testament les eloges que le Seigneur
+                    <lb/>avoit donné autrefois à son peuple; <fw place="bot-right" type="catch">
+                        <hi rend="I">Mais,</hi>
+                    </fw>
+                    <pb n="39"/>
+                    <lb/>
+                    <quote source="bible1588.xml#_1Pet.2.9">
+                        <hi rend="I">Mais</hi>, <seg type="interpolation">dit-il,</seg>
+                        <hi rend="I">vous estes la generation élue,</hi>
+                        <note type="margin">Sermon <lb/>I.</note>
+                        <lb/>
+                        <hi rend="I">la nation sainte , la sacrificature royale , le</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Pet.2.9">1. <hi rend="I">Pier. </hi>2.<lb/>9.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">peuple acquis, afin que vous prêchiez les vertus
+                            <lb/>de celuy qui des tenebres vous appellez
+                            <lb/>au Royaume de sa merveilleuse lumiere</hi>
+                    </quote>.
+                    <lb/>C'est en vain que les Iuifs se glorifient
+                    <lb/>de ces augustes titres; c'est vous qui en
+                    <lb/>avez la verité, &amp; qui possedez en esprit
+                    <lb/>tout ce qu'ils n'avoyent que dans la lettre :
+                    <lb/>aussi estes-vous obligez d'une façon
+                    <lb/>particuliere à reconnoître une si inestimable
+                    <lb/>faveur , &amp; à vivre d'une façon qui
+                    <lb/>réponde à l'excellence de vôtre condition
+                    <lb/>&amp; à la merveille de la grace que
+                    <lb/>Dieu vous a faite. C'est à cette consideration
+                    <lb/>que le Psalmiste nous veut aussi
+                    <lb/>amener par l'expression dont il se sert,
+                    <lb/>qui comprend tout ensemble, &amp; les graces
+                    <lb/>que Dieu nous fait , &amp; les devoirs
+                    <lb/>que nous sommes obligez de luy rendre;
+                    <lb/>c'est à dire, que comme il veut estre nôtre
+                    <lb/>Dieu, &amp; qu'il nous choisit pour son
+                    <lb/>heritage; il faut aussi que nous soyons son
+                    <lb/>peuple , que nous le choisissions pour
+                    <lb/>nôtre Dieu, &amp; que nous tâchions de répondre
+                    <lb/>à la culture de sa grace , par les
+                    <lb/>agreables fruits de nôtre pieté. Comme
+                    <lb/>toutes les Alliances sont reciproques, <fw place="bot-right" type="catch">il</fw>
+                    <pb n="40"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>il faut que celle de Dieu avec l'homme
+                    <lb/>le soit aussi ; sa grace ne doit jamais estre
+                    <lb/>separée de nos devoirs , ny ses bienfaits
+                    <lb/>de nos services ; S'il nous favorise de sa
+                    <lb/>bienveüillance , il veut que nous apprenions
+                    <lb/>à le craindre &amp; à le servir tous les
+                    <lb/>jours de nôtre vie ; S'il a pour nous les
+                    <lb/>tendresses d'un bon Pere ; il demande
+                    <lb/>aussi que nous luy rendions les devoirs
+                    <lb/>des bons enfants ; S'il n'épargne rien
+                    <lb/>pour nôtre salut ; c'est à condition que
+                    <lb/>nous ne fassions point de difficulté de
+                    <lb/>rapporter tout à sa gloire. En un mot
+                    <lb/>s'il est nôtre Dieu par sa protection &amp;
+                    <lb/>par son amour ; il entend aussi que nous
+                    <lb/>soyons son peuple par nos hommages
+                    <lb/>&amp; par nos seruices. C'est dans cette douce
+                    <lb/>correspondance que nous pourrons
+                    <lb/>experimenter la verité de cet Oracle du
+                    <lb/>Prophete ; <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">Que bienheureuse est la Nation
+                            <lb/>de laquelle l'Eternel est le Dieu, &amp; le peuple
+                            <lb/>qu'il s'est choisi pour heritage</hi>
+                    </quote>.
+                </p>
+                <p n="4">
+                    <lb/>C'est le dernier point qui nous reste
+                    <lb/>à vous
+                    expliquer,&amp;
+                    qui ne sera pas malaisé
+                    <lb/>à entendre : car apres avoir vû ce
+                    <lb/>qu'emporte cette admirable promesse, <fw place="bot-right" type="catch">nous</fw>
+                    <pb n="41"/>
+                    <lb/>nous ne pouvons pas douter du bonheur<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>de ceux qui en sont faits participans. Si
+                    <lb/>la Beatitude consiste dans la delivrance
+                    <lb/>de toute sorte de maux, &amp; dans la possession
+                    <lb/>de tous les biens; qui peut douter
+                    <lb/>que celuy qui a l'Eternel pour son Dieu,
+                    <lb/>ne soit parfaitement heureux , puis qu'il
+                    <lb/>trouve dans sa Communion ces deux
+                    <lb/>glorieux avantages ? Qu'il n'y a point
+                    <lb/>de mal,dont il ne le delivre,ny de bien
+                    <lb/>dont il ne le rende jouïssant. I'avouë que
+                    <lb/>s'il n'estoit question que des hommes,
+                    <lb/>&amp; si nôtre esperance n'estoit fondée que
+                    <lb/>dans la terre , nous ne pourrions pas tirer
+                    <lb/>cette consequence , parce que nous n'y
+                    <lb/>trouvons que de la vanité &amp; de l'inconstance ;
+                    <lb/>mais puis que le Dieu bienheureux
+                    <lb/>que nous servons, est bien éloigné
+                    <lb/>de toutes ces foiblesses, qu'il est puissant
+                    <lb/>&amp; qu'il est fidele , qu'il a toute la bonté
+                    <lb/>&amp; toute la force necessaire pour nous
+                    <lb/>faire du bien ; comment pourrions nous
+                    <lb/>douter du bonheur de celuy qui le possede,
+                    <lb/>&amp; qui a esté receu dans sa communion ?
+                    <lb/>Non , Mes Freres, nous n'en pouvons
+                    <lb/>pas douter sans crime, puis que luy
+                    <lb/>même a la bonté de nous en assurer, &amp;
+                    <lb/>puis qu'il nous proteste si souvent, que <fw place="bot-right" type="catch">s'il</fw>
+                    <pb n="42"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>s'il est pour nous, il n'y a rien qui puisse
+                    <lb/>estre contre nous ; nous sommes en état
+                    <lb/>de ne rien craindre , &amp; de tout esperer.
+                    <lb/>Car où est le mal , ou le danger qui soit
+                    <lb/>capable desormais de nous étonner ? Seroit-
+                    <lb/>ce la colere de Dieu &amp; la rigueur
+                    <lb/>de sa justice inexorable ? Mais si Dieu est
+                    <lb/>nôtre Dieu , ne devons-nous pas estre
+                    <lb/>assurez,qu'il ne nous regarde plus en Iuge,
+                    <lb/>mais en Pere, &amp; qu'il n'agit plus avec
+                    <lb/>nous en sa justice , mais en ses grandes
+                    <lb/>compassions ? Seroit-ce la malediction
+                    <lb/>de la Loy &amp; les foudres effroyables qu'elle
+                    <lb/>lance contre les pecheurs ? Mais qui
+                    <lb/>ne sait que par cette bienheureuse alliance,
+                    <lb/>nous ne sommes plus sous la Loy,
+                    <lb/>mais sous la grace , &amp; que Christ ayant
+                    <lb/>voulu estre fait malediction pour nous,
+                    <lb/>il n'y a plus desormais aucune condannation
+                    <lb/>pour ceux qui sont en luy ; Seroit-
+                    <lb/>ce la grandeur &amp; l'énormité de nos crimes,
+                    <lb/>ou la violence de nos convoitises?
+                    <lb/>Mais aprés le pardon qu'il nous en accordé
+                    <lb/>pour l'amour de Iesus Christ , &amp;
+                    <lb/>aprés la grace qu'il nous fait de nous regenerer
+                    <lb/>par son Esprit , pourquoy apprehenderions-
+                    <lb/>nous , puis que nous savons
+                    <lb/>que Christ a détruit son empire , &amp; qu'il <fw place="bot-right" type="catch">ne</fw>
+                    <pb n="43"/>
+                    <lb/>ne peut plus avoir de domination sur<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>nous ? Seroit-ce encore la rage du
+                    <lb/>Diable &amp; la haine du monde , qui font
+                    <lb/>tous leurs efforts pour nous perdre? Mais
+                    <lb/>que peuvent-ils contre nous,si nous sommes
+                    <lb/>en la main de celuy qui fait trembler
+                    <lb/>les Demons en leurs abymes , &amp;
+                    <lb/>sans la permission duquel ils ne sauroient
+                    <lb/>rien faire , non pas même entrer dans un
+                    <lb/>troupeau de pourceau ? Seroit-ce enfin
+                    <lb/>les frayeurs de la mort &amp; de l'enfer ?
+                    <lb/>Mais puis que nous sommes avec le Prince
+                    <lb/>de la vie, qui a les clefs de la mort &amp;
+                    <lb/>de l'enfer , pourquoy craindrions nous?
+                    <lb/>Ne savons-nous pas que ce sont des Ennemis
+                    <lb/>vaincus,qui ne sont plus capables,
+                    <lb/>ni de nous faire peur, ni de nous nuire?
+                    <lb/>Ainsi il est constant, que quand il n'y auroit
+                    <lb/>que cette seule consideration , elle
+                    <lb/>nous doit obliger déja de reconnoître,
+                    <lb/>que la nation qui a l'Eternel pour son
+                    <lb/>Dieu , est parfaitement heureuse ; puis
+                    <lb/>qu'il n'y a point de mal qui la puisse faire
+                    <lb/>craindre. Mais que ne devrons-nous
+                    <lb/>dire, quand nous ferons reflexion sur les
+                    <lb/>avantages qui nous en reviennent , &amp;
+                    <lb/>que nous n'y trouvons pas seulement la
+                    <lb/>delivrance des maux que nous pouvons <fw place="bot-right" type="catch">craindre,</fw>
+                    <pb n="44"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>craindre , mais aussi la possession de tous
+                    <lb/>les biens que nous pouvons desirer ? Car
+                    <lb/>en possedant Dieu, n'est-il pas vray que
+                    <lb/>nous possedons tout ? Sa justice &amp; sa vie,
+                    <lb/>sa sainteté &amp; sa felicité , sa grace &amp; sa
+                    <lb/>gloire nous appartienent ; Nous sommes
+                    <lb/>les heritiers de son Royaume , &amp;
+                    <lb/>nous ne saurions rien souhaiter pour la
+                    <lb/>perfection de nôtre bonheur, que nous
+                    <lb/>ne trouvions abondamment dans cette
+                    <lb/>source inépuisable de benedictions.
+                    <lb/>Faut il s'étonner aprés cela, que le Psalmiste
+                    <lb/>s'écrie , <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">Bienheureuse est la nation
+                            <lb/>de laquelle l'Eternel est le Dieu, &amp; le peuple
+                            <lb/>qu'il s'est choisi pour heritage</hi>
+                    </quote>. Le livre
+                    <lb/>des Pseaumes est tout plein de ces saints
+                    <lb/>transports ; &amp; jamais ce fidele serviteur
+                    <lb/>de Dieu ne pense à la grace qu'il fait à
+                    <lb/>ses enfans,qu'il ne tiene le même langage.
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.40.4-5">
+                            <hi rend="I">Ps.</hi> 40.5.</ref>
+                    </note>
+                    <quote source="bible1588.xml#Ps.40.5">
+                        <hi rend="I">O que bienheureux est le personnage,</hi>
+                        <lb/><seg type="interpolation">dit-il au <ref type="bible" target="bibleSegond21.xml#Ps.40">Psaume quarantiéme</ref>,</seg>
+                        <hi rend="I">qui s'est
+                            <lb/>proposé l'Eternel pour son assurance</hi>
+                    </quote>, et ailleurs,
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.146.5">Ps. 146. 5.</ref>
+                    </note>
+                    <quote source="bible1588.xml#Ps.146.5">
+                        <hi rend="I">O que bienheureux est l'homme à
+                            <lb/>qui le Dieu de Iacob est en aide ! O que </hi>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Ps.73.27-28">
+                                <hi rend="I">Ps.</hi> 73. <lb/>28.</ref>
+                        </note>
+                        <hi rend="I">bienheureux est celuy qui se fie en toy</hi></quote><hi rend="I">! </hi>
+                    <quote source="bible1588.xml#Ps.73.27-28">
+                        <hi rend="I">Ceux
+                            <lb/>qui s'éloignent de toy periront, mais quant
+                            <lb/>à moy</hi>, <seg type="interpolation">dit-il en un autre endroit,</seg>
+                        <hi rend="I">d'approcher
+                            <lb/>de Dieu c'est mon bien</hi>
+                    </quote>. Et ainsi en <fw place="bot-right" type="catch">une</fw>
+                    <pb n="45"/>
+                    <lb/>une infinité de lieux. Il avoit bien raison<note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>de le dire , puis qu'il n'y a que Dieu seul,
+                    <lb/>qui puisse étre nôtre Souverain Bien, &amp;
+                    <lb/>qui en possede toutes les qualités. Car
+                    <lb/>s'il faut selon le sentiment des Philosophes,
+                    <lb/>que ce soit <hi rend="I">un Bien veritable</hi>,qui ait
+                    <lb/>de la realité, &amp; non pas seulement quelque
+                    <lb/>apparence ; <hi rend="I">un Bien infini &amp; universel</hi>,
+                    <lb/>qui puisse remedier à tous nos maux,
+                    <lb/>&amp; satisfaire nous nos desirs; <hi rend="I">un bien éternel
+                        <lb/>&amp; permanent</hi>, qui ne nous soit jamais
+                    <lb/>ôté ; Où pourrons-nous trouver qu'en
+                    <lb/>Dieu toutes ces conditions ? Pour les
+                    <lb/>Creatures quelques belles &amp; excellentes
+                    <lb/>qu'elles soyent ; vous savez que depuis
+                    <lb/>le peché de l'homme , il n'y en a point
+                    <lb/>qui ne soit sujette à vanité, &amp; par consequent
+                    <lb/>incapable de nous donner aucun
+                    <lb/>veritable bonheur : Et quand il s'en
+                    <lb/>trouveroit quelques unes qui ne fussent
+                    <lb/>pas vaines, tant y a qu'étant toutes finies
+                    <lb/>en leur essence , &amp; imparfaites en leurs
+                    <lb/>qualités , elles ne sauroyent contenter
+                    <lb/>nôtre appetit, ni empêcher que nous ne
+                    <lb/>desirions toûjours quelque chose d'avantage :
+                    <lb/>Enfin il n'y a personne qui ne sache
+                    <lb/>que comme elles ont toutes commencé
+                    <lb/>d'estre , il faut qu'elles prennent <fw place="bot-right" type="catch">toutes</fw>
+                    <pb n="46"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>toutes fin , sans qu'il s'en puisse
+                    rencontrer
+                    <lb/>aucune qui ne soit caduque &amp; perissable :
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Isa.40.6-7">
+                            <hi rend="I">Es.</hi> 40. <lb/>6.</ref>
+                    </note>
+                    <quote source="bible1588.xml#Isa.40.6-7">
+                        <hi rend="I">Toute chair est comme l'herbe,
+                            <lb/>&amp; la gloire de la chair est comme la fleur de
+                            <lb/>l'herbe , l'herbe est sechée , sa fleur est tombée</hi>
+                    </quote>.
+                    <lb/>Mais il n'en est pas de même de Dieu,
+                    <lb/>Mes Freres ; C'est un vray bien
+                    <lb/>qui n'a aucune part à la vanité des Creatures,
+                    <lb/>puis que c'est la verité même , qui
+                    <lb/>porte pour cela le nom de <hi rend="I"><foreign xml:lang="he">Iehova</foreign></hi>,pour
+                    <lb/>dire celuy qui est de par soy-méme , &amp;
+                    <lb/>qui ne dépend de personne. C'est un
+                    <lb/>bien infini &amp; universel , car c'est le
+                    <lb/>
+                    <hi rend="I"><foreign xml:lang="he">Schaddai</foreign></hi> qui possede la plenitude de
+                    <lb/>toute sorte de biens, &amp; dans qui nous
+                    <lb/>trouvons abondamment, dequoy pourvoir
+                    <lb/>à nous nos besoins. Sommes-nous
+                    <lb/>dans la souïllure , c'est une sainteté parfaite
+                    <lb/>pour nous purifier ; Sommes-nous
+                    <lb/>dans la misere, c'est un thresor de gloire
+                    <lb/>&amp; de felicité pour nous enrichir ; Sommes
+                    <lb/>nous dans la mort, c'est le Prince de
+                    <lb/>Vie pour nous en delivrer. Ainsi ce que
+                    <lb/>les mondains cherchent vainement dans
+                    <lb/>la varieté des Creatures. C'est ce que
+                    <lb/>nous trouvons parfaitement dans l'unité <fw place="bot-right" type="catch">du</fw>
+                    <pb n="47"/>
+                    <lb/>du Createur, qui renferme dans son sein<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>tous les biens que nous pouvons souhaiter.
+                    <lb/>Mais ce seroit encore peu de chose
+                    <lb/>d'avoir obtenu cet avantage , si nous
+                    <lb/>étions à toute heure en danger de le
+                    <lb/>perdre , ou s'il ne duroit que pour peu de
+                    <lb/>tems : mais c'est en cela que nous avons
+                    <lb/>nôtre plus grande consolation , que le
+                    <lb/>bien que nous avons dans la communion
+                    <lb/>de Dieu , n'est pas aussi éternel &amp; permanent.
+                    <lb/>Comme Dieu est vivant aux siecles
+                    <lb/>des siecles , il veut nous faire part de
+                    <lb/>son immortalité;en se donnant à nous
+                    <lb/>une fois , il s'y donne pour toûjours ; &amp;
+                    <lb/>ceux qu'il a aimez dez le commencement,
+                    <lb/>il les aime jusques à la fin ; l'alliance
+                    <lb/>qu'il fait avec nous est éternelle;comme
+                    <lb/>il promet qu'il ne se retirera jamais<note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Jer.32.40">
+                            <hi rend="I">Ier</hi>. 32. <lb/>40.</ref>
+                    </note>
+                    <lb/>de nous ; il nous assure aussi qu'il nous
+                    <lb/>donnera sa crainte , afin que nous ne
+                    <lb/>nous retirions point arriere de luy. Iugez
+                    <lb/>donc , fideles , si étant appuyez sur un
+                    <lb/>fondement si ferme &amp; si inébranlable,
+                    <lb/>nous avons quelque sujet de craindre,&amp;
+                    <lb/>de nous défier du bonheur de nôtre condition ;
+                    <lb/>&amp; si nous ne devons pas plûtôt
+                    <lb/>dire hardiment avec notre Prophete, <fw place="bot-right" type="catch">phete,</fw>
+                    <pb n="48"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>
+                    <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">Que bienheureuse la Nation
+                            <lb/>de laquelle l'Eternel est le Dieu &amp; le
+                            <lb/>peuple qu'il s'est choisi pour heritage</hi>
+                    </quote>. Mais
+                    <lb/>il me semble sur cela , que j'entens la
+                    <lb/>chair qui s'oppose à cette verité , &amp;
+                    <lb/>qui ne peut souffrir qu'on tiene ce langage.
+                    <lb/>
+                    Comment , dit-elle , peut-on appeller
+                        <lb/>bienheureuse une nation qui se
+                        <lb/>voit tous les jours dans le combat &amp;
+                        <lb/>dans la souffrance ? N'est-il pas vray
+                        <lb/>que dez que Dieu se declare en faveur
+                        <lb/>de l'Eglise, la Terre &amp; l'Enfer conjurent
+                        <lb/>contre elle , &amp; n'épargnent rien pour la
+                        <lb/>perdre ? N'est-il pas vray qu'elle est haïe
+                        <lb/>&amp; persecutée du monde,qu'il faut qu'elle
+                        <lb/>porte la croix de son Maître,&amp; qu'elle
+                        <lb/>se charge de son opprobre ? Le Seigneur
+                        <lb/>Iesus nous l'a predit si expressément, son
+                        <lb/>Apôtre nous le confirme si souvent , &amp;
+                        <lb/>l'experience de tous les siecles nous en
+                        <lb/>donne tant de preuves , que nous ne saurions
+                        <lb/>en douter raisonablemẽt : commẽt
+                        <lb/>donc seroit bienheureux un peuple qui
+                        <lb/>est exposé à tant de miseres ?  C'est bien
+                    <lb/>ainsi qu'en juge nôtre sens aveugle &amp;
+                    <lb/>charnel , qui ne s'arrête qu'à l'apparence,
+                    <lb/>&amp; qui mesure le bonheur, ou le malheur
+                    <lb/>par l'adversité, ou par la prosperité temporelle <fw place="bot-right" type="catch">porelle</fw>
+                    <pb n="49"/>
+                    <lb/>&amp; exterieure : Mais le fidele qui<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>est éclairé par l'Esprit de Dieu, en raisonne
+                    <lb/>bien autrement ; Bien loin de croire
+                    <lb/>que les calamités ou les souffrances de
+                    <lb/>l'Eglise puissent l'empêcher d'être heureux ;
+                    <lb/>il est persuadé au contraire , que
+                    <lb/>c'est le chemin qui nous méne à la felicité ,
+                    <lb/>que c'est par là que Dieu nous témoigne
+                    <lb/>son amour , &amp; qu'il nous rend
+                    <lb/>conformes à l'image de nôtre glorieux
+                    <lb/>Chef , qu'il avance tous les jours nôtre
+                    <lb/>sanctification , &amp; qu'il nous fait entrer
+                    <lb/>dans son divin Royaume. D'ailleurs il est
+                    <lb/>constant que quelques efforts que le
+                    <lb/>Diable &amp; que le Mõde fassent cõtre nous,
+                    <lb/>ils ne sauroient pourtant nous faire perir,
+                    <lb/>dez que nous appartenons à ce bienheureux
+                    <lb/>Sauveur. Ils peuvent bien nous attaquer ,
+                    <lb/>mais ils ne sauroyent nous vaincre ;
+                    <lb/>Ils peuvent bien nous ébranler,mais
+                    <lb/>ils ne sauroient nous abbatre. Ils peuvent
+                    <lb/>bien nous ôter cette vie miserable , que
+                    <lb/>nous trainons sur la terre; mais il ne sauroient
+                    <lb/>nous ravir l'éternelle que Dieu
+                    <lb/>nous a promise. S'il tourmentent le
+                    <lb/>corps &amp; s'ils le tuent , ils ne peuvent rien
+                    <lb/>sur l'ame, ny sur le salut, qui est entre les
+                    <lb/>mains de Dieu. C'est ce qui fait dire à <fw place="bot-right" type="catch">l'Apôtre</fw>
+                    <pb n="50"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>l'Apôtre; <quote source="bible1588.xml#Rom.8.31">
+                        <hi rend="I">que si Dieu est pour nous, rien ne</hi>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Rom.8.31">
+                                <hi rend="I">Rom. </hi>8.<lb/>31.</ref>
+                        </note>
+                        <hi rend="I">peut étre contre nous</hi>
+                    </quote> ; &amp; qu'il n'y a accident
+                    <lb/>ny calamité aucune pour grande
+                    <lb/>qu'elle soit, qui soit capable de nous separer
+                    <lb/>jamais de son amour ,mais qu'en toutes
+                    <lb/>choses nous sommes plus que vainqueurs
+                    <lb/>en celuy qui nous a aimez. Il ne
+                    <lb/>nie pas que nous ne soyons exposez à
+                    <lb/>beaucoup de combats &amp; de miseres;mais
+                    <lb/>il nous assure,que tout cela ne pourra pas
+                    <lb/>nous éloigner de Dieu. Les morsures de
+                    <lb/>cet anciẽ serpent peuvẽt bien blesser nôtre
+                    <lb/>talon , c'est à dire affliger nôtre chair
+                    <lb/>qui est la partie inferieure de l'homme ;
+                    <lb/>mais elles ne sauroient aller jusques à la
+                    <lb/>teste , pour nous faire des playes incurables,
+                    <lb/>&amp; nous donner le coup de mort.
+                    <lb/>Ainsi Dieu conduit si heureusement tous
+                    <lb/>les coups de nos Ennemis,que quelque
+                    <lb/>dessein qu'ils ayent de nous nuire , ils ne
+                    <lb/>sauroyent pourtant y reüssir; Que
+                    <lb/>dis-je qu'ils ne sauroient nous nuire ?
+                    <lb/>Dieu fait même qu'ils nous servent , &amp;
+                    <lb/>qu'ils contribuent à nôtre bonheur ; n'entendez-
+                    <lb/>vous pas S. Paul qui nous assure
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rom.8.28">
+                            <hi rend="I">Rom.</hi>8.<lb/>28.</ref>
+                    </note>
+                    <quote source="bible1588.xml#Rom.8.28">
+                        <hi rend="I">que toutes choses aident ensemble en bien à
+                            <lb/>ceux qui aiment Dieu</hi>
+                    </quote>. Ouy dez lors que
+                    <lb/>Dieu est nôtre Dieu , il faut que toutes les <fw place="bot-right" type="catch">cho-</fw>
+                    <pb n="51"/>
+                    <lb/>choses,même les plus contraires &amp; les<note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>plus prejudiciables , au lieu de nous perdre,
+                    <lb/>servent à nous sauver,par des secrets
+                    <lb/>ressorts de sa providence ; au lieu d'étre
+                    <lb/>les instrumens de nôtre ruïne , elles sont
+                    <lb/>converties par la bonté de Dieu en des
+                    <lb/>moyens de nôtre bonheur ; &amp; bien loin
+                    <lb/>de nous faire du mal , elles nous procurent
+                    <lb/>beaucoup de bien , en mortifiant
+                    <lb/>nôtre chair , en rallumant nôtre zele,
+                    <lb/>en éprouvant nôtre foy &amp; nôtre patience,
+                    <lb/>en sanctifiant nôtre vie, &amp; en nous
+                    <lb/>détachant de la terre , pour nous faire
+                    <lb/>soûpirer aprés le ciel. Et comme ont dit
+                    <lb/>qu'autrefois un homme perça d'un coup
+                    <lb/>d'épée un abscés dangereux à son ennemi,
+                    <lb/>qui luy eut causé infailliblement la
+                    <lb/>mort , de maniere que son Ennemi fut
+                    <lb/>son Medecin, &amp; sa blessure sa guerison;
+                    <lb/>Ainsi Dieu adresse tellement par sa main
+                    <lb/>invisible &amp; toute-puissante les coups des
+                    <lb/>méchans contre les fideles, qu'au lieu de
+                    <lb/>leur nuire, ils leur servent , faisant par sa
+                    <lb/>providence qu'ils vienent à percer quelque
+                    <lb/>apostume secrette , c'est à dire à les
+                    <lb/>delivrer par ce moyen de quelque vice
+                    <lb/>dangereux, qui étoit capable de les perdre.
+                    <lb/>Et comme encore l'histoire remarque, <fw place="bot-right" type="catch">que</fw>
+                    <pb n="52"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>que les Perses envoyerent autrefois
+                    <lb/>aux Egyptiens certaines plantes venimeuses
+                    <lb/>pour les faire mourir ; mais qu'il
+                    <lb/>arriva par la bonté du terroir,&amp; par l'inondation
+                    <lb/>du Nil , que ces plantes qui devoyent
+                    <lb/>les empoisonner par leurs fruits,
+                    <lb/>en porterent de tres-innocens &amp; de tres-
+                    <lb/>agréables : ainsi les afflictions qui sont
+                    <lb/>autant de plantes envenimées , qui semblent
+                    <lb/>nous devoir empoisonner , nous
+                    <lb/>servent d'antidote &amp; de contrepoison
+                    <lb/>par la grace de Dieu , &amp; produisent de
+                    <lb/>tres-doux &amp; de tres-agreables fruits de
+                    <lb/>pieté &amp; de sanctification. C'est ce qui fait
+                    <lb/>dire à S. Paul que nous-nous glorifions
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Rom.5.3-5">
+                            <hi rend="I">Rom</hi>. 5. <lb/>3.4.</ref>
+                    </note>dans les afflictions, sachant que <quote source="bible1588.xml#Rom.5.3-5">
+                        <hi rend="I">la tribulation
+                            <lb/>produit la patience, &amp; la patience l'épreuve,
+                            <lb/>&amp; l'épreuve l'esperance, &amp; que l'esperance
+                            <lb/>ne confond point , parce que l'amour
+                            <lb/>de Dieu est épanduë en nos cœurs</hi>
+                    </quote>. Et ailleurs
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Heb.12.11">
+                            <hi rend="I">Heb. </hi>12.
+                            <gap resp="#CiM" unit="character" extent="unknown" reason="illegible"/></ref>
+                    </note>il dit que <quote source="bible1588.xml#Heb.12.11">
+                        <hi rend="I">Toute discipline sur l'heure
+                            <lb/>ne semble point étre de joye, mais de tristesse,
+                            <lb/>mais qu'elle rend en suite un fruit paisible de
+                            <lb/>justice à ceux qui sont exercez par elle</hi>
+                    </quote>. La
+                    <lb/>mort même , qui est le Roy des épouvantemens ,
+                    <lb/>&amp; le dernier ennemi que nous
+                    <lb/>avons à combattre , nous devient tres-
+                    <lb/>avantageuse , puis qu'elle n'est plus la <fw place="bot-right" type="catch">peine</fw>
+                    <pb n="53"/>
+                    <lb/>peine du peché , &amp; l'entrée des enfers, <note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>comme elle étoit de sa nature ; mais la
+                    <lb/>porte du ciel , l'entrée du Paradis, &amp; le
+                    <lb/>passage à l'immortalité. Et que diray-je
+                    <lb/>plus ? mes Freres , il n'y a pas même jusques
+                    <lb/>au peché, qui ne nous serve à quelque
+                    <lb/>chose ; non pas certes de sa nature,
+                    <lb/>car il est toûjours noir &amp; abominable ;
+                    <lb/>mais par la sagesse &amp; par la bonté admirable
+                    <lb/>de Dieu , qui, comme il tira autrefois
+                    <lb/>la lumiere des tenebres,fait sortir du
+                    <lb/>mal le bien, &amp; des tenebres funestes du
+                    <lb/>peché,fait resplẽdir les rayõs salutaires de
+                    <lb/>sa misericorde,lors qu'il faut surabonder sa
+                    <lb/>grace par dessus nos pechés,&amp; qu'il se sert
+                    <lb/>même des chûtes de ses enfans,pour les
+                    <lb/>rendre plus avisez dans leur conduite , &amp;
+                    <lb/>plus fermes dans ses voyes. Puis donc
+                    <lb/>que toutes les choses,même les plus contraires,
+                    <lb/>servent à nôtre salut, &amp; qu'il n'y a
+                    <lb/>rien de tout ce que fait le Diable ou le
+                    <lb/>Monde contre nous , qui nous empêche
+                    <lb/>de le posseder ; devons nous par conclurre
+                    <lb/>hardiment avec le Prophete ; <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">Que
+                            <lb/>bienheureuse est la Nation , de laquelle l'Eternel
+                            <lb/>est le Dieu &amp; le peuple qu'il s'est choisi
+                            <lb/>pour heritage</hi>
+                    </quote>.
+                </p>
+                <p n="5">
+                    <lb/>Mais ce n'est pas assez , Mes Freres, <fw place="bot-right" type="catch">que</fw>
+                    <pb n="54"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>que nous ayons compris en general la verité
+                    <lb/>ce cet Oracle : Le principal est que
+                    <lb/>nous en façions maintenant une serieuse
+                    <lb/>application à nous-mêmes , &amp; que nous
+                    <lb/>le gravions profondement dans nos
+                    <lb/>cœurs , pour nous servir de consolation
+                    <lb/>dans nos tristesses , de correction à
+                    <lb/>nos vices , &amp; d'adresse &amp; d'instruction
+                    <lb/>dans toute nôtre vie. Et certainement il
+                    <lb/>faut bien avoüer, que comme cette excellente
+                    <lb/>doctrine est l'abbregé de l'Evangile ,
+                    <lb/>&amp; la mouëlle de toute la doctrine
+                    <lb/>du salut , elle est aussi la vraye source
+                    <lb/>de nôtre joye,le fondement de nôtre foy,
+                    <lb/>&amp; la régle de toute nôtre conduite.
+                    <lb/>Voyons donc icy devant toutes choses, si
+                    <lb/>nous sommes veritablement du nombre
+                    <lb/>de ceux qui ont part à cet avantage;C'est
+                    <lb/>sans doute la premiere reflexion , que
+                    <lb/>nous sommes obligez de faire sur cette
+                    <lb/>matiere, &amp; sans laquelle tout ce que nous
+                    <lb/>pourrions dire d'ailleurs nous seroit absolument
+                    <lb/>inutile : Car que nous serviroit
+                    <lb/>de savoir que la Nation qui a l'Eternel
+                    <lb/>pour son Dieu est bienheureuse , si
+                    <lb/>nous ne pouvons pas étre assurez d'étre
+                    <lb/>de ce nombre ? &amp; quelle consolation
+                    <lb/>pourrions-nous avoir de toutes les promesses <fw place="bot-right" type="catch">messes</fw>
+                    <pb n="55"/>
+                    <lb/>que Dieu fait à son peuple, &amp; des<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>biens qu'il luy accorde ; si nous sommes
+                    <lb/>exclus de cette bienheureuse communion ?
+                    <lb/>C'est à cela donc que nous devons
+                    <lb/>principalement travailler,pour étre
+                    <lb/>en état de jouïr du fruit de cette admirable
+                    <lb/>promesse. Ne me dites pas, Mes
+                    <lb/>Freres , comment pourrons-nous avoir
+                    <lb/>cette connoissance,faut-il que nous montions
+                    <lb/>dans le Ciel pour feüilleter le livre
+                    <lb/>de vie, &amp; pour voir si Dieu y a écrit
+                    <lb/>nos noms par le decret de son election?
+                    <lb/>La chose n'est pas si difficile , que vous
+                    <lb/>ne puissiez facilement en venir à bout,
+                    <lb/>si vous vous y appliquez avec soin : Non
+                    <lb/>par pour monter dans le Ciel, &amp; y fouïller
+                    <lb/>dans les secrets du conseil de Dieu,
+                    <lb/>qu'il s'est reservé à soy-même : mais pour
+                    <lb/>descendre dans vos cœurs,&amp; pour y considerer
+                    <lb/>les merveilles de sa grace, qu'il
+                    <lb/>vous a voulu reveler : Ce n'est pas en
+                    <lb/>recherchant curieusemẽt ce qu'il a resolu
+                    <lb/>de vous de toute éternité ; mais c'est en
+                    <lb/>remarquant ce qu'il a fait pour vous dans
+                    <lb/>le tems , &amp; ce que vous avez fait envers
+                    <lb/>luy : car ce sont les deux principales marques,
+                    <lb/>ausquelles nous pouvons connoître,
+                    <lb/>si nous sommes le peuple de Dieu ; ses <fw place="bot-right" type="catch">graces,</fw>
+                    <pb n="56"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>graces, &amp; nos devoirs ; sa vocation ,
+                    &amp;
+                    <lb/>nôtre sanctification; les faveurs qu'il nous
+                    <lb/>accorde, &amp; les services que nous luy rendons.
+                    <lb/>S'il est vray qu'il nous ait appellez
+                    <lb/>par une sainte vocation , &amp; que nous luy
+                    <lb/>ayons répondu par nôtre foy ; s'il nous a
+                    <lb/>honorez de sa connoissance salutaire , &amp;
+                    <lb/>si nous demeurons fermes dans sa verité;
+                    <lb/>s'il nous a choisis pour étre ses enfans , &amp;
+                    <lb/>si nous l'honorons comme nôtre Pere ;
+                    <lb/>Nous ne devons pas douter , que nous ne
+                    <lb/>soyons de cette nation sainte,à laquelle il
+                    <lb/>promet la felicité.Et si cela est , Mes Freres,
+                    <lb/>comment est-il possible que nous ne
+                    <lb/>soyons ravis en admiration de sa bonté
+                    <lb/>&amp; comblez de consolation &amp; de joye,
+                    <lb/>dans le sentiment de nôtre bonheur? Representez-
+                    <lb/>vous le malheureux état , dans
+                    <lb/>lequel nous étions avec le reste des
+                    <lb/>hommes ; des miserables criminels , des
+                    <lb/>esclaves des Démons , des victimes de
+                    <lb/>l'enfer , qui étant sans Dieu &amp; sans esperance
+                    <lb/>au monde , ne pouvions attendre
+                    <lb/>que les foudres épouvantables
+                    <lb/>de sa colere ; Et cependant quoy que
+                    <lb/>Dieu pût nous abandonner &amp; nous laisser
+                    <lb/>perir comme les autres , il a eu pitié
+                    <lb/>de nôtre misere , &amp; il a trouvé luy-même <fw place="bot-right" type="catch">par</fw>
+                    <pb n="57"/>
+                    <lb/>par devers soy les moyens de nôtre salut; <note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>il nous a separez des autres pour nous
+                    <lb/>prendre pour son peuple , &amp; il nous a fait
+                    <lb/>part de toutes ses graces ; &amp; comme si ce
+                    <lb/>n'étoit pas assez , il s'est donné soy-même
+                    <lb/>à nous. Les Iuifs profanes disoient autrefois
+                    <lb/>en mentant , lors que le Seigneur
+                    <lb/>leur representoit les diverses marques de
+                    <lb/>son amour , <quote source="bible1588.xml#Mal.1.2">
+                        <hi rend="I">Et quoy nous as tu aimez</hi></quote> <hi rend="I">?</hi>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Mal.1.2">
+                            <hi rend="I">Malac</hi>. <lb/>1. 2.</ref>
+                    </note>
+                    <lb/>Mais , Fideles , nous avons sujet de tenir
+                    <lb/>un tout autre langage, &amp; de luy dire avec
+                    <lb/>verité ; En quoy ne nous as tu pas aimez
+                        <lb/>Seigneur , &amp; que n'as tu pas fait en nôtre
+                        <lb/>faveur ? Que pouvions-nous desirer de ta
+                        <lb/>bonté, que tu ne nous l'ayes accordé?
+                        <lb/>nous étions perdus, &amp; tu nous as sauvez;
+                        <lb/>nous étions esclaves, &amp; tu nous as rachetez;
+                        <lb/>nous étions coûpables de mille crimes ,
+                        <lb/>&amp; tu nous les as tous pardonnez ;
+                        <lb/>nous étions dans la mort , &amp; tu nous as
+                        <lb/>donné la vie : Si ta justice &amp; nôtre peché
+                        <lb/>demandoit un merite infini pour le prix
+                        <lb/>de nôtre rançon ; tu n'as point fait de
+                        <lb/>difficulté de nous donner ton propre Fils
+                        <lb/>pour y satisfaire : Si nous avions besoin
+                        <lb/>de ton Esprit pour nous sanctifier &amp; pour
+                        <lb/>nous consoler ; tu nous l'as communiqué
+                        <lb/>pour demeurer avec nous éternellement; <fw place="bot-right" type="catch"> ment:</fw>
+                        <pb n="58"/>
+                        <lb/>
+                        <note type="margin">Sermon <lb/>I.</note>Si nôtre misere &amp; nôtre neant
+                        <lb/>ne pouvoit se remplir que par toy-même;
+                        <lb/>tu ne nous as pas refusé cette inestimable
+                        <lb/>faveur ; en nous prenant à toy, tu t'es
+                        <lb/>donné à nous avec toutes tes graces : tu
+                        <lb/>as voulu estre nôtre Dieu,&amp; que nous fussions
+                        <lb/>ton peuple. En quoy donc ne nous
+                        <lb/>as-tu pas aimez ?  Certainement , Freres
+                    <lb/>bienaimez , nous serons bien obligez de
+                    <lb/>le reconnaître &amp; de le confesser ; quand
+                    <lb/>nous nous souviendrons, que tout ce qu'il
+                    <lb/>en a fait,n'a été qu'un pur mouvement de
+                    <lb/>sa misericorde, sans que nous luy en eussions
+                    <lb/>jamais donné de sujet. Ouy , Fideles ,
+                    <lb/>donnons luy en la gloire toute entiere ;
+                    <lb/>Ne sacrifions jamais à nos rets ni à
+                    <lb/>nos filez , comme si c'étoit par nos merites
+                    <lb/>que nous eussions aquis cet avantage:
+                    <lb/>Quoy ? miserables vers de terre que nous
+                    <lb/>sommes , povres &amp; chetives creatures ,
+                    <lb/>pecheurs rebelles &amp; criminels,oserions-
+                    <lb/>nous bien pretendre quelque chose de la
+                    <lb/>Majesté de Dieu ? oserions - nous bien
+                    <lb/>nous flatter de cette pensée , que nous
+                    <lb/>l'ayons prevenu , &amp; qu'il ait eu quelque
+                    <lb/>chose en nous plus que dans les autres,
+                    <lb/>qui l'ait obligé à nous choisir pour son
+                    <lb/>heritage ? Que les Docteurs de l'erreur <fw place="bot-right" type="catch">&amp; du</fw>
+                    <pb n="59"/>
+                    <lb/>&amp; du mensonge ; Que les Partisans de<note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>la Nature,&amp; les Ennemis de la Grace en
+                    <lb/>disent ce qu'ils voudront : Pour nous,
+                    <lb/>Fideles , qui sommes instruits dans une
+                    <lb/>meilleure Echole , avoüons franchement
+                    <lb/>que c'est luy qui nous a prevenus en ses
+                    <lb/>misericordes , qui nous a choisis de son
+                    <lb/>pur bon plaisir , &amp; que c'est à luy seul
+                    <lb/>que nous en devons toute la gloire.
+                    <lb/>Mais comme cette pensée nous oblige
+                    <lb/>à nous humilier en nous-mêmes , &amp; à
+                    <lb/>publier la merveille de la bonté de Dieu
+                    <lb/>sur nous ; N'avons-nous pas sujet en cela
+                    <lb/>même de nous consoler dans l'assurance
+                    <lb/>de nôtre bonheur , &amp; de nous servir
+                    <lb/>de cet Oracle,comme d'un bouclier impenetrable
+                    <lb/>pour éteindre tous les dards
+                    <lb/>enflammez du malin ? Car si nous sommes
+                    <lb/>une fois bien persuadez de cette verité,
+                    <lb/>que Dieu est nôtre Dieu &amp; qu'il nous
+                    <lb/>a choisis pour son heritage ; Où est le
+                    <lb/>mal,ou le danger qui nous fasse craindre?
+                    <lb/>Vivant sous la protection de ce Souverain
+                    <lb/>Seigneur, tout sage, tout puissant, &amp; tout
+                    <lb/>misericordieux ; &amp; étant à l'ombre de
+                    <lb/>cette main invicible , &amp; à l'abri de ce
+                    <lb/>grand bouclier , de qui pourrions-nous
+                    <lb/>avoir peur ? Quand les hommes se joindroyent <fw place="bot-right" type="catch">droyent</fw>
+                    <pb n="60"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>avec les Demons, quand la Terre
+                    <lb/>&amp; l'Enfer uniroient leurs forces pour
+                    <lb/>nous perdre ; Tout cela ne devroit pas
+                    <lb/>estre capable de nous étonner,Car <quote source="bible1588.xml#Rom.8.31:36">
+                        <hi rend="I">si Dieu</hi>
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Rom.8.31:36">
+                                <hi rend="I">Rom.</hi> 8. <lb/>31.36</ref>
+                        </note>
+                        <hi rend="I">est pour nous, qui est-ce qui sera contre nous?
+                            <lb/>qui est-ce qui nous separera de la dilection
+                            <lb/>de Christ ; sera-ce oppreßion, ou angoisse, ou
+                            <lb/>persecution , ou détresse , ou famine, ou nudité,
+                            <lb/>ou peril, ou épée ? Mais en toutes ces
+                            <lb/>choses nous sommes plus que vainqueurs en
+                            <lb/>celuy qui nous a aimez</hi>
+                        <!--citation approximative-->
+                    </quote>. Ce n'est pas que
+                    <lb/>nous puissions nous promettre aucun repos
+                    <lb/>ny contentement de la part du monde ;
+                    <lb/>car vous savez que l'une des premieres
+                    <lb/>leçons que le Seigneur nous ait données,
+                    <lb/>c'est celle de charger sa croix &amp; de
+                    <lb/>renoncer à soy-même ; &amp; vous n'ignorez
+                    <lb/>pas que le charactere de l'Eglise , c'est de
+                    <lb/>gemir comme la colombe , &amp; d'avoir
+                    <lb/>beaucoup de maux à souffrir &amp; d'ennemis
+                    <lb/>à combattre ; Quand cela ne seroit
+                    <lb/>pas necessaire pour éprouver nôtre foy
+                    <lb/>&amp; nôtre patience ; nous aurions besoin
+                    <lb/>de cet exercice, pour nous corriger de
+                    <lb/>nos defauts, &amp; pour nous preparer à la
+                    <lb/>possession de la gloire : Mais nous savons
+                    <lb/>que Dieu est nôtre Dieu , que s'il nous <fw place="bot-right" type="catch">frappe</fw>
+                    <pb n="61"/>
+                    <lb/>frappe, il le fait en Pere, &amp; non pas en Iuge , <note type="margin">Sermon <lb/>I.</note>
+                    <lb/>non pour nous perdre , mais pour
+                    <lb/>nous sauver , &amp; pour nous faire participans
+                    <lb/>de sa sainteté. Nous sommes assurez
+                    <lb/>qu'au milieu de sa colere , il se souvient
+                    <lb/>toûjours d'avoir compassion ; s'il
+                    <lb/>cache sa face pour un instant au moment
+                    <lb/>de l'indignation , il nous recueïlle dans
+                    <lb/>ses compassions éternelles : &amp; s'il enuoye
+                    <lb/>du mal, il ne l'envoye jamais par dessus
+                    <lb/>nos forces , mais avec la tentation il nous
+                    <lb/>donne l'issue , afin que nous la puissions
+                    <lb/>supporter. Nous savons que s'il permet
+                    <lb/>que le monde nous haïsse &amp; nous persecute,
+                    <lb/>c'est afin que nous apprenions à le
+                    <lb/>detester &amp; à le haïr ; mais qu'il ne souffrira
+                    <lb/>pas qu'il prevaille jamais sur nous , ny
+                    <lb/>qu'il en triomphe. Réjouïssõs-nous donc,
+                    <lb/>Fideles, en cette pensée ; Opposons la à
+                    <lb/>toutes les tentations dont nous pourrions
+                    <lb/>étre assaillis, puis qu'il n'y en a point , qui
+                    <lb/>puisse nous arracher de la communion
+                    <lb/>bienheureuse du Seigneur , ny nous faire
+                    <lb/>dechoir du salut, à la possession duquel il
+                    <lb/>nous a appellez. Que cette même consideration
+                    <lb/>nous soûtienne encore dans les
+                    <lb/>souffrances &amp; dans les persecutions , où
+                    <lb/>nous voyons souvent l'eglise exposée ; &amp; <fw place="bot-right" type="catch">sur</fw>
+                    <pb n="62"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>sur tout dans cette triste &amp; calamiteuse
+                    <lb/>saison, où il semble que Satan,voiant qu'il
+                    <lb/>luy reste peu de tems, redouble ses efforts
+                    <lb/>&amp; ses machinations contre elle d'une façon
+                    <lb/>extraordinaire : Souvenons - nous
+                    <lb/>toûjours , que quoy qu'il face, il ne viendra
+                    <lb/>jamais à bout de son mauvais dessein;
+                    <lb/>parce que Dieu qui a voulu estre son
+                    <lb/>Dieu , &amp; qui l'a prise pour son peuple,
+                    <lb/>l'environne de sa providence , &amp; la garentit
+                    <lb/>
+                    <note type="margin">
+                        <ref type="bible" target="bibleSegond21.xml#Ps.46.5-6"> 
+                            <hi rend="I">Ps.</hi> 46.6.</ref>
+                    </note>par sa puissante main, <quote source="bible1588.xml#Ps.46.6">
+                        <hi rend="I">Dieu est au
+                            <lb/>milieu d'elle, elle ne bougera point ; Dieu luy
+                            <lb/>donnera secours au point du jour</hi>
+                    </quote>. Ouy, mes
+                    <lb/>Freres , soyons-en bien persuadez. Encore
+                    <lb/>que nous voyons souvent les dangers 
+                    <lb/>&amp; les miseres augmenter ; Encore
+                    <lb/>qu'il semble que la tempête s'éleve de
+                    <lb/>tous côtés , ne nous en effrayons point
+                    <lb/>pourtant ; Assurons - nous sur Dieu, &amp;
+                    <lb/>nous serons en repos sous ses aisles ; Il
+                    <lb/>nous veut beaucoup plus de bien, que
+                    <lb/>nos ennemis ne nous sauroient faire de
+                    <lb/>mal : Ils sont méchans &amp; nous sommes
+                    <lb/>infirmes ; mais sa puissance est sans comparaison
+                    <lb/>plus grande que nôtre infirmité,
+                    <lb/>&amp; sa bonté surpasse infiniment toute leur
+                    <lb/>malice : Ayons seulement soin de luy
+                    <lb/>plaire, &amp; il aura soin de nous conserver ; <fw place="bot-right" type="catch">Ne</fw>
+                    <pb n="63"/>
+                    <lb/>Ne perdons jamais la qualité de son peuple, <note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>&amp; de ses fideles sujets ; &amp; il ne quittera
+                    <lb/>point celle qu'il a prise en nôtre faveur
+                    <lb/>de Protecteur &amp; de Pere.Ainsi contens
+                    <lb/>de nôtre bonheur,jouïssons doucement
+                    <lb/>de la grace qu'il nous accorde, sans
+                    <lb/>desirer rien davantage. Laissons courir
+                    <lb/>les mondains aprés les honneurs,les plaisirs,
+                    <lb/>&amp; les thresors du siecle ; qu'ils établissent
+                    <lb/>tant qu'ils voudront leur souverain
+                    <lb/>bien en ces choses perissables ; Pour
+                    <lb/>nous , Fideles , qui en connoissons la vanité
+                    <lb/>ne leur envions jamais ce partage ;
+                    <lb/>Contentons - nous d'avoir le Seigneur
+                    <lb/>pour le nôtre , &amp; sachons que cela nous
+                    <lb/>suffit ; &amp; que c'est la bonne part qui ne
+                    <lb/>nous sera jamais ôtée. Ie say bien que
+                    <lb/>nous n'y trouverons pas les grandeurs &amp;
+                    <lb/>les avantages du monde , comme dans
+                    <lb/>Babylone ; Mais nous y trouverons ce qui
+                    <lb/>vaut infiniment mieux, la remission de
+                    <lb/>nos pechez, la paix de la conscience ,
+                    <lb/>l'assurance de la grace, &amp; l'esperance de
+                    <lb/>la gloire. Nous n'y trouverons pas le
+                    <lb/>bras de la chair , ny la faveur des Grands
+                    <lb/>&amp; des Princes de la terre ; Mais nous y
+                    <lb/>trouverons le bras éternel &amp; tout-puissant
+                    <lb/>du Seigneur , qui se déploye pour ses <fw place="bot-right" type="catch">enfans</fw>
+                    <pb n="64"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>enfans , &amp; la faveur du Roy du Ciel
+                    &amp; de
+                    <lb/>la Terre , qui n'est point sujette à changement,
+                    <lb/>comme celle des hommes.Nous
+                    <lb/>n'y rencontrerons pas les douceurs ny les
+                    <lb/>delices trompeuses du siecle ; Mais nous
+                    <lb/>y goûterons les veritables contentemẽs,
+                    <lb/>&amp; les joyes inenarrables du ciel , qui ne
+                    <lb/>seront plus mélées d'aucune amertume,
+                    <lb/>&amp; qui nous feront noyer agréablement
+                    <lb/>dans le vaste Ocean des delices de la
+                    <lb/>gloire. Mais , Chers Freres , si le sentiment
+                    <lb/>de l'amour de Dieu &amp; de nôtre
+                    <lb/>bonheur nous donne tant de joye;Souvenons-
+                    <lb/>nous aussi des devoirs &amp; des services
+                    <lb/>qu'il nous demande. Car, si toutes les
+                    <lb/>alliances des hommes sont reciproques,
+                    <lb/>&amp; obligent l'une &amp; l'autre des parties à
+                    <lb/>l'observation de quelques conditions,
+                    <lb/>douterons-nous que celle que nous avons
+                    <lb/>avec Dieu ne soit de la même sorte ? Il
+                    <lb/>veut être nôtre Dieu ; mais c'est à condition
+                    <lb/>que nous soions son peuple ; s'il est
+                    <lb/>Pere que nous soions enfans ; s'il nous aime,
+                    <lb/>que nous le servions ; s'il nous benit,
+                    <lb/>que nous les loüions ; s'il nous donne ses
+                    <lb/>biens , que nous luy rendions nos reconnoissances ;
+                    <lb/>enfin s'il est nôtre Dieu par
+                    <lb/>son amour &amp; par sa protection, que nous <fw place="bot-right" type="catch">soyons</fw>
+                    <pb n="65"/>
+                    <lb/>soyons son peuple par la fidelité de<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>nôtre obeïssance. Car , pourrions-nous
+                    <lb/>bien nous imaginer , que Dieu veuïlle
+                    <lb/>étre pour ceux , qui se declarent contre
+                    <lb/>luy , qu'il favorise de son amour &amp; de
+                    <lb/>sa protection , ceux qui luy sont incessamment
+                    <lb/>la guerre par leurs vices , &amp;
+                    <lb/>qu'il regarde comme son peuple &amp; ses
+                    <lb/>enfans , ceux qui dans leur vie &amp; dans
+                    <lb/>leurs actions sont tous les jours des actes
+                    <lb/>d'ennemis &amp; de rebelles ? Ah ! Mes
+                    <lb/>Freres , ne nous flattons pas de cette criminelle
+                    <lb/>pensée ; sachons plûtôt que nous
+                    <lb/>ne serons jamais bien avec luy, que nous
+                    <lb/>n'ayons rompu absolument avec le peché
+                    <lb/>&amp; avec le monde ; &amp; que nous ne
+                    <lb/>l'aurons jamais pour nous , que nous ne
+                    <lb/>soyons pour luy. Si Iesus Christ disoit
+                    <lb/>avec beaucoup de raison pour prouver
+                    <lb/>l'immortalité de l'ame &amp; la resurrection
+                    <lb/>du corps,que Dieu n'est pas le Dieu
+                    <lb/>des morts, mais des vivans ; Nous pouvons
+                    <lb/>par la même raison montrer la necessité
+                    <lb/>de nôtre sanctification , &amp; dire
+                    <lb/>aprés luy , qu'il n'est pas le Dieu
+                    <lb/>des méchans &amp; des profanes , mais
+                    <lb/>des fideles &amp; des justes. Voulons-
+                    <lb/>nous donc sçavoir , si nous luy appartenons <fw place="bot-right" type="catch">nons</fw>
+                    <pb n="66"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>en cette sorte , regardons si nous
+                    <lb/>avons le seau &amp; le charactere qu'il demande ;
+                    <lb/>si nous sommes saints comme il
+                    <lb/>est saint ; Si, comme il nous a choisis par
+                    <lb/>son amour par dessus tous les hommes
+                    <lb/>de la terre, pour être ses enfans &amp; son
+                    <lb/>peuple; Nous le choisissõs aussi par nôtre
+                    <lb/>foy, par dessus tout ce que nous avons de
+                    <lb/>plus cher au mõde pour être nôtre Dieu
+                    <lb/>&amp;nôtre Pere;Si cõme il s'est ẽgagé à nous
+                    <lb/>aider par ses promesses,&amp; même par son
+                    <lb/>serment; Nous-nous engageons aussi à le
+                    <lb/>servir par nôtre obeïssance ; Si comme il
+                    <lb/>s'interesse hautement dans nos maux &amp;
+                    <lb/>dans nos souffrances, en prenant part à
+                    <lb/>tout ce qui nous touche ; Nous-nous interessons
+                    <lb/>aussi dans sa cause , combattans
+                    <lb/>genereusement pour sa querelle , ne faisant
+                    <lb/>point de difficulté de souffrir tout
+                    <lb/>pour sa gloire,s'il nous y appelle : En un
+                    <lb/>mot , comme en se nommant nôtre
+                    <lb/>Dieu ,il nous assure que tout ce qu'il est,
+                    <lb/>tout ce qu'il a , &amp; tout ce qu'il fait
+                    <lb/>nous appartient, ses vertus , ses biens , &amp;
+                    <lb/>ses œuvres ; ainsi si nous sommes veritablement
+                    <lb/>à luy ; il faut que tout ce que
+                    <lb/>nous sommes, tout ce que nous avons, &amp;
+                    <lb/>tout ce que nous faisons soit à luy &amp; pour <fw place="bot-right" type="catch">luy</fw>
+                    <pb n="67"/>
+                    <lb/>luy, nos personnes, nos biens &amp; nos vies, <note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>en sorte que nous n'ayons plus aucun autre
+                    <lb/>Dieu que lui, &amp; que nous bannissons
+                    <lb/>de nôtre cœur toutes ces fausses Divinités
+                    <lb/>ausquelles nous faisions encensemens ;
+                    <lb/>non pas seulement les idoles
+                    <lb/>grossieres des Payens ; mais les idoles secretes
+                    <lb/>de jalousie, que les Chrétiens n'adorent
+                    <lb/>que trop souvent, l'avarice, l'ambition ,
+                    <lb/>la volupté, la colere, &amp; semblables
+                    <lb/>passions maudites, que les profanes
+                    <lb/>établissent dans leurs cœurs, comme autant
+                    <lb/>de divinités , devant lesquelles ils se
+                    <lb/>prosternent : Au contraire que ce soit
+                    <lb/>luy seul, qui regne en nôtre cœur , &amp;
+                    <lb/>qu'il en soit tellement le Maître , que
+                    <lb/>nous n'ayons plus de mouvement ny de
+                    <lb/>pensée , qui n'ait son Esprit pour principe ,
+                    <lb/>sa volonté pour régle , &amp; sa gloire
+                    <lb/>pour fin. Et si nous avons l'avantage du
+                    <lb/>Seigneur , que demande cela de nous,
+                    <lb/>sinon que nous répondions à ses soins par
+                    <lb/>nos services , &amp; que recevant tant de
+                    <lb/>preuves de sa bonté , nous luy rendions
+                    <lb/>quelques marques de nôtre reconoissance ?
+                    <lb/>Quoy voudrions-nous ressembler
+                    <lb/>à cette vigne maudite , qui ayant été <fw place="bot-right" type="catch">culti-</fw>
+                    <pb n="68"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>cultivée avec tant de soin , lors qu'on en
+                    <lb/>attendoit du fruit , ne rapporta que des
+                    <lb/>grappes sauvages ? Voudrions-nous être
+                    <lb/>comme ce figuier sterile de l'Evangile,
+                    <lb/>qui n'ayant manqué de rien pour fructifier ,
+                    <lb/>demeura toûjours sterile , &amp; enfin
+                    <lb/>fut justement maudit &amp; coupé ? Voudrions-
+                    <lb/>nous être comme <foreign xml:lang="he">Iesurun</foreign> qui
+                    <lb/>aprés avoir été engraissé,a regimbé contre
+                    <lb/>son Dieu ? Fideles , Dieu nous garde
+                    <lb/>de tomber dans ce funeste malheur;
+                    <lb/>qu'il nous donne plûtôt d'être si constans
+                    <lb/>&amp; si fideles à son service , qu'il n'y ait
+                    <lb/>rien qui soit capable de nous en détacher ,
+                    <lb/>ny les promesses , ny les menaces
+                    <lb/>du monde , ny la prosperité, ny l'adversité,
+                    <lb/>ny la mort , ny la vie ; afin que nous
+                    <lb/>vivions toûjours comme la nation sainte
+                    <lb/>&amp; le peuple aquis du Seigneur , &amp; que
+                    <lb/>nous puissions experimenter la verité de
+                    <lb/>cet Oracle du Prophete,que <quote source="bible1588.xml#Ps.33.12">
+                        <hi rend="I">bienheureuse
+                            <lb/>est la nation de laquelle l'Eternel est le Dieu,
+                            <lb/>&amp; le peuple qu'il s'est choisi pour heritage</hi>
+                    </quote>.
+                </p>
+                <p n="6">
+                    <lb/>Si toutes les Eglises du Monde
+                    <lb/>peuvent avoir part à cet avantage ; ne
+                    <lb/>faut-il pas avoüer, Mes Freres, que celle
+                    <lb/>que vous composez aujourd'hui , l'a
+                    <lb/>particulierement experimenté, &amp; qu'elle <fw place="bot-right" type="catch">le est</fw>
+                    <pb n="69"/>
+                    <lb/>est un commentaire vivant de ces divines<note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>paroles. Qui est-ce qui peut
+                    <lb/>considerer son établissement &amp; sa subsistance,
+                    <lb/>qui ne reconnoisse visiblement la
+                    <lb/>main de Dieu qui la soûtient , &amp; sa grace
+                    <lb/>qui l'accompagne ? Si Moyse
+                    <lb/>pouvoit dire autrefois de l'ancien peuple ,
+                    <lb/>
+                    <quote source="bible1588.xml#Deut.33.29">
+                        <hi rend="I">O que tu es bienheureux Israël ; qui</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Deut.33.29">
+                                <hi rend="I">Deut</hi>. 33.<lb/>29</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">est le peuple semblable à toy, qui a été gardé
+                            <lb/>par l'Eternel , qui est le bouclier de ton
+                            <lb/>aide , &amp; l'épée par laquelle tu as été hautement
+                            <lb/>élevé</hi></quote> <hi rend="I">? </hi>
+                     Pouvons-nous pas dire la
+                    <lb/>même chose de Vous en plus forts termes ?
+                    <lb/>N'estes-vous pas bienheureux,de
+                    <lb/>ce qu'il vous a delivrez de la puissance
+                    <lb/>des tenebres,pour vous transporter au
+                    <lb/>royaume de sa merveilleuse lumiere ; &amp;
+                    <lb/>qu'au lieu que vous voyez tant de peuples
+                    <lb/>plongez dans l'erreur &amp; dans la
+                    <lb/>superstition ; Il vous a éclairé par la lumiere
+                    <lb/>de sa verité , il a dressé le trône de
+                    <lb/>sa grace au milieu de vous, &amp; a choisi ce
+                    <lb/>lieu pour en faire son sanctuaire ? N'étes-
+                    <lb/>vous pas bienheureux,de ce qu'au milieu
+                    <lb/>de tant de confusions que vous voyez
+                    <lb/>
+                    aujourd'huy au monde , &amp; de desolations
+                    <lb/>d'Eglises , Dieu vous conserve encore
+                    <lb/>par sa misericorde la liberté d'ouïr sa <fw place="bot-right" type="catch">parole</fw>
+                    <pb n="70"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>parole &amp; de l'invoquer en ce
+                        lieu ; &amp; de
+                    <lb/>ce que, là où tant d'autres fideles sont
+                    <lb/>privez de cet avantage ; il vous donne le
+                    <lb/>moyen de recueillir dans ce desert la
+                    <lb/>manne celeste qu'il y fait tomber, pour
+                    <lb/>vous nourrir dans l'esperance de la vie
+                    <lb/>éternelle ? N'êtes-vous pas bienheureux,
+                    <lb/>de ce que le Seigneur vous a transplantez
+                    <lb/>du terroir malheureux du monde,où
+                    <lb/>vous n'étiez que des plantes maudites
+                    <lb/>de Sodome &amp; de Gomorre , dans le paradis
+                    <lb/>de son Eglise , où vous environne
+                    <lb/>en sa providence , il vous arrose de sa grace ,
+                    <lb/>il vous cultive de sa main, &amp; il
+                    <lb/>vous regarde avec plaisir comme son
+                    <lb/>heritage ? Ouy certainement, Mes Freres ,
+                    <lb/>il faut le confesser à la gloire de
+                    <lb/>Dieu,&amp; à vôtre consolation; &amp; Vous serez
+                    <lb/>bien ingrats &amp; bien miserables si
+                    <lb/>vous en parliés autrement. Mais n'oubliez
+                    <lb/>pas aussi , je vous prie, que des saveurs
+                    <lb/>si considerables , demandent aussi
+                    <lb/>des services &amp; des recõnaissances toutes
+                    <lb/>particulieres. La grandeur &amp; la multitude
+                    <lb/>de ses graces augmente la grandeur
+                    <lb/>&amp; le nombre de vos obligations. S'il
+                    <lb/>vous a fait part de ses benedictions les
+                    <lb/>plus precieuses , n'est-ce pas afin que <fw place="bot-right" type="catch">vous</fw>
+                    <pb n="71"/>
+                    <lb/>Vous luy rendiez vos hommages &amp; vos<note type="margin">Sermon <lb/>I.</note>
+                    <lb/>respects avec plus de soumission &amp; d'attachement ?
+                    <lb/><choice><sic>Sil</sic><corr resp="#CiM">S'il</corr></choice> vous a favorisez plus
+                    <lb/>que beaucoup d'autres , à quoy tend cela,
+                    <lb/>sinon à ce que vous l'aimiez aussi plus
+                    <lb/>qu'eux , &amp; que la sincerité &amp; le zele de
+                    <lb/>vôtre gratitude réponde,autant que faire
+                    <lb/>se pourra,à l'excellence de sa grace ? S'il
+                    <lb/>vous a fait une nation sainte &amp; un peuple
+                    <lb/>aquis, que demande cet avantage, sinon
+                    <lb/>que vous préchiez les vertus des celuy qui
+                    <lb/>vous a transportez des tenebres, au
+                    <lb/>royaume de son fils bienaimé ? En un
+                    <lb/>mot , s'il s'est donné à vous, que vous-
+                    <lb/>vous donniez à luy,&amp; que, sous quelque
+                    <lb/>pretexte que ce soit, vous ne vous laissiez
+                    <lb/>jamais débaucher de son service , ni
+                    <lb/>détacher de la veritable Religion qu'il vous
+                    <lb/>a enseignée. Regardez donc , Freres
+                    <lb/>bien aimez , de ne manquer jamais
+                    <lb/>à ces salutaires devoirs ; Comme il fait
+                    <lb/>les actes d'un Prince clement &amp; misericordieux ;
+                    <lb/>Rendez luy tous les devoirs
+                    <lb/>d'un peuple fidele &amp; obeïssant;Comme
+                    <lb/>il vous a plantez &amp; cultivez de sa propre
+                    <lb/>main, &amp; qu'il vous considere comme son
+                    <lb/>cher heritage ; Répondez à ses soins &amp; à
+                    <lb/>sa culture par les fruits agreables d'une <fw place="bot-right" type="catch">vraye</fw>
+                    <pb n="72"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>vraye pieté &amp; d'une sincere repentance;
+                    <lb/>Qu'il ne vous arrive jamais d'étre de
+                    <lb/>ce mauvais arbres, ou de ces sarmens
+                    <lb/>steriles, qui ne portent point de fruit;
+                    <lb/>soyez plûtôt comme ces beaux arbres,
+                    <lb/>plantez le long des ruisseaux d'eaux,dont
+                    <lb/>la feuille ne dechet jamais , &amp; qui portent
+                    <lb/>leur fruit en leur saison,cõme l'Eden
+                    <lb/>de l'Eternel , auquel il prend son plaisir.
+                    <lb/>C'est ce que le Seigneur attend de vôtre
+                    <lb/>fidelité , Mes chers Freres, &amp; ce que
+                    <lb/>nous nous promettons de vôtre zele.
+                    <lb/>Vous en avez déja donné trop d'assurances
+                    <lb/>par le passé pour en douter, &amp; les
+                    <lb/>exemples illustres , que l'on a toûjours
+                    <lb/>veu au milieu de vous, &amp; que l'on y voit
+                    <lb/>encore aujourdhuy par la benediction
+                    <lb/>de Dieu , de foy &amp; de zele , de pieté &amp;
+                    <lb/>de charité , de fermeté &amp; de constance;
+                    <lb/>nous persuadent que vous serez toûjours
+                    <lb/>les mêmes , &amp; que comme vôtre foy &amp;
+                    <lb/>vôtre charité est déja renommée par
+                    <lb/>tout le monde , vous abonderez de plus
+                    <lb/>en plus en ces dons celestes , pour épandre
+                    <lb/>par tout la bonne odeur de l'Evangile ,
+                    <lb/>&amp; de faire paroître de tous côtés l'éclat
+                    <lb/>de vos bonnes œuvres , afin que les
+                    <lb/>hommes voyans cette agréable lumiere, <fw place="bot-right" type="catch">glori-</fw>
+                    <pb n="73"/>
+                    <lb/>glorifient nôtre Pere qui est aux cieux.<note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>Continuez , Freres bien aimés , dans ce
+                    <lb/>bon &amp; genereux dessein. Si Dieu ne se
+                    <lb/>lasse pas de vous bien faire , ne vous lassez
+                    <lb/>pas de le servir ; s'il n'épargne rien
+                    <lb/>pour vous favoriser, n'épargnez aussi rien
+                    <lb/>de vôtre côté pour luy plair. Et comme
+                    <lb/>jusqu'icy , vous avez fait voir par la
+                    <lb/>fidelité &amp; par la soûmission que vous
+                    <lb/>avez renduë à vos Superieurs , que l'obeïssance
+                    <lb/>que vous devez à Dieu, n'étoit
+                    <lb/>pas incompatible avec le respect qu'il
+                    <lb/>vous demande, &amp; que nôtre Religion &amp;
+                    <lb/>nôtre doctrine n'étoit pas ennemie des
+                    <lb/>Puissances Superieures , que nous savons
+                    <lb/>étre établies de Dieu , comme on a accoûtumé
+                    <lb/>neanmoins de l'accuser faussement ;
+                    <lb/>Demeurez toûjours fermes en
+                    <lb/>cette pensée,de rendre à Cesar ce qui est
+                    <lb/>à Cesar , &amp; à Dieu ce qui appartient à
+                    <lb/>Dieu, &amp; sachez que vous ne rendrez jamais
+                    <lb/>au Seigneur de service qui luy soit
+                    <lb/>agreable, si vous n'avez soin de faire paroître
+                    <lb/>dans vôtre vie la verité de la belle
+                    <lb/>devise que S. Pierre recommande aux
+                    <lb/>Chrétiens de <quote source="bible1588.xml#_1Pet.2.17">
+                        <hi rend="I">Craindre Dieu &amp; d'honorer</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Pet.2.17">1. <hi rend="I">Pier.
+                                </hi>3.<lb/>17.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">le Roy</hi>
+                    </quote>. Enfin, Mes Freres, faites voir par
+                    <lb/>vôtre conduite que ce n'est pas seulement <fw place="bot-right" type="catch">ment</fw>
+                    <pb n="74"/>
+                    <lb/>
+                    <note type="margin">Sermon <lb/>I.</note>de nom &amp; de profession, mais réellement
+                    <lb/>&amp; en verité , que vous étes le
+                    <lb/>peuple de Dieu, par la sainteté de vôtre
+                    <lb/>vie, &amp; par l'honesteté de vôtre conduite.
+                    <lb/>Ce sera le vray moien de fermer la bouche
+                    <lb/>à la calomnie, qui accuse ordinairement
+                    <lb/>nôtre Religion,comme vous savez,
+                    <lb/>d'étre ennemie de la pieté,&amp; de favoriser
+                    <lb/>la licence. Ce sera le moyen de justifier
+                    <lb/>pleinement la sincerité de vôtre
+                    <lb/>foy &amp; la pureté de vôtre doctrine. Ce
+                    <lb/>sera le moyen sur tout d'attirer sur vous
+                    <lb/>la continuation des graces du Ciel, &amp; de
+                    <lb/>vous affermir dans la possession de vôtre
+                    <lb/>bonheur. Dieu qui verra vôtre fidelité,
+                    <lb/>ne manquera pas de la couronner : il
+                    <lb/>continuëra à épandre ses graces &amp; ses
+                    <lb/>benedictions , &amp; sur l'Eglise en general,
+                    <lb/>&amp; sur tous ses membres en particulier ;
+                    <lb/>il vous sera toûjours Soleil &amp; Bouclier ;
+                    <lb/>il vous donnera grace &amp; gloire ; il ne
+                    <lb/>vous refusera aucun bien que vous pourrez
+                    <lb/>desirer , &amp; qui vous soit vrayment
+                    <lb/>salutaire. Ouy, Mes Freres, nous devons
+                    <lb/>esperer, que ce grand Pasteur, qui depuis
+                    <lb/>tant d'années fait paître ses troupeaux
+                    <lb/>parmi les Lys, &amp; qui a planté cette Eglise
+                    <lb/>avec tant de demonstrations de sa <fw place="bot-right" type="catch">puis-</fw>
+                    <pb n="75"/>
+                    <lb/>puissance &amp; de son amour , luy qui l'a<note type="margin">Sermon
+                        <lb/>I.</note>
+                    <lb/>conservée jusques à present , &amp; qui la
+                    <lb/>conserve encore aujourd'huy avec tant
+                    <lb/>de merveille , nonobstant la malice &amp; la
+                    <lb/>contradiction du Diable &amp; du Monde;
+                    <lb/>continuera sur elle par la même bonté
+                    <lb/>les effets de sa grace &amp; de sa protection,
+                    <lb/>pour l'interest de sa gloire, la confusion
+                    <lb/>de ses ennemis, &amp; la consolation de ses enfans.
+                    <lb/>C'est ce que nous luy demandons ,
+                    <lb/>Mes Freres , pour Vous du plus
+                    <lb/>profond de nos cœurs ; comme nous le
+                    <lb/>prions de nous favoriser toûjours de son
+                    <lb/>amour , afin qu'ayant experimenté icy
+                    <lb/>sur la terre , la verité de cette admirable
+                    <lb/>promesse;Nous puissions tous un jour
+                    <lb/>en voir l'accomplissement dans le ciel ,
+                    <lb/>lors que nous orrons cette grande voix,
+                    <lb/>qui dira, <quote source="bible1588.xml#Rev.21.3">
+                        <hi rend="I">Voici le Tabernacle de Dieu avec
+                            <lb/>les hommes, &amp; il habitera avec eux , &amp; ils</hi>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Rev.21.3">
+                                <hi rend="I">Apoc</hi>. 21.<lb/>3.</ref>
+                        </note>
+                        <lb/>
+                        <hi rend="I">seront son peuple, &amp; Dieu luy même sera leur
+                            <lb/>Dieu avec eux</hi>
+                    </quote>. A luy Pere, Fils, &amp; S. Esprit,
+                    <lb/>un seul Dieu benit éternellement,
+                    <lb/>soit Gloire,Empire,&amp; Magnificence aux
+                    <lb/>siecles des siecles. <hi rend="I">Amen.</hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

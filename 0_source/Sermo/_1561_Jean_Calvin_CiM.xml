@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="../../out/tei_sermo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="_1561_Jean_Calvin_CiM">
+            <titleStmt>
+                <title type="sermon">Sermons de Iehã Caluin sur LES DEVX EPISTRES DE S. Paul à Timothee,recueillis par l'escriuain ordinaire pour le bien &amp; l'edification de l'Eglise du Seigneur. LA PREMIERE EPISTRE de sainct Paul Apostre a Timothee CHAP. I.</title>
+                <title type="book">SERMONS DE Iean Caluin sur les deux Epistres S. Paul a Timothee,
+                    &amp; sur l'Espitre a Tite. IMPRIME A Geneue par Conrad Badius, M. D. LXI.</title>
+                <author ref="...">Jean Calvin</author>
+                <editor>
+                    <name>SERMO</name>
+                    <orgName>Université de Neuchâtel</orgName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transcription électronique</edition>
+                <respStmt>
+                    <resp>Responsable du projet</resp>
+                    <name>
+                        <persName xml:id="CSD">Carine SKUPIEN DEKENS</persName>
+                        <email>carine.skupien-dekens@unine.ch</email>
+                        <affiliation xml:id="ILCF">
+                            <name>Institut de langue et civilisation françaises</name>
+                            <orgName>Université de Neuchâtel</orgName>
+                            <address>
+                                <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                                <addrLine>CH-2000 Neuchâtel</addrLine>
+                            </address>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription word</resp>
+                    <name>
+                        <persName xml:id="CiM">Cinthia MELI</persName>
+                        <email>cinthia.meli@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encodage XML TEI</resp>
+                    <name>
+                        <persName xml:id="LjD">Ljiljana DOLAMIC</persName>
+                        <email>ljiljana.dolamic@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>
+                        <persName xml:id="MAG">Magdalena AUGUSTYN-GAULTIER</persName>
+                        <email>magdalena.augustyn@unine.ch</email>
+                        <affiliation>
+                            <orgName>Université de Neuchâtel</orgName>
+                        </affiliation>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <name type="projet">Projet SERMO</name>
+                    <address>
+                        <addrLine>Institut de langue et civilisation françaises</addrLine>
+                        <addrLine>Université de Neuchâtel</addrLine>
+                        <addrLine>Fbg de l’Hôpital 61-63</addrLine>
+                        <addrLine>CH-2000 Neuchâtel</addrLine>
+                        <addrLine>http:\\sermo.unine.ch</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Jean Calvin</author>
+                        <title>SERMONS DE Iean Caluin sur les deux Epistres S. Paul a Timothee,
+                            &amp; sur l'Espitre a Tite.</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Conrad Badius</publisher>
+                            <date>1561</date>
+                            <date type="sermon"/>
+                        </imprint>
+                    </monogr>
+                    <idno type="URI">http://dx.doi.org/10.3931/e-rara-2670</idno>
+                    <idno type="source">Bibliothèque de Genève, Cote BGE Bd 2016</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">sermon</term> 
+                    <term type="sermonType">homélie</term>
+                    <term type="sermonTheme"/>
+                    <term type="howPublished">recueil</term>   
+                    <term type="numberOfSermons">101</term>
+                    <term type="typeOfCollection">lectio continua</term>
+                    <term type="themeOfCollection"/>
+                    <term type="commentedBiblicalText">1Tim.1</term>
+                    <term type="paratext" subtype="preface">AVX POVRES FIDELES ESPARS PAR LE PAYS DE FRANCE, QVI DESIRENT DE VIVRE SAINCTEMENT EN IESVS CHRIST, Conrad Badius desire paix &amp; salut en Dieu.</term>
+                    <term type="paratext" subtype="other">ARGVMENT SVR LA PREMIERE EPIstre de Sainct Paul a Timothee.</term>
+                    <term type="paratext" subtype="other">ARGVMENT SVR LA SECONDE EPIstre de Sainct Paul a Timothee.</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">français préclassique</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-04-21" who="#LjD">transformation word - XML</change>
+            <change when="2016-04-21" who="#MAG">Verification, citations</change>
+            <change when="2016-03-15" who="#CiM">Transcription word</change>
+            <change when="2016-04-30" who="#MAG">Annotation_1</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="book">
+                <pb n="titre"/>
+                <p n="1">
+                    <lb/>SERMONS DE
+                    <lb/>Iean Caluin sur les deux Epistres
+                    <lb/>S.Paul a Timothee,
+                    <lb/>&amp; sur l'Epistre a Tite. </p>
+                <figure/>
+                <p n="2">
+                    <lb/>IMPRIME
+                    <lb/>A Geneue par Conrad Badius,
+                    <lb/>M. D. LXI. </p>
+            </div>
+        </front>
+        <body>
+            <div type="sermon">
+                <pb n="1"/>
+                <head type="main">
+                    <lb/>Sermons de Iehã Caluin sur
+                    <lb/>LES DEVX EPISTRES DE S.
+                    <lb/>Paul à Timothee,recueillis par l'escriuain ordinaire pour
+                    <lb/>le bien &amp; l'edification de l'Eglise du Seigneur.</head>
+                <milestone unit="column" n="2"/>
+                <cb/>
+                <div n="1" type="sub">
+                    <head type="sub">
+                        <lb/>
+                        <ref type="bible" target="bibleSegond21.xml#_1Tim.1.1">LA PREMIERE EPISTRE
+                            <lb/>de sainct Paul Apostre a Timothee
+                            <lb/>
+                            <lb/>CHAP. I.</ref>
+                    </head>
+                    <p n="1">
+                        <lb/>
+                        <quote source="bibleOlivetan.xml#_1Tim.1.1">
+                            <c type="lettrine">P</c>
+                            <hi rend="I">AVL Apostre de
+                                <lb/>Iesus Christ par la
+                                <lb/>cõmission de Dieu
+                                <lb/>nostre sauueur,&amp;
+                                <lb/>du Seigneur Iesus
+                                <lb/>Christ nostre esperance,
+                                <lb/>A Timothee mon
+                                <lb/>vray fils en la foy,
+                                <lb/>grace,misericorde
+                                <lb/>&amp; paix de par Dieu nostre Pere,&amp; de par Iesus
+                                <lb/>Christ nostre Seigneur</hi>
+                        </quote>.
+                    </p>
+                    <p n="2">
+                        <lb/>
+                        <c type="lettrine">I</c>L ne nous faut pas estimer que ceste
+                        <lb/>epistre ait este escrite par S.Paul
+                        <lb/>pour<supplied resp="#CiM" reason="omission"> </supplied>seruir a vn hõme seul,mais c'est
+                        <lb/>pour toute l'Eglise,cõme on le peut
+                        <lb/>veoir par le cõtenu d'icelle.Car Timothee n'avoit
+                        <lb/>pas besoin de beaucoup d'aduertissemens
+                        <lb/>que sainct Paul fait yci. Il parle donc plustost
+                        <lb/>a l'occasion des autres que de luy. Et mesmes
+                        <lb/>de prime face on peut aiseement recueillir cela:
+                        <lb/>car sainct Paul s'attribue le titre d'Apostre,
+                        <lb/>&amp; conferme sa vocation enuers ceux qui ne
+                        <lb/>luy eussent point dõné authorite s'il ne se fust
+                        <lb/>fait cognoistre estre tel. Mais quand il escrit
+                        <lb/>aux Eglises là où desia il estoit suffisamment
+                        <lb/>approuué, il ne fait q͂ toucher en brief ce mot
+                        <lb/>
+                        <hi rend="I">d'Apostre</hi> , ou il s'appelle simplemẽt seruiteur
+                        <lb/>de Dieu.Yci il monstre qu'il ne s'est point ingeré
+                        <lb/>de sa fantasie, mais qu'il a esté ordonné de
+                        <lb/>Dieu, que la charge luy est cõmise par nostre
+                        <lb/>Seigneur Iesus Christ.A quel propos fait-il cela,
+                        <lb/>sinon qu'il a regardé les autres plus que Timothee?
+                        <lb/>Ainsi donc, nous voyons que ceste epistre
+                        <lb/>a tellement este addressee a vn homme,
+                        <lb/>qu'elle s'addresse aussi a tous,qu'elle doit proufiter
+                        <lb/>en general aux enfans de Dieu : comme
+                        <lb/>nous verrõs plus a plein que sainct Paul a voulu
+                        <lb/>edifier to<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> ceux ausquels ceste espitre pourroit
+                        <lb/>estre communiquee.Et de faict il monstre
+                        <lb/>yci quel est le vray ordre de l'Eglise , comme
+                        <lb/>la parole de Dieu se doit traitter,&amp; a quel vsage
+                        <lb/>elle doit estre appliquee. Il declare quel
+                        <lb/>est le deuoir d'vn chacun. Et ainsi nous voyõs
+                        <lb/>qu'il n'est point question d'vn homme particulier,
+                        <lb/>mais qu'il faut que tous y soyẽt attentifs,
+                        <lb/>d'autant que c'est a son Eglise que Dieu a voulu
+                        <lb/>addresser ceste doctrine par la bouche de S.
+                        <lb/>Paul. Or voyons maintenant de quelle forme <cb/>
+                        <lb/>sainct Paul vse en sa preface: il dit , <quote source="bibleOlivetan.xml#_1Thess.2.13"><!--citation approximative-->
+                            <hi rend="I">Paul Apostre
+                                <lb/>de Iesus Christ selon la cõmißion qui luy est
+                                <lb/>donee de Dieu nostre Sauueur, &amp; du Seigneur Iesus
+                                <lb/>Christ nostre esperance</hi>
+                        </quote>. Nous auõs mõstré ci
+                        <lb/>dessus , traittant les <ref type="bible" target="bibleSegond21.xml#_1Thess.2.13">epistres aux Thessaloniciens,
+                            <lb/>chap.2.13</ref>, que sainct Paul mõstre par son
+                        <lb/>exemple que nul ne doit estre escouté en l'Eglise
+                        <lb/>de Dieu,sinõ estãt enuoyé. Car il ne faut
+                        <lb/>point q͂ nostre foy soit attribuee aux hommes
+                        <lb/>mortels ni aux creatures. Il n'y a q͂ Dieu seul
+                        <lb/>qui domine sur nos ames,&amp; faut que nous receuions
+                        <lb/>de luy toute la doctrine de nostre salut.
+                        <lb/>Cependant,il ne descend pas du ciel en forme
+                        <lb/>visible pour parler a nous, &amp; ne nous enuoye
+                        <lb/>pas aussi ses Anges,mais il veut que nous
+                        <lb/>soyons enseignez par le moyen des hommes.
+                        <lb/>Pour ceste cause si no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> voulons obeir a Dieu,
+                        <lb/>il nous faut receuoir sa Parole qui no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> est preschee
+                        <lb/>par ceux ausquels il a commis ceste charge
+                        <lb/>&amp; office.Car ceux qui se vantent de vouloir
+                        <lb/>seruir a Dieu,&amp; cependant mesprisent sa Parole ,
+                        <lb/>sous ombre qu'elle leur est apportee par la
+                        <lb/>bouche des hommes,monstrent bien qu'il n'y
+                        <lb/>a qu'hypocrisie en eux. Et de faict,il ne faut
+                        <lb/>point plaider là dessus, puis que nous voyons
+                        <lb/>que Dieu a establi cest ordre , c'est ascauoir q͂
+                        <lb/>il veut gouuerner son Eglise par la predicatiõ
+                        <lb/>de l'Euãgile,&amp; qu'il veut que les hõmes soyẽt
+                        <lb/>ministres de cela. Il faut que grans &amp; petis se
+                        <lb/>rangent a ceste regle qui leur est donnee, &amp; laquelle
+                        <lb/>sera ferme iusques a la fin du monde.
+                        <lb/>Tant y a que sainct Paul se nommant Apostre,
+                        <lb/>a voulu yci declarer en premier lieu, que les
+                        <lb/>hommes indifferemment ne doyuẽt pas estre
+                        <lb/>escoutez , sinon qu'ils ayent approbatiõ qu'ils
+                        <lb/>parlẽt au nom de Dieu , &amp; de nostre Seigneur
+                        <lb/>Iesus Christ. Au reste,il monstre aussi q͂ si nous
+                        <lb/>voulons faire hõmage a Dieu, si nous luy voulons
+                        <lb/>estre suiets,que nous deuons receuoir sa
+                        <lb/>Parole quand elle nous est preschee par la bouche
+                        <lb/>des hommes qu'il a enuoyez. Cependant
+                        <lb/>il ne dit pas simplement qu'il est Apostre,mais
+                        <lb/>il dit, <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">De nostre Seigneur Ies<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> Christ</hi>
+                        </quote>, voire pour
+                        <lb/>ce que celuy-la nous a este ordonné de Dieu
+                        <lb/>son Pere cõme souuerain docteur , voire vnique.
+                        <lb/>Tous ceux dõc qui se meslẽt d'enseigner,
+                        <lb/>il faut qu'ils parlẽt au nom de nostre Seigneur<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.17.6">
+                                <hi rend="I">Mat</hi>.17.6.</ref>
+                        </note>
+                        <lb/>Iesus Christ : car c'est de luy seul qu'il est dit,
+                        <lb/>Escoutez-le. Quand ceste voix a este ouye du
+                        <lb/>ciel, ꝗl faut escouter Ies<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> Christ,ç'a este pour
+                        <lb/>clorre la bouche a toutes creatures , q͂ nul ne
+                        <lb/>presume d'auancer ce qu'il aura forgé en son
+                        <lb/>cerueau, que nul ne pretẽde d'estre maistre ou
+                        <lb/>docteur,car il faut que cela soit reserué au Fils <pb n="2"/>
+                        <cb/>
+                        <lb/>de Dieu.Que reste-il-dõc? Que tous ceux qui
+                        <lb/>enseignent puissent protester en verite que Iesus
+                        <lb/>Christ parle par leur bouche,cõme S. Paul
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_2Cor.13.3">2.<hi rend="I">Cor</hi>.13.3.</ref>
+                        </note>aussi le dit en vn autre passage,<quote source="bibleSegond21.xml#_2Cor.13.3">Demãdez-vous
+                        <lb/>approbatiõ de celuy ꝗ parle en moy</quote>? c'est ascauoir
+                        <lb/>le Seigneur Iesus, dit-il. Voyla dõc pourquoy
+                        <lb/>notãment il declare qu'il est Apostre de
+                        <lb/>Iesus Christ, c'est a dire enuoyé de luy, ayant
+                        <lb/>cõmissiõ de parler cõme en sa propre<supplied resp="#CiM" reason="omission"> </supplied>personne:
+                        <lb/>&amp; dit que cela s'est fait <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">par l'ordõnace de Dieu
+                                <lb/>&amp; de nostre Seigneur Iesus Christ</hi>
+                        </quote>. En quoy il signifie
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Heb.5.4">
+                                <hi rend="I">Heb.</hi>5 4,</ref><ref type="bible" target="bibleSegond21.xml#Heb.5.5"> <lb/>&amp; 5.</ref>
+                        </note> q͂ ce n'est point aux hõmes de s'ingerer:
+                        <lb/>cõme aussi il est dit en l'Epistre aux Hebrieux,
+                        <lb/>Que nul ne doit vsurper l'hõneur a soy , mais
+                        <lb/>celuy qui est appelé de Dieu, q͂ celuy-la pourra
+                        <lb/>dire qu'il ha charge legitime.Et de faict,il a falu
+                        <lb/>q͂ Iesus Christ mesme , qui est maistre en la
+                        <lb/>maison &amp; chef par dessus tous,q͂ celuy-la ait este
+                        <lb/>ordõné de Dieu son Pere,voire auec sermẽt
+                        <lb/>solennel,cõme nous voyõs au <ref type="bible" target="bibleSegond21.xml#Ps.110">Pse.110.</ref>Que sera-
+                        <lb/>ce dõc de ceux qui sõt biẽ inferieurs a luy,
+                        <lb/>&amp; qui n'õt nulle authorite,sinõ celle qu'il leur
+                        <lb/>dõne?Or S. Paul pouuoit dire qu'il estoit cõstitué
+                        <lb/>Apostre selõ l'ordõnãce de Dieu,pource q͂
+                        <lb/>il y auoit eu vocatiõ du ciel auec miracle:mais
+                        <lb/>cela ne se fait pas en tous.Quoy dõc?Dieu afin
+                        <lb/>q͂ rien ne se feist en confus , mais q͂ tout allast
+                        <lb/>par bõ ordre en sõ Eglise, a establi vn tel moyen,
+                        <lb/>&amp; dõné charge &amp; cõmissiõ a ceux desquels
+                        <lb/>il se vouloit seruir pour porter sa parole, c'est
+                        <lb/>qu'ils seroyẽt eleus &amp; approuuez. Quãd donc
+                        <lb/>cest ordre sera ainsi gardé , cõme les Apostres
+                        <lb/>no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> l'õt mõstré,voyla vne vocatiõ legitime,&amp; q͂
+                        <lb/>Dieu veut estre recognue cõme de luy.Quãt a
+                        <lb/>ce q͂ S. Paul &amp; les autres Apostres ont este ordõnez
+                        <lb/>par vn moyẽ special , cela estoit pource
+                        <lb/>ꝗls estoyẽt enuoyez afin de mettre Ies<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> Christ
+                        <lb/>en possessiõ de son royaume. Mais depuis q͂ ce
+                        <lb/>fondemẽt a este mis, Dieu a voulu q͂ ceux qui
+                        <lb/>deuoyẽt annoncer l'Euãgile,fussẽt eleus &amp; approuuez,
+                        <lb/>&amp; veut qu'on se cõtẽte de cela: cõme
+                        <lb/>l'Escriture le mõstre en d'autres passages. Tãt
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Acts.1.23">
+                                <hi rend="I">Act.</hi>1.23</ref>, <lb/>&amp; <ref type="bible" target="bibleSegond21.xml#Acts.13.1">13.
+                                1.</ref>
+                        </note>y a q͂ nous deuons obseruer deux choses en to<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>
+                        <lb/>ceux qui annõcẽt la parole de Dieu,&amp; qui portẽt
+                        <lb/>ce titre de pasteur:l'vne est,qu'ils soyent eleus
+                        <lb/>par moyẽ tel q͂ Dieu approuue,&amp; qu'il no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>
+                        <lb/>est monstré en sa parole : car ceste regle-la est
+                        <lb/>inuiolable.Et puis il y a pour le second, qu'ils
+                        <lb/>s'acquittẽt fidelemẽt de leur deuoir:&amp; cela est
+                        <lb/>quãd ils se tienẽt a la pure doctrine de l'Euãgile,
+                        <lb/>qu'ils ne s'arrestent poĩt a leurs inuentions,
+                        <lb/>mais qu'ils cherchẽt seulemẽt d'exalter le nom
+                        <lb/>de nostre Seigneur Ies<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> Christ,&amp; qu'il soit ce q͂
+                        <lb/>il a esté ordõné de Dieu sõ Pere , c'est ascauoir
+                        <lb/>( cõme desia no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> auons dit ) docteur souuerain
+                        <lb/>&amp; vnique. Voyla les deux choses ꝗ sont requises
+                        <lb/>en to<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> pasteurs qui veulẽt estre recognus<supplied resp="#CiM" reason="omission"> </supplied>&amp;
+                        <lb/>aduouez pour ministres de la parole de Dieu,
+                        <lb/>ꝗls soyẽt,di-ie,appelez selõ l'ordre de l'Eglise
+                        <lb/>&amp; qu'ils exercẽt fidelemẽt leur estat,taschãt de
+                        <lb/>s'acquitter en sorte q͂ Iesus Christ domine tousiours
+                        <lb/>en cest hõneur souuerain,qu'on l'escoute,
+                        <lb/>&amp; qu'õ luy obeisse.Et voyla pourquoy il est
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_2Cor.2.2">2. <hi rend="I">Cor. </hi>II. 2</ref> <lb/>&amp; <ref type="bible" target="bibleSegond21.xml#Eph.5.27">
+                                <hi rend="I">Eph.</hi> 5. <lb/>27.</ref>
+                        </note>dit qu'il faut q͂ l'Eglise demeure tousiours chaste
+                        <lb/>a son espoux.Quãd Iesus Christ appelle en
+                        <lb/>son nom ceux desq͂ls il se veut seruir,il ne faut
+                        <lb/>pas pourtant qu'ils vsurpent son lieu &amp; sa dignite:
+                        <lb/>c'est cõme si vn hõme auoit cõmis sa feme
+                        <lb/>a vn sien ami,&amp; q͂ celuy-la fust le premier
+                        <lb/>qui taschast de la seduire. Quãd dõc ceux qui<hi rend="G"> </hi>
+                        <cb/>
+                        <lb/>ont l'office d'ãnoncer la parole de Dieu, voudront
+                        <lb/>mettre en auãt leurs inuẽtions propres,
+                        <lb/>ce sera faire rõpre a l'Eglise la foy qu'elle doit
+                        <lb/>a son mari,c'est a dire au Fils de Dieu.Car voyla
+                        <lb/>aussi en quoy S. Paul mõstre q͂ la chastete de
+                        <lb/>l'Eglise cõsiste,c'est quãd elle ne se desbauche
+                        <lb/>point de la simplicité de l'Euãgile ( dit-il ).Car<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_2Cor.2.3">2. <hi rend="I">Cor.</hi>II.3.</ref>
+                        </note>
+                        <lb/>si tost q͂ nous prestõs l'aureille a des doctrines
+                        <lb/>estrãges,c'est cõme si vne femme auoit presté
+                        <lb/>l'aureille a vn maquereau pour la seduire.Ainsi
+                        <lb/>donc notons biẽ q͂ les hõmes n'ont pas ceste
+                        <lb/>cõmission pour gouuerner l'Eglise de Dieu a
+                        <lb/>ceste cõdition q͂ la dignité de Iesus Christ soit
+                        <lb/>amoindrie,ne q͂ cela luy en porte preiudice aucũ,
+                        <lb/>mais plustost c'est afin qu'ils se rãgẽt au Docteur
+                        <lb/>vnique &amp; des grãs &amp; des petis,qu'õ se tiene
+                        <lb/>a sa parole qu'il a apportee au nom de Dieu
+                        <lb/>son Pere,&amp;cependãt toutesfois qu'en toute humilité
+                        <lb/>&amp; reuerẽce nous obeissions a la doctrine
+                        <lb/>qui nous est preschee par les hõmes: q͂ si no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>
+                        <lb/>n'en tenons conte, nous ne faisons poĩt iniure
+                        <lb/>aux creatures mortelles,mais nous monstrons
+                        <lb/>vne rebellion manifeste contre Dieu &amp; cõtre
+                        <lb/>son Fils vnique. Maintenant il nous faut noter
+                        <lb/>les titres q͂ S.Paul attribue yci &amp; a Dieu &amp;
+                        <lb/>a nostre Seigneur Iesus Christ.Il dit, <quote source="bibleSegond21.xml#_1Tim.1.1">
+                            <hi rend="I">Dieu nostre
+                                <lb/>Sauueur , &amp; Iesus Christ nostre esperance</hi>
+                        </quote>.
+                        <lb/>Il est vray q͂ ce mot de <quote source="bibleSegond21.xml#_1Tim.1.1">
+                            <hi rend="I">Sauueur</hi>
+                        </quote> souuentesfois
+                        <lb/>en l'Escriture saincte se dõne au Fils de Dieu:
+                        <lb/>pource que c'est luy qui a parfait &amp; accompli
+                        <lb/>tout ce qui est requis a nostre salut.Il a espãdu
+                        <lb/>son sang,afin q͂ nous soyons lauez &amp; nettoyez
+                        <lb/>de nos macules. Il a effacé la malediction qui
+                        <lb/>estoit sur no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>,il no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> a deliurez
+                        &amp; affrãchis de
+                        <lb/>la seruitude de mort,il a aboli le peche. Nous
+                        <lb/>voyons dõc qu'il nous faut chercher nostre salut
+                        <lb/>en nostre Seigneur Iesus Christ , &amp; q͂ c'est a
+                        <lb/>bon droict qu'il est nõmé nostre Sauueur.Mais
+                        <lb/>aussi ce n'est point sans cause q͂ S.Paul intitule
+                        <lb/>ainsi en ce passage Dieu le pere. Et pourquoy?
+                        <lb/>Voyõs d'où c'est q͂ Iesus Christ nous est venu.
+                        <lb/>Il nous a este enuoyé de Dieu son Pere, cõme
+                        <lb/>l'Escriture le porte, q͂ Dieu a tãt aimé le mõde,
+                        <lb/>qu'il n'a poĩt espargné son Fils vnique,mais l'a<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#John.3.16">
+                                <hi rend="I">Ieh. </hi>3. 16.</ref> <lb/>&amp;<ref type="bible" target="bibleSegond21.xml#_1John.4.9">1. <hi rend="I">Ieh. </hi>4. <lb/>9.</ref>
+                        </note>
+                        <lb/>liuré a la mort pour nous.Pourtant quand no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>
+                        <lb/>aurõs contẽplé nostre salut en la personne de
+                        <lb/>nostre Seigneur Iesus Christ , il no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> faut venir
+                        <lb/>a la source &amp; fõtaine dõt il no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> procede , c'est
+                        <lb/>ascauoir de ceste amour q͂ Dieu a portee au gẽre
+                        <lb/>humain.Voyla pourquoy S.Paul nõme Dieu
+                        <lb/>nostre Sauueur:signifiant par ce mot q͂ toutesfois
+                        <lb/>&amp; quãtes q͂ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> pensons au biẽ qui nous a
+                        <lb/>este apporté &amp; acquis par nostre Seigneur Iesus
+                        <lb/>Christ, q͂ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> esleuiõs nos esprits plus haut,
+                        <lb/>&amp; q͂ nous cognoissions q͂ Dieu ayãt pitie de la
+                        <lb/>perditiõ en laq͂lle estoit toute la lignee d'Adã,
+                        <lb/>y a voulu pouruoir,&amp; y a dõné ce remede,c'est
+                        <lb/>ascauoir q͂ nostre Seigneur Iesus Christ nous
+                        <lb/>est venu retirer des abysmes de mort esquels
+                        <lb/>no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> estions:mais cepẽdant Iesus Christ est appelé
+                        <lb/>nostre <quote source="bibleSegond21.xml#_1Tim.1.1">
+                            <hi rend="I">esperance</hi>
+                        </quote>, afin q͂ nous scachions q͂
+                        <lb/>c'est en luy qu'il nous faut appuyer , &amp; auoir
+                        <lb/>tout notre repos.Car cõmẽt pourriõs-no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> apprehẽder
+                        <lb/>le salut q͂ Dieu no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> a dõné,si ce n'est q͂
+                        <lb/>nous ayõs appointemẽt auec luy par le moyẽ
+                        <lb/>de nostre Seigneur Iesus Christ:veu q͂ cepẽdãt
+                        <lb/>q͂ nous regarderõs a la maieste de Dieu,il faut
+                        <lb/>que nous soyons espouantez. Et voila qui a
+                        <lb/>esté cause de faire chercher aux Papistes tant
+                        <lb/>de patrons &amp; d'aduocats , tant de moyens, <pb n="3"/>
+                        <cb/>
+                        <lb/>tant de menus fatras:c'a este afin d'estre asseurez
+                        <lb/>de leur salut. Et si n'en sont-ils pas venus a
+                        <lb/>bout. Car depuis qu'on se destourne de Iesus
+                        <lb/>Christ,il faut qu'on soit en doute &amp; en perplexite :
+                        <lb/>&amp; encores que les hommes s'endorment
+                        <lb/>pour quelque peu de temps , si est-ce qu'en la
+                        <lb/>fin il faut que maugré leurs dents ils cognoissent
+                        <lb/>qu'ils ont este abusez en leurs vaines imaginatiõs.
+                        <lb/>Tant y a que les Papistes ne cognoissans
+                        <lb/>point ce qui est yci declaré par saĩct Paul,
+                        <lb/>que Iesus Christ est nostre esperance,combien
+                        <lb/>qu'ils eussent este desia instruits en cest article
+                        <lb/>comme Dieu est <quote source="bibleSegond21.xml#_1Tim.1.1">
+                            <hi rend="I">le Sauueur</hi>
+                        </quote> du monde,si est-ce
+                        <lb/>qu'ils ne laissent pas d'estre agitez çà &amp; là, cõme
+                        <lb/>on voit qu'ils sont transportez pour dire,
+                        <lb/>Il faut faire telle chose,il faut auoir tel moyẽ,
+                        <lb/>il faut tenir vn tel chemin, &amp; encores no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> faut
+                        <lb/>il auoir vn tel patron &amp; vn tel aduocat,si nous
+                        <lb/>voulons acquerir grace deuãt Dieu. Voyla où
+                        <lb/>en sont ces poures aueugles.Et ainsi apprenõs
+                        <lb/>que si nous voulõs estre asseurez,&amp; auoir nos
+                        <lb/>ames paisibles,qu'il faut que nous cherchions
+                        <lb/>&amp; le commencement &amp; la fin de nostre salut
+                        <lb/>en nostre Seigneur Iesus Christ,que nous soyons
+                        <lb/>là pleinement fondez,que nous ne pensiõs
+                        <lb/>point qu'il soit venu pour nous donner seulement
+                        <lb/>quelque petit goust de la vie eternelle:
+                        <lb/>mais qu'il nous a apporté toute plenitude &amp;
+                        <lb/>toute perfection de bien , afin qu'en luy seul
+                        <lb/>nous soyons rassasiez. Suyuõs donc ce qui no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>
+                        <lb/>est yci ordonné du Fils de Dieu,&amp; ne vaguons
+                        <lb/>point çà &amp; là a nostre escient. Car le chemin
+                        <lb/>nous est yci monstré infallible:tenõs-nous là.
+                        <lb/>Brief,yci sainct Paul nous declare que la cause
+                        <lb/>principale de nostre salut,c'est la bonne volonte,
+                        <lb/>&amp; l'amour paternelle q͂ Dieu nous a portee
+                        <lb/>sans q͂ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> en fussiõs dignes:mais la substãce
+                        <lb/>est cõprise en nostre Seigneur Iesus Christ,
+                        <lb/>Dieu nous a-il aimez? Voyla ( di-ie ) le fondement
+                        <lb/>principal de nostre salut.Mais commẽt
+                        <lb/>est-ce q͂ Dieu nous aime cependãt q͂ nous sommes
+                        <lb/>pecheurs?Il faut qu'il haisse le mal qui est
+                        <lb/>en nous,&amp; qu'il le deteste.Nous voyla donc alienez
+                        <lb/>de Dieu,&amp; par consequẽt nous sommes
+                        <lb/>priuez &amp; bãnis de la vie eternelle:nous voyla
+                        <lb/>abandonnez a la mort,nous sommes maudits.
+                        <lb/>Mais auõs-nous ce lauemẽt du sang de nostre
+                        <lb/>Seigneur Iesus Christ,pour nous acquitter enuers
+                        <lb/>Dieu,par le sacrifice qu'il a offert le peché
+                        <lb/>est-il aboli en no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> par la iustice qu'il nous a
+                        acquise?
+                        <lb/>Voyla comme la substãce de nostre salut
+                        <lb/>est en luy.Et pourtãt c'est là où il nous faut regarder,
+                        <lb/>c'est là où il faut q͂ tous nos sens s'adõnent:
+                        <lb/>&amp; c'est là principalement où nous deuõs
+                        <lb/>auoir tout nostre repos,&amp; chercher ceste paix
+                        <lb/>dõt S.Paul parle,disant,Que no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> auons paix auec
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Rom.5.1-2">
+                                <hi rend="I">Rom.</hi>5.1, <lb/>&amp; 2.</ref>
+                        </note>Dieu, d'autãt q͂ nous sommes iustifiez par
+                        <lb/>la grace de nostre Seigneur Iesus Christ.Nous
+                        <lb/>voyons dõc maintenãt q͂lle doctrine no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> auõs
+                        <lb/>a recueillir des titres que S. Paul attribue yci
+                        <lb/>a Dieu le Pere &amp; a nostre Seigneur Ies<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> Christ.
+                        <lb/>Or nous auons a conioindre ce qu'il adiouste,
+                        <lb/>
+                        <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">Grace,&amp; misericorde,&amp; paix de par Dieu le Pere
+                                <lb/>&amp; de par nostre Seigneur Iesus Christ</hi>
+                        </quote>. Ceci
+                        <lb/>est pour declarer encore mieux ce q͂ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> auõs
+                        <lb/>touché. Car cõme S.Paul a nõmé Dieu nostre
+                        <lb/>sauueur,&amp;Iesus Christ nostre esperãce,ainsi il
+                        <lb/>entẽd q͂ tout ce qui appartient a vne pleine &amp;
+                        <lb/>parfaite felicite no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> est donné de tous deux en <cb/>
+                        <lb/>cõmun.Car si nous separons Dieu d'auec Iesus
+                        <lb/>Christ , nous ne pouuons auoir aucun acces
+                        <lb/>a luy,pource q͂ sa maieste est trop haute.Nous
+                        <lb/>sõmes yci cõme aux abysmes de mort. Il faut
+                        <lb/>dõc qu'il y ait ce moyẽ d'vnion en la personne
+                        <lb/>de Iesus Christ , ou autremẽt Dieu ne no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> sera
+                        <lb/>iamais propice,q͂ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> ne pourrons pas l'inuocquer,
+                        <lb/>n'attẽdre nul biẽ qui soit de luy,iusques
+                        <lb/>a tãt q͂ nostre Seigneur Iesus Christ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> apparoisse,
+                        <lb/>&amp; qu'il se mette là pour nous cõduire a
+                        <lb/>Dieu son Pere,&amp; qu'il approche de no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>,en no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>
+                        <lb/>testifiãt q͂ Dieu nous sera prochain en sa persõne.
+                        <lb/>Or deuãt q͂ passer plus outre quãt aux trois
+                        <lb/>mots qui sont yci mis,<quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">Grace, &amp; misericorde,&amp;
+                                <lb/>paix</hi>
+                        </quote>:nous en auõs desia exposé les deux,grace
+                        <lb/>&amp; paix,&amp;auons dit en sõme q͂ ce mot de <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">grace</hi>
+                        </quote>
+                        <lb/>emporte q͂ Dieu nous aime , &amp; qu'il se declare
+                        <lb/>propice enuers nous. Le mot de <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">paix</hi>
+                        </quote> emporte
+                        <lb/>en general toute prosperite.Or par cela il no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>
+                        <lb/>est signifié q͂ nous sõmes mal-heureux iusques
+                        <lb/>a tãt q͂ Dieu se soit recõcilié auec nous,&amp; qu'il
+                        <lb/>no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> ait receus en son amour, voire quãd nous
+                        <lb/>auriõs tout ce qu'il est possible de souhaiter,&amp;
+                        <lb/>q͂ le mõde no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> estimera tant heureux que merueilles,
+                        <lb/>nous aurõs beau no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> applaudir,tãt y a
+                        <lb/>q͂ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> serõs tousiours miserables iusques a tãt
+                        <lb/>q͂ nous soyõs asseurez q͂ Dieu nous aime , &amp; q͂
+                        <lb/>il nous reçoit pour ses enfãs.Et pourquoy?car
+                        <lb/>il faut q͂ tous les biẽs dõt nous iouissons en ce
+                        <lb/>mõde nous soyẽt cõuertis a malheur, &amp; qu'ils
+                        <lb/>nous soyẽt bien cher vẽdus,iusques a tant que
+                        <lb/>Dieu nous ait receus en sõ amour.Mais au cõtraire,
+                        <lb/>sõmes-nous aimez de Dieu?sõmes nous
+                        <lb/>fondez en sa grace? il nous enuoyera ce qu'il
+                        <lb/>scaura nous estre propre.Cõme nous voyõs q͂
+                        <lb/>il persecute ceux qui sont reiettez de luy:&amp; encores
+                        <lb/>qu'il permette qu'ils ayẽt des biẽs selon
+                        <lb/>le mõde,si est-ce qu'il n'en ont poĩt vne vraye
+                        <lb/>iouissance , pource qu'ils sont tousiours en<supplied resp="#CiM" reason="omission"> </supplied>trouble:
+                        <lb/>mais a l'opposite il enuoyera a ses enfãs
+                        <lb/>ce qu'il cognoist leur estre propre &amp; vtile,
+                        <lb/>&amp; s'ils ont faute &amp; indigẽce il les consolera en
+                        <lb/>sorte qu'ils se pourront glorifier au milieu des
+                        <lb/>miseres:cõme dit S.Paul, q͂ quand nous auons
+                        <lb/>ceste certitude de l'amour de Dieu , que no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>
+                            auõs<note type="margin">
+                                <ref type="bible" target="bibleSegond21.xml#_2Cor.2.30">2.<hi rend="I">Cor</hi>. II. <lb/>30.</ref>
+                        </note>
+                        <lb/>nos ames qui se reposent en luy,nous pouuons
+                        <lb/>non seulement nous glorifier de l'esperãce
+                        <lb/>qu'il nous dõne de la vie celeste,mais en ceste
+                        <lb/>vie presente,scachãs qu'il nous aime,encores
+                        <lb/>que nous soyons affligez nous sommes resiouis,
+                        <lb/>quãd nous scauõs qu'il cõuertira le tout
+                        <lb/>a nostre salut,puisqu'il nous dõne desia ce sentimẽt,
+                        <lb/>qu'il en ha le soin. Voyla cõme les miseres
+                        <lb/>seruirõt aux enfãs de Dieu, &amp; par ce moyẽ
+                        <lb/>ils se pourront glorifier en icelles. Maintenãt
+                        <lb/>donc nous voyõs cõme la grace de Dieu est le
+                        <lb/>cõmencemẽt de tout bien, &amp; de toute felicité.
+                        <lb/>Et ce n'est point sans cause que S. Paul les conioint.
+                        <lb/>Et par cela aussi nous sommes admonestez
+                        <lb/>de ne point mettre la charrue deuant les
+                        <lb/>bœufs,quãd nous demãdons a Dieu ce ꝗ nous
+                        <lb/>est propre.Mais voyci l'ordre q͂ nous auõs a tenir,
+                        <lb/>c'est qu'en premier lieu il plaise a Dieu de
+                        <lb/>nous receuoir en sa grace,&amp; puis de nous enuoyer
+                        <lb/>les choses qui nous sont necessaires &amp;
+                        <lb/>vtiles.Il est vray q͂ nostre nature tẽdra tout au
+                        <lb/>contraire , tout ainsi qu'vn malade sera plus
+                        <lb/>pressé de sa passion qu'il ne sera point de la cause
+                        <lb/>du mal.Ainsi quand nous prions Dieu,nous <pb n="4"/>
+                        <cb/>
+                        <lb/>luy demandons bien qu'il nous donne du pain
+                        <lb/>a manger,qu'il nous enuoye toutes nos necessitez
+                        <lb/>si nous sommes malades,qu'il nous dõne
+                        <lb/>guerison : &amp; si nous auons faute de quelque
+                        <lb/>chose,qu'il no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> l'enuoye. Voyla comme nous
+                        <lb/>irons tousiours au rebours en priant Dieu. Or
+                        <lb/>nous oublions ce qui est le principal,ascauoir
+                        <lb/>son amour &amp; sa grace , &amp; nous arrestons aux
+                        <lb/>choses inferieures. L'vn demandera d'estre riche,
+                        <lb/>l'autre voudra auoir ce que sõ appetit porte.
+                        <lb/>Brief nous sommes si peruers en nos desirs,
+                        <lb/>que nous ne cognoissons pas ce qui nous est
+                        <lb/>bon. Pour ceste cause,que nous suyuions ceste
+                        <lb/>regle-ci, c'est que quand nous inuoquerons
+                        <lb/>Dieu , nous luy demandions deuant toutes
+                        <lb/>choses qu'il luy plaise nous estre propice, &amp;
+                        <lb/>en nous pardonnant nos fautes nous recueillir
+                        <lb/>a soy : &amp; puis,qu'il nous gouuerne, &amp; qu'il
+                        <lb/>nous conduise en tout &amp; par tout. Il est vray
+                        <lb/>qu'il nous faut estre conduis &amp; gouuernez par
+                        <lb/>son sainct Esprit,si nous le voulons bien prier
+                        <lb/>comme sainct Paul le monstre, mais cependãt
+                        <lb/>si ne faut-il pas aussi mespriser ceste façon qui
+                        <lb/>nous est yci declaree.Quant a ce mot de <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">misericorde</hi>
+                        </quote>,
+                        <lb/>sainct Paul n'en vse point en toutes les
+                        <lb/>autres epistres.Et pourquoy est-ce donc que
+                        <lb/>plustost il l'a mis yci,sinon d'autant qu'il a desployé
+                        <lb/>son affection plus grande qu'aux autres
+                        <lb/>lieux? Tãt y a que ce mot de <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">misericorde</hi>
+                        </quote> n'emporte
+                        <lb/>rien plus sinon vne declaration plus certaine
+                        <lb/>que veut dire ce mot de <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">grace</hi>
+                        </quote>: car la misericorde
+                        <lb/>de Dieu est cause de ce qu'il nous aime.
+                        <lb/>Et pourquoy?Qu'est-ce que Dieu trouuera
+                        <lb/>en nous sinon toute misere? S'il nous vouloit
+                        <lb/>aimer pour nostre dignite,il faudroit que
+                        <lb/>nous fussions du tout autres que nous ne sommes.
+                        <lb/>Notons bien donc,quand Dieu nous reçoit
+                        <lb/>en son amour,qu'il n'y a rien qui l'induise
+                        <lb/>a cela sinon nos miseres.Et il y a vne correspõdance
+                        <lb/>entre les miseres des hommes,&amp; la misericorde
+                        <lb/>de Dieu.Et ainsi donc,voulons nous
+                        <lb/>estre aimez de luy? il faut commencer par ce
+                        <lb/>bout, c'est de sẽtir cõbiẽ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> sõmes miserables
+                        <lb/>creatures,&amp; q͂ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> sõmes perd<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>
+                        &amp; dãnez.Ceux
+                        <lb/>qui voudront esperer salut,&amp; ne sentirõt point
+                        <lb/>leurs pouretez,c'est autãt cõme si q͂lqu'vn vouloit
+                        <lb/>sauter par dess<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> les nues.Apprenons,apprenõs
+                        <lb/>q͂l est le chemin pour paruenir a ceste grace
+                        <lb/>de Dieu, c'est q͂ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> soyõs cõuaincus de nos
+                        <lb/>pouretez,&amp; qu'estãs cõf<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> en no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>-mesmes,d'autant
+                        <lb/>qu'il n'y a que toute iniquite &amp; malice en
+                        <lb/>no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>, là dessus nous ayons recours a la misericorde
+                        <lb/>&amp; pitie infinie par laquelle Dieu est esmeu
+                        <lb/>a no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> aimer,cõbien q͂ nous en soyons plus
+                        <lb/>qu'indignes. Voyla a quel propos S.Paul adiouste
+                        <lb/>en ce passage,ce mot de <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">misericorde</hi>
+                        </quote>. Or
+                        <lb/>il est vray que de la misericorde,comme nous
+                        <lb/>auons dit , procede la grace , mais il ne nous
+                        <lb/>faut point esbahir que sainct Paul l'a mis en
+                        <lb/>second lieu. Et pourquoy?C'a este pour aduertir
+                        <lb/>que nous ne pouuons pas estre agreables a
+                        <lb/>Dieu,sinon d'autãt qu'il est misericordieux enuers
+                        <lb/>nous.Comme quand il dit en vn autre passage,
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_2Cor.13.1">2.<hi rend="I">Cor.</hi>13.1</ref>
+                        </note>La grace de nostre Seigneur Iesus Christ
+                        <lb/>&amp; la dilection de Dieu nostre Pere soit auec
+                        <lb/>vous.Il est vray que la dilection de Dieu precede
+                        <lb/>en ordre, comme nous auons dit , que
+                        <lb/>nous n'auons point salut sinon d'autant que Iesus
+                        <lb/>Christ no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> a este enuoyé de Dieu son Pere: <cb/>
+                        <lb/>mais sainct Paul apres auoir parlé de la grace
+                        <lb/>qui nous a este manifestee , &amp; que <choice><sic>iournellelement</sic><corr resp="#CiM">iournellement</corr></choice>
+                        <lb/>Dieu nous communique en la persõne
+                        <lb/>de son Fils par l'Euangile , monstre que cela
+                        <lb/>vient de ce qu'il luy a pleu nous aimer par sa
+                        <lb/>bonte gratuite. Voyla en somme quant a ce
+                        <lb/>passage. Venons maintenãt a ce que dit sainct
+                        <lb/>Paul : Il appelle Timothee <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">son vray fils en la
+                                <lb/>foy</hi>
+                        </quote>. Or ceci de prime face pourroit estre trouué
+                        <lb/>estrange,qu'vn homme soit pere spirituel,
+                        <lb/>veu que nostre Seigneur Iesus Christ a defendu<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Matt.23.9">
+                                <hi rend="I">Mat</hi>.23.9.</ref>
+                        </note>
+                        <lb/>cela,disant , Qu'il ne nous faut point auoir
+                        <lb/>de peres en terre , d'autant qu'il n'y a que celuy
+                        <lb/>qui est au ciel qui merite cest honneur-la.
+                        <lb/>Mais tout ainsi que Dieu estant Pere &amp; de nos
+                        <lb/>ames &amp; de nos corps fait cest honneur aux hõmes
+                        <lb/>mortels que son titre leur est cõmun:aussi
+                        <lb/>quãd il luy plaist d'ẽuoyer les hõmes pour no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi>
+                        <lb/>attirer a la foy,ils nous sont peres spirituels.Il
+                        <lb/>est vray qu'il semble encores que ceci ne conuiene
+                        <lb/>point auec ce qui est dit en l'epistre aux<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Heb.12.9">
+                                <hi rend="I">Heb</hi>.12.9.</ref>
+                        </note>
+                        <lb/>Hebrieux. Car là il y a vne comparaison faite
+                        <lb/>des peres charnels auec le Pere de nos ames,
+                        <lb/>( qui n'est qu'vn ) comme de choses opposites :
+                        <lb/>mais le tout s'accordera tresbiẽ quãd
+                        <lb/>nous aurons entendu commẽt c'est q͂ Dieu est
+                        <lb/>nostre Pere, &amp; cõme les hõmes le sõt. Ce nom
+                        <lb/>de Pere est tant honorable , qu'il n'apartient
+                        <lb/>qu'a Dieu seul,mesmes au regard des corps.Et
+                        <lb/>ainsi,quand nous disons que ceux qui no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> ont
+                        <lb/>engẽdrez selõ la chair, sõt nos peres,c'est vne
+                        <lb/>façõ de parler impropre car vne creature mortelle
+                        <lb/>ne merite pas ceste dignite si haute &amp; si
+                        <lb/>excellente:mais tant y a que Dieu par sa bõte
+                        <lb/>encores esleue les hommes en ce degré , qu'il
+                        <lb/>veut qu'ils soyent appelez peres : &amp; c'est afin
+                        <lb/>qu'ils se cognoissent tant plus obligez a luy.
+                        <lb/>Or il n'y a pas grande difficulte quant a la vie
+                        <lb/>presente , qu'on appelle peres charnels ceux
+                        <lb/>qui ont engendré des enfans. Mais il semble
+                        <lb/>que Dieu soit le seul Pere de nos ames, en telle
+                        <lb/>sorte q͂ cela ne doyue point estre applicqué
+                        <lb/>aux hõmes:&amp; tant y a qu'il y a vne mesme raison.
+                        <lb/>Pourquoy?Il est vray que c'est Dieu seul ꝗ
+                        <lb/>nous engendre par sa parole,laquelle se nomme<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Pet.1.23">1. <hi rend="I">pier.</hi>1.23</ref>
+                        </note>
+                        <lb/>semence de vie: mais cependant il appelle<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Isa.54.25">
+                                <hi rend="I">Isa</hi>.54.15.</ref> <lb/>&amp; <ref type="bible" target="bibleSegond21.xml#Gal.4.27">
+                                <hi rend="I">Gal</hi>.4.27.</ref>
+                        </note>
+                        <lb/>l'Eglise nostre mere.Car tout ainsi qu'vne mere
+                        <lb/>conçoit &amp; qu'elle porte ses enfans,&amp; qu'elle
+                        <lb/>les nourrit , ainsi Dieu ayãt tousiours sa parole
+                        <lb/>en son Eglise,veut que nous soyons &amp; engẽdrez
+                        <lb/>par icelle,&amp; nourris &amp; esleuez,iusques
+                        <lb/>a ce que nous soyons venus en aage d'homme,
+                        <lb/>comme sainct Paul en parle. Voyla donc l'Eglise
+                        <lb/>qui est appelee nostre mere celeste,&amp; l'Escriture<note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#Eph.4.15">
+                                <hi rend="I">Ephe</hi>. 4.15</ref>
+                        </note>
+                        <lb/>est pleine de cela.Et sainct Paul declarãt
+                        <lb/>ce qui en a este dit aux Prophetes,monstre
+                        <lb/>que c'est par la parole de l'Euangile , qui est la
+                        <lb/>semẽce de vie, q͂ nous sommes faits enfans de
+                        <lb/>Dieu.Pour cela l'Eglise est nommee nostre mere
+                        <lb/>au <ref type="bible" target="bibleSegond21.xml#Gal.4">4. des Gal.</ref>Or par vne mesme raison ceux
+                        <lb/>ausquels cette charge est cõmise de porter l'Euangile,
+                        <lb/>sont appelez peres , quand ils engendrent
+                        <lb/>en Iesus Christ par la semence de vie incorruptible,
+                        <lb/>&amp; qu'ils nourrissent les ames,&amp; q͂
+                        <lb/>ils les esleuent iusques a ce qu'elles soyent venues
+                        <lb/>a perfection. Comment est-ce que nous
+                        <lb/>sõmes faits enfans de Dieu? C'est par la parole
+                        <lb/>de l'Euãgile.Et ceste parole-la d'où no<hi rend="E"><choice><abbr>9</abbr><expan>us</expan></choice></hi> est elle
+                        <lb/>proferee, sinon du costé des hommes? Et ainsi <fw place="bot-right" type="catch">si donc</fw>
+                        <lb/>
+                        <pb n="5"/>
+                        <cb/>
+                        <lb/>donc puis que les hommes sont enuoyez de
+                        <lb/>Dieu , qui les introduit comme en son lieu
+                        <lb/>afin de gaigner les ames a salut , &amp; puis que
+                        <lb/>auec la Parole,il adiouste aussi les Sacremens,
+                        <lb/>voyla comme vne naissance nouuelle, &amp; Dieu
+                        <lb/>monstre là qu'au lieu que nous estions nais
+                        <lb/>enfans d'Adam , &amp; que nous demouriõs en sa
+                        <lb/>malediction viuans au monde , que tout cela
+                        <lb/>est aboli en nous par le moyen de son adoptiõ
+                        <lb/>gratuite. Puis qu'ainsi est donc que les hommes
+                        <lb/>sont ainsi constituez au nom de Dieu , &amp;
+                        <lb/>que par leur moyen les ames sont appelees a
+                        <lb/>la vie immortelle,il ne se faut poĩt esbahir s'ils
+                        <lb/>sont aussi appelez peres.Et voyla pourquoy S.
+                        <lb/>Paul ne fait point difficulte de se nommer pere
+                        <lb/>
+                        <note type="margin">
+                            <ref type="bible" target="bibleSegond21.xml#_1Cor.4.15">1.<hi rend="I">Cor</hi>.4.15</ref> <lb/>&amp; <ref type="bible" target="bibleSegond21.xml#Gal.4.19">
+                                <hi rend="I">Gal</hi>.4.c <lb/>19</ref>
+                        </note>tant yci que par toutes ses epistres,mesmement
+                        <lb/>aux Corinthiens. Son intention n'est
+                        <lb/>pas de s'auancer en derogant rien qui soit a
+                        <lb/>Dieu,ne portãt preiudice a ce qui luy est reserué,
+                        <lb/>&amp; doit estre gardé:mais plustost S.Paul magnifie
+                        <lb/>la grace de Dieu,lequel auoit ainsi engẽdré
+                        <lb/>des fideles par son moyen. Sainct Paul en
+                        <lb/>somme ne veut point obscurcir la gloire de
+                        <lb/>Dieu,ni attirer a soy ce qui ne luy appartient
+                        <lb/>poĩt,car ce seroit vn sacrilege execrable:mais
+                        <lb/>plustost afin que Dieu soit recognu pere souuerain,
+                        <lb/>il monstre que les fideles ont este attirez
+                        <lb/>a la vie celeste par son moyen,comme s'il disoit,
+                        <lb/>Mes amis nous auons tous ensemble vn
+                        <lb/>Pere de tous , &amp; de vous &amp; de moy ; c'est luy
+                        <lb/>qui par sa vertu nous a regenerez,c'est luy qui
+                        <lb/>nous maintient:mais cependant auisons que
+                        <lb/>la semence de vie , ( &amp; de vie incorruptible )
+                        <lb/>soit en nous , d'autant que nous auons receu
+                        <lb/>par foy la doctrine de l'Euangile,&amp; Dieu s'est
+                        <lb/>voulu servir de ma personne en cest endroit,
+                        <lb/>Ie vous suis donc vn pere spirituel, non point
+                        <lb/>a l'opposite de Dieu,non point pour diminuer
+                        <lb/>rien de sa dignite,mais comme estant sous luy
+                        <lb/>&amp; portant sa Parole,laquelle il m'auoit commise.
+                        <lb/>Nous voyons donc maintenãt a quel propos
+                        <lb/>sainct Paul se nomme pere des fideles. Et
+                        <lb/>de là nous sommes instruits, que si nous voulons
+                        <lb/>estre recognus &amp; aduouez de Dieu pour
+                        <lb/>ses enfans,qu'il faut aussi que nous soyons enfans
+                        <lb/>de l'Eglise,que nous ne facions point cõme
+                        <lb/>ces apostats &amp; ces rebelles qui voudroyẽt
+                        <lb/>auoir seulement vne Chrestiente par fantasie,
+                        <lb/>qui n'ont sinon vne imagination diabolique.
+                        <lb/>Or de moy ie suis Chrestien, ie tiens l'Euangile:
+                        <lb/>voire il ne leur couste gueres de parler aĩsi,
+                        <lb/>mais cependant ils reiettent tout ordre d'Eglise,
+                        <lb/>ils se veulent exempter de tout ioug,
+                        <lb/>ils cherchẽt la ruine de ceux qui sont cõmis
+                        <lb/>pour prescher au nom de Dieu, &amp; lesquels ils
+                        <lb/>deuroyent tenir pour leurs peres s'ils n'estoyent
+                        <lb/>enfans du diable , mais ce sont effrontez
+                        <lb/>&amp; impudens iusques au bout , qui viendront
+                        <lb/>yci prophaner l'Eglise de Dieu. Pourceaux,
+                        <lb/>pourceaux , que ne vous tenez vous en vos
+                        <lb/>ordures &amp; infections , afin de ne point infecter
+                        <lb/>les autres? Voyla comme il faut que si <cb/>
+                        <lb/>nous voulons estre tenus pour enfans de<supplied resp="#CiM" reason="omission"> </supplied>Dieu,
+                        <lb/>que l'Eglise soit nostre mere , &amp; que les Ministres
+                        <lb/>soyent nos peres : &amp; tous ceux qui ne
+                        <lb/>veulent point se ranger là , qu'ils s'en aillent
+                        <lb/>( comme i'ay dit ) auec Satan en enfer chercher
+                        <lb/>leur maison : car ils n'ont ne lieu ne place
+                        <lb/>en l'Eglise de Dieu.Et au reste,d'autant que
+                        <lb/>il y en a beaucoup qui font semblant d'estre fideles ,
+                        <lb/>&amp; qui pretendront le nom de ceux qui
+                        <lb/>auront este reformez par l'Euangile , &amp; toutesfois
+                        <lb/>qu'il n'y aura qu'hypocrisie en eux,voyla
+                        <lb/>pourquoy sainct Paul appelle Timothee <quote source="bibleSegond21.xml#_1Tim.1.2">
+                            <hi rend="I">son
+                                <lb/>vray fils en la foy</hi>
+                        </quote>. Il adiouste cela pour le discerner
+                        <lb/>d'auec les enfans qui estoyẽt bastars.
+                        <lb/>Car le mot dont vse yci sainct Paul ne se peut
+                        <lb/>assez exprimer , il <choice><sic>emPorte</sic><corr resp="#CiM">emporte</corr></choice> cõme fils naturel,
+                        <lb/>vn droit fils. Et sainct Paul auoit-il des enfans
+                        <lb/>qui ne fussent pas vrais &amp; legitimes en la foy?
+                        <lb/>Ouy<supplied resp="#MAG" reason="omission"> </supplied>biẽ:non pas que la faute veinst de son costé,
+                        <lb/>mais pource que beaucoup auoyent fait
+                        <lb/>semblant de receuoir l'Euangile par sa bouche,
+                        <lb/>&amp; puis apres qu'on ne voyoit que malice
+                        <lb/>en eux &amp; hypocrisie, il les <choice><sic>desauouẽ</sic><corr resp="#CiM">desauoue</corr></choice> pour
+                        <lb/>ses enfans , &amp; dit qu'ils ne sont point vrais &amp;
+                        <lb/>legitimes. Apprenons donc que ce n'est point
+                        <lb/>assez que nous ayons este enseignez en l'Euangile,
+                        <lb/>&amp; que nous ayons fait profession d'y
+                        <lb/>adherer, &amp; que nous ayons ouy par la bouche
+                        <lb/>des hommes ce que Dieu nous aura commandé,
+                        <lb/>mais il faut que nous demouriõs vrais enfans,
+                        <lb/>que nous auisions bien de tousiours suyure
+                        <lb/>le droit chemin sans en decliner en façon
+                        <lb/>que ce soit. Car si tost qu'on commence a se
+                        <lb/>desbaucher , &amp; qu'on laisse la droite ligne,
+                        <lb/>que reste-il sinon qu'on deuiene tout bastard,
+                        <lb/>au lieu qu'on estoit du nombre des enfans de
+                        <lb/>Dieu,&amp; qu'il auoit exalté l'homme en cest hõneur
+                        <lb/><choice><sic>inestimabler</sic><corr resp="#CiM">inestimable</corr></choice>? Aduisõs qu'en la personne
+                        <lb/>de Timothee sainct Paul nous a voulu instruire,
+                        <lb/>que si nous auons receu l'Euangile, il nous
+                        <lb/>y faut tellement persister que la bonne semence
+                        <lb/>qui aura este plantee en nous , ne soit abbastardie
+                        <lb/>ne corrompue , mais qu'elle persiste
+                        <lb/>iusques a ce qu'elle produise son fruict. Et
+                        <lb/>quand sera-ce? Apres que Dieu nous aura retirez
+                        <lb/>de ce monde , &amp; qu'il nous fera sentir le
+                        <lb/>fruict, &amp; la iouissance de nostre redemption
+                        <lb/>en son royaume celeste. 
+                            <hi rend="I">Or nous nous prosternerons</hi>
+                        <lb/>deuant la face de nostre bon Dieu , en
+                        <lb/>cognoissance de nos fautes. Le priant qu'il
+                        <lb/>luy plaise nous en purger , &amp; nous en toucher
+                        <lb/>tellement au vif que nous apprenions de renõcer
+                        <lb/>a tout ce qui est du monde , &amp; de nostre
+                        <lb/>chair, &amp; que nous mettions peine de venir a
+                        <lb/>luy , voire &amp; en telle sorte qu'il nous reçoyue
+                        <lb/>cõme ses enfans.Et puis qu'il luy a pleu nous
+                        <lb/>attirer a soy par la cognoissance de sa verite,
+                        <lb/>qu'il luy plaise nous conduire iusques en la
+                        <lb/>fin &amp; nous tenir la main forte afin que nous ne
+                        <lb/>soyons iamais destournez de la saincte vocation.
+                        <lb/>Ainsi nous dirons tous , Dieu tout puissant
+                        <lb/>pere celeste,&amp;c.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
