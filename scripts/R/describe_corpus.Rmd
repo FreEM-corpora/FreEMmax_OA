@@ -1,0 +1,106 @@
+---
+title: "Corpus description"
+author: "Simon Gabay"
+---
+
+```{r}
+setwd("~/GitHub/dAlemBERT/scripts/R")
+```
+
+```{r}
+if(!require("tidyr")){
+  install.packages("tidyr")
+  library("tidyr")
+}
+if(!require("dplyr")){
+  install.packages("dplyr")
+  library("dplyr")
+}
+if(!require("magrittr")){
+  install.packages("magrittr")
+  library("magrittr")
+}
+
+if(!require("ggplot2")){
+  install.packages("ggplot2")
+  library("ggplot2")
+}
+```
+
+Load corpus
+
+```{r}
+metadata = "../../TOC.tsv"
+metadata <- read.csv(metadata, header=TRUE, sep = "\t", quote = '',fill = TRUE, fileEncoding="UTF-8")
+#View(metadata)
+metadata_df <- as.data.frame(metadata)
+```
+
+Data cleaning
+
+```{r}
+metadata_df$Date <-  as.character(metadata_df$Date)
+metadata_df$Date<-gsub("^(\\d{4})-\\d{4}$", "\\1", metadata_df$Date)
+metadata_df$Date<-gsub("^.*(\\d{4}).*$", "\\1", metadata_df$Date)
+metadata_df$Date<-gsub("^(\\d{4})-\\d{2}-\\d{2}$", "\\1", metadata_df$Date)
+metadata_df$Date<-gsub("^(\\d{4})-\\d{2}$", "\\1", metadata_df$Date)
+metadata_df$Date<-gsub("^\\[(\\d{4})\\]$", "\\1", metadata_df$Date)
+```
+
+Data only between the 16th and the 18th
+
+```{r}
+metadata_df$Date <-  as.integer(metadata_df$Date)
+metadata_16_18<-metadata_df[!(metadata_df$Date>1800 | metadata_df$Date<1500),]
+```
+
+Basic info
+
+```{r}
+summary(metadata_16_18$Date)
+```
+`
+Boxplot
+
+```{r}
+boxplot(metadata_16_18[,3])
+```
+
+Doc per year
+
+```{r}
+dates<-(metadata_16_18$Date)
+occurrences<-table(dates)
+```
+
+```{r}
+plot(occurrences, type="h", main="documents/year", xlab="", ylab="Number of documents")
+```
+
+```{r}
+occurrences_df<-as.data.frame(occurrences)
+ggplot(occurrences_df, aes(x=dates, y=Freq))+ geom_point()
+ggplot(occurrences_df, aes(x=Freq))+geom_histogram(stat = "count") +
+    xlab("pclass") +
+    ylab("total count")
+
+```
+
+
+Boxplot
+
+```{r}
+metadata_16_18$Nb.of.tokens..c..<-as.integer(as.character(metadata_16_18$Nb.of.tokens..c..))
+```
+
+```{r}
+summary(metadata_16_18$Nb.of.tokens..c..)
+```
+
+```{r}
+metadata_16_18<-metadata_16_18[!(metadata_16_18$Nb.of.tokens..c..>50000 | metadata_16_18$Nb.of.tokens..c..<100),]
+```
+
+```{r}
+hist(metadata_16_18$Nb.of.tokens..c..)
+```
