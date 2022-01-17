@@ -1,6 +1,6 @@
 # FreEM max OA
 
-Corpus for a language model of (early) modern French
+A Large Corpus for Early modern French - open access
 
 For more information about FreEM corpora, cf. our [website](https://freem-corpora.github.io).
 
