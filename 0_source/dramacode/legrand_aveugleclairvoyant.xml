@@ -1,0 +1,2213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>L'Aveugle clair-voyant. Comédie</title>
+        <author key="Legrand, Marc-Antoine (1673-1728)">Le Grand, Marc-Antoine</author>
+        <principal>Georges Forestier</principal>
+        <editor>Sonia Naudin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Édition critique établie par Sonia Naudin dans le cadre d'un mémoire de master 1 sous la direction de Georges Forestier (2003-2004)</edition>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
+        <date when="2013"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
+        </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/legrand_aveugle-clairvoyant/</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Le Grand, Marc-Antoine</author>. <title>L'Aveugle clair-voyant. Comédie</title>. Représentée, pour la premiere fois, le 18 septembre 1716.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1716"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term subtype="comedy" type="genre">Comédie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <titlePart>L'AVEUGLE CLAIR-VOYANT</titlePart>
+        <titlePart type="sub">COMÉDIE EN UN ACTE ET EN VERS</titlePart>
+        <docAuthor>DE LE GRAND</docAuthor>
+        <docImprint>Représentée, pour la premiere fois, le 18 septembre 1716<note n="1" place="bottom"><p>Reproduction d’après l’exemplaire figurant dans le <hi rend="i">Répertoire du théâtre françois</hi> par M. Petitot, tome vingtième, Paris, Foucault, 1818. Dans cette édition, la comédie est précédée d’une notice sur la vie de Marc-Antoine Legrand et suivie d’un examen de la pièce effectué par M. Petitot.</p></note>.</docImprint>
+        <docEdition>Édition critique établie par Sonia Naudin dans le cadre d'un mémoire de master 1 sous la direction de Georges Forestier (2003-2004)</docEdition>
+      </titlePage>
+      <div>
+        <head>Notice sur Le Grand</head>
+        <p>MARC-ANTOINE LE GRAND naquit à Paris en 1675. Fils unique du chirurgien-major des Invalides, il reçut une éducation soignée : on vouloit faire de lui un médecin, mais les goûts qu’il manifesta dans sa première jeunesse montrèrent qu’il n’étoit pas appelé à un état aussi grave. Il fréquentoit assidûment le théâtre, recherchoit les comédiens, et ne négligeoit rien pour être admis à leur société et à leurs plaisirs. Des dispositions si décisives ne purent être combattues avec succès par les parens du jeune-homme ; les attraits d’une vie licencieuse lui cachoient les désagrémens de l’état qu’il vouloit embrasser, et le rendoient sourd aux sages remontrances qu’on lui faisoit. Il paroît que le père de Le Grand, irrité de n’avoir pu réussir avec des moyens doux, en voulut employer de plus sévères, il fut question de faire enfermer le jeune étourdi : averti à temps, il prit la fuite; et n’ayant d’autres ressources pour vivre que ses talens pour le théâtre, il se fit comédien ambulant. Après avoir erré long-temps dans les pays étrangers, il s’arrêta à Varsovie, où l’ambassadeur de France remarqua en lui des dispositions à devenir un bon comédien.</p>
+        <p>Le théâtre françois manquoit alors de sujets dans l’emploi des rois, l’ambassadeur indiqua Le Grand : on le fit venir de Pologne, mais il fut sur le point de n’être pas reçu, parce qu’il étoit laid et mal fait. M. le dauphin, qui eut pitié de Le Grand, fit lever les obstacles que l’on vouloit mettre à son admission. Il ne paroît pas que ses débuts aient été très brillans ; le public s’accoutuma difficilement, à sa figure ; et même lorsqu’il fut reconnu assez généralement pour un acteur consommé, il essuya quelque-fois des désagrémens. Dans une des harangues de clôture, qu’il étoit souvent chargé de faire, des murmures s’élevèrent contre lui : « Messieurs, dit-il au parterre, il vous est plus aisé de vous accoutumer à ma figure qu’à moi d’en changer. »</p>
+        <p>Si Le Grand n’eut pas, comme acteur, tout le succès qu’il pouvoit désirer, il fut du moins très utile à ses camarades par le grand nombre de petites pièces qu’il leur donna, et qui eurent presque toutes du succès dans leur nouveauté. La rapidité avec laquelle il composoit, le peu d’aptitude qu’il avoit au travail, l’empêchèrent d’approfondir aucun sujet. Ses pièces sont des bluettes légères qui réussissoient à la faveur de quelque circonstance du moment : elles ne méritent donc, sous le rapport littéraire, aucun examen sérieux. Bien inférieur à Dancourt pour la vivacité du dialogue, mais supérieur à Hauteroche pour la finesse de l’expression et l’invention des moyens, Le Grand doit occuper une petite place dans la galerie des auteurs dramatiques. On peut le comparer à ces gens qui plaisent dans la conversation, sans cependant inspirer beaucoup d’estime.</p>
+        <p>Nous ne parlerons ni des Maris dupés, ni de l’Amour diable, ni de la Métamorphose amoureuse, ni d’une multitude de comédies qui n’ont laissé aucune trace dans la mémoire des amateurs. Ces pièces sont d’agréables parades qui n’ont pu plaire que dans le moment où elles ont été composées. Nous n’avons pas admis le Roi de Cocagne dans notre recueil, quoique cette pièce soit quelquefois reprise au carnaval ; il nous a paru que cette farce ne pouvoît procurer aucun plaisir à la lecture : tout y dépend des décorations, des ballets, des costumes et du jeu des acteurs. Un motif à-peu-près pareil nous a décidés à l’égard de la Nouveauté : c’est une pièce à tiroir qui n’est ordinairement reprise que pour faire briller une actrice : quelques scènes sont plaisantes ; mais elles ont des allusions trop éloignées, et perdent aujourd’hui presque tout leur effet. Le Grand a donné le premier l’exemple de mettre des voleurs sur la scene ; le jour même de l’exécution de Cartouche il fit représenter une comédie qui porte le nom de ce brigand. Dans cette pièce du moins les voleurs sont peints tels qu’ils sont, et la gaieté qu’ils inspirent est mêlée de mépris et d’horreur. De nos jours, on a vu au théâtre des brigands sensibles et intéressans : ce changement selon le système de quelques philosophes, ne pourroit-il pas fournir un nouvel argument en faveur de la <hi rend="i">perfectibilité</hi> ?</p>
+        <p>Les deux pièces de Le Grand que nous insérons dans ce recueil ont le mérite d’être conduites avec art, et pétillent de gaieté : l’Aveugle clairvoyant sur-tout est une des plus jolies comédies en un acte qui existent au théâtre. Le Grand, dont la santé étoit affoiblie par les excès et les voyages, mourut à cinquante-six ans, le 7 janvier 1728.</p>
+      </div>
+    </front>
+    <body>
+      <head>L'AVEUGLE <lb/>CLAIRVOYANT, <lb/>COMÉDIE<lb/></head>
+      <div type="set" xml:id="auteurs">
+        <head>ACTEURS.</head>
+        <castList>
+          <castItem>
+            <role rend="male veteran" xml:id="damon">DAMON,</role>
+            <roleDesc>officier de marine, aveugle clairvoyant.</roleDesc>
+          </castItem>
+          <castItem>
+            <role rend="female junior" xml:id="leonor">LÉONOR,</role>
+            <roleDesc>jeune veuve promise à Damon.</roleDesc>
+          </castItem>
+          <castItem>
+            <role rend="female veteran" xml:id="tante">LA VIEILLE LÉONOR,</role>
+            <roleDesc>tante de Léonor, amoureuse de Damon.</roleDesc>
+          </castItem>
+          <castItem>
+            <role rend="male junior" xml:id="leandre">LÉANDRE,</role>
+            <roleDesc>neveu de Damon, amant de Léonor.</roleDesc>
+          </castItem>
+          <castItem>
+            <role rend="male" xml:id="lempese">LEMPESÉ,</role>
+            <roleDesc>médecin, amoureux de Léonor.</roleDesc>
+          </castItem>
+          <castItem>
+            <role rend="female inferior" xml:id="lisette">LISETTE,</role>
+            <roleDesc>suivante de Léonor.</roleDesc>
+          </castItem>
+          <castItem>
+            <role rend="male inferior" xml:id="marin">MARIN,</role>
+            <roleDesc>valet de Damon.</roleDesc>
+          </castItem>
+          <castItem>
+            <role rend="male exterior" xml:id="notaire">UN NOTAIRE.</role>
+          </castItem>
+        </castList>
+        <stage>La scène est à Paris, dans la maison de Damon.</stage>
+      </div>
+      <div n="1" type="scene" xml:id="I01">
+        <head>SCENE PREMIERE.</head>
+        <stage>LEONOR, LISETTE.</stage>
+        <sp who="lisette" xml:id="I01-1">
+          <speaker>LISETTE.</speaker>
+          <l n="1" xml:id="l1"><hi rend="sc">Eh</hi> bien ! madame, à quoi vous déterminez-vous ?</l>
+          <l n="2" xml:id="l2">On va voir arriver votre futur époux :</l>
+          <l n="3" xml:id="l3">Damon revient enfin après deux ans d’absence.</l>
+        </sp>
+        <sp who="leonor" xml:id="I01-2">
+          <speaker>LÉONOR.</speaker>
+          <l n="4" xml:id="l4">Fatal retour ! O ciel ! je frémis quand j’y pense.</l>
+          <l n="5" xml:id="l5">Lisette, dans l’état où l’a mis son destin,</l>
+          <l n="6" xml:id="l6">Pourrois-je me résoudre à lui donner la main ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I01-3">
+          <speaker>LISETTE.</speaker>
+          <l n="7" xml:id="l7">Comment vous en défendre ? Un dédit vous engage.</l>
+          <l n="8" xml:id="l8">Il l’exigea de vous avant ce long voyage,</l>
+          <l n="9" xml:id="l9">Et que vous logeriez ici dans sa maison :</l>
+          <l n="10" xml:id="l10">Nous y vînmes alors toutes deux sans façon,</l>
+          <l n="11" xml:id="l11">Comptant ce mariage une chose certaine ;</l>
+          <l n="12" xml:id="l12">A présent son retour vous alarme et vous gêne.</l>
+        </sp>
+        <sp who="leonor" xml:id="I01-4">
+          <speaker>LÉONOR.</speaker>
+          <l n="13" xml:id="l13">Hélas ! lorsqu’à Damon je donnai mon aveu,</l>
+          <l n="14" xml:id="l14">Je n’avois jamais vu Léandre, son neveu.</l>
+        </sp>
+        <sp who="lisette" xml:id="I01-5">
+          <speaker>LISETTE.</speaker>
+          <l n="15" xml:id="l15">Que je m’en doutois bien ! Voilà donc l’enclouure ?</l>
+          <l n="16" xml:id="l16">Léandre, je l’avoue, est d’aimable figure ;</l>
+          <l n="17" xml:id="l17">Mais il n’a pas le double ; et sans l’oncle, ma foi,</l>
+          <l n="18" xml:id="l18">Ce neveu si charmant seroit plus gueux que moi :</l>
+          <l n="19" xml:id="l19">Damon a fait sur mer une fortune immense ;</l>
+          <l n="20" xml:id="l20">Avec lui vous seriez toujours dans l’opulence,</l>
+          <l n="21" xml:id="l21">Vous auriez de l’argent, des habits, des bijoux.</l>
+        </sp>
+        <sp who="leonor" xml:id="I01-6">
+          <speaker>LÉONOR.</speaker>
+          <l n="22" xml:id="l22">Mais avec tous ces biens un très fâcheux époux ;</l>
+          <l n="23" xml:id="l23">Car enfin l’accident dont on a la nouvelle</l>
+          <l n="24" part="I" xml:id="l24">N'a pas dû l’embellir.</l>
+        </sp>
+        <sp who="lisette" xml:id="I01-7">
+          <speaker>LISETTE.</speaker>
+          <l part="F">C'est une bagatelle.</l>
+          <l n="25" xml:id="l25">Quoi ! parce que le vent d’un boulet de canon</l>
+          <l n="26" xml:id="l26">Nous le renvoie aveugle ? Eh quoi ! cette raison</l>
+          <l n="27" part="I" xml:id="l27">Vous doit-elle empêcher de conclure ?</l>
+        </sp>
+        <sp who="leonor" xml:id="I01-8">
+          <speaker>I.ÉONOR.</speaker>
+          <l part="F">Sans doute.</l>
+        </sp>
+        <sp who="lisette" xml:id="I01-9">
+          <speaker>LISETTE.</speaker>
+          <l n="28" xml:id="l28">Refuser un mari parce qu’il ne voit goutte !</l>
+          <l n="29" xml:id="l29">Hélas ! votre défunt ne voyoit que trop clair,</l>
+          <l n="30" xml:id="l30">Sur les moindres soupçons toujours l’esprit en l’air.</l>
+        </sp>
+        <sp who="leonor" xml:id="I01-10">
+          <speaker>LÉONOR.</speaker>
+          <l n="31" xml:id="l31">Ah ! ne m’en parle pas ; cinq mois de mariage</l>
+          <l n="32" xml:id="l32">M'ont avec lui paru cinquante ans d’esclavage :</l>
+          <l n="33" xml:id="l33">Ce souvenir suffit pour me faire trembler ;</l>
+          <l n="34" xml:id="l34">Et Damon a le don de lui trop ressembler.</l>
+          <l n="35" xml:id="l35">Quand j’aurois été sourde à de nouvelles flammes,</l>
+          <l n="36" xml:id="l36">Damon parle si mal, pense si mal des femmes…..</l>
+        </sp>
+        <sp who="lisette" xml:id="I01-11">
+          <speaker>LISETTE.</speaker>
+          <l n="37" xml:id="l37">Ah ! qu’il en pense mal, ou qu’il en pense bien</l>
+          <l n="38" xml:id="l38">De ce que nous ferons il ne verra plus rien.</l>
+        </sp>
+        <sp who="leonor" xml:id="I01-12">
+          <speaker>LÉONOR.</speaker>
+          <l n="39" xml:id="l39">Qu'il ignore sur-tout que son neveu Léandre</l>
+          <l n="40" xml:id="l40">Est encore à Paris quand il le croit en Flandre.</l>
+        </sp>
+        <sp who="lisette" xml:id="I01-13">
+          <speaker>LISETTE.</speaker>
+          <l n="41" xml:id="l41">Oui ; mais que ferons-nous de monsieur Lempesé ?</l>
+          <l n="42" xml:id="l42">De le congédier il n’est pas fort aisé ;</l>
+          <l n="43" xml:id="l43">Ce fade médecin est un amant tenace,</l>
+          <l n="44" xml:id="l44">Et qui ne s’aperçoit jamais qu’il embarrasse.</l>
+          <l n="45" xml:id="l45">Mais pourquoi, diantre, aussi lui donner de l’espoir ?</l>
+        </sp>
+        <sp who="leonor" xml:id="I01-14">
+          <speaker>LÉONOR.</speaker>
+          <l n="46" xml:id="l46">Pour m’amuser, n’ayant personne à recevoir ;</l>
+          <l n="47" xml:id="l47">Dans les commencemens je le trouvois passable ;</l>
+          <l n="48" xml:id="l48">Mais depuis certain temps il m’est insupportable.</l>
+        </sp>
+        <sp who="lisette" xml:id="I01-15">
+          <speaker>LISETTE.</speaker>
+          <l n="49" xml:id="l49">Depuis que le neveu s’est offert à vos yeux.</l>
+          <l n="50" xml:id="l50">Quoi qu’il en soit, je veux vous servir de mon mieux ;</l>
+          <l n="51" xml:id="l51">Cependant je devrois être bien en colère,</l>
+          <l n="52" xml:id="l52">Puisque jusques ici vous m’avez fait mystère...</l>
+        </sp>
+        <sp who="marin" xml:id="I01-16">
+          <speaker>MARIN, <hi rend="i">derriere le théâtre.</hi></speaker>
+          <l n="53" part="I" xml:id="l53">Hoé, hoé, hoé !</l>
+        </sp>
+        <sp who="lisette" xml:id="I01-17">
+          <speaker>LISETTE.</speaker>
+          <l part="F">J'entends Marin, je crois.</l>
+        </sp>
+        <sp who="leonor" xml:id="I01-18">
+          <speaker>LÉONOR.</speaker>
+          <l n="54" part="I" xml:id="l54">Le valet de Damon ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I01-19">
+          <speaker>LISETTE.</speaker>
+          <l part="F">Oui, vraiment, c’est sa voix ;</l>
+          <l n="55" xml:id="l55">Je la reconnois bien : il faut, sans plus attendre,</l>
+          <l n="56" part="I" xml:id="l56">Prendre votre parti.</l>
+        </sp>
+        <sp who="leonor" xml:id="I01-20">
+          <speaker>LÉONOR.</speaker>
+          <l part="F">Quel parti puis-je prendre ?</l>
+        </sp>
+      </div>
+      <div n="2" type="scene" xml:id="I02">
+        <head>SCENE II.</head>
+        <stage>LÉONOR, LISETTE, MARIN, en courrier.</stage>
+        <sp who="marin" xml:id="I02-1">
+          <speaker>MARIN.</speaker>
+          <l n="57" xml:id="l57">Hoé, hoé, hoé ! Parbleu, j’ai beau crier :</l>
+          <l n="58" xml:id="l58">Comment donc, est-ce ainsi qu’on reçoit un courrier ?</l>
+          <l n="59" part="I" xml:id="l59">Personne ne descend.</l>
+        </sp>
+        <sp who="leonor" xml:id="I02-2">
+          <speaker>LÉONOR.</speaker>
+          <l part="F">Qu'as-tu fait de ton maître ?</l>
+        </sp>
+        <sp who="marin" xml:id="I02-3">
+          <speaker>MARIN.</speaker>
+          <l n="60" xml:id="l60">Ne vous alarmez point, vous l’allez voir paroître ;</l>
+          <l n="61" xml:id="l61">Et je l’ai devancé de cent pas seulement,</l>
+          <l n="62" xml:id="l62">Pour voir si tout est prêt dans son appartement.</l>
+        </sp>
+        <sp who="lisette" xml:id="I02-4">
+          <speaker>LISETTE, <hi rend="i">à Léonor.</hi></speaker>
+          <l n="63" xml:id="l63">Cela va bien pour nous : commençons par avance</l>
+          <l n="64" xml:id="l64">A faire entrer Marin dans notre confidence.</l>
+        </sp>
+        <sp who="leonor" xml:id="I02-5">
+          <speaker>LÉONOR, <hi rend="i">bas, à Lisette.</hi></speaker>
+          <l n="65" part="I" xml:id="l65">Que vas-tu faire ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I02-6">
+          <speaker>LISETTE.</speaker>
+          <l part="F">Il m’aime, et fera tout pour moi,</l>
+          <l n="66" xml:id="l66">J'en suis sûre... Marin, puis-je compter sur toi ?</l>
+        </sp>
+        <sp who="marin" xml:id="I02-7">
+          <speaker>MARIN.</speaker>
+          <l n="67" xml:id="l67">Tu n’en saurois douter sans me faire injustice.</l>
+        </sp>
+        <sp who="lisette" xml:id="I02-8">
+          <speaker>LISETTE.</speaker>
+          <l n="68" xml:id="l68">Il s’agit, en payant, de nous rendre un service.</l>
+        </sp>
+        <sp who="marin" xml:id="I02-9">
+          <speaker>MARIN.</speaker>
+          <l n="69" xml:id="l69">En payant ? C'est beaucoup me dire en peu de mots.</l>
+          <l n="70" xml:id="l70">A cent coups de bâton dût s’exposer mon dos,</l>
+          <l n="71" part="I" xml:id="l71">Vous n’avez qu’à parler.</l>
+        </sp>
+        <sp who="lisette" xml:id="I02-10">
+          <speaker>LISETTE.</speaker>
+          <l part="F">II faut tromper ton maître,</l>
+          <l n="72" xml:id="l72">Et sur les gens qu’ici tu pourras voir paroître,</l>
+          <l n="73" part="I" xml:id="l73">Ne lui rien témoigner.</l>
+        </sp>
+        <sp who="marin" xml:id="I02-11">
+          <speaker>MARIN.</speaker>
+          <l part="F">Il suffit, je t’entends.</l>
+          <l n="74" xml:id="l74">Madame en notre absence a fait quelques amans,</l>
+          <l n="75" xml:id="l75">Et Damon l’inquiete un peu par sa venue.</l>
+          <l n="76" xml:id="l76">Ne craigniez rien ; depuis qu’il a perdu la vue,</l>
+          <l n="77" xml:id="l77">Je lui fais aisément croire ce qu’il me plaît ;</l>
+          <l n="78" xml:id="l78">Et je vous servirai, non pas par intérêt,</l>
+          <l n="79" xml:id="l79">Mais parce que je sens pour vous un certain zèle</l>
+          <stage>(à Lisette.)</stage>
+          <l n="80" xml:id="l80">Qui brûle d’éclater... Que me donnera-t-elle ?</l>
+        </sp>
+        <sp who="leonor" xml:id="I02-12">
+          <speaker>LÉONOR.</speaker>
+          <l n="81" xml:id="l81">J'ai vingt louis tout prêts, je vais te les chercher.</l>
+        </sp>
+        <sp who="marin" xml:id="I02-13">
+          <speaker>MARIN.</speaker>
+          <l n="82" xml:id="l82">Madame... en vérité... c’est de quoi me toucher</l>
+          <l n="83" xml:id="l83">Hâtez-vous de répondre à mon ardeur extrême,</l>
+          <l n="84" xml:id="l84">Et songez que mon maître arrive à l’heure même.</l>
+        </sp>
+      </div>
+      <div n="3" type="scene" xml:id="I03">
+        <head>SCENE III.</head>
+        <sp who="marin" xml:id="I03-1">
+          <speaker>MARIN.</speaker>
+          <l n="85" xml:id="l85">Vingt louis ! malepeste ! Allons, mon cher Marin,</l>
+          <l n="86" xml:id="l86">Il ne faut pas rester dans un si beau chemin.</l>
+          <l n="87" xml:id="l87">Mais quoi ! trahir Damon ! non, cela ne peut être ;</l>
+          <l n="88" xml:id="l88">II ne faut pas, ma foi, trahir un si bon maître :</l>
+          <l n="89" xml:id="l89">II vient de m’assurer certaine pension</l>
+          <l n="90" xml:id="l90">Qui dans la suite aura quelque augmentation,</l>
+          <l n="91" xml:id="l91">Et le tout pour venir ici leur faire accroire</l>
+          <l n="92" xml:id="l92">Qu'il est aveugle. Allons, il y va de ma gloire</l>
+          <l n="93" xml:id="l93">De soutenir toujours ce que j’ai commencé.</l>
+          <l n="94" xml:id="l94">Des gens nous ont mandé que monsieur Lempesé,</l>
+          <l n="95" xml:id="l95">Ce médecin pimpant, ce marchand de denrées</l>
+          <l n="96" xml:id="l96">Pour rétablir le teint des beautés délabrées,</l>
+          <l n="97" xml:id="l97">Etoit dans ce logis du matin jusqu’au soir ;</l>
+          <l n="98" xml:id="l98">Que même Léonor lui donnoit quelque espoir.</l>
+          <l n="99" xml:id="l99">On nous mande de plus qu’elle adore Léandre,</l>
+          <l n="100" xml:id="l100">Et qu’il est à Paris quand on le croit en Flandre ;</l>
+          <l n="101" xml:id="l101">C'est ce que dans ce jour mon maître veut savoir,</l>
+          <l n="102" xml:id="l102">Et qu’il verra bien mieux, feignant de ne rien voir.</l>
+          <l n="103" xml:id="l103">Ce qu’il en fait, pourtant n’est pas par jalousie ;</l>
+          <l n="104" xml:id="l104">Il doit être guéri de cette frénésie :</l>
+          <l n="105" xml:id="l105">Il veut se réjouir ; c’est là, je crois, son but,</l>
+          <l n="106" xml:id="l106">Mettre à bout Léonor et ses amans... Mais chut.</l>
+          <l n="107" xml:id="l107">La voici de retour aussi bien que Lisette.</l>
+          <l n="108" xml:id="l108">Prenons de toutes mains, et dupons la coquette.</l>
+        </sp>
+      </div>
+      <div n="4" type="scene" xml:id="I04">
+        <head>SCENE IV.</head>
+        <stage>LÉONOR, LISETTE, MARIN.</stage>
+        <sp who="marin" xml:id="I04-1">
+          <speaker>MARIN.</speaker>
+          <l n="109" part="I" xml:id="l109">Eh bien ! ces vingt louis sont-ils prêts ?</l>
+        </sp>
+        <sp who="leonor" xml:id="I04-2">
+          <speaker>LEONOR, <hi rend="i">lui donnant une bourse.</hi></speaker>
+          <l part="F">Les voici.</l>
+        </sp>
+        <sp who="marin" xml:id="I04-3">
+          <speaker>MARIN.</speaker>
+          <l n="110" xml:id="l110">Je les prends sans compter, et vous dis grand merci.</l>
+        </sp>
+        <sp who="lisette" xml:id="I04-4">
+          <speaker>LISETTE.</speaker>
+          <l n="111" xml:id="l111">Pour que tu sois au fait, il faut d’abord t’apprendre</l>
+          <l n="112" xml:id="l112">Qu'on n’aime plus Damon, et qu’on aime Léandre.</l>
+        </sp>
+        <sp who="marin" xml:id="I04-5">
+          <speaker>MARIN.</speaker>
+          <l n="113" xml:id="l113">Il est donc à Paris ? Ma foi ! C'est fort bien fait.</l>
+          <l n="114" xml:id="l114">J'approuve votre goût, et j’en suis en effet.</l>
+          <l n="115" xml:id="l115">Dans ma façon d’aimer tous les jours je préfère</l>
+          <l n="116" xml:id="l116">Et la nièce à la tante, et la fille à la mère.</l>
+        </sp>
+        <sp who="leonor" xml:id="I04-6">
+          <speaker>LÉONOR.</speaker>
+          <l n="117" xml:id="l117">Finis, Marin, et sois seulement diligent...</l>
+        </sp>
+        <sp who="marin" xml:id="I04-7">
+          <speaker>MARIN.</speaker>
+          <l n="118" xml:id="l118">Comptez sur mon esprit, mon zèle et votre argent.</l>
+        </sp>
+        <sp who="leonor" xml:id="I04-8">
+          <speaker>LÉONOR.</speaker>
+          <l n="119" xml:id="l119">Préviens d’abord Damon ; dis-lui que mon visage</l>
+          <l n="120" xml:id="l120">A perdu les attraits qu’il avoit en partage.</l>
+        </sp>
+        <sp who="marin" xml:id="I04-9">
+          <speaker>MARIN.</speaker>
+          <l n="121" xml:id="l121">Oui, je saurai vous peindre en remède d’amour</l>
+          <l n="122" part="I" xml:id="l122">Mais voici votre tante.</l>
+        </sp>
+      </div>
+      <div n="5" type="scene" xml:id="I05">
+        <head>SCENE V.</head>
+        <stage>LÉONOR, LA TANTE, LISETTE, MARIN.</stage>
+        <sp who="marin" xml:id="I05-1">
+          <speaker>MARIN.</speaker>
+          <l part="F">Eh ! madame, bonjour.</l>
+        </sp>
+        <sp who="tante" xml:id="I05-2">
+          <speaker>LA TANTE.</speaker>
+          <l n="123" xml:id="l123">Qu'ai-je appris, cher Marin ? Quel accident terrible !</l>
+          <l n="124" xml:id="l124">Damon revient aveugle ? O ciel ! est-il possible ?</l>
+        </sp>
+        <sp who="marin" xml:id="I05-3">
+          <speaker>MARIN.</speaker>
+          <l n="125" part="I" xml:id="l125">Madame, il est trop vrai.</l>
+        </sp>
+        <sp who="tante" xml:id="I05-4">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">Que je le plains ! hélas !</l>
+          <l n="126" xml:id="l126">Quoiqu’il n’ait pas rendu justice à mes appas,</l>
+          <l n="127" xml:id="l127">Et qu’il ait négligé la tante pour la nièce,</l>
+          <l n="128" xml:id="l128">J'avouerai que toujours pour lui je m’intéresse.</l>
+        </sp>
+        <sp who="leonor" xml:id="I05-5">
+          <speaker>LÉONOR.</speaker>
+          <l n="129" xml:id="l129">Vous le plaignez, ma tante ? Ah ! ne plaignez que moi</l>
+          <l n="130" part="I" xml:id="l130">Je me vois dans l’état le plus cruel...</l>
+        </sp>
+        <sp who="tante" xml:id="I05-6">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">Pourquoi ?</l>
+        </sp>
+        <sp who="leonor" xml:id="I05-7">
+          <speaker>LÉONOR.</speaker>
+          <l n="131" xml:id="l131">Epouser un aveugle ! Ah ! cette seule idée</l>
+          <l n="132" part="I" xml:id="l132">Me fait frémir d’horreur.</l>
+        </sp>
+        <sp who="tante" xml:id="I05-8">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">J'en suis persuadée :</l>
+          <l n="133" xml:id="l133">Cependant aujourd’hui la disette d’amans</l>
+          <l n="134" xml:id="l134">Est si grande, si grande... il faut suivre le temps.</l>
+        </sp>
+        <sp who="marin" xml:id="I05-9">
+          <speaker>MARIN.</speaker>
+          <l n="135" part="I" xml:id="l135">Oui, l’espèce est si rare.</l>
+        </sp>
+        <sp who="tante" xml:id="I05-10">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">On est belles, bien faites,</l>
+          <l n="136" xml:id="l136">Et l’on passe ses jours sans ouïr de fleurettes.</l>
+        </sp>
+        <sp who="lisette" xml:id="I05-11">
+          <speaker>LISETTE.</speaker>
+          <l n="137" xml:id="l137">Nous ne nous sentons point de la disette ici,</l>
+          <l n="138" xml:id="l138">Et nous ne manquons point d’épouseurs, Dieu merci ;</l>
+          <l n="139" xml:id="l139">Car, de quelque façon que l’on puisse le prendre,</l>
+          <l n="140" xml:id="l140">II nous en restera toujours deux à revendre.</l>
+          <l n="141" part="I" xml:id="l141">Fournissez-vous chez nous.</l>
+        </sp>
+        <sp who="leonor" xml:id="I05-12">
+          <speaker>LÉONOR.</speaker>
+          <l part="F">Mon Dieu, ne raillons pas,</l>
+          <l n="142" xml:id="l142">Et songeons bien plutôt à sortir d’embarras.</l>
+        </sp>
+        <sp who="lisette" xml:id="I05-13">
+          <speaker>LISETTE.</speaker>
+          <l n="143" xml:id="l143">Attendez, il me vient une idée admirable :</l>
+          <l n="144" xml:id="l144">Si nous pouvions trouver quelque personne aimable</l>
+          <l n="145" xml:id="l145">Qui près de notre aveugle osât passer pour vous.</l>
+        </sp>
+        <sp who="leonor" xml:id="I05-14">
+          <speaker>LÉONOR.</speaker>
+          <l n="146" part="I" xml:id="l146">Plaisante invention !</l>
+        </sp>
+        <sp who="lisette" xml:id="I05-15">
+          <speaker>LISETTE.</speaker>
+          <l part="F">Pourquoi ? que savez-vous ?</l>
+          <l n="147" xml:id="l147">Un aveugle à tromper n’est pas si difficile ;</l>
+          <l n="148" xml:id="l148">Et s’il se rencontroit une personne habile</l>
+          <l n="149" xml:id="l149">Qui pût bien imiter le son de votre voix.</l>
+        </sp>
+        <sp who="leonor" xml:id="I05-16">
+          <speaker>LÉONOR.</speaker>
+          <l n="150" xml:id="l150">Où la trouver ? Dis-nous ; et de qui faire choix ?</l>
+        </sp>
+        <sp who="marin" xml:id="I05-17">
+          <speaker>MARIN.</speaker>
+          <l n="151" xml:id="l151">Cela se trouvera ; quelque mince grisette</l>
+          <l n="152" xml:id="l152">Qui pour se marier... Par exemple, Lisette.</l>
+        </sp>
+        <sp who="lisette" xml:id="I05-18">
+          <speaker>LISETTE.</speaker>
+          <l n="153" part="I" xml:id="l153">Qui, moi ? je ne veux point d’un aveugle.</l>
+        </sp>
+        <sp who="marin" xml:id="I05-19">
+          <speaker>MARIN.</speaker>
+          <l part="F">Comment !</l>
+          <l n="154" xml:id="l154">Pourrois-tu là-dessus balancer un moment ?</l>
+        </sp>
+        <sp who="tante" xml:id="I05-20">
+          <speaker>LA TANTE.</speaker>
+          <l n="155" xml:id="l155">Ne cherchez pas plus loin ; j’ai trouvé votre affaire,</l>
+          <l n="156" xml:id="l156">Une belle personne, et qui saura lui plaire,</l>
+          <l n="157" xml:id="l157">D'agrément et d’esprit en tout semblable à toi,</l>
+          <l n="158" xml:id="l158">Qui déguise sa voix à merveille ; et c’est moi.</l>
+        </sp>
+        <sp who="lisette" xml:id="I05-21">
+          <speaker>LISETTE.</speaker>
+          <l n="159" part="I" xml:id="l159">Fi donc, madame, fi !</l>
+        </sp>
+        <sp who="tante" xml:id="I05-22">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">Pourquoi donc, je vous prie ?</l>
+          <l n="160" xml:id="l160">Qui vous fait récrier de la sorte, ma mie ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I05-23">
+          <speaker>LISETTE.</speaker>
+          <l n="161" part="I" xml:id="l161">Par ma foi, c’est votre âge.</l>
+        </sp>
+        <sp who="tante" xml:id="I05-24">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">Eh ! n’ayez point de peur :</l>
+          <l n="162" xml:id="l162">De ma nièce toujours j’ai passé pour la sœur ;</l>
+          <l n="163" xml:id="l163">Et de mon âge au sien le peu de différence</l>
+          <l n="164" part="I" xml:id="l164">Ne vaut pas après tout...</l>
+        </sp>
+        <sp who="marin" xml:id="I05-25">
+          <speaker>MARIN.</speaker>
+          <l part="F">Bon ! belle conséquence !</l>
+          <l n="165" part="I" xml:id="l165">Quarante-cinq à quinze.</l>
+        </sp>
+        <sp who="tante" xml:id="I05-26">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">Enfin, quoi qu’il en soit,</l>
+          <l n="166" xml:id="l166">Je jouerai bien mon rôle et mieux que l’on ne croit.</l>
+        </sp>
+        <sp who="marin" xml:id="I05-27">
+          <speaker>MARIN.</speaker>
+          <l n="167" xml:id="l167">Moi d’ailleurs je peindrai Léonor si changée,</l>
+          <l n="168" xml:id="l168">Et de telle façon sa beauté dérangée,</l>
+          <l n="169" xml:id="l169">Que quand quelqu’un voudroit l’éclaircir sur ce point,</l>
+          <l n="170" xml:id="l170">Ce qu’on pourroit lui dire il ne le croiroit point.</l>
+        </sp>
+        <sp who="leonor" xml:id="I05-28">
+          <speaker>LEONOR.</speaker>
+          <l n="171" part="I" xml:id="l171">Ma tante, je crains bien...</l>
+        </sp>
+        <sp who="tante" xml:id="I05-29">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">Ne te mets point en peine :</l>
+          <l n="172" xml:id="l172">Je suis ta belle-mère et même ta marraine,</l>
+          <l n="173" xml:id="l173">Nous portons même nom de fille et de maris,</l>
+          <l n="174" xml:id="l174">Je suis veuve du père, et toi veuve du fils ;</l>
+          <l n="175" xml:id="l175">Pour ton air enfantin je l’attrape à merveille.</l>
+        </sp>
+        <sp who="lisette" xml:id="I05-30">
+          <speaker>LISETTE.</speaker>
+          <l n="176" xml:id="l176">Songez bien qu’un aveugle a souvent bonne oreille,</l>
+          <l n="177" xml:id="l177">Et que quand à l’abord il donneroit dedans,</l>
+          <l n="178" part="I" xml:id="l178">Il pourroit dans la suite...</l>
+        </sp>
+        <sp who="tante" xml:id="I05-31">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">Et c’est où je l’attends :</l>
+          <l n="179" xml:id="l179">Quand il reconnoîtra cette aimable imposture,</l>
+          <l n="180" xml:id="l180">Il sera trop content de m’avoir, j’en suis sûre.</l>
+        </sp>
+        <sp who="marin" xml:id="I05-32">
+          <speaker>MARIN.</speaker>
+          <l n="181" part="I" xml:id="l181">Le moyen d’en douter !</l>
+        </sp>
+        <sp who="leonor" xml:id="I05-33">
+          <speaker>LÉONOR.</speaker>
+          <l part="F">Avant tout, cher Marin,</l>
+          <l n="182" xml:id="l182">Je voudrois que Léandre apprît notre dessein :</l>
+          <l n="183" part="I" xml:id="l183">Il loge chez Damis.</l>
+        </sp>
+        <sp who="marin" xml:id="I05-34">
+          <speaker>MARIN.</speaker>
+          <l part="F">J'y vais, c’est ici proche.</l>
+          <stage>(à part.)</stage>
+          <l n="184" xml:id="l184">Bon ! autre argent qui va pleuvoir dans notre poche.</l>
+        </sp>
+        <sp who="leonor" xml:id="I05-35">
+          <speaker>LÉONOR.</speaker>
+          <l n="185" xml:id="l185">De son oncle d’abord apprends-lui le retour ;</l>
+          <l n="186" xml:id="l186">Qu'il ne paroisse point ici de tout le jour,</l>
+          <l n="187" xml:id="l187">Ou du moins, s’il y vient, qu’il songe à se contraindre.</l>
+        </sp>
+        <sp who="marin" xml:id="I05-36">
+          <speaker>MARIN.</speaker>
+          <l n="188" xml:id="l188">Je dirai ce qu’il faut, vous n’avez rien à craindre ;</l>
+          <stage>(à part.)</stage>
+          <l n="189" xml:id="l189">Reposez-vous sur moi. La fourbe a réussi :</l>
+          <l n="190" xml:id="l190">Allons vîte avertir Damon de tout ceci.</l>
+        </sp>
+      </div>
+      <div n="6" type="scene" xml:id="I06">
+        <head>SCENE VI.</head>
+        <stage>LÉONOR, LA TANTE, LISETTE.</stage>
+        <sp who="lisette" xml:id="I06-1">
+          <speaker>LISETTE.</speaker>
+          <l n="191" part="I" xml:id="l191">Ah ! j’entends Lempesé.</l>
+        </sp>
+        <sp who="tante" xml:id="I06-2">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">L'incommode visite !</l>
+          <l n="192" xml:id="l192">Je ne le puis souffrir, défais-t’en au plus vîte</l>
+          <l n="193" xml:id="l193">Je passe cependant dans ton appartement</l>
+          <l n="194" xml:id="l194">Où je veux réfléchir sur mon rôle un moment.</l>
+        </sp>
+      </div>
+      <div n="7" type="scene" xml:id="I07">
+        <head>SCENE VII.</head>
+        <stage>LÉONOR, LEMPESÉ, LISETTE.</stage>
+        <sp who="leonor" xml:id="I07-1">
+          <speaker>LÉONOR, <hi rend="i">à Lisette</hi>.</speaker>
+          <l n="195" part="I" xml:id="l195">Qu'il vient mal à propos !</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-2">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">Bonjour, beauté brillante,</l>
+          <l n="196" xml:id="l196">Toujours plus gracieuse, et toujours plus charmante</l>
+          <l n="197" xml:id="l197">Que tout ce que mes yeux ont vu de plus charmant.</l>
+        </sp>
+        <sp who="lisette" xml:id="I07-3">
+          <speaker>LISETTE.</speaker>
+          <l n="198" xml:id="l198">Ah ! pour une autre fois gardez ce compliment ;</l>
+          <l n="199" part="I" xml:id="l199">Nous avons du chagrin.</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-4">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">Pardon, ma belle reine,</l>
+          <l n="200" xml:id="l200">Si mon retardement a causé votre peine.</l>
+          <l n="201" xml:id="l201">Mes gens m’ont désolé, j’ai cru n’être jamais</l>
+          <l n="202" xml:id="l202">En état de venir adorer vos attraits ;</l>
+          <l n="203" xml:id="l203">J'ai si fort querellé que j’en serai malade :</l>
+          <l n="204" xml:id="l204">Ils m’avoient égaré mes eaux et ma pommade.</l>
+          <l n="205" xml:id="l205">Mais quoi ! vous soupirez ; parlez, expliquez-vous ;</l>
+          <l n="206" xml:id="l206">Sont-ce soupirs d’amour, de crainte, ou de courroux ?</l>
+        </sp>
+        <sp who="leonor" xml:id="I07-5">
+          <speaker>LÉONOR.</speaker>
+          <l n="207" xml:id="l207">Ils sont de désespoir, désespoir qui me tue,</l>
+          <l n="208" xml:id="l208">Enfin c’est de Damon l’arrivée imprévue.</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-6">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="209" xml:id="l209">Damon ! quoi ce rival que mon amour vainqueur</l>
+          <l n="210" xml:id="l210">A depuis son départ banni de votre cœur ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I07-7">
+          <speaker>LISETTE.</speaker>
+          <l n="211" xml:id="l211">Lui-même ; à l’épouser il voudra la contraindre ;</l>
+          <l n="212" part="I" xml:id="l212">Ils ont un bon dédit.</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-8">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">Elle n’a rien à craindre ;</l>
+          <l n="213" part="I" xml:id="l213">Je le paierai, Lisette, et dussé-je...</l>
+        </sp>
+        <sp who="lisette" xml:id="I07-9">
+          <speaker>LISETTE.</speaker>
+          <l part="F">Non pas,</l>
+          <l n="214" xml:id="l214">Nous voulons sans payer la tirer d’embarras ;</l>
+          <l n="215" xml:id="l215">Et si par un détour de chicane subtile...</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-10">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="216" xml:id="l216">Eh bien ! cela n’est pas, je crois, si difficile.</l>
+        </sp>
+        <sp who="lisette" xml:id="I07-11">
+          <speaker>LISETTE.</speaker>
+          <l n="217" part="I" xml:id="l217">Pas trop, puisque Damon est aveugle.</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-12">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">Comment ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I07-13">
+          <speaker>LISETTE.</speaker>
+          <l n="218" xml:id="l218">Un boulet de canon, fort impertinemment</l>
+          <l n="219" xml:id="l219">Passant près de ses yeux, a frôlé la prunelle,</l>
+          <l n="220" xml:id="l220">Et le vent... détruisant... la force visuelle...</l>
+          <l n="221" xml:id="l221">Il est aveugle enfin, voilà quel est son sort.</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-14">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="222" xml:id="l222">Oh ! coup de vent heureux, qui me conduit au port !</l>
+        </sp>
+        <sp who="leonor" xml:id="I07-15">
+          <speaker>LÉONOR.</speaker>
+          <l n="223" part="I" xml:id="l223">Comment ! vous vous flattez de ce malheur ? ...</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-16">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">Sans doute :</l>
+          <l n="224" xml:id="l224">Je lui fais un procès sur ce qu’il ne voit goutte.</l>
+          <l n="225" xml:id="l225">J'ai, comme vous savez, mon frère l’avocat</l>
+          <l n="226" xml:id="l226">Qui brille au parlement avec assez d’éclat.</l>
+          <l n="227" xml:id="l227">Sans perdre plus de temps, dès demain il le somme</l>
+          <l n="228" xml:id="l228">A nous représenter dans la huitaine un homme</l>
+          <l n="229" xml:id="l229">Muni de ses cinq sens, qui de corps et d’esprit</l>
+          <l n="230" xml:id="l230">Soit tel qu’il s’est fait voir en signant le dédit.</l>
+        </sp>
+        <sp who="lisette" xml:id="I07-17">
+          <speaker>LISETTE.</speaker>
+          <l n="231" xml:id="l231">C'est là le prendre bien. Mais je l’entends lui-même.</l>
+        </sp>
+        <sp who="leonor" xml:id="I07-18">
+          <speaker>LÉONOR.</speaker>
+          <l n="232" xml:id="l232">Ah ! Lisette, je suis dans un désordre extrême,</l>
+          <l n="233" part="I" xml:id="l233">Je n’ose soutenir...</l>
+        </sp>
+        <sp who="lisette" xml:id="I07-19">
+          <speaker>LISETTE.</speaker>
+          <l part="F">Je vais le recevoir,</l>
+          <l n="234" xml:id="l234">Rentrez ; et vous, monsieur, adieu, jusqu’au revoir.</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-20">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="235" xml:id="l235">Ne pouvant être vu, je puis rester, Lisette.</l>
+        </sp>
+        <sp who="lisette" xml:id="I07-21">
+          <speaker>LISETTE, <hi rend="i">le repoussant.</hi></speaker>
+          <l n="236" part="I" xml:id="l236">Vous vous moquez de moi.</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-22">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">Que rien ne t’inquiète.</l>
+        </sp>
+        <sp who="lisette" xml:id="I07-23">
+          <speaker>LISETTE.</speaker>
+          <l n="237" part="I" xml:id="l237">Ma foi, vous sortirez.</l>
+        </sp>
+        <sp who="lempese" xml:id="I07-24">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">Non, je suis curieux</l>
+          <l n="238" xml:id="l238">De voir comme s’exprime un aveugle amoureux.</l>
+        </sp>
+        <sp who="lisette" xml:id="I07-25">
+          <speaker>LISETTE.</speaker>
+          <l n="239" part="I" xml:id="l239">J'enrage !</l>
+        </sp>
+      </div>
+      <div n="8" type="scene" xml:id="I08">
+        <head>SCENE VIII.</head>
+        <stage>DAMON, LEMPESÉ, LISETTE.</stage>
+        <sp who="damon" xml:id="I08-1">
+          <speaker>DAMON, <hi rend="i">contrefaisant l’aveugle.</hi></speaker>
+          <l part="F">Holà ! Quelqu’un, Marin... tout m’abandonne,</l>
+          <l n="240" xml:id="l240">Et dans cette maison je ne trouve personne.</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-2">
+          <speaker>LISETTE.</speaker>
+          <l n="241" part="I" xml:id="l241">Monsieur, on vient à vous.</l>
+        </sp>
+        <sp who="damon" xml:id="I08-3">
+          <speaker>DAMON.</speaker>
+          <l part="F">C'est Léonor, je crois ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-4">
+          <speaker>LISETTE.</speaker>
+          <l n="242" part="I" xml:id="l242">Non, monsieur, c’est Lisette.</l>
+        </sp>
+        <sp who="damon" xml:id="I08-5">
+          <speaker>DAMON.</speaker>
+          <l part="F">Eh bien ! tu me revois ;</l>
+          <l n="243" xml:id="l243">Mais je ne puis avoir un pareil avantage.</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-6">
+          <speaker>LISETTE.</speaker>
+          <l n="244" xml:id="l244">Vos yeux sont toujours beaux, hélas ! c’est grand dommage !</l>
+        </sp>
+        <sp who="damon" xml:id="I08-7">
+          <speaker>DAMON.</speaker>
+          <l n="245" part="I" xml:id="l245">Où Léonor est-elle ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-8">
+          <speaker>LISETTE.</speaker>
+          <l part="F">En son appartement.</l>
+          <l n="246" xml:id="l246">Et je vais l’avertir dans ce même moment...</l>
+        </sp>
+        <sp who="damon" xml:id="I08-9">
+          <speaker>DAMON, <hi rend="i">allant embrasser Lempesé.</hi></speaker>
+          <l n="247" xml:id="l247">Du moins auparavant il faut que je t’embrasse…</l>
+          <l n="248" xml:id="l248">Qu'est-ce ci ? c’est un homme. Eh quoi ! dans ma disgrace</l>
+          <l n="249" xml:id="l249">Léonor pourroit-elle, en bravant mon courroux,</l>
+          <l n="250" part="I" xml:id="l250">Introduire céans...</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-10">
+          <speaker>LISETTE.</speaker>
+          <l part="F">Eh ! là, monsieur, tout doux,</l>
+          <l n="251" part="I" xml:id="l251">Ce n’est qu’un domestique.</l>
+        </sp>
+        <sp who="damon" xml:id="I08-11">
+          <speaker>DAMON.</speaker>
+          <l part="F">Ah ! c’est une autre affaire.</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-12">
+          <speaker>LISETTE.</speaker>
+          <l n="252" xml:id="l252">Madame du premier a voulu se défaire ;</l>
+          <l n="253" xml:id="l253">C'étoit un paresseux qui n’avoit aucun soin.</l>
+          <l n="254" part="I" xml:id="l254">Passez dans l’antichambre.</l>
+        </sp>
+        <sp who="damon" xml:id="I08-13">
+          <speaker>DAMON.</speaker>
+          <l part="F">Eh ! non, j’en ai besoin.</l>
+          <l n="255" xml:id="l255">Un fauteuil. Je me sens les jambes si serrées...</l>
+          <l n="256" xml:id="l256">Hé ! l’ami, tire-moi mes bottines fourrées.</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-14">
+          <speaker>LISETTE.</speaker>
+          <l n="257" part="I" xml:id="l257">Allons, dépêchez-vous.</l>
+        </sp>
+        <sp who="lempese" xml:id="I08-15">
+          <speaker>LEMPESÉ, <hi rend="i">bas, à Lisette.</hi></speaker>
+          <l part="F">Qui ? moi, le débotter ?</l>
+          <l n="258" part="I" xml:id="l258">Non parbleu ! je m’en vais.</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-16">
+          <speaker>LISETTE, <hi rend="i">bas, à Lempesé, le retenant.</hi></speaker>
+          <l part="F">Ce seroit tout gâter.</l>
+          <l n="259" part="I" xml:id="l259">Que pourroit-il penser ?</l>
+        </sp>
+        <sp who="lempese" xml:id="I08-17">
+          <speaker>LEMPESÉ, <hi rend="i">bas, à Lisette.</hi></speaker>
+          <l part="F">Oui, mais par où m’y prendre ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-18">
+          <speaker>LISETTE, <hi rend="i">bas, à Lempesé.</hi></speaker>
+          <l n="260" xml:id="l260">Vous méritez cela, pourquoi vouloir attendre...</l>
+        </sp>
+        <sp who="damon" xml:id="I08-19">
+          <speaker>DAMON.</speaker>
+          <l n="261" xml:id="l261">Eh bien ! faquin, à quoi peux-tu donc t’amuser ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-20">
+          <speaker>LISETTE.</speaker>
+          <l n="262" xml:id="l262">II est novice encore, il le faut excuser.</l>
+        </sp>
+        <sp who="damon" xml:id="I08-21">
+          <speaker>DAMON.</speaker>
+          <l n="263" xml:id="l263">Ah ! je vous ferai bien remuer cette idole.</l>
+          <l n="264" part="I" xml:id="l264">Se dépêchera-t-on, à la fin...</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-22">
+          <speaker>LISETTE.</speaker>
+          <l part="F">Carmagnole,</l>
+          <l n="265" part="I" xml:id="l265">Debottez donc monsieur.</l>
+        </sp>
+        <sp who="lempese" xml:id="I08-23">
+          <speaker>LEMPESÉ, <hi rend="i">bas, à Lisette.</hi></speaker>
+          <l part="F">Je ne pourrai jamais.</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-24">
+          <speaker>LISETTE, <hi rend="i">lui ôtant son manteau.</hi></speaker>
+          <l n="266" part="I" xml:id="l266">Otez votre casaque.</l>
+        </sp>
+        <sp who="damon" xml:id="I08-25">
+          <speaker>DAMON, <hi rend="i">pendant que Lempesé le débotte.</hi></speaker>
+          <l part="F">Ah ! le maudit laquais.</l>
+          <l n="267" xml:id="l267">On voit bien que jamais il ne fut à la guerre.</l>
+          <l n="268" xml:id="l268">Tire à toi, fort ! plus fort ! Il est, je crois, par terre.</l>
+        </sp>
+        <sp who="lempese" xml:id="I08-26">
+          <speaker>LEMPESÉ, <hi rend="i">se relevant.</hi></speaker>
+          <l n="269" xml:id="l269">Je n’y puis résister, Lisette, absolument.</l>
+        </sp>
+        <sp who="damon" xml:id="I08-27">
+          <speaker>DAMON, <hi rend="i">présentant son autre jambe.</hi></speaker>
+          <l n="270" part="I" xml:id="l270">Allons, à l’autre.</l>
+        </sp>
+        <sp who="lempese" xml:id="I08-28">
+          <speaker>LEMPESÉ, <hi rend="i">bas, à Lisette.</hi></speaker>
+          <l part="M">Encore une autre ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I08-29">
+          <speaker>LISETTE, <hi rend="i">bas, à Lempesé.</hi></speaker>
+          <l part="F">Apparemment.</l>
+          <l n="271" xml:id="l271">II faut bien achever. Mais son valet s’avance ;</l>
+          <l n="272" xml:id="l272">Ne craignez rien, il est de notre intelligence.</l>
+        </sp>
+        <sp who="lempese" xml:id="I08-30">
+          <speaker>LEMPESÉ, <hi rend="i">à part</hi>.</speaker>
+          <l n="273" part="I" xml:id="l273">Je respire.</l>
+        </sp>
+      </div>
+      <div n="9" type="scene" xml:id="I09">
+        <head>SCENE IX.</head>
+        <stage>DAMON, LEMPESÉ, LISETTE, MARIN, chargé d’une grosse malle.</stage>
+        <sp who="marin" xml:id="I09-1">
+          <speaker>MARIN.</speaker>
+          <l part="M">Ah ! ah ! ah !</l>
+        </sp>
+        <sp who="damon" xml:id="I09-2">
+          <speaker>DAMON.</speaker>
+          <l part="F">Qui te fait rire ainsi ?</l>
+        </sp>
+        <sp who="marin" xml:id="I09-3">
+          <speaker>MARIN.</speaker>
+          <stage>(à Lisette. )</stage>
+          <l n="274" xml:id="l274">C'est, monsieur... Apprends-moi ce qui se passe ici ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I09-4">
+          <speaker>LISETTE, <hi rend="i">bas, à Marin.</hi></speaker>
+          <l n="275" part="I" xml:id="l275">Ne fais semblant de rien.</l>
+        </sp>
+        <sp who="damon" xml:id="I09-5">
+          <speaker>DAMON.</speaker>
+          <l part="F">D'où viens-tu, double traître ?</l>
+          <l n="276" xml:id="l276">Dans l’état où je suis peut-on laisser un maître,</l>
+          <l n="277" xml:id="l277">L'abandonner aux mains d’un butor, d’un lourdaud ?</l>
+        </sp>
+        <sp who="marin" xml:id="I09-6">
+          <speaker>MARIN.</speaker>
+          <l n="278" xml:id="l278">II falloit apporter votre malle ici-haut.</l>
+        </sp>
+        <sp who="damon" xml:id="I09-7">
+          <speaker>DAMON.</speaker>
+          <l n="279" part="I" xml:id="l279">Il falloit se hâter.</l>
+        </sp>
+        <sp who="marin" xml:id="I09-8">
+          <speaker>MARIN.</speaker>
+          <l part="F">La charge est trop pesante.</l>
+          <l n="280" xml:id="l280">Votre malle, monsieur, pèse deux cent cinquante :</l>
+          <l n="281" xml:id="l281">Par ma foi, quand j’aurois la force d’un mulet...</l>
+        </sp>
+        <sp who="damon" xml:id="I09-9">
+          <speaker>DAMON.</speaker>
+          <l n="282" xml:id="l282">Chargez-la sur le dos de ce maudit valet.</l>
+        </sp>
+        <sp who="lempese" xml:id="I09-10">
+          <speaker>LEMPESÉ, <hi rend="i">à part.</hi></speaker>
+          <l n="283" part="I" xml:id="l283">Encore !</l>
+        </sp>
+        <sp who="marin" xml:id="I09-11">
+          <speaker>MARIN.</speaker>
+          <l part="M">Quel valet, s’il vous plaît ?</l>
+        </sp>
+        <sp who="damon" xml:id="I09-12">
+          <speaker>DAMON.</speaker>
+          <l part="F">Carmagnole,</l>
+          <l n="284" xml:id="l284">Un benêt qui depuis une heure me désole,</l>
+          <l n="285" xml:id="l285">Dans mon appartement qu’il aille la porter :</l>
+          <l n="286" xml:id="l286">Acheve cependant, toi, de me débotter.</l>
+        </sp>
+        <sp who="marin" xml:id="I09-13">
+          <speaker>MARIN, <hi rend="i">mettant rudement la malle sur le dos de Lempesé.</hi></speaker>
+          <l n="287" part="I" xml:id="l287">Tenez donc, Carmagnole.</l>
+        </sp>
+        <sp who="lempese" xml:id="I09-14">
+          <speaker>LEMPESÉ, <hi rend="i">la laissant cheoir.</hi></speaker>
+          <l part="F">Oh ! le diable t’emporte !</l>
+          <l n="288" xml:id="l288">Je ne saurois porter un fardeau de la sorte ;</l>
+          <l n="289" xml:id="l289">Je crois que tu me prends pour un cheval de bâts.</l>
+          <l n="290" xml:id="l290">Adieu, je reviendrai quand il n’y sera pas.</l>
+          <stage>( il sort.)</stage>
+        </sp>
+        <sp who="damon" xml:id="I09-15">
+          <speaker>DAMON.</speaker>
+          <l n="291" xml:id="l291">Lisette, fais venir Léonor, je te prie ;</l>
+          <l n="292" xml:id="l292">De son retardement à la fin je m’ennuie.</l>
+        </sp>
+        <sp who="lisette" xml:id="I09-16">
+          <speaker>LISETTE.</speaker>
+          <l n="293" xml:id="l293">J'y vais, monsieur.</l>
+        </sp>
+      </div>
+      <div n="10" type="scene" xml:id="I10">
+        <head>SCENE X.</head>
+        <stage>DAMON, MARIN.</stage>
+        <sp who="damon" xml:id="I10-1">
+          <speaker>DAMON.</speaker>
+          <l n="294" xml:id="l294">Eh bien ! que t’en semble, Marin ?</l>
+          <l n="295" xml:id="l295">J'ai bien turlupiné monsieur le médecin.</l>
+          <l n="296" xml:id="l296">Léonor après tout doit être bien coquette,</l>
+          <l n="297" xml:id="l297">Si d’un pareil galant elle entend la fleurette.</l>
+        </sp>
+        <sp who="marin" xml:id="I10-2">
+          <speaker>MARIN.</speaker>
+          <l n="298" xml:id="l298">Monsieur, il ne faut pas disputer sur les goûts ;</l>
+          <l n="299" xml:id="l299">Ne vous y trompez pas : tel passe parmi nous</l>
+          <l n="300" xml:id="l300">Pour un fat, un benêt, un nigaud, une cruche,</l>
+          <l n="301" xml:id="l301">Que des femmes souvent il est la coqueluche.</l>
+        </sp>
+        <sp who="damon" xml:id="I10-3">
+          <speaker>DAMON.</speaker>
+          <l n="302" xml:id="l302">Passe encor pour Léandre, il a quelque agrément.</l>
+          <l n="303" part="I" xml:id="l303">II est donc à Paris malgré tout ?</l>
+        </sp>
+        <sp who="marin" xml:id="I10-4">
+          <speaker>MARIN.</speaker>
+          <l part="F">Oui, vraiment.</l>
+          <l n="304" xml:id="l304">Je viens de lui parler, vous dis-je, à l’heure même.</l>
+        </sp>
+        <sp who="damon" xml:id="I10-5">
+          <speaker>DAMON.</speaker>
+          <l n="305" xml:id="l305">Et tu ne doutes point que Léonor ne l’aime ?</l>
+        </sp>
+        <sp who="marin" xml:id="I10-6">
+          <speaker>MARIN.</speaker>
+          <l n="306" part="I" xml:id="l306">Le moyen d’en douter !</l>
+        </sp>
+        <sp who="damon" xml:id="I10-7">
+          <speaker>DAMON.</speaker>
+          <l part="F">II est instruit du tour</l>
+          <l n="307" xml:id="l307">Que la Tante prétend jouer à mon amour ?</l>
+        </sp>
+        <sp who="marin" xml:id="I10-8">
+          <speaker>MARIN.</speaker>
+          <l n="308" part="I" xml:id="l308">Il en est informé par moi-même.</l>
+        </sp>
+        <sp who="damon" xml:id="I10-9">
+          <speaker>DAMON.</speaker>
+          <l part="M">Le traître !</l>
+          <l part="F">Avant la fin du jour je lui ferai connoître...</l>
+        </sp>
+        <sp who="marin" xml:id="I10-10">
+          <speaker>MARIN.</speaker>
+          <l n="309" xml:id="l309">Je vous croyois guéri, monsieur, absolument.</l>
+        </sp>
+        <sp who="damon" xml:id="I10-11">
+          <speaker>DAMON.</speaker>
+          <l n="310" xml:id="l310">Pas tout-à-fait encore, à parler franchement ;</l>
+          <l n="311" xml:id="l311">Et j’ai besoin de voir tous les tours qu’on m’apprête.</l>
+          <l n="312" xml:id="l312">Mais comment Léonor me croit-elle si bête,</l>
+          <l n="313" xml:id="l313">Et peut-elle me tendre un si grossier appât ?</l>
+        </sp>
+        <sp who="marin" xml:id="I10-12">
+          <speaker>MARIN.</speaker>
+          <l n="314" xml:id="l314">Elle vous croit aveugle, et vous ne l’êtes pas ;</l>
+          <l n="315" xml:id="l315">Peut-être que l’étant, vous prendriez le change.</l>
+        </sp>
+        <sp who="damon" xml:id="I10-13">
+          <speaker>DAMON.</speaker>
+          <l n="316" xml:id="l316">Il faudroit que je fusse en un état étrange,</l>
+          <l n="317" xml:id="l317">Et que j’eusse perdu tous les sens à-la-fois.</l>
+          <l n="318" xml:id="l318">Mais quelqu’un vient ici : c’est la Tante, je crois ;</l>
+          <l n="319" xml:id="l319">C'est elle-même, songe à seconder ma feinte.</l>
+        </sp>
+        <sp who="marin" xml:id="I10-14">
+          <speaker>MARIN.</speaker>
+          <l n="320" xml:id="l320">Allez, je suis au fait, n’ayez aucune crainte.</l>
+        </sp>
+      </div>
+      <div n="11" type="scene" xml:id="I11">
+        <head>SCENE XI.</head>
+        <stage>DAMON, LA TANTE, MARIN.</stage>
+        <sp who="damon" xml:id="I11-1">
+          <speaker>DAMON.</speaker>
+          <l n="321" part="I" xml:id="l321">Léonor ne vient point ?</l>
+        </sp>
+        <sp who="marin" xml:id="I11-2">
+          <speaker>MARIN.</speaker>
+          <l part="F">Eh ! monsieur, la voici.</l>
+        </sp>
+        <sp who="damon" xml:id="I11-3">
+          <speaker>DAMON, <hi rend="i">allant vers la porte.</hi></speaker>
+          <l n="322" part="I" xml:id="l322">Ah ! madame.</l>
+        </sp>
+        <sp who="marin" xml:id="I11-4">
+          <speaker>MARIN, <hi rend="i">l’arrêtant.</hi></speaker>
+          <l part="F">Attendez, ce n’est pas par ici.</l>
+          <l n="323" xml:id="l323">Où diable allez-vous donc parler à cette porte ?</l>
+        </sp>
+        <sp who="tante" xml:id="I11-5">
+          <speaker>LA TANTE, <hi rend="i">contrefaisant la voix de Léonor.</hi></speaker>
+          <l n="324" xml:id="l324">Ah ! Damon, quel chagrin de vous voir de la sorte !</l>
+        </sp>
+        <sp who="damon" xml:id="I11-6">
+          <speaker>DAMON.</speaker>
+          <l n="325" part="I" xml:id="l325">Que sa voix est changée !</l>
+        </sp>
+        <sp who="marin" xml:id="I11-7">
+          <speaker>MARIN.</speaker>
+          <l part="F">On vous le disoit bien ;</l>
+          <l n="326" xml:id="l326">Mais auprès de ses traits, monsieur, cela n’est rien.</l>
+        </sp>
+        <sp who="damon" xml:id="I11-8">
+          <speaker>DAMON.</speaker>
+          <l n="327" xml:id="l327">N'importe, elle a toujours pour moi les mêmes charmes.</l>
+        </sp>
+        <sp who="tante" xml:id="I11-9">
+          <speaker>LA TANTE.</speaker>
+          <l n="328" xml:id="l328">Ciel ! que votre accident m’a fait verser de larmes !</l>
+          <l n="329" part="I" xml:id="l329">Si vous saviez mon cher.</l>
+        </sp>
+        <sp who="damon" xml:id="I11-10">
+          <speaker>DAMON.</speaker>
+          <l part="F">Ah ! je n’en doute pas.</l>
+        </sp>
+        <sp who="tante" xml:id="I11-11">
+          <speaker>LA TANTE.</speaker>
+          <l n="330" xml:id="l330">Je ne saurois parler, et mes soupirs... Hélas !</l>
+          <l n="331" xml:id="l331">Je ne sais pas comment je suis encore en vie.</l>
+        </sp>
+        <sp who="damon" xml:id="I11-12">
+          <speaker>DAMON.</speaker>
+          <l n="332" xml:id="l332">Ne vous affligez point, Léonor, je vous prie ;</l>
+          <l n="333" xml:id="l333">Vous me percez le cœur ; songez que vos attraits</l>
+          <l n="334" xml:id="l334">Pourroient par tant de pleurs se perdre pour jamais.</l>
+        </sp>
+        <sp who="marin" xml:id="I11-13">
+          <speaker>MARIN.</speaker>
+          <l n="335" xml:id="l335">Elle en a déjà bien perdu ; L'état funeste...</l>
+        </sp>
+        <sp who="damon" xml:id="I11-14">
+          <speaker>DAMON.</speaker>
+          <l n="336" xml:id="l336">Pour un aveugle, hélas ! c’est trop que ce qui reste.</l>
+          <l n="337" xml:id="l337">Après tout, ces attraits que tu dis si changés,</l>
+          <l n="338" xml:id="l338">J'aurois plaisir peut-être à les voir dérangés :</l>
+          <l n="339" xml:id="l339">Une beauté bizarre a souvent l’art de plaire</l>
+          <l n="340" xml:id="l340">Bien plus que ne feroit une plus régulière.</l>
+        </sp>
+        <sp who="marin" xml:id="I11-15">
+          <speaker>MARIN.</speaker>
+          <l n="341" xml:id="l341">Vous devez donc, monsieur, ne vous chagriner point ;</l>
+          <l n="342" xml:id="l342">La beauté de madame est bizarre à tel point…</l>
+        </sp>
+        <sp who="tante" xml:id="I11-16">
+          <speaker>LA TANTE.</speaker>
+          <l n="343" xml:id="l343">Enfin de ma beauté quoi que vous puissiez croire,</l>
+          <l n="344" xml:id="l344">Sur bien d’autres on peut me donner la victoire ;</l>
+          <l n="345" xml:id="l345">Pour mon esprit, il est augmenté des trois quarts ;</l>
+          <l n="346" xml:id="l346">On m’en fait compliment aussi de toutes parts.</l>
+        </sp>
+        <sp who="damon" xml:id="I11-17">
+          <speaker>DAMON.</speaker>
+          <l n="347" xml:id="l347">Ah ! madame, on sait trop que c’est une merveille.</l>
+        </sp>
+        <sp who="tante" xml:id="I11-18">
+          <speaker>LA TANTE.</speaker>
+          <l n="348" xml:id="l348">De mille doux propos remplissant votre oreille,</l>
+          <l n="349" xml:id="l349">Je vous consolerai d’avoir perdu les yeux ;</l>
+          <l n="350" xml:id="l350">Je veux être avec vous en tous temps, en tous lieux.</l>
+        </sp>
+        <sp who="damon" xml:id="I11-19">
+          <speaker>DAMON.</speaker>
+          <l n="351" xml:id="l351">Que j’aurai de plaisir ! Hâtez, donc cette affaire,</l>
+          <l n="352" xml:id="l352">Et courez promptement chez le premier notaire ;</l>
+          <l n="353" xml:id="l353">Mettez dans le contrat tout ce qu’il vous plaira,</l>
+          <l n="354" xml:id="l354">Laissez mon nom en blanc qu’ici l’on remplira ;</l>
+          <l n="355" xml:id="l355">J'ai mes raisons qui sont de peu de conséquence :</l>
+          <l n="356" xml:id="l356">Pour vous, signez toujours, et faites diligence.</l>
+        </sp>
+        <sp who="tante" xml:id="I11-20">
+          <speaker>LA TANTE.</speaker>
+          <l n="357" xml:id="l357">J'y vais, et dans l’instant je serai de retour.</l>
+        </sp>
+        <sp who="marin" xml:id="I11-21">
+          <speaker>MARIN, <hi rend="i">bas, à la Tante.</hi></speaker>
+          <l n="358" xml:id="l358">Prenez quelque notaire éloigné du carfour,</l>
+          <l n="359" xml:id="l359">Et qui ne puisse ici reconnoître personne.</l>
+        </sp>
+        <sp who="tante" xml:id="I11-22">
+          <speaker>LA TANTE, <hi rend="i">bas, à Marin.</hi></speaker>
+          <l n="360" xml:id="l360">C'est fort bien avisé, la prévoyance est bonne.</l>
+          <l n="361" xml:id="l361">Lorsque j’aurai signé, j’enverrai le contrat,</l>
+          <l n="362" xml:id="l362">Et ne paroîtrai point de peur de quelque éclat ;</l>
+          <l n="363" xml:id="l363">Il pourroit survenir des amis de ton maître,</l>
+          <l n="364" xml:id="l364">Qui, me reconnoissant, gâteroient tout peut-être.</l>
+        </sp>
+        <sp who="damon" xml:id="I11-23">
+          <speaker>DAMON.</speaker>
+          <l n="365" xml:id="l365">Vous n’êtes point partie ? ah ! ce retardement</l>
+          <l n="366" xml:id="l366">A mon cœur amoureux est un nouveau tourment ;</l>
+          <l n="367" xml:id="l367">Répondez, Léonor, à mon ardeur extrême.</l>
+        </sp>
+        <sp who="tante" xml:id="I11-24">
+          <speaker>LA TANTE.</speaker>
+          <l n="368" xml:id="l368">J'y vais, j’y cours, j’y vole, et je reviens de même.</l>
+        </sp>
+      </div>
+      <div n="12" type="scene" xml:id="I12">
+        <head>SCENE XII.</head>
+        <stage>DAMON, MARIN.</stage>
+        <sp who="marin" xml:id="I12-1">
+          <speaker>MARIN.</speaker>
+          <l n="369" part="I" xml:id="l369">Maugrebleu de la folle !</l>
+        </sp>
+        <sp who="damon" xml:id="I12-2">
+          <speaker>DAMON.</speaker>
+          <l part="F">Allons, ce n’est pas tout,</l>
+          <l n="370" xml:id="l370">Et je prétends pousser la chose jusqu’au bout.</l>
+          <l n="371" part="I" xml:id="l371">Je veux que Lempesé…</l>
+        </sp>
+        <sp who="marin" xml:id="I12-3">
+          <speaker>MARIN.</speaker>
+          <l part="F">Paix, j’aperçois Léandre ;</l>
+          <l n="372" xml:id="l372">Votre dessein étoit de venir le surprendre,</l>
+          <l n="373" part="I" xml:id="l373">Le voilà tout surpris.</l>
+        </sp>
+        <sp who="damon" xml:id="I12-4">
+          <speaker>DAMON.</speaker>
+          <l part="F">Il n’est pas temps encor,</l>
+          <l n="374" xml:id="l374">Et je veux le surprendre avecque Léonor.</l>
+          <l n="375" xml:id="l375">Je passe dans ma chambre, et je vous laisse ensemble.</l>
+        </sp>
+      </div>
+      <div n="13" type="scene" xml:id="I13">
+        <head>SCENE XIII.</head>
+        <stage>LEANDRE, MARIN, </stage>
+        <stage>après avoir conduit Damon jusqu’à la porte de son appartement.</stage>
+        <sp who="leandre" xml:id="I13-1">
+          <speaker>LÉANDRE.</speaker>
+          <l n="376" part="I" xml:id="l376">Eh bien ! mon cher Marin.</l>
+        </sp>
+        <sp who="marin" xml:id="I13-2">
+          <speaker>MARIN.</speaker>
+          <l part="M">Avancez-vous.</l>
+        </sp>
+        <sp who="leandre" xml:id="I13-3">
+          <speaker>LÉANDRE.</speaker>
+          <l part="F">Je tremble.</l>
+          <l n="377" part="I" xml:id="l377">Comment cela va-t-il ?</l>
+        </sp>
+        <sp who="marin" xml:id="I13-4">
+          <speaker>MARIN.</speaker>
+          <l part="F">Tout va bien, Dieu merci !</l>
+          <l n="378" xml:id="l378">Et comme on l’espéroit la chose a réussi.</l>
+          <l n="379" part="I" xml:id="l379">Votre oncle a pris le change.</l>
+        </sp>
+        <sp who="leandre" xml:id="I13-5">
+          <speaker>LÉANDRE.</speaker>
+          <l part="F">Il épouse la Tante ?</l>
+        </sp>
+        <sp who="marin" xml:id="I13-6">
+          <speaker>MARIN.</speaker>
+          <l n="380" xml:id="l380">Elle est chez le notaire à remplir notre attente.</l>
+          <l n="381" xml:id="l381">Mais voici Léonor qui peut vous assurer...</l>
+        </sp>
+      </div>
+      <div n="14" type="scene" xml:id="I14">
+        <head>SCENE XIV.</head>
+        <stage>LEONOR, LEANDRE, MARIN, LISETTE.</stage>
+        <sp who="leandre" xml:id="I14-1">
+          <speaker>LÉANDRE.</speaker>
+          <l n="382" xml:id="l382">Eh bien ! madame, enfin on peut donc espérer...</l>
+        </sp>
+        <sp who="leonor" xml:id="I14-2">
+          <speaker>LÉONOR.</speaker>
+          <l n="383" part="I" xml:id="l383">Selon ce qu’aura fait ma Tante.</l>
+        </sp>
+        <sp who="marin" xml:id="I14-3">
+          <speaker>MARIN.</speaker>
+          <l part="F">Des merveilles :</l>
+          <l n="384" xml:id="l384">Elle a de notre aveugle enchanté les oreilles ;</l>
+          <l n="385" xml:id="l385">Il attend le contrat qu’il s’apprête à signer.</l>
+        </sp>
+        <sp who="leonor" xml:id="I14-4">
+          <speaker>LÉONOR.</speaker>
+          <l n="386" xml:id="l386">Je ne sais pas comment cela pourra tourner ;</l>
+          <l n="387" xml:id="l387">Mais quoi que l’on oppose à mon amour extrême,</l>
+          <l n="388" xml:id="l388">Soyez sûr que toujours vous me verrez la même.</l>
+        </sp>
+        <sp who="leandre" xml:id="I14-5">
+          <speaker>LÉANDRE.</speaker>
+          <l n="389" xml:id="l389">Ah ! quel espoir charmant ! souffrez qu’à vos genoux...</l>
+        </sp>
+        <sp who="marin" xml:id="I14-6">
+          <speaker>MARIN.</speaker>
+          <l n="390" xml:id="l390">Chut ! Ne remuez pas, l’aveugle vient à nous.</l>
+        </sp>
+      </div>
+      <div n="15" type="scene" xml:id="I15">
+        <head>SCENE XV.</head>
+        <stage>DAMON, LEONOR, LEANDRE, LISETTE, MARIN.</stage>
+        <sp who="damon" xml:id="I15-1">
+          <speaker>DAMON.</speaker>
+          <l n="391" xml:id="l391">Charmante Léonor, votre voix adorable</l>
+          <l n="392" part="I" xml:id="l392">Frappe encor mon oreille.</l>
+        </sp>
+        <sp who="lisette" xml:id="I15-2">
+          <speaker>LISETTE.</speaker>
+          <l part="F">Ah ! voilà bien le diable.</l>
+        </sp>
+        <sp who="damon" xml:id="I15-3">
+          <speaker>DAMON.</speaker>
+          <l n="393" xml:id="l393">Vous n’êtes point partie encore, et votre amour…</l>
+        </sp>
+        <sp who="marin" xml:id="I15-4">
+          <speaker>MARIN.</speaker>
+          <l n="394" xml:id="l394">Pardonnez-moi, monsieur, c’est qu’elle est de retour.</l>
+        </sp>
+        <sp who="damon" xml:id="I15-5">
+          <speaker>DAMON.</speaker>
+          <l n="395" part="I" xml:id="l395">Eh bien ! qu’avez-vous fait ?</l>
+        </sp>
+        <sp who="marin" xml:id="I15-6">
+          <speaker>MARIN.</speaker>
+          <l part="F">Le notaire est en ville.</l>
+        </sp>
+        <sp who="damon" xml:id="I15-7">
+          <speaker>DAMON.</speaker>
+          <l n="396" xml:id="l396">Il faut en prendre un autre, est-il si difficile ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I15-8">
+          <speaker>LISETTE.</speaker>
+          <l n="397" part="I" xml:id="l397">Elle y va retourner.</l>
+        </sp>
+        <sp who="damon" xml:id="I15-9">
+          <speaker>DAMON.</speaker>
+          <l part="F">Qu'elle reste un moment ;</l>
+          <l n="398" xml:id="l398">Je serai bien payé de ce retardement</l>
+          <l n="399" xml:id="l399">Par les douceurs qui vont sortir de cette bouche.</l>
+          <l n="400" xml:id="l400">Redites donc cent fois que mon amour vous touche ;</l>
+          <l n="401" xml:id="l401">Redoublez, Léonor, ces soupirs amoureux</l>
+          <l n="402" xml:id="l402">Qui viennent de me mettre au comble de mes voeux.</l>
+        </sp>
+        <sp who="leonor" xml:id="I15-10">
+          <speaker>LÉONOR, <hi rend="i">bas, à Marin.</hi> </speaker>
+          <l n="403" part="I" xml:id="l403">Que lui disoit ma tante ?</l>
+        </sp>
+        <sp who="marin" xml:id="I15-11">
+          <speaker>MARIN.</speaker>
+          <l part="F">Ah ! j’aurois de la peine</l>
+          <l n="404" part="I" xml:id="l404">A m’en ressouvenir.</l>
+        </sp>
+        <sp who="leonor" xml:id="I15-12">
+          <speaker>LÉONOR, <hi rend="i">à part.</hi></speaker>
+          <l part="F">Juste ciel ! quelle gêne ?</l>
+          <l n="405" xml:id="l405">Parlons, puisqu’il le faut. Oui, je n’aime que vous,</l>
+          <stage>( se tournant du côté de Léandre. )</stage>
+          <l n="406" xml:id="l406">Je fais tout mon bonheur de vous voir mon époux.</l>
+        </sp>
+        <sp who="damon" xml:id="I15-13">
+          <speaker>DAMON, <hi rend="i">bas.</hi></speaker>
+          <l n="407" xml:id="l407">Quelle impudence ! mais ne faisons rien connoître.</l>
+          <stage>( haut. )</stage>
+          <l n="408" xml:id="l408">Que je suis satisfait ! Que j’ai sujet de l’être !</l>
+          <l n="409" xml:id="l409">De ma reconnoissance attendez les effets.</l>
+        </sp>
+        <sp who="leonor" xml:id="I15-14">
+          <speaker>LÉONOR.</speaker>
+          <l n="410" xml:id="l410">Je n’en mérite point de tout ce que je fais.</l>
+          <l n="411" xml:id="l411">Croyez que je ne suis que mon amour extrême,</l>
+          <stage>( se tournant toujours du côté de Léandre. )</stage>
+          <l n="412" xml:id="l412">Et que je vois ici le seul objet que j’aime.</l>
+        </sp>
+        <sp who="marin" xml:id="I15-15">
+          <speaker>MARIN, <hi rend="i">à Léonor.</hi></speaker>
+          <l n="413" xml:id="l413">Que ne peut-il vous voir de même en ces instans !</l>
+          <l n="414" part="I" xml:id="l414">Ah ! qu’il seroit content !</l>
+        </sp>
+        <sp who="damon" xml:id="I15-16">
+          <speaker>DAMON.</speaker>
+          <l part="F">Si je ne vois, j’entends.</l>
+        </sp>
+        <sp who="leonor" xml:id="I15-17">
+          <speaker>LÉONOR, <hi rend="i">donnant la main à Léandre.</hi></speaker>
+          <l n="415" xml:id="l415">Oui, ma main suit mon cœur, et dans cette journée</l>
+          <l n="416" xml:id="l416">Mes voeux seront remplis si les nœuds d’hyménée...</l>
+        </sp>
+        <sp who="damon" xml:id="I15-18">
+          <speaker>DAMON, <hi rend="i">prenant la main de Léandre.</hi></speaker>
+          <l n="417" xml:id="l417">Donnez-moi cette main qui va me rendre heureux ;</l>
+          <l n="418" xml:id="l418">Que par mille baisers aussi doux qu’amoureux…</l>
+          <l n="419" xml:id="l419">Quelle main est-ce là ? que faut-il que je pense ?</l>
+        </sp>
+        <sp who="marin" xml:id="I15-19">
+          <speaker>MARIN, <hi rend="i">s’approchant.</hi></speaker>
+          <l n="420" part="I" xml:id="l420">C'est la mienne, monsieur.</l>
+        </sp>
+        <sp who="damon" xml:id="I15-20">
+          <speaker>DAMON, <hi rend="i">donnant un soufflet à Léandre.</hi></speaker>
+          <l part="F">Tiens, de ton insolence,</l>
+          <l n="421" part="I" xml:id="l421">Maraud, voilà le prix.</l>
+        </sp>
+        <sp who="leonor" xml:id="I15-21">
+          <speaker>LÉONOR, <hi rend="i">bas, à Léandre.</hi></speaker>
+          <l part="F">Je suis au désespoir.</l>
+        </sp>
+        <sp who="damon" xml:id="I15-22">
+          <speaker>DAMON.</speaker>
+          <l n="422" part="I" xml:id="l422">Je t’apprendrai, faquin...</l>
+        </sp>
+        <sp who="marin" xml:id="I15-23">
+          <speaker>MARIN, <hi rend="i">pleurant comme s’il avait reçu le coup.</hi></speaker>
+          <l part="F">Revenez-y pour voir.</l>
+        </sp>
+        <sp who="leandre" xml:id="I15-24">
+          <speaker>LÉANDRE, <hi rend="i">bas, à Marin.</hi></speaker>
+          <l n="423" part="I" xml:id="l423">Te moques-tu de moi ?</l>
+        </sp>
+        <sp who="leonor" xml:id="I15-25">
+          <speaker>LÉONOR.</speaker>
+          <l part="F">Vous êtes en colere ?</l>
+          <l n="424" xml:id="l424">Je vous quitte, et je vais retourner au notaire.</l>
+        </sp>
+        <sp who="damon" xml:id="I15-26">
+          <speaker>DAMON.</speaker>
+          <l n="425" xml:id="l425">Allez donc, et hâtez ces précieux instans :</l>
+          <l n="426" xml:id="l426">Qu'il apporte au plutôt le contrat, je l’attends.</l>
+        </sp>
+      </div>
+      <div n="16" type="scene" xml:id="I16">
+        <head>SCENE XVI.</head>
+        <stage>DAMON, MARIN.</stage>
+        <sp who="marin" xml:id="I16-1">
+          <speaker>MARIN.</speaker>
+          <l n="427" xml:id="l427">Il n’est pas avec moi besoin que l’on s’explique ;</l>
+          <l n="428" xml:id="l428">Je vous ai comme il faut donné votre réplique.</l>
+          <l n="429" xml:id="l429">Mais, s’il vous plaît, monsieur, quel est votre dessein ?</l>
+        </sp>
+        <sp who="damon" xml:id="I16-2">
+          <speaker>DAMON.</speaker>
+          <l n="430" xml:id="l430">De marier la vieille avec le médecin.</l>
+        </sp>
+        <sp who="marin" xml:id="I16-3">
+          <speaker>MARIN.</speaker>
+          <l n="431" xml:id="l431">Quoi ! monsieur Lempesé le mari de la tante ?</l>
+          <l n="432" xml:id="l432">Le trait seroit bouffon, et la pièce plaisante :</l>
+          <l n="433" xml:id="l433">Je vais vous le chercher, je sais bien à-peu-près...</l>
+          <l n="434" xml:id="l434">Mais, par ma foi, la bête entre dans nos filets,</l>
+          <l n="435" part="I" xml:id="l435">Et le voici lui-même.</l>
+        </sp>
+      </div>
+      <div n="17" type="scene" xml:id="I17">
+        <head>SCENE XVII.</head>
+        <stage>DAMON, LEMPESÉ, MARIN.</stage>
+        <sp who="lempese" xml:id="I17-1">
+          <speaker>LEMPESÉ, <hi rend="i">bas, à Marin.</hi></speaker>
+          <l part="F">Où Léonor est-elle ?</l>
+        </sp>
+        <sp who="marin" xml:id="I17-2">
+          <speaker>MARIN, <hi rend="i">tristement.</hi></speaker>
+          <l n="436" part="I" xml:id="l436">Chez le notaire.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-3">
+          <speaker>LEMPESÉ, <hi rend="i">bas, à Marin.</hi></speaker>
+          <l part="F">O ciel ! quelle triste nouvelle !</l>
+          <l n="437" part="I" xml:id="l437">Elle épouse Damon ?</l>
+        </sp>
+        <sp who="marin" xml:id="I17-4">
+          <speaker>MARIN, <hi rend="i">bas, à Lempesé.</hi></speaker>
+          <l part="F">C'est à son grand regret.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-5">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="438" xml:id="l438">Je venois l’informer de tout ce que j’ai fait.</l>
+          <l n="439" xml:id="l439">Mon frère m’ayant dit que l’affaire étoit bonne...</l>
+        </sp>
+        <sp who="damon" xml:id="I17-6">
+          <speaker>DAMON.</speaker>
+          <l n="440" part="I" xml:id="l440">A qui donc parles-tu ?</l>
+        </sp>
+        <sp who="marin" xml:id="I17-7">
+          <speaker>MARIN.</speaker>
+          <l part="F">Moi, monsieur, à personne.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-8">
+          <speaker>DAMON.</speaker>
+          <l n="441" xml:id="l441">Tu me trompes ; j’entends marcher quelqu’un ici.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-9">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="442" part="I" xml:id="l442">Je tremble.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-10">
+          <speaker>DAMON, <hi rend="i">gagnant la porte, et tâtonnant par-tout avec son bâton.</hi> </speaker>
+          <l part="F">Je me veux éclaircir de ceci.</l>
+        </sp>
+        <sp who="marin" xml:id="I17-11">
+          <speaker>MARIN, <hi rend="i">bas, à Lempesé.</hi></speaker>
+          <l n="443" xml:id="l443">Que lui dire ? Ma foi ! j’ai perdu la parole.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-12">
+          <speaker>LEMPESÉ, <hi rend="i">bas, à Marin.</hi></speaker>
+          <l n="444" xml:id="l444">Dis ce que tu voudras ; mais plus de Carmagnole.</l>
+        </sp>
+        <sp who="marin" xml:id="I17-13">
+          <speaker>MARIN, <hi rend="i">à Damon.</hi></speaker>
+          <l n="445" xml:id="l445">C'est monsieur Lempesé, très savant médecin,</l>
+          <l n="446" xml:id="l446">Qui vient vous apporter un remède divin,</l>
+          <l n="447" xml:id="l447">Que pour guérir les yeux il soutient admirable.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-14">
+          <speaker>DAMON.</speaker>
+          <l n="448" xml:id="l448">Vraiment d’un pareil soin je lui suis redevable.</l>
+          <l n="449" xml:id="l449">Je ne sais pas, monsieur, par où j’ai mérité</l>
+          <l n="450" xml:id="l450">Que pour moi vous puissiez avoir tant de bonté :</l>
+          <l n="451" xml:id="l451">Donnez-moi ce remède, il faut que je l’éprouve.</l>
+        </sp>
+        <sp who="marin" xml:id="I17-15">
+          <speaker>MARIN, <hi rend="i">bas, à Lempesé.</hi></speaker>
+          <l n="452" part="I" xml:id="l452">Allons, cherchez, monsieur.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-16">
+          <speaker>LEMPESÉ, <hi rend="i">bas, à Marin.</hi></speaker>
+          <l part="F">Que veux-tu que je trouve ?</l>
+        </sp>
+        <sp who="marin" xml:id="I17-17">
+          <speaker>MARIN, <hi rend="i">bas, à Lempesé.</hi></speaker>
+          <l n="453" xml:id="l453">N'avez-vous point sur vous quelque poudre, quelque eau</l>
+          <l n="454" xml:id="l454">Pour le faire encor mieux donner dans le panneau ?</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-18">
+          <speaker>LEMPESÉ, <hi rend="i">bas, à Marin.</hi></speaker>
+          <l n="455" xml:id="l455">J'ai de l’eau pour le teint, mais peste ! elle est trop forte ;</l>
+          <l n="456" xml:id="l456">La composition en est faite de sorte...</l>
+        </sp>
+        <sp who="marin" xml:id="I17-19">
+          <speaker>MARIN, <hi rend="i">bas, à Lempesé.</hi></speaker>
+          <l n="457" xml:id="l457">Bon, bon, donnez toujours pour sortir d’embarras.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-20">
+          <speaker>LEMPESÉ, <hi rend="i">bas, à Marin.</hi></speaker>
+          <l n="458" xml:id="l458">La voilà ; prenez soin qu’il ne s’en serve pas.</l>
+        </sp>
+        <sp who="marin" xml:id="I17-21">
+          <speaker>MARIN, <hi rend="i">regardant le flacon.</hi></speaker>
+          <l n="459" xml:id="l459">Qu'importe ? La belle eau ! la vue est éclaircie</l>
+          <l n="460" part="I" xml:id="l460">Seulement à la voir.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-22">
+          <speaker>DAMON.</speaker>
+          <l part="F">Je vous en remercie ;</l>
+          <l n="461" xml:id="l461">Si j’en suis soulagé je vous devrai beaucoup.</l>
+        </sp>
+        <sp who="marin" xml:id="I17-23">
+          <speaker>MARIN.</speaker>
+          <l n="462" xml:id="l462">Vous seriez bien surpris de voir clair tout d’un coup.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-24">
+          <speaker>DAMON.</speaker>
+          <l n="463" xml:id="l463">Comment ! je donnerois tout ce que je possède,</l>
+          <l n="464" xml:id="l464">Que je croirois trop peu payer un tel remède.</l>
+        </sp>
+        <sp who="marin" xml:id="I17-25">
+          <speaker>MARIN.</speaker>
+          <l n="465" xml:id="l465">Mais, monsieur, pour guérir il faudroit commencer</l>
+          <l n="466" xml:id="l466">Par bannir Léonor, et n’y jamais penser ;</l>
+          <l n="467" xml:id="l467">Car la femme à la vue est tout-à-fait contraire.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-26">
+          <speaker>LEMPESE.</speaker>
+          <l n="468" part="I" xml:id="l468">Hippocrate le dit.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-27">
+          <speaker>DAMON.</speaker>
+          <l part="F">Mais comment veux-tu faire ?</l>
+          <l n="469" xml:id="l469">La rupture à présent causeroit trop d’éclat :</l>
+          <l n="470" xml:id="l470">On va dans ce moment m’apporter le contrat</l>
+          <l n="471" xml:id="l471">Signé de Léonor. Elle pourroit se plaindre :</l>
+          <l n="472" xml:id="l472">A payer le dédit on me pourroit contraindre.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-28">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="473" xml:id="l473">Et pourquoi ? Léonor ayant beaucoup d’appas,</l>
+          <l n="474" xml:id="l474">Quelque ami ne peut-il vous tirer d’embarras,</l>
+          <l n="475" xml:id="l475">Envers elle acquitter la parole donnée ?</l>
+        </sp>
+        <sp who="damon" xml:id="I17-29">
+          <speaker>DAMON.</speaker>
+          <l n="476" xml:id="l476">Monsieur, quand il s’agit des nœuds de l’hyménée,</l>
+          <l n="477" xml:id="l477">On ne voit point d’ami complaisant, généreux</l>
+          <l n="478" xml:id="l478">Jusqu’à franchir pour nous un pas si hasardeux.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-30">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="479" xml:id="l479">Il s’en pourroit trouver qui, sans beaucoup de peine</l>
+          <l n="480" xml:id="l480">Se chargeroit pour vous d’une si douce chaîne.</l>
+        </sp>
+        <sp who="marin" xml:id="I17-31">
+          <speaker>MARIN.</speaker>
+          <stage>(Bas.) (haut.)</stage>
+          <l n="481" xml:id="l481">Il gobe l’hameçon. On voit assez d’amis</l>
+          <l n="482" xml:id="l482">Prendre en de certains cas la place des maris ;</l>
+          <l n="483" xml:id="l483">Mais ils s’en tiennent là, sans risquer davantage,</l>
+          <l n="484" xml:id="l484">Et laissent aux époux les charges du ménage.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-32">
+          <speaker>DAMON.</speaker>
+          <l n="485" xml:id="l485">Enfin je vois qu’il faut exposer ma santé,</l>
+          <l n="486" xml:id="l486">Car personne jamais n’aura tant de bonté.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-33">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="487" xml:id="l487">Pardonnez-moi, monsieur, j’ai trouvé votre affaire</l>
+          <l n="488" xml:id="l488">Un homme à qui déjà Léonor a su plaire,</l>
+          <l n="489" xml:id="l489">Et qui d’ailleurs, je crois, ne lui déplairoit pas.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-34">
+          <speaker>DAMON.</speaker>
+          <l n="490" xml:id="l490">Qui seroit-ce ? L'espoir de sortir d’embarras</l>
+          <l n="491" xml:id="l491">Flatte déjà mon cœur, et ma joie est extrême...</l>
+          <l n="492" part="I" xml:id="l492">N'hésitez pas, monsieur, à le nommer.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-35">
+          <speaker>LEMPESÉ,</speaker>
+          <l part="F">Moi-même,</l>
+          <l n="493" xml:id="l493">Qui de vous obliger eus toujours grand désir.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-36">
+          <speaker>DAMON.</speaker>
+          <l n="494" xml:id="l494">Quoi ! vous pourriez, monsieur, me faire ce plaisir ?</l>
+          <l n="495" xml:id="l495">Epouser Léonor ? Ah ! quelle complaisance !</l>
+          <l n="496" xml:id="l496">Quels seront les effets de ma reconnoissance !</l>
+        </sp>
+        <sp who="marin" xml:id="I17-37">
+          <speaker>MARIN, <hi rend="i">à Damon.</hi></speaker>
+          <l n="497" xml:id="l497">Voilà ce qui s’appelle un véritable ami ;</l>
+          <l n="498" xml:id="l498">Monsieur ne vous veut pas obliger à demi.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-38">
+          <speaker>DAMON.</speaker>
+          <l n="499" xml:id="l499">Puisque vous voulez bien me faire cette grace</l>
+          <l n="500" xml:id="l500">Vous n’avez qu’à signer le contrat en ma place ;</l>
+          <l n="501" xml:id="l501">On va me l’apporter dans ce même moment.</l>
+        </sp>
+        <sp who="lempese" xml:id="I17-39">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="502" xml:id="l502">Léonor en sera ravie assurément.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-40">
+          <speaker>DAMON.</speaker>
+          <l n="503" xml:id="l503">Pour plus de sûreté faisons croire au notaire</l>
+          <l n="504" xml:id="l504">Que vous êtes celui pour qui se fait l’affaire :</l>
+          <l n="505" xml:id="l505">Le contrat est déjà signé de Léonor,</l>
+          <l n="506" xml:id="l506">Et comme on n’a pas mis mes qualités encor</l>
+          <l n="507" xml:id="l507">Avecque votre nom on y mettra les vôtres.</l>
+        </sp>
+        <sp who="marin" xml:id="I17-41">
+          <speaker>MARIN.</speaker>
+          <l n="508" xml:id="l508">Il faut bien s’obliger ainsi les uns les autres.</l>
+          <l n="509" part="I" xml:id="l509">Mais le notaire vient.</l>
+        </sp>
+        <sp who="damon" xml:id="I17-42">
+          <speaker>DAMON, <hi rend="i">à Lempesé.</hi></speaker>
+          <l part="F">Cachons-lui tout ceci.</l>
+          <stage>(à Marin.)</stage>
+          <l n="510" xml:id="l510">Toi, prends garde qu’aucun ne nous surprenne ici</l>
+          <stage>(Marin apporte une table et deux sièges avant de s’en aller. )</stage>
+        </sp>
+      </div>
+      <div n="18" type="scene" xml:id="I18">
+        <head>SCENE XVIII.</head>
+        <stage>DAMON, LEMPESÉ, LE NOTAIRE.</stage>
+        <sp who="notaire" xml:id="I18-1">
+          <speaker>LE NOTAIRE.</speaker>
+          <l n="511" xml:id="l511">A tous présens salut. Jamais dans mon étude</l>
+          <l n="512" xml:id="l512">Avec tant de justesse et tant de promptitude</l>
+          <l n="513" xml:id="l513">Depuis trente-trois ans il ne s’est fait contrat.</l>
+        </sp>
+        <sp who="damon" xml:id="I18-2">
+          <speaker>DAMON.</speaker>
+          <l n="514" xml:id="l514">Enfin, quoi qu’il en soit, tout est-il en état ?</l>
+        </sp>
+        <sp who="notaire" xml:id="I18-3">
+          <speaker>LE NOTAIRE.</speaker>
+          <l n="515" xml:id="l515">Oui, monsieur : il ne faut seulement que m’apprendre</l>
+          <l n="516" xml:id="l516">Le nom, les qualités que le futur veut prendre.</l>
+          <l n="517" xml:id="l517">Mais, messieurs, à vous voir les yeux que je vous voi,</l>
+          <l n="518" part="I" xml:id="l518">Qui des deux, s’il vous plaît, est aveugle ?</l>
+        </sp>
+        <sp who="lempese" xml:id="I18-4">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">C'est moi.</l>
+        </sp>
+        <sp who="notaire" xml:id="I18-5">
+          <speaker>LE NOTAIRE.</speaker>
+          <l n="519" xml:id="l519">O ciel ! qui l’auroit cru ? c’est vraiment grand dommage.</l>
+        </sp>
+        <sp who="lempese" xml:id="I18-6">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="520" xml:id="l520">Il est vrai ; mais signons sans tarder davantage.</l>
+        </sp>
+        <sp who="notaire" xml:id="I18-7">
+          <speaker>LE NOTAIRE.</speaker>
+          <l n="521" part="I" xml:id="l521">Il faut lire du moins le contrat.</l>
+        </sp>
+        <sp who="lempese" xml:id="I18-8">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">Nullement.</l>
+          <l n="522" xml:id="l522">Léonor l’a signé, je signe aveuglément.</l>
+        </sp>
+        <sp who="notaire" xml:id="I18-9">
+          <speaker>LE NOTAIRE.</speaker>
+          <l n="523" xml:id="l523">La future est pressante, et vous encor plus qu’elle.</l>
+          <l n="524" xml:id="l524">Signez donc : c’est, je crois, Damon qu’on vous appelle.</l>
+        </sp>
+        <sp who="lempese" xml:id="I18-10">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="525" xml:id="l525">De me donner ce nom je m’étois avisé,</l>
+          <stage>(Lempesé signe le contrat, et le Notaire lui conduit la main le croyant aveugle.)</stage>
+          <l n="526" xml:id="l526">Mais je signe toujours Damien Lempesé.</l>
+        </sp>
+        <sp who="notaire" xml:id="I18-11">
+          <speaker>LE NOTAIRE, <hi rend="i">écrit</hi>.</speaker>
+          <l n="527" part="I" xml:id="l527">Vos qualités ?</l>
+        </sp>
+        <sp who="lempese" xml:id="I18-12">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">Hélas ! après mon infortune,</l>
+          <l n="528" xml:id="l528">Je ne crois pas, monsieur, en devoir prendre aucune ;</l>
+          <l n="529" xml:id="l529">Bon bourgeois de Paris, et cela suffira.</l>
+        </sp>
+        <sp who="damon" xml:id="I18-13">
+          <speaker>DAMON.</speaker>
+          <l n="530" xml:id="l530">Adieu, monsieur, tantôt on vous satisfera ;</l>
+          <l n="531" xml:id="l531">On aura même égard à votre diligence.</l>
+        </sp>
+        <sp who="notaire" xml:id="I18-14">
+          <speaker>LE NOTAIRE.</speaker>
+          <l n="532" xml:id="l532">Je ne demande rien, je suis payé d’avance ;</l>
+          <l n="533" xml:id="l533">Madame Léonor a su prendre ce soin.</l>
+        </sp>
+      </div>
+      <div n="19" type="scene" xml:id="I19">
+        <head>SCENE XIX.</head>
+        <stage>DAMON, LEMPESÉ.</stage>
+        <sp who="lempese" xml:id="I19-1">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="534" xml:id="l534">De beaucoup de finesse on n’a pas eu besoin.</l>
+          <l n="535" xml:id="l535">Mais, monsieur, pardonnez à mon impatience,</l>
+          <l n="536" xml:id="l536">Je cours à Léonor apprendre en diligence</l>
+          <l n="537" xml:id="l537">Que le sort a rempli le plus doux de ses vœux.</l>
+        </sp>
+        <sp who="damon" xml:id="I19-2">
+          <speaker>DAMON.</speaker>
+          <l n="538" xml:id="l538">Allez, mon cher, allez, et tenez-vous joyeux.</l>
+          <stage>(Lempesé sort.)</stage>
+        </sp>
+        <sp who="damon" xml:id="I19-3">
+          <speaker>DAMON.</speaker>
+          <l n="539" xml:id="l539">Ma foi, je m’applaudis, et le tour est trop drôle ;</l>
+          <l n="540" xml:id="l540">Avec notre benêt j’ai bien joué mon rôle :</l>
+          <l n="541" xml:id="l541">Il est temps de finir ; je suis assez instruit,</l>
+          <l n="542" xml:id="l542">Et j’en ai vu bien plus qu’on ne m’en avoit dit.</l>
+        </sp>
+      </div>
+      <div n="20" type="scene" xml:id="I20">
+        <head>SCENE XX.</head>
+        <stage>DAMON, MARIN.</stage>
+        <sp who="marin" xml:id="I20-1">
+          <speaker>MARIN.</speaker>
+          <l n="543" xml:id="l543">Monsieur, songez à vous ; Léonor et Léandre</l>
+          <l n="544" xml:id="l544">Vont revenir ici : je leur ai fait entendre</l>
+          <l n="545" part="I" xml:id="l545">Que vous dormiez.</l>
+        </sp>
+        <sp who="damon" xml:id="I20-2">
+          <speaker>DAMON.</speaker>
+          <l part="F">Fort bien ; il faut, mon cher Marin,</l>
+          <l n="546" xml:id="l546">Que quelque tour plaisant à ceci mette fin.</l>
+        </sp>
+        <sp who="marin" xml:id="I20-3">
+          <speaker>MARIN.</speaker>
+          <l n="547" xml:id="l547">Pour vous mieux seconder, si vous vouliez me dire...</l>
+        </sp>
+        <sp who="damon" xml:id="I20-4">
+          <speaker>DAMON.</speaker>
+          <l n="548" xml:id="l548">Tu viendras dans ma chambre où je saurai t’instruire :</l>
+          <l n="549" xml:id="l549">Il ne faut que deux mots pour que tu sois au fait.</l>
+          <stage>(il sort.)</stage>
+        </sp>
+        <sp who="marin" xml:id="I20-5">
+          <speaker>MARIN.</speaker>
+          <l n="550" xml:id="l550">Il va leur préparer encore un nouveau trait :</l>
+          <l n="551" xml:id="l551">D'avance je l’approuve, et mon âme ravie...</l>
+          <l n="552" xml:id="l552">Mais voici tous nos gens, jouons la comédie.</l>
+        </sp>
+      </div>
+      <div n="21" type="scene" xml:id="I21">
+        <head>SCENE XXI.</head>
+        <stage>LEANDRE, LÉONOR, LISETTE, MARIN.</stage>
+        <sp who="lisette" xml:id="I21-1">
+          <speaker>LISETTE.</speaker>
+          <l n="553" part="I" xml:id="l553">Eh bien ! dort-il encore ?</l>
+        </sp>
+        <sp who="marin" xml:id="I21-2">
+          <speaker>MARIN.</speaker>
+          <l part="F">A faire tout trembler ;</l>
+          <l n="554" xml:id="l554">La maison tomberoit, je crois, sans le troubler.</l>
+        </sp>
+        <sp who="leonor" xml:id="I21-3">
+          <speaker>LÉONOR.</speaker>
+          <l n="555" xml:id="l555">Va-t’en près de son lit, et pour peu qu’il remue</l>
+          <l n="556" xml:id="l556">Reviens nous avertir ; car je serois perdue</l>
+          <l n="557" part="I" xml:id="l557">S'il entendoit la voix de Léandre.</l>
+        </sp>
+        <sp who="marin" xml:id="I21-4">
+          <speaker>MARIN.</speaker>
+          <l part="F">Fort bien.</l>
+          <l n="558" xml:id="l558">Discourez à votre aise et n’appréhendez rien.</l>
+        </sp>
+      </div>
+      <div n="22" type="scene" xml:id="I22">
+        <head>SCENE XXII.</head>
+        <stage>LÉANDRE, LÉONOR, LISETTE.</stage>
+        <sp who="leandre" xml:id="I22-1">
+          <speaker>LÉANDRE.</speaker>
+          <l n="559" xml:id="l559">Je ne reviens ici qu’en tremblant, je l’avoue.</l>
+          <l n="560" xml:id="l560">Quand mon oncle saura la pièce qu’on lui joue,</l>
+          <l n="561" xml:id="l561">S'il me croit avoir part à cette invention,</l>
+          <l n="562" xml:id="l562">C'est peu d’être frustré de sa succession,</l>
+          <l n="563" part="I" xml:id="l563">Son courroux...</l>
+        </sp>
+        <sp who="leonor" xml:id="I22-2">
+          <speaker>LÉONOR.</speaker>
+          <l part="F">Tout est fait, et ma tante est sa femme,</l>
+          <l n="564" xml:id="l564">Qui comme elle voudra saura tourner son âme.</l>
+        </sp>
+        <sp who="lisette" xml:id="I22-3">
+          <speaker>LISETTE.</speaker>
+          <l n="565" xml:id="l565">Dans les commencemens, il criera, pestera,</l>
+          <l n="566" xml:id="l566">Fera le diable à quatre, et puis s’apaisera ;</l>
+          <l n="567" xml:id="l567">Ses soupçons ne pourront tomber que sur la tante</l>
+          <l n="568" xml:id="l568">Qui, malgré ses froideurs, lui fut toujours constante,</l>
+          <l n="569" xml:id="l569">Et qui, pour se venger de son nouvel amour,</l>
+          <l n="570" xml:id="l570">Sans nous en informer aura joué ce tour.</l>
+          <l n="571" xml:id="l571">Laissez-les entr'eux deux démêler la fusée.</l>
+          <l n="572" xml:id="l572">Je vous la garantis femelle aussi rusée…</l>
+        </sp>
+      </div>
+      <div n="23" type="scene" xml:id="I23">
+        <head>SCENE XXIII.</head>
+        <stage>LÉANDRE, LÉONOR, MARIN, LISETTE.</stage>
+        <sp who="marin" xml:id="I23-1">
+          <speaker>MARIN.</speaker>
+          <l n="573" xml:id="l573">O disgrâce terrible ! inopiné malheur !</l>
+        </sp>
+        <sp who="leandre" xml:id="I23-2">
+          <speaker>LÉANDRE.</speaker>
+          <l n="574" part="I" xml:id="l574">Que seroit-ce, Marin ?</l>
+        </sp>
+        <sp who="leonor" xml:id="I23-3">
+          <speaker>LÉONOR.</speaker>
+          <l part="F">Je tremble de frayeur.</l>
+        </sp>
+        <sp who="marin" xml:id="I23-4">
+          <speaker>MARIN.</speaker>
+          <l n="575" part="I" xml:id="l575">Damon voit clair d’un œil.</l>
+        </sp>
+        <sp who="leandre" xml:id="I23-5">
+          <speaker>LÉANDRE.</speaker>
+          <l part="F">Ah ! juste ciel ! qu’entends-je ?</l>
+        </sp>
+        <sp who="leonor" xml:id="I23-6">
+          <speaker>LÉONOR.</speaker>
+          <l n="576" part="I" xml:id="l576">Je suis au désespoir.</l>
+        </sp>
+        <sp who="lisette" xml:id="I23-7">
+          <speaker>LISETTE, <hi rend="i">pleurant</hi>.</speaker>
+          <l part="F">Quel accident étrange !</l>
+        </sp>
+        <sp who="marin" xml:id="I23-8">
+          <speaker>MARIN.</speaker>
+          <l n="577" xml:id="l577">Il vient de s’éveiller avec un air joyeux :</l>
+          <l n="578" xml:id="l578">Ah ! Marin, m’a-t-il dit, ah ! que je suis heureux !</l>
+          <l n="579" xml:id="l579">Je vois clair de cet œil, voilà mon lit, ma table,</l>
+          <l n="580" xml:id="l580">Te voilà, je te vois. Ah ! remède admirable !</l>
+          <l n="581" xml:id="l581">Eau divine ! va, cours au plutôt, cher Marin,</l>
+          <l n="582" xml:id="l582">Va chercher Lempesé, ce fameux médecin,</l>
+          <l n="583" xml:id="l583">Qui m’a fait recouvrer la moitié de la vue :</l>
+          <l n="584" xml:id="l584">La moitié de mon bien à ce service est due.</l>
+        </sp>
+        <sp who="lisette" xml:id="I23-9">
+          <speaker>LISETTE.</speaker>
+          <l n="585" xml:id="l585">Mais cette eau, disois-tu, n’étoit que pour le teint,</l>
+          <l n="586" xml:id="l586">Et Lempesé surpris s’étoit trouvé contraint...</l>
+          <l n="587" xml:id="l587">Peste du médecin et de son eau divine !</l>
+        </sp>
+        <sp who="marin" xml:id="I23-10">
+          <speaker>MARIN.</speaker>
+          <l n="588" xml:id="l588">Ce n’est que par hasard qu’agit la médecine ;</l>
+          <l n="589" xml:id="l589">Parmi ces quiproquo, souvent si dangereux,</l>
+          <l n="590" xml:id="l590">Il s’en peut rencontrer, entre mille, un heureux.</l>
+        </sp>
+        <sp who="lisette" xml:id="I23-11">
+          <speaker>LISETTE.</speaker>
+          <l n="591" part="I" xml:id="l591">Et de quel œil voit-il ?</l>
+        </sp>
+        <sp who="marin" xml:id="I23-12">
+          <speaker>MARIN.</speaker>
+          <l part="M">De l’œil droit.</l>
+        </sp>
+        <sp who="leonor" xml:id="I23-13">
+          <speaker>LÉONOR.</speaker>
+          <l part="F">Ah ! Lisette,</l>
+          <l n="592" xml:id="l592">De quoi t’informes-tu, quand mon âme inquiète</l>
+          <l n="593" xml:id="l593">Eprouve en ce moment le sort le plus fatal ;</l>
+          <l n="594" xml:id="l594">Quand je dois craindre tout d’un jaloux, d’un brutal...</l>
+        </sp>
+        <sp who="lisette" xml:id="I23-14">
+          <speaker>LISETTE.</speaker>
+          <l n="595" part="I" xml:id="l595">Ah ! ma foi, le voici.</l>
+        </sp>
+        <sp who="leandre" xml:id="I23-15">
+          <speaker>LÉANDRE.</speaker>
+          <l part="F">Je ne veux pas l’attendre,</l>
+          <l n="596" part="I" xml:id="l596">Je gagne l’escalier.</l>
+        </sp>
+        <sp who="leonor" xml:id="I23-16">
+          <speaker>LÉONOR.</speaker>
+          <l part="F">Que faites-vous, Léandre ?</l>
+          <l n="597" xml:id="l597">A présent qu’il voit clair, il va vous rencontrer.</l>
+        </sp>
+        <sp who="marin" xml:id="I23-17">
+          <speaker>MARIN.</speaker>
+          <l n="598" xml:id="l598">Dans son grand cabinet vous ferez mieux d’entrer.</l>
+        </sp>
+        <sp who="leandre" xml:id="I23-18">
+          <speaker>LÉANDRE, <hi rend="i">entrant dans le cabinet.</hi></speaker>
+          <l n="599" part="I" xml:id="l599">Juste ciel ! quel revers !</l>
+        </sp>
+      </div>
+      <div n="24" type="scene" xml:id="I24">
+        <head>SCENE XXIV.</head>
+        <stage>DAMON, LÉANDRE, caché, LÉONOR,</stage>
+        <stage>MARIN, LISETTE.</stage>
+        <sp who="damon" xml:id="I24-1">
+          <speaker>DAMON.</speaker>
+          <l part="F">Ah ! quel bonheur extrême !</l>
+          <l n="600" xml:id="l600">Quoi ! Je puis donc enfin revoir tout ce que j’aime !</l>
+          <l n="601" xml:id="l601">Prenez part, Léonor, au plaisir que je sens.</l>
+          <l n="602" xml:id="l602">O ciel ! quel teint ! quels yeux ! quels appas ravissans !</l>
+          <l n="603" xml:id="l603">Comment donc, malheureux, tu la disois affreuse !</l>
+        </sp>
+        <sp who="marin" xml:id="I24-2">
+          <speaker>MARIN.</speaker>
+          <l n="604" xml:id="l604">C'est votre guérison qui la rend si joyeuse</l>
+          <l n="605" xml:id="l605">Qu'elle a dans un moment repris tous ses attraits.</l>
+        </sp>
+        <sp who="damon" xml:id="I24-3">
+          <speaker>DAMON.</speaker>
+          <l n="606" xml:id="l606">Oui, je vous trouve encor plus belle que jamais.</l>
+          <l n="607" xml:id="l607">Vous ne me dites rien, que faut-il que je croie ?</l>
+        </sp>
+        <sp who="marin" xml:id="I24-4">
+          <speaker>MARIN.</speaker>
+          <l n="608" xml:id="l608">Ce silence est encore un effet de sa joie.</l>
+        </sp>
+        <sp who="damon" xml:id="I24-5">
+          <speaker>DAMON.</speaker>
+          <l n="609" xml:id="l609">Je veux bien m’en flatter. Qu'il est doux, mes enfans,</l>
+          <l n="610" xml:id="l610">De revoir la lumière après un si long temps !</l>
+          <l n="611" xml:id="l611">Je croyois n’avoir plus ce bonheur de ma vie.</l>
+          <l n="612" xml:id="l612">Ah ! quel plaisir charmant ! déjà je meurs d’envie</l>
+          <l n="613" xml:id="l613">De revoir tous ces lieux, et sur-tout mes tableaux ;</l>
+          <l n="614" xml:id="l614">Ce vont être pour moi des spectacles nouveaux.</l>
+        </sp>
+        <sp who="leonor" xml:id="I24-6">
+          <speaker>LÉONOR, <hi rend="i">bas, à Lisette.</hi></speaker>
+          <l n="615" xml:id="l615">Dans son grand cabinet il va d’abord se rendre :</l>
+          <l n="616" xml:id="l616">Que ferons-nous, Lisette ? il y va de Léandre.</l>
+        </sp>
+        <sp who="lisette" xml:id="I24-7">
+          <speaker>LISETTE, <hi rend="i">empêchant Damon d’entrer dans le cabinet.</hi></speaker>
+          <stage>(bas, à Léonor.)</stage>
+          <l n="617" xml:id="l617">Il faut parer le coup. Mais croyez-vous, monsieur,</l>
+          <l n="618" part="I" xml:id="l618">Ne voir clair que d’un œil ?</l>
+        </sp>
+        <sp who="damon" xml:id="I24-8">
+          <speaker>DAMON.</speaker>
+          <l part="M">Pourquoi ?</l>
+        </sp>
+        <sp who="lisette" xml:id="I24-9">
+          <speaker>LISETTE.</speaker>
+          <l part="F">Si par bonheur</l>
+          <l n="619" part="I" xml:id="l619">Vous voyez de tous deux ?</l>
+        </sp>
+        <sp who="damon" xml:id="I24-10">
+          <speaker>DAMON.</speaker>
+          <l part="F">Non, cela ne peut être.</l>
+        </sp>
+        <sp who="lisette" xml:id="I24-11">
+          <speaker>LISETTE.</speaker>
+          <l n="620" xml:id="l620">Dans ce moment, monsieur, nous le pourrons connoître :</l>
+          <l n="621" part="I" xml:id="l621">Souffrez qu’avec ma main...</l>
+        </sp>
+        <sp who="damon" xml:id="I24-12">
+          <speaker>DAMON.</speaker>
+          <l part="F">Oui-da, je le veux bien.</l>
+        </sp>
+        <sp who="lisette" xml:id="I24-13">
+          <speaker>LISETTE, <hi rend="i">lui couvrant l’œil droit avec sa main.</hi></speaker>
+          <l n="622" part="I" xml:id="l622">Parlez ; que voyez-vous ?</l>
+        </sp>
+        <sp who="damon" xml:id="I24-14">
+          <speaker>DAMON.</speaker>
+          <l part="F">Parbleu ! je ne vois rien.</l>
+        </sp>
+        <sp who="lisette" xml:id="I24-15">
+          <speaker>LISETTE.</speaker>
+          <l n="623" part="I" xml:id="l623">Rien du tout ?</l>
+        </sp>
+        <sp who="damon" xml:id="I24-16">
+          <speaker>DAMON.</speaker>
+          <l part="M">Non vraiment.</l>
+        </sp>
+        <sp who="leonor" xml:id="I24-17">
+          <speaker>LÉONOR, <hi rend="i">faisant sortir Léandre du cabinet.</hi></speaker>
+          <l part="F">Sortez sans plus attendre.</l>
+        </sp>
+        <sp who="lisette" xml:id="I24-18">
+          <speaker>LISETTE.</speaker>
+          <l n="624" part="I" xml:id="l624">Vous ne voyez donc rien ?</l>
+        </sp>
+        <sp who="damon" xml:id="I24-19">
+          <speaker>DAMON, <hi rend="i">montrant Léandre qui sort du cabinet.</hi></speaker>
+          <l part="F">Si fait, je vois Léandre</l>
+          <l n="625" xml:id="l625">Qui sort dans ce moment de mon grand cabinet.</l>
+        </sp>
+        <sp who="lisette" xml:id="I24-20">
+          <speaker>LISETTE.</speaker>
+          <l n="626" xml:id="l626">Pour le coup nous voilà tous pris au trébuchet.</l>
+        </sp>
+        <sp who="marin" xml:id="I24-21">
+          <speaker>MARIN.</speaker>
+          <l n="627" xml:id="l627">Parbleu ! c’est à ce coup qu’il faut crier miracle ;</l>
+          <l n="628" xml:id="l628">Et cet objet pour vous est un nouveau spectacle.</l>
+        </sp>
+        <sp who="damon" xml:id="I24-22">
+          <speaker>DAMON.</speaker>
+          <l n="629" xml:id="l629">D'où vous vient donc à tous ce grand étonnement ?</l>
+          <l n="630" xml:id="l630">Est-ce de voir la fin de mon aveuglement ?</l>
+        </sp>
+      </div>
+      <div n="25" type="scene" xml:id="I25">
+        <head>SCENE XXV.</head>
+        <stage>DAMON, LÉANDRE, LEMPESÉ, MARIN,</stage>
+        <stage>LISETTE.</stage>
+        <sp who="damon" xml:id="I25-1">
+          <speaker>DAMON.</speaker>
+          <l n="631" xml:id="l631">Mais j’aperçois, je crois, mon médecin. De grâce</l>
+          <l n="632" xml:id="l632">Approchez-vous, monsieur, venez qu’on vous embrasse :</l>
+          <l n="633" part="I" xml:id="l633">Votre divin remède…</l>
+        </sp>
+        <sp who="lempese" xml:id="I25-2">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="M">Eh bien ?</l>
+        </sp>
+        <sp who="damon" xml:id="I25-3">
+          <speaker>DAMON.</speaker>
+          <l part="F">A réussi,</l>
+          <l n="634" part="I" xml:id="l634">Je vois clair des deux yeux.</l>
+        </sp>
+        <sp who="lempese" xml:id="I25-4">
+          <speaker>LEMPESÉ, <hi rend="i">à part</hi>.</speaker>
+          <l part="F">Que veut dire ceci ?</l>
+          <l n="635" xml:id="l635">A cette guérison, je ne puis rien connoître.</l>
+        </sp>
+        <sp who="marin" xml:id="I25-5">
+          <speaker>MARIN.</speaker>
+          <l n="636" xml:id="l636">Vous êtes plus savant que vous ne croyez l’être.</l>
+          <l n="637" xml:id="l637">Votre fortune est faite : il faut faire afficher ;</l>
+          <l n="638" xml:id="l638">De tous les lieux du monde on viendra vous chercher.</l>
+        </sp>
+        <sp who="lempese" xml:id="I25-6">
+          <speaker>LEMPESÉ, <hi rend="i">à Marin.</hi></speaker>
+          <l n="639" xml:id="l639">Je suis tout stupéfait et plus heureux que sage.</l>
+          <l n="640" xml:id="l640">Qui l’auroit cru qu’une eau pour peler le visage</l>
+          <l n="641" xml:id="l641">Guérît le mal des yeux ? Je vois que désormais</l>
+          <l n="642" xml:id="l642">On peut tout hasarder après un tel succès.</l>
+        </sp>
+        <sp who="marin" xml:id="I25-7">
+          <speaker>MARIN.</speaker>
+          <l n="643" xml:id="l643">Ah ! parbleu, voici l’autre.</l>
+        </sp>
+      </div>
+      <div n="26" type="scene" xml:id="I26">
+        <head>SCENE XXVI.</head>
+        <stage>DAMON, LEANDRE, LEONOR, LEMPESÉ,</stage>
+        <stage>LA TANTE, MARIN, LISETTE.</stage>
+        <sp who="damon" xml:id="I26-1">
+          <speaker>DAMON.</speaker>
+          <l n="644" xml:id="l644">Ah ! ah ! c’est notre Tante.</l>
+          <l n="645" xml:id="l645">Eh quoi ? la bonne femme est encore vivante ?</l>
+        </sp>
+        <sp who="tante" xml:id="I26-2">
+          <speaker>LA TANTE.</speaker>
+          <l n="646" xml:id="l646">Que veut dire cela, monsieur ? vous voyez clair ?</l>
+        </sp>
+        <sp who="damon" xml:id="I26-3">
+          <speaker>DAMON.</speaker>
+          <l n="647" xml:id="l647">Un peu trop clair pour vous, je le vois à votre air.</l>
+        </sp>
+        <sp who="tante" xml:id="I26-4">
+          <speaker>LA TANTE.</speaker>
+          <l n="648" xml:id="l648">Si vous voyez si clair, regardez votre femme ;</l>
+          <l n="649" part="I" xml:id="l649">J'ai signé le contrat pour ma nièce.</l>
+        </sp>
+        <sp who="damon" xml:id="I26-5">
+          <speaker>DAMON.</speaker>
+          <l part="F">Ah ? madame.</l>
+        </sp>
+        <sp who="tante" xml:id="I26-6">
+          <speaker>LA TANTE.</speaker>
+          <l n="650" part="I" xml:id="l650">Cela vous fâche un peu ?</l>
+        </sp>
+        <sp who="damon" xml:id="I26-7">
+          <speaker>DAMON.</speaker>
+          <l part="F">Moi, madame ! pourquoi ?</l>
+          <l n="651" xml:id="l651">C'est monsieur Lempesé qui l’a signé pour moi ;</l>
+          <l n="652" part="I" xml:id="l652">Regardez votre époux.</l>
+        </sp>
+        <sp who="tante" xml:id="I26-8">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">Vous vous moquez, je pense.</l>
+        </sp>
+        <sp who="damon" xml:id="I26-9">
+          <speaker>DAMON.</speaker>
+          <l n="653" xml:id="l653">Je ne me moque point, je parle en conscience.</l>
+        </sp>
+        <sp who="lempese" xml:id="I26-10">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="654" part="I" xml:id="l654">Que veut dire cela ?</l>
+        </sp>
+        <sp who="marin" xml:id="I26-11">
+          <speaker>MARIN.</speaker>
+          <l part="F">Que pour l’avoir guéri,</l>
+          <stage>(montrant la Tante.)</stage>
+          <l n="655" xml:id="l655">De ce jeune tendron il vous a fait mari.</l>
+        </sp>
+        <sp who="damon" xml:id="I26-12">
+          <speaker>DAMON.</speaker>
+          <l n="656" xml:id="l656">Pouvois-je mieux payer un si rare service ?</l>
+        </sp>
+        <sp who="lempese" xml:id="I26-13">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="657" part="I" xml:id="l657">Une vieille !</l>
+        </sp>
+        <sp who="tante" xml:id="I26-14">
+          <speaker>LA TANTE.</speaker>
+          <l part="M">Un benêt !</l>
+        </sp>
+        <sp who="lempese" xml:id="I26-15">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="M">Une folle !</l>
+        </sp>
+        <sp who="tante" xml:id="I26-16">
+          <speaker>LA TANTE.</speaker>
+          <l part="F">Un Jocrisse.</l>
+        </sp>
+        <sp who="marin" xml:id="I26-17">
+          <speaker>MARIN.</speaker>
+          <l n="658" xml:id="l658">Fort bien, continuez, c’est à des noms si doux</l>
+          <l n="659" xml:id="l659">Qu'on reconnoît déjà que vous êtes époux.</l>
+        </sp>
+        <sp who="tante" xml:id="I26-18">
+          <speaker>LA TANTE.</speaker>
+          <l n="660" xml:id="l660">Pour me venger de vous, oui, je serai sa femme,</l>
+          <l n="661" part="I" xml:id="l661">Et je vous ferai voir...</l>
+        </sp>
+        <sp who="lempese" xml:id="I26-19">
+          <speaker>LEMPESÉ.</speaker>
+          <l part="F">Non, s’il vous plaît, madame.</l>
+        </sp>
+        <sp who="tante" xml:id="I26-20">
+          <speaker>LA TANTE.</speaker>
+          <l n="662" xml:id="l662">Tout comme il vous plaira, monsieur, arrangez vous ;</l>
+          <l n="663" xml:id="l663">Il faut qu’il me revienne à bon compte un époux.</l>
+        </sp>
+        <sp who="lempese" xml:id="I26-21">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="664" xml:id="l664">Ah ! parbleu, vous pouvez vous assurer d’un autre :</l>
+          <l n="665" xml:id="l665">A mon âge épouser une femme du vôtre !</l>
+          <l n="666" xml:id="l666">Vous avez cinquante ans et des mieux mesurés.</l>
+        </sp>
+        <sp who="marin" xml:id="I26-22">
+          <speaker>MARIN.</speaker>
+          <l n="667" xml:id="l667">Eh ! qu’importe, monsieur ? vous la rajeunirez ;</l>
+          <l n="668" xml:id="l668">Donnez-lui de cette eau qui pèle le visage.</l>
+        </sp>
+        <sp who="lempese" xml:id="I26-23">
+          <speaker>LEMPESÉ.</speaker>
+          <l n="669" xml:id="l669">Ah ! c’est donc toi, maraud, avec ton beau langage</l>
+          <l n="670" xml:id="l670">Qui m’as fait tout du long donner dans le panneau ?</l>
+          <l n="671" part="I" xml:id="l671">Je ne sais qui me tient.</l>
+        </sp>
+        <sp who="damon" xml:id="I26-24">
+          <speaker>DAMON.</speaker>
+          <l part="F">Tout beau, monsieur, tout beau ;</l>
+          <l n="672" part="I" xml:id="l672">Ne vous emportez point.</l>
+        </sp>
+        <sp who="lisette" xml:id="I26-25">
+          <speaker>LISETTE.</speaker>
+          <l part="F">Qu'as-tu fait, double traître ?</l>
+        </sp>
+        <sp who="marin" xml:id="I26-26">
+          <speaker>MARIN.</speaker>
+          <l n="673" xml:id="l673">Je vous ai trompés tous, et j’ai servi mon maître.</l>
+          <l n="674" xml:id="l674">En bonne foi, pouvois-je en agir autrement ?</l>
+          <l n="675" xml:id="l675">Mais avant de crier, attends le dénouement.</l>
+        </sp>
+        <sp who="damon" xml:id="I26-27">
+          <speaker>DAMON.</speaker>
+          <l n="676" xml:id="l676">Oh çà, mon cher neveu, de vous qu’allons-nous faire ?</l>
+        </sp>
+        <sp who="leandre" xml:id="I26-28">
+          <speaker>LÉANDRE.</speaker>
+          <l n="677" xml:id="l677">Tout ce qu’il vous plaira ; suivez votre colère :</l>
+          <l n="678" xml:id="l678">Je l’ai bien méritée, ayant pu m’oublier…</l>
+        </sp>
+        <sp who="damon" xml:id="I26-29">
+          <speaker>DAMON.</speaker>
+          <l n="679" xml:id="l679">Eh bien donc ! ma vengeance est de vous marier.</l>
+          <l n="680" xml:id="l680">Epousez Léonor, ce sera votre peine.</l>
+        </sp>
+        <sp who="leandre" xml:id="I26-30">
+          <speaker>LÉANDRE.</speaker>
+          <l n="681" xml:id="l681">Je fais tout mon bonheur d’une si belle chaîne.</l>
+        </sp>
+        <sp who="damon" xml:id="I26-31">
+          <speaker>DAMON.</speaker>
+          <l n="682" xml:id="l682">Quant à moi, je renonce à tout engagement ;</l>
+          <l n="683" xml:id="l683">J'aimois, et c’étoit là mon seul aveuglement.</l>
+          <l n="684" xml:id="l684">J'ai recouvré la vue, et je veux bien vous dire</l>
+          <l n="685" xml:id="l685">Que j’ai vu tous vos tours, et n’en ai fait que rire.</l>
+          <l n="686" xml:id="l686">Avouez qu’il falloit être bien patient.</l>
+        </sp>
+        <sp who="marin" xml:id="I26-32">
+          <speaker>MARIN.</speaker>
+          <l n="687" xml:id="l687">Voilà le véritable aveugle clairvoyant.</l>
+        </sp>
+        <label>FIN DE L'AVEUGLE CLAIRVOYANT.</label>
+      </div>
+    </body>
+    <back>
+      <div>
+        <head>EXAMEN DE L'AVEUGLE CLAIRVOYANT.</head>
+        <p>Ce sujet, très bien choisi, excite d’abord une vive curiosité. Un officier de marine qui n’est plus jeune, en partant pour un voyage de long cours a laissé une jeune veuve qu’il doit épouser, mais dont il n’a jamais reçu de grands témoignages d’amour : dans ces sortes de liaisons, les absens, même quand ils sont aimés, ont presque toujours tort ; que sera-ce si Léonor n’a fait qu’obéir aux volontés de ses parens en promettant sa main à Damon ? Cependant ce dernier invente une épreuve assez singulière pour s’assurer s’il est aimé de Léonor : il fait courir le bruit qu’il est devenu aveugle, et revient dans sa maison où il voit tout, tandis que ceux qui l’entourent croient tout lui cacher. Cette seule idée seroit comique et théâtrale ; mais l’auteur en augmente l’effet par les rôles qu’il introduit dans sa pièce. Un médecin ridicule s’y trouve très bien placé, son embarras lorsqu’il est obligé de débotter Damon, la recette qu’il lui donne pour ses yeux, et qui paroît avoir un effet si extraordinaire, produisent des scènes très piquantes. La vieille Léonor n’est pas moins heureusement introduite ; et le jeune Léandre, neveu de Damon, se trouve dans des situations fort délicates, pour un militaire. Tous ces moyens n’entravent point la marche de l’action qui est vive et rapide ; ils n’ont que la mesure de développemens nécessaire pour une pièce en un acte.</p>
+        <p>Une des scènes les plus comiques est celle où la jeune Léonor se trouve entre Léandre, son amant, et Damon, qu’elle croit aveugle : cette combinaison est à-peu-près la même que celle du second acte de l’Ecole des Maris ; mais, dans cette occasion comme dans toutes les autres, Molière reste infiniment supérieur à celui qui veut l’imiter. Quelle délicatesse, quel esprit dans l’explication que la jeune personne donne de ses sentimens ! elle enivre d’amour Sganarelle qui croit que ce discours s’adresse à lui ; mais l’amant ne perd aucune des expressions de celle qu’il aime ; malgré la présence du tuteur, elles sont toutes assez directes pour que le jeune homme ne prenne pas le change. Le Grand n’a fait qu’effleurer cette situation charmante : cependant la scène se termine d’une manière neuve et théâtrale. Damon, au lieu de prendre la main de Léonor, prend celle de son neveu : le valet s’écrie que c’est la sienne, alors Damon répond par un soufflet que Léandre se trouve recevoir sans oser se plaindre ; les cris et les pleurs du valet pour un soufflet qui ne lui a pas été donné produisent l’effet le plus comique.</p>
+        <p>Les légers défauts de cette pièce, dont le style en général n’est pas assez correct, consistent principalement dans les rôles de la Tante et de Lempesé : ces deux rôles sont un peu chargés ; ils seroient beaucoup plus gais si l’auteur ne s’étoit pas écarté des bornes de la vérité. Le mariage forcé du médecin pourroit aussi donner lieu à quelques critiques ; mais ces sortes de moyens sont admis dans la comédie ; quand d’ailleurs ils sont amenés par des scènes plaisantes, on ne demande pas une vraisemblance trop exacte qui nécessiteroit des développemens peu propres au théâtre.</p>
+        <p rend="center">FIN DE L'EXAMEN DE L'AVEUGLE CLAIRVOYANT.</p>
+      </div>
+    </back>
+  </text>
+</TEI>

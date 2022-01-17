@@ -1,0 +1,2857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les Fragmens de Molière. Comédie.</title>
+        <author key="Champmeslé (1642-1701)">Charles Chevillet, sieur de Champmeslé</author>
+        <principal>Georges Forestier</principal>
+        <editor>Marie-Astrid Lechat</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Édition critique établie par Marie-Astrid Lechat sous la direction de Georges
+          Forestier (2006)</edition>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
+        <date when="2013"/>
+        <availability status="restricted" n="cc-by-nc-nd">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
+        </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/champmesle_fragments-moliere/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/champmesle_fragments-moliere.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/champmesle_fragments-moliere.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/champmesle_fragments-moliere.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/champmesle_fragments-moliere.epub</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref target="http://bibdramatique.paris-sorbonne.fr/champmesle_fragments-moliere.xml"/>
+          <author>Charles Chevillet, sieur de Champmeslé</author>. <title>Les Fragmens de Molière. Comédie.</title>. A <pubPlace>PARIS</pubPlace>,  Chez <publisher>Jean Ribou</publisher>, sur le Quay des Augustins, au dessus de la Grand’Porte De
+          l’Eglise, à la descente du Pontneuf, A l’Image Saint Loüis.  <date when="1682">M. DC. LXXXII</date>.  Avec Privilege du Roy.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1682"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term subtype="comedy" type="genre">Comédie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>LES FRAGMENS DE MOLIÈRE</titlePart>
+          <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docAuthor>[Champmeslé]</docAuthor>
+        <docImprint/>
+        <docImprint>A PARIS, <lb/>Chez Jean Ribou, sur le Quay des Augustins, au dessus de la Grand’Porte De
+          l’Eglise, à la descente du Pontneuf, A l’Image Saint Loüis. <lb/>M. DC. LXXXII. <lb/>Avec Privilege du Roy.</docImprint>
+        <docEdition>Édition critique établie par Marie-Astrid Lechat sous la direction de Georges
+          Forestier (2006)</docEdition>
+      </titlePage>
+      <div>
+        <head>Introduction générale</head>
+        <p>Après la mort de Molière en 1673 la comédie semblait être hantée par sa mémoire. Non
+            seulement ses pièces continuèrent pour quelques années à constituer le principal élément
+            dans le répertoire de ses compagnons, mais aussi on chercha à ramener ses personnages
+            sur la scène comme le firent Brécourt (dans <hi rend="i">L’Ombre de Moliere)</hi>,
+            Champmeslé (dans <hi rend="i">Les Fragmens de Moliere)</hi>, ou encore Thomas Corneille,
+            à la demande d’Armande Béjart, veuve de Molière, il est vrai, avec la réécriture en vers
+            du <hi rend="i">Festin de Pierre</hi>. Beaucoup d’autres auteurs imitèrent Molière et sa
+            mémoire était si forte que Dufresny fit déclarer par un personnage de son <hi rend="i">Négligent</hi> en 1692 qu’il était difficile d’écrire une comédie car elle serait
+            considérée soit comme une imitation médiocre de Molière soit comme une pièce qui, ne
+            l’ayant pas imité, serait par conséquent sans valeur. Néanmoins, beaucoup s’y essayèrent
+            et tentèrent d’associer à la fois imitation et innovation.</p>
+        <p>Comme il était difficile d’accepter le fait qu’après février 1673 il n’y aurait plus de
+            nouvelles comédies écrites de la main de Molière, les trois auteurs cités plus haut
+            cherchèrent à capitaliser sa popularité dans des pièces écrites en son honneur,
+            reproduisant de célèbres scènes qu’il avait composées ou rendant possible la
+            représentation d’une œuvre interdite. Assez étrangement, ce fut la troupe rivale, celle
+            de l’Hôtel de Bourgogne, qui chercha la première à rappeler sa mémoire.</p>
+        <p>C’est ainsi qu’en mars 1674 Guillaume Marcoureau, sieur de Brécourt, produisit pour la
+            première fois à l’Hôtel de Bourgogne <hi rend="i">L’Ombre de Moliere</hi>, pièce qu’il
+            espérait voir être une « espèce de table » des comédies de Molière et donc largement
+            inspirée de ses pièces et de ses personnages. Dans cette optique, la pièce est quelque
+            peu incomplète mais elle rappelle bon nombre de pièces majeures et montre que Brécourt
+            les admirait grandement. La seconde pièce qui rend hommage à Molière requiert encore
+            moins d’esprit inventif : il s’agit des <hi rend="i">Fragmens de Moliere</hi> de Charles
+            Chevillet, sieur de Champmeslé, qui fut probablement composée à la fin de l’année 1674
+            après la représentation et la publication de <hi rend="i">L’Ombre</hi>. Le fait que <hi rend="i">Le Festin de Pierre</hi> n’avait pas été publié à ce moment-là encouragea
+            Champmeslé à reproduire quelques unes de ses scènes, en prenant soin d’éviter celles qui
+            avaient fait scandale en 1665.</p>
+        <div>
+          <head>Pourquoi rendre hommage à Molière ?</head>
+          <div>
+            <head>Les conditions et les enjeux historiques : la concurrence entre les troupes et
+                la querelle causée par la mort de Molière</head>
+            <p>De fait, une telle entreprise de la part de comédiens de l’Hôtel de Bourgogne, la
+                troupe rivale de celle de Molière, peut surprendre, car la concurrence entre les
+                troupes était, au XVII<hi rend="sup">e</hi> siècle, virulente et se trouva renforcée
+                à la mort de Molière.</p>
+            <p>Du vivant de Molière, trois troupes étaient en compétition : la troupe de l’Hôtel
+                de Bourgogne, ou Troupe royale, celle du Marais, les « petits comédiens », et celle
+                de Molière au Palais Royal, appelée la Troupe du roi depuis 1665. À la mort de
+                Molière en 1673, La Grange, comédien et régisseur de la troupe (qui a laissé un
+                précieux registre où il a consigné les événements marquants et tenu les comptes de
+                la compagnie), regroupa les comédiens autour d’Armande Béjart, veuve de Molière, et
+                assura la fusion avec le Marais. Désormais il n’y avait plus que deux troupes en
+                compétition : celle de l’Hôtel de Bourgogne et celle qui résultait de la fusion des
+                compagnons de Molière avec le Marais et qui se produisit désormais au Théâtre
+                Guénégaud.</p>
+            <p>Or à la mort de Molière une querelle débuta entre les troupes pour savoir qui
+                pouvait reprendre son répertoire. On sait que la plupart des comédies de Molière
+                connurent un grand succès et que sa mémoire hantait toujours la comédie à cette
+                période-là. Ses pièces demeuraient à l’affiche des théâtres et le public prenait
+                plaisir à venir revoir les personnages et les intrigues qui l’avaient tant fait
+                rire. Il y avait donc beaucoup d’intérêt pour chaque troupe à reprendre ce
+                répertoire pour attirer le plus grand public possible et faire recette. Mais qui
+                pouvait prétendre posséder légitimement son répertoire ? Il y avait ceux qui se
+                disaient ses héritiers, c’est-à-dire les compagnons de Molière, et ceux qui
+                estimaient, comme leurs rivaux, que Molière n’appartenait à personne. Or le
+                répertoire de Molière n’était pas la propriété de ses successeurs et c’est pourquoi
+                l’Hôtel de Bourgogne se réserva le droit de représenter toutes ses pièces qui
+                étaient désormais, parce que publiées, du domaine public.</p>
+            <p>Par ailleurs, La Grange entendait conserver pour ses compagnons le répertoire et
+                l’esprit de Molière. Les deux troupes possédaient alors quasiment le même répertoire
+                comique. Il s’agissait donc d’innover pour attirer le public tout en lui donnant à
+                voir ce qui lui plaisait. C’est dans ce contexte de compétition et d’âpres luttes
+                opposant les troupes rivales que l’on peut comprendre la démarche de Brécourt et de
+                Champmeslé. L’heure était à la concurrence et c’était à celui qui saurait tirer
+                profit du succès de Molière à son avantage propre et à celui de sa troupe. Ces
+                auteurs cherchèrent donc à capitaliser sa popularité dans des pièces écrites en son
+                honneur. Si la démarche honorifique pouvait sembler réelle au départ, elle ne
+                deviendrait ici plus qu’un prétexte pour faire ressurgir plusieurs personnages de
+                Molière, ou reproduire de célèbres scènes qu’il avait composées, les uns et les
+                autres étant bien connus du public et encore très présents dans sa mémoire. Ainsi,
+                les deux auteurs étaient-ils d’emblée presque assurés du succès de leur pièce : ils
+                ne pouvaient être accusés de plagiat, puisque leur démarche honorifique les
+                légitimait, et l’attente et le plaisir des spectateurs seraient satisfaits. Brécourt
+                le certifie lui-même dans le prologue de sa comédie comme pour assurer sa démarche
+                et faire comprendre son intention au public :</p>
+            <quote>
+              <p>Allez, Oronte, quelque chose que ce soit, le seul sentiment qui vous l’a fait
+                  entreprendre, vous doit assurer de la eüssite de vostre Ouvrage ; et rien n’est
+                  plus honneste à vous, que de montrer au Public avec quelle justice vous estimiez
+                  un si grand Homme<note n="1" place="bottom"> Brécourt, <hi rend="i">L’Ombre de
+                      Molière</hi>, Prologue, p. 11-12.</note>.</p>
+            </quote>
+            <p>De plus, il était bon pour un auteur comique d’associer son nom à celui de Molière,
+                la référence en matière de comédie. On pourrait y voir aussi une sorte de
+                revendication : le désir d’être reconnus comme de véritables auteurs comiques en
+                montrant que, s’ils n’étaient pas Molière, ils étaient capables d’écrire du
+                Molière.</p>
+          </div>
+          <div>
+            <head>Un rapport personnel de ses deux auteurs à Molière ?</head>
+            <p>Cependant, on ne peut évaluer la démarche de ces deux auteurs sur les seuls enjeux
+                historiques, car ce serait réduire leur volonté honorifique à la simple recherche de
+                profit personnel et cela amoindrirait leur désir de rendre mémoire à cet illustre
+                comédien dramaturge. Il faut considérer leurs rapports personnels avec Molière.</p>
+            <p>En ce qui concerne Brécourt, ce lien personnel est évident puisqu’il a été comédien
+                de la troupe de Molière. Même s’il n’y resta que deux années, Brécourt faisait
+                partie des excellents comédiens de la troupe et des amis de Molière. Il put donc
+                admirer de près aussi bien le comédien que le dramaturge et apprécier son style, sa
+                verve, son succès à plaire et à divertir le public tout en corrigeant les vices de
+                son siècle. Par la suite, s’il quitta la Troupe du Roi pour la Troupe royale de
+                l’Hôtel de Bourgogne, cela n’empêcha pas Brécourt de continuer à admirer ce grand
+                homme qui avait su « révolutionner » la comédie et mettre ce genre à l’honneur.
+                C’est cette admiration que Brécourt cherche à montrer dans son prologue même si
+                celui-ci contient sans aucun doute une dimension rhétorique. Il commence d’abord, à
+                travers le personnage d’Oronte, par redire son amitié pour ce grand homme :</p>
+            <quote>
+              <p>Vous sçavez que j’estimois Moliere ; et cette Piece n’est autre chose qu’un
+                  Monument de mon amitié que je consacre à sa mémoire<note n="2" place="bottom">
+                    Brécourt, <hi rend="i">L’Ombre de Moliere</hi>, Prologue, p. 9.</note>.</p>
+            </quote>
+            <p>Il continue ensuite en dressant un portrait élogieux de Molière pour prouver la
+                constance de son éthos, dans sa vie privée comme dans sa vie d’auteur et de
+                comédien :</p>
+            <quote>
+              <p>Il estoit dans son particulier, ce qu’il paroissoit dans la Morale de ses
+                  Pièces ; honneste, judicieux, humain, franc, généreux ; et mesme, malgré ce qu’en
+                  ont crû quelques Esprits mal faits, il tenoit un si juste milieu dans de certaines
+                  matières, qu’il s’éloignoit aussi sagement de l’excés, qu’il sçavoit se garder
+                  d’une dangereuse médiocrité. Mais la chaleur de nostre ancienne amitié m’emporte,
+                  et je m’apperçoy qu’insensiblement je ferois son Panegyrique, au lieu de vous
+                  demander quartier ; j’ay plus besoin de grace, que sa mémoire de loüanges<note n="3" place="bottom"><hi rend="i">Ibid.</hi>, p. 10-11.</note>.</p>
+            </quote>
+            <p>Par une pirouette rhétorique, Brécourt rappelle donc que Molière n’a pas besoin de
+                cette petite « bagatelle » pour que sa mémoire soit louée, et montre ainsi qu’il ne
+                peut soutenir la comparaison avec ce grand dramaturge. Il ne veut d’ailleurs pas
+                parler, à propos de <hi rend="i">L’Ombre</hi>, de pièce ou de comédie, il leur
+                préfère les notions de « petit ouvrage », ou de « chose » qu’il a, dit-il, « dédiée
+                à la seule mémoire de son ami ». Mais par cette fausse modestie, Brécourt laisse
+                suggérer le contraire de ce qu’il écrit, peut justifier sa démarche en la plaçant
+                uniquement sur le mode de l’éloge à un grand homme, et s’assurer ainsi l’assentiment
+                du public.</p>
+            <p>Néanmoins, si l’hommage n’est qu’un moyen pratique pour s’attirer les bonnes grâces
+                des spectateurs et de l’opinion, l’admiration de Brécourt pour Molière est sincère
+                et le portrait qu’il esquisse prouve qu’il a bien compris ce grand homme et son
+                œuvre.</p>
+            <p>Connaître le rapport que Champmeslé aurait pu avoir avec Molière est beaucoup moins
+                aisé car il ne fut jamais membre de la Troupe du Roi. Néanmoins, Molière étant le
+                grand auteur comique, il ne pouvait pas ne pas remarquer l’engouement général qui se
+                manifestait pour ses comédies, de son vivant même, mais aussi encore après sa mort.
+                Lui-même fut forcé de se mettre « à la mode » lorsqu’il écrivit des comédies pour
+                plaire au public et répondre à ses attentes et à ses exigences. C’est pourquoi, avec
+                les <hi rend="i">Fragmens de Moliere</hi>, ce n’était pas la première fois que
+                Champmeslé s’inspirait de Molière. On peut prendre pour exemple <hi rend="i">Les
+                  Grisettes</hi> (1671). Mais il faut avant tout replacer le contexte pour expliquer
+                les raisons d’une telle influence.</p>
+            <p>À partir des années 1660 et jusque dans les années 1670, quand les grands comédiens
+                virent que Molière attirait la foule au Petit-Bourbon, puis au Palais-Royal,
+                Villiers, Poisson et le fils de Montfleury fournirent l’Hôtel de Bourgogne d’un
+                répertoire de petites comédies et de farces pour concurrencer la Troupe du Roi, ce
+                que certains leur reprochèrent :</p>
+            <quote>
+              <p>On vit tout à coup, écrit Gabriel Guéret, ces comédiens graves devenir bouffons,
+                  et leurs poètes héroïques se jeter dans le goguenard<note n="4" place="bottom">
+                    Dans Adam, Antoine, <hi rend="i">Histoire de la littérature française du XVII<hi rend="sup">e</hi> siècle</hi>, Domat, 1948-1952 ; rééd. Del Duca, 1962 ;
+                    rééd. Albin Michel, 1996.</note>.</p>
+            </quote>
+            <p>D’autres, comme Robinet, s’indignèrent, au cours de la querelle de <hi rend="i">L’Ecole des femmes</hi>, de voir l’unique et incomparable Troupe royale obligée
+                de « renoncer »<note n="5" place="bottom">Il s’agit-là d’une formule. La Troupe
+                  royale n’a jamais renoncé à la tragédie : elle se met à produire davantage de
+                  comédies qui sont représentées à l’issue des tragédies.</note> à la tragédie pour
+                représenter des bagatelles et des farces. C’est d’ailleurs Raymond Poisson qui
+                entreprit de lutter à armes semblables avec Molière. En face de Sganarelle, il
+                dressa le personnage de Crispin.</p>
+            <p>Champmeslé rejoignit les Comédiens du Roi en 1670. La rivalité demeurait forte avec
+                la troupe de Molière et tout était bon, même les intrigues, pour concurrencer ses
+                adversaires et avoir la préférence. La Troupe royale chercha donc à se fournir un
+                répertoire complet tant dans le genre tragique que dans le genre comique pour être
+                la référence et avoir l’exclusivité du public. Elle avait déjà obtenu la Champmeslé,
+                la meilleure actrice de tragédie, et l’interprète préférée de Racine, et cinq de ses
+                acteurs étaient parmi les plus en vue de l’époque. Villiers, Poisson, Hauteroche,
+                Brécourt et Champmeslé fournissaient à l’Hôtel une bonne partie de son répertoire.
+                C’était un avantage pour la troupe d’avoir Brécourt qui avait joué sous l’autorité
+                de Molière, mais aussi Champmeslé, « comédien qui réunissait les talents de la
+                représentation et de la composition », comme le notera Maupoint<note n="6" place="bottom"> Maupoint, <hi rend="i">Bibliothèque des théâtres</hi>,
+                  1733.</note>, au siècle suivant.</p>
+            <p>Et de fait, Champmeslé commença sa carrière d’auteur après son entrée à l’Hôtel de
+                Bourgogne, et sa première pièce fut une comédie en trois actes, <hi rend="i">Les
+                  Grisettes</hi>. Or cette pièce s’inspirait en grande partie des sujets et des
+                personnages moliéresques. Selon Lancaster<note n="7" place="bottom"> Lancaster,
+                  Henry Carrington, <hi rend="i">A History of French Dramatic Literature in the
+                    Seventeenth Century</hi>, Baltimore, Johns Hopkins Press, 1929-1942.</note>,
+                elle trouve probablement sa source dans l’acte III de <hi rend="i">George
+                  Dandin</hi>, mais imite, en tout cas, largement les <hi rend="i">Précieuses
+                  ridicules</hi> dont elle reprend le schéma. De fait, il s’agit d’un bourgeois qui
+                désire marier ses deux filles à des hommes de leur propre classe, mais celles-ci
+                sont décidées à n’avoir que des amants gentilshommes. Lorsque Champmeslé édita la
+                pièce pour la seconde fois en 1671, il la réduisit en un acte et changa le titre
+                en : <hi rend="i">Les Grisettes ou Crispin Chevalier</hi>. On retrouvait, dans le
+                titre, le personnage de Crispin que Poisson avait opposé au personnage de
+                Sganarelle, et Lancaster estime que ce changement était probablement dû au désir de
+                Champmeslé d’imiter davantage <hi rend="i">Les Précieuses ridicules</hi> et de
+                donner une plus grande unité à sa pièce.</p>
+            <p>Cet exemple parmi d’autres prouve que Champmeslé connaissait bien les œuvres de
+                Molière, qu’il les appréciait et qu’il ne pouvait s’empêcher de s’en inspirer pour
+                la composition de ses propres comédies. On peut comprendre alors sa démarche,
+                lorsqu’il composa, après la mort de Molière, <hi rend="i">Les Fragmens</hi> : il
+                rendait hommage au grand dramaturge chez qui il avait abondamment puisé. Cependant,
+                la démarche honorifique est quelque peu amoindrie par le fait qu’il profita de ce
+                que <hi rend="i">Le Festin de Pierre</hi> n’avait pas été publié pour reproduire des
+                fragments de la pièce interdite. Il offrit ainsi en exclusivité à l’Hôtel de
+                Bourgogne des scènes reprises intégralement au <hi rend="i">Festin de Pierre</hi>,
+                encadrées par des scènes de sa propre composition, sans que l’on puisse l’accuser de
+                plagiat puisque son intention était honorable. Dans le jeu des rivalités et de la
+                concurrence la Troupe royale y trouva un avantage non négligeable.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <head>Introduction</head>
+        <p>Après <hi rend="i">L’Ombre de Moliere</hi> de Brécourt, c’est Champmeslé qui lui
+            emboita le pas pour rendre hommage à Molière en représentant pour la première fois à
+            l’Hôtel de Bourgogne, en 1674, <hi rend="i">Les Fragmens de Moliere</hi>. La pièce fut
+            reprise par la suite par la troupe de la Comédie Française au théâtre Guénégaud en 1681
+            et dans une série de représentations au théâtre de la rue des Fossés Saint-Germain en
+            1701.</p>
+        <p>La date de composition est inconnue, ainsi que la date précise de sa représentation,
+            mais comme elle était mentionnée dans <hi rend="i">Le Mercure Galant</hi> d’octobre 1677
+            parmi les pièces récemment jouées à la cour, on pourrait croire qu’elle ne parut qu’à ce
+            moment-là. Or, selon Lancaster<note n="8" place="bottom"> Lancaster Henry Carrington,
+                <hi rend="i">A History of French Dramatic Literature in the Seventeenth
+              Century</hi>, Part. III et IV, Baltimore, Johns Hopkins Press, 1929-1942.</note>,
+            comme il n’est pas sûr que <hi rend="i">Le Mercure</hi> se référait seulement aux
+            nouvelles pièces, il est possible qu’elle ait été composée plus tôt. Il la date ainsi de
+            la fin de l’année 1674 après la première représentation et la publication de <hi rend="i">L’ombre de Moliere</hi>. Le fait que <hi rend="i">Le Festin de Pierre</hi>
+            n’avait pas encore été publié à ce moment-là encouragea Champmeslé à reproduire
+            quelques-unes de ses scènes en prenant soin de ne pas reproduire celles qui avaient fait
+            scandale à sa première représentation de 1665. Champmeslé y ajoute un passage de <hi rend="i">Scapin</hi> et quelques scènes de sa propre invention qui fournissent un
+            cadre et une structure aux fragments empruntés et apporte une conclusion relativement
+            heureuse à la pièce.</p>
+        <p>La pièce ne fut publiée qu’en 1682 à Paris chez Jean Ribou, mais il ne figure aucune
+            date d’achevé d’imprimer dans l’exemplaire. Cependant, la gazette de Leyde datée du 10
+            février 1682 annonçait la mise en vente chez Ribou des <hi rend="i">Fragmens de
+              Moliere</hi> de Champmelé. Il ne figure pas non plus de privilège, bien que la mention
+              « <hi rend="i">Avec Privilege du Roy »</hi> apparaisse sur la page de couverture. À ce
+            sujet on peut émettre plusieurs hypothèses, nous retiendrons celle-ci : il est dit dans
+            le privilège d’une autre pièce de Champmeslé, <hi rend="i">Les Parisiens</hi>, daté de
+            1682, la même année que la publication des <hi rend="i">F</hi>ragmens, que « ledit Sieur
+            de Champmeslé a cédé et transporté son droit de privilège à Jean Ribou, Marchand
+            libraire, pour en jouir suivant l’accord fait entre eux ». L’édition des <hi rend="i">Fragmens</hi> ayant été réalisée par Jean Ribou, comme la plupart de ses autres
+            pièces, il a pu y avoir un report automatique du privilège sans que celui-ci ait été
+            retranscrit. Il est probable qu’il n’y ait plus d’exemplaire de l’édition de 1682 car on
+            trouve en fait la pièce dans <hi rend="i">Les Œuvres de Monsieur de Champmeslé</hi>,
+            imprimées à Paris chez Jean Ribou en 1692. Une autre édition de ses œuvres fut effectuée
+            en 1696 chez T. Guillain. Jean Ribou les réédita par la suite en 1735 et en 1742 après
+            la mort du dramaturge. En résumé, s’il y a eu publication de la seule pièce des <hi rend="i">Fragmens</hi>, ce serait donc seulement en 1682.</p>
+        <p>Champmeslé reprend donc, par fragments, des sènes du <hi rend="i">Festin de pierre</hi>
+            de Molière ainsi que ses personnages pour recomposer une petite comédie en deux actes et
+            en prose, basée sur une nouvelle intrigue : ce n’est plus tant l’histoire de Dom Juan,
+            mais celle de Pierrot et Charlotte, deux paysans et personnages secondaires de la pièce
+            de Molière, dont le mariage est devenu incertain depuis l’arrivée de Dom Juan.</p>
+        <p>Pierrot, paysan, est fiancé à Charlotte, la fille du juge du village. Au début du
+            premier acte, Pierrot a sauvé Dom Juan et son valet Gusman d’un naufrage en mer et les a
+            emmenés chez lui. Dom Juan rencontre Charlotte, la séduit et lui montre tous les
+            avantages qu’il y aurait à être une dame de condition : mais pour cela, elle doit
+            renoncer à Pierrot et s’enfuir avec lui. Elle se laisse facilement fléchir, mais Pierrot
+            arrive sur ces entrefaites, découvre tout et va se plaindre au juge de l’inconstance de
+            sa fille. De son côté, Gusman rassure son maître : il lui obtiendra Charlotte en faisant
+            pression sur le juge, grâce à une petite mise en scène. Mais le procédé échoue et le
+            juge menace d’ameuter tout le village contre Dom Juan. Gusman conseille à son maître de
+            fuir, devant le nombre et la fureur des villageois, et de revenir plus tard pour donner
+            suite à ses projets avec Charlotte s’il le souhaite. Un malheur n’arrivant jamais seul,
+            Dom Juan et Gusman ont la déplaisir de voir arriver Monsieur Dimanche, créancier à qui
+            ils doivent tous deux de l’argent et qu’ils fuyaient lorsqu’ils ont fait naufrage. Ils
+            parviennent sans mal à le chasser sans le payer. Gusman doit alors raccommoder le
+            désordre provoqué par Dom Juan. Il parvient à calmer le juge et Pierrot, en train de
+            donner l’alarme, en leur apprenant que Dom Juan ne s’oppose plus au mariage de Pierrot
+            et Charlotte, et qu’au contraire il payera le festin et désire être le parrain de leur
+            premier enfant. Pierrot, tout heureux, va boire à la santé de Dom Juan.</p>
+        <p>Par rapport à <hi rend="i">L’ombre de Molière</hi>, la pièce requiert encore moins
+            d’esprit d’inventivité car il ne s’agit plus seulement de reprendre ici des personnages
+            moliéresques avec quelques unes de leurs répliques et leurs attributs, et nous verrons
+            que Champmeslé modifie certains traits, il s’agit avant tout de reprendre des passages,
+            voire des scènes entières, d’une comédie de Molière qui n’a pas encore été publiée.
+            Peut-être faut-il rappeler les raisons de cette non publication.</p>
+        <p><hi rend="i">Le Festin de Pierre</hi> fut créé par Molière en février 1665, mais dès sa
+            première représentation la pièce fit scandale, et l’on prit soin de l’étouffer car elle
+            survenait après la querelle déchaînée par <hi rend="i">Tartuffe</hi> qui était déjà
+            assez virulente pour ne pas en commencer une nouvelle. La pièce disparut donc au
+            lendemain de Pâques et ne fut jamais reprise. En 1677, la veuve de Molière demanda à
+            Thomas Corneille de faire une adaptation en vers du <hi rend="i">Festin de Pierre</hi>.
+            Une autre version apparut en 1682 dans le receuil des <hi rend="i">Œuvres de Monsieur de
+              Molière</hi> édité à Paris : il s’agissait de la pièce modifiée par La Grange qui
+            l’intitula <hi rend="i">Dom Juan</hi>. La version complète de la pièce de Molière, que
+            l’on disait être telle qu’elle avait été jouée la première fois, fut publiée à Amsterdam
+            en 1683. Les éditions actuelles intitulées <hi rend="i">Dom Juan</hi> sont donc de pures
+            fabrications faites à partir de l’édition de 1682 à laquelle on a rajouté des parties
+            manquantes piochées dans l’édition d’Amsterdam. Il ne s’agit donc pas du <hi rend="i">Festin de Pierre</hi>, pièce sulfureuse en prose de Molière disparue depuis toujours,
+            mais d’une pièce refabriquée qui, elle, ne fait pas scandale. En résumé, il y a deux <hi rend="i">Festin de Pierre</hi> qui courent sous le nom de Molière : celui réécrit par
+            Thomas Corneille et qui porte le même titre, et le <hi rend="i">Dom Juan</hi> édité par
+            La Grange, ancien compagnon de Molière.</p>
+      </div>
+      <div>
+        <head>Qui était Champmeslé ?</head>
+        <p>Charles Chevillet, sieur de champmeslé, naquit le 20 octobre 1642 à Paris et y mourut
+            le 22 août 1701. Il était le fils d’un marchand de rubans sur le Pont-au-Change. Il
+            commença probablement sa carrière théâtrale en 1665 en jouant dans la troupe de François
+            Serdin qui se produisait à Rouen. C’est là qu’il épousa le 9 janvier 1666 Marie
+            Desmares, jeune comédienne qui prit le nom de la Champmeslé par son mariage et allait
+            devenir l’une des plus célèbres comédiennes de tragédie et l’interprète favorite de
+            Racine. Il aspira bientôt à paraître sur le théâtre de la capitale et, s’étant aquis de
+            la réputation en province, il ne lui fut pas difficile de se faire recevoir en 1668 avec
+            sa femme au théâtre du Marais où il établit, entre autres, le rôle de Policrate dans la
+            comédie héroïque de l’abbé Boyer qui porte ce titre, ou le rôle de Mars dans <hi rend="i">Les Amours de Vénus et d’Adonis</hi> de Donneau de Visé. À Pâques 1670 il
+            passa avec sa femme dans la troupe de l’Hôtel de Bourgogne où il créa notamment le rôle
+            d’Antiochus dans la <hi rend="i">Bérénice</hi> de Racine, de Métellus dans le <hi rend="i">Régulus</hi> de Pradon, ou d’Arsace dans le <hi rend="i">Tiridate</hi> de
+            Campistron. Il joua à la fois des rois de tragédie et des paysans de comédie. Mais à
+            Pâques 1679, Champmeslé alla, sur la demande de La Grange, retrouver ses anciens
+            camarades du Marais, réunis sur le théâtre Guénégaud à la troupe de Molière, dont La
+            Grange faisait partie, avant de participer à la création de la Comédie Française en
+            1680. Il mourut subitement le 22 août 1701 devant un cabaret, d’autres disent en en
+            sortant, ce qui porta préjudice aux cérémonies de sa sépulture.</p>
+        <p>Il était réputé pour être un fort bon acteur, et même Lancaster dit à son sujet qu’« il
+            devint si célèbre comme acteur que les auteurs le consultaient au sujet de leurs pièces
+            et qu’il amassa une fortune considérable<note n="9" place="bottom"> Lancaster Henry
+              Carrington, <hi rend="i">A History of French Dramatic Literature in the Seventeenth
+                Century</hi>, Part. III et IV, Baltimore, Johns Hopkins Press, 1929-1942.</note> ».
+              Lemazurier<note n="10" place="bottom"> Lemazurier, <hi rend="i">Galerie historique des
+                acteurs de théâtre français depuis 1600 jusqu’à nos jours</hi>, Paris, J. Chaumerot,
+              1810, t. I, p. 181.</note> ne conteste pas ce fait et affirme pour sa part que
+            Champmeslé « était un homme d’esprit et de goût » dont les « conseils furent utiles à
+            beaucoup d’auteurs de son temps […] et qu’il parvint à se faire aimer du public ».</p>
+        <p>Champmeslé ne commença pas sa carrière d’auteur avant son entrée à l’Hôtel de Bourgogne
+            et il écrivit d’agréables pièces sans prétention en prose ou en vers et de un, trois ou
+            cinq actes. Il composa essentiellement des comédies comme <hi rend="i">Les
+              Grisettes</hi> (1671) reprise et modifiée la même année sous le titre <hi rend="i">Les
+              Grisettes ou Crispin chevalier</hi> ; <hi rend="i">L’heure du Berger</hi>, pastorale
+            en cinq actes (1672) ; <hi rend="i">La Rue Saint-Denis</hi> et <hi rend="i">Le
+              Parisien</hi> (1682) ; <hi rend="i">Ragotin</hi> (1684), dérivé du <hi rend="i">Roman
+              Comique</hi> et parodie de la <hi rend="i">Cléopâtre</hi> de La Chapelle ; <hi rend="i">La Veuve</hi>, pièce non publiée (1699) ; et on prétend qu’il écrivit avec La
+            Fontaine les quatre petites pièces suivantes, : <hi rend="i">Le Florentin</hi>, 1685,
+              <hi rend="i">La Coupe enchantée</hi>, 1688, <hi rend="i">Le Veau perdu</hi>, 1689, et
+              <hi rend="i">Je vous prends sans verd</hi>, 1693. Il a composé également ces comédies
+            qui n’ont pas été publiées et qui ont été perdues : <hi rend="i">La Bassette</hi>, 1680,
+              <hi rend="i">Les Joueurs</hi> et <hi rend="i">Le Divorce</hi>, 1683.</p>
+        <p>Il s’inspire beaucoup des pièces de Molière dans le choix de ses personnages et de ses
+            sujets pour composer ses comédies. On pense bien sûr aux <hi rend="i">Grisettes</hi> qui
+            imitent les <hi rend="i">Précieuses ridicules</hi>, aux <hi rend="i">Fragmens de
+              Molière</hi>, évidemment, mais aussi au <hi rend="i">Florentin</hi> qui ressemble à
+              <hi rend="i">L’Ecole des femmes</hi>, mais en un acte seulement.</p>
+      </div>
+      <div>
+        <head>L’intrigue et sa source.</head>
+        <div>
+          <head>La simplification de l’intrigue du <hi rend="i">Festin de Pierre</hi></head>
+          <p><hi rend="i">Les Fragmens de Moliere</hi> reprennent donc, comme le titre l’indique,
+              des fragments du <hi rend="i">Festin de Pierre</hi> que Champmeslé lie avec des scènes
+              de sa propre création pour fournir la charpente d’une petite comédie en deux actes qui
+              repose sur une intrigue tout à fait différente de celle de Molière. La pièce n’a plus
+              les mêmes enjeux que <hi rend="i">Le Festin de Pierre</hi> car elle n’ambitionne pas
+              de condamner, dans une intention moralisante, l’impiété, l’immoralité et la conduite
+              scandaleuse de Dom Juan, même si celui-ci demeure volage et séducteur. En effet, la
+              pièce propose une intrigue de comédie puisque l’enjeu est de savoir si le mariage de
+              Pierrot et Charlotte, deux paysans, pourra avoir lieu, Dom Juan constituant l’obstacle
+              majeur à sa réalisation. On peut donc affirmer qu’il s’agit-là du schéma typique de la
+              comédie : deux amants en parfaite intelligence séparés par un obstacle, Dom Juan et sa
+              séduction, et réunis à la fin par un mariage. Néanmoins, le terme d’amants est un peu
+              excessif parce que Pierrot et Charlotte sont loin des amants en parfaite intelligence
+              que l’on peut rencontrer par exemple chez Molière. Charlotte est fiancée à Pierrot par
+              la volonté de son père et non la sienne, ainsi que cela se fait couramment à cette
+              époque. D’ailleurs cette décision ne tient qu’à peu de chose car Charlotte explique à
+              Dom Juan :</p>
+          <quote>
+            <p>Oh, Monsieur, mon pere me vouloit marier au gros Lucas, mais ma mere n’a pas voulu,
+                à cause qu’il me falloit aller demeurer à trois lieuës d’icy avec luy<note n="11" place="bottom"> Champmeslé, <hi rend="i">Les Fragmens de Moliere</hi>, Acte I,
+                  scène IV, p. 26.</note>.</p>
+          </quote>
+          <p>Elle est donc fiancée à Pierrot qui « demeure auprès de chez eux ». En outre, comme
+              chez Molière, le manque de ferveur de Charlotte est exprimé par Pierrot dès la scène
+              III du premier acte dans laquelle il se plaint qu’elle ne montre pas assez les marques
+              de son amour et qu’elle ne lui rend pas l’affection qu’il a pour elle. Ainsi, lorsque
+              Pierrot lui dit que « quand l’an a de l’amitié pour les personnes, on en donne
+              toûjours queuque petite signifiance », elle lui répond :</p>
+          <quote>
+            <p>Hé bien, laisse-moy en repos, et va en chercher quelque autre<note n="12" place="bottom"><hi rend="i">Ibid.</hi>, Acte I, scène III, p. 22.</note>.</p>
+          </quote>
+          <p>Et lorsque Pierrot lui demande un peu plus d’amitié elle réplique que « cela viendra
+              sans y songer ». Le manque d’ardeur de Charlotte pourrait constituer l’un des
+              obstacles au mariage, mais il devient rapidement un faux obstacle relayé par un
+              nouveau fondamentalement plus majeur : l’arrivée, à la fin de la scène, de Dom Juan
+              qui préoccupe trop Charlotte pour qu’elle puisse promettre à Pierrot de faire des
+              efforts pour l’aimer d’avantage.</p>
+        </div>
+        <div>
+          <head>Le changement de protagoniste</head>
+          <p>Par cette nouvelle intrigue, Champmeslé opère un changement de protagoniste par
+              rapport au <hi rend="i">Festin de Pierre</hi> puisque les deux paysans, personnages
+              secondaires chez Molière, se trouvent, avec Champmeslé, basculés au centre de
+              l’intrigue, et Dom Juan, en jouant le second rôle, n’est plus que l’obstacle qui nuit
+              à la réunion des deux fiancés. En outre, d’autres personnages secondaires du <hi rend="i">Festin de Pierre</hi> ont, dans <hi rend="i">Les Fragmens</hi>, un rôle
+              décisif et notamment le juge, le père de Charlotte, substitué au personnage de la
+              tante dans <hi rend="i">Le Festin</hi>, présent dans plusieurs scènes et dont la
+              menace de faire sonner le tocsin contre Dom Juan le fait fuir, détruisant ainsi le
+              principal obstacle qui empêchait le mariage. Il permet même de précipiter ce mariage,
+              qui ne semblait pas prévu dans un avenir aussi proche au début de la pièce, car il est
+              question, à la dernière scène, du festin que Dom Juan va offrir, même s’il n’est pas
+              dit clairement que le mariage va avoir lieu à la fin de la journée. De fait, devant
+              l’heureuse nouvelle de la possibilité de son mariage, Pierrot ne va pas chercher le
+              notaire ou le curé, il s’en va « boire chopine » ! On pourrait croire, aussi, que le
+              rôle de Monsieur Dimanche est décisif et que son arrivée concourt à faire fuir Dom
+              Juan –et c’est ainsi que Champmeslé aurait pu présenter la scène pour mieux l’intégrer
+              dans l’action de la pièce– mais, étant donné que la décision de fuir est déjà prise
+              avant que Gusman ne soit informé par son maître de son arrivée, la scène avec le
+              créancier n’a pas de véritable incidence sur l’action et ne fait que renforcer ce qui
+              a été décidé à la scène précédente.</p>
+          <p>Champmeslé offre donc une simplification très nette de l’intrigue du <hi rend="i">Festin</hi> puisqu’il n’en reprend que quelques fragments, mais aussi parce que la
+              pièce se déroule uniquement sur deux actes, ce qui ne lui confère pas forcément, pour
+              autant, une plus grande unité. Il n’y a pas, par exemple unité de lieu, puisque la
+              scène représente plusieurs lieux différents. À ce sujet, l’absence de didascalies
+              n’aide pas le lecteur à s’y retrouver, s’il ne peut pas être spectateur également. Il
+              est nécessaire, pour le spectateur comme pour le lecteur, de garder à l’esprit la
+              scénographie du <hi rend="i">Festin de Pierre</hi> pour identifier l’espace de la
+              pièce. Arrêtons-nous donc un instant pour redéfinir la scénographie et les lieux de la
+              pièce en nous basant sur le <hi rend="i">Dom Juan</hi>, la version actuelle que nous
+              avons de la pièce de Molière.</p>
+        </div>
+        <div>
+          <head>La scénographie des <hi rend="i">Fragmens</hi></head>
+          <p>Pour le décor de l’acte I, on se réferre à l’acte II du <hi rend="i">Dom Juan</hi> où
+              sont reprises les scènes entre Pierrot et Charlotte, Gusman et Dom Juan. Le théâtre
+              représente un hameau de verdure, avec une grotte au travers de laquelle on voit la
+              mer : il s’agit donc d’un décor de campagne en bord de mer. La maison de Pierrot,
+              ainsi que celle de Charlotte et du juge doivent également être représentées. À
+              l’ouverture de la scène I, les deux pasteurs Lignon et Jourdain déclament leur amour
+              probablement devant la porte de la demeure de Charlotte. En effet, à la scène II,
+              Lignon déclare :</p>
+          <quote>
+            <p>nous sommes deux pauvres Amans nécessiteux, qui viennent à vostre Porte vous
+                demander l’aumône de vos bonnes graces<note n="13" place="bottom"> Champmeslé, <hi rend="i">Les Fragmens de Moliere</hi>, Acte I, scène II, p. 9.</note>.</p>
+          </quote>
+          <p>Ils se retirent à la fin de la scène en voyant venir, depuis la mer, Pierrot qui
+              entre à la scène III, une rame à la main d’après <hi rend="i">Le Mémoire de
+                Mahelot</hi>, puisqu’il arrive après avoir sauvé Dom Juan naufragé. Pierrot et
+              Charlotte se tiennent probablement toujours devant la maison de celle-ci, avec la mer
+              en perspective pour que Pierrot puisse la désigner lorsqu’il raconte à Charlotte le
+              sauvetage. Dom Juan et Gusman entrent à la scène IV, tandis que Pierrot va « boire
+              chopine ». Ils sortent sans doute de la maison de Pierrot, qui les avait emmenés chez
+              lui après le sauvetage, et la scène se déroule toujours devant la maison de Charlotte
+              puisque Dom Juan la désigne en lui disant qu’il faut qu’elle quitte « une si triste
+              demeure ». Pierrot entre à la scène V et le décor reste inchangé. Les personnages se
+              tiennent toujours devant la maison de Charlotte où Pierrot entrent à la fin de la
+              scène, probablement suivi par Charlotte, pour aller voir le juge. Dom Juan et Gusman
+              restent seuls devant la maison, complotent pour obtenir Charlotte, puis s’en vont, à
+              la fin de la scène et donc du premier acte, « faire un doigt de collation ».</p>
+          <p>Le deuxième acte s’ouvre avec le même décor : à la scène I, le juge et Charlotte se
+              tiennent devant leur maison puisque le premier dit à sa fille de « rentrer au logis »,
+              ce qu’elle fait. Arrive, à la scène II, Gusman qui s’entretient avec le juge devant la
+              maison de ce dernier. Puis, c’est l’entrée de Silvestre, à la scène III, pour la
+              petite scène que Gusman a préparée pour terrifier le juge. Gusman demande au juge de
+              se tenir « un peu à l’écart », ce qui signifient qu’ils s’écartent sans doute de la
+              maison du juge, et s’avancent probablement sur le devant de la scène. Silvestre sort
+              après son petit numéro à l’épée, et à la fin de la scène, le juge rentre sans doute
+              chez lui « pour consulter ce qu’il a à faire », laissant Gusman seul. Un changement de
+              décor est opéré pour les scènes IV et V puisque l’on se trouve dans la maison de Dom
+              Juan que Gusman vient retrouver pour lui donner l’issue de son complot. Dom Juan lui
+              apprend l’arrivée de Monsieur Dimanche qui entre à la scène V dans ses appartements.
+              Cela est confirmé par la didascalie qui indique que Dom Juan « repousse insensiblement
+              M. Dimanche jusques à ce qu’il soit contre la porte », puis par le fait qu’il
+              appellent ses gens pour que l’on apporte des flambeaux et pour que soit reconduit M.
+              Dimanche. L’auteur laisse libre court à l’imagination du lecteur pour savoir dans
+              quelle maison se trouve Dom Juan. Néanmoins on sait qu’il n’a pas quitté le village,
+              contrairement à la pièce de Molière, puisque Gusman lui propose d’enlever Charlotte
+              « à la première occasion d’une barque qui partira »<note n="14" place="bottom">
+                Champmeslé, <hi rend="i">L’Ombre de Molière</hi>, Acte II, scène IV, p. 47.</note>.
+              Dom Juan occupe donc sans doute une maison du village ou une chambre dans une
+              hôtellerie. C’est Gusman qui reconduit le créancier en lui servant ironiquement le
+              même discours poli que son maître pour ne pas payer ses dettes. La scène VI nous fait
+              revenir dans le hameau avec le décor de campagne. Le juge et Pierrot sont en train
+              d’ameuter le village. À la septième et dernière scène, Gusman entre pour les calmer et
+              la pièce s’achève ainsi sur le même décor qu’à son commencement.</p>
+          <p>Il reste à émettre des hypothèses sur la façon dont est placé le décor sur la scène,
+              pour justifier que le changement radical de décor aux scènes IV et V de l’acte II ne
+              soit pas justifié par une didascalie. On peut ainsi penser que la demeure ou la
+              chambre d’hôtellerie que Dom Juan occupe dans le hameau est placée au centre du
+              théâtre sur le mur du fond et qu’un décor coulissant permet de faire voir les
+              appartements de Dom Juan pour ces deux scènes. Sur le côté gauche se trouvent
+              probablement la maison de Pierrot et, sur le devant de la scène, la grotte avec la mer
+              en perspective. Sur le côté droit se trouvent sûrement la maison du juge et de
+              Charlotte, au-devant de la scène, et peut-être, au fond, une auberge où Pierrot va
+              boire à plusieurs reprises. Mais cela reste une hypothèse car il n’y a jamais
+              désignation de ce lieu dans le texte. Il peut n’y avoir qu’un décor de façade de
+              maison pour compléter le décor villageois. Cependant, tout ce décor reste du domaine
+              de l’hypothèse, car <hi rend="i">Le Mémoire de Mahelot</hi> montre qu’il n’y a pas
+              mention de logis dans la liste des accessoires et du décor de la pièce. L’article
+              attribué aux <hi rend="i">Fragmens</hi> dit, en effet, ceci :</p>
+          <quote>
+            <p>Il faut deux crosses, une rame ou baton à deux bouts, l’épée et l’habit du brave,
+                un deuil noir, des habits de paysans.</p>
+          </quote>
+          <p>Et Lancaster précise :</p>
+          <quote>
+            <p>Les crosses sont probablement pour les acteurs qui représentent les fleuves du
+                Jourdain et du lignon, acte I, scène I ; la rame pour Pierrot, qui arrive en scène
+                après aboir sauvé Don Juan naufragé, I, 3 ; le costume du brave pour Silvestre, II,
+                3 ; le deuil pour le juge, II ; les habits de paysan pour Charlotte et Pierrot, I,
+                3. On omet II, 1, logis.<note n="15" place="bottom"> [Lancaster Henry Carrington,
+                  éd.], <hi rend="i">Le Mémoire de Mahelot, Laurent et autres décorateurs de l’Hôtel
+                    de Bourgogne</hi>, Paris, Champion, 1920, p. 136.</note></p>
+          </quote>
+        </div>
+        <div>
+          <head>L’enchaînement difficile des scènes et le manque de clarté de l’intrigue</head>
+          <p>Le fait que Champmeslé pioche des fragments du <hi rend="i">Festin de Pierre</hi>
+              pour les assembler avec ses propres scènes peut expliquer le difficile enchaînement
+              entre certaines scènes et le manque de clarté, voire de cohérence, à différents
+              moments de l’action. C’est le cas, notamment, pour les deux premières scènes qui ne
+              présentent aucune utilité pour l’action, mise à part le seul fait que la scène I
+              informe le spectateur que Charlotte est promise à Pierrot ; cela concerne également la
+              scène V de l’acte II, puisque l’arrivée de Monsieur Dimanche n’a pas de rapport direct
+              avec l’action des <hi rend="i">Fragments</hi> et ne l’influence aucunement. À ce
+              sujet, Champmeslé est donc contraint de préciser tardivement, à travers Gusman,
+              pourquoi il introduit ce personnage et il en fait ainsi la cause principale de la
+              fuite de Dom Juan et de Gusman qui précède leur naufrage, tout ces éléments ayant eu
+              lieu avant le début de la pièce.</p>
+          <quote>
+            <p>Quel diable d’embarras ! On dit bien vray, qu’un mal-heur ne vient jamais sans
+                l’autre. Nous partons joyeux d’un païs où nous sommes endebtez, pour aller employer
+                nostre credit ailleurs ; un maudit banc de sable nous fait faire naufrage ;
+                l’amourette vous prend pour une fille promise à un autre ; on nous menace d’amenter
+                tout le village sur nous ; et pour comble de maux nous trouvons M<hi rend="sup">r</hi> Dimanche.<note n="16" place="bottom"> Champmeslé, <hi rend="i">Les
+                    Fragmens de Moliere</hi>, Acte II, scène IV, p. 50.</note></p>
+          </quote>
+          <p>Le manque de clarté touche la scène III de l’acte II où entre Silvestre. De fait,
+              lorsque ce personnage entre sur la scène, il n’y a aucune information sur son identité
+              et aucune indication expliquant qu’il fait partie du complot dressé par Gusman. Ce
+              dernier mentionne cependant, à la scène précédente, le fait qu’un « drosle » menace de
+              tuer le juge. L’arrivée de Silvestre à la suite de ce propos doit suffir à prouver
+              qu’il s’agit du drôle en question. Le spectateur doit suggérer la connivence des deux
+              hommes par le jeu des acteurs sur la scène, mais pour le lecteur il est moins évident
+              de le deviner, d’autant plus que Gusman ne donne aucune explication à l’acte I à
+              propos du stratagème qu’il a imaginé pour conquérir Charlotte et ne mentionne pas
+              celui qui va l’aider à le réaliser. Silvestre est, en fait, un autre valet de Dom Juan
+              et compagnon de Gusman. Cela est prouvé par les propos de Gusman qui dit au juge à son
+              sujet :</p>
+          <quote>
+            <p>C’est un drosle qui prend avec un peu trop de chaleur les interests de mon Maistre
+                contre vous, touchant vostre fille<note n="17" place="bottom"> Champmeslé, <hi rend="i">Les Fragmens de Moliere</hi>, Acte II, scène II, p. 39.</note>.</p>
+          </quote>
+          <p>Plus loin, Silvestre dit « mon Maistre », ce qui est une référence à Dom Juan.</p>
+          <p>Cependant, si l’identité du personnage est floue dans la pièce, le spectateur, comme
+              le lecteur, reconnaît aisément le personnage que Champmeslé tire des <hi rend="i">Fourberies de Scapin</hi>, car la scène imite encore une fois en grande partie
+              celle de Molière où Silvestre intervient. Reconnaissant donc le personnage, le
+              spectateur peut alors aisément deviner qu’il est complice de Gusman et qu’il s’agit-là
+              de la « fourberie » imaginée au premier acte.</p>
+        </div>
+        <div>
+          <head>Unité de temps et d’action ?</head>
+          <p>À côté de la multiplicité du décor, l’unité de temps est, en revanche, respectée. En
+              effet l’action se déroule en une seule journée, débutant, avant la levée du rideau,
+              par le sauvetage de Dom Juan le matin, le mot est prononcée par Charlotte lorsqu’elle
+              mentionne « le coup de vent da matin », et s’achevant le soir, puisque Dom Juan fait
+              demander des flambeaux.</p>
+          <p>Si l’unité de temps est incontestable, il n’en va pas de même, semble-t-il pour
+              l’action. De fait, bien que la pièce soit courte, peut-on parler d’unité d’action ?
+              Lancaster estime que la pièce est particulière parce qu’elle ne se compose que de deux
+              actes et que, malgré cela, l’unité de l’action n’est pas préservée puisque les
+              épisodes de Lignon, Jourdain et M. Dimanche n’ont pas d’effet sur l’intrigue<note n="18" place="bottom"> Lancaster Henry Carrington, <hi rend="i">A History of French
+                  Dramatic Literature in the Seventeenth Century</hi>, Part. III et IV, Baltimore,
+                Johns Hopkins Press, 1929-1942.</note>. En effet, puisque l’enjeu de la pièce est le
+              mariage de Pierrot et Charlotte, Champmeslé aurait pu faire des deux pasteurs amoureux
+              un obstacle supplémentaire à la réalisation du mariage, ce qu’il ne fait pas. On ne
+              comprend pas pourquoi Champmeslé ajoute alors cette scène qui n’a véritablement aucune
+              utilité pour l’action et qui, en outre, amène une contradiction sur le personnage de
+              Charlotte. La scène II remet, de fait, en cause la constance du personnage car elle
+              est présentée ici comme une jeune fille fidèle, éconduisant ses prétendants. Or, dès
+              la scène III, Charlotte se montre plus volage lorsqu’elle demande à Pierrot si les
+              gentilhommes qu’il a sauvés sont encore nus, exprimant ainsi son désir d’aller voir.
+              Sa fidélité est d’ailleurs remise en cause par les plaintes de Pierrot, à la même
+              scène, à propos de son manque de ferveur, mais aussi et surtout à la scène IV où elle
+              se laisse facilement convaincre par Dom Juan de quitter Pierrot et de partir avec
+              lui.</p>
+          <p>En ce qui concerne M. Dimanche, nous l’avons vu, ce n’est pas son arrivée qui fait
+              fuir Dom Juan. Il n’est donc pas celui qui permet de détruire l’obstacle empêchant le
+              mariage.</p>
+          <p>Peut-on alors dire, comme pour <hi rend="i">L’ombre de Molière</hi>, que l’intrigue
+              ne devient plus qu’un prétexte pour permettre de faire succéder les scènes de Molière
+              et leur donner une certaine cohérence entre elles ? De fait, Champmeslé met l’accent
+              sur les fragments du <hi rend="i">Festin de Pierre</hi> au détriment de la continuité
+              de l’action, de sa cohérence et de sa clarté.</p>
+        </div>
+      </div>
+      <div>
+        <head>Les Fragmens et leur original moliéresque</head>
+        <p>Sur les douze scènes qui composent <hi rend="i">Les Fragmens de Moliere</hi>,
+            Champmeslé en reprend cinq à Molière, dont quatre au <hi rend="i">Festin de Pierre</hi>
+            et une aux <hi rend="i">Fourberies de Scapin</hi>, auxquelles il va fournir un lien en
+            les mêlant à sept scènes de sa propre composition.</p>
+        <div>
+          <head>Les scènes reprises à Molière</head>
+          <div>
+            <head>Le Festin de Pierre</head>
+            <p>Les scènes III, IV et V de l’acte I, et V de l’acte II sont donc largement reprises
+                au <hi rend="i">Festin de Pierre</hi> de Molière. L’imitation est généralement très
+                étroite mais on note quelques modifications infimes soit d’ordre lexical comme par
+                exemple, pour la première réplique de Charlotte à la scène III, la substitution de
+                « Nostre-dinse » par « Pargué », ou encore l’emploi de « Pierrot » à la place de
+                « Piarrot », de « Parguenne » à la place de « Parquienne » ; soit d’ordre syntaxique
+                avec la suppression ou le rajout de mots ; ou encore des modifications dans la
+                ponctuation, etc.</p>
+            <p>Pour ce qui est de ces changements on ne sait s’ils sont dus au choix de l’auteur
+                ou au fait qu’il aurait suivi un manuscrit qui comportait une leçon différente de
+                celui de l’édition posthume des <hi rend="i">Œuvres de Molière</hi> ou de celui de
+                l’édition d’Amsterdam. Nous établirons la comparaison à partir du <hi rend="i">Dom
+                  Juan</hi>.</p>
+            <p>Les trois scènes du premier acte correspondent aux trois premières scènes de l’acte
+                II du <hi rend="i">Dom Juan</hi> où la scène se situe dans le village de Pierrot et
+                Charlotte, dans le décor de campagne en bordure de mer. Dom Juan vient d’y arriver
+                après avoir fait naufrage avec son valet Sganarelle<note n="19" place="bottom"> Dans
+                    <hi rend="i">Les Fragmens de Molière</hi>, Champmeslé substitue Gusman à
+                  Sganarelle.</note>. Il rencontre Charlotte et tente de la séduire par des
+                flatteries et par un discours libertin.</p>
+            <p>En ce qui concerne les scènes III et V des <hi rend="i">Fragmens</hi>, les
+                changements sont insignifiants, excepté ceux requis par l’intrigue. Champmeslé
+                conserve le langage paysan, ce qui fait toute la saveur et le comique de ces scènes,
+                car il est en décalage complet avc le langage galant et raffiné de Dom Juan. La
+                scène III est intégralement reprise à Molière et l’on observe très peu de
+                changements. On peut simplement noter que chez Molière, Charlotte promet à Pierrot
+                qu’elle fera tout ce qu’elle peut pour l’aimer davantage avant que Dom Juan
+                n’arrive, tandis que dans <hi rend="i">Les Fragmens</hi> elle paraît bien plus
+                intéressée par l’arrivée de Dom Juan qu’elle trouve tout à fait à son goût. La scène
+                V est presque en tout point semblable à la scène correspondante du <hi rend="i">Festin de Pierre</hi>, excepté le fait que Gusman n’intervient pas pour demander
+                à son maître de ne plus battre Pierrot et « de laisser-là ce pauvre misérable », car
+                cela ne correspond plus au nouveau personnage du valet que Champmeslé a modifié.
+                Gusman ne prend pas non plus le soufflet que Dom Juan destine à Pierrot. La fin de
+                la scène est modifée : après que Pierrot soit parti pour se plaindre au père de
+                Charlotte, et non à sa tante, de ce qui s’est passé, Gusman et Dom Juan restent
+                seuls en scène, Charlotte ayant dû sortir à la suite de Pierrot. Dom Juan persuade
+                son valet que les sentiments qu’il a pour Charlotte sont véridiques, ce que croit
+                Gusman, et ce dernier assure à son maître qu’il va « servir sa passion » et l’aider
+                à conquérir sa belle par quelque ruse. L’idée du valet aidant son maître est bien
+                évidemment absente dans <hi rend="i">Dom Juan</hi>, la scène se termine par les
+                nouvelles cajoleries de Dom Juan envers Charlotte, mais il est interrompu par
+                l’arrivée de Mathurine.</p>
+            <p>Pour ce qui est de la scène IV des <hi rend="i">Fragmens</hi>, on note plus de
+                changements : les répliques d’ouverture sont modifiées, ce qui tient au fait que
+                l’intrigue a elle-même été modifiée : il faut donc accorder la scène et la première
+                apparition de Dom Juan et Gusman avec le début de la pièce. On note également un
+                changement dans l’ordre de quelques unes des répliques. Chez Molière, Dom Juan
+                commence d’abord par demander à Charlotte son nom, puis il la séduit et la flatte en
+                la décrivant des pieds à la tête, et enfin lui demande si elle est mariée pour la
+                convaincre ensuite de son amour et de renoncer à Pierrot. En outre, chez Molière,
+                Charlotte est plus réticente à croire Dom Juan, accusant les courtisans d’être des
+                « enjôleurs qui ne songent qu’à abuser les filles », même si finalement elle se
+                laisse convaincre après avoir cherché à s’assurer de la bonne foi de Dom Juan dont
+                elle ne perçoit pas l’hypocrisie. Chez Champmeslé, l’ordre est inversé : Dom Juan
+                persuade d’emblée Charlotte qu’elle doit quitter « une si triste demeure »,
+                s’enquiert sur l’identité de son père, puis lui demande si elle est mariée, la
+                convainc de renoncer à Pierrot pour partir avec lui et, enfin, en fait le portrait
+                physique par son discours galant et libertin. Les deux scènes s’achèvent sur la
+                demande de Dom Juan de recevoir, ou de donner, un baiser, ce que Charlotte refuse,
+                lui abandonant seulement sa main. Il faut aussi noter que chez Champmeslé, Dom Juan
+                ne prononce pas le mot « mariage », alors que, chez Molière, il fait croire à
+                Charlotte qu’il désire l’épouser. C’est bien parce que le Dom Juan de Molière
+                apparaît comme l’épouseur à tout va, ce qui rend sa conduite et son immoralité
+                encore plus scandaleuses. Mais l’intrigue étant simplifiée dans <hi rend="i">Les
+                  Fragmens</hi>, Champmeslé n’a pas les moyens de présenter toutes les facettes du
+                personnage, que le public connaît bien de toute façon. La pièce est avant tout un
+                hommage à Molière et ne cherche pas à condamner à nouveau les abus scandaleux de la
+                conduite de Dom Juan, car Molière s’est déjà merveilleusement acquitté de cette
+                tâche.</p>
+            <p>La scène V du deuxième acte est façonnée librement sur l’entretien avec M. Dimanche
+                que l’on trouve à la scène III du quatrième acte de <hi rend="i">Dom Juan</hi>.
+                Champmeslé reprend le même procédé que Molière : utiliser le langage flatteur de Dom
+                Juan et faire montre d’une politesse excessive à l’égard de M. Dimanche pour éviter
+                ainsi, par ces flatteries qui piquent la vanité du créancier, de payer ses dettes.
+                Champmeslé simplifie quelque peu la scène, en retranchant quelques répliques mais
+                l’essentiel est là. M. Dimanche paraît cependant moins flatté par les attentions de
+                Dom Juan dans <hi rend="i">Les Fragmens</hi>. En revanche, l’originalité de
+                Champmeslé est montrée principalement à la fin de la scène lorsque Gusman, à qui le
+                créancier demande également de payer ses dettes, imite la sollicitude de son maître
+                envers la famille de M. Dimanche. Cela crée un écho comique, voire satirique, avec
+                les répliques de Dom Juan dont le langage flatteur noble est pastiché par un
+                valet.</p>
+          </div>
+          <div>
+            <head>Les Fourberies de Scapin</head>
+            <p>Champmeslé imite, pour la scène III de l’acte II, la scène VI du deuxième acte des
+                  <hi rend="i">Fourberies de scapin</hi>. Le procédé et les répliques sont quasiment
+                identiques, mis à part le fait que le juge ne sait rien de Silvestre, qu’il ne
+                tremble pas devant lui, ni ne cède à ses menaces et s’en va chercher de l’aide.</p>
+          </div>
+        </div>
+        <div>
+          <head>Les scènes composées par Champmeslé</head>
+          <p>Si les deux premières scènes des <hi rend="i">Fragmens</hi> n’ont aucun effet sur
+              l’intrigue, les autres scènes composées par Champmeslé offrent une structure aux
+              fragments empruntés à Molière et assurent leur continuité en les rattachant à la
+              nouvelle intrigue créée. Il s’agit donc principalement des scènes de l’acte II.</p>
+          <p>À la fin de l’acte I, Pierrot quitte la scène pour aller se plaindre au juge de
+              l’inconstance de sa fille et du désordre causé par Dom Juan. L’acte II s’ouvre donc
+              sur l’altercation entre le père et la fille : le juge refuse catégoriquement qu’elle
+              épouse Dom Juan car, lui dit-il, « les Monsieur ne sont pas pour vous, et vous n’êtes
+              pas pour eux ».</p>
+          <p>À la scène II, le juge, seul sur scène, est rejoint par Gusman qui commence à mettre
+              en place les éléments de sa ruse pour intimider le juge. Il s’agit de la « pièce assez
+              plaisante » qu’il évoque à la fin de la dernière scène de l’acte I modifiée par
+              Champmeslé pour servir l’intrigue. Cette petite pièce se déroule donc à la scène III
+              avec l’entrée en scène de Silvestre.</p>
+          <p>À la scène IV, Gusman va rendre compte à son maître de l’échec de sa fourberie et de
+              la nécessité pour eux de fuir puisque le juge les menace du tocsin. Dom Juan lui
+              apprend qu’il a vu M. Dimanche descendre de la « barque marchande » qui vient de
+              mouiller ici et qu’ils ne vont pas être longtemps sans le voir car celui-ci s’est
+              informé auprès des villageois de l’endroit où demeure Dom Juan. D’où l’entrée en scène
+              du créancier à la scène suivante.</p>
+          <p>Une fois M. Dimanche renvoyé, il reste encore à Gusman la nécessité d’aller
+              raccommoder le désastre causé par Dom Juan et par sa fourberie. Alors que le Juge et
+              Pierrot sont en train de « crier alarme » à la scène VI, Gusman arrive tout juste pour
+              les calmer, à la scène suivante, et leur assurer que Dom Juan ne s’oppose plus au
+              mariage. La pièce s’achève sur le revirement soudain de Pierrot qui qualifie Dom Juan
+              d’honnête homme<note n="20" place="bottom"> En qualifiant Dom Juan d’<hi rend="i">honnête homme</hi>, Champmeslé pousse l’ironie à son comble car les mœurs de Dom
+                Juan son à l’opposée de l’éthos de l’homme vertueux et moral.</note> et va boire à
+              sa santé et à ses frais !</p>
+        </div>
+        <div>
+          <head>La transformation des personnages de Molière</head>
+          <p>Malgré le changement de protagoniste dans <hi rend="i">Les Fragmens</hi>, les
+              personnages de Charlotte, Pierrot, Dom Juan et M. Dimanche sont exactement tels qu’ils
+              sont dans les scènes correspondantes du <hi rend="i">Festin de Pierre</hi>, excepté le
+              fait que Pierrot est plus intrépide et plus audacieux. Néanmoins, Champmeslé a
+              introduit des changements dans les personnages et a modifié certains de leurs
+              traits.</p>
+          <p>Il a, tout d’abord, substitué le personnage du père à celui de la tante de Charlotte.
+              Le juge est présent dans plusieurs scènes et permet, par son initiative, d’annuler
+              l’obstacle au mariage de Pierrot et Charlotte. Il acquiert ainsi un rôle décisif dans
+              le dénouement de la pièce qui devient relativement heureux par rapport au <hi rend="i">Festin de Pierre</hi>. Ce personnage du juge s’illustre par son courage, puisqu’il
+              ne montre aucune peur devant Silvestre, accueillant ses remarques en silence. Il ne se
+              laisse pas non plus duper par la petite comédie que lui joue Gusman, avec l’aide de
+              Silvestre, et il prend alors la meilleure des décisions en choisissant de lutter
+              contre le perturbateur qu’est Dom Juan qui a introduit tant de désordre dans le
+              village. Il est présenté sous les traits de l’homme censé et raisonnable, mais aussi
+              du parent autoritaire et du fonctionnaire rural et se montre prêt à résister contre
+              les abus de l’aristocratie.</p>
+          <p>Le personnage de Gusman est également substitué à celui de Sganarelle. De fait,
+              Champmeslé choisit de prendre, comme valet de Dom Juan, le personnage de Gusman qui
+              est, chez Molière, l’écuyer d’Elvire. On peut peut-être expliquer ce changement par le
+              fait qu’ayant radicalement modifié les traits de son valet, pour l’économie de la
+              pièce, Champmeslé n’ait pas jugé bon de reprendre le nom de Sganarelle. Cela aurait
+              pu, en effet, lui attirer quelques critiques qui l’auraient accusé de placer sous le
+              même nom de Sganarelle un personnage qu’il a totalement modifié et qui n’a, par
+              conséquent, plus aucun lien avec celui de Molière. Et de fait, Gusman ne se présente
+              pas du tout comme le personnage moralisateur, critiquant l’attitude scandaleuse de son
+              maître. Il n’est pas non plus le personnage superstitieux, naïf et couard que l’on
+              connaît. Au contraire, il est le type même du valet rusé qui aide à la réalisation des
+              projets amoureux de son maître, même si dans le cas de Dom Juan ces projets sont
+              dépourvus de morale. C’est lui qui imagine la petite comédie qu’il joue au juge pour
+              le duper et faire pression sur lui afin d’obtenir Charlotte pour son maître. Gusman a
+              davantage l’audace et la ruse d’un Scapin que d’un Sganarelle et l’une de ses
+              répliques le confirme : « Vous sçavez que j’ai accoûtumé d’entreprendre bien des
+                choses<note n="21" place="bottom"> Champmeslé, <hi rend="i">Les Fragmens de
+                  Moliere</hi>, Acte I, scène V, p. 35.</note>. » Il y a néanmoins un décalage avec
+              le rôle du valet adjuvant car sa ruse échoue et, pire, elle contribue à faire tomber
+              les foudres du juge contre Dom Juan et lui-même. Gusman se présente donc comme le
+              parfait complice de Dom Juan et l’on pourrait ainsi dire que, plus que l’initiative du
+              juge de faire sonner le tocsin sur eux, c’est leurs propres abus et leur immoralité
+              qui sont la cause de leur échec parce que cela attirent sur eux les ennuis, voire les
+              châtiments, comme par un effet de justice divine immanente. On retrouve donc, comme
+              chez Molière, mais représentée de façon différente, la thématique du trompeur trompé,
+              de l’abuseur abusé et du chasseur chassé.</p>
+          <p>Il faut aussi noter l’ajout du personnage de Silvestre que Champmeslé emprunte aux
+                <hi rend="i">Fourberies de Scapin</hi>. Comme pour les autres personnages que
+              Champmeslé reprend à Molière, exception faite de Gusman, il apparaît tel qu’il est
+              dans la scène correspondante des <hi rend="i">Fourberies de Scapin</hi>.</p>
+        </div>
+      </div>
+      <div>
+        <head>La réception de la pièce</head>
+        <p>Comme pour la pièce de Brécourt, <hi rend="i">Les Fragmens de Moliere</hi> puise
+            essentiellement son succès de la renommée de Molière. Le public prend, en effet, plaisir
+            à venir voir représentés des fragments d’une pièce qui a été interdite et qui n’a jamais
+            été reprise. La pièce connaît donc un certain succès. Elle est reprise en 1681, 1682,
+            puis réapparaît dans une série de représentations à la Comédie Française où elle est
+            jouée soixante-six fois, restant dans le répertoire jusqu’en 1701.</p>
+        <p>C’est peut-être l’utilisation faite dans cette pièce des scènes du <hi rend="i">Festin
+              de Pierre</hi> qui suggère à la veuve de Molière et ses associés le désir de faire
+            reparaître cette pièce interdite. Molière se voit interdire sa pièce parce que son
+            personnage principal incarne l’impiété, la défiance envers la religion et la morale.
+            L’intrigue représente la damnation qu’attire cette conduite scandaleuse : fable
+            parfaitement morale, puisqu’elle figure le châtiment divin d’un athée. Pourtant, sous ce
+            couvert de moralité, Molière transforme son sujet pour le rendre ambigu, et même
+            provocant : sans modifier la trajectoire de l’intrigue, qui condamne sans ambiguïté la
+            conduite du libertin, il pare son personnage d’une séduction oratoire qui donne quelque
+            poids à ses discours scandaleux ; cependant qu’en face de ce sophiste redoutable, il
+            assigne le rôle de défenseur de la religion à un valet ridicule, naïf et superstitieux.
+            Enfin, Molière ajoute une péripétie originale à l’histoire classique de Dom Juan : on ne
+            s’étonne pas, après la querelle du <hi rend="i">Tartuffe</hi>, que cette péripétie soit
+            une attaque violente contre le parti dévot. Il était considéré comme désirable, pour sa
+            veuve de revoir certaines positions du <hi rend="i">Festin de Pierre</hi> et de réécrire
+            la pièce en vers, forme habituelle des pièces en cinq actes présentées au public. C’est
+            Thomas Corneille qui produit cette version modifiée et versifiée, utilisant le même
+            titre par lequel la pièce de Molière avait été connue à l’origine.</p>
+      </div>
+      <div>
+        <head>Note sur la présente édition</head>
+        <div>
+          <head>Présentation du texte</head>
+          <p>Nous connaissons trois éditions des <hi rend="i">Fragmens de Molière</hi> du vivant
+              de l’auteur. La première est éditée à Paris chez Jean Ribou en 1682 ; la deuxième se
+              trouve dans <hi rend="i">Les Œuvres de Monsieur de Champmeslé</hi>, imprimées à Paris
+              chez Jean Ribou en 1692 ; la troisième se trouve également dans une édition de ses <hi rend="i">Œuvres</hi> effectuée en 1696 chez T. Guillain. Il s’agit de recueils
+              factices, il n’y a donc pas de variantes avec l’édition de 1682. On connaît également
+              une édition des <hi rend="i">Fragmens de Moliere, comédie par Monsieur de
+                Brécourt</hi>, publiée à la Haye chez Adrian Moetjens en 1682. Il s’agit en réalité
+              de la pièce de Champmeslé, il y a eu confusion avec <hi rend="i">L'Ombre de
+                Moliere</hi> de Brécourt.</p>
+          <p>L’édition originale se présente comme suit :</p>
+          <p>In-12, II-58 pages.</p>
+          <p>[I]. LES / FRAGMENS / DE / MOLIERE / COMEDIE / [fleuron du libraire] / A PARIS, /
+              Chez JEAN RIBOU, sur le Quay des / Augustins, au dessus de la Grand’Porte / de
+              l’Eglise, à la descente du Pontneuf , / à l’Image Saint Loüis. / [filet] / M. DC.
+              LXXXII. / <hi rend="i">Avec Privilege du Roy.</hi></p>
+          <p>[II]. Page blanche.</p>
+          <p>[III]. Personnages.</p>
+          <p>1-58 : Texte de la pièce, avec rappel du titre en haut de la page 1.</p>
+          <p>Bibliothèque nationale de France : Site François Mitterrand : Rez-de-jardin : Yf
+              3624, Yf 8566. Site Richelieu : Manuscrits occidentaux : ROTHSCHILD SUPPLEMENT-
+              811.</p>
+          <p>Bibliothèque de l’Arsenal : GD- 527 (2).</p>
+        </div>
+        <div>
+          <head>Établissement du texte</head>
+          <p>En règle générale nous avons conservé l’orthographe de l’édition originale, à
+              quelques réserves près :</p>
+          <list>
+            <item>nous avons modernisé « ∫ » en « s », et rétabli le « &amp; » en « et » ;</item>
+            <item>nous avons distingué « i » et « u » voyelles de « j » et « v » consonnes,
+                conformément à l’usage moderne ;</item>
+            <item>nous avons corrigé quelques erreurs manifestes (Cf. liste de rectifications
+                ci-dessous) ;</item>
+            <item>nous avons respecté la ponctuation d’origine, sauf lorsqu’elle paraissait
+                évidemment erronée (Cf. liste de rectifications).</item>
+          </list>
+          <p>Cette comédie est entièrement en prose.</p>
+          <p>Nous avons constaté une coquille dans la numérotation de la page 9 désignée comme la
+              page 6.</p>
+        </div>
+        <div>
+          <head>Le problème du Privilège du Roi</head>
+          <p>Il est indiqué, dans la page de titre, que l’édition comporte un <hi rend="i">Privilège du Roy</hi>, or, il ne figure aucune trace de ce privilège dans aucune
+              des éditions des <hi rend="i">Fragmens de Moliere</hi> consultées. Cependant, Jean
+              Ribou avait un droit de privilège sur l’ensemble des œuvres de Champmeslé, comme il
+              est notifié dans le privilège des <hi rend="i">Parisiens</hi>, et il est possible que
+              le privilège n’ait pas été retranscrit pour cette pièce.</p>
+        </div>
+        <div>
+          <head>Rectifications</head>
+          <div>
+            <head>Page de titre</head>
+            <p>Egise corrigé en : Eglise.</p>
+          </div>
+          <div>
+            <head>Personnages</head>
+            <p>Il manque, dans la liste, le personnage de Silvestre.</p>
+          </div>
+          <div>
+            <head>Acte I</head>
+            <p>Page 4 : de tant peines corrigé en : de tant de peines / 13 : n’ageant en :
+                nageant ; pasanguenne en : palsanguenne / 16 : angin en : angins / 17 : riban en
+                ribans / 18 : scais en : sçais / 19 : m’aime en : m’aimes / 20 : m’aime en :
+                m’aimes, t’allé en : t’aller, m’aime en m’aimes / 22 : hymur en : hymeur / 23 : Et
+                bien bien va en : Et bien va / 25 : sauvage produire en : sauvage peut produire /
+                n’estes point pour en : n’estes point faite pour / 28 : Et si il en : Et il / 29 :
+                ca en : ça / 32 : t’est en : t’és / 33 : t’escoute en : t’escoutes, morguienne en :
+                Morguienne / 34 : garcon en : garçon / 35 : facon en : façon.</p>
+          </div>
+          <div>
+            <head>Acte II</head>
+            <p>Page 36 : oh corrigé en : or / 37 : fera en : sera / 38 : qui a-t-il en : qu’y
+                a-t-il / 39 : Et ce n’est en : Eh, ce n’est / 42 : la sang en : le sang / 44 :
+                comment marauts en : Comment marauts / 45 : <hi rend="b">pierrot</hi> en : <hi rend="b">le juge</hi> / 46 : on void en : on voit / 49 : guére en : guéres / 58 :
+                Et qui a-t-il en : Et qu’y a-t-il, nopce en : noce, lamour en : l’amour, jallons
+                en : j’allons, lallarme en : l’allarme.</p>
+          </div>
+          <div>
+            <head>Rectifications dans la ponctuation</head>
+            <p>Page 5 : [Oüy ?] corrigé en [Oüy.] / 13 : [Parsanguenne çay-je] en [Parsanguenne,
+                çay-je] / 14 : [gager ; çay-je] en [gager, çay-je], [icy ; çay-je fait morguienne]
+                en [icy ? çay-je fait ; morguienne], [dix sols, que, si, je] en [dix sols que si ?
+                Je] / 15 : [justement Charlote comment] en [justement, Charlote, comment] / 18 : [à
+                te dire moy.] en [à te dire, moy.] / 23 : [donc là Charlote] en [donc là, Charlote]
+                / 24 : [Ah la jolie] en [Ah ! la jolie] / 25 : [La peste le joly tendron.] en [La
+                peste, le joly tendron !], [Regarde Gusman qu’elle est bien prise.] en [Regarde,
+                Gusman, qu’elle est bien prise.] / 28 : [Ah les belles dents,] en [Ah ! les belles
+                dents,] / 30 : [Ah que de brüit.] en [Ah ! que de brüit.] / 31 : [veux pas moy.] en
+                [veux pas, moy.], [notte barbe ;] en [notte barbe ?], [Hein.] en [Hein !] / 34 :
+                [plus que. la] en [plus que la] / 37 : [non sera, non sera, vostre Monsieur le
+                Monsieur] en [non sera, non sera vostre Monsieur, le Monsieur], [Ah voicy] en [Ah,
+                voicy] / 43 : [Juge. Eh ?] en [Juge ? Eh ?] / 44 : [Comment marauts,] en [Comment,
+                marauts,], [bon pied ; bon œil.] en [bon pied, bon œil.] / 45 : [oh je me mocque] en
+                [oh, je me mocque] / 46 : [là-dessus. J’iray] en [là-dessus, j’iray] / 49 : [dedans.
+                Le premier] en [dedans, le premier] / 55 : [Mais Monsieur.] en [Mais Monsieur…] /
+                56 : [vous M<hi rend="sup">r</hi> Gusman ?] en [vous, M<hi rend="sup">r</hi>
+                Gusman ?] / 58 : [Oh pargué vela] en [Oh, pargué, vela].</p>
+          </div>
+        </div>
+      </div>
+    </front>
+    <body>
+      <head>LES FRAGMENS DE MOLIERE. <lb/>COMEDIE.</head>
+      <div xml:id="personnages" type="set">
+        <pb n="III"/>
+        <head>PERSONNAGES.</head>
+        <castList>
+          <castItem>
+            <role xml:id="lignon" rend="male">Lignon.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="jourdain" rend="male">Jourdain.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="pierrot" rend="male">Pierrot.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="charlote" rend="female">Charlote.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="gusman" rend="male">Gusman.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="juge" rend="male">le juge.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="juan" rend="male">d. jouan.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="dimanche" rend="male">m<hi rend="sup">r</hi> dimanche. </role>
+          </castItem>
+          <castItem>
+            <role xml:id="silvestre" rend="male">SILVESTRE.</role>
+          </castItem>
+        </castList>
+      </div>
+      <div xml:id="I" type="act">
+        <pb n="A ; 1"/>
+        <head>ACTE I.</head>
+        <div type="scene" xml:id="I01">
+          <head>SCÈNE I.</head>
+          <stage>JOURDAIN, LIGNON.</stage>
+          <sp xml:id="I01-1" who="lignon">
+            <speaker>Lignon</speaker>
+            <p>O Amour, que tu agites mon esprit de diverses inquiétudes !</p>
+          </sp>
+          <sp xml:id="I01-2" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Charlote, Belle Charlote !</p>
+          </sp>
+          <sp xml:id="I01-3" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Pourquoy, cruel Amour…</p>
+          </sp>
+          <sp xml:id="I01-4" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <pb n="2"/>
+            <p>Si l’ardeur de la flâme…</p>
+          </sp>
+          <sp xml:id="I01-5" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Faut-il que tu mettes la joye…</p>
+          </sp>
+          <sp xml:id="I01-6" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Que tes beaux yeux par leurs lumieres…</p>
+          </sp>
+          <sp xml:id="I01-7" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>A tourmenter les cœurs…</p>
+          </sp>
+          <sp xml:id="I01-8" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Ont jetté dans mon ame…</p>
+          </sp>
+          <sp xml:id="I01-9" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Que tu soûmets à ton empire…</p>
+          </sp>
+          <sp xml:id="I01-10" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Peut estre assez heureuse…</p>
+          </sp>
+          <sp xml:id="I01-11" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Si…..</p>
+          </sp>
+          <sp xml:id="I01-12" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Pour….</p>
+          </sp>
+          <sp xml:id="I01-13" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Si tu veux montrer ton pouvoir…</p>
+          </sp>
+          <sp xml:id="I01-14" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Pour obtenir de tes bontez<note n="22" place="bottom"> Au XVII<hi rend="sup">e</hi>
+                  siècle, le pluriel en –és, pour les substantifs comme pour les participes passés,
+                  est fréquemment rendu par une terminaison en –ez.</note>…</p>
+          </sp>
+          <sp xml:id="I01-15" who="lignon">
+            <speaker>Lignon.</speaker>
+            <pb n="3"/>
+            <p>En nous forçant d’aimer…</p>
+          </sp>
+          <sp xml:id="I01-16" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Le bonheur où j’aspire…</p>
+          </sp>
+          <sp xml:id="I01-17" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Pourquoy ne fais-tu pas…</p>
+          </sp>
+          <sp xml:id="I01-18" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Les plus heureuses destinées…</p>
+          </sp>
+          <sp xml:id="I01-19" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Qu’on aime avec plaisir…</p>
+          </sp>
+          <sp xml:id="I01-20" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>N’égaleront point ma fortune…</p>
+          </sp>
+          <sp xml:id="I01-21" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Et par quelle….</p>
+          </sp>
+          <sp xml:id="I01-22" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Mais si toute….</p>
+          </sp>
+          <sp xml:id="I01-23" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Et par quelle raison, dy-moi…</p>
+          </sp>
+          <sp xml:id="I01-24" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Mais si toute mon ardeur…</p>
+          </sp>
+          <sp xml:id="I01-25" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Veux-tu que tes moindres plaisirs…</p>
+          </sp>
+          <sp xml:id="I01-26" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <pb n="4"/>
+            <p>Tous mes soins et tous mes respects…</p>
+          </sp>
+          <sp xml:id="I01-27" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Soient achetez<note n="23" place="bottom">Cf. note 1 p. 84.</note> de tant de
+                peines…</p>
+          </sp>
+          <sp xml:id="I01-28" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Ne peuvent te fléchir…</p>
+          </sp>
+          <sp xml:id="I01-29" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Que les douc…..</p>
+          </sp>
+          <sp xml:id="I01-30" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Oste-toy de là, ne vois-tu pas bien que tu m’interromps ?</p>
+          </sp>
+          <sp xml:id="I01-31" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Je voy que tu m’interromps de mesme.</p>
+          </sp>
+          <sp xml:id="I01-32" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Oüy ; mais je suis un Amant qui ay besoin de cette place pour soûpirer.</p>
+          </sp>
+          <sp xml:id="I01-33" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Je suis aussi un Amant qui ay affaire de ce lieu-cy pour resver à mon amour.</p>
+          </sp>
+          <sp xml:id="I01-34" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <pb n="5"/>
+            <p>Vous estes Amant ?</p>
+          </sp>
+          <sp xml:id="I01-35" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Oüy.</p>
+          </sp>
+          <sp xml:id="I01-36" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Peut-on vous demander, Pasteur, qui est la Bergere que vous aimez ?</p>
+          </sp>
+          <sp xml:id="I01-37" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Helas ! Pasteur, la Personne la plus aimable qui soit en ce Païs.</p>
+          </sp>
+          <sp xml:id="I01-38" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Vous l’appellez ?</p>
+          </sp>
+          <sp xml:id="I01-39" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>La Nymphe Charlote.</p>
+          </sp>
+          <sp xml:id="I01-40" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Eh ?</p>
+          </sp>
+          <sp xml:id="I01-41" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Comment ?</p>
+          </sp>
+          <sp xml:id="I01-42" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Vous vous moquez.</p>
+          </sp>
+          <sp xml:id="I01-43" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Moy !</p>
+          </sp>
+          <sp xml:id="I01-44" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <pb n="6"/>
+            <p>Oüy.</p>
+          </sp>
+          <sp xml:id="I01-45" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Plust au Ciel que je me moquasse, et que cela ne fust point vray !</p>
+          </sp>
+          <sp xml:id="I01-46" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Vous aimez la Nymphe Charlote, Fille du Notaire du Village ?</p>
+          </sp>
+          <sp xml:id="I01-47" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Fille du Juge du Village.</p>
+          </sp>
+          <sp xml:id="I01-48" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Promise au Marinier Pierrot ?</p>
+          </sp>
+          <sp xml:id="I01-49" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Au Marinier Pierrot.</p>
+          </sp>
+          <sp xml:id="I01-50" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Ah !</p>
+          </sp>
+          <sp xml:id="I01-51" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Quoy ?</p>
+          </sp>
+          <sp xml:id="I01-52" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Je l’aime aussy.</p>
+          </sp>
+          <sp xml:id="I01-53" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Vous l’aimez aussi, Pasteur ?</p>
+          </sp>
+          <sp xml:id="I01-54" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <pb n="7"/>
+            <p>Oüy, Pasteur ; mais puis-je sçavoir le nom de mon Rival ?</p>
+          </sp>
+          <sp xml:id="I01-55" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Je m’appelle Lignon.</p>
+          </sp>
+          <sp xml:id="I01-56" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Et moi, Pasteur, je m’appelle Jourdain.</p>
+          </sp>
+          <sp xml:id="I01-57" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Helas ! faut-il que deux Fleuves<note n="24" place="bottom">À noter le jeu de mots
+                  sur l’onomastique puisque les deux pasteurs portent des noms de fleuves.</note>
+                soient réduits à se couper la gorge ensemble ?</p>
+          </sp>
+          <sp xml:id="I01-58" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Et pourquoy cela ?</p>
+          </sp>
+          <sp xml:id="I01-59" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Pour voir qui de nous deux demeurera son Amant.</p>
+          </sp>
+          <sp xml:id="I01-60" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Il y a des Remedes plus humains que cela, si nous voulons nous en servir.</p>
+          </sp>
+          <sp xml:id="I01-61" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Et quels ?</p>
+          </sp>
+          <sp xml:id="I01-62" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <pb n="8"/>
+            <p>Ouy, avez-vous declaré votre amour ?<note n="25" place="bottom"> Comprendre : Oui
+                  ou non, lui avez-vous déclaré votre amour ?</note></p>
+          </sp>
+          <sp xml:id="I01-63" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Non.</p>
+          </sp>
+          <sp xml:id="I01-64" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Allons chercher ce rare Objet, pour le prier de choisir de nous deux<note n="26" place="bottom"><hi rend="i">Choisir de nous deux</hi> : au XVII<hi rend="sup">e</hi> siècle, on rencontre fréquemment le verbe choisir construit avec le <hi rend="i">de</hi> partitif. Au lieu de : <hi rend="i">choisir de nous deux</hi>,
+                  on dirait aujourd’hui : <hi rend="i">choisir entre nous</hi>. Haase, A., <hi rend="i">Syntaxe française du XVII<hi rend="sup">e</hi> siècle</hi>.</note> ; et
+                celuy qui sera refusé, pourra se pendre aprés, s’il le veut.</p>
+          </sp>
+          <sp xml:id="I01-65" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Je consens à cela. Mais la voicy.</p>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I02">
+          <head>SCÈNE II.</head>
+          <stage>LIGNON, JOURDAIN, CHARLOTE.</stage>
+          <sp xml:id="I02-1" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Belle Nymphe, vous voyez icy deux Fleuves tous deux amoureux de vous.</p>
+          </sp>
+          <sp xml:id="I02-2" who="lignon">
+            <speaker>Lignon.</speaker>
+            <pb n="9"/>
+            <p>Oüy, nous sommes deux pauvres Amans nécessiteux, qui viennent à vostre Porte vous
+                demander l’aumône de vos bonnes graces.</p>
+          </sp>
+          <sp xml:id="I02-3" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Nous venons mettre entre vos mains nostre diférent amoureux.</p>
+          </sp>
+          <sp xml:id="I02-4" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Vous pouvez regarder, Bergere, qui de moy ou de luy vous voulez accepter.</p>
+          </sp>
+          <sp xml:id="I02-5" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>N’avez-vous point veu Pierrot ? Je ne sçay où il est depuis ce matin qu’il s’est
+                mis en Mer avec la Chaloupe.</p>
+          </sp>
+          <sp xml:id="I02-6" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Ah, trois et quatre fois belle et trop belle Beauté, nous n’avons rien veu icy que
+                le mérite des perfections de vos avantages.</p>
+          </sp>
+          <sp xml:id="I02-7" who="lignon">
+            <speaker>Lignon.</speaker>
+            <pb n="10"/>
+            <p>Cela est vray, belle Nymphe.</p>
+          </sp>
+          <sp xml:id="I02-8" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Pierre ne veut point que j’entende tout cela, et il m’a dit qu’il battra tous ceux
+                qui m’en parleront.</p>
+          </sp>
+          <sp xml:id="I02-9" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Cela seroit bien cruel, belle Nymphe, que nous fussions battus pour vos beaux
+                yeux.</p>
+          </sp>
+          <sp xml:id="I02-10" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Cela est vray, belle Nymphe.</p>
+          </sp>
+          <sp xml:id="I02-11" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Pasteur, pour ne point faire de jalousie entre nous, baisons-luy chacun une
+                main.</p>
+          </sp>
+          <sp xml:id="I02-12" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Pour ne point faire de jalousie entre vous, voila chacun un soufflet.</p>
+          </sp>
+          <sp xml:id="I02-13" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Ah, Bergere, le Ciel vous a-t-il<pb n="11"/> faite si charmante pour estre si
+                cruelle ?</p>
+          </sp>
+          <sp xml:id="I02-14" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Ah, mon pauvre Lignon !</p>
+          </sp>
+          <sp xml:id="I02-15" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Ah, mon pauvre Jourdain !</p>
+          </sp>
+          <sp xml:id="I02-16" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Pauvres Fleuves méprisez !</p>
+          </sp>
+          <sp xml:id="I02-17" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Il se faut pendre aprés cela.</p>
+          </sp>
+          <sp xml:id="I02-18" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Tu as raison, mon pauvre Fleuve, vien que je te pende le premier, et tu me pendras
+                aprés.</p>
+          </sp>
+          <sp xml:id="I02-19" who="lignon">
+            <speaker>Lignon.</speaker>
+            <p>Non, ne nous pendons point. Je trouve que pour nostre disgrace ce n’est pas assez
+                de se pendre.</p>
+          </sp>
+          <sp xml:id="I02-20" who="jourdain">
+            <speaker>Jourdain.</speaker>
+            <p>Ah ! voicy nostre Rival ; retirons-nous, Pasteur, de peur de quelques demeslez.</p>
+            <p/>
+          </sp>
+          <sp xml:id="I02-21" who="lignon">
+            <speaker>Lignon.</speaker>
+            <pb n="12"/>
+            <p>Cela est vray, Pasteur.</p>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I03">
+          <head>SCÈNE III.</head>
+          <stage>CHARLOTE, PIERROT.</stage>
+          <sp xml:id="I03-1" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p><ref target="#parguenne">Pargué*</ref><note n="27" place="bottom"> Pour cette scène Champmeslé, qui reprend la
+                  scène 1 du second acte du <hi rend="i">Dom Juan</hi> de Molière, imite le jargon
+                  et l’accent des paysans. Se reporter au glossaire. Le lecteur est invité à lire le
+                  texte à voix haute : sa compréhension et la pleine appréhension de ses effets
+                  comiques en seront facilités.</note> Pierrot, tu t’es donc trouvé là bien à
+                point ?</p>
+          </sp>
+          <sp xml:id="I03-2" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p><ref target="#parguenne">Parguenne*</ref> il ne s’en est pas fallu l’époisseur d’une <ref target="#eplingue">éplingue*</ref> qu’ils ne se sayent
+                nayez tous deux<note n="28" place="bottom"> Au second acte du <hi rend="i">Dom
+                    Juan</hi> de Molière, le théâtre représente un hameau de verdure, avec une
+                  grotte au travers de laquelle on voit la mer : c’est donc un paysage de campagne
+                  en bord de mer.</note>.</p>
+          </sp>
+          <sp xml:id="I03-3" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>C’est donc le coup de vent da matin qui les a renvarsez dans la Mar.</p>
+          </sp>
+          <sp xml:id="I03-4" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Aga quien<note n="29" place="bottom"><hi rend="i">Aga quien</hi> : regarde,
+                  tiens.</note>, Charlote, je m’en vas te conter tout fin droit<note n="30" place="bottom"><hi rend="i">Tout fin droit</hi> : tout net.</note> comme<pb n="B ; 13"/> cela est venu. Car, comme dit l’autre, je les ay le premier avisez,
+                avisez le premier je les ay : Enfin j’esquions sur le bord de la mar moy et le gros
+                Lucas, et je nous amusions à batifoler avec des motes de tarre, que je nous jequions
+                à la teste ; car, comme tu sçais bian, le gros Lucas aime à batifoler, et moi par
+                  foüas<note n="31" place="bottom"><hi rend="i">Par foüas</hi> : parfois.</note> je
+                batifole itou ; en batifolant donc, pisque batifoler y a, j’ay aperceu de tout loin
+                queuque chose qui groüilloit dans liau, et qui venoit comme envars nous par
+                secousse. Je voyais ça fixiblement*, et pis tout d’un coup je voyais que je ne
+                voyais plus rian. Ah Lucas, çay-je fait, je pense que vla des hommes qui nageant
+                là-bas. Voire, ce m’a-t-il fait, t’as esté au trépassement d’un chat<note n="32" place="bottom"> « On dit en burlesque et populairement : il a assisté au
+                  trépassement d’un chat, il voit trouble ». <hi rend="i">Dictionnaire
+                    Universel</hi> d’Antoine Furetière. Cette expression étrange est en fait la
+                  traduction fautive d’une expression catalane inspirée d’un rite de carnaval :
+                  « aller à l’enterrement de l’ivrogne » (<hi rend="i">del gato</hi> : le chat),
+                  c’est-à-dire : boire un coup de trop.</note>, tas la veüe trouble. <ref target="#palsangué">Palsanguenne*</ref>,
+                çay-je fait, je n’ay point la veüe trouble, ce sont des hommes ;<pb n="14"/> point
+                du tout, ce m’a-t-il fait, tas la <ref target="#barluë">barluë*</ref> ; veux-tu gager, çay-je fait, que je n’ai
+                point la <ref target="#barluë">barluë*</ref>, çay-je fait, et que se sont deux hommes, çay-je fait, qui nageant
+                droit icy ? çay-je fait ; <ref target="#morguienne">morguienne*</ref>, ce m’a-t-il fait, je gage que non ; oça,
+                çay-je fait, veux-tu gager dix sols que si ? Je le veux bian, ce m’a-t-il fait, et
+                pour te montrer, vela argent sur jeu, ce m’a-t-il fait ; moy je n’ay esté ny fou ny
+                étourdy, j’ai bravement bouté* à tarre quatre pieces tapées, et cinq sols en
+                  double<note n="33" place="bottom"><hi rend="i">Pièces tapées</hi> : sols marqués
+                  d’une fleur de lys, dont la valeur est augmentée d’un quart ; Pierrot engage donc
+                  ici cinq sols, soit la moitié de l’enjeu du pari, et complète avec de la petite
+                  monnaie (les doubles) pour l’autre moitié : il faut trente doubles pour faire cinq
+                  sols. Pour avoir une idée de l’enjeu de pari, il faut savoir qu’au XVII<hi rend="sup">e</hi> siècle, un pain de quatre livres valait quatre sols et qu’un
+                    ouvrier était payé huit sols par jour.</note>, <ref target="#jernidenne">jarniguenne*</ref> aussi hardiment que si
+                j’avois avalé un varre de vin ; car je sis hazardeux<note n="34" place="bottom"><hi rend="i">Hazardeux</hi> : intrépide, audacieux.</note>, moy, et je vas à la
+                  débandade<note n="35" place="bottom">Aller à la débandade : agir sans
+                  réfléchir.</note>, je sçavas bien ce que je faisais pourtant, queuque gniais<note n="36" place="bottom"><hi rend="i">Queuque gniais</hi> : expression elliptique :
+                  un imbécile (quelque niais) n’en aurait pas fait autant.</note>. Enfin donc je
+                n’avons pas pû tost eu gagé, que j’avons veu les deux hommes tout à plein<note n="37" place="bottom"><hi rend="i">Tout à plein</hi> : tout à fait,
+                  parfaitement.</note> qui nous faisians signe de les<pb n="15"/> aller querir, et
+                moy de tirer auparavant les enjeux. Allons Lucas, çay-je dit, tu vois bien qu’ils
+                nous appellons, allons viste à leur secours. Non, ce m’a-t-il dit, ils m’ont fait
+                pardre, adonc tant y a qu’à la parfin<note n="38" place="bottom">Tant y a qu’à la
+                  parfin : si bien que, finalement, …</note>, pour faire court, je l’ay tant
+                sarmonné que je nous sommes bouté<note n="39" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle, il n’y a pas systématiquement l’accord avec l’auxiliaire être.
+                </note>* dans une barque, et pis j’avons tant fait cahin caha, que je les avons tiré
+                de liau, et pis je les avons mené cheu nous auprés du feu, et pis ils se sont
+                dépouïllez tout nuds pour se sécher, et pis il en est venu encore deux de la mesme
+                bande, qui s’estians sauvez tous seuls. Vela justement, Charlote, comme tout ça
+                s’est fait.</p>
+          </sp>
+          <sp xml:id="I03-5" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Il y en a donc un, Pierrot, mieux fait que les autres.</p>
+          </sp>
+          <sp xml:id="I03-6" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Oüy, c’est le Maistre. Il faut que<pb n="16"/> ce soit queuque gros Monsieu ; car
+                il a du dor<note n="40" place="bottom">Comprendre : son habit est doré de haut en
+                  bas. Tout ce qui suit nous donne de précieuses informations sur le costume porté
+                  par le personnage de Dom Juan. C’est le costume caractéristique du « petit
+                  marquis » élégant, attentif aux dernières modes de Paris.</note> à son habit, tout
+                depis le haut jusqu’en bas, et ceux qui le servons sont des Monsieux eux-mesmes, et
+                  stanpandant<note n="41" place="bottom"><hi rend="i">Stanpandant</hi> :
+                  cependant.</note> tout gros Monsieu qu’il est, il se seroit ma figue noyé, si je
+                n’avieme esté là.</p>
+          </sp>
+          <sp xml:id="I03-7" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Ardez un peu.</p>
+          </sp>
+          <sp xml:id="I03-8" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Oh, <ref target="#parguenne">parguenne*</ref> sans nous il en avoit pour sa mene de feuve<note n="42" place="bottom"><hi rend="i">En avoir pour sa mene de feuve</hi> : expression
+                  imagée signifiant « en avoir son compte ». La mine était en mesure de grain
+                  (feuve : fève).</note>.</p>
+          </sp>
+          <sp xml:id="I03-9" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Est-ce qu’il est encore tout nud, Pierrot ?</p>
+          </sp>
+          <sp xml:id="I03-10" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Nanain, ils l’avon r’habillé devant nou. Mon Dieu, je n’en avois jamais veu
+                s’habiller, que d’histoire et d’angins gorniaux<note n="43" place="bottom"><hi rend="i">Engins gorniaux</hi> : ornements compliqués, accessoires de costume.
+                </note> ils boutons*, ces Messieus-là : Je me pardrais là-dedans, pour moy, et
+                j’estois tout<pb n="17"/> ébauby<note n="44" place="bottom">Comprendre : ébahi,
+                  étonné.</note> de voir ça : Tien Charlote, ils avons des cheveux qui ne tenans
+                point à leurs testes, et ils boutons ça aprés tout, comme un gros bonnet de
+                  filace<note n="45" place="bottom"><hi rend="i">Filasse</hi> : « Filaments qu’on
+                  tire de certaines plantes, comme en France, du chanvre, du lin, des orties, pour
+                  après être battus et préparés les mettre en une quenouille, et en faire du fil ».
+                    <hi rend="i">Dictionnaire Universel</hi> d’Antoine Furetière. Pierrot décrit
+                  ainsi la perruque de Dom Juan.</note>. Ils ant des chemises qui ant des manches où
+                j’entrerien tout brandy toy et moy<note n="46" place="bottom"> Comprendre : où nous
+                  entrerions debout tout droit toi et moi. <hi rend="i">Tout brandy</hi> : tout
+                  droit (comme une épée brandie ?) ; le sens est conjecturale.</note>. En lieu
+                  d’audechausse<note n="47" place="bottom"> Le <hi rend="i">haut-de-chausse</hi> est
+                  la partie de l’habit qui va de la taille aux genoux ; il est si ample dans le
+                  costume de Dom Juan, qu’il ressemble à un tablier (<hi rend="i">garderobe</hi>).</note> ils portons un garderobe aussi large que d’icy à Pasques.
+                En lieu de pourpoint<note n="48" place="bottom"> Le <hi rend="i">pourpoint</hi> est
+                  la partie de l’habit qui va du cou à la ceinture ; Dom Juan, lui, porte une sorte
+                  de chemise courte (la <hi rend="i">brassière</hi> est une chemise de femme) qui
+                  descend seulement jusqu’au sternum (<hi rend="i">bréchet</hi>).</note>, de petites
+                brassieres qui ne leur venons pas jusqu’au brichet<note n="49" place="bottom"><hi rend="i">Brichet</hi> : « Brechet, quelques uns disent brichet. Le devant de la
+                  poitrine où aboutissent les sept vraies côtes. En terme de Médecine on l’appelle
+                  le sternum ». Idem.</note>, et en lieu de rabat, un grand mouchoir de cou<note n="50" place="bottom"> Le <hi rend="i">cou</hi> « se dit de quelque partie des
+                  habits qui se mettent sur le cou, ou autour du cou. Un mouchoir de cou, c’est le
+                  mouchoir que mettent les femmes sur leur cou pour cacher leur gorge ». Idem. Ce
+                  mouchoir est un grand collet de dentelle (risiau : réseau) garni de houppes, qui
+                  prend la place du <hi rend="i">rabat</hi> que l’on trouve sur des costumes moins
+                  ornés – linge uni qu’on attache au cou du pourpoint.</note> à risiau, avec quatre
+                grosses houpes<note n="51" place="bottom"><hi rend="i">Houppe</hi> : « Petit nœud ou
+                  assemblage de plusieurs brins de soie ou de laine qu’on met par ornement en
+                  plusieurs endroits. On fait des boutons, des glands à houppe. On met des houppes
+                  sur les bonnets carrés. On met des houppes qui pendent sur les têtières des
+                  chevaux de carosse, quand on va en cérémonie. On se sert de houppe à se poudrer
+                  les cheveux. Quelques uns dérivent le mot du Latin <hi rend="i">upupa</hi>, à
+                  cause de la ressemblance qu’elle a avec celle que porte la huppe ». Idem.</note>
+                de linge qui leur pendon sur l’estomac. Ils avon itou d’autres petits rabats au bout
+                des bras, et parmi tout ça tant de ribans que c’est grande piquié. Il n’y a pas
+                jusqu’aux souliez qui n’en soiont tous farcy, tout depuis un bout jusqu’à l’autre ;
+                et ils sont faits d’une façon que je me romprois le cou aveuc.</p>
+          </sp>
+          <sp xml:id="I03-11" who="charlote">
+            <speaker>Charlote.</speaker>
+            <pb n="18"/>
+            <p>Il faut que j’aille voir un peu ça.</p>
+          </sp>
+          <sp xml:id="I03-12" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Oh, écoute un peu auparavant, Charlote, j’ay queuque chose à te dire, moy.</p>
+          </sp>
+          <sp xml:id="I03-13" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Qu’est-ce que c’est ?</p>
+          </sp>
+          <sp xml:id="I03-14" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Vois-tu Charlote, il faut, comme dit l’autre, que je debonde<note n="52" place="bottom"><hi rend="i">Debonder</hi> : « Lâcher ou ôter la bonde d’un
+                  étang ». On rappelle que Pierrot est marinier. « Se dit aussi figurément des
+                  choses morales ». Se décharger le cœur. Idem.</note> mon cœur, je t’aime, tu le
+                sçais bian, et je somme pour estre mariez ensemble<note n="53" place="bottom">Comprendre : nous sommes faits pour être mariés ensemble, toi et moi.</note> ;
+                mais <ref target="#morguienne">mordienne*</ref> je ne suis point satisfait de toy.</p>
+          </sp>
+          <sp xml:id="I03-15" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Qu’est-ce donc qu’il y a ?</p>
+          </sp>
+          <sp xml:id="I03-16" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Il y a que tu me chagrines l’esprit, franchement.</p>
+          </sp>
+          <sp xml:id="I03-17" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Comment donc ?</p>
+          </sp>
+          <sp xml:id="I03-18" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <pb n="19"/>
+            <p><ref target="#testedienne">Testedienne*</ref>, tu ne m’aimes point.</p>
+          </sp>
+          <sp xml:id="I03-19" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>N’est-ce que ça ?</p>
+          </sp>
+          <sp xml:id="I03-20" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Oüy ce n’est que ça, et c’est bian assez.</p>
+          </sp>
+          <sp xml:id="I03-21" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Mais tu me dis toûjours la mesme chose.</p>
+          </sp>
+          <sp xml:id="I03-22" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Je te dis toûjours la mesme chose, parce que c’est toûjours la mesme chose, et si
+                ce n’estoit pas toûjours la mesme chose, je ne te dirois pas toûjours la mesme
+                chose.</p>
+          </sp>
+          <sp xml:id="I03-23" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Que veux-tu ?</p>
+          </sp>
+          <sp xml:id="I03-24" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p><ref target="#jernidenne">Jernidienne*</ref> je veux que tu m’aimes.</p>
+          </sp>
+          <sp xml:id="I03-25" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Est-ce que je ne t’aime pas ?</p>
+          </sp>
+          <sp xml:id="I03-26" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <pb n="20"/>
+            <p>Non, tu ne m’aimes pas ; et si<note n="54" place="bottom">Comprendre : et
+                  pourtant.</note> je fais tout ce que je pis pour ça. Je t’achette sans reproche
+                des ribans à tous les maciez<note n="55" place="bottom">Dans le patois de Pierrot,
+                  il s’agit des merciers, c’est-à-dire des colporteurs, des vendeurs de
+                  colifichets.</note> qui passon. Je me romps le cou à t’aller dénicher des marles.
+                Je fais joüer pour toy les Vielleux<note n="56" place="bottom"><hi rend="i">Vielleux</hi> : « Qui joue de la vielle. Les vielleurs vont jouer de porte en
+                  porte pour faire danser les servantes, les enfants, les paysans ». Dictionnaire
+                  Universel d’Antoine Furetière. La vielle est un « instrument de Musique pour
+                  réjouir les gens du peuple, et dont jouent ordinairement de pauvres gens ». <hi rend="i">Dictionnaire universel</hi> d’Antoine Furetière.</note> quand se vient
+                ta Feste, et tout ça comme si je me frapois la teste contre un mur. Vois-tu, ça
+                n’est ny bian ny honneste de n’aimer pas les gens qui nous aimon.</p>
+          </sp>
+          <sp xml:id="I03-27" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Mais je t’aime aussi.</p>
+          </sp>
+          <sp xml:id="I03-28" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Oüy, tu m’aimes d’une belle dégaine<note n="57" place="bottom">Comprendre : d’une
+                  drôle de façon.</note>.</p>
+          </sp>
+          <sp xml:id="I03-29" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Qu’est-ce que tu veux qu’on fasse ?</p>
+          </sp>
+          <sp xml:id="I03-30" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Je veux que l’on fasse comme on fait quand on aime comme il faut.</p>
+          </sp>
+          <sp xml:id="I03-31" who="charlote">
+            <speaker>Charlote.</speaker>
+            <pb n="21"/>
+            <p>Mais je t’aime comme il faut.</p>
+          </sp>
+          <sp xml:id="I03-32" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Non, quand ça est ça se voit, et l’an fait mille petites singeries, quand on les
+                aime du bon du cœur. Regarde la grosse Thomase, comme elle est assotée<note n="58" place="bottom"><hi rend="i">Etre assoté de quelqu’un</hi>, c’est en être follement
+                  amoureux.</note> du jeune Robain, alle est toûjours entour de luy à l’agasser, et
+                ne le laisse jamais en repos, toûjours alle luy fait queuque niche, ou ly <ref target="#bailler">baille*</ref>
+                quelque taloche en passant ; et l’autre jour qu’il estoit assis sur un escabeau alle
+                fut le tirer de dessous ly, et le fit choir de tout son long par tarre. <ref target="#jernidenne">Jarny*</ref> vela
+                où on voit les gens qui aimon ; mais toy tu ne me dis jamais mot ; tés toûjours là
+                comme une vray souche de bois, et je passerois vingt fois devant toy que tu ne te
+                  groüillerois<note n="59" place="bottom"><hi rend="i">Groüiller</hi> : « Ne se dit
+                    qu’avec le pronom personnel. Se remuer. » Idem.</note> pas pour me <ref target="#bailler">bailler*</ref> le
+                moindre coup, ou me dire la<pb n="22"/> moindre chose. <ref target="#ventredienne">Ventredienne*</ref> ça n’est pas
+                bian aprés tout, et tés trop froide pour les gens.</p>
+          </sp>
+          <sp xml:id="I03-33" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Dame, c’est mon hymeur, on ne peut pas me refondre.</p>
+          </sp>
+          <sp xml:id="I03-34" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Il n’y a hymeur qui tienne, quand l’an a de l’amitié pour les parsonnes, on en
+                donne toûjours queuque petite signifiance<note n="60" place="bottom"><hi rend="i">Signifiance</hi> : petit signe, marque, témoignage (d’amour), dans le patois de
+                  Pierrot.</note>.</p>
+          </sp>
+          <sp xml:id="I03-35" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Hé bien, laisse-moy en repos, et vas en chercher quelque autre.</p>
+          </sp>
+          <sp xml:id="I03-36" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Hé bian, vela pas mon conte<note n="61" place="bottom"> Il n’y a pas au XVII<hi rend="sup">e</hi> siècle de distinction orthographique entre <hi rend="i">compte</hi> et <hi rend="i">conte</hi>.</note> ; <ref target="#testedienne">testigué*</ref> si tu m’aimois me
+                dirois-tu ça ?</p>
+          </sp>
+          <sp xml:id="I03-37" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Qu’est-ce que tu viens aussi me tarabuster l’esprit ?</p>
+          </sp>
+          <sp xml:id="I03-38" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p><ref target="#morguienne">Morgué*</ref>, queu mal te fais-je ? je<pb n="23"/> ne te demande qu’un peu plus
+                d’amiquié.</p>
+          </sp>
+          <sp xml:id="I03-39" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Eh bien va, ça viendra sans y songer.</p>
+          </sp>
+          <sp xml:id="I03-40" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Touche donc là<note n="62" place="bottom"><hi rend="i">Touche-là</hi> marque
+                  l’accord : « parce qu’on a coutume de se toucher dans la main pour conclure un
+                  marché, ou en signe de bienveillance » précise le <hi rend="i">Dictionnaire
+                    Universel</hi> de Furetière.</note>, Charlote.</p>
+          </sp>
+          <sp xml:id="I03-41" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Eh bien, tien.</p>
+          </sp>
+          <sp xml:id="I03-42" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Promets-moy que tu tascheras de m’aimer d’avantage.</p>
+          </sp>
+          <sp xml:id="I03-43" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Hé, Pierrot, est-ce là ce Monsieu ?</p>
+          </sp>
+          <sp xml:id="I03-44" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Oüy, le vela.</p>
+          </sp>
+          <sp xml:id="I03-45" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Helas, c’eust esté dommage qu’il eust esté noyé.</p>
+          </sp>
+          <sp xml:id="I03-46" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Je revian toute à l’heure<note n="63" place="bottom"><hi rend="i">Toute à
+                    l’heure</hi> : tout de suite.</note>, je m’en vay boire chopine<note n="64" place="bottom"><hi rend="i">Boire chopine</hi> : boire un coup.</note>, pour me
+                rebou-<pb n="24"/> ter<note n="65" place="bottom"><hi rend="i">Se rebouter</hi> :
+                  se remettre.</note> tant soit peu de la fatigue que j’ay euë.</p>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I04">
+          <head>SCÈNE IV.</head>
+          <stage>D. JUAN, GUSMAN, CHARLOTE.</stage>
+          <sp xml:id="I04-1" who="gusman">
+            <speaker>Gusman.</speaker>
+            <p>Par ma foy il semble que nous n’ayons jamais bû que du vin, et nous voila aussi
+                bien remis que si de rien n’avoit esté ; mais, Monsieur, dites-moy un peu, s’il vous
+                plaist, tous ces vœux que nous avons faits avec tant d’ardeur dans le péril sur la
+                Mer, seront-ils executez avec la mesme<note n="66" place="bottom">La même
+                  ardeur.</note> ?</p>
+          </sp>
+          <sp xml:id="I04-2" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Tais-toy. Ah ! la jolie Personne, Gusman.</p>
+          </sp>
+          <sp xml:id="I04-3" who="gusman">
+            <speaker>Gusman.</speaker>
+            <pb n="C ; 25"/>
+            <p>La peste, le joly tendron<note n="67" place="bottom"><hi rend="i">Tendron</hi> :
+                  « Se dit figurément des filles au-dessous de vingt ans. Ce vieillard s’est marié à
+                  un tendron de quinze à seize ans ». <hi rend="i">Dictionnaire Universel</hi>
+                  d’Antoine Furetière.</note> !</p>
+          </sp>
+          <sp xml:id="I04-4" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Il faut l’aborder. Comment ma belle, un lieu si sauvage peut produire une personne
+                comme vous ? Ah, vous n’estes point faite pour habiter les deserts. Regarde, Gusman,
+                  qu’elle<note n="68" place="bottom">Comprendre : comme elle.</note> est bien
+                  prise<note n="69" place="bottom"> On appréciera le jeu de mot sur <hi rend="i">prise</hi> : être bien pris signifie être bien fait, bien proportionné, mais il
+                  peut aussi être compris ici dans son sens littéral, c’est-à-dire attrapé − par
+                  quelque fourberie. D. Juan va essayer de « l’attrapper » par ses beaux discours et
+                  ses flatteries. La tirade suivante de Gusman se justifie alors pleinement : non
+                  seulement D. Juan est bien mis mais aussi bien attrapé car épris, ou du moins
+                  tombé dans les filets de Charlotte à cause de sa beauté.</note>.</p>
+          </sp>
+          <sp xml:id="I04-5" who="gusman">
+            <speaker>Gusman.</speaker>
+            <p>Et vous aussi.</p>
+          </sp>
+          <sp xml:id="I04-6" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Est-ce que vous voudriez, ma belle, demeurer toute vostre vie dans un lieu pauvre
+                et inhabité comme celui-cy ?</p>
+          </sp>
+          <sp xml:id="I04-7" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Ho, Monsieur, il y a bien des filles et des garçons dans notre hameau.</p>
+          </sp>
+          <sp xml:id="I04-8" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Il faut que vous quittiez une si triste demeure.</p>
+          </sp>
+          <sp xml:id="I04-9" who="charlote">
+            <speaker>Charlote.</speaker>
+            <pb n="26"/>
+            <p>Ho, Monsieur, mon pere me vouloit marier au gros Lucas, mais ma mere n’a pas voulu,
+                à cause qu’il me falloit aller demeurer à trois lieuës d’icy avec luy.</p>
+          </sp>
+          <sp xml:id="I04-10" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Sa simplicité me charme : Et qui est-t-il votre pere ?</p>
+          </sp>
+          <sp xml:id="I04-11" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Il est Juge d’icy.</p>
+          </sp>
+          <sp xml:id="I04-12" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Vous estes fille asseurément à vostre âge.</p>
+          </sp>
+          <sp xml:id="I04-13" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>On me va marier.</p>
+          </sp>
+          <sp xml:id="I04-14" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Et à qui, ma belle ?</p>
+          </sp>
+          <sp xml:id="I04-15" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>A Pierrot qui demeure auprés de cheux nous.</p>
+          </sp>
+          <sp xml:id="I04-16" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Quoy, Pierrot aura ce bonheur-<pb n="27"/> là ? Pierrot possedera ce tresor ? non,
+                non, vous n’estes point destinée pour Pierrot, un rustique, un vilain ; il vous faut
+                un homme comme moy qui vous fasse brave<note n="70" place="bottom"><hi rend="i">Brave</hi> : « signifie une personne bien vêtue. Les bourgeois ne sont braves
+                  que les fêtes et dimanches. » <hi rend="i">Dictionnaire universel</hi> d’Antoine
+                  Furetière. Comprendre que D. Juan en fera une dame de condition.</note>, qui…
+                comment vous appellez-vous ?</p>
+          </sp>
+          <sp xml:id="I04-17" who="charlote">
+            <speaker>Charlote</speaker>
+            <p>Charlote, Monsieur.</p>
+          </sp>
+          <sp xml:id="I04-18" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Fy, il faut qu’on ne parle à vous qu’avec respect, et qu’on vous appelle
+                  Madame<note n="71" place="bottom"><hi rend="i">Madame</hi> : terme réservé aux
+                  femmes de la noblesse. </note> ; n’aimeriez-vous pas mieux estre avec moi ? car,
+                belle Charlote, je vous aime passionnément.</p>
+          </sp>
+          <sp xml:id="I04-19" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>O Monsieur, vous ne voudriez pas aimer une petite fille comme moy.</p>
+          </sp>
+          <sp xml:id="I04-20" who="gusman">
+            <speaker>Gusman.</speaker>
+            <p>Si fait, si fait, je vous en répons.</p>
+          </sp>
+          <sp xml:id="I04-21" who="charlote">
+            <speaker>Charlote.</speaker>
+            <pb n="28"/>
+            <p>Mais, Monsieur, il faut demander à ma mere.</p>
+          </sp>
+          <sp xml:id="I04-22" who="gusman">
+            <speaker>Gusman.</speaker>
+            <p>Il est homme d’ordre, et fera les choses dans les formes.</p>
+          </sp>
+          <sp xml:id="I04-23" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Et il ne faut pas que Pierrot le sçache, car il se fâcheroit.</p>
+          </sp>
+          <sp xml:id="I04-24" who="gusman">
+            <speaker>Gusman.</speaker>
+            <p>Mon Maistre est secret.</p>
+          </sp>
+          <sp xml:id="I04-25" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Pour moy je suis enchanté, quelle taille ! tournez-vous un peu, elle est
+                charmante.</p>
+          </sp>
+          <sp xml:id="I04-26" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>O Monsieur, quand j’ay mes habits des Dimanches.</p>
+          </sp>
+          <sp xml:id="I04-27" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Ah ! les belles dents, montrez-les-moy encore de grace ; quel rang de perles,
+                quelles mains, elles sont faites au tour<note n="72" place="bottom"><hi rend="i">Tour</hi> « se dit de l’atelier d’un Tourneur, de la machine qui se meut
+                  circulairement, et sert à arrondir les ouvrages. Cet ouvrage est si poli, qu’il
+                  semble qu’il soit fait au tour ». <hi rend="i">Dictionnaire Universel</hi>
+                  d’Antoine Furetière.</note> ; quelle blancheur !</p>
+          </sp>
+          <sp xml:id="I04-28" who="charlote">
+            <speaker>Charlote.</speaker>
+            <pb n="29"/>
+            <p>O Monsieur, si j’avois sçeu ça, je les aurois lavées ce matin avec du son<note n="73" place="bottom"> Le <hi rend="i">Son</hi> : « C’est la peau du blé moulu,
+                  qu’on sépare de la farine par le moyen d’un blutoir ou sas ou tamis fort déliés ».
+                  Idem.</note>, elles seroient bien plus blanches.</p>
+          </sp>
+          <sp xml:id="I04-29" who="juan">
+            <speaker>Don Juan.</speaker>
+            <p>Ma belle enfant, souffrez qu’un baisé….</p>
+          </sp>
+          <sp xml:id="I04-30" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>O Monsieur, ma mere m’a dit qu’il ne falloit pas baiser les hommes, je ne baise pas
+                  seulement<note n="74" place="bottom">Comprendre : même pas.</note> Pierrot.</p>
+          </sp>
+          <sp xml:id="I04-31" who="juan">
+            <speaker>Don Juan.</speaker>
+            <p>Tant mieux, ma belle, tant mieux, abandonnez-moy seulement vostre main ; je ne me
+                sens pas de joye et rien n’égale le ravissement où je suis.</p>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I05">
+          <pb n="30"/>
+          <head>SCÈNE V.</head>
+          <stage>D. JUAN, GUSMAN, PIERROT, CHARLOTE.</stage>
+          <sp xml:id="I05-1" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Tout doucement, Monsieur, tenez-vous, s’il vous plaist, vous vous échaufez trop, et
+                vous pourriais gagner la puresie<note n="75" place="bottom"><hi rend="i">Puresie</hi> : pleurésie, dans le patois de Pierrot.</note>.</p>
+          </sp>
+          <sp xml:id="I05-2" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Qui m’amene icy cét impertinent ?</p>
+          </sp>
+          <sp xml:id="I05-3" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Je vous dis qu’ou vous teniais, et que vous ne caressiais pas nos accordées<note n="76" place="bottom"><hi rend="i">Accordées</hi> : « Qui s’est engagé par un
+                  traité pour mariage ». <hi rend="i">Dictionnaire universel</hi> d’Antoine
+                  Furetière. Accordée : jeune femme promise à quelqu’un. Les accordailles
+                  précédaient les fiançailles.</note>.</p>
+          </sp>
+          <sp xml:id="I05-4" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Ah ! que de brüit.</p>
+          </sp>
+          <sp xml:id="I05-5" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <pb n="31"/>
+            <p><ref target="#jernidenne">Jernidienne*</ref>, ce n’est pas comme ça qu’il faut pousser les gens.</p>
+          </sp>
+          <sp xml:id="I05-6" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Laisse-le faire aussi, Pierrot.</p>
+          </sp>
+          <sp xml:id="I05-7" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Comment, que je le laisse faire ; je ne veux pas, moy.</p>
+          </sp>
+          <sp xml:id="I05-8" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Ah…</p>
+          </sp>
+          <sp xml:id="I05-9" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p><ref target="#testedienne">Testedienne*</ref>, parce que vous estes Monsieu, vous viendrez caresser nos femmes à
+                notte barbe ? Allez-vous-en caresser les vostres.</p>
+          </sp>
+          <sp xml:id="I05-10" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Hen<note n="77" place="bottom">Dom Juan doit joindre le geste à la parole et donner
+                  un soufflet à Pierrot.</note>.</p>
+          </sp>
+          <sp xml:id="I05-11" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Hen ? <ref target="#testedienne">Tastigué*</ref> ne me frapez pas. Oh, <ref target="#jernidenne">jarnigué*</ref>, <ref target="#ventredienne">ventregué*</ref>, <ref target="#palsangué">palsangué*</ref>, <ref target="#morguienne">mordienne*</ref>,
+                ça n’est pas bien de battre les gens, et ce n’est pas là la récompense de vous avoir
+<pb n="32"/> sauvé d’estre noyé.</p>
+          </sp>
+          <sp xml:id="I05-12" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Pierrot, ne te fasche point.</p>
+          </sp>
+          <sp xml:id="I05-13" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Je me veux fascher, et t’és une vilaine, toy, d’endurer qu’on te cajolle.</p>
+          </sp>
+          <sp xml:id="I05-14" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Il n’y a pas de quoy te <ref target="#bouter">bouter*</ref> en colére.</p>
+          </sp>
+          <sp xml:id="I05-15" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Quement<note n="78" place="bottom">Comment.</note>, <ref target="#jernidenne">jarny*</ref>, tu m’és promise.</p>
+          </sp>
+          <sp xml:id="I05-16" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Est-ce que tu és fasché, Pierrot, que je devienne Madame<note n="79" place="bottom"><hi rend="i">Que je devienne Madame</hi> : que je devienne une femme de qualité
+                  (en épousant un Monsieur de bonne naissance). Cf. note 2 p. 97.</note> ?</p>
+          </sp>
+          <sp xml:id="I05-17" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p><ref target="#jernidenne">Jarnigué*</ref>, oüy, j’aime mieux te voir crever, que de te voir à un autre.</p>
+          </sp>
+          <sp xml:id="I05-18" who="charlote">
+            <speaker>Charlote.</speaker>
+            <p>Va va Pierrot, tu porteras des fromages cheux nous.</p>
+          </sp>
+          <sp xml:id="I05-19" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <pb n="33"/>
+            <p><ref target="#ventredienne">Ventredienne*</ref>, je n’y en porteray jamais quand tu m’en poirois<note n="80" place="bottom">Comprendre : quand bien même tu m’en payerais.</note> deux fois
+                autant qu’un autre ; est-ce donc comme ça que t’escoutes ce qu’il te dit ?
+                <ref target="#morguienne">Morguienne*</ref>, si j’avois sceu ça tantost, je me serois bien gardé de le tirer de
+                liau, et je luy aurois <ref target="#bailler">baillé*</ref> un bon coup d’aviron sur la teste.</p>
+          </sp>
+          <sp xml:id="I05-20" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Qu’est-ce que vous dites ?</p>
+          </sp>
+          <sp xml:id="I05-21" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p><ref target="#jernidenne">Jarniguenne*</ref>, je ne crains parsonne.</p>
+          </sp>
+          <sp xml:id="I05-22" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Attendez-moy un peu.</p>
+          </sp>
+          <sp xml:id="I05-23" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>Je me mocque de tout, moy.</p>
+          </sp>
+          <sp xml:id="I05-24" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Voyons cela.</p>
+          </sp>
+          <sp xml:id="I05-25" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p>J’en avons bian veu d’autres.</p>
+          </sp>
+          <sp xml:id="I05-26" who="gusman">
+            <speaker>Gusman.</speaker>
+            <pb n="34"/>
+            <p>Eh ! laisse-le faire, mon pauvre garçon, et ne luy dis rien.</p>
+          </sp>
+          <sp xml:id="I05-27" who="pierrot">
+            <speaker>Pierrot <hi rend="i">luy donnant un souflet.</hi></speaker>
+            <p>Je veux luy dire, moy.</p>
+          </sp>
+          <sp xml:id="I05-28" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Te voila payé de ta charité.</p>
+          </sp>
+          <sp xml:id="I05-29" who="pierrot">
+            <speaker>Pierrot.</speaker>
+            <p><ref target="#jernidenne">Jarny*</ref>, je vas dire à ton pere tout ce ménage-cy<note n="81" place="bottom"><hi rend="i">Tout ce ménage-cy</hi> : toute cette affaire.</note>.</p>
+          </sp>
+          <sp xml:id="I05-30" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Ah, Gusman, que je suis épris de cét aimable enfant ; mais que je crains qu’elle ne
+                reçoive quelque rude reprimande pour moy.</p>
+          </sp>
+          <sp xml:id="I05-31" who="gusman">
+            <speaker>Gusman.</speaker>
+            <p>Tout de bon, vous tient-elle au cœur ?</p>
+          </sp>
+          <sp xml:id="I05-32" who="juan">
+            <speaker>D. Juan.</speaker>
+            <p>Oüy, Gusman, et je craindrois plus que la mort qu’elle fust querellée par son
+                pere.</p>
+          </sp>
+          <sp xml:id="I05-33" who="gusman">
+            <speaker>Gusman.    [35]</speaker>
+            <p>Ecoutez, pour servir vostre passion, vous sçavez que j’ay accoûtumé d’entreprendre
+                bien des choses ; laissez-moy faire, j’ay déja beu avec son pere, et ce sont de ces
+                bonnes gens qui font connnoissance en deux verres de vin. J’imagine une piece assez
+                plaisante pour l’intimider et l’empescher de quereller sa fille. Reposez-vous sur
+                moy ; je luy vay mettre mon camarade en teste<note n="82" place="bottom">Comprendre : je vais lui faire un portrait avantageux de vous, lui faire votre
+                  éloge pour qu’il n’ait que votre nom en tête.</note>, et de la façon dont je
+                conduiray la chose, je vous promets de servir vostre amour. Allons seulement faire
+                un doigt de collation.</p>
+          </sp>
+          <label>Fin du premier acte.</label>
+        </div>
+      </div>
+      <div xml:id="II" type="act">
+        <pb n="36"/>
+        <head>ACTE SECOND.</head>
+        <div type="scene" xml:id="II01">
+          <head>SCENE I.</head>
+          <stage>LE JUGE, CHARLOTE.</stage>
+          <sp xml:id="II01-1" who="charlote">
+            <speaker>charlote.</speaker>
+            <p>Mon pere, pourquoy me tourmentez-vous ? Est-ce ma faute si j’aime mieux ce Monsieur
+                que ce gros vilain Pierrot que vous me voulez donner ?</p>
+          </sp>
+          <sp xml:id="II01-2" who="juge">
+            <speaker>le juge.</speaker>
+            <p>Allons, petite baboüine, allons, vous aimez donc les Monsieur ; or je vous
+                apprendray que les Monsieur ne sont pas pour vous, et que vous n’estes pas pour eux.
+                Rentrez au logis, et qu’il ne vous arrive plus<pb n="D ; 37 "/>de songer à d’autres
+                qu’à Pierrot, c’est luy qui sera mon gendre, il a bon mestier, et vous ne sçauriez
+                mourir de faim avec luy. Adieu, qu’on ne m’en souffle pas seulement un petit mot.
+                Voyez-vous, il leur faut des godeluriaux<note n="83" place="bottom"><hi rend="i">Godeluriaux</hi> : « Jeune fanfaron, glorieux, pimpant et coquet qui se pique
+                  de galanterie, de bonne fortune auprès des femmes, qui est toujours bien propre et
+                  bien mis sans avoir d’autres perfections. Les vieux maris ont sujet d’être jaloux
+                  de ces godelureaux qui viennent cajoler leurs femmes ». <hi rend="i">Dictionnaire
+                    Universel</hi> d’Antoine Furetière.</note>, de ces petits muguets<note n="84" place="bottom"><hi rend="i">Muguets</hi> : « Galant, coquet, qui fait l’amour aux
+                  Dames, qui est paré et bien mis pour leur plaire. Le Cours, les Tuilleries sont
+                  les rendez-vous de tous les muguets. » Idem.</note> bastis comme des poupées, avec
+                leurs grands cheveux et leurs petites épées ; non sera, non sera vostre Monsieur, le
+                Monsieur ne sera pas pour vous, ma fille. Ah, voicy son Valet de Chambre, c’est le
+                plus honneste d’eux tous, celuy-là, car dés le matin nous avons bû ensemble.</p>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II02">
+          <pb n="38"/>
+          <head>SCENE II.</head>
+          <stage>GUSMAN, LE JUGE.</stage>
+          <sp xml:id="II02-1" who="juge">
+            <speaker>le juge.</speaker>
+            <p>Monsieur Gusman, je suis le vostre <note n="85" place="bottom"><hi rend="i">Je suis
+                    le vostre</hi> : formule de politesse : je suis votre serviteur.</note>; comment
+                vous va ?</p>
+          </sp>
+          <sp xml:id="II02-2" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Fort bien, Monsieur, je vous cherchois.</p>
+          </sp>
+          <sp xml:id="II02-3" who="juge">
+            <speaker>le juge.</speaker>
+            <p>Qu’y a-t-il pour vostre service ? Vous estes un brave homme, vous ; et de toute
+                vostre bande, vous estes celuy que j’aime le mieux.</p>
+          </sp>
+          <sp xml:id="II02-4" who="gusman">
+            <speaker>Gusman.</speaker>
+            <p>Monsieur, je vous suis bien obligé, et aussi en récompense je vous viens avertir de
+                quelque petite chose qui vous touche.</p>
+          </sp>
+          <sp xml:id="II02-5" who="juge">
+            <speaker>le juge.</speaker>
+            <pb n="39"/>
+            <p>Moy !</p>
+          </sp>
+          <sp xml:id="II02-6" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Vous-mesme.</p>
+          </sp>
+          <sp xml:id="II02-7" who="juge">
+            <speaker>le juge.</speaker>
+            <p>Et qu’est-ce que ce seroit ?</p>
+          </sp>
+          <sp xml:id="II02-8" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Eh, ce n’est qu’une bagatelle ; mais il est toûjours bon d’y prendre garde.</p>
+          </sp>
+          <sp xml:id="II02-9" who="juge">
+            <speaker>le juge.</speaker>
+            <p>Dites-moy donc, je vous prie, ce que c’est.</p>
+          </sp>
+          <sp xml:id="II02-10" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>C’est que l’on vous veut tuer.</p>
+          </sp>
+          <sp xml:id="II02-11" who="juge">
+            <speaker>le juge.</speaker>
+            <p>Me tuer !</p>
+          </sp>
+          <sp xml:id="II02-12" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Oüy ; mais cela ne sera rien : c’est un drosle qui prend avec un peu trop de
+                chaleur les interests de mon Maistre contre vous, touchant vostre fille ; mais je
+                luy ay bien dit son<pb n="40"/> fait<note n="86" place="bottom"><hi rend="i">Dire
+                    son fait à quelqu’un</hi> : lui dire ses quatre vérités.</note> : Ce n’est pas
+                qu’il est méchant comme un diable, et quand il a résolu quelque chose, il faut que
+                cela soit ; mais je luy ay bien juré que s’il més-arrivoit de vostre personne<note n="87" place="bottom"> Comprendre : s’il vous tuait. Mésarriver : « Tourner à mal,
+                  avoir une mauvaise issue de quelque chose ». <hi rend="i">Dictionnaire
+                    universel</hi> d’Antoine Furetière.</note>, je sçaurois bien vous en vanger tost
+                ou tard ; c’est pourquoy vous n’avez que faire de craindre.</p>
+          </sp>
+          <sp xml:id="II02-13" who="juge">
+            <speaker>le juge.</speaker>
+            <p>Et oüy da ; mais s’il m’alloit tuer sans vous avertir, je ne laisserois pas que
+                d’estre mort.</p>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II03">
+          <head>SCENE III.</head>
+          <stage>LE JUGE, SILVESTRE, GUSMAN.</stage>
+          <sp xml:id="II03-1" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Chut, ne faites point semblant de rien<note n="88" place="bottom">Comprendre :
+                  faites comme si de rien n’était.</note>, et vous tenez un peu<pb n="41"/> à
+                l’écart, le voicy ; vous allez entendre comme je luy vay parler.</p>
+          </sp>
+          <sp xml:id="II03-2" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>Gusman, fay-moy connoistre un peu le Juge de ce lieu, qui est le pere de cette
+                jolie Charlote.</p>
+          </sp>
+          <sp xml:id="II03-3" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Pourquoy, Monsieur ?</p>
+          </sp>
+          <sp xml:id="II03-4" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>Je viens d’apprendre qu’il veut empescher que mon Maistre<note n="89" place="bottom"> <hi rend="i">Mon Maistre</hi> désigne D. Juan. Silvestre est donc
+                  un de ses valets et le compagnon de Gusman.</note> l’épouse, et qu’il se vante de
+                le poursuivre par Justice.</p>
+          </sp>
+          <sp xml:id="II03-5" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Il est vray qu’il ne veut pas consentir à ce mariage, parce que sa parole est
+                engagée à un autre.</p>
+          </sp>
+          <sp xml:id="II03-6" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>Par la mort, par la teste, par le ventre, si je le trouve, je le veux échigner,
+                deussay-je estre roüé tout vif.</p>
+          </sp>
+          <sp xml:id="II03-7" who="gusman">
+            <speaker>gusman.</speaker>
+            <pb n="42"/>
+            <p>Hé, Monsieur, c’est un honneste homme, peut-estre ne vous craindra-t’il point.</p>
+          </sp>
+          <sp xml:id="II03-8" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>Luy, luy ? Par le sang, par la teste, s’il estoit là, je luy donnerois de l’épée
+                dans le ventre. Qui est cét homme-là ?</p>
+          </sp>
+          <sp xml:id="II03-9" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Ha, Monsieur, ce n’est pas luy.</p>
+          </sp>
+          <sp xml:id="II03-10" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>N’est-ce point quelqu’un de ces amis ?</p>
+          </sp>
+          <sp xml:id="II03-11" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Au contraire, c’est son ennemy capital.</p>
+          </sp>
+          <sp xml:id="II03-12" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>Son ennemy capital ?</p>
+          </sp>
+          <sp xml:id="II03-13" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Oüy.</p>
+          </sp>
+          <sp xml:id="II03-14" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>Ah ! parbleu j’en suis ravy. Vous<pb n="43"/> estes ennemy, Monsieur, de ce faquin
+                de Juge ? Eh ?</p>
+          </sp>
+          <sp xml:id="II03-15" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Ouy, ouy, je vous en réponds.</p>
+          </sp>
+          <sp xml:id="II03-16" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>Touchez-là, touchez ; je vous donne ma parole, et vous jure sur mon honneur par
+                l’épée que je porte, par tous les sermens que je sçais faire, qu’avant la fin du
+                jour je vous déferay de ce maraut fiéfé, de ce faquin de Juge ; reposez-vous sur
+                moy.</p>
+          </sp>
+          <sp xml:id="II03-17" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Monsieur, ces sortes de choses ne sont guéres souffertes, et il y a bonne Justice
+                en cas…..</p>
+          </sp>
+          <sp xml:id="II03-18" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>Je me mocque de tout, et je n’ay rien à perdre.</p>
+          </sp>
+          <sp xml:id="II03-19" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Monsieur, ce n’est pas un homme sans amis, et il pourroit trouver<pb n="44"/>
+                quelque appuy contre vostre ressentiment.</p>
+          </sp>
+          <sp xml:id="II03-20" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>C’est ce que je demande, morbleu ; c’est ce que je demande : ah, teste ; ah,
+                ventre ; que ne le trouvay-je à cette heure, avec tout son secours ; que ne
+                paroist-il icy à mes yeux au milieu de trente personnes ; que ne le vois-je fondre
+                sur moy les armes à la main ? Comment, marauts, vous avez la hardiesse de vous
+                attaquer à moy ?*Allons, morbleu ; tüe, point de quartier ; donnons ferme ;
+                poussons ; bon pied, bon œil. Ah, canaille, vous en voulez par là, je vous en feray
+                tâter vostre saoul. Soûtenez, marauts, soûtenez. Allons, à cette botte<note n="90" place="bottom"><hi rend="i">Botte</hi> : « En terme d’escrime, est un coup qu’on
+                  porte avec un fleuret, une estocade ». <hi rend="i">Dictionnaire Universel</hi>
+                  d’Antoine Furetière.</note>, à cette autre, à celle-cy, à celle-là ; comment, vous
+                reculez ? pied ferme, morbleu ; pied ferme<note n="91" place="bottom">Silvestre
+                  joint le geste à la parole pour montrer ce qu’il ferait s’il se trouvait devant le
+                  juge. Cette petite scène dont Gusman est complice est la « pièce assez plaisante »
+                  que ce dernier a imaginé à la fin de l’acte I pour terrifier le juge et faire
+                  pression sur lui afin d’obtenir Charlotte pour D. Juan.</note>.</p>
+            <stage>*Il met l’épée à la main, et pousse des bottes de tous costez, et devant les
+                yeux du Juge.</stage>
+          </sp>
+          <sp xml:id="II03-21" who="gusman">
+            <speaker>gusman.</speaker>
+            <pb n="45"/>
+            <p>Nous n’en sommes pas.</p>
+          </sp>
+          <sp xml:id="II03-22" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>Voilà qui vous apprendra à vous oser joüer à moy<note n="92" place="bottom"> « <hi rend="i">Se joüer à quelqu’un</hi> ; C’est-à-dire, se prendre à quelqu’un,
+                  l’attaquer ». <hi rend="i">Dictionnaire François</hi> par P. Richelet.</note>.</p>
+          </sp>
+          <sp xml:id="II03-23" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Voilà bien du sang répandu pour une bagatelle. Et bien, Monsieur, vous voyez quel
+                diable d’homme c’est là.</p>
+          </sp>
+          <sp xml:id="II03-24" who="juge">
+            <speaker>le juge, <hi rend="i">bas.</hi></speaker>
+            <p>Oüy, oh, je me mocque de toutes ses menaces.</p>
+          </sp>
+          <sp xml:id="II03-25" who="silvestre">
+            <speaker>silvestre.</speaker>
+            <p>Ah ventre, <ref target="#jernidenne">jarny*</ref>, que ne le puis-je trouver ?</p>
+          </sp>
+          <sp xml:id="II03-26" who="juge">
+            <speaker>le juge.</speaker>
+            <p>N’y est-il plus ?</p>
+          </sp>
+          <sp xml:id="II03-27" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Non, non, il est party tout à fait, ne craignez plus rien.</p>
+          </sp>
+          <sp xml:id="II03-28" who="juge">
+            <speaker>le juge.</speaker>
+            <p>Qui, moy ? Oh, en bien faisant<pb n="46"/> on ne craint rien ; et on luy montrera
+                bien les dents quand il le faudra.</p>
+          </sp>
+          <sp xml:id="II03-29" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Oh, je n’en doute pas ! on voit bien que vous estes un homme ferme.</p>
+          </sp>
+          <sp xml:id="II03-30" who="juge">
+            <speaker>le juge.</speaker>
+            <p>Je m’en vais un peu consulter ce que j’ay à faire, et si on ne me conseille rien de
+                bon là-dessus, j’iray assembler le Village, et on sonnera le toxin<note n="93" place="bottom"> « <hi rend="i">Tocsin</hi> : Alarme qu’on sonne avec quelque
+                  cloche ». <hi rend="i">Dictionnaire françois</hi> par P. Richelet. Par cette
+                  alarme, on appelle tout le village à la poursuite de quelqu’un.</note> sur vostre
+                Maistre et sur vous.</p>
+          </sp>
+          <sp xml:id="II03-31" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>La peste soit le vieux fou, il nous va attirer icy quelque défluxion<note n="94" place="bottom"><hi rend="i">Défluxion : Fluxion</hi> : « Ecoulement d’humeurs
+                  nuisibles sur quelques parties du corps ». Idem.</note> sur les épaules.</p>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II04">
+          <pb n="47"/>
+          <head>SCENE IV.<note n="95" place="bottom">La scène a lieu dans une maison ou dans une
+                chambre d’hôtellerie que D. Juan occupe dans le village.</note></head>
+          <stage>D. JUAN, GUSMAN.</stage>
+          <sp xml:id="II04-1" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Et bien, Gusman, qu’as-tu fait ?</p>
+          </sp>
+          <sp xml:id="II04-2" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Ma foy, Monsieur, rien qui vaille ; nostre vieillard s’est mutiné, il nous menace
+                du toxin, et cela ne sent rien de bon. Si tous ces diables de Mariniers se mettoient
+                une fois sur nous, garre les coups d’aviron. Si vous m’en croyez, Monsieur, évitez
+                ce désordre, nous ne serions pas les plus forts icy ; rengainez vos amours pour
+                quelque temps, et à la première occasion d’une Barque qui partira nous enleverons
+                vo-<pb n="48"/> stre jeune Charlote sous un habit d’homme, ou quelque autre
+                déguisement ; franchement il n’y a point de jeu avec ces canailles-cy, ils seront
+                toûjours les plus forts ; et quelque grandeur que vous ayez au dessus d’eux, la
+                quantité l’emportera sur la qualité. Laissez-moy raccommoder tout cecy, et vous
+                retirez seulement, je vay tascher de rejoindre nostre vieux Juge, et faire en sorte
+                de le ramadoüer un peu.</p>
+          </sp>
+          <sp xml:id="II04-3" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Va donc, j’abandonne tout à ta conduite ; mais tu ne sçais pas, Gusman, le malheur
+                qui nous accompagne ?</p>
+          </sp>
+          <sp xml:id="II04-4" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Et qu’y auroit-il de nouveau ?</p>
+          </sp>
+          <sp xml:id="II04-5" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Une Barque marchande vient de moüiller icy, et comme la curiosité<pb n="E ; 49"/>
+                m’a porté à voir quelles gens estoient dedans, le premier homme qui s’est presenté à
+                mes yeux, devine qui c’est ?</p>
+          </sp>
+          <sp xml:id="II04-6" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Ma foy, Monsieur, je ne suis point Sorcier.</p>
+          </sp>
+          <sp xml:id="II04-7" who="juan">
+            <speaker>d. Juan.</speaker>
+            <p>Monsieur Dimanche.</p>
+          </sp>
+          <sp xml:id="II04-8" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Monsieur Dimanche ! Quoy ? ce persecuteur de Chrestiens ; ce maudit Marchand qui ne
+                sçauroit laisser vivre en repos ceux qui luy doivent ?</p>
+          </sp>
+          <sp xml:id="II04-9" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Luy-mesme.</p>
+          </sp>
+          <sp xml:id="II04-10" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Par ma foy, Monsieur, il vaudroit presque autant nous estre noyé<note n="96" place="bottom"> Au XVII<hi rend="sup">e</hi> siècle il n’y a pas systématiquement
+                  l’accord avec l’auxiliaire être.</note>, que d’avoir encore retrouvé cét
+                homme-là ; et l’avez-vous accüeilly à vôtre ordinaire, par de grands com-<pb n="50"/> plimens et de belles paroles, que vous luy faites passer pour argent
+                comptant ?</p>
+          </sp>
+          <sp xml:id="II04-11" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Je ne l’ay point abordé, je n’ay pas voulu qu’il me parlast devant d’autres
+                Marchands qui estoient là avec luy ; mais je ne crois pas estre long-temps sans le
+                voir ; il m’a veu : et comme je m’esquivois, j’ay bien oüy qu’il s’est informé de
+                moy, en me demandant par mon nom à quelques habitants d’icy.</p>
+          </sp>
+          <sp xml:id="II04-12" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Quel diable d’embarras ! On dit bien vray, qu’un mal-heur ne vient jamais sans
+                l’autre. Nous partons joyeux d’un païs où nous sommes endebtez, pour aller employer
+                nostre crédit ailleurs ; un maudit banc de sable nous fait faire naufrage ;
+                l’amourette vous prend pour une fille promise à un autre ;<pb n="51"/> on nous
+                menace d’amenter<note n="97" place="bottom"><hi rend="i">Amenter</hi> :
+                  ameuter.</note> tout le village sur nous ; et pour comble de maux nous trouvons
+                  M<hi rend="sup">r</hi> Dimanche ; mais ma foy, Monsieur, bon pied, bon œil, le
+                voicy, je le reconnois, vous n’avez qu’à vous bien tenir.</p>
+          </sp>
+          <sp xml:id="II04-13" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Paix, paix ; ne dis mot, écoute seulement, je vay payer d’une monnoye toute
+                nouvelle.</p>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II05">
+          <head>SCENE V.</head>
+          <stage>D. JUAN, GUSMAN, M<hi rend="sup">r</hi> DIMANCHE. </stage>
+          <sp xml:id="II05-1" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Ah, que vois-je ? M<hi rend="sup">r</hi> Dimanche icy ! quelle heureuse
+                rencontre !</p>
+          </sp>
+          <sp xml:id="II05-2" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <pb n="52"/>
+            <p>Monsieur….</p>
+          </sp>
+          <sp xml:id="II05-3" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Que je vous embrasse, M<hi rend="sup">r</hi> Dimanche.</p>
+          </sp>
+          <sp xml:id="II05-4" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>En verité c’est moy, Monsieur, qui suis trop heureux de vous trouver icy, et j’ay
+                bien de la joye que cela serve d’occasion à vuider…</p>
+          </sp>
+          <sp xml:id="II05-5" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Vrayement j’ay bien du plaisir à vous voir.</p>
+          </sp>
+          <sp xml:id="II05-6" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Monsieur, c’est beaucoup d’honneur que vous me faites ; mais si vous y vouliez
+                joindre une grace, je me trouve icy dans quelque besoin, et….</p>
+          </sp>
+          <sp xml:id="II05-7" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Comment se porte Madame Dimanche vostre femme ?</p>
+          </sp>
+          <sp xml:id="II05-8" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <pb n="53"/>
+            <p>Fort à vostre service, Monsieur. Je voudrois donc vous prier….</p>
+          </sp>
+          <sp xml:id="II05-9" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Je suis son serviteur.</p>
+          </sp>
+          <sp xml:id="II05-10" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Monsieur, je disois donc que si vous aviez la commodité…</p>
+          </sp>
+          <sp xml:id="II05-11" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Et vostre fille Mademoiselle Marion ?</p>
+          </sp>
+          <sp xml:id="II05-12" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Elle est en bonne santé aussi, Monsieur ; mais….</p>
+          </sp>
+          <sp xml:id="II05-13" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>C’est une aimable enfant.</p>
+          </sp>
+          <sp xml:id="II05-14" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Elle est bien vostre petite servante, Monsieur ; je…</p>
+          </sp>
+          <sp xml:id="II05-15" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Et qui est vrayement bien sage.</p>
+          </sp>
+          <sp xml:id="II05-16" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Oh, Monsieur, vous vous moc-<pb n="54"/> quez d’elle. J’ose prendre la liberté de
+                vous dire, Monsieur, qu’une certaine Lettre de Change que je dois acquiter dans peu
+                m’oblige….</p>
+          </sp>
+          <sp xml:id="II05-17" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Et vostre petit garçon fait-il toûjours bien du brüit avec son tambour ?</p>
+          </sp>
+          <sp xml:id="II05-18" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Oh, Monsieur, il est assez semillant<note n="98" place="bottom"><hi rend="i">Semillant</hi> : « Qui est remuant, éveillé, qui ne se peut tenir en place. Il
+                  ne se dit guère que des enfants qui sont toujours en action, qui font quelque
+                  petite malice. Ce n’est pas un mauvais signe quand les enfants sont sémillants,
+                  c’est une marque d’esprit ou de cœur ». <hi rend="i">Dictionnaire Universel</hi>
+                  d’Antoine Furetière. </note>. Or ça, si vous vouliez que nous parlassions un
+                peu….</p>
+          </sp>
+          <sp xml:id="II05-19" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Il vous ressemble comme deux goutes d’eau.</p>
+          </sp>
+          <sp xml:id="II05-20" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Voyez-vous, Monsieur, dans le negoce si nous ne payons à jour nommé, on proteste
+                d’abord contre nous ; c’est ce qui fait, Monsieur, que nous importunons quelquefois
+                nos debiteurs ; et comme vous m’avez fait l’honneur de prendre….</p>
+          </sp>
+          <sp xml:id="II05-21" who="juan">
+            <speaker>d. juan.</speaker>
+            <pb n="55"/>
+            <p>A propos, vostre petit Chien est-il encore en vie ?</p>
+          </sp>
+          <sp xml:id="II05-22" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Il s’interesse pour toute la famille.</p>
+          </sp>
+          <sp xml:id="II05-23" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Monsieur, tout se porte fort bien.</p>
+          </sp>
+          <sp xml:id="II05-24" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>En vérité j’en suis fort joyeux, et je vous veux prier de les embrasser tous deux
+                pour l’amour de moy, quand vous retournerez chez vous.</p>
+          </sp>
+          <sp xml:id="II05-25" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Monsieur, si auparavant vous trouvez bon que nous….</p>
+          </sp>
+          <sp xml:id="II05-26" who="juan">
+            <speaker>d. juan <hi rend="i">repousse insensiblement M. Dimanche jusques à ce qu’il
+                  soit contre la porte</hi><note n="99" place="bottom">Les scènes 4 et 5 ont lieu
+                  dans la maison que D. Juan occupe dans le village. Il s’agit donc ici de la porte
+                  des appartements de D. Juan.</note>, <hi rend="i">et puis s’en va.</hi></speaker>
+            <p>Adieu M<hi rend="sup">r</hi> Dimanche, que je vous embrasse.</p>
+          </sp>
+          <sp xml:id="II05-27" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Monsieur…</p>
+          </sp>
+          <sp xml:id="II05-28" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Je ne vous laisseray point là.</p>
+          </sp>
+          <sp xml:id="II05-29" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Mais Monsieur…</p>
+          </sp>
+          <sp xml:id="II05-30" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Je sçay trop ce que je vous dois.</p>
+          </sp>
+          <sp xml:id="II05-31" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Et oüy Môsieur, d’accord, mais le besoin…</p>
+          </sp>
+          <sp xml:id="II05-32" who="juan">
+            <speaker>d. juan.</speaker>
+            <pb n="56"/>
+            <p>Allons, allons, permettez-moy de vous conduire.</p>
+          </sp>
+          <sp xml:id="II05-33" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Monsieur, la necessité de payer…</p>
+          </sp>
+          <sp xml:id="II05-34" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Je ne vous laisseray point là, vous dis-je.</p>
+          </sp>
+          <sp xml:id="II05-35" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Mais si…</p>
+          </sp>
+          <sp xml:id="II05-36" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>C’est perdre le temps.</p>
+          </sp>
+          <sp xml:id="II05-37" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Je…</p>
+          </sp>
+          <sp xml:id="II05-38" who="juan">
+            <speaker>d. juan.</speaker>
+            <p>Vous vous moquez.</p>
+          </sp>
+          <sp xml:id="II05-39" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Point du tout.</p>
+          </sp>
+          <sp xml:id="II05-40" who="juan">
+            <speaker>d. Juan.</speaker>
+            <p>Hola, hé ? des Flambeaux, et reconduisez M<hi rend="sup">r</hi> Dimanche.</p>
+          </sp>
+          <sp xml:id="II05-41" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Quel diable d’homme est ce cy ? Orça, me payerez-vous de la même monnoye, vous,
+                  M<hi rend="sup">r</hi> Gusman ?</p>
+          </sp>
+          <sp xml:id="II05-42" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Plaist-il, Monsieur ?</p>
+          </sp>
+          <sp xml:id="II05-43" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Je vous demande s’il vous souvient bien<pb n="57"/> que vous me devez en vostre
+                particulier pour quarante écus d’Etoffe que je vous ay livré ?</p>
+          </sp>
+          <sp xml:id="II05-44" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Comment se porte Madame Dimanche ?</p>
+          </sp>
+          <sp xml:id="II05-45" who="dimanche">
+            <speaker>M<hi rend="sup">r</hi> dimanche.</speaker>
+            <p>Oh je n’entens pas raillerie, et…</p>
+          </sp>
+          <sp xml:id="II05-46" who="gusman">
+            <speaker>gusman.</speaker>
+            <p>Et vostre petit Chien ? Il vous ressemble comme deux goutes d’eau. Allons donc, je
+                ne vous laisseray point là. Je vous reconduiray, je sçay trop mon devoir. Vous vous
+                moquez. Sortez donc, s’il vous plaist, ou que le Diable vous emporte. Bonsoir et
+                bonne nuit. Belle maniere de payer ses Creanciers. On ne nous rapporte ny argent
+                faux, ny Pistoles légeres<note n="100" place="bottom"><hi rend="i">Pistoles
+                    légeres</hi> : « On appelle un écu d’or léger, de la monnaie légère, quand elle
+                  n’est pas du poids requis par les règlements du pays ». <hi rend="i">Dictionnaire
+                    universel</hi> d’Antoine Furetière.</note>. Mais voicy mon vieux Juge avec son
+                Gendre prétendu ; tâchons de détourner l’orage qu’ils nous apprestent.</p>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II06">
+          <head>SCENE VI.</head>
+          <stage>LE JUGE, PIERROT.</stage>
+          <sp xml:id="II06-1" who="pierrot">
+            <speaker>pierrot.</speaker>
+            <p>Pour moy je ne trouve rien de meilleur pour nos affaires que de crier haro<note n="101" place="bottom">« Terme de la coutume de Normandie, lorsqu’on trouve sa
+                  partie, et qu’on la veut mener devant le Juge ; car alors elle est obligée de
+                  suivre celui qui a crié haro sur elle, et l’un et l’autre demeurent en prison, ou
+                  en la maison du Juge, jusqu’à ce qu’il ait prononcé sur leur différent du moins
+                  par provision ». Idem.</note> sur<pb n="58"/> ce diable de Monsieur qui veut tuer
+                les Hommes, et prendre les Femmes. <ref target="#palsangué">Palsangué*</ref>, faites comme moy, je criërons
+                l’allarme.</p>
+            <stage>Le Juge et Pierrot se mettent à crier allarme et au feu tous deux
+                ensemble.</stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II07">
+          <head>SCENE VII.</head>
+          <stage>LE JUGE, PIERROT, GUSMAN.</stage>
+          <sp xml:id="II07-1" who="gusman">
+            <speaker>gusman <hi rend="i">leur parlant.</hi></speaker>
+            <p>Et qu’y a-t-il, Messieurs ? à quoy bon tout ce vacarme ? Vous inquietez-vous ? J’ai
+                tourné l’esprit de mon Maistre tout comme vous le souhaitez ; il ne s’oppose plus à
+                vostre mariage, au contraire il prétend estre de la noce. Il en payera le Festin, et
+                mesme il se retient pour estre le Compere<note n="102" place="bottom">Parrain.</note> au premier Enfant que vous aurez.</p>
+          </sp>
+          <sp xml:id="II07-2" who="pierrot">
+            <speaker>pierrot.</speaker>
+            <p>Oh, <ref target="#parguenne">pargué*</ref>, vela un honneste homme cela. Oh bian vous ly diré pour l’amour de cela
+                que je sommes son sarviteur, et que j’allons décrier l’allarme et boire à sa santé.
+                Venez payer chopaine.</p>
+          </sp>
+          <label>FIN</label>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div>
+        <head>Glossaire</head>
+        <entryFree xml:id="bailler">
+          <form>Bailler</form>
+          <def>Un des archaïsmes qui donne au patois de Pierrot son pittoresque.</def>
+          <xr>Pages 21, 33.</xr>
+        </entryFree>
+        <entryFree xml:id="barluë">
+          <form>Barluë</form>
+          <def>Berlue, « éblouissement de la vue par une trop grande lumière ». Dictionnaire
+              François par P. Richelet.</def>
+          <xr>Page 14.</xr>
+        </entryFree>
+        <entryFree xml:id="bouter">
+          <form>Bouter</form>
+          <def>Archaïsme pour le verbe « mettre », dans le patois de Pierrot et Charlotte. <hi rend="i">Bouter à tarre</hi> : mettre par terre. <hi rend="i">Se bouter en
+                colére</hi> (page 32) : se mettre en colère. « Vieux mot, qui était autrefois fort
+              en usage, comme il paraît par ses composés et ses dérivés, mais qui ne se dit plus que
+              dans le bas peuple et les paysans : et en Picardie il signifie <hi rend="i">mettre</hi> ». Dictionnaire Universel d’Antoine Furetière.</def>
+          <xr>Page 14.</xr>
+        </entryFree>
+        <entryFree xml:id="eplingue">
+          <form>Éplingue</form>
+          <def>Épingle. Cf. la rubrique « Pastiche du langage paysan ».</def>
+          <xr>Page 12.</xr>
+        </entryFree>
+        <entryFree xml:id="jernidenne">
+          <form>Jernidenne</form>
+          <def>Jarniguenne, Jernigué, Jarnigué, Jarny : Je renie Dieu.</def>
+          <xr>Pages 14, 19, 21, 31, 32, 33, 34.</xr>
+        </entryFree>
+        <entryFree xml:id="morguienne">
+          <form>Morguienne</form>
+          <def>Mordienne, Morgué : [par la] Mort [de] Dieu.</def>
+          <xr>Pages 14, 18, 22, 31, 33.</xr>
+        </entryFree>
+        <entryFree xml:id="palsangué">
+          <form>Palsangué</form>
+          <def>Palsanguenne : Par le sang de Dieu.</def>
+          <xr>Pages 13, 31.</xr>
+        </entryFree>
+        <entryFree xml:id="parguenne">
+          <form>Parguenne</form>
+          <def>Pargué : Par Dieu.</def>
+          <xr>Pages 12, 16.</xr>
+        </entryFree>
+        <entryFree xml:id="testedienne">
+          <form>Testedienne</form>
+          <def>Testigué, Tastigué : [Par la] tête [de] Dieu.</def>
+          <xr>Pages 19, 22, 31.</xr>
+        </entryFree>
+        <entryFree xml:id="ventredienne">
+          <form>Ventredienne</form>
+          <def>Ventregué : [Par le] ventre [de] Dieu.</def>
+          <xr>Pages 22, 31, 33.</xr>
+        </entryFree>
+        <p>Il est entendu que ces jurons n’ont plus de sens précis dans les dialogues, où ils
+            servent seulement à mettre l’accent sur une affirmation, à marquer la colère,
+            l’impatience, etc.</p>
+      </div>
+      <div>
+        <head>Le pastiche du langage paysan</head>
+        <p>Champmeslé reprend le procédé du <hi rend="i">Dom Juan</hi> où Molière recourt au
+            pittoresque de l’accent et des tournures rurales qui donne sa couleur aux discours de
+            Pierrot et de Charlotte tout au long de l’acte II, ce qui apparaît comme un ressort
+            comique assez simple. Mais, comme le dit Boris Donné, « intégrer cette veine dans les
+            procédés de la comédie n’allait pas de soi. Molière s’est probablement inspiré d’une
+            pièce qu’il appréciait, <hi rend="i">Le Pédant joué</hi> (1654) de Cyrano de Bergerac.
+            Une bonne part des effets de cette comédie quasi expérimentale reposait déjà sur les
+            tirades piquantes d’un paysan, Gareau ». Dans cet hommage qu’il rend à Molière à travers
+              <hi rend="i">Les Fragmens de Moliere</hi>, Champmeslé réintroduit donc presque à
+            l’identique la célèbre scène entre Pierrot et Charlotte où l’essentiel des procédés
+            comiques mis en œuvre dans le discours passent par la prononciation déformée par le
+            patois, les jurons paysans, les expressions imagées, l’étonnement naïf du rustre devant
+            la mise d’un « Monsieu ». Mais la densité des termes de patois dans le discours de
+            Pierrot ne décourage pas la compréhension, comme c’est le cas du Gareau de Cyrano de
+            Bergerac : Molière a pris soin, en composant le langage des paysans, d’en doser les
+            effets pittoresques afin qu’il soit piquant sans être impénétrable.</p>
+        <p>Les particularités les plus évidentes du parler de Pierrot sont les déformations qui
+            affectent la prononciation. Sans entrer dans le détail des mécanismes phonétiques, on
+            peut inventorier les principales variantes qui distinguent ce patois de l’usage courant.
+            Ce sont d’abord les nombreuses transformations des voyelles qui donnes au texte sa
+            couleur particulière : le <hi rend="i">e</hi> ouvert est souvent remplacé par <hi rend="i">a : revarsés</hi> pour <hi rend="i">renversés, barlue</hi> pour <hi rend="i">berlue</hi>… Dans d’autres contextes, il est remplacé par un son <hi rend="i">œ :
+              queuque</hi> pour <hi rend="i">quelque</hi>. De même, le <hi rend="i">o</hi> ouvert
+            est parfois remplacé par <hi rend="i">œ : quement</hi> pour <hi rend="i">comment</hi>.
+            La voyelle nasale <hi rend="i">in</hi> devient parfois <hi rend="i">an</hi>, notamment
+            dans <hi rend="i">bian</hi> pour <hi rend="i">bien</hi>. A la voyelle <hi rend="i">u</hi> se substituent quelquefois les sons <hi rend="i">a</hi> ou <hi rend="i">i :
+              da</hi> pour <hi rend="i">du, hymeur</hi> pour <hi rend="i">humeur</hi>. Les finales
+            en -<hi rend="i">eau</hi> s’enrichissent d’une semi-consonne (yod) : <hi rend="i">risiau</hi> pour <hi rend="i">réseau, liau</hi> pour <hi rend="i">l’eau</hi>.</p>
+        <p>Bien évidemment, de semblables déformations affectent aussi les consonnes :
+            Transformation de <hi rend="i">t</hi> en <hi rend="i">qu</hi> ou <hi rend="i">squ :
+              j’esquions</hi> pour <hi rend="i">j’étais, jequions</hi> pour <hi rend="i">jetons,
+              piquié</hi> pour <hi rend="i">pitié</hi>. Interversion de consonne dans un même mot :
+              <hi rend="i">éplingue</hi> pour <hi rend="i">épingle</hi>.</p>
+        <p>Du point de vue morphologique, on relève de nombreuses variations sur les formes
+            conjuguées des verbes : ce sont parfois de simples variantes résultant de la
+            prononciation : <hi rend="i">je sis</hi> pour <hi rend="i">je suis, ils ant</hi> pour
+              <hi rend="i">ils ont</hi>. D’autres fois ce sont des substitutions de personne : <hi rend="i">j’esquions</hi>, ou l’emploi du participe présent pour une forme conjuguée :
+              <hi rend="i">nageant</hi> pour <hi rend="i">nagent</hi>, ou encore la création de
+            formes aberrantes, notamment à la première personne du singulier et à la troisième du
+            pluriel, calquées sur la première personne du pluriel : <hi rend="i">j’avons, j’avieme,
+              ils avons ; ils appellons</hi> pour <hi rend="i">ils appellent, portons</hi> pour <hi rend="i">portent</hi>…</p>
+        <p>Il faut signaler enfin les formes contractées : <hi rend="i">vla</hi> pour <hi rend="i">voilà, pû</hi> pour <hi rend="i">plus, pis</hi> pour <hi rend="i">puis</hi> ; les
+            expressions populaires – expliquées en note – et la présence insistante des jurons
+            variés – cf. lexique. Ces interjections qui ponctuent de façon piquante les discours des
+            paysans sont souvent des déformations de formules blasphématoires.</p>
+      </div>
+      <div>
+        <head>Bibliographie</head>
+        <div>
+          <head>Sur la comédie en France au XVII<hi rend="sup">e</hi> siècle</head>
+          <bibl>CONESA Gabriel, <title>La Comédie de l’âge classique. 1630-1715</title>, Seuil,
+              coll. « Ecrivains de toujours », 1995.</bibl>
+          <bibl>CORVIN, Michel, <title>Lire la comédie</title>, Dunod, 1944.</bibl>
+          <bibl>LANCASTER Henry Carrington, <title>A History of French Dramatic Literature in the
+                Seventeenth Century</title>, Part. III et IV, Baltimore, Johns Hopkins Press,
+              1929-1942.</bibl>
+          <bibl>SCHERER Jacques, <title>La Dramaturgie classique en France</title>, Paris, Nizet,
+              s.d. [1950].</bibl>
+        </div>
+        <div>
+          <head>Sur l’histoire matérielle des théâtres</head>
+          <bibl>HOWE Alan, <title>Le Théâtre professionnel à Paris. 1600-1649</title>, Paris,
+              Archives Nationales, 2000.</bibl>
+          <bibl>[LANCASTER Henry Carrington, éd.], <title>Le Mémoire de Mahelot, Laurent et autres
+                décorateurs de l’Hôtel de Bourgogne</title>, Paris, Champion, 1920.</bibl>
+          <bibl>MÉLÈSE, Pierre, <title>Le Théâtre et le public à Paris sous Louis XIV :
+                1659-1715</title>, Paris, Droz, 1934.</bibl>
+        </div>
+        <div>
+          <head>Ouvrages généraux sur la période</head>
+          <bibl>ADAM Antoine, <title>Histoire de la littérature française du XVII<hi rend="sup">e</hi> siècle</title>, Domat, 1948-1952 ; rééd. Del Duca, 1962 ; rééd. Albin
+              Michel, 1996.</bibl>
+          <bibl>BENICHOU Paul, <title>Morales du Grand Siècle</title>, Gallimard, 1948.</bibl>
+          <bibl>FORESTIER Georges, « Lire Racine », dans Racine, <title>Œuvres complètes</title>,
+              Paris, Gallimard, 1999, pages LXI-LXVIII.</bibl>
+          <bibl>ROUSSET Jean, <title>L’Intérieur et l’Extérieur. Essais sur la poésie et le
+                théâtre au XVII<hi rend="sup">e</hi> siècle</title>, Paris, Librairie José Corti,
+              1968.</bibl>
+        </div>
+        <div>
+          <head>Sur la vie de Brécourt et Champmeslé, comédiens et auteurs de théâtre du XVII<hi rend="sup">e</hi> siècle</head>
+          <bibl>BLUCHE François, <title>Dictionnaire du Grand Siècle</title>, Fayard, 1990.</bibl>
+          <bibl>HOWE Alan, <title>Ecrivains de théâtre. 1600-1649</title>, documents réunis et
+              présentés par Alan Howe, Archives nationales (France). Minutier central des notaires
+              de Paris, Paris, centre historique des Archives nationales, 2005.</bibl>
+          <bibl>JOURGENS Marguerite, MAXFIELD-MILLER Elizabeth, <title>Cent ans de recherche sur
+                la vie de Molière, sur sa famille et sur les comédiens de sa troupe</title>,
+              [Paris], Ministère d’État chargé des affaires culturelles, Direction des archives de
+              France, Archives nationales, 1963.</bibl>
+          <bibl>MONGREDIEN Georges, <title>Les Comédiens français du XVII<hi rend="sup">e</hi>
+                siècle. Dictionnaire biographique, suivi d’un inventaire des troupes,
+                1590-1710</title>, Paris, Centre national de la recherche scientifique, 1961.</bibl>
+        </div>
+        <div>
+          <head>Sur les représentations et les publications des œuvres relatives à Molière</head>
+          <bibl>MONGREDIEN Georges, <title>Recueil des textes et des documents du XVII<hi rend="sup">e</hi> siècle relatifs à Molière</title>, Paris, Éd. du CNRS, 1973, 2
+              vol.</bibl>
+        </div>
+        <div>
+          <head>Sur Brécourt et Champmeslé et la réception de leur pièce</head>
+          <bibl>LEMAZURIER, <title>Galerie historique des acteurs de théâtre français depuis 1600
+                jusqu’à nos jours…</title>, Paris, J. Chaumerot, 1810, t. I.</bibl>
+          <bibl>MAUPOINT, <title>Bibliothèque des théâtres</title>, Paris, L.-F. Prault,
+              1733.</bibl>
+          <bibl>PARFAICT François et Claude, <title>Histoire du théâtre depuis son origine jusqu’à
+                présent…</title>, Genève, Slatkine Reprints, 1967.</bibl>
+        </div>
+        <div>
+          <head>Édition des Œuvres de Molière</head>
+          <bibl><title>Les Œuvres de Monsieur de Molière. Revues, corrigées et augmentées
+                (1682)</title> ; fac-similé, Genève-Paris, Minkoff Reprint, 1973, 8 tomes.</bibl>
+          <bibl>MOLIÈRE, <title>Œuvres complètes</title>, éd. Georges Couton, Gallimard,
+              « Bibliothèque de la Pléiade », 1971, 2 tomes.</bibl>
+        </div>
+        <div>
+          <head>Sur la langue</head>
+          <div>
+            <head>Dictionnaires</head>
+            <bibl>ACADEMIE FRANÇAISE, <title>Dictionnaire</title>, Paris, J.-B. Coignard, 1694, 2
+                vol.</bibl>
+            <bibl>FURETIÈRE, Antoine, <title>Dictionnaire universel contenant généralement tous
+                  les mots françois tant vieux que modernes et les termes de toutes les sciences et
+                  ls arts</title>, La Haye et Rotterdam, Arnout et Reinier Leers ; rééd. Paris,
+                SNL-Le Robert, 1978, 3 vol.</bibl>
+            <bibl>RICHELET, Pierre, <title>Dictionnaire françois contenant les mots et les choses,
+                  plusieurs nouvelles remarques sur la langue françoise…avec les termes les plus
+                  connus des arts et des sciences</title>, Genève, J.-H. Widerhold, 1680, 2
+                vol.</bibl>
+          </div>
+          <div>
+            <head>Grammaires</head>
+            <bibl>HAASE, A., <title>Syntaxe française du XVII<hi rend="sup">e</hi> siècle</title>,
+                Paris, Delagrave, 1935.</bibl>
+            <bibl>SANCIER-CHATEAU Anne, <title>Introduction à la langue française du XVII<hi rend="sup">e</hi> siècle</title>, Paris, Nathan, 1993, 2 vol.</bibl>
+          </div>
+        </div>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,2402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Procès des Prétieuses en vers burlesques. Comédie.</title>
+        <author key="Somaize, Antoine Baudeau (1630?-16.. ; sieur de)">Antoine Baudeau de Somaize</author>
+        <principal>Georges Forestier</principal>
+        <editor>Léa Delourme</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Édition critique établie par Léa Delourme sous la direction de Georges Forestier (2013-2014)</edition>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>CELLF 16-18 (CNRS &amp; université Paris-Sorbonne)</publisher>
+        <date when="2014"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
+        </availability>
+        <idno>http://bibdramatique.paris-sorbonne.fr/somaize_proces-precieuses/</idno>
+        <idno type="tei">http://bibdramatique.paris-sorbonne.fr/somaize_proces-precieuses.xml</idno>
+        <idno type="html">http://bibdramatique.paris-sorbonne.fr/somaize_proces-precieuses.html</idno>
+        <idno type="text">http://bibdramatique.paris-sorbonne.fr/somaize_proces-precieuses.txt</idno>
+        <idno type="epub">http://bibdramatique.paris-sorbonne.fr/somaize_proces-precieuses.epub</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Antoine Baudeau de Somaize</author>. <title>Le Procès des Prétieuses en vers burlesques. Comédie.</title>. A <pubPlace>PARIS</pubPlace>,  Chez <publisher>ESTIENE LOYSON</publisher>, au Palais,  à l’entrée de la Gallerie des Prisonniers,  au Nom de <hi rend="sc">Jesus.</hi> <date>M. DC. LX</date>  <hi rend="i">AVEC PRIVILEGE DU ROY.</hi></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1660"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>Le Procès des Prétieuses en vers burlesques</titlePart>
+          <titlePart>Comédie</titlePart>
+        </docTitle>
+        <docImprint/>
+        <docImprint>A PARIS, <lb/>Chez ESTIENE LOYSON, au Palais, <lb/>à l’entrée de la Gallerie des Prisonniers, <lb/>au Nom de <hi rend="sc">Jesus.</hi><lb/>M. DC. LX <lb/><hi rend="i">AVEC PRIVILEGE DU ROY.</hi></docImprint>
+        <docEdition>Édition critique établie par Léa Delourme sous la direction de Georges Forestier (2013-2014)</docEdition>
+      </titlePage>
+      <div xml:id="dedicace">
+        <head>A MADAME <lb/>Madame la marquise de monloy.</head>
+        <p><hi rend="i">MADAME</hi>,</p>
+        <p rend="i">Apres avoir quelque temps douté si je differerois les preuves de mon respect pour vous en donner de plus considerables, ou si je me hazarderois de vous le témoigner par l’offre d’une bagatelle : je me suis enfin laissé persuaderque je ne pouvois avec trop d’empressement chercher les moyens de vous en donner des marques ; mais comme il me sembloit presque impossible qu’elles vous fussent considerables sortant de mes mains ; j’ay cherché dans les agréments d’un style burlesque dequoy reparer mon peu de merite, &amp; ne me sentant pas assez fort pour vous plaire par la beauté de mes pensées, j’ay voulu vous empescher de songer à ma foiblesse, &amp; reparer ce deffaut par la plaisanterie de mes imaginations : En un mot, MADAME, je me suis resolu de vous offrir une Comedie, n’osant pas vous presenter un Ouvrage serieux. Dans cette entreprise je n’ay point d’autre but que celuy de vous divertir, &amp; de vous faire connoistre que je me souviens de ce que je vous dois. J’avouë que c’est me charger d’une nouvelle obligation que de vouloir m’aquiter ainsi ; mais il est bien mal-aisé de n’estre pas tousjours redevable à celles qui vous ressemblent ; aussi me fonday-je entierement sur vostre bonté. C’est une de vos vertus, MADAME, &amp; vous n’avés pas acquis moins de reputation dans la Cour par elle, que par toutes vos autres bonnes qualitez. Je m’abuserois moy-mesme si je pretendois en faire icy le denombrement. Trop de choses vous ont renduë recommandable durant que vous avez esté auprés de la plus auguste &amp; plus vertueuse Reyne qui ait jamais porté la Couronne pour me laisser le moyen de l’oser entreprendre ; aussi ne m’y hazarderay-je pas ; &amp; tout le tesmoignage que je veux rendre à une vertu conneue de tout le monde, c’est que dans ce lieu où vostre naissance vous avoit appellée ; dans ce lieu dis-je où la médisance n’espargne personne, vostre vertu luy a si bien fermé la bouche que les plus médisans ne l’ont jamais ouverte que pour publier que vous estiez la plus sage &amp; la plus vertueuse personne de la Cour ; &amp; dans ce lieu ce n’est pas peu de chose de conserver tant d’estime avec tant de beauté. Cependant ce qui pour lors estoit vray ne l’est pas moins à present, au contraire on peut dire que vos vertus brillent avec plus d’éclat :mais dans cette estime generale de tous ceux qui vous connoissent souvenez-vous de cette generosité par où vous l’avez acquise. S’en est une bien grande, MADAME, de regarder de bon œil les choses qui sont au dessous de nous, &amp; c’est celle dont je vous prie de vous servir en mon endroit, me permettant de me dire avec respect,</p>
+        <p rend="i">MADAME,</p>
+        <p rend="right">
+          <hi rend="i">Vostre tres-humble &amp; tres-obeïssant serviteur, SOMAIZE.</hi>
+        </p>
+      </div>
+      <div xml:id="au-lecteur">
+        <head>AU LECTEUR.</head>
+        <p>Je te donne icy un Procez, dont le sujet est si nouveau, que malgré toute l’antiquité de la chicane, on n’en avoit point encore veu de semblable au Palais : il s’y est fouré comme en son païs natal, &amp; bien qu’il soit né dans un  lieu fort tranquille, il n’ pas laissé de passer dans celuy du trouble &amp; de l’embaras. En vain j’ay tasché ar raison de le retenir, la demangeaison d’avoir ton jugement m’a forcé de l’exposer à recevoir de toy un Arrest moins favorable que celuy que mes amis en ont porté. Je n’en appelleray point, &amp; ne croiray pas mesme que tu me fasses d’injustice en le condamnant : mais comme tu peux luy estre contraire par plusieurs raison, il me semble assez juste de te dire ce que la liberté du Poëme Burlesque y a rendu raisonnable ; qui est premierement l’expression qui dans ces sortes de Comedies, fait une partie du plaisant, &amp; reçoit toutes sortes de façons de parler. Le sujet en suitte qui dépend entierment de l’imagination, &amp; qui n’a besoin pour estre receu que du passe-port de la vraye-semblance. Il seroit besoin icy de faire un long discours pour expliquer ce que c’est que vraye-semblance ; mais pour te le dire en deux mots, c’est tout ce qui, bien qu’extraordinaire par sa nouveauté, tombe neantmoins assez dessous les sens pour persuader à l’esprit que cela peut arriver sans renverser l’ordre estably dans le cours des Choses. Ce qui despend souvent bien plus de l’arengement des actions, que des actions mesme. Peut-estre m’accuseras-tu d’y avoir manqué precipitant en un jour un procez, qui selon la coustume des Modernes dure pour l’ordinaire des six mois : mais le Theatre peut bien donner cette licence, puisque la raison &amp; l’utilité voudroient qu’ils ne fussent pas plus longs, outre que cecy estant plutost un Arbitrage en forme, qu’un Jugement reglé. Il ne faut pas s’estonner qu’il aille si viste, aussi n’est-ce pas là dequoy je veux le plus me deffendre, &amp; les Scenes deliées qui sont presentement tout à fait condamnées dans les pieces regulieres, &amp; que j’ay laissé passer dans cette Comedie, me fourniroient une ample matiere, d’apporter quantité d’excuses, ce que je ne feray pourtant pas, croyant qu’elles ne sont pas tout à fait condamnables dans une Piece burlesque, qui est proprement un ouvrage ou tout est permis, pourveu qu’il fasse rire. Comme je te l’ay donné pour te divertir, je te pris si tu ne le trouves pas assez plaisant de te donner quelque jour de patience, j’en exposeray un autre à ta censure qui pourra reparer les defaut de celluy cy ? ce sera la Pompe funebre d’une Pretieuse, avec toutes les ceremonies de ce fameux Convoy ; que ces termes de lugubres et funestes ne t’espouvantent point, car je puis t’asseurer que cét Enterrement n’aura rien de triste que son nom.</p>
+      </div>
+      <div xml:id="acteurs" type="set">
+        <head>ACTEURS</head>
+        <castList>
+          <castItem>
+            <role xml:id="ribercour" rend="male">RIBERCOUR,</role>
+            <roleDesc>Gentihomme Manceau &amp; député de ce Païs.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="roguespine" rend="male inferior">ROGUESPINE,</role>
+            <roleDesc>Son Valet.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="theocrite" rend="male">THEOCRITE,</role>
+            <roleDesc>Professeur és langues Espagnole, Italienne &amp; Françoise.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="pancrace" rend="male">PANCRACE,</role>
+            <roleDesc>Professeur de la langue Pretieuse.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="ergaste" rend="male inferior">ERGASTE,</role>
+            <roleDesc>Escuyer de Madame la Duchesse de ….</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="greffier" rend="male exterior">UN GREFFIER.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="patrice" rend="male">PATRICE,</role>
+          </castItem>
+          <castItem>
+            <role xml:id="anaxarite" rend="male">ANAXARITE,</role>
+          </castItem>
+          <castItem>
+            <role xml:id="aristime" rend="male">ARISTIME,</role>
+            <roleDesc>Juges, se disant de l’Academie Françoise.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="epicarie" rend="female">EPICARIE,</role>
+            <roleDesc>Deputée du Corps des Pretieuses.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="suivante" rend="female inferior">SA SUIVANTE.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="rodogine" rend="female junior">RODOGINE,</role>
+            <roleDesc>Escoliere, qui vient apprendre à parler Pretieux.</roleDesc>
+          </castItem>
+        </castList>
+        <stage>La Scene est à Paris.</stage>
+      </div>
+    </front>
+    <body>
+      <head>LE PROCEZ DES PRETIEUSES <lb/><hi rend="i">Comédie en vers Burlesques.</hi><note n="i" place="bottom"> Texte établi à partir de l’exemplaire conservé à la Bibliothèque Nationale de France sous la cote « Rés. Yf-4128 » et disponible sur le site Gallica.</note></head>
+      <div xml:id="I" type="act">
+        <head>[Acte I]</head>
+        <div type="scene" xml:id="I01">
+          <head>SCENE PREMIERE.</head>
+          <stage>PATRICE, EPICARIE.</stage>
+          <sp xml:id="I01-1" who="epicarie">
+            <speaker>epicarie, <hi rend="i">(en appellant Patrice.)</hi></speaker>
+            <l n="1" xml:id="l1">Hem, ou courez-vous de ce pas ?</l>
+          </sp>
+          <sp xml:id="I01-2" who="patrice">
+            <speaker>patrice.</speaker>
+            <l n="2" xml:id="l2">Ma foy, je ne vous voyois pas,</l>
+            <l n="3" xml:id="l3">Et j’allois chez vous pour vous dire,</l>
+            <l n="4" xml:id="l4">De vous apprester à bien rire.</l>
+            <l n="5" xml:id="l5">Nostre homme, enfin arriva hier,<pb n="2"/></l>
+            <l n="6" xml:id="l6">Et m’est desja venu prier</l>
+            <l n="7" xml:id="l7">De luy répondre sa Requeste,</l>
+            <l n="8" xml:id="l8">Regardez si vous estes preste,</l>
+            <l n="9" xml:id="l9">Et si vous avez aujourd’huy</l>
+            <l n="10" xml:id="l10">Le temps de plaider contre luy ?</l>
+          </sp>
+          <sp xml:id="I01-3" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="11" xml:id="l11">Ouy j’ay tousjours le temps de rire ;</l>
+            <l n="12" xml:id="l12">Mais il ne sçaura que nous dire,</l>
+            <l n="13" xml:id="l13">Il le faut laisser reposer</l>
+            <l n="14" xml:id="l14">Si nous voulons l’oüyr jazer ;</l>
+            <l n="15" xml:id="l15">Car je croy qu’il aura sans doute</l>
+            <l n="16" xml:id="l16">Tout oublié pendant sa route.</l>
+          </sp>
+          <sp xml:id="I01-4" who="patrice">
+            <speaker>patrice.</speaker>
+            <l n="17" xml:id="l17">Croyez-moy, si l’on le surprend</l>
+            <l n="18" xml:id="l18">Le plaisir en sera plus grand,</l>
+            <l n="19" xml:id="l19">Et nous le verrons se confondre</l>
+            <l n="20" xml:id="l20">Sans sçavoir par où nous répondre.</l>
+            <l n="21" xml:id="l21">Mon Dieu ! qu’il sera tantost sot ;</l>
+            <l n="22" xml:id="l22">Tous nos gens ont desja le mot,</l>
+            <l n="23" xml:id="l23">Et je vous donne ma parolle</l>
+            <l n="24" xml:id="l24">Que chacun joüera bien son roolle,</l>
+            <l n="25" xml:id="l25">Et que Professeurs, &amp; Sergens</l>
+            <l n="26" xml:id="l26">Ne paroistrons pas negligens ;</l>
+            <l n="27" xml:id="l27">Mais marchons je le vois paroistre.<pb n="3"/></l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I02">
+          <head>SCENE II.</head>
+          <stage>RIBERCOUR, ROGUESPINE.</stage>
+          <sp xml:id="I02-1" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="28" xml:id="l28">Parbieu c’est bien avoir mon maistre,</l>
+            <l n="29" xml:id="l29">De plaider la demanjaison,</l>
+            <l n="30" xml:id="l30">Qu’en poste quitter sa maison</l>
+            <l n="31" xml:id="l31">Pour venir à Paris, se rendre</l>
+            <l n="32" xml:id="l32">Avecque dessein d’entreprendre</l>
+            <l n="33" xml:id="l33">Contre des femmes un procez,</l>
+            <l n="34" xml:id="l34">(Dont j’augure mal du succez)</l>
+            <l n="35" xml:id="l35">Et cela dites-vous à cause</l>
+            <l n="36" xml:id="l36">Que leur bouche, n’est jamais clause,</l>
+            <l n="37" xml:id="l37">Et qu’elles parlent que je croy</l>
+            <l n="38" xml:id="l38">Le langage des des…… ma foy</l>
+            <l n="39" xml:id="l39">Ce mot n’est plus dans ma mémoire,</l>
+            <l n="40" xml:id="l40">Il n’est plus dessus mon grimoire,</l>
+            <l n="41" xml:id="l41">Et ce nom, ce diable, de nom,</l>
+            <l n="42" xml:id="l42">Qu’on dit avoir tant de renom,</l>
+            <l n="43" xml:id="l43">A retenir fait tant de peine,</l>
+            <l n="44" xml:id="l44">Que je l’ay laissé dans le Maine ;</l>
+            <l n="45" xml:id="l45">Mais sans doute qu’il nous viendra</l>
+            <l n="46" xml:id="l46">Quand vos chappons, l’on envoyera ;<pb n="4"/></l>
+            <l n="47" xml:id="l47">Car l’on doit dans cette occurence</l>
+            <l n="48" xml:id="l48">Vous en envoyer pour la pence</l>
+            <l n="49" xml:id="l49">De Monsieur, vostre Procureur ;</l>
+            <l n="50" xml:id="l50">Puis qu’enfin il faut qu’un plaideur,</l>
+            <l n="51" xml:id="l51">S’il craint de son procez la perte,</l>
+            <l n="52" xml:id="l52">Ait sans cesse la bourse ouverte.</l>
+          </sp>
+          <sp xml:id="I02-2" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="53" xml:id="l53">Les Nobles du Mant par bonté</l>
+            <l n="54" xml:id="l54">M’ayant dans Paris, deputé</l>
+            <l n="55" xml:id="l55">Pour empescher dedans la langue,</l>
+            <l n="56" xml:id="l56">Par une belle &amp; bonne harangue,</l>
+            <l n="57" xml:id="l57">L’heresie qui va passer,</l>
+            <l n="58" xml:id="l58">Et qui commence à se glisser</l>
+            <l n="59" xml:id="l59">Dedans tout le pays du Maine ;</l>
+            <l n="60" xml:id="l60">Prendront assurément la peine</l>
+            <l n="61" xml:id="l61">De m’envoyer force presens,</l>
+            <l n="62" xml:id="l62">Qui seront plus que suffisans</l>
+            <l n="63" xml:id="l63">Pour me faciliter l’entrée</l>
+            <l n="64" xml:id="l64">Auprés des directeurs d’Astrée</l>
+            <l n="65" xml:id="l65">Et qui me donneront moyen</l>
+            <l n="66" xml:id="l66">De mener mon procez à bien</l>
+            <l n="67" xml:id="l67">Et d’avoir (puisque je m’en picque)</l>
+            <l n="68" xml:id="l68">Un Arrest celebre, authentique,</l>
+            <l n="69" xml:id="l69">Contre ces jazeuses enfin</l>
+            <l n="70" xml:id="l70">Que je hay plus que le lutin,</l>
+            <l n="71" xml:id="l71">Et que l’on nomme Pretieuses ;</l>
+            <l n="72" xml:id="l72">Mais non pas pour estre amoureuses.<pb n=" 5"/></l>
+          </sp>
+          <sp xml:id="I02-3" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="73" xml:id="l73">Ah ! voila justement ce mot</l>
+            <l n="74" xml:id="l74">Qui si long-temps a fait le sot,</l>
+            <l n="75" xml:id="l75">Et qui pour moy, chose nouvelle,</l>
+            <l n="76" xml:id="l76">M’a fort embroüillé la cervelle ;</l>
+            <l n="77" xml:id="l77">Mais puisque je le tiens enfin</l>
+            <l n="78" xml:id="l78">Monsieur, sans attendre à demain,</l>
+            <l n="79" xml:id="l79">Malgré toute la procedure</l>
+            <l n="80" xml:id="l80">Apprenez-moy, je vous conjure</l>
+            <l n="81" xml:id="l81">Pour quelle importante raison</l>
+            <l n="82" xml:id="l82">L’on les appelle de ce nom,</l>
+            <l n="83" xml:id="l83">Et pourquoy ? par toute la terre</l>
+            <l n="84" xml:id="l84">On aime à leur faire la guerre ?</l>
+          </sp>
+          <sp xml:id="I02-4" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="85" xml:id="l85">Ah ! je vois bien que tu seras</l>
+            <l n="86" xml:id="l86">Curieux, tant que tu vivras,</l>
+            <l n="87" xml:id="l87">Et que mesme en la sepulture</l>
+            <l n="88" xml:id="l88">Tu le seras encor, je jure.</l>
+          </sp>
+          <sp xml:id="I02-5" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="89" xml:id="l89">Mon Dieu ! qui ne le seroit pas</l>
+            <l n="90" xml:id="l90">L’on l’est bien pour un moindre cas :</l>
+            <l n="91" xml:id="l91">Depuis six ans, le monde en cause,</l>
+            <l n="92" xml:id="l92">Je n’entends rien dire autre chose,</l>
+            <l n="93" xml:id="l93">Ce mot en Province a grand cours,</l>
+            <l n="94" xml:id="l94">De luy les Dames, tous les jours</l>
+            <l n="95" xml:id="l95">En disent toutes des plus belles,</l>
+            <l n="96" xml:id="l96">Et dés-lors que quelqu’unes d’elles</l>
+            <l n="97" xml:id="l97">S’en vont faire un tour à Paris,<pb n="6"/></l>
+            <l n="98" xml:id="l98">Aussi-tost, aux plus favoris,</l>
+            <l n="99" xml:id="l99">De mesme qu’aux plus favorites</l>
+            <l n="100" xml:id="l100">Dedans des lettres bien escrites</l>
+            <l n="101" xml:id="l101">Elles protestent que Paris,</l>
+            <l n="102" xml:id="l102">Charme tous les plus grands ennuis,</l>
+            <l n="103" xml:id="l103">Que l’on y rit des Pretieuses,</l>
+            <l n="104" xml:id="l104">Qu’elles n’y sont pas fort heureuses,</l>
+            <l n="105" xml:id="l105">Que l’on en a pour cent raisons</l>
+            <l n="106" xml:id="l106">Imprimé de toutes façons ;</l>
+            <l n="107" xml:id="l107">Enfin dans Paris, dans le Maine ;</l>
+            <l n="108" xml:id="l108">Dans Lion, dans Turin, dans Genne,</l>
+            <l n="109" xml:id="l109">Et dans seize mille autres lieux</l>
+            <l n="110" xml:id="l110">Pretieuses &amp; Pretieux</l>
+            <l n="111" xml:id="l111">Font l’entretien de maintes-belles,</l>
+            <l n="112" xml:id="l112">Des Suivantes, des Demoiselles,</l>
+            <l n="113" xml:id="l113">Et le vieux, le jeune, &amp; le sot,</l>
+            <l n="114" xml:id="l114">Veut là-dessus dire son mot.</l>
+            <l n="115" xml:id="l115">Ne seroit-ce point quelque fable,</l>
+            <l n="116" xml:id="l116">La chose me paroist croyable,</l>
+            <l n="117" xml:id="l117">J’ay souvent le goust rafiné ;</l>
+            <l n="118" xml:id="l118">Et je crois avoir deviné ;</l>
+            <l n="119" xml:id="l119">Car l’on n’imprime point des femmes.</l>
+          </sp>
+          <sp xml:id="I02-6" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="120" xml:id="l120">Ce sont les Mots, que font les Dames,</l>
+            <l n="121" xml:id="l121">Que l’on imprime aussi, lourdaut.</l>
+          </sp>
+          <sp xml:id="I02-7" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="122" xml:id="l122">Hé bien, quoyque je sois rustaut,</l>
+            <l n="123" xml:id="l123">Dites ? comment sont-elles faites ?<pb n="7"/></l>
+            <l n="124" xml:id="l124">Sont-ce des femmes ? fort parfaites,</l>
+            <l n="125" xml:id="l125">Qui n’ont rien des autres en tout ?</l>
+            <l n="126" xml:id="l126">Sont-elles point à vostre goust ?</l>
+            <l n="127" xml:id="l127">Portent-elles, des hauts de chausses ?</l>
+            <l n="128" xml:id="l128">Sont-ce pieces bonnes, ou fauces ?</l>
+            <l n="129" xml:id="l129">Quoy Monsieur, vous ne parlez pas,</l>
+            <l n="130" xml:id="l130">Vous font-elles, de l’embaras ?</l>
+            <l n="131" xml:id="l131">Sont-elles, point hermaphrodites ?</l>
+            <l n="132" xml:id="l132">Ont-elles, des justeaucorps ! dites ?</l>
+            <l n="133" xml:id="l133">Ont-elles, le visage beau ?</l>
+            <l n="134" xml:id="l134">Ont-elles, un vilain muzeau ?</l>
+            <l n="135" xml:id="l135">Sont-elles, tant soy peu camuses ?</l>
+            <l n="136" xml:id="l136">Chantent-elles, comme les muses ?</l>
+            <l n="137" xml:id="l137">Ont-elles, le nez aquilain ?</l>
+            <l n="138" xml:id="l138">Ont-elles, l’esprit fort malin ?</l>
+            <l n="139" xml:id="l139">Sont-ce des beautez, sans secondes ?</l>
+            <l n="140" xml:id="l140">Sont-elles, brunes, grandes, blondes,</l>
+            <l n="141" xml:id="l141">Petites, jeunes, vieilles, ou</l>
+            <l n="142" xml:id="l142">Hideuses, comme un lougarou ?</l>
+            <l n="143" xml:id="l143">Ne sont-ce point quelques sorcieres ?</l>
+            <l n="144" xml:id="l144">Sont-elles, douces, ou bien fierres,</l>
+            <l n="145" xml:id="l145">Ont-elles, des maris ou non ?</l>
+            <l n="146" xml:id="l146">N’auroient-elles, point de surnom ?</l>
+            <l n="147" xml:id="l147">Des galands, en endurent-elles ?</l>
+            <l n="148" xml:id="l148">Ne feroient-elles, point les belles ?</l>
+            <l n="149" xml:id="l149">Sont-elles, riches à foison ?</l>
+            <l n="150" xml:id="l150">Sont-elles, de pauvre maison ?</l>
+            <l n="151" xml:id="l151">En un mot, dites-moy ? sans fraude,<pb n="8"/></l>
+            <l n="152" xml:id="l152">Monsieur, sont-elles à la mode ?</l>
+          </sp>
+          <sp xml:id="I02-8" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="153" xml:id="l153">Oüy, oüy sans doute elles y sont ?</l>
+          </sp>
+          <sp xml:id="I02-9" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="154" xml:id="l154">Elles ont dont des souliers ronds ;</l>
+            <l n="155" xml:id="l155">Car d’en porter c’est la grande mode.</l>
+          </sp>
+          <sp xml:id="I02-10" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="156" xml:id="l156">Va, de cela ne t’incommode,</l>
+            <l n="157" xml:id="l157">Je t’en veux faire voir bien-tost.</l>
+            <l n="158" xml:id="l158">Mes affaires sont comme il faut,</l>
+            <l n="159" xml:id="l159">Et je n’ay fait dans cette Ville</l>
+            <l n="160" xml:id="l160">Rien qui ne me soit fort utille ;</l>
+            <l n="161" xml:id="l161">Desja plein d’animosité</l>
+            <l n="162" xml:id="l162">J’ay ma Requeste presenté</l>
+            <l n="163" xml:id="l163">A Messieurs, de l’Academie,</l>
+            <l n="164" xml:id="l164">Que certes je n’oublieray nie,</l>
+            <l n="165" xml:id="l165">Tu sçais, dont je suis fort contant,</l>
+            <l n="166" xml:id="l166">Qu’on l’a répondue à l’instant.</l>
+          </sp>
+          <sp xml:id="I02-11" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="167" xml:id="l167">Mais si faisant les Damoiselles,</l>
+            <l n="168" xml:id="l168">Un Procureur, venoit pour elles</l>
+            <l n="169" xml:id="l169">Monsieur, je ne les verrois point ;</l>
+            <l n="170" xml:id="l170">C’est pourquoy, je crois sur ce point</l>
+            <l n="171" xml:id="l171">Qu’il vaudroit bien mieux, ce me semble,</l>
+            <l n="172" xml:id="l172">Leur donner à toutes ensemble</l>
+            <l n="173" xml:id="l173">Un personnel adjournement.<pb n="9"/></l>
+          </sp>
+          <sp xml:id="I02-12" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="174" xml:id="l174">Tu raisonnes fort justement.</l>
+          </sp>
+          <sp xml:id="I02-13" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="175" xml:id="l175">Vous vous croyez donc bien habille,</l>
+            <l n="176" xml:id="l176">Et s’il en venoit plus de mille,</l>
+            <l n="177" xml:id="l177">Et que dans ce beau jugement</l>
+            <l n="178" xml:id="l178">Il fallut personnellement</l>
+            <l n="179" xml:id="l179">Agir avec toutes, je jure,</l>
+            <l n="180" xml:id="l180">Que dans une telle adventure</l>
+            <l n="181" xml:id="l181">Je vous trouverois pas ma foy</l>
+            <l n="182" xml:id="l182">Fort embarassé.</l>
+          </sp>
+          <sp xml:id="I02-14" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="183" xml:id="l183">        Va, tay toy ;</l>
+            <l n="184" xml:id="l184">Car quoy que tu me puisses dire,</l>
+            <l n="185" xml:id="l185">Je ne suis point d’humeur à rire,</l>
+            <l n="186" xml:id="l186">Et je me ressouviens fort bien</l>
+            <l n="187" xml:id="l187">Que je n’ay fait encore rien,</l>
+            <l n="188" xml:id="l188">Quoy que je voye ma Requeste</l>
+            <l n="189" xml:id="l189">A signifier toute preste,</l>
+            <l n="190" xml:id="l190">Puisque je ne sçay point du tout</l>
+            <l n="191" xml:id="l191">Ou pouvoir d’une voir le bout.</l>
+          </sp>
+          <sp xml:id="I02-15" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="192" xml:id="l192">Il faut qu’un secret, je vous die,</l>
+            <l n="193" xml:id="l193">Pour qu’à cela l’on remedie ;</l>
+          </sp>
+          <sp xml:id="I02-16" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="194" xml:id="l194">Que me veux-tu dire de bon ?</l>
+          </sp>
+          <sp xml:id="I02-17" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="195" xml:id="l195">Prenez-les au petit Bourbon,</l>
+            <l n="196" xml:id="l196">L’on les dit au païs, plaisantes<pb n="10"/></l>
+            <l n="197" xml:id="l197">Et mesme assez divertissantes</l>
+          </sp>
+          <sp xml:id="I02-18" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="198" xml:id="l198">Tu ne sçais pas ce que tu dis,</l>
+            <l n="199" xml:id="l199">A Bourbon, va tu t’es mépris</l>
+            <l n="200" xml:id="l200">Ce ne sont que Comediennes.</l>
+          </sp>
+          <sp xml:id="I02-19" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="201" xml:id="l201">Ah ! je viens sans beaucoup de peines</l>
+            <l n="202" xml:id="l202">De trouver un expedient.</l>
+          </sp>
+          <sp xml:id="I02-20" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="203" xml:id="l203">Dis ! car je suis impatient.</l>
+          </sp>
+          <sp xml:id="I02-21" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="204" xml:id="l204">Il faut les faire avecque pompe</l>
+            <l n="205" xml:id="l205">Monsieur, crier à son de trompe.</l>
+          </sp>
+          <sp xml:id="I02-22" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="206" xml:id="l206">Voila justement le moyen</l>
+            <l n="207" xml:id="l207">Pour ne rencontrer jamais rien ;</l>
+            <l n="208" xml:id="l208">Puisque toutes les Pretieuses,</l>
+            <l n="209" xml:id="l209">De se cacher sont curieuses,</l>
+            <l n="210" xml:id="l210">Qu’elles ne veulent du tout pas</l>
+            <l n="211" xml:id="l211">Qu’on connoisse rien à leur cas,</l>
+            <l n="212" xml:id="l212">Et que les plus grandes d’entre-elles</l>
+            <l n="213" xml:id="l213">Disent qu’elles ne sont point telles.</l>
+          </sp>
+          <sp xml:id="I02-23" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="214" xml:id="l214">J’en veux voir quelqu’une pourtant,</l>
+            <l n="215" xml:id="l215">Et j’ay des moyens tant &amp; tant,</l>
+            <l n="216" xml:id="l216">Qu’en quelque endroit que ce puisse estre</l>
+            <l n="217" xml:id="l217">Je vous en feray voir, mon maistre ;</l>
+            <l n="218" xml:id="l218">Par exemple, j’en tiens un bon.<pb n="11"/></l>
+            <l n="219" xml:id="l219">J’ay oüy dire avecque raison</l>
+            <l n="220" xml:id="l220">Que quand l’on a dans cette ville,</l>
+            <l n="221" xml:id="l221">Perdu quelque chienne gentille,</l>
+            <l n="222" xml:id="l222">L’on fait afficher des billets</l>
+            <l n="223" xml:id="l223">De tous les costez au Palais,</l>
+            <l n="224" xml:id="l224">Et qui promettent recompense</l>
+            <l n="225" xml:id="l225">A ceux, qui plains de vigilance</l>
+            <l n="226" xml:id="l226">La rapporteront. Vous pourrez</l>
+            <l n="227" xml:id="l227">Faire de mesme, &amp; vous verrez</l>
+            <l n="228" xml:id="l228">Sans doute que quelque suivante,</l>
+            <l n="229" xml:id="l229">Avide de la paragoüante</l>
+            <l n="230" xml:id="l230">Ne pourra sa langue tenir.</l>
+          </sp>
+          <sp xml:id="I02-24" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="231" xml:id="l231">Mais quoy ne vois-je pas venir</l>
+            <l n="232" xml:id="l232">Mon vieil amy, Monsieur Pancrace,</l>
+            <l n="233" xml:id="l233">Vrayement il faut que je l’embrasse.<pb n="12"/></l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I03">
+          <head>SCENE III.</head>
+          <stage>RIBERCOUR, PANCRACE,</stage>
+          <stage>ROGUESPINE.</stage>
+          <sp xml:id="I03-1" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="234" xml:id="l234">Cher amy, que je suis joyeux</l>
+            <l n="235" xml:id="l235">De vous rencontrer en ces lieux :</l>
+            <l n="236" xml:id="l236">Il faut pourtant que je vous fasse</l>
+            <l n="237" xml:id="l237">Des plaintes, quand je vous embrasse</l>
+            <l n="238" xml:id="l238">Et que je demande pourquoy</l>
+            <l n="239" xml:id="l239">Vous n’estes pas venu chez moy,</l>
+            <l n="240" xml:id="l240">En arrivant en cette ville,</l>
+            <l n="241" xml:id="l241">Establir vostre domicile</l>
+            <l n="242" xml:id="l242">Sçachant avec combien d’ardeur</l>
+            <l n="243" xml:id="l243">Je suis vostre humble serviteur ;</l>
+          </sp>
+          <sp xml:id="I03-2" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="244" xml:id="l244">Un procez, est ce qui m’ameine</l>
+            <l n="245" xml:id="l245">Et les plaideurs font trop de peine,</l>
+            <l n="246" xml:id="l246">Le boire, &amp; le manger chez eux</l>
+            <l n="247" xml:id="l247">Tantost, faute d’une heure ou deux,</l>
+            <l n="248" xml:id="l248">Ils n’ont que procez à la bouche,</l>
+            <l n="249" xml:id="l249">L’on ne sçait point quand on s’y couche</l>
+            <l n="250" xml:id="l250">Et quand on s’y leve encor moins,</l>
+            <l n="251" xml:id="l251">Cent chicaneurs font tous leurs soins,</l>
+            <l n="252" xml:id="l252">Un Clerc, aujourd’huy les visitte,<pb n="13"/></l>
+            <l n="253" xml:id="l253">Un Procureur arrive en suitte,</l>
+            <l n="254" xml:id="l254">Le lendemain un Advocat,</l>
+            <l n="255" xml:id="l255">Vient dire un nouvel altercat,</l>
+            <l n="256" xml:id="l256">Apres vient un homme d’affaires,</l>
+            <l n="257" xml:id="l257">Apporter quelques formulaires,</l>
+            <l n="258" xml:id="l258">Et tous les jours un tas de gens</l>
+            <l n="259" xml:id="l259">Affamez, comme des Sergens,</l>
+            <l n="260" xml:id="l260">Viennent, non pas, avec main morte,</l>
+            <l n="261" xml:id="l261">Heurter, rudement, à leur porte,</l>
+            <l n="262" xml:id="l262">Pour dire, quatre meschants mots</l>
+            <l n="263" xml:id="l263">Qui sont souvent hors de propos.</l>
+          </sp>
+          <sp xml:id="I03-3" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="264" xml:id="l264">Et quel procez donc vous ameine ?</l>
+          </sp>
+          <sp xml:id="I03-4" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="265" xml:id="l265">Pour le public, j’ay cette peine</l>
+            <l n="266" xml:id="l266">Et je suis authentiquement</l>
+            <l n="267" xml:id="l267">Deputé des Nobles du Mant,</l>
+            <l n="268" xml:id="l268">Comme de la Province entiere,</l>
+            <l n="269" xml:id="l269">Qui s’interesse en cette affaire,</l>
+            <l n="270" xml:id="l270">Afin de plaider en ces lieux</l>
+            <l n="271" xml:id="l271">Contre le parler pretieux</l>
+            <l n="272" xml:id="l272">Et ces pestes de Pretieuses,</l>
+            <l n="273" xml:id="l273">Que je vais rendre mal-heureuses ;</l>
+            <l n="274" xml:id="l274">J’ay desja par precaution</l>
+            <l n="275" xml:id="l275">Pour intenter mon action</l>
+            <l n="276" xml:id="l276">Fait tantost un coup de ma teste</l>
+            <l n="277" xml:id="l277">Et j’ay presenté ma Requeste</l>
+            <l n="278" xml:id="l278">A l’Academie, &amp; voicy<pb n="14"/></l>
+            <l n="279" xml:id="l279">La teneur que j’en tiens icy.</l>
+            <stage>(il lit.)</stage>
+            <l n="280" xml:id="l280">A Messieurs de l’Academie.</l>
+            <l n="281" xml:id="l281" rend="i">Humblement Messieurs, vous supplie </l>
+            <l n="282" xml:id="l282" rend="i">Le Sieur de Ribercour, du Mant</l>
+            <l n="283" xml:id="l283" rend="i">Gentilhomme qui point ne ment,</l>
+            <l n="284" xml:id="l284" rend="i">Et deputé de la Noblesse</l>
+            <l n="285" xml:id="l285" rend="i">D’où l’on voit des pommes la presse.</l>
+            <l n="286" xml:id="l286"><hi rend="sc">Disant</hi>, <hi rend="i">que depuis quelque temps</hi></l>
+            <l n="287" xml:id="l287" rend="i">Il s’espend d’instans en instans</l>
+            <l n="288" xml:id="l288" rend="i">Dans leur païs certain langage,</l>
+            <l n="289" xml:id="l289" rend="i">Ou plutost un Baragouinage,</l>
+            <l n="290" xml:id="l290" rend="i">Qui leur est à tous inconnu,</l>
+            <l n="291" xml:id="l291" rend="i">Ne sçachant pas s’il est venu</l>
+            <l n="292" xml:id="l292" rend="i">Par eauë, ou sur quelque aridelle</l>
+            <l n="293" xml:id="l293" rend="i">Et que Pretieux l’on appelle :</l>
+            <l n="294" xml:id="l294" rend="i">Lequel, comme la nouveauté</l>
+            <l n="295" xml:id="l295" rend="i">Plaist avecque facilité,</l>
+            <l n="296" xml:id="l296" rend="i">Est receu dans nostre Province,</l>
+            <l n="297" xml:id="l297" rend="i">De gens, dont la cervelle est mince,</l>
+            <l n="298" xml:id="l298" rend="i">Sujets à prendre en cent façons</l>
+            <l n="299" xml:id="l299" rend="i">Mille folles impressions,</l>
+            <l n="300" xml:id="l300" rend="i">Et qui je croy Messieurs, sous ombre</l>
+            <l n="301" xml:id="l301" rend="i">Que ce langage estoit fort sombre</l>
+            <l n="302" xml:id="l302" rend="i">Et qu’il estoit né dans Paris,</l>
+            <l n="303" xml:id="l303" rend="i">Et s’est fouré jusqu’à leurs huis,</l>
+            <l n="304" xml:id="l304"><hi rend="i">Ont crû, qu’ils seroient fort celebres                    [</hi><pb n="15"/>]</l>
+            <l n="305" xml:id="l305" rend="i">Et que pour sortir des tenebres,</l>
+            <l n="306" xml:id="l306" rend="i">C’estoit un cas sur à chacun</l>
+            <l n="307" xml:id="l307" rend="i">Pour les distinguer du commun,</l>
+            <l n="308" xml:id="l308" rend="i">S’ils s’attachoient tous à le suivre</l>
+            <l n="309" xml:id="l309" rend="i">Et s’ils pouvoient le faire vivre.</l>
+            <l n="310" xml:id="l310" rend="i">Neantmoins cela fait grand tort</l>
+            <l n="311" xml:id="l311" rend="i">A la Province &amp; luy nuit fort ;</l>
+            <l n="312" xml:id="l312" rend="i">Tant à cause Messieurs, du trouble</l>
+            <l n="313" xml:id="l313" rend="i">Qui de temps en temps se redouble,</l>
+            <l n="314" xml:id="l314" rend="i">Et qui met le commerce à bas,</l>
+            <l n="315" xml:id="l315" rend="i">Que du grand nombre de Ducats,</l>
+            <l n="316" xml:id="l316" rend="i">Dont tous les jours l’on fait despence,</l>
+            <l n="317" xml:id="l317" rend="i">Non sans grande condoleance,</l>
+            <l n="318" xml:id="l318" rend="i">Pour avoir à chaque momens</l>
+            <l n="319" xml:id="l319" rend="i">Avec soy quelques Truchemens.</l>
+            <l n="320" xml:id="l320"><hi rend="sc">Ce consideré</hi>, <hi rend="i">qu’il vous plaise</hi>,</l>
+            <l n="321" xml:id="l321" rend="i">Pour que ce desordre on appaise,</l>
+            <l n="322" xml:id="l322" rend="i">Faire appeller pardevant vous</l>
+            <l n="323" xml:id="l323" rend="i">Pour qu’on luy donne du dessous,</l>
+            <l n="324" xml:id="l324" rend="i">Tout ce grand corps des Pretieuses,</l>
+            <l n="325" xml:id="l325" rend="i">Pour se voir comme factieuses,</l>
+            <l n="326" xml:id="l326" rend="i">Condamner d’abord à laisser,</l>
+            <l n="327" xml:id="l327" rend="i">Abjurer, quiter, renoncer,</l>
+            <l n="328" xml:id="l328" rend="i">Un si pernitieux langage,</l>
+            <l n="329" xml:id="l329" rend="i">Et qui peut causer du carnage,</l>
+            <l n="330" xml:id="l330" rend="i">Et que deffences à l’instant,</l>
+            <l n="331" xml:id="l331" rend="i">Leur soient par vous faites s’entend</l>
+            <l n="332" xml:id="l332">
+              <hi rend="i">De ne s’en plus servir à peine</hi>
+              <pb n="16"/>
+            </l>
+            <l n="333" xml:id="l333"><hi rend="i">De ne jamais lire</hi> Artamene,</l>
+            <l n="334" xml:id="l334" rend="i">Ny mesme aucun autre Romant ;</l>
+            <l n="335" xml:id="l335" rend="i">Ou pour un plus dur chastiment</l>
+            <l n="336" xml:id="l336" rend="i">Que le lit, desdites femelles,</l>
+            <l n="337" xml:id="l337" rend="i">Soit des deux costez sans ruelles,</l>
+            <l n="338" xml:id="l338" rend="i">Et qu’il soit mesmement placé</l>
+            <l n="339" xml:id="l339" rend="i">Sans estre du tout exaucé ;</l>
+            <l n="340" xml:id="l340" rend="i">Et vous ferez bonne Justice.</l>
+          </sp>
+          <sp xml:id="I03-5" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="341" xml:id="l341">La responce est-elle propice ?</l>
+          </sp>
+          <sp xml:id="I03-6" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="342" xml:id="l342">Oüy : prestez donc attention</l>
+            <l n="343" xml:id="l343">La voicy : <hi rend="i">Qu’assignation</hi></l>
+            <l n="344" xml:id="l344" rend="i">Soit donnée, à ces Pretieuses,</l>
+            <l n="345" xml:id="l345" rend="i">Qui sont si fort contentieuses ;</l>
+            <l n="346" xml:id="l346" rend="i">Fait justement le vingt &amp; trois</l>
+            <l n="347" xml:id="l347" rend="i">De May, le plus fleury des mois.</l>
+            <l n="348" xml:id="l348">Hé bien ? mon cher Pancrace,</l>
+            <l n="349" xml:id="l349">Croyez-vous que je les terrace</l>
+            <l n="350" xml:id="l350">Et que j’aye fort advancé ?</l>
+          </sp>
+          <sp xml:id="I03-7" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="351" xml:id="l351">Tout à fait ; car enfin je sçay</l>
+            <l n="352" xml:id="l352">Que ces Messieurs, à forte teste</l>
+            <l n="353" xml:id="l353">En respondant vostre requeste,</l>
+            <l n="354" xml:id="l354">Avecque tant d’agilité</l>
+            <l n="355" xml:id="l355">Ont fait un coup en verité,</l>
+            <l n="356" xml:id="l356">Qui par sa grande vigilance<pb n="B 17"/></l>
+            <l n="357" xml:id="l357">Doit estre à tous en evidence ;</l>
+            <l n="358" xml:id="l358">Puis qu’un mot souvent leur suffit</l>
+            <l n="359" xml:id="l359">Pour embarasser leur esprit</l>
+            <l n="360" xml:id="l360">Plus de dix, ou douze semaines ;</l>
+            <l n="361" xml:id="l361">Mais je vous veux donner mes peines,</l>
+            <l n="362" xml:id="l362">Et solliciter avec vous :</l>
+            <l n="363" xml:id="l363">Aussi bien je suis en couroux</l>
+            <l n="364" xml:id="l364">Contre toutes ces orgueilleuses,</l>
+            <l n="365" xml:id="l365">Pour dire plus ces Precieuses,</l>
+            <l n="366" xml:id="l366">Que j’allois perdre, Dieu le sçay,</l>
+            <l n="367" xml:id="l367">Si vous n’aviez pas commencé ;</l>
+            <l n="368" xml:id="l368">Vous sçavez bien que dix années,</l>
+            <l n="369" xml:id="l369">Favorisé des destinées,</l>
+            <l n="370" xml:id="l370">J’ay suivant ma profession,</l>
+            <l n="371" xml:id="l371">Enseigné dedans la maison,</l>
+            <l n="372" xml:id="l372">Avec honneur, &amp; dans la ville,</l>
+            <l n="373" xml:id="l373">D’une manière fort facille,</l>
+            <l n="374" xml:id="l374">La langue Italienne, avec</l>
+            <l n="375" xml:id="l375">L’Espagnolle, sans nul eschec,</l>
+            <l n="376" xml:id="l376">Et pareillement la Françoise ;</l>
+            <l n="377" xml:id="l377">Cependant je vois qu’on dégoise</l>
+            <l n="378" xml:id="l378">Aujourd’huy pour me ruïner</l>
+            <l n="379" xml:id="l379">Un jargon, qu’on doit condamner.</l>
+            <l n="380" xml:id="l380">Que mes escoliers se dépitent,</l>
+            <l n="381" xml:id="l381">Qu’il s’en faut peu qu’ils ne me quittent.</l>
+            <l n="382" xml:id="l382">Et que lors qu’à quelque estranger,</l>
+            <l n="383" xml:id="l383">Qui me fait souvent enrager,</l>
+            <l n="384" xml:id="l384">J’ay bien souvent donné mes peines<pb n="18"/></l>
+            <l n="385" xml:id="l385">L’espace de quelques semaines ;</l>
+            <l n="386" xml:id="l386">Mais non pas sans bien me fascher,</l>
+            <l n="387" xml:id="l387">Afin de luy faire escorcher,</l>
+            <l n="388" xml:id="l388">Le François, qu’il tasche d’apprendre,</l>
+            <l n="389" xml:id="l389">Il me vient dire, pis que pendre</l>
+            <l n="390" xml:id="l390">Et crier d’un ton outrageant</l>
+            <l n="391" xml:id="l391">Que je luy volle son argent,</l>
+            <l n="392" xml:id="l392">Et qu’il s’est veu parmy des femmes,</l>
+            <l n="393" xml:id="l393">Des illustres, des belles ames,</l>
+            <l n="394" xml:id="l394">Qui parloient un patois, sa foy,</l>
+            <l n="395" xml:id="l395">Qui ne s’apprenoit point chez moy.</l>
+            <l n="396" xml:id="l396">Que mesme il avoit fait despence</l>
+            <l n="397" xml:id="l397">Et qu’il dit estre d’importance,</l>
+            <l n="398" xml:id="l398">Acheptant des Livres nouveaux,</l>
+            <l n="399" xml:id="l399">Que tout le monde trouve beaux,</l>
+            <l n="400" xml:id="l400">Intitulez, les Pretieuses,</l>
+            <l n="401" xml:id="l401">Pretieuses, pour luy fascheuses,</l>
+            <l n="402" xml:id="l402">Puis qu’il n’y peut connoistre rien.</l>
+          </sp>
+          <sp xml:id="I03-8" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="403" xml:id="l403">Je croy que vous ferez fort bien,</l>
+            <l n="404" xml:id="l404">Pour exterminer ces femelles,</l>
+            <l n="405" xml:id="l405">De vous joindre avec moy, contre elles</l>
+            <l n="406" xml:id="l406">Car enfin s’il faut qu’une fois</l>
+            <l n="407" xml:id="l407">Voulant imiter les François,</l>
+            <l n="408" xml:id="l408">Qu’en Espagne, &amp; dans l’Italie,</l>
+            <l n="409" xml:id="l409">Ce diable de nom, se publie</l>
+            <l n="410" xml:id="l410">Et qu’il vienne à naistre en ces lieux<pb n="19"/></l>
+            <l n="411" xml:id="l411">Quelque langage pretieux,</l>
+            <l n="412" xml:id="l412">Vous n’auriez bien-tost, que je pense,</l>
+            <l n="413" xml:id="l413">Qu’à rengaigner vostre science.</l>
+          </sp>
+          <sp xml:id="I03-9" who="roguespine">
+            <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
+            <l n="414" xml:id="l414">Je croy que mon maistre aujourd’huy</l>
+            <l n="415" xml:id="l415">A rencontré plus fou que luy.</l>
+          </sp>
+          <sp xml:id="I03-10" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="416" xml:id="l416">Mais j’oubliois de vous apprendre,</l>
+            <l n="417" xml:id="l417">Que je ne sçay pas où les prendre,</l>
+            <l n="418" xml:id="l418">Pour les pouvoir faire assigner.</l>
+          </sp>
+          <sp xml:id="I03-11" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="419" xml:id="l419">Ah ! sans y long-temps ruminer,</l>
+            <l n="420" xml:id="l420">Je trouve la chose facille</l>
+            <l n="421" xml:id="l421">Tout en est plein dans cette ville</l>
+            <l n="422" xml:id="l422">Et puis, je sçay bien à peu prés</l>
+            <l n="423" xml:id="l423">Où quelqu’une loge icy prés.</l>
+          </sp>
+          <sp xml:id="I03-12" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="424" xml:id="l424">Allons-y donc, dés tout à l’heure.</l>
+          </sp>
+          <sp xml:id="I03-13" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="425" xml:id="l425">Ils perdent l’esprit, ou je meure,</l>
+            <l n="426" xml:id="l426">Mais je pense qu’avec lent soin</l>
+            <l n="427" xml:id="l427">Ils auroient encor grand besoin,</l>
+            <l n="428" xml:id="l428">Pour que leurs action esclatte</l>
+            <l n="429" xml:id="l429">De la lenterne de Socrate,</l>
+            <l n="430" xml:id="l430">Afin de chercher à leur tout</l>
+            <l n="431" xml:id="l431">Une Pretieuse, en plein jour</l>
+            <l n="432" xml:id="l432">Comme il faisoit jadis un homme ;<pb n="20"/></l>
+            <l n="433" xml:id="l433">Pour moy je croy que l’on m’assomme,</l>
+            <l n="434" xml:id="l434">Disant, que tout en est farcy ;</l>
+            <l n="435" xml:id="l435">Puisque je n’ay pü jusqu’icy</l>
+            <l n="436" xml:id="l436">Par mon addresse, non commune</l>
+            <l n="437" xml:id="l437">Jamais en descouvrir aucune,</l>
+            <l n="438" xml:id="l438">Moy qui depuis trois jours entiers</l>
+            <l n="439" xml:id="l439">Faits residence en ces quartiers.</l>
+            <stage>(Ribercour &amp; Pancrace ayant fait trois ou quatre pas, aperçoivent au dessus d’une porte, une affiche &amp; lisent.)</stage>
+            <l n="440" xml:id="l440">Les Lecteurs, qui sont curieux</l>
+            <l n="441" xml:id="l441">Sçauront que le Sieur Theocrite,</l>
+            <l n="442" xml:id="l442">Dedans cette maison habite</l>
+            <l n="443" xml:id="l443">Et montre à parler Pretieux.</l>
+          </sp>
+          <sp xml:id="I03-14" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="444" xml:id="l444">Nous ferons icy nostre affaire</l>
+            <l n="445" xml:id="l445">Monsieur, &amp; nous n’avons que faire</l>
+            <l n="446" xml:id="l446">D’aller en d’autre lieux courir :</l>
+            <l n="447" xml:id="l447">Nous le ferons bien discourir</l>
+            <l n="448" xml:id="l448">Sy nous pouvons avec addresse</l>
+            <l n="449" xml:id="l449">Malgré le couroux, qui nous presse</l>
+            <l n="450" xml:id="l450">Cacher, ce qui nous fait venir.</l>
+          </sp>
+          <sp xml:id="I03-15" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="451" xml:id="l451">Entrons donc pour l’entretenir.<pb n="21"/></l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I04">
+          <head>SCENE IV.</head>
+          <sp xml:id="I04-1" who="roguespine">
+            <speaker>roguespine <hi rend="i">seul.</hi></speaker>
+            <l n="452" xml:id="l452">Ah ! puisque je sçay la demeure</l>
+            <l n="453" xml:id="l453">Il me prend envie : ou je meure,</l>
+            <l n="454" xml:id="l454">De venir sans en dire mot</l>
+            <l n="455" xml:id="l455">De peur de passer pour un sot,</l>
+            <l n="456" xml:id="l456">Pour un capagnart, pour un rustre,</l>
+            <l n="457" xml:id="l457">Apprendre cette langue illustre,</l>
+            <l n="458" xml:id="l458">Qui met le monde en grand credit.</l>
+            <l n="459" xml:id="l459">Aussi bien en Province, on dit</l>
+            <l n="460" xml:id="l460">Que dans Paris, toutes les femmes,</l>
+            <l n="461" xml:id="l461">Et mesme les plus grandes Dames,</l>
+            <l n="462" xml:id="l462">Reçoivent jusques aux laquais</l>
+            <l n="463" xml:id="l463">Quand ils sont bien vestus, bien fais,</l>
+            <l n="464" xml:id="l464">Et qu’enfin ils ont l’avantage</l>
+            <l n="465" xml:id="l465">De sçavoir un peu ce langage.<pb n="22"/></l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I05">
+          <head>SCENE V.</head>
+          <stage>ROGUESPINE, RODOGINE.</stage>
+          <sp xml:id="I05-1" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="466" xml:id="l466">Mais où va cette fille-là ?</l>
+            <stage>(Monstrant la porte de Theocrite.)</stage>
+            <l n="467" xml:id="l467">Elle va de ce costé là,</l>
+            <l n="468" xml:id="l468">Ouy, ses pas font assez connoistre</l>
+            <l n="469" xml:id="l469">Qu’elle va tout droit chez ce Maistre ;</l>
+            <l n="470" xml:id="l470">Pour nous desennuier un peu</l>
+            <l n="471" xml:id="l471">Arrestons-là, dedans ce lieu</l>
+            <l n="472" xml:id="l472">Madame, ou bien Mademoiselle ;</l>
+            <l n="473" xml:id="l473">Car il faut que vous soyez telle,</l>
+            <l n="474" xml:id="l474">Vous ne sçauriez que faire là ;</l>
+            <l n="475" xml:id="l475">Car……</l>
+          </sp>
+          <sp xml:id="I05-2" who="rodogine">
+            <speaker>rodogine.</speaker>
+            <l n="476" xml:id="l476">Le beau debut que voila !</l>
+            <l n="477" xml:id="l477">Que vous avez l’ame grossiere,</l>
+            <l n="478" xml:id="l478">La forme avant, dans la matiere ;</l>
+            <l n="479" xml:id="l479">Ah ! mon cher que vous este dur,</l>
+            <l n="480" xml:id="l480">Et qu’il fait dans vostre ame obscur.</l>
+          </sp>
+          <sp xml:id="I05-3" who="roguespine">
+            <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
+            <l n="481" xml:id="l481">Qu’est-ce que celle-là veut dire ?</l>
+            <l n="482" xml:id="l482">Je ne sçay pas si j’en dois rire,</l>
+            <l n="483" xml:id="l483">Car n’entendant point ce jargon<pb n="23"/></l>
+            <l n="484" xml:id="l484">Elle peut m’appeler fripon ;</l>
+            <stage>(à Rodogine.)</stage>
+            <l n="485" xml:id="l485">Songez mieux à ce que vous faites</l>
+            <l n="486" xml:id="l486">Impertinente, que vous estes</l>
+            <l n="487" xml:id="l487">Je suis valet, de probité</l>
+            <l n="488" xml:id="l488">Et de Monsieur le Deputé,</l>
+            <l n="489" xml:id="l489">Et si vous me chantez injures,</l>
+            <l n="490" xml:id="l490">Sçachez, que ce sont impostures.</l>
+          </sp>
+          <sp xml:id="I05-4" who="rodogine">
+            <speaker>rodogine.</speaker>
+            <l n="491" xml:id="l491">Et quel est donc ce deputé ?</l>
+          </sp>
+          <sp xml:id="I05-5" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="492" xml:id="l492">Ah ! vous raillez en verité,</l>
+            <l n="493" xml:id="l493">Chacun le doit desja connoistre ;</l>
+            <l n="494" xml:id="l494">Car qui ne sçait pas que mon Maistre,</l>
+            <l n="495" xml:id="l495">Est icy deputé du Mant,</l>
+            <l n="496" xml:id="l496">Afin d’obtenir promptement</l>
+            <l n="497" xml:id="l497">Contre ces langues venimmeuses,</l>
+            <l n="498" xml:id="l498">Que l’on appelle Pretieuses,</l>
+            <l n="499" xml:id="l499">Un Arrest, qui casse tout net</l>
+            <l n="500" xml:id="l500">Le langage qu’elles ont fait.</l>
+          </sp>
+          <sp xml:id="I05-6" who="rodogine">
+            <speaker>rodogine.</speaker>
+            <l n="501" xml:id="l501">Justes Dieux ! que je suis surprise</l>
+            <l n="502" xml:id="l502">De cette maudite entreprise ;</l>
+            <l n="503" xml:id="l503">Mais encore, est-ce tout de bon ?</l>
+          </sp>
+          <sp xml:id="I05-7" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="504" xml:id="l504">Peste de la commission,</l>
+            <l n="505" xml:id="l505">J’en avois ma foy, bien affaire,</l>
+            <l n="506" xml:id="l506">La scelle m’en tient au derriere,</l>
+            <l n="507" xml:id="l507">Et les sauts que tous les chevaux,<pb n="24"/></l>
+            <l n="508" xml:id="l508">Qui n’estoient certes, bons ny beaux,</l>
+            <l n="509" xml:id="l509">M’ont (sans qu’il fut fort necessaire),</l>
+            <l n="510" xml:id="l510">En courant la poste, fait faire,</l>
+            <l n="511" xml:id="l511">Dans un superlatif degré</l>
+            <l n="512" xml:id="l512">Le ventre m’ont plus escuré,</l>
+            <l n="513" xml:id="l513">Que n’auroient, je le dis sans feintes,</l>
+            <l n="514" xml:id="l514">Jamais pû faire quatre peintes</l>
+            <l n="515" xml:id="l515">De ce vin bien &amp; mal faisant,</l>
+            <l n="516" xml:id="l516">Qu’on nomme Emetique à present.</l>
+          </sp>
+          <sp xml:id="I05-8" who="rodogine">
+            <speaker>rodogine.</speaker>
+            <l n="517" xml:id="l517">J’ay donc en vain vuidé ma bourse,</l>
+            <l n="518" xml:id="l518">Et mon pauvre argent sans resource</l>
+            <l n="519" xml:id="l519">Est donc pour tout jamais perdu.</l>
+            <l n="520" xml:id="l520">Ah ! je voudrois qu’il fut pendu</l>
+            <l n="521" xml:id="l521">Ce chien, cét enragé, ce traistre,</l>
+            <l n="522" xml:id="l522">En un mot, ce diable de Maistre,</l>
+            <l n="523" xml:id="l523">Qui m’a si souvent asseuré,</l>
+            <l n="524" xml:id="l524">Et qui m’a tant de fois juré,</l>
+            <l n="525" xml:id="l525">Que ce magnifique langage</l>
+            <l n="526" xml:id="l526">Auroit le puissant advantage</l>
+            <l n="527" xml:id="l527">De ne pouvoir mourir jamais.</l>
+          </sp>
+          <sp xml:id="I05-9" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="528" xml:id="l528">Mais nos gens sortent satisfaits,</l>
+            <l n="529" xml:id="l529">Et je donnerois ma parole</l>
+            <l n="530" xml:id="l530">Qu’ils viennent d’atraper le drole.<pb n="C 25"/></l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I06">
+          <head>SCENE VI.</head>
+          <stage>RIBERCOUR, PANCRACE, </stage>
+          <stage>THEOCRITE, ROGUESPINE,</stage>
+          <stage>RODOGINE.</stage>
+          <sp xml:id="I06-1" who="ribercour">
+            <speaker>ribercour </speaker>
+            <stage>(en sortant de chez Theocrite.)</stage>
+            <l n="531" xml:id="l531">Je vous suis obligé Monsieur,</l>
+            <l n="532" xml:id="l532">D’une si notable faveur,</l>
+            <l n="533" xml:id="l533">Et si vous passez d’avanture</l>
+            <l n="534" xml:id="l534">Par le païs, je vous conjure</l>
+            <l n="535" xml:id="l535">De venir loger droict chez moy ;</l>
+            <l n="536" xml:id="l536">Vous y mangerez sur ma foy</l>
+            <l n="537" xml:id="l537">Des chapons ; mais en abondance</l>
+            <l n="538" xml:id="l538">Qui seront bons par excellence.</l>
+          </sp>
+          <sp xml:id="I06-2" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="539" xml:id="l539">Et moy de mon costé Monsieur,</l>
+            <l n="540" xml:id="l540">Je vous rends graces de bon cœur.</l>
+          </sp>
+          <sp xml:id="I06-3" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="541" xml:id="l541">Vos civilitez sont plus grandes</l>
+            <l n="542" xml:id="l542">Que n’ont pas esté vos demandes,</l>
+            <l n="543" xml:id="l543">Et dedans cette occasion</l>
+            <l n="544" xml:id="l544">Il n’est point d’obligation,</l>
+            <l n="545" xml:id="l545">Qui pour des gens d’un tel merite,</l>
+            <l n="546" xml:id="l546">Ne soit de nature petite.<pb n=" 26"/></l>
+          </sp>
+          <sp xml:id="I06-4" who="theocrite">
+            <speaker>theocrite </speaker>
+            <stage>(pendant que Rodogine parle bas à Roguespine.)</stage>
+            <l n="547" xml:id="l547">Enfin nostre homme est attrappé,</l>
+            <l n="548" xml:id="l548">Et c’est un deputé duppé ;</l>
+            <l n="549" xml:id="l549">Mais il auroit tort de ses plaindre,</l>
+            <l n="550" xml:id="l550">Bien d’autre sans les y contraindre</l>
+            <l n="551" xml:id="l551">Du depuis que pour l’attraper,</l>
+            <l n="552" xml:id="l552">Ou pour mieux dire le dupper,</l>
+            <l n="553" xml:id="l553">J’ay mis sur ma porte une affiche,</l>
+            <l n="554" xml:id="l554">Sans pretendre leur faire niche,</l>
+            <l n="555" xml:id="l555">Me sont venus trouver ceans,</l>
+            <l n="556" xml:id="l556">Et par des discours obligeans</l>
+            <l n="557" xml:id="l557">M’ont conjuré de leur apprendre,</l>
+            <l n="558" xml:id="l558">Ce qu’encor j’ay peine d’entendre,</l>
+            <l n="559" xml:id="l559">Sçavoir à parler Pretieux.</l>
+            <stage>(Appercevant Rodogine.)</stage>
+            <l n="560" xml:id="l560">Mais quoy vous trompez-vous mes yeux ?</l>
+            <l n="561" xml:id="l561">Non certes, &amp; c’est l’Escoliere</l>
+            <l n="562" xml:id="l562">Qui me vient trouver d’ordinaire ;</l>
+            <l n="563" xml:id="l563">Voyons donc de quelle façon</l>
+            <l n="564" xml:id="l564">Elle a retenu sa leçon.<pb n="27"/></l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I07">
+          <head>SCENE VII.</head>
+          <stage>THEOCRITE, RODOGINE.</stage>
+          <sp xml:id="I07-1" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="565" xml:id="l565">Bonjour, entrons dans cette salle.</l>
+          </sp>
+          <sp xml:id="I07-2" who="rodogine">
+            <speaker>rodogine.</speaker>
+            <l n="566" xml:id="l566">Vous n’este qu’un maistre de balle,</l>
+            <l n="567" xml:id="l567">Qu’un ipertinent, qu’un jazeur,</l>
+            <l n="568" xml:id="l568">Qu’un traistre, ny qu’un imposteur,</l>
+            <l n="569" xml:id="l569">Je ne viendray pas davantage,</l>
+            <l n="570" xml:id="l570">L’on va casser vostre langage.</l>
+          </sp>
+          <sp xml:id="I07-3" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="571" xml:id="l571">Qui sont donc les perturbateurs !</l>
+            <l n="572" xml:id="l572">Des Ruelles persecuteurs</l>
+            <l n="573" xml:id="l573">Au beau stile, si fort contraires</l>
+            <l n="574" xml:id="l574">Et de la raison adversaires,</l>
+            <l n="575" xml:id="l575">Dont le sens emberliquoqué</l>
+            <l n="576" xml:id="l576">Vous a dans l’esprit inculqué,</l>
+            <l n="577" xml:id="l577">Par une injuste jalousie,</l>
+            <l n="578" xml:id="l578">Cette bizarre fantaisie.</l>
+          </sp>
+          <sp xml:id="I07-4" who="rodogine">
+            <speaker>rodogine.</speaker>
+            <l n="579" xml:id="l579">Ce que je dis est asseuré,</l>
+            <l n="580" xml:id="l580">Car enfin l’on me l’a juré,</l>
+            <l n="581" xml:id="l581">Et sur ce qu’on m’a dit, je gage<pb n="28"/></l>
+            <l n="582" xml:id="l582">Qu’on cassera vostre langage.</l>
+          </sp>
+          <sp xml:id="I07-5" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="583" xml:id="l583">Est-ce ainsi que mes documents,</l>
+            <l n="584" xml:id="l584">Mes leçons, mes enseignements,</l>
+            <l n="585" xml:id="l585">Sont en des terres infertilles</l>
+            <l n="586" xml:id="l586">Où mes peines sont inutilles</l>
+            <l n="587" xml:id="l587">Ou de tout ce qu’on peut planter</l>
+            <l n="588" xml:id="l588">Rien ne peut jamais profiter.</l>
+            <l n="589" xml:id="l589">Ah ! c’est donc en vain terre ingratte,</l>
+            <l n="590" xml:id="l590">Que l’on vous besche, &amp; qu’on vous gratte,</l>
+            <l n="591" xml:id="l591">Puisque mes soins n’ont pour tout prix</l>
+            <l n="592" xml:id="l592">Qu’un regret d’en avoir trop pris.</l>
+            <l n="593" xml:id="l593">Quoy donc s’esnoncer de la sorte,</l>
+            <l n="594" xml:id="l594">Ah ! cela m’estonne &amp; m’emporte.</l>
+            <l n="595" xml:id="l595" rend="i">Ce que je dis, est asseuré,</l>
+            <l n="596" xml:id="l596" rend="i">Car enfin l’on me l’a juré</l>
+            <l n="597" xml:id="l597" rend="i">Et sur ce qu’on m’a dit, je gage</l>
+            <l n="598" xml:id="l598" rend="i">Qu’on cassera vostre langage,</l>
+            <l n="599" xml:id="l599">Examinez cette oraison,</l>
+            <l n="600" xml:id="l600">Elle peche en la diction,</l>
+            <l n="601" xml:id="l601">L’on n’y voit que de la rudesse</l>
+            <l n="602" xml:id="l602">Les mots en sont pleins de foiblesse.</l>
+            <l n="603" xml:id="l603">Et……</l>
+          </sp>
+          <sp xml:id="I07-6" who="rodogine">
+            <speaker>rodogine.</speaker>
+            <l n="604" xml:id="l604">J’ay bien un autre soucy,</l>
+            <l n="605" xml:id="l605">Et si vous me voyez icy,</l>
+            <l n="606" xml:id="l606">Ce n’est que pour vous faire rendre<pb n="29"/></l>
+            <l n="607" xml:id="l607">L’argent, que vous voulustes prendre</l>
+            <l n="608" xml:id="l608">Alors que je vins en ces lieux</l>
+            <l n="609" xml:id="l609">Pour apprendre le Pretieux :</l>
+            <l n="610" xml:id="l610">Car enfin puisque ce langage</l>
+            <l n="611" xml:id="l611">Doit estre bien-tost hors d’usage,</l>
+            <l n="612" xml:id="l612">Il est raisonnable qu’enfin</l>
+            <l n="613" xml:id="l613">Vous me rendiez mon saint-crespin.</l>
+          </sp>
+          <sp xml:id="I07-7" who="theocrite">
+            <speaker>theocrite <hi rend="i">(sans l’escouter.)</hi></speaker>
+            <l n="614" xml:id="l614">Certes la langue Pretieuse</l>
+            <l n="615" xml:id="l615">Est une chose merveileuse ;</l>
+            <l n="616" xml:id="l616">Car enfin l’on parle de ceux</l>
+            <l n="617" xml:id="l617">Qui sçavent parler Pretieux,</l>
+            <l n="618" xml:id="l618">D’une si nouvelle manière…..</l>
+          </sp>
+          <sp xml:id="I07-8" who="rodogine">
+            <speaker>rodogine.</speaker>
+            <l n="619" xml:id="l619">Ah ! ce n’est pas là nostre affaire,</l>
+            <l n="620" xml:id="l620">Tout cela n’est ny beau, ny bon,</l>
+            <l n="621" xml:id="l621">L’argent, fait nostre question ;</l>
+            <l n="622" xml:id="l622">Mais quoy donc ? vous branlez la teste,</l>
+            <l n="623" xml:id="l623">Et vous n’avez pas la main preste</l>
+            <l n="624" xml:id="l624">A m’en avindre promptement.</l>
+            <l n="625" xml:id="l625">Ah ! je m’en vais presentement,</l>
+            <l n="626" xml:id="l626">Afin de vous estre contraire</l>
+            <l n="627" xml:id="l627">Plaider de la belle manière,</l>
+            <l n="628" xml:id="l628">Et me joindre dans mon couroux</l>
+            <l n="629" xml:id="l629">A ces Messieurs, qui de chez vous</l>
+            <l n="630" xml:id="l630">Viennent de sortir tout à l’heure :</l>
+            <l n="631" xml:id="l631">Car de leur Valet, ou je meure,</l>
+            <l n="632" xml:id="l632">J’ay sçeu qu’un d’eux n’estoit icy<pb n="30"/></l>
+            <l n="633" xml:id="l633">Qu’afin de prendre le soucy,</l>
+            <l n="634" xml:id="l634">De faire par toute la Terre</l>
+            <l n="635" xml:id="l635">Une longue, &amp; mortelle guerre</l>
+            <l n="636" xml:id="l636">A toutes celles, &amp; tous ceux</l>
+            <l n="637" xml:id="l637">Qu’on prendra parlant Pretieux.</l>
+            <stage>(Elle sort.)</stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I08">
+          <head>SCENE VIII.</head>
+          <sp xml:id="I08-1" who="theocrite">
+            <speaker>theocrite <hi rend="i">seul.</hi></speaker>
+            <l n="638" xml:id="l638">Ce divertissement est drolle,</l>
+            <l n="639" xml:id="l639">Et je jouë assez bien mon roolle.</l>
+            <l n="640" xml:id="l640">Ils sont pris pour duppes ma foy.</l>
+            <stage>(Voyant entrer Ergaste.)</stage>
+            <l n="641" xml:id="l641">Mais que desirez-vous de moy !<pb n="31"/></l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I09">
+          <head>SCENE IX.</head>
+          <stage>ERGASTE, THEOCRITE.</stage>
+          <sp xml:id="I09-1" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="642" xml:id="l642">Je viens vous prier d’une grace.</l>
+          </sp>
+          <sp xml:id="I09-2" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="643" xml:id="l643">Il n’est rien pour vous qu’on ne fasse.</l>
+            <l n="644" xml:id="l644">Mais Monsieur, parlez s’il vous plaist !</l>
+          </sp>
+          <sp xml:id="I09-3" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="645" xml:id="l645">Pour vous dire donc ce que c’est.</l>
+            <l n="646" xml:id="l646">Je viens icy par ordre expresse</l>
+            <l n="647" xml:id="l647">D’une incomparable Duchesse,</l>
+            <l n="648" xml:id="l648">Vous prier que de vostre mieux</l>
+            <l n="649" xml:id="l649">Vous tourniez en vers Pretieux,</l>
+            <l n="650" xml:id="l650">Ce Madrigal là tout à l’heure.</l>
+          </sp>
+          <sp xml:id="I09-4" who="theocrite">
+            <speaker>theocrite. </speaker>
+            <stage>(à part ouvrant le Madrigal.)</stage>
+            <l n="651" xml:id="l651">Que l’on voit de fous, où je meure,</l>
+            <l n="652" xml:id="l652">Il n’importe pour leur argent,</l>
+            <l n="653" xml:id="l653">Paroissans à tous obligeant ;</l>
+            <l n="654" xml:id="l654">Mais dans une pareille affaire,</l>
+            <l n="655" xml:id="l655">Il faut que le Dictionnaire</l>
+            <l n="656" xml:id="l656">Que l’on a fait tout à propos,<pb n="32"/></l>
+            <l n="657" xml:id="l657">Me fournisse beaucoup de mots,</l>
+            <stage>(Il lit.)</stage>
+            <p rend="center">MADRIGAL.</p>
+            <lg rend="i">
+              <l n="658" xml:id="l658">L’autre jour, un Mary, tenant divers discours</l>
+              <l n="659" xml:id="l659">A sa femme, luy dit, au Cours.</l>
+              <l n="660" xml:id="l660">Je vois que vous cherchez à faire des conquestes,</l>
+              <l n="661" xml:id="l661">Elle luy respondit sans y songer du tout,</l>
+              <l n="662" xml:id="l662">Ah ! ne paroissez plus si surpris que vous estes ;</l>
+              <l n="663" xml:id="l663">Puis qu’enfin d’un mary les baisers sont sans goust.</l>
+              <l n="664" xml:id="l664">Luy contre elle, d’abord se mettant en colere</l>
+              <l n="665" xml:id="l665">Comme a de coustume un jaloux,</l>
+              <l n="666" xml:id="l666">Luy dit, sans hesiter d’un visage severe,</l>
+              <l n="667" xml:id="l667">Le Cours ne sera plus pour vous.</l>
+            </lg>
+            <stage>(Apres avoir leu, il dit.)</stage>
+            <l n="668" xml:id="l668">Dieux ! que ces vers ont de foiblesse,</l>
+            <l n="669" xml:id="l669">Qu’on y voit mesme de rudesse,</l>
+            <l n="670" xml:id="l670">Que les derniers sont peu pointus,</l>
+            <l n="671" xml:id="l671">Vous ne les reconnoistrez plus.</l>
+            <l n="672" xml:id="l672">Alors qu’en langue Pretieuse</l>
+            <l n="673" xml:id="l673">Par une version heureuse,</l>
+            <l n="674" xml:id="l674">Je les aurez mis,</l>
+          </sp>
+          <sp xml:id="I09-5" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="675" xml:id="l675">        Mot à mot,</l>
+          </sp>
+          <sp xml:id="I09-6" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="676" xml:id="l676">Non certes, je serois un sot</l>
+            <l n="677" xml:id="l677">Si j’avois ozé le promettre,<pb n="33"/></l>
+            <l n="678" xml:id="l678">Puisque je ne les y puis mettre :</l>
+            <l n="679" xml:id="l679">A cinq ou six mots prés, pourtant</l>
+            <l n="680" xml:id="l680">Ils seront faits dans un instant.</l>
+          </sp>
+          <sp xml:id="I09-7" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="681" xml:id="l681">Mais……</l>
+          </sp>
+          <sp xml:id="I09-8" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="682" xml:id="l682">Mais la Pretieuse langue,</l>
+            <l n="683" xml:id="l683">Sans vous faire une longue harangue,</l>
+            <l n="684" xml:id="l684">Et pour vous parler en amy,</l>
+            <l n="685" xml:id="l685">N’est encor faite qu’à demy.</l>
+          </sp>
+          <sp xml:id="I09-9" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="686" xml:id="l686">Mais l’on vend un Dictionnaire,</l>
+            <l n="687" xml:id="l687">Qui la doit contenir entierre.</l>
+          </sp>
+          <sp xml:id="I09-10" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="688" xml:id="l688">Il n’est pas mauvais, mais l’Autheur,</l>
+            <l n="689" xml:id="l689">En fait imprimer un meilleur.</l>
+            <l n="690" xml:id="l690">On y verra des Pretieuses,</l>
+            <l n="691" xml:id="l691">Toutes les guerres perilleuses,</l>
+            <l n="692" xml:id="l692">Ensemble les descriptions</l>
+            <l n="693" xml:id="l693">De leurs plus grandes actions ;</l>
+            <l n="694" xml:id="l694">L’on y verra leur poëtique,</l>
+            <l n="695" xml:id="l695">L’on y verra leur politique,</l>
+            <l n="696" xml:id="l696">Leur Cosmographie y sera,</l>
+            <l n="697" xml:id="l697">Et de plus l’on y trouvera</l>
+            <l n="698" xml:id="l698">Un grand narré, de leurs histoires,</l>
+            <l n="699" xml:id="l699">Leurs conquestes, &amp; leurs victoires,</l>
+            <l n="700" xml:id="l700">Leurs origines, leurs progrés,<pb n="34"/></l>
+            <l n="701" xml:id="l701">Et par un discours fait exprés</l>
+            <l n="702" xml:id="l702">L’on verra leur Cronologie,</l>
+            <l n="703" xml:id="l703">Et tout ce que l’Astrologie,</l>
+            <l n="704" xml:id="l704">Pendant leur regne predit.</l>
+            <l n="705" xml:id="l705">De plus encore l’on m’a dit,</l>
+            <l n="706" xml:id="l706">Que les Villes les plus fameuses</l>
+            <l n="707" xml:id="l707">Du Royaume, des Pretieuses,</l>
+            <l n="708" xml:id="l708">Avec leurs coustumes et mœurs,</l>
+            <l n="709" xml:id="l709">Leurs actions, &amp; leurs humeurs,</l>
+            <l n="710" xml:id="l710">Y seront amplement descrites ;</l>
+            <l n="711" xml:id="l711">Et que celle dont les merites</l>
+            <l n="712" xml:id="l712">Esclattent jusques sur le front.</l>
+            <l n="713" xml:id="l713">Leurs Esloges y trouveront.</l>
+            <l n="714" xml:id="l714">Outre cela leurs Poësies,</l>
+            <l n="715" xml:id="l715">Un traitté de leurs heresies,</l>
+            <l n="716" xml:id="l716">Et leur Geographie aussi,</l>
+            <l n="717" xml:id="l717">S’y rencontreront, dieu mercy ;</l>
+            <l n="718" xml:id="l718">Avecque leur Philosophie,</l>
+            <l n="719" xml:id="l719">De leurs mots l’ethimologie,</l>
+            <l n="720" xml:id="l720">Et cent histoires, que je croy</l>
+            <l n="721" xml:id="l721">Qui plairont fort en bonne foy.</l>
+            <l n="722" xml:id="l722">Mais ce qu’il faut que chacun prise,</l>
+            <l n="723" xml:id="l723">C’est qu’on y verra la devise</l>
+            <l n="724" xml:id="l724">De celles qui par leur esprit</l>
+            <l n="725" xml:id="l725">Sont dans le Monde en grand credit ?</l>
+            <l n="726" xml:id="l726">De plus, &amp; c’est sans railleries,</l>
+            <l n="727" xml:id="l727">L’on y verra leurs Armoiries,</l>
+            <l n="728" xml:id="l728">Et ceux qui sçavent le Blazon,<pb n="35"/></l>
+            <l n="729" xml:id="l729">S’y divertiront tout de bon,</l>
+            <l n="730" xml:id="l730">Et pourront voir de cette sorte</l>
+            <l n="731" xml:id="l731">Ce que chacune d’elles porte.</l>
+          </sp>
+          <sp xml:id="I09-11" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="732" xml:id="l732">Qu’on aura de contentement</l>
+            <l n="733" xml:id="l733">A lire un Livre si charmant.</l>
+          </sp>
+          <sp xml:id="I09-12" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="734" xml:id="l734">Ce livre sera d’importance</l>
+            <l n="735" xml:id="l735">Et les Pretieuses de France,</l>
+            <l n="736" xml:id="l736">Aussi-tost qu’elles le liront</l>
+            <l n="737" xml:id="l737">Sans doute s’y reconnoistront.</l>
+          </sp>
+          <sp xml:id="I09-13" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="738" xml:id="l738">Bon Dieu ! qu’on aura de quoy rire.</l>
+          </sp>
+          <sp xml:id="I09-14" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="739" xml:id="l739">Tellement, que l’on peut bien dire</l>
+            <l n="740" xml:id="l740">Que quand la clef on en aura</l>
+            <l n="741" xml:id="l741">Beaucoup, on s’y divertira.</l>
+          </sp>
+          <sp xml:id="I09-15" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="742" xml:id="l742">Ah ! je crois que chacun sans doute,</l>
+            <l n="743" xml:id="l743">Ou par ma foy je n’y vois goutte,</l>
+            <l n="744" xml:id="l744">Pour sa ratte bien dilater</l>
+            <l n="745" xml:id="l745">Viendra promptement l’achepter.</l>
+          </sp>
+          <sp xml:id="I09-16" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="746" xml:id="l746">Aux gens curieux il doit plaire</l>
+            <l n="747" xml:id="l747">Mais retournons à nostre affaire</l>
+            <l n="748" xml:id="l748">Et voyons nostre Madrigal.<pb n="36"/></l>
+          </sp>
+          <sp xml:id="I09-17" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="749" xml:id="l749">Ma foy nous ne ferons pas mal.</l>
+          </sp>
+          <sp xml:id="I09-18" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="750" xml:id="l750">Ça prenez donc cette escritoire,</l>
+            <l n="751" xml:id="l751">J’ay quelques Vers en ma memoire,</l>
+            <l n="752" xml:id="l752">Qu’en parlant à vous, j’ay trouvez</l>
+            <l n="753" xml:id="l753">Je crains de les perdre, escrivez.</l>
+            <l n="754" xml:id="l754">Attendez, que rien ne vous presse,</l>
+            <l n="755" xml:id="l755">Il faut un tiltre à cette piece.</l>
+            <l n="756" xml:id="l756">Mettez ce tiltre spetieux.</l>
+            <p rend="center">Madrigal en vers Pretieux.</p>
+            <l n="757" xml:id="l757">C’est fait, continuez d’escrire,</l>
+            <l n="758" xml:id="l758" rend="i">N’aguerre un mary, dans l’empire……</l>
+            <l n="759" xml:id="l759">Oüais, je me suis embarassé,</l>
+            <l n="760" xml:id="l760">Que ce vers là, soit effacé.</l>
+            <l n="761" xml:id="l761"><hi rend="i">Un mar…….</hi>non je resve sans doute,</l>
+            <l n="762" xml:id="l762">Rien que le premier vers ne couste,</l>
+            <l n="763" xml:id="l763">Et dés que je l’auray trouvé</l>
+            <l n="764" xml:id="l764">Nous aurons bien-tost achevé.</l>
+            <l n="765" xml:id="l765">Je le tiens sans doute, ou je meure,</l>
+            <l n="766" xml:id="l766">Escrivez donc &amp; tout à l’heure.</l>
+            <l n="767" xml:id="l767" rend="i">L’autre jour un mary, causoit</l>
+            <l n="768" xml:id="l768" rend="i">Avec sa femme, &amp; luy disoit</l>
+            <l n="769" xml:id="l769" rend="i">Dedans l’empire des œillades.</l>
+            <l n="770" xml:id="l770">Que ces parolles sont mignardes ?</l>
+            <l n="771" xml:id="l771">Certes de semblables discours<pb n="37"/></l>
+            <l n="772" xml:id="l772">Expriment tout à fait le Cours.</l>
+            <l n="773" xml:id="l773">Dans ce lieu soit belle ou camarde,</l>
+            <l n="774" xml:id="l774">Chacun de son costé regarde.</l>
+            <l n="775" xml:id="l775">Et l’on voit chacun, accorder</l>
+            <l n="776" xml:id="l776">Qu’on n’y va que pour regarder.</l>
+            <l n="777" xml:id="l777">Il est donc, quoy qu’on puisse dire,</l>
+            <l n="778" xml:id="l778">Bien dit des œillades l’empire.</l>
+            <stage>(Il poursuit de dicter.)</stage>
+            <l n="779" xml:id="l779" rend="i">Je vois que vous cherchez à faire assauts d’appas,</l>
+            <l n="780" xml:id="l780" rend="i">Elle sans songer dit, ne t’en estonne pas,</l>
+            <l n="781" xml:id="l781" rend="i">Car les baisers permis son fades.</l>
+            <l n="782" xml:id="l782" rend="i">Luy d’abord, tout comme un Argus…</l>
+            <l n="783" xml:id="l783">Mes discours seroient superflus</l>
+            <l n="784" xml:id="l784">Pour pouvoir icy vous d’escrire</l>
+            <l n="785" xml:id="l785">Ce que ce mot d’<hi rend="i">Argus</hi>, veut dire ;</l>
+            <l n="786" xml:id="l786">Puisqu’il est desja sçeu de tous</l>
+            <l n="787" xml:id="l787">Qu’<hi rend="i">Argus</hi>, signifie un Jaloux,</l>
+            <l n="788" xml:id="l788" rend="i">Et sans aucune incertitude</l>
+            <l n="789" xml:id="l789" rend="i">Luy dit, vous n’y reviendrez plus</l>
+            <l n="790" xml:id="l790" rend="i">Et contre elle d’abord poussa le dernier rude.</l>
+            <l n="791" xml:id="l791">Ces Vers sont faits avec estude.</l>
+            <l n="792" xml:id="l792">Je puis aisément le prouver,</l>
+            <l n="793" xml:id="l793">Puisqu’on ne peut jamais trouver</l>
+            <l n="794" xml:id="l794">De façon de parler plus claire,</l>
+            <l n="795" xml:id="l795">Pour dire se mettre en colere.</l>
+            <l n="796" xml:id="l796">Mais c’est fait, lisez.<pb n="38"/></l>
+          </sp>
+          <sp xml:id="I09-19" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="797" xml:id="l797">        Je le veux.</l>
+            <p rend="center">MADRIGAL EN VERS PRETIEUX.</p>
+            <lg rend="i">
+              <l n="798" xml:id="l798">L’autre jour un mary causoit</l>
+              <l n="799" xml:id="l799">Avec sa femme, &amp; luy disoit</l>
+              <l n="800" xml:id="l800">Dedans l’empire des œillades.</l>
+              <l n="801" xml:id="l801">Je vois que vous cherchez à faire assauts d’appas.</l>
+              <l n="802" xml:id="l802">Elle, sans songer dit, ne t’en estonne pas,</l>
+              <l n="803" xml:id="l803">Car les baisers permis sont fades.</l>
+              <l n="804" xml:id="l804">Luy d’abord tout comme un Argus,</l>
+              <l n="805" xml:id="l805">Et sans aucune incertitude</l>
+              <l n="806" xml:id="l806">Luy dit vous n’y reviendrez plus,</l>
+              <l n="807" xml:id="l807">Et contre elle aussi-tost poussa le dernier rude.</l>
+            </lg>
+          </sp>
+          <sp xml:id="I09-20" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="808" xml:id="l808">Que ces Vers ont de plenitude.</l>
+          </sp>
+          <sp xml:id="I09-21" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="809" xml:id="l809">Les derniers ont je ne sçay quoy</l>
+            <l n="810" xml:id="l810">Qui n’est pas dans les miens.</l>
+          </sp>
+          <sp xml:id="I09-22" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="811" xml:id="l811">            Je voy</l>
+            <l n="812" xml:id="l812">Ce que par là vous voulez dire,</l>
+            <l n="813" xml:id="l813">Et je m’en vais vous en instruire.</l>
+            <l n="814" xml:id="l814">C’est qu’on y voit dessus la fin</l>
+            <l n="815" xml:id="l815">Par un tour delicat &amp; fin,</l>
+            <l n="816" xml:id="l816">Sans qu’elle y paroisse forcée,<pb n="39"/></l>
+            <l n="817" xml:id="l817">Une maniere de pensée.</l>
+          </sp>
+          <sp xml:id="I09-23" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="818" xml:id="l818">Vous avez raison en effect.</l>
+            <l n="819" xml:id="l819">Pour moy j’en suis tres-satisfait</l>
+            <l n="820" xml:id="l820">Et la personne qui m’envoye,</l>
+            <l n="821" xml:id="l821">N’aura tantost pas peu de joye</l>
+            <l n="822" xml:id="l822">De vois ses vers selon ses vœux</l>
+            <l n="823" xml:id="l823">Si bien tournez en Pretieux.</l>
+            <stage>(En luy offrant de l’argent)</stage>
+            <l n="824" xml:id="l824">Mais Monsieur, s’il vous plaist de prendre.</l>
+          </sp>
+          <sp xml:id="I09-24" who="theocrite">
+            <speaker>theocrite.</speaker>
+            <l n="825" xml:id="l825">Certes je ne puis m’en deffendre</l>
+            <l n="826" xml:id="l826">Tant vous m’en priez de grand cœur.</l>
+          </sp>
+          <sp xml:id="I09-25" who="ergaste">
+            <speaker>ergaste.</speaker>
+            <l n="827" xml:id="l827">Adieu jusqu’au revoir Monsieur.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I10">
+          <head>SCENE X.</head>
+          <sp xml:id="I10-1" who="theocrite">
+            <speaker>theocrite <hi rend="i">seul.</hi></speaker>
+            <l n="828" xml:id="l828">Bon Dieu ! sans le Dictionnaire</l>
+            <l n="829" xml:id="l829">Qu’on a fait &amp; que l’on doit faire,</l>
+            <l n="830" xml:id="l830">J’estois ma foy pris comme un sot ?</l>
+            <l n="831" xml:id="l831">Car je ne sçeus jamais un mot</l>
+            <l n="832" xml:id="l832">De cette langue que j’enseigne,<pb n="40"/></l>
+            <l n="833" xml:id="l833">Mais il ne faut plus que je craigne,</l>
+            <l n="834" xml:id="l834">Puis qu’avecque quatre grand mots</l>
+            <l n="835" xml:id="l835">L’on duppe souvent bien des sots ;</l>
+            <l n="836" xml:id="l836">Mais allons sçavoir si nos drolles</l>
+            <l n="837" xml:id="l837">Ont joüé comme moy leurs roolles,</l>
+            <l n="838" xml:id="l838">Et si Monsieur, le deputé</l>
+            <l n="839" xml:id="l839">A force Ducats apporté.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I11">
+          <head>SCENE XI.</head>
+          <stage>PANCRACE, RIBERCOUR.</stage>
+          <sp xml:id="I11-1" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="840" xml:id="l840">Enfin nostre affaire s’avance</l>
+            <l n="841" xml:id="l841">Au moins si j’en crois l’apparence,</l>
+            <l n="842" xml:id="l842">Et le bon homme bien &amp; beau</l>
+            <l n="843" xml:id="l843">A donné dedans le panneau,</l>
+            <l n="844" xml:id="l844">Nous indiquant une demeure</l>
+            <l n="845" xml:id="l845">Où l’on trouveroit tout à l’heure</l>
+            <l n="846" xml:id="l846">Des Pretieuses de renom,</l>
+            <l n="847" xml:id="l847">Tenant leur conversation ;</l>
+            <l n="848" xml:id="l848">C’est pourquoy j’ose me promettre</l>
+            <l n="849" xml:id="l849">Que sans doute on leur pourra mettre</l>
+            <l n="850" xml:id="l850">Ma Requeste bien-tost en main,</l>
+            <l n="851" xml:id="l851">Et que devant qu’il soit demain</l>
+            <l n="852" xml:id="l852">A ces superbes Pretieuses,<pb n="D 41"/></l>
+            <l n="853" xml:id="l853">Nous verrons faire les pleureuses.</l>
+          </sp>
+          <sp xml:id="I11-2" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="854" xml:id="l854">Au moins, je vous puis asseurer</l>
+            <l n="855" xml:id="l855">Et puis mesmement vous jurer,</l>
+            <l n="856" xml:id="l856">Que vostre Sergent, ou je meure,</l>
+            <l n="857" xml:id="l857">Vous expedira tout à l’heure ;</l>
+            <l n="858" xml:id="l858">Car je connois cét homme-là</l>
+            <l n="859" xml:id="l859">Et je l’ay choisi pour cela,</l>
+            <l n="860" xml:id="l860">Et maintenant je vous annonce</l>
+            <l n="861" xml:id="l861">Que vous aurez bien-tost responce,</l>
+            <l n="862" xml:id="l862">Et qu’il aura fait son devoir.</l>
+          </sp>
+          <sp xml:id="I11-3" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="863" xml:id="l863">Ah ! je m’attends bien de sçavoir</l>
+            <l n="864" xml:id="l864">Jusqu’à la moindre circonstance</l>
+            <l n="865" xml:id="l865">De cette affaire d’importance ;</l>
+            <l n="866" xml:id="l866">Car depuis l’un à l’autre bout</l>
+            <l n="867" xml:id="l867">Roguespine, me dira tout.</l>
+            <l n="868" xml:id="l868">C’est le plus curieux peut-estre</l>
+            <l n="869" xml:id="l869">Que le Ciel ait jamais veu naistre</l>
+            <l n="870" xml:id="l870">Et qui soit, point je ne vous ments,</l>
+            <l n="871" xml:id="l871">Depuis Paris jusques au Mans.</l>
+            <l n="872" xml:id="l872">Il doit suivre jusqu’à la porte</l>
+            <l n="873" xml:id="l873">Le Sergent qui mon exploit porte ;</l>
+            <l n="874" xml:id="l874">Mais je gagerois tout de bon</l>
+            <l n="875" xml:id="l875">Qu’il entrera dans la maison,</l>
+            <l n="876" xml:id="l876">Qu’il aura mesme l’asseurance</l>
+            <l n="877" xml:id="l877">D’y faire quelque connoissance,</l>
+            <l n="878" xml:id="l878">Et que de tout ce qu’il verra<pb n="42"/></l>
+            <l n="879" xml:id="l879">Auss-tost il s’enquerrera.</l>
+          </sp>
+          <sp xml:id="I11-4" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="880" xml:id="l880">C’est sans doute bien le connoistre</l>
+            <l n="881" xml:id="l881">Que de ……</l>
+          </sp>
+          <sp xml:id="I11-5" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="882" xml:id="l882">Mais je le voids paroistre.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I12">
+          <head>SCENE XII.</head>
+          <stage>RIBERCOUR, ROGUESPINE,</stage>
+          <stage>PANCRACE.</stage>
+          <sp xml:id="I12-1" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="883" xml:id="l883">Eh bien qu’as-tu veu ? qu’as-tu fait ?</l>
+            <l n="884" xml:id="l884">Dis nous donc es-tu satisfait ?</l>
+          </sp>
+          <sp xml:id="I12-2" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="885" xml:id="l885">Ce que j’ay veu, que vous importe</l>
+            <l n="886" xml:id="l886">Une maison, où sur la porte</l>
+            <l n="887" xml:id="l887">L’on avoit mis un escriteau.</l>
+          </sp>
+          <sp xml:id="I12-3" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="888" xml:id="l888">Si je me jette sur ta peau</l>
+            <l n="889" xml:id="l889">Je te feray bien rendre compte……</l>
+          </sp>
+          <sp xml:id="I12-4" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="890" xml:id="l890">Oh, oh ! vous avez l’ame prompte ?<pb n="43"/></l>
+          </sp>
+          <sp xml:id="I12-5" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="891" xml:id="l891">Ah ! coquin je t’estropieray.</l>
+          </sp>
+          <sp xml:id="I12-6" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="892" xml:id="l892">Nouferay Monsieur, nouferay,</l>
+            <l n="893" xml:id="l893">Vous ne sçauriez jamais pis faire.</l>
+          </sp>
+          <sp xml:id="I12-7" who="ribercour">
+            <speaker>ribercour. <hi rend="i">(le battant.)</hi></speaker>
+            <l n="894" xml:id="l894">Je veux pour t’apprendre à te taire……</l>
+          </sp>
+          <sp xml:id="I12-8" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="895" xml:id="l895">Pourquoy diable tant s’emporter.</l>
+          </sp>
+          <sp xml:id="I12-9" who="pancrace">
+            <speaker>pancrace <hi rend="i">(Retenant Ribercour.)</hi></speaker>
+            <l n="896" xml:id="l896">Arrestez il va tout conter.</l>
+          </sp>
+          <sp xml:id="I12-10" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="897" xml:id="l897">Oüida, cela pourroit bien estre,</l>
+            <l n="898" xml:id="l898">Aprenez donc Monsieur, mon Maistre,</l>
+            <l n="899" xml:id="l899">Que je parlois avec raison ;</l>
+            <l n="900" xml:id="l900">Puisque dedans cette maison</l>
+            <l n="901" xml:id="l901">L’on ne voit plus de Pretieuses,</l>
+            <l n="902" xml:id="l902">Et que ces races, &amp; ces gueuses,</l>
+            <l n="903" xml:id="l903">Par un endiablé de hazard</l>
+            <l n="904" xml:id="l904">Logent maintenant autre-part.</l>
+          </sp>
+          <sp xml:id="I12-11" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="905" xml:id="l905">Sans doute, quelqu’un tout à l’heure</l>
+            <l n="906" xml:id="l906">T’auras pû dire leur demeure.</l>
+          </sp>
+          <sp xml:id="I12-12" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="907" xml:id="l907">Il n’est point de gens de mestier</l>
+            <l n="908" xml:id="l908">Qui la sçachent dans ce quartier,</l>
+            <l n="909" xml:id="l909">D’autant que par un trait habille</l>
+            <l n="910" xml:id="l910">Avant terme elles ont fait gile.</l>
+            <l n="911" xml:id="l911">Mais je pense que l’on m’a dit,<pb n="44"/></l>
+            <l n="912" xml:id="l912">Oüy c’estoit un homme d’esprit,</l>
+            <l n="913" xml:id="l913">Et ses discours sont fort croyables</l>
+            <l n="914" xml:id="l914">Que du Marais, aux Incurables</l>
+            <l n="915" xml:id="l915">Elles n’avoient rien fait qu’un saut.</l>
+          </sp>
+          <sp xml:id="I12-13" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="916" xml:id="l916">Helas ! Je suis pris comme il faut,</l>
+            <l n="917" xml:id="l917">Et tousjours le sort m’est contraire</l>
+            <l n="918" xml:id="l918">Quand je veux faire quelque affaire.</l>
+            <l n="919" xml:id="l919">Peste…..</l>
+          </sp>
+          <sp xml:id="I12-14" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="920" xml:id="l920">Cessez de tant pester,</l>
+            <l n="921" xml:id="l921">Et de plus vous inquietter,</l>
+            <l n="922" xml:id="l922">Ce que je dis, n’est que pour rire</l>
+            <l n="923" xml:id="l923">Et je m’en vais tout vous redire,</l>
+          </sp>
+          <sp xml:id="I12-15" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="924" xml:id="l924">Quoy maraut……</l>
+          </sp>
+          <sp xml:id="I12-16" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="925" xml:id="l925">        Cessez vos clameurs,</l>
+            <l n="926" xml:id="l926">Puis qu’enfin les vieux serviteurs</l>
+            <l n="927" xml:id="l927">Ont tousjours quelque privilege.</l>
+          </sp>
+          <sp xml:id="I12-17" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="928" xml:id="l928">Tu m’as fait donner dans le piege.</l>
+            <l n="929" xml:id="l929">Mais……</l>
+          </sp>
+          <sp xml:id="I12-18" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="930" xml:id="l930">Mais escoutez à loisir,</l>
+            <l n="931" xml:id="l931">Puisque selon vostre desir</l>
+            <l n="932" xml:id="l932">J’ay reüssi dans vostre affaire.<pb n="45"/></l>
+          </sp>
+          <sp xml:id="I12-19" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="933" xml:id="l933">Escoutons, sans plus le distraire.</l>
+          </sp>
+          <sp xml:id="I12-20" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="934" xml:id="l934">Avecque Monsieur le Sergent</l>
+            <l n="935" xml:id="l935">Homme, tout à fait diligent,</l>
+            <l n="936" xml:id="l936">Quand je vous quitté, nous allasmes</l>
+            <l n="937" xml:id="l937">Tout droit au Marais, &amp; trouvasmes</l>
+            <l n="938" xml:id="l938">La ruë assez facilement</l>
+            <l n="939" xml:id="l939">Dans laquelle est le logement</l>
+            <l n="940" xml:id="l940">Des babillardes Pretieuses,</l>
+            <l n="941" xml:id="l941">Qui sans doute ne sont pas gueuses.</l>
+            <l n="942" xml:id="l942">Un venerable Savetier,</l>
+            <l n="943" xml:id="l943">Qui loge en ce noble quartier,</l>
+            <l n="944" xml:id="l944">D’une façon toute civille</l>
+            <l n="945" xml:id="l945">Nous indiqua leur domicille,</l>
+            <l n="946" xml:id="l946">Quoy qu’enfin, par un heureux cas,</l>
+            <l n="947" xml:id="l947">Nous n’en fussions qu’à quatre pas.</l>
+            <l n="948" xml:id="l948">A la porte, là nous heurtasmes</l>
+            <l n="949" xml:id="l949">Et le heurtoir que nous trouvasmes</l>
+            <l n="950" xml:id="l950">Estoit de linge emmailloté.</l>
+            <l n="951" xml:id="l951">La chose est rare en verité,</l>
+            <l n="952" xml:id="l952">Et de mesme qu’en ma memoire,</l>
+            <l n="953" xml:id="l953">Merite une place en l’histoire,</l>
+            <l n="954" xml:id="l954">Elle est faite avecque raison,</l>
+            <l n="955" xml:id="l955">Car c’est une precaution</l>
+            <l n="956" xml:id="l956">Dont bien souvent elles se servent</l>
+            <l n="957" xml:id="l957">Et qu’entre-elles, elles observent,</l>
+            <l n="958" xml:id="l958">Pour que, leur conversation<pb n="46"/></l>
+            <l n="959" xml:id="l959">N’ait jamais d’interruption.</l>
+            <l n="960" xml:id="l960">Il vint à la susdite porte,</l>
+            <l n="961" xml:id="l961">Une calle, ou lacquais, n’importe</l>
+            <l n="962" xml:id="l962">Qui nous ouvrist civilement.</l>
+            <l n="963" xml:id="l963">Nous sans un long raisonnement</l>
+            <l n="964" xml:id="l964">A l’instant mesme nous entrasmes</l>
+            <l n="965" xml:id="l965">Et puis après nous le priasmes,</l>
+            <l n="966" xml:id="l966">Que sa maistresse, pût sçavoir</l>
+            <l n="967" xml:id="l967">Que nous desirions fort la voir.</l>
+            <l n="968" xml:id="l968">Droit à la porte de sa chambre,</l>
+            <l n="969" xml:id="l969">Où l’on sentoit le musc &amp; l’ambre</l>
+            <l n="970" xml:id="l970">Le susdit lacquais nous mena,</l>
+            <l n="971" xml:id="l971">Puis apres il s’en retourna</l>
+            <l n="972" xml:id="l972">Nous querir certaine suivante,</l>
+            <l n="973" xml:id="l973">Que je trouvay fort obligeante,</l>
+            <l n="974" xml:id="l974">Laquelle, je ne sçay pourquoy,</l>
+            <l n="975" xml:id="l975"><hi rend="i">Commune</hi><note n="ii" place="bottom"> [Commune en Prétieux veut dire suivante.]</note>, il nomma devant moy ;</l>
+            <l n="976" xml:id="l976">Cette fille, je la crois telle,</l>
+            <l n="977" xml:id="l977">Vestuë, en jeune Damoiselle,</l>
+            <l n="978" xml:id="l978">Apres deux mille questions</l>
+            <l n="979" xml:id="l979">Sans les interrogations,</l>
+            <l n="980" xml:id="l980">Alloit avec grande vitesse</l>
+            <l n="981" xml:id="l981">Dans la chambre de sa maistresse,</l>
+            <l n="982" xml:id="l982">Afin de la faire venir</l>
+            <l n="983" xml:id="l983">Pour pouvoir nous entretenir :</l>
+            <l n="984" xml:id="l984">Lors que de cette Pretieuse,</l>
+            <l n="985" xml:id="l985">L’impatience merveilleuse</l>
+            <l n="986" xml:id="l986">Fut cause qu’on nous fist entrer.<pb n="47"/></l>
+            <l n="987" xml:id="l987">Nostre Sergent sans differer</l>
+            <l n="988" xml:id="l988">Voyant cette femme sçavante</l>
+            <l n="989" xml:id="l989">D’abord, vostre exploit lui presente.</l>
+            <l n="990" xml:id="l990">Pendant le temps qu’elle le leust,</l>
+            <l n="991" xml:id="l991">Et qui certes un long-temps fut,</l>
+            <l n="992" xml:id="l992">Sans y trembler en aucun membre,</l>
+            <l n="993" xml:id="l993">Je consideray fort la chambre</l>
+            <l n="994" xml:id="l994">Dans laquelle à loisir je vis</l>
+            <l n="995" xml:id="l995">Des Pretieuses de Paris,</l>
+            <l n="996" xml:id="l996">Une longue &amp; nombreuse bande.</l>
+          </sp>
+          <sp xml:id="I12-21" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="997" xml:id="l997">Et ta joye alors fut bien grande</l>
+            <l n="998" xml:id="l998">D’estre entré si heureusement ;</l>
+            <l n="999" xml:id="l999">Mais faits nous le denombrement</l>
+            <l n="1000" xml:id="l1000">De ce que dedans cette chambre,</l>
+            <l n="1001" xml:id="l1001">Qui sentoit tant le musc et l’ambre,</l>
+            <l n="1002" xml:id="l1002">Tu vis de beau, de surprenant.</l>
+          </sp>
+          <sp xml:id="I12-22" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="1003" xml:id="l1003">Vous l’allez sçavoir, maintenant.</l>
+            <l n="1004" xml:id="l1004">Car je commence &amp; sans encombre.</l>
+            <l n="1005" xml:id="l1005">Cette chambre estoit assez sombre,</l>
+            <l n="1006" xml:id="l1006">Le grand jour, n’y pouvant entrer</l>
+            <l n="1007" xml:id="l1007">A cause qu’elles font tirer</l>
+            <l n="1008" xml:id="l1008">Pour l’empescher de trop paroistre</l>
+            <l n="1009" xml:id="l1009">Des rideaux, devant la fenestre</l>
+            <l n="1010" xml:id="l1010">Sçachant, que la grande clarté</l>
+            <l n="1011" xml:id="l1011">Efface un peu de la beauté.</l>
+            <l n="1012" xml:id="l1012">J’y remarqué de plus, en suitte<pb n="48"/></l>
+            <l n="1013" xml:id="l1013">Quoy que la chambre, fut petite,</l>
+            <l n="1014" xml:id="l1014">Que depuis la porte on voyoit</l>
+            <l n="1015" xml:id="l1015">Un paravant qui s’estendoit</l>
+            <l n="1016" xml:id="l1016">Jusqu’au prés de la cheminée.</l>
+            <l n="1017" xml:id="l1017">Pour respondre à ma destinée,</l>
+            <l n="1018" xml:id="l1018">Qui m’avoit fait heureusement</l>
+            <l n="1019" xml:id="l1019">Entrer dans cét appartement ;</l>
+            <l n="1020" xml:id="l1020">De ladite chambre le reste</l>
+            <l n="1021" xml:id="l1021">Sincerement je le proteste,</l>
+            <l n="1022" xml:id="l1022">Je n’examiné nullement</l>
+            <l n="1023" xml:id="l1023">Pour ne pas perdre le moment</l>
+            <l n="1024" xml:id="l1024">Que j’avois de lorgner ces belles,</l>
+            <l n="1025" xml:id="l1025">Dedans l’une de leurs ruelles.</l>
+            <l n="1026" xml:id="l1026">Seize environ elles estoient,</l>
+            <l n="1027" xml:id="l1027">De plus toutes elles avoient</l>
+            <l n="1028" xml:id="l1028">Au moins, ne s’en falloit-il guere,</l>
+            <l n="1029" xml:id="l1029">Assis sur leurs manteaux par terre</l>
+            <l n="1030" xml:id="l1030">Paroissans fort humiliez,</l>
+            <l n="1031" xml:id="l1031">Un homme, chacun à leurs pieds,</l>
+            <l n="1032" xml:id="l1032">Sans ceux qui tres-fort à leur aise</l>
+            <l n="1033" xml:id="l1033">Estoient assis dans une chaise,</l>
+            <l n="1034" xml:id="l1034">Et faisoient peu les courtisans.</l>
+            <l n="1035" xml:id="l1035">Elles avoient tant de rubans,</l>
+            <l n="1036" xml:id="l1036">Que je dis, sans dire sornettes,</l>
+            <l n="1037" xml:id="l1037">Que comme Mulets de sonnettes</l>
+            <l n="1038" xml:id="l1038">Elles estoient, &amp; croyez my,</l>
+            <l n="1039" xml:id="l1039">Toutes chargées, par ma foy.</l>
+            <l n="1040" xml:id="l1040">La pluspart encore d’entre-elles<pb n="E 49"/></l>
+            <l n="1041" xml:id="l1041">Soit deslaides, ou soit des belles,</l>
+            <l n="1042" xml:id="l1042">Tenoient avec un air badin,</l>
+            <l n="1043" xml:id="l1043">Chacune une canne à la main,</l>
+            <l n="1044" xml:id="l1044">La faisant brandiller sans cesse,</l>
+            <l n="1045" xml:id="l1045">Et sans mentir je vous confesse</l>
+            <l n="1046" xml:id="l1046">Que je n’osois ouvrir le bec</l>
+            <l n="1047" xml:id="l1047">Et que j’allois mourir illec,</l>
+            <l n="1048" xml:id="l1048">Tant de peur j’avois l’ame esmeuë,</l>
+            <l n="1049" xml:id="l1049">Si je n’eus point jetté la veuë</l>
+            <l n="1050" xml:id="l1050">Dessus le Sergent, qui d’abord</l>
+            <l n="1051" xml:id="l1051">Parût me r’asseurer bien fort.</l>
+            <l n="1052" xml:id="l1052">Mais sans vous parler davantage</l>
+            <l n="1053" xml:id="l1053">Du Sergent, ny de mon courage,</l>
+            <l n="1054" xml:id="l1054">De peur de paroistre poltron,</l>
+            <l n="1055" xml:id="l1055">Reprenons la description.</l>
+            <l n="1056" xml:id="l1056">Beaucoup sans attendre aux Dimanches,</l>
+            <l n="1057" xml:id="l1057">Avoient mis des coiffures blanches</l>
+            <l n="1058" xml:id="l1058">Qui toutes en pointe estoient.</l>
+            <l n="1059" xml:id="l1059">Beaucoup d’autres, encore avoient</l>
+            <l n="1060" xml:id="l1060">Des coiffures, à la païsanne,</l>
+            <l n="1061" xml:id="l1061">Et non pas à la courtisanne ;</l>
+            <l n="1062" xml:id="l1062">Si depuis un temps à la Cour</l>
+            <l n="1063" xml:id="l1063">La mode n’a joüé son tour.</l>
+            <l n="1064" xml:id="l1064">Celles qui restoient….ah ! sans rire,</l>
+            <l n="1065" xml:id="l1065">Je ne sçay si je le puis dire,</l>
+            <l n="1066" xml:id="l1066">Avoient tout au tour du museau</l>
+            <l n="1067" xml:id="l1067">De toille jaune, un grand morceau</l>
+            <l n="1068" xml:id="l1068">Si gras, que sans estre Prophete,<pb n="50"/></l>
+            <l n="1069" xml:id="l1069">On l’eust pris pour une ommelette.</l>
+            <l n="1070" xml:id="l1070">Si je ne me trompe voila</l>
+            <l n="1071" xml:id="l1071">Comme ces Pretieuses-là,</l>
+            <l n="1072" xml:id="l1072">Qui ma foy, sont assez jolies</l>
+            <l n="1073" xml:id="l1073">Estoient par la teste basties.</l>
+            <l n="1074" xml:id="l1074">Or voyons tout presentement</l>
+            <l n="1075" xml:id="l1075">Comme estoit leur habillement.</l>
+            <l n="1076" xml:id="l1076">Les unes, sans que je vous mente,</l>
+            <l n="1077" xml:id="l1077">Avoient une tres-longue fente</l>
+            <l n="1078" xml:id="l1078">A leurs habits, cela s’entend,</l>
+            <l n="1079" xml:id="l1079">Et qui se rejoignoit pourtant</l>
+            <l n="1080" xml:id="l1080">Par des galands, que devant elles,</l>
+            <l n="1081" xml:id="l1081">Avoient fait attacher ces belles.</l>
+            <l n="1082" xml:id="l1082">Je puis dire que ces habits</l>
+            <l n="1083" xml:id="l1083">Estoient faits de fort beaux tabis,</l>
+            <l n="1084" xml:id="l1084">Et d’autres estoffes tres rares :</l>
+            <l n="1085" xml:id="l1085">Ces habits sont nommez Cimarres,</l>
+            <l n="1086" xml:id="l1086">D’autres avoient des Justeau-corps</l>
+            <l n="1087" xml:id="l1087">Et d’autres avoient par le corps,</l>
+            <l n="1088" xml:id="l1088">Des robbes tout au tour plissées,</l>
+            <l n="1089" xml:id="l1089">Parce qu’elles sont plus aisées.</l>
+            <l n="1090" xml:id="l1090">Ceux qui s’y fort humiliez</l>
+            <l n="1091" xml:id="l1091">Estoient abaissez à leurs pieds</l>
+            <l n="1092" xml:id="l1092">Et montroient un cœur plein de flambes,</l>
+            <l n="1093" xml:id="l1093">N’avoient point presque tous de jambes,</l>
+            <l n="1094" xml:id="l1094">Du moins, ne les voyoit-on pas</l>
+            <l n="1095" xml:id="l1095">Tant le rond, &amp; grand embaras</l>
+            <l n="1096" xml:id="l1096">De leurs canons à tous estages<pb n="51"/></l>
+            <l n="1097" xml:id="l1097">A leurs jambes faisoit d’ombrages.</l>
+            <l n="1098" xml:id="l1098">Leur estomach asseurément,</l>
+            <l n="1099" xml:id="l1099">Et leurs espaules mesmement</l>
+            <l n="1100" xml:id="l1100">Estoient j’en ose jurer certes,</l>
+            <l n="1101" xml:id="l1101">De grands cheveux toutes couvertes</l>
+            <l n="1102" xml:id="l1102">Et pour avoir plus de beauté</l>
+            <l n="1103" xml:id="l1103">Leur visage estoit moucheté.</l>
+            <l n="1104" xml:id="l1104">Ils avoient selon leurs coustumes</l>
+            <l n="1105" xml:id="l1105">Des chapeaux, tous chargez de plumes,</l>
+            <l n="1106" xml:id="l1106">Et des rabats tout à fait beaux</l>
+            <l n="1107" xml:id="l1107">Qui jusqu’) l’espine du dos</l>
+            <l n="1108" xml:id="l1108">Descendoient à tous par derriere ;</l>
+            <l n="1109" xml:id="l1109">Et j’appris de la chambriere,</l>
+            <l n="1110" xml:id="l1110">Qui dans la chambre, en ce moment</l>
+            <l n="1111" xml:id="l1111">Se trouva fortuitement,</l>
+            <l n="1112" xml:id="l1112">Qu’ils estoient, non Anabaptistes,</l>
+            <l n="1113" xml:id="l1113">Mais bien des galands Alcovistes</l>
+            <l n="1114" xml:id="l1114">Ou bien pour vous l’expliquer mieux,</l>
+            <l n="1115" xml:id="l1115">Des galands, nommez Pretieux.</l>
+            <l n="1116" xml:id="l1116">Je fus encor instruit d’icelle,</l>
+            <l n="1117" xml:id="l1117">Je la croy pourtant Damoiselle ;</l>
+            <l n="1118" xml:id="l1118">Mais cela vous importe peu,</l>
+            <l n="1119" xml:id="l1119">Pourquoy ceux qui dedans ce lieu</l>
+            <l n="1120" xml:id="l1120">Comme j’ay dit, tres à leur aise</l>
+            <l n="1121" xml:id="l1121">Estoient chacun dans une chaise,</l>
+            <l n="1122" xml:id="l1122">Avoient tous les yeux fort battus,</l>
+            <l n="1123" xml:id="l1123">De plus estoient de noir vestus,</l>
+            <l n="1124" xml:id="l1124">Avoient la mine rechignée,<pb n="52"/></l>
+            <l n="1125" xml:id="l1125">Avoient la teste mal peignée,</l>
+            <l n="1126" xml:id="l1126">Avoient de si petits rabats,</l>
+            <l n="1127" xml:id="l1127">Qu’on ne les voyoit presque pas,</l>
+            <l n="1128" xml:id="l1128">Et dont la toille telle quelle,</l>
+            <l n="1129" xml:id="l1129">N’avoit point du tout de dentelle.</l>
+            <l n="1130" xml:id="l1130">Autheurs, elle les appella</l>
+            <l n="1131" xml:id="l1131">Et me dit, que comme cela</l>
+            <l n="1132" xml:id="l1132">D’une serieuse manière</l>
+            <l n="1133" xml:id="l1133">Ils s’habilloient tous d’ordinaire,</l>
+            <l n="1134" xml:id="l1134">Pour pouvoir avec equité</l>
+            <l n="1135" xml:id="l1135">Mieux soustenir la gravité,</l>
+            <l n="1136" xml:id="l1136">La beauté, le credit, le lustre,</l>
+            <l n="1137" xml:id="l1137">De leur profession Illustre.</l>
+            <l n="1138" xml:id="l1138">Je sçeus d’elle encore de plus</l>
+            <l n="1139" xml:id="l1139">En discours, non pas ambigus,</l>
+            <l n="1140" xml:id="l1140">Que quand pour chercher un bon terme</l>
+            <l n="1141" xml:id="l1141">Ils estudioient de pied ferme</l>
+            <l n="1142" xml:id="l1142">Et que leurs testes ils grattoient</l>
+            <l n="1143" xml:id="l1143">Leurs cheveux souvent se mestoient,</l>
+            <l n="1144" xml:id="l1144">Et c’est pour cela que les Poëtes,</l>
+            <l n="1145" xml:id="l1145">Qui bien souvent font les Prophetes,</l>
+            <l n="1146" xml:id="l1146">Et que sans droit vous dedaignez,</l>
+            <l n="1147" xml:id="l1147">Paroissent souvent mal peignez.</l>
+            <l n="1148" xml:id="l1148">Voila le recit tres-fidelle</l>
+            <l n="1149" xml:id="l1149">De tout ce que m’aprit la belle.<pb n="53"/></l>
+          </sp>
+          <sp xml:id="I12-23" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1150" xml:id="l1150">Je trouve qu’en voila beaucoup.</l>
+          </sp>
+          <sp xml:id="I12-24" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="1151" xml:id="l1151">C’est tres-bien pour le premier coup.</l>
+          </sp>
+          <sp xml:id="I12-25" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1152" xml:id="l1152">Et tant que j’ay peine à le croire.</l>
+          </sp>
+          <sp xml:id="I12-26" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="1153" xml:id="l1153">Mais attendez, si ma memoire</l>
+            <l n="1154" xml:id="l1154">Pouvoit un peu me revenir,</l>
+            <l n="1155" xml:id="l1155">Je pourrois vous entretenir</l>
+            <l n="1156" xml:id="l1156">Encor de quelque circonstance</l>
+            <l n="1157" xml:id="l1157">Qu’elle m’a dit &amp; que je pense</l>
+            <l n="1158" xml:id="l1158">Avoir oubliée, ah ! vraimy</l>
+            <l n="1159" xml:id="l1159">Je m’en resouviens à demy.</l>
+            <l n="1160" xml:id="l1160">Ouy c’est sans tarder davantage</l>
+            <l n="1161" xml:id="l1161">Qu’elle divisa par estage</l>
+            <l n="1162" xml:id="l1162">Tous les autheurs, illec presens,</l>
+            <l n="1163" xml:id="l1163">Si mornes &amp; si suffisans.</l>
+            <l n="1164" xml:id="l1164">Les uns font en Vers Heroïques</l>
+            <l n="1165" xml:id="l1165">Des Poëmes qu’on appelle Epicques</l>
+            <l n="1166" xml:id="l1166">Et de ces Livres si charmants</l>
+            <l n="1167" xml:id="l1167">Que nous appellons des Romans.</l>
+            <l n="1168" xml:id="l1168">Les autres, sans estre des Comtes,</l>
+            <l n="1169" xml:id="l1169">Se mettent de faire des Contes</l>
+            <l n="1170" xml:id="l1170">Pour rire, je l’entends ainsi,</l>
+            <l n="1171" xml:id="l1171">Et d’y bien reüssir aussi.</l>
+            <l n="1172" xml:id="l1172">Un seul d’entre-eux ay-je oüy dire,</l>
+            <l n="1173" xml:id="l1173">Se picque d’y bien faire rire,</l>
+            <l n="1174" xml:id="l1174">Et je croy que c’est un Abbé,<pb n="54"/></l>
+            <l n="1175" xml:id="l1175">Dont le nom commence par B.</l>
+            <l n="1176" xml:id="l1176">Les derniers font des Comedies,</l>
+            <l n="1177" xml:id="l1177">Des Madrigaux, des Elegies</l>
+            <l n="1178" xml:id="l1178">Des Chansons, Sonnets, &amp; Portraits</l>
+            <l n="1179" xml:id="l1179">Dessus de differends sujets.</l>
+            <l n="1180" xml:id="l1180">J’en aurois appris d’avanage ;</l>
+            <l n="1181" xml:id="l1181">Mais le Sergent, dequoy j’enrage,</l>
+            <l n="1182" xml:id="l1182">Sortist dans ce mesme moment</l>
+            <l n="1183" xml:id="l1183">Et je le suivis promptement.</l>
+          </sp>
+          <sp xml:id="I12-27" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1184" xml:id="l1184">Ce discours a dequoy nous plaire.</l>
+            <l n="1185" xml:id="l1185">Mais ce n’est pas là nostre affaire</l>
+            <l n="1186" xml:id="l1186">Dis nous ! Si d’un air fier ou non,</l>
+            <l n="1187" xml:id="l1187">Elle a veu l’assignation.</l>
+          </sp>
+          <sp xml:id="I12-28" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="1188" xml:id="l1188">Dés aussi-tost qu’elle l’a veuë,</l>
+            <l n="1189" xml:id="l1189">Elle l’a prise &amp; puis l’a leuë,</l>
+            <l n="1190" xml:id="l1190">Et dit fort serieusement</l>
+            <l n="1191" xml:id="l1191">Qu’elle s’y rendroit promptement.</l>
+          </sp>
+          <sp xml:id="I12-29" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1192" xml:id="l1192">Elle y montrera sa foiblesse.</l>
+          </sp>
+          <sp xml:id="I12-30" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="1193" xml:id="l1193">Allons viste, l’heure nous presse.</l>
+          </sp>
+          <sp xml:id="I12-31" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1194" xml:id="l1194">Allons Monsieur, j’en suis d’accord,</l>
+            <l n="1195" xml:id="l1195">Voir ce qu’ordonnera le sort.<pb n="55"/></l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I13">
+          <head>SCENE XIII.</head>
+          <sp xml:id="I13-1" who="roguespine">
+            <speaker>roguespine. <hi rend="i">seul.</hi></speaker>
+            <l n="1196" xml:id="l1196">Dieux ! qu’ils ont le jugement mince ;</l>
+            <l n="1197" xml:id="l1197">J’ay sçeu dedans nostre Province</l>
+            <l n="1198" xml:id="l1198">La moitié de ce que je dis ;</l>
+            <l n="1199" xml:id="l1199">Que je les ay bien estourdis :</l>
+            <l n="1200" xml:id="l1200">Mais allons ouïr leurs harangues,</l>
+            <l n="1201" xml:id="l1201">Allons voir remuer leurs langues ;</l>
+            <l n="1202" xml:id="l1202">Car j’en jurerois bien ma foy,</l>
+            <l n="1203" xml:id="l1203">Ce doit estre un plaisir de Roy.</l>
+            <stage>On leve une toille, les Juges paroissent avce un Greffier.</stage>
+            <pb n="56"/>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I14">
+          <head>SCENE XIV.</head>
+          <stage>PATRICE, ANAXARITE</stage>
+          <stage>ARISTIME. Un Greffier.</stage>
+          <sp xml:id="I14-1" who="patrice">
+            <speaker>patrice.</speaker>
+            <l n="1204" xml:id="l1204">Enfin nous voicy tantost Juges.</l>
+          </sp>
+          <sp xml:id="I14-2" who="aristime">
+            <speaker>aristime.</speaker>
+            <l n="1205" xml:id="l1205">Nous pourrons servir de refuges</l>
+            <l n="1206" xml:id="l1206">A ceux qui n’ont besoin de rien.</l>
+          </sp>
+          <sp xml:id="I14-3" who="anaxarite">
+            <speaker>anaxarite.</speaker>
+            <l n="1207" xml:id="l1207">Mais encore sçavez-vous bien</l>
+            <l n="1208" xml:id="l1208">Si nostre homme icy se doit rendre</l>
+            <l n="1209" xml:id="l1209">Et s’il ne fera point attendre.</l>
+          </sp>
+          <sp xml:id="I14-4" who="patrice">
+            <speaker>patrice.</speaker>
+            <l n="1210" xml:id="l1210">Il viendra, car je luy dis hier</l>
+            <l n="1211" xml:id="l1211">Aussi-tost qu’il me vint prier</l>
+            <l n="1212" xml:id="l1212">De luy respondre sa requeste ;</l>
+            <l n="1213" xml:id="l1213">Que l’Academie estoit preste</l>
+            <l n="1214" xml:id="l1214">De luy servir en tout d’appuy,</l>
+            <l n="1215" xml:id="l1215">Et que de son corps aujourd’huy</l>
+            <l n="1216" xml:id="l1216">Elle en choisiroit trois ou quatre</l>
+            <l n="1217" xml:id="l1217">Qui viendroient l’entendre combattre</l>
+            <l n="1218" xml:id="l1218">A force de raisonnement</l>
+            <l n="1219" xml:id="l1219">Sa partie, &amp; qu’asseurement</l>
+            <l n="1220" xml:id="l1220">Il auroit l’honneur, &amp; la gloire<pb n="57"/></l>
+            <l n="1221" xml:id="l1221">D’emporter une ample victoire.</l>
+          </sp>
+          <sp xml:id="I14-5" who="aristime">
+            <speaker>aristime.</speaker>
+            <l n="1222" xml:id="l1222">Attendons-le donc à loisir,</l>
+            <l n="1223" xml:id="l1223">Puisque nous aurons un plaisir</l>
+            <l n="1224" xml:id="l1224">Qui certes, n’est pas ordinaire.</l>
+            <l n="1225" xml:id="l1225">Mais quelqu’un vient, il nous faut taire.</l>
+          </sp>
+          <sp xml:id="I14-6" who="anaxarite">
+            <speaker>anaxarite.</speaker>
+            <l n="1226" xml:id="l1226">C’est desja nostre Deputé.</l>
+          </sp>
+          <sp xml:id="I14-7" who="patrice">
+            <speaker>patrice.</speaker>
+            <l n="1227" xml:id="l1227">Tenons donc nostre gravité.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I15">
+          <head>SCENE XV.</head>
+          <stage>PATRICE, ANAXARITE,</stage>
+          <stage>ARISTIME, Un Greffier,</stage>
+          <stage>RIBERCOUR, PANCRACE.</stage>
+          <stage>ROGUESPINE.</stage>
+          <sp xml:id="I15-1" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1228" xml:id="l1228">Messieurs, j’en veux aux Pretieuses,</l>
+            <l n="1229" xml:id="l1229">A ces femmes pernicieuses,</l>
+            <l n="1230" xml:id="l1230">Qui troublent le repos public,</l>
+            <l n="1231" xml:id="l1231">Qui causent dedans le trafic</l>
+            <l n="1232" xml:id="l1232">Par des mots, inintelligibles,<pb n="58"/></l>
+            <l n="1233" xml:id="l1233">Des revolutions terribles,</l>
+            <l n="1234" xml:id="l1234">Et je deman, de là-dessus</l>
+            <l n="1235" xml:id="l1235">Que leur langage ne soit plus</l>
+            <l n="1236" xml:id="l1236">Aux mesmes fins de ma Requeste. </l>
+            <l n="1237" xml:id="l1237">Quoy ! personne ne me tient teste.</l>
+            <l n="1238" xml:id="l1238">Ah ! Messieurs n’estants point icy</l>
+            <l n="1239" xml:id="l1239">Jugez s’il vous plaist.</l>
+          </sp>
+          <sp xml:id="I15-2" who="patrice">
+            <speaker>patrice.</speaker>
+            <l n="1240" xml:id="l1240">            Les voicy.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I16">
+          <head>SCENE XVI.</head>
+          <stage>PATRICE, ANAXARITE, ARISTIME</stage>
+          <stage>Un Greffier, RIBERCOUR,</stage>
+          <stage>PANCRACE, EPICARIE ;</stage>
+          <stage>ROGUESPINE, Une Suivante.</stage>
+          <sp xml:id="I16-1" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1241" xml:id="l1241">Approchez-vous belle jazeuse,</l>
+            <l n="1242" xml:id="l1242">Vrayment pour une Pretieuse,</l>
+            <l n="1243" xml:id="l1243">Vous ne vous pressez pas trop fort.</l>
+          </sp>
+          <sp xml:id="I16-2" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1244" xml:id="l1244">C’est signe que je n’ay pas tort.<pb n="59"/></l>
+          </sp>
+          <sp xml:id="I16-3" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1245" xml:id="l1245">Ah ! Sans chercher tant de finesses</l>
+            <l n="1246" xml:id="l1246">C’est que vous faisiez voir vos pieces</l>
+            <l n="1247" xml:id="l1247">Sans doute, à quelque homme sçavant.</l>
+          </sp>
+          <sp xml:id="I16-4" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1248" xml:id="l1248">Peut-estre !</l>
+          </sp>
+          <sp xml:id="I16-5" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1249" xml:id="l1249">        Et bien d’oresnavant</l>
+            <l n="1250" xml:id="l1250">Du procez verra-t’on l’issuë ?</l>
+          </sp>
+          <sp xml:id="I16-6" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1251" xml:id="l1251">Pour le finir je suis venuë,</l>
+          </sp>
+          <sp xml:id="I16-7" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1252" xml:id="l1252">Dans vostre consultation</l>
+            <l n="1253" xml:id="l1253">Faite dessus mon action,</l>
+            <l n="1254" xml:id="l1254">Aviez-vous vos pieces en ordre !</l>
+          </sp>
+          <sp xml:id="I16-8" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1255" xml:id="l1255">Assez pour sur vous pouvoir mordre ?</l>
+          </sp>
+          <sp xml:id="I16-9" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1256" xml:id="l1256">Avez-vous ? consulté souvent…..</l>
+          </sp>
+          <sp xml:id="I16-10" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1257" xml:id="l1257">Vous voulez estre trop sçavant.</l>
+            <l n="1258" xml:id="l1258">Mais pour mieux pousser sa partie,</l>
+            <l n="1259" xml:id="l1259">Pour la rendre sans repartie</l>
+            <l n="1260" xml:id="l1260">Tout du moins je croy qu’il faudroit…</l>
+          </sp>
+          <sp xml:id="I16-11" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1261" xml:id="l1261">Quoy ! vous monstrer que j’ay bon droit.<pb n="60"/></l>
+          </sp>
+          <sp xml:id="I16-12" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1262" xml:id="l1262">Ne l’ayant pas peu voir encore,</l>
+            <l n="1263" xml:id="l1263">Vous voulez bien que je l’ignore.</l>
+          </sp>
+          <sp xml:id="I16-13" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1264" xml:id="l1264">Bien, bien, nous vous le monstrerons,</l>
+            <l n="1265" xml:id="l1265">Puis apres cela nous verrons</l>
+            <l n="1266" xml:id="l1266">Lequel des deux perdra sa cause.</l>
+          </sp>
+          <sp xml:id="I16-14" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1267" xml:id="l1267">Je crains, mais c’est pour autre chose.</l>
+          </sp>
+          <sp xml:id="I16-15" who="aristime">
+            <speaker>aristime.</speaker>
+            <l n="1268" xml:id="l1268">Cessez ce debat entre vous,</l>
+            <l n="1269" xml:id="l1269">Il faut du respect devant nous.</l>
+            <l n="1270" xml:id="l1270">Pensez bien à ce que vous faites</l>
+            <l n="1271" xml:id="l1271">Et songez aux lieux où vous estes.</l>
+          </sp>
+          <sp xml:id="I16-16" who="patrice">
+            <speaker>patrice.</speaker>
+            <l n="1272" xml:id="l1272">Cessez donc la vexation,</l>
+            <l n="1273" xml:id="l1273">Nous faisant exhibition</l>
+            <l n="1274" xml:id="l1274">Chacun à part de vostre cause.</l>
+          </sp>
+          <sp xml:id="I16-17" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1275" xml:id="l1275">Messieurs, je vous diray, si j’ose</l>
+            <l n="1276" xml:id="l1276">Que j’ay droict de la chicanner,</l>
+            <l n="1277" xml:id="l1277">Que vous la devez condamner ;</l>
+            <l n="1278" xml:id="l1278">Puisque mes pieces qu’on a veües</l>
+            <l n="1279" xml:id="l1279">Ont parû tout à fait congrües,</l>
+            <l n="1280" xml:id="l1280">Mon procez fort bien intenté,</l>
+            <l n="1281" xml:id="l1281">Et que c’est une verité</l>
+            <l n="1282" xml:id="l1282">Que le droict que quoy je me fonde<pb n="61"/></l>
+            <l n="1283" xml:id="l1283">Passe pour le meilleur du monde.</l>
+            <l n="1284" xml:id="l1284">C’est ce qui fait qu’enfin je croy</l>
+            <l n="1285" xml:id="l1285">Que ma partie en desarroy</l>
+            <l n="1286" xml:id="l1286">Considerant toutes ces choses,</l>
+            <l n="1287" xml:id="l1287">Plus vrayes que metamorphoses,</l>
+            <l n="1288" xml:id="l1288">Sans attendre à l’extremité</l>
+            <l n="1289" xml:id="l1289">Se rangera de mon costé ;</l>
+            <l n="1290" xml:id="l1290">Puis qu’enfin toutes ses deffences</l>
+            <l n="1291" xml:id="l1291">Estant de nulles consequences</l>
+            <l n="1292" xml:id="l1292">J’aurois de vous asseurément</l>
+            <l n="1293" xml:id="l1293">Un favorable jugement</l>
+            <l n="1294" xml:id="l1294">Et celuy que je sollicite</l>
+            <l n="1295" xml:id="l1295">Contre cette langue maudite,</l>
+            <l n="1296" xml:id="l1296">Ou Messieurs, pour m’expliquer mieux</l>
+            <l n="1297" xml:id="l1297">Contre le parler Pretieux,</l>
+            <l n="1298" xml:id="l1298">Qui s’y bien-tost, l’on n’y met ordre</l>
+            <l n="1299" xml:id="l1299">Va faire un terrible desordre.</l>
+          </sp>
+          <sp xml:id="I16-18" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1300" xml:id="l1300">Messieurs, je m’en vais en deux mots</l>
+            <l n="1301" xml:id="l1301">Mettre son esprit en repos,</l>
+            <l n="1302" xml:id="l1302">Faites qu’on me donne Audiance.</l>
+          </sp>
+          <sp xml:id="I16-19" who="patrice">
+            <speaker>patrice.</speaker>
+            <l n="1303" xml:id="l1303">Non, l’affaire est trop d’importance,</l>
+            <l n="1304" xml:id="l1304">Il faut l’entendre tout du long.</l>
+          </sp>
+          <sp xml:id="I16-20" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1305" xml:id="l1305">Mais au moins Messieurs, songez donc</l>
+            <l n="1306" xml:id="l1306">Que bon droit vous me devez faire.<pb n="62"/></l>
+          </sp>
+          <sp xml:id="I16-21" who="patrice">
+            <speaker>patrice.</speaker>
+            <l n="1307" xml:id="l1307">Nous examinerons l’affaire.</l>
+            <l n="1308" xml:id="l1308">Mais parlez, nous vous escoutons.</l>
+          </sp>
+          <sp xml:id="I16-22" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1309" xml:id="l1309">Pour vous déduire mes raisons</l>
+            <l n="1310" xml:id="l1310">Sans vous faire une longue harangue</l>
+            <l n="1311" xml:id="l1311">Je dis Messieurs, que nostre langue</l>
+            <l n="1312" xml:id="l1312">Se trouve en un piteux estat</l>
+            <l n="1313" xml:id="l1313">Depuis le surprenant esclat</l>
+            <l n="1314" xml:id="l1314">Qu’a fait celle des Pretieuses.</l>
+            <l n="1315" xml:id="l1315">Dans les Citez les plus fameuses,</l>
+            <l n="1316" xml:id="l1316">Pour s’entendre presentement</l>
+            <l n="1317" xml:id="l1317">Il faut avoir un truchement,</l>
+            <l n="1318" xml:id="l1318">Ou le nouveau Dictionnaire,</l>
+            <l n="1319" xml:id="l1319">Que ces femmes viennent de faire.</l>
+            <l n="1320" xml:id="l1320">Quelle conclusion pour nous,</l>
+            <l n="1321" xml:id="l1321">Ah ! Messieurs, à quoy songez-vous ;</l>
+            <l n="1322" xml:id="l1322">Les femmes, oüy Messieurs les femmes,</l>
+            <l n="1323" xml:id="l1323">Nous couvrent aujourd’huy de blasmes</l>
+            <l n="1324" xml:id="l1324">Et viennent de faire en effet</l>
+            <l n="1325" xml:id="l1325">Ce que jamais vous n’avez fait</l>
+            <l n="1326" xml:id="l1326">Au moins, si ce n’est en idée ;</l>
+            <l n="1327" xml:id="l1327">Pour nostre bien par trop gardée,</l>
+            <l n="1328" xml:id="l1328">Mais pour leur reputation</l>
+            <l n="1329" xml:id="l1329">Par un beau desir de renom,</l>
+            <l n="1330" xml:id="l1330">Elles ont un Dictionnaire</l>
+            <l n="1331" xml:id="l1331">Tout fraischement mis en lumiere,</l>
+            <l n="1332" xml:id="l1332">Auquel chacun court comme au feu,<pb n="63"/></l>
+            <l n="1333" xml:id="l1333">Et nous en promettent dans peu</l>
+            <l n="1334" xml:id="l1334">De leur façon encore un autre :</l>
+            <l n="1335" xml:id="l1335">Cependant helas ! que le vostre</l>
+            <l n="1336" xml:id="l1336">Depuis si long-temps commencé,</l>
+            <l n="1337" xml:id="l1337">N’en est pourtant encor qu’au C.</l>
+            <l n="1338" xml:id="l1338">Ah ! je vois bien que c’est l’ouvrage</l>
+            <l n="1339" xml:id="l1339">De Penelopes, &amp; je gage</l>
+            <l n="1340" xml:id="l1340">Que dans ce livre l’Omega,</l>
+            <l n="1341" xml:id="l1341">Jamais place ne trouvera.</l>
+            <l n="1342" xml:id="l1342">De plus j’ose vous dire encore</l>
+            <l n="1343" xml:id="l1343">Que si ce parler que j’abhorre</l>
+            <l n="1344" xml:id="l1344">Et que l’on nomme Pretieux,</l>
+            <l n="1345" xml:id="l1345">S’en racine dans tous les lieux</l>
+            <l n="1346" xml:id="l1346">Où l’on sçait qu’il a pris naissance</l>
+            <l n="1347" xml:id="l1347">Vous devez Messieurs, que je pense,</l>
+            <l n="1348" xml:id="l1348">Et vous agirez comme il faut,</l>
+            <l n="1349" xml:id="l1349">A l’Alpha remettre bien-tost</l>
+            <l n="1350" xml:id="l1350">Vostre fameux Dictionnaire</l>
+            <l n="1351" xml:id="l1351">Que vous commençastes de faire</l>
+            <l n="1352" xml:id="l1352">En l’an deux cent cinquante-deux</l>
+            <l n="1353" xml:id="l1353">Et qui devoit selon mes vœux,</l>
+            <l n="1354" xml:id="l1354">Et selon nostre juste attente,</l>
+            <l n="1355" xml:id="l1355">Dedans l’an mil six cens quarante</l>
+            <l n="1356" xml:id="l1356">Estre dans sa perfection.</l>
+            <l n="1357" xml:id="l1357">Songez donc Messieus, tout de bon</l>
+            <l n="1358" xml:id="l1358">A me faire bonne justice</l>
+            <l n="1359" xml:id="l1359">Me donnant un Arrest propice ;</l>
+            <l n="1360" xml:id="l1360">Mais j’ay tort de vous y pousser<pb n="64"/></l>
+            <l n="1361" xml:id="l1361">Ne devez-vous pas ? embrasser</l>
+            <l n="1362" xml:id="l1362">O Senat mille fois auguste,</l>
+            <l n="1363" xml:id="l1363">Un interest si grand, si juste,</l>
+            <l n="1364" xml:id="l1364">Et qui par mon heureux destin</l>
+            <l n="1365" xml:id="l1365">N’est autre que le vostre enfin.</l>
+            <l n="1366" xml:id="l1366">Cependant si ces factieuses,</l>
+            <l n="1367" xml:id="l1367">Ces heretiques Pretieuses,</l>
+            <l n="1368" xml:id="l1368">Parlent encore ce jargon,</l>
+            <l n="1369" xml:id="l1369">La Tour de Babel tout de bon,</l>
+            <l n="1370" xml:id="l1370">Dans ce Siecle va renaistre</l>
+            <l n="1371" xml:id="l1371">Et dans la France, va paroistre,</l>
+            <l n="1372" xml:id="l1372">Mal-heur plus à craindre cent fois</l>
+            <l n="1373" xml:id="l1373">Pour les Nobles, pour les Bourgeois,</l>
+            <l n="1374" xml:id="l1374">(Mais non pas pour les Eminences)</l>
+            <l n="1375" xml:id="l1375">Que les maudites influences</l>
+            <l n="1376" xml:id="l1376">Du Capricorne. Neantmoins</l>
+            <l n="1377" xml:id="l1377">Si vous n’y mettez tous vos soins,</l>
+            <l n="1378" xml:id="l1378">Le desordre s’en va paroistre</l>
+            <l n="1379" xml:id="l1379">Que la susdite Tour fist naistre</l>
+            <l n="1380" xml:id="l1380">Alors que l’on la batissoit.</l>
+            <l n="1381" xml:id="l1381">Cependant helas ! ce n’estoit</l>
+            <l n="1382" xml:id="l1382">Que la quantité des langages</l>
+            <l n="1383" xml:id="l1383">Qui causa de si grands ravages,</l>
+            <l n="1384" xml:id="l1384">Qui fist diviser les mortels,</l>
+            <l n="1385" xml:id="l1385">Qui fist piller jusqu’aux Autels,</l>
+            <l n="1386" xml:id="l1386">Bref qui parmy toute la Terre,</l>
+            <l n="1387" xml:id="l1387">Fist naistre pour jamais la guerre.</l>
+            <l n="1388" xml:id="l1388">Je vous addresse donc mes vœux<pb n="F 65"/></l>
+            <l n="1389" xml:id="l1389">Messieurs, pour que le Pretieux,</l>
+            <l n="1390" xml:id="l1390">Afin qu’en cette conjoincture</l>
+            <l n="1391" xml:id="l1391">J’empesche pareille adventure,</l>
+            <l n="1392" xml:id="l1392">Soit cassé, brisé, mis à mort</l>
+            <l n="1393" xml:id="l1393">Dans les lieux de vostre ressort</l>
+            <l n="1394" xml:id="l1394">Comme estant fatal au commerce,</l>
+            <l n="1395" xml:id="l1395">Que par tout il trouble &amp; renverse,</l>
+            <l n="1396" xml:id="l1396">Et qu’expresse inhibition</l>
+            <l n="1397" xml:id="l1397">Soit faite par provision</l>
+            <l n="1398" xml:id="l1398">A tout le corps des Pretieuses,</l>
+            <l n="1399" xml:id="l1399">Des inventrices perilleuses</l>
+            <l n="1400" xml:id="l1400">Des mots, qui par leur nouveauté</l>
+            <l n="1401" xml:id="l1401">Troublent nostre felicité,</l>
+            <l n="1402" xml:id="l1402">De ne s’en plus servir, <hi rend="i">à peine</hi></l>
+            <l n="1403" xml:id="l1403"><hi rend="i">De ne jamais lire</hi><hi rend="sc">Artamene</hi>,</l>
+            <l n="1404" xml:id="l1404" rend="i">Ny mesme aucun autre Roman ;</l>
+            <l n="1405" xml:id="l1405" rend="i">Ou pour un plus dur chastiment</l>
+            <l n="1406" xml:id="l1406" rend="i">Que le lit, desdites femelles,</l>
+            <l n="1407" xml:id="l1407" rend="i">Soit des deux costez sans ruelles</l>
+            <l n="1408" xml:id="l1408" rend="i">Et qu’il soit mesmement placé</l>
+            <l n="1409" xml:id="l1409" rend="i">Sans estre du tout exaucé.</l>
+          </sp>
+          <sp xml:id="I16-23" who="roguespine">
+            <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
+            <l n="1410" xml:id="l1410">Peste il a retenu sans peine</l>
+            <l n="1411" xml:id="l1411">Tout ce qu’un Advocat du Maine,</l>
+            <l n="1412" xml:id="l1412">Luy dit, avant que de partir.</l>
+          </sp>
+          <sp xml:id="I16-24" who="patrice">
+            <speaker>patrice <hi rend="i">(à Epicarie.)</hi></speaker>
+            <l n="1413" xml:id="l1413">Avez-vous de quoy repartir ?<pb n="66"/></l>
+          </sp>
+          <sp xml:id="I16-25" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1414" xml:id="l1414">Oüy je suis preste de respondre</l>
+            <l n="1415" xml:id="l1415">Et mesmement de le confondre,</l>
+            <l n="1416" xml:id="l1416">Et sans parler hors de propos</l>
+            <l n="1417" xml:id="l1417">Je m’en vais Messieurs, en deux mots,</l>
+            <l n="1418" xml:id="l1418">Afin de deffendre ma cause</l>
+            <l n="1419" xml:id="l1419">Donner dans le vray de la chose.</l>
+          </sp>
+          <sp xml:id="I16-26" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1420" xml:id="l1420">Ah ! quelle perturbation</l>
+            <l n="1421" xml:id="l1421">Voyez son obstination,</l>
+            <l n="1422" xml:id="l1422">Voyez avec quelle asseurance,</l>
+            <l n="1423" xml:id="l1423">Avec quel front, quelle insolence,</l>
+            <l n="1424" xml:id="l1424">Elle ose jusques dans ces lieux</l>
+            <l n="1425" xml:id="l1425">Parler devant vous Pretieux.</l>
+          </sp>
+          <sp xml:id="I16-27" who="anaxarite">
+            <speaker>anaxarite.</speaker>
+            <l n="1426" xml:id="l1426">N’interrompez point sa harangue,</l>
+            <l n="1427" xml:id="l1427">Et que devant nous vostre langue</l>
+            <l n="1428" xml:id="l1428">Se tienne un peu plus en repos.</l>
+          </sp>
+          <sp xml:id="I16-28" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <l n="1429" xml:id="l1429">Je dis donc, Messieurs, en deux mots</l>
+            <l n="1430" xml:id="l1430">Qu’il n’a rien dit de patetique</l>
+            <l n="1431" xml:id="l1431">Qu’on ne voit rien de plus inique</l>
+            <l n="1432" xml:id="l1432">Rien mesme, qui selon mon sens,</l>
+            <l n="1433" xml:id="l1433">Soit plus contre le droit des gens</l>
+            <l n="1434" xml:id="l1434">Que de vouloir oster aux femmes,</l>
+            <l n="1435" xml:id="l1435">La langue, puis qu’enfin sans ames</l>
+            <l n="1436" xml:id="l1436">Elles vivroient asseurément</l>
+            <l n="1437" xml:id="l1437">Plutost que sans langue un moment.</l>
+            <l n="1438" xml:id="l1438">L’on sçait de science certaine<pb n="67"/></l>
+            <l n="1439" xml:id="l1439">Que c’est là leur vray patrimoine,</l>
+            <l n="1440" xml:id="l1440">Que pour en amoindrir les droits</l>
+            <l n="1441" xml:id="l1441">L’on n’a point encor fait de loix</l>
+            <l n="1442" xml:id="l1442">Dedans Villages, Bourgs, ny Villes,</l>
+            <l n="1443" xml:id="l1443">Puis qu’elles seroient inutiles.</l>
+            <l n="1444" xml:id="l1444">Cette seule raison pourroit</l>
+            <l n="1445" xml:id="l1445">Prouver suffisamment mon droit ;</l>
+            <l n="1446" xml:id="l1446">Mais je ne puis encor me taire</l>
+            <l n="1447" xml:id="l1447">Et je poursuis. Sa cause entiere</l>
+            <l n="1448" xml:id="l1448">S’estend sur les troubles passez</l>
+            <l n="1449" xml:id="l1449">Dont il nous croit fort menacez,</l>
+            <l n="1450" xml:id="l1450">Par la confusion des langues.</l>
+          </sp>
+          <sp xml:id="I16-29" who="roguespine">
+            <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
+            <l n="1451" xml:id="l1451">Elle fait fort bien des harangues.</l>
+          </sp>
+          <sp xml:id="I16-30" who="epicarie">
+            <speaker>epicarie <hi rend="i">(poursuit.)</hi></speaker>
+            <l n="1452" xml:id="l1452">Comme si Paris maintenant</l>
+            <l n="1453" xml:id="l1453">Craignoit quelque mal surprenant,</l>
+            <l n="1454" xml:id="l1454">Parce qu’a present l’on y parle</l>
+            <l n="1455" xml:id="l1455">Comme on fait au Maine, &amp; dans Arle,</l>
+            <l n="1456" xml:id="l1456">Et qu’on y parle aussi Gascon,</l>
+            <l n="1457" xml:id="l1457">Normand, bas-Breton, Bourguignon,</l>
+            <l n="1458" xml:id="l1458">Hollandois, &amp; de plus encore,</l>
+            <l n="1459" xml:id="l1459">Italien, Grec, Latin, More,</l>
+            <l n="1460" xml:id="l1460">Espagnol, Polonois, Flamand,</l>
+            <l n="1461" xml:id="l1461">Persan, Turc, Hebreux, Allemand,</l>
+            <l n="1462" xml:id="l1462">Picart, Chaldeen ; pour le reste</l>
+            <l n="1463" xml:id="l1463">J’en dis &amp; cetera.<pb n="68"/></l>
+          </sp>
+          <sp xml:id="I16-31" who="roguespine">
+            <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
+            <l n="1464" xml:id="l1464">        La peste,</l>
+            <l n="1465" xml:id="l1465">Elle en a bien dit à la fois,</l>
+            <l n="1466" xml:id="l1466">Quoy qu’elle ait oublié l’Anglois.</l>
+          </sp>
+          <sp xml:id="I16-32" who="epicarie">
+            <speaker>epicarie <hi rend="i">(continuë.)</hi></speaker>
+            <l n="1467" xml:id="l1467">Je croy Messieurs, par cét exemple</l>
+            <l n="1468" xml:id="l1468">Aussi puissant comme il est ample,</l>
+            <l n="1469" xml:id="l1469">Avoir prouvé suffisamment</l>
+            <l n="1470" xml:id="l1470">Et mesme intelligiblement,</l>
+            <l n="1471" xml:id="l1471">Que la quantité de langages</l>
+            <l n="1472" xml:id="l1472">Ne sçauroit causer de dommages</l>
+            <l n="1473" xml:id="l1473">A Paris, ny dans d’autres lieux :</l>
+            <l n="1474" xml:id="l1474">Reste à voir si le Pretieux,</l>
+            <l n="1475" xml:id="l1475">Qui maintenant est en usage</l>
+            <l n="1476" xml:id="l1476">Est un bon, ou mauvais langage.</l>
+            <l n="1477" xml:id="l1477">Or si nous pretendons le voir</l>
+            <l n="1478" xml:id="l1478">Il faut auparavant sçavoir,</l>
+            <l n="1479" xml:id="l1479">De quels gens il a pris naissance.</l>
+          </sp>
+          <sp xml:id="I16-33" who="ribercour">
+            <speaker>ribercour <hi rend="i">(à part.)</hi></speaker>
+            <l n="1480" xml:id="l1480">Juste Dieux qu’enten-je, je pense</l>
+            <l n="1481" xml:id="l1481">Qu’icy je ne gaigneray rien</l>
+            <l n="1482" xml:id="l1482">Tant cette femme jase bien.</l>
+          </sp>
+          <sp xml:id="I16-34" who="epicarie">
+            <speaker>epicarie <hi rend="i">(continuë.)</hi></speaker>
+            <l n="1483" xml:id="l1483">Il nacquit l’an six cens cinquante,</l>
+            <l n="1484" xml:id="l1484">Et de chacun trompa l’attente ;</l>
+            <l n="1485" xml:id="l1485">Car j’ay de notables tesmoins</l>
+            <l n="1486" xml:id="l1486">Que l’on ne songeoit à rien moins.</l>
+            <l n="1487" xml:id="l1487">Des femmes, enfin l’enfanterent<pb n="69"/></l>
+            <l n="1488" xml:id="l1488">Et trente-neuf ans, le porterent ;</l>
+            <l n="1489" xml:id="l1489">Mais voyez quelles elles sont,</l>
+            <l n="1490" xml:id="l1490">Quel est le renom qu’elles ont.</l>
+            <l n="1491" xml:id="l1491">Elles ressemblent aux Abeilles</l>
+            <l n="1492" xml:id="l1492">Hormis que c’est par les oreilles</l>
+            <l n="1493" xml:id="l1493">Qu’elles ont pendant tout le temps</l>
+            <l n="1494" xml:id="l1494">Des dusnotez trente-neuf ans,</l>
+            <l n="1495" xml:id="l1495">Succé tous les discours des Poëtes,</l>
+            <l n="1496" xml:id="l1496">Des cervelles les plus parfaites,</l>
+            <l n="1497" xml:id="l1497">De tous ceux qui par leur espris</l>
+            <l n="1498" xml:id="l1498">Sont dans le Monde en grand credit,</l>
+            <l n="1499" xml:id="l1499">Des plus galands portes soutanes,</l>
+            <l n="1500" xml:id="l1500">Des Courtisans, des Courtisanes,</l>
+            <l n="1501" xml:id="l1501">Des gens d’espée, &amp; du bareau.</l>
+          </sp>
+          <sp xml:id="I16-35" who="roguespine">
+            <speaker>roguespine <hi rend="i">(à part.)</hi></speaker>
+            <l n="1502" xml:id="l1502">Elle n’a rien dit du Boureau.</l>
+          </sp>
+          <sp xml:id="I16-36" who="epicarie">
+            <speaker>epicarie <hi rend="i">(continuë.)</hi></speaker>
+            <l n="1503" xml:id="l1503">Des Messieurs de l’Academie,</l>
+            <l n="1504" xml:id="l1504">De qui la gloire est infinie,</l>
+            <l n="1505" xml:id="l1505">Et dont vous estes aujourd’huy</l>
+            <l n="1506" xml:id="l1506">Afin de me servir d’appuy ;</l>
+            <l n="1507" xml:id="l1507">Jugez donc Messieurs, si ces femmes ;</l>
+            <l n="1508" xml:id="l1508">Si ces belles &amp; grandes ames,</l>
+            <l n="1509" xml:id="l1509">Apres avoir le suc tiré</l>
+            <l n="1510" xml:id="l1510">Et tout le jus bien pressuré</l>
+            <l n="1511" xml:id="l1511">De maint illustre personnage</l>
+            <l n="1512" xml:id="l1512">Ne pouvoient pas faire un langage</l>
+            <l n="1513" xml:id="l1513">Et si loings de les condamner<pb n="70"/></l>
+            <l n="1514" xml:id="l1514">Vous ne devez pas ordonner</l>
+            <l n="1515" xml:id="l1515">Que Ribercour, quoy qu’il demande,</l>
+            <l n="1516" xml:id="l1516">Quoy que contre nous il pretende,</l>
+            <l n="1517" xml:id="l1517">Soit &amp; sans prerogation</l>
+            <l n="1518" xml:id="l1518">Deboutté de son action,</l>
+            <l n="1519" xml:id="l1519">Comme estant frivole &amp; inepte.</l>
+            <stage>(Les Juges opinent.)</stage>
+          </sp>
+          <sp xml:id="I16-37" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="1520" xml:id="l1520">Escoute un peu jeune soubrette.</l>
+          </sp>
+          <sp xml:id="I16-38" who="suivante">
+            <speaker>la suivante.</speaker>
+            <l n="1521" xml:id="l1521">Qu’est-ce ?</l>
+          </sp>
+          <sp xml:id="I16-39" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="1522" xml:id="l1522">Ma foy, plaidons nous deux,</l>
+            <l n="1523" xml:id="l1523">Car je me trouve assez joyeux</l>
+            <l n="1524" xml:id="l1524">Et mesme en estat de te faire</l>
+            <l n="1525" xml:id="l1525">Pour ne point traisner nostre affaire</l>
+            <l n="1526" xml:id="l1526">Desja communication</l>
+            <l n="1527" xml:id="l1527">De……</l>
+          </sp>
+          <sp xml:id="I16-40" who="suivante">
+            <speaker>la suivante.</speaker>
+            <l n="1528" xml:id="l1528">Moy, pour changer l’action</l>
+            <l n="1529" xml:id="l1529">J’insinuërois bien sur ta joüe</l>
+            <l n="1530" xml:id="l1530">Un soufflet.</l>
+          </sp>
+          <sp xml:id="I16-41" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="1531" xml:id="l1531">        Va c’est que je jouë,</l>
+            <l n="1532" xml:id="l1532">Mais pourtant si nous nous plaidions</l>
+            <l n="1533" xml:id="l1533">Si tous deux nous nous chamaillions</l>
+            <l n="1534" xml:id="l1534">Il vaudroit ma foy mieux je pense<pb n="71"/></l>
+            <l n="1535" xml:id="l1535">Pour obvier à la despence</l>
+            <l n="1536" xml:id="l1536">Grossoyer ensemble à loisir</l>
+            <l n="1537" xml:id="l1537">Nos pieces, peste quel plaisir.</l>
+          </sp>
+          <sp xml:id="I16-42" who="patrice">
+            <speaker>patrice <hi rend="i">(prononce.)</hi></speaker>
+            <l n="1538" xml:id="l1538" rend="i">Oüy le differend des Parties,</l>
+            <l n="1539" xml:id="l1539" rend="i">Leurs differences &amp; reparties</l>
+            <l n="1540" xml:id="l1540" rend="i">Nous ordonnons selon vos vœux</l>
+            <l n="1541" xml:id="l1541" rend="i">Que le langage Pretieux,</l>
+            <l n="1542" xml:id="l1542" rend="i">Par Arrest celebre, authentique</l>
+            <l n="1543" xml:id="l1543" rend="i">Et de plus encor juridique,</l>
+            <l n="1544" xml:id="l1544" rend="i">Soit cassé, brisé, mis à mort</l>
+            <l n="1545" xml:id="l1545" rend="i">Dans les lieux de nostre ressort :</l>
+            <l n="1546" xml:id="l1546" rend="i">Faisons mesme en cette sceance</l>
+            <l n="1547" xml:id="l1547" rend="i">Aux Pretieuses de la France,</l>
+            <l n="1548" xml:id="l1548" rend="i">Tres expresse inhibition,</l>
+            <l n="1549" xml:id="l1549" rend="i">De ne plus parler ce jargon,</l>
+            <l n="1550" xml:id="l1550" rend="i">Ny de s’en plus servir à peine</l>
+            <l n="1551" xml:id="l1551"><hi rend="i">De ne jamais lire</hi><hi rend="sc">Artamene</hi>,</l>
+            <l n="1552" xml:id="l1552" rend="i">Ny mesme aucun autre Romant,</l>
+            <l n="1553" xml:id="l1553" rend="i">Ou pour un plus dur chastiment</l>
+            <l n="1554" xml:id="l1554" rend="i">Que le lit, desdites femelles</l>
+            <l n="1555" xml:id="l1555" rend="i">Soit des deux costez sans ruelles,</l>
+            <l n="1556" xml:id="l1556" rend="i">Et qu’il soit mesmement placé</l>
+            <l n="1557" xml:id="l1557" rend="i">Sans estre du tout exaucé.</l>
+            <stage>(Le Siege se leve.)</stage>
+            <pb n="72"/>
+          </sp>
+          <sp xml:id="I16-43" who="ribercour">
+            <speaker>ribercour.</speaker>
+            <l n="1558" xml:id="l1558">Enfin je suis couvert de gloire,</l>
+            <l n="1559" xml:id="l1559">Car j’ay remporté la victoire.</l>
+          </sp>
+          <sp xml:id="I16-44" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="1560" xml:id="l1560">Vous devez estre fort joyeux</l>
+            <l n="1561" xml:id="l1561">D’avoir destruit le Pretieux,</l>
+            <l n="1562" xml:id="l1562">Et d’avoir pû dessus tant d’ames</l>
+            <l n="1563" xml:id="l1563">Sur tant d’opiniastres femmes</l>
+            <l n="1564" xml:id="l1564">Remporté le dessus.</l>
+          </sp>
+          <sp xml:id="I16-45" who="epicarie">
+            <speaker>epicarie.</speaker>
+            <stage> (Donnant une lettre à Ribercour.)</stage>
+            <l n="1565" xml:id="l1565">        Tout doux</l>
+            <l n="1566" xml:id="l1566">Peut-estre aurez vous le dessous,</l>
+            <l n="1567" xml:id="l1567">Et cecy me fera justice</l>
+            <l n="1568" xml:id="l1568">En despit de Monsieur Patrice,</l>
+            <stage>(Elle sort avec sa suivante.)</stage>
+            <l n="1569" xml:id="l1569">Qui sans trop bien sçavoir pourquoy</l>
+            <l n="1570" xml:id="l1570">Vient de prononcer contre moy.</l>
+          </sp>
+          <sp xml:id="I16-46" who="ribercour">
+            <speaker>ribercour. </speaker>
+            <stage>(Prend la lettre &amp; lit.)</stage>
+            <pb n="G 73"/>
+            <p><hi rend="sc">Cher amy</hi>,</p>
+            <p rend="i">Je te conseille de laisser là ton procez, &amp; de revenir dans nostre Province, car j’ay appris depuis que tu en es party que c’est un tour que l’on t’a joüé, &amp; que ceux de ce païs qui t’ont envoyé s’entendent avec trois ou quatre personnes de Paris, qui doivent contrefaire les Juges, &amp; les Pretieuses, pour se divertir de toy, je te donne cét advis ; &amp; suis,</p>
+            <p rend="right">Ton Serviteur,</p>
+            <p rend="right">fontenay.</p>
+            <stage>(Ribercour continuë.)</stage>
+            <l n="1571" xml:id="l1571">Quoy l’on m’a joüé de la sorte</l>
+            <l n="1572" xml:id="l1572">Cher amy, le couroux m’emporte,</l>
+            <l n="1573" xml:id="l1573">Par la mort, je m’en vengeray.</l>
+          </sp>
+          <sp xml:id="I16-47" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="1574" xml:id="l1574">Et moy, par ma foy, j’en riré.</l>
+          </sp>
+          <sp xml:id="I16-48" who="ribercour">
+            <speaker>ribercour. </speaker>
+            <l n="1575" xml:id="l1575">Mais celuy qui cecy m’avance</l>
+            <l n="1576" xml:id="l1576">N’est-il point de l’intelligence.<pb n="74"/></l>
+          </sp>
+          <sp xml:id="I16-49" who="pancrace">
+            <speaker>pancrace.</speaker>
+            <l n="1577" xml:id="l1577">Peut-estre, mais je vois enfin</l>
+            <l n="1578" xml:id="l1578">Que vous n’estes pas le plus fin,</l>
+            <l n="1579" xml:id="l1579">Que ce n’est que vous qu’on balotte</l>
+            <l n="1580" xml:id="l1580">Et qu’on fait servir de marotte.</l>
+          </sp>
+          <sp xml:id="I16-50" who="ribercour">
+            <speaker>ribercour. </speaker>
+            <l n="1581" xml:id="l1581">Cependant à des gens d’honneur</l>
+            <l n="1582" xml:id="l1582">Cét affront doit tenir à cœur ;</l>
+            <l n="1583" xml:id="l1583">Mais je sçauray je vous le jure,</l>
+            <l n="1584" xml:id="l1584">Tirer raison de cette injure,</l>
+            <l n="1585" xml:id="l1585">Et vais…….</l>
+          </sp>
+          <sp xml:id="I16-51" who="roguespine">
+            <speaker>roguespine.</speaker>
+            <l n="1586" xml:id="l1586">        En poste vistement</l>
+            <l n="1587" xml:id="l1587">Regaigner le païs du Mant,</l>
+            <l n="1588" xml:id="l1588">Car je croy qu’on vous y prepare</l>
+            <l n="1589" xml:id="l1589">Une entrée tout à fait rare,</l>
+            <l n="1590" xml:id="l1590">Et qui doit respondre au succez</l>
+            <l n="1591" xml:id="l1591">D’un si favorable Procez.</l>
+            <p>FIN.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
