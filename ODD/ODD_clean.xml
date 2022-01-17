@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>dAlemBERT</title>
+            <author xml:id="SG">
+               <name>Simon Gabay</name>
+               <idno type="ORCID" n="0000-0001-9094-4475"/>
+            </author>
+            <author xml:id="AB">
+               <name>Alexandre Bartz</name>
+               <idno type="ORCID" n="0000-0003-0850-8266"/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>E-Ditiones project</publisher>
+            <ref target="https://github.com/e-ditiones"/>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/4.0"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Created <date when="2020-01-07">7/01/2020</date> by <name ref="#AB">AB</name></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <schemaSpec ident="oddex1" start="TEI">
+            <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt availability licence sourceDesc textClass profileDesc keywords revisionDesc"/>
+            <moduleRef key="core" include="p hi date ref list item head note graphic milestone lb author title publisher pubPlace bibl pb stage sp l lg speaker label quote index term name"/>
+            <moduleRef key="tei"/>
+            <moduleRef key="textstructure" include="TEI text body front back div closer opener dateline signed salute trailer"/>
+            <moduleRef key="figures" include="table row cell figure"/>
+            <moduleRef key="drama" include="castList castItem"/>
+            
+            <elementSpec ident="teiHeader" mode="change">
+               <content>
+                  <sequence preserveOrder="true">
+                     <elementRef key="fileDesc"  minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="profileDesc" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="revisionDesc" minOccurs="0" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="titleStmt" mode="change">
+               <content>
+                  <sequence preserveOrder="true">
+                     <elementRef key="title"  minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="author" minOccurs="1" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="publicationStmt" mode="change">
+               <content>
+                  <sequence preserveOrder="true">
+                     <elementRef key="publisher"  minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="availability" minOccurs="1" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="sourceDesc" mode="change">
+               <content>
+                  <elementRef key="bibl"  minOccurs="1" maxOccurs="1"/>
+               </content>
+            </elementSpec>
+            
+            <elementSpec ident="term" mode="change">
+               <constraintSpec ident="term_check" scheme="schematron">
+                  <constraint>
+                     <sch:rule context="tei:term[@type='genre']">
+                        <sch:assert test="matches(@subtype, 'essay|novel|theatre|letters|philosophy|mixed|fable|mysticism|dictionary|medicine|law|poetry|travel|theology|shortStories|economics|epic|history|tale')"
+                           >Only this value are accepted: essay|novel|theatre|letters|philosophy|mixed|fable|mysticism|dictionary|medicine|law|poetry|travel|theology|shortStories|economics|epic|history|tale.</sch:assert>
+                     </sch:rule>
+                     <sch:rule context="tei:term[@type='form']">
+                        <sch:assert test="matches(@subtype, 'prose|verse|mixed')"
+                           >Only this value are accepted: prose|verse|mixed.</sch:assert>
+                     </sch:rule>
+                     <sch:rule context="tei:term[@type='subgenre']">
+                        <sch:assert test="matches(@subtype, 'tragedy|comedy|tragicomedy|sermon|epistolary|x')"
+                           >Only this value are accepted: tragedy|comedy|tragicomedy|sermon|epistolary|x</sch:assert>
+                     </sch:rule>
+                     <sch:rule context="tei:term[@type='reg']">
+                        <sch:assert test="matches(@subtype, 'yes|no')"
+                           >Only this value are accepted:yes|no</sch:assert>
+                     </sch:rule>
+                  </constraint>
+               </constraintSpec>
+               <attList>
+                  <attDef ident="type" mode="change">
+                     <valList type="closed" mode="replace">
+                        <valItem ident="genre"/>
+                        <valItem ident="subgenre"/>
+                        <valItem ident="form"/>
+                        <valItem ident="reg"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="subtype" mode="change">
+                     <valList type="closed" mode="replace">
+                        <!-- GENRE -->                        
+                        <valItem ident="dictionary"/>
+                        <valItem ident="essay"/>
+                        <valItem ident="economics"/>
+                        <valItem ident="epic"/>
+                        <valItem ident="fable"/>
+                        <valItem ident="history"/>
+                        <valItem ident="law"/>
+                        <valItem ident="letters"/>
+                        <valItem ident="medicine"/>
+                        <valItem ident="mixed"/>
+                        <valItem ident="mysticism"/>
+                        <valItem ident="novel"/>
+                        <valItem ident="philosophy"/>
+                        <valItem ident="poetry"/>
+                        <valItem ident="shortStories"/>
+                        <valItem ident="theology"/>
+                        <valItem ident="theatre"/>
+                        <valItem ident="travel"/>
+                        <valItem ident="poetry"/>
+                        <valItem ident="tale"/>
+                        <!-- SUBGENRE -->
+                        <valItem ident="comedy"/>
+                        <valItem ident="tragedy"/>
+                        <valItem ident="tragicomedy"/>
+                        <valItem ident="sermon"/>
+                        <valItem ident="epistolary"/>
+                        <valItem ident="x"/>
+                        <!-- FORM -->
+                        <valItem ident="prose"/>
+                        <valItem ident="verse"/>
+                        <!-- REG -->
+                        <valItem ident="yes"/>
+                        <valItem ident="no"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="bibl" mode="change">
+               <content>
+                  <sequence preserveOrder="true">
+                     <elementRef key="ref"  minOccurs="1" maxOccurs="3"/>
+                     <elementRef key="title" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="author" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="publisher" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="pubPlace" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="date" minOccurs="1" maxOccurs="unbounded"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            
+            <!-- class -->
+            
+            <classSpec ident="att.global.responsibility" type="atts" mode="delete"/>
+            <classSpec ident="att.global.analytic" type="atts" mode="delete"/>   
+            <classSpec ident="att.global.facs" type="atts" mode="delete"/>   
+            <classSpec ident="att.global.change" type="atts" mode="delete"/>   
+            <classSpec ident="att.global.source" type="atts" mode="delete"/>   
+            <classSpec ident="att.global.linking" type="atts" mode="delete"/>   
+            <classSpec ident="att.datable.iso" type="atts" mode="delete"/>  
+            <classSpec ident="att.datable.custom" type="atts" mode="delete"/>  
+            <classSpec ident="att.naming" type="atts" mode="delete"/> 
+            <classSpec ident="att.ranging" type="atts" mode="delete"/> 
+            <classSpec ident="att.canonical" type="atts" mode="delete"/>
+            <classSpec ident="att.scoping" type="atts" mode="delete"/>   
+            <classSpec ident="att.written" type="atts" mode="delete"/>
+            <classSpec ident="att.sortable" type="atts" mode="delete"/>
+            <classSpec ident="att.cReferencing" type="atts" mode="delete"/>
+            <classSpec ident="att.editLike" type="atts" mode="delete"/>
+            <classSpec ident="att.translatable" type="atts" mode="delete"/>
+            <classSpec ident="att.global.rendition" type="atts" mode="delete"/>
+            <classSpec ident="att.dimensions" type="atts" mode="delete"/>
+            <classSpec ident="att.declaring" type="atts" mode="delete"/>
+            
+            <classSpec ident="att.global" type="atts" mode="change">
+               <attList>
+                  <attDef ident="xml:lang" mode="delete"/>
+                  <attDef ident="xml:base" mode="delete"/>
+                  <attDef ident="xml:space" mode="delete"/>
+               </attList>
+            </classSpec>
+            
+            <classSpec ident="att.pointing" type="atts" mode="change">
+               <attList>
+                  <attDef ident="targetLang" mode="delete"/>
+                  <attDef ident="evaluate" mode="delete"/>
+               </attList>
+            </classSpec>
+            
+            <classSpec ident="att.datable.w3c" type="atts" mode="change">
+               <attList>
+                  <attDef ident="notBefore" mode="delete"/>
+                  <attDef ident="notAfter" mode="delete"/>
+                  <attDef ident="xml:space" mode="delete"/>
+               </attList>
+            </classSpec>
+            
+            <classSpec ident="att.datable" type="atts" mode="change">
+               <attList>
+                  <attDef ident="calendar" mode="delete"/>
+                  <attDef ident="period" mode="delete"/>
+               </attList>
+            </classSpec>
+            
+         </schemaSpec>
+      </body>
+   </text>
+</TEI>
