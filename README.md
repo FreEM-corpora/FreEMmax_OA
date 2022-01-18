@@ -57,7 +57,7 @@ A list of the files is available [here](https://github.com/FreEM-corpora/FreEMma
 This corpus is the open access version of the FreEM max corpus. Some (important) corpora are withdrawn from the available data.
 
 ## Licences
-Cannot be distributed because of copyright reasons. Licences are given for each file. Some files should be removed, especially `EE_oldSpelling.xml` (_Electronic Enlightenment_ corpus, https://www.e-enlightenment.com/)
+Licences vary from one file and one project to another. Please pay attention to the `<licence>` element in the `<teiHeader>`.
 
 ## Cite this repository
 Simon Gabay, Alexandre Bartz, Philippe, Gambette, Alix Chagué, _FreEM max OA: A Large Corpus for Early modern French - Open access version_, Genève: Université de Genève, 2020, [https://github.com/FreEM-corpora/FreEMmax_OA](https://github.com/FreEM-corpora/FreEMmax_OA).
