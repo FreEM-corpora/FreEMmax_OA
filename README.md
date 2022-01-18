@@ -60,7 +60,7 @@ This corpus is the open access version of the FreEM max corpus. Some (important)
 Licences vary from one file and one project to another. Please pay attention to the `<licence>` element in the `<teiHeader>`.
 
 ## Cite this repository
-Simon Gabay, Alexandre Bartz, Philippe, Gambette, Alix Chagué, _FreEM max OA: A Large Corpus for Early modern French - Open access version_, Genève: Université de Genève, 2020, [https://github.com/FreEM-corpora/FreEMmax_OA](https://github.com/FreEM-corpora/FreEMmax_OA).
+Simon Gabay, Alexandre Bartz, Philippe, Gambette, Alix Chagué, _FreEM max OA: A Large Corpus for Early modern French - Open Access Version_, Genève: Université de Genève, 2020, [https://github.com/FreEM-corpora/FreEMmax_OA](https://github.com/FreEM-corpora/FreEMmax_OA).
 
 Please keep me posted if you use this data! simon.gabay[at]unige.ch
 
