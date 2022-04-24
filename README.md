@@ -1,5 +1,7 @@
 # FreEM max OA
 
+[![DOI](https://zenodo.org/badge/449033005.svg)](https://zenodo.org/badge/latestdoi/449033005)
+
 A Large Corpus for Early modern French - open access
 
 For more information about FreEM corpora, cf. our [website](https://freem-corpora.github.io).
@@ -60,9 +62,42 @@ This corpus is the open access version of the FreEM max corpus. Some (important)
 Licences vary from one file and one project to another. Please pay attention to the `<licence>` element in the `<teiHeader>`.
 
 ## Cite this repository
-Simon Gabay, Alexandre Bartz, Philippe, Gambette, Alix Chagué, _FreEM max OA: A Large Corpus for Early modern French - Open Access Version_, Genève: Université de Genève, 2020, [https://github.com/FreEM-corpora/FreEMmax_OA](https://github.com/FreEM-corpora/FreEMmax_OA).
 
-Please keep me posted if you use this data! simon.gabay[at]unige.ch
+```bibtex
+@software{gabay_simon_2022_6481135,
+  author       = {Gabay, Simon and
+                  Bartz, Alexandre and
+                  Gambette, Philippe and
+                  Chagué, Alix},
+  title        = {{FreEM-corpora/FreEMmax\_OA: FreEM max OA: A Large
+                   Corpus for Early modern French - Open access
+                   version}},
+  month        = apr,
+  year         = 2022,
+  note         = {If you use this software, please cite it as below.},
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.6481135},
+  url          = {https://doi.org/10.5281/zenodo.6481135}
+}
+```
+```bibtex
+@inproceedings{gabay:hal-03596653,
+  TITLE = {{From FreEM to D'AlemBERT}},
+  AUTHOR = {Gabay, Simon and Ortiz Suarez, Pedro and Bartz, Alexandre and Chagu{\'e}, Alix and Bawden, Rachel and Gambette, Philippe and Sagot, Beno{\^i}t},
+  URL = {https://hal.inria.fr/hal-03596653},
+  NOTE = {8 pages, 2 figures, 4 tables},
+  BOOKTITLE = {{Proceedings of the 13th Language Resources and Evaluation Conference}},
+  ADDRESS = {Marseille, France},
+  ORGANIZATION = {{European Language Resources Association}},
+  YEAR = {2022},
+  MONTH = Jun,
+  HAL_ID = {hal-03596653},
+  HAL_VERSION = {v1},
+}
+```
+
+Please keep me posted if you use this data!
 
 ## Contact
 simon.gabay[at]unige.ch
